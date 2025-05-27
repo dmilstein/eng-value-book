@@ -10,11 +10,16 @@ aka, when I'm in the shell
 CLOSED: [2025-05-27 Tue 07:30]
 *** DONE git repo init w/ gitdir outside of dropbox
 CLOSED: [2025-05-27 Tue 07:32]
-*** TODO make list of tech invest book org files in org-roam/
-*** TODO cp all those over
+*** DONE make list of tech invest book org files in org-roam/
+CLOSED: [2025-05-27 Tue 07:36]
+*** DONE cp all those over
+CLOSED: [2025-05-27 Tue 07:37]
+*** DONE sync them + verify it works
+CLOSED: [2025-05-27 Tue 07:40]
 *** TODO git add them all
 *** TODO Add a tibook anchor file
 *** TODO Decide: where are my todos
 *** TODO Add a new capture template pointing there
 *** TODO Update Key Tasks to look in there?
 *** TODO rm all the files I moved, then git rm them
+for f in `cat tmp-org-files.txt` ; do echo rm $f ; done
