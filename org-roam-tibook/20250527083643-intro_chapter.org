@@ -1,0 +1,144 @@
+:PROPERTIES:
+:ID:       47FF75F6-17DB-4E36-950D-F7CFAFA950EA
+:END:
+#+title: Intro Chapter
+#+filetags: :Chapter:
+* Outline from ToC
+** Stakeholders Scream About Features, the Team Screams About Tech Debt: The Joy of Engineering Leadership
+# Statement of empathy, touching on a bunch of the human experience + potential failure modes.
+** Why the "Tech Debt" Metaphor Has Become Limiting
+# Sketch in the key problems (focus on "bad code", offers nothing positive to your product or stakeholder peers, don't go too deep on moral vs economic)
+** A Better Way: Technical Investments
+# Give the definition
+** The Fundamental Cycle
+# Basically just name each of these, will go deeper in later chapter.
+
+# Emphasize that you do this over and over, deliberately starting with small scale, and gradually "levering up" to larger investments.
+*** Find things engineers are *worried about*
+*** Convert each into a statement of *potential value*
+*** Select the highest value option, based on what is *currently known*
+*** *Build visibility* into current state
+# In a way which will show the improvement, if/when you make it
+*** Identify a *small increment* that will improve things and/or create more visibility
+*** Share visibility with stakeholders to *motivate investment*
+*** Offer an *incremental option* to stakeholder, get buy-in
+*** Do The Thing
+*** Celebrate improvements via *story-telling*
+*** Return to Step 1, with more *capital and trust*
+** What If My Stakeholders Don't Care About Engineering?
+** What If My Engineers Don't Care About the Business?
+# Aka, what if my very senior engineer just wants to rewrite everything?
+** What's Coming In the Rest of the Book
+
+
+* Writing the Thing
+** Stakeholders Scream About Features, the Team Screams About Tech Debt: The Joy of Engineering Leadership
+# What does it mean to be an engineering leader?
+
+# Fundamentally, it means being pulled in two different directions at once.
+
+Stop me if you've heard this one before.
+
+At this very moment, your stakeholders--the product team, executives at your company, operational users--are urgently demanding that your team deliver an ambitious set of *features*, absolutely as soon as possible.
+
+Those stakeholders are certain that if the features aren't shipped right away, the business is going to suffer, and badly.
+
+At the very same time, the engineers *on* your team are demanding that you carve out time, *now and not later*, to deal with a teetering pile of tech debt.
+
+The engineers are equally certain that, if they don't have a chance to clean up some of the buggy, insecure, utterly inscrutable legacy code, the business is going to suffer, and badly.
+
+# So, what do you do?
+
+First, I have some bad news.
+
+For all their hysterical urgency, the stakeholders are usually representing genuine needs of the business.
+
+# "are not totally wrong"?
+
+A lot of opportunities *are* time-sensitve -- not having the new features shipped in time for a scheduled launch or an upcoming peak season will represent a big, visible missed opportunity.
+
+# [One of the features of getting into leadership is often getting a clearer picture of those opportunities, *and* the expectations around them]
+
+Except people in the business don't call it a "visible missed opportunity".
+
+They call it a failure.
+
+More specifically, since you're the engineering leader, they call it *your* failure (being in charge means failures are your fault! Like, that's literally and precisely what it means!).
+
+# You have the potential for failure hanging over you, all the time.
+
+But, wait, I have *more* bad news.
+
+The engineers who want to slow down and deal with tech debt... *also* aren't wrong.
+
+If you simply sprint to build the features that stakeholders demand, you're going to end up with a system that fails in some very exciting way at the worst possible time -- maybe suffering a spectacular outage just as the peak season starts; or maybe having a security breach that very badly damages customer trust; or maybe just having the overall system become so difficult to safely change that the pace of delivery grinds to a halt.
+
+All of those are *also* your potential failures.
+
+This doesn't even speak about the trust and respect of your engineers -- which you need to maintain to be effective.
+
+# And of course, you can also feel the trust that your engineers have in you eroding over time, as they see you not use your authority to advocate for the crucial technical work.
+
+So, what do you do?
+
+I have an answer.
+
+** Um, Who Are You, Exactly?
+
+Hi, my name is Dan!
+
+For the last 30 years, I've worked in various combinations of engineering and product -- I love both discplines, and value both super highly.
+
+I've worked as an IC principal engineer building and operating complex systems; I've led product at startups desperately trying to find traction; I've managed engineering teams ranging in size from 2 to 500.
+
+Across all those jobs, this tradeoff was absolutely fundamental.
+
+In wrestling with it, I've tried a lot of things, and failed a bunch of times.
+
+In the midst of all that, I gradually found patterns that work.
+
+I then gradually found ways to scale those patterns up, so they can be used across an overall org.
+
+This book is sharing what I have learned.
+
+** This challenge is absolutely central to leading engineering teams.
+
+Fortunately, there's a way to approach this challenge so that, over time, you gradually bring those two sides together.
+
+so that you are *leading a collaborative discussion about how best to spend your team's time*.
+
+And do so in a way which:
+
+ - Builds trust with your stakeholders
+
+ - Creates ownership and agency for your engineers
+
+ - Visibly improves your systems
+
+ - While steering clear of the terrifying fire swamp of the ground-up rewrite
+
+This book is about how to apply this approach.
+
+The first step is to stop talking about technical debt.
+
+** Why the "Tech Debt" Metaphor Has Become Limiting
+** A Better Way: Technical Investments
+** The Fundamental Cycle
+# Basically just name each of these, will go deeper in later chapter.
+
+# Emphasize that you do this over and over, deliberately starting with small scale, and gradually "levering up" to larger investments.
+*** Find things engineers are *worried about*
+*** Convert each into a statement of *potential value*
+*** Select the highest value option, based on what is *currently known*
+*** *Build visibility* into current state
+# In a way which will show the improvement, if/when you make it
+*** Identify a *small increment* that will improve things and/or create more visibility
+*** Share visibility with stakeholders to *motivate investment*
+*** Offer an *incremental option* to stakeholder, get buy-in
+*** Do The Thing
+*** Celebrate improvements via *story-telling*
+*** Return to Step 1, with more *capital and trust*
+** What If My Stakeholders Don't Care About Engineering?
+** What If My Engineers Don't Care About the Business?
+# Aka, what if my very senior engineer just wants to rewrite everything?
+** What's Coming In the Rest of the Book
