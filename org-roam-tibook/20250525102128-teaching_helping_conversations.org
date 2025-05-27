@@ -45,7 +45,6 @@ I'm... not sure. Those have less in the way of direct actions and more in the wa
 
 They are appendix-like, and that's okay.
 
-
 * What Have I Already Taught?
 
 I mean, I've taught the living hell out of the fundamental cycle + advocating with stakeholders. Like a *looooot*.
@@ -54,13 +53,45 @@ Less so w/ the scaling up parts, around cadence of decisions/scopes/post-mortems
 
 Def try that out w/ Satoe
 
-* Who could I teach that last part to?
-** Satoe
-** Gabby?
-** Lilli
-** Ask TD
-** Eric Lundin?
-** Sam Adelman
-** Tom Hare
-** Tasneem?
-** Kinan?
+* Potential Act 2 Coaching
+ - [X] Satoe
+ - [ ] Kinan (is he managing? I think, yes)
+ - [ ] Dani (Bennett's wife)
+ - [ ] Eric Lundin
+ - [ ] Tasneem
+ - [ ] Gabby
+ - [ ] Lilli
+ - [ ] Sam Adelman
+ - [ ] Tom Hare
+* Template <2025-05-27 Tue>
+Subject: A Thing I'm Looking to Learn
+Dear <Person>,
+
+tl;dr - I'm working on a book called "Tech Investments, Not Tech Debt".
+
+If you have time, I'd love to talk with you about how you face the challenge of ensuring engineers are able to spend time keeping their systems healthy (vs just endlessly churning out features).
+
+This could be lunch, or coffee (I have time to get myself places to, *gasp*, meet in person these days) or a zoom.
+
+Oh, and if we haven't talked about it recently, I define "technical investments" as:
+
+/"Something that the engineers believe is *valuable for the business*, but that *no one is asking for*."/
+
+Within that broad theme, I'd be happy to cover whatever is useful to you.
+
+That said, I'm particularly interested in spending time on what I'll call "organization-level challenges", e.g.:
+
+ - Getting stakeholders into a habit of repeatedly prioritizing tech investments (vs seeing each as a one-time only painful cost to pay)
+
+ - Using post-mortems to help motivate technical investments
+
+ - Assigning ownership of parts of your codebase in a way that allows for steady technical investments in key areas
+
+ - Tactics for different scopes of investment: On the Side, A Ticket, A Within-Team Project, A Cross-Team Initiative, A Durable Team
+
+ - Weaving tech investments into the career ladder
+
+In each of the above areas, I've got some approaches I've seen work, I'd be curious to talk those out and see if they could apply in your world.
+
+Thanks,
+D
