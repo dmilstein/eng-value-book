@@ -1,0 +1,37 @@
+:PROPERTIES:
+:ID:       72DCBC9C-C4D0-43FD-8CAD-F58302285461
+:END:
+#+title: Tech Debt Sub-Posts
+#+filetags: :BlogPost:
+
+A part of the work on [[id:0DF854F9-29C7-4E07-B4C6-D8215976C253][Tech Debt & Tech Investments]].
+
+* Sub Post Topics
+
+** [[id:6D87D2DF-8394-4734-9850-E10CFBBD3190][Tech Investments: A Worked Example]]
+
+** Tech Investments: [[id:DD6654A5-D28B-4FCA-BA2B-4867C1BE47E4][An Enlightened Notion of Value]]
+
+** Tech Investments: How to Advocate Effectively
+
+** Tech Investments: Incrementalism or Your Fired
+
+** Tech Investments: Build Visibility First (or First, Build Visibility)
+
+** Tech Investment: 3 Scopes - Ticket, Project, Team
+Or:
+ - On the Side
+ - A Ticket
+ - A (Team) Project
+ - A (Cross-Team) Initiative or Tiger Team
+ - A Durable Team
+
+** Tech Investments: Good Post-Mortems Enable Good Tech Investments
+
+** Tech Investments: Their Role in the Career Ladder
+
+** Tech Investments: What If My {PM, Stakeholder, CEO} Doesn't Care?
+
+** Tech Investments: What If My Engineers Don't Care About Value?
+
+** Tech Investments: The Moral Frame In Detail

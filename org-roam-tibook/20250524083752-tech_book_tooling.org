@@ -1,0 +1,38 @@
+:PROPERTIES:
+:ID:       49435FCD-0590-44DE-8FC7-585E7BCC8BB2
+:END:
+#+title: Tech Book Tooling
+For the [[id:5FAA80B0-D16C-424E-BF2F-1C5C45415618][Tech Investment Book]], notes on tooling.
+
+Robfitz's tool to gather feedback write better books
+
+https://helpthisbook.com/
+
+Costs $30/month, but I think that's very much likely worth it, once I have something for which I want feedback
+
+* [[id:17305FA7-A43F-40C9-9309-0EF3577C70D0][Author Platform]] Tools
+
+** Medium
+I have... 5 email subscribers. I can potentially try to get more. But, hmm.
+
+And it says: NOTE: Email addresses are no longer shared with writers when readers subscribe to receive email notifications about stories from a writer. Writers can continue to export their existing email lists.
+
+So that sounds like a bit old no.
+
+** What is the RSS story?
+
+** Comparisons
+
+*** [[https://memberful.com/blog/substack-vs-medium/][Medium vs Substack: A comparison of two popular publishing platforms]]
+
+"Medium provides a streamlined experience for writers to publish articles and reach a built-in audience, while Substack empowers writers to take control of their content and develop a direct relationship with their readers."
+
+"From monetization opportunities to audience ownership, Substack allows writers to take charge of their creative journey and build a sustainable career. In contrast, Medium, which was launched in 2012, has been a pioneer in the content creation space, offering a platform for writers to share their work with a built-in audience."
+
+
+
+
+*** [[https://medium.com/new-writers-welcome/medium-vs-substack-the-value-of-trying-for-yourself-77e33641b38f][Medium vs. Substack — What I’ve Learned from Writing on Both]]
+
+***
+https://www.reddit.com/r/writing/comments/16ba9fl/thoughts_on_medium_vs_substack/

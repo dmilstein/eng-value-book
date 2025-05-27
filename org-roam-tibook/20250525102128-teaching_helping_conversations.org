@@ -1,0 +1,66 @@
+:PROPERTIES:
+:ID:       49E66E86-CE83-447E-87C2-3BFF3D8FE42E
+:END:
+#+title: Teaching/Helping Conversations
+
+For [[id:5FAA80B0-D16C-424E-BF2F-1C5C45415618][Tech Investment Book]], notes and ideas for testing the ToC and learning structure by way of teaching/helping/coaching conversations.
+
+* Note to Edmund
+Subject: Teachable Chunks + What Have I Already Taught
+E,
+
+Hope you're enjoying playing along in the game of "Uh Oh, Dan Doesn't Have a *Job* So All He Is Apparently Going To Do Is Write Things Out and Harass Edmund With Them"
+
+As the ToC is coming into focus, I'm thinking about how test it, as he says, via teaching/coaching sessions.
+
+To that end, I've done two things:
+
+ 1- Broken up the overall thing into a few chunks, each of which I could reasonably work on with someone in the span of 1-2 hours
+
+ For each, I'm trying to ask: what *actions* would I want to see someone take after, to see if they've been able to get real value from the ideas?
+
+ 2 Also asked myself: is this a thing I've already taught enough, that I can start writing with some confidence that people can act on and get real value from what I'm offering?
+
+Below are my raw org notes, a reasonable summary is: out of three chunks, I think I've already taught two of them enough to get started.
+
+I'm also attaching the latest ToC, which has some minor tweaks and updates (and makes more clear that the intro is just a single chapter).
+
+* Teachable Chunks / Sections
+
+** Chunk 1: Intro / Cycle Sketch / Build Viz / Value Examples / Small Increments
+
+Action to take is have started to socialize the frame of "tech investments" + make a list of potential value with associated ideas for viz + developed some ideas for creative small increments
+
+** Chunk 2: Advocating w/ Stakeholders / Storytelling to Celebrate Wins
+
+Actions to take = have built empathy w/ stakeholders; have stopped trying bad things; have named future decision points with stakehoders; have started to work on metrics; have experimented w/ using storytelling structures.
+
+
+** Chunk 3: Steady Habit of Decisons / 5 Scopes / Post-Mortems / Tech Stewardship
+
+Actions = have used/put in place any of the above.
+
+** (Advanced Topics)
+I'm... not sure. Those have less in the way of direct actions and more in the way of "This drew sparks, I've got something to think about in a new way"
+
+They are appendix-like, and that's okay.
+
+
+* What Have I Already Taught?
+
+I mean, I've taught the living hell out of the fundamental cycle + advocating with stakeholders. Like a *looooot*.
+
+Less so w/ the scaling up parts, around cadence of decisions/scopes/post-mortems/tech stewardship.
+
+Def try that out w/ Satoe
+
+* Who could I teach that last part to?
+** Satoe
+** Gabby?
+** Lilli
+** Ask TD
+** Eric Lundin?
+** Sam Adelman
+** Tom Hare
+** Tasneem?
+** Kinan?

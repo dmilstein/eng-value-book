@@ -1,0 +1,32 @@
+:PROPERTIES:
+:ID:       ED4A78E3-802B-481D-B79B-605885C192F8
+:END:
+#+title: Listening/Understanding Conversations
+Working on [[id:5FAA80B0-D16C-424E-BF2F-1C5C45415618][Tech Investment Book]].
+
+This is from [[id:27BF5BDA-3A83-49FA-A73F-9BA26EF096B9][Write Useful Books]].
+
+* Message to EWJ <2025-05-22 Thu>
+Subject: Another "Write Useful Books" Question
+
+E-
+
+He proposes basically two kinds of early research:
+
+ - Listening/Understanding Conversations, to verify and improve your scope, and increase reader empathy
+
+ - Teaching/helping Conversations -- to iterate on ToC as a educational framework
+
+I have an instinct, which is that I can actually almost entirely skip the first kind of conversation, and just get to work on the second.
+
+Of course, that's a dangerous thing to believe as a product/book developer, so I wanted to invite you to challenge me on it.
+
+But, as per the scope I just sent you, I have, like, twenty years of experience of engineering leaders feeling a desperate, urgent sense of confusion about how to prioritize work on "tech debt", and I also have many many years of experience actually working closely with such leaders and coaching them on *exactly* that challenge (so it's not like I've just done this on my own and have no empathy for the early learner).
+
+E.g. the email I got back from Satoe (when I shared an earlier draft, before I realized I wanted to write a book), was filled with all caps things like "OMG YES" and "IF YOU COULD FIX THIS IT WOULD BE AMAZING".
+
+Also, the teaching/helping convos would naturally include some validation of the scope -- it just wouldn't be the only/main focus of them.
+
+Want to shoot down my unfounded optimism here?
+
+D

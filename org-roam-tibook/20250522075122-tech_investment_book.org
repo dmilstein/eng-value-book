@@ -1,0 +1,16 @@
+:PROPERTIES:
+:ID:       5FAA80B0-D16C-424E-BF2F-1C5C45415618
+:END:
+#+title: Tech Investment Book
+
+Applying ideas from [[id:27BF5BDA-3A83-49FA-A73F-9BA26EF096B9][Write Useful Books]] to move from a blog post to a series of blog posts, to an *actual book*.
+
+I have possible [[id:EFCE67BB-7CC9-4142-AD65-132ECB4F9172][Tech Investment Titles]].
+
+I've got a ton of prose in [[id:0DF854F9-29C7-4E07-B4C6-D8215976C253][Tech Debt & Tech Investments]]
+
+Some thinking about a [[id:B4926308-39DD-471B-8E71-5FFF7546D6E3][Tech Investment ToC]] in [[id:72DCBC9C-C4D0-43FD-8CAD-F58302285461][Tech Debt Sub-Posts]].
+
+For now: I'm going to mostly keep my todos in the project file, for the friendliness to my org agenda views (though I could certainly change that, and start scattering todos everywhere?).
+
+Need to do some thinking about [[id:A247B941-A558-4E35-9305-30DFBE0FC516][Book Scope]]

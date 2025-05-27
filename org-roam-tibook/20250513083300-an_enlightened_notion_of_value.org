@@ -1,0 +1,666 @@
+:PROPERTIES:
+:ID:       DD6654A5-D28B-4FCA-BA2B-4867C1BE47E4
+:END:
+#+title: An Enlightened Notion of Value
+#+filetags: :BlogPost:
+* An Enlightened Notion of Value
+** Intro
+I believe that, in order to work effectively with [[id:0DF854F9-29C7-4E07-B4C6-D8215976C253][technical investments]], engineering leaders must develop a nuanced understanding of how value is created in a business.
+
+Why do I believe this?
+
+Engineers can, by the work they do, make their overall company either more or less valuable.
+
+The potential increase in value is why they were hired -- their salaries represent an *investment* on the part of the business, made in the hopes of a positive return.
+
+Unfortunately, company executives often have a somewhat limited understanding of how their engineers can create value.
+
+This is especially true of various areas in which engineers wish to advocate for technical investments, e.g.:
+
+ - Cleaning up difficult-to-change code
+
+ - Improving tooling to test, integrate and deploy changes
+
+ - Instrumenting production systems with monitoring
+
+ - Retiring old infrastruture
+
+Engineers can not, in general, depend on stakeholders or product managers to understand how to convert problems in those areas into potentially valuable investment opportunities.
+
+Thus to support engineers in these conversations, we're going to spend some time unpacking the concept of "overall company value".
+
+Hidden within it we'll find the keys to successfully identifying and then advocating for a wide variety of technical investments -- and for understanding our work as engineers more broadly.
+
+Also: it's fun! It's maybe *especially* fun if you have an obsessive love for developing a valuable first-principles understanding of activities people are blindly doing all around you... say.
+
+** A Few Of My Favorite Misconceptions
+
+Before we dive in, let's list several things which are *not* good proxies for creating value:
+
+ - Cranking out new features as fast as possible
+
+ - Rapidly chewing through all the well-groomed tickets on a team's sprint board
+# Find Kellan quote about devolving to this?
+
+ - Living up to 'commitments' to delivery deadlines
+# Footnote, "What's that you say? I seem to hate the term 'commitments' so much I had to put it in scare quotes? I have no idea what you're talking about."
+
+ - Writing high-quality (or defect-free) code
+
+All of the above activities are *potentially valuable*... but, unfortunately, all of them are also *potentially damaging to value*.
+
+In order to distinguish between the two case, we have to dig deeper.
+
+# What's That You Say, You Want a Brief Detour Into Finance?
+# Finance Is An Equation Built On Top of a Dream [Fantasy]
+
+** Finance: Equations Built On Top of a Pile of Dreams
+
+We start by asking: what is the value of an *overall company*?
+
+We're positing that we were hired to increase that overall value -- *and* we believe we can't just blindly trust those above us to know all forms of value.
+
+Now, if you ask a person who works in or near finance, "How does one value a company?", odds are good that they'll light up.
+
+They'll start talking about streams of future profits, and then, before you know it, you'll find yourself neck-deep in all sorts of exciting, math-adjacent jargon about discounted cash flows, amortization schedules, the cost of capital, how to pronounce EBITDA, etc, etc.
+
+E.g. see HBS's [[https://online.hbs.edu/blog/post/how-to-value-a-company][How to Value a Company]] for not one, not two, but *six* different ways to calculate the value if a company.
+
+If you find yourself in one of these conversations, you might  think, "Oh, I get it! The overall value of a company is determined by an *equation*."
+
+But this is, well *wrong*, in a just enormously important way.
+
+All of the equations take, as inputs, as *assumptions*, a set of *guesses about the future*.
+
+The stream of future profits is the heart of any equation determining company value, and the exact nature of a stream of future profits is *always* guess.
+
+The equations are just a way to take a specific guess, and turn it into a number of dollars.
+
+When talking about streams of future profits, people in business don't like to use the word "guess". They'll talk instead about "forecasts" and "plans".
+
+# Footnote? (or even "commitments", if they're the kind of leaders who like to blame their team when their own guesses turn out to be wrong).
+
+But guesses and uncertainty are at the absolute core of how companies are valued.
+
+In the below, we'll use a slightly fancier word for a guess -- we'll call it a "probabilistic estimate".
+
+With that in hand, we can simplify all the fancy equations down to the following:
+
+*The value of a company is a probabilistic estimate of the future profits of the company.*
+
+That's it. That's what's all the models represent, at their heart.
+
+** What, Exactly, Is a "Probabilistic Estimate"?
+
+We could dig into the "future profits", and all the fun ways to precisely account for them.
+
+But instead we're going to focus on the nature of a "probabilistic estimate".
+
+That's where we're going to find our key.
+
+*** What, Exactly, Do We Mean By "Probability"
+
+Crucially, the concept of "probability" is used in two related but subtly different ways.
+
+Sometimes, it's used to describe something which is  "inherently unknowable", e.g.: rolling a die.
+
+We call any single die roll a "random event".
+
+All we can possibly say--all *anyone* can possibly say--is that each side is equally likely to turn up.
+
+In this "inherently unknowable" case, a probability estimate is a fundamental statement about the world.
+
+But at other times, the word "probability" is used to describe something which is potentially knowable, but is *currently unknown*.
+
+Here an example might be: guessing a target person's height.
+
+If the guesser knows nothing whatsoever about the target (as in, they can't even *see* them), then their best option is:
+
+Guess the average human height (taken over, say, every human on earth).
+
+However, in principle, there's no reason the person doing the guessing *couldn't* know more. Even potentially a *lot* more.
+
+ - They could know where the target person was born
+
+   The distribution of heights are quite different in different parts of the world.
+
+ - The could know the target person's age
+
+   The distribution of heights is very different for 3 year olds than for 30 year olds.
+
+ - They could even be looking at a photograph of the target person standing in front of a ruler
+
+   This might feel like it's no longer a "guess" -- but there's nothing inherently impossible in this.
+
+In each case, they would have more information, and could therefore make a more accurate, tighter probabilistic estimate.
+
+In this way of understanding "probability", a probabilistic estimate is a statement of *knowledge* by some specific person, not a statement of *inherent variation* in the world.
+
+Such a probablistic estimate encodes a person having *some* information -- but not enough to always get the right answer.
+
+*** Um, What Person Is Doing The Knowing and The Guessing?
+
+If the value of a company is a probabilistic estimate of future profits...
+
+...and a probabilistic estimate is a statement of knowledge about the world...
+
+...and more specifically, a statement of one person's knowledge about the world...
+
+... then *whose knowledge* are we talking about?
+
+This is really important.
+
+Different humans have different levels of knowledge, aka, different amounts of information.
+
+For our enlightened notion of value, we're going to *invent* someone: an economically rational investor.
+
+# Hat tip / footnote for Reinertsen
+
+This imagined person possesses two kinds of knowledge:
+
+ - Information known by "everyone"
+
+   This can include both facts (e.g. your company sells a product to large municipalities), and also probabilities (e.g. the frequency at which software companies that sell to large municipalities suffer security breaches).
+
+ - Information known "inside the company"
+
+   This can include both simple facts (e.g. the results of beta testing a new street sweeper product offering) and also probabilities (e.g. the frequency of downtime for a feed of key data about parking violations).
+
+From the perspective of an engineer working at a company, the overall value of that company is best understood as:
+
+ - A probabilistic estimate of future profits...
+
+ - made by an economically rational investor...
+
+ - based on what is currently known...
+
+ - both inside and outside the company.
+
+Believe it or not, that statement, with its obsessively precise statements of knowledge, information and probability, holds the key.
+
+With it in hand, we're ready to start marching through different kinds of potential value -- and we'll find several where the engineers are perfectly placed to observe the potential for value, and therefore, perfectly placed to advocate for investment.
+
+** Value Type #1: Increase (Estimate of) Future Revenue
+
+This tends ot be the first thing people think of, if asked about how to increase future profits.
+
+A common example is: develop a new product and acquire evidence that customers will pay for it.
+
+Notice that the *evidence* is going to be needed to persuade the rational investor to change their estimate of future revenue. Being economically rational means they need *some* form of evidence to adjust their beliefs.
+
+And remember: company value *is* that investor's estimate.
+
+Thus, the evidence is *necessary* to make the company more valuable.
+
+In fact, it is the evidence that *makes* the company more valuable.
+
+** Value Along the Path
+
+Armed with this careful definition of estimates, information and value, we can find points along the path, from idea to delivery, where overall company value increases, thanks to the actions of employees.
+
+ - At the start, the product and marketing teams have brainstormed a list of five possible "problems to solve" for their current customers.
+
+   A rational investor would estimate a pretty modest increase in future revenue and profit in this state. Maybe one of those five ideas is worth something, so they might estimate a 20% chance of a small increase.
+
+ - The product and marketing teams then take the five "problems to solve" to customers, and identify the one that is the biggest pain point.
+
+   The rational investor's estimate of future revenue thanks to this project now goes up by (at least) 5x -- because the company has evidence that, *if* they can solve this one specific problem out of the five, customers will care.
+
+   But the rational investor has been burned in the past! They still consider the likelihood of the company actually figuring out *how* to solve the problem for customers as fairly low.
+
+ - The product and design teams now build 3 different visual mockups of potential product solutions. They conduct customer interviews around the set. One of the designs turns out to fit into the workflows customers already has, when they encounter this problem.
+
+   The rational investor now values the company a good bit higher -- there is more evidence that they might be able to actually solve this problem.
+
+   But, being rational, they still think there's some real risk that the company will fail to *build* this product they've dreamed up -- maybe it depends on data they can't obtain, or requires a set of technical capabilities that they're missing on their team.
+
+ - The product and engineering teams develop an early, throwaway prototype that allows the engineering team to decompose the overall challenge into three separate seemingly tractable sub-problems.
+
+   The rational investor will, of course, value the company even higher now that some of the risks of building have been cleared up.
+
+ - As the very earliest version comes into focus, the sales team locks in early adopter customers, who promise to both pay and use the product the moment its ready
+
+   The rational investor loves the evidence of customers promising to pay money, and will ratchet up their estimate even further.
+
+** We're Talking Real Value & Real Money Here
+It's crucially important that you don't read the preceding series of events as, like, a bunch of "nice to have moments", and it's only when the money starts to come in that value is created.
+
+I'd be happy to show you startups that took in money at incredibly high valuations, based on evidence early in that path.
+
+E.g. startups who have identified a pain point, and are mobilizing to build solutions, but haven't done so yet.
+
+Or, startups that had a collection of mockups and some very excited customers.
+
+Or startups that had a pile of early beta code, but no revenue yet.
+
+The evidence at each stage *makes the company more valuable*, full stop.
+
+** Notice: Each Step Depends on Previous One
+** Decrease (Estimate of) Future Costs
+
+Replace an expensive operation (maybe, video transcoding) with something that saves a lot of money per transaction.
+
+Show evidence of this to investor.
+
+# Maybe: Dan Luu Twitter kernel team.
+
+Tech Investmentss: these can definitely happen, but be a bit careful about going on intuitive engineer feelings on this one.
+
+Need to be sure the company (and rational investor), would want to pay the opportunity cost of the team working on this vs something that unlocks more growth, and that the payoff comes in time.
+
+If engineers are totally certain that this would save a lot of money, but have literally no way to show that... challenge them to build visibility first.
+
+** Reduce Risk of Bad Things Happening
+
+Investor is aware of, and pricing in to their estimate of value, various kinds of rare but bad events, e.g.:
+
+ - Catastrophic data loss
+
+ - Security breaches
+
+ - System Outages
+
+Tech Investments: all right! A bunch here.
+
+Is that hairy old code impossible to upgrade to new libraries, and thus accumulating security risks?
+
+Does the core feature of the site store its data in a bunch of tables that are accessed by so many different processes, you're constantly flirting with accidental deletions?
+
+Have you had a series of outages in the last year, all driven by failures in a caching layer that you're pushing to its limits, and without which, customers can't log in?
+
+If the engineers have *feelings* about these potential risks, but no one will listen, you may want to start by finding ways to make the risks more visible.
+
+Conduct a formal (or informal!) security audit, maybe turn that into a score.
+
+Run a recovery from a data checkpoint, time it and measure the amount of data lost between the checkpoint and the current time.
+
+Collect notes from your post-mortems, and make a case for retiring your riskiest infrastructure.
+
+Business people aren't (in general) irrational, they just have their own weights on things they really want.
+
+If you can create visibility, so that the company has a shared understanding of a current state of risk, and then you can have an excellent conversation.
+
+** Gain Valuable Information
+
+Remember, our rational investor only knows what we know. And that's true both of things which are unknowable (e.g. dice rolls), but also of things which are potentially knowable (e.g. customer preferences).
+
+E.g. considering two potential product investments, can only afford to build one at a time. Each will take the better part of a year to deliver.
+
+Let's say the best estimate, given current knowledge, is that one is likely good and one is likely bad, but we don't know which is which.
+
+(If this seems unuseful because it's artificially precise, stick with me, we'll return to that below).
+
+Gain information = increase in value. Increase in likelihood of future profits.
+
+This is actual value. Someone would pay more for the company, if they knew it.
+
+Engineers have tons of creative ways to gain valuable information -- both about the risks and costs of failures, but also...
+
+So, there's a continuum of sorts:
+
+ - Talking with customers (gain some info)
+ - Build prototypes, observe customers using them (gain more)
+ - Rough in Beta Versions, see if early adopters will buy
+ - Work with early adopters, improve
+ - Launch V1
+ - Iterate and improve
+
+At each step in the above, you're gradually increasing the likelihood of future profits, by a mix of gaining information (aka, what to build next), and building things that people have a demonstrated likelihood to pay for.
+
+The entire cycle of development is best understood as hypothesis -> build -> observe -> learn.
+
+Going through that cycle once creates value by increasing likelihood of future profits.
+
+Teams that generate a lot of value go through that cycle over and over. Which brings us to our last form of value.
+
+** Old: Creating Value by Reducing Uncertainty
+
+Now, what if there's *uncertainty*?
+
+To make it concrete, imagine that the company is deciding between two potential product investments. And imagine, further, that one will lead to growth, the other to stasis, *but no one knows which is which*.
+
+In that state of perfectly balanced uncertainty, the rational investor would weight the outcomes 50/50 -- so the value of the company would be a blend of the good and bad outcomes.
+
+Now, imagine that the engineers and product managers and marketers at that company do some chunk of work which allows them to identify which product investment will lead to growth, and which will lead to stasis.
+
+After that information has been acquired by the company, a rational investor would immediately pay much more for the company -- because the likelihood of the positive outcome has just skyrocketed.
+
+And therefore, the company value has increased.
+
+Those engineers and product managers and marketers have created all that value.
+
+And, they've done so, even if they haven't yet built the product.
+
+In states of uncertainty, acquiring information *creates value*.
+
+
+The efforts of engineers can potentially *increase that value*.
+
+(Note, if you ever find yourself trapped in a conversation about "productivity", remember that value is what engineers are actually getting paid to produce -- not code, not features, but *value*. If the people you're talking with can't connect the actions of engineers to value, then, um, walk away?)
+
+There are some obvious ways to do that, e.g. by building a new product that customers will pay for, thus increasing the current year revenue, and thus the discounted future cash flows.
+
+But a truly enlightened notion of value captures much more.
+
+For example, imagine a SaaS business that has a single mature product, which earns it a healthy subscription revenue of $10 million / year. Imagine that a rational investor might pay $40 million for such a business (valuing it at 4x revenues).
+
+(A single investor doesn't usually put up $40M, but this is precisely the value that is determined when companies raise money, or when stock trades hands on a public market)
+
+That is the overall value we're talking about.
+
+So we have a company that is valued at $40 million dollars.
+
+What if the following were true:
+
+ - The business stores critical compliance data for its customers -- and customers depend on that data to prepare for high stakes audits, which can occur at any time
+
+ - The compliance data for all customers is stored in a single monolithic PostgreSQL instance
+
+ - The team does not back that instance up
+
+Forget for a second how terrible this engineering team is, to have no backups.
+
+Ask instead: if a rational investor were to learn this, how might it change how they'd value the business?
+
+They'd say: this company is operating in a state of extreme risk. There's a real chance they lose a great deal of customers data.
+
+An investor isn't going to pay the full $40 million to take on that risk.
+
+Say that the investor would value the company at $10M, as a result.
+
+If the engineers at that company, put in place a demonstrably reliable system of backing up and restoring the key data... it would increase the value of the company by $30 million dollars.
+
+How's that for productivity, bitches?
+
+Of course, those risks aren't always visible.
+
+
+Understanding all the ways value is created is the work of a lifetime, so I'll just mention a couple of places to start.
+
+ - *Being able to frequently and quickly deploy small batches of code to production is /extremely/ valuable.*
+
+   Go read [[https://itrevolution.com/product/accelerate/][Accelerate]] by Nicole Forsgren, Jez Humble, and Gene Kim to see some top notch research on this very topic.
+
+   Then, start measuring your deploy frequency and latency, and, maybe like, leave a copy of Accelerate on your PM's desk.
+
+ - *Going through the overall learning loop faster is extremely valuable.*
+
+   If you can come to understand the act of value creation as being, at its heart, cycling through an iterative learning loop, there are many technical investments to *reduce latency*
+
+   See Edmund Jorgensen's excellent blog post [[https://www.tomheon.com/2019/03/12/speeding-up-your-engineering-org-part-i-beyond-the-cost-center-mentality/][Speeding Up Your Engineering Org, Part I: Beyond the Cost Center Mentality]].
+
+   People who have worked with me at more than one job like to joke about how many times I have made them read this.
+
+ - *Reducing the likelihood of Bad Things happening is extremely valuable.*
+
+   E.g. if your system has an 80% chance of collapsing during your upcoming peak season, your PM is going to be hella ready to invest in improving scalability.
+
+   They won't see that as "reducing technical debt", they'll see it as "ensuring they keep their job".
+
+   Ditto for being able to pass a security audit, or being able to restore the database after an exciting data corruption event, or saying yes when the sales team asks if they can close an enterprise deal representing 10x the volume of your current largest customer, etc, etc.
+
+   Pro tip: building up a practice of [[https://www.slideshare.net/slideshow/how-to-run-a-postmortem-with-humans-not-robots-velocity-2013/23253966][thorough, blameless post-mortems]] is extremely helpful in gathering evidence of how to prevent future Bad Things. Invite your PM or stakeholders to the post-mortems. Make sure they understand what you all learn. This can completely transform the conversation around technical investments.
+
+ - *Lack of knowledge is a business problem in and of itself*
+
+   If the engineering team *doesn't know* how the system will respond to the upcoming peak season, you can create real value by gaining information about that -- because that information will allow your overall business to make a better decision.
+
+   For more on the value of information, see my talk [[https://www.youtube.com/watch?v=Tzg94CPeetc][Risk, Information, Time & Money (In 20 Minutes)]].
+
+ - *Enabling multiple teams to work in parallel is extremely valuable to a business*
+
+   As Kellan Elliot-McCrea says in On Sizing Your Engineering Organizations
+ https://kellanem.com/notes/on-team-size "Coordination swamps all other costs in the development of software."
+
+   Sometimes, the engineers see a way to establish technical boundaries that reduce the communication costs between teams.
+
+   E.g. maybe that means inserting an API in some arcane legacy system, so that, over the next several months, the teams can implement the two sides of a new system in separate parts of your code base.
+
+   I've had really good luck with setting up durable, domain-aligned teams that each own coherent chunks of code. Running that game plan requires steady technical investments to make that team structure possible.
+
+If you want to really geek out on understanding all the ways technical investments can create value, I encourage you to read Don Reinertsen's Principles of Product Development Flow -- it's a bit like learning Maxwell's Equations and then trying to repair your radio.
+
+** Increase *Rate* of Information Gain - aka Reduce Latency
+
+Link to Edmund
+
+Also to Accelerate.
+
+Also to Kellan's modern software engineering is shipping small things and constantly measuring. (I might say "observing").
+
+Tech Investments: now we are, indeed, talking. Do you
+
+* Scraps
+
+** Productivity
+Note that I'm not talking about *productivity*, but rather *value*. Talking about engineer productivity is a trap, don't do it. Talk about their velocity (through a loop of learning) is useful.
+
+** Non-profit
+(similar things apply to non-profit or government work, but we'll just focus on profit-seeking businesses for now).
+
+** Both improving future and improving understanding matter
+Our actions can both improve the actual future profits, *and* improve our understanding of the likelihood of those future profits. Both ways "count" for increasing value.
+
+** Details on DCF
+
+If you work at a company that is publicly traded, you can answer this question with a specific dollar figure: the value of the company is its current market capitalization.
+
+That's what the wisdom of crowds says that the overall company is *worth* -- aka, it's overall value (technically you might want to factor in debt as well as equity, but we'll ignore that for now).
+
+Or, if you work at a startup that has recently raised a round of funding from investors, you can *also* answer with a specific dollar figure: the overall company is worth what those investors *valued your company at*, when they purchased a slice of it.
+
+E.g. if the company raised $10M at a $40M valuation, then actual people with a lot of actual money put $10M of that money on the line based on a belief that the company is *worth at least $40M*.
+
+Okay, so that's a pair of ways to answer "What is this specific company worth?"
+
+But we need more than just *numbers* -- we need an understanding of where those numbers *come from*, so that we can understand how our actions might influence them.
+
+In short, we need a *model*.
+
+One of the most common models for valuing a company is in terms of its "Discounted Cash Flows".
+
+Cash Flows = in a given time period, the amount of money coming *into* a business minus the amount going *out*.
+
+It is, as its name says, a measure of *cash*, not revenue or expenses.
+
+Cash flow is closely related to profits, but puts more focus on liquidity (that said, for today's discussion, you can certainly think about cash flow as a form of profits).
+
+Discounted = you have to adjust the future cash flows, because they represent a "promise" of future money and such a promise is less valuable than having money in hand, *right now*.
+
+E.g. a promise of $1,000 one year from now not worth as much as having $1,000 in hand, right now.
+
+There are a few reasons for this, one straightforward one is that if you had $1,000 in hand today, you could *invest it*, and turn it into more than $1,000 by a year from now.
+
+Discounting makes that more precise, and, given some assumptions, allows you to calculate the "net present value" of a future stream of cash flows.
+
+Thus: discounted cash flow calculates the net present value of expected future cash flows.
+
+(See HBS's [[https://online.hbs.edu/blog/post/how-to-value-a-company][How to Value a Company]] for more)
+
+** Knowldege Is ~Power~ Value
+
+Okay, then, how do "encoded statements of knowledge" turn into company value?
+
+The conversion from an estimate to value happens in the context of a *decision*.
+
+Imagine that someone is making a binary, yes/no decision.
+
+There's are "better" and "worse" sides of this decision:
+
+If they pick the "better" side, they earn $5, if they pick the "worse", they earn $1.
+
+If they have no extra information, their best bet is to pick at random. If they make a series of such decisions then, *on average*, they'll make $3 each time (half the time $5, half the time $1).
+
+On the other hand, if they had "perfect" information, so they can *always* pick the better answer, then they'll make $5 every single time.
+
+A probabilistic estimate falls somewhere between these two extremes. It represents "partial" information -- knowing enough to do better than a fully random choice, but not enough to get it right every time.
+
+A "good" probabilistic estimate is one where, over the course of using it to make a series of such decisions, one earns more money than by random choice.
+
+** Okay, Let's Play the Game
+
+e're going to imagine a pair of simple businesses.
+
+The first business, Company A, is simple.
+
+Customers pay a dollar, the company flips a coin, if it's heads the customer gets $1.90 back, if it's tails, the customer gets nothing.
+
+As long as it's a fair coin, we can reason about the profits from these bets as follows.
+
+Each bet with a customer earns the business, *on average*, $.05 in profits:
+
+Half the time the compay makes $1.00, half the time they *lose* $0.90 (because they give back the $1 the customer gave them, plus another $.90 of their own money).
+
+On average that's: ($1.00 - $.90) / 2 = $.05.
+
+If the business runs 10,000 such bets a day, we can't know the result of any one coin flip ahead of time, nor can we know exactly how many times the company will "win". But we *can* make a probabilistic estimate of their *average* profits from those 10,000 bets, each day: $500.00 (= $10,000 * .05)
+
+So, each week, they're producing $3,500 in profits, again on average.
+
+We can then feed that estimate of future profits into the accounting equations, and arrive at an overall value for the company.
+
+(we can also predict that this company will end up buying advertisements on every square inch of Your Favorite Sports Team's broadcasts, but that's another story)
+
+But in this thought experiment, the number of customers is completely fixed, and subject to no variation.
+
+The key to Company A's example is that the result of any one coin flip is not just unknown "ahead of time", it's *fundamentally unknowable*.
+
+If the coin is truly fair, we can say nothing more than that odds are 50/50.
+
+In that case a probabilistic estimate is a statement not merely about current knowledge, but about the world itself.
+
+But that's not the only way to use a probabilistic estimate.
+
+Consider Company B, which runs a slightly more complex business.
+
+They compete in a treasure hunting game, run once a week by an eccentric billionaire.
+
+(that used to be more fun to write, so maybe we should specify "an eccentric, and yet humane and ethical billionaire", but then, how did they get a billion dollars oh man, what a mess, let's just carry on).
+
+The eccentric billionaire has a lot with 10 identical warehouses in it.
+
+Every week, he hides $100,000 in one of the warehouses.
+
+Company B, in order to participate in each week's treasure hunt, has to pay an entry fee of $7,000.
+
+They get to pick one warehouse and open it up. If they find the money, they keep all of it. If they don't, they're welcome to try again the following week (at which point, they'll have to pony up another $7,000).
+
+(Either way, the billionaire cackles in glee -- maybe they're broadcasting this and making money off it?)
+
+What does a probablistic estimate of Company B's profits look like?
+
+Well, based on what we know, they have a 1 in 10 chance of finding the right warehouse.
+
+Therefore they'll earn 1/10 * 100,000 = $10,000, each week on average.
+
+Of course, they have to pay $7,000 to enter, so we expect them to make an average weekly profit of $3,000.
+
+We can, again, feed that weekly profit stream into our accounting equations, and, lo and behold, we've got a value for Company B (which, note, is lower than Company A, which is brining in $3,500 in profits each week, on average).
+
+# An investor would be willing to buy a share in the company valuing it at X.
+
+But there's something profoundly different about this second example.
+
+In our story so far, Company B doesn't know which warehouse the money is in... but that doesn't mean there's *no way to know it*.
+
+This is profoundly different than a coin flip, which, as above, we consider fundamentally unknowable.
+
+Let's say Company B buys a bunch of fancy forensics gear -- microscopes, heat sensors, you name it. They carry those into the treasure hunt each week, and use them to eliminate a set of warehouses that have clearly not been opened recently.
+
+Say that allows them to successfully eliminate half of the warehouses, every single week.
+
+Now what's our estimate of their weekly profits?
+
+1/5 * 100,000 = $20,000, each week on average. Less the $7,000 entry feel and they're clearing a cool $13,000 in expected profits each week.
+
+They should be willing to pay a great deal of money for that forensics gear!
+
+They've made their company worth a huge amount more. They've increased it's value.
+
+
+We're going to put future events into one of three categories:
+
+ - Known
+
+ - Unknowable
+
+ - Knowable But Current Unknown
+
+** Old Notes
+# Maybe -- could dig into profits, but ignore for a second. Just treat as "difference between what customers pay and what it costs us to serve them"
+
+"What, If Anything Is a Rabbit?"
+
+Known / Unknown / Unknowable
+
+Unknowable: Rolling dice with a payoff (e.g. you run a casino?)
+
+Unknown: You take one of 3 boxes from a warehouse, and then sell everything in that box.
+
+First one: there is no further information in the world. The rational investor just weights it all equally.
+
+Second one: if you don't know what's in the boxes, weight them all equally. However, it is possible to learn.
+
+So a "probabilistic estimate" is a mix of a statement about the world, with a statement about the current knowledge of whoever is making the estimate.
+
+That's what probability *is*: given what I currently know, what are the likelihoods of various outcomes?
+
+** Wait, Who Is Making This Probabilistic Estimate?
+Stock market? CEO? VC's.
+
+Invent someone: economically rational investor.
+
+Knows everything we currently know, nothing that we don't.
+
+Weights external events (e.g. a security breach) based on something rational (e.g. industry rates).
+
+Will allow us to reason about value, day-to-day.
+** Okay Then, Engineers Should Influence Future Profits?
+
+No!
+
+Engineers should influence the *estimate* of future profits.
+
+** What?
+
+Risk and uncertainty are so central, we can't just brush them aside.
+
+# Another way to put that is: the *likelihood* of future profits -- but the estimate is a centrally important way to understand that likelihood.
+
+We all operate with imperfect knowledge of the future.
+
+The value of a company is *always* some form of probabilistic estimate about that future.
+
+If we're increasing value, we're increasing that *estimate*.
+
+You might well be wondering here: um, who exactly is making this estimate?
+
+We're going to invent someone: *the economically rational investor*.
+
+We imagine someone who would potentially buy our overall company, at a price derived from a *rational estimate* of our future profits. Such a rational estimate will be based on *all currently known information*.
+
+Thus is a subtle concept -- it means that nothing is being hidden from the investor, but not that they have god-like knowledge. We'll return to that below.
+
+In any event, as we think about creating value for our company, we'll ask ourselves: would an economically rational investor increase or decrease their estimate of our future profits, based on what we just did?
+
+This is the key question, that will ultimately unlock everything.
+
+These concepts are stolen^H^H^H adapted from Don Reinertsen's The Principles of Product Development Flow (a book which legit changed my life), wherein he defines "value-add" as: /"The value added by an activity is the difference in price that an economically rational buyer would pay for a work product before, and after, the activity is performed."/
+
+** Estimates & Guesses Are at the Heart of Value
+
+If, based on current knowledge, a rational investor would believe the business is likely to grow quickly, they would therefore guess that the future cash flows will be greater than they are right now. So the overall company value will be high.
+
+Conversely if, again, based on current knowledge, there's some looming risk that could cause the company to suffer a shrinking of their cash flows, a rational investor would set a lower overall value for the company value.
+
+** Creating Value by Reducing Risks
+
+** Creating Value by Decreasing Time to Cash Flows
+
+** Creating Value by Decreasing Future Costs
+
+** Creating Value by Increasing Future Cash Flows
+** Tech investments in the area of "Increase Revenue"
+Tech Investments: these are rare as pure tech investments. Engineers may very well have (excellent!) ideas for new products, but advocating for those is usually stepping into an existing conversation with the product team, and the means for advocating for them are a bit different.
+
+That said, it can be useful to fully understand this, to help, e.g. both motivate and guide a group of engineers who are building a "rough prototype".

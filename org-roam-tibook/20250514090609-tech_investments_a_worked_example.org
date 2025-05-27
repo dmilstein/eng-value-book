@@ -1,0 +1,204 @@
+:PROPERTIES:
+:ID:       6D87D2DF-8394-4734-9850-E10CFBBD3190
+:END:
+#+title: Tech Investments: A Worked Example
+A part of the work on [[id:0DF854F9-29C7-4E07-B4C6-D8215976C253][Tech Debt & Tech Investments]]
+
+
+* Tech Investments: A Worked Example
+
+In my earlier post ([[id:0DF854F9-29C7-4E07-B4C6-D8215976C253][Prefer "Tech Investments" to "Tech Debt"]]), I recommended moving away from the metaphor of "tech debt", and instead challenging engineers to look for "technical investments".
+
+Today, I'm going to work through an example of what it looks like to identify, advocate for and then incrementally execute on a technical investment.
+
+** The Setup, aka, Stop Me If You've Heard This One Before
+
+You work at a business that, as part of its operations, runs a nightly ingest of data from your customers.
+
+Unfortunately, the ingest code was written by a team of contractors in the early days of the company, before there was a full engineering team.
+
+Furthermore, because customers are, well, *customers*, that code has gradually accumulated a series of horrifying hacks -- e.g. in order to close the company's first Enterprise deal someone hard-coded deliberately incorrect timezone parsing logic to fix errors in that Very Special Customer's exports (when people wander into that secton of the code, they shrink back in horror).
+
+No one on the engineering team fully understands the ingest pipeline.
+
+What's more, it has a nasty habit of falling over partway through its run. When that happens, the first engineer to start work in the morning discovers it died overnight. They then have to urgently scrambles to triage the problem and get the pipeline going again, in hopes of having up-to-date data in time for their customers' start of business.
+
+** Let's Talk Tech Debt!
+
+Now, if you were to ask the engineering team that is resposible for this pipeline about "tech debt", what might they say?
+
+Obviously, that entire pipeline is a massive piece of tech debt.
+
+And thus, it's time to rewrite it!
+
+Any engineer even vaguely worth their salt will get excited at the prospect -- they can finally work with a modern language, maybe this is their chance to use that powerful new data processing framework they've been reading about!
+
+Sidebar: you should of course approach such rewrites with a +great deal of care+ *abject terror*; if you do end up embarking on one, please read [[https://www.onstartups.com/tabid/3339/bid/97052/How-To-Survive-a-Ground-Up-Rewrite-Without-Losing-Your-Sanity.aspx][How To Survive a Ground-Up Rewrite Without Losing Your Sanity]].
+
+In general, as per my previous post, this is a perfect example of why I recommend against using the frame of "technical debt" -- full rewrites should be an option of absolute last resort, not the first thing the team thinks of.
+
+** Okay Then, Let's Talk Tech Investments!
+
+What if, instead you ask that same team about potential "technical investments" in this area?
+
+As a reminder, that means you're asking them:
+
+/What might be *valuable for the business*, but is something no one is asking for?/
+
+Well, first off, the engineers are going to have to ask themselves: *what is the potential value for the business*?
+
+Note: from the story sketched in above, *you don't know the answer to this question*.
+
+The ingest pipeline is clearly "bad" (by almost any definition of bad), and that badness seems to be causing a variety of problems... but which of those problems *matter to the business*?
+
+To determine that, the engineers and/or you and/or *someone* will have to talk to some people.
+
+"Talking to people" is a key step for identifying potential technical investments.
+
+(Thus, ideally, you want to draw your product manager in, so that that you can leverage their super power of talking to people -- more on how to do so in [[id:E116AF57-B9D8-43CD-9E9C-E060049D0074][What If My PM Doesn't Care?]]).
+
+Okay, so, what people might you need to talk to, in this particular case?
+
+Any/all of: the engineering manager on the team; the product manager on the team; the customer support desk; the customer success team; the sales team.
+
+Continuing with our scenario, let's say that you have done that talking. You discover that the repeated ingest failures are causing two distinct problems:
+
+ - *1) The constant need to restart the pipeline is distracting the engineering team.*
+
+   Which is leading to a sluggish pace of delivery, which has been noticed by both the engineering manager.
+
+ - *2) The stale data has started to frustrate customers, many of whom start their day by viewing reports in your product.*
+
+   The help desk has been hearing more and more complaints. Customer success leads are finding customers bringing it up during quarterly reviews.
+
+That is a fairly clean pair of *business* problems to solve.
+
+You may or may not (yet) have precise measurements for these issues, but they are things people across the business can understand.
+
+You've gone from a moral judgment on the code ("It is bad"), to a pair of *visible economic outcomes* (engineers are moving slowly on planned work; and customers are getting unhappy).
+
+The next step is going to be to develop some incremental options for investment.
+
+But, before we move onto that, let's just touch on...
+
+** Some Other Forms of Value
+
+To practice playing the technical investments game, here are some other forms of value that might have emerged, from Talking to People:
+
+ - *Bugs are creeping into the ingested data, which is damaging customer trust.*
+
+   But because the ingest code is so arcane, no one is able to diagnose and fix them.
+
+ - *The customer support team is handling a painfully large volume of data accuracy tickets.*
+
+   And because they have no visibility into the ingest pipeline, each such ticket takes a lot of time to resolve.
+
+   And getting more leverage from the customer support team (to reduce costs), is a key company objective.
+
+ - *The product team wants to build new features that depend on extracting new kinds of data from the files.*
+
+   But it's too hard to safely change the pipeline, so they're blocked.
+
+ - *The company needs to pass an upcoming security audit.*
+
+    But the ingest code has wide-open permissions to every database under the sun, *and* is using out of date libraries.
+
+We could play this game all day!
+
+Sidebar: I will bet all the dollars that someone reading this right now is nodding, and saying "In my case, it's not just one of those things, it's all of the above! This is why we have to rewrite the whole pipeline! It'll have such a giant payoff!"
+
+Um...
+
+That is a super, super, *super* dangerous way to think.
+
+When you're identifying and getting ready to advocate for a technical investment, you really want to find 1 or 2 core problems you're aiming to put at the very top of your list.
+
+Not only does this make your advocacy more effective, but, crucially, it gives you an agreed-upon-with-the-rest-of-the-business *means to make tradeoff calls* as you go.
+
+There is just no way on earth that a rewrite will magically make Everything Better.
+
+You need a prioritization framework for your *new* investment... not just reasons to demonize the terrible existing system.
+
+"Everything is terrible thus we should just rewrite it all" is going to lead you into a world of tears and pain, like every single time (again, see some of stories in [[https://www.onstartups.com/tabid/3339/bid/97052/How-To-Survive-a-Ground-Up-Rewrite-Without-Losing-Your-Sanity.aspx][How To Survive a Ground-Up Rewrite Without Losing Your Sanity]]).
+
+Okay, I'll get off my soapbox now. (Or, I guess, back on my other soapbox? It's... possible I have a wide array of soapboxes. Onward.)
+
+** Developing Increments of Potential Investment
+
+In our scenario, we've identified two distinct business problems driven by the repeated pipeline failures:
+
+ - There's a rising tide of complaints from customers about the stale data issues
+
+ - The engineering team is being slowed down by the urgent work to restart the pipeline
+
+Note that the first one is "naturally visible" to the rest of the business, whereas the second one is not -- engineering teams *always* seem slow to the rest of the business, this won't stand out.
+
+Now, imagine that the engineering team has a conversation about patterns they've noticed in the failures.
+
+It turns out that they resolve most of the failures by simply restarting the whole pipeline -- they estimate that works around 80% of the time.
+
+The remaining failures are much more complex -- addressing those requires digging through the logs, reading bits of legacy code, pulling down one of a few hundred per-customer config files. These are long, painful debugging sessions, and only the most senior engineer on the team has much of a chance of making progress.
+
+Now, given the above, your challenge is to come up with good *initial increments* you can propose to your business partners.
+
+As in, not the grand end state vision of "better", but something concrete you could propose, to get started.
+
+What might that be?
+
+One option is that, given the above, the team could propose a pair of investments:
+
+ 1) First, an engineer will write a quick and dirty bash script to watch the pipeline process and restart it once on failure
+
+    To do this, they will need to get into the terrifying legacy code to adjust the exit code it returns on failure. The team estimates that that plus a quick bash script will take 2-3 days of work for one engineer.
+
+    Note this is one of the cases where you're proposing writing *new crappy code*.
+
+    You're not reducing tech debt, but my goodnes are you creating value. In just 2-3 days of engineering work, you have a shot at eliminating ~80% of the customer-visible problems, *and* remove a big chunk of reactive work from the team's plate.
+
+    Now, you might be saying: "Shouldn't the PM should be the one proposing this?" I mean, sure in theory. But there are just a ton of cases like this one, where the PM either doesn't fully realize the scope of the problem, or doesn't realize that there are creatively scrappy options to improve things.
+
+    Again, a tech investment is "Something the engineers believe is valuable to the business, but which no one is asking for."
+
+    In this case, they might be asking because they don't even realize there *are* any good options.
+
+    But, wait, there's more!
+
+ 2) Second, the engineers will create a new tag in their ticket system, for debugging complex pipeline failures. For the next two sprints, they will manually log how much time they spend on these issues.
+
+    This is an extremely useful technique for making technical investments -- *start by building visibility*.
+
+    Right now, the time spent on debugging these issues is *invisible* to PM's and stakeholders.
+
+    It's typically a modest initial investment to create some visibility.
+
+    If, after a few sprints, you're all looking at evidence that the most experienced engineers on the team are spending almost half their time sorting through these bugs... it's going to be pretty easy to convince most PM's to make some incremental investments to reduce that load.
+
+    This is such a useful technique, I've written an entire post on [[id:6479FAAA-BBF8-4738-8E75-257687CDFE9A][First, Build Visibility]].
+
+** Advocating
+
+With all of the above work, the conversation with a product manager or stakeholder should be, well, pretty straightforward.
+
+The work to reduce the customer-facing issues has an immediate payoff and a carefully defined scope. Unless you've badly misunderstood the impact of those unhappy customers, this should be a pretty easy sell. (and if you have badly misunderstood the impact of those unhappy customers, you're now learning something very valuable, indeed).
+
+The work to create visibility into how much time the team is spending on the complex issues is a very light initial ask. But, by making that ask explicit, you're signaling to your business partner that the engineering team thinks this is a real opportunity for improvement. That sets you up for a good conversation and decision later, once you've gathered information.
+
+** Lather, Rinse, Repeat
+
+Then, you continue working in a steady, incremental fashion, sprint after sprint.
+
+Clean up small problems, create visibility into the scope of big ones, gradually develop options to attack the big ones. And around and around.
+
+The other alternative is to bargain for a single "big" chunk of time from your business counterparts, where they "pause" their other demands.
+
+I've tried both methods, and that latter one is just super tough to make work. Not only do you rarely get as much win as you hope, but the rest of the business then feels a sort of pent up demand, so it's very hard to negotiate anything for a while.
+
+Whereas, if you can find a way to proceed incrementally, I've seen over and over the PM's and stakeholders gradually come to better understand the concerns of the engineers. They come to see those as genuine problems for the business.
+
+And then you can tackle those problems truly together.
+
+** Does This Mean We Never Rewrite Anything?
+
+Not exactly, no. Believe it or not, the "start logging time in the ticket system" can actually be step one in a long, careful process that ultimately results in replacing an entire such horrifying legacy system.
+
+Again, see [[https://www.onstartups.com/tabid/3339/bid/97052/How-To-Survive-a-Ground-Up-Rewrite-Without-Losing-Your-Sanity.aspx][How To Survive a Ground-Up Rewrite Without Losing Your Sanity]] for how to move down that road.

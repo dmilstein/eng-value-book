@@ -1,0 +1,133 @@
+:PROPERTIES:
+:ID:       A247B941-A558-4E35-9305-30DFBE0FC516
+:END:
+#+title: Book Scope
+
+Working on robfitz's idea of "scope" for [[id:5FAA80B0-D16C-424E-BF2F-1C5C45415618][Tech Investment Book]]
+
+* Email to EWJ <2025-05-22 Thu>
+
+Subject: "Scope" For Book, If You're Interested
+
+E-
+
+I spent a bit of time this morning exploring the idea of a "scope" for this book, as per ideas in robfitz' book.
+
+I'm going to share that with you, in part as just a bit of accountability, but also of course, very very happy to get any feedback from you on what I've put together.
+
+I'll paste in his definition of scope into this email, and then link you to a google doc where you can review + comment as you wish.
+
+As a reminder, here's his
+
+* Definition of Scope in [[id:27BF5BDA-3A83-49FA-A73F-9BA26EF096B9][Write Useful Books]]
+
+ - Promise
+
+ - Reader Profile
+
+ - Who It's Not For
+
+ - What It Won't Cover
+
+"What does my ideal reader already know and believe?"
+
+My take: it's a bit like a user story, ala "A person in role <x> will be able to take action <y> in order to accomplish outcome <z>.
+
+Key questions from robfitz:
+
+1. When someone decides to buy and read your book, what are they trying to achieve or accomplish with it? Why are they bothering? After finishing it, what's different in their life, work or worldview? That's your book's *promise*
+
+2. What does my ideal reader already know and believe? If they already believe in importance of the topic, can skip / hugely reduce sections trying to convince them. if they already know the basics, can skip those.
+
+3. Who is your book *not* for and what is *not* doing?
+
+
+* Bad Ideas for Scope and/or Questions About Scope
+
+** Promise
+
+They're trying to push back against the endless series of feature requests and actually fix some of the things in the code that they're worried about (so that future development is better than today's development and/or so that terrible things don't happen)
+
+They're trying to push back against the endless series of feature requests and carve out time to address some of the issues their engineers are complaining about (so that future development is better *and* so that they can maintain the respect of their team)
+
+They're trying to figure out when to push back on their team, so that they don't end up committing their own reputation to a massive rewrite that stalls out all development for months (The team urgently wants to clean up tech debt now, the PM wants to put it off as long as possible. The engineering leader is caught between the two, *and* has been burned in the past by some disaster rewrite projects)
+
+I'm gonna take a stab at shoving those three paragraphs into one:
+
+/It's for engineering leaders who are trying to push back on the endless stream of feature requests so that their team can actually fix the problems that matter in their systems -- and it offers a path that: builds trust with the product team; creates ownership and agency for the engineers; and steers clear of the terrifying fire swamp of the ground-up rewrite./
+
+Overall: this feels like a massive problem, it may be literally keeping them up at night. The book is a painkiller, not a vitamin, because the reader feels the intense discomfort of *personally disappointing* someone they work with, *all the time* -- either the PM because they push back, or their team, because they don't.
+
+After reading it, they have a gameplan for developing a collaborative relationship that allows them to get everyone to work together on what's most important.
+
+They'll be able to sleep better, express clean tradeoffs to the product team and offer ways for their most senior engineers to tackle some of the work they most want to do (and *also* have ways to push back on and ultimately remove from the team engineers who don't care about business value).
+
+** Reader Profile: What does my ideal reader already know and believe?
+
+My ideal readers are: engineering leaders who are responsible both for delivering requested features and *also* for the long-term health of their systems.
+
+"Leaders" can include both formal managers and also senior IC's -- though I expect the readership to skew towards the former.
+
+They already know:
+
+ - The constant discomfort of balancing near-term business outcomes against the long-term health of a system
+
+ - The risks of doing a major rewrite
+
+ - How agile works and why it's better than waterfall
+
+ - How to plan an epic, sprint, ticket
+
+ - How to work with a product team, in some form
+
+   They *don't* universally have a high functioning partnership with product -- in fact, many of them may operate pretty oppositionally with product (part of the promise is to help change that).
+
+   But they know who product managers *are*, and are used to working with them
+
+ - How software is built, tested and delivered
+
+ - How software is operated in production
+
+ - Why "bad" code makes it hard to quickly and safely change a system
+
+ - What "good design" is (can reference this without diving deep on defining it)
+
+ - How to lead/manage a team, aka, how to talk to their engineers
+
+ - Why the business wants the features they're being asked to build
+
+   To be clear: I *don't* think they usually understand the overall economics or strategy of their business -- and thus, they actually don't know how the requested features potentially create value.
+
+   But if you ask them "why are you building this", they generally have *some* answer.
+
+   I think.
+
+** Who It's *Not* For
+
+The product team.
+
+The CEO.
+
+Stakeholders in general.
+
+Engineers who have never had responsibility for tradeoffs between business goals and the long-term health of a system (this includes both most junior engineers but also some senior IC's who only ever work on densely technical problems)
+
+Seasoned engineering leaders who already have their own approach for balancing delivery with investment, and don't feel worried about that.
+
+Engineers and/or engineering leaders who don't care about business outcomes, and who link their self-worth to "writing high quality code".
+
+Project Management Offices (nor the misguided companies that allow such offices to control software development in basically any way).
+
+** What It Won't Cover
+
+How to build complex systems safely and incrementally.
+
+How to be a product manager or do the product function in general (it will reference a bit of this, but not teach it in any detail)
+
+How to do a thorough incremental rewrite of a complex system (it will reference this, but won't go any kind of deep on it).
+
+All the various ways to invest in speeding up a team's pace of learning (it will reference this, but won't be an exhaustive list).
+
+How to "do agile".
+
+The full economic model of value creation in Reinertsen (as in, it will give *some* understanding of how value is actually created, but won't get *fully* into queues, batch size, cadenced decision making, etc).

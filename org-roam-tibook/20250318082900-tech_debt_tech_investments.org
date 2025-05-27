@@ -1,0 +1,488 @@
+:PROPERTIES:
+:ID:       0DF854F9-29C7-4E07-B4C6-D8215976C253
+:END:
+#+title: Tech Debt & Tech Investments
+#+filetags: :BlogPost:
+
+One in a series of [[id:ED09E2FA-B0FD-4308-878C-2267CF23FFDC][Blog Posts]]
+
+* Titles
+"Technical Investments", Not "Technical Debt"
+
+"Technical Debt" -> "Technical Investments"
+
+Prefer Technical Investments To Technical Debt
+
+Why I Prefer Technical Investments To Technical Debt
+
+Technical Investments Are Better Than Technical Debt
+
+Down With Technical Debt, Up With Technical Investments
+
+Technical Debt: No; Technical Investments: Yes
+
+Moving Beyond Tech Debt: Technical Investments
+
+Beyond Technical Debt: Technical Investments
+
+Moving Beyond Technical Debt To Technical Investments
+
+Forbidding Discussion of Tech Debt
+
+How To Manage Tech Debt
+
+Tips For Managing Tech Debt
+
+Technical Debt for Engineering Leaders
+
+* People I Could Share With
+ - [ ] Satoe ("who would you share with?")
+ - [ ] Edmund (again)
+ - [ ] Craig
+ - [ ] Herbst
+ - [ ] JBid
+ - [ ] Danni (Bennett's Danni)
+ - [ ] Dan (from Wayfair now at Devoted)
+ - [ ] Kris, Rob
+ - [ ] Sarah?
+
+* Possible Micro-Posts
+For some definition of Micro
+
+** Intro -> Y U No Tech Debt
+It Has Become a Moral Frame
+
+Maybe move /"Quality" is also verboten/ in here.
+
+** Defining "Tech Investments"
+Open it up, take my time. Maybe throw in a few examples? Maybe move the parts about how to execute on them *out* of this section.
+
+Decide: talk about incrementalism here? I... think, no.
+
+** An Enlightened Notion of Value
+Try out moving this up -- if I put a few examples in the definition section, so it doesn't feel totally abstract, and save the big "story example" for after.
+
+** Example: Identifying a Potential Tech Investment
+Around the ingest pipeline. Decide: keep the solutions here as well, or move Incremental Options to later.
+
+If I move them later, maybe end with a real dose of "Okay, we've identified a business problem, sync'd with our PM on this problem being important to solve, and have some basic visibility. Now... what?"
+
+Maybe have visibility for one (number of data tickets) but not the other (engineer distraction).
+
+** Incremental Or Your Fired
+The critical importance of offering incremental options for investment.
+
+Touch on economics, on option value, on risk, on gaining information.
+
+** Example: Incremental Pipeline Options
+
+** The Central Hack of My Career: Build Visibility First
+"This One Weird Trick"
+
+** Good Post-Mortems -> Good Tech Investments
+Put in some examples -- adding logging, retiring bad infra (e.g. Couchbase), adding monitoring, developing SLO's, etc.
+
+** What If My Engineers Don't Care?
+
+** What If My {PM, Stakeholder, CEO} Doesn't Care?
+
+* Note for Satoe
+Subject: Hey There + News + a Favor
+
+S-
+
+First off, hey there! Hope all is well. You... were going on a trip? To somewhere cool, like... New Zealand? Am I making that up? And were waiting to hear back from grad school, too, if I remember right. Where does all that stand?
+
+Second off, news from my end: I've left my job at Ellevation -- on very good terms with everyone there, I wish the company all the best. The full story is a good one for a lunch, but a reasonable summary is "I've been thinking for a while about taking a break to see if I can get my health to a better place, and some other things came up which made this seem like a good time to do that."
+
+(Speaking of which, because I do have more time now, I'm gonna try to, *gasp* actually see people in actual physical person, like it was 2013 or something. So if you want to have lunch sometime, I can get myself to your neck of the woods)
+
+Third off, I'm doing some writing about eng/product leadership.
+
+And this brings me to a potential favor. Can I ask you to read the attached draft, and offer feedback? In particular, I'd be curious about:
+
+ - What parts of it made sense/were compelling?
+
+ - What parts of it were confusing/ambiguous/less compelling?
+
+ - Who, if anyone, would you you want to share it with? And why?
+
+ - Which of the listed follow up posts at the end are you most curious to read?
+
+Thanks...
+D
+
+
+# Imagine that she's reached out, engineers on her team
+# are clamoring for her to commit more time to tackling tech
+# debt. Wants to know any tactics I've found useful for
+# that, carving out time from Product's requests for that work.
+
+* Prefer "Tech Investments" to "Tech Debt"
+
+** Intro
+
+Okay, so, here's a thing: I strongly recommend engineers avoid using the words "tech debt".
+
+I believe that, although "technical debt" started as an extremely useful metaphor about economic tradeoffs, it has, over time, devolved into a not-so-useful shorthand for *"bad" code*.
+
+As in, when engineers think, talk and argue about "tech debt", they're thinking, talking and arguing about: "the worst code in the codebases they are responsible for".
+
+And there are two reasons why I think such a frame is limiting and, ultimately, problematic.
+
+First, by focusing attention on *existing bad code*, those conversations miss a vast set of opportunties for improvements.
+
+Over and over in my career, I've seen engineers propose and then deliver incredibly valuable work... that involved writing, well, *new* bad code.
+
+Of course, they didn't usually call it "bad" code -- they called it "scrappy" or "pragmatic" code.
+
+Those opportunities just don't come up much, when you start the conversation by talking about "technical debt".
+
+# I could show you bash scripts that would make your eyes bleed, but that were just insanely valuable.
+
+E.g. the junior engineer who hacked something together over the weekend to log stack traces from failed deploys... which saved hours and hours of fruitless debugging and ultimately sped up deploys enormously.
+
+Or the senior engineer who bargained for enough time from their PM to jury-rig a hacky testing framework that stubbed out the entire OS layer... which allowed the team to finally write tests to cover the weird network errors that kept tripping them up.
+
+Or the engineer who threw together a UI to allow members of the ops team to clean up failed shipments, so that the engineers could stop spending all their time executing SQL queries against production.
+
+Note, carefully: none of the above efforts "retired tech debt" by any stretch of the imagination.
+
+The problems addressed -- opaque deploys, blind spots in testing, repetitive operational work -- aren't the kinds of things most engineers think of when you ask about "tech debt".
+
+Tech debt almost always makes engineers think about the existing code. But the above efforts helped deal with *gaps* that the engineers were painfully aware of.
+
+Crucially, those gaps represent *genuine problems* for their businesses:
+
+ - Slow deploy cycles are crippling to the pace of learning and delivery, which is central to how engineers create value
+
+ - The inability to catch key errors in testing injects all kinds of expensive drag into learning and delivering
+
+ - Distractions due to repetitive operational work is, you guessed it, yet another expensive drag on learning and delivering
+
+In other words, the above gaps aren't just "annoying" to the engineers, they are *expensive* for the business. Thus, dealing with them is a chance to *create value* for the business.
+
+I want my teams looking for such opportunities to create value, all the time.
+
+But they're not going to, if they're only thinking about "tech debt".
+
+So, that's the first reason.
+
+The second is a bit more subtle.
+
+A discussion of "bad" code can easily slip into a *moral* frame -- as in, it can trigger a part of the human mind that deals in absolutes of good and bad (aka good and evil).
+
+And that frame is very different from an *economic* one, which puts attention on options, tradeoffs and costs.
+
+See my talk [[https://www.youtube.com/watch?v=78qzrXIPn5Q][How to Run a 5 Whys (With Humans, Not Robots)]] for more on the moral vs economic mindsets (and also for a somewhat dramatically hilarious mustache I briefly adopted in late 2012).
+
+Unfortunately, that moral frame is a reliably terrible starting point for conversations with the Rest of the Business (e.g. PM's and stakeholders).
+
+Conversations starting from a moral frame are a) likely to be *unpleasant*, while also b) *unlikely* to generate a commitment to addressing the issues the engineers are concerned about.
+
+At their worst, such conversations leave both sides intensely frustrated.
+
+The engineers can feel like their business partners don't care about the horrible code they have to work with, nor the looming problems getting worse with every commit.
+
+Whereas their business partners can hear the engineers, *once again*, making urgent demands in service of some abstract notion of "quality". And the engineers seem just completely unaware of the pressing needs of the business, and how painful the tradeoffs would be, to immediately address those issues.
+
+What's going on, beneath the moralized emotions?
+
+Engineers often have a real pride in their work, and a real awareness of how much time is being lost by forcing the team to wade through the muck of a poorly structured and/or sloppily written codebase.
+
+Often, they're advocating for "cleaning up tech debt", because they want to solve real problems for the business, and they perceive that code as a problem for the business.
+
+PM's and stakeholders often have real pride in how they balance near-term vs long-term tradeoffs. If they push back, it's usually because they perceive something else as more valuable than whatever work the engineers are advocating for.
+
+If you look carefully at the above, you'll see that, in fact, both sides want the same thing:
+
+They both want to do what they believe is best for the business.
+
+They just have a different understanding of what that might be.
+
+And that is the heart of how to tackle these challenges.
+
+** Technical Investments, Not Technical Debt
+
+Instead of technical debt, I ask my teams to talk about *technical investments*, which I define as:
+
+/Something that the engineers believe is *valuable for the business*, but that *no one is asking for*./
+
+That focuses on the genuine problem: a *mismatch in understanding* between the engineers and their business or product counterparts, about what is potentially valuable for the business.
+
+It means the engineers have to be willing to *educate* their business peers -- and that those business peers have to be willing to listen (see both [[id:FCE0DDD7-3D5A-462E-B021-7F1D7F34B07D][How to Advocate for a Technical Investment]], and also [[id:E116AF57-B9D8-43CD-9E9C-E060049D0074][What If My {PM, Stakeholder, CEO} Doesn't Care?]]).
+
+If you *can* develop that collaborative relationship, you'll find that the frame of "value for the business" can cover both improving existing code, and also an array of other kinds of work e.g.:
+
+ - *Improvements in how code is built, tested, and deployed*
+
+   Value = the team can move and learn faster.
+
+ - *Improvements in how crucial data is backed up and restored*
+
+   Value = reduce the probability of (expensive!) data loss, and/or (expensive!) time spent painstakingly restoring lost data by hand.
+
+ - *Factoring out an internal API in some nasty legacy system*
+
+   Value = can parallelize work across two teams, by allowing them to proceed independently, on either side of the API.
+
+Etc, etc.
+
+Playing the technical investment game well requires engineers (and, especially, engineering leaders) to develop a deep and nuanced understanding of how engineers can create value for the businesses they operate within -- see [[id:DD6654A5-D28B-4FCA-BA2B-4867C1BE47E4][An Enlightened Notion of Value]].
+
+I'm so passionate about Tech Investments, I'm writing a series of blog posts on the topic:
+
+ - Tech Investments: A Worked Example
+
+ - Tech Investments: An Enlightened Notion of Value
+
+ - Tech Investments: How to Advocate Effectively
+
+ - Tech Investments: Incrementalism or Your Fired
+
+ - Tech Investments: Build Visibility First
+
+ - Tech Investments: The Importance of Good Post-Mortems
+
+ - Tech Investments: Their Role in the Career Ladder
+
+ - Tech Investments: What If My {PM, Stakeholder, CEO} Doesn't Care?
+
+ - Tech Investments: What If My Engineers Don't Care About Value?
+
+ - Tech Investments: The Moral Frame In Detail
+
+* Scraps
+
+** Identify/Advocate/Offer
+It also suggests the steps I actually want my teams to take:
+
+ - *Identify* opportunties to invest engineering effort in ways that could create value for the business
+
+ - *Advocate* for those investments to business partners (PM's, stakeholdesr) in terms those partners can understand
+
+ - *Offer incremental options* for executing on those investments
+
+This is such a core part of the work of engineering that, at Ellevation, we enshrined identifying, advocating for and overseeing incremental technical investments as the heart of one of our three engineering principles, "Technical Stewardship".
+
+** Def of Tech Investment
+Instead of "tech debt", I recommend asking your team to identify, advocate for and then incrementally execute on *technical investments*.
+
+Which I'll define as:
+
+"A technical investment: something which the *engineers* believe is *valuable for the business*, but which *no one else is asking for*."
+
+That neatly covers both classic cases of "tech debt" (e.g. the critical system which is very hard to safely change), but also speaks to other opportunities for investment (e.g. developing a suite of reusable test fixtures, or creating a tool to pull down an anonymized copy of production databases).
+
+I'm going to lay this out in a series of posts.
+
+First, I'll go into a bit more detail on "moral" vs "economic" ways of thinking, and why it's so important to ensure decisions are framed in an economic light.
+
+Second, I'll dig into the definition of a technical investment, to show how flexible and powerful it can be.
+
+Third, I'll develop a worked example of a technical investment.
+
+Finally, I'll list a set of tips and techniques for  identifying, advocating for and then incrementally executing on technical investments.
+
+** Moral in brief
+As a brief summary: the human mind has a mechanism, a sort of module, that can easily get turned on when a question is framed in terms of "good" vs "bad" (aka "good" vs "evil").
+
+Things which are "bad" (aka "evil") are *inherently wrong*.
+
+The idea that we would tolerate such inherently wrong things, even for a brief amount of time, can easily trigger a sort of righteous anger.
+
+Thus, once that moral frame is engaged, it's *upsetting* to have someone asking about tradeoffs and costs. It feels like that person doesn't care about something profoundly important.
+
+This is why you see engineers flushing with frustration when PM's ask (reasonable!) questions such as:
+
+ - /If we *don't* clean up that code, what problems will that cause, exactly?/
+
+ - /Do we have any options that don't involve doing this rewrite?/
+
+ - /What's the tradeoff if we don't deal with this issue right now, but wait until after we hit our near-term goals?/
+
+In the moral frame, *those questions themselves are wrong* -- because they represent a willingness on the part of someone with authority to tolerate things which are clearly "wrong".
+
+But I want the engineers on my team to be *constantly* talking about options, tradeoffs and costs -- I consider that the heart of their job.
+
+** Random Junk
+That horrible swamp of legacy code is a problem for the business, because the team has to add three key new features, all of which require changing that code.
+
+If the team can make some incremental investments in cleaning up that code, they'll be able to deliver and iterate much faster. That generates real value for the business.
+
+** Bad Eng/Bad PM teaser
+To be fair, there are some engineers who don't seem to care about what is best for business -- see [[id:F5C214D0-9153-4BA7-9DB9-997C074AD34D][What If My Engineers Don't Care?]].
+
+# who care more about "writing good code" than they do about "creating value for the business"
+
+And, to be fair, there are some PM's and stakeholders who seem to care more about impressing their bosses by hitting deadlines, than they do about long-term value for the business -- see [[id:E116AF57-B9D8-43CD-9E9C-E060049D0074][What If My PM Doesn't Care?]]
+
+* Posts/Sections
+
+** Intro
+It usually happens in the last few of minutes of an interview.
+
+The candidate has had a series of engaging conversations with folks on my engineering team, and is now asking questions about our culture and processes. Whoever is conducting the interview alongside me is answering some, I'm taking others. It's a fun, loose conversation.
+
+Then, the candidate looks down at their notes, and says, "Oh, I wanted to ask: how do you prioritize work on tech debt?"
+
+There's a slight pause. Whoever is doing the interview with me sits back and pulls up their popcorn.
+
+"Well," I say, "*I don't actually let anyone on my team use the words "technical debt".*"
+
+The candidate blinks uncertainly. Their thoughts are clear on their face: "Um... what? Dan hasn't seemed like, well, a crazy jerk? And his team seems... happy? What the... what?"
+
+I'm going to explain, below, why I believe, somewhat passionately, that "technical debt" has become a dangerous metaphor, and why, instead, I ask my team to focus on "technical investments".
+
+I'm going to do this in four parts:
+
+ 1. Why "Tech Debt" Has Become Problematic
+ 2. Defining "Technical Investments"
+ 3. A Worked Example of a Technical Investment
+ 4. Some Tips for Identifying, Advocating For and Executing Technical Investments
+
+** Why U No Tech Debt? Problem 1: Economic vs Moral
+
+"Tech debt" started its life as a metaphor that explicitly invoked an *economic* mode of thinking.
+
+Ward Cunningham is widely cited as the originator of the concept, and his quotes on the topic are replete with references to economic trade offs, e.g.:
+
+/"Shipping first time code is like going into debt. A little debt speeds development so long as it is paid back promptly with a rewrite. The danger occurs when the debt is not repaid. Every minute spent on not-quite-right code counts as interest on that debt. Entire engineering organizations can be brought to a standstill under the debt load of an unconsolidated implementation."/ ~ Ward Cunningham [[https://c2.com/doc/oopsla92.html][The WyCash Portfolio Management System]] at OOPSLA '92.
+
+What does it mean for it to be "economic"?
+
+It's not just that it uses words associated with finance -- e.g. "debt", "repaid", "interest".
+
+The metaphor is economic because it:
+
+ - Frames a *decision*...
+   (should a team rewrite existing code?)
+
+ - ...about how to spend a scarce *resource*...
+   (developer time)
+
+ - ...in terms of *tradeoffs*.
+   (speeding up now vs going faster later)
+
+Also, note that, when thinking about something laid out in an economic frame, your thinking is *dispassionate*: there isn't one "right" answer; reasonable people can disagree; compromises are valuable, etc.
+
+This may sound obvious.
+
+As in, how else could people even think about this kind of a decision?
+
+Well, there's this other way that humans make decisions, which is very different.
+
+In this "other way":
+
+ - There is one and only one "right" answer
+
+ - People who don't agree about that answer are "bad"
+
+ - Compromising with those people is a form of betrayal
+
+This decision-making mode of the human mind is the "moral mindset".
+
+And it's a very useful feature! From an evolutionary perspective, it enables collaboration, by creating intense communal pressure against self-serving behavior like theft or murder.
+
+However, as Steven Pinker points out, humans have this tendency to apply this moral mindset to certain decisions where it may not be that useful.
+
+See my talk [[https://www.youtube.com/watch?v=78qzrXIPn5Q][How to Run a 5 Whys (With Humans, Not Robots)]] for more on the moral vs economic mindset (and also for a somewhat dramatically hilarious mustache I briefly adopted in late 2012).
+
+I have experienced "tech debt" as, over time, accumulating a sort of moral weight.
+
+When engineers think about tech debt, I fear that they're *not* think about "how to invest their time".
+
+They're think: "This code is so 'bad', I can't possibly work with it." (notice the "good" vs "bad" frame).
+
+If their PM won't listen to them, they feel angry.
+
+If other engineers propose a compromise (e.g. patching some legacy code up but not fully rewriting it), they may feel like that other engineer sold them out.
+
+All these are signs that people are acting in a moral mindset.
+
+"Tech Debt" can become almost, a test of an organization's virtue -- do they "care about quality", or are they the kind of "bad" people who just shovel features out the door.
+
+This tendency can especially easily take root in an environment where engineers feel like key decision makers -- product managers, or stakeholders -- won't listen to them.
+
+I'm sure that there are some places where discussions of tech debt are largely economic -- but because it's so frequently become a shorthand for a moralized question ("do we care about quality?"), I have found it useful to challenge it.
+
+So, that's reason #1. But there's *another* reason that I prefer the frame of technical investments to technical debt.
+
+** Why U No Tech Debt? Problem 2: Positive vs Negative
+
+When you ask engineers about tech debt in the systems they're responsible for, they immediately think of the worst, crappiest code: that one horrible legacy swamp that makes them shudder every time they open it up in their editor.
+
+That code is so obviously *bad*. They're itching to rewrite it.
+
+Not only is this putting them in the wrong mindset to think about value, it's also missing lots of *other* potential investments
+
+It is putting focus on things to "take away" -- "bad" things to get rid of.
+
+But, often, engineers have valuable ideas on new things to add -- maybe that's a suite of automated tests, or a quick script to automate setting up dev environment, or a substantial project to remove a flaky caching layer.
+
+Are those things "technical debt"?
+
+... because, a lot of time, the best thing to do is to write *new*, crappy code (see below for more).
+
+I think the key is actually not the "badness" of the code -- the unifying thing is that the engineers *want* to do something, and their PM or stakeholder *doesn't understand why*.
+
+--
+It means you're going to your PM or stakeholder, and telling them they can't have what they want (e.g. new features), because you have to spend time getting rid of something bad.
+
+They may agree with you, but that's a negative framing. They're "waiting", they're at the mercy of the engineering team.
+
+A positive framing would be if you could *offer them something else they want instead*. An economic choice between two positive benefits.
+
+But, how can you do that, if they don't understand either the problems, or the potential benefits that you see?
+
+This is, in my opinion, the core of the problem.
+
+And that is why I define a technical investment as:
+
+/Something that the engineers believe is *valuable for the business*, but that *no one else is asking for*./
+
+And I'll spend my next post opening up the definition.
+
+** Explain Yourself, Dan
+
+Okay, so if the technical debt metaphor has drifted into a bad place, what is an alternative?
+
+Should engineering teams just build whatever they're asked to build, and it'll all work out?
+
+Good lord, no.
+
+(Or, should we be "customer centric"? Excuse me while I throw up, I haaaaate that frame, must... not... derail blog post with giant rant).
+
+Instead of technical debt, I ask my teams to talk about *technical investments*.
+
+Where we define a "technical investment" as:
+
+/Something that the engineers believe is *valuable for the business*, but that *no one is asking for*./
+
+That concise, value-focused frame identifies the core problem: a mismatch in understanding between the engineers and their business or product counterparts.
+
+It also suggests the steps I actually want my teams to take:
+
+ - Clearly articulate, first to other engineers, the *potential value* of an investment
+
+ - Then, express that value in terms *the rest of the business can understand*
+
+ - Finally, offer *incremental options* for executing on that investment
+
+This is such a core part of the work of engineering that, at Ellevation, we enshrined identifying, advocating for and overseeing incremental technical investments as the heart of one of our three engineering principles, "Technical Stewardship".
+
+** What If My Engineers Don't Care?
+
+This overall approach does assume that the engineers care about "creating value for the business".
+
+In my experience, engineers are, ultimately, motivated to *solve problems*.
+
+If you can't point them at the fascinating, profoundly challenging problem of "creating as much value for the business as possible"... that's a failure in your leadership, not your engineering team.
+
+It could also be a failure in your hiring or promotion processes, if you bring in and/or reward engineers who don't care about value for the business, but want to pad their resume with cutting-edge technologies or impress other engineers with the clever complexity of the code they write.
+
+But again, ultimately, that's on you -- those tendencies are pretty straightforward to filter out, in both hiring and promotions.
+
+** What If My PM Doesn't Care?
+
+** "Quality" Is Also Verboten

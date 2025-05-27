@@ -1,0 +1,85 @@
+:PROPERTIES:
+:ID:       17305FA7-A43F-40C9-9309-0EF3577C70D0
+:END:
+#+title: Author Platform
+A part of [[id:5FAA80B0-D16C-424E-BF2F-1C5C45415618][Tech Investment Book]].
+
+Can collect notes + etc.
+* Email to EWJ <2025-05-26 Mon>
+Subject: Oh Yes, I'm Gonna Keep Sending You Things Until You The Uncle Is Cried
+
+E-
+
+I'm getting closer to hitting "Go" on actually writing (along with, in parallel, finding some opps to coach on Part II).
+
+But there's one thing I feel like I should force myself to engage with, before/as I do so, which is:
+
+*If/how should I attempt to "Build an author platform"*
+
+I'm going to indulge myself in a bit of thinking out loud, this one might be worth talking about synchronously, since a handful of things are snarled up together in it.
+
+There's a bunch of good stuff and options in WUB -- in particular, the suite of ideas around "Just write your manuscript in public and share it as you go"
+
+Pros:
+
+ - Clearly powerful, fairly reliable form of seed marketing
+
+ - Plays to my strengths
+
+   Good evidence that people like to read my writing; I'm pretty comfortable sharing half-written things; I can enjoy the challenge of breaking out bite-sized things; I'm reasonably good at setting up consistent habits and doing them.
+
+ - Esp useful if I have some interest in writing more books for this audience
+
+   And I do! I have a book structure partly sketched in already around Interviewing/Hiring and another in my head but not yet structured around Risk-Ordered + Briefs + Milestones.
+
+   So having a platform feels like a potentially very good long-term investment
+
+ - Potentially very motivating
+
+   Hearing from people as I go could be *great*.
+
+Cons:
+
+ - A bunch of the tactics he recs involve spending time in online communities, which makes me a bit nervous
+
+   Because:
+
+   a) I'm finding going through a digital detox so profoundly positive
+
+   b) Also because there's something about my personal writing motivation which tends to get badly eroded if I feel like "other people already know this".
+
+   And I worry that, if I find some shitty article about Tech Debt on, like, Lead Dev, it will very badly sap my energy.
+
+   Genuinely crazy idea: what if I paid someone a couple hundred bucks to do some of this for me? Hmm. Like, their job is to do some of what he says in WUB, which is to comb through a few communities and, for each, break down what kinds of content they like, etc. And then I'm either just posting to those, as per that person's research. But I like, never go on them myself.
+
+ - A bunch of tactics involve committing to a consistent schedule of sharing content/info, and that makes me a bit nervous
+
+   Maybe I need to get over this (I'm already writing a book! That will generate a metric ton of content, I just need a scalable, low transaction cost habit for *sharing* that habit).
+
+   Maybe the fear is that, if I'll set a level of consistency and then fall off it, I'll feel guilty. Maybe I need to set expectations so that I get this out of my head (e.g. this is a place I'm developing this set of ideas, *as I'm working on this book*)
+
+ - I have to make some decisions about platform, and my early attempts hit some analysis paralysis
+
+   E.g. Medium seems like it doesn't want to give me email addresses, so that is likely a no go.
+
+   Substack could work, but then I have weird feelings about "being on substack" vs "having my own blog + domain name". (Because I'm crazy?). And does it imply a consistent pace of updates?
+
+   What do I call it?
+
+Having written all that, walked away from it and come back, I kind of feel like the plan is:
+
+ - Set up a substack
+
+ - Come up with 10-20 bad titles, then pick one
+
+   Something that leaves room for other things in the {Eng,Product} x Humans space
+
+ - Write some form of README/About which says "This is a place that I'll share ideas I'm working out for an upcoming book" (so I won't feel like I've made some bad promise and have internal pressure)
+
+ - Review the WUB gameplan for finding places to post online, and decide if I want to do that myself or pay someone to do it for me
+
+   Or the obvious choice of having an LLM do it (hahaha)
+
+ - Map out the dumbest possible posting calendar, build some basic habit + tooling around it
+
+   E.g. post 3-5 times/week, set up some org file that has the postings collected, and some script that uploads them for me. So it's just feeding a hopper, nothing I keep on my day-to-day todo list
