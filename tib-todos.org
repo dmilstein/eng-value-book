@@ -31,10 +31,21 @@ CLOSED: [2025-05-27 Tue 07:55]
 CLOSED: [2025-05-27 Tue 07:56]
 *** DONE Update Key Tasks to look in there?
 CLOSED: [2025-05-27 Tue 07:57]
-*** TODO Git commit all around
+*** DONE Git commit all around
+CLOSED: [2025-05-27 Tue 07:58]
+** TODO Spike on: tag entire file w/ gtasks (or update agenda view)
+** TODO Spike on: make k/Goal view show subheader w/in this file
+** TODO Draft note to TD looking for coaching/helping targets
+** TODO Do a timeboxed skim through LinkedIn contacts for Part 2 coaching
+Can I just export my list of contacts
+** TODO Spike on python script to render outline w/ wordcounts
+And also on something to watch the directory for changes, re-run that and auto-update a webpage.
+** TODO Maybe: make org comments green?
 * Tech Invest Book                                :gtasks:
-** TODO Break out todos from author platform email to EWJ
-** TODO Spike: separate org-roam dir for Book     :curweek:pom:
+** DONE Break out todos from author platform email to EWJ :pom:
+CLOSED: [2025-05-27 Tue 08:01]
+** DONE Spike: separate org-roam dir for Book     :curweek:pom:
+CLOSED: [2025-05-27 Tue 07:58]
 Possibly add a capture target which throws things into the todo list there
 
 And then, am I not using my generic agenda views there? Hmm. This feels likely right, but some genuine overhead.
@@ -49,12 +60,8 @@ And then, am I not using my generic agenda views there? Hmm. This feels likely r
 *** Add a new capture template pointing there
 *** Update Key Tasks to look in there?
 *** rm all the files I moved, then git rm them
-** TODO Write template w/ offer to teach Part II  :curweek:
-** TODO Reach out to 3-5 people, offer to coach   :curweek:
-** TODO Bad first draft of Intro chapter          :curweek:
+** TODO Bad first draft of Intro chapter          :curweek:pom:
 ** TODO Bad first draft of Examples chapter       :curweek:
-** DONE Email Edmund re: author platform options/thoughts :curweek:pom:
-CLOSED: [2025-05-26 Mon 13:54]
 ** TODO Substack: can I get my own URL?
 ** TODO Maybe: shorthand value by "learning what to do next"
 Each thing builds on the previous, so velocity is about hitting those decision points faster.
@@ -64,5 +71,28 @@ Each thing builds on the previous, so velocity is about hitting those decision p
 "That Was Fun!" - How to interview so that great people can't wait to say yes
 
 In [[id:77C90CB8-9DA8-48D7-B534-2C448F34D489][Blog Topics]] I have a reasonable start on a ToC (still need a scope which reflects both eng + product but has some narrowness)
+** DONE Email Edmund re: author platform options/thoughts :curweek:pom:
+CLOSED: [2025-05-26 Mon 13:54]
 ** DONE Email Edmund: what I have/have not taught
 CLOSED: [2025-05-26 Mon 11:08]
+
+* Teach/Coach                                     :gtasks:
+** DONE Write template w/ offer to teach Part II  :curweek:pom:
+CLOSED: [2025-05-27 Tue 08:21]
+** DONE Refine/sort list of people I could reach out to :curweek:pom:
+CLOSED: [2025-05-27 Tue 08:26]
+** TODO Reach out to 3-5 people, offer to coach   :curweek:
+
+* Author Platform                                 :gtasks:
+** DONE Come up with 10-20 bad titles             :pom:curweek:
+CLOSED: [2025-05-27 Tue 08:32]
+Something that leaves room for other things in the {Eng,Product} x Humans space
+** TODO Pick one title
+** TODO Set up a substack
+** TODO Write some form of README/About
+which says "This is a place that I'll share ideas I'm working out for an upcoming book" (so I won't feel like I've made some bad promise and have internal pressure)
+** TODO Review the WUB gameplan for finding places to post online
+** TODO Decide if I want to do that myself or pay someone to do it for me
+** TODO Map out the dumbest possible posting calendar
+** TODO Build some basic habit + tooling around it
+E.g. post 3-5 times/week, set up some org file that has the postings collected, and some script that uploads them for me. So it's just feeding a hopper, nothing I keep on my day-to-day todo list
