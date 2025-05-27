@@ -2,7 +2,7 @@ Experimenting. Can I have a list of todos, outside of org-roam, but, when I'm in
 
 Yes, I can, apparently.
 
-* Todos
+* TIB Inbox
 ** TODO Spike: make org-roam keys respect .dir-locals in current directory
 aka, when I'm in the shell
 ** Finish the move to separate org-roam dir
@@ -16,10 +16,53 @@ CLOSED: [2025-05-27 Tue 07:36]
 CLOSED: [2025-05-27 Tue 07:37]
 *** DONE sync them + verify it works
 CLOSED: [2025-05-27 Tue 07:40]
-*** TODO git add them all
-*** TODO Add a tibook anchor file
-*** TODO Decide: where are my todos
-*** TODO Add a new capture template pointing there
-*** TODO Update Key Tasks to look in there?
-*** TODO rm all the files I moved, then git rm them
+*** DONE git add them all
+CLOSED: [2025-05-27 Tue 07:40]
+*** DONE Add a tibook anchor file
+CLOSED: [2025-05-27 Tue 07:40]
+*** DONE Decide: where are my todos
+CLOSED: [2025-05-27 Tue 07:40]
+*** DONE rm all the files I moved, then db-sync, then git rm them
+CLOSED: [2025-05-27 Tue 07:42]
 for f in `cat tmp-org-files.txt` ; do echo rm $f ; done
+*** DONE Add a new capture template pointing there
+CLOSED: [2025-05-27 Tue 07:55]
+*** DONE Move my todos from projects.org into tib-todos.org
+CLOSED: [2025-05-27 Tue 07:56]
+*** DONE Update Key Tasks to look in there?
+CLOSED: [2025-05-27 Tue 07:57]
+*** TODO Git commit all around
+* Tech Invest Book                                :gtasks:
+** TODO Break out todos from author platform email to EWJ
+** TODO Spike: separate org-roam dir for Book     :curweek:pom:
+Possibly add a capture target which throws things into the todo list there
+
+And then, am I not using my generic agenda views there? Hmm. This feels likely right, but some genuine overhead.
+*** mkdir -p Projects/TechInvestBook/org-roam-tibook
+*** Set up .dirlocals in there
+*** git repo init w/ gitdir outside of dropbox
+*** make list of tech invest book org files in org-roam/
+*** cp all those over
+*** git add them all
+*** Add a tibook anchor file
+*** Decide: where are my todos
+*** Add a new capture template pointing there
+*** Update Key Tasks to look in there?
+*** rm all the files I moved, then git rm them
+** TODO Write template w/ offer to teach Part II  :curweek:
+** TODO Reach out to 3-5 people, offer to coach   :curweek:
+** TODO Bad first draft of Intro chapter          :curweek:
+** TODO Bad first draft of Examples chapter       :curweek:
+** DONE Email Edmund re: author platform options/thoughts :curweek:pom:
+CLOSED: [2025-05-26 Mon 13:54]
+** TODO Substack: can I get my own URL?
+** TODO Maybe: shorthand value by "learning what to do next"
+Each thing builds on the previous, so velocity is about hitting those decision points faster.
+** TODO Write template asking for connections to coach
+** TODO Add: why technical judgment is important
+** TODO Collect ideas for book 2 about inteviewing + hiring
+"That Was Fun!" - How to interview so that great people can't wait to say yes
+
+In [[id:77C90CB8-9DA8-48D7-B534-2C448F34D489][Blog Topics]] I have a reasonable start on a ToC (still need a scope which reflects both eng + product but has some narrowness)
+** DONE Email Edmund: what I have/have not taught
+CLOSED: [2025-05-26 Mon 11:08]
