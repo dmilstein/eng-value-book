@@ -1,0 +1,40 @@
+#    -*- mode: org -*-
+
+
+Archived entries from file /Users/danmil/Dropbox/Projects/TechInvestBook/tib-todos.org
+
+
+* Finish the move to separate org-roam dir
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-05-28 Wed 16:14
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: TIB Inbox
+:ARCHIVE_CATEGORY: tib-todos
+:END:
+** DONE Set up .dirlocals in there
+CLOSED: [2025-05-27 Tue 07:30]
+** DONE git repo init w/ gitdir outside of dropbox
+CLOSED: [2025-05-27 Tue 07:32]
+** DONE make list of tech invest book org files in org-roam/
+CLOSED: [2025-05-27 Tue 07:36]
+** DONE cp all those over
+CLOSED: [2025-05-27 Tue 07:37]
+** DONE sync them + verify it works
+CLOSED: [2025-05-27 Tue 07:40]
+** DONE git add them all
+CLOSED: [2025-05-27 Tue 07:40]
+** DONE Add a tibook anchor file
+CLOSED: [2025-05-27 Tue 07:40]
+** DONE Decide: where are my todos
+CLOSED: [2025-05-27 Tue 07:40]
+** DONE rm all the files I moved, then db-sync, then git rm them
+CLOSED: [2025-05-27 Tue 07:42]
+for f in `cat tmp-org-files.txt` ; do echo rm $f ; done
+** DONE Add a new capture template pointing there
+CLOSED: [2025-05-27 Tue 07:55]
+** DONE Move my todos from projects.org into tib-todos.org
+CLOSED: [2025-05-27 Tue 07:56]
+** DONE Update Key Tasks to look in there?
+CLOSED: [2025-05-27 Tue 07:57]
+** DONE Git commit all around
+CLOSED: [2025-05-27 Tue 07:58]
