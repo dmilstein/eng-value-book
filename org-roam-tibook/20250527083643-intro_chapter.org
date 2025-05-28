@@ -104,33 +104,39 @@ For the last 30 years, I've worked in various combinations of engineering and pr
 
 I've worked as an IC engineer building and operating complex systems; I've led product at startups desperately trying to find traction; I've managed engineering teams ranging in size from 2 to 500.
 
-Across it all, I constantly wrestled with this tradeoff between what was being explicitly asked for versus what engineers were worried about.
+Across it all, I constantly wrestled with this tradeoff between what was being explicitly asked for versus what engineers wanted to do.
 
-# engineers wanted to do
+# were worried about.
 
-I've tried a lot of things to manage that tradeoff -- many of which failed, some in interesting and instructive ways.
+I've tried a slew of things to manage that tradeoff -- many of which failed, some in interesting and instructive ways.
 
-Over time, I gradually found an approach that works, first with a small group of engineers, and then, as I moved up in various organizations, across a much larger team.
+# works, first with a small group of engineers, and then, as I moved up in various organizations, across a much larger team.
 
-This book is sharing what I have learned.
+# This book is sharing what I have learned.
 
-Fortunately, there's a way to approach this challenge so that, over time, you gradually bring those two sides together.
+# Fortunately, there's a way to approach this challenge so that, over time, you gradually bring those two sides together.
 
-so that all sides are *participating a collaborative discussion about how best to spend your team's time*.
+# so that all sides are *participating a collaborative discussion about how best to spend your team's time*.
 
-And do so in a way which:
+Over time, I gradually found a way work on that tradeoff that brings all sides into a collaborative discussion about how best to spend the engineering team's time.
 
- - Builds trust with your stakeholders
+# Personally coached
+# I've seen engineering leaders apply this approach to:
+Engineering leaders applying this approach have been able to:
 
- - Creates ownership and agency for your engineers
+ - Visibly improve their systems...
 
- - Visibly improves your systems
+ - While building trust with their stakeholders...
 
- - While steering clear of the terrifying fire swamp of the ground-up rewrite
+ - And creating meaningful agency for their engineers...
 
-This book is about how to apply this approach.
+ - All while steering clear of the terrifying fire swamp of a ground-up rewrite.
 
-The first step is to stop talking about technical debt.
+I want to share that approach with you.
+
+But...
+
+The first step is to *stop talking about technical debt.*
 
 ** Why the "Tech Debt" Metaphor Has Become Limiting
 ** A Better Way: Technical Investments
