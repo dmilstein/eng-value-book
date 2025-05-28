@@ -181,27 +181,33 @@ Unfortunately, engineers rarely identify and advocate for such forms of value, w
 
 So, that's the first reason to not use the metaphor
 
-The second is a bit more subtle, and has to do with the kind of conversation you'll end up getting into, with your stakeholders.
+The second is a bit more subtle, and has to do with the kind of conversation you'll end up getting into with your stakeholders.
 
-*** From the Stakeholder's Perspective
+*** Lo, Let Us See This From the Stakeholder's Perspective
 
-Any stakeholder who has worked with engineers for any length of time knows that "tech debt" is a synonym for "terrible code".
+Any stakeholder who has worked with engineers for any length of time knows that "tech debt" is a synonym for "bad code".
 
-When the team asks to deal with "tech debt", the stakeholder hears a request to give up something they actively want (the requested features), for something that has *no apparent value to them* (reducing the amount of "bad code" in the system).
+When the team asks for time to deal with "tech debt", the stakeholder hears a request to give up something they actively want (the requested features), for something that has *no apparent value to them* (reducing the amount of "bad code" in the system).
+
+The stakeholder won't, in general, hear an economic argument for the value of dealing with tech debt.
 
 Many engineers have an emotional feeling that technical debt is so clearly bad, *they shouldn't have to explain why fixing it is valuable*.
 
-They shouldn't have to prove themselves to the stakeholders -- aren't they the engineers? Shouldn't they be trusted to know what good code is?
+aka:
 
-Almost as if: by invoking "tech debt", they've *made an argument for value already*.
+Why should they have to *prove themselves* to the stakeholders?
 
-This is essentially the engineers fall back on their technical authority and invoking a *moral frame*: bad code is bad because it is bad, and getting rid of it is a good thing, and you have to just trust us.
+Shouldn't they be *trusted* to know what good code is?
 
-Unfortunately, that kind of moral frame is a reliably terrible starting point for conversations with stakeholders.
+When engineers fall back on their technical authority like this, they are invoking a *moral frame*:
 
-See my talk [[https://www.youtube.com/watch?v=78qzrXIPn5Q][How to Run a 5 Whys (With Humans, Not Robots)]] for more on the moral vs economic mindsets (and also for a somewhat dramatically hilarious mustache I briefly adopted in late 2012).
+Bad code is bad because it is bad, and getting rid of it is an inherently good thing, and you have to just trust us.
 
-Such conversations will leave both sides intensely frustrated.
+Unfortunately, that kind of moral frame is a reliably terrible starting point for conversations with stakeholders, and both sides will exit the conversation feeling intensely frustrated.
+
+# TODO open this up a bit, play out the convo, even if it gets to a one-time agreement, it's a concession, etc.
+
+# See my talk [[https://www.youtube.com/watch?v=78qzrXIPn5Q][How to Run a 5 Whys (With Humans, Not Robots)]] for more on the moral vs economic mindsets (and also for a somewhat dramatically hilarious mustache I briefly adopted in late 2012).
 
 The engineers will feel like their stakeholders don't care about the horrible code they have to work with, nor the looming problems getting worse with every commit.
 
@@ -211,9 +217,22 @@ By starting with tech debt, with its disguised form of "good" vs "bad" code, you
 
 So, if talking about "tech debt" causes problems, what's the alternative?
 
-But once again: the engineers aren't wrong -- there are important issues that need to be dealt with, that the stakeholders are either unaware of, or not properly weighting in their thinking.
-
 ** A Better Way: Technical Investments
+
+Instead of technical debt, I ask my teams to talk about *technical investments*, which I define as:
+
+/Something that the engineers believe is *valuable for the business*, but that *no one is asking for*./
+
+That focuses on the genuine problem: a *mismatch in understanding* between the engineers and their business or product counterparts, about what is potentially valuable for the business.
+
+To work effectively with technical investments, engineering leaders need to develop a deep understanding of how engineers can create value for a business.
+
+We'll spend a great deal of part 1 talking about this.
+
+It also means that engineer leaders have to be willing to *educate* their business peers -- and that those business peers have to be willing to listen.
+
+Getting to that requires a steady building of trust, which we'll talk about in parts 1 & 2.
+
 ** The Fundamental Cycle
 # Basically just name each of these, will go deeper in later chapter.
 
