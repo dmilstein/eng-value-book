@@ -49,26 +49,27 @@ I might jot down some others.
 # Sketch in the key problems (focus on "bad code", offers nothing positive to your product or stakeholder peers, don't go too deep on moral vs economic)
 **** A Better Way: Technical Investments
 # Give the definition
-**** The Fundamental Cycle
-# Basically just name each of these, will go deeper in later chapter.
-
-# Emphasize that you do this over and over, deliberately starting with small scale, and gradually "levering up" to larger investments.
-***** Find things engineers are *worried about*
-***** Convert each into a statement of *potential value*
-***** Select the highest value option, based on what is *currently known*
-***** *Build visibility* into current state
-# In a way which will show the improvement, if/when you make it
-***** Identify a *small increment* that will improve things and/or create more visibility
-***** Share visibility with stakeholders to *motivate investment*
-***** Offer an *incremental option* to stakeholder, get buy-in
-***** Do The Thing
-***** Celebrate improvements via *story-telling*
-***** Return to Step 1, with more *capital and trust*
 **** What If My Stakeholders Don't Care About Engineering?
 **** What If My Engineers Don't Care About the Business?
 # Aka, what if my very senior engineer just wants to rewrite everything?
 **** What's Coming In the Rest of the Book
 ** Part I: The Tech Investment Cycle
+*** The Fundamental Cycle
+# Basically just name each of these, will go deeper in later chapter.
+
+# Emphasize that you do this over and over, deliberately starting with small scale, and gradually "levering up" to larger investments.
+**** Find things engineers are *worried about*
+**** Convert each into a statement of *potential value*
+**** Select the highest value option, based on what is *currently known*
+**** *Build visibility* into current state
+# In a way which will show the improvement, if/when you make it
+**** Identify a *small increment* that will improve things and/or create more visibility
+**** Share visibility with stakeholders to *motivate investment*
+**** Offer an *incremental option* to stakeholder, get buy-in
+**** Do The Thing
+**** Celebrate improvements via *story-telling*
+**** Return to Step 1, with more *capital and trust*
+
 *** What the Tech Investment Cycle Looks and Feels Like
 # Go through an example of a few loops in sequence (meaning, for the same scenario), levering up from on-the-side visibility building to a full-ish investment. [Take the thing I have and break it into even smaller steps, and move some of the potential value things out of it].
 *** The Central Hack: Build Visibility First

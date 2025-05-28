@@ -3,44 +3,29 @@ Experimenting. Can I have a list of todos, outside of org-roam, but, when I'm in
 Yes, I can, apparently.
 
 * TIB Inbox
+** DONE Fix my refile targets to include tib-todos.org
+CLOSED: [2025-05-28 Wed 16:14]
 ** TODO Spike: make org-roam keys respect .dir-locals in current directory
 aka, when I'm in the shell
-** Finish the move to separate org-roam dir
-*** DONE Set up .dirlocals in there
-CLOSED: [2025-05-27 Tue 07:30]
-*** DONE git repo init w/ gitdir outside of dropbox
-CLOSED: [2025-05-27 Tue 07:32]
-*** DONE make list of tech invest book org files in org-roam/
-CLOSED: [2025-05-27 Tue 07:36]
-*** DONE cp all those over
-CLOSED: [2025-05-27 Tue 07:37]
-*** DONE sync them + verify it works
-CLOSED: [2025-05-27 Tue 07:40]
-*** DONE git add them all
-CLOSED: [2025-05-27 Tue 07:40]
-*** DONE Add a tibook anchor file
-CLOSED: [2025-05-27 Tue 07:40]
-*** DONE Decide: where are my todos
-CLOSED: [2025-05-27 Tue 07:40]
-*** DONE rm all the files I moved, then db-sync, then git rm them
-CLOSED: [2025-05-27 Tue 07:42]
-for f in `cat tmp-org-files.txt` ; do echo rm $f ; done
-*** DONE Add a new capture template pointing there
-CLOSED: [2025-05-27 Tue 07:55]
-*** DONE Move my todos from projects.org into tib-todos.org
-CLOSED: [2025-05-27 Tue 07:56]
-*** DONE Update Key Tasks to look in there?
-CLOSED: [2025-05-27 Tue 07:57]
-*** DONE Git commit all around
-CLOSED: [2025-05-27 Tue 07:58]
 ** TODO Spike on: tag entire file w/ gtasks (or update agenda view)
-** TODO Spike on: make k/Goal view show subheader w/in this file
 ** TODO Draft note to TD looking for coaching/helping targets
 ** TODO Do a timeboxed skim through LinkedIn contacts for Part 2 coaching
 Can I just export my list of contacts
-** TODO Spike on python script to render outline w/ wordcounts
-And also on something to watch the directory for changes, re-run that and auto-update a webpage.
 ** TODO Maybe: make org comments green?
+Welp, this works, but I really only want it in org mode, gotta figure that out once I'm online and can ask LLM's for help.
+
+Also, I just ran this directly, it's not in .emacs
+(set-face-foreground font-lock-comment-face "darkgreen")
+** TODO General note: feature my own failures as learning events
+E.g. things I tried that didn't work, or that I've seen people try and have not work
+** TODO What the fuck -- why are my L4 org headings also in green
+Oh, because org-level-4 inherits from outline-4 which inherits from font-lock-comment-face, duh.
+* Intro Chapter                                   :gtasks:curweek:
+** DONE Finish first draft of Intro chapter
+CLOSED: [2025-05-28 Wed 16:14]
+** TODO Try wedging in the visibility as fundamental hack
+** TODO Also add the idea of making it a cyclical thing that you lever up
+** TODO Spike on final thing to wrap it up
 * Tech Invest Book                                :gtasks:
 ** DONE Break out todos from author platform email to EWJ :pom:
 CLOSED: [2025-05-27 Tue 08:01]
@@ -60,7 +45,8 @@ And then, am I not using my generic agenda views there? Hmm. This feels likely r
 *** Add a new capture template pointing there
 *** Update Key Tasks to look in there?
 *** rm all the files I moved, then git rm them
-** TODO Bad first draft of Intro chapter          :curweek:pom:
+** DONE Start first draft of Intro chapter        :curweek:pom:
+CLOSED: [2025-05-27 Tue 14:00]
 ** TODO Bad first draft of Examples chapter       :curweek:
 ** TODO Substack: can I get my own URL?
 ** TODO Maybe: shorthand value by "learning what to do next"
@@ -96,3 +82,8 @@ which says "This is a place that I'll share ideas I'm working out for an upcomin
 ** TODO Map out the dumbest possible posting calendar
 ** TODO Build some basic habit + tooling around it
 E.g. post 3-5 times/week, set up some org file that has the postings collected, and some script that uploads them for me. So it's just feeding a hopper, nothing I keep on my day-to-day todo list
+* Tooling                                         :gtasks:
+** TODO Spike on python script to render outline w/ wordcounts :curweek:
+Strip comments, etc
+
+And also on something to watch the directory for changes, re-run that and auto-update a webpage.
