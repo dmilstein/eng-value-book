@@ -269,11 +269,23 @@ That requires a steady building of trust, which we'll talk about in part 2 - Sca
 ** What If My Stakeholders Don't Care About Engineering?
 But wait, I can hear many of you saying, I don't know what delusional hippies you've worked with Dan, but you've apparently never met my stakeholders. They just don't care about quality at all, and there's no way I can make them.
 
-First off, I'm not going to lie -- there *are* some business leaders who are just profoundly unwilling to face tradeoffs.
+First off, I also don't care about quality! (I joking-not-joking forbid discussions of quality on my teams).
 
-Such people usually have a vision of leadership as extracting "commitments", and then holding people "accountable", and nothing can change that.
+But maybe what you're saying is: if you try to offer your stakeholder a tradeoff, where pursuing features has a cost they have to sign up for, they reject that discussion.
 
-However, the vast majority actually want the business to succeed -- and, if the success of the business depends on the value of technical assets and practices, then they
+I'm not going to lie -- there *are* some business leaders who are just profoundly unwilling to face tradeoffs, and worse, take pride in that. Such leaders think of their relationship with engineering as one of extracting "commitments", and then holding the engineers "accountable", and nothing can change that.
+
+But the whole commitments/accountability/shame thing is an objectively bad interface with an engineering team.
+
+Like, it's not just unpleasant, it leads to bad business outcomes.
+
+And, in the vast majority of cases, stakeholders, well, want the business to succeed (if they just want to advance their own career by showing they can crack the whip on engineers... you might need to find a new job).
+
+If you follow the game plan in this book, you'll be offering your stakeholders something they will love -- a combination of meaningful *visibility* with meaningful *control*.
+
+And you'll do so in a way which steadily builds trust and rapport.
+
+
 
 
 
