@@ -10,21 +10,6 @@
 # Sketch in the key problems (focus on "bad code", offers nothing positive to your product or stakeholder peers, don't go too deep on moral vs economic)
 ** A Better Way: Technical Investments
 # Give the definition
-** The Fundamental Cycle
-# Basically just name each of these, will go deeper in later chapter.
-
-# Emphasize that you do this over and over, deliberately starting with small scale, and gradually "levering up" to larger investments.
-*** Find things engineers are *worried about*
-*** Convert each into a statement of *potential value*
-*** Select the highest value option, based on what is *currently known*
-*** *Build visibility* into current state
-# In a way which will show the improvement, if/when you make it
-*** Identify a *small increment* that will improve things and/or create more visibility
-*** Share visibility with stakeholders to *motivate investment*
-*** Offer an *incremental option* to stakeholder, get buy-in
-*** Do The Thing
-*** Celebrate improvements via *story-telling*
-*** Return to Step 1, with more *capital and trust*
 ** What If My Stakeholders Don't Care About Engineering?
 ** What If My Engineers Don't Care About the Business?
 # Aka, what if my very senior engineer just wants to rewrite everything?
@@ -141,7 +126,7 @@ But...
 # First, we all have to
 The first step is to *stop talking about technical debt.*
 
-** Why the "Tech Debt" Metaphor Has Become Limiting
+** Avoid the "Tech Debt" Metaphor
 
 I believe that, although "technical debt" started as a useful metaphor about economic tradeoffs, it has, over time, largely devolved into a shorthand for *"bad" code*.
 
@@ -229,7 +214,7 @@ The poor engineering leader will find themselves caught between the two sides, m
 
 So, if talking about "tech debt" causes problems, what's the alternative?
 
-** A Better Way: Technical Investments
+** Talk Instead About "Technical Investments"
 
 Instead of technical debt, I believe engineering leaders should challenge their teams to talk about *technical investments*, which we'll define as:
 
@@ -251,44 +236,37 @@ Engineering leaders also have to be willing to *educate* their business peers --
 
 That requires a steady building of trust, which we'll talk about in part 2 - Scaling Up.
 
-** The Fundamental Cycle
-# Basically just name each of these, will go deeper in later chapter.
-
-# Emphasize that you do this over and over, deliberately starting with small scale, and gradually "levering up" to larger investments.
-*** Find things engineers are *worried about*
-*** Convert each into a statement of *potential value*
-*** Select the highest value option, based on what is *currently known*
-*** *Build visibility* into current state
-# In a way which will show the improvement, if/when you make it
-*** Identify a *small increment* that will improve things and/or create more visibility
-*** Share visibility with stakeholders to *motivate investment*
-*** Offer an *incremental option* to stakeholder, get buy-in
-*** Do The Thing
-*** Celebrate improvements via *story-telling*
-*** Return to Step 1, with more *capital and trust*
 ** What If My Stakeholders Don't Care About Engineering?
 But wait, I can hear many of you saying, I don't know what delusional hippies you've worked with Dan, but you've apparently never met my stakeholders. They just don't care about quality at all, and there's no way I can make them.
 
 First off, I also don't care about quality! (I joking-not-joking forbid discussions of quality on my teams).
 
-But maybe what you're saying is: if you try to offer your stakeholder a tradeoff, where pursuing features has a cost they have to sign up for, they reject that discussion.
+But maybe what you're saying is: if you try to offer your stakeholder a tradeoff, where pursuing features now has a cost later that they have to sign up for, they reject that discussion.
 
-I'm not going to lie -- there *are* some business leaders who are just profoundly unwilling to face tradeoffs, and worse, take pride in that. Such leaders think of their relationship with engineering as one of extracting "commitments", and then holding the engineers "accountable", and nothing can change that.
+I'm not going to lie -- there *are* some business leaders who are just profoundly unwilling to face tradeoffs, and worse, take pride in doing so. Such leaders think of their relationship with engineering as one of extracting "commitments", and then holding the engineers "accountable".
 
-But the whole commitments/accountability/shame thing is an objectively bad interface with an engineering team.
+But here's the thing: the whole commitments/accountability/shame thing is an *objectively bad interface* with an engineering team.
 
-Like, it's not just unpleasant, it leads to bad business outcomes.
+Like, it's not just unpleasant, it will consistently lead to bad business outcomes.
 
-And, in the vast majority of cases, stakeholders, well, want the business to succeed (if they just want to advance their own career by showing they can crack the whip on engineers... you might need to find a new job).
+In the vast majority of cases, stakeholders, well, want the business to succeed
+
+(if they just want to advance their own career by showing they can crack the whip on engineers... you might need to find a new job).
 
 If you follow the game plan in this book, you'll be offering your stakeholders something they will love -- a combination of meaningful *visibility* with meaningful *control*.
 
 And you'll do so in a way which steadily builds trust and rapport.
 
-
-
-
-
 ** What If My Engineers Don't Care About the Business?
-# Aka, what if my very senior engineer just wants to rewrite everything?
-** What's Coming In the Rest of the Book
+
+This overall approach does assume that the engineers care about "creating value for the business".
+
+Again, I'm not going to lie. There are some engineers who truly don't care about the businesses they work in, and only want to pad their resume with cutting-edge technologies or impress other engineers with the clever complexity of the code they write.
+
+# Footnote: maybe don't hire those engineers? That's the subject of another book.
+
+But the vast majority of engineers are, in my experience, profoundly motivated to *solve problems*.
+
+The rest of this book is going to explore a slew of ways to point them at the fascinating, profoundly difficult problem of creating as much value for the business as possible.
+
+Let's go!
