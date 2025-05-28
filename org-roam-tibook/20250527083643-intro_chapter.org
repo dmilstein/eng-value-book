@@ -45,7 +45,7 @@ At this very moment, your stakeholders--the product team, executives at your com
 
 # And, what's more, you're behind
 
-Those stakeholders are certain that if the features aren't shipped right this minute, the business is going to suffer, and badly.
+Those stakeholders are certain that if the features aren't shipped *right this minute*, the business is going to suffer, and badly.
 
 At the very same time, the engineers *on* your team are demanding that you carve out time, *now and not later*, to deal with a teetering pile of tech debt.
 
@@ -61,16 +61,16 @@ For all their hysterical urgency, the stakeholders are... not totally wrong.
 
 # "are not totally wrong"?
 
-# Moving up into engineering leadership, you've come to realize that
+# As you've moved up into engineering leadership, you've come to realize that
 A lot of business opportunities *are* time-sensitve -- not having the new features shipped in time for a scheduled launch or an upcoming peak season will represent a big, visible missed opportunity.
 
 # [One of the features of getting into leadership is often getting a clearer picture of those opportunities, *and* the expectations around them]
 
-Except people in the business don't call it a "visible missed opportunity".
+Except people in the business won't call it a "visible missed opportunity".
 
-They call it a failure.
+They'll call it a failure.
 
-More specifically, since you're the engineering leader, they call it *your* failure (being in charge means failures are your fault! Like, that's literally and precisely what it means!).
+More specifically, since you're the engineering leader, they'll call it *your* failure (being in charge means failures are your fault! Like, that's literally and precisely what it means!).
 
 You have the potential for failure hanging over you, all the time.
 
@@ -82,9 +82,9 @@ If you simply race to build the features that stakeholders demand, you're going 
 
 Maybe it'll suffer a spectacular outage just as your peak season starts.
 
-Or maybe you'll experience a painfully public security breach just as your trying to close that one extra security-conscious enterprise customer.
+Or maybe you'll experience a painfully public security breach just as your sales team is trying to close that one extra security-conscious enterprise customer.
 
-Or maybe the overall system will just become so difficult to safely change that the pace of delivery grinds to a halt (and your engineers lose all respect for you, and the some of the best ones start not deleting all of the random recruiter emails they get every day).
+Or maybe the overall system will just become so difficult to safely change that the pace of delivery grinds to a halt (and your engineers lose all respect for you, and the very best ones start not deleting all of the random recruiter emails they get every day).
 
 All of those are *also* your (potential) failures.
 
@@ -118,11 +118,11 @@ I've tried a slew of things to manage that tradeoff -- many of which failed, som
 
 # so that all sides are *participating a collaborative discussion about how best to spend your team's time*.
 
-Over time, I gradually found a way work on that tradeoff that brings all sides into a collaborative discussion about how best to spend the engineering team's time.
+Over time, I gradually found a way to approach that tradeoff that brought all sides into a collaborative discussion about how best to spend the engineering team's time.
 
 # Personally coached
 # I've seen engineering leaders apply this approach to:
-Engineering leaders applying this approach have been able to:
+I've seen engineering leaders apply this approach and:
 
  - Visibly improve their systems...
 
@@ -136,9 +136,71 @@ I want to share that approach with you.
 
 But...
 
+# First, we all have to
 The first step is to *stop talking about technical debt.*
 
 ** Why the "Tech Debt" Metaphor Has Become Limiting
+
+I believe that, although "technical debt" started as an extremely useful metaphor about economic tradeoffs, it has, over time, devolved into a not-so-useful shorthand for *"bad" code*.
+
+As in, when engineers think, talk and argue about "tech debt", they're thinking, talking and arguing about the very worst, most eye-bleeding code in their codebases.
+
+There are two reasons why such a focus is problematic.
+
+First, by only thinking about *existing* bad code, the engineers miss a vast set of opportunties for improvements.
+
+Over and over in my career, I've seen engineers propose and deliver incredibly valuable work that involved writing, well, *more* bad code.
+
+They didn't call it "bad" code -- they called it "scrappy" or "pragmatic" code.
+
+# Those opportunities just don't come up much, when you start the conversation by talking about "technical debt".
+
+# I could show you bash scripts that would make your eyes bleed, but that were just insanely valuable.
+
+# E.g. the junior engineer who hacked something together over the weekend to log stack traces from failed deploys, or the senior engineer who bargained for enough time from their PM to jury-rig a hacky testing framework that stubbed out the entire OS layer, or the engineer who threw together a UI to allow members of the ops team to clean up failed shipments, so that the engineers could stop spending all their time executing SQL queries against production.
+
+E.g. the junior engineer who hacked something together over the weekend to log stack traces from failed deploys... which saved hours and hours of fruitless debugging and ultimately sped up deploys enormously.
+
+Or the senior engineer who bargained for enough time from their PM to jury-rig a hacky testing framework that stubbed out the entire OS layer... which allowed the team to finally write tests to cover the weird network errors that kept tripping them up.
+
+Or the engineer who threw together a UI to allow members of the ops team to clean up failed shipments, so that the engineers could stop spending all their time executing SQL queries against production.
+
+Note, carefully: none of the above efforts "retired tech debt" by any stretch of the imagination.
+
+The problems addressed -- opaque deploys, blind spots in testing, repetitive operational work -- aren't the kinds of things most engineers think of when you're talking about "tech debt".
+
+The above efforts helped deal with *gaps* that the engineers were painfully aware of -- not with bad existing code.
+
+Crucially, those gaps represent *genuine problems* for their businesses.
+
+In later chapters, we'll spend a great deal of time discussing how such gaps aren't just *annoying* to the engineers, but are in fact *expensive* for their businesses.
+
+And thus, dealing with such problems is a chance to *create value* for the business.
+
+Unfortunately, teams rarely identify and advocate for such forms of value, when they're thinking about "tech debt".
+
+So, that's the first reason.
+
+The second is a bit more subtle.
+
+A discussion of "bad" code can easily slip into a *moral* frame -- as in, it can trigger a part of the human mind that deals in absolutes of good and bad (aka good and evil).
+
+And that frame is very different from an *economic* one, which puts attention on options, tradeoffs and costs.
+
+See my talk [[https://www.youtube.com/watch?v=78qzrXIPn5Q][How to Run a 5 Whys (With Humans, Not Robots)]] for more on the moral vs economic mindsets (and also for a somewhat dramatically hilarious mustache I briefly adopted in late 2012).
+
+Unfortunately, that moral frame is a reliably terrible starting point for conversations with the Rest of the Business (e.g. PM's and stakeholders).
+
+Conversations starting from a moral frame are a) likely to be *unpleasant*, while also b) *unlikely* to generate a commitment to addressing the issues the engineers are concerned about.
+
+At their worst, such conversations leave both sides intensely frustrated.
+
+The engineers can feel like their business partners don't care about the horrible code they have to work with, nor the looming problems getting worse with every commit.
+
+Whereas their business partners can hear the engineers, *once again*, making urgent demands in service of some abstract notion of "quality". And the engineers seem just completely unaware of the pressing needs of the business, and how painful the tradeoffs would be, to immediately address those issues.
+
+What's going on, beneath the moralized emotions?
+
 ** A Better Way: Technical Investments
 ** The Fundamental Cycle
 # Basically just name each of these, will go deeper in later chapter.
