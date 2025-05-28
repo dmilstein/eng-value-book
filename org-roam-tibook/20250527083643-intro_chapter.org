@@ -216,7 +216,7 @@ So, if talking about "tech debt" causes problems, what's the alternative?
 
 ** Talk Instead About "Technical Investments"
 
-Instead of technical debt, I believe engineering leaders should challenge their teams to talk about *technical investments*, which we'll define as:
+Instead of technical debt, I believe engineering leaders should challenge their teams to talk about *technical investments*, which I define as:
 
 /Something that the engineers believe is *valuable for the business*, but that *no one is asking for*./
 
@@ -226,9 +226,13 @@ This assumes that, at heart, both the engineers and the stakeholders *want to cr
 
 They just have different information and beliefs about how best to do so.
 
+Thus, a profoundly powerful trick is to start by *building visibility* -- something that the stakeholders and engineers can both *see* in the same way.
+
+Usually, it's several orders of magnitude cheaper to build such visibility, than it is to execute on the actual work.
+
 To bring the two sides together, engineering leaders must develop a deep understanding of how engineers can create value for a business.
 
-We'll spend a great deal of part 1 (The Technical Investment Cycle) talking about this.
+We'll spend a great deal of part 1 (The Technical Investment Cycle) talking about the marriage of visibility and value.
 
 Engineering leaders also have to be willing to *educate* their business peers -- and those business peers have to be willing to listen.
 
