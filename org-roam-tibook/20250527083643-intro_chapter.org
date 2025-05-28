@@ -143,7 +143,7 @@ The first step is to *stop talking about technical debt.*
 
 I believe that, although "technical debt" started as an extremely useful metaphor about economic tradeoffs, it has, over time, devolved into a not-so-useful shorthand for *"bad" code*.
 
-As in, when engineers think, talk and argue about "tech debt", they're thinking, talking and arguing about the very worst, most eye-bleeding code in their codebases.
+When engineers think, talk and argue about "tech debt", they're thinking, talking and arguing about the very worst, most eye-bleedingly painful code in their codebases.
 
 There are two reasons why such a focus is problematic.
 
@@ -151,7 +151,7 @@ First, by only thinking about *existing* bad code, the engineers miss a vast set
 
 Over and over in my career, I've seen engineers propose and deliver incredibly valuable work that involved writing, well, *more* bad code.
 
-They didn't call it "bad" code -- they called it "scrappy" or "pragmatic" code.
+Of course, they didn't call it "bad" code -- they called it "scrappy" or "pragmatic" code.
 
 # Those opportunities just don't come up much, when you start the conversation by talking about "technical debt".
 
@@ -165,7 +165,7 @@ Or the senior engineer who bargained for enough time from their PM to jury-rig a
 
 Or the engineer who threw together a UI to allow members of the ops team to clean up failed shipments, so that the engineers could stop spending all their time executing SQL queries against production.
 
-Note, carefully: none of the above efforts "retired tech debt" by any stretch of the imagination.
+Note, carefully: *none of the above efforts "retired tech debt"*.
 
 The problems addressed -- opaque deploys, blind spots in testing, repetitive operational work -- aren't the kinds of things most engineers think of when you're talking about "tech debt".
 
@@ -173,33 +173,45 @@ The above efforts helped deal with *gaps* that the engineers were painfully awar
 
 Crucially, those gaps represent *genuine problems* for their businesses.
 
-In later chapters, we'll spend a great deal of time discussing how such gaps aren't just *annoying* to the engineers, but are in fact *expensive* for their businesses.
+In later chapters, we'll spend a great deal of time discussing how such gaps aren't just *annoying* to the engineers, they are in fact *expensive* for the business.
 
 And thus, dealing with such problems is a chance to *create value* for the business.
 
-Unfortunately, teams rarely identify and advocate for such forms of value, when they're thinking about "tech debt".
+Unfortunately, engineers rarely identify and advocate for such forms of value, when they're thinking about "tech debt".
 
-So, that's the first reason.
+So, that's the first reason to not use the metaphor
 
-The second is a bit more subtle.
+The second is a bit more subtle, and has to do with the kind of conversation you'll end up getting into, with your stakeholders.
 
-A discussion of "bad" code can easily slip into a *moral* frame -- as in, it can trigger a part of the human mind that deals in absolutes of good and bad (aka good and evil).
+*** From the Stakeholder's Perspective
 
-And that frame is very different from an *economic* one, which puts attention on options, tradeoffs and costs.
+Any stakeholder who has worked with engineers for any length of time knows that "tech debt" is a synonym for "terrible code".
+
+When the team asks to deal with "tech debt", the stakeholder hears a request to give up something they actively want (the requested features), for something that has *no apparent value to them* (reducing the amount of "bad code" in the system).
+
+Many engineers have an emotional feeling that technical debt is so clearly bad, *they shouldn't have to explain why fixing it is valuable*.
+
+They shouldn't have to prove themselves to the stakeholders -- aren't they the engineers? Shouldn't they be trusted to know what good code is?
+
+Almost as if: by invoking "tech debt", they've *made an argument for value already*.
+
+This is essentially the engineers fall back on their technical authority and invoking a *moral frame*: bad code is bad because it is bad, and getting rid of it is a good thing, and you have to just trust us.
+
+Unfortunately, that kind of moral frame is a reliably terrible starting point for conversations with stakeholders.
 
 See my talk [[https://www.youtube.com/watch?v=78qzrXIPn5Q][How to Run a 5 Whys (With Humans, Not Robots)]] for more on the moral vs economic mindsets (and also for a somewhat dramatically hilarious mustache I briefly adopted in late 2012).
 
-Unfortunately, that moral frame is a reliably terrible starting point for conversations with the Rest of the Business (e.g. PM's and stakeholders).
+Such conversations will leave both sides intensely frustrated.
 
-Conversations starting from a moral frame are a) likely to be *unpleasant*, while also b) *unlikely* to generate a commitment to addressing the issues the engineers are concerned about.
+The engineers will feel like their stakeholders don't care about the horrible code they have to work with, nor the looming problems getting worse with every commit.
 
-At their worst, such conversations leave both sides intensely frustrated.
+Whereas the stakeholders will hear the engineers, *once again*, making urgent demands in service of some abstract notion of "quality". And those engineers seem just completely unaware of the pressing needs of the business, and how painful the tradeoffs would be, to slow down to address those issues.
 
-The engineers can feel like their business partners don't care about the horrible code they have to work with, nor the looming problems getting worse with every commit.
+By starting with tech debt, with its disguised form of "good" vs "bad" code, you're just inviting that kind of moral frame into the room.
 
-Whereas their business partners can hear the engineers, *once again*, making urgent demands in service of some abstract notion of "quality". And the engineers seem just completely unaware of the pressing needs of the business, and how painful the tradeoffs would be, to immediately address those issues.
+So, if talking about "tech debt" causes problems, what's the alternative?
 
-What's going on, beneath the moralized emotions?
+But once again: the engineers aren't wrong -- there are important issues that need to be dealt with, that the stakeholders are either unaware of, or not properly weighting in their thinking.
 
 ** A Better Way: Technical Investments
 ** The Fundamental Cycle
