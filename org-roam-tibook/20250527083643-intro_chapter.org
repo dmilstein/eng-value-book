@@ -222,33 +222,35 @@ Instead of technical debt, engineering leaders can challenge their teams to talk
 
 That puts the focus on the genuine problem: a *mismatch in understanding* between the engineers and their stakeholders, about what is *potentially valuable* for the business.
 
-At heart, both the engineers and the stakeholders want to create value for the business.
+At heart, the vast majority of both engineers and stakeholders want to create value for the business.
 
 They just have different information and beliefs about how best to do so.
 
-Many engineers try to resolve this gap by *explaining* the potential value: "You see, when code is badly coupled, a change in one place can impact many other places, which is a drag on development."
+Many engineers try to resolve this gap by *explaining* the potential value: "You see, when code has bad 'coupling', a change in one place can impact many other places, which is a drag on development. This is why we should spend a week refactoring."
 
-Although there's a good instinct in this -- bring the stakeholders into a shared understanding with the engineers about what is valuable -- it has one crucial flaw:
+Although there's a good instinct in this -- bringing the stakeholders into a shared understanding with the engineers about what is valuable -- it has one crucial flaw:
 
-It requires the stakeholders to take the entire statement of value purely on faith.
+It requires the stakeholders to take the entire statement of value on faith.
 
-There is nothing they can see *now*, that shows them things are "bad".
+There is nothing they can *see*, that shows them things are "bad", before the investment is made.
 
-And there will be nothing they can see, after the investment, that shows them things have gotten "better".
+And there will be nothing they can *see*, after, that shows them things have gotten "better".
 
-It's hardly surprising that the stakeholders, confronted with such a choice, feel like they are "giving something up", and "deserve something in return".
+Given that lack of visibility, it's hardly surprising that stakeholders, confronted with such a choice, often feel like they are giving something up and getting nothing in return.
 
-A better approach is to, instead, find a creative way to *build visibility* into the potential value.
+One of the core theses of this book is that engineering leaders can *build visibility* into potential value.
 
-You want a form of visibility that the engineers and their stakeholders can look at, *together* -- both when deciding what work to prioritize, and after an investment, to see if things have improved.
+That way the engineers and their stakeholders can look at something, *together* -- a shared understanding of the reality the business is currently.
+
+both when deciding what work to prioritize, and after an investment, to see if things have improved.
 
 Having that shared visibility can be an absolute game changer.
 
-Stakeholders, well, like to make decisions about what's best for the business. That's actually their job. By committing to creating visibility, you're allowing them to make good decisions.
+Stakeholders like to make decisions about what's best for the business. That's their job. By creating visibility, you're allowing them to make better decisions.
 
-With a sufficently deep understanding of how engineers create value for a business it's just about *always* possible to build visibility into potential value. This will be a major theme of this book.
+An example to bring it to life:
 
-But, for a few examples to bring it to life:
+# Change to: at a recent job, the engineers were super frustrated by
 
 Maybe the engineers are frustrated by the flaky Selenium tests that keep on stalling out their attempts to deploy the main app to production.
 
@@ -270,21 +272,21 @@ At at a recent job, we didn't have a good way to track the end-to-end times of t
 
 One afternoon, while waiting, *again*, for a deploy to finish, a very bright and very frustrated engineer threw together a spreadsheet (I think she called it "Deploy Misery") and asked all the engineers on the team to just manually log their deploy times in it.
 
-That took her about 10 minutes to do and socialize, and the engineers were plenty motivated to track their times (and had plenty of time to do so, while waiting for the tests to finally pass).
+That took her about 10 minutes to do (couting the, um, vigorous email she sent all of engineering). The engineers were plenty motivated to track their deploys... and had plenty of time to do so, while waiting for the tests to finally pass.
 
-After a few short weeks, that initial chunk of visibility made it pretty easy to convince the product team to carve out a week for that same engineer to instrument a few stages of the deploy process, so we could actually understand where time was being spent.
+After a few short weeks, the engineering manager brought that spreadsheet to the product team. Looking at how miserably long it was taking to get changes out to product, it was pretty easy to convince the product team to carve out a week for that same engineer to instrument a few key stages of the deploy process, so they could actually understand where time was being spent.
 
 Which then led to more investments, etc.
 
 It is just about always *massively cheaper* to build visibility than it is to make the full investment -- e.g. making the spreadsheet was much cheaper than instrumenting the pipeline which was itself much cheaper than overhauling the flaky tests.
 
-As this story makes clear, the very best way to run tech investments is to do them *iteratively*:
+The very best way to run tech investments is to do them *iteratively*:
 
- 1- Spend a *small* amount of time to build *some* visibility
+ 1- Spend a *small increment* of time to build *some* visibility
 
- 2- Share that increment of visibility with your stakeholders
+ 2- Share that visibility with your stakeholders
 
- 3- Together, prioritize a small investment to either visibly improve *or* to build a bit more visibility
+ 3- Together, prioritize an incremental investment to either visibly improve *or* to build the next increment of visibility
 
  4- Return to step 1
 
