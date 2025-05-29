@@ -238,51 +238,68 @@ And there will be nothing they can *see*, after, that shows them things have got
 
 Given that lack of visibility, it's hardly surprising that stakeholders, confronted with such a choice, often feel like they are giving something up and getting nothing in return.
 
-One of the core theses of this book is that engineering leaders can *build visibility* into potential value.
+One of the core theses of this book is that engineering leaders can just about always *build visibility* into potential value.
 
-That way the engineers and their stakeholders can look at something, *together* -- a shared understanding of the reality the business is currently.
+That way the engineers and their stakeholders can operate from a shared understanding of the reality of the business.
 
-both when deciding what work to prioritize, and after an investment, to see if things have improved.
+Stakeholders like to make decisions about what's best for the business. That's their job. By creating visibility, you're allowing them to make better decisions, *with* you.
 
-Having that shared visibility can be an absolute game changer.
-
-Stakeholders like to make decisions about what's best for the business. That's their job. By creating visibility, you're allowing them to make better decisions.
-
-An example to bring it to life:
-
+An example:
 # Change to: at a recent job, the engineers were super frustrated by
 
-Maybe the engineers are frustrated by the flaky Selenium tests that keep on stalling out their attempts to deploy the main app to production.
+At a recent job, the engineers were incredibly frustrated by a suite of flaky Selenium tests that keep on repeatedly stalling out their attempts to deploy the main app to production.
 
-They're not just complaining (though, don't get me wrong, the #deploy-sucks Slack channel is just a bloodbath of angry emojis)...
+(the #deploy-sucks Slack channel was just a bloodbath of angry emojis)
 
-...they're starting to batch up changes into One Big Deploy per week, to avoid dealing with the pain.
+As the marvelous book Accelerate makes clear, this is actually a bad situation *for the business*.
 
-In such a case case, you can build visibility by starting to track both:
+It's not just "annoying" for the engineers, it's *expensive* for the business -- those repeatedly failed deploys represent a constant hemorrhaging of value for the business.
 
- - The time to deploy a single change
+In such a sitaution improving "deploy lead times" is potentially very valuable.
 
- - The average number of deploys per engineer per week
+But... what was the product team's experience?
 
-(You may recognize those as two of the four golden Accelerate metrics, we'll return to those later)
+What could they *observe*?
 
-A key: you can *start small*
+Well, engineers were complaining about deploys. Kind of a lot.
 
-At at a recent job, we didn't have a good way to track the end-to-end times of the hodgepodge of jobs that had to be run for a full deploy.
+But, let's be honest, engineers are, um, kind of *always* complaining about deploys?
 
-One afternoon, while waiting, *again*, for a deploy to finish, a very bright and very frustrated engineer threw together a spreadsheet (I think she called it "Deploy Misery") and asked all the engineers on the team to just manually log their deploy times in it.
+What's more the engineers weren't able to offer any specific ideas for what to improve -- one engineer kept saying "We just need to rewrite all our Selenium tests", but that was clearly an apocalyptic amount of work.
 
-That took her about 10 minutes to do (couting the, um, vigorous email she sent all of engineering). The engineers were plenty motivated to track their deploys... and had plenty of time to do so, while waiting for the tests to finally pass.
+And the tests *did* catch the occasional very bad bug in various key legacy bits of the app, so disabling all of them was off the table.
 
-After a few short weeks, the engineering manager brought that spreadsheet to the product team. Looking at how miserably long it was taking to get changes out to product, it was pretty easy to convince the product team to carve out a week for that same engineer to instrument a few key stages of the deploy process, so they could actually understand where time was being spent.
+And so the situation was stuck.
 
-Which then led to more investments, etc.
+Then, one afternoon, while waiting for a deploy to finish, a very bright and very frustrated engineer threw together a spreadsheet (I think she called it "Deploy Misery") and asked all the engineers on the team to just manually log their deploy times in it. When did their deploy start, when did it finish, that was it.
 
-It is just about always *massively cheaper* to build visibility than it is to make the full investment -- e.g. making the spreadsheet was much cheaper than instrumenting the pipeline which was itself much cheaper than overhauling the flaky tests.
+Setting up that spreadsheet took her about 10 minutes to do (couting the, um, *vigorous* email she sent to all of engineering).
 
-The very best way to run tech investments is to do them *iteratively*:
+The engineers on the team were plenty motivated to track their deploys... and had plenty of time to do so, while waiting for the tests to finally pass.
 
- 1- Spend a *small increment* of time to build *some* visibility
+(The actual deploy process was a hodgepodge of different jobs, with engineers having to step in here and there as it ran, so it wasn't trivial to get end-to-end times from it.)
+
+After a few short weeks, the engineering manager brought that spreadsheet to the product team.
+
+Together, they looked at how miserably long it was taking to get changes out to production.
+
+At that point, it was pretty easy to convince the product team to carve out a week for an engineer to instrument the key stages of the deploy process, so they could actually understand where time was being spent.
+
+Which then led to more investments -- eventually the team identified the most flaky tests and either moved them off the main deploy path or rewrote them.
+
+That had created more clarity about where time was being spent, so they gradually removed the steps where engineers had to manually intervene.
+
+As they finished each increment of investment, they *and the product team* could see the deploy lead times gradually shrinking.
+
+After a few months the (highly non-technical!) CEO took a few minutes to proudly show off some very impressive-looking graphs of improved deploy times and deploy frequencies, *to the entire company*.
+
+I don't know if you know this, but CEO's really like to show off impressive-looking graphs. We'll talk more about this in "Leverage the Dark Art of "Metrics" In Your Favor".
+
+We'l also talk about using the power of storytelling to help your stakeolders experience these as "their" wins -- which makes them enormously more ready to commit to further investments.
+
+As above, the very best way to run tech investments is to do them *iteratively*:
+
+ 1- Spend a *small increment* of effort to build *some* visibility
 
  2- Share that visibility with your stakeholders
 
@@ -290,28 +307,28 @@ The very best way to run tech investments is to do them *iteratively*:
 
  4- Return to step 1
 
+It is just about always *massively cheaper* to build visibility than it is to make the full investment -- e.g. making the spreadsheet was much cheaper than instrumenting the pipeline which was itself much cheaper than overhauling the flaky tests.
 
 
 
+# There are two separate challenges with bringing stakeholders along:
 
-There are two separate challenges with bringing stakeholders along:
+#  - Helping them *understand* the potential value
 
- - Helping them *understand* the potential value
+#  - Making it possible for them to *see* the potential value
 
- - Making it possible for them to *see* the potential value
+# That second one is profoundly powerful -- it allows you to convert from the "just trust us" moral argument to a collaborative review of a *shared view of reality*.
 
-That second one is profoundly powerful -- it allows you to convert from the "just trust us" moral argument to a collaborative review of a *shared view of reality*.
+# Exploring that defintion leads to the fundamental "technical investment cycle":
 
-Exploring that defintion leads to the fundamental "technical investment cycle":
+#  - Collect a set of issues the engineers are worried about or frustrated by
 
- - Collect a set of issues the engineers are worried about or frustrated by
+#  - For each, turn it into a statement of potential value
 
- - For each, turn it into a statement of potential value
+# (it's a repeated cycle, not a one-time thing -- companies are constantly deciding how and what to next invest in, it's not a one-time "cleaning up of technical debt" or "paying off a loan")
+# Thus, a profoundly powerful trick is to start by *building visibility* -- something that the stakeholders and engineers can both *see* in the same way.
 
-(it's a repeated cycle, not a one-time thing -- companies are constantly deciding how and what to next invest in, it's not a one-time "cleaning up of technical debt" or "paying off a loan")
-Thus, a profoundly powerful trick is to start by *building visibility* -- something that the stakeholders and engineers can both *see* in the same way.
-
-Usually, it's several orders of magnitude cheaper to build such visibility, than it is to execute on the actual work.
+# Usually, it's several orders of magnitude cheaper to build such visibility, than it is to execute on the actual work.
 
 To bring the two sides together, engineering leaders must develop a deep understanding of how engineers can create value for a business.
 
@@ -324,6 +341,7 @@ Engineering leaders also have to be willing to *educate* their business peers --
 That requires a steady building of trust, which we'll talk about in part 2 - Scaling Up.
 
 ** What If My Stakeholders Don't Care About Engineering?
+
 But wait, I can hear many of you saying, I don't know what delusional hippies you've worked with Dan, but you've apparently never met my stakeholders. They just don't care about quality at all, and there's no way I can make them.
 
 First off, I also don't care about quality! (I joking-not-joking forbid discussions of quality on my teams).
@@ -354,6 +372,6 @@ Again, I'm not going to lie. There are some engineers who truly don't care about
 
 But the vast majority of engineers are, in my experience, profoundly motivated to *solve problems*.
 
-The rest of this book is going to explore a slew of ways to point them at the fascinating, profoundly difficult problem of creating as much value for the business as possible.
+The rest of this book is going to explore a slew of ways to point them at the fascinating, profoundly challenging problem of creating as much value for the business as possible.
 
 Let's go!
