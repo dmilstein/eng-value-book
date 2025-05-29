@@ -216,16 +216,97 @@ So, if talking about "tech debt" causes problems, what's the alternative?
 
 ** Talk Instead About "Technical Investments"
 
-Instead of technical debt, I believe engineering leaders should challenge their teams to talk about *technical investments*, which I define as:
+Instead of technical debt, engineering leaders can challenge their teams to talk about *technical investments*, which we'll define as:
 
-/Something that the engineers believe is *valuable for the business*, but that *no one is asking for*./
+/Work the engineers believe is *valuable for the business*, but that *no one is asking for*./
 
-That focuses on the genuine problem: a *mismatch in understanding* between the engineers and their business or product counterparts, about what is potentially valuable for the business.
+That puts the focus on the genuine problem: a *mismatch in understanding* between the engineers and their stakeholders, about what is *potentially valuable* for the business.
 
-This assumes that, at heart, both the engineers and the stakeholders *want to create value for the business*.
+At heart, both the engineers and the stakeholders want to create value for the business.
 
 They just have different information and beliefs about how best to do so.
 
+Many engineers try to resolve this gap by *explaining* the potential value: "You see, when code is badly coupled, a change in one place can impact many other places, which is a drag on development."
+
+Although there's a good instinct in this -- bring the stakeholders into a shared understanding with the engineers about what is valuable -- it has one crucial flaw:
+
+It requires the stakeholders to take the entire statement of value purely on faith.
+
+There is nothing they can see *now*, that shows them things are "bad".
+
+And there will be nothing they can see, after the investment, that shows them things have gotten "better".
+
+It's hardly surprising that the stakeholders, confronted with such a choice, feel like they are "giving something up", and "deserve something in return".
+
+A better approach is to, instead, find a creative way to *build visibility* into the potential value.
+
+You want a form of visibility that the engineers and their stakeholders can look at, *together* -- both when deciding what work to prioritize, and after an investment, to see if things have improved.
+
+Having that shared visibility can be an absolute game changer.
+
+Stakeholders, well, like to make decisions about what's best for the business. That's actually their job. By committing to creating visibility, you're allowing them to make good decisions.
+
+With a sufficently deep understanding of how engineers create value for a business it's just about *always* possible to build visibility into potential value. This will be a major theme of this book.
+
+But, for a few examples to bring it to life:
+
+Maybe the engineers are frustrated by the flaky Selenium tests that keep on stalling out their attempts to deploy the main app to production.
+
+They're not just complaining (though, don't get me wrong, the #deploy-sucks Slack channel is just a bloodbath of angry emojis)...
+
+...they're starting to batch up changes into One Big Deploy per week, to avoid dealing with the pain.
+
+In such a case case, you can build visibility by starting to track both:
+
+ - The time to deploy a single change
+
+ - The average number of deploys per engineer per week
+
+(You may recognize those as two of the four golden Accelerate metrics, we'll return to those later)
+
+A key: you can *start small*
+
+At at a recent job, we didn't have a good way to track the end-to-end times of the hodgepodge of jobs that had to be run for a full deploy.
+
+One afternoon, while waiting, *again*, for a deploy to finish, a very bright and very frustrated engineer threw together a spreadsheet (I think she called it "Deploy Misery") and asked all the engineers on the team to just manually log their deploy times in it.
+
+That took her about 10 minutes to do and socialize, and the engineers were plenty motivated to track their times (and had plenty of time to do so, while waiting for the tests to finally pass).
+
+After a few short weeks, that initial chunk of visibility made it pretty easy to convince the product team to carve out a week for that same engineer to instrument a few stages of the deploy process, so we could actually understand where time was being spent.
+
+Which then led to more investments, etc.
+
+It is just about always *massively cheaper* to build visibility than it is to make the full investment -- e.g. making the spreadsheet was much cheaper than instrumenting the pipeline which was itself much cheaper than overhauling the flaky tests.
+
+As this story makes clear, the very best way to run tech investments is to do them *iteratively*:
+
+ 1- Spend a *small* amount of time to build *some* visibility
+
+ 2- Share that increment of visibility with your stakeholders
+
+ 3- Together, prioritize a small investment to either visibly improve *or* to build a bit more visibility
+
+ 4- Return to step 1
+
+
+
+
+
+There are two separate challenges with bringing stakeholders along:
+
+ - Helping them *understand* the potential value
+
+ - Making it possible for them to *see* the potential value
+
+That second one is profoundly powerful -- it allows you to convert from the "just trust us" moral argument to a collaborative review of a *shared view of reality*.
+
+Exploring that defintion leads to the fundamental "technical investment cycle":
+
+ - Collect a set of issues the engineers are worried about or frustrated by
+
+ - For each, turn it into a statement of potential value
+
+(it's a repeated cycle, not a one-time thing -- companies are constantly deciding how and what to next invest in, it's not a one-time "cleaning up of technical debt" or "paying off a loan")
 Thus, a profoundly powerful trick is to start by *building visibility* -- something that the stakeholders and engineers can both *see* in the same way.
 
 Usually, it's several orders of magnitude cheaper to build such visibility, than it is to execute on the actual work.
