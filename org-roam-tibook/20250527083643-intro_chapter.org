@@ -128,95 +128,89 @@ The first step is to *stop talking about technical debt.*
 
 ** Avoid the "Tech Debt" Metaphor
 
-I believe that, although "technical debt" started as a useful metaphor about economic tradeoffs, it has, over time, largely devolved into a shorthand for *"bad" code*.
+I believe that, although "technical debt" started as a useful metaphor about economic tradeoffs, it has, over time, devolved into a shorthand for *bad code*.
 
 As in, when engineers think, talk and argue about "tech debt", they're thinking, talking and arguing about the very worst, most horrifying code in their codebases.
 
-There are two reasons why this causes problems.
+Why is that a problem?
 
-First, by only thinking about *existing bad code*, the engineers miss a vast set of opportunties for improvements.
+Starting with a focus on "bad code" is problematic for *both* of the two key conversations engineering leaders need to have:
 
-Over and over in my career, I've seen engineers propose and then deliver incredibly valuable work that involved writing *new code*.
+First, the conversation with the engineers about what work to prioritize (aka, a conversation where the enginering leader is *identifying* potentially valuable work)
 
-And, pretty often that meant writing *more bad code* (of course, no one called it "bad" -- we called it "scrappy" or "pragmatic").
+Second, the conversation with stakeholders about why that work is worth doing (aka, a conversation where the engineering leader is *advocating* for the work).
 
-Those opportunities just don't come up much, when you start the conversation by talking about "technical debt".
+Let's take each of those in turn, and see why "bad code" causes problems.
 
-# I could show you bash scripts that would make your eyes bleed, but that were just insanely valuable.
+*** "Tech Debt" Considered Harmful, Part I - With Engineers
 
-# E.g. the junior engineer who hacked something together over the weekend to log stack traces from failed deploys, or the senior engineer who bargained for enough time from their PM to jury-rig a hacky testing framework that stubbed out the entire OS layer, or the engineer who threw together a UI to allow members of the ops team to clean up failed shipments, so that the engineers could stop spending all their time executing SQL queries against production.
+First, when engineers use the frame of "tech debt" to talk about bad code, they are *necessarily* thinking about the *existing* code.
 
-E.g. the junior engineer who hacked something together over the weekend to log stack traces from failed deploys... which saved hours and hours of fruitless debugging and ultimately sped up deploys enormously.
+They are therefore *not* thinking about opportunities to write *new* code, to cover gaps in operations or reduce risks of various kinds.
 
-Or the senior engineer who bargained for enough time from their PM to jury-rig a hacky testing framework that stubbed out the entire OS layer... which allowed the team to finally write tests to cover the weird network errors that kept tripping them up.
+But such opportunities often represent some of *the most valuable work the engineers could be doing*.
 
-Or the engineer who threw together a UI to allow members of the ops team to clean up failed shipments, so that the engineers could stop spending all their time executing SQL queries against production.
+Below are some example I've seen, where engineers identified incredibly valuable work that involved writing new code (and, often, new, scrappy code aka... *new* bad code):
 
-Note, carefully: *none of the above efforts "retired tech debt"*.
+# Footnote: I could show you bash scripts that would make your eyes bleed, but that were just insanely valuable.
 
-The problems addressed -- unreliable deploys, blind spots in testing, repetitive operational work -- aren't the kinds of things most engineers think of when you're talking about "tech debt".
+A junior engineer who hacked something together to log stack traces from failed deploys... which saved hours and hours of fruitless debugging and ultimately sped up deploys enormously.
 
-The above efforts helped deal with *gaps* that the engineers were painfully aware of.
+A senior engineer who bargained for enough time from their PM to jury-rig a hacky testing framework that stubbed out the entire OS layer... which allowed the team to finally write tests to cover the weird network errors that kept tripping them up.
 
-Crucially, those gaps represent *genuine problems* for their businesses.
+An engineer who threw together a UI to allow members of the ops team to clean up failed shipments, so that the engineers could stop spending all their time executing SQL queries against production.
 
-In later chapters, we'll explore how such gaps aren't just *annoying* to the engineers, they are in fact *expensive* for the business.
+None of the above efforts "retired tech debt", by any stretch of the imagination.
 
-And thus, dealing with such problems is a chance to *create value* for the business.
+The problems addressed -- unreliable deploys, blind spots in testing, repetitive operational work -- aren't the kinds of things most engineers think of when you start with "tech debt".
 
-Unfortunately, engineers rarely identify and advocate for such forms of value, when they're thinking about "tech debt".
+But, engineering leaders should *want* their teams to identify and prioritize such opportunities -- because they are so incredibly valuable.
 
-So, that's the first reason to not use the metaphor -- because it tends to focus on too narrow a kind of potential improvement.
+So, that's the first reason to not use the metaphor -- it focuses on far too narrow a set of potential improvements.
 
-The second is a bit more subtle, and has to do with the conversations you'll get into with your stakeholders.
+The second is a bit more subtle, and has to do with the conversation with stakeholders.
 
-*** Lo, Let Us See This From the Stakeholder's Perspective
+*** "Tech Debt" Considered Harmful, Part II - With Stakeholders
 
 Any stakeholder who has worked with engineers for any length of time knows about "tech debt".
 
-When the team asks for time to deal with "tech debt", the stakeholder hears a request to give up something they actively want (the requested features), for something that will create *no visible value* (reducing the amount of "bad code" in the system).
+When an engineering leader advocates for time to deal with "tech debt", the stakeholder hears a request to give up something they actively want (the requested features), for something that will create *no visible value* ("better code").
 
-The stakeholder does not, in general, experience it as an economic argument where they'll get something they understand as valuable in return for what they're giving up.
+Because tech debt has become a way to talk about "bad code", most engineering leaders *will not try to make that value more visible*.
 
-This is in part because some engineers have strong emotions about how bad the technical debt is (again, because they're talking about "bad code")
+Instead, they'll feel like, by citing "tech debt", they've *done their job* -- everyone knows that tech debt is bad, and you have to spend some time on it, and now is that time.
 
-They'll sometimes feel like *they shouldn't have to explain why fixing bad code is valuable*.
+But pushing stakeholders to give up time in order to work on something which is totally invisible to them has very negative long-term consequences.
 
-# Maybe, combined with frustrations over not being able to do what they perceive as important..
+It means you're not able to enter into a *collaborative economic discussion*, about what's best for the business -- which is how the best decisions are going to be made.
 
-They might say or feel:
+Instead, when the engineers fall back on their technical authority, they are essentially saying:
 
-Why should they have to *prove themselves* to the stakeholders?
-
-Shouldn't they be *trusted* to know what good code is? Isn't that their job?
-
-When engineers fall back on their technical authority like this, they are essentially saying:
-
-/Bad code is bad because it is bad, and getting rid of it is an inherently good thing, and you have to just trust us./
+/Bad code is bad *because* it is bad, and getting rid of it is an inherently good thing, and you have to just trust me./
 
 A student of human nature would say that they are framing this as *moral decision* -- a question of right vs wrong.
 
 Unfortunately, that kind of moral framing is a reliably terrible starting point for conversations with stakeholders.
 
-Both sides will usually exit such conversations feeling very frustrated.
+It usually leads to engineers getting extremely frustrated, ala:
 
-# TODO open this up a bit, play out the convo, even if it gets to a one-time agreement, it's a concession, etc.
+"Why should I have to *prove* that fixing bad code is important? Shouldn't I be *trusted* to know what high quality code is? Isn't that my *job*?"
 
-# See my talk [[https://www.youtube.com/watch?v=78qzrXIPn5Q][How to Run a 5 Whys (With Humans, Not Robots)]] for more on the moral vs economic mindsets (and also for a somewhat dramatically hilarious mustache I briefly adopted in late 2012).
+But it *also* leads to stakeholders getting extremely frustrated, ala:
 
-The engineers, even if they extract some amount of time to work on the issues they're worried about, will feel like their stakeholders don't care about the horrible code they have to work with, nor the looming problems getting worse with every commit.
+"Do the engineers have *any idea* how this business actually works? Am I supposed to care about some abstract notion of code quality when we're hemorrhaging customers? We can worry about code quality *later*, I'm definitely pushing back right now."
 
-The stakeholders, even if most of the engineering capacity is still devoted to the features they're want, will experience the engineers as just completely unaware of the pressing needs of the business, and of the very real costs of slowing down. They will be girding themselves to push back the next time the engineers make their urgent demands in service of an abstract notion of "quality".
+This is how you end up with bitterly fought over, narrowly-scoped "tech debt projects"... that don't end up having much impact, but do leave both sides seething with resentment.
 
-By starting with tech debt, with its underpinnings of "good" vs "bad" code, you're just inviting the moral frame and the resulting oppositional arguments.
+The engineering leader finds themselves caught between the two sides, making both unhappy.
 
-The poor engineering leader will find themselves caught between the two sides, making both unhappy.
+Iif talking about "tech debt" causes problems, what's the alternative? Are engineers and stakeholders just doomed to not get along?
 
-So, if talking about "tech debt" causes problems, what's the alternative?
+Nope! There is, in fact, a better way.
 
 ** Talk Instead About "Technical Investments"
 
-Instead of technical debt, engineering leaders can challenge their teams to talk about *technical investments*, which we'll define as:
+Instead of technical debt, engineering leaders can ask their teams *and* stakeholders talk about *technical investments*, which are defined as:
 
 /Work the engineers believe is *valuable for the business*, but that *no one is asking for*./
 
@@ -238,64 +232,141 @@ And there will be nothing they can *see*, after, that shows them things have got
 
 Given that lack of visibility, it's hardly surprising that stakeholders, confronted with such a choice, often feel like they are giving something up and getting nothing in return.
 
-One of the core theses of this book is that engineering leaders can just about always *build visibility* into potential value.
+One of the core theses of this book is that engineering leaders can *build visibility* into potential value.
 
-That way the engineers and their stakeholders can operate from a shared understanding of the reality of the business.
+It is *massively cheaper* to build such visibility than it is to make the full investment.
 
-Stakeholders like to make decisions about what's best for the business. That's their job. By creating visibility, you're allowing them to make better decisions, *with* you.
+Once there is visibility, the engineers and their stakeholders can look at it, together, and operate from a shared understanding of the reality of the business.
 
-An example:
-# Change to: at a recent job, the engineers were super frustrated by
+If the engineering team can then offer disciplined, incremental steps to gradually (and visibly) improve things (including improving the depth and reach of the visibility), the can build real trust with stakeholders over time.
 
-At a recent job, the engineers were incredibly frustrated by a suite of flaky Selenium tests that keep on repeatedly stalling out their attempts to deploy the main app to production.
+That then allows them to "lever up" from small initial investments to, sometimes, very  major, transformative investments.
 
-(the #deploy-sucks Slack channel was just a bloodbath of angry emojis)
+The best way to do that is not as a one-off project an engineering leader puts all their authority on the line for (ugh, I've done that so many times, and never seen great results), but instead, a series of *tech investment cycles*, each of which generates visibility and options.
 
-As the marvelous book Accelerate makes clear, this is actually a bad situation *for the business*.
+All in partnership, not opposition, with stakeholders.
 
-It's not just "annoying" for the engineers, it's *expensive* for the business -- those repeatedly failed deploys represent a constant hemorrhaging of value for the business.
+** What If My Stakeholders Don't Care About Engineering?
 
-In such a sitaution improving "deploy lead times" is potentially very valuable.
+But wait, I can hear many of you saying, I don't know what delusional hippies you've worked with Dan, but you've apparently never met my stakeholders.
+
+They absolutely refuse to talk about *anything* except the features they are demanding. I've tried to get them to understand technical challenges or limitations and they just reject that discussion outright.
+
+This can be a real challenge.
+
+However, in my experience the vast majority of cases of stakeholders genuinely want the business to succeed -- and they see a core part of their job as *making good decisions* in service of that goal.
+
+If you follow the game plan in this book, you'll be offering your stakeholders something they will love -- decisions where they will have a combination of meaningful *visibility* with meaningful *control*.
+
+And you'll do so in a way which steadily builds trust and rapport.
+
+# Move the below into a footnote
+Look, I'm not going to lie: there *are* business leaders who will only ever of their relationship with engineering as one of extracting "commitments", and then holding the engineers "accountable". They don't want to "worry about the details".
+
+Unfortunately for them, the whole commitments / accountability / shame thing is an *objectively bad interface* with an engineering team.
+
+If you're stuck in this situation, and have no luck gradually building trust and moving to a collaborative relationship... I dunno, you might need to find a new job before some chickens come home to roost?
+
+
+** What If My Engineers Don't Care About the Business?
+
+This overall approach does assume that the engineers care about "creating value for the business".
+
+The vast majority of engineers are, in my experience, profoundly motivated to *solve problems*.
+
+The rest of this book is going to explore a slew of ways to point engineers at the fascinating, profoundly challenging problem of *creating as much value for a business as possible*.
+
+# Footnote the below
+
+Again, I'm not going to lie. There are some engineers who truly don't care about the businesses they work in, and only want to pad their resume with cutting-edge technologies or impress other engineers with the clever complexity of the code they write.
+
+Maybe don't hire those engineers? That's the subject of another book.
+
+** A Few Tech Investment Cycles
+
+At a recent job, the engineers had grown incredibly frustrated by deploying the legacy app to production.
+
+The deploy process was a hodgepodge of different jobs, some of which ran automatically, some of which engineers had to step in to kick off after the previous one completed.
+
+It had everyone's favorite feature of a deploy pipeline: slow from-scratch rebuilds of containers; a giant suite of poorly-maintained Selenium tests that were flaky and unreliable; jobs that failed with cryptic error messages that required contacting the most senior engineer and/or sacrificing a goat to resolve.
+
+The #deploy-sucks Slack channel was a constant firestorm of angry emojis.
+
+First, a key fact: this situation is not just "annoying" for the engineers.
+
+It's hideously *expensive* for the business
+
+As the marvelous book Accelerate makes clear, the ability for engineers to make frequent, fast, safe deploys is *extremely valuable* for a software business.
+
+Thus, improving deploy could have been *very* valuable.
 
 But... what was the product team's experience?
 
 What could they *observe*?
 
-Well, engineers were complaining about deploys. Kind of a lot.
+Well, development felt slow. But, development *always* felt slow. And there were plenty of other suspects.
 
-But, let's be honest, engineers are, um, kind of *always* complaining about deploys?
+Also, engineers were complaining about deploys. Kind of a lot.
 
-What's more the engineers weren't able to offer any specific ideas for what to improve -- one engineer kept saying "We just need to rewrite all our Selenium tests", but that was clearly an apocalyptic amount of work.
+But, most product teams experience engineers as *always* complaining about deploys. So this didn't really stand out.
 
-And the tests *did* catch the occasional very bad bug in various key legacy bits of the app, so disabling all of them was off the table.
+What's more, the engineers, when asked, *weren't* able to offer any specific ideas for what to improve -- it was such a mess, it wasn't clear where to start.
+
+One engineer kept saying "We just need to rewrite all our Selenium tests to use WebRobot", but that was clearly an apocalyptic amount of work.
 
 And so the situation was stuck.
 
-Then, one afternoon, while waiting for a deploy to finish, a very bright and very frustrated engineer threw together a spreadsheet (I think she called it "Deploy Misery") and asked all the engineers on the team to just manually log their deploy times in it. When did their deploy start, when did it finish, that was it.
+Then, one afternoon, while waiting for a deploy to finish, a very bright and very frustrated engineer threw together a spreadsheet (she called it "Deploy Misery") and asked all the engineers on the team to just *manually* log their deploy times in it. They would fill in one column when they started the first in the series of jobs, and then another when the final one finished up.
 
-Setting up that spreadsheet took her about 10 minutes to do (couting the, um, *vigorous* email she sent to all of engineering).
+This was a technical investment!
+
+It's the cheapest kind -- an "on-the-side" project, where the engineers don't specifically advocate with the product team (later, we'll talk about The Various Scopes of Investment, when to use which and how).
+
+How cheap?
+
+Setting up that spreadsheet took the engineer about 10 minutes (counting the *extremely vigorous* email she sent to all of engineering).
 
 The engineers on the team were plenty motivated to track their deploys... and had plenty of time to do so, while waiting for the tests to finally pass.
 
-(The actual deploy process was a hodgepodge of different jobs, with engineers having to step in here and there as it ran, so it wasn't trivial to get end-to-end times from it.)
+That spreadsheet *created visibility*. Just a bit to start.
 
-After a few short weeks, the engineering manager brought that spreadsheet to the product team.
+After a few short weeks, the engineering manager brought the spreadsheet to the product team.
 
-Together, they looked at how miserably long it was taking to get changes out to production.
+Together, they looked at how long it was taking to get changes out to production -- and discovered that, on occasion, there were so many repeated failures, it took more than a day to get something out.
 
-At that point, it was pretty easy to convince the product team to carve out a week for an engineer to instrument the key stages of the deploy process, so they could actually understand where time was being spent.
+At that point, it wasn't hard for the engineering manager to convince the product team to carve out a week for one engineer to instrument the key stages of the deploy process, so they could better understand what the hell was going on (this is what I call the "Ticket" scope).
 
-Which then led to more investments -- eventually the team identified the most flaky tests and either moved them off the main deploy path or rewrote them.
+Thus, a few weeks later, they were looking together at a clearer picture of both overall trends, times and failure rates in various internal stages.
 
-That had created more clarity about where time was being spent, so they gradually removed the steps where engineers had to manually intervene.
+The flaky Selenium tests proved to be the worst culprit, and unfortunately, there was no simple fix.
 
-As they finished each increment of investment, they *and the product team* could see the deploy lead times gradually shrinking.
+The engineering manager made a case for a carefully time-boxed, few week-long effort by a couple of engineers, to inventory all the tests, come up with options, share those back and then execute on one (this is "Project" scope).
 
-After a few months the (highly non-technical!) CEO took a few minutes to proudly show off some very impressive-looking graphs of improved deploy times and deploy frequencies, *to the entire company*.
+The PM and engineering manager worked together to find a time to do this -- they both knew a big chunk of work on the legacy part of the app was coming, and were *both* motivated to get deploy improvements in before it landed.
 
-I don't know if you know this, but CEO's really like to show off impressive-looking graphs. We'll talk more about this in "Leverage the Dark Art of "Metrics" In Your Favor".
+When the engineers did this work, they collaborated with the product team to understand which features they most wanted to retain coverage over, which areas were okay to orphan for now, etc. They ended up deleting a big set of tests which were no long needed. They then moved the remaining flaky-but-sometimes-valuable ones off the main deploy pipeline (so it only ran for a small subset of deploys that touched certain parts of the product).
 
-We'l also talk about using the power of storytelling to help your stakeolders experience these as "their" wins -- which makes them enormously more ready to commit to further investments.
+That immediately (and visibly!) made almost all deploys much faster.
+
+The engineers, the engineering manager and the product team could all *see* that improvement on the graphs of average deploy time that were now being generated.
+
+For a few more months the team kept steadily improving the deploy process, in parallel with a great deal of feature work. Sometimes it was just a ticket here or there, sometimes an engineer would drop off the main sprint for a week or even a month and just focus on some specific challenge.
+
+Eventually, the deploys got fast and reliable enough that, by common agreement, the pace of investment in this specific area slowed.
+
+Then, something marvelous happened: the site suffered a major outage!
+
+In the course of resolving it, the team was able to rapidly release a series of changes, first to diagnose and then to fix the underlying issue.
+
+When the engineering manager wrote up the post-mortem notes, she took time to call out how the fast, reliable deploys had saved their collective butts.
+
+She then made a point of sharing that story with both the product team and executive leadership.
+
+Which eventually led to the company's (highly non-technical!) CEO beaming with pride at a company All Hands as that engineering manager told *the entire company* that story, and then walked them all through some very impressive-looking graphs of improved deploy times.
+
+I don't know if you know this, but CEO's really like impressive-looking graphs. We'll talk more about this in "Leverage the Dark Art of "Metrics" In Your Favor".
+
+We'l also talk about using the power of storytelling to help your stakeolders experience these as "their" wins -- which is what the engineering manager above did.
 
 As above, the very best way to run tech investments is to do them *iteratively*:
 
@@ -306,9 +377,6 @@ As above, the very best way to run tech investments is to do them *iteratively*:
  3- Together, prioritize an incremental investment to either visibly improve *or* to build the next increment of visibility
 
  4- Return to step 1
-
-It is just about always *massively cheaper* to build visibility than it is to make the full investment -- e.g. making the spreadsheet was much cheaper than instrumenting the pipeline which was itself much cheaper than overhauling the flaky tests.
-
 
 
 # There are two separate challenges with bringing stakeholders along:
@@ -339,39 +407,3 @@ Engineering leaders also have to be willing to *educate* their business peers --
 # Eh, this isn't quite right.
 
 That requires a steady building of trust, which we'll talk about in part 2 - Scaling Up.
-
-** What If My Stakeholders Don't Care About Engineering?
-
-But wait, I can hear many of you saying, I don't know what delusional hippies you've worked with Dan, but you've apparently never met my stakeholders. They just don't care about quality at all, and there's no way I can make them.
-
-First off, I also don't care about quality! (I joking-not-joking forbid discussions of quality on my teams).
-
-But maybe what you're saying is: if you try to offer your stakeholder a tradeoff, where pursuing features now has a cost later that they have to sign up for, they reject that discussion.
-
-I'm not going to lie -- there *are* some business leaders who are just profoundly unwilling to face tradeoffs, and worse, take pride in doing so. Such leaders think of their relationship with engineering as one of extracting "commitments", and then holding the engineers "accountable".
-
-But here's the thing: the whole commitments/accountability/shame thing is an *objectively bad interface* with an engineering team.
-
-Like, it's not just unpleasant, it will consistently lead to bad business outcomes.
-
-In the vast majority of cases, stakeholders, well, want the business to succeed
-
-(if they just want to advance their own career by showing they can crack the whip on engineers... you might need to find a new job).
-
-If you follow the game plan in this book, you'll be offering your stakeholders something they will love -- a combination of meaningful *visibility* with meaningful *control*.
-
-And you'll do so in a way which steadily builds trust and rapport.
-
-** What If My Engineers Don't Care About the Business?
-
-This overall approach does assume that the engineers care about "creating value for the business".
-
-Again, I'm not going to lie. There are some engineers who truly don't care about the businesses they work in, and only want to pad their resume with cutting-edge technologies or impress other engineers with the clever complexity of the code they write.
-
-# Footnote: maybe don't hire those engineers? That's the subject of another book.
-
-But the vast majority of engineers are, in my experience, profoundly motivated to *solve problems*.
-
-The rest of this book is going to explore a slew of ways to point them at the fascinating, profoundly challenging problem of creating as much value for the business as possible.
-
-Let's go!
