@@ -22,8 +22,13 @@ CLOSED: [2025-05-31 Sat 09:25]
 CLOSED: [2025-05-31 Sat 09:25]
 ** DONE Generate the prompt plan from the spec
 CLOSED: [2025-05-31 Sat 09:25]
-** TODO Review the prompt_plan
-** TODO Review the todo.md
+** DONE Review the prompt_plan
+CLOSED: [2025-05-31 Sat 20:24]
+** DONE Review the todo.md
+CLOSED: [2025-05-31 Sat 20:24]
+** TODO Blargh, it can't run tests, pyenv issues again
+** TODO I'm stopping partway through step 2
+** TODO Also: need to check the files
 ** TODO Spike on Claude Artifacts
 ** Anthropic Claude Setup
 I've got access to the *console*, not the vanilla *product*?

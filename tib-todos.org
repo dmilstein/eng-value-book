@@ -23,42 +23,8 @@ Oh, because org-level-4 inherits from outline-4 which inherits from font-lock-co
 (set-face-foreground org-level-4 "darkgreen")
 ** TODO Spike: use Deep Research on Author Platform target sites
 Have a conversation about what I want, then ask it to summarize the kinds of places, types of postings, etc.
-* Table of Contents                               :gtasks:
-** TODO Spike on ToC reorg - part II = stakeholder mgmt
-* [[id:49435FCD-0590-44DE-8FC7-585E7BCC8BB2][Tooling]]                                         :gtasks:
-** TODO Spike on python script to render outline w/ wordcounts :curweek:
-Strip comments, etc
-
-And also on something to watch the directory for changes, re-run that and auto-update a webpage.
-* [[id:47FF75F6-17DB-4E36-950D-F7CFAFA950EA][Intro Chapter]]                                   :gtasks:curweek:
-** DONE Finish first draft of Intro chapter
-CLOSED: [2025-05-28 Wed 16:14]
-** DONE Try wedging in the visibility as fundamental hack :pom:
-CLOSED: [2025-05-29 Thu 11:30]
-** DONE Also add the idea of making it a cyclical thing that you lever up
-CLOSED: [2025-05-29 Thu 11:30]
-** DONE Adjust the two problems w/ Tech Debt to be about the conversations :pom:
-CLOSED: [2025-05-30 Fri 09:11]
-It leads to the wrong conversations, for two reasons.
-
-And this is all about the conversations you're going to have.
-
-The first conversation is with your engineers.
-
-The second conversation is with your stakeholders.
-** DONE Revise convo w/ Stakeholders to focus more on visibility :curweek:pom:
-CLOSED: [2025-05-30 Fri 18:32]
-Move moral to a footnote?
-** DONE For the deploy story, have the engineers tell the story at all hands :curweek:pom:
-CLOSED: [2025-05-30 Fri 18:32]
-And the non-technical CEO glowing with pride or clapping enthusiastically, so I'm showing the act of storytelling by the engineers
-** DONE Spike on final thing to wrap it up
-CLOSED: [2025-05-30 Fri 18:32]
-** DONE Spike on moving why/why ahead of examples :curweek:
-CLOSED: [2025-05-30 Fri 18:32]
-** DONE Spike on moving what if/what if earlier?  :curweek:
-CLOSED: [2025-05-30 Fri 18:32]
-Before the story/example
+** TODO Spike: display links in org refile targets
+** TODO Is it Ladder of Commitment or Ladder of Investment?
 * Tech Invest Book                                :gtasks:
 ** DONE Break out todos from author platform email to EWJ :pom:
 CLOSED: [2025-05-27 Tue 08:01]
@@ -95,8 +61,14 @@ In [[id:77C90CB8-9DA8-48D7-B534-2C448F34D489][Blog Topics]] I have a reasonable 
 CLOSED: [2025-05-26 Mon 13:54]
 ** DONE Email Edmund: what I have/have not taught
 CLOSED: [2025-05-26 Mon 11:08]
+* Table of Contents                               :gtasks:
+** TODO Spike on ToC reorg - part II = stakeholder mgmt
+* [[id:49435FCD-0590-44DE-8FC7-585E7BCC8BB2][Tooling]]                                         :gtasks:
+** TODO Spike on python script to render outline w/ wordcounts :curweek:
+Strip comments, etc
 
-* Teach/Coach                                     :gtasks:
+And also on something to watch the directory for changes, re-run that and auto-update a webpage.
+* [[id:49E66E86-CE83-447E-87C2-3BFF3D8FE42E][Teach/Coach]]                                     :gtasks:
 ** DONE Write template w/ offer to teach Part II  :curweek:pom:
 CLOSED: [2025-05-27 Tue 08:21]
 ** DONE Refine/sort list of people I could reach out to :curweek:pom:
@@ -121,3 +93,38 @@ which says "This is a place that I'll share ideas I'm working out for an upcomin
 ** TODO Map out the dumbest possible posting calendar
 ** TODO Build some basic habit + tooling around it
 E.g. post 3-5 times/week, set up some org file that has the postings collected, and some script that uploads them for me. So it's just feeding a hopper, nothing I keep on my day-to-day todo list
+* [[id:47FF75F6-17DB-4E36-950D-F7CFAFA950EA][Intro Chapter]]                                   :gtasks:curweek:
+** DONE Finish first draft of Intro chapter
+CLOSED: [2025-05-28 Wed 16:14]
+** DONE Try wedging in the visibility as fundamental hack :pom:
+CLOSED: [2025-05-29 Thu 11:30]
+** DONE Also add the idea of making it a cyclical thing that you lever up
+CLOSED: [2025-05-29 Thu 11:30]
+** DONE Adjust the two problems w/ Tech Debt to be about the conversations :pom:
+CLOSED: [2025-05-30 Fri 09:11]
+It leads to the wrong conversations, for two reasons.
+
+And this is all about the conversations you're going to have.
+
+The first conversation is with your engineers.
+
+The second conversation is with your stakeholders.
+** DONE Revise convo w/ Stakeholders to focus more on visibility :curweek:pom:
+CLOSED: [2025-05-30 Fri 18:32]
+Move moral to a footnote?
+** DONE For the deploy story, have the engineers tell the story at all hands :curweek:pom:
+CLOSED: [2025-05-30 Fri 18:32]
+And the non-technical CEO glowing with pride or clapping enthusiastically, so I'm showing the act of storytelling by the engineers
+** DONE Spike on final thing to wrap it up
+CLOSED: [2025-05-30 Fri 18:32]
+** DONE Spike on moving why/why ahead of examples :curweek:
+CLOSED: [2025-05-30 Fri 18:32]
+** DONE Spike on moving what if/what if earlier?  :curweek:
+CLOSED: [2025-05-30 Fri 18:32]
+Before the story/example
+* [[id:71B164B6-0AB2-4FDE-B51E-71870F553C67][The TI Cycle]]                                    :gtasks:curweek:
+** DONE Rough draft of the overall cycle          :pom:
+CLOSED: [2025-06-01 Sun 08:51]
+** DONE Wedge in my example of that without reading it :pom:
+CLOSED: [2025-06-01 Sun 08:51]
+* [[id:D901A4C9-885B-4F42-8B8D-3595616857E8][Visibilty Creates Value]]
