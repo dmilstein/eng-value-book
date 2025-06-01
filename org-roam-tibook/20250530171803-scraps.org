@@ -1,0 +1,11 @@
+:PROPERTIES:
+:ID:       D6826B62-7957-49E4-B1D9-AC6791168E2F
+:END:
+#+title: Scraps
+* Engineers Don't Want To Explain Why
+
+If the engineers are, in fact, using tech debt to talk about "bad code" they wish to remove, they won't think about making that potential value more visible.
+
+Instead they'll feel (and often say!):
+
+"Why should I have to *prove* that fixing bad code is important? Shouldn't I be *trusted* to know what high quality code is? Isn't that my *job*?"
