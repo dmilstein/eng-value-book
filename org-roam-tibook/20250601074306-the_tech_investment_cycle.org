@@ -1,0 +1,220 @@
+:PROPERTIES:
+:ID:       71B164B6-0AB2-4FDE-B51E-71870F553C67
+:END:
+#+title: The Tech Investment Cycle
+#+filetags: :Chapter:
+* The Tech Investment Cycle
+
+** Favor Cycles Over One-Off Projects
+
+There are two fundamental facets to working with technical investments.
+
+First, you have to *identify* potentially valuable work.
+
+Second, you have to *advocate* with your stakeholders for time to execute on that work.
+
+# XXX Add third, which is actually executing on the work?
+
+If you're stuck in an oppositional relationship with stakeholders who don't seem to care about anything except their feature list, it may feel like your best bet is to carve off a big block of time so the team can just go and definitively fix their problems, without interruptions.
+
+I have tried the "Bargain for one giant chunk of time" approach, and, unfortunately, it has been something of a consistent disaster.
+
+# XXX Maybe, tell story of early Wayfair, I had earned some trust with the Chief Operating Officer, by leading the resolution of a massive problem in rolling out new software and processes to the Final Mile delivery agents (see Solve a Problem to Earn Trust). I made a case for carving out time -- but I wasn't actually 100% certain where the greatest value was, and that COO absolutely thought of this as a "one-time cost" and then he'd just see rapid progress. We made some real improvements, but didn't magically fix everything, and within a few months, were back in the usual treading water in sewage feeling, and not in a better conversation.
+
+Both the identification and the advocacy are *far* more effective done as a series of repeated small steps, instead of a single giant one-off project.
+
+There are at least two reasons for this.
+
+First, in the big bang mode, the stakeholders don't tend to see the work as "valuable". Instead they see it as a "painful delay", and as such, feel "owed" immediately faster progress on their features. Which is not always the immediate payoff for a technical investment, even an extremely valuable one.
+
+# XXX Add: especially if the big bang investment has no associated visibility?
+# XXX Tease apart: don't start here vs it's okay to build to this
+# As in the real problem is if you use the one-time nature to avoid fully educating the stakeholder and ensuring they can see the results of the investment.
+
+But the big bang approach is not actually good for the engineers, either.
+
+Real value is often created at the intersection of the technical and human/social systems (see Allspaw on Socio-Technical) -- and those are essentially impossible to adjust in big, fixed steps.
+
+E.g. two significant forms of value are:
+
+ 1) reducing the time to get code to production
+
+ 2) reducing the time to restore from outages
+
+# XXX increasing the load a system can handle? Increasing capacity to match current demand?
+
+Both are *extremely* valuable for a business (more on both in [[id:E7DB3CD4-9B7B-425B-BF07-E2607DDD6670][Forms of Value/Visibility]]).
+
+But neither is effectively addressed as a single big bang investment -- you have to steadily improve things, see where new bottlenecks or problems occur, and then pick the next thing to focus on. That kind of effort take real calendar time -- you have to see a set of "improved" deploys, or see how the team is able to handle the next set of stresses to the system, before you can understand your next step.
+
+# Footnote?
+(if an engineer tries to convince you that all the stability problems in the site will be addressed by rewriting the entire thing in Rust, you should +fire+ firmly persuade that engineer to think otherwise, if you wish to maintain your sanity and/or job).
+
+Thus, what you want is to get into a *cycle of technical investments* -- where you are repeatedly identifying small potential improvements, advocating for those, and then executing on them.
+
+Going through this cycle *with* your stakeholders will gradually build trust and rapport over time.
+
+# (and a shared understanding)
+
+That increased trust, rapport and understanding will allow you to "lever up" to larger and larger investments.
+
+You should, of course, still *execute* the work in incremental steps (because that is how all software should be built, duh) but you can use this repeated cycle to gradually climb the [[id:722C702D-A6C2-4A51-AB62-515CE8144AA2][Ladder of Commitment]] for technical investments:
+
+ - On the Side
+
+ - A Single Ticket
+
+ - A Within-Team Project
+
+ - A Cross-Team Initiative
+
+ - A Durable Team
+
+** An Example Over a Few Cycles
+
+# When I joined Ellevation, I gradually found that... Some of their deploys didn't touch the legacy app, but the ones that did were a nightmare.
+
+At a recent job, the engineers had grown incredibly frustrated by deploying the legacy app to production.
+
+The deploy process was a hodgepodge of different jobs, some of which ran automatically, some of which engineers had to step in to kick off after the previous one completed.
+
+It had everyone's favorite feature of a deploy pipeline: slow from-scratch rebuilds of massive artifacts; a sprawling suite of poorly-maintained Selenium tests that enjoyed both the properties of being slow *and* being flaky; various intermediate jobs that liked to fail with cryptic error messages that required contacting the most senior engineer (and/or sacrificing a goat) to resolve.
+
+The #deploy-sucks Slack channel was a constant firestorm of angry gifs.
+
+First, a key fact: this situation was not just "annoying" for the engineers.
+
+It was hideously *expensive* for the business
+
+As the marvelous book Accelerate makes clear, the ability for engineers to make frequent, fast, safe deploys is *extremely valuable* for a software business.
+
+Thus, improving deploy could have been *very* valuable.
+
+But... what was the product team's experience?
+
+What could they *observe*?
+
+Well, development felt slow. But, development *always* felt slow. And there were plenty of other suspects.
+
+Also, engineers were complaining about deploys. Kind of a lot.
+
+But, most product teams experience engineers as *always* complaining about deploys. So this didn't really stand out.
+
+What's more, the engineers, when asked, *weren't* able to offer any specific ideas for what to improve -- it was such a mess, it wasn't clear where to start.
+
+One engineer kept saying "We just need to rewrite all our Selenium tests to use WebRobot", but that was clearly an apocalyptic amount of work.
+
+And so the situation was stuck.
+
+Then, one afternoon, while waiting for a deploy to finish, a very bright and very frustrated engineer threw together a spreadsheet (she called it "Deploy Misery") and asked all the engineers on the team to just *manually* log their deploy times in it. They would fill in one column when they started the first in the series of jobs, and then another when the final one finished up.
+
+This was a technical investment!
+
+It's the cheapest kind -- an "on-the-side" project, where the engineers don't specifically advocate with the product team (later, we'll talk about The Various Scopes of Investment, when to use which and how).
+
+How cheap?
+
+Setting up that spreadsheet took the engineer about 10 minutes (counting the *extremely vigorous* email she sent to all of engineering).
+
+The engineers on the team were plenty motivated to track their deploys... and had plenty of time to do so, while waiting for the tests to finally pass.
+
+That spreadsheet *created visibility*. Just a bit to start.
+
+After a few short weeks, the engineering manager brought the spreadsheet to the product team.
+
+Together, they looked at how long it was taking to get changes out to production -- and discovered that, on occasion, there were so many repeated failures, it took more than a day to get something out.
+
+At that point, it wasn't hard for the engineering manager to convince the product team to carve out a week for one engineer to instrument the key stages of the deploy process, so they could better understand what the hell was going on (this is what I call the "Ticket" scope).
+
+Thus, a few weeks later, they were looking together at a clearer picture of both overall trends, times and failure rates in various internal stages.
+
+The flaky Selenium tests proved to be the worst culprit, and unfortunately, there was no simple fix.
+
+The engineering manager made a case for a carefully time-boxed, few week-long effort by a couple of engineers, to inventory all the tests, come up with options, share those back and then execute on one (this is "Project" scope).
+
+The PM and engineering manager worked together to find a time to do this -- they both knew a big chunk of work on the legacy part of the app was coming, and were *both* motivated to get deploy improvements in before it landed.
+
+When the engineers did this work, they collaborated with the product team to understand which features they most wanted to retain coverage over, which areas were okay to orphan for now, etc. They ended up deleting a big set of tests which were no long needed. They then moved the remaining flaky-but-sometimes-valuable ones off the main deploy pipeline (so it only ran for a small subset of deploys that touched certain parts of the product).
+
+That immediately (and visibly!) made almost all deploys much faster.
+
+The engineers, the engineering manager and the product team could all *see* that improvement on the graphs of average deploy time that were now being generated.
+
+For a few more months the team kept steadily improving the deploy process, in parallel with a great deal of feature work. Sometimes it was just a ticket here or there, sometimes an engineer would drop off the main sprint for a week or even a month and just focus on some specific challenge.
+
+Eventually, the deploys got fast and reliable enough that, by common agreement, the pace of investment in this specific area slowed.
+
+Then, something marvelous happened: the site suffered a major outage!
+
+In the course of resolving it, the team was able to rapidly release a series of changes, first to diagnose and then to fix the underlying issue.
+
+When the engineering manager wrote up the post-mortem notes, she took time to call out how the fast, reliable deploys had saved their collective butts.
+
+She then made a point of sharing that story with both the product team and executive leadership.
+
+Which eventually led to the company's (highly non-technical!) CEO beaming with pride at a company All Hands as that engineering manager told *the entire company* that story, and then walked them all through some very impressive-looking graphs of improved deploy times.
+
+I don't know if you know this, but CEO's really like impressive-looking graphs. We'll talk more about this in "Leverage the Dark Art of "Metrics" In Your Favor".
+
+We'l also talk about using the power of storytelling to help your stakeolders experience these as "their" wins -- which is what the engineering manager above did.
+
+As above, the very best way to run tech investments is to do them *iteratively*:
+
+ 1- Spend a *small increment* of effort to build *some* visibility
+
+ 2- Share that visibility with your stakeholders
+
+ 3- Together, prioritize an incremental investment to either visibly improve *or* to build the next increment of visibility
+
+ 4- Return to step 1
+
+
+# There are two separate challenges with bringing stakeholders along:
+
+#  - Helping them *understand* the potential value
+
+#  - Making it possible for them to *see* the potential value
+
+# That second one is profoundly powerful -- it allows you to convert from the "just trust us" moral argument to a collaborative review of a *shared view of reality*.
+
+# Exploring that defintion leads to the fundamental "technical investment cycle":
+
+#  - Collect a set of issues the engineers are worried about or frustrated by
+
+#  - For each, turn it into a statement of potential value
+
+# (it's a repeated cycle, not a one-time thing -- companies are constantly deciding how and what to next invest in, it's not a one-time "cleaning up of technical debt" or "paying off a loan")
+# Thus, a profoundly powerful trick is to start by *building visibility* -- something that the stakeholders and engineers can both *see* in the same way.
+
+# Usually, it's several orders of magnitude cheaper to build such visibility, than it is to execute on the actual work.
+
+To bring the two sides together, engineering leaders must develop a deep understanding of how engineers can create value for a business.
+
+We'll spend a great deal of part 1 (The Technical Investment Cycle) talking about the marriage of visibility and value.
+
+Engineering leaders also have to be willing to *educate* their business peers -- and those business peers have to be willing to listen.
+
+# Eh, this isn't quite right.
+
+That requires a steady building of trust, which we'll talk about in part 2 - Scaling Up.
+
+* Random Notes/Thoughts/Scraps
+
+** The Cycle from My ToC
+# Basically just name each of these, will go deeper in later chapter.
+
+# Emphasize that you do this over and over, deliberately starting with small scale, and gradually "levering up" to larger investments.
+
+*** Find things engineers are *worried about*
+*** Convert each into a statement of *potential value*
+*** Select the highest value option, based on what is *currently known*
+*** *Build visibility* into current state
+
+# In a way which will show the improvement, if/when you make it
+
+*** Identify a *small increment* that will improve things and/or create more visibility
+*** Share visibility with stakeholders to *motivate investment*
+*** Offer an *incremental option* to stakeholder, get buy-in
+*** Do The Thing
+*** Celebrate improvements via *story-telling*
+*** Return to Step 1, with more *capital and trust*
