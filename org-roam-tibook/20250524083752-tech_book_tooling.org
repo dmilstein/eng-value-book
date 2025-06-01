@@ -4,6 +4,45 @@
 #+title: Tech Book Tooling
 For the [[id:5FAA80B0-D16C-424E-BF2F-1C5C45415618][Tech Investment Book]], notes on tooling.
 
+* LLM-Assisted Coding for a Wordcount Tool
+** DONE Figure out if my existing API access gives me Claude 4 Opus access
+CLOSED: [2025-05-31 Sat 08:18]
+** DONE If not, pay for access to Claude 4 / Opus
+CLOSED: [2025-05-31 Sat 08:18]
+And make sure I understand if my API access lets me use that?
+** DONE Maybe: spike on either Aidermacs or llm connection to Claude 4
+CLOSED: [2025-05-31 Sat 08:18]
+** DONE Open up Harper's blog post (maybe copy it down)
+CLOSED: [2025-05-31 Sat 08:36]
+** DONE Turn that into a series of TODO
+CLOSED: [2025-05-31 Sat 08:36]
+** DONE Do the Idea Honing Step to generate a spec
+CLOSED: [2025-05-31 Sat 09:25]
+** DONE Review the spec
+CLOSED: [2025-05-31 Sat 09:25]
+** DONE Generate the prompt plan from the spec
+CLOSED: [2025-05-31 Sat 09:25]
+** TODO Review the prompt_plan
+** TODO Review the todo.md
+** TODO Spike on Claude Artifacts
+** Anthropic Claude Setup
+I've got access to the *console*, not the vanilla *product*?
+
+https://console.anthropic.com/dashboard
+
+The workbench
+
+https://console.anthropic.com/workbench/2a03436c-9b5a-4d04-8142-11e69c9b4f61
+
+Model Names:
+
+claude-sonnet-4-20250514
+
+claude-opus-4-20250514
+** Harper's Workflow
+https://harper.blog/2025/02/16/my-llm-codegen-workflow-atm/
+
+* Gathering Feedback
 Robfitz's tool to gather feedback write better books
 
 https://helpthisbook.com/
@@ -11,6 +50,8 @@ https://helpthisbook.com/
 Costs $30/month, but I think that's very much likely worth it, once I have something for which I want feedback
 
 * [[id:17305FA7-A43F-40C9-9309-0EF3577C70D0][Author Platform]] Tools
+
+Just commit to Substack, wherever I wrote out my todos
 
 ** Medium
 I have... 5 email subscribers. I can potentially try to get more. But, hmm.

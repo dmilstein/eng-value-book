@@ -3,20 +3,7 @@
 :END:
 #+title: Intro Chapter
 #+filetags: :Chapter:
-* Outline from ToC
-** Stakeholders Scream About Features, the Team Screams About Tech Debt: The Joy of Engineering Leadership
-# Statement of empathy, touching on a bunch of the human experience + potential failure modes.
-** Why the "Tech Debt" Metaphor Has Become Limiting
-# Sketch in the key problems (focus on "bad code", offers nothing positive to your product or stakeholder peers, don't go too deep on moral vs economic)
-** A Better Way: Technical Investments
-# Give the definition
-** What If My Stakeholders Don't Care About Engineering?
-** What If My Engineers Don't Care About the Business?
-# Aka, what if my very senior engineer just wants to rewrite everything?
-** What's Coming In the Rest of the Book
-
-
-* Writing the Thing
+* Introduction
 ** Stakeholders Scream About Features, the Team Screams About Tech Debt: The Joy of Engineering Leadership
 # What does it mean to be an engineering leader?
 
@@ -267,7 +254,6 @@ Unfortunately for them, the whole commitments / accountability / shame thing is 
 
 If you're stuck in this situation, and have no luck gradually building trust and moving to a collaborative relationship... I dunno, you might need to find a new job before some chickens come home to roost?
 
-
 ** What If My Engineers Don't Care About the Business?
 
 This overall approach does assume that the engineers care about "creating value for the business".
@@ -407,3 +393,14 @@ Engineering leaders also have to be willing to *educate* their business peers --
 # Eh, this isn't quite right.
 
 That requires a steady building of trust, which we'll talk about in part 2 - Scaling Up.
+* Outline from ToC
+** Stakeholders Scream About Features, the Team Screams About Tech Debt: The Joy of Engineering Leadership
+# Statement of empathy, touching on a bunch of the human experience + potential failure modes.
+** Why the "Tech Debt" Metaphor Has Become Limiting
+# Sketch in the key problems (focus on "bad code", offers nothing positive to your product or stakeholder peers, don't go too deep on moral vs economic)
+** A Better Way: Technical Investments
+# Give the definition
+** What If My Stakeholders Don't Care About Engineering?
+** What If My Engineers Don't Care About the Business?
+# Aka, what if my very senior engineer just wants to rewrite everything?
+** What's Coming In the Rest of the Book

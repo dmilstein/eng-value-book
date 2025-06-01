@@ -55,8 +55,8 @@ Def try that out w/ Satoe
 
 * Potential Act 2 Coaching
  - [X] Satoe
- - [ ] Kinan (is he managing? I think, yes)
  - [ ] Dani (Bennett's wife)
+ - [ ] Kinan (is he managing? I think, yes)
  - [ ] Eric Lundin
  - [ ] Tasneem
  - [ ] Gabby
@@ -95,3 +95,63 @@ In each of the above areas, I've got some approaches I've seen work, I'd be curi
 
 Thanks,
 D
+* Eail to Bennett <2025-05-30 Fri>
+
+Subject: Hey There + Possible Intro
+
+Bennett,
+
+Heya, sir, hope life goes well.
+
+I'm reaching out for two reasons:
+
+ 1- I'd love to catch up
+
+Happy to hop on a phone or zoom, or, gasp, I could come out to some physical place you physically are with your physical self -- be that in Newton or downtown Boston (oh, speaking of which, are you anywhere near Community Rowing on Nonatum? Because I drive Jack there a couple times a week, it could be fun to swing by and say hi on one of those days).
+
+
+ 2- I'm like to ask you for an intro... to Dani ;-)
+
+Here's the story.
+
+A few weeks back, I started working on a blog post about preferring Tech Investments to Tech Debt.
+
+I kept on finding more facets of it to talk about, then it turned into a /series/ of posts, and then, somewhat to my surprise, I discovered I was writing a book.
+
+(I found a truly excellent gameplan for writing this kind of non-fiction, by the guy who wrote The Mom Test).
+
+I'm pretty excited -- the book has a working title of "Tech Investments, Not Tech Debt: Identify, Advocate For, and Deliver Engineering-Led Work".
+
+As part of the gameplan, I want to do some, essentially, customer interviews, of the kind of people who the book is hopefully helpful for.
+
+Sadly, you are not allowed to be one of those people -- because you and I have worked and lived and breathed all the stuff I'm going to write about, together.
+
+But I was thinking that Dani might actually be a good subject (and that *also* gives me a perfect excuse to reach out to you and say hi).
+
+Below is the generic pitch email I've written up. Can I ask you to share that with Dani, and, if she's willing/interested, let me know, so I can reach out to her to find a time to chat?
+
+Thanks,
+-Dan
+
+Dear <Person>
+
+If you have time, I'd love to learn some about how you face the challenge of ensuring engineers are able to spend time keeping their systems healthy (vs just endlessly churning out features).
+
+This could be an in-person lunch or coffee or a zoom.
+
+If the below is potentially interesting, let me know, and I can propose some times.
+
+I'm happy to talk about various facets of balancing feature work vs more technical investments but I'm particularly interested in spending time on sort of organization-level challenges, like the below.
+
+For each, I've had some approaches I've seen work, I'd love to talk those out, see what you've tried, etc:
+
+ - Getting stakeholders into a habit of repeatedly prioritizing technical investments (vs seeing each as a one-time painful cost to pay)
+
+ - How to link post-mortems to later technical investments
+
+ - Assigning ownership of parts of a codebase in a way that allows for steady technical investments
+
+ - Weaving technical investments into the career ladder
+
+Thanks,
+Dan
