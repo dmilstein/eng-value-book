@@ -1,8 +1,11 @@
 """Book model for tracking book structure and progress."""
 
 from dataclasses import dataclass, field
-from typing import List, Optional
+from typing import List, Optional, TYPE_CHECKING
 from datetime import datetime
+
+if TYPE_CHECKING:
+    from .chapter import Chapter
 
 
 @dataclass
