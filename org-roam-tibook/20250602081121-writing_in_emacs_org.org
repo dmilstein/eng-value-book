@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       F48AA40F-18A2-449D-B78B-2332DDC4A30A
+:END:
+#+title: Writing In Emacs/Org
+
+I've got an [[file:~/Dropbox/gtd-org/projects.org::*Emacs/Org][Emacs/Org]] list of todos in my projects.org file, don't forget.
+
+Want to do just a bit of thinking about how best to handle "within chapter TODOs".
+
+On the one hand, I am *loving* using my org agenda sprint views for "everything".
+
+On the other, when I'm writing a chapter (or, actually, working on a program), like to fluidly build up a whole list of micro todos. This useful both for staying in the flow, but *also* for picking things up session to session.
+
+What are some simple / dumb ideas:
+
+ - Within each chapter, create a TODO's heading, below the main text, can stash things there, clone the buffer for that. Use C-c / to grab those. Scatter TODO's throughout my writing? Or, store links and HAVE the todos link to those. Or write a TODO and stask a small link to it? So that my thoughts end up being little linked '#' or something? That's interesting. Could do those in the flow. If I can write a little mini capture tempalte that could be good, and it wouldn't break up the reading flow.
+
+ - For the main tib-todo list, maybe I break out 4-5 separate todos, which *do* get checked off each day? Or a recurring "TIB Writing Block"? Hmm. Or "Chapter 2 Writing Block".
