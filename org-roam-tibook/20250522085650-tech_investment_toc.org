@@ -4,6 +4,8 @@
 #+title: Tech Investment ToC
 A place to take notes / work on a table of contents. Don't forget I sketched in a set of [[id:72DCBC9C-C4D0-43FD-8CAD-F58302285461][Tech Debt Sub-Posts]]
 
+I put the formal file for the script I'm working on in a non-org-roam [[file:toc.org::*Table of Contents][toc.org]]
+
 * Notes on what robfitz says in [[id:27BF5BDA-3A83-49FA-A73F-9BA26EF096B9][Write Useful Books]]
 
 Develop a skeleton/outline focused on *learning outcomes*. If a section has multiple such, map out sub sections.

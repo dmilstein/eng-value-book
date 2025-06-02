@@ -5,102 +5,67 @@ Yes, I can, apparently.
 * TIB Inbox
 ** DONE Fix my refile targets to include tib-todos.org
 CLOSED: [2025-05-28 Wed 16:14]
-** TODO Spike: make org-roam keys respect .dir-locals in current directory
-aka, when I'm in the shell
-** TODO Spike on: tag entire file w/ gtasks (or update agenda view)
+** DONE Brainstorm: how best to handle 'within chapter' todo :pom:
+CLOSED: [2025-06-02 Mon 08:33]
 ** TODO Do a timeboxed skim through LinkedIn contacts for Part 2 coaching
 Can I just export my list of contacts
-** TODO Maybe: make org comments green?
-Welp, this works, but I really only want it in org mode, gotta figure that out once I'm online and can ask LLM's for help.
-
-Also, I just ran this directly, it's not in .emacs
-(set-face-foreground font-lock-comment-face "darkgreen")
 ** TODO General note: feature my own failures as learning events
 E.g. things I tried that didn't work, or that I've seen people try and have not work
-** TODO What the fuck -- why are my L4 org headings also in green
-Oh, because org-level-4 inherits from outline-4 which inherits from font-lock-comment-face, duh.
-
-(set-face-foreground org-level-4 "darkgreen")
-** TODO Spike: use Deep Research on Author Platform target sites
-Have a conversation about what I want, then ask it to summarize the kinds of places, types of postings, etc.
-** TODO Spike: display links in org refile targets
 ** TODO Is it Ladder of Commitment or Ladder of Investment?
-* Tech Invest Book                                :gtasks:
-** DONE Break out todos from author platform email to EWJ :pom:
-CLOSED: [2025-05-27 Tue 08:01]
-** DONE Spike: separate org-roam dir for Book     :curweek:pom:
-CLOSED: [2025-05-27 Tue 07:58]
-Possibly add a capture target which throws things into the todo list there
-
-And then, am I not using my generic agenda views there? Hmm. This feels likely right, but some genuine overhead.
-*** mkdir -p Projects/TechInvestBook/org-roam-tibook
-*** Set up .dirlocals in there
-*** git repo init w/ gitdir outside of dropbox
-*** make list of tech invest book org files in org-roam/
-*** cp all those over
-*** git add them all
-*** Add a tibook anchor file
-*** Decide: where are my todos
-*** Add a new capture template pointing there
-*** Update Key Tasks to look in there?
-*** rm all the files I moved, then git rm them
-** DONE Start first draft of Intro chapter        :curweek:pom:
-CLOSED: [2025-05-27 Tue 14:00]
-** DONE Bad first draft of Examples chapter
-CLOSED: [2025-05-30 Fri 18:33]
-** TODO Substack: can I get my own URL?
-** TODO Maybe: shorthand value by "learning what to do next"
-Each thing builds on the previous, so velocity is about hitting those decision points faster.
-** TODO Write template asking for connections to coach
 ** TODO Add: why technical judgment is important
+* Future Books
 ** TODO Collect ideas for book 2 about inteviewing + hiring
 "That Was Fun!" - How to interview so that great people can't wait to say yes
 
 In [[id:77C90CB8-9DA8-48D7-B534-2C448F34D489][Blog Topics]] I have a reasonable start on a ToC (still need a scope which reflects both eng + product but has some narrowness)
-** DONE Email Edmund re: author platform options/thoughts :curweek:pom:
-CLOSED: [2025-05-26 Mon 13:54]
-** DONE Email Edmund: what I have/have not taught
-CLOSED: [2025-05-26 Mon 11:08]
-* Table of Contents                               :gtasks:
+* [[id:B4926308-39DD-471B-8E71-5FFF7546D6E3][Table of Contents]]                               :gtasks:
 ** TODO Spike on ToC reorg - part II = stakeholder mgmt
 * [[id:49435FCD-0590-44DE-8FC7-585E7BCC8BB2][Tooling]]                                         :gtasks:
-** TODO Spike on python script to render outline w/ wordcounts :curweek:
+** TODO Write python to render outline w/ wordcounts :curweek:
 Strip comments, etc
 
 And also on something to watch the directory for changes, re-run that and auto-update a webpage.
 * [[id:49E66E86-CE83-447E-87C2-3BFF3D8FE42E][Teach/Coach]]                                     :gtasks:
-** DONE Write template w/ offer to teach Part II  :curweek:pom:
+** DONE Write template w/ offer to teach Part II
 CLOSED: [2025-05-27 Tue 08:21]
-** DONE Refine/sort list of people I could reach out to :curweek:pom:
+** DONE Refine/sort list of people I could reach out to
 CLOSED: [2025-05-27 Tue 08:26]
-** DONE Draft email to Bennett (re Dani)          :curweek:pom:
+** DONE Draft email to Bennett (re Dani)
 CLOSED: [2025-05-30 Fri 08:31]
-** DONE Reach out to 1 person for [[id:49E66E86-CE83-447E-87C2-3BFF3D8FE42E][Teaching/Helping]] :curweek:
+** DONE Reach out to 1 person for [[id:49E66E86-CE83-447E-87C2-3BFF3D8FE42E][Teaching/Helping]]
 CLOSED: [2025-05-30 Fri 12:32]
 
 ** TODO Draft note to TD looking for coaching/helping targets
+** TODO Write template asking for connections to coach
 * [[id:17305FA7-A43F-40C9-9309-0EF3577C70D0][Author Platform]]                                 :gtasks:
-** DONE Come up with 10-20 bad titles             :pom:curweek:
+** DONE Come up with 10-20 bad titles
 CLOSED: [2025-05-27 Tue 08:32]
 Something that leaves room for other things in the {Eng,Product} x Humans space
-** DONE Pick one title                            :curweek:
+** DONE Pick one title
 CLOSED: [2025-05-29 Thu 09:24]
-** TODO Set up a substack
-** TODO Write some form of README/About
+** TODO Review substack signup, break out tasks   :curweek:
+Can I get my own URL?
+** TODO Find a Deep Research option               :curweek:
+E.g. does Anthropic have one? Where is good + cheap-ish
+** TODO Review WUB gameplan for finding places to post :curweek:
+** TODO Use Deep Research on Author Platform target sites :curweek:
+Have a conversation about what I want, then ask it to summarize the kinds of places, types of postings, etc.
+
+Could even ask it for habits/cadencs I could use
+** TODO Write some form of README/About           :curweek:
 which says "This is a place that I'll share ideas I'm working out for an upcoming book" (so I won't feel like I've made some bad promise and have internal pressure)
-** TODO Review the WUB gameplan for finding places to post online
 ** TODO Decide if I want to do that myself or pay someone to do it for me
 ** TODO Map out the dumbest possible posting calendar
 ** TODO Build some basic habit + tooling around it
 E.g. post 3-5 times/week, set up some org file that has the postings collected, and some script that uploads them for me. So it's just feeding a hopper, nothing I keep on my day-to-day todo list
-* [[id:47FF75F6-17DB-4E36-950D-F7CFAFA950EA][Intro Chapter]]                                   :gtasks:curweek:
+* [[id:47FF75F6-17DB-4E36-950D-F7CFAFA950EA][Intro Chapter]]                                   :gtasks:
 ** DONE Finish first draft of Intro chapter
 CLOSED: [2025-05-28 Wed 16:14]
-** DONE Try wedging in the visibility as fundamental hack :pom:
+** DONE Try wedging in the visibility as fundamental hack
 CLOSED: [2025-05-29 Thu 11:30]
 ** DONE Also add the idea of making it a cyclical thing that you lever up
 CLOSED: [2025-05-29 Thu 11:30]
-** DONE Adjust the two problems w/ Tech Debt to be about the conversations :pom:
+** DONE Adjust the two problems w/ Tech Debt to be about the conversations
 CLOSED: [2025-05-30 Fri 09:11]
 It leads to the wrong conversations, for two reasons.
 
@@ -109,22 +74,27 @@ And this is all about the conversations you're going to have.
 The first conversation is with your engineers.
 
 The second conversation is with your stakeholders.
-** DONE Revise convo w/ Stakeholders to focus more on visibility :curweek:pom:
+** DONE Revise convo w/ Stakeholders to focus more on visibility
 CLOSED: [2025-05-30 Fri 18:32]
 Move moral to a footnote?
-** DONE For the deploy story, have the engineers tell the story at all hands :curweek:pom:
+** DONE For the deploy story, have the engineers tell the story at all hands
 CLOSED: [2025-05-30 Fri 18:32]
 And the non-technical CEO glowing with pride or clapping enthusiastically, so I'm showing the act of storytelling by the engineers
 ** DONE Spike on final thing to wrap it up
 CLOSED: [2025-05-30 Fri 18:32]
-** DONE Spike on moving why/why ahead of examples :curweek:
+** DONE Spike on moving why/why ahead of examples
 CLOSED: [2025-05-30 Fri 18:32]
-** DONE Spike on moving what if/what if earlier?  :curweek:
+** DONE Spike on moving what if/what if earlier?
 CLOSED: [2025-05-30 Fri 18:32]
 Before the story/example
-* [[id:71B164B6-0AB2-4FDE-B51E-71870F553C67][The TI Cycle]]                                    :gtasks:curweek:
-** DONE Rough draft of the overall cycle          :pom:
+* [[id:71B164B6-0AB2-4FDE-B51E-71870F553C67][The TI Cycle]]                                    :gtasks:
+** DONE Rough draft of the overall cycle
 CLOSED: [2025-06-01 Sun 08:51]
-** DONE Wedge in my example of that without reading it :pom:
+** DONE Wedge in my example of that without reading it
 CLOSED: [2025-06-01 Sun 08:51]
-* [[id:D901A4C9-885B-4F42-8B8D-3595616857E8][Visibilty Creates Value]]
+* [[id:D901A4C9-885B-4F42-8B8D-3595616857E8][Viz Creates Value]]                       :gtasks:curweek:
+** TODO Write crappy first draft
+** TODO Maybe: shorthand value by "learning what to do next"
+Each thing builds on the previous, so velocity is about hitting those decision points faster.
+* [[id:E7DB3CD4-9B7B-425B-BF07-E2607DDD6670][Value/Viz Catalog]]                               :gtasks:curweek:
+** TODO Dump in my outline

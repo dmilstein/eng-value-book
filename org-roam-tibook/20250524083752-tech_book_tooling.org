@@ -4,6 +4,7 @@
 #+title: Tech Book Tooling
 For the [[id:5FAA80B0-D16C-424E-BF2F-1C5C45415618][Tech Investment Book]], notes on tooling.
 
+* [[id:F48AA40F-18A2-449D-B78B-2332DDC4A30A][Writing In Emacs/Org]]
 * LLM-Assisted Coding for a Wordcount Tool
 ** DONE Figure out if my existing API access gives me Claude 4 Opus access
 CLOSED: [2025-05-31 Sat 08:18]
