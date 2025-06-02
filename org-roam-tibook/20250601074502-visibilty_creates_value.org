@@ -18,19 +18,21 @@ Crucially, that stream of dollars is *not* the value we're talking ahout -- it's
 
 So, what is "overall company value"? And how might we determine it?
 
-For a public company, we can estimate "overall company value" from the market capitalization (because the price of a single share of stock represents what investors are willing to pay for a fraction of the overall company).
+For a public company, we can estimate "overall company value" from the market capitalization -- because the price of a single share of stock represents what investors are willing to pay for a fraction of the overall company.
 
-For a startup, we can estimate "overall company value" from the valuation achieved during a funding round (if investors pay $10 million dollars to own 25% of the company, they are estimating an overall company value of $40 million).
+For a startup, we can estimate "overall company value" from the valuation achieved during a funding round -- if investors pay $10 million dollars to own 25% of the company, they are setting an overall company value of $40 million.
 
 Engineers can, by the work they do, either increase *or decrease* that kind of overall company value.
 
 The potential *increase* in value is why companies hire engineers -- engineer salaries represent an *investment* on the part of the business, made in hopes of a positive return.
 
+Whatever someone tells you your job is, please understand and believe me: in reality, your job is to increase the value of your company.
+
 # Footnotes, as my friend Kris Ciccarelli and I like to discuss, the cost of a useless meeting is *greater* than the cost of the salaries of everyone involved -- because the company expects a positive return on those salaries.
 
-Unfortunately, company executives generally have a limited understanding of how engineers create value.
+Unfortunately, company executives have a limited understanding of how engineers create value.
 
-This is especially true for various forms of potential value, where engineers wish to advocate for technical investments, e.g.:
+This is especially true for various forms of potential value where engineers wish to advocate for technical investments, e.g.:
 
  - Cleaning up difficult-to-change code
 
@@ -40,9 +42,9 @@ This is especially true for various forms of potential value, where engineers wi
 
  - Retiring old infrastruture
 
-In the right situations, the above kinds of work can *absolutely* make a company more valuable -- and might thus be worth prioritizing, even against work that might immediately increase revenue.
+In the right situations, the above kinds of work can make a company *a great deal* more valuable -- and can thus be worth prioritizing, even against work that might immediately increase revenue.
 
-But engineers can not, in general, depend on stakeholders or product managers to understand how to convert problems in those areas into potentially valuable investment opportunities.
+Engineers can not, in general, depend on stakeholders or product managers to understand how to convert problems in those areas into potentially valuable investment opportunities.
 
 Thus to support engineers in these conversations, we're going to spend some time unpacking the concept of "overall company value".
 
@@ -50,15 +52,15 @@ Hidden within it we'll find the keys to successfully identifying and then advoca
 
 # Footnote Also: it's fun! It's maybe *especially* fun if you have an obsessive love for developing a first-principles understanding of activities people are blindly doing all around you.
 
-Note: I'm *not*, thanks to some genuinely bitter learning experiences, going to propose you try to get your stakeholders to understand all of the below before you get started with technical investments.
+Note: I'm *not*, thanks to some genuinely bitter learning experiences, going to propose you try to get your stakeholders to understand all of the below before you can do your first technical investment.
 
-But it is super important that *you* understand it.
+What is important is that *you* understand it.
 
-Once you do, I'm going to lay out a plan for drawing your stakeholder into a repeated process of decision-making, that doesn't require front-loading an economic lecture. Because stakeholders who are upset about their features being late are oddly resistant to economics lectures, I have found.
+Once you do, I'm going to lay out a plan for drawing your stakeholder into a repeated process of decision-making, that doesn't require front-loading an economic lecture (because stakeholders who are upset about their features being late are oddly resistant to economics lectures, I have found).
 
 ** A Few Of My Favorite Misconceptions
 
-First off , let's list several things which are *not* good proxies for creating value, even though your stakeholders or various engineering leaders you know may tell you that the below "is engineering's job":
+Let's list several things which are *not* good proxies for creating value... even though your stakeholders or even various engineering leaders will confidently insist that they are "engineering's job":
 
  - Cranking out new features as fast as possible
 
@@ -73,6 +75,8 @@ First off , let's list several things which are *not* good proxies for creating 
 # - Increasing revenue (there are "bad" forms of revenue which make a company less valuable)
 
 All of the above activities are *potentially valuable*... but, unfortunately, all of them are also *potentially damaging to value*.
+
+I have seen companies that "believed in" each of the above proxies as a universal good. And I have seen every one of them *fail as a business*.
 
 In order to distinguish between the two case, we have to dig deeper.
 
@@ -91,7 +95,7 @@ You might think, "Oh, I get it! The overall value of a company is determined by 
 
 But this is *wrong*, in a just enormously important way.
 
-Company valuation models are built on top of on a *projection of future profits*.
+Company valuation models are built on top of a *projection of future profits*.
 
 And that projection is *just a guess*.
 
@@ -103,19 +107,17 @@ But it's just a guess.
 
 Guesses and uncertainty are at the absolute core of how companies are valued.
 
-We're going to all the models away, and define the value of a company as:
+We're going to abstract all the models away, and define the value of a company as:
 
 *A probabilistic estimate of the future profits of the company.*
 
 That's it. Inside that we'll find our key.
 
-** What, Exactly, Is a "Probabilistic Estimate"?
-
-*** Probability: Unknown Versus Uknowable
+** Probability: Unknown Versus Uknowable
 
 The concept of "probability" is used in two related but subtly different ways.
 
-Sometimes, it's used to describe something which is  "inherently unknowable", e.g.: rolling a die.
+Sometimes, it's used to describe something which is "inherently unknowable", e.g.: rolling a die.
 
 We call any single die roll a "random event".
 
@@ -153,7 +155,7 @@ In this way of understanding "probability", a probabilistic estimate is a statem
 
 Such a probablistic estimate encodes a person having *some* information -- but not enough to always get the right answer.
 
-*** Um, What Person Is Doing The Knowing and The Guessing?
+** Um, What Person Is Doing The Knowing and The Guessing?
 # We're Going to Invent Someone Useful
 
 If the value of a company is a probabilistic estimate of future profits...
