@@ -64,7 +64,7 @@ Now, if you ask a person who works in or near finance, "How does one value a com
 
 They'll start talking about streams of future profits, and then, before you know it, you'll find yourself neck-deep in all sorts of exciting, math-adjacent jargon about discounted cash flows, amortization schedules, the cost of capital, how to pronounce EBITDA, etc, etc.
 
-E.g. see HBS's [[https://online.hbs.edu/blog/post/how-to-value-a-company][How to Value a Company]] for not one, not two, but *six* different ways to calculate the value if a company.
+E.g. see HBS's [[https://online.hbs.edu/blog/post/how-to-value-a-company][How to Value a Company]] for not one, not two, but *six* different ways to calculate the value of a company.
 
 If you find yourself in one of these conversations, you might  think, "Oh, I get it! The overall value of a company is determined by an *equation*."
 
@@ -72,7 +72,7 @@ But this is, well *wrong*, in a just enormously important way.
 
 All of the equations take, as inputs, as *assumptions*, a set of *guesses about the future*.
 
-The stream of future profits is the heart of any equation determining company value, and the exact nature of a stream of future profits is *always* guess.
+The stream of future profits is the heart of any equation determining company value, and the exact nature of a stream of future profits is *always* a guess.
 
 The equations are just a way to take a specific guess, and turn it into a number of dollars.
 
@@ -133,6 +133,8 @@ However, in principle, there's no reason the person doing the guessing *couldn't
    This might feel like it's no longer a "guess" -- but there's nothing inherently impossible in this.
 
 In each case, they would have more information, and could therefore make a more accurate, tighter probabilistic estimate.
+
+[Once they "fully know", we feel uncomfortable calling it a probabilistic estimate, but it's really just a spectrum, not a binary difference]
 
 In this way of understanding "probability", a probabilistic estimate is a statement of *knowledge* by some specific person, not a statement of *inherent variation* in the world.
 
