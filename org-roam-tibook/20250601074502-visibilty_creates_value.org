@@ -4,6 +4,198 @@
 #+title: Visibility Creates Value
 #+filetags: :Chapter:
 * Visibility Creates Value
+Technical Investments are defined as:
+
+"Work that engineers believe is *valuable for the business*, but which no one is asking for".
+
+In order to identify and advocate for technical investments, engineering leaders must understand *how engineers create value for a business*.
+
+What do we mean by value?
+
+Say the engineers are hard at work on a new product, that, once it launches, will bring in a stream of dollars.
+
+Crucially, that stream of dollars is *not* the value we're talking ahout -- it's "revenue", which plays a *role* in determining company value, but is not that value by itself.
+
+So, what is "overall company value"? And how might we determine it?
+
+For a public company, we can estimate "overall company value" from the market capitalization (because the price of a single share of stock represents what investors are willing to pay for a fraction of the overall company).
+
+For a startup, we can estimate "overall company value" from the valuation achieved during a funding round (if investors pay $10 million dollars to own 25% of the company, they are estimating an overall company value of $40 million).
+
+Engineers can, by the work they do, either increase *or decrease* that kind of overall company value.
+
+The potential *increase* in value is why companies hire engineers -- engineer salaries represent an *investment* on the part of the business, made in hopes of a positive return.
+
+# Footnotes, as my friend Kris Ciccarelli and I like to discuss, the cost of a useless meeting is *greater* than the cost of the salaries of everyone involved -- because the company expects a positive return on those salaries.
+
+Unfortunately, company executives generally have a limited understanding of how engineers create value.
+
+This is especially true for various forms of potential value, where engineers wish to advocate for technical investments, e.g.:
+
+ - Cleaning up difficult-to-change code
+
+ - Improving tooling to test, integrate and deploy changes
+
+ - Instrumenting production systems with monitoring
+
+ - Retiring old infrastruture
+
+In the right situations, the above kinds of work can *absolutely* make a company more valuable -- and might thus be worth prioritizing, even against work that might immediately increase revenue.
+
+But engineers can not, in general, depend on stakeholders or product managers to understand how to convert problems in those areas into potentially valuable investment opportunities.
+
+Thus to support engineers in these conversations, we're going to spend some time unpacking the concept of "overall company value".
+
+Hidden within it we'll find the keys to successfully identifying and then advocating for a wide variety of technical investments -- and for understanding our work as engineers more broadly.
+
+# Footnote Also: it's fun! It's maybe *especially* fun if you have an obsessive love for developing a first-principles understanding of activities people are blindly doing all around you.
+
+Note: I'm *not*, thanks to some genuinely bitter learning experiences, going to propose you try to get your stakeholders to understand all of the below before you get started with technical investments.
+
+But it is super important that *you* understand it.
+
+Once you do, I'm going to lay out a plan for drawing your stakeholder into a repeated process of decision-making, that doesn't require front-loading an economic lecture. Because stakeholders who are upset about their features being late are oddly resistant to economics lectures, I have found.
+
+** A Few Of My Favorite Misconceptions
+
+First off , let's list several things which are *not* good proxies for creating value, even though your stakeholders or various engineering leaders you know may tell you that the below "is engineering's job":
+
+ - Cranking out new features as fast as possible
+
+ - Rapidly chewing through all the well-groomed tickets on a team's sprint board
+# Find Kellan quote about devolving to this?
+
+ - Living up to 'commitments' to delivery deadlines
+# Footnote, "What's that you say? I seem to hate the term 'commitments' so much I had to put it in scare quotes? I have no idea what you're talking about."
+
+ - Writing high-quality (or defect-free) code
+
+# - Increasing revenue (there are "bad" forms of revenue which make a company less valuable)
+
+All of the above activities are *potentially valuable*... but, unfortunately, all of them are also *potentially damaging to value*.
+
+In order to distinguish between the two case, we have to dig deeper.
+
+# What's That You Say, You Want a Brief Detour Into Finance?
+# Finance Is An Equation Built On Top of a Dream [Fantasy]
+
+** Finance Is Just Equations Built On Top Of Dreams
+
+If you ask a finance person, "How do you value a company?", they'll light up.
+
+They'll mention streams of future profits, and then, before you know it, you'll find yourself neck-deep in all sorts of exciting, math-adjacent jargon about discounted cash flows, amortization schedules, the cost of capital, and how to pronounce EBITDA.
+
+# E.g. see HBS's [[https://online.hbs.edu/blog/post/how-to-value-a-company][How to Value a Company]] for not one, not two, but *six* different ways to calculate the value of a company.
+
+You might think, "Oh, I get it! The overall value of a company is determined by an *equation*."
+
+But this is *wrong*, in a just enormously important way.
+
+Company valuation models are built on top of on a *projection of future profits*.
+
+And that projection is *just a guess*.
+
+The models take a specific guess, and turn it into a specific number of dollars.
+
+Humans, being human, then treat the number as Very Meaningful, because Math Has Been Applied.
+
+But it's just a guess.
+
+Guesses and uncertainty are at the absolute core of how companies are valued.
+
+We're going to all the models away, and define the value of a company as:
+
+*A probabilistic estimate of the future profits of the company.*
+
+That's it. Inside that we'll find our key.
+
+** What, Exactly, Is a "Probabilistic Estimate"?
+
+*** Probability: Unknown Versus Uknowable
+
+The concept of "probability" is used in two related but subtly different ways.
+
+Sometimes, it's used to describe something which is  "inherently unknowable", e.g.: rolling a die.
+
+We call any single die roll a "random event".
+
+All we can possibly say--all *anyone* can possibly say--is that each side is equally likely to turn up.
+
+In this "inherently unknowable" case, a probability estimate is a fundamental statement about the world.
+
+But at other times, the word "probability" is used to describe something which is potentially knowable, but is *currently unknown*.
+
+Here an example might be: guessing a target person's height.
+
+If the guesser knows nothing whatsoever about the target (as in, they can't even *see* them), then their best option is:
+
+Guess the average human height (taken over, say, every human on earth).
+
+However, in principle, there's no reason the person doing the guessing *couldn't* know more. Even potentially a *lot* more.
+
+ - They could know where the target person was born
+
+   The distribution of heights are quite different in different parts of the world.
+
+ - The could know the target person's age
+
+   The distribution of heights is very different for 3 year olds than for 30 year olds.
+
+ - They could even be looking at a photograph of the target person standing in front of a ruler
+
+   This might feel like it's no longer a "guess" -- but there's nothing inherently impossible in this.
+
+In each case, they would have more information, and could therefore make a more accurate, tighter probabilistic estimate.
+
+[Once they "fully know", we feel uncomfortable calling it a probabilistic estimate, but it's really just a spectrum, not a binary difference]
+
+In this way of understanding "probability", a probabilistic estimate is a statement of *knowledge* by some specific person, not a statement of *inherent variation* in the world.
+
+Such a probablistic estimate encodes a person having *some* information -- but not enough to always get the right answer.
+
+*** Um, What Person Is Doing The Knowing and The Guessing?
+# We're Going to Invent Someone Useful
+
+If the value of a company is a probabilistic estimate of future profits...
+
+...and a probabilistic estimate is a statement of knowledge about the world...
+
+...and more specifically, a statement of one person's knowledge about the world...
+
+... then *whose knowledge* are we talking about?
+
+This is really important.
+
+Different humans have different levels of knowledge, aka, different amounts of information.
+
+For our enlightened notion of value, we're going to *invent* someone: an economically rational investor.
+
+# Hat tip / footnote for Reinertsen
+
+This imagined person possesses two kinds of knowledge:
+
+ - Information known by "everyone"
+
+   This can include both facts (e.g. your company sells a product to large municipalities), and also probabilities (e.g. the frequency at which software companies that sell to large municipalities suffer security breaches).
+
+ - Information known "inside the company"
+
+   This can include both simple facts (e.g. the results of beta testing a new street sweeper product offering) and also probabilities (e.g. the frequency of downtime for a feed of key data about parking violations).
+
+From the perspective of an engineer working at a company, the overall value of that company is best understood as:
+
+ - A probabilistic estimate of future profits...
+
+ - made by an economically rational investor...
+
+ - based on what is currently known...
+
+ - both inside and outside the company.
+
+Believe it or not, that statement, with its obsessively precise statements of knowledge, information and probability, holds the key.
+
+With it in hand, we're ready to start marching through different kinds of potential value -- and we'll find several where the engineers are perfectly placed to observe the potential for value, and therefore, perfectly placed to advocate for investment.
+
 * Scraps/Notes
 From my notebook <2025-06-01 Sun>
 
