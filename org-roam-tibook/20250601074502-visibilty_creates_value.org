@@ -1,5 +1,46 @@
 :PROPERTIES:
 :ID:       D901A4C9-885B-4F42-8B8D-3595616857E8
 :END:
-#+title: Visibilty Creates Value
+#+title: Visibility Creates Value
 #+filetags: :Chapter:
+* Visibility Creates Value
+* Scraps/Notes
+From my notebook <2025-06-01 Sun>
+
+Call out that Revenue != Value -- mabe start with this, and name "value" as "what is your company worth". What is it's stock price? What would an investor value it at?
+
+Illustrated with:
+
+ - Customer survey or gathering of feedback (esp if it makes extremely clear what to do, maybe with either stalled deals or high churn rates)
+
+ - Profiling a big distributed systems (esp if customer complaints are driven by slowness, in the face of key deadlines, and they're giving up and just using spreadsheets)
+
+ - Acquiring a data set (or, if I turn this into a story, maybe it's having researched an alternative data store or way to implement indexing for the database that will remove the bottleneck)
+
+Each step creates value because it allows you to understand the *next* valuable step. This is how technical investments often work.
+
+Note: don't lead with economic theory with stakeholders up front (again, note my failures). Get them addicted to decision making and gradually educate them on the key parts of the system
+
+Some kind of metaphor about how it's not a planned drive across the country with a good map, where you hit some minor snags, and have to, like, go to a different hotel or go through Minneapolis instead of Milwaukee.
+
+Rather, it's like trying to find a route across a massive jungle to a set of mountains, just visible in the distance, in an undiscovered country (sigh, colonialism, sigh) (or is it to the far side of the mountains)
+
+There will be valleys hidden from sight right now, that might contain deep canyons you can't across, there might be rivers that run precisely where you want to go, and can save days and days of time.
+
+Every day, the leader might send someone up to the highest nearby tree or hill, and survey, to see what they have learned.
+
+They might fundamentally change their course as they go -- they might end up going a fundamentally different route than initially planned, they might even give up and find another way to get to the far side.
+
+Every day is interwoven progress and learning, one drives the other. The take some actions to fill in the map, and others to make progress (which allows them to fill in more of the map).
+
+Software projects are much better understand as explorations with a flexible long-term goal than as a planned itinerary through a mostly-known landscape.
+
+This is why the PMO approach to building software has become a one-word shorthand for disaster, among most engineers: "Waterfall".
+
+Fun fact: human nature has this extremely reliable widget, called Hindsight Bias.
+
+Which means that, after massive exertions, having found the one clean path through, the human mind will, in essence, look backwards and say "Welp, that was actually kind of obvious".
+
+That tends to discount the value of the learning. So beware!
+
+Again, use Storytelling in your favor.
