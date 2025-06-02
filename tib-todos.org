@@ -92,9 +92,12 @@ Before the story/example
 CLOSED: [2025-06-01 Sun 08:51]
 ** DONE Wedge in my example of that without reading it
 CLOSED: [2025-06-01 Sun 08:51]
+** DONE Revise/improve The Ti Cycle               :curweek:
+CLOSED: [2025-06-02 Mon 11:23]
 * [[id:D901A4C9-885B-4F42-8B8D-3595616857E8][Viz Creates Value]]                       :gtasks:curweek:
-** TODO Write crappy first draft
+** TODO Write super crappy intro to chapter       :pom:
 ** TODO Maybe: shorthand value by "learning what to do next"
 Each thing builds on the previous, so velocity is about hitting those decision points faster.
+** TODO For forms of probability, find company-specific examples
 * [[id:E7DB3CD4-9B7B-425B-BF07-E2607DDD6670][Value/Viz Catalog]]                               :gtasks:curweek:
 ** TODO Dump in my outline
