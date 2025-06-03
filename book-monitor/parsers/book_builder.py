@@ -87,3 +87,47 @@ class BookBuilder:
         except Exception as e:
             self.logger.error(f"Error parsing chapter {filename}: {str(e)}")
             return None
+
+
+def main():
+    """Main function for command-line usage."""
+    import sys
+    import argparse
+    
+    parser = argparse.ArgumentParser(description='Build book from org files and display word counts')
+    parser.add_argument('directory', help='Directory containing org files with toc.org')
+    args = parser.parse_args()
+    
+    # Configure basic logging
+    logging.basicConfig(
+        level=logging.WARNING,  # Only show warnings and errors
+        format='%(levelname)s: %(message)s'
+    )
+    
+    # Build the book
+    builder = BookBuilder(args.directory)
+    book = builder.build()
+    
+    if not book:
+        print("Failed to build book from directory:", args.directory)
+        sys.exit(1)
+    
+    # Output word counts in simple text format
+    print(f"Book: {book.title}")
+    print(f"Author: {book.author}")
+    print(f"Total Words: {book.calculate_total_words()}")
+    print()
+    
+    for i, chapter in enumerate(book.chapters, 1):
+        chapter_words = chapter.calculate_word_count()
+        print(f"Chapter {i}: {chapter.title} ({chapter_words} words)")
+        
+        for j, section in enumerate(chapter.sections, 1):
+            print(f"  Section {j}: {section.title} ({section.word_count} words)")
+    
+    print()
+    print(f"Summary: {len(book.chapters)} chapters, {book.calculate_total_words()} total words")
+
+
+if __name__ == '__main__':
+    main()
