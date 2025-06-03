@@ -75,7 +75,7 @@ Hidden within it we'll find the keys to successfully identifying and then advoca
 
 # But it does take some slowing down and careful thinking to really see all those connections.
 
-** Oh, No, This Is Totally Not How You Talk To Stakeholders
+** Oh, Good Lord No, This Is *Not* How You Talk To Stakeholders
 
 Before we dig in, though: I'm *not* proposing you *lead* with all of the below, in your initial conversations with your stakeholders.
 
@@ -87,7 +87,7 @@ And we'll do so in a way that doesn't require front-loading an economics lecture
 
 Footnote: As Edmund Jorgensen and I first came to understand these ideas about company value (after reading the amazing Principles of Product Development Flow, by Don Reinertsen), we excitedly brought abstract models for value into just about every one of our discussions with stakeholders. We emerged from that experience a few years later, battered and bruised, with the very different approach you're going to see later.
 
-** A Few Of My Favorite Misconceptions
+** A Few Of My Favorite Misconceptions About Value
 
 As a prelude to building our model, let's list several things that are *not* reliable proxies for creating value.
 
@@ -102,6 +102,8 @@ This statement expresses a belief that on of the below activities is the entiret
 This belief is fundamentally wrong.
 
 Engineering's *job* is to create value for the business. Even if the people who hired you don't think about it that way.
+
+# You're going to get a ticket to the Dan Milstein Course in How To Give People What They Actually Want, Not What They Ask For, And Leave Them Very Happy Indeed
 
 Each of the below activities is *potentially valuable* for a business... but, unfortunately, each of them is also *potentially damaging to value*:
 
@@ -154,7 +156,7 @@ Let's build a model!
 # What's That You Say, You Want a Brief Detour Into Finance?
 # Finance Is An Equation Built On Top of a Dream [Fantasy]
 
-** Finance: Equations Built On Top Of Dreams & Fantasies
+** Finance: Nifty Equations Built On Top Of Messy Dreams & Fantasies
 
 If you ask a finance person how to value a company, they'll light up.
 
@@ -168,7 +170,7 @@ But this is *wrong*, in a just enormously important way.
 
 All company valuation models are built on top of *projections of future profits*.
 
-And those projections are *guesses*.
+And those projections are... *guesses*.
 
 The models take one specific guess, and turn it into a specific number of dollars.
 
@@ -186,50 +188,49 @@ To put the focus cleanly on that, we're going to abstract away all the details o
 
 That's it. Inside that is where we'll find our key.
 
-** Probability: Unknown Versus Uknowable
+** Probability As A State of Knowledge About the World
 
 The concept of "probability" is used in two related but subtly different ways.
 
-Sometimes, it's used to describe something which is "inherently unknowable", e.g.: rolling a die.
+Sometimes, probability describes something like rolling a die.
 
-We call any single die roll a "random event".
+All anyone can possibly say about a die roll is that each of the six sides is equally likely to turn up.
 
-All we can possibly say--all *anyone* can possibly say--is that each side is equally likely to turn up.
+The result of any one roll can thus best be described with the tools of probability, because it is *fundamentally unknowable*.
 
-In this "inherently unknowable" case, a probability estimate is a fundamental statement about the world.
+However, for company value, a probabilistic estimate means something quite different.
 
-But at other times, the word "probability" is used to describe something which is potentially knowable, but is *currently unknown*.
+Here, "probability" means something over which a person has *limited information*.
 
-Here an example might be: guessing a target person's height.
+Something which is *potentially knowable*, but which the person making the estimate doesn't currently know for certain.
 
-If the guesser knows nothing whatsoever about the target (as in, they can't even *see* them), then their best option is:
+The total profits your company will generate over the next 5 years can't be known perfectly -- but someone can make an informed guess.
 
-Guess the average human height (taken over, say, every human on earth).
+That person will estimate an overall profit stream, and thus an overall company value -- based on *their current knowledge*.
 
-However, in principle, there's no reason the person doing the guessing *couldn't* know more. Even potentially a *lot* more.
+A company valuation represents a probablistic estimate based on current knowledge.
 
- - They could know where the target person was born
+And someone with more knowledge can make a different, *better* guess -- and if that guess shows more profits, then the overall company value will go up.
 
-   The distribution of heights are quite different in different parts of the world.
+Acquiring information can *increase company value*.
 
- - The could know the target person's age
+Not in some woo-woo theoretical way. Actual company value. What people pay for a share of stock, or what investors pay at a funding round.
 
-   The distribution of heights is very different for 3 year olds than for 30 year olds.
 
- - They could even be looking at a photograph of the target person standing in front of a ruler
+# # Insert a company-specific example
 
-   This might feel like it's no longer a "guess" -- but there's nothing inherently impossible in this.
+# # Cut here
 
-In each case, they would have more information, and could therefore make a more accurate, tighter probabilistic estimate.
+# In each case, they would have more information, and could therefore make a more accurate, tighter probabilistic estimate.
 
-[Once they "fully know", we feel uncomfortable calling it a probabilistic estimate, but it's really just a spectrum, not a binary difference]
+# [Once they "fully know", we feel uncomfortable calling it a probabilistic estimate, but it's really just a spectrum, not a binary difference]
 
-In this way of understanding "probability", a probabilistic estimate is a statement of *knowledge* by some specific person, not a statement of *inherent variation* in the world.
+# In this way of understanding "probability", a probabilistic estimate is a statement of *knowledge* by some specific person, not a statement of *inherent variation* in the world.
 
-Such a probablistic estimate encodes a person having *some* information -- but not enough to always get the right answer.
+# Such a probablistic estimate encodes a person having *some* information -- but not enough to always get the right answer.
 
 ** Um, What Person Is Doing The Knowing and The Guessing?
-# We're Going to Invent Someone Useful
+# We're Going to Invent Someone Useful, Named Bertha
 
 If the value of a company is a probabilistic estimate of future profits...
 
