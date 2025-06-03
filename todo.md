@@ -19,23 +19,23 @@
 - [x] Create `.gitignore` file
 
 ### Step 2: Configuration and Models
-- [ ] Create `config.py` with Config class
-- [ ] Add all configuration constants
-- [ ] Create `models/book.py`:
-  - [ ] Book dataclass with all fields
-  - [ ] `calculate_total_words()` method
-- [ ] Create `models/chapter.py`:
-  - [ ] Section dataclass
-  - [ ] Chapter dataclass
-  - [ ] `calculate_word_count()` method
-- [ ] Update `models/__init__.py` with exports
-- [ ] Create `tests/test_models.py`:
-  - [ ] Test Book initialization
-  - [ ] Test Book.calculate_total_words()
-  - [ ] Test Chapter initialization
-  - [ ] Test Chapter.calculate_word_count()
-  - [ ] Test Section initialization
-- [ ] Run tests and ensure all pass
+- [x] Create `config.py` with Config class
+- [x] Add all configuration constants
+- [x] Create `models/book.py`:
+  - [x] Book dataclass with all fields
+  - [x] `calculate_total_words()` method
+- [x] Create `models/chapter.py`:
+  - [x] Section dataclass
+  - [x] Chapter dataclass
+  - [x] `calculate_word_count()` method
+- [x] Update `models/__init__.py` with exports
+- [x] Create `tests/test_models.py`:
+  - [x] Test Book initialization
+  - [x] Test Book.calculate_total_words()
+  - [x] Test Chapter initialization
+  - [x] Test Chapter.calculate_word_count()
+  - [x] Test Section initialization
+- [x] Run tests and ensure all pass
 
 ### Step 3: Org Parsing Utilities
 - [ ] Create `parsers/org_utils.py`:

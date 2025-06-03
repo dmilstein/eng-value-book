@@ -32,7 +32,7 @@ class TestSection(unittest.TestCase):
         content = "This is a test section with multiple words in it."
         section = Section(title="Test", content=content)
         
-        self.assertEqual(section.word_count, 11)
+        self.assertEqual(section.word_count, 10)
 
 
 class TestChapter(unittest.TestCase):
@@ -75,8 +75,8 @@ class TestChapter(unittest.TestCase):
         section = Section(title="Section 1", content="This has five words.")
         chapter.add_section(section)
         
-        # 5 words out of 100 target = 5%
-        self.assertEqual(chapter.get_progress_percentage(), 5.0)
+        # 4 words out of 100 target = 4%
+        self.assertEqual(chapter.get_progress_percentage(), 4.0)
     
     def test_chapter_progress_percentage_over_target(self):
         """Test progress percentage caps at 100%."""
@@ -154,8 +154,8 @@ class TestBook(unittest.TestCase):
         chapter.add_section(section)
         book.add_chapter(chapter)
         
-        # 5 words out of 100 target = 5%
-        self.assertEqual(book.get_progress_percentage(), 5.0)
+        # 4 words out of 100 target = 4%
+        self.assertEqual(book.get_progress_percentage(), 4.0)
     
     def test_book_get_chapter_by_title(self):
         """Test finding chapters by title."""
