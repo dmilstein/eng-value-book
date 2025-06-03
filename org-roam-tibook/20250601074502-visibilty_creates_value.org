@@ -4,17 +4,24 @@
 #+title: Visibility Creates Value
 #+filetags: :Chapter:
 * Visibility Creates Value
+
+# Maybe: Look, you... could skip this chapter. Maybe. And just jump into the catalog of Forms of Value + Visibility. If you're a person who is just super impatient with any form of abstract thinking, feel free to do that, and maybe return here when you hit concepts there. But I'll encourage you not to. There are few things that are more valuable for your long-term career than understanding how engineering work turns into value. It can both earn you more money, but also preserve your sanity. But it takes some work. As my friend Edmund said "Tell them sometimes you need the math so fucking clear an afternoon and brew some coffee".
+
 Technical Investments are defined as:
 
 "Work that engineers believe is *valuable for the business*, but which no one is asking for".
 
 In order to identify and advocate for technical investments, engineering leaders must understand *how engineers create value for a business*.
 
-What do we mean by value?
+Let's stop rigth there, and ask the most fundamentally important question:
+
+*What do we mean by value?*
 
 Say the engineers are hard at work on a new product, that, once it launches, will bring in a stream of dollars.
 
-Crucially, that stream of dollars is *not* the value we're talking ahout -- it's "revenue", which plays a *role* in determining company value, but is not that value by itself.
+Many engineers, if they think about company value at all, tend to think of that stream of dollars, that potential revenue as the "business value" they're responsible for delivering.
+
+But, crucially, revenue is *not* the value we're talking ahout -- revenue plays a *role* in determining company value, but is not that value by itself.
 
 So, what is "overall company value"? And how might we determine it?
 
@@ -22,7 +29,9 @@ For a public company, we can estimate "overall company value" from the market ca
 
 For a startup, we can estimate "overall company value" from the valuation achieved during a funding round -- if investors pay $10 million dollars to own 25% of the company, they are setting an overall company value of $40 million.
 
-Engineers can, by the work they do, either increase *or decrease* that kind of overall company value.
+If you know something more important to a company *and its leadership* than its future stock price or its valuation in future funding rounds, please do let me know what it is.
+
+Now, engineers can, by the work they do, either increase *or decrease* that kind of overall company value (footnote: this is part of why I love engineer compensation being tied to equity).
 
 The potential *increase* in value is why companies hire engineers -- engineer salaries represent an *investment* on the part of the business, made in hopes of a positive return.
 
@@ -32,45 +41,47 @@ Whatever someone tells you your job is, please understand and believe me: in rea
 
 Unfortunately, company executives have a limited understanding of how engineers create value.
 
-This is especially true for various forms of potential value that engineers care a great deal about, e.g:
+# This is especially true for various forms of potential value that engineers care a great deal about, e.g:
 
- - Cleaning up difficult-to-change code
+#  - Cleaning up difficult-to-change code
 
- - Improving tooling to test, integrate and deploy changes
+#  - Improving tooling to test, integrate and deploy changes
 
- - Instrumenting production systems with monitoring
+#  - Instrumenting production systems with monitoring
 
- - Retiring old infrastruture
+#  - Retiring old infrastruture
 
-In the right situations, the above kinds of work can make a company *a great deal* more valuable -- and can thus be worth prioritizing, even against work that might immediately increase revenue.
+# In the right situations, the above kinds of work can make a company *a great deal* more valuable -- and can thus be worth prioritizing, even against work that might immediately increase revenue.
 
-Engineers can not, in general, depend on stakeholders or product managers to understand how to convert problems in those areas into potentially valuable investment opportunities.
+Engineers can not, in general, depend on stakeholders or product managers to understand how to convert problems in technical areas into potentially valuable investment opportunities.
 
-Thus to support engineers in these conversations, we're going to spend some time unpacking the concept of "overall company value".
+(That is why "no one is asking for" the work the engineers want to do)
+
+Thus we're going to spend some time unpacking the concept of "overall company value".
 
 Hidden within it we'll find the keys to successfully identifying and then advocating for a wide variety of technical investments -- and for understanding our work as engineers more broadly.
 
 # Footnote Also: it's fun! It's maybe *especially* fun if you have an obsessive love for developing a first-principles understanding of activities people are blindly doing all around you.
 
-Although some of the below may sound a bit theoretical, I'll *strongly encourage* you to really sink your teeth into it, really wrestle with how to apply it to your specific company.
+# Although some of the below may sound a bit theoretical, I'll *strongly encourage* you to really sink your teeth into it, really wrestle with how to apply it to your specific company.
 
-Why?
+# Why?
 
-Technical investments are fundamentally about *value*.
+# Technical investments are fundamentally about *value*.
 
-As an engineering leader, you will be *extremely* well-served by having a full understanding of how to map from your company's highest level goals (aka, their plan for increasing overall value) all the way down to the work your team is doing, day-to-day.
+# As an engineering leader, you will be *extremely* well-served by having a full understanding of how to map from your company's highest level goals (aka, their plan for increasing overall value) all the way down to the work your team is doing, day-to-day.
 
-That full understanding is what will allow you to creatively and successfully advocate for work that no one is asking for.
+# That full understanding is what will allow you to creatively and successfully advocate for work that no one is asking for.
 
-But it does take some slowing down and careful thinking to really see all those connections.
+# But it does take some slowing down and careful thinking to really see all those connections.
 
-** This Is Not How You Talk To Stakeholders
+** Oh, No, This Is Totally Not How You Talk To Stakeholders
 
-I'm not, not, *not* proposing you *lead* with all of the below, in your initial conversations with your stakeholders.
+Before we dig in, though: I'm *not* proposing you *lead* with all of the below, in your initial conversations with your stakeholders.
 
 As you read the below just focus on understanding and applying the overall model of value *for yourself*.
 
-Later in the book, we'll lay out a plan for gradually drawing your stakeholder into a repeated process of decision-making, that they will find delightful.
+Later in the book, we'll lay out a plan for gradually drawing your stakeholders into a repeated process of decision-making, that they will find delightful.
 
 And we'll do so in a way that doesn't require front-loading an economics lecture -- stakeholders who are upset about their features being late are oddly resistant to economics lectures, I have found.
 
@@ -78,19 +89,19 @@ Footnote: As Edmund Jorgensen and I first came to understand these ideas about c
 
 ** A Few Of My Favorite Misconceptions
 
-Before we build our model, let's list several things that are *not* reliable proxies for creating value.
+As a prelude to building our model, let's list several things that are *not* reliable proxies for creating value.
 
 Stakeholders (and other engineering leaders!) will tell you, extremely confidently, that one or more of the below *is* a reliable proxy for creating value.
 
-Except they won't use those words (Footnote: unless they happen to be an economic model-obsessed geek).
+Except they won't use those words (unless they happen to be economic model-obsessed geeks).
 
-What they'll *say* is: "Stop asking so many questions and just do your job".
+What they'll say is: *"Stop asking so many questions and just do your job".*
 
 This statement expresses a belief that on of the below activities is the entirety of engineering's "*job*".
 
 This belief is fundamentally wrong.
 
-Engineering's *job* is to create value for the business.
+Engineering's *job* is to create value for the business. Even if the people who hired you don't think about it that way.
 
 Each of the below activities is *potentially valuable* for a business... but, unfortunately, each of them is also *potentially damaging to value*:
 
@@ -128,7 +139,7 @@ Here are some examples of how, depending on context, each of the above can or ca
 
    Super valuable if, um... Um. Just give me a sec.
 
-   Look, I just can't lie: making key business decisions based on extracting "commitments" from engineering is a fool's game for everyone involved.
+   Look, I can't lie: making key business decisions based on extracting "commitments" from engineering is a fool's game for everyone involved.
 
    See Melissa Perri's excellent Escaping the Build Trap for much, much better options.
 
@@ -137,6 +148,8 @@ As the above makes clear, there's a lot of contextual nuance to understanding wh
 Fortunately, there is a unifying way to understand value, so that the most important factors of the context immediately pop into sharp relief.
 
 And developing that unifying understanding will allow you to see a vast array of potential technical investments in a clear light.
+
+Let's build a model!
 
 # What's That You Say, You Want a Brief Detour Into Finance?
 # Finance Is An Equation Built On Top of a Dream [Fantasy]
@@ -153,9 +166,9 @@ You might think, "Oh, I get it! The overall value of a company is determined by 
 
 But this is *wrong*, in a just enormously important way.
 
-A company valuation model is built on top of a *projection of future profits*.
+All company valuation models are built on top of *projections of future profits*.
 
-And that projection is a *guess*.
+And those projections are *guesses*.
 
 The models take one specific guess, and turn it into a specific number of dollars.
 
@@ -163,15 +176,15 @@ Then, humans, being human, treat the number as Very Meaningful, because Math Has
 
 But it's *still* just a guess.
 
-Footnote: If you take nothing else from me, please believe that Guesses + Math = Guesses, not Truth.
+# Footnote: If you take nothing else from me, please believe that Guesses + Math = Guesses, not Truth.
 
 Guesses and uncertainty are at the absolute core of how companies are valued.
 
-To put the focus cleanly on that, we're going to abstract all details of the models away, and define the value of a company as:
+To put the focus cleanly on that, we're going to abstract away all the details of the models, and define the value of a company as:
 
 *A probabilistic estimate of the future profits of the company.*
 
-That's it. Inside that we'll find our key.
+That's it. Inside that is where we'll find our key.
 
 ** Probability: Unknown Versus Uknowable
 
