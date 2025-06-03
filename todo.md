@@ -3,20 +3,20 @@
 ## Project Setup and Foundation
 
 ### Step 1: Project Bootstrap
-- [ ] Create `book-monitor/` directory
-- [ ] Create directory structure:
-  - [ ] `templates/` directory
-  - [ ] `static/` directory
-  - [ ] `parsers/` directory with `__init__.py`
-  - [ ] `models/` directory with `__init__.py`
-  - [ ] `tests/` directory
-  - [ ] `utils/` directory
-- [ ] Create `requirements.txt` with dependencies
-- [ ] Create `app.py` with minimal Flask app
-- [ ] Verify Flask server starts on localhost:5000
-- [ ] Test root route returns "Book Monitor Running"
-- [ ] Initialize git repository
-- [ ] Create `.gitignore` file
+- [x] Create `book-monitor/` directory
+- [x] Create directory structure:
+  - [x] `templates/` directory
+  - [x] `static/` directory
+  - [x] `parsers/` directory with `__init__.py`
+  - [x] `models/` directory with `__init__.py`
+  - [x] `tests/` directory
+  - [x] `utils/` directory
+- [x] Create `requirements.txt` with dependencies
+- [x] Create `app.py` with minimal Flask app
+- [x] Verify Flask server starts on localhost:5000
+- [x] Test root route returns "Book Monitor Running"
+- [x] Initialize git repository
+- [x] Create `.gitignore` file
 
 ### Step 2: Configuration and Models
 - [ ] Create `config.py` with Config class
