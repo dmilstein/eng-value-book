@@ -1,0 +1,30 @@
+#+TITLE: Test Book Table of Contents
+#+AUTHOR: Test Author
+
+This is a sample table of contents for testing.
+
+* Chapters
+
+** [[file:chapter1.org][Introduction]]
+** [[file:chapter2.org][Getting Started]]
+** [[file:chapter3.org][Advanced Topics]]
+
+* Additional Content
+
+Some other content that should be ignored.
+
+** [[file:appendix.org][Appendix A]]
+
+* Malformed Links
+
+These should be skipped:
+- [[file:][Empty Title]]
+- [[file:missing_title.org]]
+- [[incomplete_link.org][Missing File Prefix]]
+- [[file:empty_filename.org][]]
+
+* Valid Links Mixed with Text
+
+Here's another chapter: [[file:chapter4.org][Conclusion]] that should be found.
+
+And one more: [[file:chapter5.org][References and Bibliography]].

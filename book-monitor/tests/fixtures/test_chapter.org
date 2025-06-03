@@ -1,0 +1,35 @@
+#+TITLE: Test Chapter
+#+AUTHOR: Test Author
+
+* First Chapter Title
+
+This is the introduction to the first chapter. It contains some regular text that should be counted.
+
+** First Section
+
+This is the content of the first section. It has multiple sentences and should be counted properly.
+
+The section continues with more content here.
+
+** Second Section :tag1:tag2:
+
+This section has tags that should be removed from the title.
+
+#+BEGIN_SRC python
+def example():
+    print("This code should not be counted")
+#+END_SRC
+
+But this text after the code block should be counted.
+
+** Third Section
+
+Final section with some content.
+
+* Second Chapter Title
+
+This is a second top-level heading, but it should be ignored by the parser since we only process the first one.
+
+** This section should not be processed
+
+Because it's part of the second chapter.

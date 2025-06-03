@@ -61,47 +61,47 @@
 ## File Processing Implementation
 
 ### Step 4: TOC Parser
-- [ ] Create `parsers/toc_parser.py`:
-  - [ ] TocParser class
-  - [ ] `__init__` method accepting file path
-  - [ ] `parse()` method returning chapter list
-- [ ] Implement parsing logic:
-  - [ ] Find all [[file:][title]] links
-  - [ ] Extract filename and title
-  - [ ] Maintain order
-  - [ ] Skip invalid links
-- [ ] Create `tests/fixtures/` directory
-- [ ] Create `tests/fixtures/test_toc.org` with sample content
-- [ ] Create `tests/test_toc_parser.py`:
-  - [ ] Test parsing valid TOC file
-  - [ ] Test handling missing TOC file
-  - [ ] Test malformed links are skipped
-  - [ ] Test empty TOC file
-  - [ ] Test order preservation
-- [ ] Add error handling for file operations
-- [ ] Run tests and ensure all pass
+- [x] Create `parsers/toc_parser.py`:
+  - [x] TocParser class
+  - [x] `__init__` method accepting file path
+  - [x] `parse()` method returning chapter list
+- [x] Implement parsing logic:
+  - [x] Find all [[file:][title]] links
+  - [x] Extract filename and title
+  - [x] Maintain order
+  - [x] Skip invalid links
+- [x] Create `tests/fixtures/` directory
+- [x] Create `tests/fixtures/test_toc.org` with sample content
+- [x] Create `tests/test_toc_parser.py`:
+  - [x] Test parsing valid TOC file
+  - [x] Test handling missing TOC file
+  - [x] Test malformed links are skipped
+  - [x] Test empty TOC file
+  - [x] Test order preservation
+- [x] Add error handling for file operations
+- [x] Run tests and ensure all pass
 
 ### Step 5: Chapter Parser
-- [ ] Create `parsers/chapter_parser.py`:
-  - [ ] ChapterParser class
-  - [ ] `__init__` method accepting file path
-  - [ ] `parse()` method returning Chapter object
-- [ ] Implement first-heading-only rule:
-  - [ ] Find first "* " heading
-  - [ ] Extract chapter title
-  - [ ] Process only content until next "* " or EOF
-  - [ ] Extract all "** " sections
-  - [ ] Calculate word counts
-- [ ] Create `tests/fixtures/test_chapter.org` with sample content
-- [ ] Create `tests/test_chapter_parser.py`:
-  - [ ] Test single top-level heading
-  - [ ] Test multiple top-level headings (only first processed)
-  - [ ] Test section extraction
-  - [ ] Test word counting per section
-  - [ ] Test empty chapter
-  - [ ] Test chapter with no sections
-- [ ] Integrate with org_utils for word counting
-- [ ] Run tests and ensure all pass
+- [x] Create `parsers/chapter_parser.py`:
+  - [x] ChapterParser class
+  - [x] `__init__` method accepting file path
+  - [x] `parse()` method returning Chapter object
+- [x] Implement first-heading-only rule:
+  - [x] Find first "* " heading
+  - [x] Extract chapter title
+  - [x] Process only content until next "* " or EOF
+  - [x] Extract all "** " sections
+  - [x] Calculate word counts
+- [x] Create `tests/fixtures/test_chapter.org` with sample content
+- [x] Create `tests/test_chapter_parser.py`:
+  - [x] Test single top-level heading
+  - [x] Test multiple top-level headings (only first processed)
+  - [x] Test section extraction
+  - [x] Test word counting per section
+  - [x] Test empty chapter
+  - [x] Test chapter with no sections
+- [x] Integrate with org_utils for word counting
+- [x] Run tests and ensure all pass
 
 ### Step 6: Book Builder
 - [ ] Create `parsers/book_builder.py`:
