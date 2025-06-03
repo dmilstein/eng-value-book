@@ -38,25 +38,25 @@
 - [x] Run tests and ensure all pass
 
 ### Step 3: Org Parsing Utilities
-- [ ] Create `parsers/org_utils.py`:
-  - [ ] `count_words(text: str) -> int` function
-  - [ ] `remove_org_markup(text: str) -> str` function
-  - [ ] `extract_org_links(text: str) -> List[Tuple[str, str]]` function
-- [ ] Implement word counting exclusions:
-  - [ ] Exclude org directives (#+)
-  - [ ] Exclude property drawers
-  - [ ] Exclude tags
-  - [ ] Exclude comments
-  - [ ] Exclude code blocks
-- [ ] Create `tests/test_org_utils.py`:
-  - [ ] Test word counting with plain text
-  - [ ] Test word counting with bold/italic markup
-  - [ ] Test word counting with code blocks
-  - [ ] Test word counting with property drawers
-  - [ ] Test link extraction with valid links
-  - [ ] Test link extraction with malformed links
-  - [ ] Test markup removal
-- [ ] Run tests and ensure all pass
+- [x] Create `parsers/org_utils.py`:
+  - [x] `count_words(text: str) -> int` function
+  - [x] `remove_org_markup(text: str) -> str` function
+  - [x] `extract_org_links(text: str) -> List[Tuple[str, str]]` function
+- [x] Implement word counting exclusions:
+  - [x] Exclude org directives (#+)
+  - [x] Exclude property drawers
+  - [x] Exclude tags
+  - [x] Exclude comments
+  - [x] Exclude code blocks
+- [x] Create `tests/test_org_utils.py`:
+  - [x] Test word counting with plain text
+  - [x] Test word counting with bold/italic markup
+  - [x] Test word counting with code blocks
+  - [x] Test word counting with property drawers
+  - [x] Test link extraction with valid links
+  - [x] Test link extraction with malformed links
+  - [x] Test markup removal
+- [x] Run tests and ensure all pass
 
 ## File Processing Implementation
 
