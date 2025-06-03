@@ -4,7 +4,7 @@
 #+title: The Tech Investment Cycle
 #+filetags: :Chapter:
 * The Tech Investment Cycle
-** Favor Cycles Over One-Off Projects
+** Favor Repeated Cycles Over One-Off Projects
 
 There are two fundamental facets to working with technical investments.
 
@@ -71,7 +71,7 @@ You should, of course, still *execute* the work in incremental steps (because th
 
  - A Durable Team
 
-** An Example Of Climbing the Ladder
+** Repeated Cycles As "Climbing the Ladder"
 
 When I joined Ellevation Education, a thriving EdTech company serving public school educators who work with English Learner students, I found that the engineers had grown incredibly frustrated by deploying the legacy app.
 
@@ -83,15 +83,15 @@ It had everyone's favorite feature of a deploy pipeline:
 
  - A sprawling suite of poorly-maintained Selenium tests that enjoyed the properties of being both slow *and* flaky
 
- - Intermediate jobs that liked to fail with cryptic error messages that required contacting the most senior engineer (and/or sacrificing a goat) to resolve.
+ - Intermediate jobs that liked to fail with cryptic error messages that only the most senior engineer could resolve
 
- - Jobs hosted on multiple automation platforms (Jenkins, Octopus, some GitHub bits)
+ - Jobs hosted on multiple competing automation platforms (Jenkins, Octopus, some GitHub bits)
 
-The #deploy-sucks Slack channel was a constant firestorm of angry gifs.
+The #deploy-sucks Slack channel was just a firestorm of angry gifs and emojis.
 
 But... what was the product team's experience?
 
-And please note: this was a pretty technical savvy product team -- Nathan Papazian, Ellevation's VP of Product, held his PM's accountable for listening carefully to the engineers, and really understanding the systems the teams they were building.
+And please note: this was a pretty technical savvy product team -- Nathan Papazian, Ellevation's VP of Product, held his PM's accountable for listening carefully to the engineers, and really understanding the systems in some depth.
 
 What could that product team *observe*?
 
@@ -105,26 +105,25 @@ Also, the engineers were complaining about legacy app deploys.
 
 But, to a first approximation, engineers are *always* complaining about deploys. So this didn't really stand out.
 
-Furthermore, when the product team asked the engineers for any concrete improvement options, the engineering team wasn't to offer much in the way of specifics -- the whole thing was such a mess, it wasn't clear where to start.
+Furthermore, when the product team asked the engineers for any concrete improvement options, the engineers weren't able to offer much in the way of specifics -- the whole thing was such a mess, it wasn't clear where to start.
 
-(One engineer kept saying "We need to rewrite all our Selenium tests", but that was clearly an apocalyptic amount of work)
+One engineer kept saying "We need to rewrite all our Selenium tests", but that was clearly an apocalyptic amount of work.
 
 And so they all felt stuck.
 
-# Name Alla Hoffman
-Then, one afternoon, while waiting for a deploy to finish, a very bright and very frustrated engineer threw together a spreadsheet and asked all the engineers on the team to just *manually* log their deploy times in it (the legacy app was called Flagship internally, she titled the spreadsheet "Flagship Misery").
+Then, one afternoon, while waiting for a deploy to finish, Alla Hoffman, a *very* bright and *very* frustrated engineer threw together a spreadsheet and asked all the engineers on the team to just *manually* log their deploy times in it (the legacy app was called Flagship internally, Alla titled the spreadsheet "Flagship Pains").
 
 She asked engineers to fill in their name, one column when they started the first in the series of jobs, then another when the final job finished up. There was also a column for free text notes on anything that happened.
 
-Setting up that spreadsheet took the engineer about 15 minutes (counting the, ahem, vigorous email she sent to all of engineering encouraging them to keep it up to date).
+Setting up that spreadsheet took her about 15 minutes (counting the, ahem, vigorous email she sent to all of engineering encouraging them to keep it up to date).
 
 This was a technical investment!
 
-She was *creating visibility* -- which is an *excellent* form of value (which we'll talk about at some length in [[id:D901A4C9-885B-4F42-8B8D-3595616857E8][Visibility Creates Value]]).
+All *created visibility* -- which is an *excellent* form of value (which we'll talk about at some length in [[id:D901A4C9-885B-4F42-8B8D-3595616857E8][Visibility Creates Value]]).
 
 She did so as an "on-the-side" project -- one where the engineers *don't* ask the product team for permission/capacity, but just quietly scrape together a bit of time.
 
-Overall, it's important to develop a collaborative partnership around technical investments -- but some work *is* best done without a formal negotation. That's an especially good pattern for cheap initial steps to build visibility.
+Overall, it's well worth your time to develop a collaborative partnership around technical investments -- but some work *is* best done without a formal negotation. That's an especially good pattern for cheap initial steps to build visibility.
 
 We'll talk in the [[id:722C702D-A6C2-4A51-AB62-515CE8144AA2][Ladder of Commitment]] about different scopes for technical investments, and where the on-the-side approach works, and were it falls down.
 
@@ -138,19 +137,19 @@ Together, they all looked at how long it was taking to get legacy app changes ou
 
 At this point, it wasn't hard for Lisa to convince Nathan to carve out a week for one engineer to instrument the key stages of the deploy process, so they could better understand what the hell was going on (this is what I call "Ticket" scope).
 
-Thus, a few weeks later, they were looking together at a clearer picture of overall deploy time trends and for various internal stages, both times and failure rates.
+Thus, a few weeks later, they were looking together at a clearer picture of overall deploy trends and, for various internal stages, both times and failure rates.
 
 The flaky Selenium tests proved to be the worst culprit -- often needing to be re-run multiple times until they passed.
 
-But, unfortunately, there was no simple fix.
+But, unfortunately, there was no simple fix -- it was tempting to just rm -rf the whole set, but everyone agreed that, on occasion, the tests caught a potentially very bad problem in some part of the legacy product that customers still depended on.
 
-Lisa made a case for a carefully time-boxed, three week-long effort by a couple of engineers, to inventory all the tests, come up with options, share those back and then execute on one (this is "Project" scope).
+Lisa made a case for a carefully time-boxed, three week-long effort by a couple of engineers, to inventory all the tests, come up with options, share those back and then execute on one (this is "Project" scope -- and has a built-in partway-through decision).
 
-Lisa and Nathan worked together to find a time to do this -- they weren't working much in the legacy app at the moment, but both knew a big chunk of work on it was coming, and they were *both* motivated to get deploy improvements in before it landed.
+Lisa and Nathan worked together to find a time for this project -- they weren't working much in the legacy app at the moment, but both knew a big chunk of work on it was coming, and they were *both* motivated to get deploy improvements in before it landed.
 
 With some careful co-planning, they found a chunk capacity.
 
-When the engineers executed on the work, they collaborated closely with the product team. Together, the two sides decided which features they most wanted to retain test coverage for, and which areas were okay to leave with less coverage.
+When the engineers dug in, the product team worked closely with them. Together, the two sides decided which features they most wanted to retain test coverage for, and which areas were okay to leave with less coverage.
 
 Thanks to having built shared understanding, the product team were ready to pitch in themselves. This is a super common need -- for many tech investments, business context is needed to make decisions as you go.
 
@@ -166,15 +165,15 @@ For a few more months the team kept steadily improving the deploy process, in pa
 
 Sometimes it was just a ticket here or there, sometimes an engineer would drop off the main sprint for a week or even a month and just focus on some specific challenge.
 
-Eventually, the legacy app deploys became reliable enough that, by common agreement between engineering and product, the pace of investment in this specific area slowed.
+Eventually, the legacy app deploys became reliable enough that, by common agreement between Lisa and Nathan, the pace of investment in this specific area slowed.
 
 Then, one day, the legacy app suffered a major outage.
 
-In the course of resolving the incident, the team rapidly deploy one change after another, first to diagnose and then to fix the underlying issue (which, this will shock you, turned out to be in the caching layer).
+In the course of resolving the incident, the team rapidly deploy one change after another, first to diagnose and then to fix the underlying issue (which, this will shock you, turned out to be in the cache, which was Couchbase).
 
-When Lisa and I wrote up the post-mortem notes, we took time to carefully document how the fast, reliable deploys had saved Ellevation somewhere between one and three *full days* of downtime.
+When Lisa wrote up the post-mortem notes, she took time to carefully document how those fast, reliable deploys had saved Ellevation somewhere between one and three *full days* of downtime.
 
-We made a point of sharing those post-mortem notes with both the product team and the CEO (see [[id:3DE23585-34F0-4C88-A16B-4558ACC45C99][Make Your Post-Mortems an Act of Visibility]]).
+She made a point of sharing those post-mortem notes with both the product team and the CEO (see [[id:3DE23585-34F0-4C88-A16B-4558ACC45C99][Make Your Post-Mortems an Act of Visibility]]).
 
 All of which eventually led to Ellevation's (highly non-technical!) CEO, Jordan Meranus, beaming with pride at a company All Hands as Lisa told *the entire company* the story of how the team had gradually improved deploys (see: [[id:4D62F0DE-2862-45F3-97EE-6AFED5382F2C][Use Storytelling To Celebrate Your Wins]]).
 
@@ -188,7 +187,7 @@ In the course of climbing the ladder, there was a constant interplay between bui
 
 That's so central to working effectively with technical investments, we'll spend the entire next chapter on how and why visibility creates value.
 
-** A Framework for Tech Investment Cycles
+** A Framework for Tech Investments
 Having seen those examples, we can sketch in the skeleton for the overall cycle -- which we'll dig into in detail, through the rest of the book [Part I].
 
 Not every single cycle goes precisely through every step in precisely this order -- but it's good to understand this as an overall *arc* you want to go through, *with your team and your stakeholders*.
