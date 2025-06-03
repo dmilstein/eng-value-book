@@ -21,12 +21,12 @@ def count_words(text: str) -> int:
     text = re.sub(r'^#\+.*$', '', text, flags=re.MULTILINE)
     
     # Remove property drawers (everything between :PROPERTIES: and :END:)
-    text = re.sub(r':PROPERTIES:.*?:END:', '', text, flags=re.DOTALL)
+    text = re.sub(r':PROPERTIES:.*?:END:', '', text, flags=re.DOTALL | re.IGNORECASE)
     
     # Remove tags (words starting with : at end of headings)
-    text = re.sub(r'\s+:[a-zA-Z0-9_@#%:]+:\s*$', '', text, flags=re.MULTILINE)
+    text = re.sub(r':[a-zA-Z0-9_@#%:]+:', '', text)
     
-    # Remove comments (lines starting with #)
+    # Remove comments (lines starting with # but not #+)
     text = re.sub(r'^#[^+].*$', '', text, flags=re.MULTILINE)
     
     # Remove code blocks (everything between #+BEGIN_SRC and #+END_SRC)
@@ -74,8 +74,8 @@ def remove_org_markup(text: str) -> str:
     # Remove links but keep the description [[url][description]] -> description
     text = re.sub(r'\[\[[^\]]+\]\[([^\]]+)\]\]', r'\1', text)
     
-    # Remove simple links [[url]] -> url
-    text = re.sub(r'\[\[([^\]]+)\]\]', r'\1', text)
+    # Remove simple links [[url]] -> url (only if not already processed)
+    text = re.sub(r'\[\[([^\]]*)\]\]', r'\1', text)
     
     return text
 
@@ -101,14 +101,14 @@ def extract_org_links(text: str) -> List[Tuple[str, str]]:
     for url, description in matches:
         links.append((url, description))
     
-    # Find simple links [[url]]
+    # Find simple links [[url]] that weren't already captured
+    # First remove all links with descriptions from the text
+    text_without_desc_links = re.sub(r'\[\[[^\]]+\]\[[^\]]+\]\]', '', text)
+    
+    # Then find simple links in the remaining text
     pattern = r'\[\[([^\]]+)\]\]'
-    # Only match if not already captured by the previous pattern
-    simple_matches = re.findall(pattern, text)
+    simple_matches = re.findall(pattern, text_without_desc_links)
     for url in simple_matches:
-        # Check if this URL was already captured with a description
-        already_found = any(existing_url == url for existing_url, _ in links)
-        if not already_found:
-            links.append((url, url))
+        links.append((url, url))
     
     return links
