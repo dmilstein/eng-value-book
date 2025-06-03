@@ -4,6 +4,7 @@
 #+title: Visibility Creates Value
 #+filetags: :Chapter:
 * Visibility Creates Value
+** Warning (Extremely Valuable) Abstract Thinking Ahead
 
 # Maybe: Look, you... could skip this chapter. Maybe. And just jump into the catalog of Forms of Value + Visibility. If you're a person who is just super impatient with any form of abstract thinking, feel free to do that, and maybe return here when you hit concepts there. But I'll encourage you not to. There are few things that are more valuable for your long-term career than understanding how engineering work turns into value. It can both earn you more money, but also preserve your sanity. But it takes some work. As my friend Edmund said "Tell them sometimes you need the math so fucking clear an afternoon and brew some coffee".
 
@@ -13,7 +14,7 @@ Technical Investments are defined as:
 
 In order to identify and advocate for technical investments, engineering leaders must understand *how engineers create value for a business*.
 
-Let's stop rigth there, and ask the most fundamentally important question:
+Let's stop right there, and ask the most fundamentally important question:
 
 *What do we mean by value?*
 
@@ -31,15 +32,15 @@ For a startup, we can estimate "overall company value" from the valuation achiev
 
 If you know something more important to a company *and its leadership* than its future stock price or its valuation in future funding rounds, please do let me know what it is.
 
-Now, engineers can, by the work they do, either increase *or decrease* that kind of overall company value (footnote: this is part of why I love engineer compensation being tied to equity).
+Now, engineers can, by the work they do, either increase *or decrease* that kind of overall company value (footnote: this is part of why there are things to like about engineer compensation being tied to equity).
 
 The potential *increase* in value is why companies hire engineers -- engineer salaries represent an *investment* on the part of the business, made in hopes of a positive return.
 
-Whatever someone tells you your job is, please understand and believe me: in reality, your job is to increase the value of your company.
+Whatever someone tells you your job is, please understand and believe me: your *actual* job is to increase the value of your company.
 
 # Footnotes, as my friend Kris Ciccarelli and I like to discuss, the cost of a useless meeting is *greater* than the cost of the salaries of everyone involved -- because the company expects a positive return on those salaries.
 
-Unfortunately, company executives have a limited understanding of how engineers create value.
+Unfortunately, company executives tend to have a limited understanding of how engineers create value.
 
 # This is especially true for various forms of potential value that engineers care a great deal about, e.g:
 
@@ -97,7 +98,7 @@ Except they won't use those words (unless they happen to be economic model-obses
 
 What they'll say is: *"Stop asking so many questions and just do your job".*
 
-This statement expresses a belief that on of the below activities is the entirety of engineering's "*job*".
+This statement expresses a belief that one of the below activities is the entirety of engineering's "*job*".
 
 This belief is fundamentally wrong.
 
@@ -135,7 +136,7 @@ Here are some examples of how, depending on context, each of the above can or ca
 
    Super valuable if errors in the code cause major problems for customers, and the code is going to live for a long time and be changed by many engineers over its lifecycle.
 
-   Super damaging if the code has a high likelihood of being thrown away, and the time to write it carefully delays critical feedback from customers.
+   Super damaging if the code has a high likelihood of being thrown away, and the time to write it delays critical feedback from customers.
 
  - *Living up to 'commitments' to delivery deadlines*
 
@@ -156,7 +157,7 @@ Let's build a model!
 # What's That You Say, You Want a Brief Detour Into Finance?
 # Finance Is An Equation Built On Top of a Dream [Fantasy]
 
-** Finance: Nifty Equations Built On Top Of Messy Dreams & Fantasies
+** Finance: Clever Equations Built On Top Of Dreams & Fantasies
 
 If you ask a finance person how to value a company, they'll light up.
 
@@ -229,7 +230,7 @@ Not in some woo-woo theoretical way. Actual company value. What people pay for a
 
 # Such a probablistic estimate encodes a person having *some* information -- but not enough to always get the right answer.
 
-** Um, What Person Is Doing The Knowing and The Guessing?
+** Whose Knowledge About the World Are We Talking About?
 # We're Going to Invent Someone Useful, Named Bertha
 
 If the value of a company is a probabilistic estimate of future profits...
@@ -245,6 +246,8 @@ This is really important.
 Different humans have different levels of knowledge, aka, different amounts of information.
 
 For our enlightened notion of value, we're going to *invent* someone: an economically rational investor.
+
+Her name is Bertha.
 
 # Hat tip / footnote for Reinertsen
 
