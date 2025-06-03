@@ -1,0 +1,18 @@
+:PROPERTIES:
+:ID:       E5D74838-B4FA-4F5D-8755-2D2966F2B031
+:END:
+#+title: Deep Research
+E.g. does Anthropic have one? Where is good + cheap-ish
+
+https://arstechnica.com/ai/2025/05/claudes-ai-research-mode-now-runs-for-up-to-45-minutes-before-delivering-reports/
+
+Could do it through Perplexity?
+https://www.perplexity.ai/onboarding?redirect=https%3A%2F%2Fwww.perplexity.ai%2F%3Fmodel_id%3Ddeep_research%26login-source%3DtryPro%26login-new%3Dtrue
+
+https://bytebridge.medium.com/comparing-leading-ai-deep-research-tools-chatgpt-google-perplexity-kompas-ai-and-elicit-59678c511f18
+
+I'm trying out the 3 pro searches / day free version of Perplexity, to start.
+
+The search I want to run is:
+
+I am writing a book for engineering managers and leaders. Please make me a list of online communities where engineering leaders connect and share information. For each community, please summarize the culture: what are some typical topics discussed? What do members of the community seem to really like and share? What do they not like and reject? If the community has explicit guidelines about submissions and self-promotion please both summarize and link to those.
