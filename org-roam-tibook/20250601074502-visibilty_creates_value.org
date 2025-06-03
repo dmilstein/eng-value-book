@@ -32,7 +32,7 @@ Whatever someone tells you your job is, please understand and believe me: in rea
 
 Unfortunately, company executives have a limited understanding of how engineers create value.
 
-This is especially true for various forms of potential value where engineers wish to advocate for technical investments, e.g.:
+This is especially true for various forms of potential value that engineers care a great deal about, e.g:
 
  - Cleaning up difficult-to-change code
 
@@ -52,11 +52,25 @@ Hidden within it we'll find the keys to successfully identifying and then advoca
 
 # Footnote Also: it's fun! It's maybe *especially* fun if you have an obsessive love for developing a first-principles understanding of activities people are blindly doing all around you.
 
-Note: I'm *not*, thanks to some genuinely bitter learning experiences, going to propose you try to get your stakeholders to understand all of the below before you can do your first technical investment.
+Although some of the below may sound a bit theoretical, I'll *strongly encourage* you to really sink your teeth into it, really wrestle with how to apply it to your specific company.
 
-What is important is that *you* understand it.
+Technical investments are fundamentally about value.
 
-Once you do, I'm going to lay out a plan for drawing your stakeholder into a repeated process of decision-making, that doesn't require front-loading an economic lecture (because stakeholders who are upset about their features being late are oddly resistant to economics lectures, I have found).
+As an engineering leader, you will be *extremely* well-served by having a full understanding of how to map from your company's highest level goals (aka, their plan for increasing overall value) all the way down to the work your team is doing, day-to-day.
+
+That full understanding is what will allow you to creatively and successfully advocate for work that, you guessed it, no one is asking for.
+
+But it does take some slowing down and thinking to really see all those connections.
+
+Note: I'm *not* proposing you try to *lead* with all of the below, in your initial conversations with your stakeholders.
+
+Aka, as you read the below just focus on understanding and applying the overall model for value, *for yourself*.
+
+Later in the book, we'll go through a plan for drawing your stakeholder into a repeated process of decision-making, that they will find delightful.
+
+And we'll do so in a way that doesn't require front-loading an economic lecture -- stakeholders who are upset about their features being late are oddly resistant to economics lectures, I have found.
+
+Footenote: As Edmund Jorgensen and I first came to understand these ideas about company value (which we stole from the amazing Principles of Product Development Flow, by Don Reinertsen), we excitedly brought these ideas into just about every one of our discussions with stakeholders. We emerged from that experience a few years later, battered and bruised, with the approaches you're going to see later.
 
 ** A Few Of My Favorite Misconceptions
 
