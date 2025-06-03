@@ -15,7 +15,6 @@ class Book:
     title: str
     author: str = ""
     chapters: List['Chapter'] = field(default_factory=list)
-    target_words: int = 50000
     created_at: datetime = field(default_factory=datetime.now)
     updated_at: datetime = field(default_factory=datetime.now)
     description: str = ""
@@ -23,13 +22,6 @@ class Book:
     def calculate_total_words(self) -> int:
         """Calculate the total word count across all chapters."""
         return sum(chapter.calculate_word_count() for chapter in self.chapters)
-    
-    def get_progress_percentage(self) -> float:
-        """Calculate progress as percentage of target words."""
-        total_words = self.calculate_total_words()
-        if self.target_words == 0:
-            return 0.0
-        return min(100.0, (total_words / self.target_words) * 100)
     
     def add_chapter(self, chapter: 'Chapter') -> None:
         """Add a chapter to the book."""

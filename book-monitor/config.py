@@ -7,10 +7,6 @@ class Config:
     BOOK_SOURCE_DIR = "org-roam-tibook"
     OUTPUT_DIR = "output"
     
-    # Word count targets
-    TARGET_WORDS_PER_CHAPTER = 3000
-    TARGET_TOTAL_WORDS = 50000
-    
     # File extensions to process
     SUPPORTED_EXTENSIONS = ['.org', '.md', '.txt']
     

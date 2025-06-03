@@ -44,7 +44,6 @@ class TestChapter(unittest.TestCase):
         
         self.assertEqual(chapter.title, "Chapter 1")
         self.assertEqual(len(chapter.sections), 0)
-        self.assertEqual(chapter.target_words, 3000)
         self.assertEqual(chapter.order, 0)
         self.assertIsInstance(chapter.created_at, datetime)
         self.assertIsInstance(chapter.updated_at, datetime)
@@ -67,26 +66,6 @@ class TestChapter(unittest.TestCase):
         chapter.add_section(section2)
         
         self.assertEqual(chapter.calculate_word_count(), 9)  # 5 + 4
-    
-    def test_chapter_progress_percentage(self):
-        """Test progress percentage calculation."""
-        chapter = Chapter(title="Test Chapter", target_words=100)
-        
-        section = Section(title="Section 1", content="This has five words.")
-        chapter.add_section(section)
-        
-        # 4 words out of 100 target = 4%
-        self.assertEqual(chapter.get_progress_percentage(), 4.0)
-    
-    def test_chapter_progress_percentage_over_target(self):
-        """Test progress percentage caps at 100%."""
-        chapter = Chapter(title="Test Chapter", target_words=3)
-        
-        section = Section(title="Section 1", content="This has five words.")
-        chapter.add_section(section)
-        
-        # 5 words out of 3 target = 100% (capped)
-        self.assertEqual(chapter.get_progress_percentage(), 100.0)
     
     def test_chapter_get_section_by_title(self):
         """Test finding sections by title."""
@@ -116,7 +95,6 @@ class TestBook(unittest.TestCase):
         self.assertEqual(book.title, "My Test Book")
         self.assertEqual(book.author, "Test Author")
         self.assertEqual(len(book.chapters), 0)
-        self.assertEqual(book.target_words, 50000)
         self.assertIsInstance(book.created_at, datetime)
         self.assertIsInstance(book.updated_at, datetime)
         self.assertEqual(book.description, "")
@@ -144,18 +122,6 @@ class TestBook(unittest.TestCase):
         book.add_chapter(chapter2)
         
         self.assertEqual(book.calculate_total_words(), 9)  # 5 + 4
-    
-    def test_book_progress_percentage(self):
-        """Test book progress percentage calculation."""
-        book = Book(title="Test Book", target_words=100)
-        
-        chapter = Chapter(title="Chapter 1")
-        section = Section(title="Section 1", content="This has five words.")
-        chapter.add_section(section)
-        book.add_chapter(chapter)
-        
-        # 4 words out of 100 target = 4%
-        self.assertEqual(book.get_progress_percentage(), 4.0)
     
     def test_book_get_chapter_by_title(self):
         """Test finding chapters by title."""

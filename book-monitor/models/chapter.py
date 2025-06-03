@@ -28,7 +28,6 @@ class Chapter:
     
     title: str
     sections: List[Section] = field(default_factory=list)
-    target_words: int = 3000
     order: int = 0
     created_at: datetime = field(default_factory=datetime.now)
     updated_at: datetime = field(default_factory=datetime.now)
@@ -37,13 +36,6 @@ class Chapter:
     def calculate_word_count(self) -> int:
         """Calculate the total word count across all sections."""
         return sum(section.word_count for section in self.sections)
-    
-    def get_progress_percentage(self) -> float:
-        """Calculate progress as percentage of target words."""
-        total_words = self.calculate_word_count()
-        if self.target_words == 0:
-            return 0.0
-        return min(100.0, (total_words / self.target_words) * 100)
     
     def add_section(self, section: Section) -> None:
         """Add a section to the chapter."""
