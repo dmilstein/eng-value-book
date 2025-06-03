@@ -104,32 +104,32 @@
 - [x] Run tests and ensure all pass
 
 ### Step 6: Book Builder
-- [ ] Create `parsers/book_builder.py`:
-  - [ ] BookBuilder class
-  - [ ] `__init__` method accepting directory path
-  - [ ] `build()` method returning Book object
-- [ ] Implement building logic:
-  - [ ] Use TocParser for TOC file
-  - [ ] Use ChapterParser for each chapter
-  - [ ] Handle missing chapters gracefully
-  - [ ] Calculate book statistics
-- [ ] Add logging:
-  - [ ] Import Python logging module
-  - [ ] Log missing files as warnings
-  - [ ] Log successful parsing as info
-  - [ ] Log parse errors
-- [ ] Update `app.py`:
-  - [ ] Import Config and BookBuilder
-  - [ ] Create global `book_data` variable
-  - [ ] Create `load_book_data()` function
-  - [ ] Call `load_book_data()` on startup
-- [ ] Create `tests/test_book_builder.py`:
-  - [ ] Test building complete book
-  - [ ] Test handling missing chapters
-  - [ ] Test empty TOC
-  - [ ] Test word count aggregation
-  - [ ] Mock file system for tests
-- [ ] Run tests and ensure all pass
+- [x] Create `parsers/book_builder.py`:
+  - [x] BookBuilder class
+  - [x] `__init__` method accepting directory path
+  - [x] `build()` method returning Book object
+- [x] Implement building logic:
+  - [x] Use TocParser for TOC file
+  - [x] Use ChapterParser for each chapter
+  - [x] Handle missing chapters gracefully
+  - [x] Calculate book statistics
+- [x] Add logging:
+  - [x] Import Python logging module
+  - [x] Log missing files as warnings
+  - [x] Log successful parsing as info
+  - [x] Log parse errors
+- [x] Update `app.py`:
+  - [x] Import Config and BookBuilder
+  - [x] Create global `book_data` variable
+  - [x] Create `load_book_data()` function
+  - [x] Call `load_book_data()` on startup
+- [x] Create `tests/test_book_builder.py`:
+  - [x] Test building complete book
+  - [x] Test handling missing chapters
+  - [x] Test empty TOC
+  - [x] Test word count aggregation
+  - [x] Mock file system for tests
+- [x] Run tests and ensure all pass
 
 ## Web Interface Implementation
 
