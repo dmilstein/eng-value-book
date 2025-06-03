@@ -75,7 +75,7 @@ def remove_org_markup(text: str) -> str:
     text = re.sub(r'\[\[[^\]]+\]\[([^\]]+)\]\]', r'\1', text)
     
     # Remove simple links [[url]] -> url (only if not already processed)
-    text = re.sub(r'\[\[([^\]]*)\]\]', r'\1', text)
+    text = re.sub(r'\[\[([^\]]+)\]\]', r'\1', text)
     
     return text
 
@@ -95,18 +95,18 @@ def extract_org_links(text: str) -> List[Tuple[str, str]]:
     
     links = []
     
-    # Find links with description [[url][description]]
-    pattern = r'\[\[([^\]]+)\]\[([^\]]+)\]\]'
+    # Find links with description [[url][description]] - must be well-formed
+    pattern = r'\[\[([^\[\]]+)\]\[([^\[\]]+)\]\]'
     matches = re.findall(pattern, text)
     for url, description in matches:
         links.append((url, description))
     
     # Find simple links [[url]] that weren't already captured
     # First remove all links with descriptions from the text
-    text_without_desc_links = re.sub(r'\[\[[^\]]+\]\[[^\]]+\]\]', '', text)
+    text_without_desc_links = re.sub(r'\[\[[^\[\]]+\]\[[^\[\]]+\]\]', '', text)
     
-    # Then find simple links in the remaining text
-    pattern = r'\[\[([^\]]+)\]\]'
+    # Then find simple links in the remaining text - must be well-formed
+    pattern = r'\[\[([^\[\]]+)\]\]'
     simple_matches = re.findall(pattern, text_without_desc_links)
     for url in simple_matches:
         links.append((url, url))
