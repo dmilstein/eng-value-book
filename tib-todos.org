@@ -13,6 +13,17 @@ Can I just export my list of contacts
 E.g. things I tried that didn't work, or that I've seen people try and have not work
 ** TODO Is it Ladder of Commitment or Ladder of Investment?
 ** TODO Add: why technical judgment is important
+** TODO Add: Major rewrites *must* be done with product, not as separate tech investments
+** TODO And, for rewrites, celebrate all the ones I've done:
+ - Analytics 2.0
+ - Nexus WMS
+ - Flagship
+** TODO Name the economically ration investor Bertha
+Or Bethesda, or Beatrix, or Snowflake
+** TODO Spike: write an actual visibility drives value chapter, *before* value deep dive
+Like, talk about how the core problem is lack of shared understanding. So creating visibility creates value. Use the example of gradually fixing the churn problem that I have sketchedin somehwere.
+
+Then talk about this as the fundamental hack for almost all tech investments -- build visibility first
 * Future Books
 ** TODO Collect ideas for book 2 about inteviewing + hiring
 "That Was Fun!" - How to interview so that great people can't wait to say yes
@@ -20,6 +31,15 @@ E.g. things I tried that didn't work, or that I've seen people try and have not 
 In [[id:77C90CB8-9DA8-48D7-B534-2C448F34D489][Blog Topics]] I have a reasonable start on a ToC (still need a scope which reflects both eng + product but has some narrowness)
 * [[id:B4926308-39DD-471B-8E71-5FFF7546D6E3][Table of Contents]]                               :gtasks:
 ** TODO Spike on ToC reorg - part II = stakeholder mgmt
+* [[id:D901A4C9-885B-4F42-8B8D-3595616857E8][Viz Creates Value ]]                              :gtasks:curweek:
+** DONE Write super crappy intro to chapter       :pom:
+CLOSED: [2025-06-02 Mon 13:13]
+** DONE For forms of probability, find company-specific examples :pom:
+CLOSED: [2025-06-03 Tue 14:58]
+** TODO Maybe: shorthand value by "learning what to do next"
+Each thing builds on the previous, so velocity is about hitting those decision points faster.
+* [[id:E7DB3CD4-9B7B-425B-BF07-E2607DDD6670][Value/Viz Catalog]]                               :gtasks:curweek:
+** TODO Dump in my outline
 * [[id:49435FCD-0590-44DE-8FC7-585E7BCC8BB2][Tooling]]                                         :gtasks:
 ** TODO Write python to render outline w/ wordcounts :curweek:
 Strip comments, etc
@@ -45,10 +65,12 @@ Something that leaves room for other things in the {Eng,Product} x Humans space
 CLOSED: [2025-05-29 Thu 09:24]
 ** TODO Review substack signup, break out tasks   :curweek:
 Can I get my own URL?
-** TODO Find a Deep Research option               :curweek:
-E.g. does Anthropic have one? Where is good + cheap-ish
+** DONE Find a [[id:E5D74838-B4FA-4F5D-8755-2D2966F2B031][Deep Research]] option               :curweek:pom:
+CLOSED: [2025-06-02 Mon 15:24]
+
 ** TODO Review WUB gameplan for finding places to post :curweek:
-** TODO Use Deep Research on Author Platform target sites :curweek:
+** DONE Use Deep Research on Author Platform target sites :curweek:pom:
+CLOSED: [2025-06-02 Mon 15:33]
 Have a conversation about what I want, then ask it to summarize the kinds of places, types of postings, etc.
 
 Could even ask it for habits/cadencs I could use
@@ -94,10 +116,3 @@ CLOSED: [2025-06-01 Sun 08:51]
 CLOSED: [2025-06-01 Sun 08:51]
 ** DONE Revise/improve The Ti Cycle               :curweek:
 CLOSED: [2025-06-02 Mon 11:23]
-* [[id:D901A4C9-885B-4F42-8B8D-3595616857E8][Viz Creates Value]]                       :gtasks:curweek:
-** TODO Write super crappy intro to chapter       :pom:
-** TODO Maybe: shorthand value by "learning what to do next"
-Each thing builds on the previous, so velocity is about hitting those decision points faster.
-** TODO For forms of probability, find company-specific examples
-* [[id:E7DB3CD4-9B7B-425B-BF07-E2607DDD6670][Value/Viz Catalog]]                               :gtasks:curweek:
-** TODO Dump in my outline
