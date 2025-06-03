@@ -54,74 +54,120 @@ Hidden within it we'll find the keys to successfully identifying and then advoca
 
 Although some of the below may sound a bit theoretical, I'll *strongly encourage* you to really sink your teeth into it, really wrestle with how to apply it to your specific company.
 
-Technical investments are fundamentally about value.
+Why?
+
+Technical investments are fundamentally about *value*.
 
 As an engineering leader, you will be *extremely* well-served by having a full understanding of how to map from your company's highest level goals (aka, their plan for increasing overall value) all the way down to the work your team is doing, day-to-day.
 
-That full understanding is what will allow you to creatively and successfully advocate for work that, you guessed it, no one is asking for.
+That full understanding is what will allow you to creatively and successfully advocate for work that no one is asking for.
 
-But it does take some slowing down and thinking to really see all those connections.
+But it does take some slowing down and careful thinking to really see all those connections.
 
-Note: I'm *not* proposing you try to *lead* with all of the below, in your initial conversations with your stakeholders.
+** This Is Not How You Talk To Stakeholders
 
-Aka, as you read the below just focus on understanding and applying the overall model for value, *for yourself*.
+I'm not, not, *not* proposing you *lead* with all of the below, in your initial conversations with your stakeholders.
 
-Later in the book, we'll go through a plan for drawing your stakeholder into a repeated process of decision-making, that they will find delightful.
+As you read the below just focus on understanding and applying the overall model of value *for yourself*.
 
-And we'll do so in a way that doesn't require front-loading an economic lecture -- stakeholders who are upset about their features being late are oddly resistant to economics lectures, I have found.
+Later in the book, we'll lay out a plan for gradually drawing your stakeholder into a repeated process of decision-making, that they will find delightful.
 
-Footenote: As Edmund Jorgensen and I first came to understand these ideas about company value (which we stole from the amazing Principles of Product Development Flow, by Don Reinertsen), we excitedly brought these ideas into just about every one of our discussions with stakeholders. We emerged from that experience a few years later, battered and bruised, with the approaches you're going to see later.
+And we'll do so in a way that doesn't require front-loading an economics lecture -- stakeholders who are upset about their features being late are oddly resistant to economics lectures, I have found.
+
+Footnote: As Edmund Jorgensen and I first came to understand these ideas about company value (after reading the amazing Principles of Product Development Flow, by Don Reinertsen), we excitedly brought abstract models for value into just about every one of our discussions with stakeholders. We emerged from that experience a few years later, battered and bruised, with the very different approach you're going to see later.
 
 ** A Few Of My Favorite Misconceptions
 
-Let's list several things which are *not* good proxies for creating value... even though your stakeholders or even various engineering leaders will confidently insist that they are "engineering's job":
+Before we build our model, let's list several things that are *not* reliable proxies for creating value.
+
+Stakeholders (and other engineering leaders!) will tell you, extremely confidently, that one or more of the below *is* a reliable proxy for creating value.
+
+Except they won't use those words (Footnote: unless they happen to be an economic model-obsessed geek).
+
+What they'll *say* is: "Stop asking so many questions and just do your job".
+
+This statement expresses a belief that on of the below activities is the entirety of engineering's "*job*".
+
+This belief is fundamentally wrong.
+
+Engineering's *job* is to create value for the business.
+
+Each of the below activities is *potentially valuable* for a business... but, unfortunately, each of them is also *potentially damaging to value*:
 
  - Cranking out new features as fast as possible
 
  - Rapidly chewing through all the well-groomed tickets on a team's sprint board
-# Find Kellan quote about devolving to this?
-
- - Living up to 'commitments' to delivery deadlines
-# Footnote, "What's that you say? I seem to hate the term 'commitments' so much I had to put it in scare quotes? I have no idea what you're talking about."
 
  - Writing high-quality (or defect-free) code
 
-# - Increasing revenue (there are "bad" forms of revenue which make a company less valuable)
+ - Living up to 'commitments' to delivery deadlines
 
-All of the above activities are *potentially valuable*... but, unfortunately, all of them are also *potentially damaging to value*.
+Here are some examples of how, depending on context, each of the above can or can not be valuable:
 
-I have seen companies that "believed in" each of the above proxies as a universal good. And I have seen every one of them *fail as a business*.
+ - *Cranking out new features as fast as possible*
 
-In order to distinguish between the two case, we have to dig deeper.
+   Super valuable when chasing product market fit and rapidly testing a series of new prototypes with customers.
+
+   Super damaging when the company has built a product that customers fundamentally don't want or need, and the parade of new features is a desperate attempt to avoid facing that hard truth (Dan has never seen stakeholders exhibit this exact behavior, certainly not at every job he's worked at).
+
+ - *Rapidly chewing through all the well-groomed tickets on a team's sprint board*
+
+   Super valuable when the team is developing something genuinely important for the business, and the engineers and product leads are talking all the time, and the work is going live and driving learning every day.
+
+   Super damaging if the product team is using the tickets as a way to avoid talking with the engineers and there's weeks and weeks of lead time to "write good tickets" (or god forbid Product Requirements Documents) and the engineers don't really understand the *why* of what they're building, and the tickets get "closed" when PR's merge to some long-lived, rarely-deployed branch.
+
+   # Find Kellan quote about devolving to this?
+
+ - *Writing high-quality (or defect-free) code*
+
+   Super valuable if errors in the code cause major problems for customers, and the code is going to live for a long time and be changed by many engineers over its lifecycle.
+
+   Super damaging if the code has a high likelihood of being thrown away, and the time to write it carefully delays critical feedback from customers.
+
+ - *Living up to 'commitments' to delivery deadlines*
+
+   Super valuable if, um... Um. Just give me a sec.
+
+   Look, I just can't lie: making key business decisions based on extracting "commitments" from engineering is a fool's game for everyone involved.
+
+   See Melissa Perri's excellent Escaping the Build Trap for much, much better options.
+
+As the above makes clear, there's a lot of contextual nuance to understanding when your team's work is or is not valuable.
+
+Fortunately, there is a unifying way to understand value, so that the most important factors of the context immediately pop into sharp relief.
+
+And developing that unifying understanding will allow you to see a vast array of potential technical investments in a clear light.
 
 # What's That You Say, You Want a Brief Detour Into Finance?
 # Finance Is An Equation Built On Top of a Dream [Fantasy]
 
-** Finance Is Just Equations Built On Top Of Dreams
+** Finance: Equations Built On Top Of Dreams & Fantasies
 
-If you ask a finance person, "How do you value a company?", they'll light up.
+If you ask a finance person how to value a company, they'll light up.
 
 They'll mention streams of future profits, and then, before you know it, you'll find yourself neck-deep in all sorts of exciting, math-adjacent jargon about discounted cash flows, amortization schedules, the cost of capital, and how to pronounce EBITDA.
 
-# E.g. see HBS's [[https://online.hbs.edu/blog/post/how-to-value-a-company][How to Value a Company]] for not one, not two, but *six* different ways to calculate the value of a company.
+# Footnote E.g. see HBS's [[https://online.hbs.edu/blog/post/how-to-value-a-company][How to Value a Company]] for not one, not two, but *six* different ways to calculate the value of a company.
 
 You might think, "Oh, I get it! The overall value of a company is determined by an *equation*."
 
 But this is *wrong*, in a just enormously important way.
 
-Company valuation models are built on top of a *projection of future profits*.
+A company valuation model is built on top of a *projection of future profits*.
 
-And that projection is *just a guess*.
+And that projection is a *guess*.
 
-The models take a specific guess, and turn it into a specific number of dollars.
+The models take one specific guess, and turn it into a specific number of dollars.
 
-Humans, being human, then treat the number as Very Meaningful, because Math Has Been Applied.
+Then, humans, being human, treat the number as Very Meaningful, because Math Has Been Applied.
 
-But it's just a guess.
+But it's *still* just a guess.
+
+Footnote: If you take nothing else from me, please believe that Guesses + Math = Guesses, not Truth.
 
 Guesses and uncertainty are at the absolute core of how companies are valued.
 
-We're going to abstract all the models away, and define the value of a company as:
+To put the focus cleanly on that, we're going to abstract all details of the models away, and define the value of a company as:
 
 *A probabilistic estimate of the future profits of the company.*
 
