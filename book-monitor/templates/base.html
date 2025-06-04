@@ -5,6 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}Book Monitor{% endblock %}</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        .section-indent {
+            padding-left: 2em;
+            color: #666;
+        }
+        .content-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .content-table th,
+        .content-table td {
+            text-align: left;
+            padding: 8px 12px;
+            border-bottom: 1px solid #eee;
+        }
+        .content-table th {
+            background-color: #f5f5f5;
+            font-weight: bold;
+        }
+        .chapter-row {
+            background-color: #fafafa;
+        }
+        .section-row {
+            background-color: white;
+        }
+        .word-count {
+            text-align: right;
+            font-family: monospace;
+        }
+    </style>
 </head>
 <body>
     <header class="header">
