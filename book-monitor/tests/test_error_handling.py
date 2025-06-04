@@ -51,15 +51,20 @@ class TestErrorHandling(unittest.TestCase):
 
     def test_500_response_html(self):
         """Test 500 responses for HTML requests."""
-        with patch('app.get_book_data') as mock_get_book_data:
-            # Force an exception in the route
-            mock_get_book_data.side_effect = Exception("Test error")
+        # Configure Flask to handle exceptions properly in testing
+        with self.app.application.app_context():
+            self.app.application.config['TESTING'] = True
+            self.app.application.config['PROPAGATE_EXCEPTIONS'] = False
             
-            response = self.app.get('/')
-            
-            self.assertEqual(response.status_code, 500)
-            self.assertIn(b'Internal Server Error', response.data)
-            self.assertIn(b'500', response.data)
+            with patch('app.get_book_data') as mock_get_book_data:
+                # Force an exception in the route
+                mock_get_book_data.side_effect = Exception("Test error")
+                
+                response = self.app.get('/')
+                
+                self.assertEqual(response.status_code, 500)
+                self.assertIn(b'Internal Server Error', response.data)
+                self.assertIn(b'500', response.data)
 
     def test_parse_error_recovery(self):
         """Test recovery from parse errors."""
