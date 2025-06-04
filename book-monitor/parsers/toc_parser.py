@@ -3,6 +3,7 @@
 import re
 import os
 from typing import List, Tuple, Optional
+from utils.exceptions import FileNotFoundError, ParseError
 
 
 class TocParser:
@@ -26,18 +27,28 @@ class TocParser:
             
         Raises:
             FileNotFoundError: If the TOC file doesn't exist
-            IOError: If there's an error reading the file
+            ParseError: If there's an error reading or parsing the file
         """
         if not os.path.exists(self.file_path):
-            raise FileNotFoundError(f"TOC file not found: {self.file_path}")
+            raise FileNotFoundError(self.file_path, "TOC file is required for building the book")
         
         try:
             with open(self.file_path, 'r', encoding='utf-8') as file:
                 content = file.read()
-        except IOError as e:
-            raise IOError(f"Error reading TOC file {self.file_path}: {e}")
+        except PermissionError:
+            raise ParseError(self.file_path, details="Permission denied reading TOC file")
+        except UnicodeDecodeError:
+            raise ParseError(self.file_path, details="File encoding error - expected UTF-8")
+        except Exception as e:
+            raise ParseError(self.file_path, details=f"Unexpected error reading file: {str(e)}")
         
-        return self._extract_chapters(content)
+        if not content.strip():
+            raise ParseError(self.file_path, details="TOC file is empty")
+        
+        try:
+            return self._extract_chapters(content)
+        except Exception as e:
+            raise ParseError(self.file_path, details=f"Error extracting chapters: {str(e)}")
     
     def _extract_chapters(self, content: str) -> List[Tuple[str, str]]:
         """
