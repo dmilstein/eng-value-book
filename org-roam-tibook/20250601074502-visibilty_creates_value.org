@@ -36,25 +36,35 @@ Technical Investments are defined as:
 
 In order to identify and advocate for technical investments, engineering leaders must understand *how engineers create value for a business*.
 
-The most fundamentally important question is:
+The first question is:
 
-*What do we mean by value?*
+*What, precisely, do we mean by 'value for a business'?*
 
-I suspect most engineers, if they think about company value, tend to think first of potential revenue -- e.g. if their team is working on a new product, they'll think of "business value" as "the dollars that customers pay us for that product, once it launches".
+I suspect most engineers, if they think about business value, tend to think only of *revenue* -- e.g. if their team is working on a new product, they'll think of "business value" as "the dollars that customers pay us for that product, once it launches".
 
-This is much too limited a view.
+This is too limited a view.
 
 Revenue, *by itself*, is not a reliable proxy for overall company value -- revenue plays a *role* in determining company value, but is not that value by itself.
 
 So, what is "overall company value"? And how might we determine it?
 
-For a public company, we can estimate "overall company value" from the market capitalization -- because the price of a single share of stock represents what investors are willing to pay for a fraction of the overall company.
+Well, there are two situations where we can easily obtain a very useful, very direct estimate of overall company values:
 
-For a startup, we can estimate "overall company value" from the valuation achieved during a funding round -- if investors pay $10 million dollars to own 25% of the company, they are setting an overall company value of $40 million.
+ - Public companies, every time a share of stock changes hands
 
-If you know something more important to a company *and its leadership* than its future stock price or its valuation in future funding rounds, please do let me know what it is.
+ - Startups, immediately after a funding round
 
-Now, engineers can, by the work they do, either increase *or decrease* that kind of overall company value (footnote: this is part of why there are things to like about engineer compensation being tied to equity).
+In both cases, investors are putting up their own money to buy a *part* of the overall company.
+
+How much those investors are willing to pay for a *part* of the company is driven by their belief about the overall company value.
+
+That is the kind of value we're interested in.
+
+# Footenote: I will bet you All the Things that the leader of your business care very, *very* intensely about this precise form of value.
+
+# I've never met a public company CEO who didn't care about the stock price, in the long term. Nor a startup CEO who didn't care what valuation investors would set for the company, during a funding round.
+
+Engineers can, by the work they do, either increase *or decrease* that kind of overall company value (footnote: this is part of why there are things to like about engineer compensation being tied to equity).
 
 The potential *increase* in value is why companies hire engineers -- engineer salaries represent an *investment* on the part of the business, made in hopes of a positive return.
 
@@ -76,11 +86,11 @@ Unfortunately, company executives tend to have a limited understanding of how en
 
 # In the right situations, the above kinds of work can make a company *a great deal* more valuable -- and can thus be worth prioritizing, even against work that might immediately increase revenue.
 
-Engineers can not, in general, depend on stakeholders or product managers to understand how to convert problems in technical areas into potentially valuable investment opportunities.
+Engineers can not, in general, depend on stakeholders or product managers to understand how to convert problems in technical areas into investment opportunities.
 
-(That is why "no one is asking for" the work the engineers want to do)
+That is why "no one is asking for" the work the engineers believe is valuable -- because they don't understand how it can ultimately make the company worth more.
 
-Thus we're going to spend some time unpacking the concept of "overall company value".
+To ensure that you, as an engineering leader, are able to do that work, we're going to spend some time unpacking the concept of "overall company value".
 
 Hidden within it we'll find the keys to successfully identifying and then advocating for a wide variety of technical investments -- and for understanding our work as engineers more broadly.
 
@@ -98,35 +108,35 @@ Hidden within it we'll find the keys to successfully identifying and then advoca
 
 # But it does take some slowing down and careful thinking to really see all those connections.
 
-** Oh, Good Lord No, This Is *Not* How You Talk To Stakeholders
+** What? Oh, Good Lord No, This Is *Not* How You Talk To Stakeholders
 
-Before we dig in, though: I'm *not* proposing you *lead* with all of the below, in your initial conversations with your stakeholders.
+Before we dig in: I'm *not* proposing you *lead* with all of the below, in your initial conversations with your stakeholders.
 
 As you read the below just focus on understanding and applying the overall model of value *for yourself*.
 
-Later in the book, we'll lay out a plan for gradually drawing your stakeholders into a repeated process of decision-making, that they will find delightful.
+Later in the book, we'll lay out a plan for gradually drawing your stakeholders into a repeated process of decision-making, which they will find delightful.
 
-And we'll do so in a way that doesn't require front-loading an economics lecture -- stakeholders who are upset about their features being late are oddly resistant to economics lectures, I have found.
+We'll do so in a way that doesn't require front-loading an economics lecture (stakeholders who are upset about their features being late are oddly resistant to economics lectures, I have found).
 
-Footnote: As Edmund Jorgensen and I first came to understand these ideas about company value (after reading the amazing Principles of Product Development Flow, by Don Reinertsen), we excitedly brought abstract models for value into just about every one of our discussions with stakeholders. We emerged from that experience a few years later, battered and bruised, with the very different approach you're going to see later.
+Footnote: As Edmund Jorgensen and I first came to understand these ideas about company value (after reading the simply amazing Principles of Product Development Flow, by Don Reinertsen), we eagerly brought abstract models for value into just about every one of our discussions with stakeholders. We emerged from that experience a few years later, battered and bruised, with the very different approach you're going to see later.
 
 ** A Few Of My Favorite Misconceptions About Value
 
-As a prelude to building our model, let's list several things that are *not* reliable proxies for creating value.
+As step one to building our model, let's list several things that are *not* reliable proxies for increasing overall company value.
 
-Stakeholders (and other engineering leaders!) will tell you, extremely confidently, that one or more of the below *is* a reliable proxy for creating value.
+Stakeholders (and other engineering leaders!) will sometimes tell you, extremely confidently, that one or more of the below *is* a reliable proxy for creating value.
 
-Except they won't use those words (unless they happen to be economic model-obsessed geeks).
+They won't use those words (unless they happen to be economic model-obsessed geeks).
 
-What they'll say is: *"Stop asking so many questions and just do your job".*
+They'll say: *"Stop asking so many questions and just do your job".*
 
 This statement expresses a belief that one of the below activities is the entirety of engineering's "*job*".
 
-This belief is fundamentally wrong.
+Such a belief is fundamentally wrong.
 
 Engineering's *job* is to create value for the business. Even if the people who hired you don't think about it that way.
 
-# You're going to get a ticket to the Dan Milstein Course in How To Give People What They Actually Want, Not What They Ask For, And Leave Them Very Happy Indeed
+# Foonote: You're going to get a ticket to the Dan Milstein Course in How To Give People What They Actually Want, Not What They Ask For, And Leave Them Very Happy Indeed
 
 Each of the below activities is *potentially valuable* for a business... but, unfortunately, each of them is also *potentially damaging to value*:
 
@@ -138,19 +148,23 @@ Each of the below activities is *potentially valuable* for a business... but, un
 
  - Living up to 'commitments' to delivery deadlines
 
-Here are some examples of how, depending on context, each of the above can or can not be valuable:
+I will be very very unsurprised if someone vaguely boss-like near you seem to believe that one of the above is "all engineers need to worry about".
+
+To counteract that way of thinking, here are situations in which each of the above *is* valuable, and also situations where each of the above super is *not* valuable:
 
  - *Cranking out new features as fast as possible*
 
    Super valuable when chasing product market fit and rapidly testing a series of new prototypes with customers.
 
-   Super damaging when the company has built a product that customers fundamentally don't want or need, and the parade of new features is a desperate attempt to avoid facing that hard truth (Dan has never seen stakeholders exhibit this exact behavior, certainly not at every job he's worked at).
+   Super damaging when the company has built a product that customers fundamentally don't want or need, and the parade of new features is a desperate attempt to avoid facing that hard truth for as long as possible
+
+   Foonote: I totally made this up I've never seen any stakeholders exhibit this exact behavior look something shiny.
 
  - *Rapidly chewing through all the well-groomed tickets on a team's sprint board*
 
    Super valuable when the team is developing something genuinely important for the business, and the engineers and product leads are talking all the time, and the work is going live and driving learning every day.
 
-   Super damaging if the product team is using the tickets as a way to avoid talking with the engineers and there's weeks and weeks of lead time to "write good tickets" (or god forbid Product Requirements Documents) and the engineers don't really understand the *why* of what they're building, and the tickets get "closed" when PR's merge to some long-lived, rarely-deployed branch.
+   Super damaging if the product team is using the tickets as a way to avoid talking with the engineers and there's weeks of lead time to "write good tickets" (or god forbid Product Requirements Documents) and the engineers don't really understand the *why* of what they're building and the the team's PRs merge to some rarely-deployed branch.
 
    # Find Kellan quote about devolving to this?
 
@@ -164,7 +178,7 @@ Here are some examples of how, depending on context, each of the above can or ca
 
    Super valuable if, um... Um. Just give me a sec.
 
-   Look, I can't lie: making key business decisions based on extracting "commitments" from engineering is a fool's game for everyone involved.
+   Look, making key business decisions based on extracting "commitments" from engineering is a fool's game for everyone involved.
 
    See Melissa Perri's excellent Escaping the Build Trap for much, much better options.
 
@@ -191,7 +205,7 @@ You might think, "Oh, I get it! The overall value of a company is determined by 
 
 But this is *wrong*, in a just enormously important way.
 
-All company valuation models are built on top of *projections of future profits*.
+Company valuation models are built on top of *projections of future profits*.
 
 And those projections are... *guesses*.
 
@@ -233,11 +247,19 @@ That person will estimate an overall profit stream, and thus an overall company 
 
 A company valuation represents a probablistic estimate based on current knowledge.
 
-And someone with more knowledge can make a different, *better* guess -- and if that guess shows more profits, then the overall company value will go up.
+Someone with *more information* can make a *better* guess -- and if that guess shows more profits, then that additional information will increase that person's estimate of the overall company value.
 
-Acquiring information can *increase company value*.
+If that person is an *investor*...
 
-Not in some woo-woo theoretical way. Actual company value. What people pay for a share of stock, or what investors pay at a funding round.
+...then we're talking about the most important estimate of value -- what that person is willing to pay for a share of stock or for a fraction of the company in a funding round.
+
+Thus, acquiring information can *increase company value*.
+
+Not in some woo-woo theoretical way.
+
+Actual company value.
+
+What people pay for a share of stock, or what investors pay at a funding round *is* value. In the most direct and important way.
 
 
 # # Insert a company-specific example
@@ -253,41 +275,58 @@ Not in some woo-woo theoretical way. Actual company value. What people pay for a
 # Such a probablistic estimate encodes a person having *some* information -- but not enough to always get the right answer.
 
 ** Whose Knowledge About the World Are We Talking About?
-# We're Going to Invent Someone Useful, Named Bertha
+# aka We're Going to Invent Someone Useful, Named Bertha
+# aka, Meet Bertha, The Econommically Rational Investor
+
+Hang on a second, I can hear you thinking.
 
 If the value of a company is a probabilistic estimate of future profits...
 
 ...and a probabilistic estimate is a statement of knowledge about the world...
 
-...and more specifically, a statement of one person's knowledge about the world...
+...and more specifically, a statement of one investor's knowledge about the world...
 
-... then *whose knowledge* are we talking about?
-
-This is really important.
+...then *whose knowledge* are we talking about?
 
 Different humans have different levels of knowledge, aka, different amounts of information.
 
-For our enlightened notion of value, we're going to *invent* someone: an economically rational investor.
+So, what investor are we talking about?
 
-Her name is Bertha. Lo this will change
+We're going to invent someone!
 
-# Hat tip / footnote for Reinertsen
+And we're going to name her Bertha.
 
-This imagined person possesses two kinds of knowledge:
+Bertha is that beloved creature of theory, an *economically rational investor.*
 
- - Information known by "everyone"
+Also, she has seen some shit.
 
-   This can include both facts (e.g. your company sells a product to large municipalities), and also probabilities (e.g. the frequency at which software companies that sell to large municipalities suffer security breaches).
+# Footnote: the idea of value being determined by an economically rational investor is straight out of Don Reinertsen. The name Bertha is straight out of the murky depths of my mind.
 
- - Information known "inside the company"
+Bertha possesses two kinds of knowledge:
 
-   This can include both simple facts (e.g. the results of beta testing a new street sweeper product offering) and also probabilities (e.g. the frequency of downtime for a feed of key data about parking violations).
+ - Public information known by all other investors
 
-From the perspective of an engineer working at a company, the overall value of that company is best understood as:
+   # This can include both facts (e.g. your company sells a product to large municipalities), and also probabilities (e.g. the frequency at which software companies that sell to large municipalities suffer security breaches).
+
+ - Information known inside your company
+
+   # This can include both simple facts (e.g. the results of beta testing a new street sweeper product offering) and also probabilities (e.g. the frequency of downtime for a feed of key data about parking violations).
+
+Crucially, Bertha is not easily swayed by overly optimistic CEO's. Sure, the CEO is dead certain that the moment you launch the new product, customers are going to be banging down your door to buy.
+
+From a certain perspective, that is the CEO's job -- to be unreasonably optimistic and inspire the team.
+
+But Bertha just kind of squints at the excited PowerPoint decks and shrugs and says "Sure, sure, customers are gonna loooove it, right. Why don't you call me when you have some *evidence*."
+
+Bertha needs evidence to persuade her to change her mind, and thus her estimate of future profits.
+
+And thus, *evidence can increase overall company value*.
+
+From the perspective of an engineer working at a company, the overall value of a company is best understood as:
 
  - A probabilistic estimate of future profits...
 
- - made by an economically rational investor...
+ - made by Bertha, the economically rational investor...
 
  - based on what is currently known...
 
