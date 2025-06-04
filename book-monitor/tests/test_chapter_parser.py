@@ -5,7 +5,7 @@ import tempfile
 import os
 from parsers.chapter_parser import ChapterParser
 from models import Chapter, Section
-
+from utils.exceptions import FileNotFoundError, ParseError
 
 class TestChapterParser(unittest.TestCase):
     """Test cases for the ChapterParser class."""
@@ -155,10 +155,9 @@ Just some regular text content.
 
     def test_missing_file(self):
         """Test handling of missing file."""
-        parser = ChapterParser("/nonexistent/file.org")
-        chapter = parser.parse()
-
-        self.assertIsNone(chapter)
+        with self.assertRaises(ParseError):
+            parser = ChapterParser("/nonexistent/file.org")
+            parser.parse()
 
     def test_chapter_title_with_tags(self):
         """Test chapter title extraction with tags."""

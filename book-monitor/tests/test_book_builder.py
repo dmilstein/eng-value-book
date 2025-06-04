@@ -131,7 +131,7 @@ Some content.
         self._create_test_file("toc.org", "")
 
         builder = BookBuilder(self.test_dir)
-        
+
         # Should raise ParseError for empty TOC file
         with self.assertRaises(ParseError):
             builder.build()
@@ -139,9 +139,8 @@ Some content.
     def test_missing_toc_file(self):
         """Test handling of missing TOC file."""
         builder = BookBuilder(self.test_dir)
-        book = builder.build()
-
-        self.assertIsNone(book)
+        with self.assertRaises(FileNotFoundError):
+            builder.build()
 
     def test_word_count_aggregation(self):
         """Test that word counts are properly aggregated."""
@@ -236,8 +235,7 @@ Just some random text.
             book = builder.build()
 
         # Should still return book object but with no chapters
-        self.assertIsNotNone(book)
-        self.assertEqual(len(book.chapters), 0)
+        self.assertIsNone(book)
 
         # Disable logging again for tearDown
         logging.disable(logging.CRITICAL)
