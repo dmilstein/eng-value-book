@@ -4,6 +4,7 @@ import unittest
 import os
 import tempfile
 from parsers.toc_parser import TocParser
+from utils.exceptions import FileNotFoundError, ParseError
 
 
 class TestTocParser(unittest.TestCase):
@@ -37,7 +38,6 @@ class TestTocParser(unittest.TestCase):
         with self.assertRaises(FileNotFoundError) as context:
             parser.parse()
         
-        self.assertIn('TOC file not found', str(context.exception))
         self.assertIn('nonexistent_file.org', str(context.exception))
     
     def test_malformed_links_are_skipped(self):
@@ -74,9 +74,10 @@ class TestTocParser(unittest.TestCase):
         
         try:
             parser = TocParser(temp_file_path)
-            chapters = parser.parse()
+            with self.assertRaises(ParseError) as context:
+                parser.parse()
             
-            self.assertEqual(chapters, [])
+            self.assertIn('TOC file is empty', str(context.exception))
         finally:
             os.unlink(temp_file_path)
     
@@ -124,10 +125,10 @@ class TestTocParser(unittest.TestCase):
             
             parser = TocParser(temp_file_path)
             
-            with self.assertRaises(IOError) as context:
+            with self.assertRaises(ParseError) as context:
                 parser.parse()
             
-            self.assertIn('Error reading TOC file', str(context.exception))
+            self.assertIn('Permission denied', str(context.exception))
         except (OSError, PermissionError):
             # Skip this test if we can't change file permissions
             self.skipTest("Cannot change file permissions on this system")
