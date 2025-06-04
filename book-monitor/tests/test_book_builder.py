@@ -131,9 +131,10 @@ Some content.
         self._create_test_file("toc.org", "")
 
         builder = BookBuilder(self.test_dir)
-        book = builder.build()
-
-        self.assertIsNone(book)
+        
+        # Should raise ParseError for empty TOC file
+        with self.assertRaises(ParseError):
+            builder.build()
 
     def test_missing_toc_file(self):
         """Test handling of missing TOC file."""
