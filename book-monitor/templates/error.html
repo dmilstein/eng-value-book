@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+
+{% block title %}Error - Book Monitor{% endblock %}
+
+{% block content %}
+<div class="error-page">
+    <div class="error-content">
+        <h1 class="error-title">Oops! Something went wrong</h1>
+        <div class="error-message">
+            {% if error_message %}
+                <p>{{ error_message }}</p>
+            {% else %}
+                <p>We encountered an unexpected error while processing your request.</p>
+            {% endif %}
+        </div>
+        <div class="error-actions">
+            <a href="{{ url_for('home') }}" class="home-btn">← Back to Home</a>
+        </div>
+    </div>
+</div>
+
+<style>
+.error-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    text-align: center;
+}
+
+.error-content {
+    max-width: 500px;
+    padding: 2rem;
+}
+
+.error-title {
+    font-size: 2rem;
+    color: #dc3545;
+    margin-bottom: 1rem;
+    font-weight: 300;
+}
+
+.error-message {
+    color: #6c757d;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+}
+
+.home-btn {
+    background-color: #667eea;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.2s;
+}
+
+.home-btn:hover {
+    background-color: #5a6fd8;
+}
+</style>
+{% endblock %}

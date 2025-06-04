@@ -1,0 +1,83 @@
+{% extends "base.html" %}
+
+{% block title %}{{ book.title }} - Book Monitor{% endblock %}
+
+{% block content %}
+<div class="overview">
+    <div class="book-header">
+        <h1 class="book-title">{{ book.title }}</h1>
+        <p class="book-author">by {{ book.author }}</p>
+        <div class="book-stats">
+            <span class="stat">
+                <strong>{{ book.chapters|length }}</strong> chapters
+            </span>
+            <span class="stat">
+                <strong>{{ book.calculate_total_words() }}</strong> total words
+            </span>
+        </div>
+        <button onclick="refreshData()" class="refresh-btn">Refresh Data</button>
+    </div>
+
+    <div class="chapters-section">
+        <h2>Chapters</h2>
+        <table class="chapters-table">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Title</th>
+                    <th>Sections</th>
+                    <th>Word Count</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for chapter in book.chapters %}
+                <tr class="chapter-row">
+                    <td class="chapter-number">{{ loop.index }}</td>
+                    <td class="chapter-title">
+                        <a href="{{ url_for('chapter', filename=chapter.title|replace(' ', '_')|lower + '.org') }}" class="chapter-link">
+                            {{ chapter.title }}
+                        </a>
+                    </td>
+                    <td class="section-count">{{ chapter.sections|length }}</td>
+                    <td class="word-count">{{ chapter.calculate_word_count() }}</td>
+                    <td class="actions">
+                        <a href="{{ url_for('chapter', filename=chapter.title|replace(' ', '_')|lower + '.org') }}" class="view-btn">View</a>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+<script>
+function refreshData() {
+    const button = document.querySelector('.refresh-btn');
+    button.textContent = 'Refreshing...';
+    button.disabled = true;
+    
+    fetch('/api/refresh', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        }
+    })
+    .then(response => response.json())
+    .then(data => {
+        if (data.success) {
+            location.reload();
+        } else {
+            alert('Failed to refresh data: ' + data.error);
+        }
+    })
+    .catch(error => {
+        alert('Error refreshing data: ' + error);
+    })
+    .finally(() => {
+        button.textContent = 'Refresh Data';
+        button.disabled = false;
+    });
+}
+</script>
+{% endblock %}

@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block title %}{{ chapter.title }} - Book Monitor{% endblock %}
+
+{% block content %}
+<div class="chapter">
+    <div class="chapter-header">
+        <nav class="breadcrumb">
+            <a href="{{ url_for('home') }}" class="breadcrumb-link">Book Overview</a>
+            <span class="breadcrumb-separator">›</span>
+            <span class="breadcrumb-current">{{ chapter.title }}</span>
+        </nav>
+        
+        <h1 class="chapter-title">{{ chapter.title }}</h1>
+        <div class="chapter-stats">
+            <span class="stat">
+                <strong>{{ chapter.sections|length }}</strong> sections
+            </span>
+            <span class="stat">
+                <strong>{{ chapter.calculate_word_count() }}</strong> words
+            </span>
+        </div>
+    </div>
+
+    <div class="sections-section">
+        <h2>Sections</h2>
+        {% if chapter.sections %}
+        <div class="sections-list">
+            {% for section in chapter.sections %}
+            <div class="section-card">
+                <div class="section-header">
+                    <h3 class="section-title">{{ section.title }}</h3>
+                    <span class="section-word-count">{{ section.word_count }} words</span>
+                </div>
+                <div class="section-content">
+                    <pre class="section-text">{{ section.content }}</pre>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% else %}
+        <p class="no-sections">This chapter has no sections.</p>
+        {% endif %}
+    </div>
+
+    <div class="chapter-actions">
+        <a href="{{ url_for('home') }}" class="back-btn">← Back to Overview</a>
+    </div>
+</div>
+{% endblock %}

@@ -134,41 +134,41 @@
 ## Web Interface Implementation
 
 ### Step 7: Web Templates
-- [ ] Create `templates/base.html`:
-  - [ ] HTML5 doctype and structure
-  - [ ] Meta tags for viewport
-  - [ ] Navigation header
-  - [ ] {% block content %}
-  - [ ] Link to CSS file
-- [ ] Create `templates/overview.html`:
-  - [ ] Extend base.html
-  - [ ] Display book title
-  - [ ] Create chapters table
-  - [ ] Show chapter numbers
-  - [ ] Show chapter titles as links
-  - [ ] Show section counts
-  - [ ] Show word counts
-  - [ ] Display total book word count
-  - [ ] Add refresh button
-- [ ] Create `templates/chapter.html`:
-  - [ ] Extend base.html
-  - [ ] Display chapter title
-  - [ ] Show chapter word count
-  - [ ] List all sections
-  - [ ] Show section titles
-  - [ ] Show section word counts
-  - [ ] Display section content
-  - [ ] Add back to overview link
-- [ ] Create `static/style.css`:
-  - [ ] Basic typography
-  - [ ] Table styling
-  - [ ] Navigation styling
-  - [ ] Responsive design
-  - [ ] Button styling
-- [ ] Create `templates/error.html`:
-  - [ ] Generic error template
-  - [ ] Error message placeholder
-  - [ ] Link to home
+- [x] Create `templates/base.html`:
+  - [x] HTML5 doctype and structure
+  - [x] Meta tags for viewport
+  - [x] Navigation header
+  - [x] {% block content %}
+  - [x] Link to CSS file
+- [x] Create `templates/overview.html`:
+  - [x] Extend base.html
+  - [x] Display book title
+  - [x] Create chapters table
+  - [x] Show chapter numbers
+  - [x] Show chapter titles as links
+  - [x] Show section counts
+  - [x] Show word counts
+  - [x] Display total book word count
+  - [x] Add refresh button
+- [x] Create `templates/chapter.html`:
+  - [x] Extend base.html
+  - [x] Display chapter title
+  - [x] Show chapter word count
+  - [x] List all sections
+  - [x] Show section titles
+  - [x] Show section word counts
+  - [x] Display section content
+  - [x] Add back to overview link
+- [x] Create `static/style.css`:
+  - [x] Basic typography
+  - [x] Table styling
+  - [x] Navigation styling
+  - [x] Responsive design
+  - [x] Button styling
+- [x] Create `templates/error.html`:
+  - [x] Generic error template
+  - [x] Error message placeholder
+  - [x] Link to home
 
 ### Step 8: API Endpoints
 - [ ] Update `app.py` with routes:
