@@ -19,7 +19,7 @@ At this very moment, your stakeholders--the product team, executives at your com
 
 Those stakeholders are certain that if the features aren't shipped *right this minute*, the business is going to suffer, and badly.
 
-At the very same time, the engineers *on* your team are demanding that you carve out time, *now and not later*, to deal with a teetering pile of tech debt.
+At the very same time, the engineers *on* your team are demanding that you carve out time, *now and not later*, to deal with the teetering pile of tech debt that is your codebase.
 
 The engineers are equally certain that, if they don't have a chance to clean up some of the buggy, insecure, utterly inscrutable legacy code, the business is going to suffer, and badly.
 
@@ -56,7 +56,7 @@ Maybe it'll suffer a spectacular outage just as your peak season starts.
 
 Or maybe you'll experience a painful security breach just as your sales team is trying to close that one extra security-conscious enterprise customer.
 
-Or maybe the overall system will just become so difficult to safely change that the pace of delivery grinds to a halt (and your engineers lose all respect for you, and the very best ones start not deleting the recruiter emails they get every day).
+Or maybe the overall system will just become so difficult to safely change that the pace of delivery grinds to a halt (and your engineers lose all respect for you, and the very best ones start idly skimming the emails they get from recruiters).
 
 All of those are *also* your (potential) failures.
 
@@ -68,15 +68,15 @@ So, again, what do you do?
 
 # I have an answer.
 
-** Um, Who Are You, Exactly?
+** Greetings & Salutations!
 
 Hi, my name is Dan.
 
 For the last 30 years, I've worked in various combinations of engineering and product -- I love both discplines, and value both super highly.
 
-I've worked as an senior IC engineer building and operating complex systems; I've led product at startups desperately trying to find traction; I've managed engineering teams ranging in size from 2 to 500.
+I've worked as a principal engineer building and operating complex systems; I've led product at startups desperately trying to find traction; I've managed engineering teams ranging in size from 2 to 500.
 
-Across it all, I constantly wrestled with this tradeoff between what was being explicitly asked for versus what engineers believed was important.
+Across it all, I constantly wrestled with this tradeoff between what was being asked for by stakeholders for versus what engineers believed was important.
 
 # were worried about.
 
@@ -127,7 +127,7 @@ First, the conversation with the engineers about what work to prioritize (aka, a
 
 Second, the conversation with stakeholders about why that work is worth doing (aka, a conversation where the engineering leader is *advocating* for the work).
 
-Let's take each of those in turn, and see why "bad code" causes problems.
+Let's take each of those in turn, and see why "bad code" causes problems for each.
 
 *** "Tech Debt" Considered Harmful, Part I - With Engineers
 
@@ -187,17 +187,17 @@ But it *also* leads to stakeholders getting extremely frustrated, ala:
 
 "Do the engineers have *any idea* how this business actually works? Am I supposed to care about some abstract notion of code quality when we're hemorrhaging customers? We can worry about code quality *later*, I'm definitely pushing back right now."
 
-This is how you end up with bitterly fought over, narrowly-scoped "tech debt projects"... that don't end up having much impact, but do leave both sides seething with resentment.
+This is how you end up with bitterly fought over, narrowly-scoped "tech debt projects"... that don't end up having much impact, and leave both sides seething with resentment.
 
 The engineering leader finds themselves caught between the two sides, making both unhappy.
 
-Iif talking about "tech debt" causes problems, what's the alternative? Are engineers and stakeholders just doomed to not get along?
+If talking about "tech debt" causes problems, what's the alternative? Are engineers and stakeholders just doomed to not get along?
 
 Nope! There is, in fact, a better way.
 
 ** Talk Instead About "Technical Investments"
 
-Instead of technical debt, engineering leaders can ask their teams *and* stakeholders talk about *technical investments*, which are defined as:
+Instead of technical debt, engineering leaders can ask their teams *and* stakeholders to talk about *technical investments*, which are defined as:
 
 /Work the engineers believe is *valuable for the business*, but that *no one is asking for*./
 
@@ -219,7 +219,7 @@ And there will be nothing they can *see*, after, that shows them things have got
 
 Given that lack of visibility, it's hardly surprising that stakeholders, confronted with such a choice, often feel like they are giving something up and getting nothing in return.
 
-One of the core theses of this book is that engineering leaders can *build visibility* into potential value.
+One of the core theses of this book is that engineering leaders have a wide variety of options to *build visibility* into potential value.
 
 It is *massively cheaper* to build such visibility than it is to make the full investment.
 
@@ -227,9 +227,9 @@ Once there is visibility, the engineers and their stakeholders can look at it, t
 
 If the engineering team can then offer disciplined, incremental steps to gradually (and visibly) improve things (including improving the depth and reach of the visibility), the can build real trust with stakeholders over time.
 
-That then allows them to "lever up" from small initial investments to, sometimes, very  major, transformative investments.
+That then allows them to "climb the ladder" from small initial investments to, sometimes, very major, transformative investments.
 
-The best way to do that is not as a one-off project an engineering leader puts all their authority on the line for (ugh, I've done that so many times, and never seen great results), but instead, a series of *tech investment cycles*, each of which generates visibility and options.
+The best way to do that is not as a one-off project an engineering leader puts all their authority on the line for (ugh, I've done that so many times, and never seen great results), but instead, a series of repeated *tech investment cycles*, each of which generates visibility and options.
 
 All in partnership, not opposition, with stakeholders.
 
@@ -241,7 +241,7 @@ They absolutely refuse to talk about *anything* except the features they are dem
 
 This can be a real challenge.
 
-However, in my experience the vast majority of cases of stakeholders genuinely want the business to succeed -- and they see a core part of their job as *making good decisions* in service of that goal.
+In my experience the vast majority of cases of stakeholders genuinely want the business to succeed -- and they see a core part of their job as *making good decisions* in service of that goal.
 
 If you follow the game plan in this book, you'll be offering your stakeholders something they will love -- decisions where they will have a combination of meaningful *visibility* with meaningful *control*.
 
