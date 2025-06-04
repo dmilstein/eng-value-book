@@ -23,7 +23,7 @@
         <table class="content-table">
             <thead>
                 <tr>
-                    <th>Chapter</th>
+                    <th colspan="2">Chapter</th>
                     <th>Section</th>
                     <th>Word Count</th>
                 </tr>
@@ -31,16 +31,15 @@
             <tbody>
                 {% for chapter in book.chapters %}
                     <tr class="chapter-row">
-                        <td class="chapter-title">
+                        <td colspan="3" class="chapter-title">
                             <strong>{{ loop.index }}. {{ chapter.title }}</strong>
                         </td>
-                        <td class="section-title">—</td>
                         <td class="word-count"><strong>{{ chapter.calculate_word_count() }}</strong></td>
                     </tr>
                     {% for section in chapter.sections %}
                     <tr class="section-row">
-                        <td class="chapter-title"></td>
-                        <td class="section-title">{{ section.title }}</td>
+                        <td class="chapter-title" width="20px"></td>
+                        <td class="section-title" colspan="2">{{ section.title }}</td>
                         <td class="word-count">{{ section.word_count }}</td>
                     </tr>
                     {% endfor %}
@@ -55,7 +54,7 @@ function refreshData() {
     const button = document.querySelector('.refresh-btn');
     button.textContent = 'Refreshing...';
     button.disabled = true;
-    
+
     fetch('/api/refresh', {
         method: 'POST',
         headers: {
