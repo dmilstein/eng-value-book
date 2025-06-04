@@ -6,13 +6,13 @@
 * Visibility Creates Value
 ** Warning (Extremely Valuable) Abstract Thinking Ahead
 
-Let's be clear: we're about to do an unapologetically deep dive into how, exactly, engineers create value for the businesses in which they operate.
+We're about to do an unapologetically deep dive into how, exactly, engineers create value for the businesses in which they operate.
 
 I have done my best to make the concepts clear.
 
 But this may feel somewhat far removed from the day-to-day concerns that are filling up your inbox and/or Slack.
 
-Nonetheless, I'll encourage you to dig in and really wrestle with the below.
+Nonetheless, I'll encourage you to take the time to dig in and really wrestle with the below.
 
 There are few things that are more valuable for your long-term career than understanding how engineering work turns into overall business value.
 
@@ -22,11 +22,7 @@ That understanding can, over time, earn you (a lot of) money -- because it will 
 
 It can also make your job profoundly more pleasant. Because you can step out of a lot of frustratingly oppositional patterns, by finding ways to pursue value that work for everyone.
 
-But developing such an understanding takes some real work.
-
-Foonote: As my friend Edmund said "Tell them sometimes you need the math so fucking clear an afternoon and brew some coffee".
-
-FootnoteL If you do find yourself glazing over, feel free to jump ahead to [[id:E7DB3CD4-9B7B-425B-BF07-E2607DDD6670][Forms of Value/Visibility]], and return here when you hit concepts there.
+But developing such an understanding takes some real work. [fn:: My friend Edmund said "Tell them sometimes you need the math so fucking clear an afternoon and brew some coffee".] [fn:: if you do find yourself glazing over, feel free to jump ahead to [[id:E7DB3CD4-9B7B-425B-BF07-E2607DDD6670][Forms of Value/Visibility]], and return here when you hit concepts there.]
 
 ** What Is Value?
 
@@ -40,7 +36,7 @@ The first question is:
 
 *What, precisely, do we mean by 'value for a business'?*
 
-I suspect most engineers, if they think about business value, tend to think only of *revenue* -- e.g. if their team is working on a new product, they'll think of "business value" as "the dollars that customers pay us for that product, once it launches".
+I suspect most engineers, if they think about business value at all, tend to think only of *revenue* -- e.g. if their team is working on a new product, they'll think of "business value" as "the dollars that customers pay us for that product, once it launches".
 
 This is too limited a view.
 
@@ -48,29 +44,23 @@ Revenue, *by itself*, is not a reliable proxy for overall company value -- reven
 
 So, what is "overall company value"? And how might we determine it?
 
-Well, there are two situations where we can easily obtain a very useful, very direct estimate of overall company values:
+Well, there are two situations where we can obtain a very useful, very direct estimate of overall company values:
 
- - Public companies, every time a share of stock changes hands
+ - Every time a share of stock in a public company changes hands
 
- - Startups, immediately after a funding round
+ - Immediately after a funding round at a startup
 
 In both cases, investors are putting up their own money to buy a *part* of the overall company.
 
 How much those investors are willing to pay for a *part* of the company is driven by their belief about the overall company value.
 
-That is the kind of value we're interested in.
+That is the kind of value we're interested in. [fn:: I will bet you All the Things that the leader of your business care very, *very* intensely about this precise form of value. CEO's care a *lot* about stock prices and future valuations. Like, a loooot.]
 
-# Footenote: I will bet you All the Things that the leader of your business care very, *very* intensely about this precise form of value.
-
-# I've never met a public company CEO who didn't care about the stock price, in the long term. Nor a startup CEO who didn't care what valuation investors would set for the company, during a funding round.
-
-Engineers can, by the work they do, either increase *or decrease* that kind of overall company value (footnote: this is part of why there are things to like about engineer compensation being tied to equity).
+Engineers can, by the work they do, either increase *or decrease* that kind of overall company value [fn:: this is part of why tying engineer compensation to equity has some real upsides].
 
 The potential *increase* in value is why companies hire engineers -- engineer salaries represent an *investment* on the part of the business, made in hopes of a positive return.
 
 Whatever someone tells you your job is, please understand and believe me: your *actual* job is to increase the value of your company.
-
-# Footnotes, as my friend Kris Ciccarelli and I like to discuss, the cost of a useless meeting is *greater* than the cost of the salaries of everyone involved -- because the company expects a positive return on those salaries.
 
 Unfortunately, company executives tend to have a limited understanding of how engineers create value.
 
@@ -94,7 +84,7 @@ To ensure that you, as an engineering leader, are able to do that work, we're go
 
 Hidden within it we'll find the keys to successfully identifying and then advocating for a wide variety of technical investments -- and for understanding our work as engineers more broadly.
 
-# Footnote Also: it's fun! It's maybe *especially* fun if you have an obsessive love for developing a first-principles understanding of activities people are blindly doing all around you.
+Also, it's fun![fn:: It's maybe *especially* fun if you have an obsessive love for developing a first-principles understanding of activities people are blindly doing all around you. Say.]
 
 # Although some of the below may sound a bit theoretical, I'll *strongly encourage* you to really sink your teeth into it, really wrestle with how to apply it to your specific company.
 
@@ -116,9 +106,7 @@ As you read the below just focus on understanding and applying the overall model
 
 Later in the book, we'll lay out a plan for gradually drawing your stakeholders into a repeated process of decision-making, which they will find delightful.
 
-We'll do so in a way that doesn't require front-loading an economics lecture (stakeholders who are upset about their features being late are oddly resistant to economics lectures, I have found).
-
-Footnote: As Edmund Jorgensen and I first came to understand these ideas about company value (after reading the simply amazing Principles of Product Development Flow, by Don Reinertsen), we eagerly brought abstract models for value into just about every one of our discussions with stakeholders. We emerged from that experience a few years later, battered and bruised, with the very different approach you're going to see later.
+We'll do so in a way that doesn't require front-loading an economics lecture (stakeholders who are upset about their features being late are oddly resistant to economics lectures, I have found). [fn:: As Edmund Jorgensen and I first came to understand these ideas about company value (after reading the simply amazing Principles of Product Development Flow, by Don Reinertsen), we eagerly brought abstract models for value into just about every one of our discussions with stakeholders. We emerged from that experience a few years later, battered and bruised, with the very different approach you're going to see later.]
 
 ** A Few Of My Favorite Misconceptions About Value
 
@@ -134,9 +122,7 @@ This statement expresses a belief that one of the below activities is the entire
 
 Such a belief is fundamentally wrong.
 
-Engineering's *job* is to create value for the business. Even if the people who hired you don't think about it that way.
-
-# Foonote: You're going to get a ticket to the Dan Milstein Course in How To Give People What They Actually Want, Not What They Ask For, And Leave Them Very Happy Indeed
+Engineering's *job* is to create value for the business. Even if the people who hired you don't think about it that way. [fn:: This book is basically a ticket to the Dan Milstein Course in How To Give People What They Actually Want, Not What They Ask For, And Leave Them Very Happy Indeed]
 
 Each of the below activities is *potentially valuable* for a business... but, unfortunately, each of them is also *potentially damaging to value*:
 
@@ -156,9 +142,7 @@ To counteract that way of thinking, here are situations in which each of the abo
 
    Super valuable when chasing product market fit and rapidly testing a series of new prototypes with customers.
 
-   Super damaging when the company has built a product that customers fundamentally don't want or need, and the parade of new features is a desperate attempt to avoid facing that hard truth for as long as possible
-
-   Foonote: I totally made this up I've never seen any stakeholders exhibit this exact behavior look something shiny.
+   Super damaging when the company has built a product that customers fundamentally don't want or need, and the parade of new features is a desperate attempt to avoid facing that hard truth for as long as possible [fn:: I totally made this up I've never seen any stakeholders exhibit this exact behavior look something shiny.]
 
  - *Rapidly chewing through all the well-groomed tickets on a team's sprint board*
 
@@ -197,9 +181,7 @@ Let's build a model!
 
 If you ask a finance person how to value a company, they'll light up.
 
-They'll mention streams of future profits, and then, before you know it, you'll find yourself neck-deep in all sorts of exciting, math-adjacent jargon about discounted cash flows, amortization schedules, the cost of capital, and how to pronounce EBITDA.
-
-# Footnote E.g. see HBS's [[https://online.hbs.edu/blog/post/how-to-value-a-company][How to Value a Company]] for not one, not two, but *six* different ways to calculate the value of a company.
+They'll mention streams of future profits, and then, before you know it, you'll find yourself neck-deep in all sorts of exciting, math-adjacent jargon about discounted cash flows, amortization schedules, the cost of capital, and how to pronounce EBITDA. [fn:: See HBS's [[https://online.hbs.edu/blog/post/how-to-value-a-company][How to Value a Company]] for not one, not two, but *six* different ways to calculate the value of a company.]
 
 You might think, "Oh, I get it! The overall value of a company is determined by an *equation*."
 
@@ -259,8 +241,7 @@ Not in some woo-woo theoretical way.
 
 Actual company value.
 
-What people pay for a share of stock, or what investors pay at a funding round *is* value. In the most direct and important way.
-
+What people pay for a share of stock, or what investors pay at a funding round *is* the value of the company. In the most direct and important way.
 
 # # Insert a company-specific example
 
@@ -278,7 +259,7 @@ What people pay for a share of stock, or what investors pay at a funding round *
 # aka We're Going to Invent Someone Useful, Named Bertha
 # aka, Meet Bertha, The Econommically Rational Investor
 
-Hang on a second, I can hear you thinking.
+/Hang on a second/, I can hear you thinking.
 
 If the value of a company is a probabilistic estimate of future profits...
 
@@ -298,9 +279,7 @@ And we're going to name her Bertha.
 
 Bertha is that beloved creature of theory, an *economically rational investor.*
 
-Also, she has seen some shit.
-
-# Footnote: the idea of value being determined by an economically rational investor is straight out of Don Reinertsen. The name Bertha is straight out of the murky depths of my mind.
+Also, she has seen some shit. [fn:: the idea of value being determined by an economically rational investor is straight out of Don Reinertsen. The name Bertha is straight out of the murky depths of my mind.]
 
 Bertha possesses two kinds of knowledge:
 
@@ -314,13 +293,15 @@ Bertha possesses two kinds of knowledge:
 
 Crucially, Bertha is not easily swayed by overly optimistic CEO's. Sure, the CEO is dead certain that the moment you launch the new product, customers are going to be banging down your door to buy.
 
-From a certain perspective, that is the CEO's job -- to be unreasonably optimistic and inspire the team.
+Some CEO's believe this is the heart of their job -- to be (unreasonably) optimistic and inspire the team.
 
-But Bertha just kind of squints at the excited PowerPoint decks and shrugs and says "Sure, sure, customers are gonna loooove it, right. Why don't you call me when you have some *evidence*."
+But Bertha just kind of squints at the excited PowerPoint decks and shrugs and says "Sure, sure, customers are gonna loooove it, right. Why don't you call me when you have some *evidence*." (in this, she is much like steely-eyed VC's talking to founders)
 
-Bertha needs evidence to persuade her to change her mind, and thus her estimate of future profits.
+Bertha (and those VC's) need evidence to persuade her to change her mind, and thus her estimate of future profits.
 
 And thus, *evidence can increase overall company value*.
+
+Acquiring information can make a company more valuable.
 
 From the perspective of an engineer working at a company, the overall value of a company is best understood as:
 
