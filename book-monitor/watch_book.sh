@@ -3,8 +3,8 @@
 # Watch script for book builder - monitors org files and updates word counts
 # Usage: ./watch_book.sh
 
-BOOK_DIR="org-roam-tibook"
-BUILDER_SCRIPT="book-monitor/parsers/book_builder.py"
+BOOK_DIR="../org-roam-tibook"
+BUILDER_SCRIPT="parsers/book_builder.py"
 
 # Check if required directories exist
 if [ ! -d "$BOOK_DIR" ]; then
@@ -34,11 +34,11 @@ run_builder() {
     echo "======================="
     echo "Last updated: $(date)"
     echo ""
-    
+
     # Run the book builder
     cd "$(dirname "$0")" || exit 1
     python3 "$BUILDER_SCRIPT" "$BOOK_DIR" 2>/dev/null
-    
+
     echo ""
     echo "Watching for changes in $BOOK_DIR..."
     echo "Press Ctrl+C to stop"
