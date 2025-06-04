@@ -7,7 +7,7 @@ import logging
 from unittest.mock import patch, MagicMock
 from parsers.book_builder import BookBuilder
 from models import Book, Chapter, Section
-
+from utils.exceptions import FileNotFoundError, ParseError
 
 class TestBookBuilder(unittest.TestCase):
     """Test cases for the BookBuilder class."""
