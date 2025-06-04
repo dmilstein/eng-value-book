@@ -18,33 +18,32 @@
         <button onclick="refreshData()" class="refresh-btn">Refresh Data</button>
     </div>
 
-    <div class="chapters-section">
-        <h2>Chapters</h2>
-        <table class="chapters-table">
+    <div class="content-section">
+        <h2>Book Structure</h2>
+        <table class="content-table">
             <thead>
                 <tr>
-                    <th>#</th>
-                    <th>Title</th>
-                    <th>Sections</th>
+                    <th>Chapter</th>
+                    <th>Section</th>
                     <th>Word Count</th>
-                    <th>Actions</th>
                 </tr>
             </thead>
             <tbody>
                 {% for chapter in book.chapters %}
-                <tr class="chapter-row">
-                    <td class="chapter-number">{{ loop.index }}</td>
-                    <td class="chapter-title">
-                        <a href="{{ url_for('chapter', filename=chapter.title|replace(' ', '_')|lower + '.org') }}" class="chapter-link">
-                            {{ chapter.title }}
-                        </a>
-                    </td>
-                    <td class="section-count">{{ chapter.sections|length }}</td>
-                    <td class="word-count">{{ chapter.calculate_word_count() }}</td>
-                    <td class="actions">
-                        <a href="{{ url_for('chapter', filename=chapter.title|replace(' ', '_')|lower + '.org') }}" class="view-btn">View</a>
-                    </td>
-                </tr>
+                    <tr class="chapter-row">
+                        <td class="chapter-title">
+                            <strong>{{ loop.index }}. {{ chapter.title }}</strong>
+                        </td>
+                        <td class="section-title">—</td>
+                        <td class="word-count"><strong>{{ chapter.calculate_word_count() }}</strong></td>
+                    </tr>
+                    {% for section in chapter.sections %}
+                    <tr class="section-row">
+                        <td class="chapter-title"></td>
+                        <td class="section-title">{{ section.title }}</td>
+                        <td class="word-count">{{ section.word_count }}</td>
+                    </tr>
+                    {% endfor %}
                 {% endfor %}
             </tbody>
         </table>
