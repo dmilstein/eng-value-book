@@ -171,32 +171,32 @@
   - [x] Link to home
 
 ### Step 8: API Endpoints
-- [ ] Update `app.py` with routes:
-  - [ ] Implement `/` route:
-    - [ ] Load book data
-    - [ ] Pass to overview.html
-    - [ ] Handle no data case
-  - [ ] Implement `/chapter/<filename>` route:
-    - [ ] Find chapter by filename
-    - [ ] Pass to chapter.html
-    - [ ] Return 404 if not found
-  - [ ] Implement `/api/refresh` route:
-    - [ ] Accept POST method
-    - [ ] Reload book data
-    - [ ] Return JSON response
-- [ ] Add helper functions:
-  - [ ] `get_book_data()` function
-  - [ ] `find_chapter(filename)` function
-- [ ] Update templates with Jinja2 variables:
-  - [ ] overview.html variables
-  - [ ] chapter.html variables
-- [ ] Create `tests/test_routes.py`:
-  - [ ] Test overview page loads
-  - [ ] Test chapter page with valid filename
-  - [ ] Test chapter page with invalid filename
-  - [ ] Test refresh endpoint
-  - [ ] Test JSON responses
-- [ ] Run tests and ensure all pass
+- [x] Update `app.py` with routes:
+  - [x] Implement `/` route:
+    - [x] Load book data
+    - [x] Pass to overview.html
+    - [x] Handle no data case
+  - [x] Implement `/chapter/<filename>` route:
+    - [x] Find chapter by filename
+    - [x] Pass to chapter.html
+    - [x] Return 404 if not found
+  - [x] Implement `/api/refresh` route:
+    - [x] Accept POST method
+    - [x] Reload book data
+    - [x] Return JSON response
+- [x] Add helper functions:
+  - [x] `get_book_data()` function
+  - [x] `find_chapter(filename)` function
+- [x] Update templates with Jinja2 variables:
+  - [x] overview.html variables
+  - [x] chapter.html variables
+- [x] Create `tests/test_routes.py`:
+  - [x] Test overview page loads
+  - [x] Test chapter page with valid filename
+  - [x] Test chapter page with invalid filename
+  - [x] Test refresh endpoint
+  - [x] Test JSON responses
+- [x] Run tests and ensure all pass
 
 ## Error Handling and Polish
 

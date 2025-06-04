@@ -4,6 +4,7 @@ class Config:
     """Application configuration constants."""
     
     # File paths
+    BOOK_DIRECTORY = "org-roam-tibook"
     BOOK_SOURCE_DIR = "org-roam-tibook"
     OUTPUT_DIR = "output"
     
