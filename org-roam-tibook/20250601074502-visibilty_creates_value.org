@@ -6,7 +6,29 @@
 * Visibility Creates Value
 ** Warning (Extremely Valuable) Abstract Thinking Ahead
 
-# Maybe: Look, you... could skip this chapter. Maybe. And just jump into the catalog of Forms of Value + Visibility. If you're a person who is just super impatient with any form of abstract thinking, feel free to do that, and maybe return here when you hit concepts there. But I'll encourage you not to. There are few things that are more valuable for your long-term career than understanding how engineering work turns into value. It can both earn you more money, but also preserve your sanity. But it takes some work. As my friend Edmund said "Tell them sometimes you need the math so fucking clear an afternoon and brew some coffee".
+Let's be clear: we're about to do an unapologetically deep dive into how, exactly, engineers create value for the businesses in which they operate.
+
+I have done my best to make the concepts clear.
+
+But this may feel somewhat far removed from the day-to-day concerns that are filling up your inbox and/or Slack.
+
+Nonetheless, I'll encourage you to dig in and really wrestle with the below.
+
+There are few things that are more valuable for your long-term career than understanding how engineering work turns into overall business value.
+
+Precisely because few people really understand it, having that insight is like a superpower.
+
+That understanding can, over time, earn you (a lot of) money -- because it will allow you to find creative ways (that no one is asking for!) to generate major, visible business wins.
+
+It can also make your job profoundly more pleasant. Because you can step out of a lot of frustratingly oppositional patterns, by finding ways to pursue value that work for everyone.
+
+But developing such an understanding takes some real work.
+
+Foonote: As my friend Edmund said "Tell them sometimes you need the math so fucking clear an afternoon and brew some coffee".
+
+FootnoteL If you do find yourself glazing over, feel free to jump ahead to [[id:E7DB3CD4-9B7B-425B-BF07-E2607DDD6670][Forms of Value/Visibility]], and return here when you hit concepts there.
+
+** What Is Value?
 
 Technical Investments are defined as:
 
@@ -14,15 +36,15 @@ Technical Investments are defined as:
 
 In order to identify and advocate for technical investments, engineering leaders must understand *how engineers create value for a business*.
 
-Let's stop right there, and ask the most fundamentally important question:
+The most fundamentally important question is:
 
 *What do we mean by value?*
 
-Say the engineers are hard at work on a new product, that, once it launches, will bring in a stream of dollars.
+I suspect most engineers, if they think about company value, tend to think first of potential revenue -- e.g. if their team is working on a new product, they'll think of "business value" as "the dollars that customers pay us for that product, once it launches".
 
-Many engineers, if they think about company value at all, tend to think of that stream of dollars, that potential revenue as the "business value" they're responsible for delivering.
+This is much too limited a view.
 
-But, crucially, revenue is *not* the value we're talking ahout -- revenue plays a *role* in determining company value, but is not that value by itself.
+Revenue, *by itself*, is not a reliable proxy for overall company value -- revenue plays a *role* in determining company value, but is not that value by itself.
 
 So, what is "overall company value"? And how might we determine it?
 
@@ -247,7 +269,7 @@ Different humans have different levels of knowledge, aka, different amounts of i
 
 For our enlightened notion of value, we're going to *invent* someone: an economically rational investor.
 
-Her name is Bertha.
+Her name is Bertha. Lo this will change
 
 # Hat tip / footnote for Reinertsen
 
