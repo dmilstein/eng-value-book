@@ -1,0 +1,72 @@
+:PROPERTIES:
+:ID:       29704FAD-7D48-453D-8371-F5C3D9207B01
+:END:
+#+title: Recommendable Things
+As potential content for the [[id:E0ADBF07-90B8-4C37-81C0-96A428020F5E][Substack]].
+
+Can revel a bit in -- not just a retro link blog, but a link blog to *old links*, that have stood the test of time.
+
+These are things I've found myself recommending to people, over and over.
+
+And, for each, what has triggered a recommendation in that direction.
+
+* Just All The Things
+** Various notes by Kellan
+*** Sizing your eng org
+*** Surviving being senior eng mgmt
+*** On planning
+*** the thing that has the quote about modern software eng is shipping more often and measuring the results
+** McFunley
+*** Choose Boring Technology
+*** Whom The Gods Would Destroy, They First Give Real-Time Analytics
+*** McKinley's piece on Product Dev cycle
+* The Ironies of Automation
+* How Complex Systems Fail
+* Reinertsen (maybe specific chapters)
+* Speeding Up Your Engineering Org, Part I
+* On Time, Clocks and Distributed Systems
+* Memories Guesses and Apologies (if it can be found??)
+* Escaping the Build Trap
+* Continuous Discovery Habits
+* My Own Stuff
+** Coding Fast & Slow
+** No Deadlines for You
+** Risk, Information
+** How to Run a 5 Whys (With Humans, Not Robots)
+** How to Survive a Ground-up Rewrite
+** My Ellevation blog posts
+* Willison (pick out some posts?)
+* Never Split the Difference
+* High Output Management
+* The Tyranny of Structurelessness
+* Practice Large-Scale Agile Development (Leading the Transformatino)
+* That Swedish Police force agile development thing
+* The Aircraft Carrier thing
+* Extreme Programming Explained
+* Storytelling With Data
+* Resonate?
+* How to Measure Anything
+* Lencioni - Five Dysfunctions
+* Managing and Measuring Performance in Organizations
+* O'Reilly's SLO's book
+* User Stories Applied (?)
+* Nygard
+** Release It
+** Various blog posts
+* Build by Tony Faddell (sic)
+* The Mom Test
+* Visual Complex Analysis + Visual Differential Geometry And Forms
+* Designing Data-Intensive Applications
+* Jay Kreps blog posts as he was developing Kafka
+* That weirdly useful book on Domain Driven Design in F#
+* The Art of Action
+* The Pricing Roadmap
+* Will Larson
+** Various specific posts
+*** Communities of Practice
+*** ?
+** An Elegant Puzzle
+* Team Topologies?
+* Cal Newport?
+* Rumelt Strategy Notes thing
+*
