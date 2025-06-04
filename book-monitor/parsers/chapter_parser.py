@@ -4,6 +4,7 @@ import re
 from typing import Optional
 from models import Chapter, Section
 from parsers.org_utils import count_words, remove_org_markup
+from utils.exceptions import FileNotFoundError, ParseError
 
 
 class ChapterParser:
@@ -22,19 +23,30 @@ class ChapterParser:
         
         Returns:
             Chapter object if parsing successful, None if file not found or empty
+            
+        Raises:
+            FileNotFoundError: If the chapter file doesn't exist
+            ParseError: If the file cannot be parsed
         """
         try:
             with open(self.file_path, 'r', encoding='utf-8') as file:
                 content = file.read()
-        except FileNotFoundError:
-            return None
-        except Exception:
-            return None
+        except FileNotFoundError as e:
+            raise FileNotFoundError(self.file_path, "Chapter file referenced in TOC but not found")
+        except PermissionError:
+            raise ParseError(self.file_path, details="Permission denied reading chapter file")
+        except UnicodeDecodeError:
+            raise ParseError(self.file_path, details="File encoding error - expected UTF-8")
+        except Exception as e:
+            raise ParseError(self.file_path, details=f"Unexpected error reading file: {str(e)}")
         
         if not content.strip():
             return None
         
-        return self._extract_chapter(content)
+        try:
+            return self._extract_chapter(content)
+        except Exception as e:
+            raise ParseError(self.file_path, details=f"Error extracting chapter content: {str(e)}")
     
     def _extract_chapter(self, content: str) -> Optional[Chapter]:
         """Extract chapter information from file content.

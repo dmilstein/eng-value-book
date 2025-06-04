@@ -2,37 +2,59 @@ import logging
 from flask import Flask, render_template, jsonify, abort
 from config import Config
 from parsers.book_builder import BookBuilder
+from utils.error_handler import setup_error_handlers, configure_logging
+from utils.exceptions import BookMonitorException, FileNotFoundError, ParseError, ConfigError
 
 app = Flask(__name__)
 app.config.from_object(Config)
+
+# Set up error handling and logging
+configure_logging(app)
+setup_error_handlers(app)
 
 # Global book data
 book_data = None
 
 def load_book_data():
-    """Load book data from org files."""
-    global book_data
+    """Load book data from org files.
     
-    # Configure logging
-    logging.basicConfig(
-        level=logging.INFO,
-        format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
-    )
+    Raises:
+        ConfigError: If configuration is invalid
+        FileNotFoundError: If required files are missing
+        ParseError: If files cannot be parsed
+    """
+    global book_data
     
     logger = logging.getLogger(__name__)
     
     try:
+        # Validate configuration
+        if not app.config.get('BOOK_DIRECTORY'):
+            raise ConfigError('BOOK_DIRECTORY', 'Book directory not configured')
+        
         builder = BookBuilder(app.config['BOOK_DIRECTORY'])
         book_data = builder.build()
         
         if book_data:
             logger.info(f"Loaded book: {book_data.title} with {len(book_data.chapters)} chapters")
+            
+            # Log any non-fatal errors
+            errors = builder.get_errors()
+            if errors:
+                logger.warning(f"Build completed with {len(errors)} warnings:")
+                for error in errors:
+                    logger.warning(f"  - {error}")
         else:
             logger.warning("Failed to load book data")
             
-    except Exception as e:
+    except (ConfigError, FileNotFoundError, ParseError) as e:
         logger.error(f"Error loading book data: {str(e)}")
         book_data = None
+        raise
+    except Exception as e:
+        logger.error(f"Unexpected error loading book data: {str(e)}")
+        book_data = None
+        raise BookMonitorException("Failed to load book data", str(e))
 
 def get_book_data():
     """Get the current book data, loading if necessary."""
@@ -113,24 +135,40 @@ def refresh():
                 'error': 'Failed to load book data after refresh.'
             }), 500
             
-    except Exception as e:
-        app.logger.error(f"Error during refresh: {str(e)}")
+    except ConfigError as e:
+        app.logger.error(f"Configuration error during refresh: {str(e)}")
         return jsonify({
             'success': False,
-            'error': f'Error during refresh: {str(e)}'
+            'error': f'Configuration error: {e.message}',
+            'config_key': e.config_key
+        }), 500
+    except FileNotFoundError as e:
+        app.logger.error(f"File not found during refresh: {str(e)}")
+        return jsonify({
+            'success': False,
+            'error': f'Required file not found: {e.file_path}'
+        }), 404
+    except ParseError as e:
+        app.logger.error(f"Parse error during refresh: {str(e)}")
+        return jsonify({
+            'success': False,
+            'error': f'Parse error in {e.file_path}: {e.message}'
+        }), 400
+    except BookMonitorException as e:
+        app.logger.error(f"Book monitor error during refresh: {str(e)}")
+        return jsonify({
+            'success': False,
+            'error': e.message,
+            'details': e.details
+        }), 500
+    except Exception as e:
+        app.logger.error(f"Unexpected error during refresh: {str(e)}")
+        return jsonify({
+            'success': False,
+            'error': f'Unexpected error during refresh: {str(e)}'
         }), 500
 
-@app.errorhandler(404)
-def not_found(error):
-    """Handle 404 errors."""
-    return render_template('error.html', 
-                         error_message="The requested page could not be found."), 404
-
-@app.errorhandler(500)
-def internal_error(error):
-    """Handle 500 errors."""
-    return render_template('error.html', 
-                         error_message="An internal server error occurred."), 500
+# Error handlers are now set up in utils/error_handler.py
 
 if __name__ == '__main__':
     load_book_data()
