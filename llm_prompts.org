@@ -8,6 +8,10 @@ Here’s the idea:
 
 I am writing a non-fiction book in a set of emacs org-mode files. I want to be able to, as I write and save my writing be able to view both a) wordcounts for the overall book, and also for each chapter and section, and also b) a rendered version of the text of the book. I'd like to view those in HTML pages which, ideally, auto-update so that I don't have to reload them.
 
+** Improve TOC parsing
+The current tool to parse the TOC file only handles *file* links. Please write out options for having it also handle org-roam links -- which have a GUID which can only be found *inside* the org-roam file that is linked to.
+
+Assume the tool will not run persistently, but will instead be kicked off from scratch each time, collect word counts for a TOC with between 10 and 20 chapters, and then exit. Also assume there will be 50-100 files in the org-roam directory. How could that change the above recommendations?
 * Prompt Templates From Harper
 ** Step 1. Idea Honing
 Use a conversational LLM to hone in on an idea (I use ChatGPT 4o / o3 for this):

@@ -16,7 +16,8 @@ E.g. things I tried that didn't work, or that I've seen people try and have not 
  - Analytics 2.0
  - Nexus WMS
  - Flagship
-** TODO Spike: write an actual visibility drives value chapter, *before* value deep dive
+** DONE Spike: write an actual visibility drives value chapter, *before* value deep dive
+CLOSED: [2025-06-05 Thu 14:15]
 Like, talk about how the core problem is lack of shared understanding. So creating visibility creates value. Use the example of gradually fixing the churn problem that I have sketchedin somehwere.
 
 Then talk about this as the fundamental hack for almost all tech investments -- build visibility first
@@ -28,7 +29,8 @@ Esp how he uses LI
 ** DONE Create new How Value Is Created chapter   :pom:curweek:
 CLOSED: [2025-06-05 Thu 08:52]
 Move existing stuff in Viz Creates Value there
-** TODO Spike on: mac prev/next tab keys for tab navigation
+** DONE Spike on: mac prev/next tab keys for tab navigation
+CLOSED: [2025-06-05 Thu 14:14]
 What I use for Chrome and lots of other things
 ** TODO Make word count script handle org links in toc.org
 And just make toc.org a full-fledged org node, while I'm at it.
@@ -36,6 +38,7 @@ And just make toc.org a full-fledged org node, while I'm at it.
 I think the link thing is likely too complicated to start with.
 ** TODO Clean up windowing-config.el and uncomment them import of it
 ** TODO Make the word count tool handle chapters with no sections
+** TODO Add chapter on What If My Company Fired All The PM'S?
 * Future Books
 ** TODO Collect ideas for book 2 about inteviewing + hiring
 "That Was Fun!" - How to interview so that great people can't wait to say yes
@@ -88,6 +91,8 @@ CLOSED: [2025-05-30 Fri 12:32]
 CLOSED: [2025-06-04 Wed 12:34]
 ** TODO Do a timeboxed skim through LinkedIn contacts for Part 2 coaching
 Can I just export my list of contacts
+** DONE Write up notes from Satoe convo           :curweek:pom:
+CLOSED: [2025-06-05 Thu 14:09]
 * [[id:17305FA7-A43F-40C9-9309-0EF3577C70D0][Author Platform]]                                 :gtasks:
 ** DONE Bang out an idea for using LinkedIn       :curweek:pom:
 CLOSED: [2025-06-04 Wed 08:09]
