@@ -2,6 +2,7 @@
 
 import re
 import os
+import glob
 from typing import List, Tuple, Optional
 from utils.exceptions import FileNotFoundError, ParseError
 
@@ -16,6 +17,7 @@ class TocParser:
             file_path: Path to the TOC org file
         """
         self.file_path = file_path
+        self.directory_path = os.path.dirname(file_path)
 
     def parse(self) -> List[Tuple[str, str]]:
         """
@@ -62,11 +64,10 @@ class TocParser:
         chapters = []
 
         # Pattern to match [[file:filename][title]] links
-        pattern = r'\[\[file:([^\]]+)\]\[([^\]]+)\]\]'
+        file_pattern = r'\[\[file:([^\]]+)\]\[([^\]]+)\]\]'
+        file_matches = re.findall(file_pattern, content)
 
-        matches = re.findall(pattern, content)
-
-        for filename, title in matches:
+        for filename, title in file_matches:
             # Clean up filename and title
             filename = filename.strip()
             title = title.strip()
@@ -75,4 +76,54 @@ class TocParser:
             if filename and title:
                 chapters.append((filename, title))
 
+        # Pattern to match [[id:guid][title]] links (org-roam)
+        id_pattern = r'\[\[id:([^\]]+)\]\[([^\]]+)\]\]'
+        id_matches = re.findall(id_pattern, content)
+
+        for guid, title in id_matches:
+            # Clean up guid and title
+            guid = guid.strip()
+            title = title.strip()
+
+            # Skip empty guids or titles
+            if guid and title:
+                # Resolve GUID to filename
+                filename = self._resolve_guid_to_filename(guid)
+                if filename:
+                    chapters.append((filename, title))
+
         return chapters
+
+    def _resolve_guid_to_filename(self, guid: str) -> Optional[str]:
+        """
+        Resolve an org-roam GUID to its corresponding filename.
+
+        Args:
+            guid: The GUID to resolve
+
+        Returns:
+            Filename if found, None otherwise
+        """
+        # Search for org files in the directory
+        org_files = glob.glob(os.path.join(self.directory_path, "*.org"))
+
+        for file_path in org_files:
+            try:
+                with open(file_path, 'r', encoding='utf-8') as file:
+                    content = file.read()
+                    
+                    # Look for #+ID: guid or :ID: guid patterns
+                    id_patterns = [
+                        rf'^#\+ID:\s*{re.escape(guid)}\s*$',
+                        rf'^\s*:ID:\s*{re.escape(guid)}\s*$'
+                    ]
+                    
+                    for pattern in id_patterns:
+                        if re.search(pattern, content, re.MULTILINE | re.IGNORECASE):
+                            return os.path.basename(file_path)
+                            
+            except (IOError, UnicodeDecodeError):
+                # Skip files that can't be read
+                continue
+
+        return None
