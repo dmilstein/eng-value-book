@@ -7,11 +7,15 @@
 ** The Pinch Tests
 Late in 2017, I was in my second year as an Engineering Director at Wayfair.
 
-The previous summer, I had been promoted to lead across a somewhat sprawling set of responsibilities that what we called "Supply Chain Engineering" -- all the things involved in moving physical things in the physical world, as part of delivering furniture and home goods to people.
+# Fix this, so that it's *after* peak -- early 2018? Or December 2017, after peak season.
 
-Wayfair had major strategic ambitions in supply chain.
+That summer, I had been promoted to lead across a somewhat sprawling set of responsibilities that what we called "Supply Chain Engineering", aka SCE.
 
-Within SCE (as we called it), there were teams of engineers working on all of:
+Our remit was all things involved in moving physical things in the physical world, as part of ultimately delivering furniture and home goods to people.
+
+At the time, Wayfair had major strategic ambitions in supply chain.
+
+Within SCE, there were teams of engineers working on all of:
 
  - Transportation planning and execution
 
@@ -23,27 +27,99 @@ Within SCE (as we called it), there were teams of engineers working on all of:
 
  - ...and others
 
-Because of the ever-increasing scope of Wayfair's ambitions, my team had an ever-growing mob of stakeholders, each urgently demanding engineering support for the new operations they had been personally charged with spinning up, AS FAST AS POSSIBLE.
+Because of the ever-increasing scope of Wayfair's ambitions, my teams had an ever-growing mob of stakeholders, each urgently demanding engineering support for the new operation that each had been personally charged with spinning up, AS FAST AS POSSIBLE.
 
 Wayfair's greatest strength and greatest weakness was an incredible tolerance for doing things in fast and scrappy ways -- both in operations and in engineering[fn:: Over a beer or seventeen, I could tell you some stories].
 
-Given that overwhelming pressure to build new capabilities as fast as possible, there wasn't a real excitement from stakeholders about dealing with tech debt (of which we had simply incredible amounts, by literally any definition of tech debt -- see strength/weakness).
+Given the overwhelming pressure to build new operational capabilities, there wasn't a real excitement from stakeholders about slowing down to deal with tech debt (of which we had simply incredible amounts, by literally any definition of tech debt -- see strength/weakness).
 
 Then, one day, a senior engineer from the customer-facing "Storefront" teams approached me.
 
-He told me that he was leading a major, across-all-engineering project called "Order Sharding" and needed me to do two things:
+He told me that he had been tasked with leading a major, across-all-engineering project called "Order Sharding" and needed me to do two things:
 
-First, commit real capacity from my teams to adapt to the new sharded order database structure they were putting in place (he gave me a long document filled with technical details on the sharding scheme)
+First, commit real engineering capacity over the next several month to adapt all the SCE systems to work with a new sharded order database structure they were putting in place (he gave me a long document filled with technical details on the sharding scheme)
 
-Second, I needed inform my stakeholders about this major project, and let them know it would have significant impacts on their roadmaps.[fn:: Wait, "roadmaps"? Do you like roadmaps, Dan? At this point in my career I hadn't yet found better means for collaborating with stakeholders. At Ellevation, Nathan Papazian and I managed to move to aligning with stakeholders on *strategies* instead of committing to roadmaps... but that's a subject for another book]
+Second, I needed to inform my stakeholders about this major project, and let them know it would have significant impacts on their roadmaps.[fn:: Wait, "roadmaps"? Do you like roadmaps, Dan? At this point in my career I hadn't yet found a better way to collaborate with stakeholders. At Ellevation, Nathan Papazian and I managed to move to aligning on strategy instead of committing to roadmaps... but that's a subject for another book]
+
+Now, I well understood why the effort to shard the order database had been prioritized.
+
+Wayfair's peak season was the Cyber 5, immediately after Thanksgiving -- and, in the one that had just taken place, the Storefront and SCE systems had... survived... the intense stress, but, just barely.
+
+One of the key interfaces between Storefront (where customers were shopping) and Supply Chain (which dealt with fulfillment), was the moment when a customer committed to an order.
+
+In the Storefront systems, it went from being a "basket", to becoming an actual order, with a relevant row the database tables creatively named ~tblOrder~.
+
+That database functioned as an implicit queue: dozens of different fulfillment operations  were constantly querying that table for various slices of new or recent data.
+
+It was hosted on the biggest, beefiest Clustered SQLServer instance we could get -- named, ironcally "C4" [insert joke about explosions here]
+
+In the most recent peak, C4 kept on nearly falling over.
+
+Which could lead to delays in order fulfillment (breaking the promise of two-day delivery), or could back up into various fun problems for people shopping on the site.
+
+
+# Within the next day, two important things happened.
+
+# That afternoon, in a meeting with the product leadership within supply chain, I attempted to explain to *why* Wayfair eng had committed to this project.
+
+# I explained how we were currently running all orders through a single giant table in a single giant database.
+
+# I explained how the overall "post-order" systems had hit some scary moments in the recent peak season.
+
+# And further that breaking that database up into separate shards would allow for horizontal scaling--.
+
+# I caught myself, and said, "We shouldn't be calling it Order Sharding, we should be calling it Order *Scaling*".
+
+# It's *extremely* useful to push for the discipline of naming projects after the desired *value* or outcome, instead of the details of the implementation. Among other things, that ensures you talk at least once about the outcome the engineers are trying to unlock.
+
+# One of the PM's asked: what are the current limits on scaling?
+
+# And I said "Huh. I don't really know." (see, this is why it's so useful to push for this discipline). We did know that the overall system had gotten sluggish and stuck at a bunch of points in the most recent season -- which could lead to delays in order fulfillment (breaking the promise of two-day delivery), or even causing the overall orders database to slow down, which could back up into problems for people shopping on the site.
+
+Not being able to scale up to more oreders was a real problem.
+
+Then, the next morning, when I had my head briefly clear, and started talking with the most senior engineers on my team, I realized that, although, indeed, this was a real problem, and that, indeed, horizontal scaling by sharding a key data set is a lovely approach in theory, it had one trivial problem in our case:
+
+There was no way on earth we could make it work.
+
+Tom Hare, who maintained the horrifying "shipping loader" downstream of the orders table explained it as "Transportation's job is to semi-randomly *shuffle* orders from all sort of different customers to different shipping companies and warehouses. There is no way to shard that ahead of time -- every single query would have to summarize data across multiple shards, it'll be unbelievably complicated and it won't actually make performance any better."
+
+The Storefront team had done an ambitious sharding of customers. But didn't really understand that Orders were a different beast.
 
 
 
+* Scraps
 
+** It's a real problem -- the previous seasons peak had suffered outages, and it was growing fast
+Bertha, the rational investor would knock something off the stock price based on her rational concerns that we'd piss off a bunch of customers next year. And that could represent (many) millions of dollars in overall market cap.
 
+** I was explaining it to stakeholders (always explain), when I realized, as I spoke, that the name was wrong.
+We had named it after the technical approach, not the underlying business value.
 
+Order Scaling
 
+** I then went on a brief warpath in the CTO staff meeting to rebrand it as Order Scaling.
 
+** Literally the first time I got my head clear to talk about the technical implications, we all realized this was insane
+The were modeling it on having sharded customers, but orders were, by design, completely mixed as they entered SCE.
+
+Dozens of different operations depended on the implicit queue in the database (later things move to explicit queues, but at the time, there was a job that took completed "baskets" from customers and dropped them into the single giant orders table, and then everything sprung into action.
+
+** but, zomg, it was a very very real problem
+
+** Stakeholders weren't asking for "Please don't have the site crash"... because they didn't think they had to. And we didn't have any way to tell them what the current limits were -- it was an incredibly complex web of systems.
+
+** What would you do? Stop and think about it.
+
+** Wayfair had a real problem but didn't know what to do next.
+
+** Then, I was reading Allspaw, was jealous
+
+** Had inspiration
+
+** Told Ben Clark (who managed the senior engineer who was leading Order Sharing), who immediately got it
+
+** He wrangled stakeholders, t
 * Scraps/Notes
 From my notebook <2025-06-01 Sun>
 
