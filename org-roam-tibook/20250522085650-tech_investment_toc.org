@@ -74,6 +74,7 @@ I might jot down some others.
 
 *** What the Tech Investment Cycle Looks and Feels Like
 # Go through an example of a few loops in sequence (meaning, for the same scenario), levering up from on-the-side visibility building to a full-ish investment. [Take the thing I have and break it into even smaller steps, and move some of the potential value things out of it].
+*** [[file:20250605084808-understand_value_in_depth.org][Understand Value In Depth]]
 *** The Central Hack: Build Visibility First
 # Maybe: why visibility not metrics? or "measurement"
 # Throw in some ideas from how to measure anything
