@@ -54,7 +54,7 @@ There was no way we'd be able to get through another peak season without signifi
 
 There was just one tiny problem with the Order Sharding plan.
 
-There was no way on earth we could make it work in SCE (unless we dropped everything and spent the next several years rewriting all of our systems essentialy from scratch).[fn:: For those curious about the technical details, the Storefront team had assumed we could shared by *customer*, because in their world, the vast majority of queries started with one specific customer. However, in the SCE world, customer orders were constantly mixed and remixed across warehouses, shipping legs and final delivery routes. Essentially all our queries needed to look across abitrarys set of customers, completely defeating that simple sharding approach]
+There was no way on earth we could make it work in SCE, unless we dropped everything and spent the next several years rewriting all of our systems essentialy from scratch.[fn:: For those curious about the technical details, the Storefront team had assumed we could shared by *customer*, because in their world, the vast majority of queries started with one specific customer. However, in the SCE world, customer orders were constantly mixed and remixed across warehouses, shipping legs and final delivery routes. Essentially all our queries needed to look across abitrary sets of customers, completely defeating that simple sharding approach]
 
 "Um, let me think about this," I told that senior engineer, who went off to tell some other team about this new exciting mandate.
 
@@ -69,11 +69,11 @@ Wayfair's market cap at the time was [$4 billion dollars] -- but of course the p
 
 Bertha, with her added information from inside the company, would discount that some.
 
-Let's say that Bertha estimates that given the risks of scale, and the lack of any specific current plan, she's going to revise downward her estimate of profits over the next 5 years by a modest 5% (which factors in a slightly lower rate of people recommending Wayfair to friend, etc).
+Let's say that Bertha estimates that given the risks of scale, and the lack of any specific current plan, she's going to revise downward her estimate of profits over the next 5 years by a modest 5% (which represents lost orders but also factors in a lower rate of people recommending Wayfair to friends, etc).
 
 That 5% shift down represents a difference of *$200 million dollars* in company value ($4B * 5%).
 
-If we could come up with a half-decent plan, that a rational investor would think has a 50/50 chance of working, we could increase company value by *$100 million dollars.*
+If we could somehow come up with a half-decent plan, that a rational investor would think has even a 50/50 chance of working, we could increase company value by *$100 million dollars.*
 
 I have not worked on many projects that have a greater return than that.
 
@@ -81,7 +81,7 @@ Again, this isn't some weird fantasy -- this is how actual company value *works*
 
 If we just ignored these problems, it was going to have very real impacts on the business, and those impacts would eventually show up in quarterly filings, and investors would punish the stock.
 
-Working through what Bertha would think allows us to make fine-grained decisions, *today*, that get ahead of those quarterly filings.
+Asking what Bertha would think allows us to make fine-grained decisions, *today*, that gets ahead of those quarterly filings.
 
 ** Wait, Is This Actually a Technical Investment?
 
@@ -89,13 +89,15 @@ I've framed it in a way that makes the business value clear.
 
 But that's not how it presented in the moment.
 
-This *was* something engineering believed was very valuable to the business, but that stakeholders weren't asking for.
+This was very much something engineering believed was very valuable to the business, but that stakeholders weren't asking for.
 
 Why weren't stakeholders "asking for" engineering to address the limits with the orders database?
 
-First off, stakeholders essentially never ask for feature of "The site doesn't explode in fiery wreck", because *they don't think they have to*.
+First off, stakeholders essentially *never* ask for feature of "The site doesn't explode in fiery wreck", because *they don't think they have to*.
 
-Second, the flow of orders sat *between* every domain in supply chain. So any one stakeholder thought it was "someone else's" problem, why would they prioritize work on it?
+(Unless you can show them a very clear picture of where the current limits are, which we could not do)
+
+Second, the flow of orders sat *between* every domain in supply chain. So any one stakeholder thought it was "someone else's" problem, why would they prioritize "their" engineering team working on it?
 
 These are very common features of technical investment opportunities.
 
@@ -111,13 +113,11 @@ In the Storefront systems, it went from being a "basket" (Storefront-speak for i
 
 On a normal day, baskets turned into orders a hundred times per minute or so. During the most intense times during peak that went up to tens of 1000's of times/minute -- vastly greater load.
 
-Now ~tblOrder~, among others things, functioned as an implicit queue: dozens of different fulfillment operations were constantly querying that table for various slices of new or recent data.
+Now ~tblOrder~, among *many* others things, functioned as an implicit queue: dozens of different fulfillment operations were constantly querying that table for various slices of new or recent data.
 
-Of course, some of them further annotated those rows (because at some point in the past that had made sense as an expedient solution), and there was all sort of downstream work that came looping back into that central database in some form, driving up load further.
+Some of them later updated those rows, and there was all sort of downstream work that came looping back into that central database in some form, driving up load further.
 
-The SQLServer experts on the team had optimized a bunch of queries as best they could, but, as is so often the case with the centrally shared DB, it wasn't fully clear where load was coming from, or what to do about it.
-
-Sure, sharing sounds good, but remember there was no good access patterns for it.
+The SQLServer experts on the team had optimized a bunch of queries as best they could, but, as is so often the case with the centrally shared DB, it wasn't fully clear where load was coming from, or what to do about it -- certainly not during the quiet, non-peak days.
 
 What would you do?
 
@@ -131,7 +131,7 @@ In this case, The Art of Capacity Planning, by John Allspaw.
 
 In talking about how they had handled some specific load challenge at Etsy, he mentioned how they were able to determine a certain kind of load limit by focusing larger amounts of load to one of a bank of (stateless) servers, and seeing when it fell over.
 
-I mostly felt jealous -- in supply chain, we had a stateful system, with data flowing through it, not a bank of horizontally scaled stateless front-end servers.
+I felt jealous -- in supply chain, we had a *stateful* system, with data flowing through it, not a bank of horizontally scaled stateless front-end servers.
 
 But, man, how much I wished we could somehow determine our limits *in production*.
 
