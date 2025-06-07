@@ -185,14 +185,14 @@ I don't know if you know this, but CEO's really like impressive-looking graphs. 
 
 In the course of climbing the ladder, there was a constant interplay between building visibility and then improving systems.
 
-That's so central to working effectively with technical investments, we'll spend the entire next chapter on how and why visibility creates value.
+That's so central to working effectively with technical investments, we'll spend the entire next chapter on building visibility.
 
 ** A Framework for Tech Investments
 Having seen those examples, we can sketch in the skeleton for the overall cycle -- which we'll dig into in detail, through the rest of the book [Part I].
 
 Not every single cycle goes precisely through every step in precisely this order -- but it's good to understand this as an overall *arc* you want to go through, *with your team and your stakeholders*.
 
-If you find yousself stuck, you can return to this and see if you've tried to skip past something important. E.g. "Oh, our conversations with the stakeholder feel broken because we have no visibility to offer", or "We need to come up with some incremental options".
+If you find yourself stuck, you can return to this and see if you've tried to skip past something important. E.g. "Oh, our conversations with the stakeholder feel broken because we have no visibility to offer", or "We need to come up with some incremental options".
 
 *** Find things engineers are *worried about*
 *** Map those concerns to *potential value*

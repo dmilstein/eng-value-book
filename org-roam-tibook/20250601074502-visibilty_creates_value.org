@@ -1,139 +1,93 @@
 :PROPERTIES:
 :ID:       D901A4C9-885B-4F42-8B8D-3595616857E8
 :END:
-#+title: Visibility Creates Value
+#+title: The Extraordinary Value of Knowing What To Do Next
 #+filetags: :Chapter:
 * The Extraordinary Value of Knowing What To Do Next
 ** Welcome To Wayfair, Here Is Your Pile of Legacy Code
-Late in 2017, I was starting my second year as an Engineering Director at Wayfair.
 
-# ..the home goods ecommerce leader
+Early in 2018, I working as an Engineering Director at Wayfair, the home goods ecommerce company.
 
-Wayfair's greatest strength *and* greatest weakness was a simply incredible tolerance for doing things in fast and scrappy ways -- both in engineering and in operations[fn:: Over a beer or seventeen, I could tell you some stories].
+I had been promoted partway through 2017 to lead across all of Supply Chain Engineering, a sprawling set of teams that supported transportation, warehousing, ocean shipping, and other operational concerns.
 
-I really enjoyed that challenge -- and I had learned from repeated startup experience, that almost all companies that achieve product/market fit do so on top of a bunch of seriously crazy code[fn:: Edmund is the one who first said this out loud to me, and boy has experience proved him right].
-
-# Fix this, so that it's *after* peak -- early 2018? Or December 2017, after peak season.
-Partway through 2017, I had been promoted to lead "Supply Chain Engineering", a sprawling set of engineering teams that supported transportation, warehousing, ocean shipping, and other operational concerns.
-
-# as part of ultimately delivering furniture and home goods to people.
-
-At every company All Hands in 2017, Niraj Shah, Wayfair's CEO, was just *constantly* talking about Wayfair's ambitions in supply chain.[fn:: I could probably write another book about the um, fun, of being the focus of the CEO's dreams and desires.]
-
-# -- he believed that developing tech-enabled operations was a long-term competitive advantage.
-
-Wayfair was thus hiring just a slew of VP's and charging each with spinning up some new operation absolutely as fast as possible.
-
-It was a rare month that went by that Doran Robinson (who led Operational Product) and I didn't meet some new operations VP who informed us that we needed to immediately provide engineering support for their own Very Special Operation.
-
-# Those VP's promptly turned around and demanded engineering support from Supply Chain Eng.
-
-# Because of the ever-increasing scope of Wayfair's supply chain, my teams had an ever-growing mob of stakeholders.
-
-# And, every single one of those stakeholders was urgently demanding engineering support for whatever new operation they had been personally charged with spinning up, as fast as possible.
-
-Now, this will shock you, but there wasn't a real excitement from those new VP's about slowing down to deal with tech debt -- of which we had simply incredible amounts, by literally any definition of tech debt (see strength/weakness).
-
-This was my life (and I enjoyed it very much, thank you).
-
-Then, one day, a senior engineer from the customer-facing "Storefront" teams approached me.
+Then, one day in January, a senior engineer from the customer-facing "Storefront" team approached me.
 
 He told me that he had been tasked with leading a major, across-all-engineering project called "Order Sharding".
 
-He told me that I was going to have to commit significant engineering capacity over the next several quarters to adapt *all* the SCE systems to work with a new sharded order database structure they were putting in place.
+He informed me that SCE was going to have to commit significant engineering capacity to adapt our systems to a new, sharded order database structure his team was putting in place.
 
-# (he gave me a long document filled with technical details on the sharding scheme)
+He handed me a long document filled with technical details on the sharding scheme.
 
-My heart sank.
+As I looked it over, my heart sank.
 
-I well understood why someone had prioritized an effort to shard the order database.
+Now, I very much knew *why* someone had prioritized an effort to shard the order database.
 
-Wayfair had just gotten through the 2017 peak season (the "Cyber 5", post-Thanksgiving), and our main order database had barely survived.
+Wayfair's main order database had barely survived the 2017 "peak" season -- aka the five days after Thanksgiving, when merchants offer heavy discounts, and customers spend massive amounts online.
 
-There was no way we'd be able to get through another peak season without significant downtime, unless we did *something*.
+There was no way Wayfair's order database would be able to get through another peak unscathed, unless we did *something*.
 
-There was just one tiny problem with the Order Sharding plan.
+There was just one tiny problem with the Order Sharding plan I was looking at.
 
-There was no way on earth we could make it work in SCE, unless we dropped everything and spent the next several years rewriting all of our systems essentialy from scratch.[fn:: For those curious about the technical details, the Storefront team had assumed we could shared by *customer*, because in their world, the vast majority of queries started with one specific customer. However, in the SCE world, customer orders were constantly mixed and remixed across warehouses, shipping legs and final delivery routes. Essentially all our queries needed to look across abitrary sets of customers, completely defeating that simple sharding approach]
+There was no way on earth we could make it work in SCE.
 
-"Um, let me think about this," I told that senior engineer, who went off to tell some other team about this new exciting mandate.
+To try to adapt our systems to work with this sharding scheme, we'd have to drop everything and spend the next several years rewriting all of our systems essentialy from scratch.[fn:: For those curious about the technical details, the Storefront plan assumed we could shard by *customer* -- because in their world, the vast majority of queries started with one specific customer. However, in the SCE world, customer orders were constantly mixed and remixed across warehouses, shipping legs and final delivery routes. Essentially all our queries needed to look across abitrary sets of customers, completely defeating any sort of by-customer sharding approach.]
 
-** What Would Bertha Say?
-Let's pause and ask what our Economically Rational Investor, Bertha, would say about Wayfair's overall company value in this moment.
+"Um, let me think about this," I told that senior engineer. He then went off to tell some other team about his new exciting mandate.
 
-Bertha knows that sometimes, companies find themselves stuck with an architecture that badly impedes their ability to grow. Those companies usually find *some* way to address it, but it can be a very real drag on creating happy, repeat customers.
-
-She would raise her eyebrows when we told her that, at the time, the Wayfair engineering team didn't even have a *plan* for how we could adapt our systems to handle a greater load of orders, without spending multiple years on a hyper-complex rewrite[fn:: Bertha stops listening when you tell her you're solving your problems with a multiyear rewrite].
-
-Wayfair's market cap at the time was [$4 billion dollars] -- but of course the price of a share of stock was determined by investors in the public market... who didn't know much in the way of specifics of our internal technical set up.
-
-Bertha, with her added information from inside the company, would discount that some.
-
-Let's say that Bertha estimates that given the risks of scale, and the lack of any specific current plan, she's going to revise downward her estimate of profits over the next 5 years by a modest 5% (which represents lost orders but also factors in a lower rate of people recommending Wayfair to friends, etc).
-
-That 5% shift down represents a difference of *$200 million dollars* in company value ($4B * 5%).
-
-If we could somehow come up with a half-decent plan, that a rational investor would think has even a 50/50 chance of working, we could increase company value by *$100 million dollars.*
-
-I have not worked on many projects that have a greater return than that.
-
-Again, this isn't some weird fantasy -- this is how actual company value *works*.
-
-If we just ignored these problems, it was going to have very real impacts on the business, and those impacts would eventually show up in quarterly filings, and investors would punish the stock.
-
-Asking what Bertha would think allows us to make fine-grained decisions, *today*, that gets ahead of those quarterly filings.
-
-** Wait, Is This Actually a Technical Investment?
-
-I've framed it in a way that makes the business value clear.
-
-But that's not how it presented in the moment.
-
-This was very much something engineering believed was very valuable to the business, but that stakeholders weren't asking for.
-
-Why weren't stakeholders "asking for" engineering to address the limits with the orders database?
-
-First off, stakeholders essentially *never* ask for feature of "The site doesn't explode in fiery wreck", because *they don't think they have to*.
-
-(Unless you can show them a very clear picture of where the current limits are, which we could not do)
-
-Second, the flow of orders sat *between* every domain in supply chain. So any one stakeholder thought it was "someone else's" problem, why would they prioritize "their" engineering team working on it?
-
-These are very common features of technical investment opportunities.
-
-** Your Mission, Should You Choose To Accept It
-
-In the next section, I'll walk through how we utimately resolved this, but I want to give you a chance to try your hand at it, if you're curious.
-
-Here are some of the details of the technical set up.
+** An Exercise For the Reader
+We'll talk below about what we ended up doing, but as context / so you can play the "What would I do?" game, here are some of the relevant technical details:
 
 One of the key interfaces between Storefront (where customers browsed the site, collected items in their carts and then eventually hit "Buy") and Supply Chain (which dealt with fulfillment), was the moment when a customer *committed* to an order.
 
 In the Storefront systems, it went from being a "basket" (Storefront-speak for items in a cart), to becoming an actual order, with a relevant row in the database table creatively named ~tblOrder~.
 
-On a normal day, baskets turned into orders a hundred times per minute or so. During the most intense times during peak that went up to tens of 1000's of times/minute -- vastly greater load.
+On a normal day, baskets turned into orders a hundred times per minute or so. During the most intense times during peak that went up to 10-20,000 times/minute or more -- 100-200x load.
 
-Now ~tblOrder~, among *many* others things, functioned as an implicit queue: dozens of different fulfillment operations were constantly querying that table for various slices of new or recent data.
+Now ~tblOrder~, among *many other things*, functioned as an implicit queue between domains: dozens of different supply chain and fulfillment operations were just relentlessly querying that table for various slices of new or recent data.
 
 Some of them later updated those rows, and there was all sort of downstream work that came looping back into that central database in some form, driving up load further.
 
-The SQLServer experts on the team had optimized a bunch of queries as best they could, but, as is so often the case with the centrally shared DB, it wasn't fully clear where load was coming from, or what to do about it -- certainly not during the quiet, non-peak days.
+# To say the system exhibited some coupling would be the most astonishing of understatements.
 
-What would you do?
+The SQLServer experts on the team had optimized a bunch of queries as best they could, but, as is so often the case with the shared central DB, it wasn't fully clear where load was coming from, or what to do about it. And on the quiet, non-peak days, it was essentially impossible to predict where bottlenecks would occur *during* peak.
 
-** What We Did
+Oh, and by the way, it was pretty deeply non-trivial to generate and handle synthetic load -- in no small part because many of our systems operated on the real world: issuing directives to associates working in warehouses, reserving space on trucks, scheduling delivery of items. It was unclear how to even think about running synthetic load through those systems, without, again, first rewriting them to a pretty significant degree.
 
-To deal with my growing panic, I did what I often do to soothe myself.
+Given the above, what would you do?
+
+What initial increments might you map out?
+
+How might you frame something that you could sell to stakeholders?
+
+** Building Visibility
+
+After that senior engineer dropped the bomb of Order Sharding in my lap and left, I first spent some quality time panicking.
+
+Then, I did what I often do to soothe myself.
 
 I read a book.
 
-In this case, The Art of Capacity Planning, by John Allspaw.
+In this case, I (re-)read The Art of Capacity Planning, by John Allspaw.
 
-In talking about how they had handled some specific load challenge at Etsy, he mentioned how they were able to determine a certain kind of load limit by focusing larger amounts of load to one of a bank of (stateless) servers, and seeing when it fell over.
+In talking about how they had handled load challenges at Etsy, he mentioned that they were able to determine a certain kind of limit by focusing larger and larger amounts of production load to one of a bank of (stateless) servers, and seeing when it fell over.
 
-I felt jealous -- in supply chain, we had a *stateful* system, with data flowing through it, not a bank of horizontally scaled stateless front-end servers.
+As I read that, I was super jealous -- in supply chain, we had a *stateful* system, with data flowing through it, not a bank of horizontally scaled stateless front-end servers.
 
-But, man, how much I wished we could somehow determine our limits *in production*.
+But, man oh man, how much I wished we could somehow determine our limits *in production*.
+
+Then, as I was biking home from work, I had an idea.
+
+The next day, I grabbed Ben Clark, who was Wayfair's Chief Architect at the time. I excitedly shared the idea: what if we thought of the order flow as a *hose*, going from Storefront to Supply Chain?
+
+Maybe we could find a way to "pinch" the hose off for a few hours, to temporarily prevent any of the orders from flowing through. Then, once we had built up enough load, we could release it all at once, and all the downstream systems would get a chance to determine their load limits.
+
+We could then prioritize work to address actual problems in actual production, and verify that our production DB could handle actual laod.
+
+Ben got it immediately.
+
+And so the "Pinch Tests" were born.
+
+
 
 
 
@@ -158,7 +112,59 @@ But, man, how much I wished we could somehow determine our limits *in production
 
 
 * Scraps
+** What Would Bertha Say?
 
+What would our Economically Rational Investor, Bertha, say about Wayfair's overall company value in this moment?
+
+Well, Bertha, being rational, knows that sometimes, companies find themselves stuck with a technical architecture that impedes their ability to grow.
+
+Such companies usually find *some* way to address such limitations, but until they do, the misaligned architecture can be a drag on creating happy, repeat customers, and thus on incresaing profits.
+
+As she went to come up with a specific estimate, Bertha would been pretty unhappy to hear that the Wayfair engineering team didn't even have a *plan* for how we could improve our systems... short of spending multiple years on a giant rewrite[fn:: Just FYI, Bertha marks her future estimate of your profits down a *lot* if you tell her you're starting a multiyear rewrite].
+
+Given that, we could say that simply *coming up* with workable, potentially viable plan, would increase Bertha's estimate of the company's future profits, and therefore, would increase the company value.
+
+Going from "we have no idea how to do this", to "we have a way that might work", directly creates value.
+
+In fact, in this case, we can bring that to life, with some numbers.
+
+Wayfair's market cap at the time was [$4 billion dollars]. However, the price the of stock was determined by investors in the public market... who didn't know much in the way of specifics of our internal technical set up.
+
+Bertha, with her added information from inside the company, would discount that some.
+
+Let's say that Bertha estimates that given the evidence of scalability challenges, and the lack of any plan, she's going to revise her estimate of profits over the next 5 years *down* by 5% (which represents both lost orders and also factors in a lower rate of people recommending Wayfair to friends, becoming repeat customers, etc).
+
+That 5% shift down represents a difference of *$200 million dollars* in company value ($4B * 5%).
+
+If we could somehow come up with a half-decent plan, that a rational investor would think has even a 50/50 chance of working, we could increase company value by *$100 million dollars.*
+
+I have not worked on many projects that have a greater return than that.
+
+Again, this isn't some weird fantasy -- this is how actual company value *works*.
+
+If we just ignored these growing scalability problems, it was going to have very real impacts on the business, and those impacts would eventually show up in quarterly filings, and investors would punish the stock.
+
+Asking what Bertha would think allows us to make fine-grained decisions, *today*, that gets ahead of those quarterly filings.
+
+** Why Did Stakeholders Not Know and Care?
+
+I've framed it in a way that makes the business value clear.
+
+But that's not how it presented in the moment.
+
+Engineering knew we were sitting on a ticking time bomb, but that stakeholders weren't asking for us to dig in and fix it.
+
+Why not?
+
+First off, stakeholders essentially *never* ask for feature of "The site doesn't explode in fiery wreck", because *they don't think they have to*.
+
+Unless you can show them a very clear picture of where the current limits are, they are reluctant to divert attention.
+
+Second, the flow of orders sat *between* every domain in supply chain. So any one stakeholder thought it was "someone else's" problem, why would they prioritize "their" engineering team working on it?
+
+These are very common features of technical investment opportunities.
+
+* Outline
 ** It's a real problem -- the previous seasons peak had suffered outages, and it was growing fast
 Bertha, the rational investor would knock something off the stock price based on her rational concerns that we'd piss off a bunch of customers next year. And that could represent (many) millions of dollars in overall market cap.
 
@@ -189,8 +195,7 @@ Dozens of different operations depended on the implicit queue in the database (l
 ** Told Ben Clark (who managed the senior engineer who was leading Order Sharing), who immediately got it
 
 ** He wrangled stakeholders, t
-* Scraps/Notes
-From my notebook <2025-06-01 Sun>
+* From my notebook <2025-06-01 Sun>
 
 Call out that Revenue != Value -- mabe start with this, and name "value" as "what is your company worth". What is it's stock price? What would an investor value it at?
 
