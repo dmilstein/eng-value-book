@@ -26,6 +26,11 @@ OUTPUT_FILE="$DIR/$BASENAME.md"
 emacs --batch \
       --eval "(require 'ox-md)" \
       --visit="$INPUT_FILE" \
+      --eval "(progn
+                (goto-char (point-min))
+                (when (re-search-forward \"^\\* \" nil t)
+                  (beginning-of-line)
+                  (org-narrow-to-subtree)))" \
       --funcall org-md-export-to-markdown \
       --kill
 
