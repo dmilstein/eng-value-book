@@ -6,6 +6,15 @@ A place to take notes / work on a table of contents. Don't forget I sketched in 
 
 I put the formal file for the script I'm working on in a non-org-roam [[file:toc.org::*Table of Contents][toc.org]]
 
+* Ideas for reordering beginning of Part I <2025-06-07 Sat>
+Can I go:
+ - The Tech Investment Cycle (w/ deploy story from Ellevation)
+ - Build Visibility First (allow myself to be a bit tactical, focus more on the lack of shared understanding, inability to show progress, difficulty for the engineering leader to make decisions)
+ - Understand Value in Depth
+ - Catalog of Forms of Value/Visibility
+ - *Then* The Extraordinary Value of Knowing What To Do Next
+   (And I think, do it via something biz-centric first, then tell the story of Pinch Tests. But also, by that point there might be room to hear a full story)
+
 * Notes on what robfitz says in [[id:27BF5BDA-3A83-49FA-A73F-9BA26EF096B9][Write Useful Books]]
 
 Develop a skeleton/outline focused on *learning outcomes*. If a section has multiple such, map out sub sections.
