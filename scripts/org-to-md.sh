@@ -23,6 +23,7 @@ emacs --batch \
       --visit="$INPUT_FILE" \
       --eval "(progn
                 (setq org-export-with-toc nil)
+                (setq org-export-with-broken-links 'mark)
                 (goto-char (point-min))
                 (when (re-search-forward \"^\\* \" nil t)
                   (beginning-of-line)
