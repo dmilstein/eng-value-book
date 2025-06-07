@@ -23,7 +23,9 @@ build/%.md: org-roam-tibook/%.org build
 
 # First stage: generate chapters list and markdown dependencies
 build/book.deps: build/chapters.txt
-	@sed 's/\.org$$/.md/' $< | sed 's|^|build/|' > $@
+	@echo "CHAPTER_MDS = \\" > $@
+	@sed 's/\.org$$/.md/' $< | sed 's|^|build/|' | sed 's/$$/ \\/' >> $@
+	@echo "" >> $@
 
 # Second stage: include the dependencies and build the book
 -include build/book.deps
