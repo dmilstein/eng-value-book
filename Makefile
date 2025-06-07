@@ -21,14 +21,17 @@ chapters: build/chapters.txt
 build/%.md: org-roam-tibook/%.org build
 	./scripts/org-to-md.sh $< > $@
 
-# Build the complete book by concatenating all chapters in order
-build/book.md: build/chapters.txt
+# First stage: generate chapters list and markdown dependencies
+build/book.deps: build/chapters.txt
+	@sed 's/\.org$$/.md/' $< | sed 's|^|build/|' > $@
+
+# Second stage: include the dependencies and build the book
+-include build/book.deps
+build/book.md: build/chapters.txt $(shell if [ -f build/book.deps ]; then cat build/book.deps; fi)
 	@echo "Building complete book..."
-	@> $@  # Clear the output file
+	@> $@
 	@while IFS= read -r chapter; do \
-		echo "Adding chapter: $$chapter" >&2; \
 		chapter_md="build/$$(basename "$$chapter" .org).md"; \
-		$(MAKE) "$$chapter_md"; \
 		cat "$$chapter_md" >> $@; \
 		echo "" >> $@; \
 	done < $<
