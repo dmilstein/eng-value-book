@@ -19,7 +19,7 @@ chapters: build/chapters.txt
 # Pattern target to build markdown for a single chapter
 # Usage: make build/chapter-name.md (where chapter-name.org exists in org-roam-tibook/)
 build/%.md: org-roam-tibook/%.org build
-	./scripts/org-to-md.sh $< $@
+	./scripts/org-to-md.sh $< > $@
 
 # Clean build artifacts
 clean:
