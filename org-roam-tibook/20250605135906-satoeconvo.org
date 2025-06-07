@@ -13,3 +13,39 @@ And boiling down what I'm challenging the EM to do to be some form of: get into 
 Add: What If My Company Has Recently Fired All the PM's?
 
 And just don't forget, most people will be doing this against a backdrop of utter chaos -- not clear understanding, by *anyone* of what the major challenges facing the business are.
+* Follow Up Email <2025-06-07 Sat>
+S-
+
+Welp, that was super fun.
+
+I'm sorry-not-sorry for talking 1,000 words a minute and trying to cram 30 years of eng and product experience into one lunch!
+
+So.
+
+Based on what we talked about, here's the pitch I'd make you, on how to spend your next week or three:
+
+First off, don't think about "tech investments" as a separate thing right now.
+
+Based on what we talked about, I think you should briefly put on your product hat and just focus on creating clarity for yourself, your team and your stakeholders, about the next key milestones you're going to go after and why.
+
+(Those will naturally involve some digging into the Eligibility morass, but that's not a separate tech investment, that's part of doing the TPA migration).
+
+Second, I would nudge you to not... quite... think about it as:
+
+"What I should be doing is thinking about the long term strategy of my team and how every investment links to some business goal, clearly articulating the hypothesis I'm making and when we would bail and pivot."
+
+Honestly, unless you badly misunderstand your company context (which I would be shocked by, you're kind of great at that stuff), you've already done the core of that, and just need to spend a (pretty modest) amount of time, like, writing it down, in a few coherent sentences that other people can understand:
+
+"Our biggest priority is managing a safe TPA migration, our second biggest priority is building an understanding of what is causing member friction and therefore customer unhappiness and churn."
+
+What I think you *should* spend time on is developing really good *incremental milestones* for those (esp the TPA migration). That's a/the key intermediate step between strategy and the day-to-day work of a team.
+
+We did a ton of work on this at Ellevation, I'm gonna attach the doc I wrote up about how to think about Milestone Design, feel free to ask questions / schedule a lunch or zoom to think about how to apply it to your context.
+
+You can then use those milestones (both the act of designing them, and also the managing to them and changing them over time), as a core part of both:
+
+ - Building rapport with Stephanie, around shared decision-making and progress
+
+ - Setting good challenges for your team (e.g. maybe an early milestone you're working with your engineers on is "Can review options and increments for adapting the Eligibility Code to allow us to safely migrate providers" or some such)
+
+D

@@ -71,7 +71,8 @@ Or Bethesda, or Beatrix, or Snowflake
 * [[id:BB09F432-DEEB-4129-8F88-D23C86E8CEBB][Build Viz First]]                      :gtasks:curweek:
 ** DONE Jam in some of my ideas from my notes, break out todos :pom:
 CLOSED: [2025-06-07 Sat 09:35]
-** TODO Jam out a terrible intro. Like, terrible  :pom:
+** DONE Jam out a terrible intro. Like, terrible  :pom:
+CLOSED: [2025-06-07 Sat 11:10]
 * [[id:93FF0A9B-F54E-49D5-8154-640BBAE08D4D][Beta Readers]]                                    :gtasks:curweek:
 ** DONE Get the markdown formatting info on my laptop
 CLOSED: [2025-06-07 Sat 08:01]
@@ -140,7 +141,8 @@ CLOSED: [2025-06-04 Wed 12:34]
 Can I just export my list of contacts
 ** DONE Write up notes from Satoe convo           :curweek:pom:
 CLOSED: [2025-06-05 Thu 14:09]
-** TODO Satoe - milestones, not tech investment.  :curweek:
+** DONE Satoe - milestones, not tech investment.  :curweek:pom:
+CLOSED: [2025-06-07 Sat 11:52]
  - Stakeholder (Stephanie) - meet regularly, want to offer her meaningful decisions
  - Team/Self - dig into Eligibility Engine, add tests, determine boundaries, map the code
  - You shouldn't be making time for "strategy", we've done that. You should be making time for milestones
