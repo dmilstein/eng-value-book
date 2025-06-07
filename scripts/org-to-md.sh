@@ -27,6 +27,7 @@ emacs --batch \
       --eval "(require 'ox-md)" \
       --visit="$INPUT_FILE" \
       --eval "(progn
+                (setq org-export-with-toc nil)
                 (goto-char (point-min))
                 (when (re-search-forward \"^\\* \" nil t)
                   (beginning-of-line)
