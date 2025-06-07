@@ -27,6 +27,9 @@ while IFS= read -r filename; do
         continue
     fi
     
+    # Log which file we're processing
+    echo "Converting: $filename" >&2
+    
     # Convert to markdown and output to stdout
     "$ORG_TO_MD_SCRIPT" "$filename"
     
