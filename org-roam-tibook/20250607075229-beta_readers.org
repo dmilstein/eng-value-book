@@ -1,0 +1,10 @@
+:PROPERTIES:
+:ID:       93FF0A9B-F54E-49D5-8154-640BBAE08D4D
+:END:
+#+title: Beta Readers
+* Help This Book notes
+[[https://useful-books.helpscoutdocs.com/article/22-formatting-your-markdown-project-for-import][Markdown Import]]
+
+Chapter titles must use the Heading Level 1 style
+
+org-md-export-to-markdown
