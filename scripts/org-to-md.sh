@@ -17,10 +17,12 @@ if [ ! -f "$INPUT_FILE" ]; then
     exit 1
 fi
 
+# Get the directory where this script is located
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
 # Run Emacs in batch mode to export org to markdown and output to stdout
 emacs --batch \
-      --eval "(require 'org)" \
-      --eval "(require 'ox-gfm nil nil)" \
+      --load "$SCRIPT_DIR/emacs-batch-init.el" \
       --visit="$INPUT_FILE" \
       --eval "(progn
                 (setq org-export-with-toc nil)
