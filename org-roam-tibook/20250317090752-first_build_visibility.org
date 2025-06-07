@@ -1,7 +1,0 @@
-:PROPERTIES:
-:ID:       6479FAAA-BBF8-4738-8E75-257687CDFE9A
-:END:
-#+title: First, Build Visibility
-#+filetags: :BlogPost:
-
-A [[id:ED09E2FA-B0FD-4308-878C-2267CF23FFDC][Blog Post]] as part of a series on [[id:B92E7DEA-CF76-478A-B825-E5A5D3657998][Tech Debt, Tech Investments & Tech Stewardship]]
