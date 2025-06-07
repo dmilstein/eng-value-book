@@ -19,7 +19,8 @@ fi
 
 # Run Emacs in batch mode to export org to markdown and output to stdout
 emacs --batch \
-      --eval "(require 'ox-md)" \
+      --eval "(require 'org)" \
+      --eval "(require 'ox-gfm nil nil)" \
       --visit="$INPUT_FILE" \
       --eval "(progn
                 (setq org-export-with-toc nil)
@@ -28,5 +29,5 @@ emacs --batch \
                 (when (re-search-forward \"^\\* \" nil t)
                   (beginning-of-line)
                   (org-narrow-to-subtree))
-                (princ (org-export-as 'md)))" \
+                (princ (org-export-as 'gfm)))" \
       --kill
