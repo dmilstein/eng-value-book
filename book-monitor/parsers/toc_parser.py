@@ -111,17 +111,17 @@ class TocParser:
             try:
                 with open(file_path, 'r', encoding='utf-8') as file:
                     content = file.read()
-                    
+
                     # Look for #+ID: guid or :ID: guid patterns
                     id_patterns = [
                         rf'^#\+ID:\s*{re.escape(guid)}\s*$',
                         rf'^\s*:ID:\s*{re.escape(guid)}\s*$'
                     ]
-                    
+
                     for pattern in id_patterns:
                         if re.search(pattern, content, re.MULTILINE | re.IGNORECASE):
                             return os.path.basename(file_path)
-                            
+
             except (IOError, UnicodeDecodeError):
                 # Skip files that can't be read
                 continue

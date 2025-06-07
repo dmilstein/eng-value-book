@@ -24,7 +24,8 @@ Then talk about this as the fundamental hack for almost all tech investments -- 
 ** TODO Ping Winston -- connect + learn how he build a personal platform
 Esp how he uses LI
 ** TODO Make up an email address for this work, share widely
-** TODO Spike on git commit hook to auto fill the org-roam title into the commit message
+** DONE Spike on git commit hook to auto fill the org-roam title into the commit message
+CLOSED: [2025-06-06 Fri 08:43]
 ** TODO Why is visual-line-mode not working in my agenda buffers??
 ** DONE Create new How Value Is Created chapter   :pom:curweek:
 CLOSED: [2025-06-05 Thu 08:52]
@@ -32,13 +33,15 @@ Move existing stuff in Viz Creates Value there
 ** DONE Spike on: mac prev/next tab keys for tab navigation
 CLOSED: [2025-06-05 Thu 14:14]
 What I use for Chrome and lots of other things
-** TODO Make word count script handle org links in toc.org
+** DONE Make word count script handle org links in toc.org
+CLOSED: [2025-06-05 Thu 16:10]
 And just make toc.org a full-fledged org node, while I'm at it.
 ** TODO For comments in org files -- add a minor mode or toggle to just make them invisible
 I think the link thing is likely too complicated to start with.
 ** TODO Clean up windowing-config.el and uncomment them import of it
 ** TODO Make the word count tool handle chapters with no sections
 ** TODO Add chapter on What If My Company Fired All The PM'S?
+** TODO For intro, add flourishes of the chaos, multiple stakeholders, etc
 * Future Books
 ** TODO Collect ideas for book 2 about inteviewing + hiring
 "That Was Fun!" - How to interview so that great people can't wait to say yes
@@ -47,6 +50,8 @@ In [[id:77C90CB8-9DA8-48D7-B534-2C448F34D489][Blog Topics]] I have a reasonable 
 ** TODO Add Book Idea: "How to Increase Your Scope"
 Aka, how to get promoted, aka, how to figure out your bosses' probelms and help solved them
 * [[id:B4926308-39DD-471B-8E71-5FFF7546D6E3][Table of Contents]]                               :gtasks:
+** DONE Write out notes on my ideas for reordering :curweek:pom:
+CLOSED: [2025-06-07 Sat 09:32]
 ** TODO Spike on ToC reorg - part II = stakeholder mgmt
 * [[id:D3158CC2-8A69-4097-B9ED-ED6BD855A7AD][Understand Value In Depth]]                       :gtasks:curweek:
 ** DONE Do a spike on footnotes                   :curweek:pom:
@@ -61,75 +66,23 @@ Each thing builds on the previous, so velocity is about hitting those decision p
 ** DONE Name the economically ration investor Bertha
 CLOSED: [2025-06-04 Wed 13:01]
 Or Bethesda, or Beatrix, or Snowflake
-* [[id:D901A4C9-885B-4F42-8B8D-3595616857E8][Viz Creates Value ]]                              :gtasks:curweek:
-** TODO Write the Pinch Test story                :pom:
-* [[id:E7DB3CD4-9B7B-425B-BF07-E2607DDD6670][Value/Viz Catalog]]                               :gtasks:
-** TODO Dump in my outline
-* [[id:49435FCD-0590-44DE-8FC7-585E7BCC8BB2][Tooling]]                                         :gtasks:
-** DONE Write python to render outline w/ wordcounts :curweek:
-CLOSED: [2025-06-04 Wed 08:03]
-Strip comments, etc
-
-And also on something to watch the directory for changes, re-run that and auto-update a webpage.
-
-I've got failing tests in Step 6, go back to those.
-** DONE Spike on: how to do footnotes in org      :curweek:pom:
-CLOSED: [2025-06-04 Wed 15:10]
-* [[id:49E66E86-CE83-447E-87C2-3BFF3D8FE42E][Teach/Coach]]                                     :gtasks:
-** DONE Write template w/ offer to teach Part II
-CLOSED: [2025-05-27 Tue 08:21]
-** DONE Refine/sort list of people I could reach out to
-CLOSED: [2025-05-27 Tue 08:26]
-** DONE Draft email to Bennett (re Dani)
-CLOSED: [2025-05-30 Fri 08:31]
-** DONE Reach out to 1 person for [[id:49E66E86-CE83-447E-87C2-3BFF3D8FE42E][Teaching/Helping]]
-CLOSED: [2025-05-30 Fri 12:32]
-
-** TODO Draft note to TD looking for coaching/helping targets
-** TODO Write template asking for connections to coach
-** DONE Ping Dani (using number from Craig)       :curweek:pom:
-CLOSED: [2025-06-04 Wed 12:34]
-** TODO Do a timeboxed skim through LinkedIn contacts for Part 2 coaching
-Can I just export my list of contacts
-** DONE Write up notes from Satoe convo           :curweek:pom:
-CLOSED: [2025-06-05 Thu 14:09]
-* [[id:17305FA7-A43F-40C9-9309-0EF3577C70D0][Author Platform]]                                 :gtasks:
-** DONE Bang out an idea for using LinkedIn       :curweek:pom:
-CLOSED: [2025-06-04 Wed 08:09]
-For seeding my initial substack
-** DONE Write some form of README/About           :curweek:pom:
-CLOSED: [2025-06-04 Wed 08:22]
-which says "This is a place that I'll share ideas I'm working out for an upcoming book" (so I won't feel like I've made some bad promise and have internal pressure)
-** DONE Sketch in initial list of recommendations :curweek:pom:
-CLOSED: [2025-06-04 Wed 08:39]
-** DONE Map out the dumbest possible posting calendar
-CLOSED: [2025-06-04 Wed 08:09]
-** TODO Draft a test post on my substack
-** DONE Review substack signup, break out tasks   :curweek:
-CLOSED: [2025-06-04 Wed 08:03]
-Can I get my own URL? I do!
-** DONE Review WUB gameplan for finding places to post :curweek:
-CLOSED: [2025-06-04 Wed 08:03]
-** DONE Come up with 10-20 bad titles
-CLOSED: [2025-05-27 Tue 08:32]
-Something that leaves room for other things in the {Eng,Product} x Humans space
-** DONE Pick one title
-CLOSED: [2025-05-29 Thu 09:24]
-** DONE Find a [[id:E5D74838-B4FA-4F5D-8755-2D2966F2B031][Deep Research]] option               :curweek:pom:
-CLOSED: [2025-06-02 Mon 15:24]
-
-** DONE Use Deep Research on Author Platform target sites :curweek:pom:
-CLOSED: [2025-06-02 Mon 15:33]
-Have a conversation about what I want, then ask it to summarize the kinds of places, types of postings, etc.
-
-Could even ask it for habits/cadencs I could use
-** DONE Decide if I want to do that myself or pay someone to do it for me
-CLOSED: [2025-06-04 Wed 07:54]
-** TODO Build some basic habit + tooling around it
-E.g. post 3-5 times/week, set up some org file that has the postings collected, and some script that uploads them for me. So it's just feeding a hopper, nothing I keep on my day-to-day todo list
-** TODO Research tools to auto-post (to LI + Substack)
-So that I can queue things up and have them just go. Don't stay tied.
-** TODO Understand diff between Substack notes and posts
+* T[[id:D901A4C9-885B-4F42-8B8D-3595616857E8][he Value of Knowing What To Do Next]]            :gtasks:
+** TODO Write the Pinch Test story
+* [[id:BB09F432-DEEB-4129-8F88-D23C86E8CEBB][Build Viz First]]                      :gtasks:curweek:
+** DONE Jam in some of my ideas from my notes, break out todos :pom:
+CLOSED: [2025-06-07 Sat 09:35]
+** TODO Jam out a terrible intro. Like, terrible  :pom:
+* [[id:93FF0A9B-F54E-49D5-8154-640BBAE08D4D][Beta Readers]]                                    :gtasks:curweek:
+** DONE Get the markdown formatting info on my laptop
+CLOSED: [2025-06-07 Sat 08:01]
+** DONE Experiment with org-org-export-to-md
+CLOSED: [2025-06-07 Sat 08:18]
+** TODO Write python script to convert toc.org to file list
+Ask aidermacs to factor it out of existing code
+** TODO Makefile: regen chapter file list when toc changes
+** TODO Write script to build full Markdown of book
+By feeding chapter files in order to my org-to-md.sh script, concatenating output
+** TODO Add Makefile target for full Markdown
 * [[id:47FF75F6-17DB-4E36-950D-F7CFAFA950EA][Intro Chapter]]                                   :gtasks:
 ** DONE Finish first draft of Intro chapter
 CLOSED: [2025-05-28 Wed 16:14]
@@ -159,6 +112,75 @@ CLOSED: [2025-05-30 Fri 18:32]
 ** DONE Spike on moving what if/what if earlier?
 CLOSED: [2025-05-30 Fri 18:32]
 Before the story/example
+* [[id:49435FCD-0590-44DE-8FC7-585E7BCC8BB2][Tooling]]                                         :gtasks:
+** DONE Write python to render outline w/ wordcounts :curweek:
+CLOSED: [2025-06-04 Wed 08:03]
+Strip comments, etc
+
+And also on something to watch the directory for changes, re-run that and auto-update a webpage.
+
+I've got failing tests in Step 6, go back to those.
+** DONE Spike on: how to do footnotes in org      :curweek:pom:
+CLOSED: [2025-06-04 Wed 15:10]
+* [[id:49E66E86-CE83-447E-87C2-3BFF3D8FE42E][Teach/Coach]]                                     :gtasks:
+** DONE Write template w/ offer to teach Part II
+CLOSED: [2025-05-27 Tue 08:21]
+** DONE Refine/sort list of people I could reach out to
+CLOSED: [2025-05-27 Tue 08:26]
+** DONE Draft email to Bennett (re Dani)
+CLOSED: [2025-05-30 Fri 08:31]
+** DONE Reach out to 1 person for [[id:49E66E86-CE83-447E-87C2-3BFF3D8FE42E][Teaching/Helping]]
+CLOSED: [2025-05-30 Fri 12:32]
+
+** TODO Draft note to TD looking for coaching/helping targets
+** TODO Write template asking for connections to coach
+** DONE Ping Dani (using number from Craig)       :curweek:pom:
+CLOSED: [2025-06-04 Wed 12:34]
+** TODO Do a timeboxed skim through LinkedIn contacts for Part 2 coaching
+Can I just export my list of contacts
+** DONE Write up notes from Satoe convo           :curweek:pom:
+CLOSED: [2025-06-05 Thu 14:09]
+** TODO Satoe - milestones, not tech investment.  :curweek:
+ - Stakeholder (Stephanie) - meet regularly, want to offer her meaningful decisions
+ - Team/Self - dig into Eligibility Engine, add tests, determine boundaries, map the code
+ - You shouldn't be making time for "strategy", we've done that. You should be making time for milestones
+* [[id:17305FA7-A43F-40C9-9309-0EF3577C70D0][Author Platform]]                                 :gtasks:
+** TODO Draft a test post on my substack
+** DONE Bang out an idea for using LinkedIn       :curweek:pom:
+CLOSED: [2025-06-04 Wed 08:09]
+For seeding my initial substack
+** DONE Write some form of README/About           :curweek:pom:
+CLOSED: [2025-06-04 Wed 08:22]
+which says "This is a place that I'll share ideas I'm working out for an upcoming book" (so I won't feel like I've made some bad promise and have internal pressure)
+** DONE Sketch in initial list of recommendations :curweek:pom:
+CLOSED: [2025-06-04 Wed 08:39]
+** DONE Map out the dumbest possible posting calendar
+CLOSED: [2025-06-04 Wed 08:09]
+** DONE Review substack signup, break out tasks   :curweek:
+CLOSED: [2025-06-04 Wed 08:03]
+Can I get my own URL? I do!
+** DONE Review WUB gameplan for finding places to post :curweek:
+CLOSED: [2025-06-04 Wed 08:03]
+** DONE Come up with 10-20 bad titles
+CLOSED: [2025-05-27 Tue 08:32]
+Something that leaves room for other things in the {Eng,Product} x Humans space
+** DONE Pick one title
+CLOSED: [2025-05-29 Thu 09:24]
+** DONE Find a [[id:E5D74838-B4FA-4F5D-8755-2D2966F2B031][Deep Research]] option               :curweek:pom:
+CLOSED: [2025-06-02 Mon 15:24]
+
+** DONE Use Deep Research on Author Platform target sites :curweek:pom:
+CLOSED: [2025-06-02 Mon 15:33]
+Have a conversation about what I want, then ask it to summarize the kinds of places, types of postings, etc.
+
+Could even ask it for habits/cadencs I could use
+** DONE Decide if I want to do that myself or pay someone to do it for me
+CLOSED: [2025-06-04 Wed 07:54]
+** TODO Build some basic habit + tooling around it
+E.g. post 3-5 times/week, set up some org file that has the postings collected, and some script that uploads them for me. So it's just feeding a hopper, nothing I keep on my day-to-day todo list
+** TODO Research tools to auto-post (to LI + Substack)
+So that I can queue things up and have them just go. Don't stay tied.
+** TODO Understand diff between Substack notes and posts
 * [[id:71B164B6-0AB2-4FDE-B51E-71870F553C67][The TI Cycle]]                                    :gtasks:
 ** DONE Rough draft of the overall cycle
 CLOSED: [2025-06-01 Sun 08:51]
@@ -166,3 +188,5 @@ CLOSED: [2025-06-01 Sun 08:51]
 CLOSED: [2025-06-01 Sun 08:51]
 ** DONE Revise/improve The Ti Cycle               :curweek:
 CLOSED: [2025-06-02 Mon 11:23]
+* [[id:E7DB3CD4-9B7B-425B-BF07-E2607DDD6670][Value/Viz Catalog]]                               :gtasks:
+** TODO Dump in my outline
