@@ -29,14 +29,15 @@ build/book.deps: build/chapters.txt
 
 # Second stage: include the dependencies and build the book
 -include build/book.deps
-build/book.md: build/chapters.txt $(shell if [ -f build/book.deps ]; then cat build/book.deps; fi)
+build/book.md: build/book.deps
 	@echo "Building complete book..."
 	@> $@
 	@while IFS= read -r chapter; do \
 		chapter_md="build/$$(basename "$$chapter" .org).md"; \
+		$(MAKE) "$$chapter_md"; \
 		cat "$$chapter_md" >> $@; \
 		echo "" >> $@; \
-	done < $<
+	done < build/chapters.txt
 
 # Alias for convenience
 book: build/book.md
