@@ -34,7 +34,7 @@ To try to adapt our systems to work with this sharding scheme, we'd have to drop
 
 "Um, let me think about this," I told that senior engineer. He then went off to tell some other team about his new exciting mandate.
 
-** An Exercise For the Reader
+** Some Technical Context
 We'll talk below about what we ended up doing, but as context / so you can play the "What would I do?" game, here are some of the relevant technical details:
 
 One of the key interfaces between Storefront (where customers browsed the site, collected items in their carts and then eventually hit "Buy") and Supply Chain (which dealt with fulfillment), was the moment when a customer *committed* to an order.
@@ -59,7 +59,7 @@ What initial increments might you map out?
 
 How might you frame something that you could sell to stakeholders?
 
-** Building Visibility
+** The Pinch Tests
 
 After that senior engineer dropped the bomb of Order Sharding in my lap and left, I first spent some quality time panicking.
 

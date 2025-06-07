@@ -4,6 +4,23 @@
 #+title: Map Concerns to Value to Visibility
 #+filetags: :Chapter:
 
+* A Catalog of: Concerns -> Value -> Visibility
+** Ship Smaller Changes More Often
+aka, use Accelerate as teaching instrument/bludgeon
+** Enable Upcoming Product Improvements
+** Reduce Steady-State Maintenance Work
+** Reduce Interruptive Maintenance Work
+** Enable Parallel Development Across Multiple Teams
+** Reduce Risk of Losing Data
+** Reduce Frequency of Outages
+** Reduce Duration of Outages
+** Reduce Risk of Security Breaches
+** Ensure Many Customers Can Use System At Once
+Aka, Load & Scale
+** Ensure Big Customers Can Use System In Big Ways
+** Reduce Costs Of Serving Customers (But, See: Drunk, Lamppost)
+
+* Scraps
 Maybe:
 
 "A Catalog of Forms of Value/Visibility"

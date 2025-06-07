@@ -268,6 +268,8 @@ Again, I'm not going to lie. There are some engineers who truly don't care about
 
 Maybe don't hire those engineers? That's the subject of another book.
 
+** What If I Have No Product Team And All Is Madness?
+
 * Outline from ToC
 ** Stakeholders Scream About Features, the Team Screams About Tech Debt: The Joy of Engineering Leadership
 # Statement of empathy, touching on a bunch of the human experience + potential failure modes.

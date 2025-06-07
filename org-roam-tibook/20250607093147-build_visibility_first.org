@@ -19,7 +19,7 @@ We'll talk at real length in Part II about how to gradually build sufficient tru
 
 But first we'll dig in on the ideas of both visibility and value.
 
-Why is building visibility first such a powerful technique? Let us count the ways.[fn:: For you Product Development Flow geeks out there, I feel like I'm Don Reinertsen writing about Small Batches. "But wait, there's more!"]
+Why is building visibility *first* such a powerful technique? Let us count the ways.[fn:: For you Product Development Flow geeks out there, I feel like I'm Don Reinertsen writing about Small Batches. "But wait, there's more!"]
 
 ** Visibility Brings Your Stakeholders Into Your World
 
@@ -27,7 +27,7 @@ By creating visibility, you're *showing* your stakeholders the thing the enginee
 
 That's a far better approach then asking them to *trust* you.
 
-In the deployment story above, the simple spreadsheet that Alla set up converted the constant, easily-ignored background noise of engineer complaints into a clear, shared understanding of painfully unreliable and slow deploys.
+In the deployment story above, the simple spreadsheet that Alla set up converted the constant background noise of engineer complaints into a clear, shared understanding of painfully unreliable and slow deploys.
 
 Before she set that spreadsheet up, it wasn't that the product team "didn't care" about the pains of deploy.
 
@@ -49,7 +49,7 @@ But sometimes building visibility is itself a significant undertaking.
 
 However, whenever that's the case... the actual technical work itself is an *even bigger undertaking*.
 
-As an example: during (and after) my time at Wayfair, the Supply Chain teams went through a massive, multi-year effort to decouple key systems from the inner guts of the central orders database.
+As an example: during (and after) my time at Wayfair, the Supply Chain teams went through a massive, multi-year effort to decouple key logistics systems from the inner guts of the central orders database.
 
 One of the absolutely key steps in that massive initiative was to build visibility into the nature and limits of the coupling, before the work started to fully unwind it.
 
@@ -65,38 +65,33 @@ You can then use the results of the each step to *both* decide what to do next *
 
 That's how the deploy spreadsheet -> deploy stage timing -> deploy dashboard work went for Ellevation -- each step both justified more investment *and* pointed at specific opportunities.
 
-Note: your engineers will often push back on this kind of incremental approach -- e.g. they'll "know" that they need to build a massive distributed tracing and profiling system in order to deal with the complaints about sluggish site performance from customers.
+Note: your engineers will sometimes push back on this kind of incremental approach -- e.g. you'll get a flurry of customer complaints about site performance, and some senior engineer will inform you that they have simply no choice but to build a massive distributed tracing and profiling system .[fn:: Or, sigh, they'll tell you they've already "built most of it" and just have a few trivial steps left to actually hook it up to the production systems.]
 
-This can be particularly tricky if it's one of the most senior engineers saying this -- especially if it's someone more technically experienced than you yourself are (or, who *perceives* themselves as such, sigh).
+This can be particularly tricky if it's one of the most senior engineers saying this.
 
 This is one of the (um, many) places you're going to earn your salary by gently redirecting such engineers.
 
 FWIW, I don't recommend saying to such engineers "That's a totally insane idea, we're not doing that."[fn:: You totally *can* say this to your engineer manager friends later, while venting over drinks.]
 
-Instead you can say "Wow, that sounds like it could be super useful. How about if we start by just getting some overall response times metrics, in the dumbest, simplest way. Once we've got those, how about if you and I look at those together, and we can figure out if now is a good time to start building more full instrumentation?"
+Instead you say "Wow, that sounds like it could be super useful. How about if we start by just getting some overall response times metrics, in the dumbest, simplest way. Once we've got those, how about if you and I look at those together, and we can figure out if now is a good time to start building more full instrumentation?"
 
 The combo of naming a small initial increment with a later shared decision point... is also what you're going to be doing with stakeholders!
 
 It's a very powerful approach.
 
-I love the frame of "the dumbest, simplest".
+Also, I love the frame of "the dumbest, simplest".
 
-I say those words kind of all the time, and generally find it very liberating to all involved.
+I say those exact words kind of all the time, and generally find that to be liberating to all involved.
 
-(Also, note, you don't *ultimately* want to measure response time metrics. The ideal is to instead create a meaningful proxy for "customer happiness" by way of SLI's -- we'll talk about SLI's in [[id:0A54C1F2-B531-4CF9-9337-8FC336B0AB15][Leverage the Dark Art of "Metrics" In Your Favor]]. But if you're trying to keep moving forward and gently redirect an impassioned senior engineer, some quick response time metrics are a great place to start).
+(Also, I can't let this story pass without mentioning that you don't *ultimately* want to measure response time metrics. Instead you want create a meaningful, explicit proxy for "customer happiness" by way of Service Level Indicators -- we'll talk about SLI's in [[id:0A54C1F2-B531-4CF9-9337-8FC336B0AB15][Leverage the Dark Art of "Metrics" In Your Favor]]. That said, if you're trying to keep moving forward and gently redirect an impassioned senior engineer, some quick response time metrics are a great place to start).
 
 ** Visibility Allows You To Choose Your Battles
 
 ** Visibility Prevents Meaningless Waste Work
 
-** Visibility Enables Incremental Progress
+** Visibility Enables Incremental Progress & Offramps
 
 ** Visibility Creates Opportunities To Celebrate
-
-** Visibility Lets You Decide When To Stop
-
-
-
 
 * Scraps/Notes
 ** Notes
