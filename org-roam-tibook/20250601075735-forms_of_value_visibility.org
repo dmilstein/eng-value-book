@@ -6,7 +6,7 @@
 #+SELECT_TAGS
 #+OPTIONS: tags:nil
 
-* A Catalog of: Concerns -> Value -> Visibility   :export:
+* A Catalog of Concerns -> Value -> Visibility    :export:
 ** Ship Smaller Changes More Often
 aka, use Accelerate as teaching instrument/bludgeon
 ** Enable Upcoming Product Improvements
