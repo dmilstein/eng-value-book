@@ -31,6 +31,9 @@ CLOSED: [2025-06-08 Sun 08:22]
 ** TODO For my teminal UI word count thing, add some basic horizontal bars
 ** TODO Talk about "build visibility" vs "add metrics"
 ** TODO Create a new chapter template or abbrive? Ugh.
+** TODO Add subsection on Off Ramps to Develop in Increments
+** TODO For Understand Value, find a place early to focus briefly on profits
+E.g. when talking about revenue as the thing everyone thinks os.
 * Future Books
 ** TODO Collect ideas for book 2 about inteviewing + hiring
 "That Was Fun!" - How to interview so that great people can't wait to say yes
@@ -75,7 +78,14 @@ Or Bethesda, or Beatrix, or Snowflake
 CLOSED: [2025-06-07 Sat 09:35]
 ** DONE Jam out a terrible intro. Like, terrible  :pom:
 CLOSED: [2025-06-07 Sat 11:10]
-** TODO Write bad prose for remaining forms       :pom:
+** DONE Write bad prose for Prevent Waste         :pom:
+CLOSED: [2025-06-08 Sun 09:25]
+** DONE Write bad prose for Incremental Progress  :pom:
+CLOSED: [2025-06-08 Sun 09:35]
+** DONE Write bad prose for Off Ramps             :pom:
+CLOSED: [2025-06-08 Sun 09:58]
+** DONE Write bad prose for Celebrate             :pom:
+CLOSED: [2025-06-08 Sun 09:58]
 * [[id:93FF0A9B-F54E-49D5-8154-640BBAE08D4D][Beta Readers]]                                    :gtasks:
 ** TODO Add --toc to the pandoc, can I get a ToC in helpthisbook?
 ** TODO For that toc, set --toc-depth=2, I think
