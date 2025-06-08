@@ -83,3 +83,76 @@ So that sounds like a bit old no.
 
 ***
 https://www.reddit.com/r/writing/comments/16ba9fl/thoughts_on_medium_vs_substack/
+
+* Wordcounts over time
+One way to slice it is to have something I can point at either a single git diff or a diff representing a span of time, and have it spit out the number of words added.
+
+Edmund has a bunch of that, but since my git repo is a crazy mix of both the book and the notes, *and* I have this habit of throwing notes into the chapter files themselves, it's non-trivial to reconstruct the actual word counts from the git diffs.
+
+Actually, how much value am I getting from having random notes in the chapter files?
+
+What if I were to purge those and commit to getting those out of those files?
+
+Hmm. I am using that kind of a lot, both for notes as I'm getting started and then also for scraps and the like.
+
+The alternative is to operate on, like, full files, use pandoc, which will play nice with how I'm already operating on the files, and then do my own diffs.
+
+I can easily write something which will run in, like, 5-15 seconds. Which I don't want to do on every commit, but could do more rarely.
+
+Hang on. For word counts, what if I did something super simple, like:
+
+ - Work off my generated list of chapter files (which I can update w/ Make)
+
+ - Use sed to grab everything from the first line starting with a '* ' to either the next line starting with '* ', *or* the end of file
+
+ - Then strip out all the org-comment lines, starting with '#'
+
+ - Then word-count all of that? That would be very fast, though it's operating on the files, not on the diff itself. But what if I then toss that into a simple data directory.
+
+** Edmund Basic Wordcount Over Time
+ git diff | wcc_delta gives me word count for my current writing session, and an arbitrary git log over any range with -p gets me the word count for any stretch of commits / time.
+
+It excludes comment lines.
+
+#!/usr/bin/env sh
+# -*- mode: shell-script; -*-
+
+# Take a unified diff (or several of them) on stdin and print the delta in word
+# counts between old and new versions, excluding lines that start with #.
+# Useful, for example, when trying to figure out how many words you've written
+# in a session / across a period of commits.  Note that this isn't perfect--for
+# example, because any +++ and --- context lines will get counted, a change in
+# the number of words in the file name will be counted in the delta.  But it's
+# pretty close.
+
+TDIFF=$(mktemp)
+
+cat > $TDIFF
+
+REMOVED_WC=$(cat $TDIFF | grep '^-' | sed -e 's/^-//' | grep -v '^# ' | wc -w)
+ADDED_WC=$(cat $TDIFF | grep '^+' | sed -e 's/^+//'  | grep -v '^# ' | wc -w)
+DELTA_WC=$((ADDED_WC - REMOVED_WC))
+
+echo $DELTA_WC
+rm -f $TDIFF
+
+** Edmund Goals/Modes w/ Git
+Over the last 2-ish books or so, I've been experimenting with ways to build in little progress meters to my git commit messages, to act as little dopamine hits whenever I check in.
+
+E.g., the earliest attempt was just overriding prepare-commit-msg with a script that counted the number of words in the committed ms and the number of words in the cached diff and presented them as (x words of y) in the commit message.
+
+When I set myself the (insane) goal of trying to draft a novel between Oct 1st and Dec 31st of last year, I added the capability to create a goal.txt that contained the word count I was trying to hit that day, and the commit messages also started to include how many words remained for me to hit the next goal, and it would be super motivating to see it go from 1,000 to 682 etc. etc. to, like, -4 throughout the various commits in a day.
+
+Now I'm revising, instead of trying to produce, so I've commented out the goal stuff and instead hacked together a little awk script that counts lines before and after a comment "# here you are edmund", which I move as I make my way through the ms, and then reports it as percent done on this revision pass.  It's not perfect, because sometimes I end up cutting stuff and moving it around etc., but it gives a reasonable number to try to push up each day, and especially when I'm really wrestling with a section and it takes like a full day or two of work, but then I finally get past it and I see, like 13% become 14%.
+
+My overall takeaway from this is that it has been valuable and motivating to:
+
+- intentionally identify the writing mode I'm in at the moment
+- build stupid, approximate measurement around how that mode is going
+- spit that measurement into my commit messages
+
+Not only does it give me some sense of progress, it forces me to reckon with what I'm doing in the first place.  Oh, and of course it nudges me to commit more often.
+
+Anyway, thought I'd share.
+
+Cheers,
