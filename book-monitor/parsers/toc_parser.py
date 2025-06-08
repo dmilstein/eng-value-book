@@ -133,23 +133,23 @@ class TocParser:
 def main():
     """
     Command line interface for the TOC parser.
-    
+
     Usage: python toc_parser.py <path_to_toc_file>
     """
     if len(sys.argv) != 2:
         print("Usage: python toc_parser.py <path_to_toc_file>", file=sys.stderr)
         sys.exit(1)
-    
+
     toc_file_path = sys.argv[1]
-    
+
     try:
         parser = TocParser(toc_file_path)
         chapters = parser.parse()
-        
+
         # Output just the filenames in order
         for filename, title in chapters:
             print(filename)
-            
+
     except (FileNotFoundError, ParseError) as e:
         print(f"Error: {e}", file=sys.stderr)
         sys.exit(1)

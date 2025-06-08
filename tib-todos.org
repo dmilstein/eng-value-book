@@ -78,12 +78,24 @@ CLOSED: [2025-06-07 Sat 11:10]
 CLOSED: [2025-06-07 Sat 08:01]
 ** DONE Experiment with org-org-export-to-md
 CLOSED: [2025-06-07 Sat 08:18]
-** TODO Write python script to convert toc.org to file list
+** DONE Write python script to convert toc.org to file list
+CLOSED: [2025-06-07 Sat 14:11]
 Ask aidermacs to factor it out of existing code
-** TODO Makefile: regen chapter file list when toc changes
-** TODO Write script to build full Markdown of book
+** DONE Makefile: regen chapter file list when toc changes
+CLOSED: [2025-06-07 Sat 14:15]
+** DONE Write script to build full Markdown of book
+CLOSED: [2025-06-07 Sat 15:06]
 By feeding chapter files in order to my org-to-md.sh script, concatenating output
-** TODO Add Makefile target for full Markdown
+** DONE Add Makefile target for full Markdown
+CLOSED: [2025-06-07 Sat 15:06]
+** DONE Fix footnotes
+CLOSED: [2025-06-07 Sat 15:38]
+
+https://stackoverflow.com/questions/25579868/how-to-add-footnotes-to-github-flavoured-markdown
+
+Try out https://github.com/larstvei/ox-gfm?tab=readme-ov-file
+** TODO Fix Footnotes again
+ox-gfm is just rendering them in HTML, not as actual GFM.
 * [[id:47FF75F6-17DB-4E36-950D-F7CFAFA950EA][Intro Chapter]]                                   :gtasks:
 ** DONE Finish first draft of Intro chapter
 CLOSED: [2025-05-28 Wed 16:14]
