@@ -1,12 +1,12 @@
 :PROPERTIES:
 :ID:       E7DB3CD4-9B7B-425B-BF07-E2607DDD6670
 :END:
-#+title: Map Concerns to Value to Visibility
+#+title: Forms of Value & Visibility
 #+filetags: :Chapter:
 #+SELECT_TAGS
 #+OPTIONS: tags:nil
 
-* A Catalog of Concerns -> Value -> Visibility    :export:
+* Forms of Value & Visibility             :export:
 ** Ship Smaller Changes More Often
 aka, use Accelerate as teaching instrument/bludgeon
 ** Enable Upcoming Product Improvements
