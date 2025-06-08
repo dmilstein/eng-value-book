@@ -40,8 +40,16 @@ while IFS= read -r filename; do
     # Extract first heading and count words
     word_count=$(cat "$org_file" | "$EXTRACT_SCRIPT" | wc -w)
     
+    # Extract the chapter title from the first org heading
+    chapter_title=$(grep -m 1 "^\* " "$org_file" | sed 's/^\* *//' | sed 's/ *:.*$//')
+    
+    # If no chapter title found, use filename
+    if [ -z "$chapter_title" ]; then
+        chapter_title="$filename"
+    fi
+    
     # Output tab-separated line
-    echo -e "$word_count\t$filename"
+    echo -e "$word_count\t$chapter_title"
     
     # Add to total
     total_words=$((total_words + word_count))
