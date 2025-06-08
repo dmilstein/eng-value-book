@@ -71,3 +71,108 @@ CLOSED: [2025-05-30 Fri 18:33]
 CLOSED: [2025-05-26 Mon 13:54]
 ** DONE Email Edmund: what I have/have not taught
 CLOSED: [2025-05-26 Mon 11:08]
+
+* DONE Fix my refile targets to include tib-todos.org
+CLOSED: [2025-05-28 Wed 16:14]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-06-08 Sun 14:32
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: TIB Inbox
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: inbox
+:END:
+
+* DONE Brainstorm: how best to handle 'within chapter' todo :pom:
+CLOSED: [2025-06-02 Mon 08:33]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-06-08 Sun 14:32
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: TIB Inbox
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: inbox
+:END:
+
+* DONE Is it Ladder of Commitment or Ladder of Investment? Ladder of Visibility and Commitment?
+CLOSED: [2025-06-08 Sun 08:23]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-06-08 Sun 14:32
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: TIB Inbox
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: inbox
+:END:
+
+* DONE Spike: write an actual visibility drives value chapter, *before* value deep dive
+CLOSED: [2025-06-05 Thu 14:15]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-06-08 Sun 14:32
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: TIB Inbox
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: inbox
+:END:
+Like, talk about how the core problem is lack of shared understanding. So creating visibility creates value. Use the example of gradually fixing the churn problem that I have sketchedin somehwere.
+
+Then talk about this as the fundamental hack for almost all tech investments -- build visibility first
+
+* DONE Spike on git commit hook to auto fill the org-roam title into the commit message
+CLOSED: [2025-06-06 Fri 08:43]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-06-08 Sun 14:32
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: TIB Inbox
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: inbox
+:END:
+
+* DONE Create new How Value Is Created chapter    :pom:curweek:
+CLOSED: [2025-06-05 Thu 08:52]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-06-08 Sun 14:32
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: TIB Inbox
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: inbox
+:END:
+Move existing stuff in Viz Creates Value there
+
+* DONE Spike on: mac prev/next tab keys for tab navigation
+CLOSED: [2025-06-05 Thu 14:14]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-06-08 Sun 14:32
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: TIB Inbox
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: inbox
+:END:
+What I use for Chrome and lots of other things
+
+* DONE Make word count script handle org links in toc.org
+CLOSED: [2025-06-05 Thu 16:10]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-06-08 Sun 14:32
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: TIB Inbox
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: inbox
+:END:
+And just make toc.org a full-fledged org node, while I'm at it.
+
+* DONE Figure out how pandoc is getting the chapter names?
+CLOSED: [2025-06-08 Sun 08:22]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-06-08 Sun 14:32
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: TIB Inbox
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: inbox
+:END:

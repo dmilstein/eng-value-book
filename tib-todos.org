@@ -3,37 +3,17 @@ Experimenting. Can I have a list of todos, outside of org-roam, but, when I'm in
 Yes, I can, apparently.
 
 * TIB Inbox                                       :inbox:
-** DONE Fix my refile targets to include tib-todos.org
-CLOSED: [2025-05-28 Wed 16:14]
-** DONE Brainstorm: how best to handle 'within chapter' todo :pom:
-CLOSED: [2025-06-02 Mon 08:33]
-** DONE Is it Ladder of Commitment or Ladder of Investment? Ladder of Visibility and Commitment?
-CLOSED: [2025-06-08 Sun 08:23]
-** DONE Spike: write an actual visibility drives value chapter, *before* value deep dive
-CLOSED: [2025-06-05 Thu 14:15]
-Like, talk about how the core problem is lack of shared understanding. So creating visibility creates value. Use the example of gradually fixing the churn problem that I have sketchedin somehwere.
-
-Then talk about this as the fundamental hack for almost all tech investments -- build visibility first
-** DONE Spike on git commit hook to auto fill the org-roam title into the commit message
-CLOSED: [2025-06-06 Fri 08:43]
-** DONE Create new How Value Is Created chapter   :pom:curweek:
-CLOSED: [2025-06-05 Thu 08:52]
-Move existing stuff in Viz Creates Value there
-** DONE Spike on: mac prev/next tab keys for tab navigation
-CLOSED: [2025-06-05 Thu 14:14]
-What I use for Chrome and lots of other things
-** DONE Make word count script handle org links in toc.org
-CLOSED: [2025-06-05 Thu 16:10]
-And just make toc.org a full-fledged org node, while I'm at it.
-** DONE Figure out how pandoc is getting the chapter names?
-CLOSED: [2025-06-08 Sun 08:22]
-** TODO
+** TODO Make my section/chapter word count look for missing Chapter filetags
+Because now my wordcount history stuff is sensitive to those being missing.
 ** TODO For my teminal UI word count thing, add some basic horizontal bars
 ** TODO Talk about "build visibility" vs "add metrics"
 ** TODO Create a new chapter template or abbrive? Ugh.
 ** TODO Add subsection on Off Ramps to Develop in Increments
 ** TODO For Understand Value, find a place early to focus briefly on profits
 E.g. when talking about revenue as the thing everyone thinks os.
+** TODO Profits - go to the owner
+Profits aren't just a number, they *belong to* whoever owns the company. So if you own a slice of the company, you own a slice of future profits.
+** TODO Get footnotes to number by chapter
 * Future Books
 ** TODO Collect ideas for book 2 about inteviewing + hiring
 "That Was Fun!" - How to interview so that great people can't wait to say yes
