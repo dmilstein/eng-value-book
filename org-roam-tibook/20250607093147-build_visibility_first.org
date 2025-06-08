@@ -3,7 +3,9 @@
 :END:
 #+title: Build Visibility First
 #+filetags: :Chapter:
-* Build Visibility First
+#+SELECT_TAGS
+#+OPTIONS: tags:nil
+* Build Visibility First                          :export:
 
 Given that a tech investment is:
 
@@ -13,7 +15,7 @@ Given that a tech investment is:
 
 Aka, create a shared means to *see* the potential value.
 
-Doing so can fundamentally change the conversation with stakeholders -- instead of stakeholders perceiving the engineers as "asking for time" (which they will hear as "time away from creating value"), they will perceive the engineers as showing them something *important*, and inviting them to make a decision.
+Doing so can fundamentally change the conversation with stakeholders -- instead of stakeholders perceiving the engineers as "asking for time" (which they will hear as "time away from creating value"), they can perceive the engineers as showing them something *important*, and inviting them to make a decision.
 
 We'll talk at real length in Part II about how to gradually build sufficient trust with stakeholders to get into a repeated cycle of decision-making.
 
@@ -27,7 +29,7 @@ By creating visibility, you're *showing* your stakeholders the thing the enginee
 
 That's a far better approach then asking them to *trust* you.
 
-In the deployment story above, the simple spreadsheet that Alla set up converted the constant background noise of engineer complaints into a clear, shared understanding of painfully unreliable and slow deploys.
+In the deployment story above, the simple spreadsheet that Alla set up converted the constant background noise of engineer complaints into a clear picture of painfully unreliable and slow deploys.
 
 Before she set that spreadsheet up, it wasn't that the product team "didn't care" about the pains of deploy.
 
@@ -43,57 +45,88 @@ It is *always* cheaper to build some form of visibility than it is to actually d
 
 *Always.*
 
-Sometime it's so cheap that, as above, engineers can get started on the side.
+Sometime it's so cheap that, as above, an engineer can get started on the side.
 
 But sometimes building visibility is itself a significant undertaking.
 
 However, whenever that's the case... the actual technical work itself is an *even bigger undertaking*.
 
-As an example: during (and after) my time at Wayfair, the Supply Chain teams went through a massive, multi-year effort to decouple key logistics systems from the inner guts of the central orders database.
+An example: during (and after) my time at Wayfair, the Supply Chain teams went through a massive, multi-year effort to decouple key logistics systems from the inner guts of the central orders database.
 
-One of the absolutely key steps in that massive initiative was to build visibility into the nature and limits of the coupling, before the work started to fully unwind it.
+One of the absolutely key steps in that massive initiative was to build initial visibility into the nature and limits of the coupling, before the work started to fully unwind it.
 
-That visibility work itself took many many months (I'll tell the ful story in [[id:D901A4C9-885B-4F42-8B8D-3595616857E8][The Extraordinary Value of Knowing What To Do Next]]).
+That visibility work itself took many many months (I'll tell the full story in [[id:D901A4C9-885B-4F42-8B8D-3595616857E8][The Extraordinary Value of Knowing What To Do Next]]).
 
 But building that visibility was a *tiny* fraction of the investment cost of doing the full decoupling.
 
 ** Visibility Can Itself Be Built Incrementally
 
-Because you can use visibility to negotiate further investment, you can (and very often, *should*) build the visibility in small incremental steps.
+Because you can use visibility to negotiate further investment, you can (and most of the time, *should*) build the visibility in small incremental steps.
 
-You can then use the results of the each step to *both* decide what to do next *and* to advocate for that work.
+You can then use the results of each step to *both* decide what to do next *and* to advocate for that work.
 
 That's how the deploy spreadsheet -> deploy stage timing -> deploy dashboard work went for Ellevation -- each step both justified more investment *and* pointed at specific opportunities.
 
-Note: your engineers will sometimes push back on this kind of incremental approach -- e.g. you'll get a flurry of customer complaints about site performance, and some senior engineer will inform you that they have simply no choice but to build a massive distributed tracing and profiling system .[fn:: Or, sigh, they'll tell you they've already "built most of it" and just have a few trivial steps left to actually hook it up to the production systems.]
+Note: your engineers will sometimes push back on this kind of incremental approach.
 
-This can be particularly tricky if it's one of the most senior engineers saying this.
+e.g. you'll get a flurry of customer complaints about site performance, and some senior engineer will inform you that they have simply no choice but to build a distributed tracing and profiling system .[fn:: Or, sigh, they'll tell you they've already "built most of it on a branch" and just have a few "trivial" steps left to actually hook it up to anything in production.]
 
 This is one of the (um, many) places you're going to earn your salary by gently redirecting such engineers.
 
-FWIW, I don't recommend saying to such engineers "That's a totally insane idea, we're not doing that."[fn:: You totally *can* say this to your engineer manager friends later, while venting over drinks.]
+FWIW, I don't recommend saying, "Look, that's insane, we're not doing that."[fn:: You totally *can* say this to your engineer manager friends later, while venting over drinks.]
 
-Instead you say "Wow, that sounds like it could be super useful. How about if we start by just getting some overall response times metrics, in the dumbest, simplest way. Once we've got those, how about if you and I look at those together, and we can figure out if now is a good time to start building more full instrumentation?"
+Instead you can say something like, "Huh, that sounds like it could potentially be super useful. How about if we start by just getting some overall response times metrics, in like, the dumbest, simplest way possible. Once we've got those, you and I can look at those together, and can figure out if now is a good time to start building more full instrumentation?"
 
 The combo of naming a small initial increment with a later shared decision point... is also what you're going to be doing with stakeholders!
 
-It's a very powerful approach.
+Also, I use the frame of "the dumbest, simplest", all the time. There's something about saying those words that I have found to be liberating to all involved.
 
-Also, I love the frame of "the dumbest, simplest".
-
-I say those exact words kind of all the time, and generally find that to be liberating to all involved.
-
-(Also, I can't let this story pass without mentioning that you don't *ultimately* want to measure response time metrics. Instead you want create a meaningful, explicit proxy for "customer happiness" by way of Service Level Indicators -- we'll talk about SLI's in [[id:0A54C1F2-B531-4CF9-9337-8FC336B0AB15][Leverage the Dark Art of "Metrics" In Your Favor]]. That said, if you're trying to keep moving forward and gently redirect an impassioned senior engineer, some quick response time metrics are a great place to start).
-
-** Visibility Allows You To Choose Your Battles
+Also, also, I can't let this story pass without mentioning that, if you're getting complaints about site performance, I highly recommend running the game plan in the first few chapters of O'Reilly's Implementing Service Level Objectives, by XXX and XXX. We'll talk more about our (excellent) experience of doing so at Ellevation, in [[id:0A54C1F2-B531-4CF9-9337-8FC336B0AB15][Leverage the Dark Art of "Metrics" In Your Favor]].
 
 ** Visibility Prevents Meaningless Waste Work
 
-** Visibility Enables Incremental Progress & Offramps
+We've been somewhat focused in the above on the ways that visibility helps you in your conversations with stakeholders.
 
+But visibility is also a huge boon in your conversations with the engineers on your team.
+
+Without some form of visibility into what might be causing your problems, engineers have a habit of guessing incorrectly... and being certain that their guess is right.[fn:: If you've done any performance improvement work, you've likely learned a similar lesson about not trusting engineer intuitions about bottlenecks in code.]
+
+We had a memorable case of this at Wayfair, when we were experiencing a rash of problems with a recently-rolled out change to the software that supported the Final Mile Delivery Agents (the relatively small warehouses that stage goods before delivering them to people's homes).
+
+The problems got bad enough that we started having one of those unpleasant daily triage sessions -- and, as things kept getting worse, more and more senior people kept on gradually joining in.
+
+The engineer who best understood the systems kept on reporting at those triage sessions that he and the team were pushing out fixes...
+
+...but each day, the warehouses kept experiencing chaos.
+
+Finally, we paused all the "fixing" work, and spent two days just figuring out a way to roughly count the number of items that the system was confused about, in each warehouse. We couldn't do that perfectly, but we were able to capture a meaningful initial proxy.
+
+We then threw the overall count across all the warehouses onto a Grafana dashboard.
+
+We made that dashboard a central focus of the daily triage sessions, and we created a playful but very real rule that the engineering team could no longer report on "fixes", unless they could show some actual improvement to operations in reality.
+
+This drove a major change in the engineering work -- instead of desperately trying one speculative change after another, the team gradually shifted into a much more disciplined process of identifying issues, dealing with them, and verifying the improvements. Which (along with a bunch of other work), gradually got the Delivery Agents back into a sane state.
+
+Before we move onto the next benefit, I want to call out a subtle but real benefit to this approach to working with your team.
+
+When there's some pressing problem in the air, that seems to be getting worse all the time, a group of humans will feel an incredible pressure to do *something*.
+
+By pointing them at the challege of building visibility, you can channel that energy into something productive.
+
+That is much easier and much more effective than just telling them to stop doing what they're doing -- even if what they're doing is actively making things worse. (as, frankly, it often is)
+
+In the story above, it was much easier to say to the (understandably) stressed out and worried engineers "Hey, let's find some quick and dirty way to visualize the scope of the problem", than it would have been to say, "You're wasting your time doing meaningless things, please stop immediately."
+
+
+
+
+** Visibility Enables Incremental Progress
+** Visibility Creates Off Ramps
 ** Visibility Creates Opportunities To Celebrate
 
 * Scraps/Notes
+** Visibility Allows You To Choose Your Battles
+
 ** Notes
 Allow myself to be a bit tactical.
 
