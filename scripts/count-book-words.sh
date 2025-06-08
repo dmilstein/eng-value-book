@@ -1,7 +1,17 @@
 #!/bin/bash
 
 # Script to count total words in the book by finding chapter files
-# Usage: ./count-book-words.sh
+# Usage: ./count-book-words.sh [directory]
+# If no directory is provided, defaults to org-roam-tibook
+
+# Set the directory to search (default to org-roam-tibook)
+ORG_DIR="${1:-org-roam-tibook}"
+
+# Check if directory exists
+if [ ! -d "$ORG_DIR" ]; then
+    echo "Error: Directory '$ORG_DIR' does not exist" >&2
+    exit 1
+fi
 
 # Get the directory where this script is located
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
@@ -15,8 +25,8 @@ fi
 
 total_words=0
 
-# Find all org files in org-roam-tibook that contain ':Chapter:'
-for org_file in org-roam-tibook/*.org; do
+# Find all org files in the specified directory that contain ':Chapter:'
+for org_file in "$ORG_DIR"/*.org; do
     # Check if file exists and contains ':Chapter:'
     if [ -f "$org_file" ] && grep -q ':Chapter:' "$org_file"; then
         # Extract first heading and count words
