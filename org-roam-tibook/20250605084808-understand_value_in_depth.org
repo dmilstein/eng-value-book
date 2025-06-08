@@ -10,9 +10,7 @@
 
 We're about to do an unapologetically deep dive into how, exactly, engineers create value for the businesses in which they operate.
 
-I have done my best to make the concepts clear.
-
-But this may feel somewhat far removed from the day-to-day concerns that are filling up your inbox and/or Slack.
+This may feel somewhat far removed from the day-to-day concerns that are filling up your inbox and/or Slack.
 
 Nonetheless, I'll encourage you to take the time to dig in and really wrestle with the below.
 
@@ -24,7 +22,7 @@ That understanding can, over time, earn you a lot of money -- because it will al
 
 It can also make your job profoundly more pleasant. Because you can step out of a lot of frustratingly oppositional patterns, by finding ways to pursue value that work for everyone.
 
-But developing such an understanding takes some real work. [fn:: My friend Edmund says "Tell them sometimes you need the math so fucking clear an afternoon and brew some coffee".] [fn:: if you do find yourself glazing over, feel free to jump ahead to [[id:E7DB3CD4-9B7B-425B-BF07-E2607DDD6670][Forms of Value/Visibility]], and return here later.]
+But developing such an understanding takes some real work. [fn:: My friend Edmund says "Tell them sometimes you need the math so fucking clear an afternoon and brew some coffee".]
 
 ** What Is Value?
 
@@ -46,9 +44,9 @@ Revenue, *by itself*, is not a reliable proxy for overall company value -- reven
 
 So, what is "overall company value"? And how might we determine it?
 
-Well, there are two situations where we can easily obtain a valuation for an overall company:
+Interestingly, there are two situations where we can *easily* obtain an estimate of overall company value:
 
- - Every time someone buys or sells a share of stock in a public company
+ - Immediately after someone buys or sells a share of stock in a public company
 
  - Immediately after a funding round at a startup
 
@@ -122,11 +120,9 @@ As step one to sharpening our understanding, let's list several things that are 
 
  - Living up to "commitments" to delivery deadlines
 
-Stakeholders (and other engineering leaders!) will sometimes tell you, extremely confidently, that something on that list *is* a reliable proxy for creating value.
+Stakeholders (and other engineering leaders!) will sometimes tell you, extremely confidently, that something on that list *is* all you need to worry about.
 
-They won't use those words[fn:: unless they happen to be economic model-obsessed geeks].
-
-Instead they'll say: *"Stop asking so many questions and just do your job".*
+They might say: *"Stop asking so many questions and just do your job".*
 
 Implicit in this exhortation is a belief that "engineering's job" is just one of those activities.
 
@@ -138,7 +134,7 @@ Engineering's *job* is to create value for the business. Even if the people who 
 
 Each of those activities is *potentially valuable* for a business... but, unfortunately, each of them is also *potentially damaging to value*:
 
-Let's bring that to life.
+Let's bring that to life with some examples.
 
 Below are situations in which each of the above *is* valuable... and also situations where each of the above is *totally not* valuable:
 
@@ -158,9 +154,9 @@ Below are situations in which each of the above *is* valuable... and also situat
 
  - *Writing "high-quality" or "defect-free" code*
 
-   Super valuable if what the code does is genuinely important to customers, AND bugs in the code wil cause those customers major problems, AND, during its lifecycle, the code is going to live for a long time and be changed by many engineers.
+   Super valuable if what the code does is genuinely important to customers, AND bugs in the code will cause those customers major problems, AND, during its lifecycle, the code is going to live for a long time AND be changed by many engineers.
 
-   Super damaging if the code has a high likelihood of being thrown away, and the time to write it "well" delays critical feedback from customers.[fn:: "The absence of bugs is not the presence of value" should be engraved on the wall of every academic institution that launches one of those stupid engineering productivity studies that based it all on defect rates, omg argh]
+   Super damaging if the code has a high likelihood of being thrown away, and the time to write it "well" delays critical feedback from customers.[fn:: "The absence of bugs is not the presence of value" should be engraved on the wall of every academic institution that launches one of those stupid engineering productivity studies that bases it all on defect rates, omg argh don't get me started]
 
  - *Living up to 'commitments' to delivery deadlines*
 
@@ -229,17 +225,17 @@ Something which is *potentially knowable*, but which the person making the estim
 
 The profits a company will generate over the next 5 years can't be known perfectly -- but a smart investor can make an informed guess.
 
-Any investor doing so will estimate that overall profit stream, and thus an overall company value based on *their current knowledge*.
+Any investor doing so will estimate that overall profit stream based on *their current knowledge*.
 
 A company valuation represents a probablistic estimate based on current knowledge.
 
-If the investor then acquire some *new information* that suggests the company will reap greater profits in the future, they will then be willing to *pay more* for a fraction of the company.
+If the investor then acquires some *new information* that suggests the company will reap greater profits in the future, they will then be willing to *pay more* for a fraction of the company.
 
 Acquiring (or generating) that information has *increased the company value*.
 
 Not in some woo-woo theoretical way.
 
-At the heart of all the finance models, this is how *actual investors* -- both purchasers of stock and VC's and private equity companies -- are establishing company valuations. As projections of future profits, based on what is currently known.
+At the heart of all the finance models, this is how *actual investors* -- both purchasers of stock and VC's -- are establishing company valuations. They are making projections of future profits, based on what they currently know.
 
 And your CEO cares very very much about what those investors are willing to pay.
 
@@ -283,7 +279,7 @@ And we're going to name her Bertha.
 
 Bertha is that beloved creature of theory, an *economically rational investor.*
 
-Also, she has seen some shit. [fn:: the idea of value being determined by an economically rational investor is straight out of Don Reinertsen. The name Bertha is straight out of the murky depths of my mind.]
+Also, she has seen some shit.[fn:: the idea of value being determined by an economically rational investor is straight out of Don Reinertsen. The name Bertha is straight out of the murky depths of my mind.]
 
 Bertha possesses two kinds of information:
 
@@ -301,7 +297,7 @@ Your CEO may be dead certain that the moment you launch the new product, custome
 
 But Bertha just squints at the excited PowerPoint decks and shrugs and says "Sure, sure, customers are gonna loooove it, right. Why don't you call me when you have some *evidence*." (in this, she is much like steely-eyed VC's talking to founders)
 
-Bertha (and those VC's) need evidence to persuade her to change her mind, and thus her estimate of future profits.
+Bertha (and those VC's) need *evidence* to persuade her to change her mind, and thus her estimate of future profits.
 
 # And thus, *evidence can increase overall company value*.
 
@@ -320,5 +316,3 @@ From the perspective of an engineer working at a company, the overall value of a
 Believe it or not, that statement, with its obsessively precise statements of knowledge, information and probability, holds the key.
 
 With it in hand, we're ready to start marching through different kinds of potential value -- and we'll find several where the engineers are perfectly placed to observe the potential for value, and therefore, perfectly placed to advocate for investment.
-
-The first, most illuminating form of value, is so important that we're giving it it's own shiny chapter -- creating value by acquiring information that allows you to decide what to do next.

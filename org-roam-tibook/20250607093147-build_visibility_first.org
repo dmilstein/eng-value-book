@@ -117,15 +117,80 @@ That is much easier and much more effective than just telling them to stop doing
 
 In the story above, it was much easier to say to the (understandably) stressed out and worried engineers "Hey, let's find some quick and dirty way to visualize the scope of the problem", than it would have been to say, "You're wasting your time doing meaningless things, please stop immediately."
 
-
-
-
 ** Visibility Enables Incremental Progress
-** Visibility Creates Off Ramps
+I have become, over the course of my career, profoundly obsessed with building in increments.
+
+In my How To Survive a Ground-Up Rewrite post, I name it as "Worship at the Altar of Incrementalism".
+
+An absolutely core part of how engineering leaders created value is to identify creative means to break very large and complex problems down into small steps, that can be taken one at a time.
+
+I care so much about this, we're going to spend an entire chapter on it -- [[id:03D1870C-E583-4D5C-9589-5E0799793D48][Develop Incremental Options]].
+
+But I'll note here that building visibility is a crucial enabler for developing in increments -- because it allows you to verify that you're actually making things better, as you go.
+
+At Wayfair, we dug out from our Delivery Agent problems one step at a time -- and the visibility is what let us do so.
+
+The extraordinarily insight Kellan Elliot-McCrea says, in his post [something], "Modern software engineering is about making constant progress and measuring the results."
+
+# XXX Add link/quote to Kellan's thing.
+
 ** Visibility Creates Opportunities To Celebrate
+
+If, before you "fix" anything, you first build visibility, then you create a significant later benefit:
+
+When you've made things better you can celebrate the visible improvements.
+
+Such celebrations are extremely valuable for several reasons:
+
+ - Celebrating wins with your stakeholders is a core part of building towards a repeated cadence of collaborative decision-making
+
+   In the Ellevation deploy story, Jordan, the CEO, "felt" the win of the deploy improvements, which set us up for really good conversations about later technical investments we wanted to make.
+
+ - Celebrating wins with your team helps them *feel* the impact and meaning of the work they're doing
+
+   You (I'm guessing?) manage a team of humans, this is a thing humans want (and, frankly, need).
+
+ - Celebrating *incremental* wins is a powerful way to demonstrate to your team what you value
+
+   (what you celebrate becomes your culture, again hat tip to Kellan, he should really write a book or something)
+
+   # XXX Find Kellan quote maybe in Ritual Design?
+
+But, beyond all that, there's an even more fundamental reason why the "option to celebrate" is so important.
+
+It allows you to pick a point to declare the investment "done".
+
+For most tech investments, you're not going to know, ahead of time, the exact point at which the benefit of continuing to invest will outweigh the costs.
+
+If deploys are painful, how much better should you commit to making them?
+
+If customers are complaining about site slowness, how much effort should you put in to addressing that?
+
+If engineers are worried about security risks due to out of date libraries, how long should the team spend on addressing those concerns?
+
+In all of these cases, the answer isn't just "We don't know ahead of time", it's that you'll eventually want to pick some point to stop, when there is still more work you could do.
+
+If you've built visibility first, not only can that visibility help you make that decision, but it also makes it enormously easier for your engineers to accept.
+
+Without visibility, the engineers will tend to create an implicit goal of a "better-designed" or "higher-quality" system -- will leads to much more challenging tradeoff conversations later.
+
+Okay, now that we've covered an array of reasons why Visibility is your very best friend, we're going to dig into the other central concept:
+
+How engineers create value for the businesses within which they operate.
+
+# XXX Ugh, word echo with the next chapter
 
 * Scraps/Notes
 ** Visibility Allows You To Choose Your Battles
+
+** Tech Debt has an end
+With the old "tech debt" frame, everyone imagines there will be natural point for a project to be done -- when you have "removed all the tech debt".
+
+But, again, in that "negative" framing, there is an implicit end state -- "when the tech debt is gone."
+
+In the "tech investment" frame, you should be, *for the rest of time*, making decisions about whether or not to invest in specific improvements.
+
+
 
 ** Notes
 Allow myself to be a bit tactical.
