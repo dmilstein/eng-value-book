@@ -3,7 +3,9 @@
 :END:
 #+title: Intro Chapter
 #+filetags: :Chapter:
-* Introduction
+#+SELECT_TAGS
+#+OPTIONS: tags:nil
+* Introduction                                    :export:
 ** Stakeholders Scream About Features, the Team Screams About Tech Debt: The Joy of Engineering Leadership
 # What does it mean to be an engineering leader?
 

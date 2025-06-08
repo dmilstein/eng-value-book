@@ -3,4 +3,5 @@
 :END:
 #+title: The Ladder of Commitment
 #+filetags: :Chapter:
-Aka, the 5 scopes
+#+SELECT_TAGS
+#+OPTIONS: tags:nil

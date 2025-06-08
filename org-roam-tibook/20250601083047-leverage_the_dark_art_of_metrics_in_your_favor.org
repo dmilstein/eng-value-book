@@ -3,3 +3,5 @@
 :END:
 #+title: Leverage the Dark Art of "Metrics" In Your Favor
 #+filetags: :Chapter:
+#+SELECT_TAGS
+#+OPTIONS: tags:nil

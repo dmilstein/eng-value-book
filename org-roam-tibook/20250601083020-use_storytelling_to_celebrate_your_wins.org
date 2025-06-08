@@ -3,3 +3,5 @@
 :END:
 #+title: Use Storytelling To Celebrate Your Wins
 #+filetags: :Chapter:
+#+SELECT_TAGS
+#+OPTIONS: tags:nil

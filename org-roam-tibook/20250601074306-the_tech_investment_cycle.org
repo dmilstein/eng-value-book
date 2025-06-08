@@ -3,7 +3,9 @@
 :END:
 #+title: The Tech Investment Cycle
 #+filetags: :Chapter:
-* The Tech Investment Cycle
+#+SELECT_TAGS
+#+OPTIONS: tags:nil
+* The Tech Investment Cycle                       :export:
 ** Favor Repeated Cycles Over One-Off Projects
 
 There are two fundamental facets to working with technical investments.

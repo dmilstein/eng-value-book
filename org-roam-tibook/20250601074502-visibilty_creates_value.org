@@ -3,7 +3,9 @@
 :END:
 #+title: The Extraordinary Value of Knowing What To Do Next
 #+filetags: :Chapter:
-* The Extraordinary Value of Knowing What To Do Next
+#+SELECT_TAGS
+#+OPTIONS: tags:nil
+* The Extraordinary Value of Knowing What To Do Next :export:
 ** Welcome To Wayfair, Here Is Your Pile of Legacy Code
 
 Early in 2018, I working as an Engineering Director at Wayfair, the home goods ecommerce company.
