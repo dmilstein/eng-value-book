@@ -181,15 +181,37 @@ Let's build a model!
 
 ** Finance: Clever Equations Built On Top Of Dreams & Fantasies
 
-If you ask a finance person how to value a company, they'll light up.
+# BAD PROSE, GO
 
-They'll mention streams of future profits, and then, before you know it, you'll find yourself neck-deep in all sorts of exciting, math-adjacent jargon about discounted cash flows, amortization schedules, the cost of capital, and how to pronounce EBITDA. [fn:: See HBS's [[https://online.hbs.edu/blog/post/how-to-value-a-company][How to Value a Company]] for not one, not two, but *six* different ways to calculate the value of a company.]
+First off, why would someone even want to own a company in the first place?
+
+What is in it for the owner / investor?
+
+Well, companies *spend* a bunch of money to operate, and then customers *give* them a bunch of money.
+
+If the company collects more money then it spends, it makes a profit.
+
+The owner of the company gets the profits.
+
+Not just whatever profits get made today, but all profits that accrue in the future.
+
+Of course, the company (or owner) might decide to *invest* some of those profits in hopes fo future growth (aka even greater profits in the future).
+
+But, fundamentally, people own companies because that means owning that company's *future stream of profits*.
+
+# BAD PROSE, END
+
+How does one determine the *value* of a future stream of profits?
+
+If you ask this of a finance person, they will light up.
+
+Before you know it, you'll find yourself neck-deep in all sorts of exciting, math-adjacent jargon about discounted cash flows, amortization schedules, the cost of capital, and how to pronounce EBITDA. [fn:: See HBS's [[https://online.hbs.edu/blog/post/how-to-value-a-company][How to Value a Company]] for not one, not two, but *six* different ways to calculate the value of a company.]
 
 You might think, "Oh, I get it! The overall value of a company is determined by an *equation*."
 
 But this is *wrong*, in a just enormously important way.
 
-Company valuation models are built on top of *projections of future profits*.
+As above, all company valuation models are built on top of projections of future profits.
 
 And those projections are... *guesses*.
 
@@ -229,15 +251,15 @@ Any investor doing so will estimate that overall profit stream based on *their c
 
 A company valuation represents a probablistic estimate based on current knowledge.
 
-If the investor then acquires some *new information* that suggests the company will reap greater profits in the future, they will then be willing to *pay more* for a fraction of the company.
+If the investor were to acquire *new information* that suggested the company would reap greater profits in the future, they would be willing to *pay more* for a fraction of the company.
 
-Acquiring (or generating) that information has *increased the company value*.
+That information has *increased the company value*.
 
 Not in some woo-woo theoretical way.
 
-At the heart of all the finance models, this is how *actual investors* -- both purchasers of stock and VC's -- are establishing company valuations. They are making projections of future profits, based on what they currently know.
+At the heart of all the finance models, this is how *actual investors* -- purchasers of stock, VC's, private equity firms -- are establishing company valuations.
 
-And your CEO cares very very much about what those investors are willing to pay.
+Their models are making projections of future profits, based on what is currently known.
 
 # Actual company value.
 
@@ -273,7 +295,7 @@ If the value of a company is a probabilistic estimate of future profits...
 
 ...then *who exactly is the investor?*
 
-We're going to invent one!
+We're going to invent one.
 
 And we're going to name her Bertha.
 
@@ -291,17 +313,25 @@ Bertha possesses two kinds of information:
 
    # This can include both simple facts (e.g. the results of beta testing a new street sweeper product offering) and also probabilities (e.g. the frequency of downtime for a feed of key data about parking violations).
 
-Bertha is not easily swayed by overly optimistic CEO's.
+As we dig into some ways that engineers can create value (and associated ways they can make that value visible), we'll be asking ourselves, steadily:
 
-Your CEO may be dead certain that the moment you launch the new product, customers are going to be banging down your door to buy.
+"What would Bertha think?"
 
-But Bertha just squints at the excited PowerPoint decks and shrugs and says "Sure, sure, customers are gonna loooove it, right. Why don't you call me when you have some *evidence*." (in this, she is much like steely-eyed VC's talking to founders)
+aka, what would an economically rational investor think about a company's future profits, before and after making a potential technical investment.
 
-Bertha (and those VC's) need *evidence* to persuade her to change her mind, and thus her estimate of future profits.
+Note that Bertha is not easily swayed by optimism.
 
-# And thus, *evidence can increase overall company value*.
+Your CEO may be dead certain that the moment you launch that new product the team is crunching on, your customers are going to be banging down your door to buy it.
 
-# Acquiring information can make a company more valuable.
+Bertha just squints at all the up-and-to-the-right PowerPoint decks and shrugs and says "Sure, customers are gonna love it, right. Why don't you call me when you have some *evidence*."
+
+In this, she is much like steely-eyed VC's talking to founders.
+
+Bertha (and those VC's) need evidence to persuade her to change her mind, and thus her estimate of future profits, and thus the value of the company.
+
+Evidence increases overall company value.
+
+Acquiring information increases company value.
 
 From the perspective of an engineer working at a company, the overall value of a company is best understood as:
 
