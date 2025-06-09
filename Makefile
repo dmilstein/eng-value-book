@@ -13,8 +13,14 @@ build:
 build/chapters.txt: build org-roam-tibook/toc.org
 	cd book-monitor && python parsers/toc_parser.py ../org-roam-tibook/toc.org > ../build/chapters.txt
 
+# Generate word count history graph
+build/word-count-history.png: build/chapters.txt
+	./scripts/word-count-history.sh | gnuplot scripts/plot-word-history.gnuplot
+
 # Alias for convenience
 chapters: build/chapters.txt
+word-count-graph: build/word-count-history.png
+
 
 # Pattern target to build markdown for a single chapter
 # Usage: make build/chapter-name.md (where chapter-name.org exists in org-roam-tibook/)
