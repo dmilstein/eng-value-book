@@ -10,41 +10,44 @@
 # BAD PROSE GO
 In the below, we're going to go through a list of ways that engineering teams can create value for an overall business.
 
-For each, we'll first touch on why Bertha, our economically rational investor, would consider investments to be valuable.
+Feel free to pick and choose the ones that you think might be useful to you, in your current situation.
+
+For each, we'll first touch on why Bertha, our economically rational investor, would consider an investment to be potentially valuable.
 
 We'll then explore small/medium/large options for creating visibility into that value.
 
-Where, informally, small is something in the vicinity of a ticket, medium is a couple week long project, and large is an initiative or durable team.
+Small is something in the vicinity of a ticket; medium is a couple week long project; large is an initiative or durable team.
 
-One goal is that, the "small" ones are often things you could do *right now*, because they're so quick -- even if you're in the middle of some intense crunch. Get that small one out there, go back to crunching, and then check back in a week later -- maybe then you'll have enough visibility to motivate just a bit more investment.
+A specific goal is that, the small options are things you could do *right now* -- even if you're in the middle of some intense crunch.
+
+Get that small one out there, go back to crunching, and then check back in a week later -- maybe then you'll have enough visibility to motivate just a bit more investment.
 
 A few notes, before we dive in.
 
-First, Bertha's perspetive is *not* intended to be a model for how your stakeholders think (unless you happen to have some super-rational stakeholders, which would be awesome? But also pretty surprising?).
+First, Bertha's perspetive is *not* intended to be a model for how your stakeholders think (unless you happen to have some super-rational stakeholders? Which would be awesome? But also pretty surprising?).
 
 Rather, they are for *you* to understand how to map engineer concerns to potential value for the business.
 
-In later chapters, we'll return to how to bring your stakeholders along on this journey (and visibility will prove to be a huge part of that).
+In later chapters, we'll map out how to bring your stakeholders along on this journey (and visibility will prove to be a huge part of that).
 
-Second, I do not, in the below, develop any kind of precise estimates of potential increases in company value. I have always been interested in the idea of doing so, but have managed to get pretty far without such precision. Instead, I've found that by creating sufficient visibility to make "good enough" tradeoff and prioritization decisions, "often enough", the overall company has been able to move towards value.
+Second, I do not, in the below, develop precise, dollar-figuree estimates of potential increases in company value. I have always been interested in the idea of doing so, but have managed to get pretty far without such precision. Instead, I've focused on creating sufficient visibility to make good enough tradeoff and prioritization decisions, frequently.
 
 Okay, let's go.
 
 ** Ship Smaller Changes More Often
-
 *** The Economic Value
 
-Our economically rational investor Bertha understands that your company's future profits are, ultimately, influenced by by how quickly your engineering and product team can go through repeated cycles where they build, then ship, and then *learn* (and then start over again with build).
+Our economically rational investor Bertha understands that your company's future profits are, ultimately, influenced by by how quickly your engineering and product team can go through repeated cycles of where they build, then ship, and then *learn* (and then start over again with build).
 
-Being rational, she'll understand that is only through such learning loops that teams can gradually hone in on software that is both *valuable to customers* and *viable to build* (the intersection set of those two is essentially impossible to predict in advance).
+Being rational, she'll understand that it is only through such learning loops that teams can gradually hone in on software that is both *valuable to customers* and *viable to build* (the intersection set of those two is essentially impossible to predict in advance).
 
-The faster teams can go through such loops, the more quickly they'll be able to develop new products or services that customers are willing to pay for (or  be able to address issues that are causing customers to churn, or reduce the cost to serve customers, etc)..
+The faster teams can go through such loops, the more quickly they'll be able to develop new products or services that customers are willing to pay for (or be able to address issues that are causing customers to churn, or be able to reduce the cost to serve customers, etc)..
 
-For a company where technology plays some central role the business, those discovery cycles are the heart of how teams increase company value -- so the speed of discovery has a huge long-term impact.
+For a company where technology plays some central role the business, those discovery cycles are the heart of how engineering and product teams increase company value -- so the speed of discovery has a huge long-term impact.
 
 I'm going to devote  a chapter [or an appendix?] to [[id:D901A4C9-885B-4F42-8B8D-3595616857E8][The Extraordinary Value of Knowing What To Do Next]].
 
-Luckily, both you and Bertha have some support in this perspective, thanks to the *truly marvelous* book Accelerate, in which <XXX and XXX>, demonstrate a clear link between long-term company value and the speed, frequency and safety which which teams are able to ship code.[fn:: deploying code isn't the same as releasing it. Value is created if small changes are frequently *deployed* to production, even if customers can't *see* those changes -- e.g. because they are hidden behind feature flags.]
+Luckily, both you and Bertha have some support in this perspective, thanks to the *truly marvelous* book Accelerate, in which <XXX and XXX>, demonstrate a clear link between long-term company value and the speed, frequency and safety which which teams are able to ship code.[fn:: shipping code isn't the same as releasing it. Value is created if small changes are frequently *deployed* to production, even if customers can't *see* those changes -- e.g. because they are hidden behind feature flags.]
 
 Accelerate names 4 Golden Metrics:
 
@@ -60,18 +63,17 @@ I've had a lot of luck with focusing metrics on the first two, which tend to be 
 
 For reverts and outages, I've usually created visibility by way of thorough post-mortems with clear, widely shared summaries of the findings (see [[id:3DE23585-34F0-4C88-A16B-4558ACC45C99][Make Your Post-Mortems an Act of Visibility]]).
 
-All that said, I've had mixed luck with getting stakeholders to read Accelerate. My recommended game plan is:
+All that said, I (no longer!) ask my stakeholders to read Accelerate. Instead, my recommended game plan is:
 
- - Name "smaller, more frequent deploys" as a known industry best practice (and repeating that over and over and over)
+ - Name "smaller, more frequent deploys" as a known industry best practice
 
  - Cite Accelerate as part of the evidence for that
 
  - Ensure the Accelerate metrics are both visible to and understood by stakeholders
 
-# Also, although I have not seen many stakeholders deeply engage with theoretical concepts of small batch size deploys, I have seen just about every stakeholder I've ever worked with love the experience of "getting to make meaningful decisions more often", which is what those small batch sizes allow.
+ - Ensure stakeholders hear about the wins enabled by small, frequent deploys
 
 *** Forms of Visibility
-
 **** Small
 
 Ask engineers to manually log their deploys in a spreadsheet, in a way that allows you to derive both Change Frequency and Deploy Lead Time.
@@ -83,36 +85,154 @@ Run a weekly survey or Slack workflow to ask people about how long the worst dep
 **** Medium
 Instrument your deploy pipeline more fully, measure how long various stages within it are taking.
 
-This is "medium" weight because turning those measurements into useful version of Change Frequency and Deploy Lead Time will require a fair bit of judgment, to answer questions such as:
+This is "medium" weight because turning those measurements into useful version of Change Frequency and Deploy Lead Time will require a fair bit of judgment and discussion, to answer questions such as:
 
- - How do we determine when an engineer "intends" to ship to production?
+ - How do we determine when an engineer "intends" to ship a change to production?
 
  - Do we break out measurements for different "kinds" of deploys (front end vs back end, legacy code vs new system, one repo vs another)?
 
- - How do we measure / report on engineers batching up sets of changes together and shipping all of them?
+ - How do we measure / report on engineers batching up sets of changes and shipping all of them at once?
 
- - How do we measure / report on "single" changes that require multiple deploys to get fully live?
+ - How do we measure / report on single "conceptual" changes that require multiple deploys to get fully live?
 
  - Do we distinguish the hot fix/urgent path from normal deploys?
-
 
 **** Large
 
 If you set up a durable team that is responsible for release tooling, you can hold them accountable to reporting on these core metrics.
 
-
 ** Enable Upcoming Product Improvements
+# MOAR BAD PROSE, GO
+Edmund Jorgensen has observed that most companies seem to have some genuinely hideous mass of code that is sits at the heart of the business.
+
+He calls this The Golden Cesspool.
+
+A lot of tech debt concerns show up thanks to our friend the Golden Cesspool.
+
+Your product team is trying to jam something out as quickly as possible, but, unfortunately, doing so seems to require fundamentally restructuring that terrifying hairball of code that is running your most important transactions, every single day.
+
+To name a few totally-made-up-examples:
+
+ - The ad billing engine for a travel site
+
+ - Order shipping logic for an ecommerce site
+
+ - Eligibility calculations for a health care company
+
+ - Student selection and filtering logic, for an EdTech administration company
+
+In each case, tons of complex business logic has been shoved in over the years, all sorts of state gets updated in all sorts of deeply non-obvious ways. Any time someone  wants to fix something, they've gotta go find that one engineer who the company just keeps around for emergencies, etc.
+
+*** The Economic Value
+
+The core trick here is to convert this from a technical investment to a *product* investment.
+
+In other words, the product team *already thinks* there's value here -- they just don't understand how best to realize that value.
+
+Let your product team talk to Bertha.
+
+*** Forms of Visibility
+
+Fundamentally, these are intertwined with the tactics for significant rewrites -- e.g. see my How to Survive a Ground Up Rewrite. But I'll call out a couple with specific tactics with regard to visibility.
+
+**** Small
+
+If your team is totally unfamiliar with the code, you could create a spreadsheet of "engineers who are able to develop, test and safely deploy a change to System X", and share w/ your product team.
+
+If your team *can* check out and build the code, but don't know how to make any meaningful changes, you could create a spreadsheet of "engineers who know how to work in System X", share with product team.
+
+If the team understands the code, but the data model impose a painful set of restrictions, you could write a set of user stories of what is and is not possible to build, and share with product team[fn:: I adore user stories -- especially in the formulation from User Stories Applied.]
+
+If changes to System X have a bad habit of breaking other things, you can share that fact with stakeholders, along with an estimate of how much development will be slowed due to constant debugging of weird issues. If one of those issues is "potential data corruption", you should make that estimate of time lost very, very high.
+
+**** Medium
+If crazy dependencies are an issue, there are various medium-sized projects which can make the dependencies visible.
+
+One useful trick can be to push "fake data" through your production data pipelines on a regular basis, and make sure that every system that consumes the data knows to log and discard that fake data.
+
+E.g. you can add a series of known transactions from "Robert ;Drop All", every day, as a sort of tracer bullet, fired into your systems.
+
+Initially, that will create a flurry of exciting production bugs as people start finding Bobby in systems you had no idea consumed your data.
+
+Those bugs are a small price to pay for gradually mapping out the hidden data dependencies.[fn:: As a bonus, you can then start monitoring for the *presence* of Bobby transactions, which will totally save you some day, when a trivial config changes silently kills the flow of data to some unwitting consumer]
+
+People will say things like "Oh, that's going to take too much time, we don't know enough about how the code works to safely add fake transactions." If you don't know how to add fake transactions, you don't know how to safely change the code to add or change *real transactions*. It will often be faster to learn by attempting to add something deliberately fake than by shoving through a real change.
+
+# Anand Mukhardan did a brilliant version of this at Wayfair, when he took a simply terrifying giant PHP file with hundreds of distinct if statements and figured out a way to log the *combinations* of ifs that were most often getting triggered, which he could then factor out into coherent functions.
+
+**** Large
+
+Ideally, you should aim to find something that matters to your customers and your business, as a way to create visibility into having successfully enabled new kinds of changes.
+
+That will (and should be!) project-specific, because it should reflect the specific business challenges you're solving by adjusting the code. Again, the potential value here is already clear to the rest of the business -- you just need to show that you've enabled some of it.
+
+As an example, at Ellevation, Justin Hildebrandt led a major effort to restructure a student-facing EdTech product, in order to better support the various workflows that teachers needed for assigning and reassigning work to students.
+
+Justin spent real time ensuring his stakeholders understood the limitations of the old, rigid assignment systems (which he explained, usefully, as an "assigment paradigm"). Once the team had restitched a more flexible one through the code, they were able to demo some basic new features that were simply impossible to build before.
+
+That's a very powerful form of visible progress -- in no small part because he took the time to ensure everyone understood what *wasn't* possible before.
+
 ** Reduce Steady-State Maintenance Work
+*** The Economic Value
+*** Forms of Visibility
+**** Small
+**** Medium
+**** Large
 ** Reduce Interruptive Maintenance Work
+*** The Economic Value
+*** Forms of Visibility
+**** Small
+**** Medium
+**** Large
 ** Enable Parallel Development Across Multiple Teams
+*** The Economic Value
+*** Forms of Visibility
+**** Small
+**** Medium
+**** Large
 ** Reduce Risk of Losing Data
+*** The Economic Value
+*** Forms of Visibility
+**** Small
+**** Medium
+**** Large
 ** Reduce Frequency of Outages
+*** The Economic Value
+*** Forms of Visibility
+**** Small
+**** Medium
+**** Large
 ** Reduce Duration of Outages
+*** The Economic Value
+*** Forms of Visibility
+**** Small
+**** Medium
+**** Large
 ** Reduce Risk of Security Breaches
+*** The Economic Value
+*** Forms of Visibility
+**** Small
+**** Medium
+**** Large
 ** Ensure Many Customers Can Use System At Once
 Aka, Load & Scale
+*** The Economic Value
+*** Forms of Visibility
+**** Small
+**** Medium
+**** Large
 ** Ensure Big Customers Can Use System In Big Ways
+*** The Economic Value
+*** Forms of Visibility
+**** Small
+**** Medium
+**** Large
 ** Reduce Costs Of Serving Customers (But, See: Drunk, Lamppost)
+*** The Economic Value
+*** Forms of Visibility
+**** Small
+**** Medium
+**** Large
 
 * Scraps
 Maybe:
