@@ -103,7 +103,9 @@ If you set up a durable team that is responsible for release tooling, you can ho
 
 ** Enable Upcoming Product Improvements
 # MOAR BAD PROSE, GO
-Edmund Jorgensen has observed that most companies seem to have some genuinely hideous mass of code that is sits at the heart of the business.
+Edmund Jorgensen has observed that most companies seem to have some genuinely hideous mass of code that is sits at the heart of the business:
+
+https://www.tomheon.com/2017/03/24/the-golden-cesspool/
 
 He calls this The Golden Cesspool.
 
