@@ -3,17 +3,13 @@ Experimenting. Can I have a list of todos, outside of org-roam, but, when I'm in
 Yes, I can, apparently.
 
 * TIB Inbox                                       :inbox:
-** TODO Make my section/chapter word count look for missing Chapter filetags
-Because now my wordcount history stuff is sensitive to those being missing.
-** TODO For my teminal UI word count thing, add some basic horizontal bars
-** TODO Talk about "build visibility" vs "add metrics"
-** TODO Create a new chapter template or abbrive? Ugh.
-** TODO Add subsection on Off Ramps to Develop in Increments
-** TODO For Understand Value, find a place early to focus briefly on profits
+** TODO Testing refile
+** DONE For Understand Value, find a place early to focus briefly on profits
+CLOSED: [2025-06-09 Mon 13:02]
 E.g. when talking about revenue as the thing everyone thinks os.
-** TODO Profits - go to the owner
+** DONE Profits - go to the owner
+CLOSED: [2025-06-09 Mon 13:02]
 Profits aren't just a number, they *belong to* whoever owns the company. So if you own a slice of the company, you own a slice of future profits.
-** TODO Get footnotes to number by chapter
 * Future Books
 ** TODO Collect ideas for book 2 about inteviewing + hiring
 "That Was Fun!" - How to interview so that great people can't wait to say yes
@@ -34,10 +30,10 @@ not as separate tech investments
 ** TODO General note: feature my own failures as learning events
 E.g. things I tried that didn't work, or that I've seen people try and have not work
 * [[id:B4926308-39DD-471B-8E71-5FFF7546D6E3][Table of Contents]]                               :gtasks:
-** DONE Write out notes on my ideas for reordering :curweek:pom:
+** DONE Write out notes on my ideas for reordering :pom:
 CLOSED: [2025-06-07 Sat 09:32]
-* [[id:D3158CC2-8A69-4097-B9ED-ED6BD855A7AD][Understand Value In Depth]]                       :gtasks:curweek:
-** DONE Do a spike on footnotes                   :curweek:pom:
+* [[id:D3158CC2-8A69-4097-B9ED-ED6BD855A7AD][Understand Value In Depth]]                       :gtasks:
+** DONE Do a spike on footnotes                   :pom:
 CLOSED: [2025-06-05 Thu 08:44]
 ** DONE Write super crappy intro to chapter       :pom:
 CLOSED: [2025-06-02 Mon 13:13]
@@ -53,7 +49,7 @@ Or Bethesda, or Beatrix, or Snowflake
 ** TODO Maybe: put Accelerate in here?
 ** TODO Def: talk about sequence of decisions
 ** TODO Write the Pinch Test story
-* [[id:BB09F432-DEEB-4129-8F88-D23C86E8CEBB][Build Viz First]]                                 :gtasks:curweek:
+* [[id:BB09F432-DEEB-4129-8F88-D23C86E8CEBB][Build Viz First]]                                 :gtasks:
 ** DONE Jam in some of my ideas from my notes, break out todos :pom:
 CLOSED: [2025-06-07 Sat 09:35]
 ** DONE Jam out a terrible intro. Like, terrible  :pom:
@@ -66,11 +62,17 @@ CLOSED: [2025-06-08 Sun 09:35]
 CLOSED: [2025-06-08 Sun 09:58]
 ** DONE Write bad prose for Celebrate             :pom:
 CLOSED: [2025-06-08 Sun 09:58]
+** TODO Talk about "build visibility" vs "add metrics"
+* [[id:E7DB3CD4-9B7B-425B-BF07-E2607DDD6670][Forms Value/Viz ]]                                :gtasks:curweek:
+** TODO Write 1-2 genuineely terrible             :pom:
+So I can make better tomorrow
+** TODO Write a few, using Bertha
 * [[id:93FF0A9B-F54E-49D5-8154-640BBAE08D4D][Beta Readers]]                                    :gtasks:
+** TODO Review WUB re: beta readers + partial book :curweek:
 ** TODO Add --toc to the pandoc, can I get a ToC in helpthisbook?
 ** TODO For that toc, set --toc-depth=2, I think
-** TODO Set reward: can share w/ EWJ once I finish... something
 ** TODO Draft email to send to potential beta readers
+** TODO Set reward: can share w/ EWJ once I finish... something
 ** DONE Get the markdown formatting info on my laptop
 CLOSED: [2025-06-07 Sat 08:01]
 ** DONE Experiment with org-org-export-to-md
@@ -94,6 +96,7 @@ Try out https://github.com/larstvei/ox-gfm?tab=readme-ov-file
 ** DONE Fix Footnotes again
 CLOSED: [2025-06-08 Sun 08:25]
 ox-gfm is just rendering them in HTML, not as actual GFM.
+** TODO Get footnotes to number by chapter        :curweek:
 * [[id:47FF75F6-17DB-4E36-950D-F7CFAFA950EA][Intro Chapter]]                                   :gtasks:
 ** DONE Finish first draft of Intro chapter
 CLOSED: [2025-05-28 Wed 16:14]
@@ -126,16 +129,22 @@ Before the story/example
 ** TODO For intro, add flourishes of the chaos, multiple stakeholders, etc
 ** TODO Add chapter on What If My Company Fired All The PM'S?
 * [[id:49435FCD-0590-44DE-8FC7-585E7BCC8BB2][Tooling]]                                         :gtasks:
-** DONE Write python to render outline w/ wordcounts :curweek:
+** DONE Write python to render outline w/ wordcounts
 CLOSED: [2025-06-04 Wed 08:03]
 Strip comments, etc
 
 And also on something to watch the directory for changes, re-run that and auto-update a webpage.
 
 I've got failing tests in Step 6, go back to those.
-** DONE Spike on: how to do footnotes in org      :curweek:pom:
+** DONE Spike on: how to do footnotes in org      :pom:
 CLOSED: [2025-06-04 Wed 15:10]
-** TODO Make the word count tool handle chapters with no sections
+** TODO Make the word count tool handle chapters with no sections :curweek:
+** TODO Add titles for the chapters that don't have them :curweek:
+** TODO Make my section/chapter word count look for missing Chapter filetags :curweek:
+Because now my wordcount history stuff is sensitive to those being missing.
+** TODO For my teminal UI word count thing, add some basic horizontal bars :curweek:
+** TODO Create a new chapter template or abbrev? Ugh. :curweek:
+** TODO Update gnuplot script to determine date range from file? :curweek:
 * [[id:49E66E86-CE83-447E-87C2-3BFF3D8FE42E][Teach/Coach]]                                     :gtasks:
 ** DONE Write template w/ offer to teach Part II
 CLOSED: [2025-05-27 Tue 08:21]
@@ -148,56 +157,30 @@ CLOSED: [2025-05-30 Fri 12:32]
 
 ** TODO Draft note to TD looking for coaching/helping targets
 ** TODO Write template asking for connections to coach
-** DONE Ping Dani (using number from Craig)       :curweek:pom:
-CLOSED: [2025-06-04 Wed 12:34]
 ** TODO Do a timeboxed skim through LinkedIn contacts for Part 2 coaching
 Can I just export my list of contacts
-** DONE Write up notes from Satoe convo           :curweek:pom:
+** DONE Ping Dani (using number from Craig)       :pom:
+CLOSED: [2025-06-04 Wed 12:34]
+** DONE Write up notes from Satoe convo           :pom:
 CLOSED: [2025-06-05 Thu 14:09]
-** DONE Satoe - milestones, not tech investment.  :curweek:pom:
+** DONE Satoe - milestones, not tech investment.  :pom:
 CLOSED: [2025-06-07 Sat 11:52]
  - Stakeholder (Stephanie) - meet regularly, want to offer her meaningful decisions
  - Team/Self - dig into Eligibility Engine, add tests, determine boundaries, map the code
  - You shouldn't be making time for "strategy", we've done that. You should be making time for milestones
 * [[id:E0ADBF07-90B8-4C37-81C0-96A428020F5E][Substack]]                                        :gtasks:
-** TODO Draft a test post on my substack          :curweek:
+** DONE Draft a test post on my substack
+CLOSED: [2025-06-09 Mon 13:11]
+** TODO Send my first post, check if Al got it    :curweek:
+** TODO Understand diff between Substack notes and posts :curweek:
 ** TODO Research tools to auto-post (to LI + Substack)
 So that I can queue things up and have them just go. Don't stay tied.
-** TODO Understand diff between Substack notes and posts
 * [[id:17305FA7-A43F-40C9-9309-0EF3577C70D0][Author Platform]]                                 :gtasks:
-** DONE Bang out an idea for using LinkedIn       :curweek:pom:
-CLOSED: [2025-06-04 Wed 08:09]
-For seeding my initial substack
-** DONE Write some form of README/About           :curweek:pom:
-CLOSED: [2025-06-04 Wed 08:22]
-which says "This is a place that I'll share ideas I'm working out for an upcoming book" (so I won't feel like I've made some bad promise and have internal pressure)
-** DONE Sketch in initial list of recommendations :curweek:pom:
-CLOSED: [2025-06-04 Wed 08:39]
-** DONE Map out the dumbest possible posting calendar
-CLOSED: [2025-06-04 Wed 08:09]
-** DONE Review substack signup, break out tasks   :curweek:
-CLOSED: [2025-06-04 Wed 08:03]
-Can I get my own URL? I do!
-** DONE Review WUB gameplan for finding places to post :curweek:
-CLOSED: [2025-06-04 Wed 08:03]
-** DONE Come up with 10-20 bad titles
-CLOSED: [2025-05-27 Tue 08:32]
-Something that leaves room for other things in the {Eng,Product} x Humans space
-** DONE Pick one title
-CLOSED: [2025-05-29 Thu 09:24]
-** DONE Find a [[id:E5D74838-B4FA-4F5D-8755-2D2966F2B031][Deep Research]] option               :curweek:pom:
-CLOSED: [2025-06-02 Mon 15:24]
-
-** DONE Use Deep Research on Author Platform target sites :curweek:pom:
-CLOSED: [2025-06-02 Mon 15:33]
-Have a conversation about what I want, then ask it to summarize the kinds of places, types of postings, etc.
-
-Could even ask it for habits/cadencs I could use
-** DONE Decide if I want to do that myself or pay someone to do it for me
-CLOSED: [2025-06-04 Wed 07:54]
+** TODO Make new email address, put on Substack   :curweek:
+** TODO Draft a post to LinkedIn                  :curweek:
+Announce I'm working on a book, will post here sometimes, but please go join my new newsletter/Substack if you're interested for more (and/or might like to be a beta reader for a eection).
 ** TODO Build some basic habit + tooling around it
 E.g. post 3-5 times/week, set up some org file that has the postings collected, and some script that uploads them for me. So it's just feeding a hopper, nothing I keep on my day-to-day todo list
-** TODO Make up an email address for this work, share widely
 ** TODO Ping Winston -- connect + learn how he build a personal platform
 Esp how he uses LI
 * [[id:71B164B6-0AB2-4FDE-B51E-71870F553C67][The TI Cycle]]                                    :gtasks:
@@ -205,9 +188,8 @@ Esp how he uses LI
 CLOSED: [2025-06-01 Sun 08:51]
 ** DONE Wedge in my example of that without reading it
 CLOSED: [2025-06-01 Sun 08:51]
-** DONE Revise/improve The Ti Cycle               :curweek:
+** DONE Revise/improve The Ti Cycle
 CLOSED: [2025-06-02 Mon 11:23]
-* [[id:E7DB3CD4-9B7B-425B-BF07-E2607DDD6670][Value/Viz Catalog]]                               :gtasks:
-** DONE Dump in my outline
-CLOSED: [2025-06-08 Sun 08:26]
-** TODO Write a few, using Bertha
+* [[id:03D1870C-E583-4D5C-9589-5E0799793D48][Develop Incremental Options]]                     :gtasks:
+** TODO Terrible first draft                      :curweek:
+** TODO Add subsection on Off Ramps to Develop in Increments
