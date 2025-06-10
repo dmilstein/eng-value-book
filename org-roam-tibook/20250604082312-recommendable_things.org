@@ -23,7 +23,9 @@ And, for each, what has triggered a recommendation in that direction.
 * The Ironies of Automation
 * How Complex Systems Fail
 * Reinertsen (maybe specific chapters)
-* Speeding Up Your Engineering Org, Part I
+* Edmund
+** Speeding Up Your Engineering Org, Part I
+** The Golden Cesspool (where?)
 * On Time, Clocks and Distributed Systems
 * Memories Guesses and Apologies (if it can be found??)
 * Escaping the Build Trap
@@ -39,7 +41,7 @@ And, for each, what has triggered a recommendation in that direction.
 * Never Split the Difference
 * High Output Management
 * The Tyranny of Structurelessness
-* Practice Large-Scale Agile Development (Leading the Transformatino)
+* Practice Large-Scale Agile Development (Leading the Transformation)
 * That Swedish Police force agile development thing
 * The Aircraft Carrier thing
 * Extreme Programming Explained
@@ -69,4 +71,4 @@ And, for each, what has triggered a recommendation in that direction.
 * Team Topologies?
 * Cal Newport?
 * Rumelt Strategy Notes thing
-*
+* User Stories Applied
