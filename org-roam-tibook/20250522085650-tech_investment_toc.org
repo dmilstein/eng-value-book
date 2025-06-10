@@ -6,6 +6,89 @@ A place to take notes / work on a table of contents. Don't forget I sketched in 
 
 I put the formal file for the script I'm working on in a non-org-roam [[file:toc.org::*Table of Contents][toc.org]]
 
+* Draft ToC
+** Intro
+*** Intro Chapter
+**** Stakeholders Scream About Features, the Team Screams About Tech Debt: The Joy of Engineering Leadership
+# Statement of empathy, touching on a bunch of the human experience + potential failure modes.
+**** Why the "Tech Debt" Metaphor Has Become Limiting
+# Sketch in the key problems (focus on "bad code", offers nothing positive to your product or stakeholder peers, don't go too deep on moral vs economic)
+**** A Better Way: Technical Investments
+# Give the definition
+**** What If My Stakeholders Don't Care About Engineering?
+**** What If My Engineers Don't Care About the Business?
+# Aka, what if my very senior engineer just wants to rewrite everything?
+**** What's Coming In the Rest of the Book
+** Part I: The Tech Investment Cycle
+*** The Tech Investment Cycle
+*** Build Visibility First
+*** Understand Value In Depth
+*** Forms of Value & Visibility
+# For each, sketch in ideas on building visibility (and maybe actually do a bit of 1 -> 2 -> 3, viz -> commitment -> more viz -> more commitment
+**** Speed Up The Build/Ship/Learn Cycle (Not Just The Build Part)
+**** Ship Smaller Changes More Often
+# aka, use Accelerate as teaching instrument/bludgeon
+**** Enable (Specific) Upcoming Product Improvements
+**** Reduce Steady-State Maintenance Work
+**** Reduce Interruptive Maintenance Work
+**** Enable Parallel Development Across Multiple Teams
+**** Reduce Risk of Losing Customers Thanks to Losing Their Data
+**** Reduce Risk of (Expensive) Outages
+**** Reduce Duration of (Expensive) Outages
+**** Reduce Risk of (Very Expensive) Security Breaches
+**** Ensure Many Customers Can Use System At Once Without It Collapsing
+# Aka, Load & Scale
+**** Ensure "Big" Customers Can Use System In "Big" Ways Without It Collapsing
+**** Reduce Costs Of Serving Customers (But, See: Drunk, Lamppost)
+# See: drunk, lamppost issues.
+
+*** Engineer Complaints: When To Act On vs When to +Ignore+ Express Sympathy
+*** Develop Incremental Options
+Small Steps Are The Only Steps Allowed
+# aka No, Really, It *Can* Be Done In Small Steps
+**** The Full Rewrite: Only Undertake If You Wish To Be Fired Midway Through a Long, Painful & Ultimately Unsuccessful Death March
+*** Use Storytelling to Celebrate Wins
+** Part II: Stakeholders Have Feelings, Too
+Stakeholders Have Feelings, Too: How To Advocate Effectively
+Build Trust & Commitment With Stakeholders
+Addict Your Stakeholders to a Steady Habit of Decision-Making
+...Diet of...
+*** Master "Tactical Empathy" To Build Trust {Commitment}
+*** Avoid Anti-Patterns
+Six Ineffective Ways to Advocate Before Breakfast
+*** Bootstrap Regular Decision-Making Meetings
+*** Use the Dark Force of "Metrics" In Your Favor
+*** Make Your Post-Mortems an Act of Visibility
+** Part II: Scaling Up: Tech Investments & the Engineering Organization
+*** Assign Ownership to Align Costs With Benefits
+*** 5 Scopes: On the Side, Ticket, Project, Initiative, Durable Team
+# Tease apart tiger teams vs cross-team initiatives
+*** Technical Stewardship: Weaving Tech Investments Into The Career Ladder
+** Part III: Case Studies
+*** HubSpot "Customer Anger" Crisis
+Post-mortems led to investtments in tooling
+*** Pinch Tests
+*** EWJ's DevPlats Work
+*** Inventory Variance
+*** TRNS Criticals
+*** Couchbase or ElasticSearch Retirement
+*** SLI's & SLO's @ Ellevation
+*** Load Testing Parent Letters
+*** Assignment Paradigm?
+*** Flex Fields?
+** Appenices
+*** The Moral Mindset: A Powerful But Dangerous Widget of the Human Mind
+*** The Extraordinary Value of Knowing What To Do Next
+# As my shrunk down form of the full information-as-value story
+# Oooh, maybe I can use both my metaphors of Bad estimates are like having a contractor offer to burn your house down + the difference between planning a trip w/ milestones on roads vs exploring an undiscovered country (or alient planet)
+#
+# Maybe around here, do the super condensed Cliff's Notes form of value ala:
+#
+#  - The vast majority of time, we only truly know what we're going to do next once we finish what we're currently doing
+#  - It's an exploration, not a planned itinerary
+#  - Value comes both from building, but also from more rapidly figuring out the next thing to do
+
+*** OMG If Someone Says "Productivity" One More Time I Will Not Be Responsible For My Actions
 * Ideas for reordering beginning of Part I <2025-06-07 Sat>
 Can I go:
  - The Tech Investment Cycle (w/ deploy story from Ellevation)
@@ -50,101 +133,3 @@ E.g. "Tech Investments and the Engineering Organization" could potentially be re
 "Working with stakeholders" could be "How to make your stakeholders fans of technical investments" or "how to addict your stakehoders to technical investments" or something along those lines.
 
 I might jot down some others.
-
-* Draft ToC
-** Intro Section
-*** Intro Chapter
-**** Stakeholders Scream About Features, the Team Screams About Tech Debt: The Joy of Engineering Leadership
-# Statement of empathy, touching on a bunch of the human experience + potential failure modes.
-**** Why the "Tech Debt" Metaphor Has Become Limiting
-# Sketch in the key problems (focus on "bad code", offers nothing positive to your product or stakeholder peers, don't go too deep on moral vs economic)
-**** A Better Way: Technical Investments
-# Give the definition
-**** What If My Stakeholders Don't Care About Engineering?
-**** What If My Engineers Don't Care About the Business?
-# Aka, what if my very senior engineer just wants to rewrite everything?
-**** What's Coming In the Rest of the Book
-** Part I: The Tech Investment Cycle
-*** The Fundamental Cycle
-# Basically just name each of these, will go deeper in later chapter.
-
-# Emphasize that you do this over and over, deliberately starting with small scale, and gradually "levering up" to larger investments.
-**** Find things engineers are *worried about*
-**** Convert each into a statement of *potential value*
-**** Select the highest value option, based on what is *currently known*
-**** *Build visibility* into current state
-# In a way which will show the improvement, if/when you make it
-**** Identify a *small increment* that will improve things and/or create more visibility
-**** Share visibility with stakeholders to *motivate investment*
-**** Offer an *incremental option* to stakeholder, get buy-in
-**** Do The Thing
-**** Celebrate improvements via *story-telling*
-**** Return to Step 1, with more *capital and trust*
-
-*** What the Tech Investment Cycle Looks and Feels Like
-# Go through an example of a few loops in sequence (meaning, for the same scenario), levering up from on-the-side visibility building to a full-ish investment. [Take the thing I have and break it into even smaller steps, and move some of the potential value things out of it].
-*** [[file:20250605084808-understand_value_in_depth.org][Understand Value In Depth]]
-*** The Central Hack: Build Visibility First
-# Maybe: why visibility not metrics? or "measurement"
-# Throw in some ideas from how to measure anything
-*** Value = More Quickly Figuring Out What To Do Next
-# As my shrunk down form of the full information-as-value story
-# Oooh, maybe I can use both my metaphors of Bad estimates are like having a contractor offer to burn your house down + the difference between planning a trip w/ milestones on roads vs exploring an undiscovered country (or alient planet)
-#
-# Maybe around here, do the super condensed Cliff's Notes form of value ala:
-#
-#  - The vast majority of time, we only truly know what we're going to do next once we finish what we're currently doing
-#  - It's an exploration, not a planned itinerary
-#  - Value comes both from building, but also from more rapidly figuring out the next thing to do
-*** A Buffet of Some Different Forms of Value
-# For each, sketch in ideas on building visibility (and maybe actually do a bit of 1 -> 2 -> 3, viz -> commitment -> more viz -> more commitment
-**** Speed Up The Build/Ship/Learn Cycle (Not Just The Build Part)
-**** Ship Smaller Changes More Often
-# aka, use Accelerate as teaching instrument/bludgeon
-**** Enable (Specific) Upcoming Product Improvements
-**** Reduce Steady-State Maintenance Work
-**** Reduce Interruptive Maintenance Work
-**** Enable Parallel Development Across Multiple Teams
-**** Reduce Risk of Losing Customers Thanks to Losing Their Data
-**** Reduce Risk of (Expensive) Outages
-**** Reduce Duration of (Expensive) Outages
-**** Reduce Risk of (Very Expensive) Security Breaches
-**** Ensure Many Customers Can Use System At Once Without It Collapsing
-# Aka, Load & Scale
-**** Ensure "Big" Customers Can Use System In "Big" Ways Without It Collapsing
-**** Reduce Costs Of Serving Customers (But, See: Drunk, Lamppost)
-# See: drunk, lamppost issues.
-
-*** Engineer Complaints: When To Act On vs When to +Ignore+ Express Sympathy
-*** Develop Incremental Options: Small Steps Are The Only Steps Allowed
-# aka No, Really, It *Can* Be Done In Small Steps
-**** The Full Rewrite: Only Undertake If You Wish To Be Fired Midway Through a Long, Painful & Ultimately Unsuccessful Death March
-*** Stakeholders Have Feelings, Too: How To Advocate Effectively
-**** Lead With Empathy In Order To Generate Commitment
-**** Six Ineffective Ways to Advocate Before Breakfast
-**** Work Backward From a Future Collaborative Decision
-**** Use the Dark Force of "Metrics" In Your Favor
-# Talk SLI's here? Or go deep in one of my examples/war stories and reference here?
-*** Use Storytelling to Celebrate Your Wins
-** Part II: Scaling Up: Tech Investments & the Engineering Organization
-*** Addict Your Stakeholders to a Steady Habit of Decision-Making
-# Move to Part II?
-*** Make Your Post-Mortems an Act of Visibility
-*** Assign Ownership to Align Costs With Benefits
-*** 5 Scopes: On the Side, Ticket, Project, Initiative, Durable Team
-# Tease apart tiger teams vs cross-team initiatives
-*** Technical Stewardship: Weaving Tech Investments Into The Career Ladder
-** Part III: Advanced Topics For Advanced People
-*** How Engineers Actually Create Value And Why Almost No One Understands It
-**** OMG If Someone Says "Productivity" One More Time I Will Not Be Responsible For My Actions
-*** The Moral Mindset: A Powerful But Dangerous Widget of the Human Mind
-*** War Stories / Case Studies
-**** Pinch Tests
-**** EWJ's DevPlats Work
-**** Inventory Variance
-**** TRNS Criticals
-**** Couchbase or ElasticSearch Retirement
-**** SLI's & SLO's
-**** Load Testing Parent Letters
-**** Assignment Paradigm?
-**** Flex Fields?
