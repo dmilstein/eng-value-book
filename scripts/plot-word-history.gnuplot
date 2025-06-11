@@ -15,7 +15,7 @@ set ylabel "Word Count"
 # Configure x-axis for dates
 set xdata time
 set timefmt "%Y-%m-%d"
-set xrange ["2025-05-26":"2025-06-08"]
+set xrange ["2025-05-28":"2025-06-10"]
 set format x "%m/%d"
 set xtics rotate by -45
 
