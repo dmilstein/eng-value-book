@@ -3,13 +3,36 @@ Experimenting. Can I have a list of todos, outside of org-roam, but, when I'm in
 Yes, I can, apparently.
 
 * TIB Inbox                                       :inbox:
-** TODO Testing refile
 ** DONE For Understand Value, find a place early to focus briefly on profits
 CLOSED: [2025-06-09 Mon 13:02]
 E.g. when talking about revenue as the thing everyone thinks os.
 ** DONE Profits - go to the owner
 CLOSED: [2025-06-09 Mon 13:02]
 Profits aren't just a number, they *belong to* whoever owns the company. So if you own a slice of the company, you own a slice of future profits.
+** TODO Durably apply my patch to org-refile      :curwek:
+** TODO Update my detailed word count script to count headline
+** DONE Find links to The Golden Cesspool, by EWJ
+CLOSED: [2025-06-10 Tue 11:54]
+** TODO Patch up my change to org-refile.el and submit it!
+** TODO For "Y No Tech Debt" add: tech debt suggests you can "finish"
+There is an amount of debt, once it's gone, you're living clean.
+
+This is not true for technical investments.
+** TODO Add a thing about "Last year's profits"
+I know last year's profits (or I can find them out). How do I determine company value?
+
+Warning, it's a trap! People will talk to you all day about this, but they're ignoring the main driving force
+** TODO For post-mortems, tell story of Berlin, Roberto/Vahe
+They were stuck going slow, they committed to doing good post-mortems, it transformed their speed and relationship with stakeholders
+** TODO Figure out why CLI + graph word counts are different
+** TODO Rename "Rewrites: How To + How *Not* To"
+** TODO Check for files w/ :Chapter: which aren't in ToC
+** TODO Throw away most of my python code? Replace w/ sed/awk?
+** TODO Check - wordcount missing initial org section?
+YES
+** TODO For pandoc export, consider pre-processing to extract chapter text
+So then I can use a single method for all of full book word counts, chapter word counts and HelpThisBook version rendering.
+** TODO Add Game Days as Big viz for reduce duration of outages
 * Future Books
 ** TODO Collect ideas for book 2 about inteviewing + hiring
 "That Was Fun!" - How to interview so that great people can't wait to say yes
@@ -45,10 +68,6 @@ Each thing builds on the previous, so velocity is about hitting those decision p
 ** DONE Name the economically ration investor Bertha
 CLOSED: [2025-06-04 Wed 13:01]
 Or Bethesda, or Beatrix, or Snowflake
-* T[[id:D901A4C9-885B-4F42-8B8D-3595616857E8][he Value of Knowing What To Do Next]]            :gtasks:
-** TODO Maybe: put Accelerate in here?
-** TODO Def: talk about sequence of decisions
-** TODO Write the Pinch Test story
 * [[id:BB09F432-DEEB-4129-8F88-D23C86E8CEBB][Build Viz First]]                                 :gtasks:
 ** DONE Jam in some of my ideas from my notes, break out todos :pom:
 CLOSED: [2025-06-07 Sat 09:35]
@@ -63,10 +82,51 @@ CLOSED: [2025-06-08 Sun 09:58]
 ** DONE Write bad prose for Celebrate             :pom:
 CLOSED: [2025-06-08 Sun 09:58]
 ** TODO Talk about "build visibility" vs "add metrics"
-* [[id:E7DB3CD4-9B7B-425B-BF07-E2607DDD6670][Forms Value/Viz ]]                                :gtasks:curweek:
-** TODO Write 1-2 genuineely terrible             :pom:
+* T[[id:D901A4C9-885B-4F42-8B8D-3595616857E8][he Value of Knowing What To Do Next]]            :gtasks:
+** TODO Maybe: put Accelerate in here?
+** TODO Def: talk about sequence of decisions
+** TODO Write the Pinch Test story
+* [[id:17305FA7-A43F-40C9-9309-0EF3577C70D0][Author Platform]]                                 :gtasks:
+** DONE Put my email address on my Substack       :curweek:
+CLOSED: [2025-06-11 Wed 17:06]
+** TODO Post to LinkedIn once Substack is live
+** TODO Make new email address, put on Substack
+** DONE Draft a post to LinkedIn                  :curweek:
+CLOSED: [2025-06-11 Wed 17:06]
+Announce I'm working on a book, will post here sometimes, but please go join my new newsletter/Substack if you're interested for more (and/or might like to be a beta reader for a eection).
+** TODO Build some basic habit + tooling around it
+E.g. post 3-5 times/week, set up some org file that has the postings collected, and some script that uploads them for me. So it's just feeding a hopper, nothing I keep on my day-to-day todo list
+** TODO Ping Winston -- connect + learn how he build a personal platform
+Esp how he uses LI
+* [[id:E0ADBF07-90B8-4C37-81C0-96A428020F5E][Substack]]                                        :gtasks:
+** DONE Draft a test post on my substack
+CLOSED: [2025-06-09 Mon 13:11]
+** DONE Send my first post, check if Al got it    :curweek:
+CLOSED: [2025-06-11 Wed 17:06]
+** TODO Understand diff between Substack notes and posts
+** TODO Research tools to auto-post (to LI + Substack)
+So that I can queue things up and have them just go. Don't stay tied.
+* [[id:E7DB3CD4-9B7B-425B-BF07-E2607DDD6670][Forms Value/Viz]]                                 :gtasks:curweek:
+** DONE Write 1-2 genuineely terrible             :pom:
+CLOSED: [2025-06-10 Tue 09:53]
 So I can make better tomorrow
-** TODO Write a few, using Bertha
+** DONE Enable Upcoming Product Improvements      :pom:
+CLOSED: [2025-06-10 Tue 11:46]
+** TODO Reduce Steady-State Maintenance Work
+** TODO Reduce Interruptive Maintenance Work
+** TODO Ensure Many Customers Can Use System At Once
+Aka, Load & Scale
+** TODO Ensure Big Customers Can Use System In Big Ways
+** TODO Enable Parallel Development Across Multiple Teams
+** TODO Reduce Risk of Losing Data
+** TODO Reduce Frequency of Outages
+** TODO Reduce Duration of Outages
+** TODO Reduce Risk of Security Breaches
+** TODO Reduce Costs Of Serving Customers (But, See: Drunk, Lamppost)
+
+** DONE Write 1-2 genuineely terrible             :pom:
+CLOSED: [2025-06-10 Tue 09:53]
+So I can make better tomorrow
 * [[id:93FF0A9B-F54E-49D5-8154-640BBAE08D4D][Beta Readers]]                                    :gtasks:
 ** TODO Review WUB re: beta readers + partial book :curweek:
 ** TODO Add --toc to the pandoc, can I get a ToC in helpthisbook?
@@ -138,12 +198,13 @@ And also on something to watch the directory for changes, re-run that and auto-u
 I've got failing tests in Step 6, go back to those.
 ** DONE Spike on: how to do footnotes in org      :pom:
 CLOSED: [2025-06-04 Wed 15:10]
-** TODO Make the word count tool handle chapters with no sections :curweek:
-** TODO Add titles for the chapters that don't have them :curweek:
+** TODO Make the word count tool handle initial chapter text :curweek:
+** DONE Add titles for the chapters that don't have them :curweek:
+CLOSED: [2025-06-11 Wed 07:11]
 ** TODO Make my section/chapter word count look for missing Chapter filetags :curweek:
 Because now my wordcount history stuff is sensitive to those being missing.
-** TODO For my teminal UI word count thing, add some basic horizontal bars :curweek:
-** TODO Create a new chapter template or abbrev? Ugh. :curweek:
+** TODO For my teminal UI word count thing, add some basic horizontal bars
+** TODO Create a new chapter template or abbrev? Ugh.
 ** TODO Update gnuplot script to determine date range from file? :curweek:
 * [[id:49E66E86-CE83-447E-87C2-3BFF3D8FE42E][Teach/Coach]]                                     :gtasks:
 ** DONE Write template w/ offer to teach Part II
@@ -168,21 +229,6 @@ CLOSED: [2025-06-07 Sat 11:52]
  - Stakeholder (Stephanie) - meet regularly, want to offer her meaningful decisions
  - Team/Self - dig into Eligibility Engine, add tests, determine boundaries, map the code
  - You shouldn't be making time for "strategy", we've done that. You should be making time for milestones
-* [[id:E0ADBF07-90B8-4C37-81C0-96A428020F5E][Substack]]                                        :gtasks:
-** DONE Draft a test post on my substack
-CLOSED: [2025-06-09 Mon 13:11]
-** TODO Send my first post, check if Al got it    :curweek:
-** TODO Understand diff between Substack notes and posts :curweek:
-** TODO Research tools to auto-post (to LI + Substack)
-So that I can queue things up and have them just go. Don't stay tied.
-* [[id:17305FA7-A43F-40C9-9309-0EF3577C70D0][Author Platform]]                                 :gtasks:
-** TODO Make new email address, put on Substack   :curweek:
-** TODO Draft a post to LinkedIn                  :curweek:
-Announce I'm working on a book, will post here sometimes, but please go join my new newsletter/Substack if you're interested for more (and/or might like to be a beta reader for a eection).
-** TODO Build some basic habit + tooling around it
-E.g. post 3-5 times/week, set up some org file that has the postings collected, and some script that uploads them for me. So it's just feeding a hopper, nothing I keep on my day-to-day todo list
-** TODO Ping Winston -- connect + learn how he build a personal platform
-Esp how he uses LI
 * [[id:71B164B6-0AB2-4FDE-B51E-71870F553C67][The TI Cycle]]                                    :gtasks:
 ** DONE Rough draft of the overall cycle
 CLOSED: [2025-06-01 Sun 08:51]
@@ -190,6 +236,6 @@ CLOSED: [2025-06-01 Sun 08:51]
 CLOSED: [2025-06-01 Sun 08:51]
 ** DONE Revise/improve The Ti Cycle
 CLOSED: [2025-06-02 Mon 11:23]
-* [[id:03D1870C-E583-4D5C-9589-5E0799793D48][Develop Incremental Options]]                     :gtasks:
+* [[id:03D1870C-E583-4D5C-9589-5E0799793D48][Incremental Opts]]                                :gtasks:
 ** TODO Terrible first draft                      :curweek:
 ** TODO Add subsection on Off Ramps to Develop in Increments
