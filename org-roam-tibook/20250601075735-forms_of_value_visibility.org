@@ -16,17 +16,17 @@ For each, we'll first touch on why Bertha, our economically rational investor, w
 
 We'll then sketch in options for creating visibility, at different investment sizes:
 
- - Small: a quick on-the-side bit of work or a modest-scoped ticket
+ - Small: an on-the-side bit of work or a modestly-scoped ticket
 
  - Medium: a project that might take a few engineers a few weeks
 
  - Large: a multi-month cross-team initiative or the mandate for a durable team.
 
-I'm deliberately making some of the small options *very small*
+For the "Small" options I'm deliberately aiming for *very* small.
 
-I want them to be things you could do *right now* -- even if you're in the middle of some intense crunch.
+I want them to be things you could do, even if you're in the middle of some intense crunch (because the median software team is kind of always in some form of intense crunch).
 
-Get that small one out there, go back to crunching, and then check back in a week later -- maybe then you'll have enough visibility to motivate just a bit more investment.
+See if you can get that small one out there, go back to crunching, and then check back in a week later -- maybe then you'll have enough visibility to motivate just a bit more investment.
 
 A few notes, before we dive in.
 
@@ -34,9 +34,13 @@ First, Bertha's perspective is *not* intended to be a model for how your stakeho
 
 The discussions of what Bertha would think are for *you* to understand how to map engineer concerns to potential value for the business.
 
-In later chapters, we'll show how to bring your stakeholders along on this journey (and visibility will prove to be a huge part of that).
+In later chapters, we'll show how to bring your stakeholders along on this journey (and visibility will play a central role in that).
 
-Second, I do not develop precise, dollar-figure estimates of potential increases in company value. I have always been interested in doing so, but I have managed to get pretty far without such precision. Instead, I've focused on creating enough visibility to make good enough tradeoff and prioritization decisions, frequently enough. Getting into repeated decision-making loops is often more valuable than making a single decision incredibly well.[fn:: the best of both worlds is running a one-time heavyweight process to determine quantitative decison-rules that bake in an overall economic framework. See Don Reinertsen's story about aircraft weight/cost tradeoffs.]
+Second, I do not develop precise, dollar-figure estimates of potential increases in company value.
+
+I have always been interested in doing so, but instead, I've focused on creating good enough visibility to make good enough tradeoff and prioritization decisions, frequently enough.
+
+My hunch is that getting into *repeated* decision-making loops is more valuable than making a single decision incredibly well.[fn:: the best of both worlds is running a one-time heavyweight process to determine decison-rules that bake in an overall economic framework. See Don Reinertsen's story about aircraft weight/cost tradeoffs.]
 
 Okay, let's go.
 
@@ -103,9 +107,9 @@ Set up a durable team that is responsible for release tooling, and hold them acc
 
 Bootstrap an engineering-team wide practice of high-quality post-mortems, with widely visible summaries (see below).
 
-*** Notes
+*** Some Notes On Working With Accelerate Metrics
 
-A few tactical points if you are going to spend real time with the Accelerate metrics (which I heartily recommend).
+A few tactical points if you are going to spend real time with the Accelerate metrics.
 
 The second two -- Revert Frequency and Mean Time to Restore -- are a bit tricky.
 
@@ -145,7 +149,7 @@ Your product team has an ambitious plan to build something cool.
 
 Good news: customers are genuinely eager to use this cool thing!
 
-Bad news: building it requires your team to dig into that horrible part of the legacy codebase that was initially written by contractors ten years ago, has no tests that you can trust worth a damn, and is based on a data model that is a malevolent joke against your current reality.
+Bad news: building it will require your team to dig into that horrible part of the legacy codebase that was initially written by contractors ten years ago, has no tests that you can trust worth a damn, and is based on a data model that is a malevolent joke against your current reality.
 
 *** The Economic Value
 
@@ -165,29 +169,47 @@ Fundamentally, these are intertwined with the tactics for a significant rewrite 
 
 **** Small
 
-If your team is *totally unfamiliar* with the terrifying code, you can create a spreadsheet of "engineers who are able to develop, test and safely deploy a change to System X".
+If your team is *totally unfamiliar* with the terrifying code, create a spreadsheet of "engineers who are able to develop, test and safely deploy a change to System X".
 
-If your team can, like, check out and build the code, but don't know how to make any meaningful changes, you can create a spreadsheet of "engineers who know how to work in System X".
+If your team can, like, check out and build the code, but don't know how to make any meaningful changes, create a spreadsheet of "engineers who know how to work in System X".
 
-Those may sound a bit silly, but *showing* your product team a list of the exactly one engineer who can currently check out the legacy app is a genuine form of visibility. You can based your decisions and goals for an upcoming sprint on that, you can later update it and show progress over time, etc.
+Those may sound a bit silly, but *showing* your product team a list of the exactly one engineer who can currently even check out the legacy app is a genuine form of visibility.
 
-If the team understands the code, but the data model imposes a painful set of restrictions, you can write a set of user stories reflecting this.[fn:: I adore user stories -- especially in the formulation from User Stories Applied.]
+You can base your decisions and goals for an upcoming sprint on that shared visibility, you can later update it and show progress over time, etc.
 
-Why User Stories? Because saying "We're totally unable to support 'As a teacher, I can batch assign to all students in my class in one step'" is much much clearer than "We don't have reliable mappings from student to class to teachers in the database".
+If the team understands the code, but the data model imposes a painful set of restrictions, you can write a set of User Stories reflecting this[fn:: I adore user stories,- especially in the formulation from User Stories Applied.]. E.g. explain that the current data model means you're currently *unable to support*: "As a teacher, I can batch assign to all students in my class in one step". That user-story form of visibility is generally much more effective than something more abstract-sounding, like, "We don't have reliable mappings from students to classes to teachers in the database".
 
-If changes to this system have a bad habit of breaking other things, you can share that *fact* with stakeholders. No, really, that's a form of visibility!
-
-If working in this system has the potential to irreversibly corrupt key customer data, and there are no guardrails to prevent you from doing so, you can share that fact with your product team. Maybe you can find and share a few measurable guardrails (e.g. frequency of backups and/or speed of restore).
+If working in this system has the potential to irreversibly corrupt key customer data, and there are no guardrails to prevent you from doing so, you can share that fact with your product team. Try to find and share a few measurable guardrails (e.g. frequency of backups and/or speed of restore).
 
 **** Medium
 
-Weird, hidden dependencies are often at the core of why it's so difficult to safely change legacy code.
+Hidden dependencies are often at the core of why it's so difficult to safely change legacy code. Various medium-sized projects can make the dependencies in production visible. I'll sketch in a few ideas in a section below.
 
-Various medium-sized projects which can make the dependencies in production visible.
+You could run a tightly timeboxed effort to build a deliberately crude but functional prototype. This can both create visibility into current limitations (stakeholders will be able to *feel* the limitations), while also creating visibility into the specific challenges of working in this particular codebase (which can then identify and motivate further investments).
 
-One useful approach is to push "fake data" through your production systems on a regular basis. You can then make sure that every system that consumes the data knows to log and discard that fake data.
+**** Large
+
+You want to find something that matters to your customers *and* your business.
+
+It will be project-specific, because it should reflect the specific business challenges you're solving by adjusting the code.
+
+Again, the potential *value* here is already clear to the rest of the business -- you just need to show that you've enabled some of it.
+
+As an example, at Ellevation, Justin Hildebrandt led a major effort to restructure a student-facing product, in order to better support the various workflows that teachers needed to assig and reassign work to students.
+
+Justin spent real time ensuring his stakeholders understood the limitations of the old, rigid assignment system. Once the team had stitched a more flexible one through the code (which involved touching almost every part of it, because assignment was so fundamental to how the product modeled the world), they were able to demo some basic new features that were simply impossible to build before.
+
+Such demos were a very powerful form of visible progress -- and they were perceived as valuable in no small part because Justin took the time to ensure everyone understood what *wasn't* possible before.
+
+*** Tactics For Making Dependencies Visible
+
+Code dependencies are bad enough, but the really nasty problems tend to come from *data* dependencies -- things your compiler and unit tests have no idea are happening behind their backs.
+
+One useful approach to finding data dependencies is to push "fake data" through your production systems on a regular basis. You can then make sure that every system that consumes the data knows to log and discard that fake data.
 
 E.g. you can add a series of known transactions from "Robert ;Drop All", every day, as a sort of tracer bullet, fired into your systems.
+
+# XXX add link to the tracer bullet pattern, which totally exists?
 
 Initially, that will create a flurry of exciting production bugs as people start finding Bobby in systems you had no idea consumed your data.
 
@@ -201,54 +223,29 @@ It is usually much faster to learn by attempting to add something deliberately f
 
 Okay, off soapbox now.
 
-Anand Mukhandan did a brilliant version of this at Wayfair, when he took a simply terrifying giant PHP file with hundreds of distinct if statements and figured out a way to log the *combinations* of ifs that were most often getting triggered in production, which he could then factor out into coherent functions.
+Anand Mukhandan did a brilliant version of this at Wayfair, when he took a terrifying giant PHP file with hundreds of distinct if statements and figured out a way to log the *combinations* of ifs that were most often getting triggered in production, which he could then factor out into coherent functions.
 
-**** Large
-
-For "major" forms of visibility, you want to find something that matters to your customers *and* your business.
-
-That will project-specific, because it should reflect the specific business challenges you're solving by adjusting the code.
-
-Again, the potential *value* here is already clear to the rest of the business -- you just need to show that you've enabled some of it.
-
-As an example, at Ellevation, Justin Hildebrandt led a major effort to restructure a student-facing product, in order to better support the various workflows that teachers needed for assigning and reassigning work to students.
-
-Justin spent real time ensuring his stakeholders understood the limitations of the old, rigid assignment system. Once the team had stitched a more flexible one through the code, they were able to demo some basic new features that were simply impossible to build before.
-
-Such demos were a very powerful form of visible progress -- and they were perceived as valuable in no small part because Justin took the time to ensure everyone understood what *wasn't* possible before.
-
-*** Notes
+*** The Golden Cesspool
 
 I will make a bold prediction: this specific flavor of technical invstment opportunity is never going to go out of style.
 
-Edmund points out that almost all companies have some genuinely hideous mass of code that sits at the heart of their business.
+As Edmund says in his blog post, The Golden Cesspool[fn:: https://www.tomheon.com/2017/03/24/the-golden-cesspool/], almost all companies seem to have some genuinely hideous mass of code sitting at the heart of their business.
 
-He calls this The Golden Cesspool - https://www.tomheon.com/2017/03/24/the-golden-cesspool/
-
-To name a few /completely theoretical/ examples:
-
- - The ad billing engine for a travel site
-
- - Order shipping logic for an ecommerce site
-
- - Eligibility calculations for a health care company
-
- - Student selection and filtering logic, for an EdTech company
-
-In each case, tons of complex business logic has been shoved into the code over the years, all sorts of state gets updated in all sorts of deeply non-obvious ways.
+Over the years tons of complex business logic has been shoved into that cesspool. Lots of other critical processes are tied to data updates in the cesspool. All sorts of state gets updated in all sorts of deeply non-obvious ways.
 
 Your engineering team likely already thinks about this morass as a prime example of tech debt, and are itching to rewrite it.
 
-They may, in fact, resist your attempt to methodically build visibility and incrementally improve things, with each increment slowly unlocking some set of product capabilities.
+They may, in fact, resist an attempt to methodically build visibility and then incrementally improve things (with each increment unlocking some narrow set of product capabilities).
 
-Instead, they'll make the faux-economic argument that it'd be better to just commit to a ground-up rewrite of that core system. They'll claim that it will be both faster and cheaper to do so "from scratch" rather than through a slow, incremental shift.
+Instead, they'll make the faux-economic argument that it'd be better to just commit to a ground-up rewrite of that core system.
+
+They'll claim that it will be both faster and cheaper to do so "from scratch" rather than through a slow, incremental shift.
 
 Once that rewrite is fully finished, the things the product team are asking for will be super easy to build!
 
 What could go wrong?
 
 Please see our later chapter: "The Giant Rewrite: Only Undertake If You Wish To Be Fired Midway Through a Long, Painful & Ultimately Unsuccessful Death March", which has some tips on how one *can* gradually rewrite such systems.
-
 
 ** Reduce Steady-State Maintenance Work
 *** The Economic Value
