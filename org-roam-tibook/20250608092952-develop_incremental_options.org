@@ -3,4 +3,7 @@
 :END:
 #+title: Develop Incremental Options
 #+filetags: :Chapter:
-* Develop Incremental Options
+* Build Milestones Around Decisions
+Maybe retitle "Set Milestones to Enable Decisions"
+
+""
