@@ -67,6 +67,24 @@ class TestChapter(unittest.TestCase):
 
         self.assertEqual(chapter.calculate_word_count(), 4 + 5)
 
+    def test_chapter_calculate_word_count_with_intro(self):
+        """Test word count calculation including intro content."""
+        chapter = Chapter(title="Test Chapter")
+        chapter._intro_word_count = 10
+
+        section1 = Section(title="Section 1", content="This has four words.")
+        chapter.add_section(section1)
+
+        # Should include both section and intro word counts
+        self.assertEqual(chapter.calculate_word_count(), 4 + 10)
+
+    def test_chapter_intro_word_count_initialization(self):
+        """Test that intro word count is initialized to 0."""
+        chapter = Chapter(title="Test Chapter")
+        
+        self.assertEqual(chapter._intro_word_count, 0)
+        self.assertEqual(chapter.calculate_word_count(), 0)
+
     def test_chapter_get_section_by_title(self):
         """Test finding sections by title."""
         chapter = Chapter(title="Test Chapter")

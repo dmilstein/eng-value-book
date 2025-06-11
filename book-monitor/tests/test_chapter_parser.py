@@ -152,6 +152,8 @@ Just some regular text content.
         self.assertIsNotNone(chapter)
         self.assertEqual(chapter.title, "Chapter Title")
         self.assertEqual(len(chapter.sections), 0)
+        # Should count intro content: "This chapter has content but no sections. Just some regular text content." (13 words)
+        self.assertEqual(chapter.calculate_word_count(), 13)
 
     def test_missing_file(self):
         """Test handling of missing file."""
@@ -211,6 +213,94 @@ Regular text after code block.
         self.assertEqual(len(chapter.sections), 1)
         # Should count: This has bold text and italic text Regular text after code block (12 words)
         self.assertEqual(chapter.sections[0].word_count, 12)
+
+
+    def test_intro_content_word_counting(self):
+        """Test that intro content (before first section) is counted."""
+        content = """* Chapter Title
+
+This is intro content before any sections.
+It has multiple sentences and should be counted.
+
+** First Section
+
+This is section content.
+
+** Second Section
+
+More section content here.
+"""
+        file_path = self._create_test_file("test.org", content)
+        parser = ChapterParser(file_path)
+        chapter = parser.parse()
+
+        self.assertIsNotNone(chapter)
+        self.assertEqual(len(chapter.sections), 2)
+        
+        # Check section word counts
+        self.assertEqual(chapter.sections[0].word_count, 4)  # "This is section content."
+        self.assertEqual(chapter.sections[1].word_count, 4)  # "More section content here."
+        
+        # Check total includes intro content
+        # Intro: "This is intro content before any sections. It has multiple sentences and should be counted." (15 words)
+        # Sections: 4 + 4 = 8 words
+        # Total: 15 + 8 = 23 words
+        self.assertEqual(chapter.calculate_word_count(), 23)
+
+    def test_intro_content_with_org_markup(self):
+        """Test that intro content word counting excludes org markup."""
+        content = """* Chapter Title
+
+This intro has *bold text* and /italic text/.
+
+#+BEGIN_SRC python
+def code():
+    return "not counted"
+#+END_SRC
+
+Regular intro text after code block.
+
+** Section One
+
+Section content here.
+"""
+        file_path = self._create_test_file("test.org", content)
+        parser = ChapterParser(file_path)
+        chapter = parser.parse()
+
+        self.assertIsNotNone(chapter)
+        self.assertEqual(len(chapter.sections), 1)
+        
+        # Section: "Section content here." (3 words)
+        self.assertEqual(chapter.sections[0].word_count, 3)
+        
+        # Intro should count: "This intro has bold text and italic text Regular intro text after code block" (14 words)
+        # Total: 14 + 3 = 17 words
+        self.assertEqual(chapter.calculate_word_count(), 17)
+
+    def test_no_intro_content(self):
+        """Test chapter with sections but no intro content."""
+        content = """* Chapter Title
+** First Section
+
+Section content only.
+
+** Second Section
+
+More section content.
+"""
+        file_path = self._create_test_file("test.org", content)
+        parser = ChapterParser(file_path)
+        chapter = parser.parse()
+
+        self.assertIsNotNone(chapter)
+        self.assertEqual(len(chapter.sections), 2)
+        
+        # Should only count section content, no intro
+        # Section 1: "Section content only." (3 words)
+        # Section 2: "More section content." (3 words)
+        # Total: 3 + 3 = 6 words
+        self.assertEqual(chapter.calculate_word_count(), 6)
 
 
 if __name__ == '__main__':
