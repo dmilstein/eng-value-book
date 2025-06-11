@@ -112,11 +112,29 @@ class ChapterParser:
         sections = []
         lines = chapter_content.split('\n')
         
+        # Track intro content (before first subsection)
+        intro_content_lines = []
         current_section = None
         current_content_lines = []
+        found_first_subsection = False
         
-        for line in lines:
+        for i, line in enumerate(lines):
             if line.startswith('** '):
+                # If this is the first subsection, save intro content
+                if not found_first_subsection:
+                    found_first_subsection = True
+                    intro_content = '\n'.join(intro_content_lines).strip()
+                    if intro_content:
+                        word_count = count_words(intro_content)
+                        intro_section = Section(
+                            title="Introduction",
+                            content=intro_content,
+                            order=0
+                        )
+                        # Override the auto-calculated word count with our org-aware count
+                        intro_section.word_count = word_count
+                        sections.append(intro_section)
+                
                 # Save previous section if exists
                 if current_section is not None:
                     content = '\n'.join(current_content_lines).strip()
@@ -143,6 +161,24 @@ class ChapterParser:
             elif current_section is not None:
                 # Add line to current section content
                 current_content_lines.append(line)
+            
+            elif not found_first_subsection and i > 0:  # Skip the chapter title line
+                # Add line to intro content (before first subsection)
+                intro_content_lines.append(line)
+        
+        # If no subsections were found, treat all content after title as intro
+        if not found_first_subsection:
+            intro_content = '\n'.join(intro_content_lines).strip()
+            if intro_content:
+                word_count = count_words(intro_content)
+                intro_section = Section(
+                    title="Introduction",
+                    content=intro_content,
+                    order=0
+                )
+                # Override the auto-calculated word count with our org-aware count
+                intro_section.word_count = word_count
+                sections.append(intro_section)
         
         # Save last section if exists
         if current_section is not None:
