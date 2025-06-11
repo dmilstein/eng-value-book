@@ -14,60 +14,70 @@ Feel free to pick and choose the ones that you think might be useful to you, in 
 
 For each, we'll first touch on why Bertha, our economically rational investor, would consider an investment to be potentially valuable.
 
-We'll then explore small/medium/large options for creating visibility into that value.
+We'll then sketch in options for creating visibility, at different investment sizes:
 
-Small is something in the vicinity of a ticket; medium is a couple week long project; large is an initiative or durable team.
+ - Small: a quick on-the-side bit of work or a modest-scoped ticket
 
-A specific goal is that, the small options are things you could do *right now* -- even if you're in the middle of some intense crunch.
+ - Medium: a project that might take a few engineers a few weeks
+
+ - Large: a multi-month cross-team initiative or the mandate for a durable team.
+
+I'm deliberately making some of the small options *very small*
+
+I want them to be things you could do *right now* -- even if you're in the middle of some intense crunch.
 
 Get that small one out there, go back to crunching, and then check back in a week later -- maybe then you'll have enough visibility to motivate just a bit more investment.
 
 A few notes, before we dive in.
 
-First, Bertha's perspetive is *not* intended to be a model for how your stakeholders think (unless you happen to have some super-rational stakeholders? Which would be awesome? But also pretty surprising?).
+First, Bertha's perspective is *not* intended to be a model for how your stakeholders think (unless you happen to have some, like, *extremely* rational stakeholders? Which would be awesome? But also surprising?).
 
-Rather, they are for *you* to understand how to map engineer concerns to potential value for the business.
+The discussions of what Bertha would think are for *you* to understand how to map engineer concerns to potential value for the business.
 
-In later chapters, we'll map out how to bring your stakeholders along on this journey (and visibility will prove to be a huge part of that).
+In later chapters, we'll show how to bring your stakeholders along on this journey (and visibility will prove to be a huge part of that).
 
-Second, I do not, in the below, develop precise, dollar-figuree estimates of potential increases in company value. I have always been interested in the idea of doing so, but have managed to get pretty far without such precision. Instead, I've focused on creating sufficient visibility to make good enough tradeoff and prioritization decisions, frequently.
+Second, I do not develop precise, dollar-figure estimates of potential increases in company value. I have always been interested in doing so, but I have managed to get pretty far without such precision. Instead, I've focused on creating enough visibility to make good enough tradeoff and prioritization decisions, frequently enough. Getting into repeated decision-making loops is often more valuable than making a single decision incredibly well.[fn:: the best of both worlds is running a one-time heavyweight process to determine quantitative decison-rules that bake in an overall economic framework. See Don Reinertsen's story about aircraft weight/cost tradeoffs.]
 
 Okay, let's go.
 
 ** Ship Smaller Changes More Often
 *** The Economic Value
 
-Our economically rational investor Bertha understands that your company's future profits are, ultimately, influenced by by how quickly your engineering and product team can go through repeated cycles of where they build, then ship, and then *learn* (and then start over again with build).
+Our economically rational investor Bertha understands that your company's future profits are, ultimately, strongly influenced by by how quickly your engineering and product team can go through repeated cycles where they build, then ship, and then *learn* (and then start over again with build).
 
-Being rational, she'll understand that it is only through such learning loops that teams can gradually hone in on software that is both *valuable to customers* and *viable to build* (the intersection set of those two is essentially impossible to predict in advance).
+Being, frankly, *more* rational than the median software company CEO, she understands that it is only through such learning loops that teams can hone in on software that is both *valuable to customers* and *feasible to build* (the intersection set of those two is essentially impossible to predict in advance).
 
-The faster teams can go through such loops, the more quickly they'll be able to develop new products or services that customers are willing to pay for (or be able to address issues that are causing customers to churn, or be able to reduce the cost to serve customers, etc)..
+The faster teams can go through such loops, the more quickly they'll be able to develop new products or services that customers are willing to pay for (and be able to address issues that are causing customers to churn, and be able to reduce the cost to serve customers, etc).
 
-For a company where technology plays some central role the business, those discovery cycles are the heart of how engineering and product teams increase company value -- so the speed of discovery has a huge long-term impact.
+For a company where technology plays some central role in the business, those discovery loops are at the very heart of how engineering and product teams increase company value.
 
-I'm going to devote  a chapter [or an appendix?] to [[id:D901A4C9-885B-4F42-8B8D-3595616857E8][The Extraordinary Value of Knowing What To Do Next]].
+Thus, the speed of learning and discovery has a huge, multiplicative long-term impact.
 
-Luckily, both you and Bertha have some support in this perspective, thanks to the *truly marvelous* book Accelerate, in which <XXX and XXX>, demonstrate a clear link between long-term company value and the speed, frequency and safety which which teams are able to ship code.[fn:: shipping code isn't the same as releasing it. Value is created if small changes are frequently *deployed* to production, even if customers can't *see* those changes -- e.g. because they are hidden behind feature flags.]
+A team that goes from shipping once a quarter to shipping once a month can make *3 times* as many decisions-based-on-learning in a year.
+
+(For those curious to learn more, please enjoy [[id:D901A4C9-885B-4F42-8B8D-3595616857E8][The Extraordinary Value of Knowing What To Do Next]], which I have crammed into an appendix because, frankly, I could not help myself)
+
+But, wait, if Bertha is *more* rational than the median company CEO, because the median company CEO doesn't fully understand the value of being able to safely and quickly ship small changes, how can you motivate investment in this area?
+
+Luckily, you and Bertha have strong support for your shared belief in the economic value of improving deploys, thanks to the truly marvelous book Accelerate.
+
+<XXX and XXX> conducted *actually valid research* (in software engineering! it's nearly unique!) and demonstrate a clear link between long-term company value and the speed, frequency and safety which which teams are able to ship code.[fn:: shipping code isn't the same as releasing it. Value is created if small changes are frequently *deployed* to production, even if customers can't *see* those changes -- e.g. because they are hidden behind feature flags.]
 
 Accelerate names 4 Golden Metrics:
 
  - Deploy Lead Time: the time to get a single change out to production
 
- - Change Frequency: how often each engineers ships changes to production
+ - Change Frequency: how often each engineer ships changes to production
 
- - Revert Frequency: how often engineers have to revert changes
+ - Revert Frequency: how often changes have to be reverted after deploy
 
  - Mean Time to Recover: the average duration of outages
 
-I've had a lot of luck with focusing metrics on the first two, which tend to be bit more amenable to straightforward measurement.
-
-For reverts and outages, I've usually created visibility by way of thorough post-mortems with clear, widely shared summaries of the findings (see [[id:3DE23585-34F0-4C88-A16B-4558ACC45C99][Make Your Post-Mortems an Act of Visibility]]).
-
-All that said, I (no longer!) ask my stakeholders to read Accelerate. Instead, my recommended game plan is:
+That said, I (no longer!) ask my stakeholders to read Accelerate. Instead, my current game plan is:
 
  - Name "smaller, more frequent deploys" as a known industry best practice
 
- - Cite Accelerate as part of the evidence for that
+ - Cite Accelerate as research-based evidence
 
  - Ensure the Accelerate metrics are both visible to and understood by stakeholders
 
@@ -76,30 +86,58 @@ All that said, I (no longer!) ask my stakeholders to read Accelerate. Instead, m
 *** Forms of Visibility
 **** Small
 
-Ask engineers to manually log their deploys in a spreadsheet, in a way that allows you to derive both Change Frequency and Deploy Lead Time.
+Ask engineers to manually log their deploys in a spreadsheet.
 
-Write some quick and dirty scripts to scrape log files in order to determine Change Frequency (and possibly some of Deploy Lead Time).
+Write some quick and dirty scripts to scrape log files.
 
 Run a weekly survey or Slack workflow to ask people about how long the worst deploy they did in the last week took.
 
 **** Medium
-Instrument your deploy pipeline more fully, measure how long various stages within it are taking.
+Capture versions of 1-2 Accelerate metrics.
 
-This is "medium" weight because turning those measurements into useful version of Change Frequency and Deploy Lead Time will require a fair bit of judgment and discussion, to answer questions such as:
+Instrument your deploy pipeline to measure how long various stages within it are taking.
 
- - How do we determine when an engineer "intends" to ship a change to production?
+**** Large
 
- - Do we break out measurements for different "kinds" of deploys (front end vs back end, legacy code vs new system, one repo vs another)?
+Set up a durable team that is responsible for release tooling, and hold them accountable to reporting on the core Accelerate metrics.
+
+Bootstrap an engineering-team wide practice of high-quality post-mortems, with widely visible summaries (see below).
+
+*** Notes
+
+A few tactical points if you are going to spend real time with the Accelerate metrics (which I heartily recommend).
+
+The second two -- Revert Frequency and Mean Time to Restore -- are a bit tricky.
+
+Each represents a genuinely important piece of the puzzle of enabling small, safe, frequent deploys... but I've never found a way to stick a *number* on them that didn't immediately get stuck in a definitional morass:
+
+ - When is an urgent redeploy actually a "revert"?
+
+ - When is a revert just a planned test?
+
+   Say, by some engineer exploring an issue in that one horrible part of your system that requires deploys to work on at all? (You know, the part where the git commits all say things like "Maybe fix this time?", "Goddamn it", "Work plz")
+
+ - When do we say an outage is fully "over"?
+
+Your log files don't tend to have good proxies for these.
+
+Thus, instead of aiming for *numbers* to build visibility into these proxies for resilience, I recommend developing a practice of running thorough post-mortems with clear, widely shared summaries of the findings (see [[id:3DE23585-34F0-4C88-A16B-4558ACC45C99][Make Your Post-Mortems an Act of Visibility]]).
+
+That said, I *do* recommend measuring Deploy Lead Time and Change Frequency.
+
+Those are super powerful and tend to be more amenable to measurement from your technical systems.
+
+As you dig in, be ready to spend real time to wrestling with questions such as:
+
+ - Do we break out measurements for different "kinds" of deploys (front end vs back end, legacy code vs new system, one repo vs another, one team vs another)?
+
+ - How do we determine when an engineer "intended" to ship a change to production?
 
  - How do we measure / report on engineers batching up sets of changes and shipping all of them at once?
 
  - How do we measure / report on single "conceptual" changes that require multiple deploys to get fully live?
 
  - Do we distinguish the hot fix/urgent path from normal deploys?
-
-**** Large
-
-If you set up a durable team that is responsible for release tooling, you can hold them accountable to reporting on these core metrics.
 
 ** Enable Upcoming Product Improvements
 # MOAR BAD PROSE, GO
