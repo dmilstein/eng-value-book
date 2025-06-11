@@ -247,6 +247,12 @@ What could go wrong?
 
 Please see our later chapter: "The Giant Rewrite: Only Undertake If You Wish To Later Be Fired Midway Through a Long & Painful Death March", which has some tips on how one *can* gradually rewrite such systems.
 
+** Enable Parallel Development Across Multiple Teams
+*** The Economic Value
+*** Forms of Visibility
+**** Small
+**** Medium
+**** Large
 ** Reduce Steady-State Operational Work
 Most engineering teams I've seen have, in addition to their "main" work, at least three buckets of things that take their time.
 
@@ -254,7 +260,7 @@ Most engineering teams I've seen have, in addition to their "main" work, at leas
 
  - Production bugs with varying degrees of urgency
 
- - Resolving outages and incidents
+ - Outages and incidents
 
 There's no bright line dividing those three, but I have found different tactics to be useful for each.
 
@@ -278,19 +284,19 @@ This is anything which the engineering team does for *some* stakeholder on a reg
 
 There are two distinct ways that Bertha understands value here.
 
-First, whatever operational work the engineers are doing is presumably creating *some* form of value -- but often that value does not accrue to *their stakeholders*.
+First, whatever operational work the engineers are doing is presumably creating *some* form of value -- but often that value does not accrue to *their stakeholders*, nor is necessarily visible to their stakeholders.
 
 # a) that value is not *visible* to their stakeholders, and, b) if it is visible, it may be perceived as "not theirs".
 
 i.e. say a team spends a week testing their ability to restore from backups.
 
-In so doing, they find out something terrifying -- all of their backups were in subtly wrong format, so the attempts to restore all stall out and then fail. The team quickly adjusts the format, takes a back up, verifies they can restore, and then breathes a huge sigh of relief (and likely inhales a big slug of whiskey).
+In so doing, they find out something terrifying -- all of their backups were in a subtly wrong format, so the attempts to restore stall out and then fail. The team quickly adjusts the format, takes a back up, verifies they can restore, and then breathes a huge sigh of relief (and likely inhales a slug of whiskey).
 
 In that week, theose engineers created a *ton of value* for the company.
 
 Bertha would say that they have meaningfully reduced the risk of angering and then losing customers -- and she would price that into her estimate of future profits.[fn:: If you're thinking, "But wait, if they didn't know about this beforehand, why is Bertha marking them as more valuable now?". The answer is actually pretty simple: if the team *hasn't* been regularly exercising their restores, Bertha will price the company as if there's a pretty good chance that they *can't* sucessfully restore. In other words, "But, we didn't know!" doesn't help you much with Bertha.]
 
-However, even if their product team understands this (which is not typically the case), it's hard for them to be excited about it, when they are being beaten up daily by executives about the sluggish pace of delivery.
+However, even if their product team understands this (which is not always the case), it's hard for them to be excited about it... when they are being beaten up daily by executives about the sluggish pace of delivery.
 
 This leads to the terrible anti-pattern of saying "Well, that's just engineering work."
 
@@ -303,14 +309,13 @@ The second way Bertha can understand potential value here is that the engineers 
 **** Large
 
 *** See: Ownership / Alignment
-
 ** Reduce Interruptive Maintenance Work
 *** The Economic Value
 *** Forms of Visibility
 **** Small
 **** Medium
 **** Large
-** Enable Parallel Development Across Multiple Teams
+** Reduce Frequency & Duration of Outages
 *** The Economic Value
 *** Forms of Visibility
 **** Small
@@ -322,19 +327,7 @@ The second way Bertha can understand potential value here is that the engineers 
 **** Small
 **** Medium
 **** Large
-** Reduce Frequency of Outages
-*** The Economic Value
-*** Forms of Visibility
-**** Small
-**** Medium
-**** Large
-** Reduce Duration of Outages
-*** The Economic Value
-*** Forms of Visibility
-**** Small
-**** Medium
-**** Large
-** Reduce Risk of Security Breaches
+** Reduce Risk of a Security Breach
 *** The Economic Value
 *** Forms of Visibility
 **** Small
@@ -353,7 +346,8 @@ Aka, Load & Scale
 **** Small
 **** Medium
 **** Large
-** Reduce Costs Of Serving Customers (But, See: Drunk, Lamppost)
+** Reduce Cost Of Serving Customers
+(But, See: Drunk, Lamppost)
 *** The Economic Value
 *** Forms of Visibility
 **** Small
