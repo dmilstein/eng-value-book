@@ -16,3 +16,11 @@ What are some simple / dumb ideas:
  - Within each chapter, create a TODO's heading, below the main text, can stash things there, clone the buffer for that. Use C-c / to grab those. Scatter TODO's throughout my writing? Or, store links and HAVE the todos link to those. Or write a TODO and stask a small link to it? So that my thoughts end up being little linked '#' or something? That's interesting. Could do those in the flow. If I can write a little mini capture tempalte that could be good, and it wouldn't break up the reading flow.
 
  - For the main tib-todo list, maybe I break out 4-5 separate todos, which *do* get checked off each day? Or a recurring "TIB Writing Block"? Hmm. Or "Chapter 2 Writing Block".
+
+If I want to hide comments, check out:
+
+https://github.com/emacsmirror/hide-comnt/blob/master/hide-comnt.el
+
+Alternatively, might be able to use hideshow mode, ala:
+
+https://emacs.stackexchange.com/questions/37064/hide-only-comments
