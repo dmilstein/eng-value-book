@@ -139,19 +139,93 @@ As you dig in, be ready to spend real time to wrestling with questions such as:
 
  - Do we distinguish the hot fix/urgent path from normal deploys?
 
-** Enable Upcoming Product Improvements
-# MOAR BAD PROSE, GO
-Edmund Jorgensen has observed that most companies seem to have some genuinely hideous mass of code that is sits at the heart of the business:
+** Enable (Specific) Product Improvements
 
-https://www.tomheon.com/2017/03/24/the-golden-cesspool/
+Your product team has an ambitious plan to build something cool.
 
-He calls this The Golden Cesspool.
+Good news: customers are genuinely eager to use this cool thing!
 
-A lot of tech debt concerns show up thanks to our friend the Golden Cesspool.
+Bad news: building it requires your team to dig into that horrible part of the legacy codebase that was initially written by contractors ten years ago, has no tests that you can trust worth a damn, and is based on a data model that is a malevolent joke against your current reality.
 
-Your product team is trying to jam something out as quickly as possible, but, unfortunately, doing so seems to require fundamentally restructuring that terrifying hairball of code that is running your most important transactions, every single day.
+*** The Economic Value
 
-To name a few totally-made-up-examples:
+The core trick here is to convert this from a technical investment to a *product* investment.
+
+In other words, the product team *already thinks* there's value here -- they just don't realize there's more of a *cost* than usual.
+
+Let your product team talk to Bertha about how great it will be once this new features ships.
+
+Bertha is ready to hear from you that she should be careful about how strongly she believes in this promise of future profits, given the risks larded throughout this part of your codebase.
+
+Making those risks visible and gradually wearing them down will therefore create value.
+
+*** Forms of Visibility
+
+Fundamentally, these are intertwined with the tactics for a significant rewrite -- e.g. see my How to Survive a Ground Up Rewrite. But I'll call out a couple with specific tactics with regard to visibility.
+
+**** Small
+
+If your team is *totally unfamiliar* with the terrifying code, you can create a spreadsheet of "engineers who are able to develop, test and safely deploy a change to System X".
+
+If your team can, like, check out and build the code, but don't know how to make any meaningful changes, you can create a spreadsheet of "engineers who know how to work in System X".
+
+Those may sound a bit silly, but *showing* your product team a list of the exactly one engineer who can currently check out the legacy app is a genuine form of visibility. You can based your decisions and goals for an upcoming sprint on that, you can later update it and show progress over time, etc.
+
+If the team understands the code, but the data model imposes a painful set of restrictions, you can write a set of user stories reflecting this.[fn:: I adore user stories -- especially in the formulation from User Stories Applied.]
+
+Why User Stories? Because saying "We're totally unable to support 'As a teacher, I can batch assign to all students in my class in one step'" is much much clearer than "We don't have reliable mappings from student to class to teachers in the database".
+
+If changes to this system have a bad habit of breaking other things, you can share that *fact* with stakeholders. No, really, that's a form of visibility!
+
+If working in this system has the potential to irreversibly corrupt key customer data, and there are no guardrails to prevent you from doing so, you can share that fact with your product team. Maybe you can find and share a few measurable guardrails (e.g. frequency of backups and/or speed of restore).
+
+**** Medium
+
+Weird, hidden dependencies are often at the core of why it's so difficult to safely change legacy code.
+
+Various medium-sized projects which can make the dependencies in production visible.
+
+One useful approach is to push "fake data" through your production systems on a regular basis. You can then make sure that every system that consumes the data knows to log and discard that fake data.
+
+E.g. you can add a series of known transactions from "Robert ;Drop All", every day, as a sort of tracer bullet, fired into your systems.
+
+Initially, that will create a flurry of exciting production bugs as people start finding Bobby in systems you had no idea consumed your data.
+
+Those bugs are a small price to pay for gradually mapping out the hidden data dependencies.[fn:: As a bonus, you can then start monitoring for the *presence* of Bobby transactions, which will totally save you some day, when a trivial config adjustment silently kills the flow of data to your most important consumer]
+
+Brief soapbox rant: engineers or stakeholders might say "Oh, that's going to take too much time, we don't know enough about how the code works to safely add fake transactions."
+
+Um, if you don't know how to add fake transactions, you don't know how to add *real transactions*.
+
+It is usually much faster to learn by attempting to add something deliberately fake and *looking for it* than by shoving through a real change and then spending the next several months getting absolutely nothing done because you silently broke half of production (and now enjoy a parade of people showing up at your desk, furious and/or distraught).
+
+Okay, off soapbox now.
+
+Anand Mukhandan did a brilliant version of this at Wayfair, when he took a simply terrifying giant PHP file with hundreds of distinct if statements and figured out a way to log the *combinations* of ifs that were most often getting triggered in production, which he could then factor out into coherent functions.
+
+**** Large
+
+For "major" forms of visibility, you want to find something that matters to your customers *and* your business.
+
+That will project-specific, because it should reflect the specific business challenges you're solving by adjusting the code.
+
+Again, the potential *value* here is already clear to the rest of the business -- you just need to show that you've enabled some of it.
+
+As an example, at Ellevation, Justin Hildebrandt led a major effort to restructure a student-facing product, in order to better support the various workflows that teachers needed for assigning and reassigning work to students.
+
+Justin spent real time ensuring his stakeholders understood the limitations of the old, rigid assignment system. Once the team had stitched a more flexible one through the code, they were able to demo some basic new features that were simply impossible to build before.
+
+Such demos were a very powerful form of visible progress -- and they were perceived as valuable in no small part because Justin took the time to ensure everyone understood what *wasn't* possible before.
+
+*** Notes
+
+I will make a bold prediction: this specific flavor of technical invstment opportunity is never going to go out of style.
+
+Edmund points out that almost all companies have some genuinely hideous mass of code that sits at the heart of their business.
+
+He calls this The Golden Cesspool - https://www.tomheon.com/2017/03/24/the-golden-cesspool/
+
+To name a few /completely theoretical/ examples:
 
  - The ad billing engine for a travel site
 
@@ -159,58 +233,22 @@ To name a few totally-made-up-examples:
 
  - Eligibility calculations for a health care company
 
- - Student selection and filtering logic, for an EdTech administration company
+ - Student selection and filtering logic, for an EdTech company
 
-In each case, tons of complex business logic has been shoved in over the years, all sorts of state gets updated in all sorts of deeply non-obvious ways. Any time someone  wants to fix something, they've gotta go find that one engineer who the company just keeps around for emergencies, etc.
+In each case, tons of complex business logic has been shoved into the code over the years, all sorts of state gets updated in all sorts of deeply non-obvious ways.
 
-*** The Economic Value
+Your engineering team likely already thinks about this morass as a prime example of tech debt, and are itching to rewrite it.
 
-The core trick here is to convert this from a technical investment to a *product* investment.
+They may, in fact, resist your attempt to methodically build visibility and incrementally improve things, with each increment slowly unlocking some set of product capabilities.
 
-In other words, the product team *already thinks* there's value here -- they just don't understand how best to realize that value.
+Instead, they'll make the faux-economic argument that it'd be better to just commit to a ground-up rewrite of that core system. They'll claim that it will be both faster and cheaper to do so "from scratch" rather than through a slow, incremental shift.
 
-Let your product team talk to Bertha.
+Once that rewrite is fully finished, the things the product team are asking for will be super easy to build!
 
-*** Forms of Visibility
+What could go wrong?
 
-Fundamentally, these are intertwined with the tactics for significant rewrites -- e.g. see my How to Survive a Ground Up Rewrite. But I'll call out a couple with specific tactics with regard to visibility.
+Please see our later chapter: "The Giant Rewrite: Only Undertake If You Wish To Be Fired Midway Through a Long, Painful & Ultimately Unsuccessful Death March", which has some tips on how one *can* gradually rewrite such systems.
 
-**** Small
-
-If your team is totally unfamiliar with the code, you could create a spreadsheet of "engineers who are able to develop, test and safely deploy a change to System X", and share w/ your product team.
-
-If your team *can* check out and build the code, but don't know how to make any meaningful changes, you could create a spreadsheet of "engineers who know how to work in System X", share with product team.
-
-If the team understands the code, but the data model impose a painful set of restrictions, you could write a set of user stories of what is and is not possible to build, and share with product team[fn:: I adore user stories -- especially in the formulation from User Stories Applied.]
-
-If changes to System X have a bad habit of breaking other things, you can share that fact with stakeholders, along with an estimate of how much development will be slowed due to constant debugging of weird issues. If one of those issues is "potential data corruption", you should make that estimate of time lost very, very high.
-
-**** Medium
-If crazy dependencies are an issue, there are various medium-sized projects which can make the dependencies visible.
-
-One useful trick can be to push "fake data" through your production data pipelines on a regular basis, and make sure that every system that consumes the data knows to log and discard that fake data.
-
-E.g. you can add a series of known transactions from "Robert ;Drop All", every day, as a sort of tracer bullet, fired into your systems.
-
-Initially, that will create a flurry of exciting production bugs as people start finding Bobby in systems you had no idea consumed your data.
-
-Those bugs are a small price to pay for gradually mapping out the hidden data dependencies.[fn:: As a bonus, you can then start monitoring for the *presence* of Bobby transactions, which will totally save you some day, when a trivial config changes silently kills the flow of data to some unwitting consumer]
-
-People will say things like "Oh, that's going to take too much time, we don't know enough about how the code works to safely add fake transactions." If you don't know how to add fake transactions, you don't know how to safely change the code to add or change *real transactions*. It will often be faster to learn by attempting to add something deliberately fake than by shoving through a real change.
-
-# Anand Mukhardan did a brilliant version of this at Wayfair, when he took a simply terrifying giant PHP file with hundreds of distinct if statements and figured out a way to log the *combinations* of ifs that were most often getting triggered, which he could then factor out into coherent functions.
-
-**** Large
-
-Ideally, you should aim to find something that matters to your customers and your business, as a way to create visibility into having successfully enabled new kinds of changes.
-
-That will (and should be!) project-specific, because it should reflect the specific business challenges you're solving by adjusting the code. Again, the potential value here is already clear to the rest of the business -- you just need to show that you've enabled some of it.
-
-As an example, at Ellevation, Justin Hildebrandt led a major effort to restructure a student-facing EdTech product, in order to better support the various workflows that teachers needed for assigning and reassigning work to students.
-
-Justin spent real time ensuring his stakeholders understood the limitations of the old, rigid assignment systems (which he explained, usefully, as an "assigment paradigm"). Once the team had restitched a more flexible one through the code, they were able to demo some basic new features that were simply impossible to build before.
-
-That's a very powerful form of visible progress -- in no small part because he took the time to ensure everyone understood what *wasn't* possible before.
 
 ** Reduce Steady-State Maintenance Work
 *** The Economic Value
