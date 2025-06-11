@@ -93,21 +93,24 @@ class ChapterParser:
         # Create chapter object
         chapter = Chapter(title=chapter_title)
         
-        # Extract sections (second-level headings "** ")
-        sections = self._extract_sections(chapter_content)
+        # Extract sections and intro content
+        sections, intro_word_count = self._extract_sections(chapter_content)
         for section in sections:
             chapter.add_section(section)
         
+        # Add intro word count to chapter total (stored separately, not as a visible section)
+        chapter._intro_word_count = intro_word_count
+        
         return chapter
     
-    def _extract_sections(self, chapter_content: str) -> list[Section]:
+    def _extract_sections(self, chapter_content: str) -> tuple[list[Section], int]:
         """Extract sections from chapter content.
         
         Args:
             chapter_content: Content of the chapter
             
         Returns:
-            List of Section objects
+            Tuple of (List of Section objects, intro word count)
         """
         sections = []
         lines = chapter_content.split('\n')
@@ -117,23 +120,16 @@ class ChapterParser:
         current_section = None
         current_content_lines = []
         found_first_subsection = False
+        intro_word_count = 0
         
         for i, line in enumerate(lines):
             if line.startswith('** '):
-                # If this is the first subsection, save intro content
+                # If this is the first subsection, count intro content words
                 if not found_first_subsection:
                     found_first_subsection = True
                     intro_content = '\n'.join(intro_content_lines).strip()
                     if intro_content:
-                        word_count = count_words(intro_content)
-                        intro_section = Section(
-                            title="Introduction",
-                            content=intro_content,
-                            order=0
-                        )
-                        # Override the auto-calculated word count with our org-aware count
-                        intro_section.word_count = word_count
-                        sections.append(intro_section)
+                        intro_word_count = count_words(intro_content)
                 
                 # Save previous section if exists
                 if current_section is not None:
@@ -170,15 +166,7 @@ class ChapterParser:
         if not found_first_subsection:
             intro_content = '\n'.join(intro_content_lines).strip()
             if intro_content:
-                word_count = count_words(intro_content)
-                intro_section = Section(
-                    title="Introduction",
-                    content=intro_content,
-                    order=0
-                )
-                # Override the auto-calculated word count with our org-aware count
-                intro_section.word_count = word_count
-                sections.append(intro_section)
+                intro_word_count = count_words(intro_content)
         
         # Save last section if exists
         if current_section is not None:
@@ -193,4 +181,4 @@ class ChapterParser:
             section.word_count = word_count
             sections.append(section)
         
-        return sections
+        return sections, intro_word_count
