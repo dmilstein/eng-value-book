@@ -85,7 +85,6 @@ Having written all that, walked away from it and come back, I kind of feel like 
    E.g. post 3-5 times/week, set up some org file that has the postings collected, and some script that uploads them for me. So it's just feeding a hopper, nothing I keep on my day-to-day todo list
 
 
-
 * Leading Title Contenders
 
  - *Building & Learning*
@@ -167,3 +166,53 @@ Dumbest possible thing is:
  - Timebox/track the effort, aim for not more than 30-45 minutes/week (ooh, is this time to use clocking in org? I think it is! Hah.)
 
  - Post to LI... once/week? Do an initial announcement? Don't spam LI with everything I put onto my substack? Make sure LI allows me to link off it.
+* Created dedicated email address?
+dan@buildlearn.net?
+
+https://moosend.com/blog/free-email-domain-providers/
+
+Look into Fastmail?
+
+EWJ really likes them.
+
+https://www.fastmail.com/pricing/us/
+
+$5/month, but no split loyalties.
+
+Could register buildlearn.net and then just use that.
+
+I think yes.
+
+Can I just start with my personal email address, so this isn't a blocker, and go back and add a Fastmail one later?
+
+Yes.
+* LinkedIn Post
+Hellllooo LinkedIn
+
+tl;dr - I have got myself a shiny new Substack, and would be delighted to see you there:
+
+https://buildingandlearning.substack.com/p/welcome-to-building-and-learning
+
+*But Why a Substack, Dan? Why Now?*
+
+A month or two back, I started working on a blog post about technical debt.
+
+In said post, I explain why I *vastly* prefer the metaphor of "Technical Investments" to that of "Technical Debt" (in fact, at Ellevation, I forbid my team from using the words Technical Debt).
+
+It turned out I had kind of a lot to say about the topic.
+
+So I expanded it to a *series* of blog posts.
+
+Which, as I wrote them, kept expanding in scope.
+
+And at some point I realized I was, in fact, writing a book.
+
+Which I'm delighted by!
+
+The working title is:
+
+"Tech Investments, Not Tech Debt: How To Make Time For Engineering Work That Matters".
+
+As I write, I'll be using that substack to share ideas, excerpts and some of my own personal sources of learning and inspiration.
+
+Also: if you're interested in being a beta reader of an early draft, just let me know, and I'll throw you on the list.
