@@ -32,10 +32,12 @@ class Chapter:
     created_at: datetime = field(default_factory=datetime.now)
     updated_at: datetime = field(default_factory=datetime.now)
     summary: str = ""
+    _intro_word_count: int = 0
     
     def calculate_word_count(self) -> int:
-        """Calculate the total word count across all sections."""
-        return sum(section.word_count for section in self.sections)
+        """Calculate the total word count across all sections plus intro content."""
+        sections_word_count = sum(section.word_count for section in self.sections)
+        return sections_word_count + self._intro_word_count
     
     def add_section(self, section: Section) -> None:
         """Add a section to the chapter."""
