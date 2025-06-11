@@ -198,14 +198,16 @@ And also on something to watch the directory for changes, re-run that and auto-u
 I've got failing tests in Step 6, go back to those.
 ** DONE Spike on: how to do footnotes in org      :pom:
 CLOSED: [2025-06-04 Wed 15:10]
-** TODO Make the word count tool handle initial chapter text :curweek:
+** DONE Make the word count tool handle initial chapter text :curweek:pom:
+CLOSED: [2025-06-11 Wed 17:15]
 ** DONE Add titles for the chapters that don't have them :curweek:
 CLOSED: [2025-06-11 Wed 07:11]
 ** TODO Make my section/chapter word count look for missing Chapter filetags :curweek:
 Because now my wordcount history stuff is sensitive to those being missing.
 ** TODO For my teminal UI word count thing, add some basic horizontal bars
 ** TODO Create a new chapter template or abbrev? Ugh.
-** TODO Update gnuplot script to determine date range from file? :curweek:
+** DONE Update gnuplot script to determine date range from file? :curweek:pom:
+CLOSED: [2025-06-11 Wed 17:25]
 * [[id:49E66E86-CE83-447E-87C2-3BFF3D8FE42E][Teach/Coach]]                                     :gtasks:
 ** DONE Write template w/ offer to teach Part II
 CLOSED: [2025-05-27 Tue 08:21]
