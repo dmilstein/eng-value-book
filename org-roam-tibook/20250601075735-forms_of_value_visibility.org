@@ -256,40 +256,92 @@ Please see our later chapter: "The Giant Rewrite: Only Undertake If You Wish To 
 ** Reduce Steady-State Operational Work
 Most engineering teams I've seen have, in addition to their "main" work, at least three buckets of things that take their time.
 
- - Steady maintenance and operational work
+ - Steady "operational" work
 
- - Production bugs with varying degrees of urgency
+ - Production bugs
 
  - Outages and incidents
 
 There's no bright line dividing those three, but I have found different tactics to be useful for each.
 
-# , so I'll speak to each separately.
+We'll start with the steady operational work.
 
-We'll start with the steady-state operational work.
+This is anything which the engineering team does for the business on a regular basis, but which is not directly related to the main new value they're trying to create.
 
-This is anything which the engineering team does for *some* stakeholder on a regular basis, but which is not directly related to the main new value they're trying to create. Some typical examples include:
+Some typical examples include:
 
  - Executing manual account setup tasks for new customers or new users
 
- - Managing a queue of production data issues that need hand-massaging to fix
+ - Managing a queue of data issues that need hand-massaging to fix
 
- - Patching & updating the systems they operate
+ - Working with BI to maintain views into data the team owns
 
- - Restoring from backups as part of a company-wide resilience exercise
+The key characteristic is that these kinds of work are (relatively) "steady" -- unlike production bugs or outages, which arrive without warning and often have to be resolved quickly to prevent damage to value.
 
 *** The Economic Value
 
-There are two distinct ways that Bertha understands value here.
+There are two distinct ways that Bertha understands the potential for value here.
 
-First, Bertha understands that there might be value for the company if the engineers can reduce the amount of time they spend on operational work. Doing so could free up time for them to work on something potentially more valuable.
+First, Bertha suspects there might be value for the company if the engineers could just spend *less time* on operational work.
+
+Note: in this belief, she is likely heartily joined by both the engineers and their stakeholders.
+
+Spending less time on operational work could free the engineers up to work on something that would be more fun (for sure!) and more valuable (um, hopefully?).
+
+If that other work is (probabilistically) likely to lead to greater profits in the future, Bertha will happily ascribe real value to replacing operational work with "something else".
 
 However, that's not the whole story.
 
-Whatever operational work the engineers are doing is presumably creating *some* form of value. It would be a mistake to assume it is just waste.
+That operational work, thankless though it may be, is very likely creating *some* form of value.
 
-Bertha care about that value, too.
+Bertha cares about that value, too.
 
+It would be a mistake to assume the operational work is just waste -- even though it may *feel* like waste to both the stakeholders and the engineers.
+
+*** Forms of Visibility
+There are two different forms of visibility you'll want to aim for.
+
+First, you want to simply make it clear *how much time* the engineers are spending on operational work.
+
+That in and of itself can sometimes motivate a real investment to speed up or fully eliminate some operational tasks the engineers are currently doing.
+
+But also, you often want to also create visibility into the *value being created by the operational work*.
+
+That is particularly important if the operational work is difficult to fully eliminate, and you want to move it *off the team*, and find a home for it somewhere else in the organization.
+
+E.g. say your engineers spend some time every sprint helping set up tricky data import configurations for new customers.
+
+Imagine you then go to the Important People at your company and say, "Can we create a dedicated Data Operations team so the engineers can spend less time on new customer onboarding?"
+
+There is a real danger that Important People will hear that as a form of *complaining*.
+
+Everyone's job has certain unpleasant and/or boring parts, many Important People are very good at ignoring complaints that they hear as: "Part of my job isn't fun, can I stop doing that part?"
+
+You might be able to make a more effective case by saying something like:
+
+"It currently takes three weeks to onboard new customers, and delays in the back and forth to get data imports set up is the main driver. That work is currently being handled by the engineers, but a) they are expensive, and b) it often takes them a day or two for an engineer to find time to review a question from customers, which adds a lot of delays. We'd like to talk about finding a better home for that work, so we can both improve onboarding times and reduce costs. Our early estimate is that 80% of the work can be done by the more technical members of the help desk, if we can create more time for them."
+
+That's speaking to potential benefits -- both better customer experiences, but also lower costs *for the operation itself* (as opposed to the argument of "But I want my engineers to work on the new shiny thing").
+
+**** Small
+**** Medium
+**** Large
+
+*** See: Ownership / Alignment
+** Reduce Interruptive Maintenance Work
+*** The Economic Value
+*** Forms of Visibility
+**** Small
+**** Medium
+**** Large
+** Reduce Frequency & Duration of Outages
+*** The Economic Value
+*** Forms of Visibility
+**** Small
+**** Medium
+**** Large
+** Reduce Risk of Losing Data
+*** The Economic Value
 Imagine that a team pauses feature work for a week and spends that time testing their ability to restore from backups.
 
 Their main stakeholders are very frustrated -- this is the Worst Possible Time, the features that the team are working on are So Very Important.
@@ -312,9 +364,11 @@ Risks don't go away if we attempt to ignore them -- and an economically rational
 
 This is why doing that kind of risk reduction work increases company value -- even if you don't find any massive problems to fix.
 
+
+
 # XXX Move all this to use ownership to align benefits with costs
 
-However, even if their product team understands all if this (which is not always the case), it's hard for them to be excited about it... when they are being beaten up daily by executives about the sluggish pace of delivery.
+However, even if their product team understands all of this (which is not always the case), it's hard for them to be excited about it... when they are being beaten up daily by executives about the sluggish pace of delivery.
 
 # a) that value is not *visible* to their stakeholders, and, b) if it is visible, it may be perceived as "not theirs".
 
@@ -328,27 +382,6 @@ This leads to the anti-pattern of the stakeholder saying "Well, that's just engi
 
 # I call this engineering having to "internalize" the tradeoff --
 
-*** Forms of Visibility
-
-**** Small
-**** Medium
-**** Large
-
-*** See: Ownership / Alignment
-** Reduce Interruptive Maintenance Work
-*** The Economic Value
-*** Forms of Visibility
-**** Small
-**** Medium
-**** Large
-** Reduce Frequency & Duration of Outages
-*** The Economic Value
-*** Forms of Visibility
-**** Small
-**** Medium
-**** Large
-** Reduce Risk of Losing Data
-*** The Economic Value
 *** Forms of Visibility
 **** Small
 **** Medium
