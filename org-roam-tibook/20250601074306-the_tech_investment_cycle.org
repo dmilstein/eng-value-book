@@ -49,7 +49,7 @@ Both are *extremely* valuable for a business (more on both in [[id:E7DB3CD4-9B7B
 But neither is effectively addressed as a single big bang investment -- you have to steadily improve things, see where new bottlenecks or problems occur, and then pick the next thing to focus on. That kind of effort take real calendar time -- you have to see a set of "improved" deploys, or see how the team is able to handle the next set of stresses to the system, before you can understand your next step.
 
 # Footnote?
-(if an engineer tries to convince you that all the stability problems in the site will be addressed by rewriting the entire thing in Rust, you should +fire+ firmly persuade that engineer to think otherwise, if you wish to maintain your sanity and/or job).
+(if an engineer tries to convince you that all the stability problems in the site will be addressed by rewriting the entire thing in Rust, you should +fire+ firmly persuade that engineer to think otherwise).
 
 # Maybe: do a single one in detail, then list a slew of others which also need steady digging and learning
 
