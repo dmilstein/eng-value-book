@@ -29,7 +29,7 @@ I put the formal file for the script I'm working on in a non-org-roam [[file:toc
 **** Ship Smaller Changes More Often
 # aka, use Accelerate as teaching instrument/bludgeon
 **** Enable (Specific) Upcoming Product Improvements
-**** Reduce Steady-State Maintenance Work
+**** Reduce Steady Operational Work
 **** Reduce Interruptive Maintenance Work
 **** Enable Parallel Development Across Multiple Teams
 **** Reduce Risk of Losing Customers Thanks to Losing Their Data

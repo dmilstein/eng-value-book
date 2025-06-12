@@ -247,12 +247,6 @@ What could go wrong?
 
 Please see our later chapter: "The Giant Rewrite: Only Undertake If You Wish To Later Be Fired Midway Through a Long & Painful Death March", which has some tips on how one *can* gradually rewrite such systems.
 
-** Enable Parallel Development Across Multiple Teams
-*** The Economic Value
-*** Forms of Visibility
-**** Small
-**** Medium
-**** Large
 ** Reduce Steady-State Operational Work
 Most engineering teams I've seen have, in addition to their "main" work, at least three buckets of things that take their time.
 
@@ -345,8 +339,55 @@ Build visibility into the value being created by the operational work -- find so
 **** Large
 
 Build visibility into "good performance" of the operation -- not just the overall metric, but some substeps which offer ways to decompose the work.
-
 ** Reduce Interruptive Maintenance Work
+Sure, in theory, there's a bug prioritization scheme in place, which is supposed to insulate your engineers from constant distractions.
+
+But maybe your company has a sales team? And people who work in sales, for reasons of both personal disposition and compensation structure, have this tendency to try to route around the rules, to get extra focus on the Very Important Problems of their customers.
+
+So one of your long-tenured engineers, who suffers from the misfortune of being both experienced and also, y'know, *nice*, ends up getting urgent emails and slacks from half the sales and/or success teams.
+
+And a lot of what she gets asked about feel like feature requests in disguise?
+
+But she also don't want to leave customers in the lurch?
+
+Ugh.
+
+*** The Economic Value
+
+As with other forms of "distraction", Bertha will see a couple of different kinds of potential value:
+
+First, if the engineers could spend less overall time fixing bugs, maybe they could spend that time working on something more valuable.
+
+Second, even if they spent the same amount of overall time actually fixing bugs, there could be real benefits if they could make that work more *predictable*.
+
+As in, in the current model, their focus is being continually blown up by these urgent, time-sensitive questions. Engineering work rewards periods of sustained focus, so Bertha would estimate future profits as increasing, if the team was able to create longer periods of sustained focus.
+
+Finally, there's a more subtle potential for value, that can open the door to some interesting tactics for cleaning up this pattern:
+
+The engineers are spending some time dealing with, let's call them emergent customer problems.
+
+The choice of *which* such problems to focus on is actually an opportunity for value -- and shouldn't be left up to the vagaries of which sales lead is the most persistent or has the best relationship with one of your engineers.
+
+If you can come up with a *better way to choose what engineers work on*, Bertha might see that as improving your future profits, as well.
+
+The reason this can be a real win is that it can allow you to *get the VP of Sales* to crack the whip on her team, to stop them from bothering your engineers all the time. As in, if that VP of Sales understands that there's a first-class process in place, that allows *someone* on (or near) her team to work with the engineers to prioritize key fixes, she'll be ready to strongly enforce better pattens of behavior. And she's guaranteed to be better at managing sales people than most engineers ever will be.[fn:: I once asked Marion Kennedy Amos, then Ellevation's VP of Sales (now the CEO), about the challenges of interviewing sales people, and she rolled her eyes and said "It's the worrrst"s]
+
+*** Forms of Visibility
+**** Small
+Ask your engineers to estimate how much time they spend on reactive bug fixes, especially ones that come outside of normal channels.
+
+Ask follow up questions about how they *decide* which bugs to work on (i.e. make sure they don't skip to the part where they were actually coding, which may have been a small fraction of the time they lost to distraction).
+
+Maybe shadow one of them for part of a day, to see just how often requests come in.
+
+Have a quick meeting with your engineers, to identify any patterns in the bugs they fix -- e.g. is there a slew of bugs around login issues? Or maybe customer data imports?
+
+**** Medium
+Bootstrap a regular (e.g. weekly) maintenance triage session, to collaboratively prioritize key bugs. This is a fantastic pattern, introduced to me by Andy Rosequist, check the Maintenance Triage case stury for more.
+
+**** Large
+If there's an area with continual bugs, but a lot of value, make a case for setting up a durable team to own, e.g. authentication.
+** Enable Parallel Development Across Multiple Teams
 *** The Economic Value
 *** Forms of Visibility
 **** Small
