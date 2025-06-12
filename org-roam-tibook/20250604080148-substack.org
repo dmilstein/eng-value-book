@@ -8,6 +8,20 @@ As part of my [[id:17305FA7-A43F-40C9-9309-0EF3577C70D0][Author Platform]], I've
 
 Substack Dashboard: https://buildingandlearning.substack.com/publish/home
 
+
+* Ideas for posting cadence
+3x / week.
+
+Pick out 2 things I've written, and 1 reference to something I like.
+
+Schedule those for, like, Mon/Wed/Fri.
+
+Do it... when? Either EOW, when I'm done writing?
+
+Do it in the afternoon, maybe on Mondays or some such.
+
+For now, reference or all of them on LinkedIn?
+
 * About
 
 *Building & Learning*
@@ -45,3 +59,174 @@ In this herein Substack, I'll be sharing ideas from it and thoughts the writing 
 (and just possibly some random Lewis Carrol-inspired absurdity once in a while, I make no promises otherwise)
 
 Speaking of said book, if you're potentially interested in being a beta reader at some stage of development, holler at me.
+
+
+* Posts
+
+** Defining Tech Investments
+
+I believe that the metaphor of "Technical Debt" started it's life as a very useful prompt for economic thinking...
+
+...but has now mostly drifted into a not-very-useful shorthand for *bad code*.
+
+For reasons that apparently require a book to fully explain, I don't think engineering leaders or teams should spend much time talking about "bad code".
+
+Instead, I recommend spending time identifying and advocating for *"Technical Investments"*, which I define as:
+
+Work that the engineers believe is *valuable to their business*...
+
+...but that *no one is asking for*.
+
+The Technical Investment approach, when applied well, leads to very-useful-indeed conversations around:
+
+ - Potential business value
+
+ - How to make that value visible to key decision makers
+
+ - How to safely and incrementally realize that value
+
+Of course, bringing stakeholders along on that journey is somewhat profoundly non-trivial, so I'll be spending real time in the book on how to build trust and rapport with stakeholders, as an enabler for making major technical investments.
+
+** Tech Investments - Build Visibility Into Value
+
+Instead of technical debt, engineering leaders can ask their teams *and* stakeholders to talk about *technical investments*, which I'll define as:
+
+/Work the engineers believe is *valuable for the business*, but that *no one is asking for*./
+
+That puts the focus on the genuine problem: a *mismatch in understanding* between the engineers and their stakeholders, about what is *potentially valuable* for the business.
+
+At heart, the vast majority of both engineers and stakeholders want to create value for the business.
+
+They just have different information and beliefs about how best to do so.
+
+Many engineers try to resolve this gap by *explaining* the potential value: "You see, when code has bad 'coupling', a change in one place can impact many other places, which is a drag on development. This is why we should spend a week refactoring."
+
+Although there's a good instinct in this -- bringing the stakeholders into a shared understanding with the engineers about what is valuable -- it has one crucial flaw:
+
+It requires the stakeholders to take the entire statement of value on faith.
+
+There is nothing they can *see*, that shows them things are "bad", before the investment is made.
+
+And there will be nothing they can *see*, after, that shows them things have gotten "better".
+
+Given that lack of visibility, it's hardly surprising that stakeholders, confronted with such a choice, often feel like they are giving something up and getting nothing in return.
+
+One of the core theses of the book is that engineering leaders have a wide variety of options to *build visibility* into potential value.
+
+It is *massively cheaper* to build such visibility than it is to make the full investment.
+
+Once there is visibility, the engineers and their stakeholders can look at it, together, and operate from a shared understanding of the reality of the business.
+
+If the engineering team can then offer disciplined, incremental steps to gradually (and visibly) improve things (including improving the depth and reach of the visibility), theu can build real trust with stakeholders over time.
+
+That then allows them to "climb the ladder" from small initial investments to, sometimes, very major, transformative investments.
+
+The best way to do that is not as a one-off project an engineering leader puts all their authority on the line for (ugh, I've done that so many times, and never seen great results), but instead, a series of repeated *tech investment cycles*, each of which generates visibility and options.
+
+All in partnership, not opposition, with stakeholders.
+** Tech Investments: Favor Repeated Cycles Over One-Off Projects
+
+If you're stuck in an oppositional relationship with stakeholders who don't seem to care about anything except their feature list, it may feel like your best bet is to carve off a big block of time so the team can just go and definitively fix their problems, without interruptions.
+
+I have tried the "Bargain for one giant chunk of time" approach, and, unfortunately, it has been something of a consistent disaster.
+
+Technical investments are *far* more effective done as a series of repeated small steps, instead of a single giant one-off project.
+
+There are at least two reasons for this.
+
+First, in the big bang mode, the stakeholders don't tend to see the work as "valuable".
+
+Instead they see it as a "painful delay", and as such, feel "owed" immediately faster progress on their features.
+
+Which is not always the immediate payoff for a technical investment -- even an extremely valuable one.
+
+# XXX Add: especially if the big bang investment has no associated visibility?
+# XXX Tease apart: don't start here vs it's okay to build to this
+# As in the real problem is if you use the one-time nature to avoid fully educating the stakeholder and ensuring they can see the results of the investment.
+
+But the big bang approach is not actually good for the engineers, either.
+
+Real value is often created at the intersection of the technical and human/social systems (see Allspaw on Socio-Technical) -- and those are essentially impossible to adjust in big, fixed steps.
+
+E.g. two significant forms of value are:
+
+ 1) reducing the time to get code to production
+
+ 2) reducing the time to restore from outages
+
+# XXX increasing the load a system can handle? Increasing capacity to match current demand?
+
+Both are *extremely* valuable for a business (more on both in [[id:E7DB3CD4-9B7B-425B-BF07-E2607DDD6670][Forms of Value/Visibility]]).
+
+But neither is effectively addressed as a single big bang investment -- you have to steadily improve things, see where new bottlenecks or problems occur, and then pick the next thing to focus on. That kind of effort take real calendar time -- you have to see a set of "improved" deploys, or see how the team is able to handle the next set of stresses to the system, before you can understand your next step.
+
+# Footnote?
+(if an engineer tries to convince you that all the stability problems in the site will be addressed by rewriting the entire thing in Rust, you should +fire+ firmly persuade that engineer to think otherwise).
+
+# Maybe: do a single one in detail, then list a slew of others which also need steady digging and learning
+
+Thus, what you want is to get into a *cycle of technical investments* -- where you are repeatedly identifying small potential improvements, advocating for those, and then executing on them.
+
+Going through this cycle *with* your stakeholders will gradually build trust and rapport over time.
+
+# (and a shared understanding)
+
+That increased trust, rapport and understanding will allow you to "lever up" to larger and larger investments.
+
+You should, of course, still *execute* the work in incremental steps (because that is how all software should be built) but you can use these repeated cycles to gradually climb the [[id:722C702D-A6C2-4A51-AB62-515CE8144AA2][Ladder of Commitment]] for technical investments:
+
+ - On the Side
+
+ - A Single Ticket
+
+ - A Within-Team Project
+
+ - A Cross-Team Initiative
+
+ - A Durable Team
+Forms of Value/Visibility
+** The Golden Cesspool
+
+Your product team has an ambitious plan to build something cool.
+
+Good news: customers are genuinely eager to use this cool thing!
+
+Bad news: building it will require your team to dig into that horrible part of the legacy codebase that was written by contractors many years ago, has no tests that you can trust worth a damn, and is based on a data model that is a malevolent joke against your current reality.
+
+I will make a bold prediction: this specific flavor of technical debt is never going to go out of style.
+
+The inimitable Edmund Jorgensen (who I quote, um, kind of a lot in the book), first framed this most clearly to me, and named this pattern:
+
+[[https://www.tomheon.com/2017/03/24/the-golden-cesspool/][The Golden Cesspool]]
+
+/"Proposing the rule of the golden cesspool: the closer code is to the heart of a business’s domain, the worse the code will be."/
+
+In my experience, Edmund is totally right.
+
+Almost all companies seem to have some genuinely hideous mass of code sitting at the beating heart of their business.
+
+Over the years, tons of complex business logic has been shoved into that cesspool.
+
+The most critical processes of the business are tied to data updates in the cesspool.
+
+All sorts of state gets updated in all sorts of deeply non-obvious ways.
+
+Your engineering team likely already thinks about this morass as a prime example of tech debt, and are itching to rewrite it.
+
+They may, in fact, resist an attempt to methodically build visibility and then incrementally improve things.
+
+Instead, they'll make the faux-economic argument that it'd be better to just commit to a ground-up rewrite of that core system.
+
+They'll claim that it will be both faster and cheaper to do so "from scratch" rather than through a slow, incremental shift.
+
+Once that rewrite is fully finished, the things the product team are asking for will be super easy to build!
+
+What could go wrong?
+
+Please see our later chapter: *The Giant Rewrite: Only Undertake If You Wish To Later Be Fired Midway Through a Long & Painful Death March*, which has some tips on how one *can* gradually rewrite such systems.
+
+But as a brief teaser: the core trick here is to convert this from a technical investment to a *product* investment.
+
+The product team *already thinks* there's value here -- they just don't realize there's more of a *cost* than usual.
+
+Making those risks visible and gradually wearing them down will therefore create value.

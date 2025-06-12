@@ -8,3 +8,8 @@
 Chapter titles must use the Heading Level 1 style
 
 org-md-export-to-markdown
+* People Who Expressed Interest
+** Dustin Bennett
+** Al Goodniss
+** Margaret Geary
+** Brien Tate
