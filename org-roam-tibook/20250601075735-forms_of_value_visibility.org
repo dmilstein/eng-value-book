@@ -299,35 +299,53 @@ Bertha cares about that value, too.
 It would be a mistake to assume the operational work is just waste -- even though it may *feel* like waste to both the stakeholders and the engineers.
 
 *** Forms of Visibility
+
 There are two different forms of visibility you'll want to aim for.
 
 First, you want to simply make it clear *how much time* the engineers are spending on operational work.
 
 That in and of itself can sometimes motivate a real investment to speed up or fully eliminate some operational tasks the engineers are currently doing.
 
-But also, you often want to also create visibility into the *value being created by the operational work*.
+But also, you often want to also build visibility into the *value being created by the operational work*.
 
 That is particularly important if the operational work is difficult to fully eliminate, and you want to move it *off the team*, and find a home for it somewhere else in the organization.
 
-E.g. say your engineers spend some time every sprint helping set up tricky data import configurations for new customers.
+E.g. say your engineers spend some time every sprint helping set up tricky data import configurations for new customers. It's just not possible to automate all that away, because it requires carefully reviewing test data files from customers, testing out the imports and diagnosing failures, etc.
 
-Imagine you then go to the Important People at your company and say, "Can we create a dedicated Data Operations team so the engineers can spend less time on new customer onboarding?"
+Imagine you were go to the Important People at your company and say, "Can we create a dedicated Data Operations team so the engineers can spend less time on new customer onboarding?"
 
 There is a real danger that Important People will hear that as a form of *complaining*.
 
 Everyone's job has certain unpleasant and/or boring parts, many Important People are very good at ignoring complaints that they hear as: "Part of my job isn't fun, can I stop doing that part?"
 
+There's certainly nothing particularly *urgent* in the above.
+
 You might be able to make a more effective case by saying something like:
 
-"It currently takes three weeks to onboard new customers, and delays in the back and forth to get data imports set up is the main driver. That work is currently being handled by the engineers, but a) they are expensive, and b) it often takes them a day or two for an engineer to find time to review a question from customers, which adds a lot of delays. We'd like to talk about finding a better home for that work, so we can both improve onboarding times and reduce costs. Our early estimate is that 80% of the work can be done by the more technical members of the help desk, if we can create more time for them."
+"It currently takes three weeks to onboard new customers, and delays in the back and forth to get data imports set up are the main driver. That work is currently being handled by the engineers, but a) they are expensive, and b) it often takes a few days for an engineer to find time to review a question from customers, which adds a lot of delays and frustrates customers. We'd like to talk about finding a better home for that work, so we can both improve onboarding times and reduce costs. Our early estimate is that 70% of the work can be done by the more technical members of the help desk, if we can carve out time for them, and the engineers can build some basic tooling."
 
-That's speaking to potential benefits -- both better customer experiences, but also lower costs *for the operation itself* (as opposed to the argument of "But I want my engineers to work on the new shiny thing").
+That's speaking to potential benefits -- both visibly better customer experiences, but also lower costs *for the operation itself*.
+
+There's a decent chance you can loop in your product team to help build this kind of case, because they would love to have more of "their" engineers time devoted to "their" work.
 
 **** Small
+
+Talk to your team to develop an inventory of the different kinds of operational work they spend time on.
+
+Ask your team to roughly estimate how much time they spend on work in each category, per week/month/quarter.
+
+For each category of operational work, build an initial sketch of the value being created. You will likely need to talk to stakeholders outside of your normal set to do this. Value can both be creating good things (happier customers) and preventing bad things (avoiding losing data, etc).
+
 **** Medium
+
+Tag and categorize operational work in your ticketing system (and possibly ask engineers to, when they work on "ops" tickets, log the time on the tickets), so that you can produce summary views of time spent.
+
+Build visibility into the value being created by the operational work -- find some way to create a view into whatever business process is being enabled, or risk is being reduced.
+
 **** Large
 
-*** See: Ownership / Alignment
+Build visibility into "good performance" of the operation -- not just the overall metric, but some substeps which offer ways to decompose the work.
+
 ** Reduce Interruptive Maintenance Work
 *** The Economic Value
 *** Forms of Visibility
