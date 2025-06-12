@@ -272,8 +272,6 @@ This is anything which the engineering team does for *some* stakeholder on a reg
 
  - Executing manual account setup tasks for new customers or new users
 
- - Participating in regular security reviews
-
  - Managing a queue of production data issues that need hand-massaging to fix
 
  - Patching & updating the systems they operate
@@ -284,23 +282,51 @@ This is anything which the engineering team does for *some* stakeholder on a reg
 
 There are two distinct ways that Bertha understands value here.
 
-First, whatever operational work the engineers are doing is presumably creating *some* form of value -- but often that value does not accrue to *their stakeholders*, nor is necessarily visible to their stakeholders.
+First, Bertha understands that there might be value for the company if the engineers can reduce the amount of time they spend on operational work. Doing so could free up time for them to work on something potentially more valuable.
+
+However, that's not the whole story.
+
+Whatever operational work the engineers are doing is presumably creating *some* form of value. It would be a mistake to assume it is just waste.
+
+Bertha care about that value, too.
+
+Imagine that a team pauses feature work for a week and spends that time testing their ability to restore from backups.
+
+Their main stakeholders are very frustrated -- this is the Worst Possible Time, the features that the team are working on are So Very Important.
+
+As the team does this work, they discover something terrifying -- their backups are in an out-of-date format, and they can't restore from them. The team quickly fixes the format, takes and successfully restores a backup, and breathes a huge, somewhat shaky sigh of relief.
+
+Was that week waste?
+
+No, absolutely not.
+
+The engineers created a *ton of value* for the company.
+
+Bertha would say that they have meaningfully reduced the risk of angering and then losing customers -- and she would price that into her estimate of future profits.
+
+If you're thinking, "But wait, if her estimate is all about what is known, and no one knew about this problem beforehand, why is Bertha marking the company as more valuable after fixing it?"
+
+The answer is actually pretty simple: if the team *hasn't* been regularly exercising their restores, Bertha will price the company as if there's a pretty good chance that they *can't* sucessfully restore.
+
+Risks don't go away if we attempt to ignore them -- and an economically rational investor will know that.
+
+This is why doing that kind of risk reduction work increases company value -- even if you don't find any massive problems to fix.
+
+# XXX Move all this to use ownership to align benefits with costs
+
+However, even if their product team understands all if this (which is not always the case), it's hard for them to be excited about it... when they are being beaten up daily by executives about the sluggish pace of delivery.
 
 # a) that value is not *visible* to their stakeholders, and, b) if it is visible, it may be perceived as "not theirs".
 
-i.e. say a team spends a week testing their ability to restore from backups.
+# -- but often that value does not accrue to *their stakeholders*, nor is necessarily visible to their stakeholders.
 
-In so doing, they find out something terrifying -- all of their backups were in a subtly wrong format, so the attempts to restore stall out and then fail. The team quickly adjusts the format, takes a back up, verifies they can restore, and then breathes a huge sigh of relief (and likely inhales a slug of whiskey).
+The product team may perceive themselves as accountable for creating a *specific kind* of value -- that derived from new features -- and thus see the operational work as in conflict with what they've been charged to do. Even if it's good for the company.
 
-In that week, theose engineers created a *ton of value* for the company.
+A short-hand: the value being created by operational work may not accure to the team's main stakeholders.
 
-Bertha would say that they have meaningfully reduced the risk of angering and then losing customers -- and she would price that into her estimate of future profits.[fn:: If you're thinking, "But wait, if they didn't know about this beforehand, why is Bertha marking them as more valuable now?". The answer is actually pretty simple: if the team *hasn't* been regularly exercising their restores, Bertha will price the company as if there's a pretty good chance that they *can't* sucessfully restore. In other words, "But, we didn't know!" doesn't help you much with Bertha.]
+This leads to the anti-pattern of the stakeholder saying "Well, that's just engineering work"... and then trying to bargain that work down into the smallest amount of time possible. *Which may not be the right tradeoff for the business.* (and certainly isn't fun for engineering, who are put in the position of having to either be perceived as slow, or take the risk of being blamed for future failures they "should have seen coming").
 
-However, even if their product team understands this (which is not always the case), it's hard for them to be excited about it... when they are being beaten up daily by executives about the sluggish pace of delivery.
-
-This leads to the terrible anti-pattern of saying "Well, that's just engineering work."
-
-The second way Bertha can understand potential value here is that the engineers could be spending more of their time on *something else*. There's opportunity cost.
+# I call this engineering having to "internalize" the tradeoff --
 
 *** Forms of Visibility
 
