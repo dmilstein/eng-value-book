@@ -1,0 +1,126 @@
+:PROPERTIES:
+:ID:       2EC03879-2A23-4546-BCB8-E9A464665A03
+:END:
+#+title: Turn Concerns Into Potential Value
+#+filetags: :Chapter:
+* Turn Concerns Into Potential Value
+Now, armed with a fuller understanding of value, we're ready to look at various kinds of issues engineers tend to be concerned about.
+
+We'll look for ways to turn those from vague worries into potentially valuable investment opportunities.
+
+We'll ask: What Would Bertha (our economically rational investor) Say?
+
+We'll also share a few ideas on how you might make the potential value *visible* to stakeholders (in the final section of this book, we'll do a deep dive on various forms of value + visibility + incremental improvement).
+
+Here are the four concerns we're going to dig into:
+
+ - "This Code Is a Nightmare"
+
+ - "Deploying Saps My Will To Live"
+
+ - "I Can't Find a Moment to Think"
+
+ - "The Database Is On the Verge of Death And No One Cares"
+
+** "This Code Is a Nightmare"
+
+Bad code isn't something Bertha really cares much about, in and of itself.
+
+She's seen plenty of companies grow their profits despite a codebase that would make Cthulu cry[fn:: I'm 99% certain this is Edmund's line, hi Edmund!], and she's *also* seen plenty of startups sink beneath the waves, despite the most DRY'd up clean code you can imagine.
+
+# XXX Check Speeding Up Your Eng Org -- I *am* stealing that joke from Edmund, right?
+
+However, when engineers are frustrated by the code, there's /sometimes/ a potentially valuable investment opportunity hovering nearby -- something Bertha *would* care about.
+
+An opportunity Bertha would listen to pretty carefully is one that would:
+
+*** Enable *Specific* Product Improvements
+
+Maybe the product team is asking for some feature that will require working in a chunk of code that is extremely *inflexible*.
+
+A classic case: building the new feature requires restructuring the core data model for the business in some fundamental way.
+
+And of course, *any* changes to that core data model are hugely risky.
+
+If Bertha hears that the engineering team has found a safe way to incrementally restructure that core data model, and can now add the new feature, she will increase her probabilistic estimate of future profits[fn:: she'll increase that estimate more if there's strong evidence customers actually *want* the feature -- so maybe figure that out first?]
+
+On the other hand, if Bertha hears that the engineering team has restructured the core data model, to make it "better" and "more flexible"... but did so d"on their own, and have not unlock any specific product improvements... she's gonna be *pissed*. Her estimate of future profits is going to go *down* as a result, aka that engineering team has destroyed value for the company.
+
+How, you might be asking, can we make this kind of value visible?
+
+I've had decent luck with leaning on User Stories to communicate these kinds of fundamental restrictions.[fn:: I adore user stories, especially in the formulation from User Stories Applied, by <whathisname>.]
+
+E.g. At an EdTech company, if there are weird limits around assignments, you might write a careful memo explaining that the current data model *does not support*: /"As a teacher, I can batch assign to all the students in my class in one step"/.
+
+That user story form of visibility is generally *much* more effective than something more abstract-sounding, like, "The database doesn't have reliable mappings from teachers to the combination of students and classes".
+
+If you build a *set* of such user stories, you can then show incremental progress, by demo'ing new capabilities as they are gradually unlocked.
+
+Another alternative is to build a crude prototype on top of the current data model, which:
+
+ - Allows stakeholders to *experience* the restrictions
+
+ - Gives the engineers an opportunity to learn precisely where the limits lie
+
+ - Gives you something you can incrementally keep improving as you add more flexibility under the hood
+
+ - Gives you a thing you could show to customers, to see just how badly they need that one extremely hard to implement thing
+
+Alternatively, if crazy dependencies to other systems are a core problem, there are some creative ways to make those visible (and then gradually wear them down). See later chapter X.
+
+** "Deploying Saps My Will To Live"
+
+Perhaps the code the engineers are unhappy about doesn't have some profound inflexibility, but is just crazy hard to work in.
+
+Only the most senior engineer on the team is able to make changes, engineers have to manually test things for every small tweak, half the deploys get reverted, etc.
+
+*** Enable The Team To Ship Smaller Changes More Often
+
+This is something Bertha cares about a great deal.
+
+She understands that your company's future profits are, ultimately, strongly influenced by how quickly your engineering and product teams can go through repeated cycles where they build, then ship, and then *learn*.
+
+Being, frankly, *more* rational than the median software company CEO, she understands that it is only through such learning loops that teams can hone in on software that is both *valuable to customers* and *feasible to build* (the intersection set of those two being essentially impossible to predict in advance).
+
+
+** "I Can't Find a Moment to Think"
+
+
+** "The Database Is On the Verge of Death"
+
+* Scraps/Notes
+
+Now.
+
+Someone reading this is vigorously nodding their head, and thinking /"See, this is why my proposal to fully rewrite all that super nasty code is totally right! Let's goooo!"/
+
+*NOTHING COULD BE FURTHER FROM THE (ECONOMIC) TRUTH.*
+
+Yes, Bertha would be quite happy to see features enabled and delivery speed increased.
+
+However, Bertha has been around for a minute.
+
+If you tell her she's going to get those new features and that faster pace of delivery just the moment the team finishes a big ground-up rewrite or replatforming, she's gonna raise her eyebrows and write something very nasty indeed on her little clipboard.
+
+See our later chapter: "The Giant Rewrite: Only Undertake If You Wish To Later Be Fired Midway Through a Long & Painful Death March".
+
+We'll talk there about tactics that will allow you to safely and incrementally make major changes to your systems.
+
+But, for now, we'll just say: start by making the potential value *more visible* to your stakeholders.
+
+Here a few useful, very lightweight first steps:
+
+If your team is *totally unfamiliar* with the terrifying code, create a spreadsheet of "engineers who are able to develop, test and safely deploy a change to System X".
+
+If your team can, like, check out and build the code, but don't know how to make any meaningful changes, create a spreadsheet of "engineers who know how to work in System X".
+
+Those may sound a bit silly, but *showing* your product team a list of the exactly one engineer who can currently even check out the legacy app is a genuine form of visibility.
+
+You can base your decisions and goals for an upcoming sprint on that shared visibility, you can later update it and show progress over time, etc.
+
+
+Once you've got that initial visibility, you can set milestones that improve the thing you're showing. And, on the path to those milestones, you can and should incrementally improve the code. But that's not the value you're selling to your stakeholders.
+
+
+
+# Key first question: are you actually working in this code, like right now? Or is it just you did a drive by and were horrified by what you found?

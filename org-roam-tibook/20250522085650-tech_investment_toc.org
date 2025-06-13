@@ -23,6 +23,7 @@ I put the formal file for the script I'm working on in a non-org-roam [[file:toc
 *** The Tech Investment Cycle
 *** Build Visibility First
 *** Understand Value In Depth
+*** Turn Concerns Into Potential Value
 *** Forms of Value & Visibility
 # For each, sketch in ideas on building visibility (and maybe actually do a bit of 1 -> 2 -> 3, viz -> commitment -> more viz -> more commitment
 **** Speed Up The Build/Ship/Learn Cycle (Not Just The Build Part)
