@@ -154,9 +154,9 @@ Below are situations in which each of the above *is* valuable... and also situat
 
  - *Writing "high-quality" or "defect-free" code*
 
-   Super valuable if what the code does is genuinely important to customers, AND bugs in the code will cause those customers major problems, AND, during its lifecycle, the code is going to live for a long time AND be changed by many engineers.
+   Super valuable if what the code does is genuinely important to customers, AND bugs in the code will cause those customers major problems, AND the code is going to live for a long time AND be changed by many engineers over the course of its life.
 
-   Super damaging if the code has a high likelihood of being thrown away, and the time to write it "well" delays critical feedback from customers.[fn:: "The absence of bugs is not the presence of value" should be engraved on the wall of every academic institution that launches one of those stupid engineering productivity studies that bases it all on defect rates, omg argh don't get me started]
+   Super damaging if the code has a high likelihood of being thrown away, and the time to write it "well" delays critical feedback from customers.[fn:: "The absence of bugs is not the presence of value" should be engraved on the wall of every academic institution that launches one of those stupid engineering productivity studies that measure defect rates as a form of "productivity", argh don't get me started]
 
  - *Living up to 'commitments' to delivery deadlines*
 

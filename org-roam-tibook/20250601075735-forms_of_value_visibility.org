@@ -342,9 +342,11 @@ Build visibility into "good performance" of the operation -- not just the overal
 ** Reduce Interruptive Maintenance Work
 Sure, in theory, there's a bug prioritization scheme in place, which is supposed to insulate your engineers from constant distractions.
 
-But maybe your company has a sales team? And people who work in sales, for reasons of both personal disposition and compensation structure, have this tendency to try to route around the rules, to get extra focus on the Very Important Problems of their customers.
+But maybe your company has a sales team?
 
-So one of your long-tenured engineers, who suffers from the misfortune of being both experienced and also, y'know, *nice*, ends up getting urgent emails and slacks from half the sales and/or success teams.
+And people who work in sales, for reasons of both personal disposition and compensation structure, have this tendency to try to route around the rules, to get extra focus on the Very Important Problems of their own, Very Important customers.
+
+So one of your long-tenured engineers, who suffers from the misfortune of being both experienced and also, y'know, *nice*[fn:: Hello Tom Hare! Hello Lisa McCusker], ends up getting a stream of emails and slacks from half the sales and/or success teams.
 
 And a lot of what she gets asked about feel like feature requests in disguise?
 
@@ -366,11 +368,15 @@ Finally, there's a more subtle potential for value, that can open the door to so
 
 The engineers are spending some time dealing with, let's call them emergent customer problems.
 
-The choice of *which* such problems to focus on is actually an opportunity for value -- and shouldn't be left up to the vagaries of which sales lead is the most persistent or has the best relationship with one of your engineers.
+The choice of *which* such problems to focus on is actually an opportunity for value -- and shouldn't be left up to the vagaries of which sales lead is the most persistent or used to go out drinking with one of your engineers.
 
 If you can come up with a *better way to choose what engineers work on*, Bertha might see that as improving your future profits, as well.
 
-The reason this can be a real win is that it can allow you to *get the VP of Sales* to crack the whip on her team, to stop them from bothering your engineers all the time. As in, if that VP of Sales understands that there's a first-class process in place, that allows *someone* on (or near) her team to work with the engineers to prioritize key fixes, she'll be ready to strongly enforce better pattens of behavior. And she's guaranteed to be better at managing sales people than most engineers ever will be.[fn:: I once asked Marion Kennedy Amos, then Ellevation's VP of Sales (now the CEO), about the challenges of interviewing sales people, and she rolled her eyes and said "It's the worrrst"s]
+The reason this can be a real win is that it can allow you to *get the VP of Sales* to crack the whip on her team, to stop them from bothering your engineers all the time.
+
+As in, if that VP of Sales understands that there's a first-class process in place, that allows *someone* on (or near) her team to work with the engineers to prioritize key fixes, she may well be ready to strongly enforce better pattens of behavior.
+
+And she's guaranteed to be better at managing sales people than most engineers ever will be.[fn:: I once asked Marion Kennedy Amos, then Ellevation's VP of Sales (now the CEO), about the challenges of interviewing sales people, and she rolled her eyes and said "It's the worst"]
 
 *** Forms of Visibility
 **** Small
