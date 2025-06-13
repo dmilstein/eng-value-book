@@ -9,7 +9,9 @@ Chapter titles must use the Heading Level 1 style
 
 org-md-export-to-markdown
 * People Who Expressed Interest
+** (Satoe)
 ** Dustin Bennett
 ** Al Goodniss
 ** Margaret Geary
 ** Brien Tate
+** Mike Daniels
