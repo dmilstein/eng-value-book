@@ -4,13 +4,13 @@
 #+title: Turn Concerns Into Potential Value
 #+filetags: :Chapter:
 * Turn Concerns Into Potential Value
-Now, armed with a fuller understanding of value, we're ready to look at various kinds of issues engineers tend to be concerned about.
+Now, armed with a fuller understanding of value, we're ready to look at various kinds of engineers concerns.
 
 We'll look for ways to turn those from vague worries into potentially valuable investment opportunities.
 
 We'll ask: What Would Bertha (our economically rational investor) Say?
 
-We'll also share a few ideas on how you might make the potential value *visible* to stakeholders (in the final section of this book, we'll do a deep dive on various forms of value + visibility + incremental improvement).
+For each, we'll also share a few ideas on how you might make the potential value *visible* to stakeholders
 
 Here are the four concerns we're going to dig into:
 
@@ -30,44 +30,77 @@ She's seen plenty of companies grow their profits despite a codebase that would 
 
 # XXX Check Speeding Up Your Eng Org -- I *am* stealing that joke from Edmund, right?
 
-However, when engineers are frustrated by the code, there's /sometimes/ a potentially valuable investment opportunity hovering nearby -- something Bertha *would* care about.
+However, when the engineers hate the code with the heat of a thousand suns, there's /sometimes/ a potentially valuable investment opportunity hovering nearby -- something Bertha *would* care about.
 
-An opportunity Bertha would listen to pretty carefully is one that would:
+For example, an opportunity Bertha would listen to pretty carefully is one that would:
 
 *** Enable *Specific* Product Improvements
 
-Maybe the product team is asking for some feature that will require working in a chunk of code that is extremely *inflexible*.
+Say the product team asks for some feature that is, unfortunately, borderline inmpossible to build, given the way the code is set up.
 
-A classic case: building this hot new feature requires restructuring the core data model for the business.
+An example I've seen over and over: building some hot new feature has the trivial prerequisite of restructuring the core data model for the business.
 
-And of course, *any* changes to that core data model are hugely risky.
+If Bertha hears that the engineering team has found a safe way to incrementally restructure that core data model, and can now add the new feature, she will increase her probabilistic estimate of future profits[fn:: she'll increase that estimate a lot more if there's evidence customers actually *want* the feature -- so maybe figure that out first?], and thus the company's value will *increase*.
 
-If Bertha hears that the engineering team has found a safe way to incrementally restructure that core data model, and can now add the new feature, she will increase her probabilistic estimate of future profits[fn:: she'll increase that estimate a lot more if there's evidence customers actually *want* the feature -- so maybe figure that out first?]
+On the other hand, if Bertha hears that the engineering team has restructured the core data model, to make it "better" and "more flexible"... but did so on their own, and have not unlocked any specific product improvements... she's gonna be *pissed*. Her estimate of future profits is going to go *down* as a result. An engineering team doing that kind of work has destroyed value for the company.
 
-On the other hand, if Bertha hears that the engineering team has restructured the core data model, to make it "better" and "more flexible"... but did so on their own, and have not unlock any specific product improvements... she's gonna be *pissed*. Her estimate of future profits is going to go *down* as a result, aka that engineering team has destroyed value for the company.
+Value is not created by adding some kind of theoretical or abstract form of flexibility, value is created by adding support for specific customer needs.
 
-How, you might be asking, can we make this kind of value visible?
+But, how might we make this kind of value *visible*?
 
-I've had decent luck with leaning on User Stories to communicate these kinds of fundamental restrictions.[fn:: I adore user stories, especially in the formulation from User Stories Applied, by <whathisname>.]
+As an example, at an EdTech company, there might be painful limits around how the system models the assignment of lessons to students (this is very common, because assignemnts have a whole state machine-like lifecycle, plus lots of logic around who is allowed to make assignments to who, plus privacy laws impacting some of those bits, etc).
 
-E.g. At an EdTech company, if there are weird limits around assignments, you might write a careful memo explaining that the current data model *does not support*: /"As a teacher, I can batch assign to all the students in my class in one step"/.
+The engineering team, who have lived and breathed the core lesson assignment model for years, might try to convey the challenges in some requested new feature by saying:
 
-That user story form of visibility is generally *much* more effective than something more abstract-sounding, like, "The database doesn't have reliable mappings from teachers to the combination of students and classes".
+/"This is going to be very hard, because we don't have reliable mappings from teachers to the *combination* of students and classes in the database"./
 
-If you build a *set* of such user stories, you can then show incremental progress, by demo'ing new capabilities as they are gradually unlocked.
+If you're exceptionally lucky, you might have a PM who is fluent enough in SQL to visualize the restrictions that imposes.
 
-Also, as a very strong bonus, developing a set of user stories will force the engineers and product team to *talk to each other*.
+But, even in that case, odds are good that the PM won't be making tradeoff decisions on their own -- so you'll be *very* well-served by making those restrictions comprehensible to a broader audience.
 
-Another alternative is to build a crude but usable prototype on top of the current data model. Having a prototype:
+So, what are other options for creating visibility?
+
+I'll name two.
+
+First, you can try leaning on *User Stories*[fn:: I *adore* user stories, especially in the formulation from User Stories Applied, by <XXX whathisname>].
+
+Instead of talking about the details of the DB tables as above, you could write a careful memo explaining that:
+
+/The current data model *does not support*: "As a teacher, I can batch assign to all the students in my class in one step, in order to support the lesson I taught that day". With the current data model teachers would have to make assignments one at a time./
+
+That user story form of visibility is generally much more effective than something more abstract.
+
+The best way to play this game is to build a *set* of such user stories, covering different facets of what the team believes users need.
+
+Such a list allows you to:
+
+ - Proiority sort work in collaboration with stakeholders
+
+ - Demonstrate incremental progress as you enable specific user stories
+
+ - Pivot to other work if/when you discover you've met the important uses cases
+
+Developing such a set of user stories also has the salutary effect of forcing the engineers and product team to *talk to each other*.
+
+So that's the first idea.
+
+The second one, which can actually work in complement with user stories, is to build an extremely crude but usable prototype on top of the current data model.
+
+Such a prototype:
 
  - Allows stakeholders to *experience* the restrictions
 
  - Gives the engineers an opportunity to learn precisely where the limits lie
 
- - Creates something you can incrementally keep improving as more flexibility is added under the hood
+ - Creates something you can incrementally keep improving (and showing!) as flexibility is added under the hood
 
- - Can be shown to customers, to, among other things, understand if they truly need *all* the extremely hard to implement parts
+ - Can be shown to customers, to, among other things, understand which of the user stories they *truly* need
 
+To be carefully clear: if you're trying to create visibility into data model risks, your best bet here is the kind of prototype that offers a visually crude but "real" version of the most important workflows.[fn:: At Ellevation, we called such a protoype "An end-to-end shambling mess of the whole system"]
+
+The core capability is that someone can step through various steps of that workflow, in order to understand what is / is not possible.
+
+This is distinct from prototype that are visually pleasant but "fake" (e.g. ones built with a design tool, not talking to DB or any code). Those prototypes can be *super* useful -- but they can very easily promise a version of the product that is forbiddingly hard to build, which is not useful if you're trying to make restrictions visible.
 ** "Deploying To Production Saps My Will To Live"
 
 Maybe the engineers are frustrated because there's an incredible amount of friction involved in getting their changes live -- lots of manual steps, unreliable builds, flaky tests, weird credential issues, tons of post-deploy babystting, a high frequency of reverts, etc.
