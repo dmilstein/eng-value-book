@@ -142,44 +142,65 @@ But instead, every day they face what feels like some kind of coordinated assult
 
  - A stream of bugs and feature requests from customers (somehow every one of them at the HIGHEST PRIORITY)
 
- - Urgent follow ups from sales/success/support about those bug and feature requests (all arguing for the importance of MY SPECIFIC BUG)
+ - Urgent follow ups from sales/success/support about those bug and feature requests (all arguing for the importance of SOME SPECIFIC BUG)
 
- - Weird bits of operational work only engineering can do, but needs to get done RIGHT NOW (that manual account set-up step for some Important New Customer, or a data pull that BI needs by end of day, to prep for presenting to Senior Leadership *tomorrow*)
+ - Weird bits of operational work only engineering can do, and needs to get done RIGHT NOW (that manual account set-up step for some Important New Customer, or a data pull that BI needs by end of day, to prep for presenting to Senior Leadership *tomorrow*)
 
-In my experience, these interruptive requests tends to fall most heavily on your strongest, most valuable engineers, if they suffer from the misfortune of being both experienced and also, y'know, *nice*[fn:: Hello Tom Hare! Hello Lisa McCusker].
+Plus, these interruptive requests tend to fall most heavily on your strongest, most valuable engineers. And that's especially true if they suffer from the combined misfortunes of being both experienced and also nice.
 
-(I have vivid memories of standing by Tom Hare's desk at Wayfair, watching just a parade of people from the operations teams "wander by", each asking for Tom to help fix some weird edge case, which he would do his best to do, while also somehow pushing forward other work).
+(I have vivid memories of standing by Tom Hare's desk at Wayfair, watching just a parade of people from the operations teams "wander by", each asking Tom's to help fix some weird edge case).
 
-*** The Economic Value
+*** Free Up Time *And* Improve Operational Outcomes
 
 There are two distinct ways that Bertha understands the potential for value here.
 
-First, Bertha suspects there might be value for the company if the engineers could spend *less time* on all this interruptive work.
+First, Bertha suspects there might wel be value for the company if the engineers could spend *less time* on all this interruptive work.
 
-Note: in this belief, she is likely heartily joined by both the engineers and their stakeholders.
+Note: in this belief, she is likely heartily joined by both the engineers *and* their immediate stakeholders.
 
-Spending less time on reactive work could free the engineers up to work things that would (definitely) be more and also (hopefully) be more valuable.
+Spending less time on reactive work could free the engineers up to work things that would (definitely) be more fun and also (hopefully) be more valuable.
 
-If the work they could do if not interrupted is probabilistically likely to lead to greater profits in the future, Bertha will happily ascribe real value to replacing reactive work with "something else".
+If that "other" work were probabilistically likely to lead to greater profits in the future, Bertha will happily ascribe real value to replacing reactive work with that "something else".
 
 However, that's not the whole story.
 
-That reactive work, thankless though it may be, is very likely creating *some* form of value for the business.
+The reactive work, thankless though it may be, is very likely creating *some* form of value for the business.
 
 *Bertha cares about that value, too.*
 
 It would be a mistake to assume the interruptive work is just waste -- even though it may *feel* like waste to both the stakeholders and the engineers.
 
-Understanding the value of the reactive work is particuarly important if that work is difficult to fully eliminate.
+Understanding the value of the reactive work is particuarly important if you want to make a couple of specifci investment pitches.
 
-Maybe it's best for the business is to move it *off your team*, and find a home for it somewhere else in the organization -- to do that, you need to speak to the value.
+If you believe it's best for the business to move some work *off your team*, and find a home for it somewhere else in the organization -- you'll need to speak to the value.
 
-Ditto, if you want to "slow down" and make a real technical investment to reduce the time spent per task (or the frequency of interruptions).
+The same is true if you want to "slow down" and make a real technical investment to reduce the time spent per task, or the frequency of interruptions (i.e. by cleaning up some underlying system).
 
 If you can show some value to the business, *beyond* just saving time for the engineers, that investment case gets a lot easier to make.
 
-Let's see an example, below.
+Given the above, there are two different forms of visibility you'll want to aim for.
 
+First, you want to simply make it clear *how much time* the engineers are spending on operational work.
+
+That in and of itself can sometimes motivate a real investment to speed up or fully eliminate some interruptive tasks the engineers are currently responsible for.
+
+E.g. say your engineers spend some time every sprint helping set up tricky data import configurations for new customers. It's just not possible to automate all that away, because it requires carefully reviewing test data files from customers, testing out the imports and diagnosing failures, etc.
+
+Imagine you were go to the Important People at your company and say, "Can we create a dedicated Data Operations team so the engineers can spend less time on new customer onboarding?"
+
+There is a real danger that Important People will hear that as a form of *complaining*.
+
+Everyone's job has certain unpleasant and/or boring parts, many Important People are very good at ignoring complaints that they hear as: "Part of my job isn't fun, can I stop doing that part?"
+
+There's certainly nothing particularly *urgent* in the above.
+
+You might be able to make a more effective case by saying something like:
+
+"It currently takes three weeks to onboard new customers, and delays in the back and forth to get data imports set up are the main driver. That work is currently being handled by the engineers, but a) they are expensive, and b) it often takes a few days for an engineer to find time to review a question from customers, which adds a lot of delays and frustrates customers. We'd like to talk about finding a better home for that work, so we can both improve onboarding times and reduce costs. Our early estimate is that 70% of the work can be done by the more technical members of the help desk, if we can carve out time for them, and the engineers can build some basic tooling."
+
+That's speaking to potential benefits -- both visibly better customer experiences, but also lower costs *for the operation itself*.
+
+There's a decent chance you can loop in your product team to help build this kind of case, because they would love to have more of "their" engineers time devoted to "their" work.
 ** "The Database Is On the Verge of Death"
 
 * Scraps/Notes
