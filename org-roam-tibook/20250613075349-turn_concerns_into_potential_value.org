@@ -146,21 +146,29 @@ But instead, every day they face what feels like some kind of coordinated assult
 
  - Weird bits of operational work only engineering can do, and needs to get done RIGHT NOW (that manual account set-up step for some Important New Customer, or a data pull that BI needs by end of day, to prep for presenting to Senior Leadership *tomorrow*)
 
-Plus, these interruptive requests tend to fall most heavily on your strongest, most valuable engineers. And that's especially true if they suffer from the combined misfortunes of being both experienced and also nice.
+Plus, these interruptive requests tend to fall most heavily on your strongest, most valuable engineers. And that's especially true if those engineers suffer from the  misfortunes of being nice.
 
-(I have vivid memories of standing by Tom Hare's desk at Wayfair, watching just a parade of people from the operations teams "wander by", each asking Tom's to help fix some weird edge case).
+(I have vivid memories of standing by Tom Hare's desk at Wayfair, watching just a parade of people from the operations teams "wander by", each asking for Tom's to help fix some weird edge case).
 
-*** Free Up Time *And* Improve Operational Outcomes
+*** Create Capacity *And* Improve Operational Outcomes
 
-There are two distinct ways that Bertha understands the potential for value here.
+There are two distinct ways that Bertha understands the potential for value here, and thus two distinct forms of visibility you can build.
 
-First, Bertha suspects there might wel be value for the company if the engineers could spend *less time* on all this interruptive work.
+First, Bertha suspects there might well be value for the company if the engineers could spend *less time* on all this interruptive work.
 
-Note: in this belief, she is likely heartily joined by both the engineers *and* their immediate stakeholders.
+In this belief, she is likely heartily joined by both the engineers *and* their immediate stakeholders.
 
-Spending less time on reactive work could free the engineers up to work things that would (definitely) be more fun and also (hopefully) be more valuable.
+Spending less time on reactive work could free the engineers up to work things that would (hopefully) be more valuable and (definitely) be more fun.
 
-If that "other" work were probabilistically likely to lead to greater profits in the future, Bertha will happily ascribe real value to replacing reactive work with that "something else".
+If that "other" work were likely to lead to greater profits in the future, Bertha will happily ascribe real value to replacing the reactive work with that "something else".
+
+Visibility on this front is fairly straightforward: you want to simply make it clear *how much time* the engineers are spending on operational work.
+
+That in and of itself can sometimes motivate a real investment to speed up or fully eliminate some interruptive tasks the engineers are currently responsible for.
+
+You can build some visibility into the "capacity spent on reactive work" by: surveying engineers weekly, or by tagging and tracking tickets, or by shadowing an engineer for a day or two, or even by setting up a formal triage process to bring reactive work out into the open. You can also make some useful estimate about how much time is lost to being interrupted, separate from the actual work to address issues.
+
+All of that can help make a case for investment, if there's a way to *reduce* the reactive work.
 
 However, that's not the whole story.
 
@@ -168,27 +176,19 @@ The reactive work, thankless though it may be, is very likely creating *some* fo
 
 *Bertha cares about that value, too.*
 
-It would be a mistake to assume the interruptive work is just waste -- even though it may *feel* like waste to both the stakeholders and the engineers.
+Understanding the value of the reactive work is potentially useful for you, if you want to make a couple of specific kinds of investment pitches.
 
-Understanding the value of the reactive work is particuarly important if you want to make a couple of specifci investment pitches.
-
-If you believe it's best for the business to move some work *off your team*, and find a home for it somewhere else in the organization -- you'll need to speak to the value.
+If you believe it's best for the business to move work *off your team* and find a home for it somewhere else in the organization -- you'll need to speak to the value.
 
 The same is true if you want to "slow down" and make a real technical investment to reduce the time spent per task, or the frequency of interruptions (i.e. by cleaning up some underlying system).
 
 If you can show some value to the business, *beyond* just saving time for the engineers, that investment case gets a lot easier to make.
 
-Given the above, there are two different forms of visibility you'll want to aim for.
-
-First, you want to simply make it clear *how much time* the engineers are spending on operational work.
-
-That in and of itself can sometimes motivate a real investment to speed up or fully eliminate some interruptive tasks the engineers are currently responsible for.
-
-E.g. say your engineers spend some time every sprint helping set up tricky data import configurations for new customers. It's just not possible to automate all that away, because it requires carefully reviewing test data files from customers, testing out the imports and diagnosing failures, etc.
+E.g. say your engineers spend some time every sprint helping set up tricky data import configurations for new customers. It's not possible to automate all that away, because it requires carefully reviewing test data files from customers, testing out the imports and diagnosing failures, etc.
 
 Imagine you were go to the Important People at your company and say, "Can we create a dedicated Data Operations team so the engineers can spend less time on new customer onboarding?"
 
-There is a real danger that Important People will hear that as a form of *complaining*.
+Here's the only problem: there is a real danger that Important People will hear that as a form of *complaining*.
 
 Everyone's job has certain unpleasant and/or boring parts, many Important People are very good at ignoring complaints that they hear as: "Part of my job isn't fun, can I stop doing that part?"
 
@@ -200,7 +200,7 @@ You might be able to make a more effective case by saying something like:
 
 That's speaking to potential benefits -- both visibly better customer experiences, but also lower costs *for the operation itself*.
 
-There's a decent chance you can loop in your product team to help build this kind of case, because they would love to have more of "their" engineers time devoted to "their" work.
+There's a decent chance you can (and should) loop in your product team to help build this kind of case. It's usually not too hard to get their help,s because they would love to have more of "their" engineers time devoted to "their" work.
 ** "The Database Is On the Verge of Death"
 
 * Scraps/Notes
