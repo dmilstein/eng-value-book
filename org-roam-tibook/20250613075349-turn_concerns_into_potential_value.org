@@ -103,9 +103,9 @@ The core capability is that someone can step through various steps of that workf
 This is distinct from prototype that are visually pleasant but "fake" (e.g. ones built with a design tool, not talking to DB or any code). Those prototypes can be *super* useful -- but they can very easily promise a version of the product that is forbiddingly hard to build, which is not useful if you're trying to make restrictions visible.
 ** "Deploying To Production Saps My Will To Live"
 
-Maybe the engineers are frustrated because there's an incredible amount of friction involved in getting their changes live -- lots of manual steps, unreliable builds, flaky tests, weird credential issues, tons of post-deploy babystting, a high frequency of reverts, etc.
+Maybe the engineers are frustrated because there's an incredible amount of friction involved in getting their changes live -- unreliable builds, manual steps, flaky tests, weird credential issues, tons of post-deploy babystting, a high frequency of reverts, etc.
 
-This kind of problem is *easy* to get Bertha interested in. You can frame the positive investment as:
+This kind of problem is actually *easy* to get Bertha interested in. You can frame the positive investment as:
 
 *** Enable The Team To Ship Smaller Changes More Often
 
@@ -115,16 +115,70 @@ Being, frankly, *more* rational than the median software company CEO, she unders
 
 Luckily, there's strong support for Bertha's belief in the economic value of fast, frequent, safe deploys, thanks to the truly marvelous book Accelerate.
 
-<XXX and XXX> conducted *actually valid research* (in software engineering! for real!) and demonstrated a clear link between long-term company value and the speed, frequency and safety which which engineering teams ship code.
+<XXX and XXX> conducted *actually valid research* (in software engineering! for real! I know, right?!) and demonstrated a link between long-term company value and the speed, frequency and safety which which engineering teams ship code.
 
-What's more, they even define a set of 4 key metrics that you can (and likely should) make the center of your visibility efforts around deployment: Change Frequency, Deploy Lead Time, Revert Frequency and Mean Time to Restore.
+What's more, they even define a set of 4 key metrics that you can make the center of your visibility efforts around deployment:
 
-For each of those, you can start with something rough early on, and then gradually improve your visibility over time (as the Ellevation team did, in gradually moving from the manually updated spreadsheet to the full dashboard).
+ - Change Frequency
 
-In the Anthology of Technical Investments, we'll go deep on how to improve deploy, in the section: "Ship Smaller Changes More Often".
+ - Deploy Lead Time
+
+ - Revert Frequency
+
+ - Mean Time to Restore
+
+You can start with rough or approximate versions of those early on, and then gradually improve your visibility over time.
+
+This is what the Ellevation team did, in gradually moving from the manually updated spreadsheet to the full dashboard.
+
+In the Casebook of Technical Investments, we'll go deep on improving deploy, in the section: "Ship Smaller Changes More Often".
+
 
 ** "I Can't Find a Moment to Think"
 
+Wouldn't it be great if your engineers had time to, say, *do software engineering*?
+
+But instead, every day they face what feels like some kind of coordinated assult on their focused work time, thanks to:
+
+ - A stream of bugs and feature requests from customers (somehow every one of them at the HIGHEST PRIORITY)
+
+ - Urgent follow ups from sales/success/support about those bug and feature requests (all arguing for the importance of MY SPECIFIC BUG)
+
+ - Weird bits of operational work only engineering can do, but needs to get done RIGHT NOW (that manual account set-up step for some Important New Customer, or a data pull that BI needs by end of day, to prep for presenting to Senior Leadership *tomorrow*)
+
+In my experience, these interruptive requests tends to fall most heavily on your strongest, most valuable engineers, if they suffer from the misfortune of being both experienced and also, y'know, *nice*[fn:: Hello Tom Hare! Hello Lisa McCusker].
+
+(I have vivid memories of standing by Tom Hare's desk at Wayfair, watching just a parade of people from the operations teams "wander by", each asking for Tom to help fix some weird edge case, which he would do his best to do, while also somehow pushing forward other work).
+
+*** The Economic Value
+
+There are two distinct ways that Bertha understands the potential for value here.
+
+First, Bertha suspects there might be value for the company if the engineers could spend *less time* on all this interruptive work.
+
+Note: in this belief, she is likely heartily joined by both the engineers and their stakeholders.
+
+Spending less time on reactive work could free the engineers up to work things that would (definitely) be more and also (hopefully) be more valuable.
+
+If the work they could do if not interrupted is probabilistically likely to lead to greater profits in the future, Bertha will happily ascribe real value to replacing reactive work with "something else".
+
+However, that's not the whole story.
+
+That reactive work, thankless though it may be, is very likely creating *some* form of value for the business.
+
+*Bertha cares about that value, too.*
+
+It would be a mistake to assume the interruptive work is just waste -- even though it may *feel* like waste to both the stakeholders and the engineers.
+
+Understanding the value of the reactive work is particuarly important if that work is difficult to fully eliminate.
+
+Maybe it's best for the business is to move it *off your team*, and find a home for it somewhere else in the organization -- to do that, you need to speak to the value.
+
+Ditto, if you want to "slow down" and make a real technical investment to reduce the time spent per task (or the frequency of interruptions).
+
+If you can show some value to the business, *beyond* just saving time for the engineers, that investment case gets a lot easier to make.
+
+Let's see an example, below.
 
 ** "The Database Is On the Verge of Death"
 
