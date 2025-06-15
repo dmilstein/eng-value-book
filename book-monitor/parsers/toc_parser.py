@@ -4,7 +4,7 @@ import re
 import os
 import glob
 import sys
-from typing import List, Tuple, Optional
+from typing import List, Tuple, Optional, Union
 from utils.exceptions import FileNotFoundError, ParseError
 
 class TocParser:
@@ -20,12 +20,14 @@ class TocParser:
         self.file_path = file_path
         self.directory_path = os.path.dirname(file_path)
 
-    def parse(self) -> List[Tuple[str, str]]:
+    def parse(self) -> List[Union[Tuple[str, str], Tuple[None, str]]]:
         """
-        Parse the TOC file and extract chapter information.
+        Parse the TOC file and extract chapter information and parts.
 
         Returns:
-            List of tuples (filename, title) for each chapter found
+            List of tuples where:
+            - (filename, title) for chapters
+            - (None, part_title) for book parts
 
         Raises:
             FileNotFoundError: If the TOC file doesn't exist
@@ -52,51 +54,53 @@ class TocParser:
         except Exception as e:
             raise ParseError(self.file_path, details=f"Error extracting chapters: {str(e)}")
 
-    def _extract_chapters(self, content: str) -> List[Tuple[str, str]]:
+    def _extract_chapters(self, content: str) -> List[Union[Tuple[str, str], Tuple[None, str]]]:
         """
-        Extract chapter links from TOC content within the first org-mode section only.
+        Extract chapter links and parts from TOC content within the first org-mode section only.
 
         Args:
             content: The content of the TOC file
 
         Returns:
-            List of tuples (filename, title) for valid chapter links
+            List of tuples where:
+            - (filename, title) for chapters
+            - (None, part_title) for book parts
         """
         # Find the first top-level heading and extract content until the next one
         first_section_content = self._extract_first_section(content)
         
-        chapters = []
+        items = []
+        lines = first_section_content.split('\n')
+        
+        for line in lines:
+            # Check for second-level headings (parts)
+            part_match = re.match(r'^\*\*\s+(.+)$', line)
+            if part_match:
+                part_title = part_match.group(1).strip()
+                # Check if this line contains a link - if so, it's not a part
+                if not re.search(r'\[\[(?:file:|id:)[^\]]+\]\[[^\]]+\]\]', line):
+                    items.append((None, part_title))
+                    continue
+            
+            # Pattern to match [[file:filename][title]] links
+            file_matches = re.findall(r'\[\[file:([^\]]+)\]\[([^\]]+)\]\]', line)
+            for filename, title in file_matches:
+                filename = filename.strip()
+                title = title.strip()
+                if filename and title:
+                    items.append((filename, title))
 
-        # Pattern to match [[file:filename][title]] links
-        file_pattern = r'\[\[file:([^\]]+)\]\[([^\]]+)\]\]'
-        file_matches = re.findall(file_pattern, first_section_content)
+            # Pattern to match [[id:guid][title]] links (org-roam)
+            id_matches = re.findall(r'\[\[id:([^\]]+)\]\[([^\]]+)\]\]', line)
+            for guid, title in id_matches:
+                guid = guid.strip()
+                title = title.strip()
+                if guid and title:
+                    filename = self._resolve_guid_to_filename(guid)
+                    if filename:
+                        items.append((filename, title))
 
-        for filename, title in file_matches:
-            # Clean up filename and title
-            filename = filename.strip()
-            title = title.strip()
-
-            # Skip empty filenames or titles
-            if filename and title:
-                chapters.append((filename, title))
-
-        # Pattern to match [[id:guid][title]] links (org-roam)
-        id_pattern = r'\[\[id:([^\]]+)\]\[([^\]]+)\]\]'
-        id_matches = re.findall(id_pattern, first_section_content)
-
-        for guid, title in id_matches:
-            # Clean up guid and title
-            guid = guid.strip()
-            title = title.strip()
-
-            # Skip empty guids or titles
-            if guid and title:
-                # Resolve GUID to filename
-                filename = self._resolve_guid_to_filename(guid)
-                if filename:
-                    chapters.append((filename, title))
-
-        return chapters
+        return items
 
     def _extract_first_section(self, content: str) -> str:
         """

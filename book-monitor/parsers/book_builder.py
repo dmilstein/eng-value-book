@@ -2,7 +2,7 @@
 
 import logging
 import os
-from typing import Optional, List
+from typing import Optional, List, Union
 from models import Book, Chapter
 from parsers.toc_parser import TocParser
 from parsers.chapter_parser import ChapterParser
@@ -52,7 +52,7 @@ class BookBuilder:
 
         try:
             toc_parser = TocParser(toc_path)
-            chapter_list = toc_parser.parse()
+            toc_items = toc_parser.parse()
         except (FileNotFoundError, ParseError) as e:
             self.logger.error(f"Failed to parse TOC: {str(e)}")
             raise
@@ -60,18 +60,25 @@ class BookBuilder:
             self.logger.error(f"Unexpected error parsing TOC: {str(e)}")
             raise ParseError(toc_path, details=f"Unexpected error: {str(e)}")
 
-        if not chapter_list:
-            self.logger.warning(f"No chapters found in TOC file {toc_path}")
+        if not toc_items:
+            self.logger.warning(f"No items found in TOC file {toc_path}")
             return None
 
-        self.logger.info(f"Found {len(chapter_list)} chapters in TOC")
+        # Count actual chapters (not parts)
+        chapter_count = sum(1 for filename, title in toc_items if filename is not None)
+        self.logger.info(f"Found {chapter_count} chapters in TOC")
 
         # Create book object
         book = Book(title="Book Monitor", author="Unknown")
 
-        # Process each chapter
+        # Process each item (chapters and parts)
         successful_chapters = 0
-        for filename, title in chapter_list:
+        for filename, title in toc_items:
+            if filename is None:
+                # This is a part marker, skip processing but log it
+                self.logger.info(f"Found book part: {title}")
+                continue
+                
             try:
                 chapter = self._parse_chapter(filename, title)
                 if chapter:
@@ -197,6 +204,10 @@ def main():
         print("Failed to build book from directory:", args.directory)
         sys.exit(1)
 
+    # Get TOC structure for display
+    toc_parser = TocParser(os.path.join(args.directory, "toc.org"))
+    toc_items = toc_parser.parse()
+
     # Output word counts with visual bars
     print(f"Book: {book.title}")
     print(f"Author: {book.author}")
@@ -211,27 +222,48 @@ def main():
             chapter_max = max(section.word_count for section in chapter.sections)
             max_section_words = max(max_section_words, chapter_max)
 
-    # Section 2: All sections organized by chapter, using consistent scale
+    # Section 1: All sections organized by chapter with parts, using consistent scale
     print("SECTIONS:")
     print("-" * 60)
-    for i, chapter in enumerate(book.chapters, 1):
-        if chapter.sections:
-            print(f"Chapter {i}: {chapter.title}")
-
-            for j, section in enumerate(chapter.sections, 1):
-                section_bar = create_word_count_bar(section.word_count, max_section_words, 20)
-                print(f" {section.word_count:>5} {section_bar} Section {j}: {section.title:.80}")
+    chapter_index = 0
+    for filename, title in toc_items:
+        if filename is None:
+            # This is a part
+            print(f"── {title} ──")
             print()
+        else:
+            # This is a chapter
+            if chapter_index < len(book.chapters):
+                chapter = book.chapters[chapter_index]
+                chapter_index += 1
+                
+                if chapter.sections:
+                    print(f"Chapter {chapter_index}: {chapter.title}")
+
+                    for j, section in enumerate(chapter.sections, 1):
+                        section_bar = create_word_count_bar(section.word_count, max_section_words, 20)
+                        print(f" {section.word_count:>5} {section_bar} Section {j}: {section.title:.80}")
+                    print()
 
     print()
 
-    # Section 2: Chapter overview with word counts and bars
+    # Section 2: Chapter overview with word counts and bars, showing parts
     print("CHAPTERS:")
     print("-" * 60)
-    for i, chapter in enumerate(book.chapters, 1):
-        chapter_words = chapter.calculate_word_count()
-        chapter_bar = create_word_count_bar(chapter_words, max_chapter_words, 25)
-        print(f"{chapter_words:6} {chapter_bar} Chapter {i}: {chapter.title}")
+    chapter_index = 0
+    for filename, title in toc_items:
+        if filename is None:
+            # This is a part
+            print(f"── {title} ──")
+        else:
+            # This is a chapter
+            if chapter_index < len(book.chapters):
+                chapter = book.chapters[chapter_index]
+                chapter_index += 1
+                
+                chapter_words = chapter.calculate_word_count()
+                chapter_bar = create_word_count_bar(chapter_words, max_chapter_words, 25)
+                print(f"{chapter_words:6} {chapter_bar} Chapter {chapter_index}: {chapter.title}")
 
     print(f"Summary: {len(book.chapters)} chapters, {book.calculate_total_words()} total words")
 
