@@ -254,7 +254,7 @@ def main():
     for filename, title in toc_items:
         if filename is None:
             # This is a part
-            print(f"── {title} ──")
+            print(f"{'':6} {' ' * 25} {title}")
         else:
             # This is a chapter
             if chapter_index < len(book.chapters):
@@ -263,7 +263,7 @@ def main():
                 
                 chapter_words = chapter.calculate_word_count()
                 chapter_bar = create_word_count_bar(chapter_words, max_chapter_words, 25)
-                print(f"{chapter_words:6} {chapter_bar} Chapter {chapter_index}: {chapter.title}")
+                print(f"{chapter_words:6} {chapter_bar}   Chapter {chapter_index}: {chapter.title}")
 
     print(f"Summary: {len(book.chapters)} chapters, {book.calculate_total_words()} total words")
 
