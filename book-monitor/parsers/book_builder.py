@@ -215,15 +215,13 @@ def main():
     print("SECTIONS:")
     print("-" * 60)
     for i, chapter in enumerate(book.chapters, 1):
-        print(f"Chapter {i}: {chapter.title}")
+        if chapter.sections:
+            print(f"Chapter {i}: {chapter.title}")
 
-        if not chapter.sections:
-            print("  (No sections)")
-        else:
             for j, section in enumerate(chapter.sections, 1):
                 section_bar = create_word_count_bar(section.word_count, max_section_words, 20)
                 print(f" {section.word_count:>5} {section_bar} Section {j}: {section.title:.80}")
-        print()
+            print()
 
     print()
 
