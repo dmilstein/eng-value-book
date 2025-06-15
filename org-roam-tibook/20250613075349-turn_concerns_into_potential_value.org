@@ -255,11 +255,53 @@ What's an engineering leader to do?
 
 *** Potential Value: Ensure Customers Can Use Your Product
 
-The work we've done to build up our model of Bertha and her ability to reason about *probabilistic* future events is really going to help us here.
+The work we've done to build up our model of Bertha and her ability to reason about *probabilistic* future events really helps us here.
 
+Bertha, being rational, knows that sometimes, companies find themselves stuck with a technical architecture that impedes their ability to grow -- and a single shared database hitting the limits of vertical scaling can /sometimes/ create that kind of problem.
 
+# (though, honestly, not as often as some enginers seem to think).
 
+She would ask around the company to learn more.
 
+She'd find out the engineering team does not, currently, have any real idea how soon the database might achieve a state of full overload and grind to a halt.
+
+She'd also find that the engineers haven't developed any options for incrementally improving things.
+
+She'd be at least a bit worried about some of the early signs of DB stress -- the random brownouts during the day, the obscure locking issue.
+
+Given all of the above, how would Bertha come up with an estimate of future profits? In particular, the impact on future profits of possible database problems.
+
+Bertha would average over all "similar" companies that possess the combination of early warning signs of danger with a *lack of knowledge* of how to handle that danger.
+
+Being rational, she'll know that *plenty* of those companies got lucky, and found that with a few tweaks to their indexes plus moving expensive analytics queries to a read replica, they were fine for years.
+
+# XXX Add that one of the engineers above is saying this
+
+But other companies ran straight into a brick wall, and new feature development slowed to a crawl for a year or more -- which seriously depresses the long-term profit stream.
+
+Bertha would estimate the potential impact of database issues as a *weighted mix* of those two outcomes.
+
+And the bad outcome, even if not particularly likely, is bad enough when it does hit, that the *risk* is a real drag on overall company value.
+
+*** Making Risks Visible
+
+A few answers here. First, come up with *calibrated estimates* -- and then create value by refining those estimates.
+
+Second, *run really good post-mortems* -- the early warning signs are not only valuable for pointing you at both the current limits and the current bottlenecks, but are *invaluable* for generating commitment from stakeholders.
+
+In some fantasy world, a rational CEO would find a calibrated estimate of a 20% chance of the current DB architecture fully dead-ending to be *extremely* motivating. Given just how bad it would be to dead-end, they'd be very much ready to invest engineering time in developing a more accurate estimate and some options.
+
+In fact, in that fantasy world, the CEO would find such an estimate *more* motivating than the company experiencing a random one-hour outage that pissed off a few current customers.
+
+But, back here in reality, I have never ever *ever* met a leader who operated that way.
+
+Actual human beings, here on actual earth hear 20% and think "Great, that's pretty unlikely" (no matter how bad things will be if the die turns up bad).
+
+Whereas an outage that impacts a customer is a borderline moral failing! We can't stop and ask questions about how much we're willing to invest to prevent it, do we not Care About the Customer??!
+
+You *must* use the power with great responsibility, but running good post-mortems, that allow you to draw a line from technical issues directly to customer unhappiness, are one of the best ways to motivate investment that I've ever seen.
+
+Third, use early commitments to climb the ladder by way of visibility. Develop SLO's, build dashboards for those, run load tests, run game days. All those are real work, so you want to start by creating visibility into the state of risk, first.
 
 # Build a Proxy for Customer Happiness + Knock Your Own System Over On Purpose
 
