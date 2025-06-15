@@ -17,19 +17,19 @@ class BookBuilder:
 
         Args:
             directory_path: Path to the directory containing org files
-            
+
         Raises:
             ConfigError: If directory path is invalid
         """
         if not directory_path:
             raise ConfigError("BOOK_DIRECTORY", "Directory path cannot be empty")
-        
+
         if not os.path.exists(directory_path):
             raise ConfigError("BOOK_DIRECTORY", f"Directory does not exist: {directory_path}")
-        
+
         if not os.path.isdir(directory_path):
             raise ConfigError("BOOK_DIRECTORY", f"Path is not a directory: {directory_path}")
-        
+
         self.directory_path = directory_path
         self.logger = logging.getLogger(__name__)
         self.errors = []  # Collect non-fatal errors
@@ -39,17 +39,17 @@ class BookBuilder:
 
         Returns:
             Book object if successful, None if TOC file not found or empty
-            
+
         Raises:
             FileNotFoundError: If TOC file doesn't exist
             ParseError: If TOC file cannot be parsed
         """
         # Clear previous errors
         self.errors = []
-        
+
         # Find and parse TOC file
         toc_path = os.path.join(self.directory_path, "toc.org")
-        
+
         try:
             toc_parser = TocParser(toc_path)
             chapter_list = toc_parser.parse()
@@ -92,7 +92,7 @@ class BookBuilder:
 
         self.logger.info(f"Successfully built book with {len(book.chapters)} chapters")
         self.logger.info(f"Total word count: {book.calculate_total_words()}")
-        
+
         if self.errors:
             self.logger.warning(f"Encountered {len(self.errors)} non-fatal errors during build")
 
@@ -107,7 +107,7 @@ class BookBuilder:
 
         Returns:
             Chapter object if successful, None if file not found or parse error
-            
+
         Raises:
             FileNotFoundError: If chapter file doesn't exist
             ParseError: If chapter file cannot be parsed
@@ -126,7 +126,7 @@ class BookBuilder:
 
     def get_errors(self) -> List[str]:
         """Get list of non-fatal errors encountered during build.
-        
+
         Returns:
             List of error messages
         """
@@ -137,38 +137,39 @@ def main():
     """Main function for command-line usage."""
     import sys
     import argparse
-    
+
     parser = argparse.ArgumentParser(description='Build book from org files and display word counts')
     parser.add_argument('directory', help='Directory containing org files with toc.org')
     args = parser.parse_args()
-    
+
     # Configure basic logging
     logging.basicConfig(
         level=logging.WARNING,  # Only show warnings and errors
         format='%(levelname)s: %(message)s'
     )
-    
+
     # Build the book
     builder = BookBuilder(args.directory)
     book = builder.build()
-    
+
     if not book:
         print("Failed to build book from directory:", args.directory)
         sys.exit(1)
-    
+
     # Output word counts in simple text format
     print(f"Book: {book.title}")
     print(f"Author: {book.author}")
     print(f"Total Words: {book.calculate_total_words()}")
     print()
-    
+
     for i, chapter in enumerate(book.chapters, 1):
         chapter_words = chapter.calculate_word_count()
-        print(f"Chapter {i}: {chapter.title} ({chapter_words} words)")
-        
+        print(f"{chapter_words:6} Chapter {i}: {chapter.title}")
+
         for j, section in enumerate(chapter.sections, 1):
-            print(f"  Section {j}: {section.title} ({section.word_count} words)")
-    
+            print(f" {section.word_count:>6}\t  Section {j}: {section.title:.70}")
+        print()
+
     print()
     print(f"Summary: {len(book.chapters)} chapters, {book.calculate_total_words()} total words")
 
