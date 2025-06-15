@@ -24,6 +24,29 @@ I put the formal file for the script I'm working on in a non-org-roam [[file:toc
 *** Build Visibility First
 *** Understand Value In Depth
 *** Turn Concerns Into Potential Value
+** Part II: Stakeholders Have Feelings, Too (Building Trust & Commitment)
+Stakeholders Have Feelings, Too: How To Advocate Effectively
+Build Trust & Commitment With Stakeholders
+Addict Your Stakeholders to a Steady Habit of Decision-Making
+...Diet of...
+*** Master "Tactical Empathy" To Build Trust {Commitment}
+**** Avoid Anti-Patterns
+Six Ineffective Ways to Advocate Before Breakfast
+*** Build Milestones Around Decisions
+Develop Incremental Options
+Small Steps Are The Only Steps Allowed
+# aka No, Really, It *Can* Be Done In Small Steps
+**** The Full Rewrite: Only Undertake If You Wish To Be Fired Midway Through a Long, Painful & Ultimately Unsuccessful Death March
+*** Bootstrap Regular Decision-Making Meetings
+*** Use Storytelling to Celebrate Wins
+*** Use the Dark Force of "Metrics" In Your Favor
+** Part II: Scaling Up: Tech Investments & the Engineering Organization
+*** Assign Ownership to Align Costs With Benefits
+*** 5 Scopes: On the Side, Ticket, Project, Initiative, Durable Team
+# Tease apart tiger teams vs cross-team initiatives
+*** Make Your Post-Mortems an Act of Visibility
+*** Technical Stewardship: Weaving Tech Investments Into The Career Ladder
+** Part III: Case Studies
 *** Forms of Value & Visibility
 # For each, sketch in ideas on building visibility (and maybe actually do a bit of 1 -> 2 -> 3, viz -> commitment -> more viz -> more commitment
 **** Speed Up The Build/Ship/Learn Cycle (Not Just The Build Part)
@@ -44,30 +67,7 @@ I put the formal file for the script I'm working on in a non-org-roam [[file:toc
 # See: drunk, lamppost issues.
 
 **** Engineer Complaints: When To Act On vs When to +Ignore+ Express Sympathy
-*** Build Milestones Around Decisions
-Develop Incremental Options
-Small Steps Are The Only Steps Allowed
-# aka No, Really, It *Can* Be Done In Small Steps
-**** The Full Rewrite: Only Undertake If You Wish To Be Fired Midway Through a Long, Painful & Ultimately Unsuccessful Death March
-** Part II: Stakeholders Have Feelings, Too (Building Trust & Commitment)
-Stakeholders Have Feelings, Too: How To Advocate Effectively
-Build Trust & Commitment With Stakeholders
-Addict Your Stakeholders to a Steady Habit of Decision-Making
-...Diet of...
-*** Master "Tactical Empathy" To Build Trust {Commitment}
-*** Avoid Anti-Patterns
-Six Ineffective Ways to Advocate Before Breakfast
-*** Bootstrap Regular Decision-Making Meetings
-*** Use Storytelling to Celebrate Wins
-*** Use the Dark Force of "Metrics" In Your Favor
-** Part II: Scaling Up: Tech Investments & the Engineering Organization
-*** Assign Ownership to Align Costs With Benefits
-*** 5 Scopes: On the Side, Ticket, Project, Initiative, Durable Team
-# Tease apart tiger teams vs cross-team initiatives
-*** Make Your Post-Mortems an Act of Visibility
-*** Technical Stewardship: Weaving Tech Investments Into The Career Ladder
-** Part III: Case Studies
-*** HubSpot "Customer Anger" Crisis
+*** HubSpot "Customer Crisis"
 Post-mortems led to investtments in tooling
 *** Pinch Tests
 *** EWJ's DevPlats Work
