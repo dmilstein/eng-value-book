@@ -211,31 +211,31 @@ def main():
             chapter_max = max(section.word_count for section in chapter.sections)
             max_section_words = max(max_section_words, chapter_max)
 
-    # Section 1: Chapter overview with word counts and bars
+    # Section 2: All sections organized by chapter, using consistent scale
+    print("SECTIONS:")
+    print("-" * 60)
+    for i, chapter in enumerate(book.chapters, 1):
+        print(f"Chapter {i}: {chapter.title}")
+
+        if not chapter.sections:
+            print("  (No sections)")
+        else:
+            for j, section in enumerate(chapter.sections, 1):
+                section_bar = create_word_count_bar(section.word_count, max_section_words, 20)
+                print(f" {section.word_count:>5} {section_bar} Section {j}: {section.title:.80}")
+        print()
+
+    print()
+
+    # Section 2: Chapter overview with word counts and bars
     print("CHAPTERS:")
     print("-" * 60)
     for i, chapter in enumerate(book.chapters, 1):
         chapter_words = chapter.calculate_word_count()
         chapter_bar = create_word_count_bar(chapter_words, max_chapter_words, 25)
         print(f"{chapter_words:6} {chapter_bar} Chapter {i}: {chapter.title}")
-    print()
-
-    # Section 2: All sections organized by chapter, using consistent scale
-    print("SECTIONS:")
-    print("-" * 60)
-    for i, chapter in enumerate(book.chapters, 1):
-        print(f"Chapter {i}: {chapter.title}")
-        
-        if not chapter.sections:
-            print("  (No sections)")
-        else:
-            for j, section in enumerate(chapter.sections, 1):
-                section_bar = create_word_count_bar(section.word_count, max_section_words, 20)
-                print(f"  {section.word_count:>5} {section_bar} Section {j}: {section.title:.50}")
-        print()
 
     print(f"Summary: {len(book.chapters)} chapters, {book.calculate_total_words()} total words")
-
 
 if __name__ == '__main__':
     main()
