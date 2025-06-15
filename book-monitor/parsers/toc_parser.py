@@ -54,7 +54,7 @@ class TocParser:
 
     def _extract_chapters(self, content: str) -> List[Tuple[str, str]]:
         """
-        Extract chapter links from TOC content.
+        Extract chapter links from TOC content within the first org-mode section only.
 
         Args:
             content: The content of the TOC file
@@ -62,11 +62,14 @@ class TocParser:
         Returns:
             List of tuples (filename, title) for valid chapter links
         """
+        # Find the first top-level heading and extract content until the next one
+        first_section_content = self._extract_first_section(content)
+        
         chapters = []
 
         # Pattern to match [[file:filename][title]] links
         file_pattern = r'\[\[file:([^\]]+)\]\[([^\]]+)\]\]'
-        file_matches = re.findall(file_pattern, content)
+        file_matches = re.findall(file_pattern, first_section_content)
 
         for filename, title in file_matches:
             # Clean up filename and title
@@ -79,7 +82,7 @@ class TocParser:
 
         # Pattern to match [[id:guid][title]] links (org-roam)
         id_pattern = r'\[\[id:([^\]]+)\]\[([^\]]+)\]\]'
-        id_matches = re.findall(id_pattern, content)
+        id_matches = re.findall(id_pattern, first_section_content)
 
         for guid, title in id_matches:
             # Clean up guid and title
@@ -94,6 +97,37 @@ class TocParser:
                     chapters.append((filename, title))
 
         return chapters
+
+    def _extract_first_section(self, content: str) -> str:
+        """
+        Extract content from the first org-mode section only.
+        
+        Args:
+            content: The full content of the TOC file
+            
+        Returns:
+            Content of the first section (from first * heading to next * heading or EOF)
+        """
+        lines = content.split('\n')
+        first_heading_found = False
+        section_lines = []
+        
+        for line in lines:
+            # Check if this is a top-level heading (starts with single *)
+            if re.match(r'^\*\s+', line):
+                if first_heading_found:
+                    # We've reached the second top-level heading, stop here
+                    break
+                else:
+                    # This is the first top-level heading, start collecting
+                    first_heading_found = True
+                    section_lines.append(line)
+            elif first_heading_found:
+                # We're inside the first section, collect all lines
+                section_lines.append(line)
+            # If we haven't found the first heading yet, skip lines
+        
+        return '\n'.join(section_lines)
 
     def _resolve_guid_to_filename(self, guid: str) -> Optional[str]:
         """
