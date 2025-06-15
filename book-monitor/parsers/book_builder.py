@@ -133,6 +133,47 @@ class BookBuilder:
         return self.errors.copy()
 
 
+def create_word_count_bar(word_count: int, max_count: int, width: int = 20) -> str:
+    """Create a horizontal bar representation of word count using Unicode blocks.
+
+    Args:
+        word_count: Current word count to display
+        max_count: Maximum word count for scaling
+        width: Width of the bar in characters
+
+    Returns:
+        String representation of the bar chart
+    """
+    if max_count == 0:
+        return '░' * width
+
+    # Calculate how many full blocks and partial block
+    ratio = word_count / max_count
+    filled_chars = ratio * width
+    full_blocks = int(filled_chars)
+    partial = filled_chars - full_blocks
+
+    # Unicode block characters from full to empty
+    blocks = ['█', '▉', '▊', '▋', '▌', '▍', '▎', '▏']
+
+    # Build the bar
+    bar = '█' * full_blocks
+
+    # Add partial block if needed
+    if partial > 0 and full_blocks < width:
+        partial_index = int(partial * len(blocks))
+        if partial_index >= len(blocks):
+            partial_index = len(blocks) - 1
+        bar += blocks[partial_index]
+        full_blocks += 1
+
+    # Fill remaining with light shade
+    #bar += '░' * (width - full_blocks)
+    bar += ' ' * (width - full_blocks)
+
+    return bar
+
+
 def main():
     """Main function for command-line usage."""
     import sys
@@ -156,18 +197,28 @@ def main():
         print("Failed to build book from directory:", args.directory)
         sys.exit(1)
 
-    # Output word counts in simple text format
+    # Output word counts with visual bars
     print(f"Book: {book.title}")
     print(f"Author: {book.author}")
     print(f"Total Words: {book.calculate_total_words()}")
     print()
 
+    # Find max word count for scaling bars
+    max_chapter_words = max(chapter.calculate_word_count() for chapter in book.chapters) if book.chapters else 0
+    max_section_words = 0
+    for chapter in book.chapters:
+        if chapter.sections:
+            chapter_max = max(section.word_count for section in chapter.sections)
+            max_section_words = max(max_section_words, chapter_max)
+
     for i, chapter in enumerate(book.chapters, 1):
         chapter_words = chapter.calculate_word_count()
-        print(f"{chapter_words:6} Chapter {i}: {chapter.title}")
+        chapter_bar = create_word_count_bar(chapter_words, max_chapter_words, 25)
+        print(f"{chapter_words:6} {chapter_bar} Chapter {i}: {chapter.title}")
 
         for j, section in enumerate(chapter.sections, 1):
-            print(f" {section.word_count:>6}\t  Section {j}: {section.title:.70}")
+            section_bar = create_word_count_bar(section.word_count, max_section_words, 15)
+            print(f"{section.word_count:>6} {section_bar}Section {j}: {section.title:.50}")
         print()
 
     print()
