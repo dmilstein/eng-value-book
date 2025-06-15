@@ -4,13 +4,13 @@
 #+title: Turn Concerns Into Potential Value
 #+filetags: :Chapter:
 * Turn Concerns Into Potential Value
-Now, armed with a fuller understanding of value, we're ready to look at various kinds of engineers concerns.
+Now, armed with a fuller understanding of value, we're ready to look at various kinds issues engineers tend to be concerned about.
 
 We'll look for ways to turn those from vague worries into potentially valuable investment opportunities.
 
 We'll ask: What Would Bertha (our economically rational investor) Say?
 
-For each, we'll also share a few ideas on how you might make the potential value *visible* to stakeholders
+For each, we'll also share a few ideas on how you might make the potential value *visible* to stakeholders.
 
 Here are the four concerns we're going to dig into:
 
@@ -235,21 +235,33 @@ There's a decent chance you can (and should) loop in your product team to help b
 There are other variations on this game plan you can run, be it setting up a regular collaborative triage process, or breaking off a separate platform team that owns a particularly troublesome bit of functionality (e.g. authentication and authorization), etc. We'll touch on a couple in the Case Book of Tech Investments later.
 
 ** "The Database Is On the Verge of Death And No One Cares"
-The whole company is super focused on the next big feature launch, but that one grizzled engineer on your team keeps pounding their fist on the table in various meetings, trying to convince everyone the database is about to fall over[fn:: I imagine them saying "Databasus delenda est" (that one's for all you classic geeks out there)].
+The whole company is super focused on the next big feature launch, but that one grizzled engineer keeps pounding their fist on the table, trying to convince everyone the database is about to fall over[fn:: For all you classics geeks out there, I like to imagine them crying out "Databasus delenda est". And maybe wearing a toga.].
 
-But... that engineer seems to always complain about the database?
+But... that engineer seems to always be worrying about the database?
 
-And no one really knows what would make things better short of some massive change.
+And no one really knows what would make things better short of a massive and truly terrifying replatforming.[fn:: If you've recently hired a senior engineer who, without having talked to anyone in product or the business, is now busily convincing the rest of your team that a few weeks of high CPU load means you have literally no choice but to move to {NoSQL, Distributed Systems, Microservices}... you're going to want to *quickly* regain control over the "How we're going to ensure our system scales" narrative. Otherwise, things could get *very* out of hand, *very* fast. And also, maybe take a hard look at your hiring processes?]
 
-Sure, there are a few recently-hired engineers who are trying to sell the team on a move to {NoSQL, Distributed Datastores, Microservices}, but you're justifiably nervous about anything that drastic.
+Unfortunately, you don't actually know how bad things are with the DB.
 
-And you don't really know how bad things are?
+Sure, there have been a few scary spikes in the middle of the day, and there was that time the DB got totally wedged due to what turned out to be locking issues.[fn:: it's not production if you're not occasionally killing spids, amirite?]
 
-But also, that one team just added that feature that kinda sorta maybe does a crazy ton of new queries and just hammers the database all the time?
+But each time, the team was able to find some way to get it going again, and the pains weren't that bad for customers.
+
+But then that one team added a feature that does just a crazy ton of expensive queries, every time a customer moves their mouse. Which was fine in their dev environment, but seems to be creating some weird sluggishness in production?
+
+That team is being heaped with praise because the new feature is so damn sexy, so they have no time to talk as they rush to add something else which will wreak just utter havoc on your carefully crafted database indexing scheme.
+
+What's an engineering leader to do?
 
 *** Potential Value: Ensure Customers Can Use Your Product
 
-Build a Proxy for Customer Happiness + Knock Your Own System Over On Purpose
+The work we've done to build up our model of Bertha and her ability to reason about *probabilistic* future events is really going to help us here.
+
+
+
+
+
+# Build a Proxy for Customer Happiness + Knock Your Own System Over On Purpose
 
 
 
