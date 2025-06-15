@@ -251,10 +251,12 @@ def main():
     print("CHAPTERS:")
     print("-" * 60)
     chapter_index = 0
+    inside_part = False
     for filename, title in toc_items:
         if filename is None:
             # This is a part
             print(f"{'':6} {' ' * 25} {title}")
+            inside_part = True
         else:
             # This is a chapter
             if chapter_index < len(book.chapters):
@@ -263,7 +265,13 @@ def main():
                 
                 chapter_words = chapter.calculate_word_count()
                 chapter_bar = create_word_count_bar(chapter_words, max_chapter_words, 25)
-                print(f"{chapter_words:6} {chapter_bar}   Chapter {chapter_index}: {chapter.title}")
+                
+                if inside_part:
+                    # Chapter inside a part - indent it
+                    print(f"{chapter_words:6} {chapter_bar}   Chapter {chapter_index}: {chapter.title}")
+                else:
+                    # Chapter not inside a part - left align with parts
+                    print(f"{chapter_words:6} {chapter_bar} Chapter {chapter_index}: {chapter.title}")
 
     print(f"Summary: {len(book.chapters)} chapters, {book.calculate_total_words()} total words")
 
