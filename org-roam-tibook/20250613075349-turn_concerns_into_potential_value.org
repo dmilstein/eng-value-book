@@ -133,7 +133,6 @@ This is what the Ellevation team did, in gradually moving from the manually upda
 
 In the Casebook of Technical Investments, we'll go deep on improving deploy, in the section: "Ship Smaller Changes More Often".
 
-
 ** "I Can't Find a Moment to Think"
 
 Wouldn't it be great if your engineers had time to, say, *do software engineering*?
@@ -162,11 +161,13 @@ In this belief, she is likely heartily joined by both the engineers *and* their 
 
 Spending less time on reactive work could free the engineers up to work on things that would be more valuable (hopefully) and more fun (definitely).
 
+# more fun for them and more in keeping with the product team's immediate goals.
+
 If that "other" work were likely to lead to greater profits in the future, Bertha will happily ascribe real value to replacing the reactive work with that "something else".
 
 Visibility on this "engineering capacity" front is fairly straightforward: you want to simply make it clear *how much time* the engineers are spending on operational work (with some multiplier for interruptions, since they blow up focus).
 
-Just viewing the capacity in and of itself can sometimes motivate a real investment to speed up or fully eliminate some interruptive tasks the engineers are currently responsible for.
+Just viewing the capacity consumed by reactive work can sometimes motivate a real investment to speed up or fully eliminate interruptive tasks the engineers are currently responsible for.
 
 You can build visibility into the "capacity spent on reactive work" by some combo of:
 
@@ -188,17 +189,17 @@ Bad news: *Bertha cares about that value, too.*
 
 If fixing bugs, or restoring the site from outages, or correcting data issues in production keep customers renewing, then Bertha will not be happy if your team simply stops doing that work.
 
-The trick is to spend a bit of time understanding the *positive* value of what your team perceives as reactive work.
+The trick here is to spend a bit of time understanding the *positive* value of what your team perceives as reactive work.
 
-If you can really dig in on that side, you might be able to find creative ways to either restructure how much work gets to your team, or, possibly, propose moving the work *off your team* altogether and finding a home for it somewhere else in the organization.
+If you can really dig in on that side, you might be able to find creative ways to either restructure how much work gets to your team, or, or make a real investment to eliminate a whole class of issues at a deeper level, or even, propose moving the work *off your team* altogether and finding a home for it somewhere else in the organization.
 
-That kind of shift can be economically rational, but isn't an easy pitch to make, unless you can show some extra value to the business, *beyond* just saving time for the engineers.
+Those kind of major investments or shifts can be economically rational, but those aren't easyes pitch to make, unless you can show some extra value to the business, *beyond* just saving time for the engineers.
 
 E.g. say your engineers spend time every sprint helping set up data import configurations for new customers.
 
-Even if they were to invest, they can't automate all that away, because setting up each new customer requires carefully reviewing sample data files, testing out imports and diagnosing failures, etc.
+Even if they were to invest in better tooling, they can't automate it all away, because setting up each new customer requires carefully reviewing sample data files, testing out imports and diagnosing failures, etc.
 
-Imagine you were go to the Important People at your company and say, "Can we create a dedicated Data Operations team?"
+Imagine you were go to the Important People at your company and say, "We'd like create a dedicated Data Operations team"
 
 And they say, "Okay, why?"
 
@@ -208,7 +209,7 @@ Here's the problem: there is a risk that Important People will hear that as a fo
 
 Everyone's job has certain unpleasant and/or boring parts. Most Important People have developed the skill of ignoring complaints that they hear as: "Part of my job isn't fun, can I stop doing that part?"
 
-There's certainly nothing particularly *urgent* in the above.
+You really don't want them to hear this suggestion in that light.
 
 You might be able to make a more effective case by saying something like:
 
@@ -227,7 +228,14 @@ That's speaking to potential benefits -- both a better customer experience, but 
 There's a decent chance you can (and should) loop in your product team to help build this kind of case. It's usually not too hard to get their help, because they would love to have more of "their" engineers time devoted to "their" work.
 
 There are other variations on this game plan you can run, be it setting up a regular collaborative triage process, or breaking off a separate platform team that owns a particularly troublesome bit of functionality (e.g. authentication and authorization), etc. We'll touch on a couple in the Case Book of Tech Investments later.
-** "The Database Is On the Verge of Death"
+
+** "The Database Is On the Verge of Death And No One Cares"
+The whole company is super focused on the next big feature launch, but that one grizzled engineer on your team keeps on pounding their metaphorical fist on the table in various meetings, trying to convince everyone that main shared database is running out of capacity.
+
+But... that engineer seems to always complain about the database? And no one really knows what would make things better short of a full rearchitecting to move to {NoSQL, Distributed Datastores, Microservices}.
+
+
+
 
 * Scraps/Notes
 
