@@ -14,7 +14,7 @@ For each, we'll also share a few ideas on how you might make the potential value
 
 Here are the four concerns we're going to dig into:
 
- - "This Code Is a Nightmare"
+ - "This Code Is a Nightmare From The Black Depths of Hell"
 
  - "Deploying To Production Saps My Will To Live"
 
@@ -22,7 +22,7 @@ Here are the four concerns we're going to dig into:
 
  - "The Database Is On the Verge of Death And No One Cares"
 
-** "This Code Is a Nightmare"
+** "This Code Is a Nightmare From The Black Depths of Hell"
 
 Bad code isn't something Bertha really cares much about, in and of itself.
 
@@ -34,7 +34,7 @@ However, when the engineers hate the code with the heat of a thousand suns, ther
 
 For example, an opportunity Bertha would listen to pretty carefully is one that would:
 
-*** Enable *Specific* Product Improvements
+*** Potential Value: Enable *Specific* Product Improvements
 
 Say the product team asks for some feature that is, unfortunately, borderline inmpossible to build, given the way the code is set up.
 
@@ -42,13 +42,15 @@ An example I've seen over and over: building some hot new feature has the trivia
 
 If Bertha hears that the engineering team has found a safe way to incrementally restructure that core data model, and can now add the new feature, she will increase her probabilistic estimate of future profits[fn:: she'll increase that estimate a lot more if there's evidence customers actually *want* the feature -- so maybe figure that out first?], and thus the company's value will *increase*.
 
-On the other hand, if Bertha hears that the engineering team has restructured the core data model, to make it "better" and "more flexible"... but did so on their own, and have not unlocked any specific product improvements... she's gonna be *pissed*. Her estimate of future profits is going to go *down* as a result. An engineering team doing that kind of work has destroyed value for the company.
+On the other hand, if Bertha hears that the engineering team has restructured the core data model, to make it "better" and "more flexible"... but did so on their own, and have not unlocked any specific product improvements... Bertha is gonna be *pissed*. Her estimate of future profits is going to go *down* as a result. An engineering team doing that kind of work has destroyed value for the company.
 
-Value is not created by adding some kind of theoretical or abstract form of flexibility, value is created by adding support for specific customer needs.
+Value is not created by adding some kind of theoretical or abstract form of flexibility.
 
-But, how might we make this kind of value *visible*?
+But, how might we make this kind of potential value more *visible*?
 
-As an example, at an EdTech company, there might be painful limits around how the system models the assignment of lessons to students (this is very common, because assignemnts have a whole state machine-like lifecycle, plus lots of logic around who is allowed to make assignments to who, plus privacy laws impacting some of those bits, etc).
+Well, first, we need to help people really understand the current limitations.
+
+As an example, at an EdTech company, there might be painful limits around how the system models the assignment of lessons to students (assignemnts have a whole state machine-like lifecycle, plus lots of logic around who is allowed to make assignments to who, plus privacy laws impacting some of those bits, etc).
 
 The engineering team, who have lived and breathed the core lesson assignment model for years, might try to convey the challenges in some requested new feature by saying:
 
@@ -74,17 +76,17 @@ The best way to play this game is to build a *set* of such user stories, coverin
 
 Such a list allows you to:
 
- - Proiority sort work in collaboration with stakeholders
+ - Priority sort work in collaboration with stakeholders
 
  - Demonstrate incremental progress as you enable specific user stories
 
  - Pivot to other work if/when you discover you've met the important uses cases
 
-Developing such a set of user stories also has the salutary effect of forcing the engineers and product team to *talk to each other*.
+Usually, developing such a set of user stories also has the salutary effect of forcing the engineers and product team to *talk to each other*.
 
 So that's the first idea.
 
-The second one, which can actually work in complement with user stories, is to build an extremely crude but usable prototype on top of the current data model.
+The second one (which actually works very well alongside user stories), is to build an *extremely* crude but usable prototype on top of the current data model.
 
 Such a prototype:
 
@@ -100,14 +102,17 @@ To be carefully clear: if you're trying to create visibility into data model ris
 
 The core capability is that someone can step through various steps of that workflow, in order to understand what is / is not possible.
 
-This is distinct from prototype that are visually pleasant but "fake" (e.g. ones built with a design tool, not talking to DB or any code). Those prototypes can be *super* useful -- but they can very easily promise a version of the product that is forbiddingly hard to build, which is not useful if you're trying to make restrictions visible.
+This is distinct from prototypes that are visually pleasant but "fake" (e.g. ones built with a design tool, not talking to DB or any code). Those prototypes can be *super* useful -- but they can very easily promise a version of the product that is forbiddingly hard to build, which is not useful if you're trying to make restrictions visible.
+
+Having created visibility with either or both of the above approaches, the engineers might be able to then gradually negotiate their way up the ladder of commitment, to maybe carefully refactor some part of the core data model, or instrument the code around it with much more thorough tests, or even break some subdomain off to a separate service.
+
 ** "Deploying To Production Saps My Will To Live"
 
 Maybe the engineers are frustrated because there's an incredible amount of friction involved in getting their changes live -- unreliable builds, manual steps, flaky tests, weird credential issues, tons of post-deploy babystting, a high frequency of reverts, etc.
 
 This kind of problem is actually *easy* to get Bertha interested in. You can frame the positive investment as:
 
-*** Enable The Team To Ship Smaller Changes More Often
+*** Potential Value: Enable The Team To Ship Smaller Changes More Often
 
 Bertha understands that your company's future profits are, ultimately, strongly influenced by how quickly your engineering and product teams can go through repeated cycles where they build, then ship, and then *learn*.
 
@@ -151,7 +156,7 @@ Plus, these interruptive requests tend to fall most heavily on your strongest, m
 
 To use the power of value in your favor, you're might try a mix of:
 
-*** Create Capacity *And* Improve Operational Outcomes
+*** Potential Value: Create Engineering Capacity *And* Improve Operational Outcomes
 
 There are two distinct ways that Bertha understands the potential for value here, and thus two distinct forms of visibility.
 
@@ -230,9 +235,23 @@ There's a decent chance you can (and should) loop in your product team to help b
 There are other variations on this game plan you can run, be it setting up a regular collaborative triage process, or breaking off a separate platform team that owns a particularly troublesome bit of functionality (e.g. authentication and authorization), etc. We'll touch on a couple in the Case Book of Tech Investments later.
 
 ** "The Database Is On the Verge of Death And No One Cares"
-The whole company is super focused on the next big feature launch, but that one grizzled engineer on your team keeps on pounding their metaphorical fist on the table in various meetings, trying to convince everyone that main shared database is running out of capacity.
+The whole company is super focused on the next big feature launch, but that one grizzled engineer on your team keeps pounding their fist on the table in various meetings, trying to convince everyone the database is about to fall over[fn:: I imagine them saying "Databasus delenda est" (that one's for all you classic geeks out there)].
 
-But... that engineer seems to always complain about the database? And no one really knows what would make things better short of a full rearchitecting to move to {NoSQL, Distributed Datastores, Microservices}.
+But... that engineer seems to always complain about the database?
+
+And no one really knows what would make things better short of some massive change.
+
+Sure, there are a few recently-hired engineers who are trying to sell the team on a move to {NoSQL, Distributed Datastores, Microservices}, but you're justifiably nervous about anything that drastic.
+
+And you don't really know how bad things are?
+
+But also, that one team just added that feature that kinda sorta maybe does a crazy ton of new queries and just hammers the database all the time?
+
+*** Potential Value: Ensure Customers Can Use Your Product
+
+Build a Proxy for Customer Happiness + Knock Your Own System Over On Purpose
+
+
 
 
 
