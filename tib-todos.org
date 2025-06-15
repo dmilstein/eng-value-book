@@ -23,6 +23,8 @@ YES
 ** TODO Make scripts take titles from #+title, not the first headline
 ** TODO For "making 3x more decisions" bring to life "implicit decisions"
 E.g. the decision to keep coding against the newest version of a library. Or the decision to base the product on a data source that you've been assured is present in reality. Or the decision to build your feature around a run-time call to an API you believe you'll have valid credentials for, at the moment of the call.
+** TODO Commit to toc.org instead of current thing (add to Roam)
+** TODO Within "I Can't Think" tease out two forms of viz
 * [[id:BB09F432-DEEB-4129-8F88-D23C86E8CEBB][Build Viz First]]                                 :gtasks:
 ** DONE Jam in some of my ideas from my notes, break out todos :pom:
 CLOSED: [2025-06-07 Sat 09:35]
@@ -55,7 +57,15 @@ I know last year's profits (or I can find them out). How do I determine company 
 
 Warning, it's a trap! People will talk to you all day about this, but they're ignoring the main driving force
 * [[id:2EC03879-2A23-4546-BCB8-E9A464665A03][Turn Concerns Into Value ]]                       :gtasks:
-** TODO Spike on bad intro                        :curweek:pom:
+** DONE Spike on bad intro                        :curweek:pom:
+CLOSED: [2025-06-13 Fri 11:05]
+** DONE Write about terrible code                 :curweek:
+CLOSED: [2025-06-13 Fri 11:06]
+** DONE Write about deploys                       :curweek:
+CLOSED: [2025-06-14 Sat 10:23]
+** DONE Write "I can't find a moment to think"    :curweek:pom:
+CLOSED: [2025-06-14 Sat 17:41]
+** TODO Write "The DB is on the verge of death"   :curweek:
 * Misc Structure [[id:B4926308-39DD-471B-8E71-5FFF7546D6E3][(Table of Contents]])              :gtasks:
 ** TODO Spike on ToC reorg - part II = stakeholder mgmt
 ** TODO Add: why technical judgment is important
