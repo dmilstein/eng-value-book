@@ -235,7 +235,8 @@ There's a decent chance you can (and should) loop in your product team to help b
 There are other variations on this game plan you can run, be it setting up a regular collaborative triage process, or breaking off a separate platform team that owns a particularly troublesome bit of functionality (e.g. authentication and authorization), etc. We'll touch on a couple in the Case Book of Tech Investments later.
 
 ** "The Database Is On the Verge of Death And No One Cares"
-The whole company is focused on the next big feature launch, but that one grizzled engineer keeps pounding their fist on the table, trying to convince everyone the database is about to fall over[fn:: For all you classics geeks out there, I like to imagine them crying out "Databasus delenda est". And maybe wearing a toga.].
+
+The whole company is focused on the next big feature launch, but that one grizzled engineer keeps pounding their fist on the table, trying to convince everyone the database is about to fall over[fn:: I like to imagine them crying out "Databasus delenda est". And maybe wearing a toga.].
 
 But... that engineer seems to always be worrying about the database?
 
@@ -243,13 +244,15 @@ And no one really knows what would make things better short of a massive and tru
 
 Unfortunately, you don't actually know how bad things are with the DB.
 
-Sure, there have been a few scary spikes in the middle of the day, and there was that time the DB got totally wedged due to what turned out to be locking issues.[fn:: it's not production if you're not occasionally killing spids, amirite?]
+There have been a few scary spikes in the middle of the day, and there was that time the DB got totally wedged due to what turned out to be locking issues.[fn:: it's not production if you're not occasionally killing spids, amirite?]
 
-But each time, the team was able to find some way to get it going again, and the pains weren't that bad for customers. In fact, a *different* senior engineer, who has done some work as a DBA, believes that there's a lot more headroom in the current set up, if you could all just slow down for a minute to find it.
+But each time, the team was able to find some way to get it going again, and the pains weren't that bad for customers.
 
-But then one team adds a feature that run a dozen expensive queries every time a customer blinks.
+In fact, a *different* senior engineer, one who has done some work as a DBA, believes that there's a lot more headroom in the current set up, if you could all just slow down for a minute to find it.
 
-That team is being heaped with praise because the new feature is so damn sexy, so they have no time to talk as they rush to add something else which will wreak just utter havoc on your carefully crafted database indexing schemes.
+But then a team adds a feature that run a dozen expensive queries every time a customer blinks.
+
+That team is being heaped with praise because the new feature is so damn sexy, and they're rushing to add something else which will wreak havoc on your carefully crafted database indexing schemes.
 
 What's an engineering leader to do?
 
@@ -257,9 +260,7 @@ What's an engineering leader to do?
 
 The work we've done to build up our model of Bertha and her ability to reason about *probabilistic* future events really helps us here.
 
-Bertha, being rational, knows that sometimes, companies find themselves stuck with a technical architecture that impedes their ability to grow -- and a single shared database hitting the limits of vertical scaling can /sometimes/ create that kind of problem.
-
-# (though not as often as some enginers seem to think).
+Bertha, being rational, knows that sometimes, companies find themselves stuck with a technical architecture that impedes their ability to grow -- and a single shared database hitting the limits of vertical scaling can /sometimes/ create that kind of problem.[fn:: though maybe not as often as some enginers seem to think]
 
 Bertha would ask around the company to learn more.
 
@@ -271,47 +272,71 @@ She'd be at least a bit worried about some of the early signs of DB stress -- th
 
 Given all of the above, how would Bertha come up with an estimate of future profits?
 
-In particular, how would she think about the impact o  possible database problems on future profits.
+In particular, how would she think about the impact of possible database problems on future profits?
 
 A rational investor like Bertha will make an estimate by averaging over all "similar" companies that she's seen, that possessed the combination of early warning signs of danger with a *lack of knowledge* of how to handle that danger.
 
-She'll know that *plenty* of those companies got lucky, and found that with a few tweaks to their indexes plus moving expensive analytics queries to a read replica, they were fine for years (as that one DBA-turned-engineer suggests).
+She'll know that plenty of those companies got lucky, and found that with a few tweaks to their indexes plus moving some analytics queries to a read replica, they were fine for the next few years (as that one DBA-turned-engineer suggests).
 
+But other companies ran straight into a brick wall, and new feature development slowed to a crawl for a year or more -- which seriously depresses the long-term profit stream (as the *other* engineer keeps warning about).
 
-But other companies ran straight into a brick wall, and new feature development slowed to a crawl for a year or more -- which seriously depresses the long-term profit stream (as the  *other* engineer keeps warning about).
+Given that it's unknown which world you're living in, Bertha will estimate the potential impact of database issues as a *weighted mix* of those two outcomes.
 
-Given that it's unknown which world you're living in, Bertha will potential impact of database issues as a *weighted mix* of those two outcomes.
+And the bad outcome, even if not particularly probable, is *very* bad indeed if it does occur. So the *risk* (likelihood x impact) genuinely depresses overall company value.
 
-And the bad outcome, even if not particularly probable, is *very* bad indeed if it does hit. So the *risk* (likelihood x impact) genuinely depresses overall company value.
+*** Making Risks Visible
 
-*** How to Make Risks Visible
+The potential value for the business is to *reduce that risk*.
 
-A few answers here. First, come up with *calibrated estimates* -- and then create value by refining those estimates.
+To do that, you'll need some way to make the current state of risk visible -- both so you can advocate for investment, but also so you can verify after investing that you actually made things better.
 
-Second, *run really good post-mortems* -- the early warning signs are not only valuable for pointing you at both the current limits and the current bottlenecks, but are *invaluable* for generating commitment from stakeholders.
+An excellent way to determine risks associated with capacity is to deliberately oversaturate your system in production and see at what points it collapses.
 
-In some fantasy world, a rational CEO would find a calibrated estimate of a 20% chance of the current DB architecture fully dead-ending to be *extremely* motivating.
+However, that tends to be a pretty significant investment, so you'll usually want to get there by climbing a few rungs of the ladder of commitment.
 
-Given just how bad it would be to dead-end, they'd be very much ready to invest engineering time in developing a more accurate estimate and some options.
+One of the best ways I know to *start* is to develop a practice of *running excellent post-mortems* (see [[id:3DE23585-34F0-4C88-A16B-4558ACC45C99][Make Your Post-Mortems an Act of Visibility]]).
 
-In fact, in that fantasy world, the CEO would find such an estimate *more* motivating than the company experiencing a random one-hour outage that pissed off a few current customers.
+In our story above, this would mean slowing down and taking the time to really learn from both the during-the-day spikes and the transient locking issues.
 
-But, back here in reality, I have never ever *ever* met a leader who operated that way.
+Digging in on the early warning signs:
 
-Actual human beings, here on actual planet earth hear "a 20% risk" and think "Great, that's pretty unlikely" (no matter how bad things will be if the die turns up bad).
+ a) Helps determine current limits and bottlenecks, and
 
-Whereas an outage that impacts a customer is a borderline moral failing! We can't stop and ask questions about how much we're willing to invest to prevent it, do we not Care About the Customer??!
+ b) Serves as an invaluable means of generating commitment from stakeholders
 
-You *must* use the power with great responsibility, but running good post-mortems, that allow you to draw a line from technical issues directly to customer unhappiness, are one of the best ways to motivate investment that I've ever seen.
+In some fantasy world, a CEO might find an estimate of a 20% chance of the current DB architecture fully dead-ending to be extremely motivating.
 
-Third, use early commitments to climb the ladder by way of visibility. Develop SLO's, build dashboards for those, run load tests, run game days. All those are real work, so you want to start by creating visibility into the state of risk, first.
+In said fantasy world, the CEO would find that *more* motivating than the company experiencing a random one-hour outage that pissed off a few current customers.
 
-# Build a Proxy for Customer Happiness + Knock Your Own System Over On Purpose
+But actual human beings, here on actual planet earth, hear "there's a 20% risk of a Bad Thing occurring" and think "Great, that's pretty unlikely!" (no matter how Bad that Thing might be).
 
+Whereas an outage that impacts a living, breathing customer is a vivid, near-moral failing.
 
+Of *course* the CEO is willing to make *some* investment to prevent such problems in the future! Do you think the CEO doesn't care about the customer/the children??!
 
+The moral framing short circuits people's normal decision making processes.
 
+You're going to want to use this to your advantage, but do so very judiciously.
 
+I strongly recommend *against* using the sort of post-incident shock and moral outrage as a prompt to launch the major replatforming.
+
+That effort is going to take way way longer than anyone can currently imagine, and there's a very real chance it *won't even help*.
+
+Instead, I strongly recommend *for* using the post-mortem findings to motivate investments to improve visibility - which can then makes later economic decisions more straightforward.
+
+In this case, such visibility investments could include:
+
+ - Instrumenting any key infrastructure that isn't currently well-monitored
+
+ - Leveling up on within-the DB monitoring
+
+ - Going through the exercise of developing good SLO's (see [[id:0A54C1F2-B531-4CF9-9337-8FC336B0AB15][Leverage the Dark Art of "Metrics" In Your Favor]])
+
+ - Running load tests outside of production, and seeing how the SLO's respond
+
+ - Saturating your systems *in* production, to determine bottlenecks and limits
+
+At each step on that ladder, you'll learn so much that will allow you to choose what work to do next -- and can share what you learn with your stakeholders, along with concrete options for next steps.
 
 * Scraps/Notes
 
