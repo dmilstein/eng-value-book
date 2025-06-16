@@ -12,23 +12,131 @@ I'm going to share what I have experienced as one of the most powerful tactics o
 
 I have coached dozens and dozens of people on this approach -- and seen them adopt it with outstanding results.
 
-But I have also seen it, consistently, take some real work to master.
+But I have also seen that it takes just about everyone some real work to master.
 
-It's what Chris Voss calls, in his truly excellent book, Never Split the Difference, "tactical empathy".
+The approach I'm talking about is what Chris Voss calls, in his excellent book, Never Split the Difference, "tactical empathy".
 
-I'm going to lay out suggestions in the below, both on some specific skills and some ways to practice those skills. But this chapter, more than most, is going to require you to do some genuine homework, to get the value.
+I'll explain what that concept means, break down some specific tactics, and offer exercises that I've seen people use to build their skills up.
 
-** What is Tactical Empathy
-A series of ways that, when talking with someone, you can make them feel deeply and fully *heard* -- both intellectually (as in, they feel like you actually understand the some thing they care deeply about), and also emotionally (as in, they "feel felt", they perceive you as "with them" in some difficult challenge).
+But this chapter, more than most, is going to require you to do some genuine homework, to get the value.
 
-The trick is that, by doing this, you're not only building trust, you're *also* drawing out vastly more information than you otherwise would, about the context, their goals, etc.
+** Tactical Empathy By Example
 
-Let me bring that to life with two versions of a conversation an engineering leader might have with an executive at their company.
+A series of ways that, when talking with someone, you can make them feel deeply and fully *heard*.
+
+Both intellectually (as in, they feel like you actually understand some thing they care deeply about), and also emotionally (as in, they perceive you as "with them" in facing some difficult challenge).
+
+By employing this approach, you're both building trust, while *also* drawing out vastly more information than you otherwise would, about context, goals, risks, etc.
+
+All of which is just incredibly valuable for engineering leaders -- *especially* if they are preparing to advocate for a technical investment.
+
+I'll bring that to life with two versions of a conversation an engineering leader might have with an executive at their company.
+
+*** Version 1 - Solid Questions, No Tactical Empathy
+
+[Scene: Morning. We're in the kitchen in the offices of WeFixU, a health care startup that provides virtual primary care. LIESL KO, an engineering manager at WeFixU, is blearily pouring herself a cup of coffee. The mug fills, she looks up, and there, hovering by her elbow, she discovers CHRIS COLABRI, WeFixU's CEO. She blinks uncertainly.]
+
+CHRIS: [briskly] Morning.
+
+LIESL: Morning, um, Chris.
+
+CHRIS: [Nodding] It's... Lisa, right?
+
+LIESL: Actually Liesl, but close enough, haha.
+
+[CHRIS smiles absently and, as LIESL steps back, pours himself a cup of coffee. LIESL screws up her courage].
+
+LIESL: Do you mind if I ask you a question?
+
+[CHRIS blows on his coffee and shrugs, non-committally. LIESL forges on.]
+
+LIESL: So, my team is adding providers to our user model.
+
+CHRIS: Okay?
+
+[LIESL has clearly lost him]
+
+LIESL: Let me back up. I think we're trying to let doctors log in? Is that right?
+
+CHRIS: Oh, absolutely. That's a key goal. [He nods vigorously]
+
+LIESL: Why are we... doing that?
+
+CHRIS: It's a key goal.
+
+LIESL: Oh. I see.
+
+CHRIS: Glad we got to talk, Lisa. Wait, Liesl! [He claps her on the shoulder and strides off]
+
+*** Post-Game Analysis
+
+First off, seriously, god bless Liesl, for having the guts to ask her CEO why her team was building something.
+
+But... she didn't get very far -- her question kind of bounced off Chris.
+
+She neither learned anything that might help her team come up with creative solutions to underlying business problems, *nor* did she build up rapport and trust with Chris (so that she could later be ready to advocate for one of those creative solutions).
+
+Let's see how it might go, if Liesl had really strong tactical empathy skills.
+
+*** Version 2 - Same Questions, Solid Tactical Empathy
+
+[As before, up to where she asks him why]
+
+LIESL: Let me back up. I think we're trying to let doctors log in? Is that right?
+
+CHRIS: Oh, absolutely. That's a key goal. [He nods vigorously]
+
+LIESL: [intently]... a key goal?
+
+CHRIS: Yes, we've got to improve the provider experience.
+
+LIESL: ... the provider experience?
+
+CHRIS: *Exactly*. Right now, specialist providers can't even find us an option, so they're turning patients away.
+
+LIESL: Oh, interesting. Let me say that back, see if I've got it. It sounds like right now, when patients talk to a specialist, and tell them that WeFixU is their primary care, the specialist doesn't know who we are. And that means they turn the patients away? Is that right?
+
+CHRIS: Yes, yes. Well, almost. It's also, they have systems to verify primary care providers, but we're not listed in those.
+
+LIESL: ... not listed in those?
+
+CHRIS: Right. And that's not something we think we can fix.
+
+LIESL: Okay, let me say that back. The reason we're getting turned away is partly because we're not listed in the systems that the specialists use to verify primary care providers. But that's hard enough to solve, we think we're better off giving the specialists a way to connect with us directly? Is that about it?
+
+CHRIS: Yes, exactly. That's good. That's right.
+
+LIESL: Cool. Can I ask one more question?
+
+CHRIS: [checks watch] Shoot.
+
+LIESL: Why, exactly, do we think we can't fix the issue with being listed?
+
+CHRIS: What do you mean?
+
+LIESL: Well, it's like, I could imagine a couple of reasons. Maybe [she gestures with one hand, over to her right], it, like, takes a long time to get listed, and we don't think we can afford to wait. Or, on the other [gestures with the other, to her left], I could maybe imagine that, because WeFixU is a pretty different kind of primary care provider, the main listings don't know what to do with us. Is it one of those, or like, a mix of the two? [indicates with her hands, points on the spectrum between the two]. Or something else?
+
+CHRIS: Oh I see what you're saying. It's kind of a combination -- *because* we're so different, it seems to be taking forever to move ahead with the listing companies. So we think it makes more sense to let providers just directly log in.
+
+LIESL: Got it, got it. It's the combination of those two.
+
+CHRIS: Exactly. Well, I've got to go. I'm really glad we got to talk!
+
+LIESL: Me, too. And remember, Liesl not Lisa!
+
+[CHRIS laughs]
+
+*** Post-Game Analysis
+
+
+
+
 
 # With a product manager
+** Wait, Isn't This Product's Job?
 ** Cultivate Curiosity & Sincerity
+** Embrace Wise Naivete
 ** Repeat Trailing Three Words
 ** Echo Back as Inquiry
 ** Posit a Spectrum to Draw People Out
 ** Make The Speaker a Beleaguered Hero
-** Wait, Isn't This Product's Job?
