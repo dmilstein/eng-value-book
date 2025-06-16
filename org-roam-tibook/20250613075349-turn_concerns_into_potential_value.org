@@ -252,7 +252,7 @@ In fact, a *different* senior engineer, one who has done some work as a DBA, bel
 
 But then a team adds a feature that run a dozen expensive queries every time a customer blinks.
 
-That team is being heaped with praise because the new feature is so damn sexy, and they're rushing to add something else which will wreak havoc on your carefully crafted database indexing schemes.
+That team is being heaped with praise because the new feature is so sexy, and they're rushing to add something else which will wreak further havoc on your carefully crafted database indexing schemes.
 
 What's an engineering leader to do?
 
@@ -290,29 +290,29 @@ The potential value for the business is to *reduce that risk*.
 
 To do that, you'll need some way to make the current state of risk visible -- both so you can advocate for investment, but also so you can verify after investing that you actually made things better.
 
-An excellent way to determine risks associated with capacity is to deliberately oversaturate your system in production and see at what points it collapses.
+An excellent way to determine risks associated with capacity is to deliberately oversaturate your system in production and see at what point it collapses.
 
-However, that tends to be a pretty significant investment, so you'll usually want to get there by climbing a few rungs of the ladder of commitment.
+However, that tends to be a pretty significant investment, so you'll want to get there by climbing a few rungs of the ladder of commitment.
 
 One of the best ways I know to *start* is to develop a practice of *running excellent post-mortems* (see [[id:3DE23585-34F0-4C88-A16B-4558ACC45C99][Make Your Post-Mortems an Act of Visibility]]).
 
 In our story above, this would mean slowing down and taking the time to really learn from both the during-the-day spikes and the transient locking issues.
 
-Digging in on the early warning signs:
+Digging in on the early warning signs will:
 
- a) Helps determine current limits and bottlenecks, and
+ a) Help determine current limits and bottlenecks, and
 
- b) Serves as an invaluable means of generating commitment from stakeholders
+ b) Serve as an invaluable means of generating commitment from stakeholders
 
 In some fantasy world, a CEO might find an estimate of a 20% chance of the current DB architecture fully dead-ending to be extremely motivating.
 
 In said fantasy world, the CEO would find that *more* motivating than the company experiencing a random one-hour outage that pissed off a few current customers.
 
-But actual human beings, here on actual planet earth, hear "there's a 20% risk of a Bad Thing occurring" and think "Great, that's pretty unlikely!" (no matter how Bad that Thing might be).
+But actual human beings, here on actual planet earth, hear "there's a 20% risk of a Bad Thing occurring" and think "Well, that sounds pretty unlikely" (no matter how Bad that Thing might be).
 
 Whereas an outage that impacts a living, breathing customer is a vivid, near-moral failing.
 
-Of *course* the CEO is willing to make *some* investment to prevent such problems in the future! Do you think the CEO doesn't care about the customer/the children??!
+Of *course* the CEO is eager to make *some* investment to prevent such problems in the future! Do you think the CEO doesn't care about the customer/the children??!
 
 The moral framing short circuits people's normal decision making processes.
 
@@ -322,7 +322,7 @@ I strongly recommend *against* using the sort of post-incident shock and moral o
 
 That effort is going to take way way longer than anyone can currently imagine, and there's a very real chance it *won't even help*.
 
-Instead, I strongly recommend *for* using the post-mortem findings to motivate investments to improve visibility - which can then makes later economic decisions more straightforward.
+Instead, I strongly recommend using the post-mortem findings to motivate investments to improve visibility - which can then makes later economic decisions more straightforward.
 
 In this case, such visibility investments could include:
 
@@ -336,8 +336,9 @@ In this case, such visibility investments could include:
 
  - Saturating your systems *in* production, to determine bottlenecks and limits
 
-At each step on that ladder, you'll learn so much that will allow you to choose what work to do next -- and can share what you learn with your stakeholders, along with concrete options for next steps.
+ - Building a picture of which parts of the app could potentially might be sectioned off to a separate database, if you did want to go down that road.
 
+At each step on that ladder, you'll learn things that will allow you to choose what work to do next -- and can share what you learn with your stakeholders, along with concrete options for next steps.
 * Scraps/Notes
 
 Now.
