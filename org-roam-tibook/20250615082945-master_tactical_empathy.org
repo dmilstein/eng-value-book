@@ -14,11 +14,56 @@ I have coached dozens and dozens of people on this approach -- and seen them ado
 
 But I have also seen that it takes just about everyone some real work to master.
 
-The approach I'm talking about is what Chris Voss calls, in his excellent book, Never Split the Difference, "tactical empathy".
+The approach I'm talking about is what Chris Voss calls, in his excellent book, Never Split the Difference, *"tactical empathy"*.
 
 I'll explain what that concept means, break down some specific tactics, and offer exercises that I've seen people use to build their skills up.
 
 But this chapter, more than most, is going to require you to do some genuine homework, to get the value.
+
+** It's Hard Out There For a Stakeholder
+
+I think it's legitimately hard for most engineers to imagine just how well and truly miserable it is for a business leader to have to depend on an engineering team to achieve success in their own job.
+
+In almost every other part of their work, a business leader hashes out critical goals stretching out over the next year, and then *gives those goals to someone*.
+
+That is, in fact, what it means to be an effective leader -- set clear goals, and hold people accountable to achieving them.
+
+But once engineering gets involved, everything goes to hell.
+
+What seem like fairly straightforward goals turn into an absolute blizzard of confusion, the engineers produce ridiculous estimates, then fail to meet those estimates, then finally deliver something that doesn't even *work*.
+
+If the business leader asks questions about why everything is taking so absurdly long, they're met with an array of incomprehensible jargon, often followed by a demand that the engineers be allowed to *stop working on actual business needs* so they can "clean things up", or "retire tech debt".
+
+I want to be clear -- I'm not in any way mocking the business leaders here.
+
+It's weird as hell to have to work with engineering.[fn:: It's like hiring a contractor to remodel your kitchen, going away for the weekend, and coming back to discover they demolished your entire house because they found some wiring they thought was "ugly".]
+
+It's not surprising that many business leaders experience their relationship with the engineering team as fraught.
+
+** But Wait, It Gets Worse
+
+# Product? CEO? Marketing? Yes.
+
+Unfortunately, for the company as a whole to be successful, engineers also need two things from their business counterparts, that *not all other teams need*.
+
+First, engineers need a lot of *context* -- they need to know *why* they're being asked to achieve certain goals.
+
+It's only with generous amounts of context that engineers can, when they hit the inevitable roadblocks in the original plan, come up with creative solutions that still solve the underlying problems.
+
+Second, engineers also need someone who can make frequent *decisions*. So much is learned as you go, the company can only win if there's someone who is ready to swiftly make difficult tradeoff and reprioritization calls.
+
+In some ways, we're just talking about the field of product management.
+
+But, I have found that, for *technical investments specifically*, it's often down to the engineering leader to persuade their business counterparts -- be they product, marketing, or the CEO -- to provide that kind of full context and decision-making partnership.
+
+Now, I would love to live in a world where, when an engineer asked someone "Why are you asking me to build thing X?", they got a rich, full answer, situating the desired feature as part of a coherent business strategy, with various options and tradeoffs already on the table.
+
+But, back here in reality, we often fail to live up to that ideal.
+
+So, the first thing engineering leaders are going to want to level up on is, extracting business context from those around them -- and doing so in a way that builds trust and rapport.
+
+Which brings us to the marvelously powerful skills of *tactical empathy*.
+
 
 ** Tactical Empathy By Example
 
@@ -26,15 +71,25 @@ A series of ways that, when talking with someone, you can make them feel deeply 
 
 Both intellectually (as in, they feel like you actually understand some thing they care deeply about), and also emotionally (as in, they perceive you as "with them" in facing some difficult challenge).
 
-By employing this approach, you're both building trust, while *also* drawing out vastly more information than you otherwise would, about context, goals, risks, etc.
+It allow you to both building trust, but *also* draw out vastly more information than you otherwise would, about context, goals, risks, etc.
 
 All of which is just incredibly valuable for engineering leaders -- *especially* if they are preparing to advocate for a technical investment.
 
 I'll bring that to life with two versions of a conversation an engineering leader might have with an executive at their company.
 
+*** Scrap
+
+The information you're obtaining is super useful for at least two reasons:
+
+ - First, so you can understand what technical work is most valuable to the business right now
+
+ - Second, so you can clearly draw those connections
+
+E.g. if you come to understand that the new user model tweaks are a part of a major strategic shift to open the product up to more users, who are are likely to significantly increase the volume of daily visits, suddenly those lingering database capacity issues might feel a lot more important to fully suss out. And you have a straightforward way to advocate for that work, by tying it to the upcoming shift.s
+
 *** Version 1 - Solid Questions, No Tactical Empathy
 
-[Scene: Morning. We're in the kitchen in the offices of WeFixU, a health care startup that provides virtual primary care. LIESL KO, an engineering manager at WeFixU, is blearily pouring herself a cup of coffee. The mug fills, she looks up, and there, hovering by her elbow, she discovers CHRIS COLABRI, WeFixU's CEO. She blinks uncertainly.]
+[Scene: Morning. We're in the kitchen in the offices of WeFixU, a health care startup that provides virtual primary care. LIESL KO, an engineering manager at WeFixU, is blearily pouring herself a cup of coffee. She looks up, and there, hovering by her elbow, she discovers CHRIS COLABRI, WeFixU's CEO. LIESL blinks uncertainly.]
 
 CHRIS: [briskly] Morning.
 
@@ -62,7 +117,7 @@ CHRIS: Oh, absolutely. That's a key goal. [He nods vigorously]
 
 LIESL: Why are we... doing that?
 
-CHRIS: It's a key goal.
+CHRIS: Because it's really important.
 
 LIESL: Oh. I see.
 
@@ -70,17 +125,17 @@ CHRIS: Glad we got to talk, Lisa. Wait, Liesl! [He claps her on the shoulder and
 
 *** Post-Game Analysis
 
-First off, seriously, god bless Liesl, for having the guts to ask her CEO why her team was building something.
+First off, seriously, god bless Liesl, for having the guts to ask her CEO *why* her team was building something.
 
 But... she didn't get very far -- her question kind of bounced off Chris.
 
-She neither learned anything that might help her team come up with creative solutions to underlying business problems, *nor* did she build up rapport and trust with Chris (so that she could later be ready to advocate for one of those creative solutions).
+She neither learned anything that might help her team come up with creative solutions to underlying business problems, *nor* did she build up rapport and trust with Chris so that she could later be ready to advocate for one of those creative solutions.
 
 Let's see how it might go, if Liesl had really strong tactical empathy skills.
 
 *** Version 2 - Same Questions, Solid Tactical Empathy
 
-[As before, up to where she asks him why]
+[...]
 
 LIESL: Let me back up. I think we're trying to let doctors log in? Is that right?
 
@@ -88,7 +143,7 @@ CHRIS: Oh, absolutely. That's a key goal. [He nods vigorously]
 
 LIESL: [intently]... a key goal?
 
-CHRIS: Yes, we've got to improve the provider experience.
+CHRIS: Yes. We've got to improve the provider experience.
 
 LIESL: ... the provider experience?
 
@@ -96,7 +151,7 @@ CHRIS: *Exactly*. Right now, specialist providers can't even find us an option, 
 
 LIESL: Oh, interesting. Let me say that back, see if I've got it. It sounds like right now, when patients talk to a specialist, and tell them that WeFixU is their primary care, the specialist doesn't know who we are. And that means they turn the patients away? Is that right?
 
-CHRIS: Yes, yes. Well, almost. It's also, they have systems to verify primary care providers, but we're not listed in those.
+CHRIS: Yes, yes. Well, *almost*. It's also, they have systems to verify primary care providers, but we're not listed in those.
 
 LIESL: ... not listed in those?
 
@@ -127,15 +182,9 @@ LIESL: Me, too. And remember, Liesl not Lisa!
 [CHRIS laughs]
 
 *** Post-Game Analysis
-
-
-
-
-
-# With a product manager
 ** Wait, Isn't This Product's Job?
 ** Cultivate Curiosity & Sincerity
-** Embrace Wise Naivete
+# Embrace Cheerfully Smart Naivete
 ** Repeat Trailing Three Words
 ** Echo Back as Inquiry
 ** Posit a Spectrum to Draw People Out
