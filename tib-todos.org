@@ -20,11 +20,17 @@ CLOSED: [2025-06-11 Wed 17:27]
 ** DONE Check - wordcount missing initial org section?
 CLOSED: [2025-06-11 Wed 17:27]
 YES
-** TODO Make scripts take titles from #+title, not the first headline
-** TODO For "making 3x more decisions" bring to life "implicit decisions"
-E.g. the decision to keep coding against the newest version of a library. Or the decision to base the product on a data source that you've been assured is present in reality. Or the decision to build your feature around a run-time call to an API you believe you'll have valid credentials for, at the moment of the call.
-** TODO Commit to toc.org instead of current thing (add to Roam)
-** TODO Within "I Can't Think" tease out two forms of viz
+** DONE Commit to toc.org instead of current thing (add to Roam)
+CLOSED: [2025-06-15 Sun 08:49]
+** DONE Within "I Can't Think" tease out two forms of viz
+CLOSED: [2025-06-15 Sun 08:49]
+** DONE Update word count tool to use toc properly
+CLOSED: [2025-06-15 Sun 14:31]
+Actually, just do my thing to use Make to build intermediate lists from the toc in a sane way, and then use that.
+** DONE Make wordcount script understand + display "Parts"
+CLOSED: [2025-06-15 Sun 19:21]
+Gonna have to put that into the toc, of course
+
 * [[id:BB09F432-DEEB-4129-8F88-D23C86E8CEBB][Build Viz First]]                                 :gtasks:
 ** DONE Jam in some of my ideas from my notes, break out todos :pom:
 CLOSED: [2025-06-07 Sat 09:35]
@@ -39,6 +45,10 @@ CLOSED: [2025-06-08 Sun 09:58]
 ** DONE Write bad prose for Celebrate             :pom:
 CLOSED: [2025-06-08 Sun 09:58]
 ** TODO Talk about "build visibility" vs "add metrics"
+* [[id:4FEA3BD5-8E85-4BB6-8F59-15FDE4F38572][Tactical Empathy]]                                :gtasks:curweek:
+** DONE Sketch in outline
+CLOSED: [2025-06-16 Mon 09:28]
+** TODO Write first few sections
 * [[id:D3158CC2-8A69-4097-B9ED-ED6BD855A7AD][Understand Value In Depth]]                       :gtasks:
 ** DONE Do a spike on footnotes                   :pom:
 CLOSED: [2025-06-05 Thu 08:44]
@@ -57,17 +67,21 @@ I know last year's profits (or I can find them out). How do I determine company 
 
 Warning, it's a trap! People will talk to you all day about this, but they're ignoring the main driving force
 * [[id:2EC03879-2A23-4546-BCB8-E9A464665A03][Turn Concerns Into Value ]]                       :gtasks:
-** DONE Spike on bad intro                        :curweek:pom:
+** DONE Spike on bad intro                        :pom:
 CLOSED: [2025-06-13 Fri 11:05]
-** DONE Write about terrible code                 :curweek:
+** DONE Write about terrible code
 CLOSED: [2025-06-13 Fri 11:06]
-** DONE Write about deploys                       :curweek:
+** DONE Write about deploys
 CLOSED: [2025-06-14 Sat 10:23]
-** DONE Write "I can't find a moment to think"    :curweek:pom:
+** DONE Write "I can't find a moment to think"    :pom:
 CLOSED: [2025-06-14 Sat 17:41]
-** TODO Write "The DB is on the verge of death"   :curweek:
+** DONE Write "The DB is on the verge of death"   :pom:
+CLOSED: [2025-06-15 Sun 11:05]
+** DONE Revise DB is on Verge of Death
+CLOSED: [2025-06-16 Mon 08:51]
 * Misc Structure [[id:B4926308-39DD-471B-8E71-5FFF7546D6E3][(Table of Contents]])              :gtasks:
-** TODO Spike on ToC reorg - part II = stakeholder mgmt
+** DONE Spike on ToC reorg - part II = stakeholder mgmt
+CLOSED: [2025-06-16 Mon 09:25]
 ** TODO Add: why technical judgment is important
 ** TODO Add: Major rewrites *must* be done with product
 not as separate tech investments
@@ -83,12 +97,12 @@ CLOSED: [2025-06-07 Sat 09:32]
 ** TODO For post-mortems, tell story of Berlin, Roberto/Vahe
 They were stuck going slow, they committed to doing good post-mortems, it transformed their speed and relationship with stakeholders
 * [[id:17305FA7-A43F-40C9-9309-0EF3577C70D0][Author Platform]]                                 :gtasks:
-** DONE Post to LinkedIn once Substack is live    :curweek:
+** DONE Post to LinkedIn once Substack is live
 CLOSED: [2025-06-12 Thu 12:06]
-** DONE Put my email address on my Substack       :curweek:
+** DONE Put my email address on my Substack
 CLOSED: [2025-06-11 Wed 17:06]
 ** TODO Make new email address, put on Substack
-** DONE Draft a post to LinkedIn                  :curweek:
+** DONE Draft a post to LinkedIn
 CLOSED: [2025-06-11 Wed 17:06]
 Announce I'm working on a book, will post here sometimes, but please go join my new newsletter/Substack if you're interested for more (and/or might like to be a beta reader for a eection).
 ** TODO Build some basic habit + tooling around it
@@ -96,7 +110,9 @@ E.g. post 3-5 times/week, set up some org file that has the postings collected, 
 ** TODO Ping Winston -- connect + learn how he build a personal platform
 Esp how he uses LI
 * [[id:E0ADBF07-90B8-4C37-81C0-96A428020F5E][Substack]]                                        :gtasks:
-** DONE Draft 1-2 next posts, prep                :curweek:
+** TODO Post to LinkedIn, once                    :curweek:
+** TODO Check w/ EWJ after posts go out           :curweek:
+** DONE Draft 1-2 next posts, prep
 CLOSED: [2025-06-12 Thu 12:42]
  - Tech Investments definition
  - Edmund's post on golden cesspool
@@ -104,7 +120,7 @@ CLOSED: [2025-06-12 Thu 12:42]
 So that I can queue things up and have them just go. Don't stay tied.
 ** DONE Draft a test post on my substack
 CLOSED: [2025-06-09 Mon 13:11]
-** DONE Send my first post, check if Al got it    :curweek:
+** DONE Send my first post, check if Al got it
 CLOSED: [2025-06-11 Wed 17:06]
 ** DONE Understand diff between Substack notes and posts
 CLOSED: [2025-06-12 Thu 11:16]
@@ -123,7 +139,7 @@ E.g. supporting BI team, or account setup
 CLOSED: [2025-06-12 Thu 09:42]
 ** DONE Finish Reduce Steady-State Maintenance Work :pom:
 CLOSED: [2025-06-12 Thu 09:42]
-** DONE First draft Reduce Interruptive Maintenance Work :curweek:
+** DONE First draft Reduce Interruptive Maintenance Work
 CLOSED: [2025-06-12 Thu 19:28]
 ** Ensure Many Customers Can Use System At Once
 Akad & Scale
@@ -140,12 +156,14 @@ CLOSED: [2025-06-10 Tue 09:53]
 So I can make better tomorrow
 ** TODO Add Game Days as Big viz for reduce duration of outages
 * [[id:93FF0A9B-F54E-49D5-8154-640BBAE08D4D][Beta Readers]]                                    :gtasks:
-** TODO Review WUB re: beta readers + partial book
+** TODO Write Robfitz re: pipeline beta reading   :curweek:
 ** TODO Get footnotes to number by chapter
 ** TODO Add --toc to the pandoc, can I get a ToC in helpthisbook?
 ** TODO For that toc, set --toc-depth=2, I think
 ** TODO Draft email to send to potential beta readers
 ** TODO Set reward: can share w/ EWJ once I finish... something
+** DONE Review WUB re: beta readers + partial book
+CLOSED: [2025-06-16 Mon 09:26]
 ** DONE Get the markdown formatting info on my laptop
 CLOSED: [2025-06-07 Sat 08:01]
 ** DONE Experiment with org-org-export-to-md
@@ -205,7 +223,17 @@ There is an amount of debt, once it's gone, you're living clean.
 
 This is not true for technical investments.
 * [[id:49435FCD-0590-44DE-8FC7-585E7BCC8BB2][Tooling]]                                         :gtasks:
-** DONE Within tib-todos, add todo at top of list :curweek:
+** TODO Ask Genie to do trailing 7/14/28? days word count pace? :curweek:
+** TODO Genie: split chapter count into two options :curweek:
+then show them side by side
+
+As in, use screen or something to see both at once, get my watch script running again.
+** TODO Make CLI wordcount tool take a column width option :curweek:
+So I can either run full screen or within 80 columns
+** TODO Make scripts take titles from #+title, not the first headline :curweek:
+** DONE Have Makefile hold intermediate targets   :curweek:
+CLOSED: [2025-06-16 Mon 09:27]
+** DONE Within tib-todos, add todo at top of list
 CLOSED: [2025-06-12 Thu 15:42]
 May have to do the same for inbox + headers, unless I move TIB Inbox to a separate file.
 ** DONE Write python to render outline w/ wordcounts
@@ -217,22 +245,25 @@ And also on something to watch the directory for changes, re-run that and auto-u
 I've got failing tests in Step 6, go back to those.
 ** DONE Spike on: how to do footnotes in org      :pom:
 CLOSED: [2025-06-04 Wed 15:10]
-** DONE Make the word count tool handle initial chapter text :curweek:pom:
+** DONE Make the word count tool handle initial chapter text :pom:
 CLOSED: [2025-06-11 Wed 17:15]
-** DONE Add titles for the chapters that don't have them :curweek:
+** DONE Add titles for the chapters that don't have them
 CLOSED: [2025-06-11 Wed 07:11]
-** TODO Throw away most of my python code? Replace w/ sed/awk?
+** TODO Throw away some of my python code? Replace w/ sed/awk?
 ** TODO For pandoc export, consider pre-processing to extract chapter text
 So then I can use a single method for all of full book word counts, chapter word counts and HelpThisBook version rendering.
-** TODO For teminal UI word counts, add basic horizontal bars
 ** TODO Look for missing Chapter filetags in scripts
 Because now my wordcount history stuff is sensitive to those being missing.
 ** TODO Create a new chapter template or abbrev?
-** DONE Update gnuplot script to determine date range from file? :curweek:pom:
+** DONE For teminal UI word counts, add basic horizontal bars
+CLOSED: [2025-06-16 Mon 09:27]
+** DONE Update gnuplot script to determine date range from file? :pom:
 CLOSED: [2025-06-11 Wed 17:25]
 ** DONE Align capture template + agenda keys for TIB
 CLOSED: [2025-06-12 Thu 11:14]
 * [[id:D901A4C9-885B-4F42-8B8D-3595616857E8][The Value of Knowing What To Do Next]]            :gtasks:
+** TODO For "making 3x more decisions" bring to life "implicit decisions"
+E.g. the decision to keep coding against the newest version of a library. Or the decision to base the product on a data source that you've been assured is present in reality. Or the decision to build your feature around a run-time call to an API you believe you'll have valid credentials for, at the moment of the call.
 ** TODO Def: talk about sequence of decisions
 ** TODO Maybe: put Accelerate in here?
 ** TODO Finish the Pinch Test story
@@ -267,7 +298,7 @@ CLOSED: [2025-06-01 Sun 08:51]
 ** DONE Revise/improve The Ti Cycle
 CLOSED: [2025-06-02 Mon 11:23]
 * [[id:03D1870C-E583-4D5C-9589-5E0799793D48][Incremental Opts]]                                :gtasks:
-** TODO Terrible first draft
+** TODO Terrible first draft                      :curweek:
 ** TODO Add subsection on Off Ramps to Develop in Increments
 * Future Books
 ** TODO Collect ideas for book 2 about inteviewing + hiring
