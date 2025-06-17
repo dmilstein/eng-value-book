@@ -4,6 +4,190 @@
 #+title: Master Tactical Empathy
 #+filetags: :Chapter:
 * Master Tactical Empathy
+** A Brief Exercise In Stakeholder Empathy
+
+# Putting Ourselves In Our Stakeholder's Shoes
+
+# Sometimes, It's Hard To Be a Stakeholder
+
+# It's Hard Out There for a Stakeholder
+
+#
+
+I think it's legitimately hard for most engineers to imagine just how well and truly miserable it is for stakeholders to work with an engineering team.
+
+In almost every other part of their working life, a business leader gets to:
+
+ - Identify an important problem
+
+ - Set goals that represent solving that problem
+
+ - And then *give those goals to someone*
+
+# That is, in fact, what it means to be an effective leader -- set clear goals, and hold people accountable to achieving them.
+
+But once engineering gets involved, everything goes to hell.
+
+What seem like straightforward goals turn into an absolute blizzard of confusion, the engineers produce ridiculous estimates, then fail to meet those estimates, then finally deliver something that doesn't even *work*.
+
+When the business leader asks questions, they get back a flurry of incomprehensible jargon.
+
+And then, despite literally *everything* being painfully far behind plan, the engineers announce that they want to *stop working on actual business needs* so they can "clean things up", or "retire tech debt".
+
+It's weird as hell to work with engineering.[fn:: I like to think it's like hiring a contractor to remodel your kitchen, going away for the weekend, and coming back to discover they're on the verge of demolishing your entire house because they found some wiring they think is "ugly".]
+
+If you want to be effective in *advocating for technical investments*, you need to build a different kind of relationship.
+
+Ideally, your company has a strong product team, who play a central role in building trust and rapport with The Rest of the Business.
+
+But I have found that, for *technical investments specifically*, it's often down to the engineering leader to persuade their business counterparts -- be they sales, the CEO, *or their product manager* -- of the potential value of some specific chunk of work.
+
+This is a core part of why great engineering leaders combine strong technical judgment with *effective influence*.
+
+We're going to talk in this chapter about leveling up on influence.
+
+** Tactical Empathy
+
+Mastering effective influence is the work of a lifetime.
+
+We're going to focus on a few core skills.
+
+These are factors in what Chris Voss, in his excellent book "Never Split the Difference" (written with Tahl Raz), calls *Tactical Empathy*:
+
+    In my negotiating course, I tell my students that empathy is "the ability to recognize the perspective of a counterpart, and the vocalization of that recognition." That's an academic way of saying that empathy is paying attention to another human being, asking what they are feeling, and making a commitment to understanding their world.
+
+    Notice that I don't say anything about agreeing with the other person's values and beliefs or giving out hugs. That's sympathy. What I'm talking about is trying to understand a situation from another person's perspective.
+
+    One step beyond that is tactical empathy.
+
+    Tactical empathy is understanding the feelings and mindset of another in the moment and also hearing what is /behind/ those feelings so you increase your influence in all the moments that follow. It's bringing our attention to both he emotinoal obstacles and the potential pathways to getting an agreement done.
+
+(NSTD is incredibly good, by the way. I super, super highly recommend it).
+
+** A Situation Requiring Tactical Empathy
+Let's say you've followed the game plan in this book, up to here.
+
+You've dug in on some engineering concerns, and, in so doing, found one that you were able to turn into a statement of real potential value for the business.
+
+Let's say that one was around site capacity -- the engineers are concerned about the site potentially slowing down to the point of being unusable.
+
+You've done a little bit of work on the side, to build some basic visibility -- but you believe now is the time to take the next step of investment: developing good SLI's and SLO's[fn:: The first few chapters of O'Reilly's Implementing Service Level Objectives are an incredibly good game plan for this]. Doing so is going to require a real chunk of engineering time, *and* a commitment of time from the product team (good SLI's must be developed in collaboration)
+
+You could go to your product counterpart and lay that out as a proposal, al:
+
+/We're worried about site capacity. Our initial monitoring of the database is showing some worrisome spikes, so we want to spend a few weeks building Service Level Indicators, which will create much more actionable data./
+
+That's reasonable. It might work.
+
+But, again, let's practice empathy again:
+
+Your product counterpart has *dozens* of other people making *similarly reasonable* requests of them, *all the time* -- sales, success, the help desk, the visionary CEO, you name it. Every request urgent, every request time-sensitive.
+
+To a first approximation, Product's *job* to continually disappoint everyone around them.
+
+And that includes engineering.
+
+So, what can you do, to move your requests higher on their list?
+
+As Voss makes clear his his book, if you want someone to *listen to you*, you are incredibly well-served by *first, listening to them*.
+
+But it takes a bit of work to get most humans to share what they're thinking and feeling. So we're going to use a few tricks.
+
+** Repeat Trailing Three Words
+
+The first one is simple and somewhat *bizarrely* effective.
+
+It works like this.
+
+First, you ask someone a question.
+
+They respond with a, typically brief, answer.
+
+You then calmly and curiously repeat the last three words they said, back to them, inflected as a question.
+
+And then you stop talking and wait.
+
+*That's it*.
+
+Iif you can achieve any form of genuine curiosity as you speak, and if you can stop yourself from saying anything other than those three words...
+
+... the person will then start talking again, telling you more and more.
+
+And they'll *feel* like you're hearing and understanding them.
+
+It shouldn't be this simple. But it totally works.[fn:: If you happen to like romcoms, you might catch this *exact tactic* from Never Split the Difference being referenced in Nobody Wants This]
+
+In our example, let's start by imagining that the engineering leader does *not* have this skill, and let's see how the conversation might go.
+
+    ENG: I'd like to talk about taking the time this month to implement Service Level Indicators -- it'd really help us stay ahead of potential capacity issues.
+
+    PRODUCT: Okay, how much time are we talking about?
+
+    ENG: We're not sure, we think it's probably three weeks of work for Andrea. And we'd need some of your time to review what she comes up with.
+
+    PRODUCT: Oh, I don't know. I thought we were depending on Andrea to fix the issues with the search indexing with Forms 2.0. I'm not sure we can slow that down right now.
+
+    ENG: If we don't do the work now, I bet we're not going to find time for it before peak. We're only talking about three weeks, we can timebox it you want.
+
+    PRODUCT: Okay, I'll think about it.
+
+The Engineering leader is trying to speak to value, which is good.
+
+But most product leader would experience this as someone *pushing* them for something.
+
+And a, like, core survival skill for a PM is being able to ignore people who push them for things. They couldn't get through a single day without doing so.
+
+Also, notice that, at one point, the PM stated a concern ("I'm not sure we can slow that down right now"), and were met with, essentially, an *argument* ("If we don't do that work now...").
+
+Let's replay the start of this conversation with the Repeat Trailing Three Words tactic.
+
+First, the engineer will *lead with a question*, not with immediate advocacy.
+
+    ENG: Do you have a sec?
+
+    PRODUCT: Sure.
+
+    ENG: I wanted to ask -- how are you thinking about our key priorities for the month?
+
+    PRODUCT: Well, we absolutely have to stay on track for the Forms 2.0 migration.
+
+    ENG: ...the Forms migration?
+
+    [tiny pause]
+
+    PRODUCT: Yes. The Success team has *finally* started converting some of the Enterprise customers, and they're complaining about all sorts of blocker requirements.
+
+    ENG: ...oh, new blocker requirements?
+
+    [tiny pause]
+
+    PRODUCT: Yeah. I mean, we're absolutely not going to do them all, but we're going to have to figure out which ones are genuinely important.
+
+    ENG: ... which are genuinely important?
+
+    [tiny pause]
+
+    PRODUCT: Yep. Oh, that, and just some other fit and finish work, I think. What's on your mind?
+
+If you play this game at all well, you'll achieve two *super* important things:
+
+ - First, you'll build rapport
+
+   You're demonstrating, simply by listening, that you want to work *with* the PM to solve their problems.
+
+ - Second, you'll acquire extremely useful *context*
+
+   Which you can then use as part of making your case.
+
+We'll demonstrate how to do so, but first, we'll talk about a second core skill of Tactical Empathy.
+
+** Echo Back Summaries
+** Posit a Spectrum to Draw People Out
+** Make The Speaker a Beleaguered Hero
+** Cultivate Curiosity & Sincerity
+# Embrace Cheerfully Smart Naivete
+
+* Scraps
 ** Warning: Deliberate Practice Required
 
 I'm going to share what I have experienced as one of the most powerful tactics of my entire working life.
@@ -20,27 +204,7 @@ I'll explain what that concept means, break down some specific tactics, and offe
 
 But this chapter, more than most, is going to require you to do some genuine homework, to get the value.
 
-** It's Hard Out There For a Stakeholder
-
-I think it's legitimately hard for most engineers to imagine just how well and truly miserable it is for a business leader to have to depend on an engineering team to achieve success in their own job.
-
-In almost every other part of their work, a business leader hashes out critical goals stretching out over the next year, and then *gives those goals to someone*.
-
-That is, in fact, what it means to be an effective leader -- set clear goals, and hold people accountable to achieving them.
-
-But once engineering gets involved, everything goes to hell.
-
-What seem like fairly straightforward goals turn into an absolute blizzard of confusion, the engineers produce ridiculous estimates, then fail to meet those estimates, then finally deliver something that doesn't even *work*.
-
-If the business leader asks questions about why everything is taking so absurdly long, they're met with an array of incomprehensible jargon, often followed by a demand that the engineers be allowed to *stop working on actual business needs* so they can "clean things up", or "retire tech debt".
-
-I want to be clear -- I'm not in any way mocking the business leaders here.
-
-It's weird as hell to have to work with engineering.[fn:: It's like hiring a contractor to remodel your kitchen, going away for the weekend, and coming back to discover they demolished your entire house because they found some wiring they thought was "ugly".]
-
-It's not surprising that many business leaders experience their relationship with the engineering team as fraught.
-
-** But Wait, It Gets Worse
+** Engineers Need Context and Decision-Making
 
 # Product? CEO? Marketing? Yes.
 
@@ -52,18 +216,26 @@ It's only with generous amounts of context that engineers can, when they hit the
 
 Second, engineers also need someone who can make frequent *decisions*. So much is learned as you go, the company can only win if there's someone who is ready to swiftly make difficult tradeoff and reprioritization calls.
 
-In some ways, we're just talking about the field of product management.
+In some ways, we're just talking about the role of product management.
+
 
 But, I have found that, for *technical investments specifically*, it's often down to the engineering leader to persuade their business counterparts -- be they product, marketing, or the CEO -- to provide that kind of full context and decision-making partnership.
 
-Now, I would love to live in a world where, when an engineer asked someone "Why are you asking me to build thing X?", they got a rich, full answer, situating the desired feature as part of a coherent business strategy, with various options and tradeoffs already on the table.
-
+I would love to live in a world where, when an engineer asked someone "*Why* are you asking me to build thing X?", they got a rich, full answer, situating the desired feature as part of a coherent business strategy, with various options and tradeoffs already on the table.
 But, back here in reality, we often fail to live up to that ideal.
 
 So, the first thing engineering leaders are going to want to level up on is, extracting business context from those around them -- and doing so in a way that builds trust and rapport.
 
 Which brings us to the marvelously powerful skills of *tactical empathy*.
 
+** Scrap
+
+I would love to live in a world where, when an engineer asked someone "*Why* are you asking me to build thing X?", they got a rich, full answer, situating the desired feature as part of a coherent business strategy, with various options and tradeoffs already on the table.
+But, back here in reality, we often fail to live up to that ideal.
+
+So, the first thing engineering leaders are going to want to level up on is, extracting business context from those around them -- and doing so in a way that builds trust and rapport.
+
+Which brings us to the marvelously powerful skills of *tactical empathy*.
 
 ** Tactical Empathy By Example
 
@@ -182,10 +354,3 @@ LIESL: Me, too. And remember, Liesl not Lisa!
 [CHRIS laughs]
 
 *** Post-Game Analysis
-** Wait, Isn't This Product's Job?
-** Cultivate Curiosity & Sincerity
-# Embrace Cheerfully Smart Naivete
-** Repeat Trailing Three Words
-** Echo Back as Inquiry
-** Posit a Spectrum to Draw People Out
-** Make The Speaker a Beleaguered Hero
