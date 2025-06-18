@@ -14,7 +14,7 @@
 
 #
 
-I think it's legitimately hard for most engineers to imagine just how well and truly miserable it is for stakeholders to work with an engineering team.
+I think it's legitimately hard for most engineers to imagine just how well and truly miserable it is for many stakeholders to work with engineering.
 
 In almost every other part of their working life, a business leader gets to:
 
@@ -62,46 +62,51 @@ These are factors in what Chris Voss, in his excellent book "Never Split the Dif
 
     Tactical empathy is understanding the feelings and mindset of another in the moment and also hearing what is /behind/ those feelings so you increase your influence in all the moments that follow. It's bringing our attention to both he emotinoal obstacles and the potential pathways to getting an agreement done.
 
-(NSTD is incredibly good, by the way. I super, super highly recommend it).
+NSTD is *incredibly* good, by the way. I super, super highly recommend it.
 
 ** A Situation Requiring Tactical Empathy
+
 Let's say you've followed the game plan in this book, up to here.
 
 You've dug in on some engineering concerns, and, in so doing, found one that you were able to turn into a statement of real potential value for the business.
 
 Let's say that one was around site capacity -- the engineers are concerned about the site potentially slowing down to the point of being unusable.
 
-You've done a little bit of work on the side, to build some basic visibility -- but you believe now is the time to take the next step of investment: developing good SLI's and SLO's[fn:: The first few chapters of O'Reilly's Implementing Service Level Objectives are an incredibly good game plan for this]. Doing so is going to require a real chunk of engineering time, *and* a commitment of time from the product team (good SLI's must be developed in collaboration)
+You've done a little bit of work on the side, to build some basic visibility -- but you believe now is the time to take the next step of investment: developing good SLI's and SLO's[fn:: The first few chapters of O'Reilly's Implementing Service Level Objectives are an incredibly good game plan for this].
 
-You could go to your product counterpart and lay that out as a proposal, al:
+Doing so is going to require a real chunk of engineering time, *and* a commitment of time from the product team (good SLI's must be developed in collaboration)
+
+You could go to your product counterpart and lay that out as a proposal, ala:
 
 /We're worried about site capacity. Our initial monitoring of the database is showing some worrisome spikes, so we want to spend a few weeks building Service Level Indicators, which will create much more actionable data./
 
 That's reasonable. It might work.
 
-But, again, let's practice empathy again:
+But let's practice empathy again, this time focused on our product counterpart:
 
-Your product counterpart has *dozens* of other people making *similarly reasonable* requests of them, *all the time* -- sales, success, the help desk, the visionary CEO, you name it. Every request urgent, every request time-sensitive.
+Your product counterpart has dozens of other people making *similarly reasonable* requests of them, *all the time* -- sales, success, the help desk, the visionary CEO, you name it. Every request urgent, every request time-sensitive.
 
-To a first approximation, Product's *job* to continually disappoint everyone around them.
+To a first approximation, Product's *job* is to continually disappoint everyone around them.
 
 And that includes engineering.
 
-So, what can you do, to move your requests higher on their list?
+So you should not be surprised if this advocacy falls on deaf ears.
 
-As Voss makes clear his his book, if you want someone to *listen to you*, you are incredibly well-served by *first, listening to them*.
+What can you do, to move your request higher up the list?
 
-But it takes a bit of work to get most humans to share what they're thinking and feeling. So we're going to use a few tricks.
+If you want someone to *listen to you*, you are incredibly well-served by *first, listening to them*.
+
+It takes a bit of work to get most humans to share what they're thinking and feeling.
+
+So we're going to use a few tricks.
 
 ** Repeat Trailing Three Words
 
-The first one is simple and somewhat *bizarrely* effective.
-
-It works like this.
+The first one is simple and somewhat *bizarrely* effective:
 
 First, you ask someone a question.
 
-They respond with a, typically brief, answer.
+They respond with an answer.
 
 You then calmly and curiously repeat the last three words they said, back to them, inflected as a question.
 
@@ -109,7 +114,7 @@ And then you stop talking and wait.
 
 *That's it*.
 
-Iif you can achieve any form of genuine curiosity as you speak, and if you can stop yourself from saying anything other than those three words...
+If you can achieve any form of genuine curiosity as you speak, and if you can stop yourself from saying anything other than those three words...
 
 ... the person will then start talking again, telling you more and more.
 
@@ -127,25 +132,21 @@ In our example, let's start by imagining that the engineering leader does *not* 
 
     PRODUCT: Oh, I don't know. I thought we were depending on Andrea to fix the issues with the search indexing with Forms 2.0. I'm not sure we can slow that down right now.
 
-    ENG: If we don't do the work now, I bet we're not going to find time for it before peak. We're only talking about three weeks, we can timebox it you want.
+    ENG: If we don't do the work now, I bet we're not going to find time for it before launch. We're only talking about three weeks, we can timebox it you want.
 
     PRODUCT: Okay, I'll think about it.
 
 The Engineering leader is trying to speak to value, which is good.
 
-But most product leader would experience this as someone *pushing* them for something.
+But most product leaders would experience this as someone *pushing* them for something.
 
-And a, like, core survival skill for a PM is being able to ignore people who push them for things. They couldn't get through a single day without doing so.
+And a *core survival skill* for a PM is being able to ignore people who push them for things. They couldn't get through a single day without doing so, many times.
 
 Also, notice that, at one point, the PM stated a concern ("I'm not sure we can slow that down right now"), and were met with, essentially, an *argument* ("If we don't do that work now...").
 
 Let's replay the start of this conversation with the Repeat Trailing Three Words tactic.
 
-First, the engineer will *lead with a question*, not with immediate advocacy.
-
-    ENG: Do you have a sec?
-
-    PRODUCT: Sure.
+First, the engineer will *lead with a question* -- not with immediate advocacy.
 
     ENG: I wanted to ask -- how are you thinking about our key priorities for the month?
 
@@ -171,7 +172,7 @@ First, the engineer will *lead with a question*, not with immediate advocacy.
 
 If you play this game at all well, you'll achieve two *super* important things:
 
- - First, you'll build rapport
+ - First, you'll build *rapport*
 
    You're demonstrating, simply by listening, that you want to work *with* the PM to solve their problems.
 
@@ -182,10 +183,96 @@ If you play this game at all well, you'll achieve two *super* important things:
 We'll demonstrate how to do so, but first, we'll talk about a second core skill of Tactical Empathy.
 
 ** Echo Back Summaries
+
+Now, in the little story above, the eng leader has done something great -- by digging deeper with their product counterpart, they have learned some extremely useful context.
+
+In particular, they've learned that the product manager is very focused on transitioning Enterprise customers.
+
+This context provides the Eng leader with an *excellent* opening to discuss the site capacity issues they're wanting to advocate for:
+
+They can draw a connection between the intensity of enterprise customer usage and greater than normal strains on capacity (aka, if they don't build better visibility into capacity limits, they could end up frustrating the enterprise customers the moment they convert).
+
+Given the above, here is the key question:
+
+*What should the engineering leader say next?*
+
+Remember, the last thing the product manager said was:
+
+    /PRODUCT: Yep. Oh, that, and just some other fit and finish work, I think. What's on your mind?/
+
+The PM has *invited* the engineering leader to state their concerns!
+
+Clearly, the engineering leader can now start speaking to potential value, right?
+
+Nope.
+
+Instead, in this moment, the engineering leader should slow down and carefully *repeat back a brief summary of what they've just learned*.
+
+And then ask if they've got it right.
+
+i.e. in our story above, that might look like:
+
+    PRODUCT: Yep. Oh, that, and just some other fit and finish work, I think. What's on your mind?
+
+    ENG: Let me just see if I've got this. [consults notes]. The biggest focus for this month is converting Enterprise customers. The success team is raising a lot of issues they think are blockers, but your guess is that not all of them are *actual* blockers, so there's going to be some work to untangle that. Beyond that work, it's mostly just fit and finish, to get ready for the big launch. Is that about right?
+
+    PRODUCT: Yeah. I mean, the one caveat is that I don't expect us to actually convert many Enterprise customers *this* month -- but we need to be sure we can *next* month.
+
+    ENG: So, it's, like, ensuring we're fully *ready* to convert, is that right?
+
+    PRODUCT: Yes.
+
+Why is this valuable?
+
+Two reasons:
+
+ - You will usually discover that there was something you didn't get quite right
+
+   In the example above -- *actually converting* Enterprise customers vs *being ready* to convert Enterprise customers are very different goals for a month.
+
+   If you had left the conversation believing it was the former, you could easily have wasted a ton of time (and, likely, a ton of your team's time), before you came to realize that the PM hadn't been precise in speaking about the goal.
+
+ - It makes an *enormous* difference in the product manager *feeling understood*
+
+   When someone has just explained something to you, they will not, in general, feel confident they've been understood.
+
+   They may not consciously realize that, but it's a near-universal experience.
+
+   Humans rarely experience themselves as being fully understood.
+
+   Thus, if you summarize back to someone what they just said, at all accurately, they will feel a genuine sense of relief -- almost like they can exhale.
+
+   # It's like you've completed an open transaction that was otherwise hanging.
+
+   Which is exactly the mode you want them to be in, if you're going to turn the corner and now ask them to engage in *your* concerns.
+
+
+** Retrain Your Brain By Practicing With Friends
+
+This tactic -- echoing back -- is incredibly valuable.
+
+I have coached dozens and dozens of people on it.
+
+Over and over, I have seen it significantly improve people's ability to influence  others (while also helping them feel more calm and in control themselves).
+
+But, when first employing this tactic, it *always* feels very strange, for two reasons:
+
+ a) Your brain will be just yelling at you to get on to the next part, where you can state your own awesome idea
+
+    # If you've employed tactics like Repeat Trailing Words above, you'll feel genuine excitement about the connections they now see to the work they want to propose.
+
+    # Your brain will be eager, it'll feel like there's open door to go through.
+
+ b) Your brain will also be telling you "Ugh, don't *bore* the person, they just told you this."
+
+Because of this, I strongly recommend *practicing this with friends* first.
+
+
 ** Posit a Spectrum to Draw People Out
 ** Make The Speaker a Beleaguered Hero
 ** Cultivate Curiosity & Sincerity
 # Embrace Cheerfully Smart Naivete
+** Practice With Friends
 
 * Scraps
 ** Warning: Deliberate Practice Required
