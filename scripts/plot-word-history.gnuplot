@@ -30,8 +30,8 @@ avg_7day = system("grep '7day:' build/word-averages.txt | cut -d' ' -f2")
 avg_14day = system("grep '14day:' build/word-averages.txt | cut -d' ' -f2")
 
 # Add labels showing averages
-set label sprintf("7-day avg:  %4s words/day", avg_7day) at graph 0.02, graph 0.95 font "Courier,12" tc rgb "black"
-set label sprintf("14-day avg: %4s words/day", avg_14day) at graph 0.02, graph 0.90 font "Courier,12" tc rgb "black"
+set label sprintf("7-day avg:  %4s words/day", avg_7day) at graph 0.02, graph 0.95 font "monospace,12" tc rgb "black"
+set label sprintf("14-day avg: %4s words/day", avg_14day) at graph 0.02, graph 0.90 font "monospace,12" tc rgb "black"
 
 # Plot the data from file
 plot "build/word-count-data.txt" using 1:2 with linespoints linewidth 2 title "Word Count"
