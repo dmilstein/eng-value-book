@@ -343,6 +343,47 @@ Some possible follow ups include:
 Then, keep practicing.
 
 ** Tactic 3: Posit a Spectrum to Draw People Out
+The two tactics we've discussed so far are useful for keeping a conversation moving.
+
+But sometimes, it's hard to get a conversation going at all.
+
+Sometimes, you ask a stakeholder:
+
+/"What are most important goals for the next quarter?"/
+
+And they say:
+
+/"All our goals are important."/[fn:: Sometimes, as a bonus, they look vaguely affronted that you've asked them to prioritize and/or think.]
+
+It can feel like the stakeholder is an unyielding wall, and you can't get into an actual conversation.
+
+One tactic I've found useful is to:
+
+ - Guess two different, potentially valid answers to the question
+
+ - Offer them as "ends of a spectrum"
+
+ - Ask the stakeholder where they think things land on that spectrum
+
+For example, that could sound like:
+
+/"I've heard you say that the Enterprise customers are our next key target for conversion. I could imagine at least, like, two different reasons for that. On the one hand, I could imagine it's because they represent so much of our revenue -- so we need to make sure we're converting them, because we think getting them on 2.0 will make for happier customers. Or, on the other hand, I could imagine it's more that the Enterprise customers have the most complex use cases, so doing the conversion will force us to ensure that 2.0 fully meets all the use cases of 1.0 -- across all of our customers, not just the enterprise ones. Would you say it's more one of those than the other? Or more something else?"/
+
+Part of why this works so well is that you are, in essence, *offering the stakeholder an opportunity to tell you you're wrong*.
+
+But to do so in a way which allows you to fill in your picture, to answer the most important contextual questions.
+
+That is much "safer" and easier for a stakeholder to do than to come up with an initial answer themselves.
+
+In the above, they might say something like:
+
+/"Oh, the immediate revenue is not important, you can not worry about that. It's really much more about ensuring that 2.0 has genuine feature parity with 1.0."/
+
+Or they might say:
+
+/Oh, it's really not either of those. The enterprise customers just have so many users, it's going to take a long time to do the change management. And our support team can't support both versions forever, so we need to start that clock./
+
+Then, you've got them talking, and you can start to repeat trailing words and echo back summaries.
 ** Cultivate Curiosity & Sincerity
 # Embrace Cheerfully Smart Naivete
 
