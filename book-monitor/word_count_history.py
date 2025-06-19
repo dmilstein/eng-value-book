@@ -124,8 +124,8 @@ def main():
     avg_14day = calculate_average_words_per_day(word_counts, 14)
     avg_28day = calculate_average_words_per_day(word_counts, 28)
     
-    # Ensure build directory exists
-    build_dir = Path("build")
+    # Ensure build directory exists (relative to project root, not book-monitor)
+    build_dir = Path("../build")
     build_dir.mkdir(exist_ok=True)
     
     # Write all averages to a single file
