@@ -218,11 +218,11 @@ This context provides an *excellent* opening to discuss the site capacity issues
 
 Thus, if the team *doesn't* build better visibility into capacity limits, they could end up frustrating those enterprise customers the moment they convert.
 
-Given the above, here is my question for you, the reader:
+Given the above, here is the key question:
 
 *What should the engineering leader say next?*
 
-Remember, the last thing the product manager said was:
+The last thing the product manager said was:
 
     /PRODUCT: Yep. Oh, that, and just some other fit and finish work, I think. What's on your mind?/
 
@@ -248,41 +248,77 @@ i.e. in our story above, that might look like:
 
     PRODUCT: Yes.
 
-Okay, so why is this so valuable?
+Why is this so valuable?
 
- - You will usually discover that there was something you didn't get quite right
+First, by summariziing, you will nearly always discover something you didn't get quite right.
 
-   In the example above -- *actually converting* Enterprise customers vs *being ready* to convert Enterprise customers are very different goals for a month.
+In the example above, *being ready* to convert Enterprise customers *next* month is quite different from *actually converting* Enterprise customers *this* month.
 
-   If you had left the conversation believing it was the former, you could easily have wasted a ton of time (and, likely, a ton of your team's time), before you came to realize that the PM hadn't been precise in speaking about the goal.
+If you had left the conversation believing the goal was immediate conversions, you'd be taking your team down the wrong road.
 
- - It makes an *enormous* difference in the product manager *feeling understood*
+Second, summarizing back makes an enormous difference in helping the speaker to feel understood.
 
-   When someone has just explained something to you, they will not, in general, feel confident they've been understood.
+When a person explains something they care about, it's quite rare for them to feel confident that they've actually been understood.
 
-   They may not consciously realize that, but humans very rarely experience themselves as being fully understood.
+They won't usually consciously articulate this to themselves -- but some part of them will wonder, uncertainly, if their attempt succeeded or not.
 
-   If you summarize back to someone what they just said, at all accurately, they will feel a genuine sense of relief -- almost like they can exhale.
+For certain kinds of speakers, their internal narrative will not be "Did my attempt to communicate succeed?" but rather as "Did the listener understand this completely clear point I just made, or are they stupid?"[fn:: If my game plan for working with stakeholders assumed they were all kind and pleasant, I would not have very much to offer you. Luckily, that's not the case.]
 
-   # It's like you've completed an open transaction that was otherwise hanging.
+Luckily, you address both of those the same way -- because they are driven by the same underlying uncertainty about being understood.
 
-   Which is exactly the mode you want them to be in, if you're going to turn the corner and now ask them to engage in *your* concerns.
+# Humans rarely experience themselves as being fully understood.
+
+If you, as  that listener, take the time summarize back your understanding, and get it even vaguely right, the speaker will feel a genuine sense of *relief*.
+
+If you pay careful attention, you may even see them visibly exhale.
+
+# It's like you've completed an open transaction that was otherwise hanging.
+
+Which is exactly the mode you want them to be in, if you're going to turn the corner and now ask them to engage in *your* concerns.
+
+You earn space to advocate, by demonstrating that you are willing to lead with empathy and understanding.
 
 ** Retrain Your Brain By Practicing With Friends
 
-These tactics -- repeating words and echoing back summaries -- are incredibly valuable.
+These tactics -- repeating trailing words and echoing back summaries -- are incredibly valuable.
 
-I have coached dozens and dozens of people on applying them, and over and over, I have seen it significantly improve people's ability to influence others (while also helping them feel more calm and in control themselves).
+I have coached dozens and dozens of people on applying them, and over and over, I have seen the people who adopt them significantly increase their influence (while also helping them feel more calm and in control).
 
-But, when first employing this tactic, it *always* feels very strange, for two reasons:
+But, when people first try out these tactics they *always* feel strange.
 
- a) Your brain will be just yelling at you to get on to the next part, where you can state your own awesome idea
+So strange that it's actually difficult or even impossible to fully employ them.
+
+There are, I think, two core reasons:
+
+First, your brain will tell you "Ugh, don't *bore* the person, they just told you this."
+
+As in, repeating the trailing words, or echoing back a summary, will feel like it's going to be *annoying*.
+
+Once you've practiced this a few times, this feeling disappears -- because you can see (and feel) how pleasant it is for other people to hear their own words and thoughts repeated back to them.
+
+But you have to actually have this experience, viscerally, to retrain yourself.
+
+Second, using these tactics will turn up valuable context, aka things you didn't previously know.
+
+You will suddenly make connections and see new opportunities, in ways that often feel exciting -- e.g. in our scenario, in the middle of the conversation, the engineering leader might see the connection between the Enterprise customers and the capacity challenges for the first time.
+
+When that kind of discovery happens, a spike of excitement hormones hit your bloodstream, and your brain immediately starts just *yelling* at you to share this new awesome idea.
+
+"Oh," your brain will say to you, "the other person is going to love this, I can't wait!".
+
+But that's a trap -- you are *always* better served by both ensuring you fully understood and the person feels fully heard, and then turning the corner to sharing your response.
+
+Because it takes some conscious practice to learn these skills, I've had the most luck with coaching people to practice them with people they can trust, first, and then applying them with stakeholders.
+
+
+
+
+
+
 
     # If you've employed tactics like Repeat Trailing Words above, you'll feel genuine excitement about the connections they now see to the work they want to propose.
 
     # Your brain will be eager, it'll feel like there's open door to go through.
-
- b) Your brain will also be telling you "Ugh, don't *bore* the person, they just told you this."
 
 Because of this, I strongly recommend *practicing this with friends* first.
 
