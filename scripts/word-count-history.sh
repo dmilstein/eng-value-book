@@ -13,6 +13,10 @@ if [ ! -f "$COUNT_AT_COMMIT_SCRIPT" ]; then
     exit 1
 fi
 
+# Store word counts for calculating 7-day average
+word_counts=()
+dates=()
+
 # Loop through the last 14 days
 for i in $(seq 0 13); do
     # Calculate the date (i days ago)
@@ -37,11 +41,34 @@ for i in $(seq 0 13); do
             # Extract just the number from "Word count at commit abc123: 1234"
             word_count=$(echo "$word_count_output" | sed 's/.*: //')
             echo -e "$date_str\t$word_count"
+            word_counts+=($word_count)
+            dates+=($date_str)
         else
-            echo -e "0\t$date_str"
+            echo -e "$date_str\t0"
+            word_counts+=(0)
+            dates+=($date_str)
         fi
     else
         # No commits on this date
         echo -e "$date_str\t0"
+        word_counts+=(0)
+        dates+=($date_str)
     fi
 done
+
+# Calculate 7-day average words per day (last 7 days)
+if [ ${#word_counts[@]} -ge 7 ]; then
+    # Get the most recent 7 word counts (first 7 elements since we're going backwards in time)
+    recent_counts=(${word_counts[@]:0:7})
+    
+    # Calculate the difference between first and last day of the 7-day period
+    if [ ${recent_counts[6]} -gt 0 ] && [ ${recent_counts[0]} -gt 0 ]; then
+        total_words_added=$((${recent_counts[0]} - ${recent_counts[6]}))
+        avg_words_per_day=$((total_words_added / 7))
+        
+        # Output the 7-day average as a comment that gnuplot can read
+        echo "# 7-day average: $avg_words_per_day words/day" >&2
+    else
+        echo "# 7-day average: 0 words/day" >&2
+    fi
+fi
