@@ -25,11 +25,11 @@ set style data linespoints
 #set pointtype 7
 #set pointsize 1.5
 
-# Extract 7-day average from stderr and set as variable
-avg_words_per_day = system("./scripts/word-count-history.sh 2>&1 >/dev/null | grep '7-day average:' | sed 's/.*: \\([0-9]*\\) words.*/\\1/'")
+# Read 7-day average from file
+avg_words_per_day = system("cat build/7day-average.txt")
 
 # Add label showing 7-day average
 set label sprintf("7-day avg: %s words/day", avg_words_per_day) at graph 0.02, graph 0.95 font ",12" tc rgb "blue"
 
-# Plot the data from stdin
-plot "<cat" using 1:2 with linespoints linewidth 2 title "Word Count"
+# Plot the data from file
+plot "build/word-count-data.txt" using 1:2 with linespoints linewidth 2 title "Word Count"

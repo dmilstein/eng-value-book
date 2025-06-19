@@ -43,9 +43,13 @@ build/book.md: build/book.deps
 # Alias for convenience
 book: build/book.md
 
+# Generate word count history data
+build/word-count-data.txt: scripts/word-count-history.sh scripts/count-words-at-commit.sh
+	./scripts/word-count-history.sh > build/word-count-data.txt
+
 # Generate word count history graph
-build/word-count-history.png: $(CHAPTER_MDS)
-	./scripts/word-count-history.sh | gnuplot scripts/plot-word-history.gnuplot
+build/word-count-history.png: build/word-count-data.txt
+	gnuplot scripts/plot-word-history.gnuplot
 
 # Alias for convenience
 word-count-graph: build/word-count-history.png
