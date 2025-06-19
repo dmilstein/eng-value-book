@@ -4,9 +4,9 @@
 #+title: Master Tactical Empathy
 #+filetags: :Chapter:
 * Master Tactical Empathy
-** A Brief Exercise In Stakeholder Empathy
+** Putting Ourselves In a Stakeholder's Shoes
 
-# Putting Ourselves In Our Stakeholder's Shoes
+# A Brief Exercise In Stakeholder Empathy
 
 # Sometimes, It's Hard To Be a Stakeholder
 
@@ -14,7 +14,7 @@
 
 #
 
-I think it's legitimately hard for most engineers to imagine just how well and truly miserable it is for many stakeholders to work with engineering.
+I think it's legitimately hard for most engineers to imagine just how [well and truly] *miserable* it is for many stakeholders to work with engineering.
 
 In almost every other part of their working life, a business leader gets to:
 
@@ -36,17 +36,17 @@ And then, despite literally *everything* being painfully far behind plan, the en
 
 It's weird as hell to work with engineering.[fn:: I like to think it's like hiring a contractor to remodel your kitchen, going away for the weekend, and coming back to discover they're on the verge of demolishing your entire house because they found some wiring they think is "ugly".]
 
-If you want to be effective in *advocating for technical investments*, you need to build a different kind of relationship.
+If you want to be effective in *advocating for technical investments*, you need to build a different kind of relationship -- one founded on trust and rapport.
 
 Ideally, your company has a strong product team, who play a central role in building trust and rapport with The Rest of the Business.
 
 But I have found that, for *technical investments specifically*, it's often down to the engineering leader to persuade their business counterparts -- be they sales, the CEO, *or their product manager* -- of the potential value of some specific chunk of work.
 
-This is a core part of why great engineering leaders combine strong technical judgment with *effective influence*.
+# This is a core part of why great engineering leaders combine strong technical judgment with *effective influence*.
 
 We're going to talk in this chapter about leveling up on influence.
 
-** Tactical Empathy
+** Defining "Tactical Empathy"
 
 Mastering effective influence is the work of a lifetime.
 
@@ -54,27 +54,43 @@ We're going to focus on a few core skills.
 
 These are factors in what Chris Voss, in his excellent book "Never Split the Difference" (written with Tahl Raz), calls *Tactical Empathy*:
 
-    In my negotiating course, I tell my students that empathy is "the ability to recognize the perspective of a counterpart, and the vocalization of that recognition." That's an academic way of saying that empathy is paying attention to another human being, asking what they are feeling, and making a commitment to understanding their world.
+    /In my negotiating course, I tell my students that empathy is "the ability to recognize the perspective of a counterpart, and the vocalization of that recognition." That's an academic way of saying that empathy is paying attention to another human being, asking what they are feeling, and making a commitment to understanding their world./
 
-    Notice that I don't say anything about agreeing with the other person's values and beliefs or giving out hugs. That's sympathy. What I'm talking about is trying to understand a situation from another person's perspective.
+    /Notice that I don't say anything about agreeing with the other person's values and beliefs or giving out hugs. That's sympathy. What I'm talking about is trying to understand a situation from another person's perspective./
 
-    One step beyond that is tactical empathy.
+    /One step beyond that is tactical empathy./
 
-    Tactical empathy is understanding the feelings and mindset of another in the moment and also hearing what is /behind/ those feelings so you increase your influence in all the moments that follow. It's bringing our attention to both he emotinoal obstacles and the potential pathways to getting an agreement done.
+    /Tactical empathy is understanding the feelings and mindset of another in the moment and also hearing what is *behind* those feelings so you increase your influence in all the moments that follow. It's bringing our attention to both he emotinoal obstacles and the potential pathways to getting an agreement done./
+
+A key: as Voss emphasizes, deploying the skill of tactical empathy doesn't meant that you have to believe your conversational counterpart is *right* or *justified*.
+
+If your stakeholder is angrily insisting that they shouldn't "have to" make a difficult prioritization choice, and they bitterly push back by saying "everything is important"... they are, of course, wrong.
+
+Tactical empathy means reaching for ways to connect with the underlying *feelings* that are leading to such irrational statements -- aka, the situation that person perceives themselves as being in.
+
+Maybe that means digging for enough information to be able to summarize at the end by saying "Wow, it sounds like you kind of have two different bosses. And you're being held accountable by them for different goals that are actually in fundamental conflict with each other. I could imagine that feeling like there's no way for you to win."
+
+Note how, in this formulation, you're *offering* a potential understanding of your counterpart's situation and feelings, by using phrase like "it sounds kind of like", and "I could imagine that feeling". That's a powerful way to get feelings on the table without triggering defensiveness (no one likes being "told" their feelings directly).
+
+If you can say something like the above, there's a very good chance the stakeholder will visibly relax.
+
+You're then positioned to offer productive challenge and collaboration, e.g. "Okay, if we had to disappoint one of those two bosses, but get a visible, clear win for the other, which would be the way to go?"
 
 NSTD is *incredibly* good, by the way. I super, super highly recommend it.
 
-** A Situation Requiring Tactical Empathy
+** A Scenario, An Opportunity And A Challenge
+
+We're going to develop a scenario to illustrate these tactics.
 
 Let's say you've followed the game plan in this book, up to here.
 
-You've dug in on some engineering concerns, and, in so doing, found one that you were able to turn into a statement of real potential value for the business.
+You've dug in on the engineering team's concerns, and, in so doing, found one that you were able to turn into a statement of significant potential value for the business.
 
-Let's say that one was around site capacity -- the engineers are concerned about the site potentially slowing down to the point of being unusable.
+Let's say that one was around site capacity -- the engineers are justifiably concerned about the risk of the site slowing down to the point of becoming unusable.
 
-You've done a little bit of work on the side, to build some basic visibility -- but you believe now is the time to take the next step of investment: developing good SLI's and SLO's[fn:: The first few chapters of O'Reilly's Implementing Service Level Objectives are an incredibly good game plan for this].
+You've done a little bit of work on the side, to build some crude visibility.
 
-Doing so is going to require a real chunk of engineering time, *and* a commitment of time from the product team (good SLI's must be developed in collaboration)
+As a next step up the ladder, you've roughly scoped a small project around developing good Service Level Indicators[fn:: The first few chapters of O'Reilly's Implementing Service Level Objectives are an incredibly good game plan for this].
 
 You could go to your product counterpart and lay that out as a proposal, ala:
 
@@ -82,25 +98,29 @@ You could go to your product counterpart and lay that out as a proposal, ala:
 
 That's reasonable. It might work.
 
-But let's practice empathy again, this time focused on our product counterpart:
+But let's practice empathy again, this time focused on the situation our product counterpart finds themselves in, as we go to them with this request:
 
-Your product counterpart has dozens of other people making *similarly reasonable* requests of them, *all the time* -- sales, success, the help desk, the visionary CEO, you name it. Every request urgent, every request time-sensitive.
+Your product counterpart likely has *dozens* of other people making *similar* requests of them, *all the time* -- sales people, the success team, the help desk, your company's visionary CEO, all reaching out via Slack, email, casual conversations in the office kitchen, difficult negotiations in front of half the leadership team. Every request urgent, every request time-sensitive.
 
-To a first approximation, Product's *job* is to continually disappoint everyone around them.
+# Companies have product teams *because* they can't do all the things they want, and someone has to steward a difficult process of decision-making.
+
+The product manager *can't* say yes to all of those requests -- in fact, they can't say yes to almost *any* of them.
+
+The Product Manager's *job* is to continually disappoint everyone around them.[fn:: Nathan Papazian, my product partner at Ellevation, commonly referred to himself as the company's Chief Disappointment Officer.]
 
 And that includes engineering.
 
-So you should not be surprised if this advocacy falls on deaf ears.
+So you should not be surprised if your well-reasoned advocacy about site capacity, as above, falls on deaf ears. Or gets put on the "We'll get to that when we have some downtime" list, aka, the "We'll probably never get to it" list.
 
-What can you do, to move your request higher up the list?
+What can you do, to move your request to the "Let's talk about if it's this sprint or the next one" list?
 
-If you want someone to *listen to you*, you are incredibly well-served by *first, listening to them*.
+A fundamental truth of working with humans: if you want someone to *listen to you*, you are incredibly well-served by *first, listening to them*.
 
-It takes a bit of work to get most humans to share what they're thinking and feeling.
+But, it takes a bit of work to get most humans to genuinely share what they're thinking and feeling, so that they can *feel* listened to and heard.
 
 So we're going to use a few tricks.
 
-** Repeat Trailing Three Words
+** Tactic 1: Repeat Trailing Three Words
 
 The first one is simple and somewhat *bizarrely* effective:
 
@@ -120,9 +140,9 @@ If you can achieve any form of genuine curiosity as you speak, and if you can st
 
 And they'll *feel* like you're hearing and understanding them.
 
-It shouldn't be this simple. But it totally works.[fn:: If you happen to like romcoms, you might catch this *exact tactic* from Never Split the Difference being referenced in Nobody Wants This]
+It shouldn't be this simple. But it totally works.[fn:: If you happen to like romcoms, you might catch this *exact tactic* from Never Split the Difference being referenced in episode <something> of Nobody Wants This]
 
-In our example, let's start by imagining that the engineering leader does *not* have this skill, and let's see how the conversation might go.
+In our scenario, let's start by imagining that the engineering leader does *not* have this skill at their disposal, and let's see how the conversation might go.
 
     ENG: I'd like to talk about taking the time this month to implement Service Level Indicators -- it'd really help us stay ahead of potential capacity issues.
 
@@ -136,17 +156,23 @@ In our example, let's start by imagining that the engineering leader does *not* 
 
     PRODUCT: Okay, I'll think about it.
 
+How'd that go?
+
 The Engineering leader is trying to speak to value, which is good.
 
-But most product leaders would experience this as someone *pushing* them for something.
+But...
 
-And a *core survival skill* for a PM is being able to ignore people who push them for things. They couldn't get through a single day without doing so, many times.
+...most product leaders would experience this as someone *pushing* them for something.
 
-Also, notice that, at one point, the PM stated a concern ("I'm not sure we can slow that down right now"), and were met with, essentially, an *argument* ("If we don't do that work now...").
+And a core survival skill for a PM is being able to ignore people who push them for things.
 
-Let's replay the start of this conversation with the Repeat Trailing Three Words tactic.
+TO find another way, let's notice that, at one point, the PM stated a *concern*: "I'm not sure we can slow that down right now".
 
-First, the engineer will *lead with a question* -- not with immediate advocacy.
+The Engineering Leader responded with, essentially, an *argument*: "If we don't do that work now..."
+
+Let's replay this conversation with the Repeat Trailing Three Words tactic.
+
+First, the engineer will start with a question -- not with immediate advocacy.
 
     ENG: I wanted to ask -- how are you thinking about our key priorities for the month?
 
@@ -156,7 +182,7 @@ First, the engineer will *lead with a question* -- not with immediate advocacy.
 
     [tiny pause]
 
-    PRODUCT: Yes. The Success team has *finally* started converting some of the Enterprise customers, and they're complaining about all sorts of blocker requirements.
+    PRODUCT: Yes. The Success team has *finally* started converting some of the Enterprise customers, and they're complaining about all sorts of new blocker requirements.
 
     ENG: ...oh, new blocker requirements?
 
@@ -170,6 +196,8 @@ First, the engineer will *lead with a question* -- not with immediate advocacy.
 
     PRODUCT: Yep. Oh, that, and just some other fit and finish work, I think. What's on your mind?
 
+# Insert something about "Those may look like dry words on the page, but it's remarkably different in person -- and it can be done with such a simple approach. You have to try it and experience it to fully believe it.
+
 If you play this game at all well, you'll achieve two *super* important things:
 
  - First, you'll build *rapport*
@@ -182,17 +210,15 @@ If you play this game at all well, you'll achieve two *super* important things:
 
 We'll demonstrate how to do so, but first, we'll talk about a second core skill of Tactical Empathy.
 
-** Echo Back Summaries
+** Tactic 2: Echo Back and Summarize
 
-Now, in the little story above, the eng leader has done something great -- by digging deeper with their product counterpart, they have learned some extremely useful context.
+In using the Repeat Trailing Three Words tactic, the engineering leader has learned that the product manager is focused on transitioning Enterprise customers.
 
-In particular, they've learned that the product manager is very focused on transitioning Enterprise customers.
+This context provides an *excellent* opening to discuss the site capacity issues, because enterprise customers use site features at a scale that puts greater than normal strains on capacity.
 
-This context provides the Eng leader with an *excellent* opening to discuss the site capacity issues they're wanting to advocate for:
+Thus, if the team *doesn't* build better visibility into capacity limits, they could end up frustrating those enterprise customers the moment they convert.
 
-They can draw a connection between the intensity of enterprise customer usage and greater than normal strains on capacity (aka, if they don't build better visibility into capacity limits, they could end up frustrating the enterprise customers the moment they convert).
-
-Given the above, here is the key question:
+Given the above, here is my question for you, the reader:
 
 *What should the engineering leader say next?*
 
@@ -222,9 +248,7 @@ i.e. in our story above, that might look like:
 
     PRODUCT: Yes.
 
-Why is this valuable?
-
-Two reasons:
+Okay, so why is this so valuable?
 
  - You will usually discover that there was something you didn't get quite right
 
@@ -236,24 +260,19 @@ Two reasons:
 
    When someone has just explained something to you, they will not, in general, feel confident they've been understood.
 
-   They may not consciously realize that, but it's a near-universal experience.
+   They may not consciously realize that, but humans very rarely experience themselves as being fully understood.
 
-   Humans rarely experience themselves as being fully understood.
-
-   Thus, if you summarize back to someone what they just said, at all accurately, they will feel a genuine sense of relief -- almost like they can exhale.
+   If you summarize back to someone what they just said, at all accurately, they will feel a genuine sense of relief -- almost like they can exhale.
 
    # It's like you've completed an open transaction that was otherwise hanging.
 
    Which is exactly the mode you want them to be in, if you're going to turn the corner and now ask them to engage in *your* concerns.
 
-
 ** Retrain Your Brain By Practicing With Friends
 
-This tactic -- echoing back -- is incredibly valuable.
+These tactics -- repeating words and echoing back summaries -- are incredibly valuable.
 
-I have coached dozens and dozens of people on it.
-
-Over and over, I have seen it significantly improve people's ability to influence  others (while also helping them feel more calm and in control themselves).
+I have coached dozens and dozens of people on applying them, and over and over, I have seen it significantly improve people's ability to influence others (while also helping them feel more calm and in control themselves).
 
 But, when first employing this tactic, it *always* feels very strange, for two reasons:
 
@@ -267,12 +286,9 @@ But, when first employing this tactic, it *always* feels very strange, for two r
 
 Because of this, I strongly recommend *practicing this with friends* first.
 
-
-** Posit a Spectrum to Draw People Out
-** Make The Speaker a Beleaguered Hero
+** Tactic 3: Posit a Spectrum to Draw People Out
 ** Cultivate Curiosity & Sincerity
 # Embrace Cheerfully Smart Naivete
-** Practice With Friends
 
 * Scraps
 ** Warning: Deliberate Practice Required
