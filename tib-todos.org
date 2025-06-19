@@ -30,7 +30,10 @@ Actually, just do my thing to use Make to build intermediate lists from the toc 
 ** DONE Make wordcount script understand + display "Parts"
 CLOSED: [2025-06-15 Sun 19:21]
 Gonna have to put that into the toc, of course
-
+** TODO For Tact Emp example, shift to focus something she can base a tech investment on
+So that the engineering manager can then pitch her work in that context
+** TODO Aider: add "today's word count to terminal view
+** TODO Move Build Milestones From Decisions up, ahead of Tactical Empathy
 * [[id:BB09F432-DEEB-4129-8F88-D23C86E8CEBB][Build Viz First]]                                 :gtasks:
 ** DONE Jam in some of my ideas from my notes, break out todos :pom:
 CLOSED: [2025-06-07 Sat 09:35]
@@ -48,7 +51,22 @@ CLOSED: [2025-06-08 Sun 09:58]
 * [[id:4FEA3BD5-8E85-4BB6-8F59-15FDE4F38572][Tactical Empathy]]                                :gtasks:curweek:
 ** DONE Sketch in outline
 CLOSED: [2025-06-16 Mon 09:28]
-** TODO Write first few sections
+** DONE Write example scene before/after          :pom:
+CLOSED: [2025-06-16 Mon 17:14]
+** DONE Try "It's Hard to be a Stakeholder"       :pom:
+CLOSED: [2025-06-18 Wed 09:37]
+** DONE Write "Repeat Trailing Three Words"
+CLOSED: [2025-06-18 Wed 09:37]
+** DONE Write "Echo Back as Inquiry"              :pom:
+CLOSED: [2025-06-18 Wed 11:17]
+** DONE Finish "Retrain Your Brain"               :pom:
+CLOSED: [2025-06-19 Thu 11:46]
+** DONE Write "Posit a Spectrum to Draw People Out"
+CLOSED: [2025-06-19 Thu 16:00]
+** TODO Write "Cultivate Curiosity & Sincerity"
+** DONE Write "Wait, Isn't This Product's Job?"
+CLOSED: [2025-06-19 Thu 08:04]
+
 * [[id:D3158CC2-8A69-4097-B9ED-ED6BD855A7AD][Understand Value In Depth]]                       :gtasks:
 ** DONE Do a spike on footnotes                   :pom:
 CLOSED: [2025-06-05 Thu 08:44]
@@ -156,7 +174,7 @@ CLOSED: [2025-06-10 Tue 09:53]
 So I can make better tomorrow
 ** TODO Add Game Days as Big viz for reduce duration of outages
 * [[id:93FF0A9B-F54E-49D5-8154-640BBAE08D4D][Beta Readers]]                                    :gtasks:
-** TODO Write Robfitz re: pipeline beta reading   :curweek:
+** TODO Write Robfitz re: pipeline beta reading
 ** TODO Get footnotes to number by chapter
 ** TODO Add --toc to the pandoc, can I get a ToC in helpthisbook?
 ** TODO For that toc, set --toc-depth=2, I think
@@ -223,8 +241,8 @@ There is an amount of debt, once it's gone, you're living clean.
 
 This is not true for technical investments.
 * [[id:49435FCD-0590-44DE-8FC7-585E7BCC8BB2][Tooling]]                                         :gtasks:
-** TODO Ask Genie to do trailing 7/14/28? days word count pace? :curweek:
-** TODO Genie: split chapter count into two options :curweek:
+** TODO Aider: do trailing 7/14/28? days word count pace? :curweek:
+** TODO Aider: split chapter count into two options :curweek:
 then show them side by side
 
 As in, use screen or something to see both at once, get my watch script running again.
