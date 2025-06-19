@@ -119,10 +119,9 @@ def main():
             word_counts.append(0)
             dates.append(date_str)
     
-    # Calculate averages for 7, 14, and 28 days
+    # Calculate averages for 7 and 14 days
     avg_7day = calculate_average_words_per_day(word_counts, 7)
     avg_14day = calculate_average_words_per_day(word_counts, 14)
-    avg_28day = calculate_average_words_per_day(word_counts, 28)
     
     # Ensure build directory exists (relative to project root, not book-monitor)
     build_dir = Path("../build")
@@ -132,7 +131,6 @@ def main():
     with open(build_dir / "word-averages.txt", "w") as f:
         f.write(f"7day: {avg_7day}\n")
         f.write(f"14day: {avg_14day}\n")
-        f.write(f"28day: {avg_28day}\n")
 
 
 if __name__ == "__main__":

@@ -28,12 +28,10 @@ set style data linespoints
 # Read averages from file
 avg_7day = system("grep '7day:' build/word-averages.txt | cut -d' ' -f2")
 avg_14day = system("grep '14day:' build/word-averages.txt | cut -d' ' -f2")
-avg_28day = system("grep '28day:' build/word-averages.txt | cut -d' ' -f2")
 
-# Add labels showing all averages
+# Add labels showing averages
 set label sprintf("7-day avg: %s words/day", avg_7day) at graph 0.02, graph 0.95 font ",12" tc rgb "blue"
 set label sprintf("14-day avg: %s words/day", avg_14day) at graph 0.02, graph 0.90 font ",12" tc rgb "green"
-set label sprintf("28-day avg: %s words/day", avg_28day) at graph 0.02, graph 0.85 font ",12" tc rgb "red"
 
 # Plot the data from file
 plot "build/word-count-data.txt" using 1:2 with linespoints linewidth 2 title "Word Count"
