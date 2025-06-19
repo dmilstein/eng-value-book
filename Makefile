@@ -44,8 +44,8 @@ build/book.md: build/book.deps
 book: build/book.md
 
 # Generate word count history data
-build/word-count-data.txt: scripts/word-count-history.sh scripts/count-words-at-commit.sh
-	./scripts/word-count-history.sh > build/word-count-data.txt
+build/word-count-data.txt: book-monitor/word_count_history.py scripts/count-words-at-commit.sh
+	cd book-monitor && python word_count_history.py > ../build/word-count-data.txt
 
 # Generate word count history graph
 build/word-count-history.png: build/word-count-data.txt
