@@ -44,20 +44,34 @@ def get_last_commit_on_date(date_str):
 
 def count_words_at_commit(commit_hash):
     """Count words at a specific commit using the existing shell script."""
-    script_path = Path(__file__).parent.parent / "scripts" / "count-words-at-commit.sh"
+    # Change to parent directory to run the script from the correct location
+    original_dir = os.getcwd()
+    parent_dir = Path(__file__).parent.parent
+    script_path = parent_dir / "scripts" / "count-words-at-commit.sh"
     
     if not script_path.exists():
         print(f"Error: count-words-at-commit.sh not found at {script_path}", file=sys.stderr)
         return None
     
-    cmd = f"{script_path} {commit_hash}"
-    result = run_command(cmd)
+    try:
+        # Change to the parent directory (project root)
+        os.chdir(parent_dir)
+        
+        cmd = f"./scripts/count-words-at-commit.sh {commit_hash}"
+        result = run_command(cmd)
+        
+        if result.returncode == 0:
+            # Extract just the number from "Word count at commit abc123: 1234"
+            output = result.stdout.strip()
+            if ": " in output:
+                return int(output.split(": ")[-1])
+        else:
+            # Debug: print error output
+            print(f"Error running count-words-at-commit.sh for {commit_hash}: {result.stderr}", file=sys.stderr)
     
-    if result.returncode == 0:
-        # Extract just the number from "Word count at commit abc123: 1234"
-        output = result.stdout.strip()
-        if ": " in output:
-            return int(output.split(": ")[-1])
+    finally:
+        # Always change back to original directory
+        os.chdir(original_dir)
     
     return None
 
