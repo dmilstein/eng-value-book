@@ -377,6 +377,10 @@ That is much "safer" and easier for a stakeholder to do than to come up with an 
 
 In the above, they might say something like:
 
+/"It's mostly just that they're such a big chunk of our revenue. Well, that and \also because they each have a hotline to someone on Customer Success, who will then come and derail our work if things don't seem right."/
+
+Or they might say the opposite:
+
 /"Oh, the immediate revenue is not important, you can not worry about that. It's really much more about ensuring that 2.0 has genuine feature parity with 1.0."/
 
 Or they might say:
@@ -386,47 +390,55 @@ Or they might say:
 Then, you've got them talking, and you can start to repeat trailing words and echo back summaries.
 
 ** Wrapping It All Up
-Continuing our scenario, having gained all this information, the engineering leader could now say something like:
 
-Okay, it sounds like our key goal for *this* month is to ensure we're ready to transition Enterprise customers to Forms 2.0, *next* month. We really want those first Ent customers who come over to have a great experience of Forms 2.0, because, the ENT segment represents almost half our revenue, so we can't win without them. And they have a lot of clout through their dedicated Success team partners, so if they have a bad experience, it could blow up our ability to keep moving forward.
+Continuing our scenario, having gained all this information, the engineering leader is ready to lay out a really effective case for technical investment.
 
-The engineers have identified a risk -- the Enterprise customers use the features of Forms 1.0 over much larger data sets than the SMB customers who are already on 2.0, i production.
+They could take some time to review their notes, maybe talk to an engineer to flush out a bit more detail and then say[fn:: Or write! In a memo or brief!] something like the following:
 
-And, as we've sprinted to build Forms 2.0, we've had to, of course, gotten things out in the simplest form, first. So we think there's a very real chance that, if an ENT customer were to start using Forms 2.0 today, they would experience painfully load times for some of the key new pages.
+/Okay, it sounds like our key goal for *this* month is to ensure we're ready to transition Enterprise customers to Forms 2.0, *next* month./
 
-Fortunately, we have a couple of good options for speeding things up, once we find bottlenecks.
+/We really want those first ENT customers who come over to have a *great* experience of Forms 2.0, because the ENT segment represents almost half our revenue, so we can't win without them. And they have a lot of clout through their dedicated Success team partners, so if any one of them has a bad experience, it could blow up our ability to keep moving forward ./
 
-Unfortunately, we don't have great visibility into how those pages are performing, or where bottlenecks are.
+/The engineers have identified a risk -- all our early adopters of Forms 2.0 come from our SMB segment. Those customers all have relatively small data sets. But the Enterprise customers who use the old, legacy Forms 1.0 product, all have *much* bigger data sets than we've seen for the new Form 2.0 in production so far./
 
-Therefore, we're proposing that Andrea spends the next three weeks working with your team to develop a first draft of Service Level Indicators -- which will show us "are customers succeeding in achieving the use cases in the product".
+/As we've sprinted to build Forms 2.0, we've asked the teeam to get things out in the simplest form as quickly as possible. Which we're really glad about. But we think there's a very real chance that, if an ENT customer were to start using Forms 2.0 today, with their large data sets, they would experience painfully load times for almost all the key new pages. In fact, worst case, many those pages could just seem broken./
 
-She had been working on adding some features to the Search Indexing, but we think this is a bigger risk, because not all the ENT customers need those new features, so hopefully we can transition those later -- and the risk of bad performance cuts across all of them.
+/We really don't want that to happen./
 
-The key milestone she would be working towards would be sitting down with you and me, and reviewing a list of key user stories embedded into SLI's, and then the systems current performance against those SLI's. You can then decide if the team should refine those SLI's, or do some proactive load testing, or if we've found any bottlenecks, deal with those."
+/Fortunately, we believe we have a couple of good options for speeding things up -- once we find the bottlenecks./
 
-Note how this *embeds a decision in the upcoming increment*. That's the next thing we're going to talk about.
+/Unfortunately, we don't have great *visibility* into how those pages are performing, or where bottlenecks are./
 
+/Therefore, we're proposing that Andrea spends the next three weeks developing and implementing a first draft of Service Level Indicators -- which will show us, basically "Are customers happy in their use of Forms 2.0?". And if they're *not*, we can know before the help desk or success team comes to us, and the team can quickly swarm and address it./
+
+/This has some real tradeoff costs. We had planned for Andrea to take point on adding new features to the Search Indexing. We think the potential performance issues are a bigger risk. And, if we understand it right, not all the ENT customers need those new Search features, so we might be able to delay the transition for customers who do need them. We believe the risk of bad performance cuts across all of the ENT customers./
+
+/The key milestone Andrea would be working towards, which she can hit within 3 weeks, would be to ready to sit down with you and me, and review both the definitions of an initial set of the SLI's *and* how those SLI's are performing in production./
+
+/We'd then be able to decide, together, if that performance seems acceptable. If so, we can return to our original plans and just keep an eye on performance as transitions ramp up. If performance already seems problematic, or if we're just uncertain, the team could start some proactive load testing, or if we've found any bottlenecks, deal with those./
+
+/But we don't have to make that decision yet -- we'll have more info in just a few weeks./
+
+Note how the engineering leader is offering a carefully time-boxed increment that ends with a *shared decision*
+
+The fundamental definition of the first stage of this technical investment is: build a thing in mo more than 3 weeks that will both create some incremental improvements *and* allow the stakeholder and the eng leader to make a collaborative decision about what to do next.
+
+That approach to incremental development is the subject of our next chapter.
 
 
 ** Cultivate Curiosity & Sincerity
-As you work to learn these tactics, do your best to live in a place of *curiosity*.
+A final point.
+
+As you work to learn these tactics, you'll be very well-served by living in a place of *curiosity*.
 
 If you can allow yourself to be genuinely curious, all of these tactics will come across as *sincere* -- which makes them 100x more effective.
 
-Allow yourself to be curious about your business, about your stakeholders, about the problems in your business that your stakeholders are wrestling with.
+Allow yourself to be curious about your business, allow yourself to be curious about your stakeholders, allow yourself to be curious about the problems in your business that your stakeholders are wrestling with.
 
-As part of that, it can be useful to try to unhook the part of your brain worries about whether or not you'll be percieved as intelligent or experienced (which is a totally natural thing to be worried about!)
+It can sometimes be useful to try to unhook the part of your brain worries about whether or not you'll be percieved as intelligent or experienced (which is a totally natural thing to be worried about!)
 
-You *will* be able to demonstrate intelligence and experience -- by asking great questions, and by giving concise and clear summaries.
+You *will* be able to demonstrate intelligence and experience -- by asking great questions, and by giving concise and clear summaries.[fn:: Of course, I must acknowledge that I'm saying this as a tall white man with a deep voice... so people are far too ready to ascribe intelligence and experience to me. But I have seen the tactic of "moving the conversation forward by being the listener and summarizer and clarifier" be a form of leadership for folks from less privileged groups]
 
-(Of course, I must acknowledge that I'm saying this as a 6' 3" white man with a deep voice, so people are far too ready to ascribe intelligence and experience to me. But I have seen the tactic of "moving the conversation forward by being the listener and summarizer and clarifier" be a form of leadership for folks from less privileged groups)
-
-
-
-
-
-
-# Embrace Cheerfully Smart Naivete
 
 * Scraps
 ** Warning: Deliberate Practice Required
