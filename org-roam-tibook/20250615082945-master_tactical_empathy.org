@@ -385,6 +385,29 @@ Or they might say:
 
 Then, you've got them talking, and you can start to repeat trailing words and echo back summaries.
 
+** Wrapping It All Up
+Continuing our scenario, having gained all this information, the engineering leader could now say something like:
+
+Okay, it sounds like our key goal for *this* month is to ensure we're ready to transition Enterprise customers to Forms 2.0, *next* month. We really want those first Ent customers who come over to have a great experience of Forms 2.0, because, the ENT segment represents almost half our revenue, so we can't win without them. And they have a lot of clout through their dedicated Success team partners, so if they have a bad experience, it could blow up our ability to keep moving forward.
+
+The engineers have identified a risk -- the Enterprise customers use the features of Forms 1.0 over much larger data sets than the SMB customers who are already on 2.0, i production.
+
+And, as we've sprinted to build Forms 2.0, we've had to, of course, gotten things out in the simplest form, first. So we think there's a very real chance that, if an ENT customer were to start using Forms 2.0 today, they would experience painfully load times for some of the key new pages.
+
+Fortunately, we have a couple of good options for speeding things up, once we find bottlenecks.
+
+Unfortunately, we don't have great visibility into how those pages are performing, or where bottlenecks are.
+
+Therefore, we're proposing that Andrea spends the next three weeks working with your team to develop a first draft of Service Level Indicators -- which will show us "are customers succeeding in achieving the use cases in the product".
+
+She had been working on adding some features to the Search Indexing, but we think this is a bigger risk, because not all the ENT customers need those new features, so hopefully we can transition those later -- and the risk of bad performance cuts across all of them.
+
+The key milestone she would be working towards would be sitting down with you and me, and reviewing a list of key user stories embedded into SLI's, and then the systems current performance against those SLI's. You can then decide if the team should refine those SLI's, or do some proactive load testing, or if we've found any bottlenecks, deal with those."
+
+Note how this *embeds a decision in the upcoming increment*. That's the next thing we're going to talk about.
+
+
+
 ** Cultivate Curiosity & Sincerity
 As you work to learn these tactics, do your best to live in a place of *curiosity*.
 
