@@ -2,12 +2,6 @@
 :ID:       93FF0A9B-F54E-49D5-8154-640BBAE08D4D
 :END:
 #+title: Beta Readers
-* Help This Book notes
-[[https://useful-books.helpscoutdocs.com/article/22-formatting-your-markdown-project-for-import][Markdown Import]]
-
-Chapter titles must use the Heading Level 1 style
-
-org-md-export-to-markdown
 * People Who Expressed Interest
 ** (Satoe)
 ** Dustin Bennett
@@ -15,3 +9,101 @@ org-md-export-to-markdown
 ** Margaret Geary
 ** Brien Tate
 ** Mike Daniels
+* Note re: Timing to EWJ
+To: Edmund Jorgensen <ewj@inkwellandoften.com>
+Subject: Rubber Ducking Beta Reading Approach
+
+E-
+
+Another thing I want to think out loud with you, gonna draft something here.
+
+(Before I get into that, touching on our previous round of rubber ducking, I am, usefully, realizing I don't know how to evaluate if the 3x/week posting cadence to Substack is... working? I am fairly well convinced by your "don't overwhelm people with daily" thing, but I think I need to do some thinking about what medium/long-term "success" is for author-platform-building, and then create visibility into incremental progress. Which is more or less the entire point of my book about tech investments, so I'm delighted to have to relearn that lesson!).
+
+So, the question I have is about working with beta readers.
+
+I have a fairly strong instinct to do something different than what robfitz lays out in WUB, and I want to write that out, reality check it with you.
+
+*What He Recommends*
+
+The underlying theme is: make your book great and highly recommendable by constantly testing and learning from people, uncomfortably early, ala product dev. Great, great, I'm there.
+
+He lays out an overall arc of:
+
+ - Ensure you're focused on a problem people care about (by talking to people)
+
+ - Ensure you can help solve that problem (by teaching/coaching people, and then embedding that in your ToC)
+
+ - Ensure that your book works as a book, when you're not there to teach it (by having beta readers read it)
+
+ - Polish it up to a "professional" level
+
+But, here's the interesting thing -- between the coaching and the beta reading, he breaks it down, more or less, as:
+
+ - Vomit out a first draft of the entire book
+
+ - Revise that *entire book* 2-3 times with an eye on "reader experience"
+
+   This is a bunch of very solid thinking about keeping people engaged, offering value early, intermixing theory with juicy/fun bits, etc
+
+ - Once you've revised the entire book a few times, do your first round of beta readers (and look for evidence not just that they "like" it, but that they change their own practice as a result)
+
+ - Expect a bunch of them to bail early, because you haven't front loaded enough value/interest
+
+ - With each round of beta reading, expect people to get further along in the book
+
+Not only does this make the book better, but it's also motivating as hell -- you're actually helping the people you wrote the book imagining helping.
+
+*What I Believe Makes Sense For Me*
+
+I know my own writing processes fairly well and I legit don't find it useful to vomit out 50,000 words and only then try to improve the reader experience.
+
+What I'm doing as I write is constantly trying to imagine someone's arc through the whole thing -- I'm finding the overal ToC + the views into wordcounts by chapter/section super useful for that.
+
+I'm doing a good job of not going back and rewriting the intro over and over, but the sort of optimizer window of my writing is in the vicinity of the last 1-2 chapters.
+
+Plus, I've already, in multiple places, said "Ugh, this is going to be too dry, let me insert a story to bring it to life, or try an entirely different approach for this chapter, etc"
+
+And we have some evidence that, in fact, keeping people engaged as I work through fairly complex ideas is a thing I'm good at.
+
+None of which is to say I don't expect unpleasant surprises from beta reader feedback -- quite the opposite, and I'm eager to get that feedback asap.
+
+My current ToC has ~12 chapters.
+
+I've written a decent first versions of the first 6, which has gotten me up to 16,000 words (which we can estimate as a bit over an hour of reading time, presumably more if the reader is marking up reactions and comments as they go).
+
+In terms of ultimate length, I'm... guessing 40,000-50,000 is where I'll end up (even though I'm "halfway through at 16,000"), because, if I'm honest with myself, when I look at the array of ideas I'm trying to get across, I suspect I'll end up fleshing things out with narrative and illustration a bit, and therefore I'm not at halfway in wordcount yet. And a ~2.5 hour reading experience on all the various facets of tech investments should prove, I think plenty rewarding for many engineering leaders (plus will take that kind of time to genuinely digest).
+
+I'm leaning towards packaging up the first, c. 5-7 chapters, and launching a first round of beta reading with those, in the next week or two.
+
+If, as I expect to be likely, not everyone gets through those, I'll get some very valuable information about where they stall out (and get that when the writing is fairly fresh in my mind). If I'm pleasantly surprised by, like, everyone just sailing through those and finding useful things they actually apply, then, boo-yah, let's step on the gas and finish the book.
+
+The downsides I can imagine:
+
+ - I'll hit a point where I'm still trying to write the first draft of the rest of the book, and get a bunch of feedback about the start
+
+I think this is actually good? Like, if I discover something is fundamentally off about the arc I'm trying to take people on, the sooner I realize that, the better.
+
+If I get a bunch of fit and finish tweaks, I can just leave those on the side and return to them later (I'm very motivated to write the remaining chapters, so I don't think I'll be too tempted to go clean nitty things up -- I got some feedback from Satoe like this, and although part of my brain is all "Ooh, I see how to make that better", it's not hard to ignore that part of my brain).
+
+
+ - I'll start consuming my beta reader pool, and possibly "waste" some of it on "partial drafts", who could have read full drafts
+
+Eh, I'm not too worried. I mean,
+
+a) robfitz's whole point, which I buy, is that your first round of beta readers tell you where your book stops being interesting, because they stop reading (and then you can't use them again, anyways, because they no longer represent fresh eyes).
+
+b) I am not particularly worried about finding beta readers? I have a list of a half-dozen already, barely trying (I expect a low-ish yield of people who actually make time to read, but I only need 3-4 per round to do that, I think), and I think a couple of emails to, like, techdinner and a targeted post or two on LinkedIn, I could get what I need, a few times. I think.
+
+And the benefits feel very strong -- earlier contact with reality, earlier opportunities to start gradual seed marketing, things to talk about in my content marketing, opportunities to see if/how people can apply these ideas when I'm not personally coaching them, lots of motivating connections, etc.
+
+What do you think?
+
+D
+
+
+* Help This Book notes
+[[https://useful-books.helpscoutdocs.com/article/22-formatting-your-markdown-project-for-import][Markdown Import]]
+
+Chapter titles must use the Heading Level 1 style
+
+org-md-export-to-markdown

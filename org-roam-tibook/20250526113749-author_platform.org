@@ -186,7 +186,43 @@ I think yes.
 Can I just start with my personal email address, so this isn't a blocker, and go back and add a Fastmail one later?
 
 Yes.
-* LinkedIn Post
+* LinkedIn Posts
+** Celebrate Progress <2025-06-20 Fri>
+As I'm working on my new book (Tech Investments, Not Tech Debt: How To Make Time For Engineering Work That Matters), I'm sharing excerpts and ideas at https://buildingandlearning.substack.com/
+
+A couple of posts this week:
+
+Build Visibility Into Value (https://buildingandlearning.substack.com/p/tech-investments-build-visibility)
+
+Tech Investments are defined as:
+
+"Work the engineers believe is valuable for the business, but that no one is asking for."
+
+A key to finding time to execute on such work is to make the potential value visible to people outside of engineering -- aka to "build visibility".
+
+Once there is shared visibility, stakeholders will often be very happy indeed to prioritize such work -- even if they didn't initially "ask" for it.
+
+Favor Repeated Cycles Over One-Off Projects (https://buildingandlearning.substack.com/p/tech-investments-favor-repeated-cycles)
+
+Technical investments are far more effective done as a series of repeated small steps, instead of a single giant one-off project.
+
+Thus, engineering leaders are best served by getting into a cycle of technical investments -- where they are repeatedly identifying small potential improvements, advocating for those improvements, and then executing on them.
+
+Going through this cycle with stakeholders gradually builds trust and rapport over time.
+
+That increased trust, rapport and understanding can allow engineering leaders to "lever up" to larger and larger investments.
+
+Finally, I wrote about The Golden Cesspool, an phrase coined by the inimitable Edmund Jorgensen who says:
+
+"Proposing the rule of the golden cesspool: the closer code is to the heart of a business’s domain, the worse the code will be."
+
+https://buildingandlearning.substack.com/p/the-golden-cesspool
+
+
+
+
+
+** Initial Post
 Hellllooo LinkedIn
 
 tl;dr - I have got myself a shiny new Substack, and would be delighted to see you there:
@@ -216,7 +252,7 @@ The working title is:
 As I write, I'll be using that substack to share ideas, excerpts and some of my own personal sources of learning and inspiration.
 
 Also: if you're interested in being a beta reader of an early draft, just let me know, and I'll throw you on the list.
-** Draft 2
+*** Draft 2
 Hellllooo LinkedIn
 
 So: I have recently discovered, somewhat to my surprise, that I am writing a book:
