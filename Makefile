@@ -43,12 +43,12 @@ build/book.md: build/book.deps
 # Alias for convenience
 book: build/book.md
 
-# Generate word count history data
-build/word-count-data.txt: $(CHAPTER_MDS)
+# Generate word count history data and averages (both created by same script)
+build/word-count-data.txt build/word-averages.txt: $(CHAPTER_MDS)
 	cd book-monitor && python word_count_history.py > ../build/word-count-data.txt
 
 # Generate word count history graph
-build/word-count-history.png: build/word-averages.txt build/word-count-data.txt
+build/word-count-history.png: build/word-count-data.txt build/word-averages.txt
 	gnuplot scripts/plot-word-history.gnuplot
 
 # Alias for convenience
