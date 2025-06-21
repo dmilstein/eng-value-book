@@ -123,12 +123,18 @@ def main():
     avg_7day = calculate_average_words_per_day(word_counts, 7)
     avg_14day = calculate_average_words_per_day(word_counts, 14)
     
+    # Calculate words written today (difference between today and yesterday)
+    words_today = 0
+    if len(word_counts) >= 2 and word_counts[1] > 0 and word_counts[0] > 0:
+        words_today = word_counts[0] - word_counts[1]
+    
     # Ensure build directory exists (relative to project root, not book-monitor)
     build_dir = Path("../build")
     build_dir.mkdir(exist_ok=True)
     
     # Write all averages to a single file
     with open(build_dir / "word-averages.txt", "w") as f:
+        f.write(f"today: {words_today}\n")
         f.write(f"7day: {avg_7day}\n")
         f.write(f"14day: {avg_14day}\n")
 
