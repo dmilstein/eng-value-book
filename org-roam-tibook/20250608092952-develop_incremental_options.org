@@ -46,21 +46,32 @@ And stare expectantly at you.
 
 And, boom, you're right back in one of the hardest parts of being an engineering leader.
 
-** Do Timebox, Don't Commit to Estimates
+** Some Challenges in Estimating Tech Investments
 
-# Estimating Tech Investment Work Is Often Extra Hard
-
+*** Intro
 Obviously, estimates are always tricky.
 
-But they're often *extra* hard for technical investments, because such investments often require digging into complex and uncertain parts of your systems. Even knowing the options can be difficult up front -- much less being able to commit to a time estimate to achieve a cleanly visible outcome.
+But they're often *extra* tricky for technical investments.
 
-And, even if your stakeholder fully embraces an iterative approach to software development (which is a best case, rarely achieved in reality)...
+When digging into complex and uncertain parts of your systems (of both the technical and social varieties), it can be difficult when you start to even *understand your options*.
 
-...there's still a very good chance that, in this moment of decision, they're trying to find some way to limit this "distraction" from their original goals.
+Which makes it nearly impossible to commit to a time estimate to achieve some cleanly visible outcome.
 
-They're going to be reviewing all the things they've been asked for, all the things they're already trying to achieve, in order to understand how to rejigger their mental map of the next month or two.
+# Satoe Sakuma said this well, "It's like you're going into a cave, and the first step is just bringing in some light. But then, when they ask you how long it will take"
 
-They may be preparing to bargain you down from whatever your initial "request" for time is (Remember, that's their job! To disappoint everyone at least a little bit!)
+But, once again, let's put ourselves in the shoes of our stakeholder.
+
+And let's assume that we have a stakeholder who is not yet in a habit of regularly co-prioiritizing technical investments with engineering.
+
+Even if they fully embrace an iterative approach to software development (which is a best case, not always achieved in reality)...
+
+...there's still a very good chance that, in this moment, they're trying to find some way to limit this "temporary distraction" from their original goals.
+
+They're reviewing the sprawling list of things things they've been asked to do, and also reviewing the painfully smaller list of things they believe is possible. They're actively rejiggering their mental map of the next month or two.
+
+The question they're considering is "How many other people am I going to disappoint in order to solve this problem the enginering team has identified?"
+
+They're likely preparing to bargain you down from whatever your initial "request" for time turns out to be.[fn:: You're not actually making a "request". You're exposing an opportunity for investment. But at this stage, they're likely thinking about it as a request.] Remember, that's their job! To disappoint everyone around them!
 
 Let's look at some classic potential technical investments, and think about how hard it is to answer this question.
 
@@ -70,16 +81,60 @@ Your deploy pipeline randomly fails for no good reason. Or your deploys cause su
 
 You have some initial visibility showing that engineers are starting to deploy less frequently.
 
-If your stakeholder says "How long will this take to fix?", what can you say?
+That, plus a healthy dose of references to Accelerate has your stakeholder ready to talk.
+
+When they say, "How long will this take to fix?", how can you respond?
 
 If you knew *why* the pipeline was failing... it wouldn't be failing.
 
 Ditto for the post-deploy failures and reverts.
 
-What could you find when you dig in?
+You could take a guess, based on the team's current hunches about what's causing the unreliability, and say something like "We think we can likely improve things in about three weeks of time, for two engineers."
 
-If you're lucky, maybe you'll find some CI/CD parameters that are horribly mis-set, and you're just a couple of arcane JSON or YAML config tweaks away from deploys that don't cause your engineers to tear their hair out.
+What could those two engineers find when they dig in?
 
-If you're *not* so lucky, you might discover that your entire build pipeline is only able to non-deterministicaly select specific versions to build and test, and you're going to have to restructure it at a fairly deep level to get to a more reliable process.
+If you're lucky, maybe they find some bizarrely misconfigured CI/CD parameters. You're just a couple of arcane JSON or YAML config tweaks away from deploys that don't cause your engineers to tear their hair out.
 
-If you're *super not lucky*, this might be the moment you realize that fundamental architectural choices are forcing multiple teams to all frequently change the same hotly contested parts of your codebass, and that's causing genuine conflicts. The repeated deploy failures are actually the CI/CD process *doing its job*. Tt's not the deploy process that needs to be adjusted... but rather the trivial challenge of updating the fundamental abstractions in your code and data.
+If you're *not* so lucky, they might discover that your entire build pipeline is, for deep-in-the-guts reasons, semi-non-deterministically selecting versions to build, test and deploy. To get to a more reliable process, you're going to have to restructure that pipeline at a fairly deep level.
+
+If you're *super, super not lucky*, this might be the moment you realize that fundamental architectural choices made long ago are forcing multiple teams to all frequently change the same hotly contested parts of your codebase, and that's causing *genuine conflicts*. The repeated deploy failures are actually the CI/CD process *doing its job*. You don't have to update your deploy process... you just have to update the most fundamental abstractions in your code. Easy peasy.
+
+In the latter two cases, you're going to reach the end of your three week period, and not only is your stakeholder going to expect everyone to return to fully focusing on the original feature work, but, *you won't be able to show them any visible improvements*.
+
+Instead of this building trust and making your next investment easier to advocate for, you'll feel like you've dug yourself into a hole.
+
+*** Security Concerns
+
+There are a couple of seriously nasty old legacy parts of your codebase -- ancient product features that only your earliest customers still use.
+
+But, fun fact: your CEO personally acquired those customers in the early days of the business.
+
+You find that he is *oddly reluctant* to retire those old product features and piss off and/or churn those customers.
+
+Meanwhile, your product team *visibly seethes* at the idea of taking months to move those old, barely-used-by-anyone features to the current tech stack.[fn:: I mean, *obviously*, this is actually a conflict between the CEO and the Product team, but at a wild guess from here in the footnotes, at *your* company they've somehow succeeded in both agreeing to define it as an "engineering issue".]
+
+Your engineers have been growing more worried and frustrated.
+
+Then, you realize there is a way to make the potential for value here much more visible
+
+Your company strategy is to move upmarket, and start selling to enterprises.
+
+Early sales conversation have made clear that those enterprises are going to demand serious attestations of security -- third party audits, penetration tests, architecture reviews.
+
+That nasty old legacy part of your product is just a festival of security issues -- out of date libraries, wide open permissions for operators, that horrible password reset page that can be compromised by hitting View Source, long-abandoned JS frameworks, you name it.
+
+Your product team finds this argument persuasive, and, while looking over the long list of new features they're *also* trying to build for those enterprise customers, say:
+
+"I can't just tell the CEO that we're killing his baby. Please come up with a good estimate of how much time it would take deal with the worst of the security issues -- but I still don't think we have time for a full rewrite."
+
+Again, what do you say?
+
+It's a murky mess, not only do you not know what the worst security issues *are*, you don't even have half an idea on how hard it would be to fix just about any of them. Your team barely understands this system, they certainly can't give you meaningful estimates of the time to do things you can't yet specify.
+
+** Tech Investments, Unlike "Removing Tech Debt", Are Never Done
+And that's a good thing.
+
+Retrain yourself to think about it not as one-off projects, but as a steady series of opportunities to invest -- opportunities to make choices together.
+
+
+**  Do Timebox, Don't Commit
