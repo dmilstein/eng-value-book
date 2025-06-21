@@ -3,7 +3,34 @@
 :END:
 #+title: Build Milestones Around Decisions
 #+filetags: :Chapter:
-* Offer Increments With Embedded Decisions
-Build Milestones Around Decisions
 
-Maybe retitle "Set Milestones to Enable Decisions"
+* Offer Increments With Embedded Decisions
+# Build Milestones Around Decisions
+# Maybe retitle "Set Milestones to Enable Decisions"
+
+** Intro
+Things are going well.
+
+You've worked with your engineers to turn their concerns into potential value.
+
+Bertha, your economically rational investor/imaginary friend, has helped you identify forms of value based on probablistic estimates of future profits.
+
+You've narrowed down your list of opportunities to the one you think has the greatest potential value for your business.
+
+You've found a creative way to build some initial visibility into that potential value.
+
+You've taken the time to practice tactical empathy, and then deployed your newly practiced skills on building rapport with your key stakeholder.
+
+It's now the Big Day.
+
+Building on your rapport, you make a case for investment to your stakeholder.
+
+You speak to both your stakeholder's concerns and their hopes.
+
+You offer the initial visibility as a means to understand why investment is indicated, now and not later.
+
+To your surprise and delight, your stakeholder is convinced.
+
+Then, they ask the classic question: "How long will this take?"
+
+And boom, you're right back in one of the hardest parts of being an engineering leader.
