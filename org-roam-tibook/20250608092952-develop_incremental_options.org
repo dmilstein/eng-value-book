@@ -9,6 +9,7 @@
 # Maybe retitle "Set Milestones to Enable Decisions"
 
 ** Intro
+
 Things are going well.
 
 You've worked with your engineers to turn their concerns into potential value.
@@ -23,14 +24,62 @@ You've taken the time to practice tactical empathy, and then deployed your newly
 
 It's now the Big Day.
 
-Building on your rapport, you make a case for investment to your stakeholder.
+You make your case for investment to your stakeholder.
 
-You speak to both your stakeholder's concerns and their hopes.
+You do great.
 
-You offer the initial visibility as a means to understand why investment is indicated, now and not later.
+You speak to both their fears and their hopes.
 
-To your surprise and delight, your stakeholder is convinced.
+You situate the investment in line with their long-term goals.
+
+You offer the initial visibility as a means to understand why investment is indicated now and not later.
+
+To your surprise and delight... your stakeholder is convinced.
+
+# They're ready to make the difficult decision to temporarily put aside some of their other priorities.
+
+# Temporarily.
 
 Then, they ask the classic question: "How long will this take?"
 
-And boom, you're right back in one of the hardest parts of being an engineering leader.
+And stare expectantly at you.
+
+And, boom, you're right back in one of the hardest parts of being an engineering leader.
+
+** Do Timebox, Don't Commit to Estimates
+
+# Estimating Tech Investment Work Is Often Extra Hard
+
+Obviously, estimates are always tricky.
+
+But they're often *extra* hard for technical investments, because such investments often require digging into complex and uncertain parts of your systems. Even knowing the options can be difficult up front -- much less being able to commit to a time estimate to achieve a cleanly visible outcome.
+
+And, even if your stakeholder fully embraces an iterative approach to software development (which is a best case, rarely achieved in reality)...
+
+...there's still a very good chance that, in this moment of decision, they're trying to find some way to limit this "distraction" from their original goals.
+
+They're going to be reviewing all the things they've been asked for, all the things they're already trying to achieve, in order to understand how to rejigger their mental map of the next month or two.
+
+They may be preparing to bargain you down from whatever your initial "request" for time is (Remember, that's their job! To disappoint everyone at least a little bit!)
+
+Let's look at some classic potential technical investments, and think about how hard it is to answer this question.
+
+*** Unreliable Deploys
+
+Your deploy pipeline randomly fails for no good reason. Or your deploys cause surprising problems and have to be reverted.
+
+You have some initial visibility showing that engineers are starting to deploy less frequently.
+
+If your stakeholder says "How long will this take to fix?", what can you say?
+
+If you knew *why* the pipeline was failing... it wouldn't be failing.
+
+Ditto for the post-deploy failures and reverts.
+
+What could you find when you dig in?
+
+If you're lucky, maybe you'll find some CI/CD parameters that are horribly mis-set, and you're just a couple of arcane JSON or YAML config tweaks away from deploys that don't cause your engineers to tear their hair out.
+
+If you're *not* so lucky, you might discover that your entire build pipeline is only able to non-deterministicaly select specific versions to build and test, and you're going to have to restructure it at a fairly deep level to get to a more reliable process.
+
+If you're *super not lucky*, this might be the moment you realize that fundamental architectural choices are forcing multiple teams to all frequently change the same hotly contested parts of your codebass, and that's causing genuine conflicts. The repeated deploy failures are actually the CI/CD process *doing its job*. Tt's not the deploy process that needs to be adjusted... but rather the trivial challenge of updating the fundamental abstractions in your code and data.
