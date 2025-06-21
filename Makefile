@@ -48,7 +48,7 @@ build/word-count-data.txt: $(CHAPTER_MDS)
 	cd book-monitor && python word_count_history.py > ../build/word-count-data.txt
 
 # Generate word count history graph
-build/word-count-history.png: build/word-count-data.txt
+build/word-count-history.png: build/word-averages.txt build/word-count-data.txt
 	gnuplot scripts/plot-word-history.gnuplot
 
 # Alias for convenience
