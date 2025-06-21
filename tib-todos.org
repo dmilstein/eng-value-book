@@ -30,10 +30,13 @@ Actually, just do my thing to use Make to build intermediate lists from the toc 
 ** DONE Make wordcount script understand + display "Parts"
 CLOSED: [2025-06-15 Sun 19:21]
 Gonna have to put that into the toc, of course
-** TODO For Tact Emp example, shift to focus something she can base a tech investment on
+** DONE For Tact Emp example, shift to focus something she can base a tech investment on
+CLOSED: [2025-06-20 Fri 08:56]
 So that the engineering manager can then pitch her work in that context
-** TODO Aider: add "today's word count to terminal view
-** TODO Move Build Milestones From Decisions up, ahead of Tactical Empathy
+** TODO Re-enable my org window follow, but figure out inf loop
+** TODO For author platform, define incremental success, create viz
+** TODO For Beta Readers, define call to action/progress (e.g. share w/ friend)
+Something that demonstrates they're getting value, not being nice.
 * [[id:BB09F432-DEEB-4129-8F88-D23C86E8CEBB][Build Viz First]]                                 :gtasks:
 ** DONE Jam in some of my ideas from my notes, break out todos :pom:
 CLOSED: [2025-06-07 Sat 09:35]
@@ -49,6 +52,9 @@ CLOSED: [2025-06-08 Sun 09:58]
 CLOSED: [2025-06-08 Sun 09:58]
 ** TODO Talk about "build visibility" vs "add metrics"
 * [[id:4FEA3BD5-8E85-4BB6-8F59-15FDE4F38572][Tactical Empathy]]                                :gtasks:curweek:
+** DONE Add wrap up to story + teaser for milestones :pom:
+CLOSED: [2025-06-20 Fri 19:37]
+As in, the proposal is for a increment which ends with a shared decision
 ** DONE Sketch in outline
 CLOSED: [2025-06-16 Mon 09:28]
 ** DONE Write example scene before/after          :pom:
@@ -63,10 +69,16 @@ CLOSED: [2025-06-18 Wed 11:17]
 CLOSED: [2025-06-19 Thu 11:46]
 ** DONE Write "Posit a Spectrum to Draw People Out"
 CLOSED: [2025-06-19 Thu 16:00]
-** TODO Write "Cultivate Curiosity & Sincerity"
+** DONE Write "Cultivate Curiosity & Sincerity"
+CLOSED: [2025-06-19 Thu 19:49]
 ** DONE Write "Wait, Isn't This Product's Job?"
 CLOSED: [2025-06-19 Thu 08:04]
 
+* [[id:03D1870C-E583-4D5C-9589-5E0799793D48][Mstones/Decisions]]                               :gtasks:
+** TODO Set up problem from Satoe's "cave" analogy :curweek:pom:
+** TODO Shove in a bunch of prose from Ell Milestones doc
+** TODO Terrible first draft                      :curweek:
+** TODO Add subsection on Off Ramps to Develop in Increments
 * [[id:D3158CC2-8A69-4097-B9ED-ED6BD855A7AD][Understand Value In Depth]]                       :gtasks:
 ** DONE Do a spike on footnotes                   :pom:
 CLOSED: [2025-06-05 Thu 08:44]
@@ -128,7 +140,9 @@ E.g. post 3-5 times/week, set up some org file that has the postings collected, 
 ** TODO Ping Winston -- connect + learn how he build a personal platform
 Esp how he uses LI
 * [[id:E0ADBF07-90B8-4C37-81C0-96A428020F5E][Substack]]                                        :gtasks:
-** TODO Post to LinkedIn, once                    :curweek:
+** DONE Finish drafting LinkedIn post             :curweek:
+CLOSED: [2025-06-20 Fri 08:53]
+** TODO Post to LinkedIn, after posts go out      :curweek:
 ** TODO Check w/ EWJ after posts go out           :curweek:
 ** DONE Draft 1-2 next posts, prep
 CLOSED: [2025-06-12 Thu 12:42]
@@ -174,6 +188,8 @@ CLOSED: [2025-06-10 Tue 09:53]
 So I can make better tomorrow
 ** TODO Add Game Days as Big viz for reduce duration of outages
 * [[id:93FF0A9B-F54E-49D5-8154-640BBAE08D4D][Beta Readers]]                                    :gtasks:
+** DONE Draft thoughts re: pipeline beta reading, share w/ EWJ :pom:
+CLOSED: [2025-06-20 Fri 09:43]
 ** TODO Write Robfitz re: pipeline beta reading
 ** TODO Get footnotes to number by chapter
 ** TODO Add --toc to the pandoc, can I get a ToC in helpthisbook?
@@ -241,14 +257,16 @@ There is an amount of debt, once it's gone, you're living clean.
 
 This is not true for technical investments.
 * [[id:49435FCD-0590-44DE-8FC7-585E7BCC8BB2][Tooling]]                                         :gtasks:
-** TODO Aider: do trailing 7/14/28? days word count pace? :curweek:
-** TODO Aider: split chapter count into two options :curweek:
+** TODO Aider: add "today's word count to terminal view
+** DONE Aider: do trailing 7/14/28? days word count pace? :curweek:
+CLOSED: [2025-06-19 Thu 19:48]
+** TODO Aider: split chapter count into two options
 then show them side by side
 
 As in, use screen or something to see both at once, get my watch script running again.
-** TODO Make CLI wordcount tool take a column width option :curweek:
+** TODO Make CLI wordcount tool take a column width option
 So I can either run full screen or within 80 columns
-** TODO Make scripts take titles from #+title, not the first headline :curweek:
+** TODO Make scripts take titles from #+title, not the first headline
 ** DONE Have Makefile hold intermediate targets   :curweek:
 CLOSED: [2025-06-16 Mon 09:27]
 ** DONE Within tib-todos, add todo at top of list
@@ -315,9 +333,6 @@ CLOSED: [2025-06-01 Sun 08:51]
 CLOSED: [2025-06-01 Sun 08:51]
 ** DONE Revise/improve The Ti Cycle
 CLOSED: [2025-06-02 Mon 11:23]
-* [[id:03D1870C-E583-4D5C-9589-5E0799793D48][Incremental Opts]]                                :gtasks:
-** TODO Terrible first draft                      :curweek:
-** TODO Add subsection on Off Ramps to Develop in Increments
 * Future Books
 ** TODO Collect ideas for book 2 about inteviewing + hiring
 "That Was Fun!" - How to interview so that great people can't wait to say yes
