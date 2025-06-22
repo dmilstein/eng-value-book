@@ -30,7 +30,7 @@ You speak to both your stakeholder's fears and their hopes.
 
 You situate the investment in line with their long-term goals.
 
-You offer the initial visibility as a means to understand why investment is indicated now and not later.
+You offer the initial visibility that you've built on the side as a means to understand why investment is indicated now and not later.
 
 To your surprise and delight... your stakeholder is convinced.
 
@@ -56,29 +56,37 @@ Which makes it nearly impossible to commit to a time estimate to achieve some cl
 
 # Satoe Sakuma said this well, "It's like you're going into a cave, and the first step is just bringing in some light. But then, when they ask you how long it will take"
 
-Once again, let's put ourselves in the shoes of our stakeholder.
+Once again, let's put ourselves in our stakeholder's shoes.
 
-Let's assume that we have a stakeholder who is not yet in a habit of regularly co-prioiritizing technical investments with engineering.
+Let's say we have a stakeholder who is not yet in a habit of regularly co-prioiritizing technical investments with engineering.
 
-Even if they fully embrace an iterative approach to software development (which is a best case, not always achieved in reality)...
+Even if that stakeholder fully embraces an iterative approach to software development (which is a best case, not always achieved in reality)...
 
-...there's still a very good chance that, in this moment, they're trying to limit this "unpleasant temporary distraction" from their original goals.
+...there's still a very good chance that, as they're considering a technical investment you've proposed, they're trying to limit the impact of this "unpleasant temporary distraction" on their current goals.
 
-They're reviewing the sprawling list of things things they've been asked to do, and also reviewing the painfully smaller list of things they believe are possible. They're actively rejiggering their mental map of the next month or two.
+They're reviewing the sprawling list of things things they've been asked to do.
 
-They're thinking, "How many other people am I going to disappoint in order to solve this problem the enginering team has identified?"
+They're reviewing the painfully smaller list of things they believe are possible -- and getting ready to eject a few things from that list.
 
-They're likely preparing to bargain you down from whatever your initial "request" for time turns out to be.[fn:: You're not actually making a "request"! You're exposing an opportunity for investment. But at this stage, they're likely thinking about it as a request.] Remember, that's their job -- to disappoint everyone around them.
+# They're actively rejiggering their mental map of the next month or two.
 
-Let's look at some classic potential technical investments, and think about how hard it is to answer the stakeholder's question.
+They're thinking, "Which people am I going to disappoint in order to solve this 'engineering problem'?"[fn:: It's not an engineering problem! It's an opportunity for investment. You'll get there eventually]
 
-*** Unreliable Deploys
+They're likely preparing to bargain you down from whatever your initial "request" for time turns out to be.[fn:: You're not making a request! You're exposing an opportunity for investment. Again, you'll get there eventually]
 
-Your deploy pipeline randomly fails for no clear reason, and when you do successfully deploy, the team ends up reverting far too often.
+# Remember their job is to disappoint everyone around them.
 
-You have some initial visibility showing that engineers are starting to deploy less frequently as a result.
+So you have to say *something* to them -- you can't just say "I don't know, it'll take as long as it takes".
 
-That, plus a healthy dose of references to Accelerate has your stakeholder ready to talk.
+Let look at some classic areas of technical investment.
+
+*** Scenario 1: Unreliable Deploys
+
+Your deploy pipeline randomly fails for no clear reason, and when the team does successfully deploy, they end up reverting far too often.
+
+You have some developed some initial visibility showing that engineers are starting to deploy less frequently as a result.
+
+That, plus a some heavy leaning on Accelerate has your stakeholder ready to talk.
 
 They say, "How long will this take to fix?"
 
@@ -102,13 +110,11 @@ In the latter two cases, you're going to reach the end of your three week period
 
 Instead of this building trust and making your next investment easier to advocate for, you'll feel like you've dug yourself into a hole.
 
-*** Security Concerns
+*** Scenario 2: Nasty Legacy Code
 
-There are a couple of seriously nasty old legacy parts of your codebase -- ancient product features that only your earliest customers still use.
+Your product has a couple gnarly old features that only your earliest customers still use -- and, bonus, they're written on their own Very Special tech stack, that you're not using anywhere else.
 
-But, fun fact: your CEO personally acquired those customers in the early days of the business.
-
-He is *oddly reluctant* to retire those old product features and run the risk of pissing off and potentially churn those customers.
+But guess what: your CEO *personally* acquired those customers in the early days of the business. And he is *oddly reluctant* to retire those hoary old product features and run the risk of pissing off and potentially churn those customers.
 
 Meanwhile, your product team visibly seethes at the idea of taking months to move those old, barely-used-by-anyone features to the current tech stack.[fn:: I mean, *obviously*, this is actually a conflict between the CEO and the Product team. But at a wild guess from here in the footnotes, at *your* company they've both somehow succeeded in convincing themselves that this is an engineering issue. At a guess.]
 
@@ -126,17 +132,17 @@ Your product team finds this argument persuasive.
 
 While looking over the long list of new features they're *also* trying to build for those enterprise customers, they say:
 
-"I can't just tell the CEO that we're killing his baby. To make this case, can you please come up with a good estimate of how much time it would take deal with the worst of the security issues?"
+"I can't just tell the CEO that we're killing his baby. To make this case, can you please come up with a good estimate of how much time it would take deal with the worst of the security issues? Either by fixing in place, or porting to our current architecture?"
 
 Again, what do you say?
 
 It's a murky mess, not only do you not know what the worst security issues *are*, you don't even have half an idea on how hard it would be to fix just about any of them.
 
-Your team barely understands this system, they certainly can't give you meaningful estimates of the time to do things you can't yet specify.
+Your team barely understands this system, they certainly can't give you meaningful estimates of the time to do... things you can't yet specify?
 
-If you try to be conservative and give a "big" estimate, but then the CEO says "Yes, do it!", then what the heck are you gonna do?
+What if you try to be conservative and give a "big" estimate... but then the CEO says "Yes, do it!"? then what the heck are you gonna do?
 
-*** And Also...
+*** Moar Scenarios...
 
 You propose enabling parallel development across multiple teams by inserting an interface layer in the middle of some convoluted mess of legacy code. Product is ready to consider saying yes, but asks "How long will that take?", before they commit.
 
