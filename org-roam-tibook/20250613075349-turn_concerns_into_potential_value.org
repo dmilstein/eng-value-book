@@ -30,7 +30,7 @@ She's seen plenty of companies grow their profits despite a codebase that would 
 
 # XXX Check Speeding Up Your Eng Org -- I *am* stealing that joke from Edmund, right?
 
-However, when the engineers hate the code with the heat of a thousand suns, there's /sometimes/ a potentially valuable investment opportunity hovering nearby -- something Bertha *would* care about.
+However, when the engineers hate the code with the heat of a thousand suns, there is /sometimes/ a potentially valuable investment opportunity hovering nearby -- something Bertha *would* care about.
 
 For example, an opportunity Bertha would listen to pretty carefully is one that would:
 
@@ -38,7 +38,7 @@ For example, an opportunity Bertha would listen to pretty carefully is one that 
 
 Say the product team asks for some feature that is, unfortunately, borderline inmpossible to build, given the way the code is set up.
 
-An example I've seen more than once: building some hot new feature has the trivial prerequisite of restructuring the core data model for the business.
+An example I've seen many times: the product team wants to build some hot new feature that, unfortunately, has the trivial prerequisite of restructuring the core data model for the business.
 
 If Bertha hears that the engineering team has found a safe way to incrementally restructure that core data model, and can now add the new feature, she will increase her probabilistic estimate of future profits[fn:: she'll increase that estimate a lot more if there's evidence customers actually *want* the feature -- so maybe figure that out first?], and thus the company's value will *increase*.
 
@@ -50,7 +50,11 @@ But, how might we make this kind of potential value more *visible*?
 
 Well, first, we need to help people really understand the current limitations.
 
-As an example, at an EdTech company, there might be painful limits around how the system models the assignment of lessons to students (assignemnts have a whole state machine-like lifecycle, plus lots of logic around who is allowed to make assignments to who, plus privacy laws impacting some of those bits, plus all of that has exciting time-varying issues as both students and teachers move in and out of classes during the school year, etc). And those limits tend to be driven both: how the world is modeled in the system; and the rostering and scheduled data ingested from school systems.
+As an example, at an EdTech company, there might be painful limits around how the system models the assignment of lessons to students.
+
+Assignments have a whole state machine-like lifecycle, plus lots of logic around who is allowed to make assignments to who, plus privacy laws impacting some of those bits, plus all of that has exciting time-varying issues as both students and teachers move in and out of classes during the school year.
+
+As is often the case for such fundamental challenges, there are both code and data challenges. The limitations are driven *both* by how assignments are modeled in the system, and also by the quality of the "rostering" data ingested from the schools.
 
 The engineering team, who have lived and breathed the core lesson assignment model for years, might try to convey the challenges in some requested new feature by saying:
 
@@ -68,9 +72,11 @@ First, you can try leaning on *User Stories*[fn:: I *adore* user stories, especi
 
 Instead of talking about the details of the DB tables as above, you could write a careful memo explaining that:
 
-/The current data model does *not* support: "As a teacher, I can batch assign to all the students in my class in one step, in order to support the lesson I taught that day". With the current data model teachers would have to make assignments one at a time./
+/The current data model does *not* support: "As a teacher, I can batch assign to all the students in my class in one step, in order to support the lesson I taught that day"./
 
-That user story form of visibility is generally much more effective than an abstract statement (the human mind is deeply wired to understand *stories*, that formulation is a little miniature story).
+/With the current data model teachers would have to make assignments one at a time./
+
+That user story form of visibility is generally much more effective than an abstract statement. The human mind is deeply wired to understand *stories*, that formulation is a little miniature story.
 
 The best way to play this game is to build a *set* of such user stories, covering different facets of what the team believes users need.
 
@@ -78,21 +84,23 @@ Such a list allows you to:
 
  - Priority sort work in collaboration with stakeholders
 
-   You can ask "Which user stories should we build first?", and "Which ones are worth making a significant technical investment to unlock?"
+   You can ask "Which user story should we build first?", and "Which ones are worth making a significant technical investment to unlock?"
 
  - Demonstrate incremental progress
 
-   "We've enabled 3 of the 10 key user stories" is a fantastic form of visible, incremental progress. It's much better than some made-up progress metric, kike "Our replatforming is 30% complete". Sooooo much better.
+   "We've enabled 3 of the 10 key user stories" is a fantastic form of visible, incremental progress.
+
+   It's so much better than some made-up progress metric, like "Our replatforming is 30% complete". Sooooo much better.
 
  - Pivot to other work if/when you discover you've met the important uses cases
 
-   I'm going out on a crazy limb here and suggest that, although, when the user story list was first developed, every single one of those 10 key stories was *absolutely critical* ("How can you even ask?!?"), now that you've built exactly 4 of them, your  stakeholder might change their mind, and realize that those 4 are a perfectly reasonable increment to ship to customers.[fn:: This is part of why I recommend pushing very hard for establishing a simple priority sort -- I find that more effective than aggressively front-loading an argument about the *specific* scope of an initial launch.] Also, thanks to the magic of Hindsight Bias, about five minutes after making this decision, your stakeholder will believe thy always knew that they just needed those four stories.
+   I'm going out on a crazy limb here and suggest that, although, when the user story list was first developed, every single one of those 10 key stories was *absolutely critical* ("How can you even ask?!?"), now that you've built exactly 4 of them, your  stakeholder might change their mind, and realize that those 4 are a perfectly reasonable increment to ship to customers.[fn:: This is part of why I recommend pushing very hard for establishing a simple priority sort -- I find that more effective than aggressively front-loading an argument about the *specific* scope of an initial launch.] Thanks to the magic of Hindsight Bias, about five minutes after making this decision, your stakeholder will believe they always knew that they just needed those four stories.
 
 Usually, developing such a set of user stories also has the salutary effect of forcing the engineers and product team to *talk to each other*.
 
 So that's the first idea.
 
-The second tactic, which can work as a nice complement to the user story approach, is to build a crude but usable prototype on top of the *current data model* (or, possibly, on top of "the simplest possible extension to that data model").
+The second tactic, which can in concert with the user story approach, is to build a crude but usable prototype on top of the *current data model* (or, possibly, on top of "the simplest possible extension to that data model").
 
 Such a prototype:
 
@@ -104,15 +112,15 @@ Such a prototype:
 
  - Can be shown to customers, to, among other things, understand which of the user stories they *truly* need
 
-To be carefully clear: if you're trying to create visibility into data model risks, your best bet here is the kind of prototype that offers a visually crude but "real" version of the most important workflows.[fn:: At Ellevation, we called such a protoype "An end-to-end shambling mess of the whole system"]
+To be carefully clear: if you're trying to create visibility into data model risks, your best bet here is the kind of prototype that offers a visually crude but "real" version of the most important workflows. Like, near-wireframe versions of pages, but hooked up to an actual database.[fn:: At Ellevation, we called such a protoype "An end-to-end shambling mess of the whole system"]
 
-The core capability is that someone can step through various steps of that workflow, in order to understand what is / is not possible. (e.g. it's the kind of prototype where your engineers will likely end up spending a real chunk of time building tools to prep the *data* in various half-formed stages, so that you can demo the user story of "As a substitute teacher who has just been added to a class, I can review the outstanding assignments to students").
+The core capability is that someone can step through various steps of that workflow, in order to understand what is / is not possible. (Tactical tip: your engineers might consider building script to prep time-varying *data* in various specific stages, so that you can demo user stories like "As a teacher, I can reassign a lesson that a student has already completed, and, after they complete it a second time review both responses").
 
-This is distinct from prototypes that allow you to explore a new user experience, but aren't hooked up to any actual code.
+These kind of visually crude, data-centric protoypes, are distinct from prototypes that allow you to explore a new user experience, but aren't hooked up to any actual code.
 
-Such "visual" or "UX" prototypes can be *super* useful if you're trying to learn about user needs.
+Such experience prototypes can be *super* useful if you're trying to learn about user needs.
 
-But if what you're trying to do is make visible the restrictions in your code and data, those experience prototypes can easily promise a version of the product that is forbiddingly hard to build.
+But if what you're trying to do is make visible the *restrictions* in your code and data, such prototypes can easily promise a version of the product that is forbiddingly hard to build.
 
 Having created visibility with either or both of the above approaches, the engineers might be able to then gradually negotiate their way up the ladder of commitment, to maybe carefully refactor some part of the core data model, or instrument the code around it with much more thorough tests, or even break some subdomain off to a separate service.
 
