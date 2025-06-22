@@ -393,37 +393,31 @@ Then, you've got them talking, and you can start to repeat trailing words and ec
 
 Continuing our scenario, having gained all this information, the engineering leader is ready to lay out a really effective case for technical investment.
 
-They could take some time to review their notes, maybe talk to an engineer to flush out a bit more detail and then say[fn:: Or write! In a memo or brief!] something like the following:
+They could take some time to review their notes, maybe talk to an engineer to flush out a bit more detail and then say[fn:: Or write down in a memo -- I find writing both forces a useful clarity of thinking and can also provide a nice opportunity for sharing your thinking with engineers who are growing towards leadership] something like the following:
 
 /Okay, it sounds like our key goal for *this* month is to ensure we're ready to transition Enterprise customers to Forms 2.0, *next* month./
 
-/We really want those first ENT customers who come over to have a *great* experience of Forms 2.0, because the ENT segment represents almost half our revenue, so we can't win without them. And they have a lot of clout through their dedicated Success team partners, so if any one of them has a bad experience, it could blow up our ability to keep moving forward ./
+/We really want those first ENT customers who come over to have a *great* experience of Forms 2.0, because the ENT segment represents almost half our revenue, so we can't win without them. And they have a lot of clout through their dedicated Success team partners, so if any one of them has a bad experience, it could blow up our ability to keep moving forward./
 
 /The engineers have identified a risk -- all our early adopters of Forms 2.0 come from our SMB segment. Those customers all have relatively small data sets. But the Enterprise customers who use the old, legacy Forms 1.0 product, all have *much* bigger data sets than we've seen for the new Form 2.0 in production so far./
 
-/As we've sprinted to build Forms 2.0, we've asked the teeam to get things out in the simplest form as quickly as possible. Which we're really glad about. But we think there's a very real chance that, if an ENT customer were to start using Forms 2.0 today, with their large data sets, they would experience painfully load times for almost all the key new pages. In fact, worst case, many those pages could just seem broken./
+/As we've sprinted to build Forms 2.0, we've asked the teeam to get things out in the simplest form as quickly as possible. Which we're really glad about. But we think there's a very real chance that, if an ENT customer were to start using Forms 2.0 today, with their large data sets, they would experience painfully long load times for almost all the key new pages. In fact, worst case, many those pages could potentially seem broken./
 
 /We really don't want that to happen./
 
-/Fortunately, we believe we have a couple of good options for speeding things up -- once we find the bottlenecks./
+/Fortunately, we think we have a couple of good options for speeding things up -- once we find any bottlenecks./
 
 /Unfortunately, we don't have great *visibility* into how those pages are performing, or where bottlenecks are./
 
-/Therefore, we're proposing that Andrea spends the next three weeks developing and implementing a first draft of Service Level Indicators -- which will show us, basically "Are customers happy in their use of Forms 2.0?". And if they're *not*, we can know before the help desk or success team comes to us, and the team can quickly swarm and address it./
+/Therefore, we'd like to propose that we commit time to building a clearer picture of our capacity limits, and, once we've done that, ensuring that we have sufficient capacity to guarantee a good experience when our first Enterprise customers do convert./
 
-/This has some real tradeoff costs. We had planned for Andrea to take point on adding new features to the Search Indexing. We think the potential performance issues are a bigger risk. And, if we understand it right, not all the ENT customers need those new Search features, so we might be able to delay the transition for customers who do need them. We believe the risk of bad performance cuts across all of the ENT customers./
+This is a far more persuasive pitch then where things started -- it's laid out in the context of the stakeholder's immediate goals, it makes clear that the lack of visibility is in and of itself a key problem, it even subtly evokes some specific and vivid fears ("many pages could potentially seem broken.")
 
-/The key milestone Andrea would be working towards, which she can hit within 3 weeks, would be to ready to sit down with you and me, and review both the definitions of an initial set of the SLI's *and* how those SLI's are performing in production./
+In fact, the product leader is so convinced, they say:
 
-/We'd then be able to decide, together, if that performance seems acceptable. If so, we can return to our original plans and just keep an eye on performance as transitions ramp up. If performance already seems problematic, or if we're just uncertain, the team could start some proactive load testing, or if we've found any bottlenecks, deal with those./
+/"That sounds like a great idea, thank you raising this concern. Just one question, and then I'd be ready to commit time on the roadmap: how long will this project take? How long will it take to ensure good performance for enterprise users?"/
 
-/But we don't have to make that decision yet -- we'll have more info in just a few weeks./
-
-Note how the engineering leader is offering a carefully time-boxed increment that ends with a *shared decision*
-
-The fundamental definition of the first stage of this technical investment is: build a thing in mo more than 3 weeks that will both create some incremental improvements *and* allow the stakeholder and the eng leader to make a collaborative decision about what to do next.
-
-That approach to incremental development is the subject of our next chapter.
+How to answer that question is the subject of our next chapter.
 
 
 ** Cultivate Curiosity & Sincerity
@@ -607,3 +601,19 @@ LIESL: Me, too. And remember, Liesl not Lisa!
 [CHRIS laughs]
 
 *** Post-Game Analysis
+
+** Old Conclusion w/ Good Increment
+
+/Therefore, we're proposing that Andrea spends the next three weeks developing and implementing a first draft of Service Level Indicators -- which will show us, basically "Are customers happy in their use of Forms 2.0?". And if they're *not*, we can know before the help desk or success team comes to us, and the team can quickly swarm and address it./
+
+/This has some real tradeoff costs. We had planned for Andrea to take point on adding new features to the Search Indexing. We think the potential performance issues are a bigger risk. And, if we understand it right, not all the ENT customers need those new Search features, so we might be able to delay the transition for customers who do need them. We believe the risk of bad performance cuts across all of the ENT customers./
+
+/The key milestone Andrea would be working towards, which she can hit within 3 weeks, would be to ready to sit down with you and me, and review both the definitions of an initial set of the SLI's *and* how those SLI's are performing in production./
+
+/We'd then be able to decide, together, if that performance seems acceptable. If so, we can return to our original plans and just keep an eye on performance as transitions ramp up. If performance already seems problematic, or if we're just uncertain, the team could start some proactive load testing, or if we've found any bottlenecks, deal with those./
+
+/But we don't have to make that decision yet -- we'll have more info in just a few weeks./
+
+Note how the engineering leader is offering a carefully time-boxed increment that ends with a *shared decision*
+
+The fundamental definition of the first stage of this technical investment is: build a thing in mo more than 3 weeks that will both create some incremental improvements *and* allow the stakeholder and the eng leader to make a collaborative decision about what to do next.
