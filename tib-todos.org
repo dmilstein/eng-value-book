@@ -77,7 +77,7 @@ CLOSED: [2025-06-19 Thu 08:04]
 CLOSED: [2025-06-23 Mon 09:20]
 ** DONE Write Tech Investments Don't End          :curweek:pom:
 CLOSED: [2025-06-23 Mon 11:00]
-** TODO Write Frame a Next Decision w/ Timebox    :curweek:
+** TODO Write Frame a Next Decision w/ Timebox    :curweek:pom:
 ** TODO Add section or subsection on Off Ramps    :curweek:
 ** TODO Add decision increments for scenarios     :curweek:
 ** TODO Find Satoe's thing about cave in her HTB thing :curweek:
@@ -153,12 +153,21 @@ CLOSED: [2025-06-11 Wed 17:06]
 CLOSED: [2025-06-11 Wed 17:06]
 Announce I'm working on a book, will post here sometimes, but please go join my new newsletter/Substack if you're interested for more (and/or might like to be a beta reader for a eection).
 * [[id:E0ADBF07-90B8-4C37-81C0-96A428020F5E][Substack]]                                        :gtasks:
-** TODO Post to LinkedIn, ref'ing last 4 posts    :curweek:
+** DONE Post to LinkedIn, ref'ing last 4 posts    :curweek:
+CLOSED: [2025-06-23 Mon 11:50]
 But primary focus on the most recent one
 ** DONE Check w/ EWJ after posts go out           :pom:
 CLOSED: [2025-06-22 Sun 10:11]
-** TODO Review Substack growth tips               :curweek:
+** DONE Review Substack growth tips               :curweek:
+CLOSED: [2025-06-23 Mon 11:51]
 Growth tip: Make your publication sell for you
+** TODO Revise my one-liner                       :curweek:
+Signal who the target audience is and why they might subscribe.
+** TODO Improve About page.                       :curweek:
+Build credibility by explaining who you are, what you offer, and when you publish.
+
+Link to your Substack in your email signature and social profiles.
+Make it easy for your network to discover your publication.
 ** TODO Research tools to schedule posts to LI    :curweek:
 So that I can queue things up and have them just go. Don't stay tied.
 ** DONE Finish drafting LinkedIn post
