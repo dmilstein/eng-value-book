@@ -187,6 +187,41 @@ Can I just start with my personal email address, so this isn't a blocker, and go
 
 Yes.
 * LinkedIn Posts
+* Building Visibility: Core Product Refactoring <2025-06-23 Mon>
+Hello again, LinkedIn!
+
+(No, YOU can't help but be overly formal in your use of what-should-be-breezy social media)
+
+As I'm working on the new book (Tech Investments, Not Tech Debt: How To Make Time For Engineering Work That Matters), I'm sharing excerpts and ideas at https://buildingandlearning.substack.com/
+
+Today, I posted some lessons I've learned about how to make technical investments in the core, trickiest-to-change parts of a product:
+
+Building Visibility: Core Product Refactoring
+https://buildingandlearning.substack.com/p/building-visibility-core-product
+
+It develops ideas from a few other posts from last week, more details on those below.
+
+If you find these things at all useful, please let me know!
+
+And subscribe!
+
+Dan
+
+Build Visibility Into Value (https://buildingandlearning.substack.com/p/tech-investments-build-visibility)
+
+Tech Investments are defined as:
+
+"Work the engineers believe is valuable for the business, but that no one is asking for."
+
+A key to finding time to execute on such work is to make the potential value visible to people outside of engineering -- aka to "build visibility".
+
+Once there is shared visibility, stakeholders will often be very happy indeed to prioritize such work -- even if they didn't initially "ask" for it.
+
+The Golden Cesspool
+(https://buildingandlearning.substack.com/p/the-golden-cesspool)
+
+Companies often have some particularly nasty chunk of legacy code sitting at the heart of their systems. I recommended finding a way to frame work on that cesspool as a product investment, not a purely technical investment.
+
 ** Celebrate Progress <2025-06-20 Fri>
 As I'm working on my new book (Tech Investments, Not Tech Debt: How To Make Time For Engineering Work That Matters), I'm sharing excerpts and ideas at https://buildingandlearning.substack.com/
 
