@@ -47,8 +47,9 @@ CLOSED: [2025-06-08 Sun 09:58]
 ** DONE Write bad prose for Celebrate             :pom:
 CLOSED: [2025-06-08 Sun 09:58]
 ** TODO Talk about "build visibility" vs "add metrics"
-* [[id:4FEA3BD5-8E85-4BB6-8F59-15FDE4F38572][Tactical Empathy]]                                :gtasks:curweek:
-** TODO For story at end of Tac Empathy, maybe end with "How long will this take?"
+* [[id:4FEA3BD5-8E85-4BB6-8F59-15FDE4F38572][Tactical Empathy]]                                :gtasks:
+** DONE For story at end of Tac Empathy, maybe end with "How long will this take?"
+CLOSED: [2025-06-22 Sun 17:33]
 ** DONE Add wrap up to story + teaser for milestones :pom:
 CLOSED: [2025-06-20 Fri 19:37]
 As in, the proposal is for a increment which ends with a shared decision
@@ -72,14 +73,21 @@ CLOSED: [2025-06-19 Thu 19:49]
 CLOSED: [2025-06-19 Thu 08:04]
 
 * [[id:03D1870C-E583-4D5C-9589-5E0799793D48][Mstones/Decisions]]                               :gtasks:
-** TODO Write one or two more "why this is hard" bits :curweek:
-** TODO Find Satoe's thing about cave in her HTB thing
-** TODO Shove in a bunch of prose from Ell Milestones doc
-** DONE Set up problem from Satoe's "cave" analogy :curweek:pom:
+** DONE Write one or two more "why this is hard" bits
+CLOSED: [2025-06-23 Mon 09:20]
+** DONE Write Tech Investments Don't End          :curweek:pom:
+CLOSED: [2025-06-23 Mon 11:00]
+** TODO Write Frame a Next Decision w/ Timebox    :curweek:
+** TODO Add section or subsection on Off Ramps    :curweek:
+** TODO Add decision increments for scenarios     :curweek:
+** TODO Find Satoe's thing about cave in her HTB thing :curweek:
+** TODO Scavenge prose from Ell Milestones doc    :curweek:
+** DONE Set up problem from Satoe's "cave" analogy :pom:
 CLOSED: [2025-06-21 Sat 11:06]
-** DONE Terrible first draft                      :curweek:
+** DONE Terrible first draft
 CLOSED: [2025-06-21 Sat 14:30]
-** TODO Add subsection on Off Ramps to Develop in Increments
+* [[id:4D62F0DE-2862-45F3-97EE-6AFED5382F2C][Storytelling/Wins]]                               :gtasks:
+** TODO Write a terrible intro                    :curweek:
 * [[id:D3158CC2-8A69-4097-B9ED-ED6BD855A7AD][Understand Value In Depth]]                       :gtasks:
 ** DONE Do a spike on footnotes                   :pom:
 CLOSED: [2025-06-05 Thu 08:44]
@@ -113,6 +121,7 @@ CLOSED: [2025-06-16 Mon 08:51]
 * Misc Structure [[id:B4926308-39DD-471B-8E71-5FFF7546D6E3][(Table of Contents]])              :gtasks:
 ** DONE Spike on ToC reorg - part II = stakeholder mgmt
 CLOSED: [2025-06-16 Mon 09:25]
+** TODO Maybe: add an entire chapter on Rewrites
 ** TODO Add: why technical judgment is important
 ** TODO Add: Major rewrites *must* be done with product
 not as separate tech investments
@@ -128,12 +137,14 @@ CLOSED: [2025-06-07 Sat 09:32]
 ** TODO For post-mortems, tell story of Berlin, Roberto/Vahe
 They were stuck going slow, they committed to doing good post-mortems, it transformed their speed and relationship with stakeholders
 * [[id:17305FA7-A43F-40C9-9309-0EF3577C70D0][Author Platform]]                                 :gtasks:
-** TODO For author platform, define incremental success, create viz
+** TODO Define next increment of success, create viz :curweek:
+Likely: subscriber count? Separate goal around beta readers? Frequency of recommendation? People reaching out to me. DO a bit of thinking.
 ** TODO Make new email address, put on Substack
-** TODO Build some basic habit + tooling around it
-E.g. post 3-5 times/week, set up some org file that has the postings collected, and some script that uploads them for me. So it's just feeding a hopper, nothing I keep on my day-to-day todo list
 ** TODO Ping Winston -- connect + learn how he build a personal platform
 Esp how he uses LI
+** DONE Build some basic habit + tooling around it
+CLOSED: [2025-06-23 Mon 10:00]
+E.g. post 3-5 times/week, set up some org file that has the postings collected, and some script that uploads them for me. So it's just feeding a hopper, nothing I keep on my day-to-day todo list
 ** DONE Post to LinkedIn once Substack is live
 CLOSED: [2025-06-12 Thu 12:06]
 ** DONE Put my email address on my Substack
@@ -142,13 +153,15 @@ CLOSED: [2025-06-11 Wed 17:06]
 CLOSED: [2025-06-11 Wed 17:06]
 Announce I'm working on a book, will post here sometimes, but please go join my new newsletter/Substack if you're interested for more (and/or might like to be a beta reader for a eection).
 * [[id:E0ADBF07-90B8-4C37-81C0-96A428020F5E][Substack]]                                        :gtasks:
-** TODO Post to LinkedIn, after posts go out      :curweek:pom:
-** TODO Check w/ EWJ after posts go out           :curweek:pom:
-** TODO Review Substack growth tips
+** TODO Post to LinkedIn, ref'ing last 4 posts    :curweek:
+But primary focus on the most recent one
+** DONE Check w/ EWJ after posts go out           :pom:
+CLOSED: [2025-06-22 Sun 10:11]
+** TODO Review Substack growth tips               :curweek:
 Growth tip: Make your publication sell for you
-** TODO Research tools to auto-post (to LI + Substack)
+** TODO Research tools to schedule posts to LI    :curweek:
 So that I can queue things up and have them just go. Don't stay tied.
-** DONE Finish drafting LinkedIn post             :curweek:
+** DONE Finish drafting LinkedIn post
 CLOSED: [2025-06-20 Fri 08:53]
 ** DONE Draft 1-2 next posts, prep
 CLOSED: [2025-06-12 Thu 12:42]
@@ -192,7 +205,7 @@ CLOSED: [2025-06-10 Tue 09:53]
 So I can make better tomorrow
 ** TODO Add Game Days as Big viz for reduce duration of outages
 * [[id:93FF0A9B-F54E-49D5-8154-640BBAE08D4D][Beta Readers]]                                    :gtasks:
-** TODO Make plan/tasks for Beta Reading, stat
+** TODO Make plan + tasks for Beta Reading        :curweek:
 ** TODO For Beta Readers, define call to action/progress
 (e.g. share w/ friend)
 Something that demonstrates they're getting value, not being nice.
@@ -266,7 +279,8 @@ There is an amount of debt, once it's gone, you're living clean.
 
 This is not true for technical investments.
 * [[id:49435FCD-0590-44DE-8FC7-585E7BCC8BB2][Tooling]]                                         :gtasks:
-** TODO Aider: add "today's word count" to terminal view or graph :curweek:
+** DONE Aider: add "today's word count" to terminal view or graph
+CLOSED: [2025-06-21 Sat 14:46]
 ** TODO Aider: split chapter count into two options
 then show them side by side
 
@@ -274,9 +288,9 @@ As in, use screen or something to see both at once, get my watch script running 
 ** TODO Make CLI wordcount tool take a column width option
 So I can either run full screen or within 80 columns
 ** TODO Make scripts take titles from #+title, not the first headline
-** DONE Aider: do trailing 7/14/28? days word count pace? :curweek:
+** DONE Aider: do trailing 7/14/28? days word count pace?
 CLOSED: [2025-06-19 Thu 19:48]
-** DONE Have Makefile hold intermediate targets   :curweek:
+** DONE Have Makefile hold intermediate targets
 CLOSED: [2025-06-16 Mon 09:27]
 ** DONE Within tib-todos, add todo at top of list
 CLOSED: [2025-06-12 Thu 15:42]
