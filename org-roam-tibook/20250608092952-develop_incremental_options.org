@@ -150,60 +150,134 @@ You propose creating tooling to allow the help-desk to fix a slew of data issues
 
 Your backup regimen hasn't been reviewed in a while, you've raised sufficiently economic fear for your stakeholder to agree to some work to verify safer backups -- how long will that take?
 
-** Tech Investments Aren't Projects That "Finish"
+** Tech Investments Aren't Exactly Projects and Don't Exactly End
 
 It's extremely tempting to think about tech investments through the lens of "projects".
 
-Projects have defined scope *and* a defined end point. We're going to do X, Y and Z, and be done by such-and-such a date.
+We've spec'd out a project, and we're going to do X, Y and Z, and be done by such-and-such a date.
 
-Your stakeholders will almost definitely see them in that light, certainly at first.
+There's something useful in this, but you have to be very careful about how you define the "goal" of the project.
 
-You or your team may also do so -- especially if you've been forced to operate in a scarcity mindset around engineering-driven work. E.g. if you're able to bargain your way into three weeks of "engineering" work in any year, you'll be forced to think "What 'project' will fit into those three weeks"
+To see why, let's return to our friend Bertha the economically rational investor.
 
-Why is the project frame problematic?
+Say you've convinced a stakeholder to "let" your team work on the problem of sluggish site performance. That stakeholder has asked you how long the work will take.
 
-Tech Investments should absolutely be broken up into defined steps with hard and fast dates. Aka, you and your team should live and breathe timeboxing, when you go to execute on your investments.
+Now, you want to create as much value for your business as possible.
 
-However, and this is the core difference, you should make no promise that any given investment will be *done* at the end of any given step.
+So you ask Bertha, the arbiter of value:
 
-Why?
+/Given what you know, how long *should* my team work on improving site performance? When should we tell our stakeholder that the work will be over? What will maximize company value?/
 
-Not just because you don't know how much work is involved, but, more fundamentally, because you don't know when you'll reach a point where the potential value of further tech investment is less than the value of other investments (aka the opportunity cost).
+Bertha would squint at you, and then say:
 
-Question: How long *should* your team work on improving site performance? When will that work be "over"?
+/If you want to maximize value for the company, your team should work on improving site performance until precisely the moment that the net benefit of further site performance improvements is less than the net benefit of other work you could be doing, instead./
 
-Answer: Your team should work on improving site performance exactly until the moment that the net benefit of further site performance improvements is less than the net benefit of other work you could be doing, instead.
+Say you've just finished a project to deal with sluggish site performance.
 
-Not only is that hard to even estimate up front, it will *change over time*.
+You SLI's have achieved an acceptable range, given current load.
 
-Say you finish a planned chunk of performance improvement work, and your SLI's are now happily humming along. The "Improve Perf" project is over.
+Everyone celebrates the "Improve Performance" project being over. Maybe there's a party.
 
-But then, your site suddenly gets a huge influx of valuable new users. Those users love the current feature set, don't care a fit about the upcoming features, and have high expectations of responsiveness.
+But then the next day, your site gets a huge influx of new users.
 
-Given the above, you should absolutely keep working on site performance, and not pivot back to expanding the feature set. The "project" shouldn't be over. But projects end. That's almost the definition of what they are.
+These new users adore the base feature set, have very high expectations of responsiveness, and could care less about all the clever new extensions product has dreamed up.
 
-There is no project.
+Given the above, it's likely economically optimal for your team to keep working on site performance, and not pivot back to expanding the feature set.
 
-There are a series of *decision points*.
+But if you let yourself get drawn too tightly into the project formulation, no one will even be thinking about further potential site performance investments
 
-The companies that make better decisions, more often, are the companies that win.
+In fact, if you're extra unlucky, stakeholders who "gave you time" to "fix" the performance are going to be mad, because the site suddenly seems really sluggish again (see: huge increase in usage). What, are they supposed to let the team spend another month on these engineering issues?!? When are they going to get back to business needs?!
+
+Instead of thinking about tech investments primarily as projects, I think you're better served by thinking of them as a series of *decision points*.
+
+You do some chunk of work, make some improvements, build slightly clearer visibility. Then, based on what you've discovered, you decide: should we keep going down this road?
+
+# The companies that make better decisions, more often, are the companies that win.
 
 You want to get your stakeholder into a regular cadence of shared decision-making.
 
-As part of that, you'll likely need to retrain yourself to think about tech investments not as one-off projects, but as a steady series of opportunities -- opportunities to make choices together.
+# As part of that, you may need to retrain yourself to think about tech investments not as one-off projects, but as a steady series of opportunities to make choices together.
 
-That's all well and good, I can imagine you thinking.
+# This can be particularly hard if you engineering team has developed a scarcity mindset around engineering-driven work. E.g. if you're only ever able to bargain your way into three weeks of "engineering" work in any year, it can feel like the idea of planning for a future shared decision is a fool's move.
 
-But your stakeholder is standing in front of you, right this moment.
+/"Fine, Dan, whatever, that *sounds* great"/ I can imagine you thinking, /"but how on earth am I supposed to get my stakeholder to buy into that?"/
+
+Your stakeholder is standing in front of you.
 
 They're waiting for you to tell them how long your first proposed investment is going to take.
 
-They are clearly *not* looking forward to more of these conversations in the future.
+They are clearly *not* looking forward to "repeated discussions about potential tech investments", in the future.
 
 What do you say to them?
 
 If you've read this far, you'll know that I've helpfully tested out the strategy of "Explain the abstract theory of the value of decisions" to them, and seen it fail 100% of the time, and am ready to instead share what I *have* seen work.
 
-**  Timebox To a Next Decision
+** Marketing
+Imagine we flip this around, to some part of the business where leaders are used to thinking about "positive" investments.
+
+For most B2B businesses, few things are more important than acquiring new, high-quality leads -- potential customers their sales team can talk to.
+
+# If you're helping run a B2B business, odds are good that you care very much about bringing high quality leads into the top of your sales funnel.
+
+Most B2B businesses therefore have a marketing team.
+
+That team spends various amounts of money, to run various campaigns, across various platforms, to acquire leads.
+
+They know how many dollars they spend, on average, to acquire a high-quality lead.
+
+They've developed a plan, which they're currently executing, spending money every month against various platforms.
+
+But then, one day, a new platform shows up, that the company has never advertised on before.
+
+The marketing team runs an initial campaign, spending $1,000.
+
+They promptly get back more high quality leads per dollar spent than on any other platform!
+
+Amazing.
+
+Should they now stop? Because that initial project is "over"? And they have a "plan", they need to get back to?
+
+Of course not.
+
+They should *change the plan*, based on the new information.
+
+If, by making an initial investment, they've discovered that there is even more value to be found, they should *increase* their investment -- not curtail it.
+
+Many tech investments function just this way -- there's a potential source of value, once you dig into it, you may very well find *more* value than you realized, and more than you were expecting to make, from your existing roadmap.
+
+Sometimes that's "positive" value: "It'll only take a few days to apply the new indexing scheme to the rest of our tables, and then the entire site should see better peformance".
+
+Sometimes that's "negative", risk-avoidance value: "Our initial security review made clear that things are much worse than we realized -- we think it's more valuable for the company to pause work on the feature roadmap and get to a lower risk state, immediately."
+
+But, of course, no one will think that way. Because of, well, a host of human cognitive biases, among other things.
+
+So you have to gradually persuade people into working that way.
+
+
+
+** Timebox To a Next Interesting-Sounding Decision
 
 # Create Transparency and Control
+
+* Scraps
+Your stakeholders will almost definitely see them in that light, certainly at first.
+
+You or your team may also do so -- especially if you've been forced to operate in a scarcity mindset around engineering-driven work. E.g. if you're able to bargain your way into three weeks of "engineering" work in any year, you'll be forced to think "What 'project' will fit into those three weeks"
+
+
+
+Tech Investments should absolutely be broken up into defined steps, and each of those steps should almost always should have a clean end date (and therefore be forced to shrink in scope, as that date approaches).
+
+Aka, you and your team should live and breathe timeboxing, when you go to execute on your investments.
+
+
+Investments are, ideally, "done" when it no longer make sense to continue to invest.
+
+And even then they're not really "done", so much as other things become, for that moment, more valuable to invest in.
+
+
+Why?
+
+Not just because you don't know how much work is involved, but, more fundamentally, because you don't know when you'll reach a point where the potential value of further tech investment is less than the value of other investments (aka the opportunity cost).
+
+Not only is that hard to even estimate up front, it will *change over time*.
