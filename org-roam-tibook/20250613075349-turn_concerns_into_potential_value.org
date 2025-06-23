@@ -218,19 +218,19 @@ The trick here is to spend a bit of time understanding the *positive* value of w
 
 If you can really dig in on that side, you might be able to find creative ways to either restructure how much work gets to your team, or, or make a real investment to eliminate a whole class of issues at a deeper level, or even, propose moving the work *off your team* altogether and finding a home for it somewhere else in the organization.
 
-Those kind of major investments or shifts can be economically rational, but those aren't easyes pitch to make, unless you can show some extra value to the business, *beyond* just saving time for the engineers.
+Those kind of major investments or shifts can be economically rational, but those aren't easy pitches to make, unless you can show the *positive* value to the business, *beyond* just saving time for the engineers.
 
 E.g. say your engineers spend time every sprint helping set up data import configurations for new customers.
 
-Even if they were to invest in better tooling, they can't automate it all away, because setting up each new customer requires carefully reviewing sample data files, testing out imports and diagnosing failures, etc.
+Even if they were to invest in better tooling, they can't automate it all away, because setting up each new customer requires carefully reviewing sample data files, testing out imports and diagnosing failures, helping the customers fix subtle issues on *their* end, etc.
 
-Imagine you were go to the Important People at your company and say, "We'd like create a dedicated Data Operations team"
+Imagine you were go to an Important Person at your company and say, "We'd like create a dedicated Data Operations team"
 
-And they say, "Okay, why?"
+And the Important Person looks august, and says, "Okay, why?"
 
 And you say, "So my engineers can spend less time on new customer onboarding."
 
-Here's the problem: there is a risk that Important People will hear that as a form of *complaining*.
+Here's a problem: there is a risk that Important People will hear that as a form of *complaining*.
 
 Everyone's job has certain unpleasant and/or boring parts. Most Important People have developed the skill of ignoring complaints that they hear as: "Part of my job isn't fun, can I stop doing that part?"
 
@@ -248,11 +248,11 @@ You might be able to make a more effective case by saying something like:
 
 /Our early estimate is that 70% of the work can be done by the more technical members of the help desk, if we can carve out time for them, and the engineers can build some basic tooling."/
 
-That's speaking to potential benefits -- both a better customer experience, but also lower costs *for the operation itself*.
+That's speaking to potential benefits -- both a better customer experience, but also lower costs and better outcomes *for the operation itself*.
 
 There's a decent chance you can (and should) loop in your product team to help build this kind of case. It's usually not too hard to get their help, because they would love to have more of "their" engineers time devoted to "their" work.
 
-There are other variations on this game plan you can run, be it setting up a regular collaborative triage process, or breaking off a separate platform team that owns a particularly troublesome bit of functionality (e.g. authentication and authorization), etc. We'll touch on a couple in the Case Book of Tech Investments later.
+There are other variations on this game plan you can run, be it setting up a regular collaborative triage process, or breaking off a separate platform team that owns a particularly troublesome bit of functionality (e.g. authentication and authorization is a classic), etc. We'll touch on a couple in the Case Book of Tech Investments later.
 
 ** "The Database Is On the Verge of Death And No One Cares"
 
