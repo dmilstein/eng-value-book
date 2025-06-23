@@ -150,10 +150,60 @@ You propose creating tooling to allow the help-desk to fix a slew of data issues
 
 Your backup regimen hasn't been reviewed in a while, you've raised sufficiently economic fear for your stakeholder to agree to some work to verify safer backups -- how long will that take?
 
-** Tech Investments, Unlike "Removing Tech Debt", Aren't Projects That "Finish"
+** Tech Investments Aren't Projects That "Finish"
 
-And that's a good thing.
+It's extremely tempting to think about tech investments through the lens of "projects".
 
-Retrain yourself to think about it not as one-off projects, but as a steady series of opportunities to invest -- opportunities to make choices together.
+Projects have defined scope *and* a defined end point. We're going to do X, Y and Z, and be done by such-and-such a date.
 
-**  Do Timebox, Don't Commit
+Your stakeholders will almost definitely see them in that light, certainly at first.
+
+You or your team may also do so -- especially if you've been forced to operate in a scarcity mindset around engineering-driven work. E.g. if you're able to bargain your way into three weeks of "engineering" work in any year, you'll be forced to think "What 'project' will fit into those three weeks"
+
+Why is the project frame problematic?
+
+Tech Investments should absolutely be broken up into defined steps with hard and fast dates. Aka, you and your team should live and breathe timeboxing, when you go to execute on your investments.
+
+However, and this is the core difference, you should make no promise that any given investment will be *done* at the end of any given step.
+
+Why?
+
+Not just because you don't know how much work is involved, but, more fundamentally, because you don't know when you'll reach a point where the potential value of further tech investment is less than the value of other investments (aka the opportunity cost).
+
+Question: How long *should* your team work on improving site performance? When will that work be "over"?
+
+Answer: Your team should work on improving site performance exactly until the moment that the net benefit of further site performance improvements is less than the net benefit of other work you could be doing, instead.
+
+Not only is that hard to even estimate up front, it will *change over time*.
+
+Say you finish a planned chunk of performance improvement work, and your SLI's are now happily humming along. The "Improve Perf" project is over.
+
+But then, your site suddenly gets a huge influx of valuable new users. Those users love the current feature set, don't care a fit about the upcoming features, and have high expectations of responsiveness.
+
+Given the above, you should absolutely keep working on site performance, and not pivot back to expanding the feature set. The "project" shouldn't be over. But projects end. That's almost the definition of what they are.
+
+There is no project.
+
+There are a series of *decision points*.
+
+The companies that make better decisions, more often, are the companies that win.
+
+You want to get your stakeholder into a regular cadence of shared decision-making.
+
+As part of that, you'll likely need to retrain yourself to think about tech investments not as one-off projects, but as a steady series of opportunities -- opportunities to make choices together.
+
+That's all well and good, I can imagine you thinking.
+
+But your stakeholder is standing in front of you, right this moment.
+
+They're waiting for you to tell them how long your first proposed investment is going to take.
+
+They are clearly *not* looking forward to more of these conversations in the future.
+
+What do you say to them?
+
+If you've read this far, you'll know that I've helpfully tested out the strategy of "Explain the abstract theory of the value of decisions" to them, and seen it fail 100% of the time, and am ready to instead share what I *have* seen work.
+
+**  Timebox To a Next Decision
+
+# Create Transparency and Control
