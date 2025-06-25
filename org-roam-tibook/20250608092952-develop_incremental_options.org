@@ -42,7 +42,7 @@ She has *literally no idea* how long it would take to improve performance for en
 
 But her stakeholder is staring expectantly at her. And clearly hasn't fully agreed to this proposed investment yet.
 
-** Some Supposedly Fun Ways To Estimate That I'll Never Try Again
+** Some Supposedly Fun Ways To Estimate That I'll Never Do Again
 
 # Some Options I Can *Not* Recommend When Asked For An Estimate For a Tech Investment
 
@@ -135,7 +135,46 @@ Yeah, sigh. I so wish this worked.
 
 If you pull this off, please let me know, and I will buy you all the beers to learn more.
 
-** A Persusasive and Empowering Pit h
+** Commit to a Next Meaningful Decision Point
+Let's illustrate this with our running story, from the last chapter.
+
+As a reminder, the engineering leader wrapped up the initial part of her pitch by saying:
+
+/Fortunately, we think we have a couple of good options for speeding things up -- once we find any bottlenecks./
+
+/Unfortunately, we don't have great *visibility* into how those pages are performing, or where bottlenecks are./
+
+/Therefore, we'd like to propose that we commit time to building a clearer picture of our capacity limits, and, once we've done that, ensuring that we have sufficient capacity to guarantee an excellent experience for the first Enterprise customers who commit to Forms 2.0./
+
+A useful way to make that concrete, and to start to help the stakeholder make their key decisions, would be to say something like:
+
+/We're proposing that Andrea spends the next three weeks developing and implementing a first draft of Service Level Indicators -- which will show us, basically "Are customers on Forms 2.0 *using it successfully*?". And if they're *not* -- if they do hit performance issues -- we can know *before* the help desk or success team comes to us, and we believe the team can quickly swarm and address it./
+
+/Building SLI's has some real tradeoff costs. We had planned for Andrea to take point on adding new features to the Search Indexing. We think the potential performance issues are a bigger risk. And, if we understand it right, not all the ENT customers need those new Search features, so we might be able to delay the transition for customers who do need them. We believe the risk of bad performance cuts across all of the ENT customers./
+
+/The key milestone Andrea would be working towards, which she can hit within 3 weeks, would be to ready to sit down with you and me, and review both the definitions of an initial set of the SLI's *and* how those SLI's are performing in production./
+
+/We'd then be able to decide, together, if that performance seems acceptable. If so, we can return to our original plans and just keep an eye on performance as transitions ramp up. If performance already seems problematic, or if we're just uncertain, the team could start some proactive load testing, or if we've found any bottlenecks, deal with those./
+
+/But we don't have to make that decision yet -- we'll have more info in just a few weeks./
+
+Note how the engineering leader is offering a carefully time-boxed increment that ends with a *shared decision*
+
+The fundamental definition of the first stage of this technical investment is: build a thing in no more than 3 weeks that will both create some incremental improvements *and* allow the stakeholder and the eng leader to make a collaborative decision about what to do next.
+
+Notice how this helps them both of their key decisions -- how do we free up capacity in the short term, *and* do we need to change our medium-term goals?
+
+For the former, the engineering leader is offering some creative problem-solving -- putting a key senior engineer on this technical investment will mean slowing planned work done, but they're brainstorming ways to make that okay. The product manager might change that plan, but by offering it, the eng leader is trying to jointly problem solve for the first decision.
+
+For the second decision, around medium term expectations, the engineering leader sketches in some possible options (load testing, handling bottlenecks, etc), and makes clear a timeline on which they'll be able to update those options.
+
+Also note how, because the milestone is designed around a "what do we do next?" decision, the engineer working on it has enormous flexibility to adjust scope, and hit the deadline.
+
+If Andrea discovers that adding the SLI's is more work than expected, she can shrink her scope to the 1-2 very most important ones. You're then having exactly the conversation with the stakeholder you promised -- we have this initial visibility, we can now decide if it's sufficient, if we need more visibility, or if we see problems we want to immediate focus on.
+
+It also prompts Andrea to, very usefully, ask you and the PM questions like:
+
+ - What information is most important to you, in making this decision?
 
 ** Some Challenges in Estimating Tech Investments
 *** Intro
