@@ -10,39 +10,129 @@
 
 ** Intro
 
-Things are going well.
+Let's review where things ended, in our last chapter, for the engineering leader we featured there.
 
-You've worked with your engineers to turn concerns into potential value.
+She worked with her engineers to dig into various concerns.
 
-Bertha, your economically rational investor/imaginary friend, has helped you identify forms of value based on probablistic estimates of future profits.
+As she did so, she consulted in her mind with Bertha, her economically rational investor imaginary friend, to understand how addressing each of those concerns could increase a probablistic estimates of future profits -- and therefore create value for the business.
 
-You've narrowed down your list of opportunities to the one you think has the greatest potential value for your business.
+With Bertha's help, she narrowed down the list of opportunities to a single leading contender: improving site performance (which the engineers had initially described as "the database seems unhappy").
 
-You've found a creative way to build some initial visibility into that potential value.
+She took time to practice the skills of tactical empathy, and then deployed those skills on building rapport with her key stakeholder.
 
-You've taken the time to practice tactical empathy, and then deployed your newly practiced skills on building rapport with your key stakeholder.
+Then, we she met with that stakeholder to pitch an investment in creating visibility into site performance, she spoke to her stakeholder's fears (/"worst case, many of those pages could potentially seem broken."/ ) and their hopes (/"guarantee an excellent experience for the first Enterprise customers who commit to Forms 2.0."/)
 
-It's now the Big Day.
+She offered some initial visibility that she and her team had built "on the side" as a means to understand why investment is indicated now and not later (/"Enterprise customers who use the old, legacy Forms 1.0 product, all have *much* bigger data sets than we've seen for the new Form 2.0 in production so far"/)[fn:: This is a very useful form of visibility -- the use patterns of customers in different segments should absolutely inform investment.]
 
-You're ready to make your case for investment.
+She focused her initial pitch for investment on building visibility.
 
-You speak to both your stakeholder's fears and their hopes.
+# XXX Mix in the basic DB server CPU monitoring? If so, mix it back into previous chapter.
 
-You situate the investment in line with their long-term goals.
+To her surprise and delight... her stakeholder was convinced.
 
-You offer the initial visibility that you've built on the side as a means to understand why investment is indicated now and not later.
+But then, before the enginering leader feel good for even a minute, her stakeholder asked: /"How long will this project take?"/
 
-To your surprise and delight... your stakeholder is convinced.
+And then promptly blew right past the proposed focus on visibility, and instead demanded a time estimate for achieving the ultimate outcome:
 
-# They're ready to make the difficult decision to temporarily put aside some of their other priorities.
+/"How long will it take to ensure good performance for enterprise users?"/
 
-# Temporarily.
+What can our engineering leader friend say?
 
-Then, they ask: "So, how long will this take?"
+She has *literally no idea* how long it would take to improve performance for enterprise users -- she doesn't actually even know yet if there's a performance issue for enterprise users yet! That's why she's proposing an investment in building visibility!
 
-And stare expectantly at you.
+But her stakeholder is staring expectantly at her. And clearly hasn't fully agreed to this proposed investment yet.
 
-And, boom, you're right back in one of the most fun parts of being an engineering leader.
+** Some Supposedly Fun Ways To Estimate That I'll Never Use Again
+
+# Some Options I Can *Not* Recommend When Asked For An Estimate For a Tech Investment
+
+# Some Supposedly Fun Ways To Estimate Tech Investments That I'll Never Use Again
+
+Yep, I've tried all of these and have the battle scars and failed projects to show for it.
+
+*** Guess and Pad
+
+Often, when you go to propose a technical investment, your engineering team will have a hunch about what they need to do.
+
+Except they won't call it a hunch.
+
+They'll say:
+
+/"We *know* what the problem is. We just need some time to fix it. We can get it done in a week, easy."/
+
+Engineers (who I love! Because I am one!), will say this with perfect confidence...
+
+...even if they actually have absolutely *zero* understanding of what is causing a problem.
+
+Honestly, I think it's just part of being an engineer -- we *know* that one part of the code was written in a dumb way, and now there's an issue, like, /near/ that code, it's *obviously* caused by it. We can already visualize how we want to clean up the code, and how much better things will be once we've done so.
+
+If your team announces they know how to fix a problem...
+
+...but they have *not* first built visibility...
+
+...and/or have *not* done some fairly deep exploratory work...
+
+...I strongly recommend that you just *nod and smile*.
+
+/"Oh, yes,"/ you can say, /"that sounds *extremely* likely. I can't wait to dig in!"/
+
+But under no circumstances should you turn around and use this to scope a project with your stakeholder.
+
+You might think to yourself: "I'm no fool. I'll pad that estimate. That way, even if the engineers were a little optimistic, we'll still get it done".
+
+# Mama didn't raise no foolish engineering manager
+
+You might then say to your stakeholder "The team knows what to do, we just need three weeks."
+
+And pat yourself on the back for the 3x padding, in going from one week to three.
+
+Ohmygod, please don't do this.
+
+Look back at our running example, which is typical of so many potential technical investments: there's some *risk* of bad performance for enterprise customers.
+
+Maybe the team is convinced Enterprise customers are going to take a hit because of how data gets loaded into the front-end.
+
+What might the team find in those three weeks of work?
+
+Well, if you're *extraordinarily* lucky, you'll be able to build sufficient visibility into actual enterprise performance, then apply the fix the engineers "knew" was the problem, then verify that it worked, and share the results with your stakeholder.
+
+But that, um, almost never happens?
+
+Instead, you'll essentially always get hit by some combination of:
+
+ - It's harder to build sufficient visibility than the team realized
+
+ - The visibility, once built, shows the the problem isn't where the team thought it was
+
+ - Fully addressing the actual problem turns out to be much harder than anyone hoped
+
+So then you're sitting there, in three weeks, with nothing to show your stakeholder, and with them expecting to have full focus return to "business needs", not your "engineering issues".
+
+That digs you a hole, it does not build trust and rapport.
+
+
+*** Refuse Outright
+
+You could simply tell the stakeholder: "We have no idea how long this will take. We thought you'd appreciate our being honest! You're welcome!"
+
+I mean, although this is *true*, it's not exactly *helpful*.
+
+Your stakeholder is trying to make some really important *decision*, based on the new information that you've recently shared with them.
+
+They're trying to decide what work to immediately deprioritize, in order to free up capacity to work on this issue.
+
+They're also trying to update their picture of their medium-term goals -- to decide if they need to start socializing a change in expectations with other people, or an adjustment to some external plan.
+
+Both of those are very important business decisions.
+
+Telling them *nothing* isn't great.
+
+*** Give a Brief Primer on Company Value & Information Theory
+
+Yeah, sigh. I so wish this worked. I've tried it so many times.
+
+If you pull this off, please let me know, and I will buy you all the beers to learn more.
+** A Persusasive and Empowering Pit h
 
 ** Some Challenges in Estimating Tech Investments
 *** Intro
@@ -245,13 +335,15 @@ If, by making an initial investment, they've discovered that there is even more 
 
 Many tech investments function just this way -- there's a potential source of value, once you dig into it, you may very well find *more* value than you realized, and more than you were expecting to make, from your existing roadmap.
 
-Sometimes that's "positive" value: "It'll only take a few days to apply the new indexing scheme to the rest of our tables, and then the entire site should see better peformance".
+Sometimes that's visibly positive value: "It'll only take another week to apply the new indexing scheme to the rest of our tables, and then the entire site should see better peformance".
 
-Sometimes that's "negative", risk-avoidance value: "Our initial security review made clear that things are much worse than we realized -- we think it's more valuable for the company to pause work on the feature roadmap and get to a lower risk state, immediately."
+Sometimes that's risk-avoidance value: "Our initial security review made clear that things are much worse than we realized -- we think it's more valuable for the company to pause work on the feature roadmap and get to a lower risk state, immediately."
 
-But, of course, no one will think that way. Because of, well, a host of human cognitive biases, among other things.
+But if your "engineering project" is "over", no one is going to be looking for further investment opportunities.
 
-So you have to gradually persuade people into working that way.
+Because, fundamentally, they're thinking about it is an "unpleasant" project they've been forced to do, not an investment that makes their company more valuable.
+
+You're going to gradually persuade people into working that way.
 
 
 
@@ -281,3 +373,41 @@ Why?
 Not just because you don't know how much work is involved, but, more fundamentally, because you don't know when you'll reach a point where the potential value of further tech investment is less than the value of other investments (aka the opportunity cost).
 
 Not only is that hard to even estimate up front, it will *change over time*.
+
+
+
+** Old Intro
+
+Things are going well.
+
+You've worked with your engineers to turn concerns into potential value.
+
+Bertha, your economically rational investor/imaginary friend, has helped you identify forms of value based on probablistic estimates of future profits.
+
+You've narrowed down your list of opportunities to the one you think has the greatest potential value for your business.
+
+You've found a creative way to build some initial visibility into that potential value.
+
+You've taken the time to practice tactical empathy, and then deployed your newly practiced skills on building rapport with your key stakeholder.
+
+It's now the Big Day.
+
+You're ready to make your case for investment.
+
+You speak to both your stakeholder's fears and their hopes.
+
+You situate the investment in line with their long-term goals.
+
+You offer the initial visibility that you've built on the side as a means to understand why investment is indicated now and not later.
+
+To your surprise and delight... your stakeholder is convinced.
+
+# They're ready to make the difficult decision to temporarily put aside some of their other priorities.
+
+# Temporarily.
+
+Then, they ask: "So, how long will this take?"
+
+And stare expectantly at you.
+
+And, boom, you're right back in one of the most fun parts of being an engineering leader.
