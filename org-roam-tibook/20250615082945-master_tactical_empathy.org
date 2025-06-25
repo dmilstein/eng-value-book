@@ -401,7 +401,7 @@ They could take some time to review their notes, maybe talk to an engineer to fl
 
 /The engineers have identified a risk -- all our early adopters of Forms 2.0 come from our SMB segment. Those customers all have relatively small data sets. But the Enterprise customers who use the old, legacy Forms 1.0 product, all have *much* bigger data sets than we've seen for the new Form 2.0 in production so far./
 
-/As we've sprinted to build Forms 2.0, we've asked the teeam to get things out in the simplest form as quickly as possible. Which we're really glad about. But we think there's a very real chance that, if an ENT customer were to start using Forms 2.0 today, with their large data sets, they would experience painfully long load times for almost all the key new pages. In fact, worst case, many those pages could potentially seem broken./
+/As we've sprinted to build Forms 2.0, we've asked the team to get things out in the simplest form as quickly as possible. Which we're really glad about. But we think there's a very real chance that, if an ENT customer were to start using Forms 2.0 today, with their large data sets, they would experience painfully long load times for almost all the key new pages. In fact, worst case, many of those pages could potentially seem broken./
 
 /We really don't want that to happen./
 
@@ -409,7 +409,7 @@ They could take some time to review their notes, maybe talk to an engineer to fl
 
 /Unfortunately, we don't have great *visibility* into how those pages are performing, or where bottlenecks are./
 
-/Therefore, we'd like to propose that we commit time to building a clearer picture of our capacity limits, and, once we've done that, ensuring that we have sufficient capacity to guarantee a good experience when our first Enterprise customers do convert./
+/Therefore, we'd like to propose that we commit time to building a clearer picture of our capacity limits, and, once we've done that, ensuring that we have sufficient capacity to guarantee an excellent experience for the first Enterprise customers who commit to Forms 2.0./
 
 This is a far more persuasive pitch then where things started -- it's laid out in the context of the stakeholder's immediate goals, it makes clear that the lack of visibility is in and of itself a key problem, it even subtly evokes some specific and vivid fears ("many pages could potentially seem broken.")
 
