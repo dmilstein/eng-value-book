@@ -33,6 +33,8 @@ Gonna have to put that into the toc, of course
 ** DONE For Tact Emp example, shift to focus something she can base a tech investment on
 CLOSED: [2025-06-20 Fri 08:56]
 So that the engineering manager can then pitch her work in that context
+** TODO Spike: word count credit in graph for scraps
+So that I don't have weird incentives to keep bad writing in.
 * [[id:BB09F432-DEEB-4129-8F88-D23C86E8CEBB][Build Viz First]]                                 :gtasks:
 ** DONE Jam in some of my ideas from my notes, break out todos :pom:
 CLOSED: [2025-06-07 Sat 09:35]
@@ -77,9 +79,9 @@ CLOSED: [2025-06-19 Thu 08:04]
 CLOSED: [2025-06-23 Mon 09:20]
 ** DONE Write Tech Investments Don't End          :curweek:pom:
 CLOSED: [2025-06-23 Mon 11:00]
-** TODO Write Frame a Next Decision w/ Timebox    :curweek:pom:
-** TODO Add section or subsection on Off Ramps    :curweek:
+** TODO Rewrite opening to get to the fucking point :curweek:pom:
 ** TODO Add decision increments for scenarios     :curweek:
+** TODO Add section or subsection on Off Ramps    :curweek:
 ** TODO Find Satoe's thing about cave in her HTB thing :curweek:
 ** TODO Scavenge prose from Ell Milestones doc    :curweek:
 ** DONE Set up problem from Satoe's "cave" analogy :pom:
