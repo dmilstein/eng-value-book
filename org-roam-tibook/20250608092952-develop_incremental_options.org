@@ -150,7 +150,7 @@ Your stakeholder isn't just asking for an estimate to be a jerk, they're asking 
 
 And, ideally, you want to help them solve that problem.
 
-** The Nature of the Challenge Facing a Stakeholder
+** The Challenge Facing a Stakeholder
 
 Thanks to the information you've shared with them, your stakeholder has a new problem to solve.
 
@@ -246,77 +246,51 @@ E.g. if Andrea discovers that adding the SLI's is more work than expected, she c
 
 That would allow the engineering leader to have precisely the conversation with the the stakeholder that they promised: we have this initial visibility, we can now decide if it's sufficient, and what next steps we want to take.
 
-** Some Challenges in Estimating Tech Investments
-*** Intro
-Obviously, estimates are always tricky.
+** Turning Estimates Into Timeboxed Decision Points
 
-But they're often *extra* tricky for technical investments.
-
-When digging into complex and uncertain parts of your systems (of both the technical and social varieties), it can be difficult when you start to even *understand your options*.
-
-Which makes it nearly impossible to commit to a time estimate to achieve some cleanly visible outcome.
-
-# Satoe Sakuma said this well, "It's like you're going into a cave, and the first step is just bringing in some light. But then, when they ask you how long it will take"
-
-Once again, let's put ourselves in our stakeholder's shoes.
-
-Let's say we have a stakeholder who is not yet in a habit of regularly co-prioiritizing technical investments with engineering.
-
-Even if that stakeholder fully embraces an iterative approach to software development (which is a best case, not always achieved in reality)...
-
-...there's still a very good chance that, as they're considering a technical investment you've proposed, they're trying to limit the impact of this "unpleasant temporary distraction" on their current goals.
-
-They're reviewing the sprawling list of things things they've been asked to do.
-
-They're reviewing the painfully smaller list of things they believe are possible -- and getting ready to eject a few things from that list.
-
-# They're actively rejiggering their mental map of the next month or two.
-
-They're thinking, "Which people am I going to disappoint in order to solve this 'engineering problem'?"[fn:: It's not an engineering problem! It's an opportunity for investment. You'll get there eventually]
-
-They're likely preparing to bargain you down from whatever your initial "request" for time turns out to be.[fn:: You're not making a request! You're exposing an opportunity for investment. Again, you'll get there eventually]
-
-# Remember their job is to disappoint everyone around them.
-
-So you have to say *something* to them -- you can't just say "I don't know, it'll take as long as it takes".
+# Challenges in Estimating Tech Investments
 
 Let look at some classic areas of technical investment.
 
+For each, we'll set it up where the decision point may feel tricky, and then we'll offer some ideas.
+
+# XXX make prose less awful
+
 *** Scenario 1: Unreliable Deploys
 
-Your deploy pipeline randomly fails for no clear reason, and when the team does successfully deploy, they end up reverting far too often.
+The deploy pipeline randomly fails for no clear reason, and when the team does successfully deploy, they sometimes end up emergency reverting in exciting ways.
 
-You have some developed some initial visibility showing that engineers are starting to deploy less frequently as a result.
+You have developed some rough initial visibility showing that engineers are starting to deploy less frequently as a result.
 
-That, plus a some heavy leaning on Accelerate has your stakeholder ready to talk.
+That plus a heavy dose of Accelerate has your stakeholder ready to talk.
 
-They say, "How long will this take to fix?"
+However, there is a simply huge range of possible problems that could be at the heart of slow deploys.
 
-How can you respond?
+It could be anything from trivially misconfigured CI/CD parameters, all the way to fundamental architectural choices that are causing genuine conflicts between multiple teams.
 
-If you knew *why* the pipeline was failing... it wouldn't be failing.
+"Fixing the problem" can take anywhere from a few days to multiple years.
 
-Ditto for the post-deploy failures and reverts.
+Thus, the next decisions will be driven by three progressively stronger forms of visibility:
 
-You could take a *guess*, based on the team's current hunches about what's causing the unreliability, and say something like "We think we can likely improve things in about three weeks of time, for two engineers."
+ - How bad are the overall Accelerate metrics?
 
-What could those two engineers find when they dig in?
+ - If one or more are bad, what are the underlying problems?
 
-If you're lucky, maybe they find some misconfigured CI/CD params. You're just a couple of arcane JSON or YAML config tweaks away from more reliable deploys.
+ - What are the options to address those problems?
 
-If you're *not* so lucky, they might discover that your entire build pipeline is, for deep-in-the-guts reasons, non-deterministically selecting versions to build, test and deploy. To get to a more reliable process, you're going to have to restructure that pipeline at a fairly deep level.
+You can progressively move through that list, offering a decision point around the next level of visibility and forecasting some of your current guesses of what might come next.
 
-If you're *super, super not lucky*, this might be the moment you realize that fundamental architectural choices made long ago are forcing multiple teams to all frequently change the same hotly contested parts of your codebase, and that's causing *genuine conflicts*. The repeated deploy failures are actually the CI/CD process *doing its job*. You don't have to update your deploy process... you just have to update the most fundamental abstractions in your code. Easy peasy.
+E.g. partway through that might look like:
 
-In the latter two cases, you're going to reach the end of your three week period, and not only is your stakeholder going to expect everyone to return to fully focusing on the original feature work, but, *you won't be able to show them any visible improvements*.
+"Our biggest problem seems to be revert frequency -- we're okay on lead time and deploy frequency but engineers are having to rollback about 20% of the time on average, which is a huge drag on velocity. I've talked to the team, and they think there are a couple of buckets those reverts fall into, based on what breaks when they deploy. We're going to start tracking those categories in the PR's for the rollbacks. At least two of them seem driven by the masthead, because it has such weird knowledge of all the separate systems. The other bucket is, unfortunately, issues in the ancient legacy reports. In two weeks, we should be able to see some data on which bucket has the most reverts, and can then talk out if it makes sense to dig in."
 
-Instead of this building trust and making your next investment easier to advocate for, you'll feel like you've dug yourself into a hole.
+That's a real choice
 
 *** Scenario 2: Nasty Legacy Code
 
 Your product has a couple gnarly old features that only your earliest customers still use -- and, bonus, they're written on their own Very Special tech stack, that you're not using anywhere else.
 
-But guess what: your CEO *personally* acquired those customers in the early days of the business. And he is *oddly reluctant* to retire those hoary old product features and run the risk of pissing off and potentially churn those customers.
+But guess what: your CEO *personally* acquired those customers in the early days of the business. And he is *oddly reluctant* to retire those hoary old product features and run the risk of pissing off and potentially churn those Very Special early customers.
 
 Meanwhile, your product team visibly seethes at the idea of taking months to move those old, barely-used-by-anyone features to the current tech stack.[fn:: I mean, *obviously*, this is actually a conflict between the CEO and the Product team. But at a wild guess from here in the footnotes, at *your* company they've both somehow succeeded in convincing themselves that this is an engineering issue. At a guess.]
 
@@ -351,112 +325,6 @@ You propose enabling parallel development across multiple teams by inserting an 
 You propose creating tooling to allow the help-desk to fix a slew of data issues that are currently requiring your team to spend hours a week executing SQL updates by hand. You guessed it -- your stakeholder would be happy to say yes, if they knew how long it would take.
 
 Your backup regimen hasn't been reviewed in a while, you've raised sufficiently economic fear for your stakeholder to agree to some work to verify safer backups -- how long will that take?
-
-** Tech Investments Aren't Exactly Projects and Don't Exactly End
-
-It's extremely tempting to think about tech investments through the lens of "projects".
-
-We've spec'd out a project, and we're going to do X, Y and Z, and be done by such-and-such a date.
-
-There's something useful in this, but you have to be very careful about how you define the "goal" of the project.
-
-To see why, let's return to our friend Bertha the economically rational investor.
-
-Say you've convinced a stakeholder to "let" your team work on the problem of sluggish site performance. That stakeholder has asked you how long the work will take.
-
-Now, you want to create as much value for your business as possible.
-
-So you ask Bertha, the arbiter of value:
-
-/Given what you know, how long *should* my team work on improving site performance? When should we tell our stakeholder that the work will be over? What will maximize company value?/
-
-Bertha would squint at you, and then say:
-
-/If you want to maximize value for the company, your team should work on improving site performance until precisely the moment that the net benefit of further site performance improvements is less than the net benefit of other work you could be doing, instead./
-
-Say you've just finished a project to deal with sluggish site performance.
-
-You SLI's have achieved an acceptable range, given current load.
-
-Everyone celebrates the "Improve Performance" project being over. Maybe there's a party.
-
-But then the next day, your site gets a huge influx of new users.
-
-These new users adore the base feature set, have very high expectations of responsiveness, and could care less about all the clever new extensions product has dreamed up.
-
-Given the above, it's likely economically optimal for your team to keep working on site performance, and not pivot back to expanding the feature set.
-
-But if you let yourself get drawn too tightly into the project formulation, no one will even be thinking about further potential site performance investments
-
-In fact, if you're extra unlucky, stakeholders who "gave you time" to "fix" the performance are going to be mad, because the site suddenly seems really sluggish again (see: huge increase in usage). What, are they supposed to let the team spend another month on these engineering issues?!? When are they going to get back to business needs?!
-
-Instead of thinking about tech investments primarily as projects, I think you're better served by thinking of them as a series of *decision points*.
-
-You do some chunk of work, make some improvements, build slightly clearer visibility. Then, based on what you've discovered, you decide: should we keep going down this road?
-
-# The companies that make better decisions, more often, are the companies that win.
-
-You want to get your stakeholder into a regular cadence of shared decision-making.
-
-# As part of that, you may need to retrain yourself to think about tech investments not as one-off projects, but as a steady series of opportunities to make choices together.
-
-# This can be particularly hard if you engineering team has developed a scarcity mindset around engineering-driven work. E.g. if you're only ever able to bargain your way into three weeks of "engineering" work in any year, it can feel like the idea of planning for a future shared decision is a fool's move.
-
-/"Fine, Dan, whatever, that *sounds* great"/ I can imagine you thinking, /"but how on earth am I supposed to get my stakeholder to buy into that?"/
-
-Your stakeholder is standing in front of you.
-
-They're waiting for you to tell them how long your first proposed investment is going to take.
-
-They are clearly *not* looking forward to "repeated discussions about potential tech investments", in the future.
-
-What do you say to them?
-
-If you've read this far, you'll know that I've helpfully tested out the strategy of "Explain the abstract theory of the value of decisions" to them, and seen it fail 100% of the time, and am ready to instead share what I *have* seen work.
-
-** Marketing
-Imagine we flip this around, to some part of the business where leaders are used to thinking about "positive" investments.
-
-For most B2B businesses, few things are more important than acquiring new, high-quality leads -- potential customers their sales team can talk to.
-
-# If you're helping run a B2B business, odds are good that you care very much about bringing high quality leads into the top of your sales funnel.
-
-Most B2B businesses therefore have a marketing team.
-
-That team spends various amounts of money, to run various campaigns, across various platforms, to acquire leads.
-
-They know how many dollars they spend, on average, to acquire a high-quality lead.
-
-They've developed a plan, which they're currently executing, spending money every month against various platforms.
-
-But then, one day, a new platform shows up, that the company has never advertised on before.
-
-The marketing team runs an initial campaign, spending $1,000.
-
-They promptly get back more high quality leads per dollar spent than on any other platform!
-
-Amazing.
-
-Should they now stop? Because that initial project is "over"? And they have a "plan", they need to get back to?
-
-Of course not.
-
-They should *change the plan*, based on the new information.
-
-If, by making an initial investment, they've discovered that there is even more value to be found, they should *increase* their investment -- not curtail it.
-
-Many tech investments function just this way -- there's a potential source of value, once you dig into it, you may very well find *more* value than you realized, and more than you were expecting to make, from your existing roadmap.
-
-Sometimes that's visibly positive value: "It'll only take another week to apply the new indexing scheme to the rest of our tables, and then the entire site should see better peformance".
-
-Sometimes that's risk-avoidance value: "Our initial security review made clear that things are much worse than we realized -- we think it's more valuable for the company to pause work on the feature roadmap and get to a lower risk state, immediately."
-
-But if your "engineering project" is "over", no one is going to be looking for further investment opportunities.
-
-Because, fundamentally, they're thinking about it is an "unpleasant" project they've been forced to do, not an investment that makes their company more valuable.
-
-You're going to gradually persuade people into working that way.
-
 
 
 ** Timebox To a Next Interesting-Sounding Decision
@@ -523,3 +391,172 @@ Then, they ask: "So, how long will this take?"
 And stare expectantly at you.
 
 And, boom, you're right back in one of the most fun parts of being an engineering leader.
+
+
+** Old Intro To "Estimates Are Hard"
+Obviously, estimates are always tricky.
+
+But they're often *extra* tricky for technical investments.
+
+When digging into complex and uncertain parts of your systems (of both the technical and social varieties), it can be difficult when you start to even *understand your options*.
+
+Which makes it nearly impossible to commit to a time estimate to achieve some cleanly visible outcome.
+
+# Satoe Sakuma said this well, "It's like you're going into a cave, and the first step is just bringing in some light. But then, when they ask you how long it will take"
+
+Once again, let's put ourselves in our stakeholder's shoes.
+
+Let's say we have a stakeholder who is not yet in a habit of regularly co-prioiritizing technical investments with engineering.
+
+Even if that stakeholder fully embraces an iterative approach to software development (which is a best case, not always achieved in reality)...
+
+...there's still a very good chance that, as they're considering a technical investment you've proposed, they're trying to limit the impact of this "unpleasant temporary distraction" on their current goals.
+
+They're reviewing the sprawling list of things things they've been asked to do.
+
+They're reviewing the painfully smaller list of things they believe are possible -- and getting ready to eject a few things from that list.
+
+# They're actively rejiggering their mental map of the next month or two.
+
+They're thinking, "Which people am I going to disappoint in order to solve this 'engineering problem'?"[fn:: It's not an engineering problem! It's an opportunity for investment. You'll get there eventually]
+
+They're likely preparing to bargain you down from whatever your initial "request" for time turns out to be.[fn:: You're not making a request! You're exposing an opportunity for investment. Again, you'll get there eventually]
+
+# Remember their job is to disappoint everyone around them.
+
+So you have to say *something* to them -- you can't just say "I don't know, it'll take as long as it takes".
+
+
+
+** Old Scenario 1: Unreliable Deploys
+
+The deploy pipeline randomly fails for no clear reason, and when the team does successfully deploy, they end up reverting far too often.
+
+You have some developed some initial visibility showing that engineers are starting to deploy less frequently as a result.
+
+That, plus a some heavy leaning on Accelerate has your stakeholder ready to talk.
+
+They say, "How long will this take to fix?"
+
+How can you respond?
+
+If you knew *why* the pipeline was failing... it wouldn't be failing.
+
+Ditto for the post-deploy failures and reverts.
+
+You could take a *guess*, based on the team's current hunches about what's causing the unreliability, and say something like "We think we can likely improve things in about three weeks of time, for two engineers."
+
+What could those two engineers find when they dig in?
+
+If you're lucky, maybe they find some misconfigured CI/CD params. You're just a couple of arcane JSON or YAML config tweaks away from more reliable deploys.
+
+If you're *not* so lucky, they might discover that your entire build pipeline is, for deep-in-the-guts reasons, non-deterministically selecting versions to build, test and deploy. To get to a more reliable process, you're going to have to restructure that pipeline at a fairly deep level.
+
+If you're *super, super not lucky*, this might be the moment you realize that fundamental architectural choices made long ago are forcing multiple teams to all frequently change the same hotly contested parts of your codebase, and that's causing *genuine conflicts*. The repeated deploy failures are actually the CI/CD process *doing its job*. You don't have to update your deploy process... you just have to update the most fundamental abstractions in your code. Easy peasy.
+
+In the latter two cases, you're going to reach the end of your three week period, and not only is your stakeholder going to expect everyone to return to fully focusing on the original feature work, but, *you won't be able to show them any visible improvements*.
+
+Instead of this building trust and making your next investment easier to advocate for, you'll feel like you've dug yourself into a hole.
+** Tech Investments Aren't Exactly Projects and Don't Exactly End
+
+It's extremely tempting to think about tech investments through the lens of "projects".
+
+We've spec'd out a project, and we're going to do X, Y and Z, and be done by such-and-such a date.
+
+There's something useful in this, but you have to be very careful about how you define the "goal" of the project.
+
+To see why, let's return to our friend Bertha the economically rational investor.
+
+Say you've convinced a stakeholder to "let" your team work on the problem of sluggish site performance. That stakeholder has asked you how long the work will take.
+
+Now, you want to create as much value for your business as possible.
+
+So you ask Bertha, the arbiter of value:
+
+/Given what you know, how long *should* my team work on improving site performance? When should we tell our stakeholder that the work will be over? What will maximize company value?/
+
+Bertha would squint at you, and then say:
+
+/If you want to maximize value for the company, your team should work on improving site performance until precisely the moment that the net benefit of further site performance improvements is less than the net benefit of other work you could be doing, instead./
+
+Say you've just finished a project to deal with sluggish site performance.
+
+You SLI's have achieved an acceptable range, given current load.
+
+Everyone celebrates the "Improve Performance" project being over. Maybe there's a party.
+
+But then the next day, your site gets a huge influx of new users.
+
+These new users adore the base feature set, have very high expectations of responsiveness, and could care less about all the clever new extensions product has dreamed up.
+
+Given the above, it's likely economically optimal for your team to keep working on site performance, and not pivot back to expanding the feature set.
+
+But if you let yourself get drawn too tightly into the project formulation, no one will even be thinking about further potential site performance investments
+
+In fact, if you're extra unlucky, stakeholders who "gave you time" to "fix" the performance are going to be mad, because the site suddenly seems really sluggish again (see: huge increase in usage). What, are they supposed to let the team spend another month on these engineering issues?!? When are they going to get back to business needs?!
+
+Instead of thinking about tech investments primarily as projects, I think you're better served by thinking of them as a series of *decision points*.
+
+You do some chunk of work, make some improvements, build slightly clearer visibility. Then, based on what you've discovered, you decide: should we keep going down this road?
+
+# The companies that make better decisions, more often, are the companies that win.
+
+You want to get your stakeholder into a regular cadence of shared decision-making.
+
+# As part of that, you may need to retrain yourself to think about tech investments not as one-off projects, but as a steady series of opportunities to make choices together.
+
+# This can be particularly hard if you engineering team has developed a scarcity mindset around engineering-driven work. E.g. if you're only ever able to bargain your way into three weeks of "engineering" work in any year, it can feel like the idea of planning for a future shared decision is a fool's move.
+
+/"Fine, Dan, whatever, that *sounds* great"/ I can imagine you thinking, /"but how on earth am I supposed to get my stakeholder to buy into that?"/
+
+Your stakeholder is standing in front of you.
+
+They're waiting for you to tell them how long your first proposed investment is going to take.
+
+They are clearly *not* looking forward to "repeated discussions about potential tech investments", in the future.
+
+What do you say to them?
+
+If you've read this far, you'll know that I've helpfully tested out the strategy of "Explain the abstract theory of the value of decisions" to them, and seen it fail 100% of the time, and am ready to instead share what I *have* seen work.
+** Marketing
+Imagine we flip this around, to some part of the business where leaders are used to thinking about "positive" investments.
+
+For most B2B businesses, few things are more important than acquiring new, high-quality leads -- potential customers their sales team can talk to.
+
+# If you're helping run a B2B business, odds are good that you care very much about bringing high quality leads into the top of your sales funnel.
+
+Most B2B businesses therefore have a marketing team.
+
+That team spends various amounts of money, to run various campaigns, across various platforms, to acquire leads.
+
+They know how many dollars they spend, on average, to acquire a high-quality lead.
+
+They've developed a plan, which they're currently executing, spending money every month against various platforms.
+
+But then, one day, a new platform shows up, that the company has never advertised on before.
+
+The marketing team runs an initial campaign, spending $1,000.
+
+They promptly get back more high quality leads per dollar spent than on any other platform!
+
+Amazing.
+
+Should they now stop? Because that initial project is "over"? And they have a "plan", they need to get back to?
+
+Of course not.
+
+They should *change the plan*, based on the new information.
+
+If, by making an initial investment, they've discovered that there is even more value to be found, they should *increase* their investment -- not curtail it.
+
+Many tech investments function just this way -- there's a potential source of value, once you dig into it, you may very well find *more* value than you realized, and more than you were expecting to make, from your existing roadmap.
+
+Sometimes that's visibly positive value: "It'll only take another week to apply the new indexing scheme to the rest of our tables, and then the entire site should see better peformance".
+
+Sometimes that's risk-avoidance value: "Our initial security review made clear that things are much worse than we realized -- we think it's more valuable for the company to pause work on the feature roadmap and get to a lower risk state, immediately."
+
+But if your "engineering project" is "over", no one is going to be looking for further investment opportunities.
+
+Because, fundamentally, they're thinking about it is an "unpleasant" project they've been forced to do, not an investment that makes their company more valuable.
+
+You're going to gradually persuade people into working that way.
