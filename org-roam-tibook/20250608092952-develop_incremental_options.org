@@ -150,13 +150,13 @@ Your stakeholder isn't just asking for an estimate to be a jerk, they're asking 
 
 And, ideally, you want to help them solve that problem.
 
-** The Two Key Decisions a Stakeholder Needs to Make
+** The Nature of the Challenge Facing a Stakeholder
 
 Thanks to the information you've shared with them, your stakeholder has a new problem to solve.
 
 That is *why they're asking for an estimate*.
 
-They want to use it to make a pair of *decisions*.
+They want to use it to make a pair of *decisions* (they may not conciously think about it that way, to be clear).
 
 First, they need to decide how much planned near-term work to throw overboard, in order to free up capacity.
 
@@ -164,19 +164,21 @@ An estimate would let them do so.
 
 Second, they need to decide how to update their picture of their *medium-term* goals.
 
-If you have an even vaguely rational stakeholder, they won't think of those medium-term goals as rigidly fixed -- but they *will* have some mental model of the order in which they're going to get to them, various risks that could delay various steps, etc.[fn:: If your stakeholder is running this in full 'project management' mode, and does not have any flexibility in how they think of medium-term goals, then, first, siiiiigh. Second, you may need to bootstrap a reasonable product function within your org, and doing so is sadly beyond the scope of this book. Check out Escaping the Build Trap by Melissa Perri for ideas.]
+If you have an even vaguely rational stakeholder, they won't think of those medium-term goals as rigidly fixed -- but they *will* have some mental model of the order in which they're going to get to them, risks that could delay various steps, etc.[fn:: If your stakeholder is *not* at all flexible, and is running this in full-on 'project management' mode, then, first, siiiiigh. Second, *someone* may need to bootstrap a product function within your org, for your company to have any chance of winning. Doing so is sadly beyond the scope of this book -- check out Escaping the Build Trap by Melissa Perri for ideas.]
 
-A core part of your stakeholder's job is using their evolving medium-term picture to *collaborate* with people across the company -- be that planning rollouts, conducting trainings, preparing sales materials, or the like.
+A core part of your stakeholder's job is using their evolving medium-term picture to *collaborate* with people across the company -- be that planning rollouts, scheduling trainings, preparing sales materials, or the like.
 
 All of those are *genuinely important* business actions.
 
 Having an estimate of how long the team will need to focus on this new problem would let your stakeholder update their medium-term picture, and start thinking about when to alert various peers to changes in schedule, etc.
 
-The key is that, even if you can't give them a meaningful estimate, you can still help them with both of these challenges.
+Of course, you can't give them that estimate.
+
+But you *can* still help them with these challenges.
 
 Let's see how.
 
-** Timebox and Commit to a Next Decision Point
+** Timebox and Commit to a Decision Point
 
 Let's illustrate this with our running story, from the last chapter.
 
@@ -204,37 +206,45 @@ Note how the engineering leader is offering a carefully time-boxed increment tha
 
 The milestone is, in essence: build a thing in no more than 3 weeks that will *both* create some incremental improvements *and* allow the stakeholder and the eng leader to make a collaborative decision about what to do next.
 
-This helps the stakeholder with *both* of their problems.
+This offer helps the stakeholder with *both* of their problems.
 
-For the short-term, the engineer leader has given them a very precise bound on how much capacity they'll need -- it's three weeks for Andrea, no more, no less (and, in our case, the engineering leader offered some creative brainstorming about how to free up Andrea's time).
+For the short-term, the engineer leader has given them a precise bound on how much capacity they'll need -- it's three weeks for Andrea, no more, no less (and, in our scenario, the engineering leader offered some creative brainstorming about how to free up Andrea's time -- that's a very nice bonus if you can do it).
 
 For the medium-term, the engineering leader has done two things.
 
-First, they've forecast a couple of *possibilities*: spending time on proactive load testing, digging in and remediating bottlenecks, or, just conducting ongoing monitoring ("keep an eye on performance").
+First, they've forecast a couple of *possibilities*:
 
-Such "potential follow ups" allow a stakeholder to update their evolving picture of the medium-term.
+ - Spending time on proactive load testing
 
-If they ask follow up questions to flesh something out (e.g. "What might be involved in load testing?") that generally leads to a very productive conversation.
+ - Digging in and remediating bottlenecks
 
-The second thing the engineering leader has done is to *set a next decision point*.
+ - Returning to planned work but "keeping an eye" on performance
 
-The stakeholder can use that to make concrete decisions about who to communicate with now, who to wait until after they hit that decision point.
+Such *potential follow ups* allow a stakeholder to update an evolving picture of the medium-term.
 
-Also note how, on the engineering side, the *outcome* for the work is:
+They might ask follow up questions to flesh out their understanding (e.g. "What might be involved in load testing?"). I have generally found those to be very productive conversations.
+
+The second thing the engineering leader has done is to *set a next decision point*:
+
+ - In three weeks, we'll meet, we'll have more information, and we can decide what to do next..
+
+Knowing when that next decision point is coming allows the stakeholder to make concrete decisions, right now, about who to communicate with immediately, who to wait until after they hit that decision point, etc.
+
+Let's now flip it around and see if from the engineering side.
+
+We've defined a clean milestone, with an *outcome* of:
 
 *Support a "what do we do next?" decision*
 
-An engineer working towards such an outcome has a great deal of flexibility to adjust scope while still hitting the exact date of the decision.
+It also prompts the engineers to ask an incredibly valuable question:
+
+/What information is most important, in making this decision?/
+
+An engineer working towards such a "decision" outcome has a great deal of flexibility to adjust scope.
 
 E.g. if Andrea discovers that adding the SLI's is more work than expected, she can shrink her scope to the 1-2 very most important ones and bring those to a conversation with the engineering leader and the stakeholder.
 
-You're then having exactly the conversation with the stakeholder you promised -- we have this initial visibility, we can now decide if it's sufficient, if we need more visibility, or if we see problems we want to immediate focus on.
-
-It also prompts the engineers to ask you and the stakeholder:
-
-/What information is most important to you, in making this decision?/
-
-Which can be a *great* conversation.
+That would allow the engineering leader to have precisely the conversation with the the stakeholder that they promised: we have this initial visibility, we can now decide if it's sufficient, and what next steps we want to take.
 
 ** Some Challenges in Estimating Tech Investments
 *** Intro
