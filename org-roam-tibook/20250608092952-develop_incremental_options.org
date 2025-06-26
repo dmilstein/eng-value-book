@@ -5,12 +5,13 @@
 #+filetags: :Chapter:
 
 * Offer Increments With Embedded Decisions
+
+** Intro
+
 # Build Milestones Around Decisions
 # Offer A Next Decision Point
 # Offer a Timeboxed Next Decision Point
 # Maybe retitle "Set Milestones to Enable Decisions"
-
-** Intro
 
 Let's review where things ended, in our last chapter, for the engineering leader we featured there.
 
@@ -150,7 +151,7 @@ Your stakeholder isn't just asking for an estimate to be a jerk, they're asking 
 
 And, ideally, you want to help them solve that problem.
 
-** The Challenge Facing a Stakeholder
+** The Challenge Facing Your Stakeholder
 
 Thanks to the information you've shared with them, your stakeholder has a new problem to solve.
 
@@ -234,17 +235,19 @@ Let's now flip it around and see if from the engineering side.
 
 We've defined a clean milestone, with an *outcome* of:
 
-*Support a "what do we do next?" decision*
+*Support a decision about "what do we do next?"*
 
-It also prompts the engineers to ask an incredibly valuable question:
-
-/What information is most important, in making this decision?/
-
-An engineer working towards such a "decision" outcome has a great deal of flexibility to adjust scope.
+An engineer working towards such a "decision outcome" has a great deal of flexibility to adjust scope.
 
 E.g. if Andrea discovers that adding the SLI's is more work than expected, she can shrink her scope to the 1-2 very most important ones and bring those to a conversation with the engineering leader and the stakeholder.
 
-That would allow the engineering leader to have precisely the conversation with the the stakeholder that they promised: we have this initial visibility, we can now decide if it's sufficient, and what next steps we want to take.
+That would allow the engineering leader to have precisely the conversation with the stakeholder that they promised: we have this initial visibility, we can now decide if it's sufficient, and what next steps we want to take.
+
+Also, such a decision outcome hopefully prompt the engineers to ask:
+
+/What information will the engineering leader and stakeholder need to make this decision?/
+
+Which is a *great* question for them to ask.
 
 ** Turning Estimates Into Timeboxed Decision Points
 
@@ -258,33 +261,45 @@ For each, we'll set it up where the decision point may feel tricky, and then we'
 
 *** Scenario 1: Unreliable Deploys
 
-The deploy pipeline randomly fails for no clear reason, and when the team does successfully deploy, they sometimes end up emergency reverting in exciting ways.
+The deploy pipeline randomly fails for no clear reason.
 
-You have developed some rough initial visibility showing that engineers are starting to deploy less frequently as a result.
+When the team does successfully deploy, they frequently end up emergency reverting in exciting ways.
+
+You and the team have developed some rough initial visibility showing that engineers are starting to deploy less frequently as a result.
 
 That plus a heavy dose of Accelerate has your stakeholder ready to talk.
 
-However, there is a simply huge range of possible problems that could be at the heart of slow deploys.
+But, if you want to make *any* kind of estimate, you're in a tough place.
 
-It could be anything from trivially misconfigured CI/CD parameters, all the way to fundamental architectural choices that are causing genuine conflicts between multiple teams.
+Because, there is a simply huge range of possible problems that could be causing unrelaible deploys.
 
-"Fixing the problem" can take anywhere from a few days to multiple years.
+It could be anything from some trivially misconfigured CI/CD parameters, all the way to fundamental architectural choices that are causing genuine conflicts between multiple teams.
 
-Thus, the next decisions will be driven by three progressively stronger forms of visibility:
+Thus, the "next decisions" that you and the stakeholder need to make will be best supported by three progressively stronger forms of visibility:
 
- - How bad are the overall Accelerate metrics?
+ - How bad are the deploys, overall? (aka gather the Accelerate metrics)
 
- - If one or more are bad, what are the underlying problems?
+ - Once we know which facet of deploys is bad, what is the underlying problems?
 
- - What are the options to address those problems?
+ - What are the options to address that problems?
 
-You can progressively move through that list, offering a decision point around the next level of visibility and forecasting some of your current guesses of what might come next.
+You can progressively move through that list, at each step, offering a next decision point around the next level of visibility and a forecast of some of your current guesses of what might come next.
 
 E.g. partway through that might look like:
 
-"Our biggest problem seems to be revert frequency -- we're okay on lead time and deploy frequency but engineers are having to rollback about 20% of the time on average, which is a huge drag on velocity. I've talked to the team, and they think there are a couple of buckets those reverts fall into, based on what breaks when they deploy. We're going to start tracking those categories in the PR's for the rollbacks. At least two of them seem driven by the masthead, because it has such weird knowledge of all the separate systems. The other bucket is, unfortunately, issues in the ancient legacy reports. In two weeks, we should be able to see some data on which bucket has the most reverts, and can then talk out if it makes sense to dig in."
+"We're okay on lead time and deploy frequency but we have a major problem with revert frequency.
 
-That's a real choice
+Over the last month, engineers had to rollback just short of 20% of their deploys. That's  huge drag on velocity *plus* an unpleasant customer experience.
+
+We strongly recommend spending some time, now, to see if we can improve that.
+
+I've talked to the team, and they think there are a couple of buckets those reverts fall into, based on what breaks when they deploy.
+
+One bucket is "bugs in the navigation masthead", which has weird knowledge of all the separate systems. The team has done some work on the masthead in the last year, if we have to dig in here, we should have some reasonable options.
+
+Another bucket, unfortunately, seems to be issues in the ancient legacy reports, which no one knows how to safely change. If that turns out to be a major driver of problems, we'll have to dig in to learn more.
+
+In any event, starting today, we're going to spend a bit of extra time *categorizing* all the reverts and also checking in about them during standups every morning. That way, we can review what we've learend in two weeks, and talk about options for next steps at that point."
 
 *** Scenario 2: Nasty Legacy Code
 
