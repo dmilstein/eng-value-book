@@ -6,6 +6,8 @@
 
 * Offer Increments With Embedded Decisions
 # Build Milestones Around Decisions
+# Offer A Next Decision Point
+# Offer a Timeboxed Next Decision Point
 # Maybe retitle "Set Milestones to Enable Decisions"
 
 ** Intro
@@ -14,23 +16,23 @@ Let's review where things ended, in our last chapter, for the engineering leader
 
 She worked with her engineers to dig into various concerns.
 
-As she did so, she consulted in her mind with Bertha, her economically rational investor imaginary friend, to understand how addressing each of those concerns could increase a probablistic estimates of future profits -- and therefore create value for the business.
+As she did so, she consulted in her mind with Bertha, her economically rational investor (slash imaginary friend), to understand how addressing each of those concerns could potentially increase a probablistic estimate of future profits -- and therefore create value for the business.
 
 With Bertha's help, she narrowed down the list of opportunities to a single leading contender: improving site performance (which the engineers had initially described as "the database seems unhappy").
 
 She took time to practice the skills of tactical empathy, and then deployed those skills on building rapport with her key stakeholder.
 
-Then, we she met with that stakeholder to pitch an investment in creating visibility into site performance, she spoke to her stakeholder's fears (/"worst case, many of those pages could potentially seem broken."/ ) and their hopes (/"guarantee an excellent experience for the first Enterprise customers who commit to Forms 2.0."/)
+Then, we she met with that stakeholder to pitch an investment in creating visibility into site performance, she spoke to both her stakeholder's fears (/"worst case, many of those pages could potentially seem broken."/ ) and their hopes (/"guarantee an excellent experience for the first Enterprise customers who commit to Forms 2.0."/)
 
 She offered some initial visibility that she and her team had built "on the side" as a means to understand why investment is indicated now and not later (/"Enterprise customers who use the old, legacy Forms 1.0 product, all have *much* bigger data sets than we've seen for the new Form 2.0 in production so far"/)[fn:: This is a very useful form of visibility -- the use patterns of customers in different segments should absolutely inform investment.]
 
-She focused her initial pitch for investment on building visibility.
+She focused her initial pitch for investment on building further visibility. (/"We'd like to propose that we commit time to building a clearer picture of our capacity limits"/)
 
 # XXX Mix in the basic DB server CPU monitoring? If so, mix it back into previous chapter.
 
 To her surprise and delight... her stakeholder was convinced.
 
-But then, before the enginering leader feel good for even a minute, her stakeholder asked: /"How long will this project take?"/
+But then, before the enginering leader could feel good for even a minute, the stakeholder asked: /"How long will this project take?"/
 
 And then promptly blew right past the proposed focus on visibility, and instead demanded a time estimate for achieving the ultimate outcome:
 
@@ -40,9 +42,9 @@ What can our engineering leader friend say?
 
 She has *literally no idea* how long it would take to improve performance for enterprise users -- she doesn't actually even know yet if there's a performance issue for enterprise users yet! That's why she's proposing an investment in building visibility!
 
-But her stakeholder is staring expectantly at her. And clearly hasn't fully agreed to this proposed investment yet.
+But her stakeholder is staring expectantly at her.
 
-** Some Supposedly Fun Ways To Estimate That I'll Never Do Again
+** Some Supposedly Fun Ways To Estimate That I'll Never Try Again
 
 # Some Options I Can *Not* Recommend When Asked For An Estimate For a Tech Investment
 
@@ -58,7 +60,7 @@ Except they won't call it a hunch.
 
 They'll say:
 
-/"We *know* what the problem is. We just need some time to fix it. We can get it done in a week, easy."/
+/"We totally *know* what the problem has to be. We just need some time to fix it. We can get it done in a week, easy."/
 
 Engineers (who I love! Because I am one!), will say this with perfect confidence...
 
@@ -74,60 +76,61 @@ If your team announces they know how to fix a problem...
 
 ...I strongly recommend that you just *nod and smile*.
 
-/"Oh, yes,"/ you can say, /"that sounds *extremely* likely. I can't wait to dig in!"/
+/"Oh, yes,"/ you say, /"that sounds *extremely* likely. I can't wait to dig in!"/
 
 But under no circumstances should you turn around and use this to scope a project with your stakeholder.
 
-You might think to yourself: "I'm no fool. I'll pad that estimate. That way, even if the engineers were a little optimistic, we'll still get it done".
+You might think to yourself: "I'm no fool. I'll *pad* that estimate. That way, even if the engineers were a little optimistic, we'll still get it done".
 
 # Mama didn't raise no foolish engineering manager
 
-You might then say to your stakeholder "The team knows what to do, we just need three weeks."
+You might say to your stakeholder "The team knows what to do, we just need three weeks."
 
 And pat yourself on the back for the 3x padding, in going from one week to three.
 
 Ohmygod, please don't do this.
 
-Look back at our running example, which is typical of so many potential technical investments: there's some *risk* of bad performance for enterprise customers.
+Look back at our running example, which is typical of so many potential technical investments: there's a *risk* of bad performance for enterprise customers.
 
-Maybe the team is convinced Enterprise customers are going to take a hit because of how data gets loaded into the front-end.
+Let's say your team tells you their certain they know what the problem is.
 
-What might the team find in those three weeks of work?
+They've long been unhappy about how much data gets shipped to the browser.  They are *convinced* Enterprise customers are going to take a hit because they have much larger data sets. It's time to implement pagination.
 
-Well, if you're *extraordinarily* lucky, you'll be able to build sufficient visibility into actual enterprise performance, then apply the fix the engineers "knew" was the problem, then verify that it worked, and share the results with your stakeholder.
+But the team has *not* measured overall performance for anyone, they haven't profiled requests in production, they have no load tests, etc.
+
+What might the team find in those three weeks of work, when they go to add pagination to only send smaller chunks of data in response to each request... which they "know" will make things much better?
+
+Well, if you're *extraordinarily* lucky, they'll be able to build sufficient visibility into actual enterprise performance, *then* apply the fix they "knew" was the problem, then verify that it worked, then share the results with your stakeholder.
 
 But that, um, almost never happens?
 
 Instead, you'll essentially always get hit by some combination of:
 
- - It's harder to build sufficient visibility than the team realized
+ - *It's harder to build visibility than the team expected*
 
- - The visibility, once built, shows the the problem isn't where the team thought it was
+   E.g. user-perceived load time is driven both by server-side response time and client-side render time... and it turns out to be deeply non-trivial to link those two up.
 
- - Fully addressing the actual problem turns out to be much harder than anyone hoped
+   Or the team adds detailed monitoring to production, but customers only do the "heavy" actions once in a while, so there's no visibility yet.
 
-So then you're sitting there, in three weeks, with nothing to show your stakeholder, and with them expecting to have full focus return to "business needs", not your "engineering issues".
+   Or the team tries to reproduce issues outside of production, but everything performs suspiciously well. They think they need some form of concurrent load, but they haven't got that implemented yet.
 
-That digs you a hole, it does not build trust and rapport.
+ - *The visibility, once built, shows the the problem isn't where the team thought it was*
 
+   Maybe it turns out that the database is struggling to generate responses for Enterprise customers at all, so the pagination idea makes things *worse*, not better (because the system now hits the database every time the user advances a page, instead of once up front).
 
-*** Refuse Outright
+   Or, it's something that literally no one was thinking about -- e.g. the team discover there's a series of weird hops through various gateway servers, and one of those gets transiently overloaded and then slows everything down for a period. And it's been hitting all customers, but only the Enterprise customers have enough clout for the team to hear about it.
 
-You could simply tell the stakeholder: "We have no idea how long this will take. We know you'll appreciate our being honest! You're welcome!"
+ - *Fully addressing the actual problem turns out to be much harder than anyone hoped*
 
-I mean, this is *true*, but it's not exactly *helpful*.
+   The team discovers that some engineer early in the company's history re-invented the Entity Attribute Value pattern, and half your customers are storing arbitrary data in implicit per-customer schemas, which are literally impossible to sanely index.
 
-Your stakeholder is trying to make some really important *decision* in this moment, based on the new information that you've just shared with them.
+# XXX What the hell is the name of that thing? Is Entity Attribute? Entity Attribute Value?
 
-First, they're trying to decide what work they'll need to immediately deprioritize, in order to free up capacity.
+If almost any of those Bad Things happen (and you're just about guaranteed that one will), you'll find yourself, when your three weeks are up, in a very tough spot.
 
-But they're *also* trying to update their picture of their medium-term goals -- to decide if they need to start socializing a change in expectations with other people, or an adjustment to some external deadline.
+Your stakeholder is expecting the "engineering issues" to be resolved, and to now "get back" the team's full capacity to focus on "business needs".
 
-Both of those are genuinely important business decisions.
-
-They need more information to make them well.
-
-So telling them *nothing* isn't great.
+That is a crappy, crappy place to be.
 
 *** Give a Brief Primer on Company Value & Information Theory
 
@@ -135,7 +138,46 @@ Yeah, sigh. I so wish this worked.
 
 If you pull this off, please let me know, and I will buy you all the beers to learn more.
 
-** Commit to a Next Meaningful Decision Point
+*** Refuse Outright
+
+You could simply tell the stakeholder:
+
+/We have literally no idea how long this will take./
+
+I mean, this is... *true*, but it's not exactly *helpful*.
+
+Your stakeholder isn't just asking for an estimate to be a jerk, they're asking because the new information you've shared, as part of your pitch for a tech investment, has *created a new problem for them*.
+
+And, ideally, you want to help them solve that problem.
+
+** The Two Key Decisions a Stakeholder Needs to Make
+
+Thanks to the information you've shared with them, your stakeholder has a new problem to solve.
+
+That is *why they're asking for an estimate*.
+
+They want to use it to make a pair of *decisions*.
+
+First, they need to decide how much planned near-term work to throw overboard, in order to free up capacity.
+
+An estimate would let them do so.
+
+Second, they need to decide how to update their picture of their *medium-term* goals.
+
+If you have an even vaguely rational stakeholder, they won't think of those medium-term goals as rigidly fixed -- but they *will* have some mental model of the order in which they're going to get to them, various risks that could delay various steps, etc.[fn:: If your stakeholder is running this in full 'project management' mode, and does not have any flexibility in how they think of medium-term goals, then, first, siiiiigh. Second, you may need to bootstrap a reasonable product function within your org, and doing so is sadly beyond the scope of this book. Check out Escaping the Build Trap by Melissa Perri for ideas.]
+
+A core part of your stakeholder's job is using their evolving medium-term picture to *collaborate* with people across the company -- be that planning rollouts, conducting trainings, preparing sales materials, or the like.
+
+All of those are *genuinely important* business actions.
+
+Having an estimate of how long the team will need to focus on this new problem would let your stakeholder update their medium-term picture, and start thinking about when to alert various peers to changes in schedule, etc.
+
+The key is that, even if you can't give them a meaningful estimate, you can still help them with both of these challenges.
+
+Let's see how.
+
+** Timebox and Commit to a Next Decision Point
+
 Let's illustrate this with our running story, from the last chapter.
 
 As a reminder, the engineering leader wrapped up the initial part of her pitch by saying:
@@ -160,21 +202,39 @@ A useful way to make that concrete, and to start to help the stakeholder make th
 
 Note how the engineering leader is offering a carefully time-boxed increment that ends with a *shared decision*
 
-The fundamental definition of the first stage of this technical investment is: build a thing in no more than 3 weeks that will both create some incremental improvements *and* allow the stakeholder and the eng leader to make a collaborative decision about what to do next.
+The milestone is, in essence: build a thing in no more than 3 weeks that will *both* create some incremental improvements *and* allow the stakeholder and the eng leader to make a collaborative decision about what to do next.
 
-Notice how this helps them both of their key decisions -- how do we free up capacity in the short term, *and* do we need to change our medium-term goals?
+This helps the stakeholder with *both* of their problems.
 
-For the former, the engineering leader is offering some creative problem-solving -- putting a key senior engineer on this technical investment will mean slowing planned work done, but they're brainstorming ways to make that okay. The product manager might change that plan, but by offering it, the eng leader is trying to jointly problem solve for the first decision.
+For the short-term, the engineer leader has given them a very precise bound on how much capacity they'll need -- it's three weeks for Andrea, no more, no less (and, in our case, the engineering leader offered some creative brainstorming about how to free up Andrea's time).
 
-For the second decision, around medium term expectations, the engineering leader sketches in some possible options (load testing, handling bottlenecks, etc), and makes clear a timeline on which they'll be able to update those options.
+For the medium-term, the engineering leader has done two things.
 
-Also note how, because the milestone is designed around a "what do we do next?" decision, the engineer working on it has enormous flexibility to adjust scope, and hit the deadline.
+First, they've forecast a couple of *possibilities*: spending time on proactive load testing, digging in and remediating bottlenecks, or, just conducting ongoing monitoring ("keep an eye on performance").
 
-If Andrea discovers that adding the SLI's is more work than expected, she can shrink her scope to the 1-2 very most important ones. You're then having exactly the conversation with the stakeholder you promised -- we have this initial visibility, we can now decide if it's sufficient, if we need more visibility, or if we see problems we want to immediate focus on.
+Such "potential follow ups" allow a stakeholder to update their evolving picture of the medium-term.
 
-It also prompts Andrea to, very usefully, ask you and the PM questions like:
+If they ask follow up questions to flesh something out (e.g. "What might be involved in load testing?") that generally leads to a very productive conversation.
 
- - What information is most important to you, in making this decision?
+The second thing the engineering leader has done is to *set a next decision point*.
+
+The stakeholder can use that to make concrete decisions about who to communicate with now, who to wait until after they hit that decision point.
+
+Also note how, on the engineering side, the *outcome* for the work is:
+
+*Support a "what do we do next?" decision*
+
+An engineer working towards such an outcome has a great deal of flexibility to adjust scope while still hitting the exact date of the decision.
+
+E.g. if Andrea discovers that adding the SLI's is more work than expected, she can shrink her scope to the 1-2 very most important ones and bring those to a conversation with the engineering leader and the stakeholder.
+
+You're then having exactly the conversation with the stakeholder you promised -- we have this initial visibility, we can now decide if it's sufficient, if we need more visibility, or if we see problems we want to immediate focus on.
+
+It also prompts the engineers to ask you and the stakeholder:
+
+/What information is most important to you, in making this decision?/
+
+Which can be a *great* conversation.
 
 ** Some Challenges in Estimating Tech Investments
 *** Intro
