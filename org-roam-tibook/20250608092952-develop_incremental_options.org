@@ -156,46 +156,45 @@ And, ideally, you want to help them solve that problem.
 
 # Thanks to the information you've shared with them, your stakeholder has some new problems.
 
-When a stakeholder offers to commit to a technical investment, they suddenly acquire:
+When a stakeholder considers committing to a technical investment, they suddenly acquire two new decisions to make, and one new fear to manage:
 
- a) Two new *decisions* to make
+ - *Decision 1: how can they make time to /start/ this work?*
 
- b) A new *fear* to manage
+   E.g. if the team is going to investigate performance issues in this next sprint, what planned stories or epics is the stalkeholder going to have to deprioritize?
 
-Those are, in brief:
-
- - *Decision 1: how will they make time to /start/ this work?*
-
-   If the team is going to investigate performance issues in this next sprint, what planned stories or epics is the stalkeholder going to have to deprioritize?
 
  - *Decision 2: what should they tell Other People about the impact on Other Goals?*
 
-   If it's going to take more than a sprint or two to improve enterprise performance, the team is going to have to drop *something* significant to make time.
+   If it's going to take more than a sprint or two to improve Enterprise performance, the team is going to have to drop *something* significant to make time.
 
-   e.g. maybe it's that one complex new feature that the Enterprise customers have been clamoring for. Your stakeholder has been hoping to build that -- they now have to decide if it's sufficiently at risk fof them to go and socialize that fact across your company.
+   e.g. maybe there's that complex new data view that the Enterprise customers have been clamoring for.
 
-   The stakeholder is going to have eventually tell *someone* this -- and they have likely learned that it's better to tell people bad news sooner than later.
+   Your stakeholder has been expecting to make real progress on that, over the next few months.
+
+   They now have to decide if that's at risk -- and if *is*, they need to go and socialize that fact across your company.
+
+   If the technical investment ends up taking real time, your stakeholder is going to have disappoint *someone*. And they have likely learned that it's better to tell people bad news sooner than later.
 
 
  - *Fear: if the work expands in scope, they will lose all control and won't be able to achieve their own goals*.
 
+   One of a stakeholder's biggest fears is that they'll end up stuck in some endless engineering-driven project, with *no way to stop*.
+
+   Any stakeholder who has worked with engineering has had at least one really unpleasant experience of estimates blowing up beyond all expectation, and finding themselves just mired for months and months, unable to resume forward motion.
+
+   Having that happen for a technical investment feels extra terrifying -- because the stakeholder may not feel like they understand options for shrinking scope.
+
 Ultimately, the reason they're asking for an estimate is to be able to make those decisions and to manage that fear -- *even if that's not how they're consciously thinking about it*.
 
-By understanding those underlying issues, we can find a way to help the stakeholder, *without committing to a false or damaging estimate*.
+If they had a good estimate stretching out into the future, they could *both* set expectations with Other People, *and* also hold the engineering team accountable to wrapping the investment up in a reasonable time frame.
 
-# We can break the decisions down into some that are immediate (i.e. the next sprint or two) and some that loom in the middle distance (i.e. in a couple of weeks or in a couple of months).
+Unfortunately, as per the previous section, for most technical investments, you won't, at this point, be able to give your stakeholder a sufficiently accurate estimate to allow them to solve these (very real!) problems.
 
-In the short term, the stakeholder needs to decide what planned work to throw overboard, to even get started.
+But, because we can understand those underlying issues, we can find a way to help the stakeholder, *without committing to a false or damaging estimate*.
 
-# which means deciding what *not* to do, right now.
+Before we walk through how to do so, I want to talk for a moment about how your stakeholder manages "medium-term" goals -- because those medium-term goals are what they're updating, in making Decision 2 ("Who do they need to tell about this shift?").
 
-# To support this decision, you need to give them a clean way to understand how much time the engineers need, for the very next few steps.
-
-Looking further out, they will eventually have to decide:
-
-*If this tech investment proves "large", when should they tell Other People about the impact on Other Goals?*
-
-If you have an even vaguely rational stakeholder, they won't think of their medium-term goals as rigidly fixed[fn:: If your stakeholder is *not* at all flexible, and is running your work purely using the tools of 'project management', then, first, siiiiigh. Second, I strongly suspect that, for your company to have any shot at winning, someone will need to bootstrap a product management function. Doing so is beyond the scope of this book -- check out Melissa Perri's truly excellent Escaping the Build Trap for ideas.]. Instead, they'll have some mental model of:
+If you have an even vaguely rational stakeholder, they won't think of their medium-term goals as completely rigidly fixed[fn:: If your stakeholder is *not* at all flexible, and is running your work purely using the rigid tools of 'project management', then, first, siiiiigh. Second, I strongly suspect that, for your company to have any shot at winning, someone will need to bootstrap a product management function. Doing so is beyond the scope of this book -- check out Melissa Perri's truly excellent Escaping the Build Trap for ideas.]. Instead, they'll have some mental model of:
 
  - The order in which they're going to get to various goals
 
@@ -203,25 +202,16 @@ If you have an even vaguely rational stakeholder, they won't think of their medi
 
  - Which other people need to be told about changes to which goals, and when
 
-A core part of your stakeholder's job is using this ever-evolving medium-term picture to *collaborate* with people across the company -- be that planning rollouts, scheduling trainings, preparing sales materials, or the like.
+A core part of your stakeholder's job is using this ever-evolving medium-term picture to *collaborate* with people across the company -- be that conducting user testing, planning rollouts, preparing sales materials, or the like.
 
-All of those are *genuinely important* business actions.
+All of those are *genuinely important* business actions -- and all have genuine lead-time challenges (meaning, the company needs to start preparing for them well in advance -- so having no idea when engineering will finish work injects all kinds of expensive delays).
 
-Having an estimate of how long the team will need to focus on this new problem would let your stakeholder update their medium-term picture, and start thinking about when to alert various peers to changes in schedule, etc.
+With our eye on those collaborations, we can find creative ways to help our stakeholder to make their key decisions and manage their fear.
 
-
-
-That latter one is particularly important -- one of a stakeholder's biggest fears (for, honestly, very, very good reasons), is that they'll end up stuck in some endless engineering-driven project, with *no way to get off the bus*.
-
-If they had a good estimate, they could both use that to set expectations with Other People, and also to hold the engineering team accountable to wrapping the investment up in a reasonable time frame.
+Let's see how.
 
 # They're asking for an estimate that stretches out past the next few weeks to as part of preparing both of these decisions.
 
-Of course, you can't give them that estimate.
-
-But you *can* still help them with these challenges.
-
-Let's see how.
 
 ** Timebox to a Decision, Options & Off-Ramps
 
