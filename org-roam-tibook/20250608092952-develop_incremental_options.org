@@ -1,10 +1,10 @@
 :PROPERTIES:
 :ID:       03D1870C-E583-4D5C-9589-5E0799793D48
 :END:
-#+title: Offer Decisions, Options & Off-Ramps
+#+title: Offer Decisions With Options & Off-Ramps
 #+filetags: :Chapter:
 
-* Offer Decisions, Options & Off-Ramps
+* Offer Decisions With Options & Off-Ramps
 ** Intro
 
 # Build Milestones Around Decisions
@@ -44,17 +44,17 @@ She has *literally no idea* how long it would take to improve performance for en
 
 But her stakeholder is staring expectantly at her.
 
-** Some Supposedly Fun Ways To Estimate That I'll Never Try Again
+What should she do?
 
-# Some Options I Can *Not* Recommend When Asked For An Estimate For a Tech Investment
+** Some Supposedly Fun Ways To Estimate That I'll Never Try Again
 
 # Some Supposedly Fun Ways To Estimate Tech Investments That I'll Never Use Again
 
-Yep, I've tried all of these and have the battle scars and failed projects to show for it.
+Yep, I've done all of these and have the battle scars and failed projects to show for it.
 
 *** Guess and Pad
 
-Often, when you go to propose a technical investment, your engineering team will have a hunch about what they need to do.
+Often your engineering team will have a hunch about what they need to do.
 
 Except they won't call it a hunch.
 
@@ -64,9 +64,11 @@ They'll say:
 
 Engineers (who I love! Because I am one!), will say this with perfect confidence...
 
-...even if they actually have absolutely *zero* understanding of what is causing a problem.
+...even if they have absolutely *zero* understanding of what is causing a problem.
 
-Honestly, I think it's just part of being an engineer -- we *know* that one part of the code was written in a dumb way, and now there's an issue, like, /near/ that code, it's *obviously* caused by it. We can already visualize how we want to clean up the code, and how much better things will be once we've done so.
+Honestly, I think it's just part of being an engineer -- we *know* that one part of the code was written in a dumb way, it's been bugging us /forever/. Now there's an issue /near/ that code, it's *obviously* caused by it.
+
+We can already visualize how we want to clean up the code, and how much better things will be once we've done so.
 
 If your team announces they know how to fix a problem...
 
@@ -90,11 +92,13 @@ And pat yourself on the back for the 3x padding, in going from one week to three
 
 Ohmygod, please don't do this.
 
-Look back at our running example, which is typical of so many potential technical investments: there's a *risk* of bad performance for enterprise customers.
+Look back at our running example, which is typical of so many potential technical investments: there's a *risk* of bad performance for enterprise customers, but you don't even yet know what the performance for enterprise customers actually *is*.
 
 Let's say your team tells you their certain they know what the problem is.
 
-They've long been unhappy about how much data gets shipped to the browser.  They are *convinced* Enterprise customers are going to take a hit because they have much larger data sets. It's time to implement pagination.
+They've long been unhappy about how much data gets shipped to the browser.  They are *convinced* Enterprise customers are going to take a hit because they have much larger data sets.
+
+It's time to finally implement pagination!
 
 But the team has *not* measured overall performance for anyone, they haven't profiled requests in production, they have no load tests, etc.
 
@@ -106,35 +110,39 @@ But that, um, almost never happens?
 
 Instead, you'll essentially always get hit by some combination of:
 
- - *It's harder to build visibility than the team expected*
+ - *It's hard to build visibility*
 
    E.g. user-perceived load time is driven both by server-side response time and client-side render time... and it turns out to be deeply non-trivial to link those two up.
 
    Or the team adds detailed monitoring to production, but customers only do the "heavy" actions once in a while, so there's no visibility yet.
 
-   Or the team tries to reproduce issues outside of production, but everything performs suspiciously well. They think they need some form of concurrent load, but they haven't got that implemented yet.
+   Or the team tries to reproduce issues outside of production, but they need to generate significant concurrent load and that turns out to be a real engineering challenge of its own.
 
- - *The visibility, once built, shows the the problem isn't where the team thought it was*
+ - *The problem isn't what the team thought it was*
 
-   Maybe it turns out that the database is struggling to generate responses for Enterprise customers at all, so the pagination idea makes things *worse*, not better (because the system now hits the database every time the user advances a page, instead of once up front).
+   It turns out that the database is struggling to generate responses for Enterprise customers at all, so the pagination idea makes things *worse*, not better (because the system now hits the database every time the user advances a page, instead of once up front).
 
-   Or, it's something that literally no one was thinking about -- e.g. the team discover there's a series of weird hops through various gateway servers, and one of those gets transiently overloaded and then slows everything down for a period. And it's been hitting all customers, but only the Enterprise customers have enough clout for the team to hear about it.
+   Or, it's something that literally no one was thinking about -- e.g. the team discover there's a series of weird hops through various gateway servers, and one of those gets transiently overloaded and then slows everything down for a period. And it's been hitting *all* customers, but only the Enterprise customers have enough clout for the team to hear about it.
 
- - *Fully addressing the actual problem turns out to be much harder than anyone hoped*
+ - *The problem is very hard to fully solve*
 
-   The team discovers that some engineer early in the company's history re-invented the Entity Attribute Value pattern, and half your customers are storing arbitrary data in implicit per-customer schemas, which are literally impossible to sanely index.
+   The team discovers that some engineer early in the company's history re-invented the Entity Attribute Value pattern, and half your customers are storing arbitrary data in implicit per-customer schemas, which are literally impossible to sanely index, and there's no way to change that without fundamentally rethinking what the product promises to your customers. Good times!
 
-# XXX What the hell is the name of that thing? Is Entity Attribute? Entity Attribute Value?
+If almost any of those Bad Things happen (and you're just about guaranteed that at least one will), you'll find yourself, when your three weeks are up, in a very tough spot.
 
-If almost any of those Bad Things happen (and you're just about guaranteed that one will), you'll find yourself, when your three weeks are up, in a very tough spot.
+Your stakeholder is now expecting the "engineering issue" to be resolved, and to "get back" the team's full capacity to focus on "business needs".
 
-Your stakeholder is expecting the "engineering issues" to be resolved, and to now "get back" the team's full capacity to focus on "business needs".
+Not only do you have nothing to show them, but you may have discovered that you urgently want to spend even *more* time on addressing the issues you've uncovered.
 
 That is a crappy, crappy place to be.
 
+Okay, if Guessing & Padding is a bad idea, because you're papering over genuine unknowns, maybe you should instead...
+
 *** Give a Brief Primer on Company Value & Information Theory
 
-Yeah, sigh. I so wish this worked.
+Hahahahaha. No.
+
+Sigh. I so wish this worked.
 
 If you pull this off, please let me know, and I will buy you all the beers to learn more.
 
@@ -146,9 +154,9 @@ You could simply tell the stakeholder:
 
 I mean, this is... *true*, but it's not exactly *helpful*.
 
-Your stakeholder isn't just asking for an estimate to be a jerk, they're asking because the new information you've shared, as part of your pitch for a tech investment, has *created a new problem for them*.
+Your stakeholder isn't just asking for an estimate to be a jerk, they're asking because the new information you've shared, as part of your pitch for a tech investment, has *created news problem for them*.
 
-And, ideally, you want to help them solve that problem.
+And, ideally, you want to help them solve those problems.
 
 ** Understand The Challenges Facing Your Stakeholder
 
@@ -160,7 +168,7 @@ When a stakeholder considers committing to a technical investment, they suddenly
 
  - *Decision 1: how can they make time to /start/ this work?*
 
-   E.g. if the team is going to investigate performance issues in this next sprint, what planned stories or epics is the stalkeholder going to have to deprioritize?
+   E.g. if the team is going to investigate performance issues in this next sprint, how many planned stories or epics is the stalkeholder going to have to deprioritize?
 
 
  - *Decision 2: what should they tell Other People about the impact on Other Goals?*
@@ -173,7 +181,7 @@ When a stakeholder considers committing to a technical investment, they suddenly
 
    They now have to decide if that's at risk -- and if *is*, they need to go and socialize that fact across your company.
 
-   If the technical investment ends up taking real time, your stakeholder is going to have disappoint *someone*. And they have likely learned that it's better to tell people bad news sooner than later.
+   If the technical investment ends up taking real time, your stakeholder is going to have disappoint *someone*.
 
 
  - *Fear: if the work expands in scope, they will lose all control and won't be able to achieve their own goals*.
@@ -182,19 +190,19 @@ When a stakeholder considers committing to a technical investment, they suddenly
 
    Any stakeholder who has worked with engineering has had at least one really unpleasant experience of estimates blowing up beyond all expectation, and finding themselves just mired for months and months, unable to resume forward motion.
 
-   Having that happen for a technical investment feels extra terrifying -- because the stakeholder may not feel like they understand options for shrinking scope.
+   Having that happen for a technical investment feels extra terrifying -- because the stakeholder may not understand any options for shrinking scope as they go.
 
-Ultimately, the reason they're asking for an estimate is to be able to make those decisions and to manage that fear -- *even if that's not how they're consciously thinking about it*.
+They're asking for an estimate to make those decisions and to manage that fear -- *even if that's not how they're consciously thinking about it*.
 
-If they had a good estimate stretching out into the future, they could *both* set expectations with Other People, *and* also hold the engineering team accountable to wrapping the investment up in a reasonable time frame.
+As in, if they had a good estimate stretching out into the future, they could *both* set expectations with Other People, *and* also hold the engineering team accountable to wrapping the investment up in a reasonable time frame.
 
-Unfortunately, as per the previous section, for most technical investments, you won't, at this point, be able to give your stakeholder a sufficiently accurate estimate to allow them to solve these (very real!) problems.
+Unfortunately, as per the previous section, for the vast majority of technical investments, you won't, at this point, be able to give your stakeholder a sufficiently accurate estimate to allow them to solve these (very real!) problems.
 
 But, because we can understand those underlying issues, we can find a way to help the stakeholder, *without committing to a false or damaging estimate*.
 
 Before we walk through how to do so, I want to talk for a moment about how your stakeholder manages "medium-term" goals -- because those medium-term goals are what they're updating, in making Decision 2 ("Who do they need to tell about this shift?").
 
-If you have an even vaguely rational stakeholder, they won't think of their medium-term goals as completely rigidly fixed[fn:: If your stakeholder is *not* at all flexible, and is running your work purely using the rigid tools of 'project management', then, first, siiiiigh. Second, I strongly suspect that, for your company to have any shot at winning, someone will need to bootstrap a product management function. Doing so is beyond the scope of this book -- check out Melissa Perri's truly excellent Escaping the Build Trap for ideas.]. Instead, they'll have some mental model of:
+If you have an even vaguely rational stakeholder, they won't think of their medium-term goals as completely *certain*[fn:: If your stakeholder is *not* at all flexible, and is running your work purely using the rigid tools of 'project management', then, first, siiiiigh. Second, I strongly suspect that, for your company to have any shot at winning, someone will need to bootstrap a product management function. Doing so is beyond the scope of this book -- check out Melissa Perri's truly excellent Escaping the Build Trap for ideas.]. Instead, they'll have some mental model of:
 
  - The order in which they're going to get to various goals
 
@@ -212,8 +220,15 @@ Let's see how.
 
 # They're asking for an estimate that stretches out past the next few weeks to as part of preparing both of these decisions.
 
+** Timebox to a Decision With Options & Off-Ramps
 
-** Timebox to a Decision, Options & Off-Ramps
+Ultimately, you want to give your stakeholder *visibility* and *control*, so they can make good decisions.
+
+The central trick is:
+
+*Design your increments and your milestones around the next decision to make*.
+
+That way, you can offer your stakeholder exactly what they need -- a way to both understand and control this investment, as it unfolds.
 
 Let's illustrate this with our running story, from the last chapter.
 
@@ -227,21 +242,29 @@ As a reminder, the engineering leader wrapped up the initial part of her pitch b
 
 A useful way to make that concrete, and to start to help the stakeholder make their key decisions, would be to say something like:
 
-/We're proposing that Andrea spends the next three weeks developing and implementing a first draft of Service Level Indicators -- which will show us, basically "Are customers on Forms 2.0 *using it successfully*?". And if they're *not* -- if they do hit performance issues -- we can know *before* the help desk or success team comes to us, and we believe the team can quickly swarm and address it./
+/We're proposing that Andrea spends the next three weeks developing and implementing a first draft of Service Level Indicators -- which will show us: "Are customers on Forms 2.0 *using it successfully*?". And if they're *not* -- if they are getting hit by performance issues -- we can know *before* the help desk or success team comes to us./
+
+This is cleanly focused on Decision 1, the "What do we to do, to get started?"
 
 /Building SLI's has some real tradeoff costs. We had planned for Andrea to take point on adding new features to the Search Indexing. We think the potential performance issues are a bigger risk. And, if we understand it right, not all the ENT customers need those new Search features, so we might be able to delay the transition for customers who do need them. We believe the risk of bad performance cuts across all of the ENT customers./
 
+Ultimately, you need to decide this *with* your stakeholder, but doing some legwork to come to the table with solid near-term options is a great way to build trust and rapport.
+
 /The key milestone Andrea would be working towards, which she can hit within 3 weeks, would be to ready to sit down with you and me, and review both the definitions of an initial set of the SLI's *and* how those SLI's are performing in production./
+
+The goal of Andrea's work is that the stakeholder will be able to make a next good decision, at a specific date, with specific new infomration. They will have both visibility and control.
 
 /We'd then be able to decide, together, if that performance seems acceptable. If so, we can return to our original plans and just keep an eye on performance as transitions ramp up. If performance already seems problematic, or if we're just uncertain, the team could start some proactive load testing, or if we've found any bottlenecks, deal with those./
 
 /But we don't have to make that decision yet -- we'll have more info in just a few weeks./
 
-Note how the engineering leader is offering a carefully time-boxed increment that ends with a *shared decision*
+This little sketch offers two key things:
 
-The milestone is, in essence: build a thing in no more than 3 weeks that will *both* create some incremental improvements *and* allow the stakeholder and the eng leader to make a collaborative decision about what to do next.
+ - An *Off-Ramp*: "we can return to our original plan"
 
-This offer helps the stakeholder with *both* of their problems.
+ - *Options* for further investment:  proactive load testing, or dealing with bottlenecks.
+
+This offer helps the stakeholder with *all* of their problems.
 
 For the short-term, the engineer leader has given them a precise bound on how much capacity they'll need -- it's three weeks for Andrea, no more, no less (and, in our scenario, the engineering leader offered some creative brainstorming about how to free up Andrea's time -- that's a very nice bonus if you can do it).
 
