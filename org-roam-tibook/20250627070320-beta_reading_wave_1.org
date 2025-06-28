@@ -1,0 +1,30 @@
+:PROPERTIES:
+:ID:       22898D7F-26DD-4787-939B-B640B3D5BE56
+:END:
+#+title: Beta Reading Wave 1
+A place to take notes on [[id:93FF0A9B-F54E-49D5-8154-640BBAE08D4D][Beta Readers]].
+
+* Plan <2025-06-27 Fri>
+Broadly, I need to:
+
+** Load into HTB, in a repeatable fashion
+I think, yes, take some time to make it scriptable, to lower cost of future work.
+
+I'm close, with pandoc.
+
+** Decide: how many readers do I want?
+
+** Write my "do you want to be a beta reader" invite
+Steal from WUB
+
+** Decide where / how to post that
+
+** Decide who / how to ask about that
+
+** Write my "guide for beta readers", load into HTB
+Steal from WUB
+
+** Start the campaign
+
+** Build a habit for checking progress
+Could easily lose my mind, be careful.
