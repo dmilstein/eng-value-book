@@ -1,11 +1,10 @@
 :PROPERTIES:
 :ID:       03D1870C-E583-4D5C-9589-5E0799793D48
 :END:
-#+title: Build Milestones Around Decisions
+#+title: Offer Decisions, Options & Off-Ramps
 #+filetags: :Chapter:
 
-* Offer Increments With Embedded Decisions
-
+* Offer Decisions, Options & Off-Ramps
 ** Intro
 
 # Build Milestones Around Decisions
@@ -151,27 +150,72 @@ Your stakeholder isn't just asking for an estimate to be a jerk, they're asking 
 
 And, ideally, you want to help them solve that problem.
 
-** The Challenge Facing Your Stakeholder
+** Understand The Challenges Facing Your Stakeholder
 
-Thanks to the information you've shared with them, your stakeholder has a new problem to solve.
+# When a stakeholder learns for the first time about a potential technical investment, they suddenly acquire some new, tricky problems.
 
-That is *why they're asking for an estimate*.
+# Thanks to the information you've shared with them, your stakeholder has some new problems.
 
-They want to use it to make a pair of *decisions* (they may not conciously think about it that way, to be clear).
+When a stakeholder offers to commit to a technical investment, they suddenly acquire:
 
-First, they need to decide how much planned near-term work to throw overboard, in order to free up capacity.
+ a) Two new *decisions* to make
 
-An estimate would let them do so.
+ b) A new *fear* to manage
 
-Second, they need to decide how to update their picture of their *medium-term* goals.
+Those are, in brief:
 
-If you have an even vaguely rational stakeholder, they won't think of those medium-term goals as rigidly fixed -- but they *will* have some mental model of the order in which they're going to get to them, risks that could delay various steps, etc.[fn:: If your stakeholder is *not* at all flexible, and is running this in full-on 'project management' mode, then, first, siiiiigh. Second, *someone* may need to bootstrap a product function within your org, for your company to have any chance of winning. Doing so is sadly beyond the scope of this book -- check out Escaping the Build Trap by Melissa Perri for ideas.]
+ - *Decision 1: how will they make time to /start/ this work?*
 
-A core part of your stakeholder's job is using their evolving medium-term picture to *collaborate* with people across the company -- be that planning rollouts, scheduling trainings, preparing sales materials, or the like.
+   If the team is going to investigate performance issues in this next sprint, what planned stories or epics is the stalkeholder going to have to deprioritize?
+
+ - *Decision 2: what should they tell Other People about the impact on Other Goals?*
+
+   If it's going to take more than a sprint or two to improve enterprise performance, the team is going to have to drop *something* significant to make time.
+
+   e.g. maybe it's that one complex new feature that the Enterprise customers have been clamoring for. Your stakeholder has been hoping to build that -- they now have to decide if it's sufficiently at risk fof them to go and socialize that fact across your company.
+
+   The stakeholder is going to have eventually tell *someone* this -- and they have likely learned that it's better to tell people bad news sooner than later.
+
+
+ - *Fear: if the work expands in scope, they will lose all control and won't be able to achieve their own goals*.
+
+Ultimately, the reason they're asking for an estimate is to be able to make those decisions and to manage that fear -- *even if that's not how they're consciously thinking about it*.
+
+By understanding those underlying issues, we can find a way to help the stakeholder, *without committing to a false or damaging estimate*.
+
+# We can break the decisions down into some that are immediate (i.e. the next sprint or two) and some that loom in the middle distance (i.e. in a couple of weeks or in a couple of months).
+
+In the short term, the stakeholder needs to decide what planned work to throw overboard, to even get started.
+
+# which means deciding what *not* to do, right now.
+
+# To support this decision, you need to give them a clean way to understand how much time the engineers need, for the very next few steps.
+
+Looking further out, they will eventually have to decide:
+
+*If this tech investment proves "large", when should they tell Other People about the impact on Other Goals?*
+
+If you have an even vaguely rational stakeholder, they won't think of their medium-term goals as rigidly fixed[fn:: If your stakeholder is *not* at all flexible, and is running your work purely using the tools of 'project management', then, first, siiiiigh. Second, I strongly suspect that, for your company to have any shot at winning, someone will need to bootstrap a product management function. Doing so is beyond the scope of this book -- check out Melissa Perri's truly excellent Escaping the Build Trap for ideas.]. Instead, they'll have some mental model of:
+
+ - The order in which they're going to get to various goals
+
+ - Key risks that could delay various goals
+
+ - Which other people need to be told about changes to which goals, and when
+
+A core part of your stakeholder's job is using this ever-evolving medium-term picture to *collaborate* with people across the company -- be that planning rollouts, scheduling trainings, preparing sales materials, or the like.
 
 All of those are *genuinely important* business actions.
 
 Having an estimate of how long the team will need to focus on this new problem would let your stakeholder update their medium-term picture, and start thinking about when to alert various peers to changes in schedule, etc.
+
+
+
+That latter one is particularly important -- one of a stakeholder's biggest fears (for, honestly, very, very good reasons), is that they'll end up stuck in some endless engineering-driven project, with *no way to get off the bus*.
+
+If they had a good estimate, they could both use that to set expectations with Other People, and also to hold the engineering team accountable to wrapping the investment up in a reasonable time frame.
+
+# They're asking for an estimate that stretches out past the next few weeks to as part of preparing both of these decisions.
 
 Of course, you can't give them that estimate.
 
@@ -179,7 +223,7 @@ But you *can* still help them with these challenges.
 
 Let's see how.
 
-** Timebox and Commit to a Decision Point
+** Timebox to a Decision, Options & Off-Ramps
 
 Let's illustrate this with our running story, from the last chapter.
 
@@ -249,7 +293,7 @@ Also, such a decision outcome hopefully prompt the engineers to ask:
 
 Which is a *great* question for them to ask.
 
-** Turning Estimates Into Timeboxed Decision Points
+** Decision Framing: Examples
 
 # Challenges in Estimating Tech Investments
 
@@ -271,9 +315,9 @@ That plus a heavy dose of Accelerate has your stakeholder ready to talk.
 
 But, if you want to make *any* kind of estimate, you're in a tough place.
 
-Because, there is a simply huge range of possible problems that could be causing unrelaible deploys.
+Because there is a simply *huge* range of possible problems that could be causing unrelaible deploys.
 
-It could be anything from some trivially misconfigured CI/CD parameters, all the way to fundamental architectural choices that are causing genuine conflicts between multiple teams.
+It could be anything from some trivially misconfigured CI/CD parameters, which you can fix in a few days, all the way to fundamental architectural choices that are causing genuine conflicts between multiple teams, which could take several years of work to fix.
 
 Thus, the "next decisions" that you and the stakeholder need to make will be best supported by three progressively stronger forms of visibility:
 
@@ -333,6 +377,7 @@ Your team barely understands this system, they certainly can't give you meaningf
 
 What if you try to be conservative and give a "big" estimate... but then the CEO says "Yes, do it!"? then what the heck are you gonna do?
 
+
 *** Moar Scenarios...
 
 You propose enabling parallel development across multiple teams by inserting an interface layer in the middle of some convoluted mess of legacy code. Product is ready to consider saying yes, but asks "How long will that take?", before they commit.
@@ -340,11 +385,6 @@ You propose enabling parallel development across multiple teams by inserting an 
 You propose creating tooling to allow the help-desk to fix a slew of data issues that are currently requiring your team to spend hours a week executing SQL updates by hand. You guessed it -- your stakeholder would be happy to say yes, if they knew how long it would take.
 
 Your backup regimen hasn't been reviewed in a while, you've raised sufficiently economic fear for your stakeholder to agree to some work to verify safer backups -- how long will that take?
-
-
-** Timebox To a Next Interesting-Sounding Decision
-
-# Create Transparency and Control
 
 * Scraps
 Your stakeholders will almost definitely see them in that light, certainly at first.
