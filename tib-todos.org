@@ -33,8 +33,8 @@ Gonna have to put that into the toc, of course
 ** DONE For Tact Emp example, shift to focus something she can base a tech investment on
 CLOSED: [2025-06-20 Fri 08:56]
 So that the engineering manager can then pitch her work in that context
-** TODO Spike: word count credit in graph for scraps
-So that I don't have weird incentives to keep bad writing in.
+** DONE Options: maybe break out "decisions you stakeholder is making" into its own section
+CLOSED: [2025-06-28 Sat 09:02]
 * [[id:BB09F432-DEEB-4129-8F88-D23C86E8CEBB][Build Viz First]]                                 :gtasks:
 ** DONE Jam in some of my ideas from my notes, break out todos :pom:
 CLOSED: [2025-06-07 Sat 09:35]
@@ -50,6 +50,7 @@ CLOSED: [2025-06-08 Sun 09:58]
 CLOSED: [2025-06-08 Sun 09:58]
 ** TODO Talk about "build visibility" vs "add metrics"
 * [[id:4FEA3BD5-8E85-4BB6-8F59-15FDE4F38572][Tactical Empathy]]                                :gtasks:
+** TODO Maybe move annotated breakdown of  pitch back into Tac Empathy
 ** DONE For story at end of Tac Empathy, maybe end with "How long will this take?"
 CLOSED: [2025-06-22 Sun 17:33]
 ** DONE Add wrap up to story + teaser for milestones :pom:
@@ -75,15 +76,24 @@ CLOSED: [2025-06-19 Thu 19:49]
 CLOSED: [2025-06-19 Thu 08:04]
 
 * [[id:03D1870C-E583-4D5C-9589-5E0799793D48][Mstones/Decisions]]                               :gtasks:
+** TODO Add: fear of loss of control for stakeholder :curweek:pom:
 ** DONE Write one or two more "why this is hard" bits
 CLOSED: [2025-06-23 Mon 09:20]
 ** DONE Write Tech Investments Don't End          :curweek:pom:
 CLOSED: [2025-06-23 Mon 11:00]
-** TODO Rewrite opening to get to the fucking point :curweek:pom:
-** TODO Add decision increments for scenarios     :curweek:
-** TODO Add section or subsection on Off Ramps    :curweek:
+** DONE Rewrite opening to get to the fucking point :curweek:pom:
+CLOSED: [2025-06-25 Wed 11:23]
+** DONE Add decision increments for scenarios     :curweek:
+CLOSED: [2025-06-27 Fri 07:00]
+** DONE Weave through: decision, options, offramps :curweek:pom:
+CLOSED: [2025-06-27 Fri 08:04]
+** TODO Break out Design Milestones chapter?      :curweek:
+** TODO Review/clean up Understand Stakeholder    :curweek:pom:
+Figure out where to put the illustration of the your stakeholders medium-term decisions. Put really emphasis on them needing to be the one to make those decisions.
+** TODO Add Off Ramp to my first full example     :curweek:pom:
+** TODO Add Off Ramps to the Decision-Framing examples :curweek:pom:
 ** TODO Find Satoe's thing about cave in her HTB thing :curweek:
-** TODO Scavenge prose from Ell Milestones doc    :curweek:
+** TODO Review Ell Milestones doc for ideas       :curweek:
 ** DONE Set up problem from Satoe's "cave" analogy :pom:
 CLOSED: [2025-06-21 Sat 11:06]
 ** DONE Terrible first draft
@@ -120,7 +130,9 @@ CLOSED: [2025-06-14 Sat 17:41]
 CLOSED: [2025-06-15 Sun 11:05]
 ** DONE Revise DB is on Verge of Death
 CLOSED: [2025-06-16 Mon 08:51]
-* Misc Structure [[id:B4926308-39DD-471B-8E71-5FFF7546D6E3][(Table of Contents]])              :gtasks:
+* Structure [[id:B4926308-39DD-471B-8E71-5FFF7546D6E3][(Table of Contents]])                   :gtasks:
+** TODO Experiment: add exercises to end of each chapter
+Like, now go do these things
 ** DONE Spike on ToC reorg - part II = stakeholder mgmt
 CLOSED: [2025-06-16 Mon 09:25]
 ** TODO Maybe: add an entire chapter on Rewrites
@@ -139,7 +151,13 @@ CLOSED: [2025-06-07 Sat 09:32]
 ** TODO For post-mortems, tell story of Berlin, Roberto/Vahe
 They were stuck going slow, they committed to doing good post-mortems, it transformed their speed and relationship with stakeholders
 * [[id:17305FA7-A43F-40C9-9309-0EF3577C70D0][Author Platform]]                                 :gtasks:
-** TODO Define next increment of success, create viz :curweek:
+** TODO Brainstorm 10 bad ideas for "hearing from" people as part of Author Platform
+** TODO Define rewards/celebrations for hitting Author Platform incremental goals
+E.g. buy myself dinner, or a game, or go out w/ friends, or tell Edmund + someone, take Bonnie out for dinner.
+** TODO Research: blueskey or other places for building followers
+** TODO Spike: Medium cross-post 1/month, Substack 1/week
+** DONE Define next increment of success, create viz :curweek:pom:
+CLOSED: [2025-06-27 Fri 07:23]
 Likely: subscriber count? Separate goal around beta readers? Frequency of recommendation? People reaching out to me. DO a bit of thinking.
 ** TODO Make new email address, put on Substack
 ** TODO Ping Winston -- connect + learn how he build a personal platform
@@ -163,9 +181,11 @@ CLOSED: [2025-06-22 Sun 10:11]
 ** DONE Review Substack growth tips               :curweek:
 CLOSED: [2025-06-23 Mon 11:51]
 Growth tip: Make your publication sell for you
-** TODO Revise my one-liner                       :curweek:
+** DONE Revise my one-liner                       :curweek:
+CLOSED: [2025-06-27 Fri 14:49]
 Signal who the target audience is and why they might subscribe.
-** TODO Improve About page.                       :curweek:
+** DONE Improve About page.                       :curweek:
+CLOSED: [2025-06-27 Fri 14:59]
 Build credibility by explaining who you are, what you offer, and when you publish.
 
 Link to your Substack in your email signature and social profiles.
@@ -215,20 +235,39 @@ Akad & Scale
 CLOSED: [2025-06-10 Tue 09:53]
 So I can make better tomorrow
 ** TODO Add Game Days as Big viz for reduce duration of outages
-* [[id:93FF0A9B-F54E-49D5-8154-640BBAE08D4D][Beta Readers]]                                    :gtasks:
-** TODO Make plan + tasks for Beta Reading        :curweek:
-** TODO For Beta Readers, define call to action/progress
+* [[id:22898D7F-26DD-4787-939B-B640B3D5BE56][Beta Wave 1]]                                     :gtasks:
+** TODO HTB: Get footnotes to number by chapter
+** TODO HTB: Add --toc to the pandoc, can I get a ToC in helpthisbook?
+** TODO HTB: For that toc, set --toc-depth=2, I think
+** TODO Load into HTB
+** TODO Define call to action/progress
 (e.g. share w/ friend)
 Something that demonstrates they're getting value, not being nice.
+** TODO Decide: how many readers?
+
+** TODO Write my "do you want to be a beta reader" invite
+Steal from WUB
+
+** TODO Decide where / how to post that
+
+** TODO Decide who / how to ask about that
+E.g. TechDinner
+** TODO Write "guide for beta readers", load into HTB
+Steal from WUB
+
+** TODO Start the campaign
+
+** TODO Define dumbest, simplest progress-checking habit
+Could easily lose my mind, be careful.
+* [[id:93FF0A9B-F54E-49D5-8154-640BBAE08D4D][Beta Readers]]                                    :gtasks:
+** DONE Make plan + tasks for Beta Reading        :curweek:pom:
+CLOSED: [2025-06-27 Fri 07:12]
 ** DONE Draft thoughts re: pipeline beta reading, share w/ EWJ :pom:
 CLOSED: [2025-06-20 Fri 09:43]
 ** DONE Write Robfitz re: pipeline beta reading
 CLOSED: [2025-06-21 Sat 14:32]
-** TODO Get footnotes to number by chapter
-** TODO Add --toc to the pandoc, can I get a ToC in helpthisbook?
-** TODO For that toc, set --toc-depth=2, I think
-** TODO Draft email to send to potential beta readers
-** TODO Set reward: can share w/ EWJ once I finish... something
+** DONE Set reward: can share w/ EWJ once I finish... something
+CLOSED: [2025-06-27 Fri 07:10]
 ** DONE Review WUB re: beta readers + partial book
 CLOSED: [2025-06-16 Mon 09:26]
 ** DONE Get the markdown formatting info on my laptop
@@ -290,8 +329,14 @@ There is an amount of debt, once it's gone, you're living clean.
 
 This is not true for technical investments.
 * [[id:49435FCD-0590-44DE-8FC7-585E7BCC8BB2][Tooling]]                                         :gtasks:
+** TODO Spike: word count credit in graph for scraps
+So that I don't have weird incentives to keep bad writing in.
+** TODO Fix word count to handle 0 days
+** TODO Edmund: hours not words?
 ** DONE Aider: add "today's word count" to terminal view or graph
 CLOSED: [2025-06-21 Sat 14:46]
+** TODO Spike: Hours not (or plus?) words as dopamine
+E.g. is now the time to start logging w/ org?
 ** TODO Aider: split chapter count into two options
 then show them side by side
 
@@ -319,7 +364,6 @@ CLOSED: [2025-06-04 Wed 15:10]
 CLOSED: [2025-06-11 Wed 17:15]
 ** DONE Add titles for the chapters that don't have them
 CLOSED: [2025-06-11 Wed 07:11]
-** TODO Throw away some of my python code? Replace w/ sed/awk?
 ** TODO For pandoc export, consider pre-processing to extract chapter text
 So then I can use a single method for all of full book word counts, chapter word counts and HelpThisBook version rendering.
 ** TODO Look for missing Chapter filetags in scripts
