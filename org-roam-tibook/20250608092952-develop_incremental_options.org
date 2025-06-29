@@ -297,15 +297,7 @@ E.g. say Andrea discovers that adding the SLI's is more work than expected. If s
 The engineering leader can then have *exactly* the meeting that they promised: here is some initial visibility, let's now decide if it's sufficient, and what next steps we want to take.
 
 ** Decision/Options/Off-Ramps: Examples
-
-# Challenges in Estimating Tech Investments
-
-Let look at some classic areas of technical investment.
-
-For each, we'll dig into how you might offer decision points, options and off-ramps.
-
-# XXX make prose less awful
-
+Let's dig into a few scenarios, to illustrate this approach further.
 *** Scenario 1: Russian Roulette Deploys
 
 The deploy pipeline randomly fails for no clear reason, and when the team does successfully deploy, they frequently end up emergency reverting in exciting ways.
@@ -376,9 +368,9 @@ By doing so, you which will force into the open the long-term cost of keeping ar
 
 You can both make prioritization decisions *and* generate commitment by referencing the specific demands of the enterprise customers your sales team is spending more and more time with.
 
-And thus, with just some modest luck, you can aim for your VP of Sales being the one to persuade your CEO that now is maybe the to thank those early customers for their service and let them go.
+And thus, with just some modest luck, you can aim for your *VP of Sales* being the one to persuade your CEO that now is maybe the to thank those early customers for their service and let them go.
 
-And they are the VP of Sales! They're good at persuading people! Plus they have to hit their quota, which is a marvelous force in arguments, I find.
+And they are the VP of Sales! They're good at persuading people! Plus they have to hit their quota, which I find to be a marvelously persuasive fom of argument.
 
 * Scraps
 Your stakeholders will almost definitely see them in that light, certainly at first.
