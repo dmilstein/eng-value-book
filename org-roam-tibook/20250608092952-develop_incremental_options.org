@@ -380,14 +380,6 @@ And thus, with just some modest luck, you can aim for your VP of Sales being the
 
 And they are the VP of Sales! They're good at persuading people! Plus they have to hit their quota, which is a marvelous force in arguments, I find.
 
-*** Moar Scenarios...
-
-You propose enabling parallel development across multiple teams by inserting an interface layer in the middle of some convoluted mess of legacy code. Product is ready to consider saying yes, but asks "How long will that take?", before they commit.
-
-You propose creating tooling to allow the help-desk to fix a slew of data issues that are currently requiring your team to spend hours a week executing SQL updates by hand. You guessed it -- your stakeholder would be happy to say yes, if they knew how long it would take.
-
-Your backup regimen hasn't been reviewed in a while, you've raised sufficiently economic fear for your stakeholder to agree to some work to verify safer backups -- how long will that take?
-
 * Scraps
 Your stakeholders will almost definitely see them in that light, certainly at first.
 
@@ -617,3 +609,11 @@ But if your "engineering project" is "over", no one is going to be looking for f
 Because, fundamentally, they're thinking about it is an "unpleasant" project they've been forced to do, not an investment that makes their company more valuable.
 
 You're going to gradually persuade people into working that way.
+
+** Moar Scenarios...
+
+You propose enabling parallel development across multiple teams by inserting an interface layer in the middle of some convoluted mess of legacy code. Product is ready to consider saying yes, but asks "How long will that take?", before they commit.
+
+You propose creating tooling to allow the help-desk to fix a slew of data issues that are currently requiring your team to spend hours a week executing SQL updates by hand. You guessed it -- your stakeholder would be happy to say yes, if they knew how long it would take.
+
+Your backup regimen hasn't been reviewed in a while, you've raised sufficiently economic fear for your stakeholder to agree to some work to verify safer backups -- how long will that take?
