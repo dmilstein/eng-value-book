@@ -220,91 +220,85 @@ Let's see how.
 
 # They're asking for an estimate that stretches out past the next few weeks to as part of preparing both of these decisions.
 
-** Timebox to a Decision With Options & Off-Ramps
+** Timebox to a Shared Decision With Options & Off-Ramps
 
-Ultimately, you want to give your stakeholder *visibility* and *control*, so they can make good decisions.
+Ultimately, you want to give your stakeholder *visibility* and *control*, so they can make good decisions, *with* you.
 
 The central trick is:
 
 *Design your increments and your milestones around the next decision to make*.
 
-That way, you can offer your stakeholder exactly what they need -- a way to both understand and control this investment, as it unfolds.
+That way, you can offer your stakeholder exactly what they need -- a way to both /understand/ and /control/ this investment, as it unfolds.
 
 Let's illustrate this with our running story, from the last chapter.
 
 As a reminder, the engineering leader wrapped up the initial part of her pitch by saying:
 
-/Fortunately, we think we have a couple of good options for speeding things up -- once we find any bottlenecks./
+/We'd like to propose that we commit time to building a clearer picture of our capacity limits, and, once we've done that, ensuring that we have sufficient capacity to guarantee an excellent experience for the first Enterprise customers who commit to Forms 2.0./
 
-/Unfortunately, we don't have great *visibility* into how those pages are performing, or where bottlenecks are./
-
-/Therefore, we'd like to propose that we commit time to building a clearer picture of our capacity limits, and, once we've done that, ensuring that we have sufficient capacity to guarantee an excellent experience for the first Enterprise customers who commit to Forms 2.0./
-
-A useful way to make that concrete, and to start to help the stakeholder make their key decisions, would be to say something like:
+To help support the stakeholder in making Decision 1 -- "What do we need to do to get started?" -- the engineering leader then says:
 
 /We're proposing that Andrea spends the next three weeks developing and implementing a first draft of Service Level Indicators -- which will show us: "Are customers on Forms 2.0 *using it successfully*?". And if they're *not* -- if they are getting hit by performance issues -- we can know *before* the help desk or success team comes to us./
 
-This is cleanly focused on Decision 1, the "What do we to do, to get started?"
+This does two things.
+
+First, it precisely defines the near-term scope -- not just three weeks, but three weeks of Andrea's time, specifically.
+
+Second, it paints a clear picture of the *benefit* of this first increment: being able to know about customer issues before complaints wend their way through the support machinery.
+
+The engineering leader continues:
 
 /Building SLI's has some real tradeoff costs. We had planned for Andrea to take point on adding new features to the Search Indexing. We think the potential performance issues are a bigger risk. And, if we understand it right, not all the ENT customers need those new Search features, so we might be able to delay the transition for customers who do need them. We believe the risk of bad performance cuts across all of the ENT customers./
 
-Ultimately, you need to decide this *with* your stakeholder, but doing some legwork to come to the table with solid near-term options is a great way to build trust and rapport.
+By coming to the table with options for near-term tradeoffs, the engineering leader is, again, helping the stakeholder face a genuine challenge -- while still creating space for the stakeholder to disagree or even pusback ("we think", "if we understand it right", "we believe").
+
+Now the engineering shifts to talking about the "next decision":
 
 /The key milestone Andrea would be working towards, which she can hit within 3 weeks, would be to ready to sit down with you and me, and review both the definitions of an initial set of the SLI's *and* how those SLI's are performing in production./
 
-The goal of Andrea's work is that the stakeholder will be able to make a next good decision, at a specific date, with specific new infomration. They will have both visibility and control.
+# The goal of Andrea's work is that the stakeholder will be able to make a next good decision, at a specific date, with specific new infomration. They will have both visibility and control.
 
 /We'd then be able to decide, together, if that performance seems acceptable. If so, we can return to our original plans and just keep an eye on performance as transitions ramp up. If performance already seems problematic, or if we're just uncertain, the team could start some proactive load testing, or if we've found any bottlenecks, deal with those./
 
 /But we don't have to make that decision yet -- we'll have more info in just a few weeks./
 
-This little sketch offers two key things:
+This little sketch offers three key things:
 
- - An *Off-Ramp*: "we can return to our original plan"
+ - A Decision Point
 
- - *Options* for further investment:  proactive load testing, or dealing with bottlenecks.
+   In three weeks, there will be a meeting to review what Andrea has learned and make a shared decision about what to do next.
 
-This offer helps the stakeholder with *all* of their problems.
+ - An Off-Ramp
 
-For the short-term, the engineer leader has given them a precise bound on how much capacity they'll need -- it's three weeks for Andrea, no more, no less (and, in our scenario, the engineering leader offered some creative brainstorming about how to free up Andrea's time -- that's a very nice bonus if you can do it).
+   At that decision point, the stakeholder will have an opportunity to cleanly paused or even wind down the investmetn.
 
-For the medium-term, the engineering leader has done two things.
+ - Options
 
-First, they've forecast a couple of *possibilities*:
+   The engineering leader is sharing her current understanding of potential next steps: 1) proactive load testing, 2) remediating bottlenecks.
 
- - Spending time on proactive load testing
+Such potential follow ups allow a stakeholder to update an evolving, probabilistic picture of the medium-term.
 
- - Digging in and remediating bottlenecks
-
- - Returning to planned work but "keeping an eye" on performance
-
-Such *potential follow ups* allow a stakeholder to update an evolving picture of the medium-term.
-
-They might ask follow up questions to flesh out their understanding (e.g. "What might be involved in load testing?"). I have generally found those to be very productive conversations.
-
-The second thing the engineering leader has done is to *set a next decision point*:
-
- - In three weeks, we'll meet, we'll have more information, and we can decide what to do next..
+The stakeholder might ask questions to flesh out their understanding (e.g. "What might be involved in load testing?"). I have generally found those to be very productive conversations -- so much so that I encourage engineering leaders to prompt for those questions.
 
 Knowing when that next decision point is coming allows the stakeholder to make concrete decisions, right now, about who to communicate with immediately, who to wait until after they hit that decision point, etc.
 
 Let's now flip it around and see if from the engineering side.
 
-We've defined a clean milestone, with an *outcome* of:
+We've defined a clean milestone, with a hard deadline of a meeting in three weeks, with an outcome of:
 
 *Support a decision about "what do we do next?"*
 
 An engineer working towards such a "decision outcome" has a great deal of flexibility to adjust scope.
 
-E.g. if Andrea discovers that adding the SLI's is more work than expected, she can shrink her scope to the 1-2 very most important ones and bring those to a conversation with the engineering leader and the stakeholder.
-
-That would allow the engineering leader to have precisely the conversation with the stakeholder that they promised: we have this initial visibility, we can now decide if it's sufficient, and what next steps we want to take.
-
-Also, such a decision outcome hopefully prompt the engineers to ask:
+In fact, such a decision outcome hopefully prompt the engineers to ask:
 
 /What information will the engineering leader and stakeholder need to make this decision?/
 
 Which is a *great* question for them to ask.
+
+E.g. say Andrea discovers that adding the SLI's is more work than expected. If she understands the decisions being made, she can shrink her scope to the 1-2 very most important ones and bring those to the meeting with the engineering leader and the stakeholder.
+
+That will then the engineering leader to have *exactly* the conversation with the stakeholder that they promised: we have some initial visibility, we can now decide if it's sufficient or not, and what next steps we want to take.
 
 ** Decision Framing: Examples
 
