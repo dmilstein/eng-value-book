@@ -48,8 +48,6 @@ What should she do?
 
 ** Some Supposedly Fun Ways To Estimate That I'll Never Try Again
 
-# Some Supposedly Fun Ways To Estimate Tech Investments That I'll Never Use Again
-
 Yep, I've done all of these and have the battle scars and failed projects to show for it.
 
 *** Guess and Pad
@@ -60,13 +58,13 @@ Except they won't call it a hunch.
 
 They'll say:
 
-/"We totally *know* what the problem has to be. We just need some time to fix it. We can get it done in a week, easy."/
+/"We know what the problem has to be. We just need some time to fix it. We can get it done in a week, easy."/
 
 Engineers (who I love! Because I am one!), will say this with perfect confidence...
 
 ...even if they have absolutely *zero* understanding of what is causing a problem.
 
-Honestly, I think it's just part of being an engineer -- we *know* that one part of the code was written in a dumb way, it's been bugging us /forever/. Now there's an issue /near/ that code, it's *obviously* caused by it.
+Honestly, I think it's just part of being an engineer -- we *know* that one part of the code was written in a dumb way, it's been bugging us /forever/. Now there's an issue /near/ that code, it /must/ be caused by it.
 
 We can already visualize how we want to clean up the code, and how much better things will be once we've done so.
 
@@ -288,17 +286,15 @@ We've defined a clean milestone, with a hard deadline of a meeting in three week
 
 *Support a decision about "what do we do next?"*
 
-An engineer working towards such a "decision outcome" has a great deal of flexibility to adjust scope.
-
-In fact, such a decision outcome hopefully prompt the engineers to ask:
+An engineer working towards such a "decision outcome" has a great deal of flexibility to adjust scope, especially if you take the time to discuss with whoever is doing the work:
 
 /What information will the engineering leader and stakeholder need to make this decision?/
 
-Which is a *great* question for them to ask.
+That is a *great* thing for them to more fully understand.
 
-E.g. say Andrea discovers that adding the SLI's is more work than expected. If she understands the decisions being made, she can shrink her scope to the 1-2 very most important ones and bring those to the meeting with the engineering leader and the stakeholder.
+E.g. say Andrea discovers that adding the SLI's is more work than expected. If she understands the decisions being made, she can shrink her scope to the 1-2 very most important SLI's and bring those to the meeting with the engineering leader and the stakeholder.
 
-That will then the engineering leader to have *exactly* the conversation with the stakeholder that they promised: we have some initial visibility, we can now decide if it's sufficient or not, and what next steps we want to take.
+The engineering leader can then have *exactly* the meeting that they promised: here is some initial visibility, let's now decide if it's sufficient, and what next steps we want to take.
 
 ** Decision Framing: Examples
 
@@ -306,51 +302,51 @@ That will then the engineering leader to have *exactly* the conversation with th
 
 Let look at some classic areas of technical investment.
 
-For each, we'll set it up where the decision point may feel tricky, and then we'll offer some ideas.
+For each, we'll dig into how you might offer decision points, options and off-ramps.
 
 # XXX make prose less awful
 
 *** Scenario 1: Unreliable Deploys
 
-The deploy pipeline randomly fails for no clear reason.
+The deploy pipeline randomly fails for no clear reason, and when the team does successfully deploy, they frequently end up emergency reverting in exciting ways.
 
-When the team does successfully deploy, they frequently end up emergency reverting in exciting ways.
+There is a simply *huge* range of possible problems that could be causing this situation.
 
-You and the team have developed some rough initial visibility showing that engineers are starting to deploy less frequently as a result.
+It could be anything from some trivially misconfigured CI/CD parameters, which you can fix in a few days, all the way to fundamental architectural choices that are causing genuine ongoing conflicts between multiple teams, which could take several years of work to restructure your codebase to fully eliminate.
 
-That plus a heavy dose of Accelerate has your stakeholder ready to talk.
+Given that huge range of uncertainty, the "next decisions" to make will generally be moving through three progressively stronger forms of visibility:
 
-But, if you want to make *any* kind of estimate, you're in a tough place.
+ - How frequently are reverts occurring?
 
-Because there is a simply *huge* range of possible problems that could be causing unrelaible deploys.
+ - What is the largest driver of reverts?
 
-It could be anything from some trivially misconfigured CI/CD parameters, which you can fix in a few days, all the way to fundamental architectural choices that are causing genuine conflicts between multiple teams, which could take several years of work to fix.
+ - What are the options to address the issue?
 
-Thus, the "next decisions" that you and the stakeholder need to make will be best supported by three progressively stronger forms of visibility:
+At each step, there's a straightforward offramp: pause active work on stabilizing deploys, but *keep the visibility in place*.
 
- - How bad are the deploys, overall? (aka gather the Accelerate metrics)
+Also at each step, the engineering leader should be able to forecast the next couple options to either continue to build visibility, or, if actual issues have been identified, to start to wear those down.
 
- - Once we know which facet of deploys is bad, what is the underlying problems?
+To bring it to life, we'll imagine an engineering leader who has moved partway through that sequence, and is now advocating for further work:
 
- - What are the options to address that problems?
+/As we've been talking about, we have a major problem with revert frequency./
 
-You can progressively move through that list, at each step, offering a next decision point around the next level of visibility and a forecast of some of your current guesses of what might come next.
+/Over the last month, engineers had to rollback just short of 20% of their deploys because of causing issues on the site. That's huge drag on velocity *plus* an unpleasant customer experience./
 
-E.g. partway through that might look like:
+/We strongly recommend spending some time, now, to see if we can improve that./
 
-"We're okay on lead time and deploy frequency but we have a major problem with revert frequency.
+/I've talked to the team, and they think there are a couple of buckets those reverts fall into, based on the post-deploy problems that crop up./
 
-Over the last month, engineers had to rollback just short of 20% of their deploys. That's  huge drag on velocity *plus* an unpleasant customer experience.
+/One bucket is "bugs in the navigation bar". The navigation masthead has weird knowledge of all the separate systems, in ways that has been really hacked together over the years. Luckily, the team has done some work on the masthead in the last year, if we have to dig in here, we should have some reasonable options./
 
-We strongly recommend spending some time, now, to see if we can improve that.
+/Another bucket, unfortunately, seems to be issues in the ancient legacy reports, which no one knows how to safely change. If that turns out to be a major driver of problems, it could be that we're going to have to bite the bullet and update some of that code./
 
-I've talked to the team, and they think there are a couple of buckets those reverts fall into, based on what breaks when they deploy.
+/In any event, starting today, our proposal is to do two things, over the next two weeks. First, have the engineers spend a bit of extra time categorizing each revert, as it happens, into one of our buckets -- and, as part of that, discuss them during standups every morning. Second, we want to do prioritize a timeboxed bit of exploratory work into both the masthead and the legacy reports, so that we can talk out options with you, at the next sprint planning. We're ready to break out some tickets for that, if that sounds good."/
 
-One bucket is "bugs in the navigation masthead", which has weird knowledge of all the separate systems. The team has done some work on the masthead in the last year, if we have to dig in here, we should have some reasonable options.
+Before we move on, I'll note that this story illustrates why building visibility first is so powerful.
 
-Another bucket, unfortunately, seems to be issues in the ancient legacy reports, which no one knows how to safely change. If that turns out to be a major driver of problems, we'll have to dig in to learn more.
+If you and the stakeholder decide to pause the search for improvements, you'll be able to keep an eye on ongoing deploy stability. If it never improves (or god forbid gets worse!), you're well-positioned to pick the investment back up later.
 
-In any event, starting today, we're going to spend a bit of extra time *categorizing* all the reverts and also checking in about them during standups every morning. That way, we can review what we've learend in two weeks, and talk about options for next steps at that point."
+This is in dramatic contrast to the "Build Visibility Later / Never" plan, which generally offers the much less attractive offramp of: "People have been randomly changing things, nothing seems better yet? If we stop now, when we start again we'll probably retry half the things we've already blindly tried, so can we please not stop? We're sure we're about to fix it."
 
 *** Scenario 2: Nasty Legacy Code
 
