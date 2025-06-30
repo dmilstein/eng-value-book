@@ -35,6 +35,7 @@ CLOSED: [2025-06-20 Fri 08:56]
 So that the engineering manager can then pitch her work in that context
 ** DONE Options: maybe break out "decisions you stakeholder is making" into its own section
 CLOSED: [2025-06-28 Sat 09:02]
+
 * [[id:BB09F432-DEEB-4129-8F88-D23C86E8CEBB][Build Viz First]]                                 :gtasks:
 ** DONE Jam in some of my ideas from my notes, break out todos :pom:
 CLOSED: [2025-06-07 Sat 09:35]
@@ -76,30 +77,45 @@ CLOSED: [2025-06-19 Thu 19:49]
 CLOSED: [2025-06-19 Thu 08:04]
 
 * [[id:03D1870C-E583-4D5C-9589-5E0799793D48][Mstones/Decisions]]                               :gtasks:
-** TODO Add: fear of loss of control for stakeholder :curweek:pom:
+** DONE Add: fear of loss of control for stakeholder :pom:
+CLOSED: [2025-06-28 Sat 10:19]
 ** DONE Write one or two more "why this is hard" bits
 CLOSED: [2025-06-23 Mon 09:20]
-** DONE Write Tech Investments Don't End          :curweek:pom:
+** DONE Write Tech Investments Don't End          :pom:
 CLOSED: [2025-06-23 Mon 11:00]
-** DONE Rewrite opening to get to the fucking point :curweek:pom:
+** DONE Rewrite opening to get to the fucking point :pom:
 CLOSED: [2025-06-25 Wed 11:23]
-** DONE Add decision increments for scenarios     :curweek:
+** DONE Add decision increments for scenarios
 CLOSED: [2025-06-27 Fri 07:00]
-** DONE Weave through: decision, options, offramps :curweek:pom:
+** DONE Weave through: decision, options, offramps :pom:
 CLOSED: [2025-06-27 Fri 08:04]
-** TODO Break out Design Milestones chapter?      :curweek:
-** TODO Review/clean up Understand Stakeholder    :curweek:pom:
+** DONE Review/clean up Understand Stakeholder    :pom:
+CLOSED: [2025-06-28 Sat 10:19]
 Figure out where to put the illustration of the your stakeholders medium-term decisions. Put really emphasis on them needing to be the one to make those decisions.
-** TODO Add Off Ramp to my first full example     :curweek:pom:
-** TODO Add Off Ramps to the Decision-Framing examples :curweek:pom:
-** TODO Find Satoe's thing about cave in her HTB thing :curweek:
-** TODO Review Ell Milestones doc for ideas       :curweek:
+** DONE Bridge from decisions/fears to how we'll help
+CLOSED: [2025-06-28 Sat 10:40]
+** TODO Break out Design Milestones chapter?
+** DONE Clean up first full example               :pom:
+CLOSED: [2025-06-29 Sun 13:40]
+Right now it's like I'm saying it both interwoven with the example, and separately.
+** DONE Add Off Ramp to my first full example
+CLOSED: [2025-06-28 Sat 10:40]
+** DONE Add Off Ramps to the Decision-Framing examples :pom:
+CLOSED: [2025-06-29 Sun 14:53]
+** DONE Find Satoe's thing about cave in her HTB thing
+CLOSED: [2025-06-29 Sun 16:47]
+** TODO Review Ell Milestones doc for ideas
 ** DONE Set up problem from Satoe's "cave" analogy :pom:
 CLOSED: [2025-06-21 Sat 11:06]
 ** DONE Terrible first draft
 CLOSED: [2025-06-21 Sat 14:30]
-* [[id:4D62F0DE-2862-45F3-97EE-6AFED5382F2C][Storytelling/Wins]]                               :gtasks:
-** TODO Write a terrible intro                    :curweek:
+* [[id:4D62F0DE-2862-45F3-97EE-6AFED5382F2C][Storytelling/Wins]]                              :gtasks:curweek:
+** TODO 3 Bad ideas for scenario                  :pom:
+** TODO Set up the problem, with a story          :pom:
+As part of, define downside of not doing this/upside of doing it well.
+** TODO Write "bad/dry" summary of scenario
+** TODO Show how to apply storytelling techniques
+** TODO Find Resonates's Hero's Journey summary
 * [[id:D3158CC2-8A69-4097-B9ED-ED6BD855A7AD][Understand Value In Depth]]                       :gtasks:
 ** DONE Do a spike on footnotes                   :pom:
 CLOSED: [2025-06-05 Thu 08:44]
@@ -130,80 +146,6 @@ CLOSED: [2025-06-14 Sat 17:41]
 CLOSED: [2025-06-15 Sun 11:05]
 ** DONE Revise DB is on Verge of Death
 CLOSED: [2025-06-16 Mon 08:51]
-* Structure [[id:B4926308-39DD-471B-8E71-5FFF7546D6E3][(Table of Contents]])                   :gtasks:
-** TODO Experiment: add exercises to end of each chapter
-Like, now go do these things
-** DONE Spike on ToC reorg - part II = stakeholder mgmt
-CLOSED: [2025-06-16 Mon 09:25]
-** TODO Maybe: add an entire chapter on Rewrites
-** TODO Add: why technical judgment is important
-** TODO Add: Major rewrites *must* be done with product
-not as separate tech investments
-** TODO And, for rewrites, celebrate all the ones I've done:
- - Analytics 2.0
- - Nexus WMS
- - Flagship
-** TODO General note: feature my own failures as learning events
-E.g. things I tried that didn't work, or that I've seen people try and have not work
-** DONE Write out notes on my ideas for reordering :pom:
-CLOSED: [2025-06-07 Sat 09:32]
-** TODO Rename "Rewrites: How To + How *Not* To"
-** TODO For post-mortems, tell story of Berlin, Roberto/Vahe
-They were stuck going slow, they committed to doing good post-mortems, it transformed their speed and relationship with stakeholders
-* [[id:17305FA7-A43F-40C9-9309-0EF3577C70D0][Author Platform]]                                 :gtasks:
-** TODO Brainstorm 10 bad ideas for "hearing from" people as part of Author Platform
-** TODO Define rewards/celebrations for hitting Author Platform incremental goals
-E.g. buy myself dinner, or a game, or go out w/ friends, or tell Edmund + someone, take Bonnie out for dinner.
-** TODO Research: blueskey or other places for building followers
-** TODO Spike: Medium cross-post 1/month, Substack 1/week
-** DONE Define next increment of success, create viz :curweek:pom:
-CLOSED: [2025-06-27 Fri 07:23]
-Likely: subscriber count? Separate goal around beta readers? Frequency of recommendation? People reaching out to me. DO a bit of thinking.
-** TODO Make new email address, put on Substack
-** TODO Ping Winston -- connect + learn how he build a personal platform
-Esp how he uses LI
-** DONE Build some basic habit + tooling around it
-CLOSED: [2025-06-23 Mon 10:00]
-E.g. post 3-5 times/week, set up some org file that has the postings collected, and some script that uploads them for me. So it's just feeding a hopper, nothing I keep on my day-to-day todo list
-** DONE Post to LinkedIn once Substack is live
-CLOSED: [2025-06-12 Thu 12:06]
-** DONE Put my email address on my Substack
-CLOSED: [2025-06-11 Wed 17:06]
-** DONE Draft a post to LinkedIn
-CLOSED: [2025-06-11 Wed 17:06]
-Announce I'm working on a book, will post here sometimes, but please go join my new newsletter/Substack if you're interested for more (and/or might like to be a beta reader for a eection).
-* [[id:E0ADBF07-90B8-4C37-81C0-96A428020F5E][Substack]]                                        :gtasks:
-** DONE Post to LinkedIn, ref'ing last 4 posts    :curweek:
-CLOSED: [2025-06-23 Mon 11:50]
-But primary focus on the most recent one
-** DONE Check w/ EWJ after posts go out           :pom:
-CLOSED: [2025-06-22 Sun 10:11]
-** DONE Review Substack growth tips               :curweek:
-CLOSED: [2025-06-23 Mon 11:51]
-Growth tip: Make your publication sell for you
-** DONE Revise my one-liner                       :curweek:
-CLOSED: [2025-06-27 Fri 14:49]
-Signal who the target audience is and why they might subscribe.
-** DONE Improve About page.                       :curweek:
-CLOSED: [2025-06-27 Fri 14:59]
-Build credibility by explaining who you are, what you offer, and when you publish.
-
-Link to your Substack in your email signature and social profiles.
-Make it easy for your network to discover your publication.
-** TODO Research tools to schedule posts to LI    :curweek:
-So that I can queue things up and have them just go. Don't stay tied.
-** DONE Finish drafting LinkedIn post
-CLOSED: [2025-06-20 Fri 08:53]
-** DONE Draft 1-2 next posts, prep
-CLOSED: [2025-06-12 Thu 12:42]
- - Tech Investments definition
- - Edmund's post on golden cesspool
-** DONE Draft a test post on my substack
-CLOSED: [2025-06-09 Mon 13:11]
-** DONE Send my first post, check if Al got it
-CLOSED: [2025-06-11 Wed 17:06]
-** DONE Understand diff between Substack notes and posts
-CLOSED: [2025-06-12 Thu 11:16]
 * [[id:E7DB3CD4-9B7B-425B-BF07-E2607DDD6670][Forms Value/Viz]]                                 :gtasks:
 ** DONE Write 1-2 genuineely terrible             :pom:
 CLOSED: [2025-06-10 Tue 09:53]
@@ -235,64 +177,6 @@ Akad & Scale
 CLOSED: [2025-06-10 Tue 09:53]
 So I can make better tomorrow
 ** TODO Add Game Days as Big viz for reduce duration of outages
-* [[id:22898D7F-26DD-4787-939B-B640B3D5BE56][Beta Wave 1]]                                     :gtasks:
-** TODO HTB: Get footnotes to number by chapter
-** TODO HTB: Add --toc to the pandoc, can I get a ToC in helpthisbook?
-** TODO HTB: For that toc, set --toc-depth=2, I think
-** TODO Load into HTB
-** TODO Define call to action/progress
-(e.g. share w/ friend)
-Something that demonstrates they're getting value, not being nice.
-** TODO Decide: how many readers?
-
-** TODO Write my "do you want to be a beta reader" invite
-Steal from WUB
-
-** TODO Decide where / how to post that
-
-** TODO Decide who / how to ask about that
-E.g. TechDinner
-** TODO Write "guide for beta readers", load into HTB
-Steal from WUB
-
-** TODO Start the campaign
-
-** TODO Define dumbest, simplest progress-checking habit
-Could easily lose my mind, be careful.
-* [[id:93FF0A9B-F54E-49D5-8154-640BBAE08D4D][Beta Readers]]                                    :gtasks:
-** DONE Make plan + tasks for Beta Reading        :curweek:pom:
-CLOSED: [2025-06-27 Fri 07:12]
-** DONE Draft thoughts re: pipeline beta reading, share w/ EWJ :pom:
-CLOSED: [2025-06-20 Fri 09:43]
-** DONE Write Robfitz re: pipeline beta reading
-CLOSED: [2025-06-21 Sat 14:32]
-** DONE Set reward: can share w/ EWJ once I finish... something
-CLOSED: [2025-06-27 Fri 07:10]
-** DONE Review WUB re: beta readers + partial book
-CLOSED: [2025-06-16 Mon 09:26]
-** DONE Get the markdown formatting info on my laptop
-CLOSED: [2025-06-07 Sat 08:01]
-** DONE Experiment with org-org-export-to-md
-CLOSED: [2025-06-07 Sat 08:18]
-** DONE Write python script to convert toc.org to file list
-CLOSED: [2025-06-07 Sat 14:11]
-Ask aidermacs to factor it out of existing code
-** DONE Makefile: regen chapter file list when toc changes
-CLOSED: [2025-06-07 Sat 14:15]
-** DONE Write script to build full Markdown of book
-CLOSED: [2025-06-07 Sat 15:06]
-By feeding chapter files in order to my org-to-md.sh script, concatenating output
-** DONE Add Makefile target for full Markdown
-CLOSED: [2025-06-07 Sat 15:06]
-** DONE Fix footnotes
-CLOSED: [2025-06-07 Sat 15:38]
-
-https://stackoverflow.com/questions/25579868/how-to-add-footnotes-to-github-flavoured-markdown
-
-Try out https://github.com/larstvei/ox-gfm?tab=readme-ov-file
-** DONE Fix Footnotes again
-CLOSED: [2025-06-08 Sun 08:25]
-ox-gfm is just rendering them in HTML, not as actual GFM.
 * [[id:47FF75F6-17DB-4E36-950D-F7CFAFA950EA][Intro Chapter]]                                   :gtasks:
 ** DONE Finish first draft of Intro chapter
 CLOSED: [2025-05-28 Wed 16:14]
@@ -328,13 +212,153 @@ Before the story/example
 There is an amount of debt, once it's gone, you're living clean.
 
 This is not true for technical investments.
+* Structure [[id:B4926308-39DD-471B-8E71-5FFF7546D6E3][(Table of Contents]])                   :gtasks:
+** TODO Experiment: add exercises to end of each chapter
+Like, now go do these things
+** DONE Spike on ToC reorg - part II = stakeholder mgmt
+CLOSED: [2025-06-16 Mon 09:25]
+** TODO Maybe: add an entire chapter on Rewrites
+** TODO Add: why technical judgment is important
+** TODO Add: Major rewrites *must* be done with product
+not as separate tech investments
+** TODO And, for rewrites, celebrate all the ones I've done:
+ - Analytics 2.0
+ - Nexus WMS
+ - Flagship
+** TODO General note: feature my own failures as learning events
+E.g. things I tried that didn't work, or that I've seen people try and have not work
+** DONE Write out notes on my ideas for reordering :pom:
+CLOSED: [2025-06-07 Sat 09:32]
+** TODO Rename "Rewrites: How To + How *Not* To"
+** TODO For post-mortems, tell story of Berlin, Roberto/Vahe
+They were stuck going slow, they committed to doing good post-mortems, it transformed their speed and relationship with stakeholders
+* [[id:E0ADBF07-90B8-4C37-81C0-96A428020F5E][Substack]]                                        :gtasks:
+** TODO Draft post for <2025-07-07 Mon>           :curweek:
+** TODO Draft email to TD                         :curweek:
+** TODO Send email to TD                          :curweek:
+** DONE Draft post for <2025-06-30 Mon>           :pom:
+CLOSED: [2025-06-29 Sun 13:10]
+** DONE Post to LinkedIn, ref'ing last 4 posts
+CLOSED: [2025-06-23 Mon 11:50]
+But primary focus on the most recent one
+** DONE Check w/ EWJ after posts go out           :pom:
+CLOSED: [2025-06-22 Sun 10:11]
+** DONE Review Substack growth tips
+CLOSED: [2025-06-23 Mon 11:51]
+Growth tip: Make your publication sell for you
+** DONE Revise my one-liner
+CLOSED: [2025-06-27 Fri 14:49]
+Signal who the target audience is and why they might subscribe.
+** DONE Improve About page.
+CLOSED: [2025-06-27 Fri 14:59]
+Build credibility by explaining who you are, what you offer, and when you publish.
+
+Link to your Substack in your email signature and social profiles.
+Make it easy for your network to discover your publication.
+** DONE Research tools to schedule posts to LI
+CLOSED: [2025-06-29 Sun 13:10]
+So that I can queue things up and have them just go. Don't stay tied.
+** DONE Finish drafting LinkedIn post
+CLOSED: [2025-06-20 Fri 08:53]
+** DONE Draft 1-2 next posts, prep
+CLOSED: [2025-06-12 Thu 12:42]
+ - Tech Investments definition
+ - Edmund's post on golden cesspool
+** DONE Draft a test post on my substack
+CLOSED: [2025-06-09 Mon 13:11]
+** DONE Send my first post, check if Al got it
+CLOSED: [2025-06-11 Wed 17:06]
+** DONE Understand diff between Substack notes and posts
+CLOSED: [2025-06-12 Thu 11:16]
+* [[id:17305FA7-A43F-40C9-9309-0EF3577C70D0][Author Platform]]                                 :gtasks:
+** TODO Ping Winston re: building platform        :curweek:
+Esp how he uses LI
+** TODO Brainstorm 10 bad ideas for "hearing from" people
+** TODO Define incremental rewards/celebrations
+E.g. buy myself dinner, or a game, or go out w/ friends, or tell Edmund + someone, take Bonnie out for dinner.
+** TODO Research: places for building followers
+Bluesky?
+** TODO Reseaerch Medium cross-post practices
+** TODO Make new email address, put on Substack
+** DONE Define next increment of success, create viz :pom:
+CLOSED: [2025-06-27 Fri 07:23]
+Likely: subscriber count? Separate goal around beta readers? Frequency of recommendation? People reaching out to me. DO a bit of thinking.
+** DONE Build some basic habit + tooling around it
+CLOSED: [2025-06-23 Mon 10:00]
+E.g. post 3-5 times/week, set up some org file that has the postings collected, and some script that uploads them for me. So it's just feeding a hopper, nothing I keep on my day-to-day todo list
+** DONE Post to LinkedIn once Substack is live
+CLOSED: [2025-06-12 Thu 12:06]
+** DONE Put my email address on my Substack
+CLOSED: [2025-06-11 Wed 17:06]
+** DONE Draft a post to LinkedIn
+CLOSED: [2025-06-11 Wed 17:06]
+Announce I'm working on a book, will post here sometimes, but please go join my new newsletter/Substack if you're interested for more (and/or might like to be a beta reader for a eection).
+* [[id:22898D7F-26DD-4787-939B-B640B3D5BE56][Beta Wave 1]]                                     :gtasks:
+** TODO Review WUB, add todos                     :curweek:
+** TODO HTB: Get footnotes to number by chapter   :curweek:
+** TODO HTB: try to import ToC                    :curweek:
+Add --toc to the pandoc?
+Set --toc-depth=2?
+** TODO Decide how many chapters                  :curweek:
+** TODO Load into HTB                             :curweek:
+** TODO Draft "guide for beta readers"            :curweek:
+Steal from WUB
+
+** TODO Dry Run / test - EWJ?                     :curweek:
+** TODO Draft beta reading invite                 :curweek:
+Steal from WUB
+
+my "do you want to be a beta reader" invite
+
+** TODO Define call to action/progress            :curweek:
+(e.g. share w/ friend)
+Something that demonstrates they're getting value, not being nice.
+** TODO Decide: how many readers?
+** TODO Decide where / how to post invite
+** TODO Start the campaign
+
+** TODO Define dumbest, simplest progress-checking habit
+Could easily lose my mind, be careful.
+* [[id:93FF0A9B-F54E-49D5-8154-640BBAE08D4D][Beta Readers]]                                    :gtasks:
+** DONE Make plan + tasks for Beta Reading        :pom:
+CLOSED: [2025-06-27 Fri 07:12]
+** DONE Draft thoughts re: pipeline beta reading, share w/ EWJ :pom:
+CLOSED: [2025-06-20 Fri 09:43]
+** DONE Write Robfitz re: pipeline beta reading
+CLOSED: [2025-06-21 Sat 14:32]
+** DONE Set reward: can share w/ EWJ once I finish... something
+CLOSED: [2025-06-27 Fri 07:10]
+** DONE Review WUB re: beta readers + partial book
+CLOSED: [2025-06-16 Mon 09:26]
+** DONE Get the markdown formatting info on my laptop
+CLOSED: [2025-06-07 Sat 08:01]
+** DONE Experiment with org-org-export-to-md
+CLOSED: [2025-06-07 Sat 08:18]
+** DONE Write python script to convert toc.org to file list
+CLOSED: [2025-06-07 Sat 14:11]
+Ask aidermacs to factor it out of existing code
+** DONE Makefile: regen chapter file list when toc changes
+CLOSED: [2025-06-07 Sat 14:15]
+** DONE Write script to build full Markdown of book
+CLOSED: [2025-06-07 Sat 15:06]
+By feeding chapter files in order to my org-to-md.sh script, concatenating output
+** DONE Add Makefile target for full Markdown
+CLOSED: [2025-06-07 Sat 15:06]
+** DONE Fix footnotes
+CLOSED: [2025-06-07 Sat 15:38]
+
+https://stackoverflow.com/questions/25579868/how-to-add-footnotes-to-github-flavoured-markdown
+
+Try out https://github.com/larstvei/ox-gfm?tab=readme-ov-file
+** DONE Fix Footnotes again
+CLOSED: [2025-06-08 Sun 08:25]
+ox-gfm is just rendering them in HTML, not as actual GFM.
 * [[id:49435FCD-0590-44DE-8FC7-585E7BCC8BB2][Tooling]]                                         :gtasks:
+** TODO Make github repo for TIB, push it up      :curweek:
+** TODO Fix word count to handle 0 days           :curweek:
 ** TODO Spike: word count credit in graph for scraps
 So that I don't have weird incentives to keep bad writing in.
-** TODO Fix word count to handle 0 days
 ** TODO Edmund: hours not words?
-** DONE Aider: add "today's word count" to terminal view or graph
-CLOSED: [2025-06-21 Sat 14:46]
 ** TODO Spike: Hours not (or plus?) words as dopamine
 E.g. is now the time to start logging w/ org?
 ** TODO Aider: split chapter count into two options
@@ -343,38 +367,13 @@ then show them side by side
 As in, use screen or something to see both at once, get my watch script running again.
 ** TODO Make CLI wordcount tool take a column width option
 So I can either run full screen or within 80 columns
-** TODO Make scripts take titles from #+title, not the first headline
-** DONE Aider: do trailing 7/14/28? days word count pace?
-CLOSED: [2025-06-19 Thu 19:48]
-** DONE Have Makefile hold intermediate targets
-CLOSED: [2025-06-16 Mon 09:27]
-** DONE Within tib-todos, add todo at top of list
-CLOSED: [2025-06-12 Thu 15:42]
-May have to do the same for inbox + headers, unless I move TIB Inbox to a separate file.
-** DONE Write python to render outline w/ wordcounts
-CLOSED: [2025-06-04 Wed 08:03]
-Strip comments, etc
-
-And also on something to watch the directory for changes, re-run that and auto-update a webpage.
-
-I've got failing tests in Step 6, go back to those.
-** DONE Spike on: how to do footnotes in org      :pom:
-CLOSED: [2025-06-04 Wed 15:10]
-** DONE Make the word count tool handle initial chapter text :pom:
-CLOSED: [2025-06-11 Wed 17:15]
-** DONE Add titles for the chapters that don't have them
-CLOSED: [2025-06-11 Wed 07:11]
-** TODO For pandoc export, consider pre-processing to extract chapter text
+** TODO Take titles from #+title, not the first headline
+** TODO pandoc: pre-process to extract chapter text?
 So then I can use a single method for all of full book word counts, chapter word counts and HelpThisBook version rendering.
 ** TODO Look for missing Chapter filetags in scripts
 Because now my wordcount history stuff is sensitive to those being missing.
 ** TODO Create a new chapter template or abbrev?
-** DONE For teminal UI word counts, add basic horizontal bars
-CLOSED: [2025-06-16 Mon 09:27]
-** DONE Update gnuplot script to determine date range from file? :pom:
-CLOSED: [2025-06-11 Wed 17:25]
-** DONE Align capture template + agenda keys for TIB
-CLOSED: [2025-06-12 Thu 11:14]
+
 * [[id:D901A4C9-885B-4F42-8B8D-3595616857E8][The Value of Knowing What To Do Next]]            :gtasks:
 ** TODO For "making 3x more decisions" bring to life "implicit decisions"
 E.g. the decision to keep coding against the newest version of a library. Or the decision to base the product on a data source that you've been assured is present in reality. Or the decision to build your feature around a run-time call to an API you believe you'll have valid credentials for, at the moment of the call.
@@ -411,6 +410,8 @@ CLOSED: [2025-06-01 Sun 08:51]
 CLOSED: [2025-06-01 Sun 08:51]
 ** DONE Revise/improve The Ti Cycle
 CLOSED: [2025-06-02 Mon 11:23]
+* Book Misc
+** TODO Ping Alla H about using her name?
 * Future Books
 ** TODO The Tech Investment Casebook
 ** TODO Collect ideas for book 2 about inteviewing + hiring

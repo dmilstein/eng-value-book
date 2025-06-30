@@ -315,3 +315,130 @@ CLOSED: [2025-06-08 Sun 08:26]
 :ARCHIVE_TODO: DONE
 :ARCHIVE_ITAGS: gtasks curweek
 :END:
+
+* DONE Aider: add "today's word count" to terminal view
+CLOSED: [2025-06-21 Sat 14:46]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-06-30 Mon 08:35
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Tooling
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Aider: do trailing 7/14/28? days word count pace?
+CLOSED: [2025-06-19 Thu 19:48]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-06-30 Mon 08:35
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Tooling
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Have Makefile hold intermediate targets
+CLOSED: [2025-06-16 Mon 09:27]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-06-30 Mon 08:35
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Tooling
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Within tib-todos, add todo at top of list
+CLOSED: [2025-06-12 Thu 15:42]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-06-30 Mon 08:35
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Tooling
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+May have to do the same for inbox + headers, unless I move TIB Inbox to a separate file.
+
+* DONE Write python to render outline w/ wordcounts
+CLOSED: [2025-06-04 Wed 08:03]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-06-30 Mon 08:35
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Tooling
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+Strip comments, etc
+
+And also on something to watch the directory for changes, re-run that and auto-update a webpage.
+
+I've got failing tests in Step 6, go back to those.
+
+* DONE Spike on: how to do footnotes in org       :pom:
+CLOSED: [2025-06-04 Wed 15:10]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-06-30 Mon 08:35
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Tooling
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Make the word count tool handle initial chapter text :pom:
+CLOSED: [2025-06-11 Wed 17:15]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-06-30 Mon 08:35
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Tooling
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Add titles for the chapters that don't have them
+CLOSED: [2025-06-11 Wed 07:11]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-06-30 Mon 08:35
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Tooling
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE For teminal UI word counts, add basic horizontal bars
+CLOSED: [2025-06-16 Mon 09:27]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-06-30 Mon 08:35
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Tooling
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Update gnuplot script to determine date range from file? :pom:
+CLOSED: [2025-06-11 Wed 17:25]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-06-30 Mon 08:35
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Tooling
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Align capture template + agenda keys for TIB
+CLOSED: [2025-06-12 Thu 11:14]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-06-30 Mon 08:35
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Tooling
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
