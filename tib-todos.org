@@ -35,7 +35,7 @@ CLOSED: [2025-06-20 Fri 08:56]
 So that the engineering manager can then pitch her work in that context
 ** DONE Options: maybe break out "decisions you stakeholder is making" into its own section
 CLOSED: [2025-06-28 Sat 09:02]
-
+** TODO Add reference to Kahneman mic drop about stories
 * [[id:BB09F432-DEEB-4129-8F88-D23C86E8CEBB][Build Viz First]]                                 :gtasks:
 ** DONE Jam in some of my ideas from my notes, break out todos :pom:
 CLOSED: [2025-06-07 Sat 09:35]
@@ -110,8 +110,10 @@ CLOSED: [2025-06-21 Sat 11:06]
 ** DONE Terrible first draft
 CLOSED: [2025-06-21 Sat 14:30]
 * [[id:4D62F0DE-2862-45F3-97EE-6AFED5382F2C][Storytelling/Wins]]                              :gtasks:curweek:
-** TODO 3 Bad ideas for scenario                  :pom:
-** TODO Set up the problem, with a story          :pom:
+** DONE 3 Bad ideas for scenario                  :pom:
+CLOSED: [2025-06-30 Mon 10:00]
+** DONE Set up the problem, with a story          :pom:
+CLOSED: [2025-06-30 Mon 10:00]
 As part of, define downside of not doing this/upside of doing it well.
 ** TODO Write "bad/dry" summary of scenario
 ** TODO Show how to apply storytelling techniques
