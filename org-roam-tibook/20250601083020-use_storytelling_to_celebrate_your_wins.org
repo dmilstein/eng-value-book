@@ -6,4 +6,47 @@
 #+SELECT_TAGS
 #+OPTIONS: tags:nil
 * Use Storytelling To Celebrate Wins
-Blah
+
+If you've followed the plan up to here, you've completed an initial increment of work, and brought some options and visibility to your stakeholder. You've made a decision about what to do next, together.
+
+Time to dive into another cycle of improvements, right?
+
+Actually, no.
+
+/But... why not?/ you ask. /We even laid out some options, they mostly understand the options. We've built visibility, for crimminy's sakes./
+
+Here's the thing.
+
+Whatever your stakeholder is /saying/...
+
+... *they likely still /feel/ like they're "doing engineering a favor".*
+
+As in, they don't yet emotionally experience this as "their" win.
+
+Thus, they likely urgently want to stop working on this "engineering issue" so they get back to solving "business problems".
+
+Left unaddressed, this feeling inside your stakeholder, will first slow and the completely block [destroy, hinder, stall] your ability to move through repeated, iterative cycles of investment.[fn:: Huh, Dan, I didn't really expect a book on Tech Investments to features, I dunno, quite so much speculative psychology about stakeholders? Personally, I have not had good luck approximating humans as "beings with no emotions".]
+
+If every single cycle feels like a *concession* they're making -- you're never going to be able to create real value for your business.
+
+To address this, you're going to *tell a story*.
+
+
+
+
+* Scraps
+Alright, let's just do some thinking out loud, here.
+
+I can start by defining the problem -- the risk.
+
+What is the risk? Well, even after the work is over, your stakeholder is likely not thinking of it as their win. They're thinking "can I get back to business goals" already. Notice how we never took the time to fully bring them into our thinking about business value. Also, there's a good chance that the visibility still feels a bit abstract to them -- even if it's a true reflection of value for the business.
+
+I think pick either:
+
+ - Enable Parallel Development Across Multiple Teams
+
+ - Reduce Risk of Losing Data
+
+Both of which are super valuable and super opaque.
+
+I think parallel dev, and use Flagship stories w/ Lisa, Cartz + M&M as example, alongside various challenging bits of making that work. Feature Sean E, Neil, Topher, Bryan?
