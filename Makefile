@@ -36,7 +36,7 @@ build/book.org: build/chapters.txt
 	@> $@
 	@while IFS= read -r chapter; do \
 		if [ "$$chapter" != "None" ]; then \
-			cat "org-roam-tibook/$$chapter" >> $@; \
+			cat "org-roam-tibook/$$chapter" | scripts/extract-first-heading.sh >> $@; \
 			echo "" >> $@; \
 		fi; \
 	done < build/chapters.txt
