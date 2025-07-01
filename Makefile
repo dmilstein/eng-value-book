@@ -11,7 +11,7 @@ build:
 
 # Generate chapters.txt from TOC
 build/chapters.txt: org-roam-tibook/toc.org
-	cd book-monitor && python parsers/toc_parser.py ../org-roam-tibook/toc.org > ../build/chapters.txt
+	cd book-monitor && python parsers/toc_parser.py ../org-roam-tibook/toc.org > ../$@
 
 # Alias for convenience
 chapters: build/chapters.txt
