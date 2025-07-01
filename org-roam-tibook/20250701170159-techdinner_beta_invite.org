@@ -1,0 +1,62 @@
+:PROPERTIES:
+:ID:       F6D08A49-0377-4DC2-B35E-0E6F6C94F90C
+:END:
+#+title: TechDinner Beta Invite
+A part of [[id:22898D7F-26DD-4787-939B-B640B3D5BE56][Beta Reading Wave 1]], and alternate version of [[id:82076E65-A0D3-4B11-87F0-94FE905D5E33][Beta Reading Invite]].
+
+* Email to TD
+To: TD
+Subject: Life, Book, Beta Reading
+
+Dear TechDinner,
+
+tl;dr (bullet points style):
+
+  - I've decided to use my current between-jobs period to write a book
+
+  - It's intended for engineering leaders who find themselves struggling to develop a productive partnership with their product or business counterparts.
+
+  - The working title is "Tech Investments, Not Tech Debt: How To Make Time For Engineering Work That Matters".
+
+  - I'm currently looking for some Beta Readers for an early draft
+
+  - More details below
+
+  - If you, or someone you know, might be interested, please let me know (and/or feel free to pass the info on).
+
+Also: as I'm writing, I'm sharing excerpts and ideas via https://buildingandlearning.substack.com/ (which I somewhat desperately want to call a blog, not a "Substack"?)
+
+Thanks,
+-Dan
+
+** Details
+
+*** What Is This Book?
+
+It's for engineering leaders, and is titled:
+
+/Tech Investments, Not Tech Debt
+How To Make Time For Engineering Work That Matters/
+
+My hope is to help folks who find themselves caught between, on the one hand, a relentless stream of feature requests from their stakeholders and, on the other, an equally relentless stream of requests from their engineers to slow down and fix the (very real!) problems in their systems.
+
+*** How Long Is This Book / How Much Time Are We Talking?
+
+For this stage of beta reading, I'll be sharing roughly the first *half* of the book.
+
+That's currently around 20,000 words, which should hopefully be readable in under 2 hours.
+
+Also: although that's just the first half, I'm hopeful there are genuinely useful ideas and tactics in there (and of course, I'm happy to share more as it's written, with anyone who reads the earlier parts, if they'd like to keep following along).
+
+*** Who Is The Ideal Reader?
+
+Answer 1: anyone who is curious to learn more about the challenges described above.
+
+Answer 2: Maybe *especially* engineering leaders who don't yet feel like they have as many tactics and tools for working with their product team and stakeholders, as they'd like.
+
+*** Next Steps
+
+Drop me a line, and I'll share more info, and a link to the book!
+
+Thanks,
+Dan

@@ -1,0 +1,32 @@
+:PROPERTIES:
+:ID:       1248CC07-C3EC-4898-83A1-DA7E60C73E9A
+:END:
+#+title: Help This Book
+Some notes on [[id:49435FCD-0590-44DE-8FC7-585E7BCC8BB2][Tech Book Tooling]], as part of applying ideas from [[id:27BF5BDA-3A83-49FA-A73F-9BA26EF096B9][Write Useful Books]]
+
+As of <2025-07-01 Tue>, I don't think my Makefile will build quite what I want.
+
+OMG, did I really take no notes on this? Or did they end up in the wrong roam area?
+
+Because I have the file tags, ala:
+
+  # #+SELECT_TAGS
+  # #+OPTIONS: tags:nil
+  # * Understand Value in Depth                       :export:
+
+Which I was using for some kind of emacs-driven export, but just using the shell tools is way better.
+
+So, one question is simply: how do you make chapter by chapter footnotes work in GitHub-flavored markdown uploads to HTB? Should I maybe be uploading separate chapters? Have to review their notes.
+
+But then, if I *do* want a single filee, I can adjust my makefile to use my shell script to extract the body of the chapters (possibly renaming the result to whatever is in that first headline), and then either glue those together or do whatever and *then* run pandoc.
+
+Formatting notes:
+[[https://helpthisbook.helpscoutdocs.com/article/22-formatting-your-markdown-project-for-import][Formatting your markdown project for import]]
+
+Okay, so I think my best bet is:
+
+ - Use my shell script to extract the chapter text *as* org
+ - Glue that all together into one big org file, with lots of embedded footnotes
+ - Run pandoc on *that*
+ - Upload to HTB
+ - See if it "just works", in terms of footnotes per chapter

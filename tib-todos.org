@@ -35,6 +35,13 @@ CLOSED: [2025-06-20 Fri 08:56]
 So that the engineering manager can then pitch her work in that context
 ** DONE Options: maybe break out "decisions you stakeholder is making" into its own section
 CLOSED: [2025-06-28 Sat 09:02]
+** TODO Clean up the SELECT_TAGS/OPTIONS/:export stuff if I don't need it
+** TODO Ask Edmund: reframe as "How To Work With Stakeholders"?
+Like, that's sort of what it's becoming? Is *that* the urgent pain?
+** TODO Ask Dani: what was that podcast? How does she get ideas?
+** TODO Decide: really show everyone's comments? I hate it, start without it
+** TODO Spike is the (Personal) thing fucking up org-roam?
+I should just nuke the non-personal one to clean this up
 * [[id:BB09F432-DEEB-4129-8F88-D23C86E8CEBB][Build Viz First]]                                 :gtasks:
 ** DONE Jam in some of my ideas from my notes, break out todos :pom:
 CLOSED: [2025-06-07 Sat 09:35]
@@ -108,7 +115,46 @@ CLOSED: [2025-06-29 Sun 16:47]
 CLOSED: [2025-06-21 Sat 11:06]
 ** DONE Terrible first draft
 CLOSED: [2025-06-21 Sat 14:30]
-* [[id:4D62F0DE-2862-45F3-97EE-6AFED5382F2C][Storytelling/Wins]]                              :gtasks:curweek:
+* [[id:22898D7F-26DD-4787-939B-B640B3D5BE56][Beta Wave 1]]                                     :gtasks:
+** TODO Figure out footnotes/toc for HTB          :curweek:pom:
+** TODO pandoc: pre-process, extract chapter text :curweek:pom:
+So then I can use a single method for all of full book word counts, chapter word counts and HelpThisBook version rendering.
+** DONE Review WUB, add todos                     :curweek:
+CLOSED: [2025-07-01 Tue 09:48]
+** DONE Draft TD Invite                           :curweek:
+CLOSED: [2025-07-01 Tue 17:28]
+** TODO HTB: Get footnotes to number by chapter   :curweek:
+** TODO HTB: try to import ToC                    :curweek:
+Add --toc to the pandoc?
+Set --toc-depth=2?
+** DONE Decide how many chapters                  :curweek:pom:
+CLOSED: [2025-07-01 Tue 09:12]
+** TODO Load into HTB                             :curweek:
+** DONE Draft "guide for beta readers"            :curweek:
+CLOSED: [2025-07-01 Tue 09:48]
+Steal from WUB
+
+** TODO Dry Run / test with EWJ                   :curweek:
+** DONE Make list of places to send invite        :curweek:
+CLOSED: [2025-07-01 Tue 10:12]
+** DONE Draft beta reading invite                 :curweek:pom:
+CLOSED: [2025-07-01 Tue 10:11]
+Steal from WUB
+
+my "do you want to be a beta reader" invite
+
+** TODO Define call to action/progress
+(e.g. share w/ friend)
+Something that demonstrates they're getting value, not being nice.
+** DONE Decide: how many readers?
+CLOSED: [2025-07-01 Tue 17:28]
+** DONE Decide where / how to post invite
+CLOSED: [2025-07-01 Tue 17:28]
+** TODO Start the campaign
+
+** TODO Define dumbest, simplest progress-checking habit
+Could easily lose my mind, be careful.
+* [[id:4D62F0DE-2862-45F3-97EE-6AFED5382F2C][Storytelling/Wins ]]                              :gtasks:curweek:
 ** TODO Add reference to Kahneman mic drop about stories :curweek:
 ** DONE 3 Bad ideas for scenario                  :pom:
 CLOSED: [2025-06-30 Mon 10:00]
@@ -272,37 +318,9 @@ As in, use screen or something to see both at once, get my watch script running 
 ** TODO Make CLI wordcount tool take a column width option
 So I can either run full screen or within 80 columns
 ** TODO Take titles from #+title, not the first headline
-** TODO pandoc: pre-process to extract chapter text?
-So then I can use a single method for all of full book word counts, chapter word counts and HelpThisBook version rendering.
 ** TODO Look for missing Chapter filetags in scripts
 Because now my wordcount history stuff is sensitive to those being missing.
 ** TODO Create a new chapter template or abbrev?
-* [[id:22898D7F-26DD-4787-939B-B640B3D5BE56][Beta Wave 1]]                                     :gtasks:
-** TODO Review WUB, add todos                     :curweek:
-** TODO HTB: Get footnotes to number by chapter   :curweek:
-** TODO HTB: try to import ToC                    :curweek:
-Add --toc to the pandoc?
-Set --toc-depth=2?
-** TODO Decide how many chapters                  :curweek:
-** TODO Load into HTB                             :curweek:
-** TODO Draft "guide for beta readers"            :curweek:
-Steal from WUB
-
-** TODO Dry Run / test - EWJ?                     :curweek:
-** TODO Draft beta reading invite                 :curweek:
-Steal from WUB
-
-my "do you want to be a beta reader" invite
-
-** TODO Define call to action/progress            :curweek:
-(e.g. share w/ friend)
-Something that demonstrates they're getting value, not being nice.
-** TODO Decide: how many readers?
-** TODO Decide where / how to post invite
-** TODO Start the campaign
-
-** TODO Define dumbest, simplest progress-checking habit
-Could easily lose my mind, be careful.
 * [[id:E0ADBF07-90B8-4C37-81C0-96A428020F5E][Substack]]                                        :gtasks:
 ** TODO Draft post for <2025-07-07 Mon>           :curweek:
 ** TODO Draft email to TD                         :curweek:
