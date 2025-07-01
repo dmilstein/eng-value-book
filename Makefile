@@ -29,16 +29,22 @@ build/book.deps: build/chapters.txt
 
 # Second stage: include the dependencies and build the book
 -include build/book.deps
-#build/book.md: $(CHAPTER_MDS)
-build/book.md: build/book.deps
-	@echo "Building complete book..."
+
+# Create a single org file by concatenating all chapters
+build/book.org: build/chapters.txt
+	@echo "Collating org files into single book..."
 	@> $@
 	@while IFS= read -r chapter; do \
-		chapter_md="build/$$(basename "$$chapter" .org).md"; \
-		$(MAKE) "$$chapter_md"; \
-		cat "$$chapter_md" >> $@; \
-		echo "" >> $@; \
+		if [ "$$chapter" != "None" ]; then \
+			cat "org-roam-tibook/$$chapter" >> $@; \
+			echo "" >> $@; \
+		fi; \
 	done < build/chapters.txt
+
+# Convert the collated org file to markdown
+build/book.md: build/book.org
+	@echo "Converting collated org file to markdown..."
+	pandoc --from=org --to=gfm $< > $@
 
 # Alias for convenience
 book: build/book.md
