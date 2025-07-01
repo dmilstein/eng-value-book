@@ -7,27 +7,27 @@
 #+OPTIONS: tags:nil
 * Use Storytelling To Celebrate Wins
 ** Intro
-If you've followed the plan up to here, you've completed an initial increment of work, and brought some options and visibility to your stakeholder. You've made a decision about what to do next, together.
+If you've followed the plan up to here, you've advocated for an initial increment, gotten buy-in, then completed that increment, and brought some new options and visibility to your stakeholder.
 
-Time to dive into another cycle of improvements, right?
+Surely, it's time to build momentum and dive right into another cycle of improvements, right?
 
-Actually, no.
+Actually, *no*.
 
-/But... why not?/ you ask. /We even laid out some options, they mostly understand the options. We've built visibility, we have a next increment all planned!/
+/But... why not?/ I hear you ask. /We've laid out solid options, the stakeholder mostly understands the options. We've built visibility, we have a next increment all planned! They'll be able to *see* the improvement!/
 
 Here's the thing.
 
 Whatever your stakeholder is /saying/...
 
-... *they likely still /feel/ like they're "doing engineering a favor".*
+... they likely still *feel* like they're *doing engineering a favor*.
 
 As in, they don't yet emotionally experience this as "their" win.
 
-There's a very good chance they urgently want to *stop* working on this "engineering issue" so they can get back to solving "business problems".
+Thus, there's a very good chance that their mind is coming up with all sorts of reasons to *stop* working on this "engineering issue" so they can get back to solving business problems.
 
-Left unaddressed, this feeling inside your stakeholder, will first slow and the completely stall out [destroy, hinder, block] your ability to move through repeated, iterative cycles of investment.[fn:: Huh, Dan, I didn't really expect a book on Tech Investments to features, I dunno, quite so much speculative psychology about stakeholders and their feelings? I mean, sure. But you do work with humans. And, personally, I have just not had any luck whatsoever approximating humans as "beings with no emotions".]
+Left unaddressed, these feelings inside your stakeholder's mind will first slow and then completely stall out your ability to move through repeated, iterative cycles of investment.[fn:: "Huh, Dan, I didn't really expect a book on Tech Investments to feature, I dunno, quite so much speculative psychology about stakeholders and their feelings?" Look, here's the thing: you work with humans. And I have just not had any luck whatsoever approximating humans as "beings with no emotions". Feel free to ignore this fact if you'd like to keep having all the most important work get cancelled over your bitter protests!]
 
-If every single cycle feels like a *concession* -- you're going to really really struggle to create significant value for your business.
+If every single cycle of investment feels like a *concession* -- you're going to really really struggle to create significant value for your business.
 
 # To address this, you're going to *tell a story*.
 
@@ -41,47 +41,59 @@ Before we get into the details of how to tell really effective stories, I want t
 
 Ultimately, we're trying to get the stakeholder to *join us*, in an understanding of how an investment can create value for the business.
 
-That is what will ultimately make them feel like this is not "a favor for engineering", but rather is "the best possible investment for the business".
+That is what will ultimately make them feel like this is not "a favor for engineering", but rather is "important for the business".
 
-That is what will make them "ask for" *more* investment, if in fact that makes sense.
+That is what will make them "ask for" *more* investment...
 
-Instead of trying to bargain their way back to churning out whatever features someone has dreamed up.[fn:: I kid, I kid! I'm sure your company is resolutely focused on customer problems, not features. But *some* companies have an obsession with features.]
+... instead of trying to bargain their way back to churning out more features that someone has dreamed up.[fn:: I kid, I kid! I'm sure your company is resolutely focused on customer problems, not features. But *some* companies have an obsession with features.]
 
 However, as we discussed way back in [[id:D3158CC2-8A69-4097-B9ED-ED6BD855A7AD][Understand Value In Depth]], "value for the business", is actually a fairly complex and subtle notion.
 
-Taking the time to really deeply understand a model of company value as a probablistic estimate of future profits is incredibly helpful in analyzing potential technical investments.
+It is incredibly powerful to understand company value as a probablistic estimate of future profits.
 
-Unfortunately, it is not particularly useful in getting stakeholders to see and feel that value.
+Unfortunately, it is not particularly *useful* in helping stakeholders to feel that value.
 
-Almost all the stakeholders I've ever worked with have a sort of impatience with what they perceive as "abstract thinking" -- and starting to talk about risks, information, etc, will strongly trigger that impatience.
+Almost all the stakeholders I've ever worked with have a sort of impatience with what they perceive as "abstract thinking" -- and starting to talk about risks, information, etc, will trigger that impatience.
 
-Let's bring this to life with a story.[fn:: Wait are we being meta? Oh goodness, yes. You, the reader of this, are *also* human, so stories are the best ways to get things lodged into your brain. Mwuhahahaha?]
+Let's bring this to life with a story.[fn:: "Wait are we being meta?" Oh goodness, yes. You, the reader of this, are *also* human, so stories are the best ways to get things lodged into your brain. Mwuhahahaha?]
 
 ** Everything Everywhere All In the Same Goddamn Place At Once
 
-At Ellevation, the product team had identified a massive opportunity for the business: overhauling how the core product allowed educators to collect, review and analyze information about students.
+aka, The Value Of Enabling Multiple Teams To Work In Parallel
 
-There were a lot of different facets to this work:
+At Ellevation, the product team had identified a massive opportunity for the business: overhauling how educators used the core product to collect, review and analyze information about students.
 
- - Dozens and dozens of new field definitions had to be added to the core system
+Thousands of districts already used the product to do some of that work -- but the product team believed we could massively improve their workflows and experience.
 
- - Every one of those fields needed to be fed into the complex search indexing that powered the queries and dashboards that customers used every day
+There were a lot of different facets to this overhaul:
 
- - An entirely new system had to be built, for selecting subsets of those fields to create "Forms" to display to educators
+ - We had to add dozens and dozens of new field definitions
 
- - Then another system had to be layered on top of that, to allow the EL administrator to create, assign and review completion of hundreds or even thousands of forms to educators across a school district.
+   E.g. Texas-specific english proficiency levels, that would allow educators in Texas to track students proficiency over time.
 
-And all of that had to be done while the existing product kept on working without missing a beat -- although painfully limited in many ways, the old version of the product was absolutely critical for thousands of school districts. If it broke, they could fail to meet crucial auditing and compliance deadlines, with very bad long-term imnapcts.
+ - We had to ensure our search index saw every update to one of these new fields
 
-This was a big enough project that we had multiple teams collaborating on it (and ended up doing so for several years).
+   Educators reviewed progress for their students by running queries and reviewing dashboards built on top of that search index, and expected very rapid updates to it.
 
-We set up one team focused on the field definitions, indexing, queries and dashboards.
+ - We had to develop a way to create new "Forms" to display to classroom teachers
 
-We set up another focused on creating and administering the actual forms built on top of those field definitions.
+   The leaders of the EL department needed to be able to select and arrange subsets of the new fields to show to those teachers.
 
-Unfortunately, at the start of the project, the existing code to do the various facets above was all snarled up together, and much of it lived in some of the hoariest parts of the legacy product.
+ - Then *another* system had to be layered on top of that, to the allow administrators to assign, track and review hundreds or thousands of forms at a time
 
-Practically every story we could come up with not only required both teams to complete work, but we didn't even have a vague idea of how to split it. Trivial-seeming decisions about the front-end UI for the Forms would turn out to be blocked by esoteric bits of the search indexing logic. But we wouldn't find that out for weeks, so development just kept stalling out.
+And all of that had to be done while the existing product kept on working without missing a beat.
+
+This was a big enough project that we had multiple teams collaborating on it for a very long time.
+
+Thus, we wanted to split the work up between them.
+
+We wanted to set up one team to focus on the *fields*: definitions, indexing, queries and dashboards.
+
+We set up another team to focus on the *forms*: creating, administering and sharing out the the forms built on top of those fields.
+
+Unfortunately, at the start of the project, the existing code to do those "two parts" was completely snarled up together, and much of it lived in some of the hoariest parts of the legacy product.
+
+Practically every user story we could come up with not only required both teams to complete work, but we didn't even have a vague idea of how to split that. Trivial-seeming decisions about the front-end UI for the Forms would turn out to be blocked by esoteric bits of the search indexing logic. But we wouldn't find that out for weeks, so development just kept stalling out.
 
 # Given this, massive value for enabling parallel development
 
