@@ -303,9 +303,9 @@ A classic example: they've spec'd out some hot new feature that has the trivial 
 
 If technical investments are "things that the engineers believe are valuable for the business", how, exactly, can work on that fundamental data model "create value" for the business?
 
-If the engineering team can find a safe way to incrementally restructure that core data model, such that they are then able to implement the hot new feature, they will make their overall company *more valuable* in so doing (because the company can look forward to a probablistic increase in profits in the future, thanks to this new feature). Such work would *create value*.
+If the engineering team can find a safe way to incrementally restructure that core data model, such that they are then able to implement the hot new feature, they will make their overall company *more valuable* in so doing (because the company can look forward to a probabilistic increase in profits in the future, thanks to this new feature). Such work would *create value*.
 
-If, on the other hand, the engineering team restructures the core data model to make it "more flexible", but does so on their own, and doesn't carefully focus on unlocking specific product improvements as they go... odds are quite good that they've made their overall company *less valuable* (because odds are quite good that customer needs will shift in some "surprising" way, and the added flexibility will prove to be a hindrance, therefore probablistically decreasing future profits). Such work will have *destroyed value*.
+If, on the other hand, the engineering team restructures the core data model to make it "more flexible", but does so on their own, and doesn't carefully focus on unlocking specific product improvements as they go... odds are quite good that they've made their overall company *less valuable* (because odds are quite good that customer needs will shift in some "surprising" way, and the added flexibility will prove to be a hindrance, therefore probabilistically decreasing future profits). Such work will have *destroyed value*.
 
 Value is not created by adding some kind of theoretical or abstract form of flexibility, but rather by steadily evolving systems in partnership with discovery around true business needs.
 
