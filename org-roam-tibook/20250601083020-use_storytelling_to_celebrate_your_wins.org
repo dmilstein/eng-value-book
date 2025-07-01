@@ -3,8 +3,6 @@
 :END:
 #+title: Use Storytelling To Celebrate Wins
 #+filetags: :Chapter:
-#+SELECT_TAGS
-#+OPTIONS: tags:nil
 * Use Storytelling To Celebrate Wins
 ** Intro
 If you've followed the plan up to here, you've advocated for an initial increment, gotten buy-in, then completed that increment, and brought some new options and visibility to your stakeholder.
@@ -13,9 +11,11 @@ Surely, it's time to build momentum and dive right into another cycle of improve
 
 Actually, *no*.
 
-/But... why not?/ I hear you ask. /We've laid out solid options, the stakeholder mostly understands the options. We've built visibility, we have a next increment all planned! They'll be able to *see* the improvement!/
+/But, Dan... why not?/ I hear you ask. /I've laid out solid options, the stakeholder mostly understands the options. We've built visibility, we have a next increment all planned! They'll even be able to *see* the improvement!/
 
-Here's the thing.
+True, true.
+
+But, here's the thing.
 
 Whatever your stakeholder is /saying/...
 
@@ -25,7 +25,7 @@ As in, they don't yet emotionally experience this as "their" win.
 
 Thus, there's a very good chance that their mind is coming up with all sorts of reasons to *stop* working on this "engineering issue" so they can get back to solving business problems.
 
-Left unaddressed, these feelings inside your stakeholder's mind will first slow and then completely stall out your ability to move through repeated, iterative cycles of investment.[fn:: "Huh, Dan, I didn't really expect a book on Tech Investments to feature, I dunno, quite so much speculative psychology about stakeholders and their feelings?" Look, here's the thing: you work with humans. And I have just not had any luck whatsoever approximating humans as "beings with no emotions". Feel free to ignore this fact if you'd like to keep having all the most important work get cancelled over your bitter protests!]
+Left unaddressed, these feelings and thoughts first slow and then completely stall out your ability to move through repeated, iterative cycles of investment.[fn:: "Huh, Dan, I didn't really expect a book on Tech Investments to feature, I dunno, quite so much speculative psychology about stakeholders and their feelings?" Look: you work with humans. And I have just not had any luck whatsoever approximating humans as "beings with no emotions". Feel free to ignore this fact if you'd like to keep having all the most important work get cancelled over your bitter protests!]
 
 If every single cycle of investment feels like a *concession* -- you're going to really really struggle to create significant value for your business.
 
@@ -33,7 +33,7 @@ If every single cycle of investment feels like a *concession* -- you're going to
 
 To address this, we're going to draw on one of most powerful tools for getting other human beings to +do your bidding+ understand your perspective on the world:
 
-We're going to tell a story.
+You're going to tell a story.
 
 ** Y U No Just Discuss Value?
 
@@ -49,7 +49,7 @@ That is what will make them "ask for" *more* investment...
 
 However, as we discussed way back in [[id:D3158CC2-8A69-4097-B9ED-ED6BD855A7AD][Understand Value In Depth]], "value for the business", is actually a fairly complex and subtle notion.
 
-It is incredibly powerful to understand company value as a probablistic estimate of future profits.
+It is incredibly powerful to understand company value as a probabilistic estimate of future profits.
 
 Unfortunately, it is not particularly *useful* in helping stakeholders to feel that value.
 
