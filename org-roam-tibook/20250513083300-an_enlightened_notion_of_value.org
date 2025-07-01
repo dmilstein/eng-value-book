@@ -138,7 +138,7 @@ In each case, they would have more information, and could therefore make a more 
 
 In this way of understanding "probability", a probabilistic estimate is a statement of *knowledge* by some specific person, not a statement of *inherent variation* in the world.
 
-Such a probablistic estimate encodes a person having *some* information -- but not enough to always get the right answer.
+Such a probabilistic estimate encodes a person having *some* information -- but not enough to always get the right answer.
 
 *** Um, What Person Is Doing The Knowing and The Guessing?
 
@@ -549,7 +549,7 @@ They get to pick one warehouse and open it up. If they find the money, they keep
 
 (Either way, the billionaire cackles in glee -- maybe they're broadcasting this and making money off it?)
 
-What does a probablistic estimate of Company B's profits look like?
+What does a probabilistic estimate of Company B's profits look like?
 
 Well, based on what we know, they have a 1 in 10 chance of finding the right warehouse.
 

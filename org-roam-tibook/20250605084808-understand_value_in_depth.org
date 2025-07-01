@@ -249,7 +249,7 @@ The profits a company will generate over the next 5 years can't be known perfect
 
 Any investor doing so will estimate that overall profit stream based on *their current knowledge*.
 
-A company valuation represents a probablistic estimate based on current knowledge.
+A company valuation represents a probabilistic estimate based on current knowledge.
 
 If the investor were to acquire *new information* that suggested the company would reap greater profits in the future, they would be willing to *pay more* for a fraction of the company.
 
@@ -279,7 +279,7 @@ Their models are making projections of future profits, based on what is currentl
 
 # In this way of understanding "probability", a probabilistic estimate is a statement of *knowledge* by some specific person, not a statement of *inherent variation* in the world.
 
-# Such a probablistic estimate encodes a person having *some* information -- but not enough to always get the right answer.
+# Such a probabilistic estimate encodes a person having *some* information -- but not enough to always get the right answer.
 
 ** The Economically Rational Investor
 # aka We're Going to Invent Someone Useful, Named Bertha
