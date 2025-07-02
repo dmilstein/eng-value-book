@@ -58,7 +58,7 @@ build/book.zip: build/chapters.txt
 	while IFS= read -r chapter; do \
 		if [ "$$chapter" != "None" ]; then \
 			echo "Processing chapter $$idx: $$chapter"; \
-			pandoc --from=org --to=gfm "org-roam-tibook/$$chapter" > "build/book-chapters/chapter $$idx.md"; \
+			cat "org-roam-tibook/$$chapter" | scripts/extract-first-heading.sh | pandoc --from=org --to=gfm > "build/book-chapters/chapter $$idx.md"; \
 			idx=$$((idx + 1)); \
 		fi; \
 	done < build/chapters.txt
