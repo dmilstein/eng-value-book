@@ -3,9 +3,7 @@
 :END:
 #+title: Build Visibility First
 #+filetags: :Chapter:
-#+SELECT_TAGS
-#+OPTIONS: tags:nil
-* Build Visibility First                          :export:
+* Build Visibility First
 
 Given that a tech investment is:
 

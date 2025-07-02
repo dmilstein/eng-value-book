@@ -3,9 +3,7 @@
 :END:
 #+title: Understand Value In Depth
 #+filetags: :Chapter:
-#+SELECT_TAGS
-#+OPTIONS: tags:nil
-* Understand Value in Depth                       :export:
+* Understand Value in Depth
 ** Warning (Extremely Valuable) Abstract Thinking Ahead
 
 We're about to do an unapologetically deep dive into how, exactly, engineers create value for the businesses in which they operate.

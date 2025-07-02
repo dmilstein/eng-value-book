@@ -3,17 +3,13 @@
 :END:
 #+title: Intro Chapter
 #+filetags: :Chapter:
-#+SELECT_TAGS
-#+OPTIONS: tags:nil
-* Introduction                                    :export:
+* Introduction
 ** Stakeholders Scream About Features, the Team Screams About Tech Debt: The Joy of Engineering Leadership
 # What does it mean to be an engineering leader?
 
 # Fundamentally, it means being pulled in two different directions at once.
 
-Stop me if you've heard this one before.
-
-At this very moment, your stakeholders--the product team, executives at your company, operational users--are urgently demanding that your team deliver an ambitious set of *features*.
+I'm going to make a guess that at this very moment, your stakeholders--the product team, executives at your company, operational users--are urgently demanding that your team deliver an ambitious set of *features*.
 
 # absolutely as soon as possible.
 
