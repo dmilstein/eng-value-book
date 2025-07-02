@@ -57,7 +57,203 @@ Almost all the stakeholders I've ever worked with have a sort of impatience with
 
 Let's bring this to life with a story.[fn:: "Wait are we being meta?" Oh goodness, yes. You, the reader of this, are *also* human, so stories are the best ways to get things lodged into your brain. Mwuhahahaha?]
 
-** Everything Everywhere All In the Same Goddamn Place At Once
+** RP and T-Rest at Friday Wins
+
+It's the Friday Wins zoom session. Anand, of one of the engineers on the Platform Team, turns on his mic to share his team's Win for the week.
+
+Anand takes a breath and looks up into the camera -- Bennett, the Platform Team manager, has clearly been coaching him on not just looking down at his shoes.
+
+He says: "This week, the Platform Team win is that we wrapped up the RR project. We achieved an T-Rest of 60 minutes."
+
+The other members of the Platform Team hoot and holler from their little screens.
+
+Once it's clear Anand isn't going to say anything else, the chat fills up with "congrats!" messages and thumbs up emojis from engineers on other teams. One PM posts "What's T-Rest?" but no one has time to respond, because Anand has already switched off his mic, and the next teams is stepping up to share a win.
+
+What has just happened here?
+
+First off, Friday Wins are great. See Kellan again, on designing rituals.
+
+# XXX Find Kellan link. "No, you have a searing intellectual crush on Kellan"
+
+There is something good in this win -- Anand is reporting on *some* kind of a visible, measurable improvement, not just the project being "done".
+
+But, unfortunately, no one who wasn't already intimately familiar with the project is going to remember anything about it. Or, honestly, care.
+
+You might be thinking: /Come on, Dan, those cryptic random acronyms are too cryptic. Engineers at my company don't speak in gibberish like that/.
+
+One of the profound occupational risks of working in software engineering is that, as we dive deep into some arcane problem, we lose all track of what civilians do and do not understand about that problem.
+
+For the last six weeks, Anand has spent every waking moment working on the "Rapid Recovery" project, living and breathing improvements in Time to Restore, which the team labels "T-Rest" on all their dashboards. It takes real effort to remember that not everyone knows what RR and T-Rest even mean.
+
+Let's see how Anand's Win could be work as a *story*, instead of a dry fact.
+
+Logistically, we'll imagine Anand can take up to about five minutes to share a win.
+
+** Saving Integrated Tech From Themselves
+
+Do any of you remember that exciting outage last month, when Integrated Tech threatened to cancel?
+
+[nods from the room]
+
+Here's what happened.
+
+We like to think of ourselves as a, well, *competent* platform team.
+
+Among other things, that means we're responsible for maintaining the central DB, which most of your teams depend on.
+
+Now, *of course*, we take backups of that database.
+
+Of course!
+
+Last year we even built a little dashboard, that shows the time to the last backup.
+
+We felt pretty good.
+
+But then, a month ago...
+
+...our friends at Integrated Tech--who you may also know as "our fourth largest enterprise customer"--began to implement a new third party inventory reconciliation package in their Warehouse Management Systems.
+
+Of course, they didn't *tell* us that they were doing this.
+
+And guess what that vendor's implementation engineers did, as part of their *standard process*? They completely wiped out the numbering scheme for every single one of Integrated's SKU's. And started them over again from 0.
+
+Yep.
+
+So, when Integrated sent us their nightly pull of inventory data, our system couldn't recognize a single SKU.
+
+Thus, on Friday morning, our alerts all exploded at the same time, as lead users at every warehouse escalated P1 issues... because *they couldn't use our product to print shipping labels*.
+
+Which meant Integrated couldn't move a single package out.
+
+Their fulfillment operations were totally frozen.
+
+This is where the Platform Team came in.
+
+Tom B, who was running point on the outage, slacked us: "Can you restore Integrated Tech from back up?"
+
+We looked at our little dashboard. "Sure," we said. "We've got backups from last night."
+
+"Great," Tom said, "please restore, asap."
+
+We patted ourselves on the back for having nightlies, and started the backup process.
+
+I was the one running the commands. As I hit return, one of those little progress bars showed up on my screen -- you know the ones, which show you the current rate of something, and forecast how long the whole thing is going to take?
+
+And you know how they always start by showing it's going to take forever, and then the process ramps up, and the forecast drops by a ton?
+
+Well, this one, said it was going to take *six hours* to finish... and then that forecast *never changed*.
+
+I can remember the feeling of panic as I looked at that progress monitor, just hovering at 5 hours and 49 minutes left.
+
+In the end, Integrated couldn't ship product for almost an entire 8-hour working shift.
+
+Even though we had backups to save ourselves and our customers from just this kind of incredibly stupid customer mistake.
+
+But wait, there's more!
+
+Integrated is only our *fourth*-largest enterprise customer. We ran some numbers, after the post-mortem, and realized it would have taken over 10 hours to restore our largest customer.
+
+We'd found out that, although we had *backups*, we did not have the ability to *rapidly restore*.
+
+We dug in to underst
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Start with someone announcing, at Friday Wins, or Eng All Hands: we reduced TTR from 4 hours to 1 hour.
+
+Yes, it really is that cryptic -- the team can't remember that people don't know that means Time to Restore, and how important that is.
+
+Back up and tell it as a story:
+
+ - Discovered during outage (driven by either code change or customer behavior, reference both at some point)
+
+ - Very unhappy customer, they wanted to restore to last night
+
+ - During post-mortem, decided to check the other ones
+
+ - Found out that was the *fastest*, some took six hours. That's a day-long outage for many customers
+
+ - Dug in -- turns out, we're doing incremental backups, with a full backup only once a week.
+
+ - Reconstructing is what takes so long
+
+ - No problem, we figured, let's take nightly backups
+
+ - Turns out that slows down the main DB thanks to some weird locking, and we don't have a window where we can slow down that much (bring moment to life), because we're doing big imports overnight.
+
+ - Threw that away
+
+ - Tried using a temporary "big" box to rebuild, then create an image and restore fast. Kinda worked, but super complex, and not something we were excited to execute in a crisis
+
+ - Talked to a friend, they gave a new idea
+
+ - Set up a read replica -- which we've been wanting to do for a while
+
+ - Then, can pull nightlies from that, during which time, we let it lag behind production
+
+ - Can now just directly restore from that, no incremental rebuild
+
+ - Almost all set, but worried that we'd drift again
+
+ - Then, Jose {Eduardo, Vivek} had a great idea -- we're building the dev instances off production, let's build those from a backup, and just start right at 9 am. That way, if it starts to take longer, the dev team will immediately feel it.
+
+ - And yep, the thing I've had running in a terminal just finished -- we've restored during this discussion
+
+** The Parts of a Story
+
+Life is normal
+
+Something Bad {or Potentially Good} Happens
+
+If Not Dealt with, will get much worse
+
+Try something, doesn't work, but learn.
+
+Try something, doesn't work, but learn.
+
+Try something, doesn't work, but learn.
+
+Get help/have idea: try something, it works. Maybe discover something even better on the way.
+
+Now, things are great.
+
+** Where Do You Tell The Story?
+
+** Who Tells the Story?
+
+* Scraps
+
+** Resonate Link
+https://www.duarte.com/blog/presentation-storytelling-audience-is-hero/
+** Rando Thinking
+Alright, let's just do some thinking out loud, here.
+
+I can start by defining the problem -- the risk.
+
+What is the risk? Well, even after the work is over, your stakeholder is likely not thinking of it as their win. They're thinking "can I get back to business goals" already. Notice how we never took the time to fully bring them into our thinking about business value. Also, there's a good chance that the visibility still feels a bit abstract to them -- even if it's a true reflection of value for the business.
+
+I think pick either:
+
+ - Enable Parallel Development Across Multiple Teams
+
+ - Reduce Risk of Losing Data
+
+Both of which are super valuable and super opaque.
+
+I think parallel dev, and use Flagship stories w/ Lisa, Cartz + M&M as example, alongside various challenging bits of making that work. Feature Sean E, Neil, Topher, Bryan?
+
+** Copy of: Everything Everywhere All In the Same Goddamn Place At Once
 
 aka, The Value Of Enabling Multiple Teams To Work In Parallel
 
@@ -104,21 +300,3 @@ Practically every user story we could come up with not only required both teams 
 # A long, long period of struggle
 
 # Maybe: build up an imagined version of this?
-
-
-* Scraps
-Alright, let's just do some thinking out loud, here.
-
-I can start by defining the problem -- the risk.
-
-What is the risk? Well, even after the work is over, your stakeholder is likely not thinking of it as their win. They're thinking "can I get back to business goals" already. Notice how we never took the time to fully bring them into our thinking about business value. Also, there's a good chance that the visibility still feels a bit abstract to them -- even if it's a true reflection of value for the business.
-
-I think pick either:
-
- - Enable Parallel Development Across Multiple Teams
-
- - Reduce Risk of Losing Data
-
-Both of which are super valuable and super opaque.
-
-I think parallel dev, and use Flagship stories w/ Lisa, Cartz + M&M as example, alongside various challenging bits of making that work. Feature Sean E, Neil, Topher, Bryan?
