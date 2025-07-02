@@ -396,6 +396,59 @@ Bootstrap a regular (e.g. weekly) maintenance triage session, to collaboratively
 **** Large
 If there's an area with continual bugs, but a lot of value, make a case for setting up a durable team to own, e.g. authentication.
 ** Enable Parallel Development Across Multiple Teams
+** Everything Everywhere All In the Same Goddamn Place At Once
+*** Scrap/Experiment w/ story
+aka, The Value Of Enabling Multiple Teams To Work In Parallel
+
+At Ellevation, in early 2021, the product team had identified an opportunity they were eager to pursue.
+
+# a major strategic investment they wished to make
+
+# A new way to solve one of our core customer problems
+
+Unfortunately, doing so would require overhauling multiple core product features.
+
+It was going to be a big enough effort that we expected to have multiple teams working on it for a long time (spoiler: they ended up working on it for a very, *very* long time. But it ultimately proved very, very *very* valuable)
+
+At the start of the work, we knew we wanted one team to expand the set of *data fields* we stored for school districts -- adding dozens and dozens of new field definitions, threading those through the search indexing subsystem, updating the sprawling queries and dashboards built on that data.
+
+We wanted another team to build a new suite of tools for creating and sharing forms and reports built on top of those new fields.
+
+Unfortunately, at the start of the work, the code to do those "two parts" was snarled up together -- and some of it lived in the hoariest parts of the legacy product.
+
+Practically every user story we could come up with required both teams to adjust "their" sytems -- and we kept on getting tripped up by trying to split that work up.
+
+Trivial-seeming decisions about the front-end UI for creating new forms would turn out to be blocked by esoteric bits of search indexing logic in the backend.
+
+But, since the work was spread across multiple teams, it would sometimes take us *weeks* to discover those restrictions.
+
+Sidebar That I Literally Can Not Resist Writing: this this *this* is the thing that people just don't want to understand about the costs of dependencies between team -- if those teams are not operating in total lockstep, then "small" discoveries and "small" adjustments that would, within one team, take a day or two can easily take a month or more.
+
+And, guess what, developing software is ONE GODDAMN DISCOVERY AND ADJUSTMENT AFTER ANOTHER.
+
+Or as Kellan Elliot-McCrea says with less swearing in [[https://kellanem.com/notes/on-team-size][On Sizing Your Engineering Organizations]]:
+
+/Coordination swamps all other costs in the development of software./
+
+Given this context, there was *massive* potential value in a technical investments to *enable parallel development across multiple teams*.
+
+Bertha, our economically rational investor, would be thrilled if Ellevation found a way to enable those two teams to move quickly and independently, each making their own discoveries and adjustments as they went. She would increase her estimate of future profits -- since we had a credible hypothesis about the increase in future profits if we could overhaul these core features.
+
+
+We knew it was going to take real work
+
+But we wouldn't find that out for weeks, so development just kept stalling out.
+
+# Given this, massive value for enabling parallel development
+
+# But, how can we make that visible?
+
+# Lucky, tech savvy product team. Even so.
+
+# A long, long period of struggle
+
+# Maybe: build up an imagined version of this?
+
 *** The Economic Value
 *** Forms of Visibility
 **** Small
