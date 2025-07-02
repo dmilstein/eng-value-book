@@ -68,10 +68,10 @@ class TocParser:
         """
         # Find the first top-level heading and extract content until the next one
         first_section_content = self._extract_first_section(content)
-        
+
         items = []
         lines = first_section_content.split('\n')
-        
+
         for line in lines:
             # Check for second-level headings (parts)
             part_match = re.match(r'^\*\*\s+(.+)$', line)
@@ -81,7 +81,7 @@ class TocParser:
                 if not re.search(r'\[\[(?:file:|id:)[^\]]+\]\[[^\]]+\]\]', line):
                     items.append((None, part_title))
                     continue
-            
+
             # Pattern to match [[file:filename][title]] links
             file_matches = re.findall(r'\[\[file:([^\]]+)\]\[([^\]]+)\]\]', line)
             for filename, title in file_matches:
@@ -105,17 +105,17 @@ class TocParser:
     def _extract_first_section(self, content: str) -> str:
         """
         Extract content from the first org-mode section only.
-        
+
         Args:
             content: The full content of the TOC file
-            
+
         Returns:
             Content of the first section (from first * heading to next * heading or EOF)
         """
         lines = content.split('\n')
         first_heading_found = False
         section_lines = []
-        
+
         for line in lines:
             # Check if this is a top-level heading (starts with single *)
             if re.match(r'^\*\s+', line):
@@ -130,7 +130,7 @@ class TocParser:
                 # We're inside the first section, collect all lines
                 section_lines.append(line)
             # If we haven't found the first heading yet, skip lines
-        
+
         return '\n'.join(section_lines)
 
     def _resolve_guid_to_filename(self, guid: str) -> Optional[str]:
@@ -173,6 +173,8 @@ def main():
     Command line interface for the TOC parser.
 
     Usage: python toc_parser.py <path_to_toc_file>
+
+    For now, just skips over the "Part I/II/III" dividers.
     """
     if len(sys.argv) != 2:
         print("Usage: python toc_parser.py <path_to_toc_file>", file=sys.stderr)
@@ -186,7 +188,8 @@ def main():
 
         # Output just the filenames in order
         for filename, title in chapters:
-            print(filename)
+            if filename is not None:
+                print(filename)
 
     except (FileNotFoundError, ParseError) as e:
         print(f"Error: {e}", file=sys.stderr)
