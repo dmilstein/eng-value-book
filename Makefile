@@ -1,6 +1,6 @@
 # Makefile for building book artifacts
 
-.PHONY: all clean chapters book
+.PHONY: all clean chapters book book.zip
 
 # Default target
 all: build/book.md
@@ -48,6 +48,26 @@ build/book.md: build/book.org
 
 # Alias for convenience
 book: build/book.md
+
+# Create individual chapter markdown files and zip them
+build/book.zip: build/chapters.txt
+	@echo "Creating individual chapter markdown files..."
+	@rm -rf build/book-chapters
+	@mkdir -p build/book-chapters
+	@idx=1; \
+	while IFS= read -r chapter; do \
+		if [ "$$chapter" != "None" ]; then \
+			echo "Processing chapter $$idx: $$chapter"; \
+			pandoc --from=org --to=gfm "org-roam-tibook/$$chapter" > "build/book-chapters/chapter $$idx.md"; \
+			idx=$$((idx + 1)); \
+		fi; \
+	done < build/chapters.txt
+	@echo "Creating book.zip..."
+	@cd build/book-chapters && zip -r ../book.zip *.md
+	@echo "Created build/book.zip with $$((idx - 1)) chapters"
+
+# Alias for convenience
+book.zip: build/book.zip
 
 # Generate word count history data and averages (both created by same script)
 build/word-count-data.txt build/word-averages.txt: $(CHAPTER_MDS)
