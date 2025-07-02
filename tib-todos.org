@@ -42,6 +42,7 @@ Like, that's sort of what it's becoming? Is *that* the urgent pain?
 ** TODO Decide: really show everyone's comments? I hate it, start without it
 ** TODO Spike is the (Personal) thing fucking up org-roam?
 I should just nuke the non-personal one to clean this up
+** TODO Add: "Yes *obviously* I have an intellectual crush on Kellan"
 * [[id:BB09F432-DEEB-4129-8F88-D23C86E8CEBB][Build Viz First]]                                 :gtasks:
 ** DONE Jam in some of my ideas from my notes, break out todos :pom:
 CLOSED: [2025-06-07 Sat 09:35]
@@ -116,25 +117,40 @@ CLOSED: [2025-06-21 Sat 11:06]
 ** DONE Terrible first draft
 CLOSED: [2025-06-21 Sat 14:30]
 * [[id:22898D7F-26DD-4787-939B-B640B3D5BE56][Beta Wave 1]]                                     :gtasks:
-** TODO Figure out footnotes/toc for HTB          :curweek:pom:
-** TODO pandoc: pre-process, extract chapter text :curweek:pom:
+** TODO Add a prompt to sign in
+** DONE Figure out footnotes/toc for HTB          :curweek:pom:
+CLOSED: [2025-07-01 Tue 18:32]
+** DONE pandoc: pre-process, extract chapter text :curweek:pom:
+CLOSED: [2025-07-01 Tue 18:32]
 So then I can use a single method for all of full book word counts, chapter word counts and HelpThisBook version rendering.
 ** DONE Review WUB, add todos                     :curweek:
 CLOSED: [2025-07-01 Tue 09:48]
 ** DONE Draft TD Invite                           :curweek:
 CLOSED: [2025-07-01 Tue 17:28]
-** TODO HTB: Get footnotes to number by chapter   :curweek:
-** TODO HTB: try to import ToC                    :curweek:
+** TODO Decide: fix the links, sigh
+** TODO HTB: Get footnotes to number by chapter
+Or, who cares? I mean, I do, it's gonna drive me a bit crazy.
+** TODO Spike on zipfile upload (fix footnotes)
+Markdown Project.zip
+├─ chapter 1.md
+├─ chapter 2.md
+** DONE HTB: try to import ToC                    :curweek:
+CLOSED: [2025-07-01 Tue 18:37]
 Add --toc to the pandoc?
 Set --toc-depth=2?
 ** DONE Decide how many chapters                  :curweek:pom:
 CLOSED: [2025-07-01 Tue 09:12]
-** TODO Load into HTB                             :curweek:
+** TODO Footnotes are totally borked              :curweek:
+** TODO Send a round of invites out               :curweek:
+To... someone
+** DONE Load into HTB                             :curweek:
+CLOSED: [2025-07-01 Tue 18:59]
 ** DONE Draft "guide for beta readers"            :curweek:
 CLOSED: [2025-07-01 Tue 09:48]
 Steal from WUB
 
-** TODO Dry Run / test with EWJ                   :curweek:
+** DONE Dry Run / test with EWJ                   :curweek:
+CLOSED: [2025-07-01 Tue 18:59]
 ** DONE Make list of places to send invite        :curweek:
 CLOSED: [2025-07-01 Tue 10:12]
 ** DONE Draft beta reading invite                 :curweek:pom:
@@ -161,9 +177,10 @@ CLOSED: [2025-06-30 Mon 10:00]
 ** DONE Set up the problem, with a story          :pom:
 CLOSED: [2025-06-30 Mon 10:00]
 As part of, define downside of not doing this/upside of doing it well.
-** TODO Write "bad/dry" summary of scenario
-** TODO Show how to apply storytelling techniques
-** TODO Find Resonates's Hero's Journey summary
+** TODO Write "bad/dry" summary of scenario       :pom:
+** TODO Show how to apply storytelling techniques :pom:
+** DONE Find Resonates's Hero's Journey summary
+CLOSED: [2025-07-02 Wed 09:24]
 * [[id:D3158CC2-8A69-4097-B9ED-ED6BD855A7AD][Understand Value In Depth]]                       :gtasks:
 ** DONE Do a spike on footnotes                   :pom:
 CLOSED: [2025-06-05 Thu 08:44]
