@@ -79,17 +79,17 @@ There is something good in this win -- Anand is reporting on *some* kind of a vi
 
 But, unfortunately, no one who wasn't already intimately familiar with the project is going to remember anything about it. Or, honestly, care.
 
-You might be thinking: /Come on, Dan, those cryptic random acronyms are too cryptic. Engineers at my company don't speak in gibberish like that/.
+# You might be thinking: /Come on, Dan, those cryptic random acronyms are too cryptic. Engineers at my company don't speak in gibberish like that/.
 
-One of the profound occupational risks of working in software engineering is that, as we dive deep into some arcane problem, we lose all track of what civilians do and do not understand about that problem.
+# One of the profound occupational risks of working in software engineering is that, as we dive deep into some arcane problem, we lose all track of what civilians do and do not understand about that problem.
 
-For the last six weeks, Anand has spent every waking moment working on the "Rapid Recovery" project, living and breathing improvements in Time to Restore, which the team labels "T-Rest" on all their dashboards. It takes real effort to remember that not everyone knows what RR and T-Rest even mean.
+# For the last six weeks, Anand has spent every waking moment working on the "Rapid Recovery" project, living and breathing improvements in Time to Restore, which the team labels "T-Rest" on all their dashboards. It takes real effort to remember that not everyone knows what RR and T-Rest even mean.
 
 Let's see how Anand's Win could be work as a *story*, instead of a dry fact.
 
 Logistically, we'll imagine Anand can take up to about five minutes to share a win.
 
-** Saving Integrated Tech From Themselves
+** Saving Integrated Tech From Their Own Incredible Stupidity
 
 Do any of you remember that exciting outage last month, when Integrated Tech threatened to cancel?
 
@@ -103,7 +103,7 @@ Among other things, that means we're responsible for maintaining the central DB,
 
 Now, *of course*, we take backups of that database.
 
-Of course!
+Of course we do!
 
 Last year we even built a little dashboard, that shows the time to the last backup.
 
@@ -111,15 +111,15 @@ We felt pretty good.
 
 But then, a month ago...
 
-...our friends at Integrated Tech--who you may also know as "our fourth largest enterprise customer"--began to implement a new third party inventory reconciliation package in their Warehouse Management Systems.
+...our friends at Integrated Tech--who you may also know as "our fourth-largest enterprise customer"--began to implement a new third party inventory reconciliation package in their Warehouse Management System.
 
 Of course, they didn't *tell* us that they were doing this.
 
-And guess what that vendor's implementation engineers did, as part of their *standard process*? They completely wiped out the numbering scheme for every single one of Integrated's SKU's. And started them over again from 0.
+But guess what that vendor's implementation engineers did, as *step one* in their *standard process*? They completely wiped out the numbering scheme for every single one of Integrated's SKU's. And started them over again from 0.
 
 Yep.
 
-So, when Integrated sent us their nightly pull of inventory data, our system couldn't recognize a single SKU.
+So, when Integrated sent us their nightly pull of inventory data, our system couldn't recognize a single SKU, and so the import process *replaced all the existing SKU data in our system*.
 
 Thus, on Friday morning, our alerts all exploded at the same time, as lead users at every warehouse escalated P1 issues... because *they couldn't use our product to print shipping labels*.
 
@@ -133,21 +133,21 @@ Tom B, who was running point on the outage, slacked us: "Can you restore Integra
 
 We looked at our little dashboard. "Sure," we said. "We've got backups from last night."
 
-"Great," Tom said, "please restore, asap."
+Tom told us to restore as quickly as we could.
 
 We patted ourselves on the back for having nightlies, and started the backup process.
 
-I was the one running the commands. As I hit return, one of those little progress bars showed up on my screen -- you know the ones, which show you the current rate of something, and forecast how long the whole thing is going to take?
+I was the one running the commands. When I hit return, one of those little progress bars showed up on my screen -- you know the ones, which show you the current rate of something, and forecast how long the whole thing is going to take?
 
-And you know how they always start by showing it's going to take forever, and then the process ramps up, and the forecast drops by a ton?
+You know how those always start by showing it's going to take forever, and then the process ramps up, and the forecast drops by a ton?
 
-Well, this one, said it was going to take *six hours* to finish... and then that forecast *never changed*.
+Well, this one, initially said it was going to take *six hours* to finish... and then that forecast *never changed*.
 
-I can remember the feeling of panic as I looked at that progress monitor, just hovering at 5 hours and 49 minutes left.
+I can remember the feeling of panic as I looked at that progress monitor, just hovering at 5 hours and 49 minutes left, barely ticking down at all. Man that sucked.
 
 In the end, Integrated couldn't ship product for almost an entire 8-hour working shift.
 
-Even though we had backups to save ourselves and our customers from just this kind of incredibly stupid customer mistake.
+Even though we had backups to save ourselves *and them* from just this kind of incredibly stupid customer mistake.
 
 But wait, there's more!
 
@@ -155,60 +155,43 @@ Integrated is only our *fourth*-largest enterprise customer. We ran some numbers
 
 We'd found out that, although we had *backups*, we did not have the ability to *rapidly restore*.
 
-We dug in to underst
+We dug in. We discovered that our DB is configured to only do *full* backups *once a week*, on Saturday nights at 2 am. The nightly backups are just incrementals -- just the set of changes accumulated on that day.
 
+So then, if late in the week we need to restore, the system first has to bring back the full backup from the previous weekend, and then replay one incremental patch after another.
 
+There were some things we could optimize (e.g. turning off some constraint checking), but there was no way we were going to get to a reasonable time with that approach.
 
+Of course, the first thing we tried was to switch to nightly full backups.
 
+Eduardo found that the backup process has to lock some key tables, and that means that we can't accept any nightly imports during the backup window. He talked with Mary K, and found that customers sends us imports all through the night -- and some of those customers need to turn the data around quickly, to be used by the next shift. So it was going to be really really hard to have a nightly window where we couldn't accept imports.
 
+So we threw that away.
 
+# XXX Cut the below, replace with replicas
+# XXX Then add turning off constraints on dump / reload, because not live
+# XXX Then some kind of compression step? Maybe switch compression algorithms to a streaming one.
+# Maybe finally add running every morning?
 
+Then, Erika had an idea. What if we rented a giant, super beefy instance from Amazon, ran our DB on that *just for the restore*, then killed it, and started up a new one on a smaller, normal-sized box. We could maybe get away with doing a fast/unsafe dump and restore, and it would be fast enough.
 
+That... kinda worked? I mean, it got us down to 90 minutes, which was way better than 10 hours, but it was crazy complex and felt really fragile.
 
+We all looked at each other during the review. Erika was the one who finally said "Look, I came up with this, and *I* am really not excited about having to depend on it in a crisis." She was totally right -- having a fast but fragile restore was going to be *worse* than having a slow but safe one.
 
+So we threw that away.
 
+At this point, we were getting kind of nervous. We were only okay as long as none of our big enterprise customers did something super boneheaded with their own data. Which... we all know can happen at any time!
 
+Then, Ryan P finally came up with the thing that worked. We set up read replicas for the main DB's -- which wasn't too hard to do, there are good tools to stream the updates. Every night, at 2 am, we pause the *replication* process from the leaders to the replicas. Then we take a full backup off the replica, which we can do quickly because it's not receiving any updates. And during that time, customers can still upload and import data to the leaders. Then, once the backup is done, we turn replication back on, and the systems catch up.
 
+We were even able to do some post processing on the backups, to speed them up, so now we can, start to finish, restore to last night's back up in 60 minutes.
 
-Start with someone announcing, at Friday Wins, or Eng All Hands: we reduced TTR from 4 hours to 1 hour.
+Which is enough to stay within our SLA for even our biggest customer.
 
-Yes, it really is that cryptic -- the team can't remember that people don't know that means Time to Restore, and how important that is.
+Even if they do something totally stupid at some point again!
 
-Back up and tell it as a story:
-
- - Discovered during outage (driven by either code change or customer behavior, reference both at some point)
-
- - Very unhappy customer, they wanted to restore to last night
-
- - During post-mortem, decided to check the other ones
-
- - Found out that was the *fastest*, some took six hours. That's a day-long outage for many customers
-
- - Dug in -- turns out, we're doing incremental backups, with a full backup only once a week.
-
- - Reconstructing is what takes so long
-
- - No problem, we figured, let's take nightly backups
-
- - Turns out that slows down the main DB thanks to some weird locking, and we don't have a window where we can slow down that much (bring moment to life), because we're doing big imports overnight.
-
- - Threw that away
-
- - Tried using a temporary "big" box to rebuild, then create an image and restore fast. Kinda worked, but super complex, and not something we were excited to execute in a crisis
-
- - Talked to a friend, they gave a new idea
-
- - Set up a read replica -- which we've been wanting to do for a while
-
- - Then, can pull nightlies from that, during which time, we let it lag behind production
-
- - Can now just directly restore from that, no incremental rebuild
-
- - Almost all set, but worried that we'd drift again
-
- - Then, Jose {Eduardo, Vivek} had a great idea -- we're building the dev instances off production, let's build those from a backup, and just start right at 9 am. That way, if it starts to take longer, the dev team will immediately feel it.
-
- - And yep, the thing I've had running in a terminal just finished -- we've restored during this discussion
+# Notes - took 5 minutes
+#  - Convert 2 failures + 1 success, to 1 failure, partial success, partial success, total success
 
 ** The Parts of a Story
 
