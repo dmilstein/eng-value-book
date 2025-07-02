@@ -25,8 +25,18 @@ Formatting notes:
 
 Okay, so I think my best bet is:
 
- - Use my shell script to extract the chapter text *as* org
  - Glue that all together into one big org file, with lots of embedded footnotes
+ - Use my shell script to extract the chapter text *as* org
  - Run pandoc on *that*
  - Upload to HTB
  - See if it "just works", in terms of footnotes per chapter
+
+Decide what to do about not-yet-there chapters
+
+Can I figure out how to get the Parts into the ToC?
+
+Alright, screw it, for this go-round I just won't have the "Parts" in the ToC, which, fine.
+
+What is the best way for me to get it to just output what I want?
+
+I mean, horrible is to just comment out part of the toc. Fuck it, let's go
