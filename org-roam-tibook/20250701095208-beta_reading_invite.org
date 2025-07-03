@@ -2,13 +2,65 @@
 :ID:       82076E65-A0D3-4B11-87F0-94FE905D5E33
 :END:
 #+title: Beta Reading Invite
+
+Part of [[id:22898D7F-26DD-4787-939B-B640B3D5BE56][Beta Reading Wave 1]], invite for [[id:93FF0A9B-F54E-49D5-8154-640BBAE08D4D][Beta Readers]].
+
+* Invite for People Who Have Already Expressed Interest
+Subject: Early Beta Read of The New Book?
+
+Hello!
+
+tl;dr - I'm ready for a first cohort of Beta Readers for an early draft of my new book, "Tech Investments, Not Tech Debt".
+
+If you're still interested, here's a link to a version, hosted online:
+
+https://helpthisbook.com/dan-milstein/tech-investments
+
+Below are a bunch of details -- one key is it's a draft of roughly the first *half* of the book, just FYI.
+
+Also: I'm particularly interested in getting feedback from engineering leaders who are finding themselves struggling to get into a productive partnership with their product or business counterparts. If you know anyone who fits that bill, feel very free to pass this on.
+
+Thanks again,
+-Dan
+
+** Details
+
+*** What Is This Book Again?
+It's for engineering leaders, and is titled:
+
+/Tech Investments, Not Tech Debt
+How To Make Time For Engineering Work That Matters/
+
+My hope is to help folks who find themselves caught between, on the one hand, a relentless stream of feature requests from their stakeholders and, on the other, an equally relentless stream of requests from their engineers to slow down and fix the very real problems in their systems.
+
+*** How Long Is The Book / How Much Time Are We Talking About?
+
+For this stage of beta reading, I'll be sharing roughly the first *half* of the book.
+
+That's currently around 20,000 words, which should hopefully be readable in under 2 hours.
+
+Also: although that's just the first half, I'm hopeful there are genuinely useful ideas and tactics in there (and of course, I'm happy to share more as it's written, with anyone who reads the earlier parts, if they'd like to keep following along).
+
+*** Who Is The Ideal Reader?
+
+Answer 1: anyone who is curious to learn more about the challenges described above.
+
+Answer 2: Maybe *especially* engineering leaders who don't yet feel like they have as many tactics and tools for working with their product team and stakeholders, as they'd like.
+
+*** Next Steps
+
+Drop me a line, or just head over to the book, at:
+
+https://helpthisbook.com/dan-milstein/tech-investments
+
+* Generic Invite
 Hello!,
 
 tl;dr - I'm looking for a first cohort of Beta Readers for an early draft of my new book, "Tech Investments, Not Tech Debt".
 
 If you, or someone you know, might be interested, please let me know.
 
-I'm particularly interested in finding engineering leaders who are finding themselves struggling to get into a productive partnership with their product or business counterpats. If you know anyone who fits that bill, feel very free to pass this on.
+I'm particularly interested in finding engineering leaders who are finding themselves struggling to get into a productive partnership with their product or business counterparts. If you know anyone who fits that bill, feel very free to pass this on.
 
 ** Details
 

@@ -40,3 +40,8 @@ Alright, screw it, for this go-round I just won't have the "Parts" in the ToC, w
 What is the best way for me to get it to just output what I want?
 
 I mean, horrible is to just comment out part of the toc. Fuck it, let's go
+
+Add a new makefile target, book.zip, with a separate markdown file per chapter, the files are named "chapter <idx>.md" where idx starts at 1 and counts up, as in the fllowing
+book.zip
+├─ chapter 1.md
+├─ chapter 2.md
