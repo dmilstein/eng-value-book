@@ -83,7 +83,8 @@ Let's go through some steps to turn it into a story that listeners will remember
 
 # XXX Should I try telling this as a story of helping Anand?
 
-** Step -1: Listener / Context
+** How to Craft a Compelling Story
+*** Step -1: Listener / Context
 
 First off, the tactics I'm going to describe below work at a range of scales.
 
@@ -97,7 +98,7 @@ You can use them to:
 
 The fundamental structures that plug into the human mind's penchant for narrative are very similar, although some of the details will be different.
 
-** Step 0: Expect to Explain the Obvious
+*** Step 0: Expect to Explain the Obvious
 
 As you get ready to share a win, a key step is to put yourselves in your audience's shoes.
 
@@ -119,24 +120,142 @@ I like to call this "opening up" the key concepts or terms just a bit.
 
 Anand might define "RR" as:
 
-"The Rapid Restore project, which had a goal of reducing the time to restore a full database of customer data from a backup. We depend on being able to restore from backups for everything from routine development work to protecting us from the risk of permanently losing critical customer data. Which we really, really don't want to do."
+"The Rapid Restore project, which had a goal of reducing the time to restore a full database of customer data from a backup. We depend on being able to restore database backups for everything from routine development work to protecting us from permanently losing critical customer data. Which we really, really don't want to do."
 
 That names the project, explains what its goal was in plain language, and then gives a reason why that goal *matters*.
 
+It's well worth developing that kind of concise summary for any concepts you're going to be sharing, that anyone in your audience might not fully understand.
+
 # When you read that, you might hvae thought: /Come on, Dan, those cryptic random acronyms are too cryptic. Engineers at my company don't speak in gibberish like that/.
 
-** Step 1: Open With a Teaser
-/ Book Cover / Movie Poster / Why Am I Here
+*** Step 1: Open With a Blurb or Teaser - Why Am I Here?
 
-** Step 2: Create A Fundamental Arc
+At the start of any story, your audience's will be wondering: "What is this about?" aka *Why Am I Here?*, aka "What Is In This For Me?"
 
-** Step 3: Turn Events Into Moments in Time
+Two ways to address this:
 
-** Step 4: Fill In Characters
+ - Blurb
 
-** Step 5: Enjoy Your Pauses
+ - Teaser
 
-** Step Infinity: Prep, Practice, Improve
+A blurb is a summary is that gives a quick preview of what you're talking about, why, and what they'll get from it -- like the blurb on a book jacket.
+
+Anand might do that by saying:
+
+/I'm going to talk about the the Rapid Restore project, and what we learned from addressing a serious issue in our overall data resiliency/
+
+That's perfectly fine -- and way better than launching into details without any context.
+
+An alternative, depending on context, is to create a bit of drama up front:
+
+/Do any of you remember that exciting outage last month, when Integrated Tech threatened to cancel?/
+
+/[pause, wait for nods]/
+
+/Okay, here's what happened./
+
+That's a teaser -- creates a bit of fun suspense or drama.
+
+
+# Book Cover / Movie Poster / Why Am I Here
+
+*** Step 2: Use The Heroic Arc
+
+You can find different theories of what the inherent story structure is, I'll offer the framework I've found useful, which mixes a bit from The Hero's Journey (as described by Nancy Duarte, in Resonate), with what I've learned about playwriting and screenwriting.
+
+ - The world of the hero is at peace
+
+ - A danger emerges that threatens that peace
+
+ - The danger intensifies
+
+ - The hero struggles to face the danger
+
+ - They discover new strength within themselves (often with the help of a friend or mentor)
+
+ - The hero overcomes the danger and creates a better world
+
+In case you're wondering if this is truly wired into our brains, I encourage you to watch the short videos made as part of the XXX projects, which have all the steps above, and is *impossible* to see as anything other than a struggle to overcome a challenge... even though it's just a pair of dots and a line.
+
+# XXX Find this experiment
+
+Anand could tell a concise form of that story arc by saying:
+
+ - /One of the Platform Team's responsibilities is ensuring that we take regular backups of our key databases./ [The world is at peace]
+
+ - /But, during a recent incident, we went to *restore* one of those backups... and discovered that it took nearly *6 hours*. That meant almost a full day of downtime for a customer./ [a danger emerges]
+
+ - /When we dug in, we realized we'd actually gotten lucky. For our biggest, most important customers, we could easily have had *10 hours* of downtime/ [danger intensifies]
+
+ - /It turned out that our nightly backups are *incrementals* -- we only take full backups on Saturday nights. And that meant, for a restore on a Thursday or Friday, the database engine has to replay 5 or 6 full days -- and that takes a long time./ [The hero struggles, 1]
+
+ - /We tried switching to nightly full backups, but that created horrible site slowdowns that bled into working hours./ [The hero struggles, 2]
+
+ - /It was Erika who came up with the approach that finally worked. We set up read replicas for the largest db's, and we can pull nightly full backups from *those*, without impacting site performance./ [discover new strengths with help]
+
+ - /We've now running regular restore tests, and the most recent one brought back our largest database in just under one hour -- which is a 90% improvement! We've talked with the support team, and they agree that that's plenty fast enough for now/ [overcome danger / better world]
+
+That form of the story is vastly more likely to stay in a stakeholder's mind -- and to feel *meaningful*.
+
+However, there are things you can do, to make it feel more vivid, memorable and impactful.
+
+*** Step 3: Bring Key Moments to Life
+
+Once you've primed your audience into "story" mode, they'll be constantly "waiting to find out what happens next."
+
+You can often take advantage of that by slowing down and bringing a specific moment in time to life. Done well, that will make the story feel more suspenseful and immediate and interesting -- aka *less* slow to the listener.
+
+These should be moments where you discover or learn something -- those are the key moments of drama.
+
+E.g. in the story above, Anand could open as follows:
+
+ - /One of the Platform Team's responsibilities is ensuring that we take regular backups of our key databases./ [The world is at peace]
+
+ - /A month ago, on a Friday morning, we were just wrapping up our standup, when all a sudden, all of our Slack channels exploded at once. Apparently, there was some kind of horrible incident going on with Integrated Tech, and Tom B, who was running point, needed us to restore their database./ [danger emerges]
+
+Note how that makes a very specific moment in time really clear -- and, in particular, it's a turning point in the story, when the main characters (the Platform Team), have their peaceful world interrupted by a looming danger.
+
+Where were you, when you made that discovery?
+
+What was happening, immediately before?
+
+How did the realization hit you?
+
+What did you see?
+
+What did you feel?
+
+Anand could continue in that "bring moments to life" vein, ala:
+
+ - /We patted ourselves on the back for having nightlies, and started the backup/ process.
+
+   /I was the one running the commands. When I hit return, one of those little progress bars showed up on my screen -- you know the ones, which show you the current rate of something, and a forecast how long the whole thing is going to take?/
+
+   /You know how those always start by showing it's going to take forever, and then the process ramps up, and the forecast drops by a ton?/
+
+   /Well, this one, initially said it was going to take *five hours* to finish... but then that forecast *got longer*./
+
+   /I can remember the feeling of panic as I looked at that progress monitor, just hovering at 5 hours and 49 minutes left, barely ticking down at all./
+
+   /In the end, Integrated couldn't ship product for almost an entire 8-hour working shift./
+
+
+
+
+
+
+
+*** Step 4: Fill In Characters
+
+*** Step 4.5: Optional: Call Out Lessons Learned
+
+Note that the second half of the story arc represents *a series of lessons learned* -- the struggle, the help from the friend, overcoming the danger. All of those are encoding key lessons.[fn:: if I had to guess, this is why evolution encoded this into our brains -- so that we can share non-obvious facts and strategies about our environments that improve the likelihood of reproductive success)].
+
+So asking yourself "What did we learn?" is incredibly useful, if you're trying to turn your win into a story.
+
+*** Step 5: Enjoy Your Pauses
+
+*** Step Infinity: Prep, Practice, Improve
 
 Let's see how Anand's Win could be work as a *story*, instead of a dry fact.
 
@@ -247,24 +366,6 @@ Even if they do something totally stupid at some point again!
 
 # Notes - took 5 minutes
 #  - Convert 2 failures + 1 success, to 1 failure, partial success, partial success, total success
-
-** The Parts of a Story
-
-Life is normal
-
-Something Bad {or Potentially Good} Happens
-
-If Not Dealt with, will get much worse
-
-Try something, doesn't work, but learn.
-
-Try something, doesn't work, but learn.
-
-Try something, doesn't work, but learn.
-
-Get help/have idea: try something, it works. Maybe discover something even better on the way.
-
-Now, things are great.
 
 ** Where Do You Tell The Story?
 
