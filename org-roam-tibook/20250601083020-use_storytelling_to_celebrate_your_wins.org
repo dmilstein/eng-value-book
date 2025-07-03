@@ -63,7 +63,7 @@ It's the Friday Wins zoom session. Anand, of one of the engineers on the Platfor
 
 Anand takes a breath and looks up into the camera -- Bennett, the Platform Team manager, has clearly been coaching him on not just looking down at his shoes.
 
-He says: "This week, the Platform Team win is that we wrapped up the RR project. We achieved an T-Rest of 60 minutes."
+He says: "This week, the Platform Team win is that we wrapped up the RR project. We achieved a T-Rest of 60 minutes."
 
 The other members of the Platform Team hoot and holler from their little screens.
 
@@ -79,15 +79,70 @@ There is something good in this win -- Anand is reporting on *some* kind of a vi
 
 But, unfortunately, no one who wasn't already intimately familiar with the project is going to remember anything about it. Or, honestly, care.
 
-# You might be thinking: /Come on, Dan, those cryptic random acronyms are too cryptic. Engineers at my company don't speak in gibberish like that/.
+Let's go through some steps to turn it into a story that listeners will remember.
 
-# One of the profound occupational risks of working in software engineering is that, as we dive deep into some arcane problem, we lose all track of what civilians do and do not understand about that problem.
+# XXX Should I try telling this as a story of helping Anand?
 
-# For the last six weeks, Anand has spent every waking moment working on the "Rapid Recovery" project, living and breathing improvements in Time to Restore, which the team labels "T-Rest" on all their dashboards. It takes real effort to remember that not everyone knows what RR and T-Rest even mean.
+** Step -1: Listener / Context
+
+First off, the tactics I'm going to describe below work at a range of scales.
+
+You can use them to:
+
+ - Construct a vivid 3 sentence summary that sticks in people's minds
+
+ - Prepare a condensed, one minute overview as part of a broader review
+
+ - Develop a full presentation, to be shared with slides
+
+The fundamental structures that plug into the human mind's penchant for narrative are very similar, although some of the details will be different.
+
+** Step 0: Expect to Explain the Obvious
+
+As you get ready to share a win, a key step is to put yourselves in your audience's shoes.
+
+In particular, work to remember that there are things they'll need *explained*, even though those things seem completely obvious to you.
+
+Anand cited progress on the "T-Rest" metric as part of the "RR" project.
+
+One of the profound occupational risks of working in software engineering is that, as we dive deep into arcanes problem, we lose all track of what civilians do and do not understand about those problems.
+
+For the last six weeks, Anand has spent every waking moment working on the *Rapid Recovery* project, living and breathing improvements in *Time to Restore*, which the team labels "T-Rest" on all their dashboards.
+
+It takes real effort to remember that not everyone knows what RR and T-Rest even mean.
+
+You don't have to give long, detailed explanations. All your audience needs is enough context to understand *why* you're talking about this, how it connects to other things they do know about.
+
+I like to call this "opening up" the key concepts or terms just a bit.
+
+# Take the time to give concise, capsule summaries of the most important concepts or terms that come up.
+
+Anand might define "RR" as:
+
+"The Rapid Restore project, which had a goal of reducing the time to restore a full database of customer data from a backup. We depend on being able to restore from backups for everything from routine development work to protecting us from the risk of permanently losing critical customer data. Which we really, really don't want to do."
+
+That names the project, explains what its goal was in plain language, and then gives a reason why that goal *matters*.
+
+# When you read that, you might hvae thought: /Come on, Dan, those cryptic random acronyms are too cryptic. Engineers at my company don't speak in gibberish like that/.
+
+** Step 1: Open With a Teaser
+/ Book Cover / Movie Poster / Why Am I Here
+
+** Step 2: Create A Fundamental Arc
+
+** Step 3: Turn Events Into Moments in Time
+
+** Step 4: Fill In Characters
+
+** Step 5: Enjoy Your Pauses
+
+** Step Infinity: Prep, Practice, Improve
 
 Let's see how Anand's Win could be work as a *story*, instead of a dry fact.
 
-Logistically, we'll imagine Anand can take up to about five minutes to share a win.
+
+
+# Logistically, we'll imagine Anand can take up to about five minutes to share a win.
 
 ** Saving Integrated Tech From Their Own Incredible Stupidity
 
