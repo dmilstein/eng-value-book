@@ -57,22 +57,22 @@ Almost all the stakeholders I've ever worked with have a sort of impatience with
 
 Let's bring this to life with a story.[fn:: "Wait are we being meta?" Oh goodness, yes. You, the reader of this, are *also* human, so stories are the best ways to get things lodged into your brain. Mwuhahahaha?]
 
-** Where Do You Tell The Story?
+** You Can "Tell Stories" Everywhere
 We're going to illustrate this approach in the context of a "Friday Wins" meeting -- a lightweight end-of-week celebration of wins from each team.
 
-But you can use the structures and tactics of storytelling in a wide variety of contexts -- and *not* just in places where your listeners are "consciously expecting stories":
+But you can use the structures and tactics of storytelling in a wide variety of contexts -- *not* just when your listeners are "consciously expecting stories", e.g.:
 
- - When you run into your CEO in the office kitchen, and she asks what your team has been doing lately.
+ - When you run into your CEO in the office kitchen, and she asks what your team has been doing lately
 
  - When you're participating in a review of a half dozen big initatives, and have a minute or two to share an update on yours
 
- - When you're presenting to a roomful of executives, to dive deep on options that have been turned up by some technical investment you've been leading.
+ - When you're presenting to a roomful of executives, sharing options that have been turned up by a technical investment you've been leading
 
  - When you write up and share out the results of a post-mortem or retrospective
 
-Fundamentally, the human mind has a penchant for narrative.
+Fundamentally, the human mind has an obsessive bent for understanding the world through narrative.
 
-You can take advantage of that penchant, in many different contexts.
+You can take advantage of that obsessive bent in many different contexts.
 
 Okay, let's move to our story.
 
@@ -109,7 +109,7 @@ Let's go through some steps to turn it into a story that listeners will remember
 # XXX Should I try telling this as a story of helping Anand?
 
 ** How to Craft a Compelling Story
-*** Plan to Explain the Obvious
+*** Explain the Obvious
 
 As you prepare to share a win, remember that there are things they'll need *explained*, even though those things *feel* completely obvious.
 
@@ -243,7 +243,7 @@ That said, we can do better!
 
 We can make the story feel more vivid, memorable and impactful.
 
-*** Bring Your Listeners /Into/ Key Moments
+*** Bring Your Listeners Into Key Moments
 
 Once you've primed your audience into "story" mode, they'll be "waiting to find out what happens next."
 
@@ -305,7 +305,7 @@ E.g. Anand could throw in:
 
 Notice how that takes gritty backend work (moving from weekly to nightly database backups), and effortlessly connects it to actual customers, while also showing genuine respect for the work of other teams.
 
-*** Structure Presentations Around Lessons Learned
+** Structure Presentations Around Lessons Learned
 
 A very natural way to turn a story into a "talk" is to build up to a set of "Lessons Learned".
 
@@ -337,19 +337,42 @@ It's often nice to end, as Anand does above with the "verbs not nouns idea", by 
 
 When I work with engineers to prepare talks, we usually spend the last half or third of the presentation on interwoven "struggle" and "learning" -- we learned "Z", because first we tried "X" and it didn't work, but then we did "Y" which did work.
 
-*** Take The Time To Practice
+** Take Time To Practice
+As we've been talking about, you can use the structures of storytelling in many contexts.
 
-Step 5: Enjoy Your Pauses
+But one particularly valuable one is "presenting to groups".
 
-*** Step Infinity: Prep, Practice, Improve
+And that means speaking in public.
 
-Let's see how Anand's Win could be work as a *story*, instead of a dry fact.
+I'll just share a couple of notes for improving your speaking in public:
 
+ - Prepare and Practice
 
+   Specifically, practice in front of  someone who will give you feedback. Do this early enough that you have time to apply that feedback. E.g. if you're presenting on Friday morning, do a dry run on Tuesday afternoon with a friend.
 
-# Logistically, we'll imagine Anand can take up to about five minutes to share a win.
+ - Finish Your Points / Enjoy Your Pauses
 
-** Who Tells the Story?
+   I've coached dozens and dozens of people on presenting. I've given every single one of the same note -- which is to slow down. When people are at all nervous, their brain goes haywire, and tells them to speed up.
+
+   Sometimes that literally means talking fast.
+
+   More often, it means taking no pauses between points, barely exhaling before rushing to the next thing.
+
+   Your listeners will find this exhausting.
+
+   The most effective way to get yourself out of this mode is to find a way to put focus on "finishing your points" and *enjoying* your pauses.
+
+   Break what you have to say up into a large set of fairly small points. As you speak, just purely aim for the "end" of the next point, really let yourself hit that moment and finish the point. Then enjoy a little break before you start the next.
+
+   When you first do this, it will feel absurdly broken up -- but ask the person you're practicing in front of how it felt. Nine times out of then they'll say "That was great, I could really stay with you".
+
+ - If You Feel Like You're Going Slow, Slow Down
+
+   If, during a presentation, it feels like it's slow, that is your brain panicking. It's not actually going slow -- it's your brain worrying that it's not *interesting*.
+
+   Paradoxically, the best way to address this is to force yourself to slow down -- and find a way to be genuinely interested in what you're saying.
+
+   A brilliant performer once told me "We are interesting onstage if we are interested in something". I have found that to be very useful guidance for sharing presentations.
 
 * Scraps
 
