@@ -11,9 +11,9 @@ Surely, it's time to build momentum and dive right into another cycle of improve
 
 Actually, *no*.
 
-/But, Dan... why not?/ I hear you ask. /I've laid out solid options, the stakeholder mostly understands the options. We've built visibility, we have a next increment all planned! They'll even be able to *see* the improvement!/
+/But, Dan... what?/ I hear you ask. /I've laid out solid options, the stakeholder *understands* the options. We've built visibility, we have a next increment all planned! They'll even be able to *see* the improvement!/
 
-True, true.
+True, true, true.
 
 But, here's the thing.
 
@@ -25,9 +25,9 @@ As in, they don't yet emotionally experience this as "their" win.
 
 Thus, there's a very good chance that their mind is coming up with all sorts of reasons to *stop* working on this "engineering issue" so they can get back to solving business problems.
 
-Left unaddressed, these feelings and thoughts first slow and then completely stall out your ability to move through repeated, iterative cycles of investment.[fn:: "Huh, Dan, I didn't really expect a book on Tech Investments to feature, I dunno, quite so much speculative psychology about stakeholders and their feelings?" Look: you work with humans. And I have just not had any luck whatsoever approximating humans as "beings with no emotions". Feel free to ignore this fact if you'd like to keep having all the most important work get cancelled over your bitter protests!]
+Left unaddressed, these feelings and thoughts in your stakeholder's mind will first slow and then completely stall out your ability to move through repeated, iterative cycles of investment.[fn:: "Huh, Dan, I didn't really expect a book on Tech Investments to feature, I dunno, quite so much speculative psychology about stakeholders and their feelings?" Look: you work with humans. And I have just not had any luck whatsoever approximating humans as "beings with no emotions". Feel free to ignore this fact if you'd like to keep having all the most important work get cancelled over your bitter protests!]
 
-If every single cycle of investment feels like a *concession* -- you're going to really really struggle to create significant value for your business.
+If every single cycle of investment feels like a *concession* -- you're going to really struggle to create significant value for your business.
 
 # To address this, you're going to *tell a story*.
 
@@ -57,111 +57,147 @@ Almost all the stakeholders I've ever worked with have a sort of impatience with
 
 Let's bring this to life with a story.[fn:: "Wait are we being meta?" Oh goodness, yes. You, the reader of this, are *also* human, so stories are the best ways to get things lodged into your brain. Mwuhahahaha?]
 
+** Where Do You Tell The Story?
+We're going to illustrate this approach in the context of a "Friday Wins" meeting -- a lightweight end-of-week celebration of wins from each team.
+
+But you can use the structures and tactics of storytelling in a wide variety of contexts -- and *not* just in places where your listeners are "consciously expecting stories":
+
+ - When you run into your CEO in the office kitchen, and she asks what your team has been doing lately.
+
+ - When you're participating in a review of a half dozen big initatives, and have a minute or two to share an update on yours
+
+ - When you're presenting to a roomful of executives, to dive deep on options that have been turned up by some technical investment you've been leading.
+
+ - When you write up and share out the results of a post-mortem or retrospective
+
+Fundamentally, the human mind has a penchant for narrative.
+
+You can take advantage of that penchant, in many different contexts.
+
+Okay, let's move to our story.
+
 ** RP and T-Rest at Friday Wins
 
-It's the Friday Wins zoom session. Anand, of one of the engineers on the Platform Team, turns on his mic to share his team's Win for the week.
+It's the Friday Wins zoom session. The engineering and product teams are all hovering in their little zoom boxes. Anand, of one of the engineers on the Platform Team, turns on his mic to share his team's Win for the week.
 
-Anand takes a breath and looks up into the camera -- Bennett, the Platform Team manager, has clearly been coaching him on not just looking down at his shoes.
+Anand takes a breath and looks up into the camera -- Bennett, the Platform Team manager, has clearly been coaching him on making eye contact.
 
-He says: "This week, the Platform Team win is that we wrapped up the RR project. We achieved a T-Rest of 60 minutes."
+Anand says: "This week, the Platform Team win is that we wrapped up the RR project. We achieved a T-Rest of 60 minutes."
 
 The other members of the Platform Team hoot and holler from their little screens.
 
-Once it's clear Anand isn't going to say anything else, the chat fills up with "congrats!" messages and thumbs up emojis from engineers on other teams. One PM posts "What's T-Rest?" but no one has time to respond, because Anand has already switched off his mic, and the next teams is stepping up to share a win.
+Once it's clear Anand isn't going to say anything else, the chat fills up with "congrats!" messages and thumbs up emojis from engineers on other teams.
 
-What has just happened here?
+One PM posts "What's T-Rest?" but no one has time to respond, because Anand has already switched off his mic, and the next team is stepping up to share a win.
 
-First off, Friday Wins are great. See Kellan again, on designing rituals.
+The End.
+
+# What has just happened?
+
+# First off, Friday Wins are great. See Kellan again, on designing rituals.
 
 # XXX Find Kellan link. "No, you have a searing intellectual crush on Kellan"
 
-There is something good in this win -- Anand is reporting on *some* kind of a visible, measurable improvement, not just the project being "done".
+First, there is something good in this win -- Anand is reporting on a *visible*, measurable improvement, not just a project being "done".
 
-But, unfortunately, no one who wasn't already intimately familiar with the project is going to remember anything about it. Or, honestly, care.
+But, unfortunately, no one who wasn't already intimately familiar with the project is going to remember anything about it. Or, likely, care.
+
+The product team certainly isn't walking away saying "Wow, I'm so glad we invested engineering effort in the RR project! I can't wait to invest more!".
 
 Let's go through some steps to turn it into a story that listeners will remember.
 
 # XXX Should I try telling this as a story of helping Anand?
 
 ** How to Craft a Compelling Story
-*** Step -1: Listener / Context
+*** Plan to Explain the Obvious
 
-First off, the tactics I'm going to describe below work at a range of scales.
+As you prepare to share a win, remember that there are things they'll need *explained*, even though those things *feel* completely obvious.
 
-You can use them to:
+One of the profound occupational risks of working in software engineering is that, as we dive deep into arcane problems, we lose all track of what civilians do and do not understand about those problems.
 
- - Construct a vivid 3 sentence summary that sticks in people's minds
+For example, Anand cited progress on the "T-Rest" metric, which was part of the "RR" project.
 
- - Prepare a condensed, one minute overview as part of a broader review
+Why would he be so cryptic?
 
- - Develop a full presentation, to be shared with slides
+Well, for the last six weeks, Anand has spent every waking moment working on the *Rapid Recovery* project, living and breathing improvements in *Time to Restore*.
 
-The fundamental structures that plug into the human mind's penchant for narrative are very similar, although some of the details will be different.
+Every morning of those six weeks, the Platform team started their standup by reviewing the T-Rest dashboard, which shows the result of overnight test restores.
 
-*** Step 0: Expect to Explain the Obvious
+It will take Anand real effort to remember that most people don't even know what RR and T-Rest mean -- they have become fundamental factors of the universe, for him and his entire team.
 
-As you get ready to share a win, a key step is to put yourselves in your audience's shoes.
+When you explain concepts, you *don't* have to go into tremdendous detail.
 
-In particular, work to remember that there are things they'll need *explained*, even though those things seem completely obvious to you.
+All your listeners need is enough context to understand *why* you're talking about this, and how it connects to other things they *do* know about.
 
-Anand cited progress on the "T-Rest" metric as part of the "RR" project.
-
-One of the profound occupational risks of working in software engineering is that, as we dive deep into arcanes problem, we lose all track of what civilians do and do not understand about those problems.
-
-For the last six weeks, Anand has spent every waking moment working on the *Rapid Recovery* project, living and breathing improvements in *Time to Restore*, which the team labels "T-Rest" on all their dashboards.
-
-It takes real effort to remember that not everyone knows what RR and T-Rest even mean.
-
-You don't have to give long, detailed explanations. All your audience needs is enough context to understand *why* you're talking about this, how it connects to other things they do know about.
-
-I like to call this "opening up" the key concepts or terms just a bit.
+I like to call this "opening up" the key concepts or terms, more than just "defining" them.
 
 # Take the time to give concise, capsule summaries of the most important concepts or terms that come up.
 
-Anand might define "RR" as:
+Anand might open up "RR" as follows::
 
-"The Rapid Restore project, which had a goal of reducing the time to restore a full database of customer data from a backup. We depend on being able to restore database backups for everything from routine development work to protecting us from permanently losing critical customer data. Which we really, really don't want to do."
+"The Rapid Restore project had a goal of reducing the time to restore a full database of customer data from a backup. Our engineers depend on being able to restore database backups for everything from routine development work to protecting us from permanently losing critical customer data."
 
 That names the project, explains what its goal was in plain language, and then gives a reason why that goal *matters*.
 
-It's well worth developing that kind of concise summary for any concepts you're going to be sharing, that anyone in your audience might not fully understand.
+It's well worth developing that kind of concise summary for any concepts you're going to be sharing.
 
-# When you read that, you might hvae thought: /Come on, Dan, those cryptic random acronyms are too cryptic. Engineers at my company don't speak in gibberish like that/.
+*** Establish a Reason to Listen
 
-*** Step 1: Open With a Blurb or Teaser - Why Am I Here?
+At the start of any story, your listeners will be wondering: "What is this about?" aka "What's in this for me?".
 
-At the start of any story, your audience's will be wondering: "What is this about?" aka *Why Am I Here?*, aka "What Is In This For Me?"
+They will likely not be consciously aware that that's what they're thinking, but that's what their mind will be doing.
 
-Two ways to address this:
+Thus, you want to start with something that establishes a *reason to listen*.
 
- - Blurb
+Two solid options are to either a) open with a "blurb", or b) create suspense with a "teaser".
 
- - Teaser
+A "blurb" is a quick preview of:
 
-A blurb is a summary is that gives a quick preview of what you're talking about, why, and what they'll get from it -- like the blurb on a book jacket.
+ - *What* you're talking about
 
-Anand might do that by saying:
+ - *Why* that thing is interesting or important
 
-/I'm going to talk about the the Rapid Restore project, and what we learned from addressing a serious issue in our overall data resiliency/
+ - *The Outcome* for the listeners
 
-That's perfectly fine -- and way better than launching into details without any context.
+It's like the blurb on the jacket of a book.
 
-An alternative, depending on context, is to create a bit of drama up front:
+Anand might start with a blurb by saying:
 
-/Do any of you remember that exciting outage last month, when Integrated Tech threatened to cancel?/
+/I'm going to talk about the the Rapid Restore project, and what we learned from addressing a serious issue in how we back up and restore critical customer data./
+
+ - What: A project the Platform Team ran, named Rapid Restore
+
+ - Why: Handled a serious issue, for critical customer data
+
+ - Outcome: Sharing "what we learned"
+
+That's it. It's just enough for the listeners to feel oriented, to know what's going on.
+
+Giving *some* sort of initial blurb like that is far better than launching into details without any context.
+
+An alternative to a blurb is to create a bit of drama up front with a "teaser", by naming something particularly vivid and interesting that you're going to get to, *late* in your story.
+
+Like a teaser trailer for a movie, or a TV show.
+
+Anand might start off:
+
+/Do any of you remember that exciting outage last month, when Integrated Tech threatened to cancel, because they couldn't ship customer orders for 6 hours?/
 
 /[pause, wait for nods]/
 
-/Okay, here's what happened./
+/Here's what happened./
 
-That's a teaser -- creates a bit of fun suspense or drama.
+You can tease with "bad" things, as above, but also with fun or positive ones, too, e.g.
 
+/"I'm going to talk about the Platform Team's Rapid Restore project. Just as a teaser, the final project meeting featured Nia Martin from Customer Success saying, and I quote: 'Please stop! I don't want this to be any faster.' No, really!"/
 
-# Book Cover / Movie Poster / Why Am I Here
+*** Structure With The Heroic Arc
 
-*** Step 2: Use The Heroic Arc
+You can find different theories on inherent story structure.
 
-You can find different theories of what the inherent story structure is, I'll offer the framework I've found useful, which mixes a bit from The Hero's Journey (as described by Nancy Duarte, in Resonate), with what I've learned about playwriting and screenwriting.
+I'll offer a framework I've found useful, which mixes a bit from The Hero's Journey (as described by Nancy Duarte, in Resonate, drawing on Joseph Campbell's), with some ideas from playwriting and screenwriting.
+
+We'll frame the "heroic arc" as:
 
  - The world of the hero is at peace
 
@@ -171,15 +207,17 @@ You can find different theories of what the inherent story structure is, I'll of
 
  - The hero struggles to face the danger
 
- - They discover new strength within themselves (often with the help of a friend or mentor)
+ - They discover new strength within themselves, often with the help of a friend or mentor
 
  - The hero overcomes the danger and creates a better world
 
-In case you're wondering if this is truly wired into our brains, I encourage you to watch the short videos made as part of the XXX projects, which have all the steps above, and is *impossible* to see as anything other than a struggle to overcome a challenge... even though it's just a pair of dots and a line.
+In case you're wondering if this is truly wired into our brains, I encourage you to watch the short videos made as part of the XXX projects, which have all the steps above. If you watch those, I predict that you will find it *impossible* to see it as anything other than a struggle to overcome a challenge... even though it's just a pair of dots and a line. Our minds are constantly looking for this pattern.
 
 # XXX Find this experiment
 
-Anand could tell a concise form of that story arc by saying:
+That "heroic" arc can be used to tell "dry" stories about engineering work.
+
+E.g. Anand could share his win by saying:
 
  - /One of the Platform Team's responsibilities is ensuring that we take regular backups of our key databases./ [The world is at peace]
 
@@ -187,73 +225,121 @@ Anand could tell a concise form of that story arc by saying:
 
  - /When we dug in, we realized we'd actually gotten lucky. For our biggest, most important customers, we could easily have had *10 hours* of downtime/ [danger intensifies]
 
- - /It turned out that our nightly backups are *incrementals* -- we only take full backups on Saturday nights. And that meant, for a restore on a Thursday or Friday, the database engine has to replay 5 or 6 full days -- and that takes a long time./ [The hero struggles, 1]
+ - /What was going on? Well, it turned out that our nightly backups are *incrementals* -- we only take *full* backups on Saturday nights. And that meant, for a restore on a Thursday or Friday, the database engine has to replay 5 or 6 full days -- and that takes a long time./ [The hero struggles, 1]
 
  - /We tried switching to nightly full backups, but that created horrible site slowdowns that bled into working hours./ [The hero struggles, 2]
 
- - /It was Erika who came up with the approach that finally worked. We set up read replicas for the largest db's, and we can pull nightly full backups from *those*, without impacting site performance./ [discover new strengths with help]
+ - /It was Erika who came up with the approach that finally worked. We set up read replicas for the largest db's, and now we can pull nightly full backups from *those*, without impacting site performance./ [discover new strengths with help]
 
  - /We've now running regular restore tests, and the most recent one brought back our largest database in just under one hour -- which is a 90% improvement! We've talked with the support team, and they agree that that's plenty fast enough for now/ [overcome danger / better world]
 
-That form of the story is vastly more likely to stay in a stakeholder's mind -- and to feel *meaningful*.
+Put yourself in the shoes of a senior member of the product team, attending that Friday wins session.
 
-However, there are things you can do, to make it feel more vivid, memorable and impactful.
+Compared with a dry recitation of an improved metric, this story form is vastly more likely to stay in their mind -- and to feel *meaningful*. To feel connected with ultimate business goals and value.
 
-*** Step 3: Bring Key Moments to Life
+If the VP of Engineering was to, the following week, suggest that the Platform Team start a new initiative, that senior member of the product team will *feel* like the Platform Team has been "doing valuable work".
 
-Once you've primed your audience into "story" mode, they'll be constantly "waiting to find out what happens next."
+That said, we can do better!
 
-You can often take advantage of that by slowing down and bringing a specific moment in time to life. Done well, that will make the story feel more suspenseful and immediate and interesting -- aka *less* slow to the listener.
+We can make the story feel more vivid, memorable and impactful.
+
+*** Bring Your Listeners /Into/ Key Moments
+
+Once you've primed your audience into "story" mode, they'll be "waiting to find out what happens next."
+
+You can take advantage of that by slowing down and bringing specific moments in time to life.
+
+Done well, that will make the story feel more suspenseful, immediate and interesting.
 
 These should be moments where you discover or learn something -- those are the key moments of drama.
 
-E.g. in the story above, Anand could open as follows:
+E.g. Anand could open as follows:
 
  - /One of the Platform Team's responsibilities is ensuring that we take regular backups of our key databases./ [The world is at peace]
 
- - /A month ago, on a Friday morning, we were just wrapping up our standup, when all a sudden, all of our Slack channels exploded at once. Apparently, there was some kind of horrible incident going on with Integrated Tech, and Tom B, who was running point, needed us to restore their database./ [danger emerges]
+ - /A month ago, on a Friday morning, we were just wrapping up our standup, when all a sudden, all of our Slack channels exploded at once. We discovered there was some kind of horrible incident going on with Integrated Tech. Tom B was running point, and he needed us to restore IT's database./ [danger emerges]
 
-Note how that makes a very specific moment in time really clear -- and, in particular, it's a turning point in the story, when the main characters (the Platform Team), have their peaceful world interrupted by a looming danger.
+Note how that makes a very specific *moment* in time really clear -- and, in particular, it's a turning point in the story, when the main characters (the Platform Team), have their peaceful world interrupted by a looming danger. It brings the listener *into* that moment.
 
-Where were you, when you made that discovery?
+Some useful questions to ask, to find ways to bring your listeners into key moments:
 
-What was happening, immediately before?
+ - Where were you, when you made that discovery?
 
-How did the realization hit you?
+ - What was happening, immediately before?
 
-What did you see?
+ - How did the realization hit you?
 
-What did you feel?
+ - What did you feel?
 
-Anand could continue in that "bring moments to life" vein, ala:
+Anand could continue in this vein:
 
- - /We patted ourselves on the back for having nightlies, and started the backup/ process.
+ - /We patted ourselves on the back for having nightlies, and started the backup/ process./
 
-   /I was the one running the commands. When I hit return, one of those little progress bars showed up on my screen -- you know the ones, which show you the current rate of something, and a forecast how long the whole thing is going to take?/
+   /I was the one running the commands. When I hit return, one of those little progress bars showed up on my screen -- you know the ones, which show you the current rate of something, and a forecast for how long the whole thing is going to take?/
 
-   /You know how those always start by showing it's going to take forever, and then the process ramps up, and the forecast drops by a ton?/
+   /You know how those always start by showing it's going to take forever, and then the forecast drops to something reasonable?/
 
    /Well, this one, initially said it was going to take *five hours* to finish... but then that forecast *got longer*./
 
    /I can remember the feeling of panic as I looked at that progress monitor, just hovering at 5 hours and 49 minutes left, barely ticking down at all./
 
-   /In the end, Integrated couldn't ship product for almost an entire 8-hour working shift./
+   /In the end, Integrated couldn't ship product to customers for almost an entire 8-hour working shift./
 
+If you can open with something that makes the initial emergence of the "threat" or "danger" really vivid, the listeners will find themselves sitting on the edge of their seats.
 
+*** Celebrate Those Who Helped
 
+A central part of the heroic narrative is "help from others".
 
+Finding moments to cite specific people story can make the story feel more full.
 
+E.g. in the concise form above, Anand named "Erika" as the person who finally came up with the key idea.  Something as simple as naming a person helps shift from "generic" recitation of past events, to something that feels more alive, because some specific person is subtly playing the role of helper.
 
+In telling stories to stakeholders, one *very* useful way to apply this tactic is to cite help from people outside of engineering.
 
-*** Step 4: Fill In Characters
+That makes it *feel* like the work is more than "just an engineering issue", and also gives you ways to naturally show the customer or business impacts of the work.
 
-*** Step 4.5: Optional: Call Out Lessons Learned
+E.g. Anand could throw in:
 
-Note that the second half of the story arc represents *a series of lessons learned* -- the struggle, the help from the friend, overcoming the danger. All of those are encoding key lessons.[fn:: if I had to guess, this is why evolution encoded this into our brains -- so that we can share non-obvious facts and strategies about our environments that improve the likelihood of reproductive success)].
+/Throughout the project, we worked super closely with Nia, the lead for the Enterprise Success team. Nia was fantastic. We learned from her that, like, 90% of the time we have to restore from backups, it's because a customer did something horrible to their *own data*. Their admin wiped out all of last year's SKU's, or someone implemented a new inventory system and didn't tell us, or their IT team firewalled off their own export process and totally eff'd up sync. Nia said, and I quote, "If you can get this down to an hour, that's plenty. I *want* them to feel some pain, so they think about how to not do it again." We loved Nia!/
 
-So asking yourself "What did we learn?" is incredibly useful, if you're trying to turn your win into a story.
+Notice how that takes gritty backend work (moving from weekly to nightly database backups), and effortlessly connects it to actual customers, while also showing genuine respect for the work of other teams.
 
-*** Step 5: Enjoy Your Pauses
+*** Structure Presentations Around Lessons Learned
+
+A very natural way to turn a story into a "talk" is to build up to a set of "Lessons Learned".
+
+So asking yourself "What did we learn?" is incredibly useful, if you're trying to turn your win into a fuller story.
+
+# Note that the second half of the story arc represents *a series of lessons learned* -- the struggle, the help from the friend, overcoming the danger. All of those are encoding key lessons.[fn:: if I had to guess, this is why evolution encoded this into our brains -- so that we can share non-obvious facts and strategies about our environments that improve the likelihood of reproductive success)].
+
+If speaking to Engineering or Company All Hands, Anand might spend some time at the end saying something like:
+
+/What did we learn?/
+
+/We realized that having backups isn't the same as being able to *use* backups in a crisis./
+
+/The backups on their own aren't valuable. The thing that's actually valuable is the *ability to restore*./
+
+/We started calling it: we care about the *verb* not the *noun*./
+
+/Golden Docker Images aren't valuable. Being able to *quickly set up* dev or test environments is valuable./
+
+/Quarterly AWS spend reports aren't valuable. Being able to *decide* if and how we might want to reduce spend is valuable. That's the verb./
+
+/Looking for verbs has already turned up some really interesting opportunities./
+
+/Second, working closely with Enterprise Success was a huge win. They know so much about what enterprise customers are trying to do, being able to brainstorm with them was fantastic. We went down a lot of blind alleys before we started talking to Nia and her team./
+
+/Finally, a key was that measuring let us go faster. We spent time early on just trying things out, but timing would be different across different runs, and there were so many variables, we didn't know what was going on. Then, Eduardo wrote a test harness that let us run and measure restores overnight on isolated, spun-up instances. We could run multiple ones in parallel and everything sped way up./
+
+It's often nice to end, as Anand does above with the "verbs not nouns idea", by looking to the future in a positive way.
+
+When I work with engineers to prepare talks, we usually spend the last half or third of the presentation on interwoven "struggle" and "learning" -- we learned "Z", because first we tried "X" and it didn't work, but then we did "Y" which did work.
+
+*** Take The Time To Practice
+
+Step 5: Enjoy Your Pauses
 
 *** Step Infinity: Prep, Practice, Improve
 
@@ -262,6 +348,29 @@ Let's see how Anand's Win could be work as a *story*, instead of a dry fact.
 
 
 # Logistically, we'll imagine Anand can take up to about five minutes to share a win.
+
+** Who Tells the Story?
+
+* Scraps
+
+** Resonate Link
+https://www.duarte.com/blog/presentation-storytelling-audience-is-hero/
+** Rando Thinking
+Alright, let's just do some thinking out loud, here.
+
+I can start by defining the problem -- the risk.
+
+What is the risk? Well, even after the work is over, your stakeholder is likely not thinking of it as their win. They're thinking "can I get back to business goals" already. Notice how we never took the time to fully bring them into our thinking about business value. Also, there's a good chance that the visibility still feels a bit abstract to them -- even if it's a true reflection of value for the business.
+
+I think pick either:
+
+ - Enable Parallel Development Across Multiple Teams
+
+ - Reduce Risk of Losing Data
+
+Both of which are super valuable and super opaque.
+
+I think parallel dev, and use Flagship stories w/ Lisa, Cartz + M&M as example, alongside various challenging bits of making that work. Feature Sean E, Neil, Topher, Bryan?
 
 ** Saving Integrated Tech From Their Own Incredible Stupidity
 
@@ -366,31 +475,6 @@ Even if they do something totally stupid at some point again!
 
 # Notes - took 5 minutes
 #  - Convert 2 failures + 1 success, to 1 failure, partial success, partial success, total success
-
-** Where Do You Tell The Story?
-
-** Who Tells the Story?
-
-* Scraps
-
-** Resonate Link
-https://www.duarte.com/blog/presentation-storytelling-audience-is-hero/
-** Rando Thinking
-Alright, let's just do some thinking out loud, here.
-
-I can start by defining the problem -- the risk.
-
-What is the risk? Well, even after the work is over, your stakeholder is likely not thinking of it as their win. They're thinking "can I get back to business goals" already. Notice how we never took the time to fully bring them into our thinking about business value. Also, there's a good chance that the visibility still feels a bit abstract to them -- even if it's a true reflection of value for the business.
-
-I think pick either:
-
- - Enable Parallel Development Across Multiple Teams
-
- - Reduce Risk of Losing Data
-
-Both of which are super valuable and super opaque.
-
-I think parallel dev, and use Flagship stories w/ Lisa, Cartz + M&M as example, alongside various challenging bits of making that work. Feature Sean E, Neil, Topher, Bryan?
 
 ** Copy of: Everything Everywhere All In the Same Goddamn Place At Once
 
