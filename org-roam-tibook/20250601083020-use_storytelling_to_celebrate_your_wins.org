@@ -74,9 +74,7 @@ Fundamentally, the human mind has an obsessive bent for understanding the world 
 
 You can take advantage of that obsessive bent in many different contexts.
 
-Okay, let's move to our story.
-
-** RP and T-Rest at Friday Wins
+** The Story of RP and T-Rest at Friday Wins
 
 It's the Friday Wins zoom session. The engineering and product teams are all hovering in their little zoom boxes. Anand, of one of the engineers on the Platform Team, turns on his mic to share his team's Win for the week.
 
@@ -373,6 +371,41 @@ I'll just share a couple of notes for improving your speaking in public:
    Paradoxically, the best way to address this is to force yourself to slow down -- and find a way to be genuinely interested in what you're saying.
 
    A brilliant performer once told me "We are interesting onstage if we are interested in something". I have found that to be very useful guidance for sharing presentations.
+
+** A Series of Story Makeovers
+
+*** Cutting The Spaghetti In Half
+
+**** The Dry Fact
+
+"Team Ultimate Werewolves finished implementing the field catalog interface."
+
+**** A Three-Beat Story (Problem/Struggle/Better World)
+
+We've badly struggled with having teams work in parallel on our core product -- but we *need* to be able to have multiple teams going really fast, if we're going to have any chance of hitting our launch target for next year.
+
+My team, the Ultimate Werewolves, spent the last two months carefully reworking some of our hoariest old code, to put in place an API for a "catalog of available data". That API lists, for every available field, endpoints to both read and update the data.
+
+As of last Thursday, at four pm, Team Dromedary can now build the new custom report tool purely on top of that catalog API, without directly touching any of the core code. And my team can now do a ton of work under the hood, totally independently of them. Both teams have *already* found their planning going faster, and we think we're just going to pick up speed over the next few months.
+
+**** The Value Being Illustrated
+
+I love this form of value!
+
+Enabling parallel development across multiple teams is *incredibly* valuable to a business -- but can only enabled by smart, deeply technical investments.
+
+Don't do it speculatively (aka, don't build microservices until you have a successful but quite frustrating monolith).
+
+But if, as above, you've got specific product strategy goals, finding a way to both *make* these investments, and as above, *tell the story* of the value created, is one of the most valuable things an engineering leader can do.
+
+
+
+*** Improving Test Coverage
+
+*** Reduce Interruptive Maintenance WOrk
+
+*** Improving Security
+
 
 * Scraps
 
