@@ -392,19 +392,47 @@ As of last Thursday, at four pm, Team Dromedary can now build the new custom rep
 
 I love this form of value!
 
-Enabling parallel development across multiple teams is *incredibly* valuable to a business -- but can only enabled by smart, deeply technical investments.
+Enabling parallel development across multiple teams can be *incredibly* valuable to a business -- and can only enabled by smart, often deeply technical investments.
 
-Don't do it speculatively (aka, don't build microservices until you have a successful but quite frustrating monolith).
+That said, please *don't* do this speculatively (aka, don't build microservices until you have a successful but pretty seriously frustrating monolith).
 
-But if, as above, you've got specific product strategy goals, finding a way to both *make* these investments, and as above, *tell the story* of the value created, is one of the most valuable things an engineering leader can do.
+But if, as above, you've got specific product strategy goals that require a high pace of learning and discovery in some deeply tangled up part of your code, finding some disciplined ways to restruture that code can create a ton of value.
+
+But, despite being valuable, that kind of work tends to be *very opaque* to stakeholders.
+
+Thus, being able to *tell the story* of that creation of value, as above, can serve you very well.
 
 
+**** Story Technique Notes
 
-*** Improving Test Coverage
+ - "Danger emerges -> intensifies": laying out the problem in two steps, first "badly struggled to work in parallel", *then* laying out next year's launch targets to show why that danger must be handled now.
+
+ - "Struggle": "reworking some of hoariest old code"
+
+ - Bringing moments to life: "As of last Thursday at 4 pm", "have already found their planning going faster"
+
+ - A better world: we're going to pick up speed
+
+*** The React Promise/Async Bear Trap
+
+**** The Dry Fact
+
+"Jeremiah finished restructuring the front-end tests for the builder"."
+
+**** A Three Beat Story
+
+Our front-end tests for the builder were all written as the engineers involved were both learning how to do unit testing *and* how to work with React. Unfortunately, after a few months the tests were *both* randomly failing due to race conditions and *also* had to be rewritten every time we so much as looked at the underlying code. The PM's had started to get really frustrated that every ticket had an extra two days to "fix the tests". One day in planning, Amber asked if we could just stop testing altogether. But dropping testing felt really risky.
+
+So, we peeled Jeremiah away from day-to-day sprint work, and he spent a while going deep to try to understand why the failures were happening, and what we could do to make the tests more stable across code changes. He realized the underlying problem wasn't actually the tests themselves, but more how we were managing state in the builder. He took three weeks to carefully rewrite just the field selection component around a new pattern, adding really high quality tests as he went.
+
+he then spent two weeks pair programming with one engineer after another to share the new approach -- and he wrote a how-to guide on component architecture and testing.
+
+The team has now built two new components in the style, and the PM's haven't complained once about testing! In fact, they've said that iterating on the UI feels "snappier". We believe that is in part because the team has been able to more quickly iterate on the front-end, thanks to having a better safety net.
+
+**** The Value Being Illustrated
 
 *** Reduce Interruptive Maintenance WOrk
 
-*** Improving Security
 
 
 * Scraps
