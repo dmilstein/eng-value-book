@@ -1,9 +1,48 @@
 :PROPERTIES:
 :ID:       722C702D-A6C2-4A51-AB62-515CE8144AA2
 :END:
-#+title: The Ladder of Commitment
+#+title: Climb The Ladder of Commitment
 #+filetags: :Chapter:
-#+SELECT_TAGS
-#+OPTIONS: tags:nil
 * Climb the Ladder of Commitment
-Blah
+
+** On the Side
+
+Usually, small efforts that someone can knock off in between other tickets, or over a weekend.
+
+Pros:
+
+ - Can be done without formal negotiation with Stakeholders
+
+ - Particularly useful for creating initial visibility
+
+Cons:
+
+ - Tough to make progress against significant challenges
+
+ - Risk of creating culture where key tech investments can only be done by heroic "extra" work (especially if the people who do this are rewarded/promoted)
+
+ - Missed opportunity to educate and involve stakeholders
+
+** A Single Ticket
+
+A day or a couple of days of work for one engineer.
+
+** A Within-Team Project
+
+A week or a couple of weeks of work for a few engineers on one team.
+
+** A Cross-Team Initiative
+
+A month or a couple of months of work for multiple engineers across multiple teams.
+
+** A Durable Team
+
+A year or a couple of years of work for multiple engineers, a manager, someone serving the PM role.
+
+E.g. DevEx or DevPlat, various flavors of Platform teams. Maybe, see Team Topologies.
+
+Key question:
+
+ - Who serves the product role?
+
+ - Do they report up through product or through engineering?
