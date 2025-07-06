@@ -390,31 +390,48 @@ As of last Thursday, at four pm, Team Dromedary can now build the new custom rep
 
 **** The Value Being Illustrated
 
-I love this form of value!
-
 Enabling parallel development across multiple teams can be *incredibly* valuable to a business -- and can only enabled by smart, often deeply technical investments.
 
-That said, please *don't* do this speculatively (aka, don't build microservices until you have a successful but pretty seriously frustrating monolith).
+That said, *please* don't do this *speculatively*. If you *start* by doing some complex, creative split in your system, you will, essentially 100% of the time, predict the *wrong kind* of parallel decomposition your business will later need. You'll initially make all work harder, and later make the actual parallel decomposition you need fully impossible. A reasonable shorthand summary is: don't build microservices until you have a successful and extremely frustrating monolith.
 
-But if, as above, you've got specific product strategy goals that require a high pace of learning and discovery in some deeply tangled up part of your code, finding some disciplined ways to restruture that code can create a ton of value.
+All that said, if, as above, you've got an actual product strategy that require a high pace of learning and discovery across multiple teams, all that work running through  some deeply tangled up part of your code, finding some disciplined ways to restruture that code can create a ton of value.
 
-But, despite being valuable, that kind of work tends to be *very opaque* to stakeholders.
+That said, this is an absolute poster child for the kind of super valuable work which is, by default *entirely opaque* to stakeholders.
 
 Thus, being able to *tell the story* of that creation of value, as above, can serve you very well.
 
 
 **** Story Technique Notes
 
- - "Danger emerges -> intensifies": laying out the problem in two steps, first "badly struggled to work in parallel", *then* laying out next year's launch targets to show why that danger must be handled now.
+ - Within the first sentence, there's a subtle intensifying of the problem, which creates a bit of urgency and suspense: /"we *need* to... if we're going to have any chance of hitting our launch targets"/
 
- - "Struggle": "reworking some of hoariest old code"
+ - Then, in the second paragraph, the effort is described as /"carefully reworking our hoariest old code"/.
 
- - Bringing moments to life: "As of last Thursday at 4 pm", "have already found their planning going faster"
+   The words used (/"badly", /"carefully"/, /"hoariest"/) gives it a bit of the feel of a difficult struggle, which brings the narrative arc to life.
 
- - A better world: we're going to pick up speed
+   Putting those two points together, here's how the intro would have read without those techniques.
 
-*** The React Promise/Async Bear Trap
+   /We've struggled with having teams work in parallel on our core product/
 
+   /My team, the Ultimate Werewolves, spent the last two months reworking our old code to insert an API for "catalog of available data"./
+
+   To my ear, that just feels flatter -- I suspect many listeners would think, "Okay, fine, so what?"
+
+ - In describing the impact of the win, the speaker says /"As of last Thursday at 4 pm, Team Dromedary can now build..."/
+
+   That's an example of bringing the listener into a key moment, to make it more immediate.
+
+   A flatter, dryer alternative would be something like:
+
+   /"This new API provides Team Dromedary the tools they need to build the new custom report tool."/
+
+   That isn't /terrible/ (it demonstrates the benefit), but bringing the detail to life makes it more vivid.
+
+ - Finally, it wraps up with /"we're going to pick up speed over the next few months."/
+
+   That's a subtle invocation of "creating a better world"
+
+*** The React Promises Bear Trap
 **** The Dry Fact
 
 "Jeremiah finished restructuring the front-end tests for the builder"."
@@ -431,8 +448,12 @@ The team has now built two new components in the style, and the PM's haven't com
 
 **** The Value Being Illustrated
 
-*** Reduce Interruptive Maintenance WOrk
+***
+**** The Dry Fact
+"We finally replaced "
+**** A Three Beat Story
 
+**** The Value Being Illustrated
 
 
 * Scraps
