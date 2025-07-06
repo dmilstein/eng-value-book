@@ -216,7 +216,7 @@ If fixing bugs, or restoring the site from outages, or correcting data issues in
 
 The trick here is to spend a bit of time understanding the *positive* value of what your team perceives as reactive work.
 
-If you can really dig in on that side, you might be able to find creative ways to either restructure how much work gets to your team, or, or make a real investment to eliminate a whole class of issues at a deeper level, or even, propose moving the work *off your team* altogether and finding a home for it somewhere else in the organization.
+If you can really dig in on that side, you might be able to find creative ways to restructure how much work gets to your team, or make a real investment to eliminate a whole class of issues at a deeper level, or even, propose moving the work *off your team* altogether and finding a home for it somewhere else in the organization.
 
 Those kind of major investments or shifts can be economically rational, but those aren't easy pitches to make, unless you can show the *positive* value to the business, *beyond* just saving time for the engineers.
 
