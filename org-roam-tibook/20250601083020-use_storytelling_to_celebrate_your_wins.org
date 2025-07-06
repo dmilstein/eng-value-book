@@ -373,8 +373,7 @@ I'll just share a couple of notes for improving your speaking in public:
    A brilliant performer once told me "We are interesting onstage if we are interested in something". I have found that to be very useful guidance for sharing presentations.
 
 ** A Series of Story Makeovers
-
-*** Cutting The Spaghetti In Half
+*** We Cut The Spaghetti In Half
 
 **** The Dry Fact
 
@@ -431,24 +430,51 @@ Thus, being able to *tell the story* of that creation of value, as above, can se
 
    That's a subtle invocation of "creating a better world"
 
-*** The React Promises Bear Trap
+*** Unspringing the React Promises Bear Trap
 **** The Dry Fact
 
-"Jeremiah finished restructuring the front-end tests for the builder"."
+"Jeremiah finished restructuring the front-end tests for the builder".
 
 **** A Three Beat Story
 
-Our front-end tests for the builder were all written as the engineers involved were both learning how to do unit testing *and* how to work with React. Unfortunately, after a few months the tests were *both* randomly failing due to race conditions and *also* had to be rewritten every time we so much as looked at the underlying code. The PM's had started to get really frustrated that every ticket had an extra two days to "fix the tests". One day in planning, Amber asked if we could just stop testing altogether. But dropping testing felt really risky.
+Our front-end tests for the builder were all written as the engineers involved were both learning how to do unit testing *and* how to work with React. Unfortunately, the resulting tests *both* randomly fail due to race conditions and *also* have to be rewritten every time we so much as look at the underlying code. The PM's had started to get really frustrated that every ticket had an extra two days to "fix the tests". One day in planning, Amber asked if we could just stop testing altogether. But dropping testing felt really risky, so the engineers all pushed back. But it didn't feel great.
 
 So, we peeled Jeremiah away from day-to-day sprint work, and he spent a while going deep to try to understand why the failures were happening, and what we could do to make the tests more stable across code changes. He realized the underlying problem wasn't actually the tests themselves, but more how we were managing state in the builder. He took three weeks to carefully rewrite just the field selection component around a new pattern, adding really high quality tests as he went.
 
-he then spent two weeks pair programming with one engineer after another to share the new approach -- and he wrote a how-to guide on component architecture and testing.
+He then spent two weeks pair programming with one engineer after another to share the new approach -- *and* he wrote a how-to guide on the wiki on React component architecture and testing.
 
-The team has now built two new components in the style, and the PM's haven't complained once about testing! In fact, they've said that iterating on the UI feels "snappier". We believe that is in part because the team has been able to more quickly iterate on the front-end, thanks to having a better safety net.
+The team has now built two new components in the new style, and not only have the PM's not complained once about testing, they've actually said that iterating on the UI feels "snappier"! We believe that is in large part because the team has been able to more quickly try out changes to the front-end, thanks to the combo of the better state architecture and having a much better safety net.
 
 **** The Value Being Illustrated
 
-***
+Many engineers think of the value of tests (if they think of value at all), as "catching bugs".
+
+The actual economic value of good tests is *not* primarily to "prevent bugs" but rather to enable *velocity*,
+
+Although a bug is acute and prominent, there is *far* more economic damage caused by the invisible slowdown because no one knows how to safely change a system, or every change creates a cascade of unplanned, reactive work.
+
+Of course, a team only gets the value of tests enabling velocity if those tests *actually* allow the team to move faster. Having a set of tests which need to be rewritten on every change to the code are, in many ways, worse than no tests at all.
+
+So the value here is speeding the team up, both in the immediate term (writing tests isn't such a burden), *and* in the long term (there are better tests when the team later returns to this code).
+
+**** Story Technique Notes
+
+ - Notice how each of the first four sentences steadily deepens the problem, and thus each creates a little mini increase in urgency.
+
+   The engineers were learning both tests + React -> now the tests both fail and have to be rewritten all the time -> the PM's are starting to get frustrated -> one PM has now asked to stop testing altogether.
+
+   That's the "intensifying the problem" stage in the heroic arc.
+
+ - Jeremiah's deep dive has a series of "productive struggles", as he digs in, tries and fails, and then gradually learns and wins.
+
+ - Several moments are brought to life: "Amber asked if we could just stop testing", "Jeremiah realized the underlying problem", "he spent two weeks pair programming", the PM's said that iterating on the new UI felt "snappier".
+
+ - The final sentence is a nice summary of a "better world".
+
+*** The Death of CalcNextNode
+
+# Steal ideas from Anand retiring ShippingCosts.php or whatever it was
+
 **** The Dry Fact
 "We finally replaced "
 **** A Three Beat Story
