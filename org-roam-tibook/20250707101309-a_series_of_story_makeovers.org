@@ -18,20 +18,6 @@ My team, the Ultimate Werewolves, spent the last two months carefully reworking 
 
 As of last Thursday, at four pm, Team Dromedary can now build the new custom report tool purely on top of that catalog API, without directly touching any of the core code. And my team can now do a ton of work under the hood, totally independently of them. Both teams have *already* found their planning going faster, and we think we're just going to pick up speed over the next few months.
 
-*** The Value Being Illustrated
-
-Enabling parallel development across multiple teams can be *incredibly* valuable to a business -- and can only enabled by smart, often deeply technical investments.
-
-That said, *please* don't do this *speculatively*. If, before you run into actual problems, you put in place some complex, creative split in your system, you will, essentially 100% of the time, predict the *wrong kind* of parallel decomposition your business will later need. You'll run a very grave risk of making all work harder, and later making the actual parallel decomposition you need *fully impossible*.
-
-A reasonable shorthand summary is: don't build microservices until you have a successful and extremely frustrating monolith.
-
-All that said, if, as above, you've got an specific product strategy that requires a high pace of learning and discovery across multiple teams working in some deeply tangled up part of your code, finding disciplined ways to restruture that code can create a ton of value.
-
-Also: this is an absolute poster child for the kind of super valuable work which is, by default, *entirely opaque to stakeholders*.
-
-Thus, being able to *tell the story* of that creation of value, as above, can serve you very well.
-
 *** Story Technique Notes
 
  - Within the first sentence, there's a subtle intensifying of the problem, which creates a bit of urgency and suspense: /"we *need* to... if we're going to have any chance of hitting our launch targets"/
@@ -60,6 +46,20 @@ Thus, being able to *tell the story* of that creation of value, as above, can se
 
    That's a subtle invocation of "creating a better world"
 
+*** The Value Being Illustrated
+
+Enabling parallel development across multiple teams can be *incredibly* valuable to a business -- and can only enabled by smart, often deeply technical investments.
+
+That said, *please* don't do this *speculatively*. If, before you run into actual problems, you put in place some complex, creative split in your system, you will, essentially 100% of the time, predict the *wrong kind* of parallel decomposition your business will later need. You'll run a very grave risk of making all work harder, and later making the actual parallel decomposition you need *fully impossible*.
+
+A reasonable shorthand summary is: don't build microservices until you have a successful and extremely frustrating monolith.
+
+All that said, if, as above, you've got an specific product strategy that requires a high pace of learning and discovery across multiple teams working in some deeply tangled up part of your code, finding disciplined ways to restruture that code can create a ton of value.
+
+Also: this is an absolute poster child for the kind of super valuable work which is, by default, *entirely opaque to stakeholders*.
+
+Thus, being able to *tell the story* of that creation of value, as above, can serve you very well.
+
 ** Unspringing the React Promises Bear Trap
 *** The Dry Fact
 
@@ -74,22 +74,6 @@ So, we peeled Jeremiah away from day-to-day sprint work, and he spent a while go
 He then spent two weeks pair programming with one engineer after another to share the new approach -- *and* he wrote a how-to guide on the wiki on React component architecture and testing.
 
 The team has now built two new components in the new style, and not only have the PM's not complained once about testing, they've actually said that iterating on the UI feels "snappier"! We believe that is in large part because the team has been able to more quickly try out changes to the front-end, thanks to the combo of the better state architecture and having a much better safety net.
-
-*** The Value Being Illustrated
-
-Many engineers think of the value of tests (if they think of value at all), as "catching bugs".
-
-The actual economic value of good tests is *not* primarily to "prevent bugs" but rather to enable *velocity*,
-
-Although a missed bug is an acute and prominent cost to the business, there is *far* more economic damage caused by invisible slowdowns because no one knows how to safely change a system, or every change creates a cascade of unplanned, reactive work.
-
-Of course, a team only gets the value of tests enabling velocity...
-
-*...if those tests actually allow the team to move faster.*
-
-Having a set of tests which need to be rewritten on every code change are, in many ways, worse than no tests at all.
-
-So the economic value to improving tests here is a) immediately speeding the team up, because writing tests the first time is faster, and b) speeding the team up in the long term, because the tests won't need to be rewritten nearly as often.
 
 *** Story Technique Notes
 
@@ -121,12 +105,38 @@ So the economic value to improving tests here is a) immediately speeding the tea
 
  - The final sentence is a nice summary of a "better world".
 
+*** The Value Being Illustrated
+
+Many engineers think of the value of tests (if they think of value at all), as "catching bugs".
+
+The actual economic value of good tests is *not* primarily to "prevent bugs" but rather to enable *velocity*,
+
+Although a missed bug is an acute and prominent cost to the business, there is *far* more economic damage caused by invisible slowdowns because no one knows how to safely change a system, or every change creates a cascade of unplanned, reactive work.
+
+Of course, a team only gets the value of tests enabling velocity...
+
+*...if those tests actually allow the team to move faster.*
+
+Having a set of tests which need to be rewritten on every code change are, in many ways, worse than no tests at all.
+
+So the economic value to improving tests here is a) immediately speeding the team up, because writing tests the first time is faster, and b) speeding the team up in the long term, because the tests won't need to be rewritten nearly as often.
+
 ** The Death of CalcNextNode
 
 # Steal ideas from Anand retiring ShippingCosts.php or whatever it was
 
 *** The Dry Fact
-"We finally replaced "
+"We finally replaced CalcNextNode.aspx with a python service."
+
 *** A Three Beat Story
+Deep in the mists of time, someone asked an engineer to write some code to select which of our two warehouses was cheaper to ship an item from. At the time, we only had only two warehouses! We only sold 100 different items! So the engineer threw together a quick ASP script in an afternoon. This was a perfectly valid choice! But now... we have 27 warehouses. We ship tens of thousands of different items every day. And yet. As of a few months ago, we still had that one poor ASP script figuring out what to ship from where. That ASP script had gotten so encrusted with crazy shipping logic that the engineers were all terrified to touch it. But then, in February, the Ops Product team announced to all of Supply Chain that our big initiative for the year is... just-in-time ship cost optimization. Which runs straight through our old friend, CalcNextNode.aspx.
+
+So the Inventory Eng Team dug in. First, we spent nearly a full month instrumenting the existing code and wrapping it in every kind of monitoring and logging available. We broke a few things (apologies for the Sev 1's!), but we were finally able to see what it was actually *doing*. We then set up a dual path -- every request to CalcNextNode *also* triggered a request to a new, Python service, and we then logged both responses.
+
+Over time, this let them gradually wear down the logic that was in CalcNextNode.aspx and move more and more of it into a service that we could fully understand, change and scale up as needed.
+
+As of last week, we pushed the button to make the last client just point directly to that new service. We're planning on having a ritual decommissioning of CalcNextNode.aspx next week, you're all invited.
+
+*** Story Technique Notes
 
 *** The Value Being Illustrated
