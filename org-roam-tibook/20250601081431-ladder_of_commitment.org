@@ -13,15 +13,22 @@ Pros:
 
  - Can be done without formal negotiation with Stakeholders
 
- - Particularly useful for creating initial visibility
-
 Cons:
 
  - Tough to make progress against significant challenges
 
- - Risk of creating culture where key tech investments can only be done by heroic "extra" work (especially if the people who do this are rewarded/promoted)
-
  - Missed opportunity to educate and involve stakeholders
+
+ - Risk creating culture of valuing heroic "extra" work
+
+   (especially if the people who do this are rewarded/promoted)
+
+When Indicated:
+
+ - To create initial visibility
+
+
+Examples:
 
 ** A Single Ticket
 
