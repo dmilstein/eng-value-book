@@ -573,3 +573,193 @@ Could I ask you to let me know what you're most eager to learn more about, with 
 That could be something I've touched on, or possibly something I have *not* touched on, but which seems important for running this game plan. I can be reached through substack, or via milstein.dan@gmail.com
 
 Also, of course, share this with anyone you think would find it useful!
+
+** Engineering & The Creation of Value, Part I
+I believe that software engineers should stop talking about Technical Debt.
+
+I believe they should instead, advocate for *Technical Investments*, which are defined as:
+
+/Work that the engineers believe is *valuable to their business*.../
+
+/...but that *no one is asking for*./
+
+(see: [[https://buildingandlearning.substack.com/p/tech-investments-not-tech-debt][Tech Investments, Not Tech Debt]]).
+
+And an absolutely central question is:
+
+*"What is valuable to a business?"*
+
+Let's talk.
+
+*** Warning (Extremely Valuable) Abstract Thinking Ahead
+
+We're about to do an unapologetically deep dive into how, exactly, engineers create value for the businesses in which they operate.
+
+This may feel somewhat far removed from the day-to-day concerns that are filling up your inbox and/or Slack.
+
+Nonetheless, I'll encourage you to take the time to dig in and really wrestle with the below.
+
+Precisely *because* few people really understand it, having that insight into the creation of value is like having a superpower.
+
+Such understanding can, over time, meaningfully help your career -- because it will allow you to find creative ways (that no one is asking for!) to generate major, visible business wins.
+
+It can also make your job profoundly more pleasant. Because you can break out of a lot of frustratingly oppositional patterns, by finding ways to pursue value that work for everyone.
+
+But developing such an understanding takes some real work. [fn:: My friend Edmund says "Tell them sometimes you need the math so fucking clear an afternoon and brew some coffee".]
+
+*** What Is Value?
+
+Technical Investments are defined as:
+
+"Work that engineers believe is *valuable for the business*, but which no one is asking for".
+
+In order to identify and advocate for technical investments, engineering leaders must understand *how engineers create value for a business*.
+
+The first question is:
+
+*What, precisely, do we mean by 'value for a business'?*
+
+I suspect most engineers, if they think about business value at all, tend to think only of *revenue* -- e.g. if their team is working on a new product, they'll think of "business value" as "the dollars that customers pay us for that product, once it launches".
+
+This is far too limited a view.
+
+Revenue, *by itself*, is not a reliable proxy for overall company value -- revenue plays a *role* in determining company value, but is not that value by itself.
+
+So, what is "overall company value"? And how might we determine it?
+
+Interestingly, there are two situations where we can *easily* obtain an estimate of overall company value:
+
+ - Immediately after someone buys or sells a share of stock in a public company
+
+ - Immediately after a funding round at a startup
+
+In both cases, investors are putting up *their own money* to buy a *part* of a company.
+
+How much those investors are willing to pay for that *part* of the company is driven by their belief about the overall company value.
+
+That is the kind of value we're interested in. [fn:: I will bet you All the Things that the leader of your business cares very intensely about this form of value. Like, very, *very* intensely.]
+
+Engineers can, by the work they do, either increase *or decrease* that kind of overall company value.
+
+The potential increase in value is why companies hire engineers -- engineer salaries represent an *investment* on the part of the business, made in hopes of a positive return.
+
+Whatever someone tells you your job is, please understand and believe me: your *actual* job is to increase the value of your company.
+
+Unfortunately, company executives tend to have a somewhat limited understanding of how the work of engineers can increase the value of the company.
+
+This is especially true for various value opportunities that engineers can see right in front of them, e.g:
+
+ - Cleaning up difficult-to-change code
+
+ - Improving tooling to test, integrate and deploy changes
+
+ - Instrumenting production systems with monitoring
+
+ - Retiring old infrastruture
+
+In the right situations, the above kinds of work can make a company meaningfully more valuable -- and can thus be worth prioritizing, even against work that might immediately increase revenue.
+
+But engineers can not, in general, depend on stakeholders or product managers to understand how to convert problems in technical areas into investment opportunities.
+
+That is why "no one is asking for" the work the engineers believe is valuable -- because they don't understand how it can ultimately make the company worth more.
+
+To ensure that you, as an engineering leader, are able to do that work, we're going to spend some time unpacking the concept of "overall company value".
+
+Hidden within it we'll find the keys to successfully identifying and then advocating for a wide variety of technical investments -- and for understanding our work as engineers more broadly.
+
+Also, it's fun![fn:: It's maybe *especially* fun if you have an obsessive love for developing a first-principles understanding of activities people are blindly doing all around you. Say.]
+
+# Although some of the below may sound a bit theoretical, I'll *strongly encourage* you to really sink your teeth into it, really wrestle with how to apply it to your specific company.
+
+# Why?
+
+# Technical investments are fundamentally about *value*.
+
+# As an engineering leader, you will be *extremely* well-served by having a full understanding of how to map from your company's highest level goals (aka, their plan for increasing overall value) all the way down to the work your team is doing, day-to-day.
+
+# That full understanding is what will allow you to creatively and successfully advocate for work that no one is asking for.
+
+# But it does take some slowing down and careful thinking to really see all those connections.
+
+*** What? Oh, Good Lord No, This Is *Not* How You Talk To Stakeholders
+
+Before we dig in: I'm *not* proposing you *lead* with all of the below, in your initial conversations with your stakeholders.
+
+As you read the below just focus on understanding and applying the overall model of value *for yourself*.
+
+Later in the book, we'll lay out a plan for gradually drawing your stakeholders into a repeated process of decision-making, which they will find delightful.
+
+We'll do so in a way that doesn't require front-loading an economics lecture (stakeholders who are upset about their features being late are oddly resistant to economics lectures, I have found). [fn:: As Edmund Jorgensen and I first came to understand these ideas about company value (after reading the simply amazing Principles of Product Development Flow, by Don Reinertsen), we eagerly brought abstract models for value into just about every one of our discussions with stakeholders. We emerged from that experience a few years later, battered and bruised, with the very different approach you're going to see later.]
+
+*** A Few Of My Favorite Misconceptions About Value
+
+As step one to sharpening our understanding, let's list several things that are *not* reliable proxies for engineers increasing overall company value:
+
+ - Cranking out new features as fast as possible
+
+ - Rapidly chewing through all the well-groomed tickets on a team's sprint board
+
+ - Writing "high-quality" or "defect-free" code
+
+ - Living up to "commitments" to delivery deadlines
+
+Stakeholders (and other engineering leaders!) will sometimes tell you, extremely confidently, that something on that list *is* all you need to worry about.
+
+They might say: *"Stop asking so many questions and just do your job".*
+
+Implicit in this exhortation is a belief that "engineering's job" is just one of those activities.
+
+# There's a good chance that someone vaguely boss-like near has this belief.
+
+Such a belief is fundamentally wrong.
+
+Engineering's *job* is to create value for the business. Even if the people who hired you don't think about it that way. [fn:: This book is basically a ticket to the Dan Milstein Course in How To Give People What They Actually Want, Not What They Ask For, And Leave Them Very Happy Indeed]
+
+Each of those activities is *potentially valuable* for a business... but, unfortunately, each of them is also *potentially damaging to value*:
+
+Let's bring that to life with some examples.
+
+Below are situations in which each of the above *is* valuable... and also situations where each of the above is *totally not* valuable:
+
+ - *Cranking out new features as fast as possible*
+
+   Super valuable when chasing product market fit and rapidly testing a series of new prototypes with customers.
+
+   Super damaging when the company has built a product that customers fundamentally don't want or need, and the parade of new features is a desperate attempt to avoid facing that hard truth for as long as possible [fn:: I totally made this up I've never seen any stakeholders exhibit this exact behavior look something shiny.]
+
+ - *Rapidly chewing through all the well-groomed tickets on a team's sprint board*
+
+   Super valuable when the team is developing something genuinely important for the business, and the engineers and product leads are talking all the time, and the work is going live and driving learning every day.
+
+   Super damaging if the product team is using the tickets as a way to avoid talking with the engineers and there's weeks of lead time to "write good tickets" (or god forbid Product Requirements Documents) and the engineers don't really understand the *why* of what they're building and the the team "closes tickets" by merging PRs into some infrequently-deployed branch.
+
+   # Find Kellan quote about devolving to this?
+
+ - *Writing "high-quality" or "defect-free" code*
+
+   Super valuable if what the code does is genuinely important to customers, AND bugs in the code will cause those customers major problems, AND the code is going to live for a long time AND be changed by many engineers over the course of its life.
+
+   Super damaging if the code has a high likelihood of being thrown away, and the time to write it "well" delays critical feedback from customers.[fn:: "The absence of bugs is not the presence of value" should be engraved on the wall of every academic institution that launches one of those stupid engineering productivity studies that measure defect rates as a form of "productivity", argh don't get me started]
+
+ - *Living up to 'commitments' to delivery deadlines*
+
+   Super valuable if, um... Um. Just give me a sec.
+
+   Um.
+
+   Look, making key business decisions based on extracting "commitments" from engineering is a fool's game for everyone involved.
+
+   See Melissa Perri's excellent Escaping the Build Trap for much, much better options.
+
+As the above makes clear, there's a lot of contextual nuance to understanding when your team's work is or is not valuable.
+
+Fortunately, there is a unifying way to understand value, so that the most important factors of the context immediately pop into sharp relief.
+
+And developing that unifying understanding will allow you to see a vast array of potential technical investments in a clear light.
+
+So, now, we're ready for Part II, where we're going to *build a model!*
+
+# Let's build a model!
+
+# What's That You Say, You Want a Brief Detour Into Finance?
+# Finance Is An Equation Built On Top of a Dream [Fantasy]
