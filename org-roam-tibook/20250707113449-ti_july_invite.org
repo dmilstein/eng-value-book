@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       8E95F005-3ADB-4A4B-BD64-87155C3F258A
+:END:
+#+title: TI July Invite
+One of the [[id:22898D7F-26DD-4787-939B-B640B3D5BE56][Beta Reading Wave 1]] invites.
+
+Tech Debt: Of course, delighted to share (and among my many many fun memories of yesterday, the surreal moment of switching out of "How can I best seize control over this galaxy!" into "Let me drop my theory of Tech Debt to the whole group, who are asking great questions!" was hilarious. My brain almost split in half).
+
+The blog is here: https://buildingandlearning.substack.com/
+
+I'll name a few posts below, but also: if any of you are interested in spending, let's call it ~2 hours reading a rough draft of the first half of the book (which covers a lot of the ground we talked about yesterday), let me know -- I'm doing a first round of early beta reading right now.
+
+Okay, the posts:
+
+This is probably a solid overview by way of a story: https://buildingandlearning.substack.com/p/the-tech-investment-cycle
+
+And here's another one that sketches in ideas for advocating for the kind of technical investment that involves restructuring the core data model for a company's product:
+
+https://buildingandlearning.substack.com/p/building-visibility-core-product
