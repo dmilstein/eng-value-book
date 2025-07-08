@@ -6,19 +6,18 @@
 * A Series of Story Makeovers
 ** "Cutting a Ball of Spaghetti In Half"
 *** What The Engineer Said At Friday Wins
-# The One-Sentence Win That No One Will Feel In Their Bones
 
 "Team Ultimate Werewolves finished implementing the field catalog interface."
 
 *** What Their Team Actually Did
 
-Their team own the data model for the core application. They built an API that allows other teams to list all available fields, and, for each field, obtain methods to read and update the data.
+Their team own the data model for the core application. They built an API that allows other teams to list all available data fields, and, for each field, obtain methods to read and update the underlying data.
 
 *** A Three Beat Story
 
-We've badly struggled with having teams work in parallel on our core product -- but we *need* to be able to have multiple teams working in there if we're going to have any chance of hitting our launch target for next year. That kind of parallel development has been basically impossible up to now.
+We've badly struggled with having teams work in parallel on our core product -- but we *need* to be able to have multiple teams working in there if we're going to have any chance of hitting our launch target for next year. But any kind of rapid parallel development has been basically impossible.
 
-My team, the Ultimate Werewolves, spent the last two months carefully reworking some of our hoariest old code, to put in place an API for a "catalog of available data". That API lists all available fields, along with, for each, new endpoints we're adding to both read and update the data.
+My team, the Ultimate Werewolves, spent the last two months carefully reworking some of our hoariest old code, to put in place an API for a "catalog of available data fields". That API lists all available fields, along with, for each, new endpoints we're adding to both read and update the data.
 
 As of last Thursday, at four pm, Team Dromedary can now build their awesome new report builder tool *purely on top of that catalog API*. They can do *all* of their work without directly touching any of the core code -- and thus, without talking to or waiting on my team for almost anything. And *my* team can now do a ton of work under the hood, totally independently of the Droms, to add new fields, fix the search indexing, and deal with some performance challenges.
 
@@ -115,9 +114,7 @@ The team has now built two new components in the new style, and not only have th
 
 Many engineers think of the value of tests (if they think of value at all), as "preventing bugs".
 
-I don't believe that's correct.
-
-The economic value of good tests is *not* primarily to prevent bugs but rather to enable *velocity*,
+I beieve that the economic value of good tests is *not* primarily preventing bugs but rather enabling *velocity*,
 
 Although a missed bug is an acute and prominent cost to the business, there is *far* more economic damage caused by invisible slowdowns because no one knows how to safely change a system, or every change creates a cascade of unplanned, reactive work.
 
@@ -129,7 +126,7 @@ Of course, a team only gets that value...
 
 Having a set of tests which need to be rewritten on every code change is, in many ways, worse than having no tests at all.
 
-So the economic value to improving tests here is:
+So the economic value of improving tests here is:
 
  a) Immediately speeding the team up, because writing tests the first time is faster.
 
@@ -139,16 +136,16 @@ and
 
 ** "The Death of CalcNextNode"
 
-# Steal ideas from Anand retiring ShippingCosts.php or whatever it was
-
 *** What The Engineer Said At Friday Wins
 "We replaced CalcNextNode.aspx with a Python service."
 
 *** What Their Team Actually Did
-The Inventory Engineering team rewrote a large ASP script which was used to determine which warehouse to ship an item from. Those shipping decisions are now made by a separate Python service.
+
+The Inventory Engineering team rewrote a large ASP script which had been used to determine which warehouse to ship an item from. Those shipping decisions are now made by a separate Python service.
 
 *** A Three Beat Story
-Deep in the mists of time, someone asked an engineer to write code to select which of our two warehouses to ship an item from.
+
+Deep in the mists of time, someone asked an engineer to write code to select which warehouse to ship an item from.
 
 At the time, we only had only two warehouses(!)
 
@@ -166,9 +163,9 @@ And yet.
 
 As of January of this year, we still had that one poor ASP script figuring out what to ship from where.
 
-Of course, it's now 3,437 lines long.
+Of course, the main method in it now 3,437 lines long.
 
-It has gotten so encrusted with crazy shipping logic that the engineers were all utterly terrified to touch it.
+The script has gotten so encrusted with crazy shipping logic that the engineers were all utterly terrified to touch it.
 
 And then, in March, the Ops Product team announced to all of Supply Chain that our big initiative for next year was going to be... just-in-time ship cost optimization.
 
@@ -182,7 +179,7 @@ We then set up a dual path -- every request to CalcNextNode *also* triggered a r
 
 Over the next five months, leaning on the information from that dual request set up, we were able to gradually move more and more of the logic from CalcNextNode.aspx into our new service -- which our whole team understands and can safely change.
 
-Once the new system was working in parity, one of the first clients we swapped over was the fulfillment pipeline. The Ops Research team has already started integrating their predictive models into warehouse shipping choices.
+Once the new system was working, one of the first clients we swapped over was the fulfillment pipeline. Because of that switchover, the Ops Research team has already started integrating their predictive models into warehouse choices.
 
 We also found and fixed a bunch of weird legacy issues that the ops team has been working around for, literally, years.
 
