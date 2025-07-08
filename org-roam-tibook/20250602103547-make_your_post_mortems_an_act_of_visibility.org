@@ -3,7 +3,29 @@
 :END:
 #+title: Make Your Post-Mortems an Act of Visibility
 #+filetags: :Chapter:
-#+SELECT_TAGS
-#+OPTIONS: tags:nil
 * Make Your Post-Mortems an Act of Visibility
-Blah
+* Scraps/Thinking
+Tell the story? Link to my videos/talks?
+
+How much do I want to bring how I/we run post-mortems to life? I mean, *some* or people will have literally no idea what I'm talking about.
+
+I do have "EN-How To Facilitate a Post-Mortem-310325-142830.pdf" in SavedEllevationFiles, which is pretty far along the path to a write up on how to run them. Maybe shove that in an appendix.
+
+
+Theory: post-mortems make risks visible. They are early-warning signs.
+
+How much advice do I give on actually running post-mortems?
+
+Where did we get lucky?
+
+Examples:
+
+ - Site fell over because a change to auth locked all users out
+
+   Risk = hard to safely change auth code, poor testing, monitoring
+
+ - System locked up under load
+
+ - Customer deleted a bunch of data
+
+ - Team deleted a bunch of data
