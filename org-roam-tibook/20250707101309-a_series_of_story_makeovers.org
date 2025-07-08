@@ -4,61 +4,62 @@
 #+title: A Series of Story Makeovers
 #+filetags: :Chapter:
 * A Series of Story Makeovers
-** Cutting The Spaghetti In Half
-
-*** The Dry Fact
+** "Cutting a Ball of Spaghetti In Half"
+*** The One-Sentence Win That No One Will Feel In Their Bones
 
 "Team Ultimate Werewolves finished implementing the field catalog interface."
 
-*** A Three-Beat Story (Problem/Struggle/Better World)
+*** The Dry Facts
 
-We've badly struggled with having teams work in parallel on our core product -- but we *need* to be able to have multiple teams going really fast, if we're going to have any chance of hitting our launch target for next year.
+The team that owns the data model for the core application built an API that allows other teams to list all available fields, and obtain methods to read and update data.
 
-My team, the Ultimate Werewolves, spent the last two months carefully reworking some of our hoariest old code, to put in place an API for a "catalog of available data". That API lists, for every available field, endpoints to both read and update the data.
+*** A Three Beat Story (Problem/Struggle/Better World)
 
-As of last Thursday, at four pm, Team Dromedary can now build the new custom report tool purely on top of that catalog API, without directly touching any of the core code. And my team can now do a ton of work under the hood, totally independently of them. Both teams have *already* found their planning going faster, and we think we're just going to pick up speed over the next few months.
+We've badly struggled with having teams work in parallel on our core product -- but we *need* to be able to have multiple teams working in there if we're going to have any chance of hitting our launch target for next year. That kind of parallel development has been basically impossible up to now.
+
+My team, the Ultimate Werewolves, spent the last two months carefully reworking some of our hoariest old code, to put in place an API for a "catalog of available data". That API lists all available fields, along with, for each, new endpoints we're adding to both read and update the data.
+
+As of last Thursday, at four pm, Team Dromedary can now build their awesome new report builder tool *purely on top of that catalog API*. They can do *all* of their work without directly touching any of the core code -- and thus, without talking to or waiting on my team for almost anything. And *my* team can now do a ton of work under the hood, totally independently of the Droms, to add new fields, fix the search indexing, and deal with some performance challenges.
+
+Both teams have *already* found planning going faster and we believe we're going to speed up even more over the next few months.
 
 *** Story Technique Notes
 
- - Within the first sentence, there's a subtle intensifying of the problem, which creates a bit of urgency and suspense: /"we *need* to... if we're going to have any chance of hitting our launch targets"/
+ - The first paragraph steadily makes the problem worse and worse
 
- - Then, in the second paragraph, the effort is described as /"carefully reworking our hoariest old code"/.
+   /We've badly struggled/... /but we *need* to/... /to have any chance of hitting/... /basically impossible/
 
-   The words used (/"badly", /"carefully"/, /"hoariest"/) gives it a bit of the feel of a difficult struggle, which brings the narrative arc to life.
+   It's always good to see if you can find ways to make the problem more and more severe -- even subtly, within a single sentence.
 
-   Putting those two points together, here's how the intro would have read without those techniques.
+ - The second paragraph casts the work as a "meaningful struggle"
 
-   /My team, the Ultimate Werewolves, spent the last two months inserting an API for "catalog of available data", in order to allow teams to work in parallel on our core product./
+   /*spent* two months/... /*carefully* reworking/... /*hoariest* old code/.
 
-   To my ear, that just feels flatter -- I suspect many listeners would think, "Okay, fine, so what?"
+ - The third paragraph brings the listener into a key moment
 
- - In describing the impact of the win, the speaker says /"As of last Thursday at 4 pm, Team Dromedary can now build..."/
+   /*As of last Thursday at 4 pm*, Team Dromedary can now build.../
 
-   That's an example of bringing the listener into a key moment, to make it more immediate.
+ - The conclusion invokes a better world
 
-   A flatter, dryer alternative would be something like:
-
-   /"This new API provides Team Dromedary the tools they need to build the new custom report tool."/
-
-   That isn't /terrible/ (it demonstrates the benefit), but bringing the detail to life makes it more vivid.
-
- - Finally, it wraps up with /"we're going to pick up speed over the next few months."/
-
-   That's a subtle invocation of "creating a better world"
+   /We believe we're going to speed up *even more*/
 
 *** The Value Being Illustrated
 
 Enabling parallel development across multiple teams can be *incredibly* valuable to a business -- and can only enabled by smart, often deeply technical investments.
 
-That said, *please* don't do this *speculatively*. If, before you run into actual problems, you put in place some complex, creative split in your system, you will, essentially 100% of the time, predict the *wrong kind* of parallel decomposition your business will later need. You'll run a very grave risk of making all work harder, and later making the actual parallel decomposition you need *fully impossible*.
+This kind of work is an absolute poster child for forms of value which are, by default, *almost entirely opaque to stakeholders*.
 
-A reasonable shorthand summary is: don't build microservices until you have a successful and extremely frustrating monolith.
+Thus, being able to *tell the story* of that creation of value, as above, can serve you very well. In fact, the wise engineering leader will, a few months later, as new features are rolling out, return to this story and remind everyone that the pace of discovery and development was only made possible by this investment.
 
-All that said, if, as above, you've got an specific product strategy that requires a high pace of learning and discovery across multiple teams working in some deeply tangled up part of your code, finding disciplined ways to restruture that code can create a ton of value.
+All that said, please, please, *please* don't do this kind of work *speculatively*.
 
-Also: this is an absolute poster child for the kind of super valuable work which is, by default, *entirely opaque to stakeholders*.
+Wait until you run into actual problems trying to do actual work across multiple actual teams.
 
-Thus, being able to *tell the story* of that creation of value, as above, can serve you very well.
+If, instead, some engineer decides to insert a "clearly useful" abstraction layer, embodying some creative split in your system, that engineer will, essentially 100% of the time, predict the *wrong kind* of parallel decomposition your business will later need.
+
+You'll run a very grave risk of making all work harder, and making the actual parallel decomposition you need *fully impossible*.
+
+A reasonable shorthand summary is: don't build microservices until you have a successful and *extremely* frustrating monolith.
 
 ** Unspringing the React Promises Bear Trap
 *** The Dry Fact
