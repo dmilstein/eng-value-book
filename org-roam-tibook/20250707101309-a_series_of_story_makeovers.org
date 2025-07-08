@@ -12,7 +12,7 @@
 
 *** What Their Team Actually Did
 
-Their team own the data model for the core application. They built an API that allows other teams to list all available fields, and, for each, obtain methods to read and update data.
+Their team own the data model for the core application. They built an API that allows other teams to list all available fields, and, for each field, obtain methods to read and update the data.
 
 *** A Three Beat Story
 
@@ -64,7 +64,7 @@ You'll run a very grave risk of making all work harder, and making the actual pa
 
 A reasonable shorthand summary is: don't build microservices until you have a successful and somewhat *extremely* frustrating monolith.
 
-** "Unspringing the React Testing Bear Trap"
+** "The React Testing Bear Trap"
 *** What The Engineer Said At Friday Wins
 "We finished restructuring the front-end tests for the builder".
 
@@ -137,22 +137,72 @@ and
 
  b) Speeding the team up in the long term, because the tests will provide valuable feedback, without having to be rewritten nearly as often.
 
-** The Death of CalcNextNode
+** "The Death of CalcNextNode"
 
 # Steal ideas from Anand retiring ShippingCosts.php or whatever it was
 
-*** The Dry Fact
-"We finally replaced CalcNextNode.aspx with a python service."
+*** What The Engineer Said At Friday Wins
+"We replaced CalcNextNode.aspx with a Python service."
+
+*** What Their Team Actually Did
+The Inventory Engineering team rewrote a large ASP script which was used to determine which warehouse to ship an item from. Those shipping decisions are now made by a separate Python service.
 
 *** A Three Beat Story
-Deep in the mists of time, someone asked an engineer to write some code to select which of our two warehouses was cheaper to ship an item from. At the time, we only had only two warehouses! We only sold 100 different items! So the engineer threw together a quick ASP script in an afternoon. This was a perfectly valid choice! But now... we have 27 warehouses. We ship tens of thousands of different items every day. And yet. As of a few months ago, we still had that one poor ASP script figuring out what to ship from where. That ASP script had gotten so encrusted with crazy shipping logic that the engineers were all terrified to touch it. But then, in February, the Ops Product team announced to all of Supply Chain that our big initiative for the year is... just-in-time ship cost optimization. Which runs straight through our old friend, CalcNextNode.aspx.
+Deep in the mists of time, someone asked an engineer to write code to select which of our two warehouses to ship an item from.
 
-So the Inventory Eng Team dug in. First, we spent nearly a full month instrumenting the existing code and wrapping it in every kind of monitoring and logging available. We broke a few things (apologies for the Sev 1's!), but we were finally able to see what it was actually *doing*. We then set up a dual path -- every request to CalcNextNode *also* triggered a request to a new, Python service, and we then logged both responses.
+At the time, we only had only two warehouses(!)
 
-Over time, this let them gradually wear down the logic that was in CalcNextNode.aspx and move more and more of it into a service that we could fully understand, change and scale up as needed.
+We only sold 100 different items(!)
 
-As of last week, we pushed the button to make the last client just point directly to that new service. We're planning on having a ritual decommissioning of CalcNextNode.aspx next week, you're all invited.
+So... the engineer threw together a quick ASP script in an afternoon.
+
+This was a perfectly valid choice. At the time.
+
+But now we have 27 warehouses.
+
+We ship tens of thousands of different items every day.
+
+And yet.
+
+As of January of this year, we still had that one poor ASP script figuring out what to ship from where.
+
+Of course, it's now 3,437 lines long.
+
+It has gotten so encrusted with crazy shipping logic that the engineers were all utterly terrified to touch it.
+
+And then, in March, the Ops Product team announced to all of Supply Chain that our big initiative for next year was going to be... just-in-time ship cost optimization.
+
+Which runs straight through our friend CalcNextNode.aspx.
+
+So the Inventory Eng Team dug in.
+
+First, we spent nearly a full month instrumenting the existing code and wrapping it in every kind of monitoring and logging we could think of. We broke a few things (apologies for the Sev 1's!), but we were finally able to see what it was actually *doing*.
+
+We then set up a dual path -- every request to CalcNextNode *also* triggered a request to a new Python service. We logged the living hell out of everything -- both requests, both responses, timing, metadata, you name it.
+
+Over the next five months, leaning on the information from that dual request set up, we were able to gradually move more and more of the logic from CalcNextNode.aspx into our new service -- which our whole team understands and can safely change.
+
+Once the new system was working in parity, one of the first clients we swapped over was the fulfillment pipeline. The Ops Research team has already started integrating their predictive models into warehouse shipping choices.
+
+We also found and fixed a bunch of weird legacy issues that the ops team has been working around for, literally, years.
+
+Late next week, we're going to push the button to make the last of the legacy clients point directly to that new service.
+
+And then, we're throwing a party to celebrate the ritual decommissioning of CalcNextNode.aspx. You're all invited!
 
 *** Story Technique Notes
 
+ - Again, the first whole section just gradually makes things more and more scary
+
+ - The work to safely change is situated as a series of meaningful struggles
+
+ - A variety of wins are being shared, and it's closing with a celebratory note
+
 *** The Value Being Illustrated
+Being able to rapidly and safely change core business logic can be extremely valuable.
+
+That said if, as in this story, some core logic for your business is in some terrifying, horribly mis-structured ball of mud, you want to be careful in how you approach it.
+
+In general, I think you're best served by having some real clarity about upcoming *strategic* needs for the business -- and use those to both prioritize and guide such work.
+
+Given the scale of such investments, it's really really really good to be able to tell stories like the above, to bring it to life for the team, their PM's and even executive stakeholders.
