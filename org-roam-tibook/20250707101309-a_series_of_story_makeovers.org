@@ -5,15 +5,16 @@
 #+filetags: :Chapter:
 * A Series of Story Makeovers
 ** "Cutting a Ball of Spaghetti In Half"
-*** The One-Sentence Win That No One Will Feel In Their Bones
+*** What The Engineer Said At Friday Wins
+# The One-Sentence Win That No One Will Feel In Their Bones
 
 "Team Ultimate Werewolves finished implementing the field catalog interface."
 
-*** The Dry Facts
+*** What Their Team Actually Did
 
-The team that owns the data model for the core application built an API that allows other teams to list all available fields, and obtain methods to read and update data.
+Their team own the data model for the core application. They built an API that allows other teams to list all available fields, and, for each, obtain methods to read and update data.
 
-*** A Three Beat Story (Problem/Struggle/Better World)
+*** A Three Beat Story
 
 We've badly struggled with having teams work in parallel on our core product -- but we *need* to be able to have multiple teams working in there if we're going to have any chance of hitting our launch target for next year. That kind of parallel development has been basically impossible up to now.
 
@@ -49,78 +50,92 @@ Enabling parallel development across multiple teams can be *incredibly* valuable
 
 This kind of work is an absolute poster child for forms of value which are, by default, *almost entirely opaque to stakeholders*.
 
-Thus, being able to *tell the story* of that creation of value, as above, can serve you very well. In fact, the wise engineering leader will, a few months later, as new features are rolling out, return to this story and remind everyone that the pace of discovery and development was only made possible by this investment.
+Thus, being able to *tell the story* of that creation of value, as above, can serve you very well.
+
+In fact, the wise engineering leader will, a few months later, as new features are rolling out, return to this story and remind everyone that the pace of discovery and development was only made possible by this investment.
 
 All that said, please, please, *please* don't do this kind of work *speculatively*.
 
 Wait until you run into actual problems trying to do actual work across multiple actual teams.
 
-If, instead, some engineer decides to insert a "clearly useful" abstraction layer, embodying some creative split in your system, that engineer will, essentially 100% of the time, predict the *wrong kind* of parallel decomposition your business will later need.
+If some engineer decides to insert a "clearly useful" abstraction layer for no reason other than because it "feels cleaner", that engineer will, essentially 100% of the time, predict the *wrong kind* of parallel decomposition your business will later need.
 
 You'll run a very grave risk of making all work harder, and making the actual parallel decomposition you need *fully impossible*.
 
-A reasonable shorthand summary is: don't build microservices until you have a successful and *extremely* frustrating monolith.
+A reasonable shorthand summary is: don't build microservices until you have a successful and somewhat *extremely* frustrating monolith.
 
-** Unspringing the React Promises Bear Trap
-*** The Dry Fact
+** "Unspringing the React Testing Bear Trap"
+*** What The Engineer Said At Friday Wins
+"We finished restructuring the front-end tests for the builder".
 
-"Jeremiah finished restructuring the front-end tests for the builder".
+*** What Their Team Actually Did
+The lead front-end engineer on the team implemented a new pattern for React components. Among other things, that pattern makes it much easier to test the front-end code.
 
 *** A Three Beat Story
 
-Our front-end tests for the builder were all written as the engineers involved were both learning how to do unit testing *and* how to work with React. Unfortunately, the resulting tests *both* randomly fail due to race conditions and *also* have to be rewritten every time we so much as look at the underlying code. The PM's had started to get really frustrated that every ticket had an extra two days to "fix the tests". One day in planning, Amber asked if we could just stop testing altogether. But dropping testing felt really risky, so the engineers all pushed back. But it didn't feel great.
+Our front-end tests for the builder were all written by engineers who were learning React *and* how to write unit tests... at the same time. Unfortunately, the resulting tests randomly fail a lot and *also* have to be rewritten every time we so much as breathe on the underlying code. The PM's started to get really frustrated that every ticket had an extra two days to "fix tests". One day in planning, our PM, Amber, suggested we should maybe just stop testing altogether. But that felt really risky, so the engineers all pushed back. But it didn't feel great.
 
 So, we peeled Jeremiah away from day-to-day sprint work, and he spent a while going deep to try to understand why the failures were happening, and what we could do to make the tests more stable across code changes. He realized the underlying problem wasn't actually the tests themselves, but more how we were managing state in the builder. He took three weeks to carefully rewrite just the field selection component around a new state management pattern, adding really high quality tests as he went.
 
 He then spent two weeks pair programming with one engineer after another to share the new approach -- *and* he wrote a how-to guide on the wiki on React component architecture and testing.
 
-The team has now built two new components in the new style, and not only have the PM's not complained once about testing, they've actually said that iterating on the UI feels "snappier"! We believe that is in large part because the team has been able to more quickly try out changes to the front-end, thanks to the combo of the better state architecture and having a much better safety net.
+The team has now built two new components in the new style, and not only have the PM's not complained once about testing, they've actually said that iterating on the UI feels "snappier". We believe that is in large part because the team has been able to more quickly try out changes to the front-end, thanks to the combo of the better state architecture and having a much better safety net. Jeremiah is happy to spend time with any teams that want to try out this new pattern.
 
 *** Story Technique Notes
 
- - Notice how each of the first four sentences steadily deepens the problem:
+ - Each of the first four sentences steadily deepens the problem:
 
-   The engineers were learning both tests + React ->
+   /engineers who were learning React *and* how to write unit tests.../
 
-   now the tests both fail and have to be rewritten all the time ->
+   /tests randomly fail a lot and *also* have to be rewritten.../
 
-   the PM's are starting to get frustrated ->
+   /The PM's started to get really frustrated.../
 
-   one PM has now asked to stop testing altogether.
+   /our PM, Amber, suggested we should maybe just stop testing altogether/
 
-   That's the "intensifying the problem" stage in the heroic arc.
-
- - Jeremiah's deep dive has a series of "struggles"
+ - Jeremiah's deep dive is posted as a series of "meaningful struggles"
 
    Within a few setnences, he, tries, fails, learns and then gradually wins.
 
- - Several "moments" are brought to life
+ - Several moments are brought to life
 
-   "Amber asked if we could just stop testing"
+   /*One day in planning*, Amber asked.../
 
-   "Jeremiah realized the underlying problem"
+   /Jeremiah *realized* the underlying problem.../
 
-   "he spent two weeks pair programming",
+   /He *spent two weeks* pair programming.../
 
-   "the PM's said that iterating on the new UI felt 'snappier'".
+   /The *PM's said* that iterating on the new UI felt 'snappier'.../
 
- - The final sentence is a nice summary of a "better world".
+ - The final paragraph shows a "better world"
+
+   In particular, note how the offer for Jeremiah to train other teams is a potential a win for the whole engineering team.
 
 *** The Value Being Illustrated
 
-Many engineers think of the value of tests (if they think of value at all), as "catching bugs".
+Many engineers think of the value of tests (if they think of value at all), as "preventing bugs".
 
-The actual economic value of good tests is *not* primarily to "prevent bugs" but rather to enable *velocity*,
+I don't believe that's correct.
+
+The economic value of good tests is *not* primarily to prevent bugs but rather to enable *velocity*,
 
 Although a missed bug is an acute and prominent cost to the business, there is *far* more economic damage caused by invisible slowdowns because no one knows how to safely change a system, or every change creates a cascade of unplanned, reactive work.
 
-Of course, a team only gets the value of tests enabling velocity...
+Good tests enable the team to quickly experiment and learn, while receiving constant feedback from the tests. That pattern of work allows them to rapidly hone in on valuable solutions.
 
-*...if those tests actually allow the team to move faster.*
+Of course, a team only gets that value...
 
-Having a set of tests which need to be rewritten on every code change are, in many ways, worse than no tests at all.
+*...if their tests actually allow them to move faster.*
 
-So the economic value to improving tests here is a) immediately speeding the team up, because writing tests the first time is faster, and b) speeding the team up in the long term, because the tests won't need to be rewritten nearly as often.
+Having a set of tests which need to be rewritten on every code change is, in many ways, worse than having no tests at all.
+
+So the economic value to improving tests here is:
+
+ a) Immediately speeding the team up, because writing tests the first time is faster.
+
+and
+
+ b) Speeding the team up in the long term, because the tests will provide valuable feedback, without having to be rewritten nearly as often.
 
 ** The Death of CalcNextNode
 
