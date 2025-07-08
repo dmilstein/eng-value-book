@@ -134,7 +134,8 @@ In Understand Valuie in Depth
 CLOSED: [2025-07-07 Mon 17:12]
 ** DONE Draft email to TD
 CLOSED: [2025-07-02 Wed 11:09]
-** TODO Send email to TD                          :curweek:
+** DONE Send email to TD                          :curweek:
+CLOSED: [2025-07-08 Tue 17:18]
 ** DONE Draft post for <2025-06-30 Mon>           :pom:
 CLOSED: [2025-06-29 Sun 13:10]
 ** DONE Post to LinkedIn, ref'ing last 4 posts
@@ -262,7 +263,8 @@ CLOSED: [2025-07-07 Mon 10:26]
 ** TODO Fill in more of outline
 ** TODO Decide if worth keeping as full chapter
 * [[id:3DE23585-34F0-4C88-A16B-4558ACC45C99][Post-Mortems/Viz]]                                :gtasks:
-** TODO Sketch in some bad ideas                  :curweek:pom:
+** DONE Sketch in some bad ideas                  :curweek:pom:
+CLOSED: [2025-07-08 Tue 17:24]
 * [[id:D3158CC2-8A69-4097-B9ED-ED6BD855A7AD][Understand Value In Depth]]                       :gtasks:
 ** DONE Do a spike on footnotes                   :pom:
 CLOSED: [2025-06-05 Thu 08:44]
