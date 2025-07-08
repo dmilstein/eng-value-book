@@ -35,14 +35,15 @@ CLOSED: [2025-06-20 Fri 08:56]
 So that the engineering manager can then pitch her work in that context
 ** DONE Options: maybe break out "decisions you stakeholder is making" into its own section
 CLOSED: [2025-06-28 Sat 09:02]
-** TODO Clean up the SELECT_TAGS/OPTIONS/:export stuff if I don't need it
-** TODO Ask Edmund: reframe as "How To Work With Stakeholders"?
-Like, that's sort of what it's becoming? Is *that* the urgent pain?
-** TODO Ask Dani: what was that podcast? How does she get ideas?
-** TODO Decide: really show everyone's comments? I hate it, start without it
-** TODO Spike is the (Personal) thing fucking up org-roam?
-I should just nuke the non-personal one to clean this up
-** TODO Add: "Yes *obviously* I have an intellectual crush on Kellan"
+** DONE Clean up the SELECT_TAGS/OPTIONS/:export stuff if I don't need it
+CLOSED: [2025-07-02 Wed 11:16]
+** DONE Ask Dani: what was that podcast? How does she get ideas?
+CLOSED: [2025-07-03 Thu 07:28]
+** DONE Decide: really show everyone's comments? I hate it, start without it
+CLOSED: [2025-07-02 Wed 11:16]
+** DONE Maybe: separate chapter for Story Makeovers
+CLOSED: [2025-07-07 Mon 10:26]
+** TODO Did fixing the symlinks magically fix *org-roam* buffer?
 * [[id:BB09F432-DEEB-4129-8F88-D23C86E8CEBB][Build Viz First]]                                 :gtasks:
 ** DONE Jam in some of my ideas from my notes, break out todos :pom:
 CLOSED: [2025-06-07 Sat 09:35]
@@ -116,71 +117,152 @@ CLOSED: [2025-06-29 Sun 16:47]
 CLOSED: [2025-06-21 Sat 11:06]
 ** DONE Terrible first draft
 CLOSED: [2025-06-21 Sat 14:30]
+* [[id:EFA43963-DB19-4EA6-8EF3-4F4376AED1F1][Story Makeovers]]                                  :gtasks:curweek:
+** DONE Rough out one more makeover
+CLOSED: [2025-07-08 Tue 11:44]
+** DONE Review structure of each makeover
+CLOSED: [2025-07-08 Tue 11:24]
+* [[id:E0ADBF07-90B8-4C37-81C0-96A428020F5E][Substack]]                                        :gtasks:
+** DONE Draft next post (maybe Geary's idea)      :curweek:pom:
+CLOSED: [2025-07-07 Mon 17:12]
+E.g. Things engineers think are valuable, when they are/are not.
+
+I like how good examples and good anti-examples of engineering value opportunities are explored in this chapter. The good examples resonated with me - I wrote them down on a sticky note.
+
+In Understand Valuie in Depth
+** DONE Post draft to Substack                    :curweek:
+CLOSED: [2025-07-07 Mon 17:12]
+** DONE Draft email to TD
+CLOSED: [2025-07-02 Wed 11:09]
+** TODO Send email to TD                          :curweek:
+** DONE Draft post for <2025-06-30 Mon>           :pom:
+CLOSED: [2025-06-29 Sun 13:10]
+** DONE Post to LinkedIn, ref'ing last 4 posts
+CLOSED: [2025-06-23 Mon 11:50]
+But primary focus on the most recent one
+** DONE Check w/ EWJ after posts go out           :pom:
+CLOSED: [2025-06-22 Sun 10:11]
+** DONE Review Substack growth tips
+CLOSED: [2025-06-23 Mon 11:51]
+Growth tip: Make your publication sell for you
+** DONE Revise my one-liner
+CLOSED: [2025-06-27 Fri 14:49]
+Signal who the target audience is and why they might subscribe.
+** DONE Improve About page.
+CLOSED: [2025-06-27 Fri 14:59]
+Build credibility by explaining who you are, what you offer, and when you publish.
+
+Link to your Substack in your email signature and social profiles.
+Make it easy for your network to discover your publication.
+** DONE Research tools to schedule posts to LI
+CLOSED: [2025-06-29 Sun 13:10]
+So that I can queue things up and have them just go. Don't stay tied.
+** DONE Finish drafting LinkedIn post
+CLOSED: [2025-06-20 Fri 08:53]
+** DONE Draft 1-2 next posts, prep
+CLOSED: [2025-06-12 Thu 12:42]
+ - Tech Investments definition
+ - Edmund's post on golden cesspool
+** DONE Draft a test post on my substack
+CLOSED: [2025-06-09 Mon 13:11]
+** DONE Send my first post, check if Al got it
+CLOSED: [2025-06-11 Wed 17:06]
+** DONE Understand diff between Substack notes and posts
+CLOSED: [2025-06-12 Thu 11:16]
 * [[id:22898D7F-26DD-4787-939B-B640B3D5BE56][Beta Wave 1]]                                     :gtasks:
-** TODO Add a prompt to sign in
-** DONE Figure out footnotes/toc for HTB          :curweek:pom:
+** DONE Offer Blog + Beta reading to TI in July   :curweek:pom:
+CLOSED: [2025-07-07 Mon 11:46]
+** TODO Thank you to Margaret                     :curweek:
+** TODO Make list of another 10 people            :curweek:
+** TODO Send 10 more invites                      :curweek:
+** TODO Decide: nudge first round at all          :curweek:
+** DONE Add a prompt to sign in
+CLOSED: [2025-07-07 Mon 10:26]
+** DONE Figure out footnotes/toc for HTB          :pom:
 CLOSED: [2025-07-01 Tue 18:32]
-** DONE pandoc: pre-process, extract chapter text :curweek:pom:
+** DONE pandoc: pre-process, extract chapter text :pom:
 CLOSED: [2025-07-01 Tue 18:32]
 So then I can use a single method for all of full book word counts, chapter word counts and HelpThisBook version rendering.
-** DONE Review WUB, add todos                     :curweek:
+** DONE Review WUB, add todos
 CLOSED: [2025-07-01 Tue 09:48]
-** DONE Draft TD Invite                           :curweek:
+** DONE Draft TD Invite
 CLOSED: [2025-07-01 Tue 17:28]
 ** TODO Decide: fix the links, sigh
-** TODO HTB: Get footnotes to number by chapter
+** DONE HTB: Get footnotes to number by chapter
+CLOSED: [2025-07-07 Mon 10:44]
 Or, who cares? I mean, I do, it's gonna drive me a bit crazy.
-** TODO Spike on zipfile upload (fix footnotes)
+** DONE Spike on zipfile upload (fix footnotes)
+CLOSED: [2025-07-07 Mon 10:44]
 Markdown Project.zip
 ├─ chapter 1.md
 ├─ chapter 2.md
-** DONE HTB: try to import ToC                    :curweek:
+** DONE HTB: try to import ToC
 CLOSED: [2025-07-01 Tue 18:37]
 Add --toc to the pandoc?
 Set --toc-depth=2?
-** DONE Decide how many chapters                  :curweek:pom:
+** DONE Decide how many chapters                  :pom:
 CLOSED: [2025-07-01 Tue 09:12]
-** TODO Footnotes are totally borked              :curweek:
-** TODO Send a round of invites out               :curweek:
+** DONE Footnotes are totally borked
+CLOSED: [2025-07-02 Wed 11:35]
+** Send a round of invites out                    :curweek:
 To... someone
-** DONE Load into HTB                             :curweek:
+** DONE Load into HTB
 CLOSED: [2025-07-01 Tue 18:59]
-** DONE Draft "guide for beta readers"            :curweek:
+** DONE Draft "guide for beta readers"
 CLOSED: [2025-07-01 Tue 09:48]
 Steal from WUB
 
-** DONE Dry Run / test with EWJ                   :curweek:
+** DONE Dry Run / test with EWJ
 CLOSED: [2025-07-01 Tue 18:59]
-** DONE Make list of places to send invite        :curweek:
+** DONE Make list of places to send invite
 CLOSED: [2025-07-01 Tue 10:12]
-** DONE Draft beta reading invite                 :curweek:pom:
+** DONE Draft beta reading invite                 :pom:
 CLOSED: [2025-07-01 Tue 10:11]
 Steal from WUB
 
 my "do you want to be a beta reader" invite
 
-** TODO Define call to action/progress
-(e.g. share w/ friend)
-Something that demonstrates they're getting value, not being nice.
 ** DONE Decide: how many readers?
 CLOSED: [2025-07-01 Tue 17:28]
 ** DONE Decide where / how to post invite
 CLOSED: [2025-07-01 Tue 17:28]
-** TODO Start the campaign
-
+** TODO Define call to action/progress
+(e.g. share w/ friend)
+Something that demonstrates they're getting value, not being nice.
 ** TODO Define dumbest, simplest progress-checking habit
 Could easily lose my mind, be careful.
-* [[id:4D62F0DE-2862-45F3-97EE-6AFED5382F2C][Storytelling/Wins ]]                              :gtasks:curweek:
-** TODO Add reference to Kahneman mic drop about stories :curweek:
+* [[id:4D62F0DE-2862-45F3-97EE-6AFED5382F2C][Storytelling/Wins ]]                              :gtasks:
+** TODO Share Storytelling chapter w/ Mike Isman? :curweek:
+** TODO Find videos w/ dots pushing each other up hills
+** TODO Add reference to Kahneman mic drop about stories
+** TODO Revise with up to date story research
+E.g. less heroic narrative, more objective/struggle
+** DONE Write a bunch of Mini Story Makeovers     :pom:
+CLOSED: [2025-07-07 Mon 09:33]
+** DONE Spike: bring the long story to life more
+CLOSED: [2025-07-04 Fri 09:19]
+** DONE Spike: do a tactic at a time, rebuilding story as I go
+CLOSED: [2025-07-04 Fri 09:19]
+** DONE Spike: Show diff lengths of stories
+CLOSED: [2025-07-04 Fri 09:19]
 ** DONE 3 Bad ideas for scenario                  :pom:
 CLOSED: [2025-06-30 Mon 10:00]
 ** DONE Set up the problem, with a story          :pom:
 CLOSED: [2025-06-30 Mon 10:00]
 As part of, define downside of not doing this/upside of doing it well.
-** TODO Write "bad/dry" summary of scenario       :pom:
-** TODO Show how to apply storytelling techniques :pom:
+** DONE Write "bad/dry" summary of scenario       :pom:
+CLOSED: [2025-07-02 Wed 11:08]
+** DONE Show how to apply storytelling techniques :pom:
+CLOSED: [2025-07-05 Sat 09:09]
 ** DONE Find Resonates's Hero's Journey summary
 CLOSED: [2025-07-02 Wed 09:24]
+* [[id:722C702D-A6C2-4A51-AB62-515CE8144AA2][Ladder Commitment]]                               :gtasks:
+** DONE Bit of prep work/layout                   :pom:curweek
+CLOSED: [2025-07-07 Mon 10:26]
+** TODO Fill in more of outline
+** TODO Decide if worth keeping as full chapter
+* [[id:3DE23585-34F0-4C88-A16B-4558ACC45C99][Post-Mortems/Viz]]                                :gtasks:
+** TODO Sketch in some bad ideas                  :curweek:pom:
 * [[id:D3158CC2-8A69-4097-B9ED-ED6BD855A7AD][Understand Value In Depth]]                       :gtasks:
 ** DONE Do a spike on footnotes                   :pom:
 CLOSED: [2025-06-05 Thu 08:44]
@@ -322,7 +404,9 @@ CLOSED: [2025-06-11 Wed 17:06]
 Announce I'm working on a book, will post here sometimes, but please go join my new newsletter/Substack if you're interested for more (and/or might like to be a beta reader for a eection).
 * [[id:49435FCD-0590-44DE-8FC7-585E7BCC8BB2][Tooling]]                                         :gtasks:
 ** TODO Make github repo for TIB, push it up      :curweek:
-** TODO Fix word count to handle 0 days           :curweek:
+** DONE Fix word count to handle 0 days           :curweek:pom:
+CLOSED: [2025-07-08 Tue 11:52]
+** TODO For HTB, Turn 'Parts' into empty chapters?
 ** TODO Spike: word count credit in graph for scraps
 So that I don't have weird incentives to keep bad writing in.
 ** TODO Edmund: hours not words?
@@ -338,44 +422,6 @@ So I can either run full screen or within 80 columns
 ** TODO Look for missing Chapter filetags in scripts
 Because now my wordcount history stuff is sensitive to those being missing.
 ** TODO Create a new chapter template or abbrev?
-* [[id:E0ADBF07-90B8-4C37-81C0-96A428020F5E][Substack]]                                        :gtasks:
-** TODO Draft post for <2025-07-07 Mon>           :curweek:
-** TODO Draft email to TD                         :curweek:
-** TODO Send email to TD                          :curweek:
-** DONE Draft post for <2025-06-30 Mon>           :pom:
-CLOSED: [2025-06-29 Sun 13:10]
-** DONE Post to LinkedIn, ref'ing last 4 posts
-CLOSED: [2025-06-23 Mon 11:50]
-But primary focus on the most recent one
-** DONE Check w/ EWJ after posts go out           :pom:
-CLOSED: [2025-06-22 Sun 10:11]
-** DONE Review Substack growth tips
-CLOSED: [2025-06-23 Mon 11:51]
-Growth tip: Make your publication sell for you
-** DONE Revise my one-liner
-CLOSED: [2025-06-27 Fri 14:49]
-Signal who the target audience is and why they might subscribe.
-** DONE Improve About page.
-CLOSED: [2025-06-27 Fri 14:59]
-Build credibility by explaining who you are, what you offer, and when you publish.
-
-Link to your Substack in your email signature and social profiles.
-Make it easy for your network to discover your publication.
-** DONE Research tools to schedule posts to LI
-CLOSED: [2025-06-29 Sun 13:10]
-So that I can queue things up and have them just go. Don't stay tied.
-** DONE Finish drafting LinkedIn post
-CLOSED: [2025-06-20 Fri 08:53]
-** DONE Draft 1-2 next posts, prep
-CLOSED: [2025-06-12 Thu 12:42]
- - Tech Investments definition
- - Edmund's post on golden cesspool
-** DONE Draft a test post on my substack
-CLOSED: [2025-06-09 Mon 13:11]
-** DONE Send my first post, check if Al got it
-CLOSED: [2025-06-11 Wed 17:06]
-** DONE Understand diff between Substack notes and posts
-CLOSED: [2025-06-12 Thu 11:16]
 * [[id:93FF0A9B-F54E-49D5-8154-640BBAE08D4D][Beta Readers]]                                    :gtasks:
 ** DONE Make plan + tasks for Beta Reading        :pom:
 CLOSED: [2025-06-27 Fri 07:12]
@@ -447,6 +493,12 @@ CLOSED: [2025-06-01 Sun 08:51]
 ** DONE Revise/improve The Ti Cycle
 CLOSED: [2025-06-02 Mon 11:23]
 * Book Misc
+** TODO Lucas's idea re prospective investment opps
+This is very useful -- I like the idea of thinking of about prospective things that aren't about cleaning up a problem but framing a series of potential  increments in the context of where the business is likely trying to go.
+** TODO Check out [[https://tmarstrand.blog/][Troel's Blog]]
+** TODO Ask Edmund: reframe as "How To Work With Stakeholders"?
+Like, that's sort of what it's becoming? Is *that* the urgent pain?
+** TODO Add: "Yes *obviously* I have an intellectual crush on Kellan"
 ** TODO Ping Alla H about using her name?
 * Future Books
 ** TODO The Tech Investment Casebook
