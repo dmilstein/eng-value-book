@@ -23,9 +23,9 @@ Whatever your stakeholder is /saying/...
 
 As in, they don't yet emotionally experience this as "their" win.
 
-Thus, there's a very good chance that their mind is coming up with all sorts of reasons to *stop* working on this "engineering issue" so they can get back to solving business problems.
+Thus, there's a very good chance that their mind is coming up with all sorts of reasons to *stop* working on this "engineering issue" so they can get back to solving "business problems".
 
-Left unaddressed, these feelings and thoughts in your stakeholder's mind will first slow and then completely stall out your ability to move through repeated, iterative cycles of investment.[fn:: "Huh, Dan, I didn't really expect a book on Tech Investments to feature, I dunno, quite so much speculative psychology about stakeholders and their feelings?" Look: you work with humans. And I have just not had any luck whatsoever approximating humans as "beings with no emotions". Feel free to ignore this fact if you'd like to keep having all the most important work get cancelled over your bitter protests!]
+Left unaddressed, these feelings and thoughts in your stakeholder's mind will first slow and then completely stall out your ability to move through repeated, iterative cycles of investment.[fn:: "Huh, Dan, I didn't really expect a book on Tech Investments to feature, I dunno, quite so much speculative psychology about stakeholders and their feelings?" Look: you work with humans. And I have just not had any luck whatsoever approximating humans as "robots with no emotions". Feel free to ignore this fact if you'd like to keep having all the most important work get cancelled over your bitter protests!]
 
 If every single cycle of investment feels like a *concession* -- you're going to really struggle to create significant value for your business.
 
@@ -60,7 +60,7 @@ Let's bring this to life with a story.[fn:: "Wait are we being meta?" Oh goodnes
 ** You Can "Tell Stories" Everywhere
 We're going to illustrate this approach in the context of a "Friday Wins" meeting -- a lightweight end-of-week celebration of wins from each team.
 
-But you can use the structures and tactics of storytelling in a wide variety of contexts -- *not* just when your listeners are "consciously expecting stories", e.g.:
+But you can use the structures and tactics of storytelling in a wide variety of contexts -- *not* just when your listeners are consciously expecting stories, e.g.:
 
  - When you run into your CEO in the office kitchen, and she asks what your team has been doing lately
 
@@ -109,9 +109,9 @@ Let's go through some steps to turn it into a story that listeners will remember
 # How to Craft a Compelling Story
 ** Explain the Obvious
 
-As you prepare to share a win, remember that there are things they'll need *explained*, even though those things *feel* completely obvious.
+As you prepare to share a win, remember that there are things you'll need to *explain*, even though those things *feel* completely obvious.
 
-One of the profound occupational risks of working in software engineering is that, as we dive deep into arcane problems, we lose all track of what civilians do and do not understand about those problems.
+One of the occupational risks of working in software engineering is that, as we dive deep into arcane problems, we lose all track of what civilians do and do not understand about those problems.
 
 For example, Anand cited progress on the "T-Rest" metric, which was part of the "RR" project.
 
@@ -123,7 +123,9 @@ Every morning of those six weeks, the Platform team started their standup by rev
 
 It will take Anand real effort to remember that most people don't even know what RR and T-Rest mean -- they have become fundamental factors of the universe, for him and his entire team.
 
-When you explain concepts, you *don't* have to go into tremdendous detail.
+So he has to work to remember to explain those concepts.
+
+That said, when you explain concepts, you *don't* have to go into tremdendous detail.
 
 All your listeners need is enough context to understand *why* you're talking about this, and how it connects to other things they *do* know about.
 
@@ -133,7 +135,7 @@ I like to call this "opening up" the key concepts or terms, more than just "defi
 
 Anand might open up "RR" as follows::
 
-"The Rapid Restore project had a goal of reducing the time to restore a full database of customer data from a backup. Our engineers depend on being able to restore database backups for everything from routine development work to protecting us from permanently losing critical customer data."
+"The Rapid Restore project had a goal of reducing the time to restore a full database of customer data from a backup. Our engineers depend on being able to restore database backups for everything from routine development work to providing a safety net to ensure we don't lose critical customer data."
 
 That names the project, explains what its goal was in plain language, and then gives a reason why that goal *matters*.
 
@@ -143,7 +145,7 @@ It's well worth developing that kind of concise summary for any concepts you're 
 
 At the start of any story, your listeners will be wondering: "What is this about?" aka "What's in this for me?".
 
-They will likely not be consciously aware that that's what they're thinking, but that's what their mind will be doing.
+They will likely not be consciously aware that that's what they're thinking, but that's what will be happening inside their mind.
 
 Thus, you want to start with something that establishes a *reason to listen*.
 
@@ -187,7 +189,7 @@ Anand might start off:
 
 You can tease with "bad" things, as above, but also with fun or positive ones, too, e.g.
 
-/"I'm going to talk about the Platform Team's Rapid Restore project. Just as a teaser, the final project meeting featured Nia Martin from Customer Success saying, and I quote: 'Please stop! I don't want this to be any faster.' No, really!"/
+/"I'm going to talk about the Platform Team's Rapid Restore project. Just as a teaser, the final project meeting featured Nia Martin from Customer Success saying, and I quote: 'Please stop! I don't want our customers to get something *better* than this.' No, really!"/
 
 ** Use The Heroic Arc For Structure
 
@@ -205,7 +207,7 @@ We'll frame the "heroic arc" as:
 
  - The hero struggles to face the danger
 
- - They discover new strength within themselves, often with the help of a friend or mentor
+ - The hero discovers new strength within themselves, often with the help of a friend or mentor
 
  - The hero overcomes the danger and creates a better world
 
@@ -233,7 +235,9 @@ E.g. Anand could share his win by saying:
 
 Put yourself in the shoes of a senior member of the product team, attending that Friday wins session.
 
-Compared with a dry recitation of an improved metric, this story form is vastly more likely to stay in their mind -- and to feel *meaningful*. To feel connected with ultimate business goals and value.
+Compared with a dry recitation of an improved metric, this story form is vastly more likely to stay in their mind -- and to feel *meaningful*.
+
+To feel connected with ultimate business goals and value.
 
 If the VP of Engineering was to, the following week, suggest that the Platform Team start a new initiative, that senior member of the product team will *feel* like the Platform Team has been "doing valuable work".
 
@@ -293,7 +297,7 @@ Finding moments to cite specific people story can make the story feel more full.
 
 E.g. in the concise form above, Anand named "Erika" as the person who finally came up with the key idea.  Something as simple as naming a person helps shift from "generic" recitation of past events, to something that feels more alive, because some specific person is subtly playing the role of helper.
 
-In telling stories to stakeholders, one *very* useful way to apply this tactic is to cite help from people outside of engineering.
+In telling stories to stakeholders, one *very* useful way to apply this tactic is to cite help from people *outside of engineering*.
 
 That makes it *feel* like the work is more than "just an engineering issue", and also gives you ways to naturally show the customer or business impacts of the work.
 
@@ -321,7 +325,7 @@ If speaking to Engineering or Company All Hands, Anand might spend some time at 
 
 /We started calling it: we care about the *verb* not the *noun*./
 
-/Golden Docker Images aren't valuable. Being able to *quickly set up* dev or test environments is valuable./
+/Golden Docker Images aren't valuable. Being able to *reliably set up* dev or test environments is valuable./
 
 /Quarterly AWS spend reports aren't valuable. Being able to *decide* if and how we might want to reduce spend is valuable. That's the verb./
 
@@ -342,35 +346,54 @@ But one particularly valuable one is "presenting to groups".
 
 And that means speaking in public.
 
+Which, by all accounts, is something that triggers anxiety in the vast majority of people.
+
+But it's a super super valuable skill to build up.
+
 I'll just share a couple of notes for improving your speaking in public:
 
- - Prepare and Practice
+ - *Prepare and Practice*
 
-   Specifically, practice in front of  someone who will give you feedback. Do this early enough that you have time to apply that feedback. E.g. if you're presenting on Friday morning, do a dry run on Tuesday afternoon with a friend.
+   Specifically, practice in front of someone *who will give you feedback*.
 
- - Finish Your Points / Enjoy Your Pauses
+   Do this early enough that you have time to apply that feedback.
 
-   I've coached dozens and dozens of people on presenting. I've given every single one of the same note -- which is to slow down. When people are at all nervous, their brain goes haywire, and tells them to speed up.
+   E.g. if you're presenting on Friday morning, do a dry run on Tuesday afternoon with a friend.
 
-   Sometimes that literally means talking fast.
+ - *Finish Your Points / Enjoy Your Pauses*
 
-   More often, it means taking no pauses between points, barely exhaling before rushing to the next thing.
+   I've coached dozens and dozens of people on presenting. I've given *every single one* the same note -- which is to slow down.
 
-   Your listeners will find this exhausting.
+   When people are at all nervous, their brain goes haywire, and tells them to speed up.
 
-   The most effective way to get yourself out of this mode is to find a way to put focus on "finishing your points" and *enjoying* your pauses.
+   Often thatt means taking no pauses between points, barely exhaling before rushing to the next thing.
 
-   Break what you have to say up into a large set of fairly small points. As you speak, just purely aim for the "end" of the next point, really let yourself hit that moment and finish the point. Then enjoy a little break before you start the next.
+   Listeners find this a bit exhausting, because their brain is looking out for signals that each little section "ended", and not getting those signals.
+
+   The most effective way to get yourself out of this mode is to find a way to put focus on *finishing your points* and *enjoying your pauses*.
+
+   Break what you have to say up into a large set of fairly small points.
+
+   As you speak, just purely aim for the "end" of the next point, really let yourself hit that moment and finish the point.
+
+   Then enjoy a little break before you start the next.
 
    When you first do this, it will feel absurdly broken up -- but ask the person you're practicing in front of how it felt. Nine times out of then they'll say "That was great, I could really stay with you".
 
- - If You Feel Like You're Going Slow, Slow Down
+ - *If You Feel Like You're Going Slow, Slow Down*
 
-   If, during a presentation, it feels like it's slow, that is your brain panicking. It's not actually going slow -- it's your brain worrying that it's not *interesting*.
+   If, during a presentation, it feels like it's slow, that is actually your brain panicking.
 
-   Paradoxically, the best way to address this is to force yourself to slow down -- and find a way to be genuinely interested in what you're saying.
+   Specifically, your brain is worrying that what you're saying is not *interesting*. And so it feels like you should hurry through it.
 
-   A brilliant performer once told me "We are interesting onstage if we are interested in something". I have found that to be very useful guidance for sharing presentations.
+   Paradoxically, the best way to address this is to force yourself to slow down and find a way to be *genuinely interested* in what you're saying.
+
+   A brilliant performer once told me "We are interesting onstage if we are interested in something". I have found that to be very useful guidance for presenting to groups.
+
+
+ - *Get Your Reps In*
+
+   Speaking in public is on of those things just gets better from doing it more. Grab every chance you have to do it, practice, practice, practice.
 
 
 * Scraps

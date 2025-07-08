@@ -4,6 +4,8 @@
 #+title: A Series of Story Makeovers
 #+filetags: :Chapter:
 * A Series of Story Makeovers
+To bring the idea of turning wins into stories to life, I'm going to map out three separate "wins", and, for each, turn it into a story with three parts: 1) emerging danger, 2) meaningful struggle, 3) achieving a better world.
+
 ** "Cutting a Ball of Spaghetti In Half"
 *** What The Engineer Said At Friday Wins
 
@@ -72,7 +74,7 @@ The lead front-end engineer on the team implemented a new pattern for React comp
 
 *** A Three Beat Story
 
-Our front-end tests for the builder were all written by engineers who were learning React *and* how to write unit tests... at the same time. Unfortunately, the resulting tests randomly fail a lot and *also* have to be rewritten every time we so much as breathe on the underlying code. The PM's started to get really frustrated that every ticket had an extra two days to "fix tests". One day in planning, our PM, Amber, suggested we should maybe just stop testing altogether. But that felt really risky, so the engineers all pushed back. But it didn't feel great.
+Our front-end tests for the builder were all written by engineers who were both learning React *and* how to write unit tests... at the same time. Unfortunately, the resulting tests randomly fail a lot and *also* have to be rewritten every time we so much as breathe on the underlying code. The PM's started to get really frustrated that every ticket had an extra two days to "fix tests". One day in planning, our PM, Amber, suggested we should maybe just stop testing altogether. But that felt really risky, so the engineers all pushed back. But it didn't feel great.
 
 So, we peeled Jeremiah away from day-to-day sprint work, and he spent a while going deep to try to understand why the failures were happening, and what we could do to make the tests more stable across code changes. He realized the underlying problem wasn't actually the tests themselves, but more how we were managing state in the builder. He took three weeks to carefully rewrite just the field selection component around a new state management pattern, adding really high quality tests as he went.
 
@@ -163,7 +165,7 @@ And yet.
 
 As of January of this year, we still had that one poor ASP script figuring out what to ship from where.
 
-Of course, the main method in it now 3,437 lines long.
+Of course, the main method in it is now 3,437 lines long.
 
 The script has gotten so encrusted with crazy shipping logic that the engineers were all utterly terrified to touch it.
 
@@ -175,17 +177,19 @@ So the Inventory Eng Team dug in.
 
 First, we spent nearly a full month instrumenting the existing code and wrapping it in every kind of monitoring and logging we could think of. We broke a few things (apologies for the Sev 1's!), but we were finally able to see what it was actually *doing*.
 
-We then set up a dual path -- every request to CalcNextNode *also* triggered a request to a new Python service. We logged the living hell out of everything -- both requests, both responses, timing, metadata, you name it.
+We then set up a dual path -- every request to CalcNextNode *also* triggered a request to a new Python service. We logged the living hell out of everything -- requests to both ASP and Python, responses from both ASP and Python, timing, metadata, you name it.
 
 Over the next five months, leaning on the information from that dual request set up, we were able to gradually move more and more of the logic from CalcNextNode.aspx into our new service -- which our whole team understands and can safely change.
 
-Once the new system was working, one of the first clients we swapped over was the fulfillment pipeline. Because of that switchover, the Ops Research team has already started integrating their predictive models into warehouse choices.
+Once the new system was largely working, we were able to swap over was the fulfillment pipeline. Because of that switchover, the Ops Research team has already started integrating their predictive models into warehouse selection.
 
 We also found and fixed a bunch of weird legacy issues that the ops team has been working around for, literally, years.
 
-Late next week, we're going to push the button to make the last of the legacy clients point directly to that new service.
+Late next week, we're going to push the button to move the last of the legacy clients to point directly at the new service.
 
-And then, we're throwing a party to celebrate the ritual decommissioning of CalcNextNode.aspx. You're all invited!
+And then we're going to ritually decommission CalcNextNode.aspx, and the barely patchable Windows box it runs on! I get to push the button!
+
+We're going to throw a party, and you're all invited!
 
 *** Story Technique Notes
 
