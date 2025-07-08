@@ -35,5 +35,5 @@ set label sprintf("%s words today", words_today) at graph 0.02, graph 0.95 font 
 set label sprintf(" 7-day avg: %s words/day", avg_7day) at graph 0.02, graph 0.90 font "monospace,12" tc rgb "black"
 set label sprintf("14-day avg: %s words/day", avg_14day) at graph 0.02, graph 0.85 font "monospace,12" tc rgb "black"
 
-# Plot the data from file
-plot "build/word-count-data.txt" using 1:2 with linespoints linewidth 2 title "Word Count"
+# Plot the data from file, skipping zero values
+plot "build/word-count-data.txt" using 1:($2 == 0 ? 1/0 : $2) with linespoints linewidth 2 title "Word Count"
