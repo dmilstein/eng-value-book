@@ -4,6 +4,67 @@
 #+title: Make Your Post-Mortems an Act of Visibility
 #+filetags: :Chapter:
 * Make Your Post-Mortems an Act of Visibility
+** Intro
+
+Ellevation, like any self-respecting software business, had some bits of infrastructure that the team was just continually frustrated by.
+
+Not long after I joined in 2020, it became clear that near the top of that list was the Couchbase cluster.
+
+We were using Couchbase as network-accessible in-memory cache.
+
+There were, I think, two serious problems:
+
+1) the pattern of use by the rest of the application was deeply non-ideal, and
+
+2) we didn't have operational mastery over the clustered version of Couchbase we were running.
+
+These are both real potential value opportunities -- good opportunities for technical investments.
+
+Let's dig into those, starting with the pattern of use.
+
+Ellevation's core product was written in C#/.NET, and ran on Windows (which had served the business quite well).
+
+In the early days, a bunch of code was written to take advantage of some Windows Framework automatic session store thing -- one of those "clever" and "easy to use" frameworks that tries to *hide* all the network calls, and pretend to the local code that cached objects are fully in-memory. And it did that by... serializing binary representations of key C# objects, and then later deserializing them back. Which meant, of course, that it was super dependent on the C# code defining the objects not changing while objects were held in cache.
+
+(ZOMG, I hate that pattern so much, aarggggghhh)
+
+In that cache was, among other things, all the authentication and authorization information for logged-in users -- it was populated as part of login, and then checked on every request path from there on out.
+
+Because of the magic "it's all an in-memory session!" lie, it was pretty hard to understand the ins and outs of how that key data got written or read. And even harder to safely change it.
+
+Let's call that problem one.
+
+The second problem was a lack of operational mastery.
+
+Couchbase was a finicky thing to get working across multiple nodes, there were lots of weird configutation options for how clients talked to the cluster, and various combinations of nodes and/or clients restarting had plenty of opportunities for various things to get good and thoroughly wedged. We didn't have great visibility into operations, we didn't have a good ability to upgrade either the cluster or the client libraries.
+
+If you were to ask any of the CloudOps team, or any of the staff engineers if it would have been valuable for Ellevation to replace Couchbase as our cache, they would have first said "Absolutely", but would have immediately followed by saying "But there's no way we can do that." By which they meant: there's no way the business is going to sign up for the amount of work involved.
+
+What would Bertha, our economically rational investor, think?
+
+We could say to her:
+
+"The combination of the pattern of use along with the operational challenges makes it incredibly hard to safely change anything related to auth. Thus, if we want to add new forms of auth, to either meet new security concerns, or to break parts of our app into services that share tokens in new ways, it will be very hard, or even impossible to do so."
+
+She might well ask: "Do you expect to need to do either of those things, over the next few years?"
+
+To which we would have said: "Actually, yes. Enterprise customers are wanting fuller Single Sign On connections + a set of security improvements that run right through auth. Plus we need to move some work to async processing, which is very hard right now, since all the request paths assume they'll get a user token."
+
+So she'd say: it sounds like that might be a worthwhile investment, even if sizeable.
+
+The only problem: our CEO was not Bertha.
+
+To be clear, Ellevation's CEO and Ellevation's Head of Product were both extraordinarily willing to listen to engineering. But they were both also trying very hard to achieve a bunch of product wins, in order for the business to keep growing.
+
+And there plenty of other problematic areas.
+
+And this was not a problem which was natively visible.
+
+How can you make this kind of ugliness and operational toil more visible?
+
+** Risk And Visibility
+
+One way to understand it is that the software had a lot of downside risk.
 * Scraps/Thinking
 Tell the story? Link to my videos/talks?
 
@@ -58,7 +119,6 @@ Stop thinking about post-mortems as "for engineering" and think about an *output
 And then some tactics for that.
 
 * Possible Arc
-
 ** Story of value opportunity which is opaque
 
 Maybe, specifically, Couchbase @ Ellevation?
@@ -68,7 +128,6 @@ Hold back the repeated failures, just talk about the nervousness.
 Maybe even misdirect slightly -- the way the keys was used was weird, there were strange bits tied directly into magic sessions, etc.
 
 But, like, deeply tied into auth{n,z}, all kinds of stuff.
-
 ** Hard to motivate investment -- scary to change.
 
 ** Maybe: bridge to, this is a common problem w/ tech investments
