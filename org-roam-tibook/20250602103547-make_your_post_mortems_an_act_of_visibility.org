@@ -29,3 +29,92 @@ Examples:
  - Customer deleted a bunch of data
 
  - Team deleted a bunch of data
+
+** Thinking <2025-07-09 Wed>
+I think *don't* explain how to run a good post-mortem (maybe throw in an appendix)
+
+*Do* explain what the *outcome* of a good post-mortem is.
+
+And the point of this chapter is how to *use* that outcome effectively.
+
+Tell the story of Roberto + Vahe?
+
+Repeated failures of Couchbase at Ellevation
+
+HubSpot -- the customer happiness crisis.
+
+I can sort of imagine two ways to start:
+
+1- I'm focusing on an incident, and maybe it's the moment of wrapping up the post-mortem.
+
+2- I'm focusing on a risk/concern of engineers, and then talking about how to use post-mortems as a way to make that visible.
+
+I have a bunch in [[id:2EC03879-2A23-4546-BCB8-E9A464665A03][Turn Concerns Into Potential Value]] about this. Almost the germ of this chapter.
+
+What's the core takeaway from that chapter, the thing I want them to do differently?
+
+Stop thinking about post-mortems as "for engineering" and think about an *output* of a post-mortem as "visibility and/or a story engineers can tell stakeholders".
+
+And then some tactics for that.
+
+* Possible Arc
+
+** Story of value opportunity which is opaque
+
+Maybe, specifically, Couchbase @ Ellevation?
+
+Hold back the repeated failures, just talk about the nervousness.
+
+Maybe even misdirect slightly -- the way the keys was used was weird, there were strange bits tied directly into magic sessions, etc.
+
+But, like, deeply tied into auth{n,z}, all kinds of stuff.
+
+** Hard to motivate investment -- scary to change.
+
+** Maybe: bridge to, this is a common problem w/ tech investments
+
+Illustrate with a bunch of other things from my list.
+
+** Making risk both visible and immediate (aka, concrete, non-theoretical)
+Those are subtly different.
+
+** Return to story: Couchbase implicated in lots of outages
+
+** Typical: how complex systems fail
+Many (not all) risks make themselves known through small failures.
+
+** We ran Post-Mortems on outages, and *had product in the room* + took time to write up results
+
+** Thus, eventually, Jeremy, (Ben? Ryan? Kiwis?) moved to ElasticCache
+Motivating the investment wasn't hard - because the risks of downtime were *visible* thanks to the post-mortems serving as an early warning system
+
+** What Post-Mortems Must Output, to Make This Work
+A human-readable summary linking overall customer and business goals to the outage.
+
+You don't have to have everyone read that summary, but you need it.
+
+And you likely want your "nearby" stakeholders to participate -- e.g. Product.
+
+You can think of the *goal* of a post-mortem as two-fold:
+
+  1- Create a picture of a current state of risk
+
+  2- Identify opportunities for improvements, to reduce that risk
+
+The key pitch I'm making is that Goal #1 can and should be used *outside of engineering*. Both so that immediate investments are easier to motivate, but also so that long-term stories of risk can be made clear.
+
+** Running Good Post-Mortems Left as Exercise For Reader
+
+jk, here's a link, here's an appendix.
+
+** Examples of Risks
+
+*** Capacity
+
+*** Stability
+
+*** Deploy Friction
+
+*** Data Inconsistency (e.g. Inventory Variance)
+
+*** Fragile Architectures (e.g. Async Kafka Storm)
