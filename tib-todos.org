@@ -235,7 +235,8 @@ Something that demonstrates they're getting value, not being nice.
 ** TODO Define dumbest, simplest progress-checking habit
 Could easily lose my mind, be careful.
 * [[id:4D62F0DE-2862-45F3-97EE-6AFED5382F2C][Storytelling/Wins ]]                              :gtasks:
-** TODO Share Storytelling chapter w/ Mike Isman? :curweek:
+** DONE Share Storytelling chapter w/ Mike Isman? :curweek:
+CLOSED: [2025-07-09 Wed 11:25]
 ** TODO Find videos w/ dots pushing each other up hills
 ** TODO Add reference to Kahneman mic drop about stories
 ** TODO Revise with up to date story research
@@ -265,7 +266,7 @@ CLOSED: [2025-07-07 Mon 10:26]
 ** TODO Fill in more of outline
 ** TODO Decide if worth keeping as full chapter
 * [[id:3DE23585-34F0-4C88-A16B-4558ACC45C99][Post-Mortems/Viz]]                                :gtasks:
-** TODO Write bad intro/start                     :curweek:
+** TODO Write bad intro/start                     :curweek:pom:
 ** TODO Maybe: tell Berlin story, Roberto/Vahe
 They were stuck going slow, they committed to doing good post-mortems, it transformed their speed and relationship with stakeholders
 ** DONE Sketch in a possible arc                  :curweek:pom:
