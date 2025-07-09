@@ -43,7 +43,8 @@ CLOSED: [2025-07-03 Thu 07:28]
 CLOSED: [2025-07-02 Wed 11:16]
 ** DONE Maybe: separate chapter for Story Makeovers
 CLOSED: [2025-07-07 Mon 10:26]
-** TODO Did fixing the symlinks magically fix *org-roam* buffer?
+** DONE Did fixing the symlinks magically fix *org-roam* buffer?
+CLOSED: [2025-07-08 Tue 19:44]
 * [[id:BB09F432-DEEB-4129-8F88-D23C86E8CEBB][Build Viz First]]                                 :gtasks:
 ** DONE Jam in some of my ideas from my notes, break out todos :pom:
 CLOSED: [2025-06-07 Sat 09:35]
@@ -117,7 +118,7 @@ CLOSED: [2025-06-29 Sun 16:47]
 CLOSED: [2025-06-21 Sat 11:06]
 ** DONE Terrible first draft
 CLOSED: [2025-06-21 Sat 14:30]
-* [[id:EFA43963-DB19-4EA6-8EF3-4F4376AED1F1][Story Makeovers]]                                  :gtasks:curweek:
+* [[id:EFA43963-DB19-4EA6-8EF3-4F4376AED1F1][Story Makeovers]]                                 :gtasks:curweek:
 ** DONE Rough out one more makeover
 CLOSED: [2025-07-08 Tue 11:44]
 ** DONE Review structure of each makeover
@@ -174,6 +175,7 @@ CLOSED: [2025-06-12 Thu 11:16]
 ** DONE Offer Blog + Beta reading to TI in July   :curweek:pom:
 CLOSED: [2025-07-07 Mon 11:46]
 ** TODO Thank you to Margaret                     :curweek:
+** TODO Ask Margaret: apply any ideas
 ** TODO Make list of another 10 people            :curweek:
 ** TODO Send 10 more invites                      :curweek:
 ** TODO Decide: nudge first round at all          :curweek:
@@ -263,6 +265,11 @@ CLOSED: [2025-07-07 Mon 10:26]
 ** TODO Fill in more of outline
 ** TODO Decide if worth keeping as full chapter
 * [[id:3DE23585-34F0-4C88-A16B-4558ACC45C99][Post-Mortems/Viz]]                                :gtasks:
+** TODO Write bad intro/start                     :curweek:
+** TODO Maybe: tell Berlin story, Roberto/Vahe
+They were stuck going slow, they committed to doing good post-mortems, it transformed their speed and relationship with stakeholders
+** DONE Sketch in a possible arc                  :curweek:pom:
+CLOSED: [2025-07-09 Wed 10:51]
 ** DONE Sketch in some bad ideas                  :curweek:pom:
 CLOSED: [2025-07-08 Tue 17:24]
 * [[id:D3158CC2-8A69-4097-B9ED-ED6BD855A7AD][Understand Value In Depth]]                       :gtasks:
@@ -364,23 +371,18 @@ This is not true for technical investments.
 * Structure [[id:B4926308-39DD-471B-8E71-5FFF7546D6E3][(Table of Contents]])                   :gtasks:
 ** TODO Experiment: add exercises to end of each chapter
 Like, now go do these things
-** DONE Spike on ToC reorg - part II = stakeholder mgmt
-CLOSED: [2025-06-16 Mon 09:25]
 ** TODO Maybe: add an entire chapter on Rewrites
-** TODO Add: why technical judgment is important
 ** TODO Add: Major rewrites *must* be done with product
 not as separate tech investments
 ** TODO And, for rewrites, celebrate all the ones I've done:
  - Analytics 2.0
  - Nexus WMS
  - Flagship
-** TODO General note: feature my own failures as learning events
-E.g. things I tried that didn't work, or that I've seen people try and have not work
+** TODO Rename "Rewrites: How To + How *Not* To"?
+** DONE Spike on ToC reorg - part II = stakeholder mgmt
+CLOSED: [2025-06-16 Mon 09:25]
 ** DONE Write out notes on my ideas for reordering :pom:
 CLOSED: [2025-06-07 Sat 09:32]
-** TODO Rename "Rewrites: How To + How *Not* To"
-** TODO For post-mortems, tell story of Berlin, Roberto/Vahe
-They were stuck going slow, they committed to doing good post-mortems, it transformed their speed and relationship with stakeholders
 * [[id:17305FA7-A43F-40C9-9309-0EF3577C70D0][Author Platform]]                                 :gtasks:
 ** TODO Ping Winston re: building platform
 Esp how he uses LI
@@ -495,6 +497,9 @@ CLOSED: [2025-06-01 Sun 08:51]
 ** DONE Revise/improve The Ti Cycle
 CLOSED: [2025-06-02 Mon 11:23]
 * Book Misc
+** TODO General note: feature my own failures as learning events
+E.g. things I tried that didn't work, or that I've seen people try and have not work
+** TODO Add: why technical judgment is important
 ** TODO Lucas's idea re prospective investment opps
 This is very useful -- I like the idea of thinking of about prospective things that aren't about cleaning up a problem but framing a series of potential  increments in the context of where the business is likely trying to go.
 ** TODO Check out [[https://tmarstrand.blog/][Troel's Blog]]
