@@ -1,4 +1,5 @@
 *~
 .aider*
 build/
+tmp/
 .DS_Store
