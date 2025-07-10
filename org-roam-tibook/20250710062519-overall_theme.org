@@ -1,0 +1,62 @@
+:PROPERTIES:
+:ID:       7FFFD506-30B5-46FD-8C23-B2524E94D561
+:END:
+#+title: Overall Theme
+* Email to EWJ <2025-07-10 Thu>
+To: Edmund Jorgensen <ewj@inkwellandoften.com>
+Subject: A Question re: Overall Theme of Book
+E-
+
+tl;dr - I'm wondering if I should reframe the book around a slightly different "problem to solve" for readers, which I might frame as:
+
+"How To Work With Stakeholders"
+
+or
+
+"Build a collaborative relationship with your product or business team"
+
+(Or maybe around some outcome around that?)
+
+Which, of course, *includes* advocating for technical work / reducing tech debt -- but isn't limited to that, and maybe more importantly *doesn't feature that as the central hook*.
+
+I'm not sure this would actually involve *changing* much in the book -- I mean, I could add a section about how to Productively Challenge the Roadmap, and some other bits on planning *with* product... but those are sort of almost there already, in bits I have about milestones, etc.
+
+To a degree, what I'm actually doing in the book is explaining how to build a collaborative relationship w/ product, and doing so in the *context* of tech investments (which is a super important place to build it, to be clear).
+
+Why am I thinking this?
+
+Let's call it three reasons:
+
+ 1- *I did three-ish customer interviews so far, tech debt felt less important to all three people than building effective collabs with stakeholders*
+
+Satoe (formally a "director", but I think functioning as a combined Eng manager + PM of a fairly small team).
+
+Dani Chamberland (formally a "senior eng manager", but I think functioning as a Director)
+
+Wassaf ("VPE" of an about 20 person team)
+
+To be fair, Satoe + Dani have already been fairly deeply exposed to the Dan/Edmund/Craig theories of building software, so they're not fully representative.
+
+But I think the thing I sort of sensed under the surface was that, for eng managers, tech debt is maaaaybe slightly "vitamin-like", whereas, "creating wins for the business" is the full-on pain point.
+
+You and I see the whole point of tech investments as marrying those two -- but are they going to *read the book* if they don't realize it's actually a guide to rebuilding their relationship w/ product to create wins all around?
+
+
+ 2- *I'm not seeing as much engagement from the beta readers as I might hope*
+
+Now, I haven't carefully selected for people who name the problem of tech debt, and I need to give it about another week before I can really say what I've got but, so far, only one person out of my original 4 read it and wrote comments (I just started adding more early this week).
+
+In WUB, he says you should expect around a 25% yield, so that's not crazy. But it's a bit disconcerting, I won't lie.
+
+
+ 3- *The TechDinner comments from Ed + Sunny*
+
+One way to read Ed's response is "Huh, Tech Debt is a tactical thing, is there really that much to say about it?" + who knows the order in which people reply to things, but Sunny's response was to email where I said:
+
+/It's possible that what I'm writing is actually "How to work with stakeholders" more broadly, if that makes sense. There's a ton about building trust, breaking work down to offer meaningful increments, understanding how value is created in a business, etc./
+
+I guess the next question is:
+
+*How could I test this hypothesis? What would give me more information?*
+
+D
