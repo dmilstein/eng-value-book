@@ -266,7 +266,11 @@ CLOSED: [2025-07-07 Mon 10:26]
 ** TODO Fill in more of outline
 ** TODO Decide if worth keeping as full chapter
 * [[id:3DE23585-34F0-4C88-A16B-4558ACC45C99][Post-Mortems/Viz]]                                :gtasks:
-** TODO Write bad intro/start                     :curweek:pom:
+** DONE Write bad intro/start                     :curweek:pom:
+CLOSED: [2025-07-09 Wed 18:02]
+** DONE Write bad next section                    :curweek:pom:
+CLOSED: [2025-07-10 Thu 07:34]
+** TODO Write bad section about risk in general   :curweek:
 ** TODO Maybe: tell Berlin story, Roberto/Vahe
 They were stuck going slow, they committed to doing good post-mortems, it transformed their speed and relationship with stakeholders
 ** DONE Sketch in a possible arc                  :curweek:pom:
@@ -497,15 +501,16 @@ CLOSED: [2025-06-01 Sun 08:51]
 CLOSED: [2025-06-01 Sun 08:51]
 ** DONE Revise/improve The Ti Cycle
 CLOSED: [2025-06-02 Mon 11:23]
-* Book Misc
+* Book Misc                                       :gtasks:
+** DONE Ask Edmund: reframe as "How To Work With Stakeholders"? :pom:curweek:
+CLOSED: [2025-07-10 Thu 06:42]
+Like, that's sort of what it's becoming? Is *that* the urgent pain?
 ** TODO General note: feature my own failures as learning events
 E.g. things I tried that didn't work, or that I've seen people try and have not work
 ** TODO Add: why technical judgment is important
 ** TODO Lucas's idea re prospective investment opps
 This is very useful -- I like the idea of thinking of about prospective things that aren't about cleaning up a problem but framing a series of potential  increments in the context of where the business is likely trying to go.
 ** TODO Check out [[https://tmarstrand.blog/][Troel's Blog]]
-** TODO Ask Edmund: reframe as "How To Work With Stakeholders"?
-Like, that's sort of what it's becoming? Is *that* the urgent pain?
 ** TODO Add: "Yes *obviously* I have an intellectual crush on Kellan"
 ** TODO Ping Alla H about using her name?
 * Future Books
