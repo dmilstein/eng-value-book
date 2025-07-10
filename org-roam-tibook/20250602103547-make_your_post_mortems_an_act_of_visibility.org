@@ -18,7 +18,7 @@ Ellevation was running a clustered install of Couchbase, serving as a network-ac
 
 Why was the team so worried about Couchbase?
 
-Let me count the ways.
+Let me count the (okay, just two) ways.
 
 # Ellevation, like any self-respecting software business, had some bits of infrastructure that the team was just continually frustrated by.
 
@@ -30,13 +30,13 @@ Let me count the ways.
 
 *** 1. Crappy Early 2000's Magic Patterns, Argh
 
-Ellevation's core product was written in C#/.NET.
+Ellevation's core product was written in C#/.NET, which, overall, had served us very well.
 
-In the early days, a bunch of code was written to take advantage of some Windows Framework automatic session store thing -- one of those "transparent" frameworks that tries to hide all the network calls, so the code can just live in the naive belief that key in-memory objects are created when a user first logs in, and then never go away!
+But, in the early days, a bunch of code was written to take advantage of some Windows Framework automatic session store thing -- one of those "transparent" frameworks that tries to hide all the network calls, so the code can just live in the naive belief that key in-memory objects are created when a user first logs in, and then never go away!
 
 # persist across restarts, in the user's "session".
 
-The Windows Framework automatic session store things does this, naturally, by serializing and deserializing binary representations of C# objects.
+The Windows Framework automatic session store things does this, of course, by serializing and deserializing binary representations of C# objects.
 
 ...??!
 
@@ -44,21 +44,21 @@ The Windows Framework automatic session store things does this, naturally, by se
 
 What's that you say, that sounds just enormously likely to blow up due to code versioning issues across both hosts and deployments?
 
-Kind of like building a playground on top of an active minefield?
+Kind of like building an apartment complex on top of an active minefield?
 
 I HAVE NO IDEA WHAT YOU'RE TALKING ABOUT.
 
 (ZOMG, I hate that pattern so much, aarggggghhh)
 
-Now, that Couchbase cache held, among other things, *all* the auth info for logged-in users.
+Now, that Couchbase cache held, among other things, a bank of auth info for logged-in users.
 
-That auth info was populated as part of login -- of course, through the darkest of dark magics, since it was implicitly done through some session-setup steps of the magic Windows Framework.
+That auth info was populated as part of login -- of course, through the darkest of dark magics, since it was implicitly done through some session setup step of the magic Windows Framework.
 
 It was pretty hard to understand the ins and outs of how that key data got written or read.
 
 And even harder to safely change it.
 
-Several engineers had made an effort, at some point a few years back, to replace the magic session with an explicit "bucket" in Couchbase, which was only written to by our own application code, not the magic framework.
+Several engineers had made an effort, at some point a few years back, to replace the magic session with an explicit bucket in Couchbase, which was only written to by our own application code, not the magic framework.
 
 But, as often happens with such efforts, they had only made it partway there -- and now we had two buckets, and a bunch of mysterious writes still happening to the magic bucket from... somewhere.
 
@@ -74,27 +74,25 @@ Couchbase was a finicky thing to get working across multiple nodes.
 
 We didn't have great visibility into what the cluster was doing.
 
-We struggled to upgrade both the cluster and the client libraries.
+We struggled to regularly upgrade both the cluster and the client libraries.
 
 There were lots of weird configuration options for how clients talked to the cluster.
 
-We were in no way sure we had those configuration options even vaguely properly set up.
+Thanks to all of that (or maybe to fundamental truths of Couchbase? I honestly don't know), various restart patterns of client processes and/or Couchbase nodes made it possible for the whole system to get good and thoroughly wedged.
 
-Thanks to that (or maybe to fundamental truths of Couchbase?), various restart patterns of client processes and/or Couchbase nodes made it possible for the whole system to get good and thoroughly wedged.
+If you were to ask any of the CloudOps team who maintained that cluster if it would have been valuable for Ellevation to replace Couchbase as our cache, they would have first said "Absolutely", but would have immediately followed by saying "But there's no way we can do that."
 
-If you were to ask any of the CloudOps team, or any of the staff engineers if it would have been valuable for Ellevation to replace Couchbase as our cache, they would have first said "Absolutely", but would have immediately followed by saying "But there's no way we can do that." By which they meant: there's no way the business is going to sign up for the amount of work involved.
+By which they meant: there's no way the business is going to sign up for the amount of work involved.
 
 *** What Would Bertha Say?
 
-Aka, can we make a case that the combination of changing the cache access pattern  and replacing Couchbase would create economic value for Ellevation?
+Can we make a case that the engineers could have created economic value for Ellevation by some combination of changing the cache access pattern and replacing Couchbase itself?
 
-Enough value to pay off a pretty signficant investment of time.
-
-How might we lay out the potential value, the potential impact on future profits, to Bertha?
+How might we lay out the potential impact on future profits to Bertha, our economically rational investor?
 
 Fundamentally, we'd say that Couchbase was creating a lot of *risk*.
 
-So there's a *probabilistic* drag on future profits, for two reasons:
+And that risk would create a *probabilistic* drag on future profits, for two reasons:
 
 **** Lack of Stability
 
@@ -112,31 +110,34 @@ But in the next year...?
 
 **** Lack of Flexibility
 
-The pattern of use + lack of operational mastery made it very, very hard to safely change a variety of things related to authentication and authorization.
+The pattern of use and lack of operational mastery made it very, very hard to safely change a variety of things related to authentication and authorization.
 
-We could say to her:
+If there were things that we wanted to build for customers, that would have created value for them, but we were *unable to do so*, because of the rigidity of our setup, then we'd be paying a real opportunity cost.
 
-"The combination of the pattern of use along with the operational challenges makes it incredibly hard to safely change anything related to auth. Thus, if we want to add new forms of auth, to either meet new security concerns, or to break parts of our app into services that share tokens in new ways, it will be very hard, or even impossible to do so."
+If we could replace Couchbase with something we could more quickly and safely change, and that unlocked some new creation of value for customers, than the replacement could be a great investment.
 
-She might well ask: "Do you expect to need to do either of those things, over the next few years?"
+**** How Could We Make These Risks Visible?
 
-To which we would have said: "Actually, yes. Enterprise customers are wanting fuller Single Sign On connections + a set of security improvements that run right through auth. Plus we need to move some work to async processing, which is very hard right now, since all the request paths assume they'll get a user token."
+For the flexibility risk, one part of it can be made visible by partnering with product to understand what customers needed.
 
-So she'd say: it sounds like that might be a worthwhile investment, even if sizeable.
+E.g. if there was clear customer demand for things that required changing auth, then that would make the cost of not being able to safely do so visible.
 
-The only problem: our CEO was not Bertha.
+And in fact, there was some such demand (around security improvements, ease of user  management and access, moving some per-user authorized requests to async background jobs, etc).
 
-To be clear, Ellevation's CEO and Ellevation's Head of Product were both extraordinarily willing to listen to engineering. But they were both also trying very hard to achieve a bunch of product wins, in order for the business to keep growing.
+But how could we show that:
 
-And there plenty of other problematic areas.
+ a) Working in the current code was slow and risky?
 
-And this was not a problem which was natively visible.
+ b) The infra setup itself was risky?
 
-How can you make this kind of ugliness and operational toil more visible?
+If this had been a "small" investment, we could have just based a case on adding flexibility around auth.
+
+But, like many important tech investments, this wasn't small.
 
 ** Risk And Visibility
 
 One way to understand it is that the software had a lot of downside risk.
+
 * Scraps/Thinking
 Tell the story? Link to my videos/talks?
 
@@ -189,6 +190,29 @@ What's the core takeaway from that chapter, the thing I want them to do differen
 Stop thinking about post-mortems as "for engineering" and think about an *output* of a post-mortem as "visibility and/or a story engineers can tell stakeholders".
 
 And then some tactics for that.
+
+** Bertha and the Risks
+
+
+We could say to her:
+
+"The combination of the pattern of use along with the operational challenges makes it incredibly hard to safely change anything related to auth. Thus, if we want to add new forms of auth, to either meet new security concerns, or to break parts of our app into services that share tokens in new ways, it will be very hard, or even impossible to do so."
+
+She might well ask: "Do you expect to need to do either of those things, over the next few years?"
+
+To which we would have said: "Actually, yes. Enterprise customers are wanting fuller Single Sign On connections + a set of security improvements that run right through auth. Plus we need to move some work to async processing, which is very hard right now, since all the request paths assume they'll get a user token."
+
+So she'd say: it sounds like that might be a worthwhile investment, even if sizeable.
+
+The only problem: our CEO was not Bertha.
+
+To be clear, Ellevation's CEO and Ellevation's Head of Product were both extraordinarily willing to listen to engineering. But they were both also trying very hard to achieve a bunch of product wins, in order for the business to keep growing.
+
+And there plenty of other problematic areas.
+
+And this was not a problem which was natively visible.
+
+How can you make this kind of ugliness and operational toil more visible?
 
 * Possible Arc
 ** Story of value opportunity which is opaque
