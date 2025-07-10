@@ -6,41 +6,113 @@
 * Make Your Post-Mortems an Act of Visibility
 ** Intro
 
-Ellevation, like any self-respecting software business, had some bits of infrastructure that the team was just continually frustrated by.
+I joined Ellevation Education in 2020. Over my first few years there, various folks on the team did an outstanding job of identifying, advocating for and executing on all kinds of technical investments.
 
-Not long after I joined in 2020, it became clear that near the top of that list was the Couchbase cluster.
+But, like any self-respecting software business, we still had some nasty bits of infrastructure that everyone was pretty nervous about.
 
-We were using Couchbase as network-accessible in-memory cache.
+At the top of the fear list was... Couchbase.
 
-There were, I think, two serious problems:
+Ellevation was running a clustered install of Couchbase, serving as a network-accessible, in-memory cache for our core application.
 
-1) the pattern of use by the rest of the application was deeply non-ideal, and
+# Draconian, crouched like Smaugh atop a pile of gold, except, it was on the dreams and hopes of engineers
 
-2) we didn't have operational mastery over the clustered version of Couchbase we were running.
+Why was the team so worried about Couchbase?
 
-These are both real potential value opportunities -- good opportunities for technical investments.
+Let me count the ways.
 
-Let's dig into those, starting with the pattern of use.
+# Ellevation, like any self-respecting software business, had some bits of infrastructure that the team was just continually frustrated by.
 
-Ellevation's core product was written in C#/.NET, and ran on Windows (which had served the business quite well).
+# Not long after I joined in 2020, it became clear that near the top of that list was the Couchbase cluster.
 
-In the early days, a bunch of code was written to take advantage of some Windows Framework automatic session store thing -- one of those "clever" and "easy to use" frameworks that tries to *hide* all the network calls, and pretend to the local code that cached objects are fully in-memory. And it did that by... serializing binary representations of key C# objects, and then later deserializing them back. Which meant, of course, that it was super dependent on the C# code defining the objects not changing while objects were held in cache.
+# We were using Couchbase as network-accessible in-memory cache.
+
+# These are both real potential value opportunities -- good opportunities for technical investments.
+
+*** 1. Crappy Early 2000's Magic Patterns, Argh
+
+Ellevation's core product was written in C#/.NET.
+
+In the early days, a bunch of code was written to take advantage of some Windows Framework automatic session store thing -- one of those "transparent" frameworks that tries to hide all the network calls, so the code can just live in the naive belief that key in-memory objects are created when a user first logs in, and then never go away!
+
+# persist across restarts, in the user's "session".
+
+The Windows Framework automatic session store things does this, naturally, by serializing and deserializing binary representations of C# objects.
+
+...??!
+
+/me sighs, puts head in hands
+
+What's that you say, that sounds just enormously likely to blow up due to code versioning issues across both hosts and deployments?
+
+Kind of like building a playground on top of an active minefield?
+
+I HAVE NO IDEA WHAT YOU'RE TALKING ABOUT.
 
 (ZOMG, I hate that pattern so much, aarggggghhh)
 
-In that cache was, among other things, all the authentication and authorization information for logged-in users -- it was populated as part of login, and then checked on every request path from there on out.
+Now, that Couchbase cache held, among other things, *all* the auth info for logged-in users.
 
-Because of the magic "it's all an in-memory session!" lie, it was pretty hard to understand the ins and outs of how that key data got written or read. And even harder to safely change it.
+That auth info was populated as part of login -- of course, through the darkest of dark magics, since it was implicitly done through some session-setup steps of the magic Windows Framework.
 
-Let's call that problem one.
+It was pretty hard to understand the ins and outs of how that key data got written or read.
 
-The second problem was a lack of operational mastery.
+And even harder to safely change it.
 
-Couchbase was a finicky thing to get working across multiple nodes, there were lots of weird configutation options for how clients talked to the cluster, and various combinations of nodes and/or clients restarting had plenty of opportunities for various things to get good and thoroughly wedged. We didn't have great visibility into operations, we didn't have a good ability to upgrade either the cluster or the client libraries.
+Several engineers had made an effort, at some point a few years back, to replace the magic session with an explicit "bucket" in Couchbase, which was only written to by our own application code, not the magic framework.
+
+But, as often happens with such efforts, they had only made it partway there -- and now we had two buckets, and a bunch of mysterious writes still happening to the magic bucket from... somewhere.
+
+Any one of Ellevation's senior engineers would have told you two things:
+
+ 1) The way we used Couchbased created a lot of risk
+
+ 2) It wasn't going to be cheap to change it
+
+*** 2. Lack of Operational Mastery
+
+Couchbase was a finicky thing to get working across multiple nodes.
+
+We didn't have great visibility into what the cluster was doing.
+
+We struggled to upgrade both the cluster and the client libraries.
+
+There were lots of weird configuration options for how clients talked to the cluster.
+
+We were in no way sure we had those configuration options even vaguely properly set up.
+
+Thanks to that (or maybe to fundamental truths of Couchbase?), various restart patterns of client processes and/or Couchbase nodes made it possible for the whole system to get good and thoroughly wedged.
 
 If you were to ask any of the CloudOps team, or any of the staff engineers if it would have been valuable for Ellevation to replace Couchbase as our cache, they would have first said "Absolutely", but would have immediately followed by saying "But there's no way we can do that." By which they meant: there's no way the business is going to sign up for the amount of work involved.
 
-What would Bertha, our economically rational investor, think?
+*** What Would Bertha Say?
+
+Aka, can we make a case that the combination of changing the cache access pattern  and replacing Couchbase would create economic value for Ellevation?
+
+Enough value to pay off a pretty signficant investment of time.
+
+How might we lay out the potential value, the potential impact on future profits, to Bertha?
+
+Fundamentally, we'd say that Couchbase was creating a lot of *risk*.
+
+So there's a *probabilistic* drag on future profits, for two reasons:
+
+**** Lack of Stability
+
+if something were to go wrong, and customers couldn't login (or logged-in customers couldn't use the site) for some period of time, that would erode trust.
+
+If that happened enough -- or happened at a particularly bad time--it would impact renewals, and therefore profits.
+
+But of course, that's just a risk.
+
+Yesterday, we didn't have any issues with Couchbase.
+
+It's not super likely we'll have any *today*.
+
+But in the next year...?
+
+**** Lack of Flexibility
+
+The pattern of use + lack of operational mastery made it very, very hard to safely change a variety of things related to authentication and authorization.
 
 We could say to her:
 
