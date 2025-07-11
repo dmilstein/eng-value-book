@@ -6,13 +6,13 @@
 * Make Your Post-Mortems an Act of Visibility
 ** Intro
 
-I joined Ellevation Education in 2020. Over my first few years there, various folks on the team did an outstanding job of identifying, advocating for and executing on all kinds of technical investments.
+I joined Ellevation Education in 2020. Over my first few years there, various folks on the team did an excellent job of identifying, advocating for and executing on all kinds of technical investments.
 
 But, like any self-respecting software business, we still had some nasty bits of infrastructure that everyone was pretty nervous about.
 
 At the top of the fear list was... Couchbase.
 
-Ellevation was running a clustered install of Couchbase, serving as a network-accessible, in-memory cache for our core application.
+Ellevation ran a clustered install of Couchbase, serving as a network-accessible, in-memory cache for our core application.
 
 # Draconian, crouched like Smaugh atop a pile of gold, except, it was on the dreams and hopes of engineers
 
@@ -32,7 +32,7 @@ Let me count the (okay, just two) ways.
 
 Ellevation's core product was written in C#/.NET, which, overall, had served us very well.
 
-But, in the early days, a bunch of code was written to take advantage of some Windows Framework automatic session store thing -- one of those "transparent" frameworks that tries to hide all the network calls, so the code can just live in the naive belief that key in-memory objects are created when a user first logs in, and then never go away!
+But, in the early days, a bunch of code had been written to take advantage of some Windows Framework automatic session store thing -- one of those "transparent" frameworks that tries to hide all the network calls, so the code can just live in the naive belief that key in-memory objects are created when a user first logs in, and then never go away!
 
 # persist across restarts, in the user's "session".
 
@@ -42,9 +42,9 @@ The Windows Framework automatic session store things does this, of course, by se
 
 /me sighs, puts head in hands
 
-What's that you say, that sounds just enormously likely to blow up due to code versioning issues across both hosts and deployments?
+What's that you say, that sounds super fragile, and just enormously likely to blow up due to version skew across both hosts and deployments?
 
-Kind of like building an apartment complex on top of an active minefield?
+Like building an apartment complex on top of an active minefield?
 
 I HAVE NO IDEA WHAT YOU'RE TALKING ABOUT.
 
@@ -58,7 +58,7 @@ It was pretty hard to understand the ins and outs of how that key data got writt
 
 And even harder to safely change it.
 
-Several engineers had made an effort, at some point a few years back, to replace the magic session with an explicit bucket in Couchbase, which was only written to by our own application code, not the magic framework.
+Several engineers had made an effort, at some point a few years back, to replace the magic session with a new bucket in Couchbase, which was only written to by our own application code, not the magic framework.
 
 But, as often happens with such efforts, they had only made it partway there -- and now we had two buckets, and a bunch of mysterious writes still happening to the magic bucket from... somewhere.
 
@@ -67,6 +67,8 @@ Any one of Ellevation's senior engineers would have told you two things:
  1) The way we used Couchbased created a lot of risk
 
  2) It wasn't going to be cheap to change it
+
+But, wait, there's more!
 
 *** 2. Lack of Operational Mastery
 
@@ -84,51 +86,83 @@ If you were to ask any of the CloudOps team who maintained that cluster if it wo
 
 By which they meant: there's no way the business is going to sign up for the amount of work involved.
 
-*** What Would Bertha Say?
+** Risk & Potential Value
 
-Can we make a case that the engineers could have created economic value for Ellevation by some combination of changing the cache access pattern and replacing Couchbase itself?
+Can we make a case that the engineers could have created economic value for Ellevation by some combination of changing the cache access pattern and/or replacing Couchbase itself?
+
+If so, how exactly?
 
 How might we lay out the potential impact on future profits to Bertha, our economically rational investor?
 
-Fundamentally, we'd say that Couchbase was creating a lot of *risk*.
+We'd say to her that Couchbase was creating a lot of *risk* for Ellevation.
 
-And that risk would create a *probabilistic* drag on future profits, for two reasons:
+It wasn't necessarily an active problem, on any given day.
 
-**** Lack of Stability
+But the thing that the engineers were concerned about was the *possibility* of two distinct "bad things" that *might* happen, at some future date:
+
+**** Risk of Downtime
 
 if something were to go wrong, and customers couldn't login (or logged-in customers couldn't use the site) for some period of time, that would erode trust.
 
-If that happened enough -- or happened at a particularly bad time--it would impact renewals, and therefore profits.
+If that happened enough--or happened at a particularly bad time--it would impact renewals, and therefore profits.
 
-But of course, that's just a risk.
+**** Risk of Development Roadblocks
 
-Yesterday, we didn't have any issues with Couchbase.
+Our Product team might discover that customers eagerly wanted--and were willing to pay for--new capabilities that required changes to auth.
 
-It's not super likely we'll have any *today*.
+If that were to happen, our struggle to safely change anything touching Couchbase would have meant paying a significant *opportunity cost*.
 
-But in the next year...?
+In that world, making it easier to make auth changes would increase Bertha's probabilistic estimate of future profits, and therefore create value.
 
-**** Lack of Flexibility
+Of course, the more evidence Betha had that customers really wanted (and would pay for!) capabilities locked up behind Couchbase, the more her estimate would go up, and thus the more value that would be created.
 
-The pattern of use and lack of operational mastery made it very, very hard to safely change a variety of things related to authentication and authorization.
+A Subtle Thing That Feels Important Enough To Pull Out: if Bertha has enough evidence of customer demand *and* enough evidence of genuine roadblocks in the current setup, then easing the path of development would create value... *before any new capabilities were actually developed*.
 
-If there were things that we wanted to build for customers, that would have created value for them, but we were *unable to do so*, because of the rigidity of our setup, then we'd be paying a real opportunity cost.
+Value is *not* only created at the moment of launching new features (or collecting revenue for those features) -- it's created at the moment you improve the probabilistic estimate of the stream of future profits, made by an economically rational investor.
 
-If we could replace Couchbase with something we could more quickly and safely change, and that unlocked some new creation of value for customers, than the replacement could be a great investment.
+Also note that value can be created by making each of the Bad Things merely *less likely* to occur.
 
-**** How Could We Make These Risks Visible?
+We don't have to create a perfect caching system to create meaningful value.
 
-For the flexibility risk, one part of it can be made visible by partnering with product to understand what customers needed.
+**** Making These Risks Visible
 
-E.g. if there was clear customer demand for things that required changing auth, then that would make the cost of not being able to safely do so visible.
+There is a somewhat profound difference in the challenge of making these two risks visible.
 
-And in fact, there was some such demand (around security improvements, ease of user  management and access, moving some per-user authorized requests to async background jobs, etc).
+For the Risk of Development Roadblocks, the path to making the risk visible is pretty clear: go and talk to a bunch of customers.
 
-But how could we show that:
+At Ellevation, the product and sales and success teams did this, and, in fact, found plenty of potential value in adding capabilities that ran through auth (e.g. security/audit improvements, enterprise user management flows, etc).
 
- a) Working in the current code was slow and risky?
+But for the Risk of Downtime, it's a good bit trickier.
 
- b) The infra setup itself was risky?
+It's not like engineers could look at our poorly configured system and give a precise estimate of how likely it would be to take the entire site down just when Broward County, Florida was running their high-stakes annual English Learner FTE process.
+
+Without *some* way to understand the degree of risk, engineers are reduced to just sort of waving their hands and saying "No really, this is bad!"
+
+Which does not help anyone to *make decisions*. Because there are plenty of other things which are *also* bad -- so which one do we pick to work on first? How much effort should we spend in reducing the degree of badness?
+
+This is a super common challenge with tech investment opportunities.
+
+There is some risk of an "occasionally very bad thing" happening -- but that very bad thing doesn't happen often, so:
+
+ a) It feels hard to give a useful estimate of the risk of it happening
+
+ and, as importantly,
+
+ b) It may not have happened "recently", so it's very hard to generate urgency to deal with it now instead of later.
+
+That latter point is key -- if the bad thing is bad enough, it's economically rational to deal with it *now* and not later.
+
+But humans struggle to make decisions that way.
+
+Sure, the whole site *might* fall over, but it didn't fall over yesterday, or the day before, and look, we have customers knocking down our door to fix all these bugs, and the product team has promised the CEO to demo the new feature at the QBR next week, so we'll deal with the downtime risks *later*. I'm sure next week we'll find time?
+
+Of course, if the site *does* fall over, who will be blamed? Yep, the engineers.
+
+And thanks to the delightful magic of Hindsight Bias, everyone will feel like "How could they have possibly ignored that repeated error in the log files? Don't they care about the customer?"
+
+
+
+How could we show that the infra setup itself was risky?
 
 If this had been a "small" investment, we could have just based a case on adding flexibility around auth.
 
