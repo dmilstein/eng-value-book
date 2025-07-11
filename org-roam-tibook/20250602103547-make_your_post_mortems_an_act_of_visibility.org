@@ -6,13 +6,17 @@
 * Make Your Post-Mortems an Act of Visibility
 ** Intro
 
-I joined Ellevation Education in 2020. Over my first few years there, various folks on the team did an excellent job of identifying, advocating for and executing on all kinds of technical investments.
+I joined Ellevation Education in 2020.
+
+Over my first few years there, various folks on the team did an excellent job of identifying, advocating for and executing on all kinds of technical investments.
 
 But, like any self-respecting software business, we still had some nasty bits of infrastructure that everyone was pretty nervous about.
 
 At the top of the fear list was... Couchbase.
 
-Ellevation ran a clustered install of Couchbase, serving as a network-accessible, in-memory cache for our core application.
+Ah, Couchbase.
+
+We ran a clustered install of that key-value store, serving as a network-accessible, in-memory cache for our core application.
 
 # Draconian, crouched like Smaugh atop a pile of gold, except, it was on the dreams and hopes of engineers
 
@@ -20,23 +24,15 @@ Why was the team so worried about Couchbase?
 
 Let me count the (okay, just two) ways.
 
-# Ellevation, like any self-respecting software business, had some bits of infrastructure that the team was just continually frustrated by.
-
-# Not long after I joined in 2020, it became clear that near the top of that list was the Couchbase cluster.
-
-# We were using Couchbase as network-accessible in-memory cache.
-
-# These are both real potential value opportunities -- good opportunities for technical investments.
-
-*** 1. Crappy Early 2000's Magic Patterns, Argh
+*** 1. Early 2000's-Era Magic Patterns, Argh
 
 Ellevation's core product was written in C#/.NET, which, overall, had served us very well.
 
-But, in the early days, a bunch of code had been written to take advantage of some Windows Framework automatic session store thing -- one of those "transparent" frameworks that tries to hide all the network calls, so the code can just live in the naive belief that key in-memory objects are created when a user first logs in, and then never go away!
+But, in the early days, a bunch of code had been written to take advantage of some Windows Framework automatic session store thing -- one of those "transparent" framework features that tries to hide all the network calls, so the code can just live in the delusional belief that important in-memory objects are created when a user first logs in, and then never go away!
 
 # persist across restarts, in the user's "session".
 
-The Windows Framework automatic session store things does this, of course, by serializing and deserializing binary representations of C# objects.
+The magic session store things does this, of course, by serializing and deserializing binary representations of C# objects.
 
 ...??!
 
@@ -50,9 +46,9 @@ I HAVE NO IDEA WHAT YOU'RE TALKING ABOUT.
 
 (ZOMG, I hate that pattern so much, aarggggghhh)
 
-Now, that Couchbase cache held, among other things, a bank of auth info for logged-in users.
+That Couchbase cache held, among other things, a bank of auth info for logged-in users.
 
-That auth info was populated as part of login -- of course, through the darkest of dark magics, since it was implicitly done through some session setup step of the magic Windows Framework.
+That auth info was populated as part of login -- of course, through the darkest of dark magics, since it was implicitly done through some user session setup step of the magic Windows Framework.
 
 It was pretty hard to understand the ins and outs of how that key data got written or read.
 
@@ -88,9 +84,7 @@ By which they meant: there's no way the business is going to sign up for the amo
 
 ** Risk & Potential Value
 
-Can we make a case that the engineers could have created economic value for Ellevation by some combination of changing the cache access pattern and/or replacing Couchbase itself?
-
-If so, how exactly?
+Can we make a case that the engineers could have created economic value for Ellevation by some combination of changing the cache access pattern and/or replacing Couchbase itself? Even if it was expensive to do so.
 
 How might we lay out the potential impact on future profits to Bertha, our economically rational investor?
 
@@ -114,17 +108,19 @@ If that were to happen, our struggle to safely change anything touching Couchbas
 
 In that world, making it easier to make auth changes would increase Bertha's probabilistic estimate of future profits, and therefore create value.
 
-Of course, the more evidence Betha had that customers really wanted (and would pay for!) capabilities locked up behind Couchbase, the more her estimate would go up, and thus the more value that would be created.
+**** Making These Risks Visible
 
-A Subtle Thing That Feels Important Enough To Pull Out: if Bertha has enough evidence of customer demand *and* enough evidence of genuine roadblocks in the current setup, then easing the path of development would create value... *before any new capabilities were actually developed*.
-
-Value is *not* only created at the moment of launching new features (or collecting revenue for those features) -- it's created at the moment you improve the probabilistic estimate of the stream of future profits, made by an economically rational investor.
+The more evidence Betha had for both the likelihood and the degree of badness of these two risks, the more her estimate of future profits would go up from reducing them, and thus the more value that would be created.
 
 Also note that value can be created by making each of the Bad Things merely *less likely* to occur.
 
+# A Subtle Thing That Feels Important Enough To Pull Out: if Bertha has enough evidence then improvements in Couchbase would create value... *before any new capabilities were actually developed*.
+
+# Value is *not* only created at the moment of launching new features (or collecting revenue for those features) -- it's created at the moment you improve the probabilistic estimate of the stream of future profits, made by an economically rational investor.
+
 We don't have to create a perfect caching system to create meaningful value.
 
-**** Making These Risks Visible
+So, how can we create visibiliity into the combination of the likelihood and the impact of these two risks?
 
 There is a somewhat profound difference in the challenge of making these two risks visible.
 
@@ -138,39 +134,68 @@ It's not like engineers could look at our poorly configured system and give a pr
 
 Without *some* way to understand the degree of risk, engineers are reduced to just sort of waving their hands and saying "No really, this is bad!"
 
-Which does not help anyone to *make decisions*. Because there are plenty of other things which are *also* bad -- so which one do we pick to work on first? How much effort should we spend in reducing the degree of badness?
+Which does not help anyone to *make decisions*.
+
+Because there are plenty of other things which are *also* bad -- so which one do we pick to work on first? How much effort should we spend in reducing the degree of badness in one particular area?
 
 This is a super common challenge with tech investment opportunities.
 
-There is some risk of an "occasionally very bad thing" happening -- but that very bad thing doesn't happen often, so:
+The engineers are worried about the risk of an "occasionally very bad thing" happening -- but that very bad thing doesn't happen often, so:
 
- a) It feels hard to give a useful estimate of the risk of it happening
+ a) It feels hard to give a useful estimate of the risk
 
  and, as importantly,
 
- b) It may not have happened "recently", so it's very hard to generate urgency to deal with it now instead of later.
+ b) It likely hasn't happened "recently", so it's very hard to generate urgency to deal with it now instead of later.
 
-That latter point is key -- if the bad thing is bad enough, it's economically rational to deal with it *now* and not later.
+That latter point is really key.
+
+If the *impact* of the bad thing happening is bad enough, it would very much economically rational to deal with it *now* and not later.
 
 But humans struggle to make decisions that way.
 
-Sure, the whole site *might* fall over, but it didn't fall over yesterday, or the day before, and look, we have customers knocking down our door to fix all these bugs, and the product team has promised the CEO to demo the new feature at the QBR next week, so we'll deal with the downtime risks *later*. I'm sure next week we'll find time?
+Sure, the whole site *might* fall over, but it didn't fall over yesterday, or the day before.
+
+And look, we have customers knocking down our door to fix all these bugs, and the product team has promised the CEO to demo the new feature at the QBR next week.
+
+We'll deal with the downtime risks *later*.
+
+I'm sure next month we'll be able to find time.
 
 Of course, if the site *does* fall over, who will be blamed? Yep, the engineers.
 
 And thanks to the delightful magic of Hindsight Bias, everyone will feel like "How could they have possibly ignored that repeated error in the log files? Don't they care about the customer?"
 
+** Incidents As Useful Warning Signs From Reality
+** Section from Map Concerns
+Digging in on the early warning signs will:
 
+ a) Help determine current limits and bottlenecks, and
 
-How could we show that the infra setup itself was risky?
+ b) Serve as an invaluable means of generating commitment from stakeholders
 
-If this had been a "small" investment, we could have just based a case on adding flexibility around auth.
+In some fantasy world, a CEO might find an estimate of a 20% chance of the current DB architecture fully dead-ending to be extremely motivating.
 
-But, like many important tech investments, this wasn't small.
+In said fantasy world, the CEO would find that *more* motivating than the company experiencing a random one-hour outage that pissed off a few current customers.
 
-** Risk And Visibility
+But actual human beings, here on actual planet earth, hear "there's a 20% risk of a Bad Thing occurring" and think "Well, that sounds pretty unlikely" (no matter how Bad that Thing might be).
 
-One way to understand it is that the software had a lot of downside risk.
+Whereas an outage that impacts a living, breathing customer is a vivid, near-moral failing.
+
+Of *course* the CEO is eager to make *some* investment to prevent such problems in the future!
+
+Do you think the CEO doesn't care about the customer/the children??!
+
+The moral framing short circuits people's normal decision making processes.
+
+You're going to want to use this to your advantage, but do so very judiciously.
+
+I strongly recommend *against* using the sort of post-incident shock and moral outrage as a prompt to launch the major replatforming.
+
+That effort is going to take way way longer than anyone can currently imagine, and there's a very real chance it *won't even help*.
+
+Instead, I strongly recommend using the post-mortem findings to motivate investments to improve visibility - which can then makes later economic decisions more straightforward.
+
 
 * Scraps/Thinking
 Tell the story? Link to my videos/talks?

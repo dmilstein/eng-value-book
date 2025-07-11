@@ -318,35 +318,7 @@ One of the best ways I know to *start* is to develop a practice of *running exce
 
 In our story above, this would mean slowing down and taking the time to really learn from both the during-the-day spikes and the transient locking issues.
 
-Digging in on the early warning signs will:
-
- a) Help determine current limits and bottlenecks, and
-
- b) Serve as an invaluable means of generating commitment from stakeholders
-
-In some fantasy world, a CEO might find an estimate of a 20% chance of the current DB architecture fully dead-ending to be extremely motivating.
-
-In said fantasy world, the CEO would find that *more* motivating than the company experiencing a random one-hour outage that pissed off a few current customers.
-
-But actual human beings, here on actual planet earth, hear "there's a 20% risk of a Bad Thing occurring" and think "Well, that sounds pretty unlikely" (no matter how Bad that Thing might be).
-
-Whereas an outage that impacts a living, breathing customer is a vivid, near-moral failing.
-
-Of *course* the CEO is eager to make *some* investment to prevent such problems in the future!
-
-Do you think the CEO doesn't care about the customer/the children??!
-
-The moral framing short circuits people's normal decision making processes.
-
-You're going to want to use this to your advantage, but do so very judiciously.
-
-I strongly recommend *against* using the sort of post-incident shock and moral outrage as a prompt to launch the major replatforming.
-
-That effort is going to take way way longer than anyone can currently imagine, and there's a very real chance it *won't even help*.
-
-Instead, I strongly recommend using the post-mortem findings to motivate investments to improve visibility - which can then makes later economic decisions more straightforward.
-
-In this case, such visibility investments could include:
+And then, as some of your high priority, post-mortem-driven improvements, invest in improving visibility, with such efforts as:
 
  - Instrumenting any key infrastructure that isn't currently well-monitored
 
