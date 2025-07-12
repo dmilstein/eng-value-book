@@ -86,7 +86,7 @@ By which they meant: there's no way the business is going to sign up for the amo
 
 Let's see how we might make a case for the economic value of improving the cache access pattern and/or replacing Couchbase.
 
-How do we lay out the potential impact on future profits to Bertha, our economically rational investor?
+How could we lay out the potential impact on future profits to Bertha, our economically rational investor?
 
 We'd say to her that Couchbase was creating a lot of *risk* for Ellevation.
 
@@ -112,9 +112,9 @@ Which would have meant paying a significant *opportunity cost*.
 
 The more evidence Betha had for either the likelihood or the degree of badness of these Bad Things...
 
-...the more her estimate of future profits would go up from reducing either the likelihood or the degree of badness...
+...the more she'd increase her estimate of future profits if Ellevation were to reduce either the likelihood or the degree of badness.
 
-... and thus the more company value that would be created.
+And thus the more company value that would be created.
 
 # Also note that value can be created by making each of the Bad Things merely *less likely* to occur or *less bad* when it did occur.
 
@@ -124,23 +124,23 @@ The more evidence Betha had for either the likelihood or the degree of badness o
 
 # aka, we don't have to fix everything about the caching system to create value.
 
-So, how can we create visibility into the combination of the likelihood and the impact of these two possible Bad Things?
+So, how can we create visibility into the likelihood and the impact of these two possible Bad Things?
 
-There is a somewhat profound difference between our two Bad Things.
+There is a somewhat profound difference between the two.
 
 # XXX Maybe strip the below down to just the likelihood part?
 
-For the Possible Development Roadblocks, the path to making the likelihood and the impact visible is pretty clear:
+For the Possible Development Roadblocks, the path to creating visibility into the likelihood and the degree of badness is pretty clear:
 
-  a) go and talk to a bunch of customers about the problems they have, and then
+  a) Talk to a bunch of customers about the problems they have, and then
 
-  b) talk to the engineers about how hard it would be to build things that will solve those problems for customers.
+  b) Talk to the engineers about how hard it would be to build things that will solve those problems for customers
 
-At Ellevation, the product and sales and success teams did talk to customers, and, in fact, found plenty of potential value in adding capabilities that ran through auth (e.g. security/audit improvements, enterprise user management flows, etc).
+# At Ellevation, the product and sales and success teams did talk to customers, and, in fact, found plenty of potential value in adding capabilities that ran through auth (e.g. security/audit improvements, enterprise user management flows, etc).
 
-And the engineers could give some useful information about the challenges of working around Couchbase.
+# And the engineers could give some useful information about the challenges of working around Couchbase.
 
-But for the Potential Downtime, it was a good bit trickier.
+But for the Potential Downtime, it's a good bit trickier.
 
 It's not like engineers could look at our poorly configured system and give a precise estimate of how likely it would be to take the entire site down just when Broward County, Florida was running their high-stakes annual English Learner FTE process.
 
@@ -148,7 +148,11 @@ Without *some* way to understand the degree of risk, engineers are reduced to ju
 
 Which does not help anyone to make decisions.
 
-Because there are plenty of other things which are *also* bad -- so which one do we pick to work on first? How much effort should we spend in reducing the degree of badness in one particular area?
+Because, of course, there are plenty of other things that are *also* bad.
+
+So which one do we pick to work on first?
+
+How much effort should we spend in reducing the degree of badness in one particular area?
 
 This is a super common challenge with tech investment opportunities.
 
@@ -160,11 +164,11 @@ In such cases:
 
  and, as importantly,
 
- b) The Full-On Version of The Bad Thing likely hasn't happened "recently"... so it's very hard to create urgency to make any investments now instead of later.
+ b) The full version of The Bad Thing likely hasn't happened "recently"... so it can be hard to create urgency to make investments *now*.
 
 That latter point is really key.
 
-If the *impact* (aka, Degree of Badness) of the bad thing happening is bad enough, it could very much be economically rational to decide to make some investments now, even if the *likelihood* is pretty low.
+If the *impact* (aka, Degree of Badness) of the bad thing happening is bad enough, it could very much be *economically rational* to decide to make some investments now, even if the *likelihood* is pretty low.
 
 But humans deeply struggle with such decisions.
 
@@ -174,7 +178,9 @@ but it didn't fall over yesterday.
 
 Nor the day before.
 
-And look, we have customers knocking down our door to fix all these bugs, and the product team has promised the CEO to demo the new feature at the QBR next week (and several PM's are feeling nervous about their next performance review, so they really want to nail that demo, etc, etc.).
+Nor any time in the last week!
+
+And look, customers are just knocking down our door to fix all these bugs, and the product team has promised the CEO to demo the new feature at the QBR next week (and several PM's are feeling nervous about their next performance review, so they really want to nail that demo, etc, etc.).
 
 And so the decision to invest in reducing the low-likelihood/high-impact risks gets put off... sometimes, forever.[fn:: Pop Quiz: if the site *does* later fall over, who will be blamed? Ding! Correct! The engineers. And thanks to the delightful magic of Hindsight Bias, someone might even say something like "How could you have possibly ignored that repeated error in the log files? Don't you care about the customer?"]
 
@@ -194,25 +200,26 @@ So we had a clear record of the pattern of Couchbase-caused instability.
 
 From a certain perspective, you could understand the *goal* of a post-mortem as two-fold:
 
-  1- Update your understanding of some key risks, by extracting as much information as possible from an incident
+  1- Update your understanding of key risks, by extracting as much information as possible from an incident
 
   2- Based on that information, identify opportunities to reduce those risks
 
 
 ** Stakeholder Motivation
+
 Digging in on the early warning signs will:
 
  a) Help determine current limits and bottlenecks, and
 
  b) Serve as an invaluable means of generating commitment from stakeholders
 
-In some fantasy world, a CEO might find an estimate of a 20% chance of the current DB architecture fully dead-ending to be extremely motivating.
+In some fantasy world, a CEO might find an estimate of a 5% chance of the site having a full day of downtime at a particularly bad time during renewal season extremely motivating.
 
-In said fantasy world, the CEO would find that *more* motivating than the company experiencing a random one-hour outage that pissed off a few current customers.
+In said fantasy world, the CEO would find that *more* motivating than the company experiencing a random 20 minute outage that irritated a few current customers.
 
-But actual human beings, here on actual planet earth, hear "there's a 20% risk of a Bad Thing occurring" and think "Well, that sounds pretty unlikely" (no matter how Bad that Thing might be).
+But actual human beings, here on actual planet earth, hear "there's a 5% risk of a Bad Thing occurring" and think "Well, that sounds pretty unlikely" (no matter how Bad that Thing might be).
 
-Whereas an outage that impacts a living, breathing customer is a vivid, near-moral failing.
+Whereas an outage that impacts a living, breathing customer is a vivid, near-moral failing -- even it was only for 20 minutes.
 
 Of *course* the CEO is eager to make *some* investment to prevent such problems in the future!
 
@@ -222,13 +229,15 @@ The moral framing short circuits people's normal decision making processes.
 
 You're going to want to use this to your advantage, but do so very judiciously.
 
-I strongly recommend *against* using the sort of post-incident shock and moral outrage as a prompt to launch the major replatforming.
+I strongly recommend *against* using the sort of post-incident shock and moral outrage as a prompt to launch the major replatforming that some engineers on your team have been campaigning for.
 
 That effort is going to take way way longer than anyone can currently imagine, and there's a very real chance it *won't even help*.
 
 Instead, I strongly recommend using the post-mortem findings to motivate investments to improve visibility - which can then makes later economic decisions more straightforward.
+
 ** Create Incidents To Create Visibility
-E.g. Berlin story, or if things are painful, do them more often, game days, etc.
+
+E.g. Berlin story, or if things are painful, do them more often, game days, pinch tests, etc.
 
 # Create Incidents For Fun and Profit
 
