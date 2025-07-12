@@ -3,6 +3,7 @@ Experimenting. Can I have a list of todos, outside of org-roam, but, when I'm in
 Yes, I can, apparently.
 
 * TIB Inbox                                       :inbox:
+** TODO Testing
 ** DONE For Understand Value, find a place early to focus briefly on profits
 CLOSED: [2025-06-09 Mon 13:02]
 E.g. when talking about revenue as the thing everyone thinks os.
@@ -174,11 +175,11 @@ CLOSED: [2025-06-12 Thu 11:16]
 * [[id:22898D7F-26DD-4787-939B-B640B3D5BE56][Beta Wave 1]]                                     :gtasks:
 ** DONE Offer Blog + Beta reading to TI in July   :curweek:pom:
 CLOSED: [2025-07-07 Mon 11:46]
-** TODO Thank you to Margaret                     :curweek:
+** TODO Thank you to Margaret (ask collab w/ product) :curweek:pom:
 ** TODO Ask Margaret: apply any ideas
-** TODO Make list of another 10 people            :curweek:
-** TODO Send 10 more invites                      :curweek:
-** TODO Decide: nudge first round at all          :curweek:
+** TODO Make list of another 10 people
+** TODO Send 10 more invites
+** TODO Draft nudge to first round (re collab w/ product) :curweek:pom:
 ** DONE Add a prompt to sign in
 CLOSED: [2025-07-07 Mon 10:26]
 ** DONE Figure out footnotes/toc for HTB          :pom:
@@ -270,7 +271,13 @@ CLOSED: [2025-07-07 Mon 10:26]
 CLOSED: [2025-07-09 Wed 18:02]
 ** DONE Write bad next section                    :curweek:pom:
 CLOSED: [2025-07-10 Thu 07:34]
-** TODO Write bad section about risk in general   :curweek:
+** DONE Spike: splice from Convert Concerns       :curweek:
+CLOSED: [2025-07-11 Fri 10:55]
+** DONE Write bad section about risk in general   :curweek:pom:
+CLOSED: [2025-07-11 Fri 10:58]
+** TODO Review Incidents as Warning Signs         :curweek:
+** TODO Revise Post-Mortems/Stakeholders          :curweek:
+** TODO First draft: Create Incidents             :curweek:
 ** TODO Maybe: tell Berlin story, Roberto/Vahe
 They were stuck going slow, they committed to doing good post-mortems, it transformed their speed and relationship with stakeholders
 ** DONE Sketch in a possible arc                  :curweek:pom:
@@ -412,7 +419,7 @@ CLOSED: [2025-06-11 Wed 17:06]
 CLOSED: [2025-06-11 Wed 17:06]
 Announce I'm working on a book, will post here sometimes, but please go join my new newsletter/Substack if you're interested for more (and/or might like to be a beta reader for a eection).
 * [[id:49435FCD-0590-44DE-8FC7-585E7BCC8BB2][Tooling]]                                         :gtasks:
-** TODO Make github repo for TIB, push it up      :curweek:
+** TODO Make github repo for TIB, push it up      :curweek:pom:
 ** DONE Fix word count to handle 0 days           :curweek:pom:
 CLOSED: [2025-07-08 Tue 11:52]
 ** TODO For HTB, Turn 'Parts' into empty chapters?
