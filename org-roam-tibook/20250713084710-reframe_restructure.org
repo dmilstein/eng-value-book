@@ -1,0 +1,77 @@
+:PROPERTIES:
+:ID:       42FF29AB-A3A1-4307-85E5-69C08C7D4DB4
+:END:
+#+title: Reframe/Restructure
+Reframing the book around the deeper problem that engineering leaders are struggling with, which is something like:
+
+ - Create Wins for the Business
+ - Create Value
+ - Something
+ - Working Effectively w/ Product
+
+* Snippets on Theme
+
+E.g. building trust, breaking work down to offer meaningful increments, understanding how value is created in a business, advocating for either specific approaches or specific technical investments, pushing back without creating bad will
+
+* Email Thread w/ EWJ
+
+** Edmund's Summary
+So, I've been noodling on this for the last couple days, and the part that resonates most with me is the vitamin-vs.-painkiller framing for tech debt.  Trying to put myself back into the early-to-mid-manager times of my life, what I remember is feeling, like, some guilt around tech debt, and some vague anger that my business partners didn't "get it."  But I remember feeling full-on desperation, which almost led to my quitting the industry, because it seemed like my stakeholders were asking for crazy shit / were focused on completely arbitrary deadlines / clearly didn't trust me, and I didn't trust them, because half the shit we worked on never launched, and half of what remained no one used.
+
+So, you can throw that small evidence on the modest but growing pile that you have.
+
+My guess for how to best disentangle this would be:
+
+Find 5-10 people who don't know you that well / at all, and are your target audience, exploiting your connections (I can easily think of 3 or 4 I could intro to you from some combo of BookBub and Medium, and would be happy to do so)
+Show them two titles and descriptions, one each for the tech-debt vs. stakeholder framing (after doing some work tweaking the stakeholder framing a bit) and ask them which book they'd rather read and why.  Ask follow-ups.  Probably take 10 to 15 minutes per interview.
+Count.
+
+** Msg 1
+I like this as an experiment into visibility -- I feel like the evidence is definitely growing. To wit, some of the people who have the most lit up about the "Tech Debt" framing are IC's, because they're trying to convince their managers to listen to them. But they shouldn't be the main target of the book.
+
+Also, I suspect part of why the Engineering & Value post got such traction is that it does speak to that underlying concern of "What are we even working on and why?" instead of "How can I convince my product peer to clean up our legacy code" (you and I see Tech Investments as much more than that, but again, the hook has to speak to pain).
+
+I've started mulling on how to frame it to focus in on the "Build Better Partnerships" -- I think I could also call in favors with like Satoe + various other younger-than-us managers and just do a Mom Test style interview about what they actually spent time trying to learn about, in the last year.
+
+Engineering Value: Build Better Partnership To Build Awesome Things
+The Pursuit of Value: How Engineers Can Build Better Partnership To Build Awesome Things
+
+If I do go down this road, the good news is that I suspect I can reuse almost everything I've written, and just restructure it (and add more).
+
+E.g. open w/ a combo of how value works + building tactical empathy + using that to extract some semblance of strategy.
+
+And then, later have a whole real part with multiple chapters, titled something like:
+
+Tech Debt, Tech Investments & Tech Stewardship
+Doing The Work That No One Is Asking For
+
+(The Ellevation Eng Principles were Ownership, Leadership, Tech Stewardship, and this would end up going deep on 1 & 3, in a very good way, esp since I think 2 is reasonably  well covered by the slew of eng management books out there).
+
+Also also, this is, like, time 1000 where launching painfully early teaches me something that I wasn't expecting to learn, which is why you should always do it, even though it's uncomfortable to launch and uncomfortable to learn, EVERY TIME.
+
+** Msg 2
+
+What if, instead of showing them titles, I was asking for an intro + a brief convo, with something like the below framing coming from you.
+
+That actually gets me into some very valuable coaching/learning convos and gains info about how people think about their "Biggest Problem".
+
+D
+
+"My friend Dan is trying to learn more about the challenges engineering managers face across a variety of organizations.
+
+Dan is an experienced and very strong eng leader (and he has coached a ton of managers) -- he's wanting now to talk to some folks he hasn't worked directly with.
+
+He's looking to dig into one of the below two topics.
+
+If you might find it valuable to talk out one of those two challenges, could I ask you a) to let me know which one, and b) if it'd be okay for me to email intro you to Dan?
+
+The two challenges are:
+
+ a) Working effectively with product/stakeholders
+
+E.g. building trust, breaking work down to offer meaningful increments, understanding how value is created in a business, advocating for either specific approaches or specific technical investments, pushing back without creating bad will etc.
+
+
+ b) Making time for important engineering work
+
+E.g. investing in speeding up deploys, improving operational resilience (monitoring, backup/restore, capacity planning), clearing up tech debt, etc.
