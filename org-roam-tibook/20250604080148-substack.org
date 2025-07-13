@@ -751,3 +751,24 @@ So, now, we're ready for Part II, where we're going to *build a model!*
 
 # What's That You Say, You Want a Brief Detour Into Finance?
 # Finance Is An Equation Built On Top of a Dream [Fantasy]
+
+** Engineering & The Creation of Value, Part II
+Subtitle: Owning a Company Seems Like a Pain, Why Bother
+
+/See <link to Part I>/
+
+I believe that software engineers should stop talking about Technical Debt.
+
+I believe they should instead, advocate for *Technical Investments*, which are defined as:
+
+/Work that the engineers believe is *valuable to their business*.../
+
+/...but that *no one is asking for*./
+
+(see: [[https://buildingandlearning.substack.com/p/tech-investments-not-tech-debt][Tech Investments, Not Tech Debt]]).
+
+And an absolutely central question is:
+
+*"What is valuable to a business?"*
+
+This is so much fun, it requires (at least!) two posts to talk about.

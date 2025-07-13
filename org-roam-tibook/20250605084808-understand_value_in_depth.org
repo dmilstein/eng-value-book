@@ -181,27 +181,49 @@ Let's build a model!
 
 # BAD PROSE, GO
 
-First off, why would someone even want to own a company in the first place?
+The value of A Thing is defined, by our friends the academic economists, as *what someone is willing to pay for the privilege of owning That Thing*.
 
-What is in it for the owner / investor?
+This is *not* about inherent or societal value.
 
-Well, companies *spend* a bunch of money to operate, and then customers *give* them a bunch of money.
+We're talking purely about *economic* value -- and the willingness of someone to pay is central to the *economic* definition of value.
+
+But then, that /immediately/ raises another question:
+
+Why would someone even *want* to own a company in the first place?
+
+Why would someone pay *any* money to "own" a company?
+
+(note that, "investing" in a company means "paying money to own a part of it" -- it's exactly the same thing, just in fractions)
+
+So, what is in it for the owner / investor?
+
+Let's keep on asking our 5 whys-style questions!
+
+Oka, then, what is a company?
+
+A company is an entity that *spends* a bunch of money to operate, and then customers *give* that entity a bunch of money.
 
 If the company collects more money then it spends, it makes a profit.
 
-The owner of the company *gets the profits*.
+Aaaaaaand, drumroll please:
+
+*The owner of the company gets the profits*.
 
 Not just whatever profits get made today, but all profits that accrue in the future.
 
-Of course, the company (or owner) might decide to *invest* some of those profits in hopes of future growth (aka even greater profits in the future).
+Of course, tactically, the company management (or owner) might decide to *invest* some of today's profits in hopes of future growth (aka even greater profits in the future).
 
-But, fundamentally, people own companies because that means owning that company's *future stream of profits*.
+But, fundamentally, investors are willing to pay money to own companies because doing so means owning that company's *future stream of profits*.
 
 # BAD PROSE, END
 
+Alright, alright, alright.
+
+So if value is determined by what investors are willing to pay, and investors buy fractions of companies in order to own fractions of a future stream of profits...
+
 How does one determine the *value* of a future stream of profits?
 
-If you ask this of a finance person, they will light up.
+If you ask this of a person who works in finance, they will light up.
 
 Before you know it, you'll find yourself neck-deep in all sorts of exciting, math-adjacent jargon about discounted cash flows, amortization schedules, the cost of capital, and how to pronounce EBITDA. [fn:: See HBS's [[https://online.hbs.edu/blog/post/how-to-value-a-company][How to Value a Company]] for not one, not two, but *six* different ways to calculate the value of a company.]
 
@@ -209,19 +231,37 @@ You might think, "Oh, I get it! The overall value of a company is determined by 
 
 But this is *wrong*, in a just enormously important way.
 
-As above, all company valuation models are built on top of projections of future profits.
+All company valuation models are built on top of *projections* of future profits.
 
 And those projections are... *guesses*.
 
 The models take one specific guess, and turn it into a specific number of dollars.
 
-Then, humans, being human, treat the number as Very Meaningful, because Math Has Been Applied.[fn:: If you take nothing else from me, please believe that Guesses + Math = Guesses]
+Then, humans, being human, treat the number as Very Meaningful, because Math Has Been Applied.
 
-But it's *still* just a guess.
+# But, let me show you a very important equation of my own:
 
-Guesses and uncertainty are at the absolute core of how companies are valued.
+But, let me write a very important equation of my own, up on the chalkboard:
 
-We're going to abstract away all the details of the models, and define the value of a company as:
+Guesses + Math = Guesses
+
+The Math doesn't make the uncertainty go away.
+
+And, the guess, the *uncertainty*, about future profits will just about always be a dominating factor in the valuation of a company.
+
+E.g. discounting cash flows to their net present value does matter, but that adjustment will get completely overwhelmed by some real world change in the market, like a competitor emerging who starts to steal all your best customers.
+
+Or by your company successfully developing a new product that customers love and immediately doubling sales in a year.
+
+Those events, *if they happen*, will have a huge impact on the future stream of profits.
+
+But we can't say for certain whether or not they will happen.
+
+So, to come up with a value for the company that takes into account the *possibility* of such future events, we'll need to use the tools of *probability*.
+
+# That kind of *uncertainty* about future profits is at the absolute core of how companies are valued.
+
+We're going to abstract away all the details of the financial models, and define the value of a company as:
 
 *A potential investor's probabilistic estimate of the future profits of the company.*
 
