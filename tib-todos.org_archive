@@ -442,3 +442,207 @@ CLOSED: [2025-06-12 Thu 11:14]
 :ARCHIVE_TODO: DONE
 :ARCHIVE_ITAGS: gtasks
 :END:
+
+* DONE For Understand Value, find a place early to focus briefly on profits
+CLOSED: [2025-06-09 Mon 13:02]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-07-13 Sun 08:42
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: TIB Inbox
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: inbox
+:END:
+E.g. when talking about revenue as the thing everyone thinks os.
+
+* DONE Profits - go to the owner
+CLOSED: [2025-06-09 Mon 13:02]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-07-13 Sun 08:42
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: TIB Inbox
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: inbox
+:END:
+Profits aren't just a number, they *belong to* whoever owns the company. So if you own a slice of the company, you own a slice of future profits.
+
+* DONE Update my detailed word count script to count headline
+CLOSED: [2025-06-12 Thu 11:04]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-07-13 Sun 08:42
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: TIB Inbox
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: inbox
+:END:
+
+* DONE Find links to The Golden Cesspool, by EWJ
+CLOSED: [2025-06-10 Tue 11:54]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-07-13 Sun 08:42
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: TIB Inbox
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: inbox
+:END:
+
+* DONE Figure out why CLI + graph word counts are different
+CLOSED: [2025-06-11 Wed 17:27]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-07-13 Sun 08:42
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: TIB Inbox
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: inbox
+:END:
+
+* DONE Check for files w/ :Chapter: which aren't in ToC
+CLOSED: [2025-06-11 Wed 17:27]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-07-13 Sun 08:42
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: TIB Inbox
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: inbox
+:END:
+
+* DONE Check - wordcount missing initial org section?
+CLOSED: [2025-06-11 Wed 17:27]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-07-13 Sun 08:42
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: TIB Inbox
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: inbox
+:END:
+YES
+
+* DONE Commit to toc.org instead of current thing (add to Roam)
+CLOSED: [2025-06-15 Sun 08:49]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-07-13 Sun 08:42
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: TIB Inbox
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: inbox
+:END:
+
+* DONE Within "I Can't Think" tease out two forms of viz
+CLOSED: [2025-06-15 Sun 08:49]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-07-13 Sun 08:42
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: TIB Inbox
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: inbox
+:END:
+
+* DONE Update word count tool to use toc properly
+CLOSED: [2025-06-15 Sun 14:31]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-07-13 Sun 08:42
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: TIB Inbox
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: inbox
+:END:
+Actually, just do my thing to use Make to build intermediate lists from the toc in a sane way, and then use that.
+
+* DONE Make wordcount script understand + display "Parts"
+CLOSED: [2025-06-15 Sun 19:21]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-07-13 Sun 08:42
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: TIB Inbox
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: inbox
+:END:
+Gonna have to put that into the toc, of course
+
+* DONE For Tact Emp example, shift to focus something she can base a tech investment on
+CLOSED: [2025-06-20 Fri 08:56]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-07-13 Sun 08:42
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: TIB Inbox
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: inbox
+:END:
+So that the engineering manager can then pitch her work in that context
+
+* DONE Options: maybe break out "decisions you stakeholder is making" into its own section
+CLOSED: [2025-06-28 Sat 09:02]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-07-13 Sun 08:42
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: TIB Inbox
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: inbox
+:END:
+
+* DONE Clean up the SELECT_TAGS/OPTIONS/:export stuff if I don't need it
+CLOSED: [2025-07-02 Wed 11:16]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-07-13 Sun 08:42
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: TIB Inbox
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: inbox
+:END:
+
+* DONE Ask Dani: what was that podcast? How does she get ideas?
+CLOSED: [2025-07-03 Thu 07:28]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-07-13 Sun 08:42
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: TIB Inbox
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: inbox
+:END:
+
+* DONE Decide: really show everyone's comments? I hate it, start without it
+CLOSED: [2025-07-02 Wed 11:16]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-07-13 Sun 08:42
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: TIB Inbox
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: inbox
+:END:
+
+* DONE Maybe: separate chapter for Story Makeovers
+CLOSED: [2025-07-07 Mon 10:26]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-07-13 Sun 08:42
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: TIB Inbox
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: inbox
+:END:
+
+* DONE Did fixing the symlinks magically fix *org-roam* buffer?
+CLOSED: [2025-07-08 Tue 19:44]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-07-13 Sun 08:42
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: TIB Inbox
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: inbox
+:END:
