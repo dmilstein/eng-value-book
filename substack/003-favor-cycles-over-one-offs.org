@@ -1,0 +1,60 @@
+* Tech Investments: Favor Repeated Cycles Over One-Off Projects
+
+If you're stuck in an oppositional relationship with stakeholders who don't seem to care about anything except their feature list, it may feel like your best bet is to carve off a big block of time so the team can just go and definitively fix their problems, without interruptions.
+
+I have tried the "Bargain for one giant chunk of time" approach, and, unfortunately, it has been something of a consistent disaster.
+
+Technical investments are *far* more effective done as a series of repeated small steps, instead of a single giant one-off project.
+
+There are at least two reasons for this.
+
+First, in the big bang mode, the stakeholders don't tend to see the work as "valuable".
+
+Instead they see it as a "painful delay", and as such, feel "owed" immediately faster progress on their features.
+
+Which is not always the immediate payoff for a technical investment -- even an extremely valuable one.
+
+# XXX Add: especially if the big bang investment has no associated visibility?
+# XXX Tease apart: don't start here vs it's okay to build to this
+# As in the real problem is if you use the one-time nature to avoid fully educating the stakeholder and ensuring they can see the results of the investment.
+
+But the big bang approach is not actually good for the engineers, either.
+
+Real value is often created at the intersection of the technical and human/social systems (see Allspaw on Socio-Technical) -- and those are essentially impossible to adjust in big, fixed steps.
+
+E.g. two significant forms of value are:
+
+ 1) reducing the time to get code to production
+
+ 2) reducing the time to restore from outages
+
+# XXX increasing the load a system can handle? Increasing capacity to match current demand?
+
+Both are *extremely* valuable for a business (more on both in [[id:E7DB3CD4-9B7B-425B-BF07-E2607DDD6670][Forms of Value/Visibility]]).
+
+But neither is effectively addressed as a single big bang investment -- you have to steadily improve things, see where new bottlenecks or problems occur, and then pick the next thing to focus on. That kind of effort take real calendar time -- you have to see a set of "improved" deploys, or see how the team is able to handle the next set of stresses to the system, before you can understand your next step.
+
+# Footnote?
+(if an engineer tries to convince you that all the stability problems in the site will be addressed by rewriting the entire thing in Rust, you should +fire+ firmly persuade that engineer to think otherwise).
+
+# Maybe: do a single one in detail, then list a slew of others which also need steady digging and learning
+
+Thus, what you want is to get into a *cycle of technical investments* -- where you are repeatedly identifying small potential improvements, advocating for those, and then executing on them.
+
+Going through this cycle *with* your stakeholders will gradually build trust and rapport over time.
+
+# (and a shared understanding)
+
+That increased trust, rapport and understanding will allow you to "lever up" to larger and larger investments.
+
+You should, of course, still *execute* the work in incremental steps (because that is how all software should be built) but you can use these repeated cycles to gradually climb the [[id:722C702D-A6C2-4A51-AB62-515CE8144AA2][Ladder of Commitment]] for technical investments:
+
+ - On the Side
+
+ - A Single Ticket
+
+ - A Within-Team Project
+
+ - A Cross-Team Initiative
+
+ - A Durable Team

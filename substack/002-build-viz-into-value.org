@@ -1,0 +1,37 @@
+* Tech Investments - Build Visibility Into Value
+
+Instead of technical debt, engineering leaders can ask their teams *and* stakeholders to talk about *technical investments*, which I'll define as:
+
+/Work the engineers believe is *valuable for the business*, but that *no one is asking for*./
+
+That puts the focus on the genuine problem: a *mismatch in understanding* between the engineers and their stakeholders, about what is *potentially valuable* for the business.
+
+At heart, the vast majority of both engineers and stakeholders want to create value for the business.
+
+They just have different information and beliefs about how best to do so.
+
+Many engineers try to resolve this gap by *explaining* the potential value: "You see, when code has bad 'coupling', a change in one place can impact many other places, which is a drag on development. This is why we should spend a week refactoring."
+
+Although there's a good instinct in this -- bringing the stakeholders into a shared understanding with the engineers about what is valuable -- it has one crucial flaw:
+
+It requires the stakeholders to take the entire statement of value on faith.
+
+There is nothing they can *see*, that shows them things are "bad", before the investment is made.
+
+And there will be nothing they can *see*, after, that shows them things have gotten "better".
+
+Given that lack of visibility, it's hardly surprising that stakeholders, confronted with such a choice, often feel like they are giving something up and getting nothing in return.
+
+One of the core theses of the book is that engineering leaders have a wide variety of options to *build visibility* into potential value.
+
+It is *massively cheaper* to build such visibility than it is to make the full investment.
+
+Once there is visibility, the engineers and their stakeholders can look at it, together, and operate from a shared understanding of the reality of the business.
+
+If the engineering team can then offer disciplined, incremental steps to gradually (and visibly) improve things (including improving the depth and reach of the visibility), theu can build real trust with stakeholders over time.
+
+That then allows them to "climb the ladder" from small initial investments to, sometimes, very major, transformative investments.
+
+The best way to do that is not as a one-off project an engineering leader puts all their authority on the line for (ugh, I've done that so many times, and never seen great results), but instead, a series of repeated *tech investment cycles*, each of which generates visibility and options.
+
+All in partnership, not opposition, with stakeholders.

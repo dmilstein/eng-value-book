@@ -1,0 +1,23 @@
+* Defining Tech Investments
+
+I believe that the metaphor of "Technical Debt" started it's life as a very useful prompt for economic thinking...
+
+...but has now mostly drifted into a not-very-useful shorthand for *bad code*.
+
+For reasons that apparently require a book to fully explain, I don't think engineering leaders or teams should spend much time talking about "bad code".
+
+Instead, I recommend spending time identifying and advocating for *"Technical Investments"*, which I define as:
+
+Work that the engineers believe is *valuable to their business*...
+
+...but that *no one is asking for*.
+
+The Technical Investment approach, when applied well, leads to very-useful-indeed conversations around:
+
+ - Potential business value
+
+ - How to make that value visible to key decision makers
+
+ - How to safely and incrementally realize that value
+
+Of course, bringing stakeholders along on that journey is somewhat profoundly non-trivial, so I'll be spending real time in the book on how to build trust and rapport with stakeholders, as an enabler for making major technical investments.

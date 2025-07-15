@@ -1,0 +1,45 @@
+* The Golden Cesspool
+
+Your product team has an ambitious plan to build something cool.
+
+Good news: customers are genuinely eager to use this cool thing!
+
+Bad news: building it will require your team to dig into that horrible part of the legacy codebase that was written by contractors many years ago, has no tests that you can trust worth a damn, and is based on a data model that is a malevolent joke against your current reality.
+
+I will make a bold prediction: this specific flavor of technical debt is never going to go out of style.
+
+The inimitable Edmund Jorgensen (who I quote, um, kind of a lot in the book), first framed this most clearly to me, and named this pattern:
+
+[[https://www.tomheon.com/2017/03/24/the-golden-cesspool/][The Golden Cesspool]]
+
+/"Proposing the rule of the golden cesspool: the closer code is to the heart of a business’s domain, the worse the code will be."/
+
+In my experience, Edmund is totally right.
+
+Almost all companies seem to have some genuinely hideous mass of code sitting at the beating heart of their business.
+
+Over the years, tons of complex business logic has been shoved into that cesspool.
+
+The most critical processes of the business are tied to data updates in the cesspool.
+
+All sorts of state gets updated in all sorts of deeply non-obvious ways.
+
+Your engineering team likely already thinks about this morass as a prime example of tech debt, and are itching to rewrite it.
+
+They may, in fact, resist an attempt to methodically build visibility and then incrementally improve things.
+
+Instead, they'll make the faux-economic argument that it'd be better to just commit to a ground-up rewrite of that core system.
+
+They'll claim that it will be both faster and cheaper to do so "from scratch" rather than through a slow, incremental shift.
+
+Once that rewrite is fully finished, the things the product team are asking for will be super easy to build!
+
+What could go wrong?
+
+Please see our later chapter: *The Giant Rewrite: Only Undertake If You Wish To Later Be Fired Midway Through a Long & Painful Death March*, which has some tips on how one *can* gradually rewrite such systems.
+
+But as a brief teaser: the core trick here is to convert this from a technical investment to a *product* investment.
+
+The product team *already thinks* there's value here -- they just don't realize there's more of a *cost* than usual.
+
+Making those risks visible and gradually wearing them down will therefore create value.

@@ -1,0 +1,220 @@
+* Engineering & The Creation of Value, Part II
+Subtitle: Owning a Company Seems Like Kind of a Pain Why Does Anyone Bother
+
+/A follow up to [[https://buildingandlearning.substack.com/p/engineers-and-the-creation-of-value][Engineers & The Creation of Value, Part I]]/
+
+In part I, we suggested that the job of engineers is to make their *overall company* more valuable.
+
+But what is the value of an "overall company"?
+
+What might increase that value?
+
+What might decrease that value?
+
+** Finance: Clever Equations Built On Top Of Dreams & Fantasies
+
+# BAD PROSE, GO
+
+The value of A Thing is defined, by our friends the academic economists, as *what someone is willing to pay to own That Thing*.
+
+This is *not* about inherent or societal value.
+
+We're talking purely about *economic* value -- and the willingness of someone to pay is central to the *economic* definition of value.
+
+But then, that /immediately/ raises another question:
+
+Why would someone even *want* to own a company in the first place?
+
+Why would someone pay *any* money to "own" a company?
+
+(note that, "investing" in a company means "paying money to own a part of it" -- it's exactly the same thing, just in fractions)
+
+So, what is in it for the owner / investor?
+
+Let's keep on asking our 5 Whys-style questions!
+
+Okay, then, what even is a company?
+
+A company is an entity that *spends* a bunch of money to operate, and then customers *give* that entity a bunch of money.
+
+If the company collects more money then it spends, it makes a profit.
+
+Aaaaaaand, drumroll please:
+
+*The owner of the company gets the profits*.
+
+Not just whatever profits get made today, but all profits that accrue in the future.
+
+Of course, tactically, the company management (or owner) might decide to *invest* some of today's profits in hopes of future growth (aka even greater profits in the future).
+
+But, fundamentally, investors are willing to pay money to own companies because doing so means owning that company's *future stream of profits*.
+
+# BAD PROSE, END
+
+Alright, alright, alright, now we're getting somewhere.
+
+So if value is determined by what investors are willing to pay, and investors buy fractions of companies in order to own fractions of a future stream of profits...
+
+How does one determine the *value* of a future stream of profits? How much *should* an investor be willing to pay?
+
+If you ask this of a person who works in finance, they will light up.
+
+Before you know it, you'll find yourself neck-deep in all sorts of exciting, math-adjacent jargon about discounted cash flows, amortization schedules, the cost of capital, and how to pronounce EBITDA. [fn:: See HBS's [[https://online.hbs.edu/blog/post/how-to-value-a-company][How to Value a Company]] for not one, not two, but *six* different ways to calculate the value of a company.]
+
+You might think, "Oh, I get it! The overall value of a company is determined by an *equation*."
+
+But this is *wrong*, in a just enormously important way.
+
+All company valuation models are built on top of *projections* of future profits.
+
+And those projections are... *guesses*.
+
+The models take one specific guess, and turn it into a specific number of dollars.
+
+Then, humans, being human, treat the number as Very Meaningful, because Math Has Been Applied.
+
+# But, let me show you a very important equation of my own:
+
+But, let me write a very important equation of my own, up on the chalkboard:
+
+Guesses + Math = Guesses
+
+The Math doesn't make the guess go away.
+
+And, the guess, the *uncertainty*, about future profits will just about always be the dominating factor in the valuation of a company.
+
+E.g. discounting cash flows to their net present value matters *some*, but that adjustment will get completely overwhelmed by a real world change in the market, like a competitor emerging who starts to steal all your best customers.
+
+Or, on the positive side, by your company successfully developing a new product that customers love and therefor immediately doubling sales in a year.
+
+Those events, *if they happen*, will have a huge impact on the future stream of profits.
+
+But we can't say for certain whether or not they will happen.
+
+So, to come up with a value for the company that takes into account the *possibility* of such future events, we'll need to use the tools of probability.
+
+# That kind of *uncertainty* about future profits is at the absolute core of how companies are valued.
+
+Thus, we're going to abstract away all the details of the financial models, and define the value of a company as:
+
+*A potential investor's probabilistic estimate of the future profits of the company.*
+
+That's it. Inside that is where we'll find our key.
+
+** Probability As a State of Knowledge About the World
+
+The concept of "probability" is used in two related but subtly different ways.
+
+Sometimes, probability describes something like rolling a die.
+
+All anyone can possibly say about a die roll is that each of the six sides is equally likely to turn up.
+
+The result of any one roll is *fundamentally unknowable*.
+
+However, for company value, a "probabilistic" estimate being made by an investor means something quite different.
+
+Here, "probability" means something over which an investor has *limited information*.
+
+Something which is *potentially knowable*, but which the person making the estimate doesn't currently know for certain.
+
+The profits a company will generate over the next 5 years can't be known perfectly -- but a smart investor can make an informed guess.
+
+If, as per our example above, the investor learns that a new competitor has been spun up and is getting early traction, they'll factor that *information* into their estimate of future profits -- by reducing it.
+
+Conversely, if the investor learns that the company has shipped a crude version of a new product to a few early adopters, and those customers are eagerly recommending it to all their friends, then, based on that information, the investor would revise their estimate of future profits upward.
+
+We can thus refine our definition of company value even more, to:
+
+A potential investor's probabilistic estimate of the future profits of the company, *based on the information they currently have*.
+
+If an investor acquires *new information* that suggests the company will earn greater profits in the future, that investor would be willing to *pay more* for a fraction of the company.
+
+That information has *increased the company value*.
+
+Not in some woo-woo theoretical way.
+
+At the heart of all the finance models, this is how *actual investors* -- purchasers of stock, VC's, private equity firms -- are establishing company valuations.
+
+Their models are making projections of future profits, based on what the investors currently do and do not know.
+
+Preparing for a funding found *means* trying to assemble evidence that there is a high probability of future profits. Full stop.
+
+** The Economically Rational Investor
+# aka We're Going to Invent Someone Useful, Named Bertha
+# aka, Meet Bertha, The Econommically Rational Investor
+
+/Hang on a second/, you might well be thinking.
+
+If the value of a company is a probabilistic estimate of future profits...
+
+...made by some potential investor...
+
+...based on their current knowledge about the world...
+
+...then *who exactly is the investor?*
+
+This is an outstanding question you might be thinking!
+
+Different investors have *very* different amounts of information.
+
+Different investors also apply *very* different belief systems to that information, to develop estimates of future profits.
+
+Your CEO, for example, might know all about early adopter use of a new product, *and* might ascribe extremely high likelihood of future increases in profits, based on that (but your CEO is maybe, a tad optimistic in that estimate?).
+
+Some external investor might not know about those early adopters, but might have taken a more clear-eyed and sober look at the competitive landscape than your CEO has -- and therefore might ascribe some real likelihood to profits going down.
+
+So, again, if we're trying to reason about company value by way of probability and information in the possession of some specific investor, what investor should we work with?
+
+*We're going to invent one.*
+
+And we're going to name her Bertha.
+
+Bertha is that beloved creature of theory, an *economically rational investor.*
+
+Also, she has seen some shit.[fn:: the idea of value being determined by an economically rational investor is from the amazing Principles of Product Development Flow, by Don Reinertsen. The name Bertha is all mine!]
+
+Bertha possesses two kinds of information:
+
+ - Public information known by all other investors
+
+   This can include both *facts* (e.g. your company sells a product to large municipalities), and also *probabilities* (e.g. the frequency at which software companies suffer security breaches).
+
+ - Information known inside your company
+
+   This can include both *facts* (e.g. the results of beta testing a new street sweeper product offering) and also *probabilities* (e.g. the frequency of downtime for a feed of key data about parking violations).
+
+As we dig into how engineers can create value, we'll be asking ourselves, steadily:
+
+"What would Bertha think?"
+
+aka, what would an economically rational investor think about a company's future profits, before and after making a potential technical investment.
+
+Note that Bertha is not easily swayed by optimism.
+
+Your CEO may be dead certain that the moment you launch that new product the team is working around the clock on, your customers are going to be banging down your door to buy it.
+
+Bertha just squints at all the up-and-to-the-right PowerPoint decks and shrugs and says "Sure, customers are gonna love it, right, whatever. Why don't you call me when you have some *evidence*."
+
+In this, she is much like steely-eyed VC's talking to founders.
+
+Bertha (and those VC's) need evidence to persuade her to change her mind, and thus her estimate of future profits, and thus the value of the company.
+
+Evidence increases overall company value.
+
+Acquiring information increases company value.
+
+From the perspective of an engineer working at a company, the overall value of a company is best understood as:
+
+ - A probabilistic estimate of future profits...
+
+ - made by Bertha, the economically rational investor...
+
+ - based on what is currently known...
+
+ - both inside and outside the company.
+
+Believe it or not, that statement, with its obsessively precise statements of knowledge, information and probability, holds the key.
+
+With it in hand, we're ready to start marching through different kinds of potential value -- and we'll find several where the engineers are perfectly placed to observe the potential for value, and therefore, perfectly placed to advocate for investment.
+
+We'll return to that in our next post, Turning Concerns Into Potential Value
