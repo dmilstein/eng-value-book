@@ -12,9 +12,11 @@ Like, that's sort of what it's becoming? Is *that* the urgent pain?
 CLOSED: [2025-07-14 Mon 11:30]
 ** DONE More riffing on titles                    :curweek:pom:
 CLOSED: [2025-07-15 Tue 08:00]
-** TODO Turn structure into draft ToC             :curweek:
+** DONE Turn structure into draft ToC             :curweek:pom:
+CLOSED: [2025-07-15 Tue 14:40]
 ** TODO Revise ToC                                :curweek:
-** TODO Spike on new intro                        :curweek:pom:
+** DONE Spike on new intro                        :curweek:pom:
+CLOSED: [2025-07-15 Tue 12:46]
 ** TODO Revise new intro                          :curweek:
 ** TODO Make "estimates" a central driver of pain?
 ** TODO Experiment w/ EWJ's summary?
@@ -112,7 +114,7 @@ Review the email I wrote EWJ
 ** TODO Do a timeboxed skim through LinkedIn contacts for Part 2 coaching
 Can I just export my list of contacts
 * [[id:E0ADBF07-90B8-4C37-81C0-96A428020F5E][Substack]]                                        :gtasks:
-** TODO Simple, dumb idea for organizing posts    :curweek:
+** TODO Simple, dumb idea for organizing posts    :curweek:pom:
 Obvs, a folder with named files. Still in org-roam? Or is that the whole point, I move out of org-roam, and then my links aren't weirdly wrong? Yes, do it.
 ** TODO Draft next post                           :curweek:
 ** TODO Schedule next post                        :curweek:
@@ -484,7 +486,6 @@ CLOSED: [2025-06-01 Sun 08:51]
 CLOSED: [2025-06-02 Mon 11:23]
 * Book Misc                                       :gtasks:
 ** TODO Check out [[https://www.amazon.com/Aligned-Stakeholder-Management-Product-Leaders/dp/1098134427][Melissa Appel's book]]
-** TODO Review Data Intensive Systems write up on book economics
 ** TODO Feature my own failures as learning events
 E.g. things I tried that didn't work, or that I've seen people try and have not work
 ** TODO Add: why technical judgment is important
