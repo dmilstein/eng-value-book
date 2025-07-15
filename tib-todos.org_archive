@@ -646,3 +646,83 @@ CLOSED: [2025-07-08 Tue 19:44]
 :ARCHIVE_TODO: DONE
 :ARCHIVE_ITAGS: inbox
 :END:
+
+* DONE Write template w/ offer to teach Part II
+CLOSED: [2025-05-27 Tue 08:21]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-07-14 Mon 09:27
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Teach/Coach
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Refine/sort list of people I could reach out to
+CLOSED: [2025-05-27 Tue 08:26]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-07-14 Mon 09:27
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Teach/Coach
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Draft email to Bennett (re Dani)
+CLOSED: [2025-05-30 Fri 08:31]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-07-14 Mon 09:27
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Teach/Coach
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Reach out to 1 person for [[id:49E66E86-CE83-447E-87C2-3BFF3D8FE42E][Teaching/Helping]]
+CLOSED: [2025-05-30 Fri 12:32]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-07-14 Mon 09:27
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Teach/Coach
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Ping Dani (using number from Craig)        :pom:
+CLOSED: [2025-06-04 Wed 12:34]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-07-14 Mon 09:27
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Teach/Coach
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Write up notes from Satoe convo            :pom:
+CLOSED: [2025-06-05 Thu 14:09]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-07-14 Mon 09:27
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Teach/Coach
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Satoe - milestones, not tech investment.   :pom:
+CLOSED: [2025-06-07 Sat 11:52]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-07-14 Mon 09:27
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Teach/Coach
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+ - Stakeholder (Stephanie) - meet regularly, want to offer her meaningful decisions
+ - Team/Self - dig into Eligibility Engine, add tests, determine boundaries, map the code
+ - You shouldn't be making time for "strategy", we've done that. You should be making time for milestones

@@ -4,12 +4,27 @@ Yes, I can, apparently.
 
 * TIB Inbox                                       :inbox:
 *
-** TODO Better organization for substack posts
 * [[id:42FF29AB-A3A1-4307-85E5-69C08C7D4DB4][Reframe/Reorg]]                                   :gtasks:
-** DONE Copy in idea for testing from EWJ email   :curweek:pom:
+** DONE Ask Edmund: reframe as "How To Work With Stakeholders"? :pom:
+CLOSED: [2025-07-10 Thu 06:42]
+Like, that's sort of what it's becoming? Is *that* the urgent pain?
+** DONE Rough out overall structure               :curweek:pom:
+CLOSED: [2025-07-14 Mon 11:30]
+** DONE More riffing on titles                    :curweek:pom:
+CLOSED: [2025-07-15 Tue 08:00]
+** TODO Turn structure into draft ToC             :curweek:
+** TODO Revise ToC                                :curweek:
+** TODO Spike on new intro                        :curweek:pom:
+** TODO Revise new intro                          :curweek:
+** TODO Make "estimates" a central driver of pain?
+** TODO Experiment w/ EWJ's summary?
+Half of what they asked for we never finished, half of what remained was never used.
+** DONE Copy in idea for testing from EWJ email   :pom:
 CLOSED: [2025-07-13 Sun 08:53]
-** Start to brainstorm titles/tags                :curweek:pom:
-** TODO Start to sketch in outline                :curweek:
+** DONE Start to brainstorm titles/tags
+CLOSED: [2025-07-14 Mon 09:22]
+** DONE Start to sketch in outline
+CLOSED: [2025-07-14 Mon 08:45]
 * [[id:BB09F432-DEEB-4129-8F88-D23C86E8CEBB][Build Viz First]]                                 :gtasks:
 ** DONE Jam in some of my ideas from my notes, break out todos :pom:
 CLOSED: [2025-06-07 Sat 09:35]
@@ -83,25 +98,36 @@ CLOSED: [2025-06-29 Sun 16:47]
 CLOSED: [2025-06-21 Sat 11:06]
 ** DONE Terrible first draft
 CLOSED: [2025-06-21 Sat 14:30]
-* [[id:EFA43963-DB19-4EA6-8EF3-4F4376AED1F1][Story Makeovers]]                                 :gtasks:curweek:
+* [[id:EFA43963-DB19-4EA6-8EF3-4F4376AED1F1][Story Makeovers]]                                 :gtasks:
 ** DONE Rough out one more makeover
 CLOSED: [2025-07-08 Tue 11:44]
 ** DONE Review structure of each makeover
 CLOSED: [2025-07-08 Tue 11:24]
+* [[id:49E66E86-CE83-447E-87C2-3BFF3D8FE42E][Teach/Coach]]                                     :gtasks:
+** TODO Draft new email re coaching/helping       :curweek:
+Review the email I wrote EWJ
+** TODO Make list of people to reach out to       :curweek:
+** TODO Reach out to people                       :curweek:
+** TODO Write template asking for connections to coach
+** TODO Do a timeboxed skim through LinkedIn contacts for Part 2 coaching
+Can I just export my list of contacts
 * [[id:E0ADBF07-90B8-4C37-81C0-96A428020F5E][Substack]]                                        :gtasks:
-** TODO Prep Next Post                            :curweek:pom:
-** DONE Draft next post (maybe Geary's idea)      :curweek:pom:
+** TODO Simple, dumb idea for organizing posts    :curweek:
+Obvs, a folder with named files. Still in org-roam? Or is that the whole point, I move out of org-roam, and then my links aren't weirdly wrong? Yes, do it.
+** TODO Draft next post                           :curweek:
+** TODO Schedule next post                        :curweek:
+** DONE Draft next post (maybe Geary's idea)      :pom:
 CLOSED: [2025-07-07 Mon 17:12]
 E.g. Things engineers think are valuable, when they are/are not.
 
 I like how good examples and good anti-examples of engineering value opportunities are explored in this chapter. The good examples resonated with me - I wrote them down on a sticky note.
 
 In Understand Valuie in Depth
-** DONE Post draft to Substack                    :curweek:
+** DONE Post draft to Substack
 CLOSED: [2025-07-07 Mon 17:12]
 ** DONE Draft email to TD
 CLOSED: [2025-07-02 Wed 11:09]
-** DONE Send email to TD                          :curweek:
+** DONE Send email to TD
 CLOSED: [2025-07-08 Tue 17:18]
 ** DONE Draft post for <2025-06-30 Mon>           :pom:
 CLOSED: [2025-06-29 Sun 13:10]
@@ -138,14 +164,17 @@ CLOSED: [2025-06-11 Wed 17:06]
 ** DONE Understand diff between Substack notes and posts
 CLOSED: [2025-06-12 Thu 11:16]
 * [[id:22898D7F-26DD-4787-939B-B640B3D5BE56][Beta Wave 1]]                                     :gtasks:
-** DONE Offer Blog + Beta reading to TI in July   :curweek:pom:
+** DONE Offer Blog + Beta reading to TI in July   :pom:
 CLOSED: [2025-07-07 Mon 11:46]
-** DONE Thank you to Margaret (ask collab w/ product) :curweek:pom:
+** DONE Thank you to Margaret (ask collab w/ product) :pom:
 CLOSED: [2025-07-12 Sat 10:28]
-** TODO Ask Margaret: apply any ideas
-** TODO Make list of another 10 people
-** TODO Send 10 more invites
-** DONE Draft nudge to first round (re collab w/ product) :curweek:pom:
+** DONE Ask Margaret: apply any ideas
+CLOSED: [2025-07-14 Mon 09:26]
+** DONE Make list of another 10 people
+CLOSED: [2025-07-14 Mon 09:26]
+** DONE Send 10 more invites
+CLOSED: [2025-07-14 Mon 09:26]
+** DONE Draft nudge to first round (re collab w/ product) :pom:
 CLOSED: [2025-07-12 Sat 10:44]
 ** DONE Add a prompt to sign in
 CLOSED: [2025-07-07 Mon 10:26]
@@ -203,7 +232,7 @@ Something that demonstrates they're getting value, not being nice.
 ** TODO Define dumbest, simplest progress-checking habit
 Could easily lose my mind, be careful.
 * [[id:4D62F0DE-2862-45F3-97EE-6AFED5382F2C][Storytelling/Wins ]]                              :gtasks:
-** DONE Share Storytelling chapter w/ Mike Isman? :curweek:
+** DONE Share Storytelling chapter w/ Mike Isman?
 CLOSED: [2025-07-09 Wed 11:25]
 ** TODO Find videos w/ dots pushing each other up hills
 ** TODO Add reference to Kahneman mic drop about stories
@@ -234,22 +263,22 @@ CLOSED: [2025-07-07 Mon 10:26]
 ** TODO Fill in more of outline
 ** TODO Decide if worth keeping as full chapter
 * [[id:3DE23585-34F0-4C88-A16B-4558ACC45C99][Post-Mortems/Viz]]                                :gtasks:
-** DONE Write bad intro/start                     :curweek:pom:
+** DONE Write bad intro/start                     :pom:
 CLOSED: [2025-07-09 Wed 18:02]
-** DONE Write bad next section                    :curweek:pom:
+** DONE Write bad next section                    :pom:
 CLOSED: [2025-07-10 Thu 07:34]
-** DONE Spike: splice from Convert Concerns       :curweek:
+** DONE Spike: splice from Convert Concerns
 CLOSED: [2025-07-11 Fri 10:55]
-** DONE Write bad section about risk in general   :curweek:pom:
+** DONE Write bad section about risk in general   :pom:
 CLOSED: [2025-07-11 Fri 10:58]
 ** TODO Review Incidents as Warning Signs
 ** TODO Revise Post-Mortems/Stakeholders
 ** TODO First draft: Create Incidents
 ** TODO Maybe: tell Berlin story, Roberto/Vahe
 They were stuck going slow, they committed to doing good post-mortems, it transformed their speed and relationship with stakeholders
-** DONE Sketch in a possible arc                  :curweek:pom:
+** DONE Sketch in a possible arc                  :pom:
 CLOSED: [2025-07-09 Wed 10:51]
-** DONE Sketch in some bad ideas                  :curweek:pom:
+** DONE Sketch in some bad ideas                  :pom:
 CLOSED: [2025-07-08 Tue 17:24]
 * [[id:D3158CC2-8A69-4097-B9ED-ED6BD855A7AD][Understand Value In Depth]]                       :gtasks:
 ** DONE Do a spike on footnotes                   :pom:
@@ -386,9 +415,9 @@ CLOSED: [2025-06-11 Wed 17:06]
 CLOSED: [2025-06-11 Wed 17:06]
 Announce I'm working on a book, will post here sometimes, but please go join my new newsletter/Substack if you're interested for more (and/or might like to be a beta reader for a eection).
 * [[id:49435FCD-0590-44DE-8FC7-585E7BCC8BB2][Tooling]]                                         :gtasks:
-** DONE Make github repo for TIB, push it up      :curweek:pom:
+** DONE Make github repo for TIB, push it up      :pom:
 CLOSED: [2025-07-12 Sat 10:06]
-** DONE Fix word count to handle 0 days           :curweek:pom:
+** DONE Fix word count to handle 0 days           :pom:
 CLOSED: [2025-07-08 Tue 11:52]
 ** TODO For HTB, Turn 'Parts' into empty chapters?
 ** TODO Spike: word count credit in graph for scraps
@@ -446,29 +475,6 @@ E.g. the decision to keep coding against the newest version of a library. Or the
 ** TODO Def: talk about sequence of decisions
 ** TODO Maybe: put Accelerate in here?
 ** TODO Finish the Pinch Test story
-* [[id:49E66E86-CE83-447E-87C2-3BFF3D8FE42E][Teach/Coach]]                                     :gtasks:
-** DONE Write template w/ offer to teach Part II
-CLOSED: [2025-05-27 Tue 08:21]
-** DONE Refine/sort list of people I could reach out to
-CLOSED: [2025-05-27 Tue 08:26]
-** DONE Draft email to Bennett (re Dani)
-CLOSED: [2025-05-30 Fri 08:31]
-** DONE Reach out to 1 person for [[id:49E66E86-CE83-447E-87C2-3BFF3D8FE42E][Teaching/Helping]]
-CLOSED: [2025-05-30 Fri 12:32]
-
-** TODO Draft note to TD looking for coaching/helping targets
-** TODO Write template asking for connections to coach
-** TODO Do a timeboxed skim through LinkedIn contacts for Part 2 coaching
-Can I just export my list of contacts
-** DONE Ping Dani (using number from Craig)       :pom:
-CLOSED: [2025-06-04 Wed 12:34]
-** DONE Write up notes from Satoe convo           :pom:
-CLOSED: [2025-06-05 Thu 14:09]
-** DONE Satoe - milestones, not tech investment.  :pom:
-CLOSED: [2025-06-07 Sat 11:52]
- - Stakeholder (Stephanie) - meet regularly, want to offer her meaningful decisions
- - Team/Self - dig into Eligibility Engine, add tests, determine boundaries, map the code
- - You shouldn't be making time for "strategy", we've done that. You should be making time for milestones
 * [[id:71B164B6-0AB2-4FDE-B51E-71870F553C67][The TI Cycle]]                                    :gtasks:
 ** DONE Rough draft of the overall cycle
 CLOSED: [2025-06-01 Sun 08:51]
@@ -478,10 +484,8 @@ CLOSED: [2025-06-01 Sun 08:51]
 CLOSED: [2025-06-02 Mon 11:23]
 * Book Misc                                       :gtasks:
 ** TODO Check out [[https://www.amazon.com/Aligned-Stakeholder-Management-Product-Leaders/dp/1098134427][Melissa Appel's book]]
-** DONE Ask Edmund: reframe as "How To Work With Stakeholders"? :pom:curweek:
-CLOSED: [2025-07-10 Thu 06:42]
-Like, that's sort of what it's becoming? Is *that* the urgent pain?
-** TODO General note: feature my own failures as learning events
+** TODO Review Data Intensive Systems write up on book economics
+** TODO Feature my own failures as learning events
 E.g. things I tried that didn't work, or that I've seen people try and have not work
 ** TODO Add: why technical judgment is important
 ** TODO Lucas's idea re prospective investment opps
