@@ -6,23 +6,17 @@ Part of [[id:42FF29AB-A3A1-4307-85E5-69C08C7D4DB4][Reframe/Restructure]], integr
 * Introduction
 ** Engineering Would Be So Easy Without These Pesky Humans
 
-# Engineering Would Be So Fun Without These Pesky Humans
-
-# As you rise up into some form of engineering leadership...
-
-# One of my favorite things to do is catch up with bright engineers who I knew early in their career arc.
-
 When I sit down to lunch or coffee with extremely bright engineers who are steadily advancing in their careers, being promoted, being given new responsibilities (maybe as managers, or maybe on the technical track), there's one topic that comes up over and over.
 
 It's *not* how to structure complex softare[fn:: I mean, we do sometimes end up talking about misguided moves to microservices, but that's just a thing].
 
-It's *not* how to increase their team's velocity. [agile rituals]
+It's *not* how to speed up the pace of the team's delivery. [agile rituals]
 
-It's *not* how to [have hard conversations, ...]
+It's *not* how to have hard conversations with engineers on their team.
 
 It's how to work with the crazy, conflicting, impossible requests from their stakeholders.
 
-I want to be carefuly clear: these engineers succeeded and advanced *because* they  achievied real wins for their businesses.
+I want to be carefuly clear: these engineers have been succeeding and advancing *because* they achievie real wins for their businesses.
 
 They don't *want* to "just do engineering".
 
@@ -31,7 +25,8 @@ They want to make an impact.
 But, they find themselves struggling with:
 
 *** Demands for Long-Term Estimates
-/"Can your team commit to launching the new patient onboarding app by Q4?"/
+
+*"Can your team commit to launching the new patient onboarding app by Q4?"*
 
 Q4 is 9 months away.
 
@@ -39,7 +34,7 @@ The "new patient onboarding app" is, currently, a pile of dreams and half-built 
 
 The Patient team has just been reorg'd... and it's not clear if the newly-hired mobile engineer on the team is going to work out.
 
-A key step in the onboarding flow depends on data from the patient's insurance company... who all seem to move at a slug-like speed designed to defeat urgency at all costs.
+A key step in the onboarding flow depends on data from the patient's insurance companies... who all seem to move at a slug-like speed designed to defeat urgency at all costs.
 
 What is an engineer supposed to do?
 
@@ -51,7 +46,7 @@ What is an engineer supposed to do?
 
  - *Guess and pad?*
 
-   Talk a few engineers, come up with a reasonable guess of 4 months.
+   Talk to a few engineers, come up with a reasonable guess of 4 months.
 
    Then, to be safe, double that.
 
@@ -59,11 +54,11 @@ What is an engineer supposed to do?
 
  - *Cross your fingers and pray?*
 
-   "Sure, I think that should be doable."
+   /"Sure, I think that should be doable."/
 
-   Spoiler: you'll end up spending the next 9 months barely able to sleep, as that date becomes more and more impossible to achieve.
+   Spoiler: you'll end up spending the next 9 months gradually sleeping less and less, as that date becomes more and more impossible to achieve.
 
- - *Try to explain the details to your stakeholder?*
+ - *Explain the details to your stakeholder?*
 
    /"You see, the patient ~m_id's~ are the key thing we need, and we have to get those from the HL7 files, but they seem to be encoded in different ways..."/
 
@@ -71,11 +66,12 @@ What is an engineer supposed to do?
 
 # XXX HL7? L7? H7?
 
-*** Refusals To Accept Tradeoffs
+*** Refusal To Accept Tradeoffs
 "We need to keep those enterprise customers happy, so find a way to do both."
 
-*** Lack of Engagemnt With Technical Risks
-"We can't slow down to deal with these database issues your team is worrying about."
+*** Lack of Engagement [Acceptance] With Technical Risks
+"Our business priorities are too urgent to to deal with the database right now. Hopefully next month things will calm down."
+
 
 
 
