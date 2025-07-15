@@ -1,0 +1,89 @@
+:PROPERTIES:
+:ID:       412A3285-6344-4D0E-9641-692417B5A540
+:END:
+#+title: New Structure
+
+Part of [[id:42FF29AB-A3A1-4307-85E5-69C08C7D4DB4][Reframe/Restructure]], also working on [[id:5DCF4CB9-9186-48DD-B1B8-01E09702F04A][New Titles]]
+
+* Random Thinking
+There was something really good in TIB, which was thinking of the effort as a cycle, that gradually climbs a ladder of trust. That's what I tell engineers to do -- solve a problem for your stakeholder, build trust, solve bigger problems, get into partnership, etc.
+
+So I think I want to keep that -- and it give them a thing to do, like, right now (start at the low end).
+
+In the old structure, I had that cycle spread across two overall parts -- but I liked a lot about that.
+
+Alternately, I could have part I be, like, a quick trip through the loop, for something fairly small scale.
+
+And then Part II is going back to each step and showing more advanced ways to do it?
+
+So, then what, Part I is for junior eng managers/tech leads and part II is for more senior folks w/ more scope?
+
+Hmm.
+
+
+* Overall Structure
+** Intro: Bring Experience to Life (show vision of better?)
+** Fundamental Trust-Building Arc
+*** Find something your stakeholder is worried about
+*** Turn that concern into potential value for your business
+*** Build visibility into that potential value
+*** Develop increments, milestones, options and decisions
+*** Offer those to your stakeholder
+*** Select an option together
+*** Develop/learn/update understanding, start over
+*** Throughout: use storytelling to celebrate wins
+*** Eventually: advocate for things your stakeholder *should* be worried about
+# Eventually: make your stakeholder worry about *new* things
+
+** What Is My Stakeholder Worried About and Does It Actually Matter?
+*** What Is My Stakeholder Worried About and Why Does It Matter?
+*** Figure Out What Your Stakeholder Is Worried About (And If It Matters)
+*** What Is Valuable To My Business?
+*** How Can I Create Value?
+*** What Problem Is My Stakeholder Trying to Solve?
+*** What Does My Stakeholder Want And Are They Right?
+*** Understand Stakeholder Concerns
+*** Find a Problem to Solve
+*** Find a Valuable Problem
+*** Find a Visibly Valuable Problem
+*** Find or Create a Valuable Problem
+*** Find Opportunity for Value
+*** Find An Opportunity for Value
+*** Find A Value Opportunity
+*** Find Opportunities for Value
+*** How To Find Opportunities for Value
+*** Find an Opportunity
+
+** How Can I Solve That Problem *With* Them?
+*** How Can I Create Value In The Midst of Uncertainty
+*** Solve Problems Together
+*** Create Value
+*** Create an Increment of Value
+*** How To Create Value, Together
+
+** What Problems Should I Tell My Stakeholder About?
+*** Educate Your Stakholders
+*** Make Technical Opportunities Visible
+*** Advocate for Technical Opportunities
+*** Advocate for An Opportunity
+*** Be a Technical Steward
+
+* Maybe Structure
+** Intro
+** Identify Opportunities for Value
+** Create An Increment of Value
+** Advocate For Technical Investments
+* Maybe Structure, Take 2
+** Intro
+** Identify Value Opportunities
+** Create Increments of Value
+** Advocate For Technical Opportunities
+* Maybe Structure, Take 3
+** Intro
+** Identify Valuable Investments
+** Create Increments of Value
+** Advocate For Technical Investments
+* Scraps
+Is this How to be A PM, for Engineers?
+
+Yes and very much no. This will cover applying PM skills to the engineering job. You'll still need to do almost all of this, even if you have a high-functioning PM team
