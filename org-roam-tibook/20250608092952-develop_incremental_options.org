@@ -248,7 +248,7 @@ The engineering leader continues:
 
 /Building SLI's has some real tradeoff costs. We had planned for Andrea to take point on adding new features to the Search Indexing. We think the potential performance issues are a bigger risk. And, if we understand it right, not all the ENT customers need those new Search features, so we might be able to delay the transition for customers who do need them. We believe the risk of bad performance cuts across all of the ENT customers./
 
-By coming to the table with options for near-term tradeoffs, the engineering leader is, again, helping the stakeholder face a genuine challenge -- while still creating space for the stakeholder to disagree or even pusback ("we think", "if we understand it right", "we believe").
+By coming to the table with options for near-term tradeoffs, the engineering leader is, again, helping the stakeholder face a genuine challenge -- while still creating space for the stakeholder to disagree or even pushback ("we think", "if we understand it right", "we believe").
 
 Now the engineering shifts to talking about the "next decision":
 
