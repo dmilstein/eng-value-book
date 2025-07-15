@@ -245,9 +245,9 @@ But, let me write a very important equation of my own, up on the chalkboard:
 
 Guesses + Math = Guesses
 
-The Math doesn't make the uncertainty go away.
+The Math doesn't make the guess go away.
 
-And, the guess, the *uncertainty*, about future profits will just about always be a dominating factor in the valuation of a company.
+And, the guess, the *uncertainty*, about future profits will just about always be the dominating factor in the valuation of a company.
 
 E.g. discounting cash flows to their net present value does matter, but that adjustment will get completely overwhelmed by some real world change in the market, like a competitor emerging who starts to steal all your best customers.
 
@@ -257,17 +257,17 @@ Those events, *if they happen*, will have a huge impact on the future stream of 
 
 But we can't say for certain whether or not they will happen.
 
-So, to come up with a value for the company that takes into account the *possibility* of such future events, we'll need to use the tools of *probability*.
+So, to come up with a value for the company that takes into account the *possibility* of such future events, we'll need to use the tools of probability.
 
 # That kind of *uncertainty* about future profits is at the absolute core of how companies are valued.
 
-We're going to abstract away all the details of the financial models, and define the value of a company as:
+Thus, we're going to abstract away all the details of the financial models, and define the value of a company as:
 
 *A potential investor's probabilistic estimate of the future profits of the company.*
 
 That's it. Inside that is where we'll find our key.
 
-** Probability: A State of Knowledge About the World
+** Probability As a State of Knowledge About the World
 
 The concept of "probability" is used in two related but subtly different ways.
 
@@ -285,11 +285,15 @@ Something which is *potentially knowable*, but which the person making the estim
 
 The profits a company will generate over the next 5 years can't be known perfectly -- but a smart investor can make an informed guess.
 
-Any investor doing so will estimate that overall profit stream based on *their current knowledge*.
+If, as per our example above, the investor learns that a new competitor has been spun up and is getting early traction, they'll factor that *information* into their estimate of future profits -- by reducing it.
 
-A company valuation represents a probabilistic estimate based on current knowledge.
+Conversely, if the investor learns that the company has shipped a crude version of a new product to a few early adopters, and those customers are banging down the door for more, then, based on that information, the investor would revise their estimate of future profits upward.
 
-If the investor were to acquire *new information* that suggested the company would reap greater profits in the future, they would be willing to *pay more* for a fraction of the company.
+We can thus refine our definition of company value even more, to:
+
+A potential investor's probabilistic estimate of the future profits of the company, *based on the information they currently have*.
+
+If an investor acquires *new information* that suggests the company will earn greater profits in the future, that investor would be willing to *pay more* for a fraction of the company.
 
 That information has *increased the company value*.
 
@@ -297,27 +301,9 @@ Not in some woo-woo theoretical way.
 
 At the heart of all the finance models, this is how *actual investors* -- purchasers of stock, VC's, private equity firms -- are establishing company valuations.
 
-Their models are making projections of future profits, based on what is currently known.
+Their models are making projections of future profits, based on what the investors currently do and do not know.
 
-# Actual company value.
-
-# What people pay for a share of stock, or what investors pay at a funding round *is* the value of the company. In the most direct and important way.
-
-
-# ...then we're talking about the most important estimate of value -- what that person is willing to pay for a share of stock or for a fraction of the company in a funding round.
-
-
-# # Insert a company-specific example
-
-# # Cut here
-
-# In each case, they would have more information, and could therefore make a more accurate, tighter probabilistic estimate.
-
-# [Once they "fully know", we feel uncomfortable calling it a probabilistic estimate, but it's really just a spectrum, not a binary difference]
-
-# In this way of understanding "probability", a probabilistic estimate is a statement of *knowledge* by some specific person, not a statement of *inherent variation* in the world.
-
-# Such a probabilistic estimate encodes a person having *some* information -- but not enough to always get the right answer.
+Preparing for a funding found *means* trying to assemble evidence that there is a high probability of future profits.
 
 ** The Economically Rational Investor
 # aka We're Going to Invent Someone Useful, Named Bertha
@@ -327,13 +313,25 @@ Their models are making projections of future profits, based on what is currentl
 
 If the value of a company is a probabilistic estimate of future profits...
 
-...made by a potential investor...
+...made by some potential investor...
 
-...based on their knowledge about the world...
+...based on their current knowledge about the world...
 
 ...then *who exactly is the investor?*
 
-We're going to invent one.
+This is an outstanding question you're asking!
+
+Different investors have *very* different information.
+
+Different investors also apply *very* different belief systems to that information, to develop estimates of future profits.
+
+Your CEO, for example, might know all about early adopter use of a new product, *and* might ascribe extremely high likelihood of future increases in profits, based on that (your CEO is, just maybe, a tad optimistic in that estimate?).
+
+Some external investor might not know about those early adopters, but might have taken a more clear-eyed and sober look at the competitive landscape than your CEO has -- and therefore might ascribe some real likelihood to profits going down.
+
+So, again, if we're trying to reason about company value by way of probability and information in the possession of some specific investor, what investor should we work with?
+
+*We're going to invent one.*
 
 And we're going to name her Bertha.
 
@@ -345,13 +343,13 @@ Bertha possesses two kinds of information:
 
  - Public information known by all other investors
 
-   # This can include both facts (e.g. your company sells a product to large municipalities), and also probabilities (e.g. the frequency at which software companies that sell to large municipalities suffer security breaches).
+   This can include both facts (e.g. your company sells a product to large municipalities), and also probabilities (e.g. the frequency at which software companies suffer security breaches).
 
  - Information known inside your company
 
-   # This can include both simple facts (e.g. the results of beta testing a new street sweeper product offering) and also probabilities (e.g. the frequency of downtime for a feed of key data about parking violations).
+   This can include both facts (e.g. the results of beta testing a new street sweeper product offering) and also probabilities (e.g. the frequency of downtime for a feed of key data about parking violations).
 
-As we dig into some ways that engineers can create value (and associated ways they can make that value visible), we'll be asking ourselves, steadily:
+As we dig into how engineers can create value, we'll be asking ourselves, steadily:
 
 "What would Bertha think?"
 
@@ -384,3 +382,5 @@ From the perspective of an engineer working at a company, the overall value of a
 Believe it or not, that statement, with its obsessively precise statements of knowledge, information and probability, holds the key.
 
 With it in hand, we're ready to start marching through different kinds of potential value -- and we'll find several where the engineers are perfectly placed to observe the potential for value, and therefore, perfectly placed to advocate for investment.
+
+We'll return to that in our next post, Turning Concerns Into Potential Value
