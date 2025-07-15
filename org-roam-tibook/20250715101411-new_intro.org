@@ -1,0 +1,125 @@
+:PROPERTIES:
+:ID:       454225CA-DD66-4ACA-B8B3-429F6551DBDC
+:END:
+#+title: New Intro
+Part of [[id:42FF29AB-A3A1-4307-85E5-69C08C7D4DB4][Reframe/Restructure]], integrating the core value prop from [[id:412A3285-6344-4D0E-9641-692417B5A540][New Structure]]
+* Introduction
+** Engineering Would Be So Easy Without These Pesky Humans
+
+# Engineering Would Be So Fun Without These Pesky Humans
+
+# As you rise up into some form of engineering leadership...
+
+# One of my favorite things to do is catch up with bright engineers who I knew early in their career arc.
+
+When I sit down to lunch or coffee with extremely bright engineers who are steadily advancing in their careers, being promoted, being given new responsibilities (maybe as managers, or maybe on the technical track), there's one topic that comes up over and over.
+
+It's *not* how to structure complex softare[fn:: I mean, we do sometimes end up talking about misguided moves to microservices, but that's just a thing].
+
+It's *not* how to increase their team's velocity. [agile rituals]
+
+It's *not* how to [have hard conversations, ...]
+
+It's how to work with the crazy, conflicting, impossible requests from their stakeholders.
+
+I want to be carefuly clear: these engineers succeeded and advanced *because* they  achievied real wins for their businesses.
+
+They don't *want* to "just do engineering".
+
+They want to make an impact.
+
+But, they find themselves struggling with:
+
+*** Demands for Long-Term Estimates
+/"Can your team commit to launching the new patient onboarding app by Q4?"/
+
+Q4 is 9 months away.
+
+The "new patient onboarding app" is, currently, a pile of dreams and half-built Figma wireframes.
+
+The Patient team has just been reorg'd... and it's not clear if the newly-hired mobile engineer on the team is going to work out.
+
+A key step in the onboarding flow depends on data from the patient's insurance company... who all seem to move at a slug-like speed designed to defeat urgency at all costs.
+
+What is an engineer supposed to do?
+
+ - *Push back and demand detailed requirements?*
+
+   Maybe this time, the Waterfall approach will work!
+
+   Spoiler: it won't.
+
+ - *Guess and pad?*
+
+   Talk a few engineers, come up with a reasonable guess of 4 months.
+
+   Then, to be safe, double that.
+
+   Spoiler: this isn't gonna go much better.
+
+ - *Cross your fingers and pray?*
+
+   "Sure, I think that should be doable."
+
+   Spoiler: you'll end up spending the next 9 months barely able to sleep, as that date becomes more and more impossible to achieve.
+
+ - *Try to explain the details to your stakeholder?*
+
+   /"You see, the patient ~m_id's~ are the key thing we need, and we have to get those from the HL7 files, but they seem to be encoded in different ways..."/
+
+   Spoiler: your stakeholder will, in the short term, glaze over, and, in the long term, look for a new engineering leader.
+
+# XXX HL7? L7? H7?
+
+*** Refusals To Accept Tradeoffs
+"We need to keep those enterprise customers happy, so find a way to do both."
+
+*** Lack of Engagemnt With Technical Risks
+"We can't slow down to deal with these database issues your team is worrying about."
+
+
+
+* Scraps
+** Name the crazy requests, instead of
+
+Maybe sketch in a few scenarios -- a demand for estimates; discovery of a blocker; need for technical investment; unwillingness to accept tradeoffs; ignoring of maintenance costs; denial of risks; how much staff do they need to hit a deadline?
+
+Unifying theme: feeling out of step with stakeholders
+
+Who are "stakeholders"? Product? Sales? Marketing? CEO? Yes. Product is special.
+
+Maybe name that pit in your stomach, of feeling like you're being pressured into promising the impossible, and are now on the hook, not for something hard you can accomplish, but for "nothing going wrong", even though vast parts of it are fully out of your hands. And your stakeholder doesn't seem to want to hear about any concerns or nuance.
+** Intro Chapter Beats <2025-07-15 Tue>
+*** Evoke The Experience of Misalignment
+Maybe sketch in a few scenarios -- a demand for estimates; discovery of a blocker; need for technical investment.
+
+Unifying theme: feeling out of step with stakeholders
+
+Who are "stakeholders"? Product? Sales? Marketing? CEO? Yes. Product is special.
+
+Maybe name that pit in your stomach, of feeling like you're being pressured into promising the impossible, and are now on the hook, not for something hard you can accomplish, but for "nothing going wrong", even though vast parts of it are fully out of your hands. And your stakeholder doesn't seem to want to hear about any concerns or nuance.
+
+*** Note The Underlying Challenge
+Distinctive things about software: 1) estimates are basically impossible, 2) systems require non-obvious investments to keep producing value.
+
+They want to make decisions, you can't give them the information they want. And also, you want them to invest in things they don't understand
+*** Sketch In Overall Solution (maybe as separate chapter w/ story)
+Turn the partnership into a collaborative series of decisions.
+
+But, need trust and shared understanding, so get there by iteratively building trust. (though, my current intro chapters doesn't seem to be carrying people through?)
+
+*** The Fundamental Cycle
+*** Map of Remainder of Book
+
+** From Before
+Some part of the core challenge facing the engineering leader is two deeply inter-related issues:
+
+ 1- Stakeholders want to make important decisions based on estimates from you... which feel impossible to give accurately
+
+ 2- Many of the key challenges, and thus key *decisions* as you go are, by default, completely hidden/opaque, so it feels like engineering has to internalize those risks (this covers both how to do the thing they're asking, but also things they're not even asking about, but which do need investment)
+
+So then my fundamental pitch is to, what, get your stakeholder into a *different* decision-making *loop*. But that takes time, and you have to build trust.
+
+I think I'm focusing in on, yes, that moment of being asked for estimates, for planning together. And sure, you can give some rough t-shirt sizing, but how are you supposed to be a responsible partner to the business?
+
+Sure, agile can help in theory, but how do you scale it up? You're not just responsible for tactically running agile well, you're responsible for the business outputs of that agile process.
