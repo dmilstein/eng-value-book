@@ -6,6 +6,8 @@ Part of [[id:42FF29AB-A3A1-4307-85E5-69C08C7D4DB4][Reframe/Restructure]], integr
 * Introduction
 ** Engineering Would Be So Easy Without These Pesky Humans
 
+# XXX Fix this intro graph
+
 When I sit down to lunch or coffee with extremely bright engineers who are steadily advancing in their careers, being promoted, being given new responsibilities (maybe as managers, or maybe on the technical track), there's one topic that comes up over and over.
 
 It's *not* how to structure complex softare[fn:: I mean, we do sometimes end up talking about misguided moves to microservices, but that's just a thing].
@@ -28,7 +30,7 @@ But, they find themselves struggling with:
 
 *** Demands for Long-Term Estimates
 
-Your PM comes back from a meeting with the executive team, looks down at their notes, and then asks:
+Your PM comes back from a meeting with the executive team, looks down at their notes, and then asks[fn:: Hopefully, your PM doesn't actually do this, but odds are that *someone* will, so we're going to have the PM stand in for that for now. Apologies to the PM's in the audience -- I promise you I'm on your side!]:
 
 *"Can your team commit to launching the new patient onboarding app by Q4?"*
 
@@ -50,75 +52,95 @@ How are you supposed to answer this question?
 
  - *Guess and pad?*
 
-   Talk to a few engineers, come up with a "reasonable" estimate, of say 4 months.
+   Talk to a few engineers about the "big rocks", come up with a "reasonable" estimate.
 
-   Then, to be safe, you double that, see that it's less than 9 months, and say a cautious "Yes".
+   Say that's 4 months -- o be safe, you double that, see that it's less than 9 months.
+
+   So you say a cautious "Yes".
 
    Spoiler: this isn't gonna go much better.
 
  - *Cross your fingers and pray?*
 
-   Just yolo it, and say /"Sure, let's go!"/
+   Just yolo it. /"Sure, let's go!"/
 
    Spoiler: you'll spend the next 9 months gradually sleeping less and less, as that date becomes more and more impossible to achieve.
 
  - *Explain the details to your stakeholder?*
 
-   You say, /"You see, the patient ~m_id's~ are the key thing we need, and we have to get those from the HL7 files, but they seem to be encoded in different ways..."/
+   /"You see, the patient ~m_id's~ are the key thing we need, and we have to get those from the HL7 files, but they seem to be encoded in different ways..."/
 
-   Spoiler: your stakeholder glazes over, and worst case, just repeats their demand/question.
+   Spoiler: your stakeholder glazes over, and worst case, just repeats their question/demand.
 
-This is in, some ways, the fundamental challenges in dealing with stakeholders.
+This is a challenge that I know super super well.
 
-We're going to talk in real detail about how to build a process of *shared decision-making*, so that you can partner with your stakeholder, to do what is best for your business... without having to commit to long-term delivery estimates.
+Maybe it's a struggle with your PM. Or maybe it's a struggle you and your PM have with some executive team stakeholer of key internal user.
 
-# XXX HL7? L7? H7?
+But it's a very real, very central challenge in collborating to develop software.
+
+Throughout this book, we're going to talk in real detail about how to build an *ongoing process of collaborative decision-making*.
+
+That will let you steadily partner *with* your stakeholder, to do what is best for your business... without having to commit to long-term delivery estimates.
 
 *** Constant Interruptions
 
-Your team is hard at work building the new patient onboarding app... but every other day seems to feature the CEO popping into the team's Slack channel, fresh off a conversation with customers, asking for an engineer to dig into some new issue, or demanding an update on progress, or wanting to relitigate the carefully hammered-out prioritization scheme.
+# XXX Should this be a different app?
 
-# Or wanting help with an enterprise sales convo, or wanting a "quick brainstorm" on level of effort [for some crazy speculative future thing unrelated to stated priorities]", or asking for an engineer to read some article about {AI, The Cloud, Crypto, <Insert new Buzzword>} so they can talk it out, I COULD GO ON ALL DAY.
+Your team is hard at work building the new patient onboarding app... but every other day seems to feature the CEO popping into the team's Slack channel, fresh off a conversation with customers, asking for an engineer to dig into some new issue, or demanding an update on progress, or wanting to relitigate the carefully hammered-out prioritization scheme.[fn::Or wanting help with an enterprise sales convo; or wanting to do a quick brainstorm on level of effort for some speculative future thing; or asking an engineer to read some article they just found about {AI, Blockhain, <Insert Buzzword Here>}; I COULD GO ON ALL DAY.]
 
 It's clear that you're going to miss your delivery target, and badly, if the team keeps on running around like chickens with their heads cut off.
 
-But your CEO gets extremely salty when you suggest that they stay out of the team's hair.
+Unfortunately, your CEO gets extremely salty when you suggest that they stay out of the team's hair.
 
 "I need to know what your team is doing to do my job," they say.
 
 Or, "I'm talking to customers, your team needs to know what I'm hearing from them."
 
-Or, even, "Look, I don't play the I'm-the-CEO card often, but I care so much about this new product, you just have to keep me in the loop."
+Or, even, "Look, I don't play the I'm-the-CEO card often, but I care so much about this new product, you have to keep me in the loop."
 
-Or, straight up gaslighting "Oh, come on, it's not that distracting. And the team likes me, I'm not a difficult CEO."
+# Or, straight up gaslighting "Oh, come on, it's not that distracting. And the team likes me, I'm not a difficult CEO."
 
 If I had a dollar for every time an engineer asked me "How do I get the {CEO, CPO, Head of Sales, VPE} to stop distracting my team?", I'd have, well, a lot of money.
 
-Oh, and a fun alternate version of this: the CEO is actually well-behaved, *wants* the team to cleanly focus on the new product and is even doing a reasonable job of waiting for the upcoming demo... but the team is stil distracted, because they're fielding a chaotic swirl of bugs, feature requests, and mini-incidents from the teams that work "close to the customer", e.g. Sales, Support, Success.
+A fun alternate version of this: the CEO is actually well-behaved, *wants* the team to cleanly focus on the new product and is even doing a reasonable job of waiting for the upcoming demo... but the team is *still* distracted, because they're fielding a chaotic swirl of bugs, feature requests, and mini-incidents from the Help Desk, the Sales Directors and the Customer Success Team.
 
-And the CEO isn't willing to push back, because they "care about the customer".
+But... the CEO isn't willing to disappoint the leaders of those teams, so they ask you to "find a way to do the most important work".
 
-But they still want to hold the team "accountable" to the product outcome!
+But they still want to hold the team "accountable" to the product outcome.
 
-Good times.
 
 *** Refusal to Engage In Tradeoffs
+
 Your team is some form of halfway there on the onboarding app when, as you'd feared, it turns out there are significant challenges in getting the patient ids from the insurance companies.
 
 In fact, the insurance companies are only going to be able to provide those ids for a small-ish subset of your full user base.
 
-For the rest, you'd need to back up and gather that info another way entirely -- the team has an idea of how to make it work, but it would mean both developing a relationship with a new data broker *and* overhauling a part of the ingest pipeline.
+For the rest, you'll need to back up and gather that info another way entirely -- the team has an idea of how to make it work, but it would mean both developing a relationship with a new data broker *and* overhauling a part of the ingest pipeline.
 
-Or you could back up and fundamentally change the planned design of the onboarding app, so that it didn't depend on that having that id up front.
+Or... you could back up and fundamentally redesign the onboarding app, so that it didn't depend on that having that id up front.
 
-Unfortuantely, when you try to talk this over with your {CEO, PM, Head of Sales}, they glaze over when you try to walk them through the details.
+When you try to talk this over with your {CEO, PM, Head of Sales}, they glaze over when you try to walk them through the details.
 
 "Look," they say, "we all agreed that we need to launch by the upcoming enrollment season. You're just going to have to find a way."
 
 And so you go away, a pit in your stomach. It's going to be engineering's fault, again.
 
-Fun alternate version: the tradeoff involves something the engineers are worried about, but the stakeholder doesn't know or care about.
+** The Underlying Challenge
+let me put some cards on the table.
 
+Despite my playful teasing of stakeholders in the above, the challenges in collaborating with them are driven by true, profound challenges in developing valuable software with a group of human beings.
+
+It's not because your stakeholder is somehow weak or foolish or limited that you have these challenges.
+
+It's because it's *genuinely hard for them to do their job*, when they're dependent on the creation of new software.
+
+
+
+We can't know enough up front to make our decisions early.
+
+Distinctive things about software: 1) estimates are basically impossible, 2) systems require non-obvious investments to keep producing value.
+
+They want to make decisions, you can't give them the information they want. And also, you want them to invest in things they don't understand
 
 * Scraps
 ** Name the crazy requests, instead of
