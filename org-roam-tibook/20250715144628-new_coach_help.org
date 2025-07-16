@@ -1,0 +1,69 @@
+:PROPERTIES:
+:ID:       B1C496D5-B3F9-45D8-8C62-735A09BD5675
+:END:
+#+title: New Coach/Help
+A part of [[id:42FF29AB-A3A1-4307-85E5-69C08C7D4DB4][Reframe/Restructure]].
+* My Own Pitch
+Hello,
+
+My name is Dan Milstein.
+
+I'm looking to talk with some engineers about the challenges they face in *working with stakeholders*.
+
+Where "stakeholders" could be: product managers, the CEO, internal power users, the sales or marketing teams, etc.
+
+I'm working on a book with ideas for *helping* engineers handle those challenges.
+
+Thus, I'm eager to talk to some folks on the ground, and see if and how they might find those ideas useful.
+
+I'd be looking to have a two-part convo:
+
+First, I want to hear about any specific challenges in working with stakeholders.
+
+Second, I'd share ideas/tactics/approaches that I've seen engineers use to face those challenges, and understand if/how they might help.
+
+If that sounds interesting, let me know and I can offer some times for a zoom call.
+
+Also: I'll list below some "typical" challenges, just to be clear on what I'm talking about.
+
+Thanks,
+
+Dan Milstein
+
+milstein.dan@gmail.com
+
+https://buildingandlearning.substack.com/
+
+
+Some Stakeholder Challenges
+
+  - Demands for "commitment" to long-term estimates
+
+  - Constant interruptions with new feature requests
+
+  - An unwillingness to engage in tradeoff discussions
+
+  - An unwillingness to hear concerns about looming technical problems
+
+* As Something That Could be Forwarded
+
+
+
+"My friend Dan is trying to learn more about the challenges engineers face across a variety of organizations, as they advance in their careers.
+
+Dan is an experienced and very strong eng leaders -- he's wanting now to talk to some folks he hasn't worked directly with.
+
+He's looking to dig into one of the below two topics.
+
+If you might find it valuable to talk out one of those two challenges, could I ask you a) to let me know which one, and b) if it'd be okay for me to email intro you to Dan?
+
+The two challenges are:
+
+ a) Working effectively with product/stakeholders
+
+E.g. building trust, breaking work down to offer meaningful increments, understanding how value is created in a business, advocating for either specific approaches or specific technical investments, pushing back without creating bad will etc.
+
+
+ b) Making time for important engineering work
+
+E.g. investing in speeding up deploys, improving operational resilience (monitoring, backup/restore, capacity planning), clearing up tech debt, etc.
