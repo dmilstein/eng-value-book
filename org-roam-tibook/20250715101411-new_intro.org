@@ -14,9 +14,11 @@ It's *not* how to speed up the pace of the team's delivery. [agile rituals]
 
 It's *not* how to have hard conversations with engineers on their team.
 
-It's how to work with the crazy, conflicting, impossible requests from their stakeholders.
+Nope.
 
-I want to be carefuly clear: these engineers have been succeeding and advancing *because* they achievie real wins for their businesses.
+It's about how to work with the crazy, conflicting, impossible requests from their stakeholders.
+
+I want to be carefully clear: these engineers have been succeeding and advancing *because* they achieve real wins for their businesses.
 
 They don't *want* to "just do engineering".
 
@@ -26,6 +28,8 @@ But, they find themselves struggling with:
 
 *** Demands for Long-Term Estimates
 
+Your PM comes back from a meeting with the executive team, looks down at their notes, and then asks:
+
 *"Can your team commit to launching the new patient onboarding app by Q4?"*
 
 Q4 is 9 months away.
@@ -34,11 +38,11 @@ The "new patient onboarding app" is, currently, a pile of dreams and half-built 
 
 The Patient team has just been reorg'd... and it's not clear if the newly-hired mobile engineer on the team is going to work out.
 
-A key step in the onboarding flow depends on data from the patient's insurance companies... who all seem to move at a slug-like speed designed to defeat urgency at all costs.
+A key step in the onboarding flow depends on obtaining data from the patient's insurance companies... who all seem to move at a slug-like speed designed to defeat urgency at all costs.
 
-What is an engineer supposed to do?
+How are you supposed to answer this question?
 
- - *Push back and demand detailed requirements?*
+ - *Demand detailed requirements?*
 
    Maybe this time, the Waterfall approach will work!
 
@@ -46,33 +50,74 @@ What is an engineer supposed to do?
 
  - *Guess and pad?*
 
-   Talk to a few engineers, come up with a reasonable guess of 4 months.
+   Talk to a few engineers, come up with a "reasonable" estimate, of say 4 months.
 
-   Then, to be safe, double that.
+   Then, to be safe, you double that, see that it's less than 9 months, and say a cautious "Yes".
 
    Spoiler: this isn't gonna go much better.
 
  - *Cross your fingers and pray?*
 
-   /"Sure, I think that should be doable."/
+   Just yolo it, and say /"Sure, let's go!"/
 
-   Spoiler: you'll end up spending the next 9 months gradually sleeping less and less, as that date becomes more and more impossible to achieve.
+   Spoiler: you'll spend the next 9 months gradually sleeping less and less, as that date becomes more and more impossible to achieve.
 
  - *Explain the details to your stakeholder?*
 
-   /"You see, the patient ~m_id's~ are the key thing we need, and we have to get those from the HL7 files, but they seem to be encoded in different ways..."/
+   You say, /"You see, the patient ~m_id's~ are the key thing we need, and we have to get those from the HL7 files, but they seem to be encoded in different ways..."/
 
-   Spoiler: your stakeholder will, in the short term, glaze over, and, in the long term, look for a new engineering leader.
+   Spoiler: your stakeholder glazes over, and worst case, just repeats their demand/question.
+
+This is in, some ways, the fundamental challenges in dealing with stakeholders.
+
+We're going to talk in real detail about how to build a process of *shared decision-making*, so that you can partner with your stakeholder, to do what is best for your business... without having to commit to long-term delivery estimates.
 
 # XXX HL7? L7? H7?
 
-*** Refusal To Accept Tradeoffs
-"We need to keep those enterprise customers happy, so find a way to do both."
+*** Constant Interruptions
 
-*** Lack of Engagement [Acceptance] With Technical Risks
-"Our business priorities are too urgent to to deal with the database right now. Hopefully next month things will calm down."
+Your team is hard at work building the new patient onboarding app... but every other day seems to feature the CEO popping into the team's Slack channel, fresh off a conversation with customers, asking for an engineer to dig into some new issue, or demanding an update on progress, or wanting to relitigate the carefully hammered-out prioritization scheme.
 
+# Or wanting help with an enterprise sales convo, or wanting a "quick brainstorm" on level of effort [for some crazy speculative future thing unrelated to stated priorities]", or asking for an engineer to read some article about {AI, The Cloud, Crypto, <Insert new Buzzword>} so they can talk it out, I COULD GO ON ALL DAY.
 
+It's clear that you're going to miss your delivery target, and badly, if the team keeps on running around like chickens with their heads cut off.
+
+But your CEO gets extremely salty when you suggest that they stay out of the team's hair.
+
+"I need to know what your team is doing to do my job," they say.
+
+Or, "I'm talking to customers, your team needs to know what I'm hearing from them."
+
+Or, even, "Look, I don't play the I'm-the-CEO card often, but I care so much about this new product, you just have to keep me in the loop."
+
+Or, straight up gaslighting "Oh, come on, it's not that distracting. And the team likes me, I'm not a difficult CEO."
+
+If I had a dollar for every time an engineer asked me "How do I get the {CEO, CPO, Head of Sales, VPE} to stop distracting my team?", I'd have, well, a lot of money.
+
+Oh, and a fun alternate version of this: the CEO is actually well-behaved, *wants* the team to cleanly focus on the new product and is even doing a reasonable job of waiting for the upcoming demo... but the team is stil distracted, because they're fielding a chaotic swirl of bugs, feature requests, and mini-incidents from the teams that work "close to the customer", e.g. Sales, Support, Success.
+
+And the CEO isn't willing to push back, because they "care about the customer".
+
+But they still want to hold the team "accountable" to the product outcome!
+
+Good times.
+
+*** Refusal to Engage In Tradeoffs
+Your team is some form of halfway there on the onboarding app when, as you'd feared, it turns out there are significant challenges in getting the patient ids from the insurance companies.
+
+In fact, the insurance companies are only going to be able to provide those ids for a small-ish subset of your full user base.
+
+For the rest, you'd need to back up and gather that info another way entirely -- the team has an idea of how to make it work, but it would mean both developing a relationship with a new data broker *and* overhauling a part of the ingest pipeline.
+
+Or you could back up and fundamentally change the planned design of the onboarding app, so that it didn't depend on that having that id up front.
+
+Unfortuantely, when you try to talk this over with your {CEO, PM, Head of Sales}, they glaze over when you try to walk them through the details.
+
+"Look," they say, "we all agreed that we need to launch by the upcoming enrollment season. You're just going to have to find a way."
+
+And so you go away, a pit in your stomach. It's going to be engineering's fault, again.
+
+Fun alternate version: the tradeoff involves something the engineers are worried about, but the stakeholder doesn't know or care about.
 
 
 * Scraps
