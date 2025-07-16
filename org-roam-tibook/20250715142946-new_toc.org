@@ -5,21 +5,22 @@
 A part of [[id:42FF29AB-A3A1-4307-85E5-69C08C7D4DB4][Reframe/Restructure]]
 * Table of Contents
 ** [[id:454225CA-DD66-4ACA-B8B3-429F6551DBDC][New Intro]]
-** Part I: Understand the Potential For Value
-*** Build Trust In a Loop
+** Part I: Build Trust and Alignment
+*** Build Trust Steadily
 *** [[id:D3158CC2-8A69-4097-B9ED-ED6BD855A7AD][Understand Value In Depth]]
-*** [[id:2EC03879-2A23-4546-BCB8-E9A464665A03][Turn Concerns Into Potential Value]]
 *** [[id:4FEA3BD5-8E85-4BB6-8F59-15FDE4F38572][Practice Tactical Empathy]]
-** Part II: Create An Increment of Value
+*** Understand Your Stakeholder In Depth
+*** Name a Strategic Intent
+** Part II: Offer Decisions, Options & Off-Ramps
+*** Identify Key Risks
+*** [[id:03D1870C-E583-4D5C-9589-5E0799793D48][Offer Decisions, Options & Off-Ramps]] (Develop Milestones Around Decisions)
 *** [[id:BB09F432-DEEB-4129-8F88-D23C86E8CEBB][Build Visibility First]]
-*** [[id:03D1870C-E583-4D5C-9589-5E0799793D48][Offer Decisions, Options & Off-Ramps]]
-*** Steer Into Risks
-*** [[id:4D62F0DE-2862-45F3-97EE-6AFED5382F2C][Use Storytelling To Celebrate Wins]]
+*** [[id:4D62F0DE-2862-45F3-97EE-6AFED5382F2C][Use Storytelling To Celebrate Wins]] (To Share Progress And Wins)
 *** [[id:EFA43963-DB19-4EA6-8EF3-4F4376AED1F1][A Series of Story Makeovers]]
+*** Convert Interruptions Into Cadenced Decisions
 ** Part III: Advocate For Technical Investments
 *** Defining Tech Investments
-*** Typical Forms of Value
+*** [[id:2EC03879-2A23-4546-BCB8-E9A464665A03][Turn Engineering Concerns Into Potential Value]]
 *** [[id:3DE23585-34F0-4C88-A16B-4558ACC45C99][Make Your Post-Mortems an Act of Visibility]]
 *** [[id:22032FA8-F94E-492F-8138-7E1859B3F0CA][Assign Ownership to Align Costs With Benefits]]
-*** [[id:5AF07DBC-C0BB-4832-A900-CD261C4E90BA][Weave Tech Investments Into Your Career Ladder]]
 *** [[id:722C702D-A6C2-4A51-AB62-515CE8144AA2][Climb the Ladder of Commitment]]
