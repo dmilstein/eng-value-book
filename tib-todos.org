@@ -4,7 +4,10 @@ Yes, I can, apparently.
 
 * TIB Inbox                                       :inbox:
 *
+** TODO "Transparency and Control"
+** TODO Ask Edmund: the questions about a stakeholder he did
 * [[id:42FF29AB-A3A1-4307-85E5-69C08C7D4DB4][Reframe/Reorg]]                                   :gtasks:
+** TODO Add a pain around interruptions?          :curweek:pom:
 ** DONE Ask Edmund: reframe as "How To Work With Stakeholders"? :pom:
 CLOSED: [2025-07-10 Thu 06:42]
 Like, that's sort of what it's becoming? Is *that* the urgent pain?
@@ -14,10 +17,11 @@ CLOSED: [2025-07-14 Mon 11:30]
 CLOSED: [2025-07-15 Tue 08:00]
 ** DONE Turn structure into draft ToC             :curweek:pom:
 CLOSED: [2025-07-15 Tue 14:40]
-** TODO Revise ToC                                :curweek:
+** DONE Revise ToC                                :curweek:
+CLOSED: [2025-07-16 Wed 10:32]
 ** DONE Spike on new intro                        :curweek:pom:
 CLOSED: [2025-07-15 Tue 12:46]
-** TODO Revise new intro                          :curweek:
+** TODO Revise new intro                          :curweek:pom:
 ** TODO Make "estimates" a central driver of pain?
 ** TODO Experiment w/ EWJ's summary?
 Half of what they asked for we never finished, half of what remained was never used.
@@ -106,15 +110,19 @@ CLOSED: [2025-07-08 Tue 11:44]
 ** DONE Review structure of each makeover
 CLOSED: [2025-07-08 Tue 11:24]
 * [[id:49E66E86-CE83-447E-87C2-3BFF3D8FE42E][Teach/Coach]]                                     :gtasks:
-** TODO Draft new email re coaching/helping       :curweek:
-Review the email I wrote EWJ
-** TODO Make list of people to reach out to       :curweek:
-** TODO Reach out to people                       :curweek:
+** DONE Draft email for Edmund, asking for intros :curweek:pom:
+CLOSED: [2025-07-16 Wed 10:11]
+** DONE Ask Edmund for intros                     :curweek:pom:
+CLOSED: [2025-07-16 Wed 10:19]
+** TODO Draft new email re coaching/helping
+** TODO Make list of people to reach out to
+** TODO Reach out to people
 ** TODO Write template asking for connections to coach
 ** TODO Do a timeboxed skim through LinkedIn contacts for Part 2 coaching
 Can I just export my list of contacts
 * [[id:E0ADBF07-90B8-4C37-81C0-96A428020F5E][Substack]]                                        :gtasks:
-** TODO Simple, dumb idea for organizing posts    :curweek:pom:
+** DONE Simple, dumb idea for organizing posts    :curweek:pom:
+CLOSED: [2025-07-15 Tue 14:46]
 Obvs, a folder with named files. Still in org-roam? Or is that the whole point, I move out of org-roam, and then my links aren't weirdly wrong? Yes, do it.
 ** TODO Draft next post                           :curweek:
 ** TODO Schedule next post                        :curweek:
