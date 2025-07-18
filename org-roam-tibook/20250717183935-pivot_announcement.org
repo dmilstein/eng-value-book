@@ -1,0 +1,89 @@
+:PROPERTIES:
+:ID:       D18EFC22-62B7-47D0-9167-32DA204B845C
+:END:
+#+title: Pivot Announcement
+* A Modest But Real Pivot For The Book In Question
+
+tl;dr -- I'm changing the name of my book!
+
+The (provisional) new name is:
+
+<insert photo>
+
+How To
++Survive+
++Manage+
++Ignore+
+Partner With Stakeholders:
+A Guidebook For Engineers
+
+Why the change?
+
+Well, all along, a core theme of the book has been how to establish a high-trust, effective partnership with stakeholders, including all of:
+
+ - How to build trust and rapport
+
+ - Understanding how value is created in a business
+
+ - Breaking work down to offer meaningful increments
+
+ - How to advocate effectively
+
+ - How to push back without creating bad will
+
+I've just been getting into all those topics through the *lens* of technical investments.
+
+But the more that I wrote, the more that it felt like the overall story I was telling was broader.
+
+I also realized, as I talked with more engineers, and dug into early beta reading feedback, that I was hearing engineers *name* working with stakeholders as a core challenge of their job -- and that "tech debt" was (rightfully!) a more minor concern
+
+(I still believe that *Technical Investments* are a core responsibility of an engineering team... but the *problem* that tech investments help solve is how to work effectively with stakeholders)
+
+This change in title will necessitate some restructuring of what I've written so far.
+
+But I'm excited about this shift!
+
+I'm changing the title and restructuring the book to speak directly to some of the core challenges I believe engineers struggle with, with their stakeholders, e.g.
+
+  - Demands for "commitment" to long-term estimates
+
+  - Constant interruptions with new feature requests
+
+  - An unwillingness to engage in tradeoff discussions
+
+  - An unwillingness to hear concerns about looming technical problems
+
+A few more details about how I got here below, but I wanted to:
+
+ a) let you all know this and
+
+ b) say that I'm *not* going to be sharing a full-sized post this week.
+
+Instead, I'm focusing on the above-mentioned restructuring and reworking.
+
+But I expect to be back, sharing sprawlingly long mixtures of abstract thinking, dramatic reenactments of everday engineering life and abuse of footnotes things on Substack very soon!
+
+This will necessitate some restructuring and reworking.
+
+But, honestly, not that much!
+
+
+*Details*
+
+As I've shared before, the working title has been:
+
+*Tech Investments, Not Tech Debt: How To Make Time For Engineering Work That Matters*
+
+Once I had anything even vaguely resembling a potentially useful draft, I did what I +recommend+force all of my teams to do:
+
+I shipped something uncomfortably early.
+
+And let's be clear, this was quite uncomfortable! "Wait," said the voice inside my head, "you can make it so much better! Why ship yet?"
+
+Luckily, I've learned to not trust that voice, and I had committed to friends to ship early to beta readers.
+
+As I told some non-tech friends, ship when you're still embarassed means you discover problems you weren't even thinking about, and remember strengths you'd completely forgotten.
+
+And, lo, that's what happened to me!
+
+In the process of reaching out for beta readers, and talking to people, I came to realize that, in linking my book to "tech debt", I was talking about a vitamin, not a painkiller.
