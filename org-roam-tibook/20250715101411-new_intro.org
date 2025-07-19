@@ -160,8 +160,6 @@ Distinctive things about software: 1) estimates are basically impossible, 2) sys
 
 They want to make decisions, you can't give them the information they want. And also, you want them to invest in things they don't understand
 
-* Scraps
-
 ** Two Fundamental Challenges
 
 Unfortunately, we *can't* give them what they're asking for -- reliable long-term estimates for the creation of new software are just a dream within a dream.
@@ -243,21 +241,40 @@ Let me tell a story.
 
 A business that depends on the creation of software generally has to do something *with* that software in order to increase profits.
 
-The CEO can't just wave their hands over a pile of bits [a blinking command line cursor] [that implement some requirements] and have money pour into a cauldron {chest, bucket, vat} in front of them [fn:: except, um, that kind of is my mental model of tweaking ad algorithms at Google?].
+The CEO can't just wave their hands over a pile of bits [a blinking command line cursor] [that implement some requirements] and have money pour into a cauldron [chest, bucket, vat] in front of them [fn:: except, um, that kind of is my mental model of tweaking ad algorithms at Google?].
 
 Some examples:
 
  - Marketing might need to generate demand for a new product, before it can be sold
 
-   As a part of this, they tend to want to ask the engineers what the product will actually, y'know, *do*.
-
  - The Sales Team might need to develop a new demo and playbook
 
-   As a part of this, they tend to want to ask the engineers what the product will actually, y'know, *do*.
+ - An internal operational team might need to develop a migration plan for moving to a new system
 
- - An internal operational team might need to migrate to a new system
+All of these kinds of efforts take a lot of preparation and planning.
 
-   As a part of this, they tend to want to ask the engineers what the product will actually, y'know, *do*.
+If that preparation and planning can't start until the software is well and truly finished, the company is giving up a ton of profit opportunity.
+
+(Both because of the delay in achieving revenue or savings, but *also* because, here in reality, all of the above things need to happen iteratively, so it's not a one-time cost, it's a multiplier forever)
+
+If it's going to take a team a year to build something, sales, marketing and/or operational leadership will want to start planning, *way in advance* of the year being up, on how to take advantage of the new software to increase profits.
+
+So they ask for an estimate partly so they can "freeze" "what the software will be", and those other teams can start their work.
+
+Again, the overall answer here is simple. The business as a whole, not just the engineers, face a tradeoff:
+
+ - Wait until the software is fully finished, and pay a high delay cost (and a high missed feedback cost)
+
+ - Restructure the work of the other teams to collaborate much earlier with engineering and product, to start their work before the product is fully finished
+
+So so so easy to say, and yet so so so hard to do.
+
+
+
+As a part of this, they tend to want to ask the engineers what the product will actually, y'know, *do*.
+
+* Scraps
+
 
 
 Unfortunately, the stakeholder who is +demanding+ asking for an estimate likely believes that those things *require a lot of lead time* [need to be started well in advance, need to work backwards from a fixed date in the future].
