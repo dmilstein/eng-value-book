@@ -4,9 +4,11 @@
 #+title: Pivot Announcement
 * A Modest But Real Pivot For The Book In Question
 
+Apparently This Whole Talk To Customers Thing Is a Good Idea?
+
 tl;dr -- I'm changing the name of my book!
 
-The (provisional) new name is:
+The (new) provisional title is:
 
 <insert photo>
 
@@ -17,11 +19,17 @@ How To
 Partner With Stakeholders:
 A Guidebook For Engineers
 
-Why the change?
+The old (provisional) title was:
 
-Well, all along, a core theme of the book has been how to establish a high-trust, effective partnership with stakeholders, including all of:
+Tech Investments, Not Tech Debt
 
- - How to build trust and rapport
+How To Make Time For Engineering Work That Matters
+
+** Why The Change?
+
+Since the moment I started writing, I've been talking about how to establish a high-trust, effective partnership with stakeholders, including all of:
+
+ - Tactics for building trust and rapport
 
  - Understanding how value is created in a business
 
@@ -35,55 +43,72 @@ I've just been getting into all those topics through the *lens* of technical inv
 
 But the more that I wrote, the more that it felt like the overall story I was telling was broader.
 
-I also realized, as I talked with more engineers, and dug into early beta reading feedback, that I was hearing engineers *name* working with stakeholders as a core challenge of their job -- and that "tech debt" was (rightfully!) a more minor concern
+I also realized, as I talked with more engineers, and dug into early beta reading feedback, that I was hearing engineers name "working with stakeholders" as a core challenge of their jobs -- and that "tech debt" was (rightfully!) a more minor concern.
 
-(I still believe that *Technical Investments* are a core responsibility of an engineering team... but the *problem* that tech investments help solve is how to work effectively with stakeholders)
+(To be clear, I still believe that *Technical Investments* are a central responsibility of an engineering team... but the *problem* that they help solve is a part of working effectively with stakeholders)
 
-This change in title will necessitate some restructuring of what I've written so far.
+This change will necessitate some restructuring of what I've written so far.
 
-But I'm excited about this shift!
+In order to fully focus on that restructuring, I'm *not* going to be sharing a full-sized post this week.
 
-I'm changing the title and restructuring the book to speak directly to some of the core challenges I believe engineers struggle with, with their stakeholders, e.g.
+But I expect to be back very soon, sharing sprawlingly long mixtures of abstract thinking, dramatic reenactments of everyday engineering life and cheerful abuse of footnotes.
 
-  - Demands for "commitment" to long-term estimates
+Until then, I will add a pair of teasers.
+
+** Teaser 1: What Are These "Stakeholder Challenges" You Speak Of, Dan?
+
+Stakeholder friends in the audience, cover your ears for a sec.
+
+First off, I firmly believe that most stakeholders -- be they product managers, or a CEO, or the head of sales, or some powerful internal user -- well and truly want the overall business to succeed.[fn:: I mean, they *also* want to personally succeed, I'm not naive or something, duh. But their fondest hope is that engineers will offer them a way to achieve *both* overall business success and their own personal goals. The wise engineer will therefore ensure that they understand both of those aspirations, it's almost like someone should write a book or something.]
+
+*And* they want to be, well, *reasonable* in what they ask of engineering.
+
+In fact, I'll go further. They deeply believe they *are* being reasonable in what they ask of engineering.
+
+And yet... *somehow*, engineers end up experiencing:
+
+  - Demands for commitment to long-term estimates
 
   - Constant interruptions with new feature requests
 
-  - An unwillingness to engage in tradeoff discussions
+  - A painful refusal to engage in tradeoff discussions
 
-  - An unwillingness to hear concerns about looming technical problems
+  - An unwillingness to face looming technical problems
 
-A few more details about how I got here below, but I wanted to:
+If those challengs sound at all familiar, stay tuned!
 
- a) let you all know this and
+I do, in fact, have a battle-tested plan for handling these challenges, and getting to a place of true, rewarding partnership.
 
- b) say that I'm *not* going to be sharing a full-sized post this week.
+** Teaser 2: Launching Early Is Super Valuable, Film At Eleven
 
-Instead, I'm focusing on the above-mentioned restructuring and reworking.
+For years and years, I've strongly recommended / forced my teams to ship new products to customers at an *uncomfortably early* stage in their development.
 
-But I expect to be back, sharing sprawlingly long mixtures of abstract thinking, dramatic reenactments of everday engineering life and abuse of footnotes things on Substack very soon!
+"If you're not embarrassed by your product, you've waited too long" (I think that's Reid Hoffman, should I look up his politics now, or am I gonna be horrified, and feel like when we all quote Donald Rumsfeld about unknown unknowns, sigh)
 
-This will necessitate some restructuring and reworking.
+Fortunately, I've done this enough with my teams, that I was able to force myself to do it.
 
-But, honestly, not that much!
+Once I had anything even vaguely resembling a potentially useful draft, I made myself ship it, in the form of sharing a very rough draft with beta readers.
 
+It was, as is always the case, *genuinely* uncomfortable.
 
-*Details*
+It's not fun being embarrassed.
 
-As I've shared before, the working title has been:
+"Wait," said the voice inside my head, "you can make it so much better! Just take a bit more time to clean up the intro, and fix the links, and review some transitions one more time."
 
-*Tech Investments, Not Tech Debt: How To Make Time For Engineering Work That Matters*
+Luckily, I've learned to not trust that voice, so I sort of closed my eyes and hit send on the beta invites.
 
-Once I had anything even vaguely resembling a potentially useful draft, I did what I +recommend+force all of my teams to do:
+And, lo, as has happened for my teams over and over, I learned something that I wasn't expecting, which was *insanely* valuable.
 
-I shipped something uncomfortably early.
+Specifically, it was through the process of reaching out for beta readers, and talking to people, that I came to realize that, by linking my book to "tech debt", I was talking about a vitamin, not a painkiller.
 
-And let's be clear, this was quite uncomfortable! "Wait," said the voice inside my head, "you can make it so much better! Why ship yet?"
+Even though, within the book, I was in fact, speaking to some of the most fundamental challenges engineers struggle with.
 
-Luckily, I've learned to not trust that voice, and I had committed to friends to ship early to beta readers.
+Since I very much want people to *buy* and then *read* the book, I should maybe name those challenges on the cover or something?
 
-As I told some non-tech friends, ship when you're still embarassed means you discover problems you weren't even thinking about, and remember strengths you'd completely forgotten.
+As with most product discoveries, this feels blindingly obvious... after the fact.
 
-And, lo, that's what happened to me!
+Everyone, I have this awesome new idea!
 
-In the process of reaching out for beta readers, and talking to people, I came to realize that, in linking my book to "tech debt", I was talking about a vitamin, not a painkiller.
+Ship early and learn from reality!
+
+Trademark coming soon!
