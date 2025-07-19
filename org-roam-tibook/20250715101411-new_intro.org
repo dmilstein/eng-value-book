@@ -162,23 +162,88 @@ They want to make decisions, you can't give them the information they want. And 
 
 * Scraps
 
-** The Fundamental Challenge
+** Two Fundamental Challenges
+
+To understand how to help our stakeholders succeed, let's dig into why stakeholders are asking for estimates in the first place.
+
+Unfortunately, we *can't* give them what they're *asking for* -- reliable long-term estimates for the creation of new software are just a dream within a dream.
+
+But, if we can be creative (spoiler: we can!), we can find ways to address their *underlying needs* -- without providing reliable estimates.
+
+I can name at least two *very* good reasons why stakeholders *ask for* long-term estimates.
+
+As in, these are *genuine needs* of the business.
+
+ 1) *Making decisions* about which of several opportunities to invest in
+
+ 2) *Coordinating* long lead time work to turn delivered software into profits
+
+We'll talk in real detail about each of these, throughout the book, but I'll offer a high level summary of what I mean, and my proposed solution for each.
+
+** Selecting Among Investment Opportunities
+
+In some sense, this is easy:
+
+ - Be clear about the key unknowns
+
+ - Sequence your work to turn up information about those key unknowns, right away
+
+ - Be ready to, *as a business*, pivot to a new opportunity, if what you learn changes the economic return
+
+But what does all that mean?
+
+Let me tell a story.
+
+Imagine that your team is being asked for an estimate about the time to deliver a new product in time for the big annual customer event next year.
+
+Say there are two potential product opportunities -- one a new payments integration that uses AI to automatically categorize revenue, the other an AI-enabled PTO auto-responder that embeds a jingle in the auto-response emails[fn:: What, it's partway through 2025, I'm not legally allowed to brainstorm product features that don't include AI].
+
+You have 10,000 current customers.
+
+For Product Opportunity A, your sales teams estimates that your company will be able to charge $100/year for it.
+
+For Product Opportunity B, they estimate that your company will be able to charge only *$50/year* for it.
+
+They're trying to decide which to work on -- and, *as a key part of that*, they're trying to understand how much effort it will take.
+
+Let's say that the engineering team thinks the effort is likely to be similar across the two.
+
+Then, of course, the stakeholder will take Option A, because it generates twice the revenue.
+
+The eng team knows there's a specific risk for A -- if they do that work first, the business still has time to change their mind.
+
+That's the whole trick!
+
+But that requires:
+
+ - A willingness and cadence for changing decisions
+ - The eng team surfacing risks
+ - The eng team generating information about risks early
+
+And also, it's not just the decision -- there's also coordination.
+
+
+
+** Coordinating Work To Turn Delivered Software Into Profits
+
 A business that depends on the creation of software generally has to do something *with* that software in order to increase profits.
 
 The CEO can't just wave their hands over a pile of bits [a blinking command line cursor] [that implement some requirements] and have money pour into a cauldron {chest, bucket, vat} in front of them [fn:: except, um, that kind of is my mental model of tweaking ad algorithms at Google?].
 
 Some examples:
 
- - Marketing might need to *generate demand* for a new product, before it can be sold
+ - Marketing might need to generate demand for a new product, before it can be sold
 
- - The Sales Team might need to *learn how to sell* a new product or feature
+   As a part of this, they tend to want to ask the engineers what the product will actually, y'know, *do*.
 
-   What is the most compelling way to position the value proposition, what supporting materials do they need, how can the create an effective demo.
-product to customers.
+ - The Sales Team might need to develop a new demo and playbook
 
- - For internal, or "operational" software (e.g. to run a warehouse, or to support a data ingestion team), migrate the operation from one system to another
+   As a part of this, they tend to want to ask the engineers what the product will actually, y'know, *do*.
 
-   If you've never led such a migration, just assume it's a lot more involved and slow than you can even imagine.
+ - An internal operational team might need to migrate to a new system
+
+   As a part of this, they tend to want to ask the engineers what the product will actually, y'know, *do*.
+
 
 Unfortunately, the stakeholder who is +demanding+ asking for an estimate likely believes that those things *require a lot of lead time* [need to be started well in advance, need to work backwards from a fixed date in the future].
 
