@@ -1,0 +1,182 @@
+* Turn "Engineering Concerns" Into Potential Value, I
+
+# Getting a Handle on Interruptions
+
+# Hmm, When You Put It That Way, That Does Sound Pretty Important
+
+# Can Bertha Help Tame Interruptions?
+
+Now, armed with a fuller understanding of value [link], we're ready to look at issues engineers tend to be concerned about.
+
+We'll look for ways to turn those from vague worries into potentially valuable *investment opportunities*.
+
+We'll ask: What Would Bertha (our economically rational investor) Say?
+
+Then, we'll share ideas on how you to make the potential value *visible* to stakeholders.
+
+Today, we'll dig into one such challenge, which engineers might experience as:
+
+** "I Can't Find a Moment to Think"
+
+Wouldn't it be great if your engineers had time to, say, *do software engineering*?
+
+But instead, every day they face a relentless stream of *interruptions* from people across your company:
+
+ - *People who work directly with customers pinging them about bugs and feature requests (and bugs that are actually feature requests)*
+
+   Every one naturally at the highest priority!
+
+ - *Follow ups and status checks and nudges about those bugs and feature requests (and bugs that are actualy feature requests)*
+
+   And I have some bad news.
+
+   People who work in sales are often very good at advocating for issues that affect "their" customers.
+
+   I mean, look, they didn't get into sales because they're *bad* at persuading people to do things![fn:: I once asked my friend Marion, who was running sales at Ellevation, what it's like to interview sales people, who are, by their very nature, skilled at presenting themselves optimally, and she rolled her eyes and said "Oh my god it's the worst".]
+
+ - *Weird bits of operational work only engineering can do*
+
+   The still-largely-manual work to set up data integrations for new customers, or the monthly data pull for the BI reports.
+
+Worse yet, the interruptive requests often fall most heavily on your most experienced engineers (because they're the ones who know how to solve all the wonkiest problems)
+
+And that's *especially* true if those engineers suffer from the misfortune of *being nice*.
+
+(I have vivid memories of standing by Tom Hare's desk at Wayfair, watching just a parade of people from the operations teams "wander by", each asking for Tom's help to fix some weird edge case. Tom was such a good engineer! And so nice!).
+
+# That said, he did end up marrying one of those ops stakeholders -- hi Lauren! -- so I guess that worked out okay in the end?
+
+*** Potential Value: Reduce Opportunity Cost *And/Or* Improve Operational Outcomes
+
+This situation isn't just *unpleasant* for the engineers.
+
+It may represent a serious *opportunity cost* for the company as a whole.
+
+As in, there might be something else, that the engineers *could* be doing, which would create *more* overall company value than their current work.
+
+But, and this is important, just because the current work is interruptive and not much fun, *doesn't mean it's not creating value*.
+
+So we're going to dig in, with Bertha at our side, to understand the situation in more detail -- and then be ready to advocate.
+
+Let's imagine the engineers on the team spend, among them, a few dozen hours each month doing the following two "distracting" things:
+
+ 1) Fixing edge case bugs for a small set of extremely vocal customers
+
+ 2) Setting up data integrations for the customers who onboard in that month
+
+What is the value being created by each of these activities?
+
+aka, what is the effect on Bertha's probabilistic estimate of future profits?
+
+That is what we'll have to understand if we want to make a case for the engineers doing *something else*.
+
+Let's take them each in turn.
+
+*** 1) Fixing Edge Case Bugs
+
+Aka, Sometimes We Should Just Let the Wheel Squeak
+
+Let's imagine that the engineers and/or their PM's do some investigation and discover the following things are true:
+
+ - These customers represent a tiny fraction of the company's revenue
+
+ - They're not particularly *representative* customers
+
+   A common case for this is that they were acquired *early* in the company's history, but they're not actually in the key segment. But they have high expectations of responsiveness.
+
+ - They are very unlikely to cancel -- although they're *always* complaining about bugs, but none of the customers have left in a long time.
+
+In this case, it ;
+
+# Likely nearly purely opp cost, key is how to make this visible, answer = a) lightweight tracking of time, then use that to b) set up triage to bring it out in the open, and c) force a one-time budget or cost.
+
+
+*** 2) Setting Up Data Integrations for New Customers
+
+aka, Enabling Customers To Use The Product They Paid For
+
+Let's imagine that the investigation led to finding that there genuinely is no other way.
+
+If they *didn't* do this, there would be some likelihood
+
+Say that decreases the likelihood of those customers churning by some amount. Then we can look at the value of the
+
+If, instead, theywhen they could have been developing a product that opens up a new segment for the whole business... that might represent a loss of overall company value (where, again, value is a probabilistic estimate of future profits).
+
+But, of course, that tends to be completely invisible to stakeholder and decision-makers.
+
+There are two distinct ways that Bertha understands the potential for value here, and thus two distinct forms of visibility.
+
+First, Bertha suspects there might well be value for the company if the engineers could spend *less time* on all this interruptive work.
+
+In this belief, she is likely heartily joined by both the engineers *and* their immediate stakeholders.
+
+Spending less time on reactive work could free the engineers up to work on things that would be more valuable (hopefully) and more fun (definitely).
+
+# more fun for them and more in keeping with the product team's immediate goals.
+
+If that "other" work were likely to lead to greater profits in the future, Bertha will happily ascribe real value to replacing the reactive work with that "something else".
+
+Visibility on this "engineering capacity" front is fairly straightforward: you want to simply make it clear *how much time* the engineers are spending on operational work (with some multiplier for interruptions, since they blow up focus).
+
+Just viewing the capacity consumed by reactive work can sometimes motivate a real investment to speed up or fully eliminate interruptive tasks the engineers are currently responsible for.
+
+You can build visibility into the "capacity spent on reactive work" by some combo of:
+
+ - Surveying engineers on a regular basis as to how much time they're spending on the reactive work
+
+ - Tagging and tracking tickets
+
+ - Shadowing an engineer for a day or two
+
+ - Setting up a formal triage process to bring reactive work out into the open
+
+All of that can help create enough visibility to make a case for investment, in particular if there's a way to *reduce* the reactive work.
+
+However, that's not the whole story.
+
+The reactive work, thankless though it may be, is very likely creating *some* form of value for the business.
+
+Bad news: *Bertha cares about that value, too.*
+
+If fixing bugs, or restoring the site from outages, or correcting data issues in production keep customers renewing, then Bertha will not be happy if your team simply stops doing that work.
+
+The trick here is to spend a bit of time understanding the *positive* value of what your team perceives as reactive work.
+
+If you can really dig in on that side, you might be able to find creative ways to restructure how much work gets to your team, or make a real investment to eliminate a whole class of issues at a deeper level, or even, propose moving the work *off your team* altogether and finding a home for it somewhere else in the organization.
+
+Those kind of major investments or shifts can be economically rational, but those aren't easy pitches to make, unless you can show the *positive* value to the business, *beyond* just saving time for the engineers.
+
+E.g. say your engineers spend time every sprint helping set up data import configurations for new customers.
+
+Even if they were to invest in better tooling, they can't automate it all away, because setting up each new customer requires carefully reviewing sample data files, testing out imports and diagnosing failures, helping the customers fix subtle issues on *their* end, etc.
+
+Imagine you were go to an Important Person at your company and say, "We'd like create a dedicated Data Operations team"
+
+And the Important Person looks august, and says, "Okay, why?"
+
+And you say, "So my engineers can spend less time on new customer onboarding."
+
+Here's a problem: there is a risk that Important People will hear that as a form of *complaining*.
+
+Everyone's job has certain unpleasant and/or boring parts. Most Important People have developed the skill of ignoring complaints that they hear as: "Part of my job isn't fun, can I stop doing that part?"
+
+You really don't want them to hear this suggestion in that light.
+
+You might be able to make a more effective case by saying something like:
+
+/"It currently takes three weeks to onboard new customers. Delays in the back and forth to setup data imports are the main driver./
+
+/That work is currently being handled by the engineers, but:/
+  /a) Engineers are expensive, and/
+  /b) it often takes a few days for an engineer to find time to review a question from customers, which adds a lot of delays and frustrates customers./
+
+/We'd like to talk about finding a better home for that work, so we can both improve onboarding times and reduce costs./
+
+/Our early estimate is that 70% of the work can be done by the more technical members of the help desk, if we can carve out time for them, and the engineers can build some basic tooling."/
+
+That's speaking to potential benefits -- both a better customer experience, but also lower costs and better outcomes *for the operation itself*.
+
+There's a decent chance you can (and should) loop in your product team to help build this kind of case. It's usually not too hard to get their help, because they would love to have more of "their" engineers time devoted to "their" work.
+
+There are other variations on this game plan you can run, be it setting up a regular collaborative triage process, or breaking off a separate platform team that owns a particularly troublesome bit of functionality (e.g. authentication and authorization is a classic), etc. We'll touch on a couple in the Case Book of Tech Investments later.
