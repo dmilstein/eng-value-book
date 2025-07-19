@@ -142,7 +142,7 @@ And so you go away, a pit in your stomach. It's going to be engineering's fault,
 ** The Underlying Challenge
 let me put some cards on the table.
 
-Despite my playful teasing of stakeholders in the above, the challenges in collaborating with them are driven by true, profound challenges in developing valuable software with a group of human beings.
+I believe that the challenges in collaborating with stakeholders are driven by true, profound challenges in developing software for a business.
 
 It's not because your stakeholder is somehow weak or foolish or limited that you have these challenges.
 
@@ -161,6 +161,42 @@ Distinctive things about software: 1) estimates are basically impossible, 2) sys
 They want to make decisions, you can't give them the information they want. And also, you want them to invest in things they don't understand
 
 * Scraps
+
+** The Fundamental Challenge
+A business that depends on the creation of software generally has to do something *with* that software in order to increase profits.
+
+The CEO can't just wave their hands over a pile of bits [a blinking command line cursor] [that implement some requirements] and have money pour into a cauldron {chest, bucket, vat} in front of them [fn:: except, um, that kind of is my mental model of tweaking ad algorithms at Google?].
+
+Some examples:
+
+ - Marketing might need to *generate demand* for a new product, before it can be sold
+
+ - The Sales Team might need to *learn how to sell* a new product or feature
+
+   What is the most compelling way to position the value proposition, what supporting materials do they need, how can the create an effective demo.
+product to customers.
+
+ - For internal, or "operational" software (e.g. to run a warehouse, or to support a data ingestion team), migrate the operation from one system to another
+
+   If you've never led such a migration, just assume it's a lot more involved and slow than you can even imagine.
+
+Unfortunately, the stakeholder who is +demanding+ asking for an estimate likely believes that those things *require a lot of lead time* [need to be started well in advance, need to work backwards from a fixed date in the future].
+
+
+
+Two *good* reasons why people ask for estimates:
+
+ 1) In order to decide which of two alternatives to invest in
+
+ 2) To coordinate long lead time efforts
+
+And some *bad* reasons:
+
+ 1) To pressure the team to work faster
+ 2) To hold the team accountable
+ 3) Because they don't know any other way
+ 4) In order to shift risk and future blame onto the team
+ 5) Because they don't want to think about risks
 ** Name the crazy requests, instead of
 
 Maybe sketch in a few scenarios -- a demand for estimates; discovery of a blocker; need for technical investment; unwillingness to accept tradeoffs; ignoring of maintenance costs; denial of risks; how much staff do they need to hit a deadline?
