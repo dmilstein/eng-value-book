@@ -5,9 +5,21 @@ Yes, I can, apparently.
 * TIB Inbox                                       :inbox:
 *
 ** TODO "Transparency and Control"
-** TODO Ask Edmund: the questions about a stakeholder he did
+** TODO Find a way to signal, early on, that I'm not demonizing PMs's
+** TODO Take a pass at copying work from concerns/value post back into chapter
+** TODO Add something about OKR's
+Every Unhappy OKR is Unhappy In the Same Way
+* [[id:454225CA-DD66-4ACA-B8B3-429F6551DBDC][New Intro]]                                       :gtasks:
+** TODO Try to weave in 'experience of misaligment' :curweek:
+** DONE First draft "Underlying Challenge"        :pom:curweek:pom:
+CLOSED: [2025-07-16 Wed 15:28]
+** DONE Add a pain around interruptions?          :curweek:pom:
+CLOSED: [2025-07-16 Wed 11:11]
+** DONE Spike on new intro                        :curweek:pom:
+CLOSED: [2025-07-15 Tue 12:46]
+** DONE Revise new intro                          :curweek:pom:
+CLOSED: [2025-07-16 Wed 11:11]
 * [[id:42FF29AB-A3A1-4307-85E5-69C08C7D4DB4][Reframe/Reorg]]                                   :gtasks:
-** TODO Add a pain around interruptions?          :curweek:pom:
 ** DONE Ask Edmund: reframe as "How To Work With Stakeholders"? :pom:
 CLOSED: [2025-07-10 Thu 06:42]
 Like, that's sort of what it's becoming? Is *that* the urgent pain?
@@ -19,9 +31,6 @@ CLOSED: [2025-07-15 Tue 08:00]
 CLOSED: [2025-07-15 Tue 14:40]
 ** DONE Revise ToC                                :curweek:
 CLOSED: [2025-07-16 Wed 10:32]
-** DONE Spike on new intro                        :curweek:pom:
-CLOSED: [2025-07-15 Tue 12:46]
-** TODO Revise new intro                          :curweek:pom:
 ** TODO Make "estimates" a central driver of pain?
 ** TODO Experiment w/ EWJ's summary?
 Half of what they asked for we never finished, half of what remained was never used.
@@ -110,6 +119,9 @@ CLOSED: [2025-07-08 Tue 11:44]
 ** DONE Review structure of each makeover
 CLOSED: [2025-07-08 Tue 11:24]
 * [[id:49E66E86-CE83-447E-87C2-3BFF3D8FE42E][Teach/Coach]]                                     :gtasks:
+** DONE Respond/schedule                          :curweek:pom:
+CLOSED: [2025-07-19 Sat 11:05]
+** TODO Sign up for pro zoom
 ** DONE Draft email for Edmund, asking for intros :curweek:pom:
 CLOSED: [2025-07-16 Wed 10:11]
 ** DONE Ask Edmund for intros                     :curweek:pom:
@@ -121,11 +133,17 @@ CLOSED: [2025-07-16 Wed 10:19]
 ** TODO Do a timeboxed skim through LinkedIn contacts for Part 2 coaching
 Can I just export my list of contacts
 * [[id:E0ADBF07-90B8-4C37-81C0-96A428020F5E][Substack]]                                        :gtasks:
+** DONE Make sure I'm not talking down about Tech Debt :curweek:pom:
+CLOSED: [2025-07-19 Sat 09:20]
+** DONE Split posts: 1) ops work, 2) interruptions. :curweek:
+CLOSED: [2025-07-18 Fri 07:58]
 ** DONE Simple, dumb idea for organizing posts    :curweek:pom:
 CLOSED: [2025-07-15 Tue 14:46]
 Obvs, a folder with named files. Still in org-roam? Or is that the whole point, I move out of org-roam, and then my links aren't weirdly wrong? Yes, do it.
-** TODO Draft next post                           :curweek:
-** TODO Schedule next post                        :curweek:
+** DONE Draft next post                           :curweek:pom:
+CLOSED: [2025-07-18 Fri 07:58]
+** DONE Schedule next post                        :curweek:
+CLOSED: [2025-07-18 Fri 07:58]
 ** DONE Draft next post (maybe Geary's idea)      :pom:
 CLOSED: [2025-07-07 Mon 17:12]
 E.g. Things engineers think are valuable, when they are/are not.
@@ -425,6 +443,10 @@ CLOSED: [2025-06-11 Wed 17:06]
 CLOSED: [2025-06-11 Wed 17:06]
 Announce I'm working on a book, will post here sometimes, but please go join my new newsletter/Substack if you're interested for more (and/or might like to be a beta reader for a eection).
 * [[id:49435FCD-0590-44DE-8FC7-585E7BCC8BB2][Tooling]]                                         :gtasks:
+** TODO Make watch_book.sh work for new book      :curweek:
+Add params so it can still work for old book.
+
+Use the toc as the driving force?
 ** DONE Make github repo for TIB, push it up      :pom:
 CLOSED: [2025-07-12 Sat 10:06]
 ** DONE Fix word count to handle 0 days           :pom:
@@ -493,6 +515,8 @@ CLOSED: [2025-06-01 Sun 08:51]
 ** DONE Revise/improve The Ti Cycle
 CLOSED: [2025-06-02 Mon 11:23]
 * Book Misc                                       :gtasks:
+** DONE Ask Edmund: the questions about a stakeholder he did
+CLOSED: [2025-07-16 Wed 13:50]
 ** TODO Check out [[https://www.amazon.com/Aligned-Stakeholder-Management-Product-Leaders/dp/1098134427][Melissa Appel's book]]
 ** TODO Feature my own failures as learning events
 E.g. things I tried that didn't work, or that I've seen people try and have not work
