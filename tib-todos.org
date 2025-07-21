@@ -3,37 +3,41 @@ Experimenting. Can I have a list of todos, outside of org-roam, but, when I'm in
 Yes, I can, apparently.
 
 * TIB Inbox                                       :inbox:
-*
-** TODO "Transparency and Control"
-** TODO Find a way to signal, early on, that I'm not demonizing PMs's
-** TODO Take a pass at copying work from concerns/value post back into chapter
-** TODO Add something about OKR's
-Every Unhappy OKR is Unhappy In the Same Way
 * [[id:454225CA-DD66-4ACA-B8B3-429F6551DBDC][New Intro]]                                       :gtasks:
-** TODO Try to weave in 'experience of misaligment' :curweek:
-** DONE First draft "Underlying Challenge"        :pom:curweek:pom:
+** TODO Experiment w/ EWJ's summary?
+Half of what they asked for we never finished, half of what remained was never used.
+** TODO Break out 3 (or 4) distinct challenges    :curweek:pom:
+** TODO Move solution to challenges out of intro  :curweek:pom:
+** TODO Write Analytics 2.0 as increments/decisions :curweek:
+** TODO Write Maint Triage as interruption        :curweek:
+** TODO Write Konicki/metrics as empathy          :curweek:
+** TODO Paste in Flagship Deploys as tech invest  :curweek:
+** TODO Signal, early on, that I'm not demonizing PMs's
+Like, product *specifically*. In an ideal world, the Product and Engineering team are managing stakeholders together. But we don't live in that world, do we.
+** DONE Try to weave in 'experience of misaligment'
+CLOSED: [2025-07-19 Sat 19:43]
+** DONE First draft "Underlying Challenge"        :pom:
 CLOSED: [2025-07-16 Wed 15:28]
-** DONE Add a pain around interruptions?          :curweek:pom:
+** DONE Add a pain around interruptions?          :pom:
 CLOSED: [2025-07-16 Wed 11:11]
-** DONE Spike on new intro                        :curweek:pom:
+** DONE Spike on new intro                        :pom:
 CLOSED: [2025-07-15 Tue 12:46]
-** DONE Revise new intro                          :curweek:pom:
+** DONE Revise new intro                          :pom:
 CLOSED: [2025-07-16 Wed 11:11]
 * [[id:42FF29AB-A3A1-4307-85E5-69C08C7D4DB4][Reframe/Reorg]]                                   :gtasks:
 ** DONE Ask Edmund: reframe as "How To Work With Stakeholders"? :pom:
 CLOSED: [2025-07-10 Thu 06:42]
 Like, that's sort of what it's becoming? Is *that* the urgent pain?
-** DONE Rough out overall structure               :curweek:pom:
+** DONE Rough out overall structure               :pom:
 CLOSED: [2025-07-14 Mon 11:30]
-** DONE More riffing on titles                    :curweek:pom:
+** DONE More riffing on titles                    :pom:
 CLOSED: [2025-07-15 Tue 08:00]
-** DONE Turn structure into draft ToC             :curweek:pom:
+** DONE Turn structure into draft ToC             :pom:
 CLOSED: [2025-07-15 Tue 14:40]
-** DONE Revise ToC                                :curweek:
+** DONE Revise ToC
 CLOSED: [2025-07-16 Wed 10:32]
-** TODO Make "estimates" a central driver of pain?
-** TODO Experiment w/ EWJ's summary?
-Half of what they asked for we never finished, half of what remained was never used.
+** DONE Make "estimates" a central driver of pain?
+CLOSED: [2025-07-21 Mon 08:08]
 ** DONE Copy in idea for testing from EWJ email   :pom:
 CLOSED: [2025-07-13 Sun 08:53]
 ** DONE Start to brainstorm titles/tags
@@ -80,6 +84,23 @@ CLOSED: [2025-06-19 Thu 19:49]
 ** DONE Write "Wait, Isn't This Product's Job?"
 CLOSED: [2025-06-19 Thu 08:04]
 
+* [[id:B4926308-39DD-471B-8E71-5FFF7546D6E3][ToC/Structure ]]                                  :gtasks:
+** TODO Type up (Wispr?) new ToC + Intro structure from notebook :curweek:
+** TODO Stash my existing ToC somewhere           :curweek:
+** TODO Experiment: add exercises to end of each chapter
+Like, now go do these things
+** TODO Maybe: add an entire chapter on Rewrites
+** TODO Add: Major rewrites *must* be done with product
+not as separate tech investments
+** TODO And, for rewrites, celebrate all the ones I've done:
+ - Analytics 2.0
+ - Nexus WMS
+ - Flagship
+** TODO Rename "Rewrites: How To + How *Not* To"?
+** DONE Spike on ToC reorg - part II = stakeholder mgmt
+CLOSED: [2025-06-16 Mon 09:25]
+** DONE Write out notes on my ideas for reordering :pom:
+CLOSED: [2025-06-07 Sat 09:32]
 * [[id:03D1870C-E583-4D5C-9589-5E0799793D48][Mstones/Decisions]]                               :gtasks:
 ** DONE Add: fear of loss of control for stakeholder :pom:
 CLOSED: [2025-06-28 Sat 10:19]
@@ -119,30 +140,32 @@ CLOSED: [2025-07-08 Tue 11:44]
 ** DONE Review structure of each makeover
 CLOSED: [2025-07-08 Tue 11:24]
 * [[id:49E66E86-CE83-447E-87C2-3BFF3D8FE42E][Teach/Coach]]                                     :gtasks:
-** DONE Respond/schedule                          :curweek:pom:
+** DONE Respond/schedule                          :pom:
 CLOSED: [2025-07-19 Sat 11:05]
-** TODO Sign up for pro zoom
-** DONE Draft email for Edmund, asking for intros :curweek:pom:
+** DONE Sign up for pro zoom
+CLOSED: [2025-07-21 Mon 08:10]
+** DONE Draft email for Edmund, asking for intros :pom:
 CLOSED: [2025-07-16 Wed 10:11]
-** DONE Ask Edmund for intros                     :curweek:pom:
+** DONE Ask Edmund for intros                     :pom:
 CLOSED: [2025-07-16 Wed 10:19]
-** TODO Draft new email re coaching/helping
+** DONE Draft new email re coaching/helping
+CLOSED: [2025-07-21 Mon 08:11]
 ** TODO Make list of people to reach out to
 ** TODO Reach out to people
 ** TODO Write template asking for connections to coach
 ** TODO Do a timeboxed skim through LinkedIn contacts for Part 2 coaching
 Can I just export my list of contacts
 * [[id:E0ADBF07-90B8-4C37-81C0-96A428020F5E][Substack]]                                        :gtasks:
-** DONE Make sure I'm not talking down about Tech Debt :curweek:pom:
+** DONE Make sure I'm not talking down about Tech Debt :pom:
 CLOSED: [2025-07-19 Sat 09:20]
-** DONE Split posts: 1) ops work, 2) interruptions. :curweek:
+** DONE Split posts: 1) ops work, 2) interruptions.
 CLOSED: [2025-07-18 Fri 07:58]
-** DONE Simple, dumb idea for organizing posts    :curweek:pom:
+** DONE Simple, dumb idea for organizing posts    :pom:
 CLOSED: [2025-07-15 Tue 14:46]
 Obvs, a folder with named files. Still in org-roam? Or is that the whole point, I move out of org-roam, and then my links aren't weirdly wrong? Yes, do it.
-** DONE Draft next post                           :curweek:pom:
+** DONE Draft next post                           :pom:
 CLOSED: [2025-07-18 Fri 07:58]
-** DONE Schedule next post                        :curweek:
+** DONE Schedule next post
 CLOSED: [2025-07-18 Fri 07:58]
 ** DONE Draft next post (maybe Geary's idea)      :pom:
 CLOSED: [2025-07-07 Mon 17:12]
@@ -260,6 +283,8 @@ Something that demonstrates they're getting value, not being nice.
 ** TODO Define dumbest, simplest progress-checking habit
 Could easily lose my mind, be careful.
 * [[id:4D62F0DE-2862-45F3-97EE-6AFED5382F2C][Storytelling/Wins ]]                              :gtasks:
+** TODO Review/integrate Mike Isman feedback on storytelling
+Rough Draft of Storytelling Chapter(s)
 ** DONE Share Storytelling chapter w/ Mike Isman?
 CLOSED: [2025-07-09 Wed 11:25]
 ** TODO Find videos w/ dots pushing each other up hills
@@ -404,21 +429,6 @@ Before the story/example
 There is an amount of debt, once it's gone, you're living clean.
 
 This is not true for technical investments.
-* Structure [[id:B4926308-39DD-471B-8E71-5FFF7546D6E3][(Table of Contents]])                   :gtasks:
-** TODO Experiment: add exercises to end of each chapter
-Like, now go do these things
-** TODO Maybe: add an entire chapter on Rewrites
-** TODO Add: Major rewrites *must* be done with product
-not as separate tech investments
-** TODO And, for rewrites, celebrate all the ones I've done:
- - Analytics 2.0
- - Nexus WMS
- - Flagship
-** TODO Rename "Rewrites: How To + How *Not* To"?
-** DONE Spike on ToC reorg - part II = stakeholder mgmt
-CLOSED: [2025-06-16 Mon 09:25]
-** DONE Write out notes on my ideas for reordering :pom:
-CLOSED: [2025-06-07 Sat 09:32]
 * [[id:17305FA7-A43F-40C9-9309-0EF3577C70D0][Author Platform]]                                 :gtasks:
 ** TODO Ping Winston re: building platform
 Esp how he uses LI
@@ -443,10 +453,12 @@ CLOSED: [2025-06-11 Wed 17:06]
 CLOSED: [2025-06-11 Wed 17:06]
 Announce I'm working on a book, will post here sometimes, but please go join my new newsletter/Substack if you're interested for more (and/or might like to be a beta reader for a eection).
 * [[id:49435FCD-0590-44DE-8FC7-585E7BCC8BB2][Tooling]]                                         :gtasks:
+** TODO Learn just enough to clock in and out for writing hours (ask Claude?) :curweek:
 ** TODO Make watch_book.sh work for new book      :curweek:
 Add params so it can still work for old book.
 
 Use the toc as the driving force?
+** TODO Make a graph of hours
 ** DONE Make github repo for TIB, push it up      :pom:
 CLOSED: [2025-07-12 Sat 10:06]
 ** DONE Fix word count to handle 0 days           :pom:
@@ -515,14 +527,17 @@ CLOSED: [2025-06-01 Sun 08:51]
 ** DONE Revise/improve The Ti Cycle
 CLOSED: [2025-06-02 Mon 11:23]
 * Book Misc                                       :gtasks:
+** TODO Add something about OKR's
+Every Unhappy OKR is Unhappy In the Same Way
+** TODO Check out [[https://www.amazon.com/Aligned-Stakeholder-Management-Product-Leaders/dp/1098134427][Melissa Appel's book]]
+** TODO Lucas's idea re prospective investment opps
+This is very useful -- I like the idea of thinking of about prospective things that aren't about cleaning up a problem but framing a series of potential  increments in the context of where the business is likely trying to go.
+** TODO Copy work from concerns/value post back into chapter
 ** DONE Ask Edmund: the questions about a stakeholder he did
 CLOSED: [2025-07-16 Wed 13:50]
-** TODO Check out [[https://www.amazon.com/Aligned-Stakeholder-Management-Product-Leaders/dp/1098134427][Melissa Appel's book]]
 ** TODO Feature my own failures as learning events
 E.g. things I tried that didn't work, or that I've seen people try and have not work
 ** TODO Add: why technical judgment is important
-** TODO Lucas's idea re prospective investment opps
-This is very useful -- I like the idea of thinking of about prospective things that aren't about cleaning up a problem but framing a series of potential  increments in the context of where the business is likely trying to go.
 ** TODO Check out [[https://tmarstrand.blog/][Troel's Blog]]
 ** TODO Add: "Yes *obviously* I have an intellectual crush on Kellan"
 ** TODO Ping Alla H about using her name?
