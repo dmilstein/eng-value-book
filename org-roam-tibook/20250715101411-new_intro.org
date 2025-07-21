@@ -8,7 +8,13 @@ Part of [[id:42FF29AB-A3A1-4307-85E5-69C08C7D4DB4][Reframe/Restructure]], integr
 
 # XXX Fix this intro graph
 
-When I sit down to lunch or coffee with extremely bright engineers who are steadily advancing in their careers, being promoted, being given new responsibilities (maybe as managers, or maybe on the technical track), there's one topic that comes up over and over.
+One of my favorite things to do is to sit down for lunch or coffee with one of the extremely bright engineers who I was lucky enough to work with early in their careers.
+
+# I love hearing about what new challenges they're working on
+
+I love hearing about what they've learned, the company they've landed at, the new responsibilities they're taking on (be that as managers, or moving up the technical track).
+
+At these lunches or coffees, there's one topic that comes up over and over.
 
 It's *not* how to structure complex softare[fn:: I mean, we do sometimes end up talking about misguided moves to microservices, but that's just a thing].
 
@@ -16,7 +22,7 @@ It's *not* how to speed up the pace of the team's delivery. [agile rituals]
 
 It's *not* how to have hard conversations with engineers on their team.
 
-It's about how to work with the crazy, conflicting, impossible requests from their stakeholders.
+*It's about how to work with the crazy, conflicting, impossible requests from their stakeholders.*
 
 I want to be carefully clear: these engineers have been succeeding and advancing *because* they achieve real wins for their businesses.
 
@@ -31,13 +37,13 @@ And their relationship with their stakeholders feels central to that struggle.
 # Is this a sidebar? Later?
 Before we go any further, who do I mean by stakeholders?
 
+# What is a stakeholder? Someone who has some stake in the outcome -- and therefore, someone who is representing "what the business wants" to engineers.
+
 Someone who represents "what the business wants" to the engineers.
 
 That could be a product manager. It could be a CEO. It could be the head of sales. It could be a lead internal user.
 
-And they're certainly not all crazy!
-
-In fact, the thesis of this book is that it's possible to build a high-trust, rewarding and extremely valuable partnership with stakeholders.
+The thesis of this book is that it's possible to build a high-trust, rewarding and extremely valuable partnership with stakeholders.
 
 But... that's not where things are, today, for plenty of engineers.
 
@@ -45,9 +51,9 @@ Instead, they experience something like one of the below problems:
 
 *** Demands for Long-Term Estimates
 
-Your PM comes back from a meeting with the executive team, looks down at their notes, and then asks[fn:: Hopefully, your PM doesn't actually do this, but odds are that *someone* will, so we're going to have the PM stand in for that for now. Apologies to the PM's in the audience -- I promise you I'm on your side!]:
+Your PM comes back from a meeting with the executive team, looks down at their notes, and then asks[fn:: Hopefully, your product manager won't make this kind of blind request for a long-term estimate, but odds are that *someone* will, so we're going to have the PM stand in for that for now. Apologies to the PM's in the audience]:
 
-*"Can your team commit to launching the new patient onboarding app by Q4?"*
+*"Can your team /commit/ to launching the new patient onboarding app by Q4?"*
 
 Q4 is 9 months away.
 
@@ -55,35 +61,39 @@ The "new patient onboarding app" is, currently, a pile of dreams and half-built 
 
 The Patient team has just been reorg'd... and it's not clear if the newly-hired mobile engineer on the team is going to work out.
 
-A key step in the onboarding flow depends on obtaining data from the patient's insurance companies... who all seem to move at a slug-like speed designed to defeat urgency at all costs.
+# And that newly-hired mobile engineer has just been muttering about forking React native, has been overheard muttering about forking React native, so you're pretty spooked. keeps muttering about how you need to throw away all your front-end code and start over, and you don't know if they're crazy or your code is. to your horror.
+
+A key step in the onboarding flow depends on obtaining data from the patients' insurance companies... but insurance company data teams move at a slug-like speed apparently designed to defeat urgency at all costs.
 
 How are you supposed to answer this question?
 
+Should you...
+
  - *Demand detailed requirements?*
 
-   Maybe this time, the Waterfall approach will work!
+   Maybe this time, Waterfall will work!
 
    Spoiler: it won't.
 
  - *Guess and pad?*
 
-   Talk to a few engineers about the "big rocks", come up with a "reasonable" estimate.
+   Talk to your staff engineer about the "big rocks", come up with a "reasonable" estimate.
 
-   Say that's 4 months -- o be safe, you double that, see that it's less than 9 months.
-
-   So you say a cautious "Yes".
+   If your estimate is 4 months -- to be safe, double that, so you can say a cautious "Yes".
 
    Spoiler: this isn't gonna go much better.
 
  - *Cross your fingers and pray?*
 
-   Just yolo it. /"Sure, let's go!"/
+   Yolo!
+
+   /"Sure."/
 
    Spoiler: you'll spend the next 9 months gradually sleeping less and less, as that date becomes more and more impossible to achieve.
 
- - *Explain the details to your stakeholder?*
+ - *Make sure your stakeholder understands the details?*
 
-   /"You see, the patient ~m_id's~ are the key thing we need, and we have to get those from the HL7 files, but they seem to be encoded in different ways..."/
+   /"You see, the patient ~m_id's~ are the key thing we need, and we have to get those from the ~HL7~ files, but so far, each one seems to be encoded in a different way..."/
 
    Spoiler: your stakeholder glazes over, and worst case, just repeats their question/demand.
 
@@ -160,7 +170,7 @@ Distinctive things about software: 1) estimates are basically impossible, 2) sys
 
 They want to make decisions, you can't give them the information they want. And also, you want them to invest in things they don't understand
 
-** Two Fundamental Challenges
+** Three [Four?] Fundamental Challenges
 
 Unfortunately, we *can't* give them what they're asking for -- reliable long-term estimates for the creation of new software are just a dream within a dream.
 
