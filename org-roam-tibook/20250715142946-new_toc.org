@@ -4,7 +4,8 @@
 #+title: New ToC
 A part of [[id:42FF29AB-A3A1-4307-85E5-69C08C7D4DB4][Reframe/Restructure]]
 * Table of Contents
-** [[id:454225CA-DD66-4ACA-B8B3-429F6551DBDC][New Intro]]
+** Overview
+*** [[id:454225CA-DD66-4ACA-B8B3-429F6551DBDC][New Intro]]
 ** Part I: Build Trust and Alignment
 *** Build Trust In Loops
 *** [[id:4FEA3BD5-8E85-4BB6-8F59-15FDE4F38572][Practice Tactical Empathy]]
