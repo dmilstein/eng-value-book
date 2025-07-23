@@ -1,0 +1,124 @@
+:PROPERTIES:
+:ID:       25B84349-E03D-4C1D-AA91-6F2C1E050E6E
+:END:
+#+title: The Underlying Challenge
+#+filetags: :Chapter:
+* The Underlying Challenge
+** Random Old Bits
+Distinctive things about software: 1) estimates are basically impossible, 2) systems require non-obvious investments to keep producing value.
+
+They want to make decisions, you can't give them the information they want. And also, you want them to invest in things they don't understand
+
+** Selecting Among Investment Opportunities
+
+Imagine that your team is being asked for an estimate about the time to deliver a new product -- with a particular focus on launching in time the annual customer event next year.
+
+Say there are two potential product opportunities:
+
+ - Option A is a new payments integration that uses AI to automatically categorize revenue
+
+ - Option B is an AI-enabled help desk auto-responder that embeds a jingle in the auto-response emails[fn:: At the time of writing, it's partway through 2025, I'm not legally allowed to brainstorm product features that don't include AI].
+
+say you currently have 10,000 customers. Let's simplify and assume you can sell either new product to all of them.
+
+For the payments integration (Option A), sales and marketing estimate that you'll be able to charge $100 / year for it.
+
+For the auto-response jingle (Option ), sales and marketing estimate that you'll only be able to charge *$50* / year for it.
+
+Company leadership is trying to decide which of the two to work on -- and, *as a key part of that*, they're trying to understand how much effort each might take.
+
+Let's say that the engineering team digs in and comes up with *similar* high-level estimates for the two. Either new product would *hopefully* be deliverable by the big customer launch event next year, if the team fully focused on that work.
+
+In that case, company leadership will choose Option A, because the payments integration generates twice the revenue, on the same timeline and for the same investment cost.
+
+But imagine that the engineering team knows there's a specific risk for the payments integration -- it depends on the nitty details of what the payments vendor exposes in their API.
+
+If the vendor exposes a full, accurate set of metadata about each transaction, the AI model will have plenty to work with, and the team will be able to build something of real value.
+
+If, on the other hand, the metadata exposed is either much more limited, or (more insidiously), much less *accurate*, then the team won't be able to build anything vaguely worth $100 / year for your customers.
+
+What can the team do?
+
+In particular, what can the team do, to help *the overall business succeed*?
+
+Well, if the team considers this API question the biggest risk, then the very first thing they build should be something that fully digs into that question.
+
+They can "build the API integration first", and do so in a way which aggressively explores both the scope and the accuracy of the included metadata. This doesn't necessarily have to be a separate "research" step -- it can more be a creative sequencing of the work that needs to be done.
+
+In any event, whether framed as "ahead of time research" or as "early sequencing", if the team *quickly* hits the roadblocks they were afraid of, *the overall business still has time to change their mind*.
+
+Company leadership can fall back on Option B, the auto-response jingle -- which the team should still have time to deliver before the big launch.
+
+That's the whole trick!
+
+But that requires:
+
+ - A willingness and cadence for changing decisions
+
+ - The eng team surfacing risks
+
+ - The eng team generating information about risks early
+
+And also, it's not just the decision -- there's also coordination.
+
+
+Let me tell a story.
+
+** Coordinating Work To Turn Delivered Software Into Profits
+
+A business that depends on the creation of software generally has to do something *with* that software in order to increase profits.
+
+The CEO can't just wave their hands over a pile of bits [a blinking command line cursor] [that implement some requirements] and have money pour into a cauldron [chest, bucket, vat] in front of them [fn:: except, um, that kind of is my mental model of tweaking ad algorithms at Google?].
+
+Some examples:
+
+ - Marketing might need to generate demand for a new product, before it can be sold
+
+ - The Sales Team might need to develop a new demo and playbook
+
+ - An internal operational team might need to develop a migration plan for moving to a new system
+
+All of these kinds of efforts take a lot of preparation and planning.
+
+If that preparation and planning can't start until the software is well and truly finished, the company is giving up a ton of profit opportunity.
+
+(Both because of the delay in achieving revenue or savings, but *also* because, here in reality, all of the above things need to happen iteratively, so it's not a one-time cost, it's a multiplier forever)
+
+If it's going to take a team a year to build something, sales, marketing and/or operational leadership will want to start planning, *way in advance* of the year being up, on how to take advantage of the new software to increase profits.
+
+So they ask for an estimate partly so they can "freeze" "what the software will be", and those other teams can start their work.
+
+Again, the overall answer here is simple. The business as a whole, not just the engineers, face a tradeoff:
+
+ - Wait until the software is fully finished, and pay a high delay cost (and a high missed feedback cost)
+
+ - Restructure the work of the other teams to collaborate much earlier with engineering and product, to start their work before the product is fully finished
+
+So so so easy to say, and yet so so so hard to do.
+
+
+
+As a part of this, they tend to want to ask the engineers what the product will actually, y'know, *do*.
+
+** If Only
+Look, engineers aren't stupid. They know how hard it is for the rest of the business to deal with the ever-shifting nature of engineering work.
+
+If you could just get three things going, you could partner, you could work together.
+
+The dream.
+
+ - If your stakeholders could *adapt* as you went. Instead of trying to make all the decisions up front, you could learn as you went, together
+
+ - If your stakeholders could actually share enough context, you could be much more creative in coming up with solutions for them
+
+ - If your stakeholders would actually be willing to steadily pay down tech debt, you'd see the benefits together
+
+But how on earth can you get there, starting with someone staring at you, demanding a commitment.
+
+Let's dig into each of those.
+
+* Alternate Titles
+** The Root Cause & The Fundamental Solution
+** A Root Cause & A Fundamental Solution
+** The Root Causes of Conflict
+** Why Does Love Got To Be So Hard

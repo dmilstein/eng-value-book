@@ -2,7 +2,10 @@
 :ID:       454225CA-DD66-4ACA-B8B3-429F6551DBDC
 :END:
 #+title: New Intro
+#+filetags: :Chapter:
+
 Part of [[id:42FF29AB-A3A1-4307-85E5-69C08C7D4DB4][Reframe/Restructure]], integrating the core value prop from [[id:412A3285-6344-4D0E-9641-692417B5A540][New Structure]]
+
 * Introduction
 ** Engineering Would Be So Easy Without Those Pesky Humans
 
@@ -23,7 +26,7 @@ It's *not* how to have hard conversations with engineers on their team.
 
 *It's about how to work with the crazy, conflicting, impossible requests from their stakeholders.*
 
-I want to be carefully clear: these are engineers who love solving meaningful business problems.
+I want to be carefully clear: these are engineers who love solving business problems.
 
 They don't *want* to "just do engineering" -- they want to make an impact.
 
@@ -38,27 +41,35 @@ For this book, we'll define a stakeholder as:
 
 /Someone the engineers work with, who has the authority to decide what is valuable for the business./
 
-# That doesn't necessarily mean that person gets to directly tell the engineers "what to do". But they are ultimately the ones who are determining if what the engineers did actually solved any business problems. It means they usually have some organizational authority to set overall priorities for the engineers. It also isn't always one person! What if the engineers work with multiple people who all have such authority? Or who all separately believe they have such authority?
+That doesn't necessarily mean that person gets to directly tell the engineers "what to do". But they are ultimately the ones who are determining if what the engineers did actually solved any business problems. It means they usually have some organizational authority to set overall priorities for the engineers.
 
 That could be a product manager.
 
-It could be a CEO.
+It could be the CEO.
 
 It could be the head of sales.
 
 It could be a lead user for an internal, tech-enabled operation.
 
-It could even be *other engineers*, for eng teams who build developer platforms or tooling.[fn:: I *love* working on DevPlats, but I must also note that doing so means serving stakeholders who will question every single move you make. "You're unpacking the builds *on* the hosts? Why would you do that? That seems dumb."]
+It could even be other engineers -- e.g. for teams who maintain developer platforms or tooling.[fn:: I *love* working on DevPlats, but I must also note that doing so means serving stakeholders who will question every single move you make. "You're unpacking the builds *on* the hosts? Why would you do that? That seems kind of dumb."]
+
+It also isn't always one person! Often engineers work with multiple people who all beleive they have (or *should* have) authority to decide what is valuable for the business.
 
 I firmly believe that most stakeholders well and truly want the overall business to succeed.
 
 Of course, they *also* want to personally succeed -- a person doesn't become a Director of Product because they *don't* want to eventually be a Chief Product Officer someday. But such a person's fondest hope is that engineers will offer them a way to achieve *both* overall business success *and* their own personal goals.[fn:: The wise engineer will therefore ensure that they deeply understand both of those aspirations, it's almost like someone should write a book or something.]
 
-Because they want the overall business to succeed, the stakeholders on that list above all deeply believe that, when they make requests of the engineering team, they are being *completely and totally reasonable*.
+Because they want the overall business to succeed, every stakeholders listed above deeply believe that, when they make a request of the engineering team, they are being *completely and totally reasonable*.
 
-And yet... *somehow*, engineers find themselves on the receiving end of a stream of requests they find anything *but* reasonable.
+And yet... *somehow*, engineers find themselves on the receiving end of a stream of requests that are anything *but* reasonable, including such classics as:
 
-Let's walk through some typical challenges.
+ - Demands for commitments to long-term estimates
+
+ - Constant interruptions with new feature requests
+
+ - A refusal to engage in tradeoff discussions
+
+ - An unwillingness to face looming technical problems
 
 ** A Buffet of Unpleasant Stakeholder Challenges
 *** Demands for commitments to long-term estimates
@@ -73,7 +84,7 @@ Q4 is 9 months away.
 
 The "new patient onboarding app" is, currently, a pile of dreams and half-built Figma wireframes.
 
-The Patient team has been somewhat hastily assembled, and it's not clear if Rich--the only experienced mobile engineer on the team--is going to be around after the next round of performance reviews.
+The Patient Experience team has been somewhat hastily assembled, and it's not clear if Rich--the only experienced mobile engineer on the team--is going to be around after the next round of performance reviews.
 
 # And that newly-hired mobile engineer has been overheard muttering about forking React native, has been overheard muttering about forking React native, so you're pretty spooked. keeps muttering about how you need to throw away all your front-end code and start over, and you don't know if they're crazy or your code is. to your horror.
 
@@ -121,170 +132,47 @@ As recriminations swirl after the delayed, semi-functional rollout of the new on
 
 As a group, you all agree that the biggest coding challenge your team faced was having to work in the Data Ingestion pipeline.
 
-That system is a terrifying pile of legacy code. It was written by a team of consultants a long time ago, has libraries that haven't been updated in years, and enjoys the test coverage of a pile of moldy tissue paper.
+That system is a terrifying pile of legacy code, written by contractors in the early days of your company's history. It's written in a language you no longer use, has libraries that haven't been updated in years, and enjoys the test coverage of a pile of moldy tissue paper.
 
 But when you try to bring this up, citing the years and years of accumulated tech debt, your stakeholder brusquely deflects your concern. "We need to focus on business priorities right now," the say. "Especially since we're behind on revenue thanks to the missed launch date."
 
-** The Underlying Challenge
+** You're Not Even Vaguely Alone In This
 
-*** Version 1
+If this story sounds at all familiar, I have some bad news and some good news.
 
-Let me put some cards on the table.
+The bad news is that the difficulties in collaborating with stakeholders are, ultimately, due to *inherent* challenges in attempting to developing software that creates value for a business.
 
-I believe that the challenges in collaborating with stakeholders are driven by true, profound challenges in developing software for a business.
+If some of that story above feels familiar, it's not because your stakeholder is somehow weak or foolish or limited.
 
-It's not because your stakeholder is somehow weak or foolish or limited that you have these challenges.
+It's because it's *genuinely hard for them to do their job*, when they're dependent on the creation of new software in order to success in that job.
 
-It's because it's *genuinely hard for them to do their job*, when they're dependent on the creation of new software in order to succeed.
+If you've only ever *written* software, it can be hard to understand how deeply and painfully true this -- and we'll spend some real time in the next chapter digging into why.
 
-If you've only ever *written* software, it's maybe hard to understand how deeply and painfully true this.
+Many of the worst dysfunctions that creep into the relationship between engineers and their business counterparts are, ultimately, due to the stakeholders trying to ovecome these inherent challenges -- but doing so in ways that are ultimately counterproductive.
 
-An executive, a business leader, makes decisions and coordinates efforts and holds people accountable to their part of those efforts.
+For engineering, product and the rest of the business to work together to *create value* for the overall business, they need to develop a specific form of partnership -- one that requires a great deal of learning for engineering leaders *and* for their business counterparts.
 
-All of that is just a complete shitshow with engineering.
+The Good News is that, it is possible to work that way, to genuinely partner.
 
-We can't know enough up front to make our decisions early.
+But step 1 will be understanding exactly where your stakeholders are coming from, and what they're trying to achieve.
 
-Distinctive things about software: 1) estimates are basically impossible, 2) systems require non-obvious investments to keep producing value.
+The good news is that there *is* a way to build a very different form of partnership with stakeholders.
 
-They want to make decisions, you can't give them the information they want. And also, you want them to invest in things they don't understand
 
-*** Three [Four?] Fundamental Challenges
+** Hang On, What About the Product Team?
+Where is product in all of the above? Hopefully, right by the engineer's side.
 
-Unfortunately, we *can't* give them what they're asking for -- reliable long-term estimates for the creation of new software are just a dream within a dream.
+But:
 
-To understand how to help our stakeholders succeed, let's dig into why stakeholders are asking for estimates in the first place.
+ a) That hope isn't always lived up to
 
-If we can be creative (spoiler: we can!), we can still find ways to address their *underlying needs*.
+ b) Those specific challenges fall on engineering leaders.
 
-I can name at least two *very* good reasons why stakeholders ask for long-term estimates.
+Coming up with estimates; protecting the team from distractions; identifying and discussing nuanced tradeoffs; advocating for proactively dealing with long-standing technical issues.
 
-As in, these are *genuine needs* of the business.
-
- 1) *Making decisions* about which of several opportunities to invest in
-
- 2) *Preparing* to turn delivered software into profits
-
-We'll talk in real detail about each of these, throughout the book.
-
-I'll offer a high level summary of what I mean, and my proposed solution for each.
-
-** If Only...
-Look, engineers aren't stupid. They know how hard it is for the rest of the business to deal with the ever-shifting nature of engineering work.
-
-If you could just get three things going, you could partner, you could work together.
-
-The dream.
-
- - If your stakeholders could *adapt* as you went. Instead of trying to make all the decisions up front, you could learn as you went, together
-
- - If your stakeholders could actually share enough context, you could be much more creative in coming up with solutions for them
-
- - If your stakeholders would actually be willing to steadily pay down tech debt, you'd see the benefits together
-
-But how on earth can you get there, starting with someone staring at you, demanding a commitment.
-
-Let's dig into each of those.
-
-** Selecting Among Investment Opportunities
-
-Imagine that your team is being asked for an estimate about the time to deliver a new product -- with a particular focus on launching in time the annual customer event next year.
-
-Say there are two potential product opportunities:
-
- - Option A is a new payments integration that uses AI to automatically categorize revenue
-
- - Option B is an AI-enabled help desk auto-responder that embeds a jingle in the auto-response emails[fn:: At the time of writing, it's partway through 2025, I'm not legally allowed to brainstorm product features that don't include AI].
-
-say you currently have 10,000 customers. Let's simplify and assume you can sell either new product to all of them.
-
-For the payments integration (Option A), sales and marketing estimate that you'll be able to charge $100 / year for it.
-
-For the auto-response jingle (Option ), sales and marketing estimate that you'll only be able to charge *$50* / year for it.
-
-Company leadership is trying to decide which of the two to work on -- and, *as a key part of that*, they're trying to understand how much effort each might take.
-
-Let's say that the engineering team digs in and comes up with *similar* high-level estimates for the two. Either new product would *hopefully* be deliverable by the big customer launch event next year, if the team fully focused on that work.
-
-In that case, company leadership will choose Option A, because the payments integration generates twice the revenue, on the same timeline and for the same investment cost.
-
-But imagine that the engineering team knows there's a specific risk for the payments integration -- it depends on the nitty details of what the payments vendor exposes in their API.
-
-If the vendor exposes a full, accurate set of metadata about each transaction, the AI model will have plenty to work with, and the team will be able to build something of real value.
-
-If, on the other hand, the metadata exposed is either much more limited, or (more insidiously), much less *accurate*, then the team won't be able to build anything vaguely worth $100 / year for your customers.
-
-What can the team do?
-
-In particular, what can the team do, to help *the overall business succeed*?
-
-Well, if the team considers this API question the biggest risk, then the very first thing they build should be something that fully digs into that question.
-
-They can "build the API integration first", and do so in a way which aggressively explores both the scope and the accuracy of the included metadata. This doesn't necessarily have to be a separate "research" step -- it can more be a creative sequencing of the work that needs to be done.
-
-In any event, whether framed as "ahead of time research" or as "early sequencing", if the team *quickly* hits the roadblocks they were afraid of, *the overall business still has time to change their mind*.
-
-Company leadership can fall back on Option B, the auto-response jingle -- which the team should still have time to deliver before the big launch.
-
-That's the whole trick!
-
-But that requires:
-
- - A willingness and cadence for changing decisions
-
- - The eng team surfacing risks
-
- - The eng team generating information about risks early
-
-And also, it's not just the decision -- there's also coordination.
-
-
-Let me tell a story.
-
-
-** Coordinating Work To Turn Delivered Software Into Profits
-
-A business that depends on the creation of software generally has to do something *with* that software in order to increase profits.
-
-The CEO can't just wave their hands over a pile of bits [a blinking command line cursor] [that implement some requirements] and have money pour into a cauldron [chest, bucket, vat] in front of them [fn:: except, um, that kind of is my mental model of tweaking ad algorithms at Google?].
-
-Some examples:
-
- - Marketing might need to generate demand for a new product, before it can be sold
-
- - The Sales Team might need to develop a new demo and playbook
-
- - An internal operational team might need to develop a migration plan for moving to a new system
-
-All of these kinds of efforts take a lot of preparation and planning.
-
-If that preparation and planning can't start until the software is well and truly finished, the company is giving up a ton of profit opportunity.
-
-(Both because of the delay in achieving revenue or savings, but *also* because, here in reality, all of the above things need to happen iteratively, so it's not a one-time cost, it's a multiplier forever)
-
-If it's going to take a team a year to build something, sales, marketing and/or operational leadership will want to start planning, *way in advance* of the year being up, on how to take advantage of the new software to increase profits.
-
-So they ask for an estimate partly so they can "freeze" "what the software will be", and those other teams can start their work.
-
-Again, the overall answer here is simple. The business as a whole, not just the engineers, face a tradeoff:
-
- - Wait until the software is fully finished, and pay a high delay cost (and a high missed feedback cost)
-
- - Restructure the work of the other teams to collaborate much earlier with engineering and product, to start their work before the product is fully finished
-
-So so so easy to say, and yet so so so hard to do.
-
-
-
-As a part of this, they tend to want to ask the engineers what the product will actually, y'know, *do*.
 
 * Scraps
-
-
-
 Unfortunately, the stakeholder who is +demanding+ asking for an estimate likely believes that those things *require a lot of lead time* [need to be started well in advance, need to work backwards from a fixed date in the future].
-
-
 
 Two *good* reasons why people ask for estimates:
 
@@ -415,3 +303,22 @@ When you try to talk this over with your {CEO, PM, Head of Sales}, they get angr
 "Look," they say, "we all agreed that we need to launch by the upcoming enrollment season. You're just going to have to find a way."
 
 And so you go away, a pit in your stomach. It's going to be engineering's fault, again.
+** Three [Four?] Fundamental Challenges
+
+Unfortunately, we *can't* give them what they're asking for -- reliable long-term estimates for the creation of new software are just a dream within a dream.
+
+To understand how to help our stakeholders succeed, let's dig into why stakeholders are asking for estimates in the first place.
+
+If we can be creative (spoiler: we can!), we can still find ways to address their *underlying needs*.
+
+I can name at least two *very* good reasons why stakeholders ask for long-term estimates.
+
+As in, these are *genuine needs* of the business.
+
+ 1) *Making decisions* about which of several opportunities to invest in
+
+ 2) *Preparing* to turn delivered software into profits
+
+We'll talk in real detail about each of these, throughout the book.
+
+I'll offer a high level summary of what I mean, and my proposed solution for each.
