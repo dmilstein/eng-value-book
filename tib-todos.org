@@ -3,15 +3,24 @@ Experimenting. Can I have a list of todos, outside of org-roam, but, when I'm in
 Yes, I can, apparently.
 
 * TIB Inbox                                       :inbox:
+** TODO Add a section about multiple disagreeing stakeholders?
 * [[id:454225CA-DD66-4ACA-B8B3-429F6551DBDC][New Intro]]                                       :gtasks:
-** TODO Experiment w/ EWJ's summary?
-Half of what they asked for we never finished, half of what remained was never used.
-** TODO Break out 3 (or 4) distinct challenges    :curweek:pom:
-** TODO Move solution to challenges out of intro  :curweek:pom:
-** TODO Write Analytics 2.0 as increments/decisions :curweek:
+** TODO Write New Intro
+:LOGBOOK:
+CLOCK: [2025-07-22 Tue 06:54]--[2025-07-22 Tue 08:13] =>  1:19
+CLOCK: [2025-07-22 Tue 06:50]--[2025-07-22 Tue 06:54] =>  0:04
+:END:
+** DONE Move solution to challenges out of intro  :curweek:pom:
+CLOSED: [2025-07-22 Tue 08:11]
+** TODO Fundamental Challenge as separate chapter? :curweek:
+** TODO Break out 3/4 distinct challenges         :curweek:
+** TODO Write the "if only" section               :curweek:
+** TODO Write Analytics 2.0 as increments         :curweek:
 ** TODO Write Maint Triage as interruption        :curweek:
 ** TODO Write Konicki/metrics as empathy          :curweek:
 ** TODO Paste in Flagship Deploys as tech invest  :curweek:
+** TODO Experiment w/ EWJ's summary?
+Half of what they asked for we never finished, half of what remained was never used.
 ** TODO Signal, early on, that I'm not demonizing PMs's
 Like, product *specifically*. In an ideal world, the Product and Engineering team are managing stakeholders together. But we don't live in that world, do we.
 ** DONE Try to weave in 'experience of misaligment'
@@ -86,7 +95,8 @@ CLOSED: [2025-06-19 Thu 08:04]
 
 * [[id:B4926308-39DD-471B-8E71-5FFF7546D6E3][ToC/Structure ]]                                  :gtasks:
 ** TODO Type up (Wispr?) new ToC + Intro structure from notebook :curweek:
-** TODO Stash my existing ToC somewhere           :curweek:
+** DONE Stash my existing ToC somewhere           :curweek:
+CLOSED: [2025-07-21 Mon 08:38]
 ** TODO Experiment: add exercises to end of each chapter
 Like, now go do these things
 ** TODO Maybe: add an entire chapter on Rewrites
@@ -454,7 +464,8 @@ CLOSED: [2025-06-11 Wed 17:06]
 Announce I'm working on a book, will post here sometimes, but please go join my new newsletter/Substack if you're interested for more (and/or might like to be a beta reader for a eection).
 * [[id:49435FCD-0590-44DE-8FC7-585E7BCC8BB2][Tooling]]                                         :gtasks:
 ** TODO Learn just enough to clock in and out for writing hours (ask Claude?) :curweek:
-** TODO Make watch_book.sh work for new book      :curweek:
+** DONE Make watch_book.sh work for new book      :curweek:
+CLOSED: [2025-07-21 Mon 08:38]
 Add params so it can still work for old book.
 
 Use the toc as the driving force?
