@@ -41,27 +41,27 @@ For this book, we'll define a stakeholder as:
 
 /Someone the engineers work with, who has the authority to decide what is valuable for the business./
 
-That doesn't necessarily mean that person gets to directly tell the engineers "what to do". It does mean they have some organizational authority to set overall priorities for the engineers. And usually, it means they determine, after the fact, if what the engineers "worked", aka actually solved any business problems.
+That doesn't necessarily mean that person directly tells the engineers "what to do". It *does* mean they have some organizational authority to set overall priorities for the engineers. And usually, it means they determine, after the fact, if what the engineers did "worked" -- aka actually solved any business problems.
 
-That could be a product manager.
+That person could be a product manager.
 
 It could be the CEO.
 
 It could be the head of sales.
 
-It could be a lead user for an internal, tech-enabled operation.
+It could be the lead user for an internal, tech-enabled operation.
 
-It could even be other engineers -- for teams who maintain developer platforms or tooling.[fn:: I *love* working on DevPlats, but I must also note that doing so means having stakeholders who will question every single move you make. "You're unpacking the builds *on* the hosts? Why would you do that? That seems kind of dumb."]
+It could even be other engineers -- if your team builds tooling or a platform for the  broader eng team.[fn:: I *love* working on DevPlats, but I must also note that doing so means having stakeholders who will question every single move you make. "You're unpacking the builds *on* the hosts? Why would you do that? That seems kind of dumb."]
 
-It isn't always one person! Often engineers work with multiple people who each believe they have (or *should* have) the authority to decide what is valuable for the business. Sadly, those people usually don't all agree with each other--and rather than hashing it out directly, sometimes they just each separately try to convince the engineers to listen to just them.
+It isn't always one person! Often engineers work with multiple people who each believe they have (or *should* have) the authority to decide what is valuable for the business. Sadly, those people usually don't all agree with each other--and rather than hashing it out directly, usually they just each separately try to convince the engineers of the importance of the work they want done.
 
 Now, I firmly believe that most stakeholders well and truly want the overall business to succeed.
 
-Of course, they *also* want to personally succeed -- a person doesn't become a Director of Product because they *don't* want to eventually be a Chief Product Officer someday. But such a person's fondest hope is that engineers will offer them a way to achieve *both* overall business success *and* their own personal goals.[fn:: The wise engineer will therefore ensure that they deeply understand both of those aspirations, it's almost like someone should write a book or something.]
+Of course, they *also* want to personally succeed -- a person doesn't become a Director of <X> because they *don't* want to eventually be a Chief <X> Officer someday. But such a person's fondest hope is that engineers will offer them a way to achieve *both* overall business success *and* their own personal goals.[fn:: The wise engineer will therefore ensure that they deeply understand both of those aspirations, it's almost like someone should write a book or something.]
 
 Because they want the overall business to succeed, every stakeholders listed above deeply believes that, when they make a request of the engineering team, they are being *completely and totally reasonable*.
 
-And yet... *somehow*, engineers find themselves on the receiving end of a stream of requests that are anything *but* reasonable, e.g.:
+And yet... *somehow*, engineers find themselves on the receiving end of a stream of requests that feel anything *but* reasonable, e.g.:
 
  - Demands for commitments to long-term estimates
 
@@ -71,7 +71,7 @@ And yet... *somehow*, engineers find themselves on the receiving end of a stream
 
  - An unwillingness to face looming technical problems
 
-Let's bring those to life with a made-up but, um, maybe kind of familiar, story!
+Let's bring those to life with a made-up but, um, maybe kind of familiar, story:
 
 ** The Saga of the New Patient Onboarding App
 *** Estimates & Commitments & Tigers & Bears, Oh My
@@ -82,7 +82,7 @@ One day in late January, your PM comes back from a meeting with the executive te
 
 # [fn:: If you'ret thinking, "Hang on Dan, why is this PM talking about 'your' team? Isn't the PM *on* the team, too?" Yes yes yes! I agree 1000%. But, sadly, not every engineer gets to work in such an environment.]
 
-Q4 is 9 months away.[fn:: Or.. is it? Does Q4 mean October 1st or December 31st? Or some vague place in between? Surely no major project would ever blow up because of ambiguity over what Q4 means, right? Right?! Sigh.]
+Q4 is 9 months away.[fn:: Or.. is it? Does "Q4" mean October 1st or December 31st? Or some vague point in between? Surely no major project would ever blow up because of ambiguity over exactly what "Q4" means, right? Right?! Sigh.]
 
 The "new patient onboarding app" is, currently, a pile of dreams and half-built Figma wireframes.
 
@@ -90,11 +90,13 @@ The "new patient onboarding app" is, currently, a pile of dreams and half-built 
 
 # And that newly-hired mobile engineer has been overheard muttering about forking React native, has been overheard muttering about forking React native, so you're pretty spooked. keeps muttering about how you need to throw away all your front-end code and start over, and you don't know if they're crazy or your code is. to your horror.
 
-A key step in the onboarding flow depends on obtaining data from the patients' insurance companies... but insurance company data teams seem to move at a slug-like speed designed to defeat urgency at all costs.
+A key step in the planned onboarding flow depends on obtaining data from the patients' insurance companies... but insurance data teams seem to move at a slug-like speed designed to defeat urgency at all costs.
 
-How, exactly, is an engineering leader supposed to answer this question?
+How, exactly, are you supposed to answer this question?
 
-At times it feels like there isn't any good answer -- merely a half dozen equally terrible bad ones.
+You could demand detailed requirements before committing, but that runs the risk of turning the effort into one big waterfall project, with the attendant vanishingly low likelihood of success. Or, you could just cross your fingers and offer a hopeful "Yes?", but that *also* has a nasty habit of blowing up.
+
+It often feels like there isn't any good answer -- merely a half dozen equally terrible bad ones.
 
 *** Thinking Would Be Great, If Only We Had Any Time To Do So
 
@@ -138,11 +140,66 @@ You go away, a pit in your stomach. It looks like it's going to be engineering's
 
 As recriminations swirl after the delayed, semi-functional rollout of the new onboarding app, you sit down with some engineers to talk about what you could do differently in the future.
 
-As a group, you all agree that the biggest challenge your team faced was having to work in the Data Ingestion pipeline.
+You all agree that the biggest challenge was having to work in the Data Ingestion pipeline.
 
 That system is a terrifying pile of legacy code, developed by contractors in the early days of your company's history. It's written in a language you no longer use, has libraries that haven't been updated in years, and enjoys the test coverage of a pile of moldy tissue paper.
 
-But when you try to bring this up, citing the years and years of accumulated tech debt, your PM deflects your concern. "We need to focus on business priorities right now," they say. "Especially since we're behind on revenue thanks to the missed launch date."
+But when you try to bring this up, citing the years and years of accumulated tech debt, your PM deflects your concerns with a sigh. "I'm afraid we need to focus on business priorities right now," they say. "Especially since we're behind on revenue thanks to the missed launch date."
+
+** The Unfortunate Truth of the Stakeholder's POV
+
+Obviously, engineers can't be expected to win, in the scenario above.
+
+But, unfortunately, the stakeholders above have, well, genuinely reasonable concerns.
+
+They're trying to solve for those concerns in ways that are ultimately counterproductive. But that's not because they're dumb or unreasonable.
+
+Let's unpack that a bit.
+
+Why is the executive team demanding a commitment to a 9-month out launch date?
+
+There's a simple, true, and unuseful answer, which is:
+
+*"That is how projects are always run"*
+
+As in, there's a good chance the executive team literally just thinks in terms of deadlines and commitments.
+
+But why are projects run that way?
+
+I can offer two very good reasons why executives ask for estimates of project length -- in other words, two important things they are *using* those estimate *for*.
+
+ 1) To decide which of several alternatives to invest in
+
+    Imagine that, in attempting to grow revenue for next year, the executive team has narrowed in on two options: one is overhauling the patient onboarding process, the other is creating a new product offering for enterprise customers.
+
+    The executive team is asking for an estimates of *effort* from the engineering team, because that's a way to both understand the *costs* of the two options, and also how long they'd have to wait to see a *return*. Depending on what they hear, they might choose option one or two.
+
+    This is a genuine, crucial part of their role at the company -- and the engineering team absolutely needs to support them in making good decisions about overall investment opportunities.
+
+    But, unfortunately, they can't provide reliable long-term estimates of effort.
+
+ 2) To coordinate long lead time efforts
+
+ 2) asfad
+
+And some *bad* reasons:
+
+ 1) To pressure the team to work faster
+ 2) To hold the team accountable
+ 3) Because they don't know any other way
+ 4) In order to shift risk and future blame onto the team
+ 5) Because they don't want to think about risks
+
+
+
+
+ - Trying to decide + how to coordinate efforts
+
+ - Trying to understand + influence
+
+ - Reacting to a surprise as a human
+
+ - Making a determination of relative value
 
 ** The Struggle To Create Value
 
