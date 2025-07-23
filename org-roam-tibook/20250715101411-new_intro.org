@@ -41,7 +41,7 @@ For this book, we'll define a stakeholder as:
 
 /Someone the engineers work with, who has the authority to decide what is valuable for the business./
 
-That doesn't necessarily mean that person gets to directly tell the engineers "what to do". But they are ultimately the ones who are determining if what the engineers did actually solved any business problems. It means they usually have some organizational authority to set overall priorities for the engineers.
+That doesn't necessarily mean that person gets to directly tell the engineers "what to do". It does mean they have some organizational authority to set overall priorities for the engineers. And usually, it means they determine, after the fact, if what the engineers "worked", aka actually solved any business problems.
 
 That could be a product manager.
 
@@ -51,17 +51,17 @@ It could be the head of sales.
 
 It could be a lead user for an internal, tech-enabled operation.
 
-It could even be other engineers -- e.g. for teams who maintain developer platforms or tooling.[fn:: I *love* working on DevPlats, but I must also note that doing so means serving stakeholders who will question every single move you make. "You're unpacking the builds *on* the hosts? Why would you do that? That seems kind of dumb."]
+It could even be other engineers -- for teams who maintain developer platforms or tooling.[fn:: I *love* working on DevPlats, but I must also note that doing so means having stakeholders who will question every single move you make. "You're unpacking the builds *on* the hosts? Why would you do that? That seems kind of dumb."]
 
-It also isn't always one person! Often engineers work with multiple people who all beleive they have (or *should* have) authority to decide what is valuable for the business.
+It isn't always one person! Often engineers work with multiple people who each believe they have (or *should* have) the authority to decide what is valuable for the business. Sadly, those people usually don't all agree with each other--and rather than hashing it out directly, sometimes they just each separately try to convince the engineers to listen to just them.
 
-I firmly believe that most stakeholders well and truly want the overall business to succeed.
+Now, I firmly believe that most stakeholders well and truly want the overall business to succeed.
 
 Of course, they *also* want to personally succeed -- a person doesn't become a Director of Product because they *don't* want to eventually be a Chief Product Officer someday. But such a person's fondest hope is that engineers will offer them a way to achieve *both* overall business success *and* their own personal goals.[fn:: The wise engineer will therefore ensure that they deeply understand both of those aspirations, it's almost like someone should write a book or something.]
 
-Because they want the overall business to succeed, every stakeholders listed above deeply believe that, when they make a request of the engineering team, they are being *completely and totally reasonable*.
+Because they want the overall business to succeed, every stakeholders listed above deeply believes that, when they make a request of the engineering team, they are being *completely and totally reasonable*.
 
-And yet... *somehow*, engineers find themselves on the receiving end of a stream of requests that are anything *but* reasonable, including such classics as:
+And yet... *somehow*, engineers find themselves on the receiving end of a stream of requests that are anything *but* reasonable, e.g.:
 
  - Demands for commitments to long-term estimates
 
@@ -71,72 +71,91 @@ And yet... *somehow*, engineers find themselves on the receiving end of a stream
 
  - An unwillingness to face looming technical problems
 
-** A Buffet of Unpleasant Stakeholder Challenges
-*** Demands for commitments to long-term estimates
+Let's bring those to life with a made-up but, um, maybe kind of familiar, story!
 
-Your PM comes back from a meeting with the executive team, looks down at their notes, and says:
+** The Saga of the New Patient Onboarding App
+*** Estimates & Commitments & Tigers & Bears, Oh My
+
+One day in late January, your PM comes back from a meeting with the executive team. They look down at their notes, and say:
 
 "They want us to commit to a Q4 launch for the new patient onboarding app. Can we make that work?"
 
 # [fn:: If you'ret thinking, "Hang on Dan, why is this PM talking about 'your' team? Isn't the PM *on* the team, too?" Yes yes yes! I agree 1000%. But, sadly, not every engineer gets to work in such an environment.]
 
-Q4 is 9 months away.
+Q4 is 9 months away.[fn:: Or.. is it? Does Q4 mean October 1st or December 31st? Or some vague place in between? Surely no major project would ever blow up because of ambiguity over what Q4 means, right? Right?! Sigh.]
 
 The "new patient onboarding app" is, currently, a pile of dreams and half-built Figma wireframes.
 
-The Patient Experience team has been somewhat hastily assembled, and it's not clear if Rich--the only experienced mobile engineer on the team--is going to be around after the next round of performance reviews.
+# The Patient Experience team has been somewhat hastily assembled, and it's not clear if Rich--the only experienced mobile engineer on the team--is going to be a good fit.
 
 # And that newly-hired mobile engineer has been overheard muttering about forking React native, has been overheard muttering about forking React native, so you're pretty spooked. keeps muttering about how you need to throw away all your front-end code and start over, and you don't know if they're crazy or your code is. to your horror.
 
 A key step in the onboarding flow depends on obtaining data from the patients' insurance companies... but insurance company data teams seem to move at a slug-like speed designed to defeat urgency at all costs.
 
-How is an engineering leader supposed to answer this question? There doesn't seem to be any good answer, merely a half dozen equally terrible bad ones.
+How, exactly, is an engineering leader supposed to answer this question?
 
-*** Relentless interruptions
+At times it feels like there isn't any good answer -- merely a half dozen equally terrible bad ones.
+
+*** Thinking Would Be Great, If Only We Had Any Time To Do So
 
 The team cautiously agrees that a Q4 launch looks possible, and dives into the work of building the new patient onboarding app.
 
-But every other day features the CEO popping into the team's Slack channel, fresh off a conversation with customers, asking for an engineer to dig into some new issue, or demanding an update on progress, or wanting to relitigate the painfully-negotiated prioritization scheme.[fn::Or asking for help with an enterprise sales call; or wanting to do a quick brainstorm on level of effort for some speculative future thing they just thought of last night; or asking their favorite engineer to read some extremely interesting and relevant article about {AI, Blockhain, <Insert Buzzword Here>}; or, or, or...]
+But every other day features the CEO popping into the team's Slack channel, fresh off a conversation with customers, asking for an engineer to dig into some new issue, or demanding an update on progress, or wanting to relitigate the prioritization scheme.[fn::Or asking for help with an enterprise sales call; or wanting to do a quick brainstorm on level of effort for some speculative future thing they just thought of last night; or asking their favorite engineer to read some extremely interesting and relevant article about {AI, Blockhain, <Insert Buzzword Here>}; or, or, or...]
 
 If the team keeps on running around like chickens with their heads cut off, you're running a serious risk of missing your delivery target.
 
-Unfortunately, your CEO aggressively pushes back when you suggest that they stay out of the team's hair.
+Unfortunately, the CEO aggressively pushes back when you suggest that they stay out of the team's hair.
 
 "The engineers *need* to hear what customers are saying," they insist. "And," they continue, "*I* need to know that we're on track."
 
 They then proceed to do the favorite thing of human beings everywhere: not change their behavior one little bit.
 
-*** A refusal to engage in tradeoff discussions
+*** If Only "Make It Work" Was Just a Catchphrase From Project Runway
 
 The team slowly drifts behind schedule, thanks in part to their struggle to carve out meaningful focus time.
 
 But, somehow, they manage to keep slogging forward, and, by the middle of Q3, they're closing in on a usable version of the onboarding app.
 
-But then, an engineer discovers something horrifying: over half the insurance companies you're expecting to pull data from don't even *have* the key user id you'll need for joins.
+But then, an engineer makes a horrifying discovery: over half the insurance companies you're working with don't even *have* the user id you've been planning on using for joins.
 
-This discovery upends all your plans. There's absolutely no chance you'll be able to ship the new onboarding app to all patients in Q4.
+This discovery upends all your plans. There's absolutely no chance you'll be able to ship the new onboarding app to all customers in Q4.
 
 You're going to have to either settle for a very limited release or back up and fundamentally redesign the planned onboarding flow.
 
-You take a deep breath, and go talk this over with your {CEO, PM, Head of Sales}
+You take a deep breath, and you and your product partner go talk this over with your CEO & Head of Sales.
 
-Once they understand what you're saying, they get very upset.
+It takes them a minute to understand what you're saying. Once they do, they both get  upset.
 
-"That's absolutely unacceptable," they say, tension making their voice tight. "We *committed* to launching in Q4. Marketing has already started the campaigns. We've promised that revenue to the board for next year. You're just going to have to find a way."
+"That's unacceptable," the CEO says, tension making their voice tight. "You *committed* to launching in Q4."
+
+"Marketing has already started the campaign," adds the head of sales.
+
+"We've promised that revenue to the board for next year. You're just going to have to make it work."
 
 You go away, a pit in your stomach. It looks like it's going to be engineering's fault. Again.
 
-*** An unwillingness to face looming technical problems
+*** Those Who Fail To Learn From History Are Actually Most Of Us
 
 As recriminations swirl after the delayed, semi-functional rollout of the new onboarding app, you sit down with some engineers to talk about what you could do differently in the future.
 
-As a group, you all agree that the biggest coding challenge your team faced was having to work in the Data Ingestion pipeline.
+As a group, you all agree that the biggest challenge your team faced was having to work in the Data Ingestion pipeline.
 
-That system is a terrifying pile of legacy code, written by contractors in the early days of your company's history. It's written in a language you no longer use, has libraries that haven't been updated in years, and enjoys the test coverage of a pile of moldy tissue paper.
+That system is a terrifying pile of legacy code, developed by contractors in the early days of your company's history. It's written in a language you no longer use, has libraries that haven't been updated in years, and enjoys the test coverage of a pile of moldy tissue paper.
 
-But when you try to bring this up, citing the years and years of accumulated tech debt, your stakeholder brusquely deflects your concern. "We need to focus on business priorities right now," the say. "Especially since we're behind on revenue thanks to the missed launch date."
+But when you try to bring this up, citing the years and years of accumulated tech debt, your PM deflects your concern. "We need to focus on business priorities right now," they say. "Especially since we're behind on revenue thanks to the missed launch date."
+
+** The Struggle To Create Value
+
+What's going on, in the story above?
+
+The engineers *want* to succeed -- they want to create real value for the business.
+
+But somehow, they seem stuck in a dysfunctional relationship with their stakeholders, which is making it impossible to do so.
 
 ** You're Not Even Vaguely Alone In This
+
+a bit, in a story I'd guess is close to the Median Engineer Experience of Working With Stakeholders.
+
 
 If this story sounds at all familiar, I have some bad news and some good news.
 
@@ -160,6 +179,7 @@ The good news is that there *is* a way to build a very different form of partner
 
 
 ** Hang On, What About the Product Team?
+
 Where is product in all of the above? Hopefully, right by the engineer's side.
 
 But:
