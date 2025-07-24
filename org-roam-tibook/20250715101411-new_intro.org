@@ -91,7 +91,8 @@ As step one in that deep dive, we're going to explore the experience of both the
 
 This will help us identify key things each side is *trying* to do -- which is a crucial step in finding better ways to work together.
 
-** The Saga of the New Patient Onboarding App, Version I
+** The Engineer's Lament
+*The Saga of the New Patient Onboarding App, Version I*
 *** Estimates & Commitments & Tigers & Bears, Oh My
 
 One day in late January, your PM comes back from a meeting with the executive team. They look down at their notes, and say:
@@ -181,8 +182,8 @@ How can an engineering team possibly create real value for a business, if faced 
 
 # And yet... *somehow*, engineers find themselves on the receiving end of a stream of requests that feel anything *but* reasonable, e.g.:
 
-
-** The Saga of the New Patient Onboarding App, Version II
+** The Stakeholder's Lament
+*The Saga of the New Patient Onboarding App, Version II*
 *** Why Does Making a Plan Require An Apocalyptic Fight?
 You're the CEO. You're working backwards from a next funding round in 18 to 36 months.
 
@@ -230,104 +231,14 @@ They have genuinely not left you with any alternatives, and given that they were
 
 You have long since learned that, in working with engineers, you should expect them to constantly complain about not having enough time to work on "tech debt".
 
-Because they don't seem to be able to explain this in any useful detail [except for some clearly absurd belief that quality code will somehow let them go faster], you've learned to manage those complaints as part of, well, managing the engineers' *feelings*.
+Because they don't seem to be able to explain this in any useful detail [except for some clearly absurd belief that quality code will somehow let them finish all work instantly], you've learned to manage those complaints as part of, well, managing the engineers' *feelings*.
 
-You don't want them to be unhappy. But, staring at those revenue targets, and with your next board meeting looming, you genuinely don't have time right now to divert them from solving key business problems to make their systems more pleasant.
+You don't want them to be unhappy. But, staring at those revenue targets, and with your next board meeting looming, you genuinely don't have time right now to divert them from solving key business problems to make their systems more pleasant to work in.
 
 # Even if their belief that this will let them go faster in the future was true, you don't have time for such investments right now.
-** The Unfortunate Truth of the Stakeholder's POV
+** Solving For Both Requires Understanding In Depth
 
-Obviously, the engineers can't be expected to win in the scenario above.
-
-But I have some bad news.
-
-The stakeholders in the story above *genuinely reasonable concerns*.
-
-They're trying to solve for those concerns in ways that are ultimately counterproductive. But that's not because they're dumb or unreasonable.
-
-Let's unpack each of the challenging moments above.
-
-*** Why demand a "commitment" to a launch date 9 months out?
-
-First off, let's convert that, mathematically, into an estimate of project length.
-
-I can offer two very good reasons why executives ask for estimates of project length -- two genuinely important things they want to *use* those estimates *for*:
-
- 1) To decide which of several alternatives to *invest* in
-
-    Imagine that, in attempting to grow revenue for the next year, the executive team has narrowed in on two options: one is overhauling the patient onboarding process, the other is creating a new product offering for enterprise customers.
-
-    In such a situation, an executive team will ask for an estimates of effort from the engineering team, in order to both understand the relative *costs* of the two options, and also how long they'd have to wait to see a *return*. Depending on what they hear, they will then select one option or the other.
-
-    Making such *overall investment decisions* is a core part of the executive team's job -- and the engineering team absolutely needs to support them in doing it.
-
-    But, unfortunately, the engineers simply *can't* provide reliable long-term estimates of effort. So they'll have to find another way to help make such investment decisions.
-
-    By the way, you might be thinking "Oh, that's too oversimplified, in reality they won't be able to narrow it down to two clean options." But that makes my case even more strongly! An executive team with less clarity about options will be *more* hungry for information about potential project durations, in order to find one that might work.
-
-    As a general statement, the leaders of the business are trying to deploy capital to obtain a return -- and they'll need information about the *costs* of investments, as they do so.
-
-    The second genuinely important thing they're looking to use estimates for is:
-
- 2) To coordinate long lead time efforts
-
-    A business that depends on the creation of software generally has to do something *with* that software to turn it into revenue or profits.
-
-    The CEO can't just wave their hands over a pile of code that implements requirements and have money pour into a cauldron in front of them [fn:: that kind of is my mental model of working on ad algorithms at Google, to be fair].
-
-    # [chest, bucket, vat]
-
-    Many of those things the business needs to do require *time*.
-
-    In the story above, there was a marketing campaign that had to be designed and then run, well in advance of the actual launch of the software.
-
-    Again, this is a *genuine* need of the business, and engineers need to find a way to give sufficient advance notice to marketing, sales, and other functions to turn launched software into value for customers and the business.
-
-    So if you want to say to the executive team "We can't commit to launching in Q4", then you need to also be able to give them *some* way to coordinate the work to support the launch, when it *can* happen.
-
-Those are two good reasons.
-
-Sadly, there are also some *bad* reasons why executives ask for estimates and commitments, including:
-
- 1) Because they don't know any other way
-
- 2) Because they don't want to think about the risks and uncertainties inherent in developing software
-
- 3) So they can hold the team "accountable" (which, far too often, means: force the team to take the blame if there are any unpleasant surprises)
-
- 4) To push the engineers to agree to an uncomfortably early launch date
-
-    Sigh on this one. But, sadly, there's a real chance that at some point you'll work with a stakeholder who will first browbeat the team into an unrealistically optimistic estimate, and then later express shock and anger when the team is unable to deliver "what they promised".
-
-    I wish this wasn't true.
-
-    But plenty of business leaders believe they're good at their jobs because they "push people to go the extra mile". And this is how they do so, when working with engineering teams.
-
-Because of this slew of things all tied up in "asking for estimates", what to do *instead* requires both a deep understanding of the overall business, *and* the development of trust with your stakeholders.
-
-We'll talk about how to incrementally build both of those.
-
-*** Constantly interrupt for status and to advocate for new priorities
-
-A stakeholder who is working with an engineering team needs to both understand *how* the work is going, *and* have opportunities to influence that work, based on what has been learned (either by the stakeholder, or by the team(.
-
-
-*** Reacting to a surprise as a human
-
-*** Evaluating investment opportunities
-
-** The Struggle To Create Value
-
-What's going on, in the story above?
-
-The engineers *want* to succeed -- they want to create real value for the business.
-
-But somehow, they seem stuck in a dysfunctional relationship with their stakeholders, which is making it impossible to do so.
-
-** You're Not Even Vaguely Alone In This
-
-a bit, in a story I'd guess is close to the Median Engineer Experience of Working With Stakeholders.
-
+# You're Not Even Vaguely Alone In This
 
 If this story sounds at all familiar, I have some bad news and some good news.
 
@@ -350,7 +261,7 @@ But step 1 will be understanding exactly where your stakeholders are coming from
 The good news is that there *is* a way to build a very different form of partnership with stakeholders.
 
 
-** Hang On, What About the Product Team?
+** Is Product a Stakeholder?
 
 Where is product in all of the above? Hopefully, right by the engineer's side.
 

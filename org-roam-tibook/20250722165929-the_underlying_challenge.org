@@ -1,9 +1,10 @@
 :PROPERTIES:
 :ID:       25B84349-E03D-4C1D-AA91-6F2C1E050E6E
 :END:
-#+title: The Underlying Challenge
+#+title: The Struggle to Create Value
 #+filetags: :Chapter:
-* A Root Cause & A Fundamental Solution
+* The Struggle to Create Value
+# A Root Cause & A Fundamental Solution
 ** Random Old Bits
 Distinctive things about software: 1) estimates are basically impossible, 2) systems require non-obvious investments to keep producing value.
 
@@ -14,6 +15,87 @@ Is it this hard in every part of the business? Honestly, in my experience, no. I
 
 
 # This should not surprise us, because the steps connecting the actions we take this morning, after we browse through emails or check Slack channels, seem so distantly related to ultimate company success.
+** The Unfortunate Truth of the Stakeholder's POV
+
+Obviously, the engineers can't be expected to win in the scenario above.
+
+But I have some bad news.
+
+The stakeholders in the story above *genuinely reasonable concerns*.
+
+They're trying to solve for those concerns in ways that are ultimately counterproductive. But that's not because they're dumb or unreasonable.
+
+Let's unpack each of the challenging moments above.
+
+*** Why demand a "commitment" to a launch date 9 months out?
+
+First off, let's convert that, mathematically, into an estimate of project length.
+
+I can offer two very good reasons why executives ask for estimates of project length -- two genuinely important things they want to *use* those estimates *for*:
+
+ 1) To decide which of several alternatives to *invest* in
+
+    Imagine that, in attempting to grow revenue for the next year, the executive team has narrowed in on two options: one is overhauling the patient onboarding process, the other is creating a new product offering for enterprise customers.
+
+    In such a situation, an executive team will ask for an estimates of effort from the engineering team, in order to both understand the relative *costs* of the two options, and also how long they'd have to wait to see a *return*. Depending on what they hear, they will then select one option or the other.
+
+    Making such *overall investment decisions* is a core part of the executive team's job -- and the engineering team absolutely needs to support them in doing it.
+
+    But, unfortunately, the engineers simply *can't* provide reliable long-term estimates of effort. So they'll have to find another way to help make such investment decisions.
+
+    By the way, you might be thinking "Oh, that's too oversimplified, in reality they won't be able to narrow it down to two clean options." But that makes my case even more strongly! An executive team with less clarity about options will be *more* hungry for information about potential project durations, in order to find one that might work.
+
+    As a general statement, the leaders of the business are trying to deploy capital to obtain a return -- and they'll need information about the *costs* of investments, as they do so.
+
+    The second genuinely important thing they're looking to use estimates for is:
+
+ 2) To coordinate long lead time efforts
+
+    A business that depends on the creation of software generally has to do something *with* that software to turn it into revenue or profits.
+
+    The CEO can't just wave their hands over a pile of code that implements requirements and have money pour into a cauldron in front of them [fn:: that kind of is my mental model of working on ad algorithms at Google, to be fair].
+
+    # [chest, bucket, vat]
+
+    Many of those things the business needs to do require *time*.
+
+    In the story above, there was a marketing campaign that had to be designed and then run, well in advance of the actual launch of the software.
+
+    Again, this is a *genuine* need of the business, and engineers need to find a way to give sufficient advance notice to marketing, sales, and other functions to turn launched software into value for customers and the business.
+
+    So if you want to say to the executive team "We can't commit to launching in Q4", then you need to also be able to give them *some* way to coordinate the work to support the launch, when it *can* happen.
+
+Those are two good reasons.
+
+Sadly, there are also some *bad* reasons why executives ask for estimates and commitments, including:
+
+ 1) Because they don't know any other way
+
+ 2) Because they don't want to think about the risks and uncertainties inherent in developing software
+
+ 3) So they can hold the team "accountable" (which, far too often, means: force the team to take the blame if there are any unpleasant surprises)
+
+ 4) To push the engineers to agree to an uncomfortably early launch date
+
+    Sigh on this one. But, sadly, there's a real chance that at some point you'll work with a stakeholder who will first browbeat the team into an unrealistically optimistic estimate, and then later express shock and anger when the team is unable to deliver "what they promised".
+
+    I wish this wasn't true.
+
+    But plenty of business leaders believe they're good at their jobs because they "push people to go the extra mile". And this is how they do so, when working with engineering teams.
+
+Because of this slew of things all tied up in "asking for estimates", what to do *instead* requires both a deep understanding of the overall business, *and* the development of trust with your stakeholders.
+
+We'll talk about how to incrementally build both of those.
+
+*** Constantly interrupt for status and to advocate for new priorities
+
+A stakeholder who is working with an engineering team needs to both understand *how* the work is going, *and* have opportunities to influence that work, based on what has been learned (either by the stakeholder, or by the team(.
+
+
+*** Reacting to a surprise as a human
+
+*** Evaluating investment opportunities
+
 
 ** Selecting Among Investment Opportunities
 
