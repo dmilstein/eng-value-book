@@ -57,13 +57,15 @@ It could even be other engineers, for teams that build tooling or a platform for
 
 It isn't always one person! Often engineers work with multiple people who each believe they should be able to decide what is valuable for the business. Sadly, those people don't always agree with each other[fn:: It's super common that, instead of hashing it out directly, such rival stakeholders will each separately try to convince the engineers to work on their personal priorities.]
 
-Now, I firmly believe that most stakeholders well and truly want the overall business to succeed.
-*** Terrible Spike Which Will Illuminate Problems So I Can Fix Later
-Now, all appearances to the contrary, I will assert that the engineering team and their stakeholders have the same underlying goal.
+# Now, I firmly believe that most stakeholders well and truly want the overall business to succeed.
+
+*** I've Looked At +Love+ Engineering From Both Sides Now
+
+All appearances to the contrary, I strongly believe that the engineering team and their stakeholders have the same underlying goal:
 
 *They both want the business to succeed.*
 
-They find themselves in conflict when, as is very common, they have different understandings of what to *do*, to help the business succeed.
+They find themselves in conflict when they have different understandings of how to achieve that goal.
 
 This sounds like an absurdly simple truism, but I've spoken with plenty of engineers *and* plenty of stakeholders over the years who would struggle to believe it.
 
@@ -87,24 +89,9 @@ But we're going need to go fairly deep into all of:
 
 As step one in that deep dive, we're going to explore the experience of both the engineering team *and* their stakeholders, on a "typical" project.
 
-This will help us identify key things each side is *trying* to do. And we can then find new ways to work, that achieve both side's goals.
+This will help us identify key things each side is *trying* to do -- which is a crucial step in finding better ways to work together.
 
-*** Old Version
-Because they want the overall business to succeed, every stakeholders listed above deeply believes that, when they make a request of the engineering team, they are being *completely and totally reasonable*.
-
-And yet... *somehow*, engineers find themselves on the receiving end of a stream of requests that feel anything *but* reasonable, e.g.:
-
- - Demands for commitments to long-term estimates
-
- - Constant interruptions with new feature requests
-
- - A refusal to engage in tradeoff discussions
-
- - An unwillingness to face looming technical problems
-
-Let's bring those to life with a made-up but, um, maybe kind of familiar, story:
-
-** The Saga of the New Patient Onboarding App
+** The Saga of the New Patient Onboarding App, Version I
 *** Estimates & Commitments & Tigers & Bears, Oh My
 
 One day in late January, your PM comes back from a meeting with the executive team. They look down at their notes, and say:
@@ -113,7 +100,7 @@ One day in late January, your PM comes back from a meeting with the executive te
 
 # [fn:: If you'ret thinking, "Hang on Dan, why is this PM talking about 'your' team? Isn't the PM *on* the team, too?" Yes yes yes! I agree 1000%. But, sadly, not every engineer gets to work in such an environment.]
 
-Q4 is 9 months away.[fn:: Or.. is it? Does "Q4" mean October 1st or December 31st? Or some vague point in between? Surely no major project would ever blow up because of ambiguity over exactly what "Q4" means, right? Right?! Sigh.]
+Q4 is 9 months away.[fn:: Or.. is it? Does "Q4" mean October 1st or December 31st? Or some vague point in between? Surely Dan, you've never led a project which blew up because of ambiguity over exactly what "Q4" meant, right? Right?! Sigh.]
 
 The "new patient onboarding app" is, currently, a pile of dreams and half-built Figma wireframes.
 
@@ -177,6 +164,77 @@ That system is a terrifying pile of legacy code, developed by contractors in the
 
 But when you try to bring this up, citing the years and years of accumulated tech debt, your PM deflects your concerns with a sigh. "I'm afraid we need to focus on business priorities right now," they say. "Especially since we're behind on revenue thanks to the missed launch date."
 
+*** A Sad But Possibly Accurate Summary of the Engineering Experience
+How, given the story above, can I suggest that the stakeholders "want the business to succeed"?
+
+How can an engineering team possibly create real value for a business, if faced with:
+
+ - Demands for commitments to long-term estimates
+
+ - Constant interruptions with new requests
+
+ - A refusal to engage in tradeoff discussions
+
+ - An unwillingness to face looming technical problems
+
+# Because they want the overall business to succeed, every stakeholders listed above deeply believes that, when they make a request of the engineering team, they are being *completely and totally reasonable*.
+
+# And yet... *somehow*, engineers find themselves on the receiving end of a stream of requests that feel anything *but* reasonable, e.g.:
+
+
+** The Saga of the New Patient Onboarding App, Version II
+*** Why Does Making a Plan Require An Apocalyptic Fight?
+You're the CEO. You're working backwards from a next funding round in 18 to 36 months.
+
+You and your exec team have spent weeks and weeks developing revenue targets for next year, as part of an annual plan you'll be taking to your board. At the last board meeting, you were good and soundly beat up for not being aggressive enough -- the VC market has cooled, your lead investor reminded you firmly. You'll need to show some real traction, and soon.
+
+Your exec team has settled on a suite of improvements to the patient experience as the best bet for helping the sales team win more deals.
+
+But, of course, that depends on the product and engineering teams actually delivering what they promise.
+
+As is always the case, they seem to be extremely reluctant to work with you -- instead of developing a plan and committing to it, they seem to want to fight over a hundred tiny details and force a negotiation on every one. No other team you work with is this unwilling to sign up to hit key targets for next year.
+
+Unfortunately, most major projects that have involved engineering have dragged on well past their planned timelines. So it's not like you can just step back and trust them.
+
+It can feel like there's no way to win.
+
+*** Apparently I'm Supposed To Be The Buddha
+
+As the work unfolds, any attempt you make to either understand what is going on, or to update the engineering team with key information from the field is met with patronizing lectures from the PM's or engineering leads about not "distracting" the team.
+
+Given that engineering projects routinely go so dramatically off the rails that they plunge unrecoverably into the depths, it's extremely frustrating that you're constantly being pushed back.
+
+You genuinely don't *want* to micromanage the team -- but you also can't feel like you're being responsible in doing your job if you're not tracking progress and updating goals over time.
+
+Again, with the other functions, you get steady updates on progress against plan, and, whenever you have questions, it's straightforward to dig in.
+
+E.g. when you came back from that conference last month, having personally met a half-dozen key customers, and wanted to talk out upcoming campaigns with the marketing team, they didn't say to you "Stop interfering! How can you be such a terrible person!"
+
+But that seems to be what the engineers genuinely believe.
+
+*** Surprise!
+
+You like to think of yourself as a reasonable leader. You're *constantly* making hard tradeoff decisions. But you expect your teams to not *surprise* you.
+
+In fact, that's how you think of a sort of contract between you and your teams.
+
+You will work with them to understand what is possible, you'll then make the hard decisions about what to actually do, and then they'll execute.
+
+Of course, you know that things change over time -- all you ask is that you don't get surprised at the worst possible moment.
+
+So, when the engineers show up, just three months before you're expecting to launch, shuffle their feet, and announce that the whole planned launch is now impossible because of some technical issue they clearly should have identified earlier, you're very upset.
+
+They have genuinely not left you with any alternatives, and given that they were the ones who were supposed to identify what was possible in the first place, you push back and insist they find *some* way to work around this technical issue.
+
+*** Engineering Goals vs Business Goals
+
+You have long since learned that, in working with engineers, you should expect them to constantly complain about not having enough time to work on "tech debt".
+
+Because they don't seem to be able to explain this in any useful detail [except for some clearly absurd belief that quality code will somehow let them go faster], you've learned to manage those complaints as part of, well, managing the engineers' *feelings*.
+
+You don't want them to be unhappy. But, staring at those revenue targets, and with your next board meeting looming, you genuinely don't have time right now to divert them from solving key business problems to make their systems more pleasant.
+
+# Even if their belief that this will let them go faster in the future was true, you don't have time for such investments right now.
 ** The Unfortunate Truth of the Stakeholder's POV
 
 Obviously, the engineers can't be expected to win in the scenario above.
