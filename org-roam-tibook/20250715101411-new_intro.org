@@ -9,8 +9,10 @@ Part of [[id:42FF29AB-A3A1-4307-85E5-69C08C7D4DB4][Reframe/Restructure]], integr
 * Introduction
 ** Engineering Would Be So Easy Without Those Pesky Humans
 
-One of my favorite things to do is to sit down for lunch or coffee with one of the extremely bright engineers who I was lucky enough to work with early in their careers.
+One of my favorite things to do is to sit down for lunch or coffee with some bright engineer who is eagerly engaged in learning everything they can about the job.
 # XXX Fix this intro graph
+
+# One of my favorite things to do is to sit down for lunch or coffee with one of the extremely bright engineers who I was lucky enough to work with early in their careers.
 
 I love hearing about what they've learned, the company they've landed at, the new responsibilities they're taking on -- be that as managers, or moving up the technical track.
 
@@ -41,7 +43,7 @@ For this book, we'll define a stakeholder as:
 
 /Someone the engineers work with, who has the authority to decide what is valuable for the business./
 
-That doesn't necessarily mean that person directly tells the engineers "what to do". It *does* mean they have some organizational authority to set overall priorities for the engineers. And usually, it means they determine, after the fact, if what the engineers did "worked" -- aka actually solved any business problems.
+That doesn't necessarily mean that person directly tells the engineers "what to do". It *does* mean they play a central role in determining *priorities* for the engineers. And usually, it means they decide, after the fact, if what the engineers did *worked* -- aka actually solved a proble for the business.
 
 That person could be a product manager.
 
@@ -51,14 +53,43 @@ It could be the head of sales.
 
 It could be the lead user for an internal, tech-enabled operation.
 
-It could even be other engineers -- if your team builds tooling or a platform for the  broader eng team.[fn:: I *love* working on DevPlats, but I must also note that doing so means having stakeholders who will question every single move you make. "You're unpacking the builds *on* the hosts? Why would you do that? That seems kind of dumb."]
+It could even be other engineers, for teams that build tooling or a platform for the  broader eng team.[fn:: I *love* working on DevPlats teams, but I must also note that doing so means having stakeholders who will question every single move you make. "You're unpacking the builds *on* the hosts? Why would you do that? That seems kind of dumb."]
 
-It isn't always one person! Often engineers work with multiple people who each believe they have (or *should* have) the authority to decide what is valuable for the business. Sadly, those people usually don't all agree with each other--and rather than hashing it out directly, usually they just each separately try to convince the engineers of the importance of the work they want done.
+It isn't always one person! Often engineers work with multiple people who each believe they should be able to decide what is valuable for the business. Sadly, those people don't always agree with each other[fn:: It's super common that, instead of hashing it out directly, such rival stakeholders will each separately try to convince the engineers to work on their personal priorities.]
 
 Now, I firmly believe that most stakeholders well and truly want the overall business to succeed.
+*** Terrible Spike Which Will Illuminate Problems So I Can Fix Later
+Now, all appearances to the contrary, I will assert that the engineering team and their stakeholders have the same underlying goal.
 
-Of course, they *also* want to personally succeed -- a person doesn't become a Director of <X> because they *don't* want to eventually be a Chief <X> Officer someday. But such a person's fondest hope is that engineers will offer them a way to achieve *both* overall business success *and* their own personal goals.[fn:: The wise engineer will therefore ensure that they deeply understand both of those aspirations, it's almost like someone should write a book or something.]
+*They both want the business to succeed.*
 
+They find themselves in conflict when, as is very common, they have different understandings of what to *do*, to help the business succeed.
+
+This sounds like an absurdly simple truism, but I've spoken with plenty of engineers *and* plenty of stakeholders over the years who would struggle to believe it.
+
+On the engineering side, given how frustrating some stakeholders are to work with, and how deeply unwilling those stakeholders seem to be to *listen*, engineers will decide that those stakeholders are either pursuing some kind of narrow, political self-interest, or are trying to get an obvious immediate win and then move on, leaving a painful mess behind them for the future. Engineers will also assume that their stakeholders are well, *dumb* -- that they *can't* understand what needs to be done, in order to create valuable software for the business.
+
+# that they simply can't or won't understand the issues that engineers are trying to share with them.
+
+For the stakeholders, working with engineering teams can be such a nightmare of uncertainty and confusion, it can be very hard indeed for them to believe that those engineers are trying to solve any business problems whatsoever. Much of the time, the engineers speak in impenetrable techno-gibberish, and when they do briefly make sense, it's usually to announce that they've missed yet another delivery date. The median stakeholder experience is: they don't know what the engineers are doing; they can't get them to do what they want; and, when the team finally does deliver something, it doesn't work.
+
+# The engineers seem to  want to talk about absurdly specific details, and complain about not having time to address some abstract notion of "good design".
+
+I have a plan! A way to gradually bring engineers and their stakeholders into a *shared understanding* of what to do *and* how to do it -- such that each side sees the other as a true partner.
+
+But we're going need to go fairly deep into all of:
+
+ - Why engineering projects are so hard to manage
+
+ - How value is actually created for a business
+
+ - What is going on inside the heads of your stakeholders
+
+As step one in that deep dive, we're going to explore the experience of both the engineering team *and* their stakeholders, on a "typical" project.
+
+This will help us identify key things each side is *trying* to do. And we can then find new ways to work, that achieve both side's goals.
+
+*** Old Version
 Because they want the overall business to succeed, every stakeholders listed above deeply believes that, when they make a request of the engineering team, they are being *completely and totally reasonable*.
 
 And yet... *somehow*, engineers find themselves on the receiving end of a stream of requests that feel anything *but* reasonable, e.g.:
@@ -425,3 +456,5 @@ As in, these are *genuine needs* of the business.
 We'll talk in real detail about each of these, throughout the book.
 
 I'll offer a high level summary of what I mean, and my proposed solution for each.
+** Stakeholders personal ambition
+Of course, they *also* want to personally succeed -- a person doesn't become a Director of <X> because they *don't* want to eventually be a Chief <X> Officer someday. But such a person's fondest hope is that engineers will offer them a way to achieve *both* overall business success *and* their own personal goals.[fn:: The wise engineer will therefore ensure that they deeply understand both of those aspirations, it's almost like someone should write a book or something.]
