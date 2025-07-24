@@ -198,17 +198,17 @@ I can offer two very good reasons why executives ask for estimates of project le
 
 Those are two good reasons.
 
-Sadly, there are also some bad reasons why executives ask for estimates and commitments, including:
+Sadly, there are also some *bad* reasons why executives ask for estimates and commitments, including:
 
  1) Because they don't know any other way
 
  2) Because they don't want to think about the risks and uncertainties inherent in developing software
 
- 3) So they can hold the team "accountable" (which, far too often, means: force the team to take the blame if there are any surprises)
+ 3) So they can hold the team "accountable" (which, far too often, means: force the team to take the blame if there are any unpleasant surprises)
 
- 4) To push the engineers to commit to an uncomfortably early launch date
+ 4) To push the engineers to agree to an uncomfortably early launch date
 
-    Sigh on this one. But, sadly, there's a real chance that at some point you'll work with a stakeholder who will first browbeat the team into an unrealistically optimistic estimate, and then later express shock and anger when the team is unable to deliver "on time".
+    Sigh on this one. But, sadly, there's a real chance that at some point you'll work with a stakeholder who will first browbeat the team into an unrealistically optimistic estimate, and then later express shock and anger when the team is unable to deliver "what they promised".
 
     I wish this wasn't true.
 
@@ -218,13 +218,14 @@ Because of this slew of things all tied up in "asking for estimates", what to do
 
 We'll talk about how to incrementally build both of those.
 
+*** Constantly interrupt for status and to advocate for new priorities
+
+A stakeholder who is working with an engineering team needs to both understand *how* the work is going, *and* have opportunities to influence that work, based on what has been learned (either by the stakeholder, or by the team(.
 
 
- - Trying to understand + influence
+*** Reacting to a surprise as a human
 
- - Reacting to a surprise as a human
-
- - Making a determination of relative value
+*** Evaluating investment opportunities
 
 ** The Struggle To Create Value
 
