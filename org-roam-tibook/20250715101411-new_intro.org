@@ -46,9 +46,53 @@ I value product management incredibly highly -- but I also have found that, even
 And not every engineer is blessed to work in such a high-functioning partnership with product, so having some ability to hone in on value is a profoundly important survival skill.
 
 
-I must, here in the wilds of 2025, enourage you all to do something I did not do, early in my career, which is to take some responsibility for the problems you agree to help solve. All our work has an ethical component, whether we admit that or not.
+I must, here in the wilds of 2025, enourage you all to do something I did not do, early in my career, which is to take some responsibility for the problems you agree to help solve. All our work has an ethical component, whether we realize that or not.
+
+Perhaps also, take a moment to feel that sense of wonder -- I'm still astonished that, by typing a bunch of arcane characters into a glowing box, I can affect people's actual lives.
 
 # There is something magical about the arcane incantation we as programmers issue impacting the real world.
+
+*** Bridge of Sorts
+
+A foundational thing I gradually learned was to understand that solving problems for people in the real world *created value* for the business I was a part of.
+
+That lens--the creation of value--turned out to be a profoundly useful one, illuminating many small steps on the way to eventually solving real problems for people, and allowing me to distinguish between waste work and valuable work.
+
+The vast majority of software I've written to help solve problems in the real world has involved some form of *partnership* -- either working directly with people who have problems to solve, or working with someone who is representing such people to the engineering team -- e.g. a product manager who had gone deep on customer needs.
+
+I have found it useful to name such people "stakeholders" -- they have some stake in the problems you're solving.
+
+Working with other humans to create value by developing new software turns out to be very interestingly hard.
+
+In particular, a few flavors of hard include:
+
+ - Those other humands, understandably, often ask how long it will take to write a piece of software to solve a specific problem in a specific way. Aka, for an estimate. Aka, "Will you be able to finish and ship V2 of the Forms Product by Q1 of next year?"
+
+   Unfortunately, the honest answer is usually "We don't know."
+
+   It is, in general, impossible for engineers to give accurate long-term estimates of the time it will take to create software to solve a specific problem in a specific way.
+
+   Or, more precisely: they can't give estimates that are accurate enough to allow their stakeholders to make the decisions they're trying to make.
+
+   This often creates a great deal of tension between the engineers and their stakeholders -- and, at it's worst, can lead to a breakdown in trust, and to each side digging themselves into defensive positions from which transactional agreements are grudgingly made [lobbed across a no mans land between the two trenches]. This makes it nearly impossible to solve real problems for people.
+
+ - Those other humans rarely come to the engineers with problems to solve -- instead, they come asking for specific solutions they've already thought of.
+
+   This dramatically reduces the likelihood of finding solutions to problems -- because the engineers don't have the room to maneuver, to discover solutions that weren't thought of, as they get into the details and discover what is hard, what is easy, and what is flat out impossible.
+
+   Unfortunately, because of the low levels of trust, it's often hard to get past the proposed solution to the underlying problems -- stakeholders can easily feel as if the engineering team is doubting them, or pushing back on their ideas. Or they simply don't have experience in collaboratively and iteratively honing on a solution to a problem -- because few other disciplines require as much of that as software engineering does.
+
+ - Finally, sometimes it's the engineers themselves who have identified some important problem to solve. Something they think is valuable to the business. Maybe that's upgrading a key database before it collapses under the weight of traffic. Or it's spending a few weeks overhauling the CI/CD pipeline, so that engineers can get changes into production without suffering through endless test failures and/or tearing their remaining hair out.
+
+   Unfortunately, far too often, when engineers bring such problems to their stakeholders, they find their concerns falling on deaf ears. Maybe they cite the accumulation of "tech debt", or try to invoke some terrifying potential outcome. But they are told to, instead, focus on "business needs". Even though they believe, in their hearts, that they are trying to help the business. They are trying to create value.
+
+In this book, I'm going to share the core of what I've learned, on each of those fronts.
+
+ - Turn requests for up front, long-term estimates into an ongoing, collaborative decision-making partnership
+
+ - Develop the skills of tactical empathy to build trust with stakeholders, and, based on that trust, identify the underlying problems to solve, so you can find creative ways to solve those problems
+
+ - Stop talking about tech debt, and instead use a deep understanding of how value is created for a business to identify *and effectively advocate for* technical work that will create value in the long-term, but that no stakeholder is asking for.
 
 
 ** Engineering Would Be So Easy Without Those Pesky Humans
