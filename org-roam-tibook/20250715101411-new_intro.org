@@ -7,6 +7,50 @@
 Part of [[id:42FF29AB-A3A1-4307-85E5-69C08C7D4DB4][Reframe/Restructure]], integrating the core value prop from [[id:412A3285-6344-4D0E-9641-692417B5A540][New Structure]]
 
 * Introduction
+
+** Bad Reaching for Problem
+# One of the great pleasures of working as a software engineer is solving meaningful problems.
+
+# for a business.
+
+I can still remember the astonishing contact high when, during my first summer home from college, newly settled on a computer science degree[fn:: over english, or art history, or math], my mother, who led the adult and continuing education program at a local commnunity college, asked me if I could help her with some preparation work they had to do each year for their annual catalog of courses.
+
+This was 1991, the internet wasn't on the scene yet. I had a copy of Microsoft C Compiler on a computer, so I wrote her a C program to transcribe their input document into a table of courses, each tagged with a course code, and each having semester and something else cleanly pulled out.
+
+Today I would write that program in an afternoon using python and a handful of regular expressions. But I had never heard of regex's at the time, and my long love affair with python was years in my future. It took me a couple of weeks (I was still learning C, and shockingly, the input data wasn't consistently in the format she'd described to me, so I kept having to slowly flush out the actual patterns, add then special cases to handle each one).
+
+At the end, my mom paid me $100 -- I was delighted. This thing I loved doing, hacking on a computer to get it do what I wanted, could actually turn into money?
+
+But I was also delighted to realize that I had saved my mother and her colleagues hours and hours of frustrating work. That, honestly, felt kind of amazing -- I had, just by typing away into a little monochrome yellow and black interface, somehow made something that made the real world, well, better. That *helped* people.
+
+They went on to use that program for years and years (and built their litte catalog preparation operation around the oddball decisions I had made, that summer). They very much got their money's worth for the $100 they spend.
+
+But, so did I.
+
+That little job started me on the path of creating software that solved problems for people, in the real world. That path has turned into a career, but also a great deal of meaningful work. I've written software to help people layout and prepare textbooks for print production; to understand how a series of marketing campaigns are performing; to fill a warehouse with goods to deliver and then to pick, pack and ship those goods back out again; to collaborate on scientific research as part of drug discovery; to help support english language learner students in public schools.
+
+In so doing, I've spent a great deal of (very rewarding!) time gradually learning how to structure complex programs to solve complex real-world problems. Everything from the day-to-day tactics of how to write clean, understandable, testable code; to means to decompose complex programs into pieces that can be understood and worked on independently; to how to operate systems in the harsh reality of production.
+
+I've also found that there's an enormous amount to learn, about how to ensure that the software being written *actually solves meaningful problems in the real world*.
+
+That latter problem [challenge] is at least as interesting and at least as hard as anything in the classically understood world of software engineering.
+
+This book is my attempt to share what I've learned about how to ensure that the work we do, as engineers, genuinely helps people, solves real problems for them.
+
+We'll develop a definition of helping people by focusing on "creating value for a business".
+
+My journey into how to create value eventually took me from engineering into product management, and then back into engineering, and then to various forms of leadership over both disciplines.
+
+I value product management incredibly highly -- but I also have found that, even with a high-functioning engineering/product partnership, there is still crucial work that engineers must sign up to do, to ensure that their work genuinely solves problems.
+
+And not every engineer is blessed to work in such a high-functioning partnership with product, so having some ability to hone in on value is a profoundly important survival skill.
+
+
+I must, here in the wilds of 2025, enourage you all to do something I did not do, early in my career, which is to take some responsibility for the problems you agree to help solve. All our work has an ethical component, whether we admit that or not.
+
+# There is something magical about the arcane incantation we as programmers issue impacting the real world.
+
+
 ** Engineering Would Be So Easy Without Those Pesky Humans
 
 One of my favorite things to do is to sit down for lunch or coffee with some bright engineer who is eagerly engaged in learning everything they can about the job.
@@ -260,7 +304,6 @@ But step 1 will be understanding exactly where your stakeholders are coming from
 
 The good news is that there *is* a way to build a very different form of partnership with stakeholders.
 
-
 ** Is Product a Stakeholder?
 
 Where is product in all of the above? Hopefully, right by the engineer's side.
@@ -272,7 +315,6 @@ But:
  b) Those specific challenges fall on engineering leaders.
 
 Coming up with estimates; protecting the team from distractions; identifying and discussing nuanced tradeoffs; advocating for proactively dealing with long-standing technical issues.
-
 
 * Scraps
 Unfortunately, the stakeholder who is +demanding+ asking for an estimate likely believes that those things *require a lot of lead time* [need to be started well in advance, need to work backwards from a fixed date in the future].
