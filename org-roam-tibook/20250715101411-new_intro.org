@@ -13,33 +13,37 @@ Part of [[id:42FF29AB-A3A1-4307-85E5-69C08C7D4DB4][Reframe/Restructure]], integr
 
 # for a business.
 
-I can still remember the astonishing contact high when, during my first summer home from college, newly settled on a computer science degree[fn:: over english, or art history, or math], my mother, who led the adult and continuing education program at a local commnunity college, asked me if I could help her with some preparation work they had to do each year for their annual catalog of courses.
+During my first summer home from college, newly settled on a computer science degree[fn:: over english, or art history, or math], my mother, who led the adult and continuing education program at a local commnunity college, asked me if I could help her with some preparation work they had to do each year for their annual catalog of courses.
 
-This was 1991, the internet wasn't on the scene yet. I had a copy of Microsoft C Compiler on a computer, so I wrote her a C program to transcribe their input document into a table of courses, each tagged with a course code, and each having semester and something else cleanly pulled out.
+This was 1991, the internet wasn't on the scene yet. I had a copy of Microsoft C Compiler on a computer [my pre-Windows DOS computer], so I wrote her a C program to transcribe their input document into a table of courses, each tagged with a course code, and each having semester and something else cleanly pulled out.
 
-Today I would write that program in an afternoon using python and a handful of regular expressions. But I had never heard of regex's at the time, and my long love affair with python was years in my future. It took me a couple of weeks (I was still learning C, and shockingly, the input data wasn't consistently in the format she'd described to me, so I kept having to slowly flush out the actual patterns, add then special cases to handle each one).
+Today I would write that program in an afternoon using python and a handful of regular expressions. But I had never heard of regex's at the time, and my long love affair with python was years in my future. It took me a couple of weeks (I was teaching myself C from the K&R book, and shockingly, the input data wasn't consistently in the format she'd described to me, so I kept having to slowly flush out the actual patterns, and then add special cases to handle each one).
 
 At the end, my mom paid me $100 -- I was delighted. This thing I loved doing, hacking on a computer to get it do what I wanted, could actually turn into money?
 
 But I was also delighted to realize that I had saved my mother and her colleagues hours and hours of frustrating work. That, honestly, felt kind of amazing -- I had, just by typing away into a little monochrome yellow and black interface, somehow made something that made the real world, well, better. That *helped* people.
 
-They went on to use that program for years and years (and built their litte catalog preparation operation around the oddball decisions I had made, that summer). They very much got their money's worth for the $100 they spend.
+They went on to use that program for years and years (in fact, they built their catalog preparation process around the oddball decisions I had made, that summer). They very much got their money's worth for the $100 they spend.
 
 But, so did I.
 
-That little job started me on the path of creating software that solved problems for people, in the real world. That path has turned into a career, but also a great deal of meaningful work. I've written software to help people layout and prepare textbooks for print production; to understand how a series of marketing campaigns are performing; to fill a warehouse with goods to deliver and then to pick, pack and ship those goods back out again; to collaborate on scientific research as part of drug discovery; to help support english language learner students in public schools.
+That little job started me on the path of creating software that solved problems for people, in the real world. That path has turned into a career, but also a great deal of meaningful work. I've written software to help people layout and prepare textbooks for print production; to understand how their marketing campaigns are performing; to fill a warehouse with goods to deliver and then to pick, pack and ship those goods back out again; to collaborate on scientific research during drug discovery; to help support english language learner students in public schools.
 
-In so doing, I've spent a great deal of (very rewarding!) time gradually learning how to structure complex programs to solve complex real-world problems. Everything from the day-to-day tactics of how to write clean, understandable, testable code; to means to decompose complex programs into pieces that can be understood and worked on independently; to how to operate systems in the harsh reality of production.
+In so doing, I've spent a great deal of (very rewarding!) time gradually learning how to structure complex programs to solve problems in the real world. That has included everything from the day-to-day tactics of how to write clean, understandable, testable code; to how to decompose large programs into pieces that can be understood and worked on independently; to how to operate systems in the harsh reality of production.
 
 I've also found that there's an enormous amount to learn, about how to ensure that the software being written *actually solves meaningful problems in the real world*.
 
-That latter problem [challenge] is at least as interesting and at least as hard as anything in the classically understood world of software engineering.
+That latter problem [challenge] is at least as interesting and at least as hard as anything in the more heavily-studied world of software engineering.
 
 This book is my attempt to share what I've learned about how to ensure that the work we do, as engineers, genuinely helps people, solves real problems for them.
 
 We'll develop a definition of helping people by focusing on "creating value for a business".
 
-My journey into how to create value eventually took me from engineering into product management, and then back into engineering, and then to various forms of leadership over both disciplines.
+# My journey into how to create value eventually took me from engineering into product management, and then back into engineering, and then to various forms of leadership over both disciplines.
+
+My journey into how to create value eventually took me from engineering into product management, and then back into engineering. I've worked as a principal engineer building and operating complex systems; I've led product at startups desperately trying to find traction; I've managed engineering teams ranging in size from 2 to 500.
+
+*** What About Product
 
 I value product management incredibly highly -- but I also have found that, even with a high-functioning engineering/product partnership, there is still crucial work that engineers must sign up to do, to ensure that their work genuinely solves problems.
 
@@ -82,19 +86,121 @@ In particular, a few flavors of hard include:
 
    Unfortunately, because of the low levels of trust, it's often hard to get past the proposed solution to the underlying problems -- stakeholders can easily feel as if the engineering team is doubting them, or pushing back on their ideas. Or they simply don't have experience in collaboratively and iteratively honing on a solution to a problem -- because few other disciplines require as much of that as software engineering does.
 
- - Finally, sometimes it's the engineers themselves who have identified some important problem to solve. Something they think is valuable to the business. Maybe that's upgrading a key database before it collapses under the weight of traffic. Or it's spending a few weeks overhauling the CI/CD pipeline, so that engineers can get changes into production without suffering through endless test failures and/or tearing their remaining hair out.
+ - Finally, sometimes it's the engineers themselves who have identified some important problem to solve. Something they think is valuable to the business. Maybe that's upgrading a key database that's threatening to collapse under the weight of traffic. Or it's spending a few weeks overhauling the CI/CD pipeline, so that engineers can get changes into production without suffering through endless meaningless test failures.
 
-   Unfortunately, far too often, when engineers bring such problems to their stakeholders, they find their concerns falling on deaf ears. Maybe they cite the accumulation of "tech debt", or try to invoke some terrifying potential outcome. But they are told to, instead, focus on "business needs". Even though they believe, in their hearts, that they are trying to help the business. They are trying to create value.
+   Unfortunately, far too often, when engineers bring such problems to their stakeholders, they find their concerns falling on deaf ears. Maybe they cite the accumulation of "tech debt", or try to explain how their systems work. But they are told to focus on "business needs". Even though they believe, in their hearts, that they are trying to help the business.
 
 In this book, I'm going to share the core of what I've learned, on each of those fronts.
 
- - Turn requests for up front, long-term estimates into an ongoing, collaborative decision-making partnership
+ - Turn requests for estimates into an ongoing, collaborative decision-making partnership
 
  - Develop the skills of tactical empathy to build trust with stakeholders, and, based on that trust, identify the underlying problems to solve, so you can find creative ways to solve those problems
 
  - Stop talking about tech debt, and instead use a deep understanding of how value is created for a business to identify *and effectively advocate for* technical work that will create value in the long-term, but that no stakeholder is asking for.
 
+*** The Three Core Problems
 
+As fun as it is to write software to solve problems I personally experience (ask me about my .emacs file sometime), it's ultimately been more *rewarding*--both financially and personally--to write software to solve other people's problems.
+
+# With a few exceptions[fn:: Ask me some time about the system I may have built for myself in 2005 to bet on baseball games], almost all the software I've written to solve problems in the real world has been developed working *with other people*.
+
+This has meant working embedded in a series of businesses[fn:: I suspect that some of the joy of doing open source work is getting to solve meaningful problems *without* being embedded in a business].
+
+Therefore, I've spent many, many years trying to understand how to solve *business problems*. How to ensure that the work I do, the software I build, ultimately helps the business solve problems for their customers.
+
+As I did so, I ran smack into three major challenges, each of which initially completely defeated me, and each of which I gradually learned how to tackle.
+
+**** Challenge 1 - Estimates
+
+Remember that C program I wrote to prepare the course catalog? I think I told my mother it would take me a week. But, to my dismay, due to both my own learning curve, and to all the weird edge cases I ran into in the input data, I struggled to get it done in under a month.
+
+My mom was fine with that -- they weren't producing the next catalog until later in the summer.
+
+But I was really surprised. I figured that, once I was a better programmer, I'd be able to give more accurate estimates of how long projects might take.
+
+That's turned out to be profoundly untrue.
+
+Especially as I worked to solve business problems, many of which took many months or even years of work for a full team of engineers to work on.
+
+I have found that it is extraordinarily difficult to develop "accurate" estimates of work at that time scale -- in some ways, as we'll dig into in Part I, I've come to believe it's better understand as being *impossible* to do so (it all depends on how you define "accurate", spoiler alert, the best way to do so is in the context of a *decision* the estimate is being used to make)
+
+But the people I've worked with in those businesses have asked, in just about every way imaginable, for such estimates.
+
+In order to solve real problems for the businesses I've worked in, I've had to learn how to lead [drive, execute on] major efforts, where saying "We just don't know how long it will take" was genuinely unacceptable [would prevented the business from making key decisions]
+
+Plenty of people have realized this ("Waterfall" is a shorthand for a disaster for a reason), and there's a "common answer" -- work in an agile fashion, aka develop iteratively.
+
+That's right, of course.
+
+But, what are you supposed to do, today, when some powerful stakeholder is asking if your team can finish some project in time for a launch early next year?
+
+Just telling them "I don't know" isn't just bad for you -- it's potentially bad for the business, too.
+
+If you're lucky, you'll have a trusted product management partner managing that stakeholder -- but even if you do, that PM is likely looking to you for estimates of effort.
+
+So that question still falls on you.
+
+You *can* just shrug, and everyone can stumble along, making painful discoveries as you go, often too late in a project to adapt.
+
+But there is a better way.
+
+# You can try to draw them into a sprint-to-sprint agile process,
+
+# However, that leaves unanswered a few key questions:
+
+#  1- What increments do we build, in what order?
+
+#  2- What exactly do we tell our business partners, when they ask for an estimate?
+
+# The role of product management is centrally important *because* the work is done iteratively -- but I have never seen an engineering team build great software without being deeply engaged in their own answers to those questions.
+
+**** Challenge 2
+
+Working as part of a business means, well, working with human beings.
+
+And human beings are their own particular flavor of challenging.
+
+In particular, it can be *very* challenging to work with the people who represent (or believe they represent), "what the business needs" to the engineers.
+
+It would be lovely if those humans entered into the relationship with engineers ready to trust the engineers, carefully sharing overall strategic context, laying out a coherent problem to solve, and then being eagerly ready to adapt and learn as the work is done.
+
+But, here in the real world, that aspirational ideal is very rarely met.
+
+In particular, those people commonly:
+
+ - Announce a solution they want built, not a problem they want solved
+
+ - Share limited or no context
+
+ - Demand an ahead-of-time estimate and commitment
+
+ - Are resistant to participating in ongoing reprioritization
+
+What's an engineer supposed to do? If you try to get them into a different mode, they're likely to dig in defensively. If you try to play along with their game, you run a massive risk of the project going off the rails, and it being your fault.
+
+There's a better way!
+
+**** Challenge 3
+
+Over the course of many years of developing software to solve business problems, I  discovered and then became terrified of the challenges of maintaining and extending an existing codebase (including a codebase that I myself wrote in the past, which, fascinatingly, didn't all turn out to be easy to work in[fn:: It's possible that, in 1997, I was bored at my job, so when I had to hack together a script for churning out static html pages, I read through the Perl regex magic variable binding rules and used a series of weird as hell $ variables... and then that script got picked up and used for a dozen projects and I felt compelled to apologize personally to every engineer who touched it])
+
+This turns out to be a symptom of a general challenge.
+
+Sometimes it's the engineers themselves who have identified some important problem to solve. Something they think is valuable to the business. Maybe that's upgrading a key database that's threatening to collapse under the weight of traffic. Or it's spending a few weeks overhauling the CI/CD pipeline, so that engineers can get changes into production without suffering through endless meaningless test failures.
+
+Unfortunately, far too often, when engineers bring such problems to their stakeholders, they find their concerns falling on deaf ears. Maybe they cite the accumulation of "tech debt", or try to explain how their systems work. But they are told to focus on "business needs". Even though they believe, in their hearts, that they are trying to help the business.
+
+
+**** Other Way
+, and then learned to cheerfully embrace
+
+And none of which were even hinted at, as I was studying computer science or eagerly consuming every book I could find about structuring programs.
+
+First, being embedded in a business has meant working with people to understand what their problems are, and which of those are worth solving.
+
+Both: other engineers on a team with me, but, even more, other people in some broader business. Clients, customers, product managers, operational users, you name it.
+
+Most of it has involved work that has taken a good deal longer than the couple of weeks it took me to write that catalog prep program.
 ** Engineering Would Be So Easy Without Those Pesky Humans
 
 One of my favorite things to do is to sit down for lunch or coffee with some bright engineer who is eagerly engaged in learning everything they can about the job.
