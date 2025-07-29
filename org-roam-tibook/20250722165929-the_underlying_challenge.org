@@ -5,6 +5,87 @@
 #+filetags: :Chapter:
 * The Struggle to Create Value
 # A Root Cause & A Fundamental Solution
+** Analytics 2.0 Story
+If the leaders of a business are trying to make investment decisions, and your peers across the business are trying to make coordinational decisions, but there's massive uncertainty in timelines, what can you do?
+
+There's a simple answer: they can't make all their decisions up front.
+
+Both your leaders and your peers need to be able to make provisional, "for now" decisions, and be ready to revisit them and *change their minds* as the work progresses, and as new information emerges.
+
+Now, despite what your stakeholders may say to you, having to revisit decisions is not inherently bad! It's only bad if they have to revisit a decision when they don't have any good options left.
+
+If, for a massive, year-long project, you find out after one month of work that your planned solution won't work for half your customer base, that's *valuable* -- leadership can quickly pivot your team to focus on some new solution (e.g. a variant on what you had planned, or an entirely different approach), and your peers in marketing or sales can adapt their early planning without much pain.
+
+If, however, you only make that discovery after 11 months of work, *and* after an expensive marketing campaign has sold the upcoming feature to your entire customer base... then your leadership and your peers have no good options left.
+
+So, the key is to work intensively to:
+
+ a) Understand what key decisions need to be made
+
+ b) Understand how the results of your work can inform those decisions
+
+ c) Build early increments that turn up the most important information
+
+Aka, find ways to *sequence* your work, so that leaders and peers can make the most important decisions *early*, while they still have plenty of time to adapt.
+
+This will almost always require some resetting of their expectations (which is the building of trust and rapport from Part II of this book is so important), but a huge part of it still falls on the engineers.
+
+Let me illustrate this with a story, of a time where I first started to learn to work this way, and it saved me from a certain disaster.
+
+In 2009, I joined HubSpot, a rapidly growing startup focused on supporting B2B marketing teams. It was still pretty small -- I was the 12th engineer, and the 70th overall employee.
+
+I was hired as a Principal Engineer at HubSpot.
+
+I joined "The Celtics" scrum team -- our sprint teams were Boston sports themed.
+
+Yoav Shapira, the head of engineering, asked me to lead a rewrite of the Marketing Analytics feature within the overall HubSpot product. I had been learning about Hadoop and HDFS, and believed those could be a good foundation to build on top of.
+
+I worked closely with Dan Dunn the (excellent) Product Manager for the Celtics, and with Patrick Fitzsimmons, Owen Raccuglia and Amy Eastment.
+
+The work, as initially planned, was trying to achieve two major outcomes:
+
+ - Move off of SQLServer, and on to something which was much cheaper per hit
+
+ -
+
+There were a thousand decisions to make, of course, but one central one was:
+** Scraps from Rewrites Blog Post
+A few years back, I joined a rapidly growing startup named HubSpot, where I ended up working for a good solid while (which was a marvelous experience, btw -- you should all have Yoav Shapira as a boss at some point). In my first year there, I was one of the tech leads on a small team that rewrote the Marketing Analytics system (one of the key features of the HubSpot product), totally from scratch. We rewrote the back end (moving from storing raw hit data in SQLServer to processing hits with Hadoop and storing aggregate reports in MySQL); we rewrote the front end (moving from C#/ASP.Net to Java/Tomcat); we got into the guts of a dozen applications which had come to rely on that store of every-hit-ever, and found a way to make them work with the data that was now available. (Note: HubSpot is now primarily powered by MySQL/Hadoop/HBase. Check out the HubSpot dev blog).
+
+It took a loooong time. Much, much longer than we expected.
+
+But it generated a ton of value for HubSpot. Very Important People were, ultimately, very happy about that project. After it wrapped up, 'Analytics 2.0', as it was known, somehow went from 'that project that was dragging on forever', to 'that major rewrite that worked out really well'.
+
+
+--
+
+As an example, for our big Analytics rewrite, the developers involved sat down with Dan Dunn, the (truly excellent) product guy on our team, and worked out a list of business-visible wins we hoped to achieve. In rough priority order, those were:
+
+Cut cost of storing each hit by an order of magnitude
+
+Create new reports that weren't possible in the old system
+
+Serve all reports faster
+
+Serve near-real-time (instead of cached daily) reports
+
+And you should know: that first one loomed really, really large. HubSpot was growing very quickly, and storing all that hit data as individual rows in SQLServer had all sorts of extra costs. The experts on Windows ops were constantly trying to get new SQLServer clusters set up ahead of demand (which was risky and complex and ended up touching a lot of the rest of the codebase). Sales people were told to not sell to prospects with really high traffic, because if they installed our tracking code, it might knock over those key databases (and that restriction injected friction into the sales process). Etc, etc.
+
+Solving the "no more hits in SQLServer" problem is the Hard kind for a rewrite -- you only get the value when every single trace of the old system is gone. The other ones, lower down the list, those you'd see some value as individual reports were moved over. That's a crucial distinction to understand. If at all possible, you want to make sure that you're not only solving that kind of Hard Problem -- find some wins on the way.
+
+--
+
+Going back to my running example: our existing analytics system supported a few thousand customers, and served something like a half dozen key reports. We made an early decision to: a) rewrite all the existing reports before writing new ones, and b) rewrite each report completely, push it through to production, migrate any existing data for that report, and switch all our customers over. And only then move on to the next report.
+
+Here's how that completely saved us: 3 months into a rewrite which we had estimated would take 3-5 months, we had completely converted a single report. Because we had focused on getting all the way through to production, and on migrating all the old data, we had been forced to face up to how complex the overall process was going to be. We sat down, and produced a new estimate: it would take more like 8 months to finish everything up, and get fully off SQLServer.
+
+At this point, Dan Dunn, who is a Truly Excellent Product Guy because he is unafraid to face a hard tradeoff, said, "I'd like to shift our priorities -- I want to build the Sexy New Reports now, and not wait until we're fully off SQLServer." We said, "Even if it makes the overall rewrite take longer, and we won't get off SQLServer this year, and we'll have to build that one new cluster we were hoping to avoid having to set up?" And he said "Yes." And we said, "Okay, then."
+
+That's the kind of choice you want to offer the rest of your larger team. An economic tradeoff where they can chose between options of what they see when. You really, really don't want to say: we don't have anything yet, we're not sure when we will, your only choices are to keep waiting, or to cancel this project and kiss your sunk costs goodbye.
+
+Side note: Dan made 100% the right call (see: Excellent). The Sexy New Reports were a huge, runaway hit. Getting them out sooner than later made a big economic impact on the business. Which was good, because the project dragged on past the one year mark before we could finally kill off SQLServer and fully retire the old system.
+
+For you product dev flow geeks out there, one interesting piece of value we generated early was simply a better understanding of how long the project was going to take. I believe that is what Beck means by "feedback". It's real value to the business. If we hadn't pushed a single report all the way through, we would likely have had, 3-4 months in, a whole bunch of data (for all reports) in some partially built new system, and no better understanding of the full challenge of cutting even one report over. You can see the value the feedback gave us--it let Dan make a much better economic choice. I will make my once-per-blog-post pitch that you should go read Donald Reinertsen's Principles of Product Development Flow to learn more about how reducing uncertainty generates value for a business.
 ** Random Old Bits
 Distinctive things about software: 1) estimates are basically impossible, 2) systems require non-obvious investments to keep producing value.
 
