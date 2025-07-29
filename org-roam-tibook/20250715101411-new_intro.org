@@ -63,7 +63,9 @@ Therefore, I've spent many, many years trying to understand how to solve *busine
 
 In the course of those years, I've run into three major challenges, each of which initially completely defeated me, and each of which I gradually learned how to tackle.
 
-** Challenge 1 - Managing Uncertainty
+** Challenge 1 - Creating Value in the Presence of Uncertainty
+# Create Value in the Face of Uncertainty
+#  Managing Uncertainty
 
 Remember that C program I wrote to prepare the course catalog? I told my mother it would take me a week. To my dismay, due to both my own learning curve, and to all the weird edge cases I ran into in the input data, I struggled to get it done in under a month. Luckily, that didn't cause serious problems for my mother's division at the community college -- they produced the catalog late enough in the summer that they could wait.
 
@@ -182,7 +184,6 @@ Which, spoiler, most humans really really really don't want to do.
 But there is a way!
 
 I can't wait to share that with you.
-
 ** Challenge 3 - Making Time For "Engineering" Work
 
 Over the course of many years of developing software to solve business problems, I  gradually discovered and then abruptly became terrified of the challenges of maintaining and extending an existing codebase (including a codebase that I myself had written, which, sadly, didn't always help much[fn:: It's possible that, one day in 1997, I was bored at my job, so when I had to hack together a script for churning out static html pages, I read through the Perl regex magic variable binding rules and used a series of weird as hell $ variables... and then that script got picked up and used for a dozen projects and I felt compelled to apologize personally to every engineer who touched it])
@@ -209,7 +210,7 @@ In this book, I'm going to share the solutions I've learned, to each of those ch
 
  - Changing Stakeholder Behavior: Hearts Then Minds
 
-   By developing the skill of "tactical empathy", you will be able to help your stakeholder *feel* your understanding of both what they truly want and also what they most deeply fear. Based on that nascent trust, you can then offer them a finely-tuned "increment of change" which moves towards a better way of working together, and ends in an empowering decision for them.
+   By developing the skill of "tactical empathy", you will be able to help your stakeholder *feel* your understanding of both what they want and also what they most deeply fear. Based on that trust, you can then offer them finely-tuned "increments of change" which gradually move towards a better way of working together, and where each increment ends in an empowering decision for them.
 
  - Making Time For "Engineering" Work: Drive Technical Investments
 
@@ -217,17 +218,17 @@ In this book, I'm going to share the solutions I've learned, to each of those ch
 
 Crucially, these three approaches *build on each other*.
 
-By employing tactical empathy and aligning more deeply with your stakeholders, you'll better understand the underlying problems they are trying to solve, and the constraints they're operating within.
+By employing tactical empathy to align more deeply with your stakeholders, you'll better understand the underlying problems they are trying to solve, and the constraints they're operating within.
 
-Being able to manage in the face of uncertainty will then allow you to offer them real means to make progress, which will build more trust, and gradually allow you to partner at a higher level.
+Being able to create value in the midst of uncertainty will then allow you to offer them real options to make progress, which will build more trust, and gradually allow you to partner at a higher and higher level.
 
-As you play this game over time, you'll need to be able to identify and advocate for the technical investments that will ultimately be necessary for your stakeholder *and* the business to succeed.
+As you play this game over time, you'll find yourself needing to advocate for key technical investments that are necessary for the business to succeed in the long-term.
 
-** What About Product
+** What About Product?
 
-I value product management incredibly highly -- but I also have found that, even with a high-functioning engineering/product partnership, there is still crucial work that engineers must sign up to do, to ensure that their work genuinely solves problems.
+I want to be 100% clear. I value product management incredibly highly -- but I also have found that, even with a high-functioning engineering/product partnership, there is still crucial work that engineers must sign up to do, to ensure that their work genuinely solves problems.
 
-If you're lucky, you'll have a trusted product management partner with whom to figure out, well, all of the above:
+If you're lucky, you'll have a trusted product management partner with whom to figure out:
 
  - How to map the overall business strategy to the work of your team
 
@@ -237,11 +238,11 @@ If you're lucky, you'll have a trusted product management partner with whom to f
 
  - How to balance long-term technical investments against near-term feature work
 
-But even in that happy case, that PM is going to look to engineering for estimates of effort, key technical challenges to overcome, options for potential increments and milestones, reasons behind major technical investments, etc.
+But even in the happiest of cases, the PM is going to look to engineering for: estimates of effort; key technical challenges to overcome; options for potential increments and milestones; justifications for major technical investments; etc.
 
-And, of course, there are a great many engineers who do *not* have such such an enlightened product partner -- maybe their product team rarely talks to them and only occasionally throws a Product Requirements Document over the fence; or maybe there's no product team at all, and the engineers have to face stakeholders on their own.
+And, of course, there are a great many engineers who do *not* have such an enlightened product partner -- maybe their product team rarely talks to them and only occasionally throws a Product Requirements Document over the wall; or maybe there's no product team at all, and the engineers have to face stakeholders on their own.
 
-** Make Ethical Choices
+** Making Ethical Choices
 
 I will, here in the wilds of 2025, enourage you to take some time to think about the problems you agree to help solve. All our work has an ethical component, whether we realize that or not.
 
