@@ -1,0 +1,92 @@
+Jacob Bennett
+
+* Intro / Purpose
+For me to learn from you, and maybe see if any challenges can be helped by the ideas I'm working on.
+
+Time check: 45 minutes?
+
+Theme: challenges w/ stakeholders, maybe more broadly -- how to create value, solve business problems.
+
+* Good/Bad
+
+* Context
+** Where do you work
+He's a Staff Web Engineer at Medium.
+
+Most of his work is -- his technical work is on the backend w/ Databases, works somewhat closely with Edmund. He's on the Product Engineering -- all his stakeholders *were* PM's. Spend a lot of time talking to other stakeholders internally, the CEO, head of design, head of engineering.
+
+Customers, of course.
+
+It's all product engineering, focused primarily on Medium's partner program, and the publication product.
+
+** What is your team
+
+** Your role
+
+** What is your company trying to do?
+Medium is trying to build a home for human writing, on the internet.
+
+If you want to share it publically -- there are lots of complicated things that come up, how are we going to pay for it.
+
+** How does your team fit into that?
+His team is trying to solve the problem of how we run a business out of putting human writing on the internet. Specifically -- for partner program, they pay people to put their writing on Medium.
+
+** What makes it easy?
+
+
+** What makes it hard?
+
+* Open-Ended
+Removing PM's from the equation.
+
+They removed PM's -- he believes, to solve, he's heard from different people, he's heard from Tony directly his reasoning, he's heard about other people's opininos about Tony's reasoning for it.
+
+Guessing the reasoning that's most applicable to him -- Meidium has not a really strong product/market fit. They're profitable, barely. When you find that, you're supposed to explode.
+
+It's important that they iterate together, cohesively -- towards that common goal.
+
+The problem that he's experienced with removing them
+
+He nows interacts with very important stakeholders, directly. Tony signs his checks, and, he can decide what they work on day to day. Same w/ others -- VP level people.
+
+Has presented a problem, where a lot of their engineering architectural decisions, where before he could negotiate with a person who was trained in managing product and architecture across the two.
+
+Change has been great, because "shipping faster". Output is faster, outcome hasn't shown real improvement in business outcomes.
+
+It's much more difficult to deliver the value that to ultimate stakeholders.
+
+The analogy, internal to engineering -- they are responsible for fueling this train that's going forward. Leadership is putting down tracks as you go, but no one can tell them what it is.
+
+** What are their planning/updating events
+*** Every six months, meet together, prior everyone pitches ideas, here is how we'll save Medium
+
+*** Have a small committee -- Tony, Cassie (head of design), handful of very high level, these are what we're working on, organize teams around it
+
+*** Every week -- every Wednesday, they have a five hour block. Office hours. If you want to schedule time, you'll sched time w/ them. They expect that product level decisions will get raised with them.
+
+Last week -- Jacob asked "Can we remove spam", this feels really benign. Sometimes it's "can we ship some big thing".
+
+If you're a "project lead", usually an engineer, you're responsible for bringing that to them. You'll meet 2-3 times/week to execute on that vision.
+
+Any questions that come up,
+
+*** What makes Tony feel good
+Jacob believes -- shipping. The joy of shipping.
+
+** We Sketched In
+*** Earn a win, and build on it
+*** Find an intersection set of: you think it's valuable, they think it's valuable, you think you can make visible progress in 3-6 months
+*** Speak to fears + aspirations
+E.g. going slow + lots of decisions
+*** Ask for *something different*
+We're going to talk about problems, not solutions.
+*** Promise: meet frequently, see visible progress, have interesting options
+*** "Cheat on the backend" go fast by whatever means possible
+*** "Quit your normal job" -- aka, don't expect to do much coding
+*** Can then say: I'm being a PM, put me in that job or hire one, or I need to find a new job
+
+
+* Possible Topics
+** Estimates/increments/milestones
+** Building trust/alignment/rapport
+** Advocating for important technical work
