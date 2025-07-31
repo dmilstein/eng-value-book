@@ -64,7 +64,7 @@ Fixing The Engineering/Stakeholder Interface - The Problem
 
 Y U No Collaborate Right?
 
-On occasion, engineers and product managers will find themselves deeply frustrated, because they desperately want to change *how* they collaborate with some key stakeholder... but they seem to be completely unable to do so.
+On occasion, engineers and product managers will find themselves deeply frustrated, because they desperately want to change *how* they collaborate with some key stakeholder... but said stakeholder seems completely resistant to change.
 
 These are engineers and PM's who hugely want to work *with* the rest of the business to solve important problems and create value. They *want* to work with those key stakeholders, as partners.
 
@@ -78,21 +78,21 @@ That could mean:
 
  - A product manager who constantly ferries requests from stakeholders to the team without ever pushing back or setting a meaningful prioritization scheme
 
- - A senior engineering or product leader who claims to want to create ownership and autonomy for their teams, but insists on staying "in the loop" for so many decisions, the team has to wait for approvals before taking even the smallest of steps
+ - A senior engineering or product leader who claims to want to create ownership and autonomy for their teams, but insists on staying "in the loop" for so many decisions, the team has to wait for approvals before taking even the tiniest of steps
 
-One unifying problem in all these situations is that the stakeholder in question, be they CEO, sales leader or PM, *super doesn't want to change their own behavior*.
+One underlying problem in all of these situations is that the stakeholder in question, be they the CEO, sales leader or PM, *super doesn't want to change their own behavior*.
 
 This should not surprise us.
 
 If there's one thing that unifies basically all humans (myself very much included, sadly) it's that we are *extremely* reluctant to change the way we behave.
 
-I mean, why should *we* have to change!? Our behavior is clearly only natural and right, given the very special difficulties we personally are facing! There's literally nothing else we even *could* do![fn:: If you're asking right now, "Huh, Dan, it kind of sounds like you've been in therapy? Maybe even couples therapy?" I can only say, I have no idea what you're talking about.]
+I mean, why should *we* have to change!? Our behavior is clearly only natural and right, given the very special difficulties we personally are facing! There's literally nothing else we even *could* do![fn:: If you're asking right now, "Huh, Dan, it kind of sounds like you've been in therapy? Maybe even couples therapy?" I can only say I have no idea what you're talking about.]
 
-Unfortunately, this means that, when an engineer or PM approaches one of these stakeholders, and proposes changing one of these interaction patterns... that engineer or PM will generally be met with a form of resistance that falls somewhere between a bit stiff and absolutely ferocious.
+Unfortunately, this means that, when an engineer or PM approaches one of these stakeholders, and proposes changing one of these interaction patterns... that engineer or PM will generally be met with a form of resistance that falls somewhere between slightly stiff and absolutely ferocious.
 
 What is an engineering or product leader supposed to do?
 
-It's a very, very tough situation to be in.
+This is a very tough situation to be in.
 
 The engineering team could create enormous value for the business... if they had a meaningful problem to solve, time to focus, and a partner willing and able to make key decisions as they went.
 
@@ -104,147 +104,156 @@ Fortunately, I believe that there is a way out of this difficult situation.
 
 A means for engineers or PM's to gradually persuade their key stakeholder to work with them in a new way.
 
-I want to share a game plan for making this kind of change.
-
-For fixing a broken interface between the engineering team and some key stakeholders.
+I want to share a game plan for making this kind of change -- for fixing a broken interface between the engineering team and their key stakeholders.
 
 This game plan takes full account of the complexities of human nature, as well as the challenges of a business environment which presents a thousand demands on your time.
 
-It focuses on starting with what you have within your control today, uses that to earn some early wins, and then gradually builds trust and alignment to enable more significant change.
+It focuses on starting with what you have within your control today, uses that to earn early wins, and then gradually builds trust and alignment to enable more significant change.
 
-Running the game plan requires practicing some new skills -- using "tactical empathy" to deeply understand the hopes and fears of your stakeholder, and also learning how to design "increments of change".
+Running the game plan requires practicing some new skills -- using "tactical empathy" to deeply understand the hopes and fears of your stakeholder, and also learning how to creatively design increments of change.
 
+I'll map this game plan out in detail in the succeeding posts in this series.
 
+But I'll share a high level overview here:
 
+** Identify and Align With a Strategic Intent
 
+Start by naming *to yourself* a single key strategic outcome for the business that your team can play a role in achieving, *if* you can effectively solve business problems and create value.
 
-There's too much complexity, too much *inherent uncertainty* in developing software to lead by making a plan ahead of time and then managing conformance to that plan (which is a core part of "classic" project management).
+This should be something the overall business *needs* to achieve in the next 18-24 months, stated in business terms, along with some specifics of what your teams needs to do, as part of that.
 
-Luckily, the industry has, through much painful exploration, gradually discovered an effective way for business stakeholders and engineers to work together to create valuable software.
+This could be something like:
 
-A note: I'm going to describe the below as an interplay between "the stakeholder" and "the engineers". A natural question is thus: um, where is the product manager? Are they the stakeholder? Or, are they a part of the engineering team? My answer: if the engineers are lucky, the product manager is a part of the engineering team in the below. But not all engineers are that lucky. Also, either way, *someone* is going to have to persuade someone else to change, and engineers are incredibly well-served by learning tactics for doing so -- even if, as I hope is often the case, they end up doing so in partnership with their product manager.
+ - Business: show sufficient customer and revenue growth to enable an acquisition
 
-At the highest level, the stakeholder and the engineers will win by going through repeated cycles of the following:
+   Team: develop new products that bring in new customers or obtain more revenue from existing customers.
 
-# Given that foundational uncertainty, for engineers to *partner* with their stakholders to create value, there's an overall cycle they need to go through:
+ - Business: Break into the enterprise segment
 
- - The stakeholder shares a *business problem to solve* (not a solution to build)
+   Team: Address key scale, security and functionality limitations that are currently blocking enterprise sales
 
- - The stakeholder provides *context* for the problem
+By articulating this to yourself, you'll be able to authentically position a pitch for change as a necessary step in achieving that overall strategic outcome.
 
- - The stakeholder *listens* to key questions and concerns from the engineers
+e.g. you want to be able to say to your stakeholder something like:
 
- - The stakeholder and engineers work together to define an *initial increment*
+/"My understanding is that our absolutely highest priority is growth -- either customers or revenue, or, ideally, both. The company as a whole needs to show an increase of X% within the next 18 months or so. Our team has been asked to play our part by rapidly prototyping a series of new product ideas, and seeing if we can find one which is a winner. We're very excited about that challenge. However, we do have a concern.../
 
- - The engineers build the increment, *without constant interruptions* from the stakeholder
+That is enormously more compelling than just starting with "the problems on the ground".
 
- - When the engineers complete the increment, they share what they have *learned*
+A note: there is an, um, uncomfortably high likelihood that you might have to *make an informed guess* about this overall company strategic intent.
 
- - The stakeholder and engineers work together to *adapt*, possibly pivoting to something entirely new.
+In an ideal world, company leadership would share a concise, coherent statement of strategic intent with the whole company. In that ideal world, even as you're reading this, you'd be nodding and saying "Yep, I've got that, let's go."
 
-The good news is that this approach totally works!
+Unfortunately, here in the *actual* world, it's super common for company leadership to be not fully clear in their own thinking, and/or not fully clear in how they convey context and strategy to the company at large.
 
-There's lots of super interesting nuance about how to make it work at different scales, but the underlying cycle of specifying problems and then, as you build, gathering information and making decisions is an incredibly succesful means to create value in the face of a vast amount of complexity and uncertainty.
+In such a situation my advice is to, well, start by guessing.
 
-The bad news is that the humans involved don't always want to work this way.
+You've likely got a fair amount of context, your best bet is usually going to be to develop your own best guess coherent statement of strategic intent.
 
-I wish I could say that stakeholders show up every day, laying out coherent problems to solve, sharing clear strategic context, and eagerly ready to adapt and learn as the work unfolds.
+You can then take proceed to some of the next steps in this game plan. In particular, some of those will provide you with opportunities to test out your hypothesized strategy with your stakeholder as you go.
 
-But, here in the real world, that aspirational ideal is very rarely met.
+That usually works better than point blank asking them, before you do any of the other work.
 
-Instead, stakeholders will often:
+** Map Fears & Aspirations
 
- - Demand the engineers build specific solutions they've dreamed up
+aka, develop an *empathetic statement* of your stakeholder's fears and aspirations.
 
- - Provide limited or no business context
+In general, your stakeholder's behavior patterns are being driven by some combination of what they *want* and what they're *afraid of*.
 
- - Attempt to manage the work by obtaining "commitments" to long-term estimates
+You want to be able to speak with authentic connection to both the fears that are keeping them up at night, as well as the things that they desperately wish were happening.
 
- - Angrily resist changes to the plan
+The CEO who is constantly interrupting the team may be *afraid* that that they don't know what the team is working on (and thus the team could go off the rails), and they might *want* to play a key role in deciding what problems the team commits to solving.
 
-# Refuse to say "No" to anything, defeating any attempt to establish prioritization
+Stated that way, you can authentically agree that those are *valid concerns*.
 
-Now, before we go any further, let me be clear: this is not because the stakeholders are stupid[fn:: I suspect many engineers believe that this is the problem, but more than anything else, that tends to reflect a narrow life experience and/or lack of empathy on the part of those engineers.].
+You want to be able to say something like:
 
-Rather, just about every business stakeholder I've ever worked with came to the collaboration with two prior experiences:
+/We're worried that, as we're working right now, it can feel pretty unclear to you what, exactly, the team has prioritized at any given moment. We really want to fix that. We also want to be 100% certain that, as various key business problems come up, you're able to ensure the team is pointed at the most important problems to solve -- and that, as they work, you have full clarity about near-term goals and progress./
 
-First, they had successfully managed lots of *other* kinds work by way of plans, goals, deadlines and commitments. In fact, for many of them, that's literally what it meant to lead within a business.
-
-Second, they had suffered repeated bad experiences of working with engineering and product teams.
-
-For most stakeholders, I suspect that working with engineering is something of a nightmare of uncertainty and confusion. The engineers seem to only speak in impenetrable techno-gibberish, and when they do briefly make sense, it's usually to announce that they've missed yet another delivery deadline. The median stakeholder experience is: they don't know what the engineers are doing; they can't get them to do what they want; and, when the team finally does deliver something, it doesn't work.
-
-Given the above, it's not surprising that most stakeholders aren't eager to be challenged by the engineers to collaborate in a new way.
-
-Even if the engineers are able to articulate some problems being caused by the current patterns of interaction, many stakeholders will be operating in such a deficit of trust, they won't be able to seriously consider a change.
-
-And it's not like most humans (myself very much included!) walk around eager to change the way we behave. Why would we!? The way we behave is clearly only natural and right, given the difficulties we're facing!
-
-What's an engineer supposed to do?
-
-If you try to persuade your stakeholder to act differently, they'll often push back, often aggressively.
-
-On the other hand, if you try to operate within a broken cycle, you run a massive risk of the work going off the rails, with plenty of blame and recrimination to go around afterwards.
-
-Fortunately, I have, over many years of working with other humans, found ways to gradually bootstrap better patterns of interaction.
-
-I'll map those out in detail in the succeeding posts in this series, but a high level overview is:
-
-** 1) Build your own picture of what is strategically important to the business
-
-This will let you position your pitch for change in as part of an overall, important strategic imperative.
-
-** 2) Develop an empathetic statement of your stakeholder's fears and aspirations
-
-Such a statement lets you speak with authentic connection to both the fears that are keeping them up at night, as well as the things that they desperately wish were happening.
+Stated that way, you're set up to cleanly bridge to something which might involve that CEO *not bothering the team all the time* -- but you can make that proposal while ensuring they have the visibility and the control that they want.
 
 Persuading humans to change their behavior works roughly a thousand times better if you can find a way to speak to their hearts as well as their minds.
 
-** 3) Design a medium-sized increment of behavior change
+** Design an Increment of Change
 
 E.g. "for the next month, let's try working in new way X".
 
-Medium-sized means it's not so trivial a change as to escape notice, but not so big as to require more trust than you've yet garnered.
+You usually want to aim for a "medium-sized" increment: something that's not so trivial a change as to escape notice, but not so big as to require more trust than you've yet garnered.
 
-Two notes, as you go about desiging this increment:
+With the CEO we've been discussing, that increment might be:
 
- 1) Think about making the overall goal of the increment be supporting a *decision by your stakeholder*
+/For the next month, the PM and eng lead will add a pair of recurring meetings between the two of them and the CEO: one midway through each sprint, to check in on status and learnings, one immediately after each sprint demo, to discuss options for what the team works on next. In return, the CEO will, for this month, stop coming to team standups./
 
-    So you can say something like: "At the end of the month, the team will be bringing you evidence a, b and c, so you can then decide what to do next. Also, we'll hold a retro, to understand how the new way of working has been for you, and if we should stick with it, going ahead."
+There's a bunch of nuance to this one that it's a bit tricky to summarize in brief, but I'll offer two thoughts:
+
+ 1) Try to make the increment's overall goal be supporting a *decision by your stakeholder*
+
+ E.g. you could say to the CEO something like: "at the end of the month, we're going to sit down with you and review the team's output and velocity, and also see if and how you've been able to both understand and guide the team's work. We can then further adjust, if necessary, to ensure you can make clean decisions about what problems the team is solving."
+
+ By proposing a time-limited period of change, and ending with an empowering decision for your stakeholder, you can make it much easier for them to say "yes".
 
  2) Set some "within the increment" cadence for updates and decisions
 
-    E.g. "Every other week, we'll share updates via <some kind of meeting> and be ready to talk about tactical changes and updates."
+ Many of these change involve *some* kind of "leave the team alone" shifts -- in those cases, see if you can find some clear, controlled way that the stakeholder is having opportunities to understand what is going on, and to (appropriately!) influence it.
 
-** 4) Pitch the increment of change to your stakeholder
+ In the example above that's the "within sprint" meetings.
 
-  - First, name/validate their fears, and demonstrate your emotional alignment with them
+** Craft a Pitch That Creates Urgency
 
-    Find a way to authentically say "I too really worry about Bad Thing X and want to make sure we don't get caught by it"
+Put it all together into a pitch:
 
-  - Signal that you want to try something new
+ - Open with the strategic intent as context
 
-  - As part of the reason, name the aspirational positive experience you want them to have -- which they have not been having, of late.
+ - Name and validate their fears, and demonstrate your emotional alignment with them
 
-  - Name your price/ask -- how they're going to have to try acting differently for a period of time.
+ - Signal that you want to try something new
 
-  - Set overall goal/milestone for increment, and make clear it involves a decision made *by them*
+ - Name the aspirational positive experience you want them to have (ideally, they have not been having this experience, of late).
 
-  - Set the "internal" cadence of updates and decisions within that first increment
+ - Share your own concerns and fears -- the things that make you're worried that you won't achieve the strategic intent, given the way you're operating now
 
-** 5) Clear the decks and stack the deck
+ - Name your key request -- how they'd have to try acting differently.
 
-If you've gotten buy-in, the most important thing in your job has now become to "earn a win" -- doing so will allow you to build trust, and then change more and more stakeholder behavior over time. There is a very good chance that this is more valuable than literally anything else you can do.
+ - Set a goal and a timebox for the increment. Make it clear that the end of the increment is an opportunity for them to make a decision.
+
+ - Set a cadence of updates and decisions within the first increment
+
+You should *practice* this with a trusted friend before you pitch your stakeholder.
+
+** Clear the Decks & Stack the Deck
+
+With any luck, the stakeholder is willing to act a little differently, for a little bit of time!
+
+Awesome!
+
+During this first increment, you want to do everything you can to ensure that things go *great*.
+
+You want to *earn a win* --- doing so will allow you to build trust, which will allow you to drive more change over time.
+
+There is a solid chance that this is more valuable than literally anything else you could do.
 
 Thus:
 
- a) clear the decks - throw overboard everything about your job you can, for a short time
+ a) *Clear the Decks*
 
- b) stack the deck  - by e.g. putting your best engineer on the project, ensuring any dependencies get rapidly resolved, etc
+    Throw overboard everything else about your job you can, for a short time.
 
-** 6) Celebrate wins, offer next increment/ask/decision
+    Tell your team that you're putting your full focus on this, apologize in advance for not being responsive, cancel any non-critical meetings, etc.
 
-Back around to the top, with more trust.
+ b) *Stack the Deck*
+
+    Do everything you can to increase the odds of landing a visible, exciting win.
+
+    Put your best engineer on the project, call in favors to ensure dependencies get rapidly resolved, beg/borrow/steal as needed, etc.
+
+** Celebrate Wins and Offer Next Increment/Ask/Decision
+
+Try to find a way to make any progress *feel* like a win you're sharing *with* your stakeholder. Like *their* win.
+
+And then start the loop again at the top.
+
+
+
 
 
 
