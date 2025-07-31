@@ -1,0 +1,100 @@
+:PROPERTIES:
+:ID:       48CF02B5-7A45-4EC3-B0F4-B2032A6C3731
+:END:
+#+title: Rubber Duck w/ EWJ
+Part of [[id:42FF29AB-A3A1-4307-85E5-69C08C7D4DB4][Reframe/Restructure]], based on learnings from round 2 of [[id:49E66E86-CE83-447E-87C2-3BFF3D8FE42E][Teaching/Helping Conversations]].
+* Email to EWJ <2025-07-31 Thu>
+Subject: Another Round of Rubber Ducking
+
+E,
+
+Okay, so I've now talked w/ three of the four eng leaders you introduced me to: Lisa, Jacob, and Ryan.
+
+Interestingly, I ended up finding that each of them had the same underlying problem, and I ended up sharing the same underlying game plan with each of them (with a bunch of nuanced differences for each, naturally).
+
+Specifically, each of the three of them was stuck in a non-optimal pattern of interaction with a stakeholder (or multiple stakeholders), knew what they *wanted* to be doing instead, but were feeling completely defeated in their attmpts to get the stakeholders to change.
+
+Based on that, plus their responses to some specific things I asked them, I'm leaning towards landing my current pivot in a specific way. But doing so raises some questions, so I want to write out my thoughts here, and figure out what I think and ask for your input.
+
+As I mentioned in my last email, I think I've got three coherent things to offer, three problems I can help solve (all of them based on things you and I worked out together).
+
+In that email, I named those as:
+
+ 1- Creating Value in the Presence of Uncertainty: Build Increments Around Key Decisions
+
+ 2- Changing Stakeholder Behavior: First Hearts, Then Minds
+
+ 3- Making Time For "Engineering" Work: Drive Technical Investments
+
+The more I think about it, the more I think I should, for now, proceed with the strong assumption that each of those is a *separate book*. I think writing several shorter books instead of one really big one is: a *signficant* win economically; likely a better reading experience; has a lower chance of me failing to finish even one book; allows people to select just the problem they current most care about; etc.
+
+Feel free to disagree!
+
+Assuming you don't, which book do I write first?
+
+** Which Problem Is Most Pressing?
+
+Jacob, Lisa & Ryan all immediately honed in on (2) -- changing patterns of interaction with stakeholders. Plus, each of them was really energized and excited by what I had to offer as a potential solution there (and each of them agreed to check in in a few weeks, to see if they had applied any of it, and each of them very much seemed to be planning to do so -- all of which is evidence, as per WUB, that I can clear the D and E in DERP. Desirable and Effective).
+
+That said, I will indulge myself for a sec here, and state my current hunch: the vast majority of engineers would benefit greatly from what I/we have to offer for *all three* problems.
+
+But, my current hypothesis is that most folks who have made it into some form of eng leadership feel like they've found good enough solutions to (1) and (3), whereas (2) is what is actively killing them (actually, worse, they probably pride themselves on how they do (1) and (3), so they don't need to read some book about it).
+
+Part of what I'm struggling a bit with is that *I think they're wrong*. I think there's a lot in (1) and (3) that they don't realize they're missing (I base this on the fact that every time you and I work with people, they end up sort of fundamentally changing how they do (1) and (3) afterwards).
+
+I mean, the people I'm talking to are likely right that (2) is *more* important, and I'm happy to supply a game plan for that.
+
+But maybe I'm feeling a bit petulant? Hmm.
+
+Actually, beyond the petulance, there's also the fact that I've got most of a first draft of book written about (3) already, so let me think for a second before I pivot fully to (2).
+
+Let me try saying this all more positively: it's possible that, for (1) and (3), I haven't found the right way to *state the problem* yet, such that it resonates for people.
+
+For (1), I could imagine something like "The Art of Increment Design: Breaking Down Engineering Work To Maximize Value" (where part of the pain I'm selling into, the problem that will lead people to recommend my book for years is "Agile worked fine in the small scale, but now I'm leading this big project, and I don't know what to do").
+
+I'm still not sure that's going to be as *urgent* a pain as fixing stakeholder interactions. And I don't have that book written yet. Though I have taught it a *lot*, and have some empirically useful writing lying around (e.g. the milestones doc I wrote at Ellevation).
+
+For (3), maybe it's something like:
+
+Engineering Leads the Way
+
+Engineering Takes the Lead
+
+How (and When!) To Create Value Without Waiting To Be Told What To Do
+
+So I'm sort of selling into the desire to be a hero, I'm leaving tech debt all the way the hell out of the title, etc.
+
+I think that's... better. But I think the struggle with stakeholders feels more life and death, and I should therefore commit to writing that book first.
+
+Agree? Disagree?
+
+
+** TAM Considerations
+
+One small caveat: all three people I talked to are, I believe, in years 10-15 of their careers. Which is why they've found reasonable solutions to (1) and (3). But (2) is sort of the problem they've now earned themselves, and it feels both pressing and impossible to solve.
+
+So, although going 3 for 3 feels like very strong evidence, I want to name: is it possible that engineers *earlier in their careers* would benefit more strongly from solutions to (1) and (3), and therefore there's a bigger market for such books? (because there are *more* engineers early in their careers?)
+
+Hmmm. I... think I should not worry about that yet? I think engineers early in their careers are learning "okay" solutions to (1) and (3) from *other engineers*, and are also learning about structuring and operating complex programs by *doing so*, and are likely reading books about software design, etc.
+
+Oooh, and: if I focus on (2), I can likely sell to PM's, too!
+
+I mean, I've 1000% used the game plan in that case. As in, I've *both* used the game plan as a way for engineers to to fix their interaction patterns with PM's, and *also* as a way for the PM and Eng Lead to, together, fix their interaction pattern with business stakeholders (actually, now that I mention it, I've also used it as a way for PM's to get the engineers on their team to behave differently).
+
+E.g. maybe the title is something like:
+
+Fixing the Engineering/Stakeholder Interface
+
+How Engineers and PM's Can Create More Value and Win in the Long Term
+
+I'm experimening with the idea of focusing on the "interface", maybe even trying:
+
+Refactoring the Engineering/Stakeholder Interface
+
+** Conclusion?
+
+I think this has mostly convinced me to just jump in with both feet to a book titled something like "Fixing the Engineering/Stakeholder Interface". Even if it means I have "more writing" to do than if I tried to make a book on technical investments work.
+
+I'm gonna go work on the ToC for that book, holler if any of the above sounds off.
+
+D
