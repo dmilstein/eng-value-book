@@ -3,25 +3,50 @@ Experimenting. Can I have a list of todos, outside of org-roam, but, when I'm in
 Yes, I can, apparently.
 
 * TIB Inbox                                       :inbox:
-** TODO Add a section about multiple disagreeing stakeholders?
+** DONE How To Behave So Your Stakeholder Behaves
+CLOSED: [2025-07-30 Wed 15:57]
+** DONE Share email follow up w/ Ryan
+CLOSED: [2025-07-31 Thu 09:18]
+** TODO Schedule follow up w/ Ryan
+** TODO From Ryan convo: when/how to loop in your boss
+To deploy authority.
+** TODO From Ryan convo: "lead the way in new pattern of work"
+E.g. if Doug is going to be the first PM to actually PM, can you sell that as a learning experience
+** TODO From Ryan convo: creating urgency
+** TODO Maybe: back half of book is all case studies
+** TODO "What if the stakeholder feels no pain?"
 * [[id:454225CA-DD66-4ACA-B8B3-429F6551DBDC][New Intro]]                                       :gtasks:
 ** TODO Write New Intro
 :LOGBOOK:
+CLOCK: [2025-07-31 Thu 09:15]--[2025-07-31 Thu 13:01] =>  3:46
+CLOCK: [2025-07-30 Wed 09:16]--[2025-07-30 Wed 11:20] =>  2:04
+CLOCK: [2025-07-29 Tue 09:33]--[2025-07-29 Tue 12:01] =>  2:28
+CLOCK: [2025-07-28 Mon 10:01]--[2025-07-28 Mon 10:55] =>  0:54
+CLOCK: [2025-07-28 Mon 07:10]--[2025-07-28 Mon 08:06] =>  0:56
+CLOCK: [2025-07-26 Sat 09:01]--[2025-07-26 Sat 10:02] =>  1:01
+CLOCK: [2025-07-24 Thu 06:58]--[2025-07-24 Thu 09:07] =>  2:09
+CLOCK: [2025-07-23 Wed 14:01]--[2025-07-23 Wed 15:20] =>  1:19
+CLOCK: [2025-07-23 Wed 10:40]--[2025-07-23 Wed 11:41] =>  1:01
+CLOCK: [2025-07-22 Tue 15:10]--[2025-07-22 Tue 15:33] =>  0:23
 CLOCK: [2025-07-22 Tue 06:54]--[2025-07-22 Tue 08:13] =>  1:19
 CLOCK: [2025-07-22 Tue 06:50]--[2025-07-22 Tue 06:54] =>  0:04
 :END:
-** DONE Move solution to challenges out of intro  :curweek:pom:
+** DONE Move solution to challenges out of intro  :pom:
 CLOSED: [2025-07-22 Tue 08:11]
-** TODO Fundamental Challenge as separate chapter? :curweek:
-** TODO Break out 3/4 distinct challenges         :curweek:
-** TODO Write the "if only" section               :curweek:
-** TODO Write Analytics 2.0 as increments         :curweek:
-** TODO Write Maint Triage as interruption        :curweek:
-** TODO Write Konicki/metrics as empathy          :curweek:
-** TODO Paste in Flagship Deploys as tech invest  :curweek:
+** TODO Insert "gameplans" into intro?
+** TODO Try: insert overall goal before story
+** DONE Break out 3/4 distinct challenges
+CLOSED: [2025-07-29 Tue 11:22]
+** TODO Fundamental Challenge as separate chapter?
+** TODO Write the "if only" section
+** TODO Write Analytics 2.0 as increments
+** TODO Write Story of Sprint as interruption
+** TODO Write Konicki/metrics as empathy
+** TODO Paste in Flagship Deploys as tech invest
 ** TODO Experiment w/ EWJ's summary?
 Half of what they asked for we never finished, half of what remained was never used.
-** TODO Signal, early on, that I'm not demonizing PMs's
+** DONE Signal, early on, that I'm not demonizing PMs's
+CLOSED: [2025-07-24 Thu 06:59]
 Like, product *specifically*. In an ideal world, the Product and Engineering team are managing stakeholders together. But we don't live in that world, do we.
 ** DONE Try to weave in 'experience of misaligment'
 CLOSED: [2025-07-19 Sat 19:43]
@@ -34,6 +59,31 @@ CLOSED: [2025-07-15 Tue 12:46]
 ** DONE Revise new intro                          :pom:
 CLOSED: [2025-07-16 Wed 11:11]
 * [[id:42FF29AB-A3A1-4307-85E5-69C08C7D4DB4][Reframe/Reorg]]                                   :gtasks:
+** DONE Write ToC for Fixing Interaction          :curweek:pom:
+CLOSED: [2025-07-31 Thu 10:41]
+** DONE Rubber duck the situation w/ Edmund       :curweek:pom:
+CLOSED: [2025-07-31 Thu 10:19]
+** TODO insert Action plan for Change Stakeholder Behavior... somewhere
+ - Identify a Strategic Intent
+ - Map your stakeholder's fears and desires
+ - Choose a medium-sized opportunity for change
+ - Pitch an increment of change:
+   - Name/validate/demonstrate alignment around fears
+   - Signal trying something new
+   - Name aspiration you want to show
+   - Name price/ask
+   - Set milestone with a decision *for stakeholder*
+ - Clear the decks and stack the deck
+ - Celebrate win effectively, offer next decision
+** DONE Spike on new structure
+CLOSED: [2025-07-29 Tue 11:23]
+ - Create Value In Face of Uncertainty
+ - Earn Wins To Challenge For Change
+ - Take the Lead on Technical Investments
+** TODO Aim for: each section (chapter?) has an *action plan*
+People are clearly resonating with that, and it's actually how I think.
+** TODO Brainstorm: what motivates writing
+Who am I trying to help? Where are they?
 ** DONE Ask Edmund: reframe as "How To Work With Stakeholders"? :pom:
 CLOSED: [2025-07-10 Thu 06:42]
 Like, that's sort of what it's becoming? Is *that* the urgent pain?
@@ -67,89 +117,24 @@ CLOSED: [2025-06-08 Sun 09:58]
 ** DONE Write bad prose for Celebrate             :pom:
 CLOSED: [2025-06-08 Sun 09:58]
 ** TODO Talk about "build visibility" vs "add metrics"
-* [[id:4FEA3BD5-8E85-4BB6-8F59-15FDE4F38572][Tactical Empathy]]                                :gtasks:
-** TODO Maybe move annotated breakdown of  pitch back into Tac Empathy
-** DONE For story at end of Tac Empathy, maybe end with "How long will this take?"
-CLOSED: [2025-06-22 Sun 17:33]
-** DONE Add wrap up to story + teaser for milestones :pom:
-CLOSED: [2025-06-20 Fri 19:37]
-As in, the proposal is for a increment which ends with a shared decision
-** DONE Sketch in outline
-CLOSED: [2025-06-16 Mon 09:28]
-** DONE Write example scene before/after          :pom:
-CLOSED: [2025-06-16 Mon 17:14]
-** DONE Try "It's Hard to be a Stakeholder"       :pom:
-CLOSED: [2025-06-18 Wed 09:37]
-** DONE Write "Repeat Trailing Three Words"
-CLOSED: [2025-06-18 Wed 09:37]
-** DONE Write "Echo Back as Inquiry"              :pom:
-CLOSED: [2025-06-18 Wed 11:17]
-** DONE Finish "Retrain Your Brain"               :pom:
-CLOSED: [2025-06-19 Thu 11:46]
-** DONE Write "Posit a Spectrum to Draw People Out"
-CLOSED: [2025-06-19 Thu 16:00]
-** DONE Write "Cultivate Curiosity & Sincerity"
-CLOSED: [2025-06-19 Thu 19:49]
-** DONE Write "Wait, Isn't This Product's Job?"
-CLOSED: [2025-06-19 Thu 08:04]
-
-* [[id:B4926308-39DD-471B-8E71-5FFF7546D6E3][ToC/Structure ]]                                  :gtasks:
-** TODO Type up (Wispr?) new ToC + Intro structure from notebook :curweek:
-** DONE Stash my existing ToC somewhere           :curweek:
-CLOSED: [2025-07-21 Mon 08:38]
-** TODO Experiment: add exercises to end of each chapter
-Like, now go do these things
-** TODO Maybe: add an entire chapter on Rewrites
-** TODO Add: Major rewrites *must* be done with product
-not as separate tech investments
-** TODO And, for rewrites, celebrate all the ones I've done:
- - Analytics 2.0
- - Nexus WMS
- - Flagship
-** TODO Rename "Rewrites: How To + How *Not* To"?
-** DONE Spike on ToC reorg - part II = stakeholder mgmt
-CLOSED: [2025-06-16 Mon 09:25]
-** DONE Write out notes on my ideas for reordering :pom:
-CLOSED: [2025-06-07 Sat 09:32]
-* [[id:03D1870C-E583-4D5C-9589-5E0799793D48][Mstones/Decisions]]                               :gtasks:
-** DONE Add: fear of loss of control for stakeholder :pom:
-CLOSED: [2025-06-28 Sat 10:19]
-** DONE Write one or two more "why this is hard" bits
-CLOSED: [2025-06-23 Mon 09:20]
-** DONE Write Tech Investments Don't End          :pom:
-CLOSED: [2025-06-23 Mon 11:00]
-** DONE Rewrite opening to get to the fucking point :pom:
-CLOSED: [2025-06-25 Wed 11:23]
-** DONE Add decision increments for scenarios
-CLOSED: [2025-06-27 Fri 07:00]
-** DONE Weave through: decision, options, offramps :pom:
-CLOSED: [2025-06-27 Fri 08:04]
-** DONE Review/clean up Understand Stakeholder    :pom:
-CLOSED: [2025-06-28 Sat 10:19]
-Figure out where to put the illustration of the your stakeholders medium-term decisions. Put really emphasis on them needing to be the one to make those decisions.
-** DONE Bridge from decisions/fears to how we'll help
-CLOSED: [2025-06-28 Sat 10:40]
-** TODO Break out Design Milestones chapter?
-** DONE Clean up first full example               :pom:
-CLOSED: [2025-06-29 Sun 13:40]
-Right now it's like I'm saying it both interwoven with the example, and separately.
-** DONE Add Off Ramp to my first full example
-CLOSED: [2025-06-28 Sat 10:40]
-** DONE Add Off Ramps to the Decision-Framing examples :pom:
-CLOSED: [2025-06-29 Sun 14:53]
-** DONE Find Satoe's thing about cave in her HTB thing
-CLOSED: [2025-06-29 Sun 16:47]
-** TODO Review Ell Milestones doc for ideas
-** DONE Set up problem from Satoe's "cave" analogy :pom:
-CLOSED: [2025-06-21 Sat 11:06]
-** DONE Terrible first draft
-CLOSED: [2025-06-21 Sat 14:30]
-* [[id:EFA43963-DB19-4EA6-8EF3-4F4376AED1F1][Story Makeovers]]                                 :gtasks:
-** DONE Rough out one more makeover
-CLOSED: [2025-07-08 Tue 11:44]
-** DONE Review structure of each makeover
-CLOSED: [2025-07-08 Tue 11:24]
+* Work Habits
+** TODO Set a goal for week around hours of writing :curweek:
+** TODO Get into "I can't wait to help" mode
+What was my mindset for writing Rewrites? I think, I knew something, and couldn't wait to tell you.
 * [[id:49E66E86-CE83-447E-87C2-3BFF3D8FE42E][Teach/Coach]]                                     :gtasks:
+** DONE Write up Lisa Plesko follow ups           :curweek:
+CLOSED: [2025-07-30 Wed 14:29]
+** TODO Ping Lisa P, ask what she's applied
+DEADLINE: <2025-08-14 Thu>
+** TODO Ping Jacob, ask whatg he's applied
+DEADLINE: <2025-08-11 Mon>
+** DONE Make todos for Jacob follow ups           :curweek:
+CLOSED: [2025-07-30 Wed 14:29]
+*** Share my chapters on Tactical Empathy
+*** Maybe other chapters
+*** Maybe sketch on building trust and levering up
+*** Specifically on asking for problems not solutions and "cheating" on the backend
+*** Add scheduled task to ping him
 ** DONE Respond/schedule                          :pom:
 CLOSED: [2025-07-19 Sat 11:05]
 ** DONE Sign up for pro zoom
@@ -166,6 +151,12 @@ CLOSED: [2025-07-21 Mon 08:11]
 ** TODO Do a timeboxed skim through LinkedIn contacts for Part 2 coaching
 Can I just export my list of contacts
 * [[id:E0ADBF07-90B8-4C37-81C0-96A428020F5E][Substack]]                                        :gtasks:
+** DONE Pick a topic for this week                :curweek:
+CLOSED: [2025-07-30 Wed 09:22]
+** DONE First draft post <2025-07-28 Mon> week    :curweek:
+CLOSED: [2025-07-31 Thu 10:41]
+** TODO Revise post for <2025-07-31 Thu> week     :curweek:pom:
+** TODO Finish/post <2025-07-28 Mon> week         :curweek:
 ** DONE Make sure I'm not talking down about Tech Debt :pom:
 CLOSED: [2025-07-19 Sat 09:20]
 ** DONE Split posts: 1) ops work, 2) interruptions.
@@ -224,6 +215,89 @@ CLOSED: [2025-06-09 Mon 13:11]
 CLOSED: [2025-06-11 Wed 17:06]
 ** DONE Understand diff between Substack notes and posts
 CLOSED: [2025-06-12 Thu 11:16]
+* [[id:4FEA3BD5-8E85-4BB6-8F59-15FDE4F38572][Tactical Empathy]]                                :gtasks:
+** TODO Maybe move annotated breakdown of  pitch back into Tac Empathy
+** DONE For story at end of Tac Empathy, maybe end with "How long will this take?"
+CLOSED: [2025-06-22 Sun 17:33]
+** DONE Add wrap up to story + teaser for milestones :pom:
+CLOSED: [2025-06-20 Fri 19:37]
+As in, the proposal is for a increment which ends with a shared decision
+** DONE Sketch in outline
+CLOSED: [2025-06-16 Mon 09:28]
+** DONE Write example scene before/after          :pom:
+CLOSED: [2025-06-16 Mon 17:14]
+** DONE Try "It's Hard to be a Stakeholder"       :pom:
+CLOSED: [2025-06-18 Wed 09:37]
+** DONE Write "Repeat Trailing Three Words"
+CLOSED: [2025-06-18 Wed 09:37]
+** DONE Write "Echo Back as Inquiry"              :pom:
+CLOSED: [2025-06-18 Wed 11:17]
+** DONE Finish "Retrain Your Brain"               :pom:
+CLOSED: [2025-06-19 Thu 11:46]
+** DONE Write "Posit a Spectrum to Draw People Out"
+CLOSED: [2025-06-19 Thu 16:00]
+** DONE Write "Cultivate Curiosity & Sincerity"
+CLOSED: [2025-06-19 Thu 19:49]
+** DONE Write "Wait, Isn't This Product's Job?"
+CLOSED: [2025-06-19 Thu 08:04]
+
+* [[id:B4926308-39DD-471B-8E71-5FFF7546D6E3][ToC/Structure ]]                                  :gtasks:
+** DONE Type up (Wispr?) new ToC + Intro structure from notebook
+CLOSED: [2025-07-29 Tue 07:54]
+** DONE Stash my existing ToC somewhere
+CLOSED: [2025-07-21 Mon 08:38]
+** TODO Experiment: add exercises to end of each chapter
+Like, now go do these things
+** TODO Maybe: add an entire chapter on Rewrites
+** TODO Add: Major rewrites *must* be done with product
+not as separate tech investments
+** TODO And, for rewrites, celebrate all the ones I've done:
+ - Analytics 2.0
+ - Nexus WMS
+ - Flagship
+** TODO Rename "Rewrites: How To + How *Not* To"?
+** DONE Spike on ToC reorg - part II = stakeholder mgmt
+CLOSED: [2025-06-16 Mon 09:25]
+** DONE Write out notes on my ideas for reordering :pom:
+CLOSED: [2025-06-07 Sat 09:32]
+* [[id:03D1870C-E583-4D5C-9589-5E0799793D48][Mstones/Decisions]]                               :gtasks:
+** DONE Add: fear of loss of control for stakeholder :pom:
+CLOSED: [2025-06-28 Sat 10:19]
+** DONE Write one or two more "why this is hard" bits
+CLOSED: [2025-06-23 Mon 09:20]
+** DONE Write Tech Investments Don't End          :pom:
+CLOSED: [2025-06-23 Mon 11:00]
+** DONE Rewrite opening to get to the fucking point :pom:
+CLOSED: [2025-06-25 Wed 11:23]
+** DONE Add decision increments for scenarios
+CLOSED: [2025-06-27 Fri 07:00]
+** DONE Weave through: decision, options, offramps :pom:
+CLOSED: [2025-06-27 Fri 08:04]
+** DONE Review/clean up Understand Stakeholder    :pom:
+CLOSED: [2025-06-28 Sat 10:19]
+Figure out where to put the illustration of the your stakeholders medium-term decisions. Put really emphasis on them needing to be the one to make those decisions.
+** DONE Bridge from decisions/fears to how we'll help
+CLOSED: [2025-06-28 Sat 10:40]
+** TODO Break out Design Milestones chapter?
+** DONE Clean up first full example               :pom:
+CLOSED: [2025-06-29 Sun 13:40]
+Right now it's like I'm saying it both interwoven with the example, and separately.
+** DONE Add Off Ramp to my first full example
+CLOSED: [2025-06-28 Sat 10:40]
+** DONE Add Off Ramps to the Decision-Framing examples :pom:
+CLOSED: [2025-06-29 Sun 14:53]
+** DONE Find Satoe's thing about cave in her HTB thing
+CLOSED: [2025-06-29 Sun 16:47]
+** TODO Review Ell Milestones doc for ideas
+** DONE Set up problem from Satoe's "cave" analogy :pom:
+CLOSED: [2025-06-21 Sat 11:06]
+** DONE Terrible first draft
+CLOSED: [2025-06-21 Sat 14:30]
+* [[id:EFA43963-DB19-4EA6-8EF3-4F4376AED1F1][Story Makeovers]]                                 :gtasks:
+** DONE Rough out one more makeover
+CLOSED: [2025-07-08 Tue 11:44]
+** DONE Review structure of each makeover
+CLOSED: [2025-07-08 Tue 11:24]
 * [[id:22898D7F-26DD-4787-939B-B640B3D5BE56][Beta Wave 1]]                                     :gtasks:
 ** DONE Offer Blog + Beta reading to TI in July   :pom:
 CLOSED: [2025-07-07 Mon 11:46]
@@ -463,8 +537,9 @@ CLOSED: [2025-06-11 Wed 17:06]
 CLOSED: [2025-06-11 Wed 17:06]
 Announce I'm working on a book, will post here sometimes, but please go join my new newsletter/Substack if you're interested for more (and/or might like to be a beta reader for a eection).
 * [[id:49435FCD-0590-44DE-8FC7-585E7BCC8BB2][Tooling]]                                         :gtasks:
-** TODO Learn just enough to clock in and out for writing hours (ask Claude?) :curweek:
-** DONE Make watch_book.sh work for new book      :curweek:
+** DONE Learn just enough to clock in and out for writing hours (ask Claude?)
+CLOSED: [2025-07-23 Wed 11:51]
+** DONE Make watch_book.sh work for new book
 CLOSED: [2025-07-21 Mon 08:38]
 Add params so it can still work for old book.
 
@@ -538,6 +613,7 @@ CLOSED: [2025-06-01 Sun 08:51]
 ** DONE Revise/improve The Ti Cycle
 CLOSED: [2025-06-02 Mon 11:23]
 * Book Misc                                       :gtasks:
+** TODO Add a section about multiple disagreeing stakeholders?
 ** TODO Add something about OKR's
 Every Unhappy OKR is Unhappy In the Same Way
 ** TODO Check out [[https://www.amazon.com/Aligned-Stakeholder-Management-Product-Leaders/dp/1098134427][Melissa Appel's book]]
