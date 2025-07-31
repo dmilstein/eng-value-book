@@ -3,14 +3,39 @@
 :END:
 #+title: New ToC
 A part of [[id:42FF29AB-A3A1-4307-85E5-69C08C7D4DB4][Reframe/Restructure]]
-* Table of Contents
+* Fixing Stakeholder Behavior ToC
+** Intro/The Problem - Engineering Would Be Easy, If It Weren't For These Pesky Humans
+** The Solution: As a Story + As a Game Plan
+** Part I - The Game Plan
+*** Align With a Strategic Intent
+*** Map Fears & Aspirations
+*** Design an Increment of Change
+*** Craft a Pitch That Creates Urgency
+*** Clear the Decks & Stack the Deck
+*** Celebrate Wins With Storytelling
+** Part II - Case Studies
+*** Story of Sprint @ Wingu
+*** Eng Listens to Product @ Kyruus
+*** Problems, Not Solutions @ Medium
+*** Maintenance Triage @ Ellevation
+*** Embracing Experiments & Failure @ BookBub
+*** Product Owns The Details @ BookBub (Ryan)
+*** Product Dev Pipeline @ Ellevation
+*** Heartbeats @ Ellevation
+*** Something w/ getting N to step back @ Ellevation
+*** Failure: getting Jordan to stop meeting w/ math team @ Ellevation (eventually threatened to quit)
+*** Engineers Do QA @ Wayfair (convo w/ Jen Straub)
+*** Build & Learn via Returns Team @ Wayfair
+(pushing to hypothesis, got in their face, profound learning)
+
+* All Three In One Table of Contents
 ** Overview
 *** [[id:454225CA-DD66-4ACA-B8B3-429F6551DBDC][New Intro]]
 ** Part I: Build Trust and Alignment
 *** Build Trust In Loops
 *** [[id:4FEA3BD5-8E85-4BB6-8F59-15FDE4F38572][Practice Tactical Empathy]]
 *** Understand Your Stakeholder In Depth
-Make Your Stakeholder Into A Bealeaugered H
+Make Your Stakeholder Into A Bealeauguered H
 *** Identify a Strategic Intent
 *** Convert Interruptions Into Cadenced Decisions (here?)
 ** Part II: Offer Decisions, Options & Off-Ramps

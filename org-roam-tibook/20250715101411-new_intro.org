@@ -67,6 +67,11 @@ In the course of those years, I've run into three major challenges, each of whic
 # Create Value in the Face of Uncertainty
 #  Managing Uncertainty
 
+ - Leading Projects In The Midst of Uncertainty
+ - Leading Projects Amidst Uncertainty
+ - Leading Projects Amidst Vast Uncertainty
+ - Leading Projects Amidst Constant Uncertainty
+
 Remember that C program I wrote to prepare the course catalog? I told my mother it would take me a week. To my dismay, due to both my own learning curve, and to all the weird edge cases I ran into in the input data, I struggled to get it done in under a month. Luckily, that didn't cause serious problems for my mother's division at the community college -- they produced the catalog late enough in the summer that they could wait.
 
 But I was both painfully and very unpleasantly surprised. I figured that, once I was a better, more experienced programmer, I'd be able to give more accurate estimates of how long projects would take.
@@ -129,7 +134,9 @@ I can't wait to share that way with you.
 
 # The role of product management is centrally important *because* the work is done iteratively -- but I have never seen an engineering team build great software without being deeply engaged in their own answers to those questions.
 
-** Challenge 2 - Changing Stakeholder Behavior
+** Challenge 2 - Fixing the Engineer/Stakeholder Interface
+
+# A Broken Engineer/Stakeholder Interface
 
 Working as part of a business means, well, working with *other people*. Specifically, working with other people who either directly have problems themselves (e.g. operational users of a piece of software I was writing), or who represent the problems that customers struggle with (e.g. a product manager, or a sales leader or a CEO).
 
@@ -200,7 +207,7 @@ Unfortunately, far too often, when engineers bring such problems to their stakeh
 
 In this book, I'm going to share the solutions I've learned, to each of those challenges:
 
- - Managing Uncertainty: Build Increments Around Key Decisions
+ - Creating Value in the Presence of Uncertainty: Build Increments Around Key Decisions
 
    # Estimates, Increments, Decisions & Milestones
 
@@ -208,7 +215,7 @@ In this book, I'm going to share the solutions I've learned, to each of those ch
 
    Steer into the major sources of uncertainty, such that you can make important decisions *with* your stakeholders, early enough to still have good options remaining.
 
- - Changing Stakeholder Behavior: Hearts Then Minds
+ - Changing Stakeholder Behavior: First Hearts, Then Minds
 
    By developing the skill of "tactical empathy", you will be able to help your stakeholder *feel* your understanding of both what they want and also what they most deeply fear. Based on that trust, you can then offer them finely-tuned "increments of change" which gradually move towards a better way of working together, and where each increment ends in an empowering decision for them.
 
