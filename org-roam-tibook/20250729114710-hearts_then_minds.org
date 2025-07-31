@@ -1,0 +1,454 @@
+:PROPERTIES:
+:ID:       B7243366-4987-4E38-8A9A-9769FFCE94BF
+:END:
+#+title: Hearts, Then Minds
+
+* Scrap
+
+** Writing software is learning
+And I don't mean that in some loosey-goosey way. I mean that, anything which is *known*, which is sufficiently well-defined, gets turned into a library or a subroutine or a platform.
+
+E.g. when I was writing software in the 90's, if someone wanted to publish something to the web, I might have estimated a certain amount of time to set up a server in some co-location facility, hook it up to DNS and then get it talking to a database I had also installed.
+
+That was "known work", and I could give a reasonable estimate of how long it would take.
+
+But, since then, every single year has seen more and more of that "known work" get turned into libraries and platforms, to the point now where I could pause in the middle of writing this sentence and launch a new database-backed website live on the internet in the time it would take you to pour yourself a glass of water and drink it.
+
+The known work gets relentlessly boiled away and turned into things which our programs can *call*.
+
+As a result, much of what is left is the things which aren't known -- be that how to wire up all the known bits to get them to work together, or how to model the underlying domain in a useful way, or, whether or not customers actually want the software we're slowly writing.
+
+
+** Arc w/ details
+ - The stakeholder shares a *business problem to solve*
+
+   They *don't* specify a solution, or a set of features -- instead they share a problem to solve, which creates sufficient space for the engineers to *find* a solution that is feasible to build.
+
+ - The stakeholder provides *context* around the problem
+
+   E.g. why it's important, how solving it will help the business, alternatives that were considered, other stakeholders to work with, etc.
+
+   It's only with such context that the engineers can understand
+
+ - The stakeholder *listens* to key questions and concerns from the engineers
+
+   So that they can build a shared picture of what's possible, with some sort of prioritzation scheme.
+
+ - The stakeholder and engineers work together to define to an *initial increment*
+
+ - The engineers complete the initial increment, and share what they have *learned*
+
+ - The stakeholder and engineers work together to *adapt* to what has been learned, possibly pivoting to something entirely new.
+
+
+
+* Titles
+ - Title: Changing Stakeholder Behavior
+ - Title: Changing Stakeholder Behavior Patterns
+ - Title: Changing Stakeholder Collaboration Patterns
+ - Title: Changing Engineer/Stakeholder Behavior Patterns
+ - Title: Fixing Engineer/Stakeholder Collaborations
+ - Title: Fixing The Engineer/Stakeholder Collaboration
+ - Title: Fixing The Engineer/Stakeholder Cycle
+ - Title: Fixing The Engineer/Stakeholder Interface
+ - Title: Improving Engineer/Stakeholder Collaborations
+
+Sub-Title: How to Behave So Your Stakeholder Behaves
+
+Sub-Title: Part I: Creating Value Would Be So Easy, If It Weren't For These Pesky Humans
+
+ - Sub-Title: Doing The Right Thing Is Surprisingly Hard Why
+ - Sub-Title: Why Is It So Hard To Do The Right Thing?
+* Draft 2 of Substack Post
+Fixing The Engineering/Stakeholder Interface - The Problem
+
+Y U No Collaborate Right?
+
+On occasion, engineers and product managers will find themselves deeply frustrated, because they want to change *how* they collaborate with some key stakeholder... but it seems to be impossible to do so.
+
+These are engineers and PM's who hugely want to work *with* the rest of the business to solve important problems and create value. They *want* to work with those key stakeholders.
+
+But they seem to be stuck in some interaction pattern which is making it very hard, or even impossible, to win.
+
+That could mean:
+
+ - A CEO who drops by the team's standup every other day with "important" new information, constantly randomizing the work of the team and killing any hope of velocity
+
+ - A key sales leader who relentlessly advocates for their pet feature ideas and resists aligning around customer problems
+
+ - A product manager who constantly ferries requests from stakeholders to the team without ever pushing back or setting a meaningful prioritization scheme
+
+ - A senior engineering or product leader who claims to want to create ownership and autonomy for their teams, but insists on staying "in the loop" for so many decisions, the team has to wait for their approval before taking even the smallest of steps
+
+One unifying problem in all these situations is that the stakeholder in question, be they CEO, sales leader or PM, *super doesn't want to change their own behavior*.
+
+This should not surprise us.
+
+If there's one thing that unifies basically all humans (myself very much included, sadly) it's that we are *extremely* reluctant to change the way we behave.
+
+I mean, why should we have to change!? Our behavior is clearly only natural and right, given the very special difficulties we personally are facing! There's literally nothing else we even *could* do![fn:: If you're asking right now, "Huh, Dan, it kind of sounds like you've been in marriage counseling?" I HAVE NO IDEA WHAT YOU'RE TALKING ABOUT.]
+
+
+
+ad
+
+ - The product manager (for the engineers, the PM's are often "the stakeholder")
+
+ - A CEO or other executive leader
+
+ - Leaders of sales, marketing or customer success
+
+ - Powerful internal users of some key system
+
+ - Senior engineering or product leadership
+
+
+
+There's too much complexity, too much *inherent uncertainty* in developing software to lead by making a plan ahead of time and then managing conformance to that plan (which is a core part of "classic" project management).
+
+Luckily, the industry has, through much painful exploration, gradually discovered an effective way for business stakeholders and engineers to work together to create valuable software.
+
+A note: I'm going to describe the below as an interplay between "the stakeholder" and "the engineers". A natural question is thus: um, where is the product manager? Are they the stakeholder? Or, are they a part of the engineering team? My answer: if the engineers are lucky, the product manager is a part of the engineering team in the below. But not all engineers are that lucky. Also, either way, *someone* is going to have to persuade someone else to change, and engineers are incredibly well-served by learning tactics for doing so -- even if, as I hope is often the case, they end up doing so in partnership with their product manager.
+
+At the highest level, the stakeholder and the engineers will win by going through repeated cycles of the following:
+
+# Given that foundational uncertainty, for engineers to *partner* with their stakholders to create value, there's an overall cycle they need to go through:
+
+ - The stakeholder shares a *business problem to solve* (not a solution to build)
+
+ - The stakeholder provides *context* for the problem
+
+ - The stakeholder *listens* to key questions and concerns from the engineers
+
+ - The stakeholder and engineers work together to define an *initial increment*
+
+ - The engineers build the increment, *without constant interruptions* from the stakeholder
+
+ - When the engineers complete the increment, they share what they have *learned*
+
+ - The stakeholder and engineers work together to *adapt*, possibly pivoting to something entirely new.
+
+The good news is that this approach totally works!
+
+There's lots of super interesting nuance about how to make it work at different scales, but the underlying cycle of specifying problems and then, as you build, gathering information and making decisions is an incredibly succesful means to create value in the face of a vast amount of complexity and uncertainty.
+
+The bad news is that the humans involved don't always want to work this way.
+
+I wish I could say that stakeholders show up every day, laying out coherent problems to solve, sharing clear strategic context, and eagerly ready to adapt and learn as the work unfolds.
+
+But, here in the real world, that aspirational ideal is very rarely met.
+
+Instead, stakeholders will often:
+
+ - Demand the engineers build specific solutions they've dreamed up
+
+ - Provide limited or no business context
+
+ - Attempt to manage the work by obtaining "commitments" to long-term estimates
+
+ - Angrily resist changes to the plan
+
+# Refuse to say "No" to anything, defeating any attempt to establish prioritization
+
+Now, before we go any further, let me be clear: this is not because the stakeholders are stupid[fn:: I suspect many engineers believe that this is the problem, but more than anything else, that tends to reflect a narrow life experience and/or lack of empathy on the part of those engineers.].
+
+Rather, just about every business stakeholder I've ever worked with came to the collaboration with two prior experiences:
+
+First, they had successfully managed lots of *other* kinds work by way of plans, goals, deadlines and commitments. In fact, for many of them, that's literally what it meant to lead within a business.
+
+Second, they had suffered repeated bad experiences of working with engineering and product teams.
+
+For most stakeholders, I suspect that working with engineering is something of a nightmare of uncertainty and confusion. The engineers seem to only speak in impenetrable techno-gibberish, and when they do briefly make sense, it's usually to announce that they've missed yet another delivery deadline. The median stakeholder experience is: they don't know what the engineers are doing; they can't get them to do what they want; and, when the team finally does deliver something, it doesn't work.
+
+Given the above, it's not surprising that most stakeholders aren't eager to be challenged by the engineers to collaborate in a new way.
+
+Even if the engineers are able to articulate some problems being caused by the current patterns of interaction, many stakeholders will be operating in such a deficit of trust, they won't be able to seriously consider a change.
+
+And it's not like most humans (myself very much included!) walk around eager to change the way we behave. Why would we!? The way we behave is clearly only natural and right, given the difficulties we're facing!
+
+What's an engineer supposed to do?
+
+If you try to persuade your stakeholder to act differently, they'll often push back, often aggressively.
+
+On the other hand, if you try to operate within a broken cycle, you run a massive risk of the work going off the rails, with plenty of blame and recrimination to go around afterwards.
+
+Fortunately, I have, over many years of working with other humans, found ways to gradually bootstrap better patterns of interaction.
+
+I'll map those out in detail in the succeeding posts in this series, but a high level overview is:
+
+** 1) Build your own picture of what is strategically important to the business
+
+This will let you position your pitch for change in as part of an overall, important strategic imperative.
+
+** 2) Develop an empathetic statement of your stakeholder's fears and aspirations
+
+Such a statement lets you speak with authentic connection to both the fears that are keeping them up at night, as well as the things that they desperately wish were happening.
+
+Persuading humans to change their behavior works roughly a thousand times better if you can find a way to speak to their hearts as well as their minds.
+
+** 3) Design a medium-sized increment of behavior change
+
+E.g. "for the next month, let's try working in new way X".
+
+Medium-sized means it's not so trivial a change as to escape notice, but not so big as to require more trust than you've yet garnered.
+
+Two notes, as you go about desiging this increment:
+
+ 1) Think about making the overall goal of the increment be supporting a *decision by your stakeholder*
+
+    So you can say something like: "At the end of the month, the team will be bringing you evidence a, b and c, so you can then decide what to do next. Also, we'll hold a retro, to understand how the new way of working has been for you, and if we should stick with it, going ahead."
+
+ 2) Set some "within the increment" cadence for updates and decisions
+
+    E.g. "Every other week, we'll share updates via <some kind of meeting> and be ready to talk about tactical changes and updates."
+
+** 4) Pitch the increment of change to your stakeholder
+
+  - First, name/validate their fears, and demonstrate your emotional alignment with them
+
+    Find a way to authentically say "I too really worry about Bad Thing X and want to make sure we don't get caught by it"
+
+  - Signal that you want to try something new
+
+  - As part of the reason, name the aspirational positive experience you want them to have -- which they have not been having, of late.
+
+  - Name your price/ask -- how they're going to have to try acting differently for a period of time.
+
+  - Set overall goal/milestone for increment, and make clear it involves a decision made *by them*
+
+  - Set the "internal" cadence of updates and decisions within that first increment
+
+** 5) Clear the decks and stack the deck
+
+If you've gotten buy-in, the most important thing in your job has now become to "earn a win" -- doing so will allow you to build trust, and then change more and more stakeholder behavior over time. There is a very good chance that this is more valuable than literally anything else you can do.
+
+Thus:
+
+ a) clear the decks - throw overboard everything about your job you can, for a short time
+
+ b) stack the deck  - by e.g. putting your best engineer on the project, ensuring any dependencies get rapidly resolved, etc
+
+** 6) Celebrate wins, offer next increment/ask/decision
+
+Back around to the top, with more trust.
+
+
+
+* Draft 1 of Substack Post From Walk w/ Misu <2025-07-30 Wed>
+ - Fixing The Engineer/Stakeholder Interface - The Problem
+ - Y U No Collaborate Right?
+
+If, as industry, we've learned anything from the past 60+ years of developing software, we've learned that it's unbelievably hard to plan big software projects.
+
+Like, it's so incredibly hard, that if someone tries to plan a software project using the tools of "classic" project management, just about any professional software engineer or product manager will instantly dismiss that effort. They will, even if they know literally nothing else about the work, be just about entirely certain that *it will fail*.
+
+They will describe such an effort to each other in shorthand by saying "Ugh, they're doing waterfall". That four-word sentence is received as a full, damning story, needing little further explanation.
+
+This is... kind of odd?
+
+Why are the tools of project management, successfully used to coordinate large, complex efforts in so many other domains, so consistently damaging when applied to software development?
+
+I believe a useful answer is:
+
+Software development is *not* a repeated application of *known* processes, which can be estimated ahead of time, clearly mapped for dependencies and then managed to a schedule.
+
+Rather, it's *fundamentally* a process of learning and exploring and adapting.
+
+There's too much complexity, too much *inherent uncertainty* in developing software to lead by making a plan ahead of time and then managing conformance to that plan (which is a core part of "classic" project management).
+
+Luckily, the industry has, through much painful exploration, gradually discovered an effective way for business stakeholders and engineers to work together to create valuable software.
+
+A note: I'm going to describe the below as an interplay between "the stakeholder" and "the engineers". A natural question is thus: um, where is the product manager? Are they the stakeholder? Or, are they a part of the engineering team? My answer: if the engineers are lucky, the product manager is a part of the engineering team in the below. But not all engineers are that lucky. Also, either way, someone is going to have to persuade someone else to change, and engineers are incredibly well-served by learning tactics for doing so -- even if, as I hope is often the case, they end up doing them in partnership with their product manager.
+
+At the highest level, the stakeholder and the engineers will win by going through repeated cycles of the following:
+
+# Given that foundational uncertainty, for engineers to *partner* with their stakholders to create value, there's an overall cycle they need to go through:
+
+ - The stakeholder shares a *business problem to solve* (not a solution to build)
+
+ - The stakeholder provides *context* for the problem
+
+ - The stakeholder *listens* to key questions and concerns from the engineers
+
+ - The stakeholder and engineers work together to define an *initial increment*
+
+ - The engineers complete the initial increment, and share what they have *learned*
+
+ - The stakeholder and engineers work together to *adapt* to what has been learned, possibly pivoting to something entirely new.
+
+The good news is that this approach totally works!
+
+There's lots of super interesting nuance about how to make it work at different scales, but the underlying cycle of specifying problems and then, as you build, gathering information and making decisions is an incredibly succesful means to create value in the face of a vast amount of complexity and uncertainty.
+
+The bad news is that the humans involved don't always want to work this way.
+
+I wish I could say that stakeholders show up every day, laying out coherent problems to solve, sharing clear strategic context, and eagerly ready to adapt and learn as the work unfolds.
+
+But, here in the real world, that aspirational ideal is very rarely met.
+
+Instead, stakeholders will often:
+
+ - Demand the engineers build specific solutions they've dreamed up
+
+ - Provide limited or no business context
+
+ - Attempt to manage the work by obtaining "commitments" to long-term estimates
+
+ - Angrily resist changes to the plan
+
+# Refuse to say "No" to anything, defeating any attempt to establish prioritization
+
+Now, before we go any further, let me be clear: this is not because the stakeholders are stupid[fn:: I suspect many engineers believe that this is the problem, but more than anything else, that tends to reflect a narrow life experience and/or lack of empathy on the part of those engineers.].
+
+Rather, just about every business stakeholder I've ever worked with came to the collaboration with two prior experiences:
+
+First, they had successfully managed lots of *other* kinds work by way of plans, goals, deadlines and commitments. In fact, for many of them, that's literally what it meant to lead within a business.
+
+Second, they had suffered repeated bad experiences of working with engineering and product teams.
+
+For most stakeholders, I suspect that working with engineering is something of a nightmare of uncertainty and confusion. The engineers seem to only speak in impenetrable techno-gibberish, and when they do briefly make sense, it's usually to announce that they've missed yet another delivery deadline. The median stakeholder experience is: they don't know what the engineers are doing; they can't get them to do what they want; and, when the team finally does deliver something, it doesn't work.
+
+Given the above, it's not surprising that most stakeholders aren't eager to be challenged by the engineers to collaborate in a new way.
+
+Even if the engineers are able to articulate some problems being caused by the current patterns of interaction, many stakeholders will be operating in such a deficit of trust, they won't be able to seriously consider a change.
+
+And it's not like most humans (myself very much included!) walk around eager to change the way we behave. Why would we!? The way we behave is clearly only natural and right, given the difficulties we're facing!
+
+What's an engineer supposed to do?
+
+If you try to persuade your stakeholder to act differently, they'll often push back, often aggressively.
+
+On the other hand, if you try to operate within a broken cycle, you run a massive risk of the work going off the rails, with plenty of blame and recrimination to go around afterwards.
+
+Fortunately, I have, over many years of working with other humans, found ways to gradually bootstrap better patterns of interaction.
+
+I'll map those out in detail in the succeeding posts in this series, but a high level overview is:
+
+** 1) Build your own picture of what is strategically important to the business
+
+This will let you position your pitch for change in as part of an overall, important strategic imperative.
+
+** 2) Develop an empathetic statement of your stakeholder's fears and aspirations
+
+Such a statement lets you speak with authentic connection to both the fears that are keeping them up at night, as well as the things that they desperately wish were happening.
+
+Persuading humans to change their behavior works roughly a thousand times better if you can find a way to speak to their hearts as well as their minds.
+
+** 3) Design a medium-sized increment of behavior change
+
+E.g. "for the next month, let's try working in new way X".
+
+Medium-sized means it's not so trivial a change as to escape notice, but not so big as to require more trust than you've yet garnered.
+
+Two notes, as you go about desiging this increment:
+
+ 1) Think about making the overall goal of the increment be supporting a *decision by your stakeholder*
+
+    So you can say something like: "At the end of the month, the team will be bringing you evidence a, b and c, so you can then decide what to do next. Also, we'll hold a retro, to understand how the new way of working has been for you, and if we should stick with it, going ahead."
+
+ 2) Set some "within the increment" cadence for updates and decisions
+
+    E.g. "Every other week, we'll share updates via <some kind of meeting> and be ready to talk about tactical changes and updates."
+
+** 4) Pitch the increment of change to your stakeholder
+
+  - First, name/validate their fears, and demonstrate your emotional alignment with them
+
+    Find a way to authentically say "I too really worry about Bad Thing X and want to make sure we don't get caught by it"
+
+  - Signal that you want to try something new
+
+  - As part of the reason, name the aspirational positive experience you want them to have -- which they have not been having, of late.
+
+  - Name your price/ask -- how they're going to have to try acting differently for a period of time.
+
+  - Set overall goal/milestone for increment, and make clear it involves a decision made *by them*
+
+  - Set the "internal" cadence of updates and decisions within that first increment
+
+** 5) Clear the decks and stack the deck
+
+If you've gotten buy-in, the most important thing in your job has now become to "earn a win" -- doing so will allow you to build trust, and then change more and more stakeholder behavior over time. There is a very good chance that this is more valuable than literally anything else you can do.
+
+Thus:
+
+ a) clear the decks - throw overboard everything about your job you can, for a short time
+
+ b) stack the deck  - by e.g. putting your best engineer on the project, ensuring any dependencies get rapidly resolved, etc
+
+** 6) Celebrate wins, offer next increment/ask/decision
+
+Back around to the top, with more trust.
+
+
+* Email to Lisa/Conrad
+
+Lisa,
+
+First off, it was super fun talking yesterday! I would be thrilled if it turns out to be at all useful.
+
+I will also reiterate -- it's extremely valuable for me to hear any kind of follow up questions, concerns, ideas, etc -- very much including having some kind of follow up call, if that's useful to you.
+
+What I'm trying to do right now is figure out how to share these ideas in a *scalable* fashion -- so further work with you is pretty much the opposite of wasting my time.
+
+Second, I wanted to try sketching in the game plan we talked about.
+
+The underlying problem is that you believe that, for your business to succeed, there's a way your key stakeholder will need to *change their behavior*.
+
+Unfortunately, if there's one thing that unifies just about all human beings, it's that they don't like to change, and they especially don't like to change their own behavior.
+
+You've tried talking about this with your stakeholder, fairly directly, but that hasn't yielded any meaninful change, so you've been feeling pretty stuck.
+
+I would describe the game plan we talked about as:
+
+** Identify a Strategic Intent
+
+This means, do your own work to say "What is the most important thing for the overall business to achieve within the next year or two?", and then, within that, "What is the most important thing for my team to achieve, to support that overall intent?"
+
+** Map your stakeholder's fears and aspritations
+
+Spend some time coming up with the best, clearest answer you can to:
+
+  a) "What does my stakeholder fear/worry about?"
+
+  And do so in a way which states it *empathetically* -- as a natural concern, given their situation.
+
+  b) "What does my stakeholder want/aspire to/what makes them feel good?"
+
+  And, again, stated in a fashion you can truly and authentically empathize with.
+
+** Design a medium-sized increment for behavior change
+
+That is, something which:
+
+ - Will move you towards the overall strategic intent, so you personally believe it's worth doing
+
+ - Has the potential to give your stakeholder the rewarding experience they're hungry for
+
+ - Will require the stakeholder to change their behavior at least a little
+
+As a key part of this, design the *end* of the increment, the explicit goal, around: your stakeholder gets to make a meaningful decision.
+
+** Pitch the increment of change to your stakeholder
+
+  - First, name/validate their fears, and demonstrate your emotional alignment with them
+
+    Find a way to authentically say "I too really worry about that and want to make sure we don't get caught in it"
+
+  - Signal that you want to try something new
+
+  - As part of the reason, name the aspirational positive experience you want them to have (which they have not been having, of late)
+
+  - Name price/ask -- how they're going to have to try acting differently for a limited period of time
+
+  - Set overall goal/milestone for increment, and make clear it involves a decision made *by your stakeholder*
+
+  - Set an "internal" cadence of updates and decisions within that first increment
+
+** Clear the decks and stack the deck
+
+As you go to execute, the most important thing in your job is now to "earn a win" -- doing so will allow you to build trust, and then change more and more stakeholder behavior over time. That is likely more valuable than literally anything else you can do.
+
+Thus, a) clear the decks (throw overboard everything about your job you can, for a short time), and b) stack the deck (by e.g. putting your best engineer on the project, ensuring any dependencies get rapidly resolved, etc).
+
+** Celebrate win, offer next increment/ask/decision
