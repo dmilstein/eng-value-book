@@ -64,11 +64,11 @@ Fixing The Engineering/Stakeholder Interface - The Problem
 
 Y U No Collaborate Right?
 
-On occasion, engineers and product managers will find themselves deeply frustrated, because they want to change *how* they collaborate with some key stakeholder... but it seems to be impossible to do so.
+On occasion, engineers and product managers will find themselves deeply frustrated, because they desperately want to change *how* they collaborate with some key stakeholder... but they seem to be completely unable to do so.
 
-These are engineers and PM's who hugely want to work *with* the rest of the business to solve important problems and create value. They *want* to work with those key stakeholders.
+These are engineers and PM's who hugely want to work *with* the rest of the business to solve important problems and create value. They *want* to work with those key stakeholders, as partners.
 
-But they seem to be stuck in some interaction pattern which is making it very hard, or even impossible, to win.
+But they seem to be stuck in some broken interaction pattern which is making it very hard, or even impossible, to win.
 
 That could mean:
 
@@ -78,7 +78,7 @@ That could mean:
 
  - A product manager who constantly ferries requests from stakeholders to the team without ever pushing back or setting a meaningful prioritization scheme
 
- - A senior engineering or product leader who claims to want to create ownership and autonomy for their teams, but insists on staying "in the loop" for so many decisions, the team has to wait for their approval before taking even the smallest of steps
+ - A senior engineering or product leader who claims to want to create ownership and autonomy for their teams, but insists on staying "in the loop" for so many decisions, the team has to wait for approvals before taking even the smallest of steps
 
 One unifying problem in all these situations is that the stakeholder in question, be they CEO, sales leader or PM, *super doesn't want to change their own behavior*.
 
@@ -86,21 +86,35 @@ This should not surprise us.
 
 If there's one thing that unifies basically all humans (myself very much included, sadly) it's that we are *extremely* reluctant to change the way we behave.
 
-I mean, why should we have to change!? Our behavior is clearly only natural and right, given the very special difficulties we personally are facing! There's literally nothing else we even *could* do![fn:: If you're asking right now, "Huh, Dan, it kind of sounds like you've been in marriage counseling?" I HAVE NO IDEA WHAT YOU'RE TALKING ABOUT.]
+I mean, why should *we* have to change!? Our behavior is clearly only natural and right, given the very special difficulties we personally are facing! There's literally nothing else we even *could* do![fn:: If you're asking right now, "Huh, Dan, it kind of sounds like you've been in therapy? Maybe even couples therapy?" I can only say, I have no idea what you're talking about.]
+
+Unfortunately, this means that, when an engineer or PM approaches one of these stakeholders, and proposes changing one of these interaction patterns... that engineer or PM will generally be met with a form of resistance that falls somewhere between a bit stiff and absolutely ferocious.
+
+What is an engineering or product leader supposed to do?
+
+It's a very, very tough situation to be in.
+
+The engineering team could create enormous value for the business... if they had a meaningful problem to solve, time to focus, and a partner willing and able to make key decisions as they went.
+
+If, on the other hand, the engineers and/or their product partners are stuck in one of these broken interaction patterns, it can feel like they're watching, powerless, as an inevitable disaster unfolds in slow motion all around them. A disaster which, even though they saw it coming, and did everything they could to prevent it, will ultimately be laid at their feet.
+
+This can be an *incredibly* exhausting way to work and live. My own worst case of this kind of situation led to my experiencing such constant stress and anxiety, my wife Bonnie and I still refer to it as "The Dark Time".
+
+Fortunately, I believe that there is a way out of this difficult situation.
+
+A means for engineers or PM's to gradually persuade their key stakeholder to work with them in a new way.
+
+I want to share a game plan for making this kind of change.
+
+For fixing a broken interface between the engineering team and some key stakeholders.
+
+This game plan takes full account of the complexities of human nature, as well as the challenges of a business environment which presents a thousand demands on your time.
+
+It focuses on starting with what you have within your control today, uses that to earn some early wins, and then gradually builds trust and alignment to enable more significant change.
+
+Running the game plan requires practicing some new skills -- using "tactical empathy" to deeply understand the hopes and fears of your stakeholder, and also learning how to design "increments of change".
 
 
-
-ad
-
- - The product manager (for the engineers, the PM's are often "the stakeholder")
-
- - A CEO or other executive leader
-
- - Leaders of sales, marketing or customer success
-
- - Powerful internal users of some key system
-
- - Senior engineering or product leadership
 
 
 
