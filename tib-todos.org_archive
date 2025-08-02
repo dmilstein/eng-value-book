@@ -726,3 +726,725 @@ CLOSED: [2025-06-07 Sat 11:52]
  - Stakeholder (Stephanie) - meet regularly, want to offer her meaningful decisions
  - Team/Self - dig into Eligibility Engine, add tests, determine boundaries, map the code
  - You shouldn't be making time for "strategy", we've done that. You should be making time for milestones
+
+* DONE insert Action plan for Change Stakeholder Behavior... somewhere
+CLOSED: [2025-08-01 Fri 09:39]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-08-01 Fri 09:39
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Reframe/Reorg
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+ - Identify a Strategic Intent
+ - Map your stakeholder's fears and desires
+ - Choose a medium-sized opportunity for change
+ - Pitch an increment of change:
+   - Name/validate/demonstrate alignment around fears
+   - Signal trying something new
+   - Name aspiration you want to show
+   - Name price/ask
+   - Set milestone with a decision *for stakeholder*
+ - Clear the decks and stack the deck
+ - Celebrate win effectively, offer next decision
+
+* DONE Write ToC for Fixing Interaction           :curweek:pom:
+CLOSED: [2025-07-31 Thu 10:41]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-08-01 Fri 09:39
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Reframe/Reorg
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Rubber duck the situation w/ Edmund        :curweek:pom:
+CLOSED: [2025-07-31 Thu 10:19]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-08-01 Fri 09:39
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Reframe/Reorg
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Spike on new structure
+CLOSED: [2025-07-29 Tue 11:23]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-08-01 Fri 09:39
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Reframe/Reorg
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+ - Create Value In Face of Uncertainty
+ - Earn Wins To Challenge For Change
+ - Take the Lead on Technical Investments
+
+* DONE Ask Edmund: reframe as "How To Work With Stakeholders"? :pom:
+CLOSED: [2025-07-10 Thu 06:42]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-08-01 Fri 09:39
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Reframe/Reorg
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+Like, that's sort of what it's becoming? Is *that* the urgent pain?
+
+* DONE Rough out overall structure                :pom:
+CLOSED: [2025-07-14 Mon 11:30]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-08-01 Fri 09:39
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Reframe/Reorg
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE More riffing on titles                     :pom:
+CLOSED: [2025-07-15 Tue 08:00]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-08-01 Fri 09:39
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Reframe/Reorg
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Turn structure into draft ToC              :pom:
+CLOSED: [2025-07-15 Tue 14:40]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-08-01 Fri 09:39
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Reframe/Reorg
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Revise ToC
+CLOSED: [2025-07-16 Wed 10:32]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-08-01 Fri 09:39
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Reframe/Reorg
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Make "estimates" a central driver of pain?
+CLOSED: [2025-07-21 Mon 08:08]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-08-01 Fri 09:39
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Reframe/Reorg
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Copy in idea for testing from EWJ email    :pom:
+CLOSED: [2025-07-13 Sun 08:53]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-08-01 Fri 09:39
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Reframe/Reorg
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Start to brainstorm titles/tags
+CLOSED: [2025-07-14 Mon 09:22]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-08-01 Fri 09:39
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Reframe/Reorg
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Start to sketch in outline
+CLOSED: [2025-07-14 Mon 08:45]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-08-01 Fri 09:39
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Reframe/Reorg
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Add: fear of loss of control for stakeholder :pom:
+CLOSED: [2025-06-28 Sat 10:19]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-08-01 Fri 09:41
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Mstones/Decisions
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Write one or two more "why this is hard" bits
+CLOSED: [2025-06-23 Mon 09:20]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-08-01 Fri 09:41
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Mstones/Decisions
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Write Tech Investments Don't End           :pom:
+CLOSED: [2025-06-23 Mon 11:00]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-08-01 Fri 09:41
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Mstones/Decisions
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Rewrite opening to get to the fucking point :pom:
+CLOSED: [2025-06-25 Wed 11:23]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-08-01 Fri 09:41
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Mstones/Decisions
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Add decision increments for scenarios
+CLOSED: [2025-06-27 Fri 07:00]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-08-01 Fri 09:41
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Mstones/Decisions
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Weave through: decision, options, offramps :pom:
+CLOSED: [2025-06-27 Fri 08:04]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-08-01 Fri 09:41
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Mstones/Decisions
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Review/clean up Understand Stakeholder     :pom:
+CLOSED: [2025-06-28 Sat 10:19]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-08-01 Fri 09:41
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Mstones/Decisions
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+Figure out where to put the illustration of the your stakeholders medium-term decisions. Put really emphasis on them needing to be the one to make those decisions.
+
+* DONE Bridge from decisions/fears to how we'll help
+CLOSED: [2025-06-28 Sat 10:40]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-08-01 Fri 09:41
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Mstones/Decisions
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Clean up first full example                :pom:
+CLOSED: [2025-06-29 Sun 13:40]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-08-01 Fri 09:41
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Mstones/Decisions
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+Right now it's like I'm saying it both interwoven with the example, and separately.
+
+* DONE Add Off Ramp to my first full example
+CLOSED: [2025-06-28 Sat 10:40]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-08-01 Fri 09:41
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Mstones/Decisions
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Add Off Ramps to the Decision-Framing examples :pom:
+CLOSED: [2025-06-29 Sun 14:53]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-08-01 Fri 09:41
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Mstones/Decisions
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Find Satoe's thing about cave in her HTB thing
+CLOSED: [2025-06-29 Sun 16:47]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-08-01 Fri 09:41
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Mstones/Decisions
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Set up problem from Satoe's "cave" analogy :pom:
+CLOSED: [2025-06-21 Sat 11:06]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-08-01 Fri 09:41
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Mstones/Decisions
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Terrible first draft
+CLOSED: [2025-06-21 Sat 14:30]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-08-01 Fri 09:41
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Mstones/Decisions
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Offer Blog + Beta reading to TI in July    :pom:
+CLOSED: [2025-07-07 Mon 11:46]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-08-01 Fri 09:41
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Beta Wave 1
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Thank you to Margaret (ask collab w/ product) :pom:
+CLOSED: [2025-07-12 Sat 10:28]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-08-01 Fri 09:41
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Beta Wave 1
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Ask Margaret: apply any ideas
+CLOSED: [2025-07-14 Mon 09:26]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-08-01 Fri 09:41
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Beta Wave 1
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Make list of another 10 people
+CLOSED: [2025-07-14 Mon 09:26]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-08-01 Fri 09:41
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Beta Wave 1
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Send 10 more invites
+CLOSED: [2025-07-14 Mon 09:26]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-08-01 Fri 09:41
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Beta Wave 1
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Draft nudge to first round (re collab w/ product) :pom:
+CLOSED: [2025-07-12 Sat 10:44]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-08-01 Fri 09:41
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Beta Wave 1
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Add a prompt to sign in
+CLOSED: [2025-07-07 Mon 10:26]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-08-01 Fri 09:41
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Beta Wave 1
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Figure out footnotes/toc for HTB           :pom:
+CLOSED: [2025-07-01 Tue 18:32]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-08-01 Fri 09:41
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Beta Wave 1
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE pandoc: pre-process, extract chapter text  :pom:
+CLOSED: [2025-07-01 Tue 18:32]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-08-01 Fri 09:41
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Beta Wave 1
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+So then I can use a single method for all of full book word counts, chapter word counts and HelpThisBook version rendering.
+
+* DONE Review WUB, add todos
+CLOSED: [2025-07-01 Tue 09:48]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-08-01 Fri 09:41
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Beta Wave 1
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Draft TD Invite
+CLOSED: [2025-07-01 Tue 17:28]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-08-01 Fri 09:41
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Beta Wave 1
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE HTB: Get footnotes to number by chapter
+CLOSED: [2025-07-07 Mon 10:44]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-08-01 Fri 09:41
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Beta Wave 1
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+Or, who cares? I mean, I do, it's gonna drive me a bit crazy.
+
+* DONE Spike on zipfile upload (fix footnotes)
+CLOSED: [2025-07-07 Mon 10:44]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-08-01 Fri 09:41
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Beta Wave 1
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+Markdown Project.zip
+├─ chapter 1.md
+├─ chapter 2.md
+
+* DONE HTB: try to import ToC
+CLOSED: [2025-07-01 Tue 18:37]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-08-01 Fri 09:41
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Beta Wave 1
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+Add --toc to the pandoc?
+Set --toc-depth=2?
+
+* DONE Decide how many chapters                   :pom:
+CLOSED: [2025-07-01 Tue 09:12]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-08-01 Fri 09:41
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Beta Wave 1
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Footnotes are totally borked
+CLOSED: [2025-07-02 Wed 11:35]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-08-01 Fri 09:41
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Beta Wave 1
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Load into HTB
+CLOSED: [2025-07-01 Tue 18:59]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-08-01 Fri 09:41
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Beta Wave 1
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Draft "guide for beta readers"
+CLOSED: [2025-07-01 Tue 09:48]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-08-01 Fri 09:41
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Beta Wave 1
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+Steal from WUB
+
+* DONE Dry Run / test with EWJ
+CLOSED: [2025-07-01 Tue 18:59]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-08-01 Fri 09:41
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Beta Wave 1
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Make list of places to send invite
+CLOSED: [2025-07-01 Tue 10:12]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-08-01 Fri 09:41
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Beta Wave 1
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Draft beta reading invite                  :pom:
+CLOSED: [2025-07-01 Tue 10:11]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-08-01 Fri 09:41
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Beta Wave 1
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+Steal from WUB
+
+my "do you want to be a beta reader" invite
+
+* DONE Decide: how many readers?
+CLOSED: [2025-07-01 Tue 17:28]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-08-01 Fri 09:41
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Beta Wave 1
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Decide where / how to post invite
+CLOSED: [2025-07-01 Tue 17:28]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-08-01 Fri 09:41
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Beta Wave 1
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Share Storytelling chapter w/ Mike Isman?
+CLOSED: [2025-07-09 Wed 11:25]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-08-01 Fri 09:41
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Storytelling/Wins
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Write a bunch of Mini Story Makeovers      :pom:
+CLOSED: [2025-07-07 Mon 09:33]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-08-01 Fri 09:41
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Storytelling/Wins
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Spike: bring the long story to life more
+CLOSED: [2025-07-04 Fri 09:19]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-08-01 Fri 09:41
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Storytelling/Wins
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Spike: do a tactic at a time, rebuilding story as I go
+CLOSED: [2025-07-04 Fri 09:19]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-08-01 Fri 09:41
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Storytelling/Wins
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Spike: Show diff lengths of stories
+CLOSED: [2025-07-04 Fri 09:19]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-08-01 Fri 09:41
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Storytelling/Wins
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE 3 Bad ideas for scenario                   :pom:
+CLOSED: [2025-06-30 Mon 10:00]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-08-01 Fri 09:41
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Storytelling/Wins
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Set up the problem, with a story           :pom:
+CLOSED: [2025-06-30 Mon 10:00]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-08-01 Fri 09:41
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Storytelling/Wins
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+As part of, define downside of not doing this/upside of doing it well.
+
+* DONE Write "bad/dry" summary of scenario        :pom:
+CLOSED: [2025-07-02 Wed 11:08]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-08-01 Fri 09:41
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Storytelling/Wins
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Show how to apply storytelling techniques  :pom:
+CLOSED: [2025-07-05 Sat 09:09]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-08-01 Fri 09:41
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Storytelling/Wins
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Find Resonates's Hero's Journey summary
+CLOSED: [2025-07-02 Wed 09:24]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-08-01 Fri 09:41
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Storytelling/Wins
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE How To Behave So Your Stakeholder Behaves
+CLOSED: [2025-07-30 Wed 15:57]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-08-01 Fri 09:47
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: TIB Inbox
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: inbox
+:END:
+
+* DONE Share email follow up w/ Ryan
+CLOSED: [2025-07-31 Thu 09:18]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-08-01 Fri 09:47
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: TIB Inbox
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: inbox
+:END:
+
+* DONE Schedule follow up w/ Ryan
+CLOSED: [2025-08-01 Fri 09:36]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-08-01 Fri 09:47
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: TIB Inbox
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: inbox
+:END:
