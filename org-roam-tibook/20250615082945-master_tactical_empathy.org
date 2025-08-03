@@ -113,21 +113,43 @@ That can 100% be overcome, but cultivate some patience.
 
 We're going to develop a scenario to illustrate these tactics.
 
-We're going to imagine, specifically, that the person struggling with a broken interaction pattern is Janine, an engineering manager at a company that sells a powerful form of B2B software. She leads a team which owns a complex piece of the core, legacy application -- her team has been sprinting towards delivering a significant overhaul of that application, which goes by the code name "Cogs 2.0", internally.
+Our scenario features Janine, an engineering manager. She works at BreadBox, a SaaS startup which makes products for small- and medium-sized grocery stores, to help them manage inventory and purchasing. Janine leads a team of engineers who maintain BreadBox's flagship product. For reasons literally no one at BreadBox can explain, that product is named "Cogs".
 
-Eduardo, her product manager has, in general, been a good partner -- he offers real context, digs into the details to identify good increments, and manages stakeholder expectations well.
+Janine's team has been working for much of the last year on a pretty significant overhaul of that flagship product. The "Cogs 2.0" project has stretched a few months past its original planned go-live date (surprisingly approximately no one). That said, they *do* have some early adopter customers using a rough beta version in the field, and a full launch is starting to feel possible at some point in the not too distant future.
 
-However there is one part of their working relationship which is non-ideal.
+Janine's product manager is named Eduardo--they've worked together for more than a year. Eduardo is, in general, a good partner to engineering--he offers real context, digs into the details to identify good increments, and manages stakeholder expectations well enough to create space for the team to execute.
 
-Janine has not found an effective way to advocate for dealing with looming technical risks and issues. If she brings up tech debt, Eduardo expresses sympathy, and assures her that they'll find time for it as some point... but then they never do so. As the big launch approaches, the team is getting more and more nervous about all the corners they've cut.
+However there is one part of their working relationship which frustrates Janine.
 
-This is a classic way for the engineering/stakeholder interface to be "semi-broken" -- there isn't a way for the engineers to drive investments in things they believe are valuable, that the rest of the business isn't asking for.
+It's painfully difficult to get Eduardo to listen to concerns from the engineering team.
 
-# XXX Does Janine already have the idea of SLO's?
+Their grooming and planning meetings are entirely centered on lists of user stories that Eduardo writes up, and he seems to create those on the fly in between running around talking to stakeholders, which makes it so that Janine can't participate.
 
-In this particular case, Janine's team is worried about how the database is going to handle the change -- Cogs 2.0 has the potential to make a *lot* more requests of the DB, and it's possible those requests could be a lot more complicated. They're pretty worried.
+If she tries to talk about tech debt, Eduardo expresses sympathy, and assures her that they'll find time for it as some point... but then they never do so. Worst, Janine feels like she's being "managed" by Eduardo during these conversations, and that's starting to damage her trust in him.
 
-They got enough worried that Janine and a couple of the engineers on the team have come up with a first increment -- they read O'Reilly's Implementing Service Level Objectives, and want to follow the game plan in the first few chapters to implement SLI's (those first few chapters are incredibly good, btw).
+As the big launch approaches, the team is getting more and more nervous about all the corners they've cut, and is pushing Janine to make a case to slow down and deal with some looming problems. But Eduardo seems to feel more and more pressure to cram in "just one more feature" to please various stakeholders, and as a result, he's even less willing than usual to listen to engineering's concerns.
+
+Before we go any futher, I just want to say that I think this is a genuine problem!
+
+Whether or not it's right to "fix tech debt" now, it's very important that there be a clear means for the engineers to advocate for investments in things they believe are valuable to the business. I believe the PM should almost always have ultimate say over prioritization (that's the heart of their job), but they should *also* be accountable for listening clearly to engineering and factoring engineering's concerns into the work of the team.
+
+Eduardo isn't truly listening--which is creating risk for the business.
+
+# Of course, as more grocery stores are starting to use Cogs 2.0 in the field, there's more and more demand for Eduardo's time, so their regular 1:1's are starting to get cancelled with a somewhat alarming frequency.
+
+# Which is hard, because there is a
+
+What should Janine do?
+
+Well, so far, her attempts to talk about the overall problem, the *pattern* of their working together, have gotten nowhere. And, as more grocery stores are starting to use Cogs 2.0 in the field, there's more and more demand for Eduardo's time, so her 1:1's with him have started to get cancelled with a somewhat alarming frequency.
+
+Janine decides to make a coherent pitch for change, as per the approach suggested earlier.
+
+She and several senior engineers work to come up with an "initial increment of change", focused on a very specific risk, around database performance.
+
+# In this particular case, the team's biggest immediate worry is how the database will handle a full launch of Cogs 2.0. The new version makes a *lot* more requests from the front to the back end, and a bunch of those requests then issue DB queries  that are very, very far from optimized. There's even a chance they're going to have to reorganize some tables under the hood. They're pretty worried.
+
+# They got enough worried that Janine and a couple of the engineers on the team have come up with a first increment -- they read O'Reilly's Implementing Service Level Objectives, and want to follow the game plan in the first few chapters to implement SLI's (those first few chapters are incredibly good, btw).
 
 Now, Janine could go to Eduardo and lay that out as a proposal, ala:
 
@@ -135,9 +157,9 @@ Now, Janine could go to Eduardo and lay that out as a proposal, ala:
 
 That's reasonable. It might work.
 
-But let's practice empathy again, this time focused on the situation Eduardo finds himself in, as Janine goes to him with this request:
+But let's practice empathy, this time focused on the situation Eduardo finds himself in, as Janine goes to him with this request:
 
-Eduardo has *dozens* of other people making *similar* requests of him, *all the time* -- half the sales team, the director of customer success, Phil from the help desk, the company CEO who likes to check up on their favorite customer's requests, etc. All of those peoplea reaching out to Eduardo via Slack, email, casual conversations in the office kitchen, difficult negotiations in front of half the leadership team.
+Eduardo has *dozens* of other people making *similar* requests of him, *all the time* -- half the sales team, the director of customer success, Phil from the help desk, the company CEO who likes to check up on their corner grocery store's requests, etc. All of those people are constantly reaching out to Eduardo via Slack, email, casual conversations in the office kitchen.
 
 # Every request urgent, every request time-sensitive.
 
@@ -145,13 +167,13 @@ Companies have product teams *because* they can't do all the things they want, a
 
 # The product manager *can't* say yes to all of those requests -- in fact, they can't say yes to almost *any* of them.
 
-The Product Manager's *job* is to continually disappoint everyone around them.[fn:: Nathan Papazian, my product partner at Ellevation, commonly referred to himself as the company's Chief Disappointment Officer.]
+From a certain perspective, Eduardo's *job* is to continually disappoint everyone around him.[fn:: Nathan Papazian, my product partner at Ellevation, commonly referred to himself as the company's Chief Disappointment Officer.]
 
 And that includes engineering.
 
-So you should not be surprised if your well-reasoned advocacy about site capacity, as above, falls on deaf ears. Or gets put on the "We'll get to that when we have some downtime" list, aka, the "We'll probably never get to it" list.
+So we should not be surprised if Janine's well-reasoned advocacy about site capacity, as above, falls on deaf ears. Or gets put on the "We'll get to that when we have some downtime" list, aka, the "We'll probably never get to it" list.
 
-What can you do, to move your request to the "Let's talk about if it's this sprint or the next one" list?
+What could she do, to move her request to the "Let's talk about if it's this sprint or the next one" list?
 
 A fundamental truth of working with humans: if you want someone to *listen to you*, you are incredibly well-served by *first, listening to them*.
 
@@ -179,25 +201,25 @@ If you can achieve any form of genuine curiosity as you speak, and if you can st
 
 And they'll *feel* like you're hearing and understanding them.
 
-It shouldn't be this simple. But it totally works.[fn:: If you happen to like romcoms, you might catch this *exact tactic* from Never Split the Difference being referenced in episode <something> of Nobody Wants This]
+It shouldn't be this simple. But it totally works.[fn:: If you happen to like romantic comedies, you might catch this *exact tactic* from Never Split the Difference being referenced in episode <something> of Nobody Wants This]
 
-In our scenario, let's start by imagining that the engineering leader does *not* have this skill at their disposal, and let's see how the conversation might go.
+In our scenario, let's start by imagining that the Janine does *not* have this skill at her disposal, and let's see how the conversation might go.
 
-    ENG: I'd like to talk about taking the time this month to implement Service Level Indicators -- it'd really help us stay ahead of potential capacity issues.
+    JANINE: I'd like to talk about taking the time this month to implement Service Level Indicators -- it'd really help us stay ahead of potential capacity issues.
 
-    PRODUCT: Okay, how much time are we talking about?
+    EDUARDO: Okay, how much time are we talking about?
 
-    ENG: We're not sure, we think it's probably three weeks of work for Andrea. And we'd need some of your time to review what she comes up with.
+    JANINE: We're not sure, we think it's probably three weeks of work for Andrea. And we'd need some of your time to review what she comes up with.
 
-    PRODUCT: Oh, I don't know. I thought we were depending on Andrea to fix the issues with the search indexing with Forms 2.0. I'm not sure we can slow that down right now.
+    EDUARDO: Oh, I don't know. I thought we were depending on Andrea to fix the issues with the new chip aisle features for Cogs 2.0. I don't think we can pause that right now.
 
-    ENG: If we don't do the work now, I bet we're not going to find time for it before launch. We're only talking about three weeks, we can timebox it you want.
+    JANINE: If we don't do the work now, I bet we're not going to find time for it before launch. We're only talking about three weeks, we can timebox it you want.
 
-    PRODUCT: Okay, I'll think about it.
+    EDUARDO: Okay, I'll think about it.
 
 How'd that go?
 
-The Engineering leader is trying to speak to value, which is good.
+Janine is trying to speak to value, which is good.
 
 But...
 
@@ -205,97 +227,109 @@ But...
 
 And a core survival skill for a PM is being able to ignore people who push them for things.
 
-To find another way, let's notice that, at one point, the PM stated a *concern*: "I'm not sure we can slow that down right now".
+To find another way, let's notice that, at one point, Eduardo stated a *concern*: "I'm not sure we can slow that down right now".
 
-The Engineering Leader responded with, essentially, an *argument*: "If we don't do that work now..."
+Janine responded with, essentially, an *argument*: "If we don't do that work now..."
 
 Let's replay this conversation with the Repeat Trailing Three Words tactic.
 
-First, the engineer will start with a question -- not with immediate advocacy.
+First, Janine instead starts with a question -- not with immediate advocacy.
 
-    ENG: I wanted to ask -- how are you thinking about our key priorities for the month?
+    JANINE: I wanted to ask -- how are you thinking about our key priorities for the month?
 
-    PRODUCT: Well, we absolutely have to stay on track for the Forms 2.0 migration.
+    EDUARDO: [typing on his laptop] I mean, we've gotta stay on track for the Cogs 2.0 migration.
 
-    ENG: ...the Forms migration?
+    JANINE: ...the Cogs migration?
 
-    [tiny pause]
+    [pause]
 
-    PRODUCT: Yes. The Success team has *finally* started converting some of the Enterprise customers, and they're complaining about all sorts of new blocker requirements.
+    EDUARDO: Yes. [He pauses his typing, sighs]. The Success team has *finally* started converting a few of the busy urban grocery stores. Of course now they want to add all these new blocker "requirements". [He sketches in air quotes]
 
-    ENG: ...oh, new blocker requirements?
+    JANINE: ...oh, new blocker requirements?
 
-    [tiny pause]
+    [pause]
 
-    PRODUCT: Yeah. I mean, we're absolutely not going to do them all, but we're going to have to figure out which ones are genuinely important.
+    EDUARDO: [Now looking at Janine] Yeah. I mean, we're absolutely not going to do them all, but we're going to have to figure out which ones are genuinely important.
 
-    ENG: ... which are genuinely important?
+    JANINE: ... which are genuinely important?
 
-    [tiny pause]
+    [pause]
 
-    PRODUCT: Yep. Oh, that, and just some other fit and finish work, I think. What's on your mind?
+    EDUARDO: Yep. Oh, that, and just some other fit and finish work, I think. [He considers for a moment, then nods and exhales] What's on your mind?
 
-# XXX Insert something about "Those may look like dry words on the page, but it's remarkably different in person -- and it can be done with such a simple approach. You have to try it and experience it to fully believe it.
+Those may look like dry words on the page, but it can be remarkably effective in person -- and it can be done with such a simple approach. You have to try it and experience it to fully believe it.
 
-If you play this game at all well, you'll achieve two *super* important things:
+If you're able to deploy this tactic well, you'll achieve two *super* important things:
 
- - First, you'll build *rapport*
+ - *First, you'll build rapport*
 
    You're demonstrating, simply by listening, that you want to work *with* the PM to solve their problems.
 
- - Second, you'll acquire extremely useful *context*
+   Eduardo started the conversation in a bit of a haze, half-listening, half-distracted.
 
-   Which you can then use as part of making your case.
+   By the end, he feels like Janine *understands his problems*. I know that seems odd, but, again, it really works.
+
+ - *Second, you'll acquire context*
+
+   Janine learned about which segment of customers Eduardo is focused on, and some tricky internal company dynamics he's wrestling with.
+
+   She can put those to use in making her case.
 
 We'll demonstrate how to do so, but first, we'll talk about a second core skill of Tactical Empathy.
 
 ** Tactic 2: Echo Back and Summarize
 
-In using the Repeat Trailing Three Words tactic, the engineering leader has learned that the product manager is focused on transitioning Enterprise customers.
+In using the Repeat Trailing Three Words tactic, Janine has learned that Eduardo is focused on migrating busy urban grocery stores to Cogs 2.0.
 
-This context provides an *excellent* opening to discuss the site capacity issues, because enterprise customers use site features at a scale that puts greater than normal strains on capacity.
+# XXX a bit of a repeat with the end of previous section.
 
-Thus, if the team *doesn't* build better visibility into capacity limits, they could end up frustrating those enterprise customers the moment they convert.
+This context provides an *excellent* opening to discuss the site capacity issues she's worried about--those busy urban grocery stores use some of Cogs's features at a scale that puts greater than normal strains on capacity.
+
+Thus, if the team *doesn't* build better visibility into capacity limits, they could end up frustrating those high-end customers the moment they convert.
 
 Given the above, here is the key question:
 
-*What should the engineering leader say next?*
+*What should Janine say next?*
 
-The last thing the product manager said was:
+The last thing Eduardo said was:
 
-    /PRODUCT: Yep. Oh, that, and just some other fit and finish work, I think. What's on your mind?/
+    /EDUARDO: Yep. Oh, that, and just some other fit and finish work, I think. What's on your mind?/
 
-The PM has *invited* the engineering leader to state their concerns!
+He has *invited* the engineering leader to state their concerns!
 
-Clearly, the engineering leader can now start speaking to potential value, right?
+Clearly, she can now start speaking to potential value, right?
 
 Nope.
 
-Instead, in this moment, the engineering leader should slow down and carefully *repeat back a brief summary of what they've just learned*.
+Instead, in this moment, she should slow down and carefully *repeat back a brief summary of what they've just learned*.
 
-And then ask if they've got it right.
+And then ask if she's got it right.
 
 i.e. in our story above, that might look like:
 
-    PRODUCT: Yep. Oh, that, and just some other fit and finish work, I think. What's on your mind?
+    EDUARDO: Yep. Oh, that, and just some other fit and finish work, I think. What's on your mind?
 
-    ENG: Let me just see if I've got this. [consults notes]. The biggest focus for this month is converting Enterprise customers. The success team is raising a lot of issues they think are blockers, but your guess is that not all of them are *actual* blockers, so there's going to be some work to untangle that. Beyond that work, it's mostly just fit and finish, to get ready for the big launch. Is that about right?
+    JANINE: Let me just see if I've got this. [consults her notes, takes a breath, then looks up]. The biggest focus for this month is converting busy urban groceries. The success team is raising a lot of issues they think are blockers, but your guess is that not all of them are *actual* blockers, so there's going to be some work to untangle that. Beyond that work, it's mostly just fit and finish, to get ready for the big launch. Is that about right?
 
-    PRODUCT: Yeah. I mean, the one caveat is that I don't expect us to actually convert many Enterprise customers *this* month -- but we need to be sure we can *next* month.
+    EDUARDO: Yeah, mostly that's it. [He looks slightly hesitant]
 
-    ENG: So, it's, like, ensuring we're fully *ready* to convert, is that right?
+    JANINE: What's not quite right?
 
-    PRODUCT: Yes.
+    EDUARDO: Well, I don't expect us to *actually* convert many big customers *this* month -- but we need to be sure we can *next* month.
+
+    JANINE: So, it's, like, ensuring we're fully *ready* to convert, is that right?
+
+    EDUARDO: Yes. [He nods, crisply, satisfied]
 
 Why is this so valuable?
 
 First, by summarizing, you will nearly always discover something you didn't get quite right.
 
-In the example above, *being ready* to convert Enterprise customers *next* month is quite different from *actually converting* Enterprise customers *this* month.
+In the example above, *being ready* to convert large customers *next* month is quite different from *actually converting* large customers *this* month.
 
-If you had left the conversation believing the goal was immediate conversions, you'd be taking your team down the wrong road.
+If Janine had left the conversation believing the goal was immediate conversions, she'd be taking her team down the wrong road.
 
-Second, summarizing back makes an *enormous* difference in helping the speaker to feel understood.
+Second, summarizing back makes an enormous difference in helping the speaker to *feel understood*.
 
 When a person explains something they care about, it's quite rare for them to feel confident that they've actually been understood.
 
