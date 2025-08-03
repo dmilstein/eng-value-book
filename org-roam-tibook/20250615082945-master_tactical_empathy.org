@@ -12,6 +12,475 @@
 
 # It's Hard Out There for a Stakeholder
 
+Before we dig into the *specific and practical* skills of empathy we're going to study, I want to take a moment to encourage you to slow down, and think, really think, about what life is like for your stakeholder.
+
+Isn particular, what it's like for them to have to *depend on an engineering team*, in order to accomplish a business goal they've been tasked with.
+
+I suspect it's hard for most engineers (and even for some product managers) to imagine just how well and truly *miserable* such a situation is for a stakeholder.
+
+In almost every other part of their working life, if that stakeholder is trying to accomplish some important business objective, they will
+
+ - Identify a *problem* to solved
+
+ - Set *goals* that represent solving that problem
+
+ - And then *give those goals to someone*
+
+In fact, they've probably learned that that is what it means to be an effective leader -- you set clear goals, and then you hold people *accountable* to achieving them.
+
+But once engineering gets involved, everything goes to hell.
+
+What seem like straightforward goals turn into an absolute blizzard of confusion, the engineers produce ridiculous estimates, then fail to meet those estimates, then finally deliver something that doesn't even *work*.
+
+When the business leader asks questions, they get back a flurry of incomprehensible jargon.
+
+And then, despite literally *everything* being painfully far behind plan, the engineers announce that they want to *stop working on actual business needs* so they can "clean things up", or "retire tech debt".
+
+It's weird as hell to work with engineering.[fn:: I like to think it's like hiring a contractor to remodel your kitchen, going away for the weekend, and coming back to discover they're on the verge of demolishing your entire house because they found some wiring they think is "ugly".]
+
+I think sometimes that when engineers tell stakeholders it's really hard to estimate projects, the stakeholder make a subconscious mental analogy to something like remodeling a kitchen. And they think "Oh, sure, I know, if you say it'll take 6 months I better be ready for it to take 9 months, let's go." Working with a software engineering team is like hiring a contractor to remodel your kitchen, having them tell you it'll take six months, and then, one month in, discovering they've demolished your entire house because they found some wiring they think is "ugly" and now your genuinely best option is to build an entirely new house. It's really really hard for people to imagine this until they've lived through it.
+
+If you want to be effective in *advocate for a change in how you work together*, you need to build a different kind of relationship -- one founded on trust and rapport.
+
+We're going to talk in this chapter about a foundational approach for building such trust and rapport.
+
+Which, ultimately, is a way to increase your *influence* -- by building that trust and rapport, you'll be able to get people to listen to your concerns, you'll be able to persuade them to take a chance on trying something new.
+
+These are some of the most valuable skills I know.
+
+You'll be leaning on them for multiple succeeding steps:
+
+ - Mining for context
+
+ - Mapping fears and aspirations
+
+ - Making a pitch
+
+** Defining "Tactical Empathy"
+
+Mastering effective influence is the work of a lifetime.
+
+We're going to focus on a few core skills.
+
+These are factors in what Chris Voss, in his excellent book "Never Split the Difference" (written with Tahl Raz), calls *Tactical Empathy*:
+
+    /In my negotiating course, I tell my students that empathy is "the ability to recognize the perspective of a counterpart, and the vocalization of that recognition." That's an academic way of saying that empathy is paying attention to another human being, asking what they are feeling, and making a commitment to understanding their world./
+
+    /Notice that I don't say anything about agreeing with the other person's values and beliefs or giving out hugs. That's sympathy. What I'm talking about is trying to understand a situation from another person's perspective./
+
+    /One step beyond that is tactical empathy./
+
+    /Tactical empathy is understanding the feelings and mindset of another in the moment and also hearing what is *behind* those feelings so you increase your influence in all the moments that follow. It's bringing our attention to both he emotinoal obstacles and the potential pathways to getting an agreement done./
+
+A key: as Voss emphasizes, deploying the skill of tactical empathy doesn't meant that you have to believe your conversational counterpart is *right* or *justified*.
+
+If your stakeholder is angrily insisting that they shouldn't "have to" make a difficult prioritization choice, and they bitterly push back by saying "everything is important"... they are, of course, wrong.
+
+Tactical empathy means reaching for ways to connect with the underlying *feelings* that are leading to such irrational statements -- aka, the situation that person perceives themselves as being in.
+
+Maybe that means digging for enough information to be able to summarize at the end by saying "Wow, it sounds like you kind of have two different bosses. And you're being held accountable by them for different goals that are actually in fundamental conflict with each other. I could imagine that feeling like there's no way for you to win."
+
+Note how, in this formulation, you're *offering* a potential understanding of your counterpart's situation and feelings, by using phrase like "it sounds kind of like", and "I could imagine that feeling". That's a powerful way to get feelings on the table without triggering defensiveness (no one likes being "told" their feelings directly).
+
+If you can say something like the above, there's a very good chance the stakeholder will visibly relax.
+
+You're then positioned to offer productive challenge and collaboration, e.g. "Okay, if we're able to get a clear, visible win for *one* of your two bosses, and just keep things kind of going as they are for the other, which one would you want to get the win for?"
+
+And, lo, you'll have a prioritization scheme.
+
+NSTD is *incredibly* good, by the way. I super, super highly recommend it.
+
+** Deliberate Practice Required and Rewarded
+
+These skills are transformatively powerful to master.
+
+I've seen leaders who had developed a damaging reputation as bruisingly difficult to work with gradually become valued thought leaders, who people made certain to consult when facing hard problems.
+
+I've seen people who struggled to get their voice heard become effective, trusted leaders, confidently guiding large groups forward.
+
+I've seen people who felt stuck and bitter find a way out that gave them meaningful agency, where they could productively challenge the decisions they were most concerned about.
+
+But *none* of those people accomplished those changes without putting in significant work to practice these skills.
+
+These skills require a rewiring of your conversational patterns. That requires a mix of both learning some, like, miniature scripts to say, and practicing some habits of listening and thinking quickly on your feet (almost like a form of guided improvisation).
+
+However, even digging slightly into these skills will almost definitely require you to face some of your own driving emotions, which will make it somewhat surprisingly hard to apply these, at first.
+
+That can 100% be overcome, but cultivate some patience.
+
+
+** A Scenario, An Opportunity And A Challenge
+
+We're going to develop a scenario to illustrate these tactics.
+
+We're going to imagine, specifically, that the person struggling with a broken interaction pattern is Janine, an engineering manager at a company that sells a powerful form of B2B software. She leads a team which owns a complex piece of the core, legacy application -- her team has been sprinting towards delivering a significant overhaul of that application, which goes by the code name "Cogs 2.0", internally.
+
+Eduardo, her product manager has, in general, been a good partner -- he offers real context, digs into the details to identify good increments, and manages stakeholder expectations well.
+
+However there is one part of their working relationship which is non-ideal.
+
+Janine has not found an effective way to advocate for dealing with looming technical risks and issues. If she brings up tech debt, Eduardo expresses sympathy, and assures her that they'll find time for it as some point... but then they never do so. As the big launch approaches, the team is getting more and more nervous about all the corners they've cut.
+
+This is a classic way for the engineering/stakeholder interface to be "semi-broken" -- there isn't a way for the engineers to drive investments in things they believe are valuable, that the rest of the business isn't asking for.
+
+# XXX Does Janine already have the idea of SLO's?
+
+In this particular case, Janine's team is worried about how the database is going to handle the change -- Cogs 2.0 has the potential to make a *lot* more requests of the DB, and it's possible those requests could be a lot more complicated. They're pretty worried.
+
+They got enough worried that Janine and a couple of the engineers on the team have come up with a first increment -- they read O'Reilly's Implementing Service Level Objectives, and want to follow the game plan in the first few chapters to implement SLI's (those first few chapters are incredibly good, btw).
+
+Now, Janine could go to Eduardo and lay that out as a proposal, ala:
+
+/We're worried about site capacity. Our initial monitoring of the database is showing some worrisome spikes, so we want to spend a few weeks building Service Level Indicators, which will create much more actionable data./
+
+That's reasonable. It might work.
+
+But let's practice empathy again, this time focused on the situation Eduardo finds himself in, as Janine goes to him with this request:
+
+Eduardo has *dozens* of other people making *similar* requests of him, *all the time* -- half the sales team, the director of customer success, Phil from the help desk, the company CEO who likes to check up on their favorite customer's requests, etc. All of those peoplea reaching out to Eduardo via Slack, email, casual conversations in the office kitchen, difficult negotiations in front of half the leadership team.
+
+# Every request urgent, every request time-sensitive.
+
+Companies have product teams *because* they can't do all the things they want, and someone has to steward a difficult process of decision-making.
+
+# The product manager *can't* say yes to all of those requests -- in fact, they can't say yes to almost *any* of them.
+
+The Product Manager's *job* is to continually disappoint everyone around them.[fn:: Nathan Papazian, my product partner at Ellevation, commonly referred to himself as the company's Chief Disappointment Officer.]
+
+And that includes engineering.
+
+So you should not be surprised if your well-reasoned advocacy about site capacity, as above, falls on deaf ears. Or gets put on the "We'll get to that when we have some downtime" list, aka, the "We'll probably never get to it" list.
+
+What can you do, to move your request to the "Let's talk about if it's this sprint or the next one" list?
+
+A fundamental truth of working with humans: if you want someone to *listen to you*, you are incredibly well-served by *first, listening to them*.
+
+But, it takes a bit of work to get most humans to genuinely share what they're thinking and feeling, so that they can *feel* listened to and heard.
+
+So we're going to use a few tricks.
+
+** Tactic 1: Repeat Trailing Three Words
+
+The first one is simple and somewhat *bizarrely* effective:
+
+First, you ask someone a question.
+
+They respond with an answer.
+
+You then calmly and curiously repeat the last three words they said, back to them, inflected as a question.
+
+And then you stop talking and wait.
+
+*That's it*.
+
+If you can achieve any form of genuine curiosity as you speak, and if you can stop yourself from saying anything other than those three words...
+
+... the person will then start talking again, telling you more and more.
+
+And they'll *feel* like you're hearing and understanding them.
+
+It shouldn't be this simple. But it totally works.[fn:: If you happen to like romcoms, you might catch this *exact tactic* from Never Split the Difference being referenced in episode <something> of Nobody Wants This]
+
+In our scenario, let's start by imagining that the engineering leader does *not* have this skill at their disposal, and let's see how the conversation might go.
+
+    ENG: I'd like to talk about taking the time this month to implement Service Level Indicators -- it'd really help us stay ahead of potential capacity issues.
+
+    PRODUCT: Okay, how much time are we talking about?
+
+    ENG: We're not sure, we think it's probably three weeks of work for Andrea. And we'd need some of your time to review what she comes up with.
+
+    PRODUCT: Oh, I don't know. I thought we were depending on Andrea to fix the issues with the search indexing with Forms 2.0. I'm not sure we can slow that down right now.
+
+    ENG: If we don't do the work now, I bet we're not going to find time for it before launch. We're only talking about three weeks, we can timebox it you want.
+
+    PRODUCT: Okay, I'll think about it.
+
+How'd that go?
+
+The Engineering leader is trying to speak to value, which is good.
+
+But...
+
+...most product leaders would experience this as someone *pushing* them for something.
+
+And a core survival skill for a PM is being able to ignore people who push them for things.
+
+To find another way, let's notice that, at one point, the PM stated a *concern*: "I'm not sure we can slow that down right now".
+
+The Engineering Leader responded with, essentially, an *argument*: "If we don't do that work now..."
+
+Let's replay this conversation with the Repeat Trailing Three Words tactic.
+
+First, the engineer will start with a question -- not with immediate advocacy.
+
+    ENG: I wanted to ask -- how are you thinking about our key priorities for the month?
+
+    PRODUCT: Well, we absolutely have to stay on track for the Forms 2.0 migration.
+
+    ENG: ...the Forms migration?
+
+    [tiny pause]
+
+    PRODUCT: Yes. The Success team has *finally* started converting some of the Enterprise customers, and they're complaining about all sorts of new blocker requirements.
+
+    ENG: ...oh, new blocker requirements?
+
+    [tiny pause]
+
+    PRODUCT: Yeah. I mean, we're absolutely not going to do them all, but we're going to have to figure out which ones are genuinely important.
+
+    ENG: ... which are genuinely important?
+
+    [tiny pause]
+
+    PRODUCT: Yep. Oh, that, and just some other fit and finish work, I think. What's on your mind?
+
+# XXX Insert something about "Those may look like dry words on the page, but it's remarkably different in person -- and it can be done with such a simple approach. You have to try it and experience it to fully believe it.
+
+If you play this game at all well, you'll achieve two *super* important things:
+
+ - First, you'll build *rapport*
+
+   You're demonstrating, simply by listening, that you want to work *with* the PM to solve their problems.
+
+ - Second, you'll acquire extremely useful *context*
+
+   Which you can then use as part of making your case.
+
+We'll demonstrate how to do so, but first, we'll talk about a second core skill of Tactical Empathy.
+
+** Tactic 2: Echo Back and Summarize
+
+In using the Repeat Trailing Three Words tactic, the engineering leader has learned that the product manager is focused on transitioning Enterprise customers.
+
+This context provides an *excellent* opening to discuss the site capacity issues, because enterprise customers use site features at a scale that puts greater than normal strains on capacity.
+
+Thus, if the team *doesn't* build better visibility into capacity limits, they could end up frustrating those enterprise customers the moment they convert.
+
+Given the above, here is the key question:
+
+*What should the engineering leader say next?*
+
+The last thing the product manager said was:
+
+    /PRODUCT: Yep. Oh, that, and just some other fit and finish work, I think. What's on your mind?/
+
+The PM has *invited* the engineering leader to state their concerns!
+
+Clearly, the engineering leader can now start speaking to potential value, right?
+
+Nope.
+
+Instead, in this moment, the engineering leader should slow down and carefully *repeat back a brief summary of what they've just learned*.
+
+And then ask if they've got it right.
+
+i.e. in our story above, that might look like:
+
+    PRODUCT: Yep. Oh, that, and just some other fit and finish work, I think. What's on your mind?
+
+    ENG: Let me just see if I've got this. [consults notes]. The biggest focus for this month is converting Enterprise customers. The success team is raising a lot of issues they think are blockers, but your guess is that not all of them are *actual* blockers, so there's going to be some work to untangle that. Beyond that work, it's mostly just fit and finish, to get ready for the big launch. Is that about right?
+
+    PRODUCT: Yeah. I mean, the one caveat is that I don't expect us to actually convert many Enterprise customers *this* month -- but we need to be sure we can *next* month.
+
+    ENG: So, it's, like, ensuring we're fully *ready* to convert, is that right?
+
+    PRODUCT: Yes.
+
+Why is this so valuable?
+
+First, by summarizing, you will nearly always discover something you didn't get quite right.
+
+In the example above, *being ready* to convert Enterprise customers *next* month is quite different from *actually converting* Enterprise customers *this* month.
+
+If you had left the conversation believing the goal was immediate conversions, you'd be taking your team down the wrong road.
+
+Second, summarizing back makes an *enormous* difference in helping the speaker to feel understood.
+
+When a person explains something they care about, it's quite rare for them to feel confident that they've actually been understood.
+
+They won't usually consciously articulate this to themselves -- but some part of them will wonder, uncertainly, if their attempt succeeded or not.
+
+I feel like I should say that, for certain kinds of speakers who are maybe not the most fun to work with, their internal narrative will not be "Did my attempt to communicate succeed?" but rather, "Did the listener understand this completely clear point I just made, or are they stupid?"[fn:: If my game plan for working with stakeholders assumed they were all kind and pleasant, I would not have very much to offer you. Luckily, that's not the case.]
+
+Luckily, you address both of those the same way -- because they are driven by the same underlying uncertainty about being understood.
+
+# Humans rarely experience themselves as being fully understood.
+
+If you, as  that listener, take the time to summarize back your understanding, and get it even vaguely right, the speaker will feel a genuine sense of *relief*.
+
+If you pay careful attention, you may even see them visibly exhale.
+
+# It's like you've completed an open transaction that was otherwise hanging.
+
+Which is exactly the mode you want them to be in, if you're going to turn the corner and now ask them to engage in *your* concerns.
+
+You earn space to advocate, by demonstrating that you are willing to lead with empathy and understanding.
+
+** Retrain Your Brain By Practicing With Friends
+
+I have coached dozens of people on these tactics.
+
+Over and over, I have seen people significantly level up their ability to influence and persuade.
+
+However, also over and over, I've seen them initially struggle to apply these tactics.
+
+Repeating words and echoing back summaries can just *feel* like such a strange way to talk to someone.
+
+There are, I think, two core drivers for this:
+
+First, when you're about to echo or repeat, your brain will tell you "Ugh, they just told you this, don't *bore* them."
+
+Once you've practiced this a few times, this feeling disappears -- because you can see  how much people love to hear their own words and thoughts.
+
+The second problem is that using these tactics will turn up valuable context, aka things you didn't previously know.
+
+When that happens, your mind will suddenly make connections and see new opportunities.
+
+That will often feel *exciting*.
+
+In our scenario the engineering leader might suddenly see the connection between the Enterprise customers and the capacity challenges they were already eager to discuss.
+
+When that kind of discovery happens, a spike of excitement hormones hits your bloodstream, and your brain immediately *urges* you to share this new awesome idea, right away.
+
+"Oh," your brain will say, "they're going to love this, go go go!"
+
+That's a trap -- you are *always* better served by first ensuring you fully understood and ensuring the speaker feels fully heard.
+
+It takes conscious practice to retrain your brain.
+
+Furthermore, it's best to do that practice when the stakes are low -- aka, *not* in a negotiation with a key stakeholder.
+
+Here's the game plan:
+
+First, pick one of the two tactics -- either repeating trailing words, or echoing back summaries.
+
+Then, pick someone you trust -- it doesn't have to be a co-worker, I've seen people profitably practice with a friend, roommate, or spouse.
+
+If you're feeling nervous, you can explicitly ask that person, "Is it okay if I practice some active listening skills that I'm working on for my job?"
+
+# This is for *you*, not for them -- to remove some of your fear of being annoying.
+
+As the conversation starts, tell yourself, "My job is to deliberately do use this tactic *too much* -- my goal is for the other person to say, afterwards, 'Eh, you could have echoed/repeated a bit less'".
+
+Then, every single time the other person says something, employ the tactic.
+
+It should feel weird as heck.
+
+After a few conversation rounds, pause, and ask the person "How did that feel?"
+
+Listen to them, and repeat back what they tell you.
+
+Some possible follow ups include:
+
+ - "Did I miss anything important?"
+
+ - "Was any part of it annoying?"
+
+ - "Was there any part where I didn't sound sincerely interested"
+
+Then, keep practicing.
+
+** Tactic 3: Posit a Spectrum to Draw People Out
+The two tactics we've discussed so far are useful for keeping a conversation moving.
+
+But sometimes, it's hard to get a conversation going at all.
+
+Sometimes, you ask a stakeholder:
+
+/"What are most important goals for the next quarter?"/
+
+And they say:
+
+/"All our goals are important."/[fn:: Sometimes, as a bonus, they look vaguely affronted that you've asked them to prioritize and/or think.]
+
+It can feel like the stakeholder is an unyielding wall, and you can't get into an actual conversation.
+
+One tactic I've found useful is to:
+
+ - Guess two different, potentially valid answers to the question
+
+ - Offer them as "ends of a spectrum"
+
+ - Ask the stakeholder where they think things land on that spectrum
+
+For example, that could sound like:
+
+/"I've heard you say that the Enterprise customers are our next key target for conversion. I could imagine at least, like, two different reasons for that. On the one hand, I could imagine it's because they represent so much of our revenue -- so we need to make sure we're converting them, because we think getting them on 2.0 will make for happier customers. Or, on the other hand, I could imagine it's more that the Enterprise customers have the most complex use cases, so doing the conversion will force us to ensure that 2.0 fully meets all the use cases of 1.0 -- across all of our customers, not just the enterprise ones. Would you say it's more one of those than the other? Or more something else?"/
+
+Part of why this works so well is that you are, in essence, *offering the stakeholder an opportunity to tell you you're wrong*.
+
+But to do so in a way which allows you to fill in your picture, to answer the most important contextual questions.
+
+That is much "safer" and easier for a stakeholder to do than to come up with an initial answer themselves.
+
+In the above, they might say something like:
+
+/"It's mostly just that they're such a big chunk of our revenue. Well, that and also because they each have a hotline to someone on Customer Success, who will then come and derail our work if things don't seem right."/
+
+Or they might say the opposite:
+
+/"Oh, the immediate revenue is not important, you can not worry about that. It's really much more about ensuring that 2.0 has genuine feature parity with 1.0."/
+
+Or they might say:
+
+/Oh, it's really not either of those. The enterprise customers just have so many users, it's going to take a long time to do the change management. And our support team can't support both versions forever, so we need to start that clock./
+
+Then, you've got them talking, and you can start to repeat trailing words and echo back summaries.
+
+** Wrapping It All Up
+
+Continuing our scenario, having gained all this information, the engineering leader is ready to lay out a really effective case for technical investment.
+
+They could take some time to review their notes, maybe talk to an engineer to flush out a bit more detail and then say[fn:: Or write down in a memo -- I find writing both forces a useful clarity of thinking and can also provide a nice opportunity for sharing your thinking with engineers who are growing towards leadership] something like the following:
+
+/Okay, it sounds like our key goal for *this* month is to ensure we're ready to transition Enterprise customers to Forms 2.0, *next* month./
+
+/We really want those first ENT customers who come over to have a *great* experience of Forms 2.0, because the ENT segment represents almost half our revenue, so we can't win without them. And they have a lot of clout through their dedicated Success team partners, so if any one of them has a bad experience, it could blow up our ability to keep moving forward./
+
+/The engineers have identified a risk -- all our early adopters of Forms 2.0 come from our SMB segment. Those customers all have relatively small data sets. But the Enterprise customers who use the old, legacy Forms 1.0 product, all have *much* bigger data sets than we've seen for the new Form 2.0 in production so far./
+
+/As we've sprinted to build Forms 2.0, we've asked the team to get things out in the simplest form as quickly as possible. Which we're really glad about. But we think there's a very real chance that, if an ENT customer were to start using Forms 2.0 today, with their large data sets, they would experience painfully long load times for almost all the key new pages. In fact, worst case, many of those pages could potentially seem broken./
+
+/We really don't want that to happen./
+
+/Fortunately, we think we have a couple of good options for speeding things up -- once we find any bottlenecks./
+
+/Unfortunately, we don't have great *visibility* into how those pages are performing, or where bottlenecks are./
+
+/Therefore, we'd like to propose that we commit time to building a clearer picture of our capacity limits, and, once we've done that, ensuring that we have sufficient capacity to guarantee an excellent experience for the first Enterprise customers who commit to Forms 2.0./
+
+This is a far more persuasive pitch then where things started -- it's laid out in the context of the stakeholder's immediate goals, it makes clear that the lack of visibility is in and of itself a key problem, it even subtly evokes some specific and vivid fears ("many pages could potentially seem broken.")
+
+In fact, the product leader is so convinced, they say:
+
+/"That sounds like a great idea, thank you raising this concern. Just one question, and then I'd be ready to commit time on the roadmap: how long will this project take? How long will it take to ensure good performance for enterprise users?"/
+
+How to answer that question is the subject of our next chapter.
+
+
+** Cultivate Curiosity & Sincerity
+A final point.
+
+As you work to learn these tactics, you'll be very well-served by living in a place of *curiosity*.
+
+If you can allow yourself to be genuinely curious, all of these tactics will come across as *sincere* -- which makes them 100x more effective.
+
+Allow yourself to be curious about your business, allow yourself to be curious about your stakeholders, allow yourself to be curious about the problems in your business that your stakeholders are wrestling with.
+
+It can sometimes be useful to try to unhook the part of your brain worries about whether or not you'll be percieved as intelligent or experienced (which is a totally natural thing to be worried about!)
+
+You *will* be able to demonstrate intelligence and experience -- by asking great questions, and by giving concise and clear summaries.[fn:: Of course, I must acknowledge that I'm saying this as a tall white man with a deep voice... so people are far too ready to ascribe intelligence and experience to me. But I have seen the tactic of "moving the conversation forward by being the listener and summarizer and clarifier" be a form of leadership for folks from less privileged groups]
+
+* [OLD] Practice Tactical Empathy
+** Putting Ourselves In a Stakeholder's Shoes
+
+# A Brief Exercise In Stakeholder Empathy
+
+# Sometimes, It's Hard To Be a Stakeholder
+
+# It's Hard Out There for a Stakeholder
+
 #
 
 I think it's legitimately hard for most engineers to imagine just how [well and truly] *miserable* it is for many stakeholders to work with engineering.
@@ -36,6 +505,8 @@ And then, despite literally *everything* being painfully far behind plan, the en
 
 It's weird as hell to work with engineering.[fn:: I like to think it's like hiring a contractor to remodel your kitchen, going away for the weekend, and coming back to discover they're on the verge of demolishing your entire house because they found some wiring they think is "ugly".]
 
+# XXX Cut the below and stash it somewhere for later/other book
+
 If you want to be effective in *advocating for technical investments*, you need to build a different kind of relationship -- one founded on trust and rapport.
 
 Ideally, your company has a strong product team, who play a central role in building trust and rapport with The Rest of the Business.
@@ -45,6 +516,8 @@ But I have found that, for *technical investments specifically*, it's often down
 # This is a core part of why great engineering leaders combine strong technical judgment with *effective influence*.
 
 We're going to talk in this chapter about leveling up on influence.
+
+# XXX Connect to multiple steps of game plan
 
 ** Defining "Tactical Empathy"
 
@@ -166,7 +639,7 @@ But...
 
 And a core survival skill for a PM is being able to ignore people who push them for things.
 
-TO find another way, let's notice that, at one point, the PM stated a *concern*: "I'm not sure we can slow that down right now".
+To find another way, let's notice that, at one point, the PM stated a *concern*: "I'm not sure we can slow that down right now".
 
 The Engineering Leader responded with, essentially, an *argument*: "If we don't do that work now..."
 
@@ -196,7 +669,7 @@ First, the engineer will start with a question -- not with immediate advocacy.
 
     PRODUCT: Yep. Oh, that, and just some other fit and finish work, I think. What's on your mind?
 
-# Insert something about "Those may look like dry words on the page, but it's remarkably different in person -- and it can be done with such a simple approach. You have to try it and experience it to fully believe it.
+# XXX Insert something about "Those may look like dry words on the page, but it's remarkably different in person -- and it can be done with such a simple approach. You have to try it and experience it to fully believe it.
 
 If you play this game at all well, you'll achieve two *super* important things:
 
@@ -250,25 +723,25 @@ i.e. in our story above, that might look like:
 
 Why is this so valuable?
 
-First, by summariziing, you will nearly always discover something you didn't get quite right.
+First, by summarizing, you will nearly always discover something you didn't get quite right.
 
 In the example above, *being ready* to convert Enterprise customers *next* month is quite different from *actually converting* Enterprise customers *this* month.
 
 If you had left the conversation believing the goal was immediate conversions, you'd be taking your team down the wrong road.
 
-Second, summarizing back makes an enormous difference in helping the speaker to feel understood.
+Second, summarizing back makes an *enormous* difference in helping the speaker to feel understood.
 
 When a person explains something they care about, it's quite rare for them to feel confident that they've actually been understood.
 
 They won't usually consciously articulate this to themselves -- but some part of them will wonder, uncertainly, if their attempt succeeded or not.
 
-For certain kinds of speakers, their internal narrative will not be "Did my attempt to communicate succeed?" but rather as "Did the listener understand this completely clear point I just made, or are they stupid?"[fn:: If my game plan for working with stakeholders assumed they were all kind and pleasant, I would not have very much to offer you. Luckily, that's not the case.]
+I feel like I should say that, for certain kinds of speakers who are maybe not the most fun to work with, their internal narrative will not be "Did my attempt to communicate succeed?" but rather, "Did the listener understand this completely clear point I just made, or are they stupid?"[fn:: If my game plan for working with stakeholders assumed they were all kind and pleasant, I would not have very much to offer you. Luckily, that's not the case.]
 
 Luckily, you address both of those the same way -- because they are driven by the same underlying uncertainty about being understood.
 
 # Humans rarely experience themselves as being fully understood.
 
-If you, as  that listener, take the time summarize back your understanding, and get it even vaguely right, the speaker will feel a genuine sense of *relief*.
+If you, as  that listener, take the time to summarize back your understanding, and get it even vaguely right, the speaker will feel a genuine sense of *relief*.
 
 If you pay careful attention, you may even see them visibly exhale.
 
@@ -282,7 +755,7 @@ You earn space to advocate, by demonstrating that you are willing to lead with e
 
 I have coached dozens of people on these tactics.
 
-Over and over, I have seen those people significantly level up their ability to influence and persuade.
+Over and over, I have seen people significantly level up their ability to influence and persuade.
 
 However, also over and over, I've seen them initially struggle to apply these tactics.
 
@@ -302,7 +775,7 @@ That will often feel *exciting*.
 
 In our scenario the engineering leader might suddenly see the connection between the Enterprise customers and the capacity challenges they were already eager to discuss.
 
-When that kind of discovery happens, a spike of excitement hormones hit your bloodstream, and your brain immediately *urges* you to share this new awesome idea, right away.
+When that kind of discovery happens, a spike of excitement hormones hits your bloodstream, and your brain immediately *urges* you to share this new awesome idea, right away.
 
 "Oh," your brain will say, "they're going to love this, go go go!"
 
@@ -320,7 +793,7 @@ Then, pick someone you trust -- it doesn't have to be a co-worker, I've seen peo
 
 If you're feeling nervous, you can explicitly ask that person, "Is it okay if I practice some active listening skills that I'm working on for my job?"
 
-This is for *you*, not for them -- to remove some of your fear of being annoying.
+# This is for *you*, not for them -- to remove some of your fear of being annoying.
 
 As the conversation starts, tell yourself, "My job is to deliberately do use this tactic *too much* -- my goal is for the other person to say, afterwards, 'Eh, you could have echoed/repeated a bit less'".
 
@@ -377,7 +850,7 @@ That is much "safer" and easier for a stakeholder to do than to come up with an 
 
 In the above, they might say something like:
 
-/"It's mostly just that they're such a big chunk of our revenue. Well, that and \also because they each have a hotline to someone on Customer Success, who will then come and derail our work if things don't seem right."/
+/"It's mostly just that they're such a big chunk of our revenue. Well, that and also because they each have a hotline to someone on Customer Success, who will then come and derail our work if things don't seem right."/
 
 Or they might say the opposite:
 
@@ -432,7 +905,6 @@ Allow yourself to be curious about your business, allow yourself to be curious a
 It can sometimes be useful to try to unhook the part of your brain worries about whether or not you'll be percieved as intelligent or experienced (which is a totally natural thing to be worried about!)
 
 You *will* be able to demonstrate intelligence and experience -- by asking great questions, and by giving concise and clear summaries.[fn:: Of course, I must acknowledge that I'm saying this as a tall white man with a deep voice... so people are far too ready to ascribe intelligence and experience to me. But I have seen the tactic of "moving the conversation forward by being the listener and summarizer and clarifier" be a form of leadership for folks from less privileged groups]
-
 
 * Scraps
 ** Warning: Deliberate Practice Required
