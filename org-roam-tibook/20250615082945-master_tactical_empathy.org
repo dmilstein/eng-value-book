@@ -84,15 +84,13 @@ But *none* of those people accomplished those changes without putting in *signif
 
 Mastering these skills means rewiring some of your conversational patterns. That is not easy.
 
-At the very least, doing so involves practicing a set of situational scripts *and* practicing some specific, focused forms of listening and responding.[fn:: it's like learning an improvisational form, for all the theater geeks out there. Also, hi there, theater geeks! You are so very much my people, if that wasn't clear already.]
+At the very least, doing so involves practicing a set of situational scripts *and* practicing some specific, focused forms of listening and responding.[fn:: it's like learning an improvisational form, for all you theater geeks out there. Also, hi there, theater geeks! You are so very much my people, if that wasn't clear already.]
 
 Those two take some solid practice on their own.
 
 But there's often something beyond those which is even trickier. Trying to master these skills will ultimately require you to face some of your *own* driving emotions... which can make it extremely difficult to change, well, yourself.
 
-Of course, I can't tell you in detail how to face such struggles in your self (I am, y'know, kind of trapped in a book at the moment). But I will encourage you to, more than anything, cultivate a sense of curiosity *about your own reactions*. After you practice one of below tactics with an actual stakeholder, take a few moments to explore what *feelings* came up. Maybe talk that out loud to yourself on a walk with your dog,  or take a few minutes to write it out in a journal, or the like.
-
-E.g.
+Of course, I can't tell you in detail how to face such struggles in your self (I am, y'know, kind of trapped in a book at the moment). But I will encourage you to, more than anything, cultivate a sense of curiosity *about your own reactions*. After you practice one of below tactics with an actual stakeholder, and you have some time to reflect, take a few moments to explore the *feelings* that came up for you. Maybe talk that out loud to yourself on a walk with your dog, or take a few minutes to write it out in a journal, or the like.
 
 In talking with a stakeholder who has exerted some extremely frustrating form of control over your life, did you find yourself flushed and almost dizzy with resentment?
 
@@ -108,7 +106,11 @@ This kind of, well, empathy with yourself can be a key to making these kinds of 
 
 # somewhat surprisingly hard to apply these.
 
-That can 100% be overcome, but cultivate some patience.
+Okay, now let's dig in.
+
+For each skill, I'm going to list some exercises afterwards. There's (much) more in this chapter than you'll be able to master in a single sitting. So I recommend reading through this, finding a few skills that sound interesting, and then practicing those.
+
+As they becomre more comfortable, return to this chapter and pick a few more.
 
 ** A Scenario, An Opportunity And A Challenge
 
@@ -116,21 +118,21 @@ We're going to develop a scenario to illustrate these tactics.
 
 Our scenario features Janine, an engineering manager. She works at BreadBox, a SaaS startup which makes products for small- and medium-sized grocery stores, to help them manage inventory and purchasing. Janine leads a team of engineers who maintain BreadBox's flagship product. For reasons literally no one at BreadBox can explain, that product is named "Cogs".
 
-Janine's team has been working for much of the last year on a pretty significant overhaul of that flagship product. The "Cogs 2.0" project has stretched a few months past its original planned go-live date (surprisingly approximately no one). That said, they *do* have some early adopter customers using a rough beta version in the field, and a full launch is starting to feel possible at some point in the not too distant future.
+Janine's team has been working for much of the last year on a pretty significant overhaul of that flagship product. The "Cogs 2.0" project has stretched a few months past its original planned go-live date (surprisingly approximately no one). That said, they *do* have some adventurous early adopter customers using a very rough beta version in the field, and a full migration is starting to feel possible at some point in the not too distant future.
 
-Janine's product manager is named Eduardo--they've worked together for more than a year. Eduardo is, in general, a good partner to engineering--he offers real context, digs into the details to identify good increments, and manages stakeholder expectations well enough to create space for the team to execute.
+Janine's product manager is named Eduardo--they've worked together for more than a year. Eduardo is, in general, a good partner to engineering--he digs into the details to identify good increments, and manages stakeholder expectations well enough to create space for the team to execute.
 
 However there is one part of their working relationship which frustrates Janine.
 
-It's painfully difficult to get Eduardo to listen to concerns from the engineering team.
+It's painfully difficult to get Eduardo to listen to the concerns of the engineering team.
 
-Their grooming and planning meetings are entirely centered on lists of user stories that Eduardo writes up, and he seems to create those on the fly in between running around talking to stakeholders, which makes it so that Janine can't participate.
+Their grooming and planning meetings are entirely centered on lists of user stories that Eduardo writes up, and he seems to create those on the fly in between meetings with stakeholders, which makes it so that Janine can't participate.
 
-If she tries to talk about tech debt, Eduardo expresses sympathy, and assures her that they'll find time for it as some point... but then they never do so. Worst, Janine feels like she's being "managed" by Eduardo during these conversations, and that's starting to damage her trust in him.
+If she tries to talk about tech debt or raise concerns about stability or scalability, Eduardo expresses sympathy, and assures her that they'll find time for it as some point... but then they never do so. Worst, Janine feels like she's being "managed" by Eduardo during these conversations, and that's starting to damage her trust in him.
 
-As the big launch approaches, the team is getting more and more nervous about all the corners they've cut, and is pushing Janine to make a case to slow down and deal with some looming problems. But Eduardo seems to feel more and more pressure to cram in "just one more feature" to please various stakeholders, and as a result, he's even less willing than usual to listen to engineering's concerns.
+As the big customer migration approaches, the team is getting more and more nervous about all the corners they've cut, and is pushing Janine to make a case to slow down and deal with some looming problems. But Eduardo seems to feel more and more pressure to cram in "just one more feature" to please various stakeholders, and as a result, he's even less willing than usual to listen to engineering's concerns.
 
-Before we go any futher, I just want to say that I think this is a genuine problem!
+Before we go any futher, I just want to say that I think this is a *genuine* problem.
 
 Whether or not it's right to "fix tech debt" now, it's very important that there be a clear means for the engineers to advocate for investments in things they believe are valuable to the business. I believe the PM should almost always have ultimate say over prioritization (that's the heart of their job), but they should *also* be accountable for listening clearly to engineering and factoring engineering's concerns into the work of the team.
 
@@ -144,7 +146,7 @@ What should Janine do?
 
 Well, so far, her attempts to talk about the overall problem, the *pattern* of their working together, have gotten nowhere. And, as more grocery stores are starting to use Cogs 2.0 in the field, there's more and more demand for Eduardo's time, so her 1:1's with him have started to get cancelled with a somewhat alarming frequency.
 
-Janine decides to make a coherent pitch for change, as per the approach suggested earlier.
+Janine decides to make a coherent pitch for change, as per the approach suggested in this book.
 
 She and several senior engineers work to come up with an "initial increment of change", focused on a very specific risk, around database performance.
 
@@ -152,15 +154,15 @@ She and several senior engineers work to come up with an "initial increment of c
 
 # They got enough worried that Janine and a couple of the engineers on the team have come up with a first increment -- they read O'Reilly's Implementing Service Level Objectives, and want to follow the game plan in the first few chapters to implement SLI's (those first few chapters are incredibly good, btw).
 
-Now, Janine could go to Eduardo and lay that out as a proposal, ala:
+Janine *could* go to Eduardo and lay that out as a proposal, ala:
 
-/We're worried about site capacity. Our initial monitoring of the database is showing some worrisome spikes, so we want to spend a few weeks building Service Level Indicators, which will create much more actionable data./
+/We want to spend a few weeks building Service Level Indicators, which will create insight into site performance, before we do any more migrations./
 
 That's reasonable. It might work.
 
 But let's practice empathy, this time focused on the situation Eduardo finds himself in, as Janine goes to him with this request:
 
-Eduardo has *dozens* of other people making *similar* requests of him, *all the time* -- half the sales team, the director of customer success, Phil from the help desk, the company CEO who likes to check up on their corner grocery store's requests, etc. All of those people are constantly reaching out to Eduardo via Slack, email, casual conversations in the office kitchen.
+Eduardo has *dozens* of other people making what feel like similar requests of him, *all the time* -- half the sales team, the director of customer success, Phil from the help desk, the company CEO who likes to check up on his corner grocery store's install of Cogs, etc. All of those people are constantly reaching out to Eduardo via Slack, email, casual conversations in the office kitchen.
 
 # Every request urgent, every request time-sensitive.
 
@@ -172,7 +174,7 @@ From a certain perspective, Eduardo's *job* is to continually disappoint everyon
 
 And that includes engineering.
 
-So we should not be surprised if Janine's well-reasoned advocacy about site capacity, as above, falls on deaf ears. Or gets put on the "We'll get to that when we have some downtime" list, aka, the "We'll probably never get to it" list.
+So we should not be surprised if Janine's suggestion of adding SLI's falls on deaf ears. Or gets put on the "We'll get to that when we have some downtime" list, aka, the "We'll probably never get to it" list.
 
 What could she do, to move her request to the "Let's talk about if it's this sprint or the next one" list?
 
