@@ -1,0 +1,45 @@
+:PROPERTIES:
+:ID:       A99B72A8-3582-4BEA-8FA8-40CA8EDD306D
+:END:
+#+title: Intro - Fix Stakeholder
+#+filetags: :Chapter:
+* Scraps
+** Putting Ourselves In a Stakeholder's Shoes
+
+# A Brief Exercise In Stakeholder Empathy
+
+# Sometimes, It's Hard To Be a Stakeholder
+
+# It's Hard Out There for a Stakeholder
+
+Before we dig into the *specific and practical* skills of empathy we're going to study, I want to take a moment to encourage you to slow down, and think, really think, about what life is like for your stakeholder.
+
+Isn particular, what it's like for them to have to *depend on an engineering team*, in order to accomplish a business goal they've been tasked with.
+
+I suspect it's hard for most engineers (and even for some product managers) to imagine just how well and truly *miserable* such a situation is for a stakeholder.
+
+In almost every other part of their working life, if that stakeholder is trying to accomplish some important business objective, they will
+
+ - Identify a *problem* to solved
+
+ - Set *goals* that represent solving that problem
+
+ - And then *give those goals to someone*
+
+In fact, they've probably learned that that is what it means to be an effective leader -- you set clear goals, and then you hold people *accountable* to achieving them.
+
+But once engineering gets involved, everything goes to hell.
+
+What seem like straightforward goals turn into an absolute blizzard of confusion, the engineers produce ridiculous estimates, then fail to meet those estimates, then finally deliver something that doesn't even *work*.
+
+When the business leader asks questions, they get back a flurry of incomprehensible jargon.
+
+And then, despite literally *everything* being painfully far behind plan, the engineers announce that they want to *stop working on actual business needs* so they can "clean things up", or "retire tech debt".
+
+It's weird as hell to work with engineering.[fn:: I like to think it's like hiring a contractor to remodel your kitchen, going away for the weekend, and coming back to discover they're on the verge of demolishing your entire house because they found some wiring they think is "ugly".]
+
+I think sometimes that when engineers tell stakeholders it's really hard to estimate projects, the stakeholder make a subconscious mental analogy to something like remodeling a kitchen. And they think "Oh, sure, I know, if you say it'll take 6 months I better be ready for it to take *9 months*, let's go."
+
+Working with a software engineering team is like hiring a contractor to remodel your kitchen, having them tell you it'll take six months, and then, one month in, discovering they've *demolished your entire house* because they found some wiring they think is "ugly" and now your genuinely best option is to build an entirely new house.
+
+It's really really hard for people to imagine this until they've lived through it.
