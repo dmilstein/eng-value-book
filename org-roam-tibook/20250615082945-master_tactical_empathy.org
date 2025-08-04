@@ -3,7 +3,7 @@
 :END:
 #+title: Practice Tactical Empathy
 #+filetags: :Chapter:
-* Practice Tactical Empathy
+* Practice Empathy To Build Influence
 
 ** The Profound Value of Empathy
 
@@ -15,13 +15,10 @@ If you want to advocate for change with another human, you need to do so on top 
 
 We're going to talk in this chapter about a foundational approach for building trust and rapport.
 
-This is a set of skills which can, ultimately, massively increase your *influence* -- they are way to demonstrate to people see that you truly feel and care about their concerns. Which makes them enormously more ready to listen to *your* concerns, and then work with you to find a way to address both.
+This is a set of skills which can massively increase your *influence* -- when you demonstrate to people that you truly feel and care about their concerns, you will find them enormously more ready to listen to *your* concerns, and then be willing work with you to find a way to address both.
 
 # you'll be able to get people to listen to and your concerns, you'll be able to persuade them to take a chance on trying something new.
 
-*Sidebar: Really? Why Do Engineers Needs All This Empathy Bushwa?*
-
-You might well be thinking: /"Sure, Dan, I can see how building trust and rapport is a core requirement of the *product* job, but that's the whole point of having a product team, right? So the engineers can just focus on building stuff, right?"/ Look, sure, these are fundamental survival skills for a PM (so much so that I test for them in PM interviews). But they are also insanely valuable for engineers. As you rise up into any form of engineering leadership, be that management or the technical track, your ability to *influence* peers and executives [bosses, overlords], becomes absolutely central to your ability to create value. That is true both for the subject of this book (driving change in interaction patterns), but also for many other areas.
 
 # END SIDEBAR
 
@@ -35,7 +32,11 @@ You'll be leaning on them during multiple steps of the overall game plan:
 
  - Making the pitch
 
-Developing effective influence is the work of a lifetime.
+*Sidebar: Wait? Why Do Engineers Need All This Empathy Bushwa?*
+
+/"Sure, Dan, I can see how building trust and rapport is a core requirement of the *product* job, but that's the whole point of having a product team, right? So the engineers can just focus on building stuff, right?"/ Sure, these are fundamental survival skills for a PM[fn:: in fact, I highly recommend testing for them during PM interviews]. But they are also insanely valuable for engineers. As you rise up into any form of engineering leadership, be that management or the technical track, your ability to *influence* peers and executives [bosses, overlords], becomes absolutely central to your ability to create value at scale. That is true both for the subject of this book (driving change in interaction patterns), but also for many other areas.
+
+Now, developing effective influence through empathy is the work of a lifetime (and can reward you well beyond your professional career[fn:: "This whole active listening thing has been really helping with [insert spouse's name]", is something I've heard let's just say, a bunch of times.])
 
 We're going to focus on a few core skills.
 
@@ -65,23 +66,47 @@ You're then positioned to offer productive challenge and collaboration, e.g. "Ok
 
 And, lo, you'll have a prioritization scheme.
 
-Never Split the Difference is *incredibly* good, by the way. It sits very comfortably somewhere in my top five list of "Wait, you should totally go drop everything and read this" books.[fn:: Others that threaten to be in that top five include "Escaping the Build Trap" by Melissa Perri, "The Principles of Product Development Flow" by Don Reinertsen, "Designing Data-Intensive Applications", by Martin Kleppman, "High Output  Management" by Andy Grove, "The Art of Action" by Stephen Bungay, and "Eleanor & Park", by Rainbow Rowell]
+Never Split the Difference is *incredibly* good, by the way. It sits very comfortably somewhere in my list of top five "Wait, you should totally go drop everything and read this" books.[fn:: Others that threaten to be in that top five include "Escaping the Build Trap" by Melissa Perri, "The Principles of Product Development Flow" by Don Reinertsen, "Designing Data-Intensive Applications", by Martin Kleppmann, "High Output  Management" by Andy Grove, "The Art of Action" by Stephen Bungay, and "Eleanor & Park", by Rainbow Rowell]
 
 ** Deliberate Practice Required and Rewarded
 
-These skills are transformatively powerful to master.
+These skills can be transformatively powerful to master.
 
-I've seen leaders who had developed a damaging reputation as bruisingly difficult to work with gradually become valued thought leaders, who people made certain to consult when facing hard problems.
+I've seen leaders who had developed a damaging reputation as bruisingly difficult become respected and valued thought partners.
 
-I've seen people who struggled to get their voice heard become effective, trusted leaders, confidently guiding large groups forward.
+# , who people made certain to consult when facing hard problems.
 
-I've seen people who felt stuck and bitter find a way out that gave them meaningful agency, where they could productively challenge the decisions they were most concerned about.
+I've seen people who had struggled to make their voices heard become confident, effective facilitators, deftly guiding tricky conversations forward.
 
-But *none* of those people accomplished those changes without putting in significant work to practice these skills.
+I've seen people who felt stuck and bitter discover profoundly meaningful agency, by being able to productively challenge the decisions they were most concerned about.
 
-These skills require a rewiring of your conversational patterns. That requires a mix of both learning some, like, miniature scripts to say, and practicing some habits of listening and thinking quickly on your feet (almost like a form of guided improvisation).
+But *none* of those people accomplished those changes without putting in *significant* work to practice these skills.
 
-However, even digging slightly into these skills will almost definitely require you to face some of your own driving emotions, which will make it somewhat surprisingly hard to apply these, at first.
+Mastering these skills means rewiring some of your conversational patterns. That is not easy.
+
+At the very least, doing so involves practicing a set of situational scripts *and* practicing some specific, focused forms of listening and responding.[fn:: it's like learning an improvisational form, for all the theater geeks out there. Also, hi there, theater geeks! You are so very much my people, if that wasn't clear already.]
+
+Those two take some solid practice on their own.
+
+But there's often something beyond those which is even trickier. Trying to master these skills will ultimately require you to face some of your *own* driving emotions... which can make it extremely difficult to change, well, yourself.
+
+Of course, I can't tell you in detail how to face such struggles in your self (I am, y'know, kind of trapped in a book at the moment). But I will encourage you to, more than anything, cultivate a sense of curiosity *about your own reactions*. After you practice one of below tactics with an actual stakeholder, take a few moments to explore what *feelings* came up. Maybe talk that out loud to yourself on a walk with your dog,  or take a few minutes to write it out in a journal, or the like.
+
+E.g.
+
+In talking with a stakeholder who has exerted some extremely frustrating form of control over your life, did you find yourself flushed and almost dizzy with resentment?
+
+In attempting to assert some kind of control over a conversation, did you find anxiety spiking and rendering you nearly mute, because of a painfully long history of your contributions being cruelly and unthinkingly dismissed?
+
+In trying to persuade someone to change a broken pattern of planning, did you feel an intense surge of panic at the the prospect of being blamed for the inevitable project failure, making it hard to remember even a single tactic from the list?
+
+If you find one of these, or something similar, I will offer the approach I have found most useful for myself. At the recommendation of some excellent therapists I've worked with (and also of the movie Inside Out), I visualize a "person" inside of me, who is responsible for that emotion. I take time to *appreciate* that that person, that part of me, as important. I work to recognize that they are doing their very best to *protect* me. I then *thank* them, and tell them that I've got it for now, and it's okay for them to stand down for a bit.
+
+E.g. I spent some time developing a picture of someone I called "The Panic Captain", who sat in a small office, tensely scanning screens full of information. If it looked like I was going to get blamed for a failure, he would reach over and press a giant red button, and an alarm would sound, and lights would flash, and my veins would flood with cortisol and adrenaline. He had helped me many times through the years, by quickly putting me on high alert when I needed to react quickly -- but he had gotten tired, and haggard, and was reaching for the big red button all the time. And so, when I could feel a surge of panic rising, I would take a deep breath, and visualize him at this desk, and then thank him, and say "It's okay, I've got this. If I need you, you'll be there."
+
+This kind of, well, empathy with yourself can be a key to making these kinds of changes.
+
+# somewhat surprisingly hard to apply these.
 
 That can 100% be overcome, but cultivate some patience.
 
