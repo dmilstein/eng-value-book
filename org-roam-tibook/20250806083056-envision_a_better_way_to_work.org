@@ -4,8 +4,49 @@
 #+title: Envision a Better Way To Work
 #+filetags: :Chapter:
 * Envision a Better Way To Work
+* Problems
+** The Feature Factory
+Read Escaping the Build Trap, by Melissa Perri.
+
+** Interruptions & Distractions
+Put in place collaborative triage processes, explicit decision making.
+
+** Constantly Changing Priorities
+Again, Perri or any coherent definition of agile -- define a strategic goal, and then have an explicit cadence.
+
+** No Time for "Engineering" Work
+Tech Investments, collaborative prioritization, etc.
+
+** Weak or Non-Existent Product Team
+Either step up and do the product function because you want to (again, read Build Trap), or make the case for someone to take it over.
+
+Have known many, many Engineers who could lean over and do the product job for a bit, but a) there's some skills it takes to learn to do it well, and b) it takes a metric ton of time.
+
+** Product Team "Separate" From Engineering
+Throwing things over the wall. Joined at the hip, etc.
+
+** Leaders Who Won't Trust The Team
+
+** Multiple Stakeholders in Conflict
+Team topologies?
+
+** Slow, Heavyweight Goal Setting
+Art of Action, Good Strategy/Bad Strategy.
+
+** No Willingness To Experiment
+?
+
+* Scraps
 # This is where I can talk about how to organize teams, etc.
 
 Do it as Problem/Solution
 
 Melissa Perri, Team Topologies, Bungay/Strategy, Tech Investments, Cadences from Product Dev Flow
+
+ - My boss is interrupting my team all the time
+ - We have multiple stakeholders who don't talk to each other
+ - We're just cranking out features for some reason
+ - Everyone is ignoring the looming disaster
+ - No one listens to engineering
+ - Operational work is killing us
+ - Bugs are killing us
