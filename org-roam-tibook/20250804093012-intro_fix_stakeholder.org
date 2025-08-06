@@ -3,6 +3,40 @@
 :END:
 #+title: Intro - Fix Stakeholder
 #+filetags: :Chapter:
+
+* Introduction: The Pains of Working With Humans
+# The Pains of a Broken Interaction Pattern
+# The Problem - Engineering Would Be Easy, If It Weren't For These Pesky Humans
+# The Pains of Being Stuck in a Broken Interaction Pattern
+*** Bring Problem to Life (maybe start w/ my own story of biz problems?)
+*** State My History
+*** Define Stakeholders
+*** Define Who the Book Is For
+*** Name Other Key Books to Learn From
+# I want to say something like --
+
+This book is not seeking to exhaustively teach you everything about how to collaborate with groups of humans to create value by developing software. I will pick out some really key things I've learned from others, share those, and be generous with refences and recommendations[fn:: If you ever interview for a job with me, odd are better than even that you'll emerge with a book recommendation or four.]
+
+But, in my experience, a gap in those books is that they don't provide you with any guidance on how to get the wonderful, irrational, frustrating, opinionated people around you to work in a new way. And the books about how to influence and change people are so abstractly far away from the day-to-day concerns of building valuable software, it's hard to see how to apply them.
+
+My goal is to put those together, into a highly *actionable* plan.
+
+I'll cite specific books as I get to them, and also pull them all out in an Appendix at the end.
+
+# XXX Nope, weave these in as you get to them
+That said, I heartily recommend adding these to your bookshelf.
+
+For a marvelous, concise, actionable understanding of how engineering and product can work within a high-functioning company, I recommend Melissa Perri's Escaping the Build Trap very, very highly. It focuses on the role of Product, specifically, but within that are a lot of key means for engineers to collaborate with stakeholders.
+
+For a wealth of ideas on how to negotiate and influence, Never Split the Difference by XXX (and XXX) is incredibly good.
+
+For an understanding of the value of a concise, guiding strategic intent, I found "The Art of Action" by Stephen Bungay a revelation. I've also had good luck with Good Strategy/Bad Strategy.
+
+For a deep understanding of how value is actually created, Principles of Product Development flow can't be beat.
+
+
+*** Overview of Remainder of Book
+
 * Scraps
 ** Putting Ourselves In a Stakeholder's Shoes
 
