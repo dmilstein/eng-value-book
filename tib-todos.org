@@ -1,21 +1,23 @@
-Experimenting. Can I have a list of todos, outside of org-roam, but, when I'm in it, thanks to the .dir-locals, have my org-roam prefixes do what I want?
+Project/todo list for the Book In Question
 
-Yes, I can, apparently.
-
-* TIB Inbox                                       :inbox:
-** TODO Intro titles?
-Solving Business Problems Means Solving People Problems
-
-Human?
-
-Solving Business Problems Led To Solving People Problems
-** TODO Do I write sub-heads in overall ToC?
+* Book Inbox                                      :inbox:
+** TODO Create a book landing page
+For "I want to find out when you publish this" but I don't want your substack
 * [[id:454225CA-DD66-4ACA-B8B3-429F6551DBDC][New Intro]]                                       :gtasks:
+** TODO Tell people they can read the case studies first
 ** TODO Copy from substack + 2 existing intros
 ** TODO Experiment: tell story before game plan?
-** TODO Write Jaocb's Medium story, check length
+** TODO Write Jacob's Medium story, check length
 ** TODO Write New Intro
 :LOGBOOK:
+CLOCK: [2025-08-06 Wed 07:33]--[2025-08-06 Wed 08:36] =>  1:03
+CLOCK: [2025-08-05 Tue 16:40]--[2025-08-05 Tue 17:20] =>  0:40
+CLOCK: [2025-08-05 Tue 10:45]--[2025-08-05 Tue 17:20] =>  6:35
+CLOCK: [2025-08-05 Tue 09:39]--[2025-08-05 Tue 10:34] =>  0:55
+CLOCK: [2025-08-04 Mon 15:36]--[2025-08-04 Mon 16:27] =>  0:51
+CLOCK: [2025-08-04 Mon 09:23]--[2025-08-04 Mon 10:53] =>  1:30
+CLOCK: [2025-08-03 Sun 16:39]--[2025-08-03 Sun 17:33] =>  0:54
+CLOCK: [2025-08-03 Sun 07:45]--[2025-08-03 Sun 08:26] =>  0:41
 CLOCK: [2025-08-01 Fri 09:20]--[2025-08-01 Fri 11:09] =>  1:49
 CLOCK: [2025-07-31 Thu 16:05]--[2025-07-31 Thu 17:08] =>  1:03
 CLOCK: [2025-07-31 Thu 09:15]--[2025-07-31 Thu 13:01] =>  3:46
@@ -31,10 +33,8 @@ CLOCK: [2025-07-22 Tue 15:10]--[2025-07-22 Tue 15:33] =>  0:23
 CLOCK: [2025-07-22 Tue 06:54]--[2025-07-22 Tue 08:13] =>  1:19
 CLOCK: [2025-07-22 Tue 06:50]--[2025-07-22 Tue 06:54] =>  0:04
 :END:
-** DONE Move solution to challenges out of intro  :pom:
+** DONE Move solution to challenges out of intro
 CLOSED: [2025-07-22 Tue 08:11]
-** TODO Insert "gameplans" into intro?
-** TODO Try: insert overall goal before story
 ** DONE Break out 3/4 distinct challenges
 CLOSED: [2025-07-29 Tue 11:22]
 ** TODO Fundamental Challenge as separate chapter?
@@ -50,15 +50,47 @@ CLOSED: [2025-07-24 Thu 06:59]
 Like, product *specifically*. In an ideal world, the Product and Engineering team are managing stakeholders together. But we don't live in that world, do we.
 ** DONE Try to weave in 'experience of misaligment'
 CLOSED: [2025-07-19 Sat 19:43]
-** DONE First draft "Underlying Challenge"        :pom:
+** DONE First draft "Underlying Challenge"
 CLOSED: [2025-07-16 Wed 15:28]
-** DONE Add a pain around interruptions?          :pom:
+** DONE Add a pain around interruptions?
 CLOSED: [2025-07-16 Wed 11:11]
-** DONE Spike on new intro                        :pom:
+** DONE Spike on new intro
 CLOSED: [2025-07-15 Tue 12:46]
-** DONE Revise new intro                          :pom:
+** DONE Revise new intro
 CLOSED: [2025-07-16 Wed 11:11]
-* Persuasive Arc
+* [[id:4FEA3BD5-8E85-4BB6-8F59-15FDE4F38572][Tactical Empathy]]                                :gtasks:
+** DONE Split Tac Empathy, put some in an Appendix :curweek:
+CLOSED: [2025-08-05 Tue 10:33]
+** DONE Finish "offer spectrum" Janine/Eduardo    :curweek:
+CLOSED: [2025-08-05 Tue 17:20]
+** TODO Add testing w/ Map Fears / Aspirations    :curweek:
+** DONE Add a full story with all three tactics   :curweek
+CLOSED: [2025-08-05 Tue 17:20]
+Have it be the Directo of Customer Success, model on Lauren Dill.
+** DONE Exercises at end of each section?
+CLOSED: [2025-08-05 Tue 08:24]
+** DONE Add the "offering summaries of feelings" tactic
+CLOSED: [2025-08-05 Tue 09:01]
+** DONE Make your own limitations the problem
+CLOSED: [2025-08-05 Tue 09:01]
+E.g. my tactic w/ Konicki, or the "the team doesn't have enough context to understand" thing w/ the CEO.
+** DONE Turn XXX's in [[id:4FEA3BD5-8E85-4BB6-8F59-15FDE4F38572][Tactical Empathy]] into TODO's
+CLOSED: [2025-08-05 Tue 09:01]
+** DONE For Tac Empathy, use current story, just set it up
+CLOSED: [2025-08-03 Sun 16:31]
+As in: the change you want to make is to have the product team listen to engineering.
+
+And then, in mine for context, make it more PM-like
+** DONE Keep working through the rewrite
+CLOSED: [2025-08-04 Mon 09:23]
+** DONE Maybe spike on making it more novelistic
+CLOSED: [2025-08-04 Mon 09:23]
+To make the emotions more visible on the surface
+** DONE Review, adjust to be less about Tech Invest
+CLOSED: [2025-08-02 Sat 09:50]
+* Mine For Intent                                 :gtasks:
+** TODO Add explicit "Be in detective mode"
+** * Arc of Persuasion                               :gtasks:
 ** TODO What if my stakeholder resists prioritization?
 ** TODO Get a win without a strategy, first
 ** TODO "What if the stakeholder feels no pain?"
@@ -69,35 +101,26 @@ E.g. if Doug is going to be the first PM to actually PM, can you sell that as a 
 ** TODO From Ryan: when/how to loop in your boss
 To deploy authority.
 * [[id:42FF29AB-A3A1-4307-85E5-69C08C7D4DB4][Reframe/Reorg]]                                   :gtasks:
+** DONE Stash all my old tib-todo headers somewhere
+CLOSED: [2025-08-02 Sat 09:04]
 ** TODO Maybe: back half of book is all case studies
 ** TODO Aim for: each section (chapter?) has an *action plan*
 People are clearly resonating with that, and it's actually how I think.
 ** TODO Brainstorm: what motivates writing
 Who am I trying to help? Where are they?
 
-* [[id:BB09F432-DEEB-4129-8F88-D23C86E8CEBB][Build Viz First]]                                 :gtasks:
-** DONE Jam in some of my ideas from my notes, break out todos :pom:
-CLOSED: [2025-06-07 Sat 09:35]
-** DONE Jam out a terrible intro. Like, terrible  :pom:
-CLOSED: [2025-06-07 Sat 11:10]
-** DONE Write bad prose for Prevent Waste         :pom:
-CLOSED: [2025-06-08 Sun 09:25]
-** DONE Write bad prose for Incremental Progress  :pom:
-CLOSED: [2025-06-08 Sun 09:35]
-** DONE Write bad prose for Off Ramps             :pom:
-CLOSED: [2025-06-08 Sun 09:58]
-** DONE Write bad prose for Celebrate             :pom:
-CLOSED: [2025-06-08 Sun 09:58]
-** TODO Talk about "build visibility" vs "add metrics"
-* Work Habits                                     :gtasks:
-** TODO Produce some viz of writing hours         :curweek:
-** TODO Set a goal for week around hours of writing
-** TODO Get into "I can't wait to help" mode
-What was my mindset for writing Rewrites? I think, I knew something, and couldn't wait to tell you.
 * [[id:49E66E86-CE83-447E-87C2-3BFF3D8FE42E][Teach/Coach]]                                     :gtasks:
-** TODO Respond to Ben LaVerreiere @ Medium       :curweek:pom:
+** DONE Block time on calendar for Ben LaV calls  :curweek:
+CLOSED: [2025-08-06 Wed 07:37]
+8/12 @ 2 or 3
+8/14 @ 1
+** DONE Respond to Ben LaVerreiere @ Medium
+CLOSED: [2025-08-02 Sat 09:12]
 Dan <-> Ben
-** DONE Write up Lisa Plesko follow ups           :curweek:
+
+"Scheduling-wise, Tuesdays and Thursdays tend to be my most flexible days during work hours, if there's something there that works for you."
+
+** DONE Write up Lisa Plesko follow ups
 CLOSED: [2025-07-30 Wed 14:29]
 ** TODO Ping Ryan Scott, ask what he's applied
 DEADLINE: <2025-08-21 Thu>
@@ -105,49 +128,51 @@ DEADLINE: <2025-08-21 Thu>
 DEADLINE: <2025-08-14 Thu>
 ** TODO Ping Jacob, ask whatg he's applied
 DEADLINE: <2025-08-11 Mon>
-** DONE Make todos for Jacob follow ups           :curweek:
+** DONE Make todos for Jacob follow ups
 CLOSED: [2025-07-30 Wed 14:29]
 *** Share my chapters on Tactical Empathy
 *** Maybe other chapters
 *** Maybe sketch on building trust and levering up
 *** Specifically on asking for problems not solutions and "cheating" on the backend
 *** Add scheduled task to ping him
-** DONE Respond/schedule                          :pom:
+** DONE Respond/schedule
 CLOSED: [2025-07-19 Sat 11:05]
 ** DONE Sign up for pro zoom
 CLOSED: [2025-07-21 Mon 08:10]
-** DONE Draft email for Edmund, asking for intros :pom:
+** DONE Draft email for Edmund, asking for intros
 CLOSED: [2025-07-16 Wed 10:11]
-** DONE Ask Edmund for intros                     :pom:
+** DONE Ask Edmund for intros
 CLOSED: [2025-07-16 Wed 10:19]
 ** DONE Draft new email re coaching/helping
 CLOSED: [2025-07-21 Mon 08:11]
-** TODO Make list of people to reach out to
-** TODO Reach out to people
-** TODO Write template asking for connections to coach
-** TODO Do a timeboxed skim through LinkedIn contacts for Part 2 coaching
-Can I just export my list of contacts
+* [[id:B4926308-39DD-471B-8E71-5FFF7546D6E3][ToC/Structure ]]                                  :gtasks:
+** TODO Experiment: add exercises to end of each chapter
+Like, now go do these things
+
 * [[id:E0ADBF07-90B8-4C37-81C0-96A428020F5E][Substack]]                                        :gtasks:
-** DONE Pick a topic for this week                :curweek:
+** TODO Write email to EWJ re posting to Medium   :curweek:
+** TODO Think about a call to action for book announcements
+** TODO Decide: cross-post to Medium? Wait 'til... what?
+** DONE Pick a topic for this week
 CLOSED: [2025-07-30 Wed 09:22]
-** DONE First draft post <2025-07-28 Mon> week    :curweek:
+** DONE First draft post <2025-07-28 Mon> week
 CLOSED: [2025-07-31 Thu 10:41]
-** DONE Revise post for <2025-07-31 Thu> week     :curweek:
+** DONE Revise post for <2025-07-31 Thu> week
 CLOSED: [2025-08-01 Fri 09:40]
-** DONE Finish/post <2025-07-28 Mon> week         :curweek:pom:
+** DONE Finish/post <2025-07-28 Mon> week
 CLOSED: [2025-08-01 Fri 14:02]
-** DONE Make sure I'm not talking down about Tech Debt :pom:
+** DONE Make sure I'm not talking down about Tech Debt
 CLOSED: [2025-07-19 Sat 09:20]
 ** DONE Split posts: 1) ops work, 2) interruptions.
 CLOSED: [2025-07-18 Fri 07:58]
-** DONE Simple, dumb idea for organizing posts    :pom:
+** DONE Simple, dumb idea for organizing posts
 CLOSED: [2025-07-15 Tue 14:46]
 Obvs, a folder with named files. Still in org-roam? Or is that the whole point, I move out of org-roam, and then my links aren't weirdly wrong? Yes, do it.
-** DONE Draft next post                           :pom:
+** DONE Draft next post
 CLOSED: [2025-07-18 Fri 07:58]
 ** DONE Schedule next post
 CLOSED: [2025-07-18 Fri 07:58]
-** DONE Draft next post (maybe Geary's idea)      :pom:
+** DONE Draft next post (maybe Geary's idea)
 CLOSED: [2025-07-07 Mon 17:12]
 E.g. Things engineers think are valuable, when they are/are not.
 
@@ -160,12 +185,12 @@ CLOSED: [2025-07-07 Mon 17:12]
 CLOSED: [2025-07-02 Wed 11:09]
 ** DONE Send email to TD
 CLOSED: [2025-07-08 Tue 17:18]
-** DONE Draft post for <2025-06-30 Mon>           :pom:
+** DONE Draft post for <2025-06-30 Mon>
 CLOSED: [2025-06-29 Sun 13:10]
 ** DONE Post to LinkedIn, ref'ing last 4 posts
 CLOSED: [2025-06-23 Mon 11:50]
 But primary focus on the most recent one
-** DONE Check w/ EWJ after posts go out           :pom:
+** DONE Check w/ EWJ after posts go out
 CLOSED: [2025-06-22 Sun 10:11]
 ** DONE Review Substack growth tips
 CLOSED: [2025-06-23 Mon 11:51]
@@ -194,196 +219,8 @@ CLOSED: [2025-06-09 Mon 13:11]
 CLOSED: [2025-06-11 Wed 17:06]
 ** DONE Understand diff between Substack notes and posts
 CLOSED: [2025-06-12 Thu 11:16]
-* [[id:4FEA3BD5-8E85-4BB6-8F59-15FDE4F38572][Tactical Empathy]]                                :gtasks:
-** TODO Maybe move annotated breakdown of pitch back into Tac Empathy
-** DONE For story at end of Tac Empathy, maybe end with "How long will this take?"
-CLOSED: [2025-06-22 Sun 17:33]
-** DONE Add wrap up to story + teaser for milestones :pom:
-CLOSED: [2025-06-20 Fri 19:37]
-As in, the proposal is for a increment which ends with a shared decision
-** DONE Sketch in outline
-CLOSED: [2025-06-16 Mon 09:28]
-** DONE Write example scene before/after          :pom:
-CLOSED: [2025-06-16 Mon 17:14]
-** DONE Try "It's Hard to be a Stakeholder"       :pom:
-CLOSED: [2025-06-18 Wed 09:37]
-** DONE Write "Repeat Trailing Three Words"
-CLOSED: [2025-06-18 Wed 09:37]
-** DONE Write "Echo Back as Inquiry"              :pom:
-CLOSED: [2025-06-18 Wed 11:17]
-** DONE Finish "Retrain Your Brain"               :pom:
-CLOSED: [2025-06-19 Thu 11:46]
-** DONE Write "Posit a Spectrum to Draw People Out"
-CLOSED: [2025-06-19 Thu 16:00]
-** DONE Write "Cultivate Curiosity & Sincerity"
-CLOSED: [2025-06-19 Thu 19:49]
-** DONE Write "Wait, Isn't This Product's Job?"
-CLOSED: [2025-06-19 Thu 08:04]
-
-* [[id:B4926308-39DD-471B-8E71-5FFF7546D6E3][ToC/Structure ]]                                  :gtasks:
-** DONE Type up (Wispr?) new ToC + Intro structure from notebook
-CLOSED: [2025-07-29 Tue 07:54]
-** DONE Stash my existing ToC somewhere
-CLOSED: [2025-07-21 Mon 08:38]
-** TODO Experiment: add exercises to end of each chapter
-Like, now go do these things
-** TODO Maybe: add an entire chapter on Rewrites
-** TODO Add: Major rewrites *must* be done with product
-not as separate tech investments
-** TODO And, for rewrites, celebrate all the ones I've done:
- - Analytics 2.0
- - Nexus WMS
- - Flagship
-** TODO Rename "Rewrites: How To + How *Not* To"?
-** DONE Spike on ToC reorg - part II = stakeholder mgmt
-CLOSED: [2025-06-16 Mon 09:25]
-** DONE Write out notes on my ideas for reordering :pom:
-CLOSED: [2025-06-07 Sat 09:32]
-* [[id:03D1870C-E583-4D5C-9589-5E0799793D48][Mstones/Decisions]]                               :gtasks:
-** TODO Break out Design Milestones chapter?
-** TODO Review Ell Milestones doc for ideas
-
-* [[id:EFA43963-DB19-4EA6-8EF3-4F4376AED1F1][Story Makeovers]]                                 :gtasks:
-** DONE Rough out one more makeover
-CLOSED: [2025-07-08 Tue 11:44]
-** DONE Review structure of each makeover
-CLOSED: [2025-07-08 Tue 11:24]
-* [[id:22898D7F-26DD-4787-939B-B640B3D5BE56][Beta Wave 1]]                                     :gtasks:
-** Send a round of invites out
-To... someone
-** TODO Define call to action/progress
-(e.g. share w/ friend)
-Something that demonstrates they're getting value, not being nice.
-** TODO Define dumbest, simplest progress-checking habit
-Could easily lose my mind, be careful.
-* [[id:4D62F0DE-2862-45F3-97EE-6AFED5382F2C][Storytelling/Wins ]]                              :gtasks:
-** TODO Review/integrate Mike Isman feedback on storytelling
-Rough Draft of Storytelling Chapter(s)
-** TODO Find videos w/ dots pushing each other up hills
-** TODO Add reference to Kahneman mic drop about stories
-** TODO Revise with up to date story research
-E.g. less heroic narrative, more objective/struggle
-
-* [[id:722C702D-A6C2-4A51-AB62-515CE8144AA2][Ladder Commitment]]                               :gtasks:
-** DONE Bit of prep work/layout                   :pom:curweek
-CLOSED: [2025-07-07 Mon 10:26]
-** TODO Fill in more of outline
-** TODO Decide if worth keeping as full chapter
-* [[id:3DE23585-34F0-4C88-A16B-4558ACC45C99][Post-Mortems/Viz]]                                :gtasks:
-** DONE Write bad intro/start                     :pom:
-CLOSED: [2025-07-09 Wed 18:02]
-** DONE Write bad next section                    :pom:
-CLOSED: [2025-07-10 Thu 07:34]
-** DONE Spike: splice from Convert Concerns
-CLOSED: [2025-07-11 Fri 10:55]
-** DONE Write bad section about risk in general   :pom:
-CLOSED: [2025-07-11 Fri 10:58]
-** TODO Review Incidents as Warning Signs
-** TODO Revise Post-Mortems/Stakeholders
-** TODO First draft: Create Incidents
-** TODO Maybe: tell Berlin story, Roberto/Vahe
-They were stuck going slow, they committed to doing good post-mortems, it transformed their speed and relationship with stakeholders
-** DONE Sketch in a possible arc                  :pom:
-CLOSED: [2025-07-09 Wed 10:51]
-** DONE Sketch in some bad ideas                  :pom:
-CLOSED: [2025-07-08 Tue 17:24]
-* [[id:D3158CC2-8A69-4097-B9ED-ED6BD855A7AD][Understand Value In Depth]]                       :gtasks:
-** DONE Do a spike on footnotes                   :pom:
-CLOSED: [2025-06-05 Thu 08:44]
-** DONE Write super crappy intro to chapter       :pom:
-CLOSED: [2025-06-02 Mon 13:13]
-** DONE For forms of probability, find company-specific examples :pom:
-CLOSED: [2025-06-03 Tue 14:58]
-** DONE Maybe: shorthand value by "learning what to do next"
-CLOSED: [2025-06-04 Wed 13:01]
-Each thing builds on the previous, so velocity is about hitting those decision points faster.
-** DONE Name the economically ration investor Bertha
-CLOSED: [2025-06-04 Wed 13:01]
-Or Bethesda, or Beatrix, or Snowflake
-** TODO Add a thing about "Last year's profits"
-I know last year's profits (or I can find them out). How do I determine company value?
-
-Warning, it's a trap! People will talk to you all day about this, but they're ignoring the main driving force
-* [[id:2EC03879-2A23-4546-BCB8-E9A464665A03][Turn Concerns Into Value ]]                       :gtasks:
-** DONE Spike on bad intro                        :pom:
-CLOSED: [2025-06-13 Fri 11:05]
-** DONE Write about terrible code
-CLOSED: [2025-06-13 Fri 11:06]
-** DONE Write about deploys
-CLOSED: [2025-06-14 Sat 10:23]
-** DONE Write "I can't find a moment to think"    :pom:
-CLOSED: [2025-06-14 Sat 17:41]
-** DONE Write "The DB is on the verge of death"   :pom:
-CLOSED: [2025-06-15 Sun 11:05]
-** DONE Revise DB is on Verge of Death
-CLOSED: [2025-06-16 Mon 08:51]
-* [[id:E7DB3CD4-9B7B-425B-BF07-E2607DDD6670][Forms Value/Viz]]                                 :gtasks:
-** DONE Write 1-2 genuineely terrible             :pom:
-CLOSED: [2025-06-10 Tue 09:53]
-So I can make better tomorrow
-** DONE Enable Upcoming Product Improvements      :pom:
-CLOSED: [2025-06-10 Tue 11:46]
-** DONE Move my resilience examples later         :pom:
-CLOSED: [2025-06-12 Thu 08:41]
-** DONE Develop new example more purely operational :pom:
-CLOSED: [2025-06-12 Thu 09:42]
-E.g. supporting BI team, or account setup
-** DONE Add visibility for steady ops work        :pom:
-CLOSED: [2025-06-12 Thu 09:42]
-** DONE Finish Reduce Steady-State Maintenance Work :pom:
-CLOSED: [2025-06-12 Thu 09:42]
-** DONE First draft Reduce Interruptive Maintenance Work
-CLOSED: [2025-06-12 Thu 19:28]
-** Ensure Many Customers Can Use System At Once
-Akad & Scale
-** Ensure Big Customers Can Use System In Big Ways
-** Enable Parallel Development Across Multiple Teams
-** Reduce Risk of Losing Data
-** Reduce Frequency of Outages
-** Reduce Duration of Outages
-** Reduce Risk of Security Breaches
-** Reduce Costs Of Serving Customers (But, See: Drunk, Lamppost)
-
-** DONE Write 1-2 genuineely terrible             :pom:
-CLOSED: [2025-06-10 Tue 09:53]
-So I can make better tomorrow
-** TODO Add Game Days as Big viz for reduce duration of outages
-* [[id:47FF75F6-17DB-4E36-950D-F7CFAFA950EA][Tech Invest Intro ]]                              :gtasks:
-** DONE Finish first draft of Intro chapter
-CLOSED: [2025-05-28 Wed 16:14]
-** DONE Try wedging in the visibility as fundamental hack
-CLOSED: [2025-05-29 Thu 11:30]
-** DONE Also add the idea of making it a cyclical thing that you lever up
-CLOSED: [2025-05-29 Thu 11:30]
-** DONE Adjust the two problems w/ Tech Debt to be about the conversations
-CLOSED: [2025-05-30 Fri 09:11]
-It leads to the wrong conversations, for two reasons.
-
-And this is all about the conversations you're going to have.
-
-The first conversation is with your engineers.
-
-The second conversation is with your stakeholders.
-** DONE Revise convo w/ Stakeholders to focus more on visibility
-CLOSED: [2025-05-30 Fri 18:32]
-Move moral to a footnote?
-** DONE For the deploy story, have the engineers tell the story at all hands
-CLOSED: [2025-05-30 Fri 18:32]
-And the non-technical CEO glowing with pride or clapping enthusiastically, so I'm showing the act of storytelling by the engineers
-** DONE Spike on final thing to wrap it up
-CLOSED: [2025-05-30 Fri 18:32]
-** DONE Spike on moving why/why ahead of examples
-CLOSED: [2025-05-30 Fri 18:32]
-** DONE Spike on moving what if/what if earlier?
-CLOSED: [2025-05-30 Fri 18:32]
-Before the story/example
-** TODO For intro, add flourishes of the chaos, multiple stakeholders, etc
-** TODO Write section on What If My Company Fired All The PM'S?
-** TODO For "Y No Tech Debt" add: tech debt suggests you can "finish"
-There is an amount of debt, once it's gone, you're living clean.
-
-This is not true for technical investments.
 * [[id:17305FA7-A43F-40C9-9309-0EF3577C70D0][Author Platform]]                                 :gtasks:
+** TODO Research Medium cross-post practices
 ** TODO Ping Winston re: building platform
 Esp how he uses LI
 ** TODO Brainstorm 10 bad ideas for "hearing from" people
@@ -391,9 +228,8 @@ Esp how he uses LI
 E.g. buy myself dinner, or a game, or go out w/ friends, or tell Edmund + someone, take Bonnie out for dinner.
 ** TODO Research: places for building followers
 Bluesky?
-** TODO Reseaerch Medium cross-post practices
 ** TODO Make new email address, put on Substack
-** DONE Define next increment of success, create viz :pom:
+** DONE Define next increment of success, create viz
 CLOSED: [2025-06-27 Fri 07:23]
 Likely: subscriber count? Separate goal around beta readers? Frequency of recommendation? People reaching out to me. DO a bit of thinking.
 ** DONE Build some basic habit + tooling around it
@@ -407,7 +243,26 @@ CLOSED: [2025-06-11 Wed 17:06]
 CLOSED: [2025-06-11 Wed 17:06]
 Announce I'm working on a book, will post here sometimes, but please go join my new newsletter/Substack if you're interested for more (and/or might like to be a beta reader for a eection).
 * [[id:49435FCD-0590-44DE-8FC7-585E7BCC8BB2][Tooling]]                                         :gtasks:
-** TODO Make a graph of hours
+** DONE Go back to flat list of project           :curweek
+CLOSED: [2025-08-05 Tue 09:38]
+And, maybe just have a single ":sleeping:" one at the end, and stash everything under there that I don't want to see.
+
+Because this is dumb.
+** DONE Adjust toc.org to point to new book       :curweek:
+CLOSED: [2025-08-05 Tue 09:43]
+** TODO Produce a viz of writing hours            :curweek:
+** TODO Write out 3 bad ways to clock time        :curweek:
+E.g. start/end *every pomodoro* by clocking *something*, so that's becomes part of the habit of intenionality.
+
+Write out three bad ideas for what tasks to clock against.
+
+E.g. create a file of clocking tasks, and just record things there (and put it the hell in git).
+
+Or, clock detailed tasks, and roll them up.
+
+Check on how archiving affects clocking
+** TODO Try one of those bad ways to clock time   :curweek:
+** TODO Do I write sub-heads in overall ToC?
 ** DONE Learn just enough to clock in and out for writing hours (ask Claude?)
 CLOSED: [2025-07-23 Wed 11:51]
 ** DONE Make watch_book.sh work for new book
@@ -415,9 +270,9 @@ CLOSED: [2025-07-21 Mon 08:38]
 Add params so it can still work for old book.
 
 Use the toc as the driving force?
-** DONE Make github repo for TIB, push it up      :pom:
+** DONE Make github repo for TIB, push it up
 CLOSED: [2025-07-12 Sat 10:06]
-** DONE Fix word count to handle 0 days           :pom:
+** DONE Fix word count to handle 0 days
 CLOSED: [2025-07-08 Tue 11:52]
 ** TODO For HTB, Turn 'Parts' into empty chapters?
 ** TODO Spike: word count credit in graph for scraps
@@ -435,54 +290,12 @@ So I can either run full screen or within 80 columns
 ** TODO Look for missing Chapter filetags in scripts
 Because now my wordcount history stuff is sensitive to those being missing.
 ** TODO Create a new chapter template or abbrev?
-* [[id:93FF0A9B-F54E-49D5-8154-640BBAE08D4D][Beta Readers]]                                    :gtasks:
-** DONE Make plan + tasks for Beta Reading        :pom:
-CLOSED: [2025-06-27 Fri 07:12]
-** DONE Draft thoughts re: pipeline beta reading, share w/ EWJ :pom:
-CLOSED: [2025-06-20 Fri 09:43]
-** DONE Write Robfitz re: pipeline beta reading
-CLOSED: [2025-06-21 Sat 14:32]
-** DONE Set reward: can share w/ EWJ once I finish... something
-CLOSED: [2025-06-27 Fri 07:10]
-** DONE Review WUB re: beta readers + partial book
-CLOSED: [2025-06-16 Mon 09:26]
-** DONE Get the markdown formatting info on my laptop
-CLOSED: [2025-06-07 Sat 08:01]
-** DONE Experiment with org-org-export-to-md
-CLOSED: [2025-06-07 Sat 08:18]
-** DONE Write python script to convert toc.org to file list
-CLOSED: [2025-06-07 Sat 14:11]
-Ask aidermacs to factor it out of existing code
-** DONE Makefile: regen chapter file list when toc changes
-CLOSED: [2025-06-07 Sat 14:15]
-** DONE Write script to build full Markdown of book
-CLOSED: [2025-06-07 Sat 15:06]
-By feeding chapter files in order to my org-to-md.sh script, concatenating output
-** DONE Add Makefile target for full Markdown
-CLOSED: [2025-06-07 Sat 15:06]
-** DONE Fix footnotes
-CLOSED: [2025-06-07 Sat 15:38]
-
-https://stackoverflow.com/questions/25579868/how-to-add-footnotes-to-github-flavoured-markdown
-
-Try out https://github.com/larstvei/ox-gfm?tab=readme-ov-file
-** DONE Fix Footnotes again
-CLOSED: [2025-06-08 Sun 08:25]
-ox-gfm is just rendering them in HTML, not as actual GFM.
-* [[id:D901A4C9-885B-4F42-8B8D-3595616857E8][The Value of Knowing What To Do Next]]            :gtasks:
-** TODO For "making 3x more decisions" bring to life "implicit decisions"
-E.g. the decision to keep coding against the newest version of a library. Or the decision to base the product on a data source that you've been assured is present in reality. Or the decision to build your feature around a run-time call to an API you believe you'll have valid credentials for, at the moment of the call.
-** TODO Def: talk about sequence of decisions
-** TODO Maybe: put Accelerate in here?
-** TODO Finish the Pinch Test story
-* [[id:71B164B6-0AB2-4FDE-B51E-71870F553C67][The TI Cycle]]                                    :gtasks:
-** DONE Rough draft of the overall cycle
-CLOSED: [2025-06-01 Sun 08:51]
-** DONE Wedge in my example of that without reading it
-CLOSED: [2025-06-01 Sun 08:51]
-** DONE Revise/improve The Ti Cycle
-CLOSED: [2025-06-02 Mon 11:23]
 * Book Misc                                       :gtasks:
+** TODO Throw in references to e.g. Perri, etc
+** TODO Read up on "breadcrumb bio" from WUB?
+** TODO Set a goal for week around hours of writing
+** TODO Get into "I can't wait to help" mode
+What was my mindset for writing Rewrites? I think, I knew something, and couldn't wait to tell you.
 ** TODO Review Margaret's email
 Thanks Again + Follow Up Q's
 ** TODO Name the case studies by "problem"
@@ -502,7 +315,7 @@ E.g. things I tried that didn't work, or that I've seen people try and have not 
 ** TODO Check out [[https://tmarstrand.blog/][Troel's Blog]]
 ** TODO Add: "Yes *obviously* I have an intellectual crush on Kellan"
 ** TODO Ping Alla H about using her name?
-* Future Books
+* Future Books                                    :sleep:
 ** TODO The Art of Increment Design (milestones)
 ** TODO Engineering Leads the Way (tech investments)
 ** TODO The Tech Investment Casebook
@@ -513,3 +326,227 @@ In [[id:77C90CB8-9DA8-48D7-B534-2C448F34D489][Blog Topics]] I have a reasonable 
 ** TODO Add Book Idea: "How to Increase Your Scope"
 Aka, how to get promoted, aka, how to figure out your bosses' probelms and help solved them
 ** TODO Build out from Milestones doc? It's kinda great
+** The Art of Increment Design
+*** [[id:03D1870C-E583-4D5C-9589-5E0799793D48][Mstones/Decisions]]
+**** TODO Break out Design Milestones chapter?
+**** TODO Review Ell Milestones doc for ideas
+
+** Tech Investments Book
+*** [[id:47FF75F6-17DB-4E36-950D-F7CFAFA950EA][Tech Invest Intro ]]
+**** DONE Finish first draft of Intro chapter
+CLOSED: [2025-05-28 Wed 16:14]
+**** DONE Try wedging in the visibility as fundamenk
+CLOSED: [2025-05-29 Thu 11:30]
+**** DONE Also add the idea of making it a cyclicalthat you lever up
+CLOSED: [2025-05-29 Thu 11:30]
+**** DONE Adjust the two problems w/ Tech Debt to b the conversations
+CLOSED: [2025-05-30 Fri 09:11]
+It leads to the wrong conversations, for two reaso
+
+And this is all about the conversations you're goiave.
+
+The first conversation is with your engineers.
+
+The second conversation is with your stakeholders.
+**** DONE Revise convo w/ Stakeholders to focus morsibility
+CLOSED: [2025-05-30 Fri 18:32]
+Move moral to a footnote?
+**** DONE For the deploy story, have the engineers e story at all hands
+CLOSED: [2025-05-30 Fri 18:32]
+And the non-technical CEO glowing with pride or clenthusiastically, so I'm showing the act of storytelling by the engineers
+**** DONE Spike on final thing to wrap it up
+CLOSED: [2025-05-30 Fri 18:32]
+**** DONE Spike on moving why/why ahead of examples
+CLOSED: [2025-05-30 Fri 18:32]
+**** DONE Spike on moving what if/what if earlier?
+CLOSED: [2025-05-30 Fri 18:32]
+Before the story/example
+**** TODO For intro, add flourishes of the chaos, m stakeholders, etc
+**** TODO Write section on What If My Company Firede PM'S?
+**** TODO For "Y No Tech Debt" add: tech debt sugge can "finish"
+There is an amount of debt, once it's gone, you're clean.
+
+This is not true for technical investments.
+*** [[id:71B164B6-0AB2-4FDE-B51E-71870F553C67][The TI Cycle]]
+**** DONE Rough draft of the overall cycle
+CLOSED: [2025-06-01 Sun 08:51]
+**** DONE Wedge in my example of that without readi
+CLOSED: [2025-06-01 Sun 08:51]
+**** DONE Revise/improve The Ti Cycle
+CLOSED: [2025-06-02 Mon 11:23]
+*** [[id:BB09F432-DEEB-4129-8F88-D23C86E8CEBB][Build Viz First]]
+**** DONE Jam in some of my ideas from my notes, break out todos
+CLOSED: [2025-06-07 Sat 09:35]
+**** DONE Jam out a terrible intro. Like, terrible
+CLOSED: [2025-06-07 Sat 11:10]
+**** DONE Write bad prose for Prevent Waste
+CLOSED: [2025-06-08 Sun 09:25]
+**** DONE Write bad prose for Incremental Progress
+CLOSED: [2025-06-08 Sun 09:35]
+**** DONE Write bad prose for Off Ramps
+CLOSED: [2025-06-08 Sun 09:58]
+**** DONE Write bad prose for Celebrate
+CLOSED: [2025-06-08 Sun 09:58]
+**** TODO Talk about "build visibility" vs "add metrics"
+*** [[id:D3158CC2-8A69-4097-B9ED-ED6BD855A7AD][Understand Value In Depth]]
+**** DONE Do a spike on footnotes
+CLOSED: [2025-06-05 Thu 08:44]
+**** DONE Write super crappy intro to chapter
+CLOSED: [2025-06-02 Mon 13:13]
+**** DONE For forms of probability, find company-specific examples
+CLOSED: [2025-06-03 Tue 14:58]
+**** DONE Maybe: shorthand value by "learning what to do next"
+CLOSED: [2025-06-04 Wed 13:01]
+Each thing builds on the previous, so velocity is about hitting those decision points faster.
+**** DONE Name the economically ration investor Bertha
+CLOSED: [2025-06-04 Wed 13:01]
+Or Bethesda, or Beatrix, or Snowflake
+**** TODO Add a thing about "Last year's profits"
+I know last year's profits (or I can find them out). How do I determine company value?
+
+Warning, it's a trap! People will talk to you all day about this, but they're ignoring the main driving force
+*** [[id:2EC03879-2A23-4546-BCB8-E9A464665A03][Turn Concerns Into Value ]]
+**** DONE Spike on bad intro
+CLOSED: [2025-06-13 Fri 11:05]
+**** DONE Write about terrible code
+CLOSED: [2025-06-13 Fri 11:06]
+**** DONE Write about deploys
+CLOSED: [2025-06-14 Sat 10:23]
+**** DONE Write "I can't find a moment to think"
+CLOSED: [2025-06-14 Sat 17:41]
+**** DONE Write "The DB is on the verge of death"
+CLOSED: [2025-06-15 Sun 11:05]
+**** DONE Revise DB is on Verge of Death
+CLOSED: [2025-06-16 Mon 08:51]
+*** [[id:3DE23585-34F0-4C88-A16B-4558ACC45C99][Post-Mortems/Viz]]
+**** DONE Write bad intro/start
+CLOSED: [2025-07-09 Wed 18:02]
+**** DONE Write bad next section
+CLOSED: [2025-07-10 Thu 07:34]
+**** DONE Spike: splice from Convert Concerns
+CLOSED: [2025-07-11 Fri 10:55]
+**** DONE Write bad section about risk in general
+CLOSED: [2025-07-11 Fri 10:58]
+**** TODO Review Incidents as Warning Signs
+**** TODO Revise Post-Mortems/Stakeholders
+**** TODO First draft: Create Incidents
+**** TODO Maybe: tell Berlin story, Roberto/Vahe
+They were stuck going slow, they committed to doinpost-mortems, it transformed their speed and relationship with stakeholders
+**** DONE Sketch in a possible arc
+CLOSED: [2025-07-09 Wed 10:51]
+**** DONE Sketch in some bad ideas
+CLOSED: [2025-07-08 Tue 17:24]
+*** [[id:722C702D-A6C2-4A51-AB62-515CE8144AA2][Ladder Commitment]]
+**** DONE Bit of prep work/layout                  urweek
+CLOSED: [2025-07-07 Mon 10:26]
+**** TODO Fill in more of outline
+**** TODO Decide if worth keeping as full chapter
+*** [[id:D901A4C9-885B-4F42-8B8D-3595616857E8][The Value of Knowing What To Do Next]]
+**** TODO For "making 3x more decisions" bring to life "implicit decisions"
+E.g. the decision to keep coding against the newest version of a library. Or the decision to base the product on a data source that you've been assured is present in reality. Or the decision to build your feature around a run-time call to an API you believe you'll have valid credentials for, at the moment of the call.
+**** TODO Def: talk about sequence of decisions
+**** TODO Maybe: put Accelerate in here?
+**** TODO Finish the Pinch Test story
+*** Rewrites
+** TODO Maybe: add an entire chapter on Rewrites
+** TODO Add: Major rewrites *must* be done with product
+not as separate tech investments
+** TODO And, for rewrites, celebrate all the ones I've done:
+ - Analytics 2.0
+ - Nexus WMS
+ - Flagship
+** TODO Rename "Rewrites: How To + How *Not* To"?
+*** [[id:E7DB3CD4-9B7B-425B-BF07-E2607DDD6670][Forms Value/Viz]]
+**** DONE Write 1-2 genuineely terrible
+CLOSED: [2025-06-10 Tue 09:53]
+So I can make better tomorrow
+**** DONE Enable Upcoming Product Improvements
+CLOSED: [2025-06-10 Tue 11:46]
+**** DONE Move my resilience examples later
+CLOSED: [2025-06-12 Thu 08:41]
+**** DONE Develop new example more purely operational
+CLOSED: [2025-06-12 Thu 09:42]
+E.g. supporting BI team, or account setup
+**** DONE Add visibility for steady ops work
+CLOSED: [2025-06-12 Thu 09:42]
+**** DONE Finish Reduce Steady-State Maintenance Work
+CLOSED: [2025-06-12 Thu 09:42]
+**** DONE First draft Reduce Interruptive Maintenance Work
+CLOSED: [2025-06-12 Thu 19:28]
+**** Ensure Many Customers Can Use System At Once
+Akad & Scale
+**** Ensure Big Customers Can Use System In Big Ways
+**** Enable Parallel Development Across Multiple Teams
+**** Reduce Risk of Losing Data
+**** Reduce Frequency of Outages
+**** Reduce Duration of Outages
+**** Reduce Risk of Security Breaches
+**** Reduce Costs Of Serving Customers (But, See: Drunk, Lamppost)
+
+**** DONE Write 1-2 genuineely terrible
+CLOSED: [2025-06-10 Tue 09:53]
+So I can make better tomorrow
+**** TODO Add Game Days as Big viz for reduce duration of outages
+* Stashed Projects                                :sleep:
+** [[id:EFA43963-DB19-4EA6-8EF3-4F4376AED1F1][Story Makeovers]]                                :gtasks:
+*** DONE Rough out one more makeover
+CLOSED: [2025-07-08 Tue 11:44]
+*** DONE Review structure of each makeover
+CLOSED: [2025-07-08 Tue 11:24]
+** [[id:4D62F0DE-2862-45F3-97EE-6AFED5382F2C][Storytelling/Wins ]]                             :gtasks:
+*** TODO Review/integrate Mike Isman feedback on storytelling
+Rough Draft of Storytelling Chapter(s)
+*** TODO Find videos w/ dots pushing each other up hills
+*** TODO Add reference to Kahneman mic drop about stories
+*** TODO Revise with up to date story research
+E.g. less heroic narrative, more objective/struggle
+
+** [[id:93FF0A9B-F54E-49D5-8154-640BBAE08D4D][Beta Readers ]]                                  :gtasks:
+*** DONE Make plan + tasks for Beta Reading
+CLOSED: [2025-06-27 Fri 07:12]
+*** DONE Draft thoughts re: pipeline beta reading, share w/ EWJ
+CLOSED: [2025-06-20 Fri 09:43]
+*** DONE Write Robfitz re: pipeline beta reading
+CLOSED: [2025-06-21 Sat 14:32]
+*** DONE Set reward: can share w/ EWJ once I finish... something
+CLOSED: [2025-06-27 Fri 07:10]
+*** DONE Review WUB re: beta readers + partial book
+CLOSED: [2025-06-16 Mon 09:26]
+*** DONE Get the markdown formatting info on my laptop
+CLOSED: [2025-06-07 Sat 08:01]
+*** DONE Experiment with org-org-export-to-md
+CLOSED: [2025-06-07 Sat 08:18]
+*** DONE Write python script to convert toc.org to file list
+CLOSED: [2025-06-07 Sat 14:11]
+Ask aidermacs to factor it out of existing code
+*** DONE Makefile: regen chapter file list when toc changes
+CLOSED: [2025-06-07 Sat 14:15]
+*** DONE Write script to build full Markdown of book
+CLOSED: [2025-06-07 Sat 15:06]
+By feeding chapter files in order to my org-to-md.sh script, concatenating output
+*** DONE Add Makefile target for full Markdown
+CLOSED: [2025-06-07 Sat 15:06]
+*** DONE Fix footnotes
+CLOSED: [2025-06-07 Sat 15:38]
+
+https://stackoverflow.com/questions/25579868/how-to-add-footnotes-to-github-flavoured-markdown
+
+Try out https://github.com/larstvei/ox-gfm?tab=readme-ov-file
+*** DONE Fix Footnotes again
+CLOSED: [2025-06-08 Sun 08:25]
+ox-gfm is just rendering them in HTML, not as actual GFM.
+** [[id:22898D7F-26DD-4787-939B-B640B3D5BE56][Beta Wave 1]]                                    :gtasks:
+*** Send a round of invites out
+To... someone
+*** TODO Define call to action/progress
+(e.g. share w/ friend)
+Something that demonstrates they're getting value, not being nice.
+*** TODO Define dumbest, simplest progress-checking habit
+Could easily lose my mind, be careful.
+*  Inbox
+** TODO Find a Two Ends of Spectrum thing w/ Eduardo?
+E.g. what happens if the stores have sluggish perf?
+** TODO Do I use three part teens/terrorists negotiation thing?
+** TODO Is this "process"? Yes but also no.
+As in, it subsumes process, but also is about the human relationships beneath the process
+** TODO Point at stakeholder toc
