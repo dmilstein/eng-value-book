@@ -1,17 +1,11 @@
 :PROPERTIES:
 :ID:       4FEA3BD5-8E85-4BB6-8F59-15FDE4F38572
 :END:
-#+title: Practice Tactical Empathy
+#+title: Build Influence Through Empathy
 #+filetags: :Chapter:
-* Practice Empathy To Build Influence
-
+* Empathy = Influence
+# Build Influence Through Empathy
 ** The Profound Value of Empathy
-
-# Defining "Tactical Empathy"
-
-If you want to advocate for change with another human, you need to do so on top of a foundation of *trust*.
-
-# If you want to be effective in *advocate for a change in how you work together*, you need to build a different kind of relationship -- one founded on trust and rapport.
 
 We're going to talk in this chapter about a foundational approach for building trust and rapport.
 
@@ -19,24 +13,23 @@ This is a set of skills which can massively increase your *influence* -- when yo
 
 # you'll be able to get people to listen to and your concerns, you'll be able to persuade them to take a chance on trying something new.
 
+In short, these are some of the most valuable skills I know.
 
-# END SIDEBAR
+You'll be employing them during multiple steps of the overall game plan:
 
-These are some of the most valuable skills I know.
+ - During Align With a Strategic Intent (to mine for context)
 
-You'll be leaning on them during multiple steps of the overall game plan:
+ - When you Map Fears and Aspirations (to puzzle out your stakeholder's underlying feelings)
 
- - Mining for context
-
- - Mapping fears and aspirations
-
- - Making the pitch
+ - As part of Delivering a Pitch That Creates Urgency (to smoothly integrate concerns or questions or suggestions)
 
 *Sidebar: Wait? Why Do Engineers Need All This Empathy Bushwa?*
 
-/"Sure, Dan, I can see how building trust and rapport is a core requirement of the *product* job, but that's the whole point of having a product team, right? So the engineers can just focus on building stuff, right?"/ Sure, these are fundamental survival skills for a PM[fn:: in fact, I highly recommend testing for them during PM interviews]. But they are also insanely valuable for engineers. As you rise up into any form of engineering leadership, be that management or the technical track, your ability to *influence* peers and executives [bosses, overlords], becomes absolutely central to your ability to create value at scale. That is true both for the subject of this book (driving change in interaction patterns), but also for many other areas.
+/"Sure, Dan, I can see how building trust and rapport is a important for *product*, but isn't that kind of the whole point of having a product team? So the engineers can just focus on building stuff, right?"/ Yes indeed, these are fundamental survival skills for a PM[fn:: in fact, I highly recommend testing for them during PM interviews]. But they are also insanely valuable for engineers. As you rise up into any form of engineering leadership, be that management or the technical track, your ability to *influence* peers and executives [bosses? overlords?], becomes absolutely central to your ability to create value at scale. That is true both for driving change in interaction patterns, but also for many other facets of engineering (e.g. getting buy-in to a consistent technical approach across multiple teams; advocating for technical investments; etc).
 
-Now, developing effective influence through empathy is the work of a lifetime (and can reward you well beyond your professional career[fn:: "This whole active listening thing has been really helping with [insert spouse's name]", is something I've heard let's just say, a bunch of times.])
+# END SIDEBAR
+
+Developing effective influence through empathy is the work of a lifetime.
 
 We're going to focus on a few core skills.
 
@@ -48,17 +41,19 @@ These are factors in what Chris Voss, in his excellent book "Never Split the Dif
 
     /One step beyond that is tactical empathy./
 
-    /Tactical empathy is understanding the feelings and mindset of another in the moment and also hearing what is *behind* those feelings so you increase your influence in all the moments that follow. It's bringing our attention to both he emotinoal obstacles and the potential pathways to getting an agreement done./
+    /Tactical empathy is understanding the feelings and mindset of another in the moment and also hearing what is *behind* those feelings so you increase your influence in all the moments that follow. It's bringing our attention to both the emotional obstacles and the potential pathways to getting an agreement done./
 
-A key: as Voss emphasizes, deploying the skill of tactical empathy doesn't meant that you have to believe your conversational counterpart is *right* or *justified*.
+I love that he describes it as *"bringing your attention"*--so much of the act of empathy is quieting your own chorus of inner voices, so you truly fully pay attention to someone in front of you.
+
+Also: as Voss emphasizes, deploying the skill of tactical empathy doesn't meant that you have to believe your conversational counterpart is *right* or *justified*.
 
 If your stakeholder is angrily insisting that they shouldn't "have to" make a difficult prioritization choice, and they bitterly push back by saying "everything is important"... they are, of course, wrong.
 
-Tactical empathy means reaching for ways to connect with the underlying *feelings* that are leading to such irrational statements -- aka, the situation that person perceives themselves as being in.
+Tactical empathy means reaching for ways to connect with the underlying *feelings* that are leading to such irrational statements--aka, the situation that person perceives themselves as being in.
 
-Maybe that means digging for enough information to be able to summarize at the end by saying "Wow, it sounds kind of like you have two different bosses. And you're being held accountable by them for different goals that are actually in fundamental conflict with each other. I could imagine that feeling like there's no way for you to win."
+Maybe that means digging for enough information to be able to summarize at the end by saying /"Wow, it sounds kind of like you have two different bosses. And you're being held accountable by them for different goals that are actually in fundamental conflict with each other. I could imagine that feeling like there's no way for you to win."/
 
-Note how, in this formulation, you're *offering* a potential understanding of your counterpart's situation and feelings, by using phrase like "it sounds kind of like", and "I could imagine that feeling". That's a powerful way to get feelings on the table without triggering defensiveness (absolutely no one likes being "told" their feelings directly).
+Note how, in this formulation, you're *offering* a potential understanding of your counterpart's situation and feelings, by using phrases like /"it sounds kind of like"/, and /"I could imagine that feeling"/. That's a powerful way to get feelings on the table without triggering defensiveness (absolutely no one likes being "told" their feelings directly).
 
 If you can say something like the above, there's a very good chance the stakeholder will visibly relax.
 
@@ -66,11 +61,11 @@ You're then positioned to offer productive challenge and collaboration, e.g. "Ok
 
 And, lo, you'll have a prioritization scheme.
 
-Never Split the Difference is *incredibly* good, by the way. It sits very comfortably somewhere in my list of top five "Wait, you should totally go drop everything and read this" books.[fn:: Others that threaten to be in that top five include "Escaping the Build Trap" by Melissa Perri, "The Principles of Product Development Flow" by Don Reinertsen, "Designing Data-Intensive Applications", by Martin Kleppmann, "High Output  Management" by Andy Grove, "The Art of Action" by Stephen Bungay, and "Eleanor & Park", by Rainbow Rowell]
+Never Split the Difference is *incredibly* good, by the way. It sits very comfortably in my list of top five "You should totally go drop everything and read this" books.[fn:: Others that threaten to be in that top five include "Escaping the Build Trap" by Melissa Perri, "The Principles of Product Development Flow" by Don Reinertsen, "Designing Data-Intensive Applications", by Martin Kleppmann, "High Output Management" by Andy Grove, "The Art of Action" by Stephen Bungay, rapidly rising up "The Pricing Roadmap", by XXX, and, just because it's brought me so much joy, "Eleanor & Park", by Rainbow Rowell]
 
 ** Deliberate Practice Required and Rewarded
 
-These skills can be transformatively powerful to master.
+Mastering the skills of tactical empathy can be transformative.
 
 I've seen leaders who had developed a damaging reputation as bruisingly difficult become respected and valued thought partners.
 
@@ -78,95 +73,101 @@ I've seen leaders who had developed a damaging reputation as bruisingly difficul
 
 I've seen people who had struggled to make their voices heard become confident, effective facilitators, deftly guiding tricky conversations forward.
 
-I've seen people who felt stuck and bitter discover profoundly meaningful agency, by being able to productively challenge the decisions they were most concerned about.
+I've seen people who felt stuck and bitter in their career discover profoundly meaningful agency, by being able to productively challenge the decisions they were most concerned about.
 
 But *none* of those people accomplished those changes without putting in *significant* work to practice these skills.
 
-Mastering these skills means rewiring some of your conversational patterns. That is not easy.
+Mastering tactical empathy means rewiring some of your conversational patterns. That is not easy.
 
-At the very least, doing so involves practicing a set of situational scripts *and* practicing some specific, focused forms of listening and responding.[fn:: it's like learning an improvisational form, for all you theater geeks out there. Also, hi there, theater geeks! You are so very much my people, if that wasn't clear already.]
+At the very least, doing so involves practicing a set of situational scripts *and* practicing some specific, focused forms of listening and responding.[fn:: for all you theater geeks out there, it's like mastering the tactics of improvising with other people onstage. Also, hi there, theater geeks! You are so very much my people, if that wasn't clear already.]
 
 Those two take some solid practice on their own.
 
-But there's often something beyond those which is even trickier. Trying to master these skills will ultimately require you to face some of your *own* driving emotions... which can make it extremely difficult to change, well, yourself.
+But there's often something *beyond* those which is even trickier. Trying to master these skills will ultimately require you to face some of your *own* driving emotions... which can make it extremely difficult to change, well, yourself.
 
-Of course, I can't tell you in detail how to face such struggles in your self (I am, y'know, kind of trapped in a book at the moment). But I will encourage you to, more than anything, cultivate a sense of curiosity *about your own reactions*. After you practice one of below tactics with an actual stakeholder, and you have some time to reflect, take a few moments to explore the *feelings* that came up for you. Maybe talk that out loud to yourself on a walk with your dog, or take a few minutes to write it out in a journal, or the like.
+Of course, I can't tell you in detail how to face such struggles in your self (I am, y'know, kind of trapped in a book at the moment). But I will encourage you to, more than anything, cultivate a sense of curiosity *about your own reactions*. After you practice one of the below tactics with an actual stakeholder, take some time to reflect, with open curiosity, on whatever *feelings* came up for you. Maybe talk that out loud to yourself on a walk with your dog, or take a few minutes to write it out in a journal, or the like.
 
-In talking with a stakeholder who has exerted some extremely frustrating form of control over your life, did you find yourself flushed and almost dizzy with resentment?
+For some examples:
 
-In attempting to assert some kind of control over a conversation, did you find anxiety spiking and rendering you nearly mute, because of a painfully long history of your contributions being cruelly and unthinkingly dismissed?
+Maybe you were talking with a stakeholder who you experience as having an extremely frustrating form of control over your life, and, as a result, you found yourself so flushed and almost dizzy with resentment, you couldn't even hear what they were saying.
 
-In trying to persuade someone to change a broken pattern of planning, did you feel an intense surge of panic at the the prospect of being blamed for the inevitable project failure, making it hard to remember even a single tactic from the list?
+Maybe you attempted to assert some kind of control over a conversation, but found your anxiety spiking and making it hard to breathe, because of a painfully long history of feeling like your contributions were being cruelly and unthinkingly dismissed.
 
-If you find one of these, or something similar, I will offer the approach I have found most useful for myself. At the recommendation of some excellent therapists I've worked with (and also of the movie Inside Out), I visualize a "person" inside of me, who is responsible for that emotion. I take time to *appreciate* that that person, that part of me, as important. I work to recognize that they are doing their very best to *protect* me. I then *thank* them, and tell them that I've got it for now, and it's okay for them to stand down for a bit.
+Maybe you set out to persuade someone to change a broken pattern of planning, but, before you could get into any dettails, you felt panic surging at the prospect of being blamed, once again, for the inevitable project failure, which made it hard to remember even a single tactic from the list.
 
-E.g. I spent some time developing a picture of someone I called "The Panic Captain", who sat in a small office, tensely scanning screens full of information. If it looked like I was going to get blamed for a failure, he would reach over and press a giant red button, and an alarm would sound, and lights would flash, and my veins would flood with cortisol and adrenaline. He had helped me many times through the years, by quickly putting me on high alert when I needed to react quickly -- but he had gotten tired, and haggard, and was reaching for the big red button all the time. And so, when I could feel a surge of panic rising, I would take a deep breath, and visualize him at this desk, and then thank him, and say "It's okay, I've got this. If I need you, you'll be there."
+As above, give yourself room to have these responses, and see if you can find a way to reassure that part of yourself that you're going to find a better way.
 
-This kind of, well, empathy with yourself can be a key to making these kinds of changes.
+For more ideas on facing these kinds of internal challenges, take a look at the "Further Notes on Tactical Empathy" in the Appendix.
 
 # somewhat surprisingly hard to apply these.
 
 Okay, now let's dig in.
 
-For each skill, I'm going to list some exercises afterwards. There's (much) more in this chapter than you'll be able to master in a single sitting. So I recommend reading through this, finding a few skills that sound interesting, and then practicing those.
+For each skill, I'm going to list some exercises afterwards. There's more in this chapter than you'll be able to master in a single sitting. I recommend reading through this, finding a skill that sound interesting, and then practicing that one for a bit.
 
-As they becomre more comfortable, return to this chapter and pick a few more.
+As that skills becomes more comfortable, return to this chapter and pick another.
 
-** A Scenario, An Opportunity And A Challenge
+I've put three core skills in here, and added another three in an Appendix.
 
-We're going to develop a scenario to illustrate these tactics.
+** The BreadBox Scenario
 
-Our scenario features Janine, an engineering manager. She works at BreadBox, a SaaS startup which makes products for small- and medium-sized grocery stores, to help them manage inventory and purchasing. Janine leads a team of engineers who maintain BreadBox's flagship product. For reasons literally no one at BreadBox can explain, that product is named "Cogs".
+We're going to develop a scenario to explore these tactics.
 
-Janine's team has been working for much of the last year on a pretty significant overhaul of that flagship product. The "Cogs 2.0" project has stretched a few months past its original planned go-live date (surprisingly approximately no one). That said, they *do* have some adventurous early adopter customers using a very rough beta version in the field, and a full migration is starting to feel possible at some point in the not too distant future.
+Meet Janine, an engineering manager. She works at BreadBox, a SaaS startup which builds products for small- and medium-sized grocery stores, to help them manage inventory and purchasing. Janine leads a team of engineers who maintain BreadBox's flagship product. For reasons literally no one at BreadBox can explain, that product is named "Cogs".
 
-Janine's product manager is named Eduardo--they've worked together for more than a year. Eduardo is, in general, a good partner to engineering--he digs into the details to identify good increments, and manages stakeholder expectations well enough to create space for the team to execute.
+Janine's team has been working for much of the last year on a pretty significant overhaul of that flagship product. The "Cogs 2.0" project, as it's known internally, has stretched a few months past its original planned go-live date (surprisingly approximately no one). That said, they *do* have some adventurous early adopter customers using a very rough beta version in the field, and a full migration is starting to feel possible at some point in the not too distant future.
 
-However there is one part of their working relationship which frustrates Janine.
+The team's product manager is named Eduardo--he and Janine worked together for more than a year at this opint. Eduardo has been a fairly solid partner to engineering--he manages stakeholder expectations well enough to create space for the team to execute, and he's not afraid to dig into the details to identify good increments.
 
-It's painfully difficult to get Eduardo to listen to the concerns of the engineering team.
+But there is one part of their working relationship which Janine finds very frustrating.
 
-Their grooming and planning meetings are entirely centered on lists of user stories that Eduardo writes up, and he seems to create those on the fly in between meetings with stakeholders, which makes it so that Janine can't participate.
+It's painfully difficult for her to get Eduardo to listen to *any* concerns from the engineering team.
 
-If she tries to talk about tech debt or raise concerns about stability or scalability, Eduardo expresses sympathy, and assures her that they'll find time for it as some point... but then they never do so. Worst, Janine feels like she's being "managed" by Eduardo during these conversations, and that's starting to damage her trust in him.
+The team's grooming and planning meetings are entirely centered on user stories that Eduardo writes up, and he seems to write those on the fly in between meetings with stakeholders, which makes it impossible for Janine to participate.
 
-As the big customer migration approaches, the team is getting more and more nervous about all the corners they've cut, and is pushing Janine to make a case to slow down and deal with some looming problems. But Eduardo seems to feel more and more pressure to cram in "just one more feature" to please various stakeholders, and as a result, he's even less willing than usual to listen to engineering's concerns.
+If she tries to raise concerns about scalability or talk about tech debt, Eduardo expresses sympathy, and assures her that they'll find time for it as some point... but then they never do so. Worse, Janine feels like she's being "managed" by Eduardo during these conversations, and that's starting to damage her trust in him.
 
-Before we go any futher, I just want to say that I think this is a *genuine* problem.
+A a full customer migration to Cogs 2.0 approaches, the team is getting more and more nervous about all the corners they've cut. They've started pushing Janine to make a case to slow down and deal with some looming problems. But Eduardo seems to feel more and more pressure to cram in "just one more feature" to please various stakeholders, and as a result, he seems even less willing than usual to listen to engineering's concerns.
+
+Before we go any futher, I just want to note that this is a genuine problem.
 
 Whether or not it's right to "fix tech debt" now, it's very important that there be a clear means for the engineers to advocate for investments in things they believe are valuable to the business. I believe the PM should almost always have ultimate say over prioritization (that's the heart of their job), but they should *also* be accountable for listening clearly to engineering and factoring engineering's concerns into the work of the team.
 
-Eduardo isn't truly listening--which is creating risk for the business.
+Eduardo isn't truly listening, and he doesn't seem willing to work with Janine to understand the concerns she's trying to raise. That broken interaction pattern is  creating real risk for the business.
 
 # Of course, as more grocery stores are starting to use Cogs 2.0 in the field, there's more and more demand for Eduardo's time, so their regular 1:1's are starting to get cancelled with a somewhat alarming frequency.
 
 # Which is hard, because there is a
 
-What should Janine do?
+# What should Janine do?
 
-Well, so far, her attempts to talk about the overall problem, the *pattern* of their working together, have gotten nowhere. And, as more grocery stores are starting to use Cogs 2.0 in the field, there's more and more demand for Eduardo's time, so her 1:1's with him have started to get cancelled with a somewhat alarming frequency.
+# Well, so far, her attempts to talk about the overall problem, the *pattern* of their working together, have gotten nowhere. And, as more grocery stores are starting to use Cogs 2.0 in the field, there's more and more demand for Eduardo's time, so her 1:1's with him have started to get cancelled with a somewhat alarming frequency.
 
-Janine decides to make a coherent pitch for change, as per the approach suggested in this book.
+Given this, Janine has (wisely) decided to narrow her requests down to one specific thing that she and them team are most worried about: database performance.
 
-She and several senior engineers work to come up with an "initial increment of change", focused on a very specific risk, around database performance.
+She and several senior engineers work to come up with an initial increment of change, focused on that concern.
 
 # In this particular case, the team's biggest immediate worry is how the database will handle a full launch of Cogs 2.0. The new version makes a *lot* more requests from the front to the back end, and a bunch of those requests then issue DB queries  that are very, very far from optimized. There's even a chance they're going to have to reorganize some tables under the hood. They're pretty worried.
 
 # They got enough worried that Janine and a couple of the engineers on the team have come up with a first increment -- they read O'Reilly's Implementing Service Level Objectives, and want to follow the game plan in the first few chapters to implement SLI's (those first few chapters are incredibly good, btw).
 
-Janine *could* go to Eduardo and lay that out as a proposal, ala:
+Now, Janine could go to Eduardo and lay that out as a proposal, ala:
 
 /We want to spend a few weeks building Service Level Indicators, which will create insight into site performance, before we do any more migrations./
 
 That's reasonable. It might work.
 
-But let's practice empathy, this time focused on the situation Eduardo finds himself in, as Janine goes to him with this request:
+But let's think for a moment about the broader situation Eduardo finds himself in, when he hears this request from Janine.
 
-Eduardo has *dozens* of other people making what feel like similar requests of him, *all the time* -- half the sales team, the director of customer success, Phil from the help desk, the company CEO who likes to check up on his corner grocery store's install of Cogs, etc. All of those people are constantly reaching out to Eduardo via Slack, email, casual conversations in the office kitchen.
+As the migration approaches, Eduardo has dozens and dozens of other people making similar requests of him -- half the sales team, the director of customer success, Chelsea from the help desk, the company CEO who likes to check up on his corner grocery store's install of Cogs, etc. All of those people are constantly reaching out to Eduardo via Slack, email, casual conversations in the office kitchen.
+
+Each requests sounds important. But Eduardo's default starting point is going to be to say no, and, likely, to spend as little time as possible on each request while doing so.
+
+He literally couldn't get through his day otherwise.
 
 # Every request urgent, every request time-sensitive.
 
-Companies have product teams *because* they can't do all the things they want, and someone has to steward a difficult process of decision-making.
+# Companies have product teams *because* they can't do all the things they want, and someone has to steward a difficult process of decision-making.
 
 # The product manager *can't* say yes to all of those requests -- in fact, they can't say yes to almost *any* of them.
 
@@ -174,7 +175,7 @@ From a certain perspective, Eduardo's *job* is to continually disappoint everyon
 
 And that includes engineering.
 
-So we should not be surprised if Janine's suggestion of adding SLI's falls on deaf ears. Or gets put on the "We'll get to that when we have some downtime" list, aka, the "We'll probably never get to it" list.
+So we should not be surprised if Janine's suggestion of adding SLI's falls on deaf ears. Or immediately gets put on the "We'll get to that when we have some downtime" list, aka, the "We'll probably never get to it" list.
 
 What could she do, to move her request to the "Let's talk about if it's this sprint or the next one" list?
 
@@ -204,39 +205,31 @@ If you can achieve any form of genuine curiosity as you speak, and if you can st
 
 And they'll *feel* like you're hearing and understanding them.
 
-It shouldn't be this simple. But it totally works.[fn:: If you happen to like romantic comedies, you might catch this *exact tactic* from Never Split the Difference being referenced in episode <something> of Nobody Wants This]
+It shouldn't be this simple. But it totally works.[fn:: If you happen to like romantic comedies, you might catch this *exact tactic* from Never Split the Difference being referenced in episode <something> of Nobody Wants This (in the very fun B storyline of the two "loser" siblings, which honestly, I maybe loved more than the main storyline?)]
 
-In our scenario, let's start by imagining that the Janine does *not* have this skill at her disposal, and let's see how the conversation might go.
+In our scenario, let's start by imagining that Janine does *not* have this skill at her disposal, and let's see how the conversation might go.
 
-    JANINE: I'd like to talk about taking the time this month to implement Service Level Indicators -- it'd really help us stay ahead of potential capacity issues.
+    JANINE: I'd like to talk about taking the time this month to implement Service Level Indicators -- it'd really help us stay ahead of potential performance issues.
 
-    EDUARDO: Okay, how much time are we talking about?
+    EDUARDO: [Busily typing away into Slack, only half looking up.] Okay, like, how much time are we talking about?
 
     JANINE: We're not sure, we think it's probably three weeks of work for Andrea. And we'd need some of your time to review what she comes up with.
 
-    EDUARDO: Oh, I don't know. I thought we were depending on Andrea to fix the issues with the new chip aisle features for Cogs 2.0. I don't think we can pause that right now.
+    EDUARDO: [Looks up sharply] Wait, wait. I thought we were depending on Andrea to fix the issues with the 2.0 Snack Aisle features? I don't think we can pause that.
 
-    JANINE: If we don't do the work now, I bet we're not going to find time for it before launch. We're only talking about three weeks, we can timebox it you want.
+    JANINE: If we don't do the work now, we're not going to find time for it before launch. We're only talking about three weeks, we can timebox it you want.
 
-    EDUARDO: Okay, I'll think about it.
+    EDUARDO: [Frowns as he turns back to Slack] Okay, I'll think about it.
 
 How'd that go?
 
 Janine is trying to speak to value, which is good.
 
-But...
+But Eduardo is clearly ready to ignore this... along with a dozen other things people are asking him for today.
 
-...most product leaders would experience this as someone *pushing* them for something.
+To find another way, let's replay this conversation with the Repeat Trailing Three Words tactic.
 
-And a core survival skill for a PM is being able to ignore people who push them for things.
-
-To find another way, let's notice that, at one point, Eduardo stated a *concern*: "I'm not sure we can slow that down right now".
-
-Janine responded with, essentially, an *argument*: "If we don't do that work now..."
-
-Let's replay this conversation with the Repeat Trailing Three Words tactic.
-
-First, Janine instead starts with a question -- not with immediate advocacy.
+First, Janine starts with a question -- *not* with immediate advocacy.
 
     JANINE: I wanted to ask -- how are you thinking about our key priorities for the month?
 
@@ -244,9 +237,9 @@ First, Janine instead starts with a question -- not with immediate advocacy.
 
     JANINE: ...the Cogs migration?
 
-    [pause]
+    [brief pause]
 
-    EDUARDO: Yes. [He pauses his typing, sighs]. The Success team has *finally* started converting a few of the busy urban grocery stores. Of course now they want to add all these new blocker "requirements". [He sketches in air quotes]
+    EDUARDO: Yes. The Success team has *finally* started converting some of the busy urban grocery stores. [He stops typing, sighs]. Of course now they want to add all these new blocker "requirements".
 
     JANINE: ...oh, new blocker requirements?
 
@@ -260,7 +253,7 @@ First, Janine instead starts with a question -- not with immediate advocacy.
 
     EDUARDO: Yep. Oh, that, and just some other fit and finish work, I think. [He considers for a moment, then nods and exhales] What's on your mind?
 
-Those may look like dry words on the page, but it can be remarkably effective in person -- and it can be done with such a simple approach. You have to try it and experience it to fully believe it.
+Those may look like dry words on the page, but it can be remarkably effective in person -- and it's, honestly, kind of bonkers that it can be done with such a simple approach. You sort of have to try it and experience it to fully believe it.
 
 If you're able to deploy this tactic well, you'll achieve two *super* important things:
 
@@ -268,43 +261,71 @@ If you're able to deploy this tactic well, you'll achieve two *super* important 
 
    You're demonstrating, simply by listening, that you want to work *with* the PM to solve their problems.
 
-   Eduardo started the conversation in a bit of a haze, half-listening, half-distracted.
+   Eduardo started the above conversation in a bit of a haze, half-listening, half-distracted.
 
-   By the end, he feels like Janine *understands his problems*. I know that seems odd, but, again, it really works.
+   By the end, he had a sort of cautious hope that maybe Janine understands his problems.
 
  - *Second, you'll acquire context*
 
-   Janine learned about which segment of customers Eduardo is focused on, and some tricky internal company dynamics he's wrestling with.
+   Janine learned: how he thinks about the team's overall goal; which segment of customers Eduardo is focused on; and some tricky internal company dynamics he's wrestling with.
 
    She can put those to use in making her case.
 
 We'll demonstrate how to do so, but first, we'll talk about a second core skill of Tactical Empathy.
 
+*** Exercises
+
+Because it's so simple, there are two good ways to practice the Repeat Trailing Three Words tactic.
+
+1) Experiment In Random Parts of Your Life
+
+Whenever you can, in whatever conversations you find yourself in, try repeating the last few words someone says to you, inflected as a question. Try it in both professional and personal contexts, try it with your boss, try it with your peers, with your spouse, kids, neighbors, whoever.
+
+Do it over and over, and you'll find your own authentic way in, and it'll start to feel and more more natural.
+
+If you start by using it just once in a given conversation, then, as that feels comfortable, see how long you can keep someone talking and opening up by just repeating those last three words of each thing they say to you.[fn:: "Dan, this whole active listening thing has helped my relationship with [insert spouse's name]", is something I've heard let's just say, a bunch of times.])
+
+As above, take a bit of time to explicitly reflect on how it feels to do it, and use that reflection to tweak your personal approach.
+
+For an initial, focused period of practice to rewire yourself, aim to do this 2-3 times/day for a week, and see where that lands you.
+
+2) Explicitly Test With a Trusted Friend
+
+Tell a friend you want to work on active listening, and then ask them a series of questions to dig into some issue -- maybe specifically something close to the kind of conversations you might have with a stakeholder.
+
+E.g. you could say "I want to practice some active listening sikills I'm working on. Would it be okay if I ask you some questions about your work?"
+
+And then see if you can dig for information about what they're most worried about, and what they most hope to achieve, using the repeat trailing three words tactic as you go.
+
+At the end, pause and ask for feedback from them on how it felt for them.
+
+During a period of focused practice, do this 3-4 separate times, and again, make sure you make time to reflect.
+
 ** Tactic 2: Echo Back and Summarize
 
-In using the Repeat Trailing Three Words tactic, Janine has learned that Eduardo is focused on migrating busy urban grocery stores to Cogs 2.0.
+Returning to our story of Janine and Eduardo, she has, thanks to the repeat trailing three words tactic learned that Eduardo is focused on migrating busy urban grocery stores to Cogs 2.0.
 
 # XXX a bit of a repeat with the end of previous section.
 
-This context provides an *excellent* opening to discuss the site capacity issues she's worried about--those busy urban grocery stores use some of Cogs's features at a scale that puts greater than normal strains on capacity.
+This context provides an *excellent* opening to discuss the databse performance issues she's worried about--those busy urban grocery stores will use some of Cogs 2.0's new features at a scale that could really strain the DB.
 
-Thus, if the team *doesn't* build better visibility into capacity limits, they could end up frustrating those high-end customers the moment they convert.
+If the team *doesn't* build better visibility into capacity limits via SLI's, they could end up frustrating those valuable, high-traffic customers the moment they convert.
 
 Given the above, here is the key question:
 
 *What should Janine say next?*
 
-The last thing Eduardo said was:
+Remember, the last thing Eduardo said was:
 
     /EDUARDO: Yep. Oh, that, and just some other fit and finish work, I think. What's on your mind?/
 
-He has *invited* the engineering leader to state their concerns!
+He has *invited* Janine to state her concerns!
 
 Clearly, she can now start speaking to potential value, right?
 
 Nope.
 
-Instead, in this moment, she should slow down and carefully *repeat back a brief summary of what they've just learned*.
+Instead, in this moment, she should slow down and carefully *repeat back a brief summary of what she's just learned*.
 
 And then ask if she's got it right.
 
@@ -312,23 +333,23 @@ i.e. in our story above, that might look like:
 
     EDUARDO: Yep. Oh, that, and just some other fit and finish work, I think. What's on your mind?
 
-    JANINE: Let me just say that back, see if I've got it. [consults her notes, takes a breath, then looks up]. The biggest focus for this month is converting busy urban groceries. The success team is raising a lot of issues they think are blockers, but your guess is that not all of them are *actual* blockers, so there's going to be some work to untangle that. Beyond that work, it's mostly just fit and finish, to get ready for the big launch. Is that about right?
+    JANINE: Let me just say that back, see if I've got it. [consults her notes, takes a breath, then looks up]. The biggest focus for this month is migrating as many high-traffic urban groceries as we can. The success team is raising a lot of issues they think are blockers, but your guess is that not all of them are *actual* blockers, so there's going to be some work to untangle that. Beyond that work, it's mostly just fit and finish, to get ready for the full migration. Is that about right?
 
-    EDUARDO: Yeah, [he says, slowly], tha's tmostly that's it. [He trails off, looking slightly hesitant]
+    EDUARDO: Yeah, that's... most of it. [He trails off]
 
-    JANINE: What's not quite right?
+    JANINE: [notices his hesitation] What's not right?
 
-    EDUARDO: Well, I don't expect us to *actually* convert many big customers *this* month -- but we need to be sure we can *next* month.
+    EDUARDO: Well, I don't expect us to *actually* migrate many urban stores *this* month -- but we need to be sure we can *next* month.
 
-    JANINE: So, it's, like, ensuring we're fully *ready* to convert, is that right?
+    JANINE: So, it's, like, ensuring we're fully *ready* to migrate, is that right?
 
-    EDUARDO: Yes. [He nods, satisfied]
+    EDUARDO: [He nods, satisfied] Yes, that's it.
 
 Why is this so valuable?
 
 First, by summarizing, you will nearly always discover something you didn't get quite right.
 
-In the example above, *being ready* to convert large customers *next* month is quite different from *actually converting* large customers *this* month.
+In the example above, *being ready* to convert some key customers *next* month is quite different from *actually converting* those customers *this* month.
 
 If Janine had left the conversation believing the goal was immediate conversions, she'd be taking her team down the wrong road.
 
@@ -336,25 +357,73 @@ Second, summarizing back makes an enormous difference in helping the speaker to 
 
 When a person explains something they care about, it's quite rare for them to feel confident that they've actually been understood.
 
-They won't usually consciously articulate this to themselves -- but some part of them will wonder, uncertainly, if their attempt succeeded or not.
+It's rare for them to be consciously aware of this -- but some part of them will wonder, uncertainly, if their attempt succeeded or not.
 
-I feel like I should say that, for certain kinds of speakers who are maybe not the most fun to work with, their internal narrative will not be "Did my attempt to communicate succeed?" but rather, "Did the listener understand this completely clear point I just made, or are they stupid?"[fn:: If my game plan for working with stakeholders assumed they were all kind and pleasant, I would not have very much to offer you. Luckily, that's not the case.]
+I feel like I should say that, for certain kinds of, well, extra difficult stakeholders, they won't be thinking "Did my attempt to communicate succeed?" but rather, "Did the listener understand this completely clear point I just made, or are they stupid?" If my game plan for working with stakeholders assumed they were all kind and pleasant, I would not have very much to offer you. Luckily, that's not the case.
 
-Luckily, you address both of those the same way -- because they are driven by the same underlying uncertainty about being understood.
+You can address both "nice" and "not so nice" stakeholder the same way -- because they are driven by the same underlying uncertainty about being understood.
 
 # Humans rarely experience themselves as being fully understood.
 
-If you, as  that listener, take the time to summarize back your understanding, and get it even vaguely right, the speaker will feel a genuine sense of *relief*.
+If you, as  that listener, take the time to summarize back your understanding, and get it even vaguely right, the speaker will feel a sense of *relief*.
 
-If you pay careful attention, you may even see them visibly exhale.
+If you pay careful attention, you may even see them visibly exhale and relax.
 
 # It's like you've completed an open transaction that was otherwise hanging.
 
 Which is exactly the mode you want them to be in, if you're going to turn the corner and now ask them to engage in *your* concerns.
 
-You earn space to advocate, by demonstrating that you are willing to lead with empathy and understanding.
+You can earn space to advocate, by demonstrating that you are willing to lead with empathy and understanding.
 
-** Tactic 3: Posit a Spectrum to Draw People Out
+This is an incredibly valuable tactic, usable in an incredibly wide variety of situations. If you're only going to take one thing away from this chapter (or, frankly, this book), spend some time learning to effectively echo back and summarize.
+
+*** Exercises
+
+I'm going to take some time to talk about how to learn this one, because it's so foundationally valuable. I have coached dozens of people on this approach. Over and over, I've seen them initially struggle.
+
+Echoing back summaries just *feels* like such a strange way to talk to someone. When you're about to echo or repeat, your brain will tell you "Ugh, they just told you this, don't *bore* them."
+
+Once you've practiced this a few times, this feeling will fade away. You'll come to realize that people love to hear their own words and thoughts.
+
+Another problem is that using these tactics will turn up valuable context, aka things you didn't previously know. When that happens, your mind will suddenly make connections and see new opportunities.
+
+That will often feel *exciting*.
+
+In our scenario the Janine suddenly sees the connection between the large customers and the database performance challenges she's eager to discuss.
+
+When that kind of discovery happens, a spike of excitement hormones hits your bloodstream, and your brain immediately *urges* you to share this new awesome idea, right away.
+
+"Oh," your brain will say, "they're going to love this, go go go!"
+
+That's a trap -- you are *always* better served by first ensuring you fully understood and that the speaker feels fully heard.
+
+Also, the ideal way to play this game is to clarify the speaker's thoughts, as you echo them back. To make your summary *useful*. That also takes real practice.
+
+Because of these challenges, it's best to first practice this one when the stakes are low--aka, *not* in a negotiation with a key stakeholder.
+
+Here's the game plan:
+
+First, pick someone you trust -- it doesn't have to be a co-worker, I've seen people profitably practice with a friend, roommate, or spouse.
+
+Ask that person, "I'm working on some active listening skills. Would it be okay if I asked you some questions as part of that?"
+
+# This is for *you*, not for them -- to remove some of your fear of being annoying.
+
+As the conversation starts, tell yourself, "My job is to deliberately do use this tactic *too much* -- my goal is for the other person to say, afterwards, 'Eh, you could have echoed/repeated a bit less'".
+
+Then, *every single time* the other person says something, say "Let me say that back to you, see if I've got it right." Then say your understanding, then say "Is that about right?"
+
+It should feel weird as heck. After a few conversation rounds, pause, and ask the person "How did that feel?" Listen to them, and then repeat back what they tell you.
+
+If you'd like, dig for a bit more info, by asking if they ever felt at all irritated or annoyed, or if you missed anything important.
+
+Then, keep practicing.
+
+Once you've got some basic comfort with it, try it out with a "lower stakes" peer, then move on to stakeholders.
+
+A great topic to practice this with is Mapping Fears and Aspiration.
+
+** Tactic 3: Posit a Spectrum to Draw Someone Out
 The two tactics we've discussed so far are useful for keeping a conversation moving.
 
 But sometimes, it's hard to get a conversation going at all.
@@ -377,131 +446,86 @@ One tactic I've found useful is to:
 
  - Ask the stakeholder where they think things land on that spectrum
 
-For example, that could sound like:
-
-/"I've heard you say that the Enterprise customers are our next key target for conversion. I could imagine at least, like, two different reasons for that. On the one hand, I could imagine it's because they represent so much of our revenue -- so we need to make sure we're converting them, because we think getting them on 2.0 will make for happier customers. Or, on the other hand, I could imagine it's more that the Enterprise customers have the most complex use cases, so doing the conversion will force us to ensure that 2.0 fully meets all the use cases of 1.0 -- across all of our customers, not just the enterprise ones. Would you say it's more one of those than the other? Or more something else?"/
-
 Part of why this works so well is that you are, in essence, *offering the stakeholder an opportunity to tell you you're wrong*.
 
 But to do so in a way which allows you to fill in your picture, to answer the most important contextual questions.
 
 That is much "safer" and easier for a stakeholder to do than to come up with an initial answer themselves.
 
-In the above, they might say something like:
+Let's say that Janine finds herself in a conversation with the CEO, and takes the opportunity to try fill in her picture of overall company context[fn:: This is a super valuable habit to build, by the way.]
 
-/"It's mostly just that they're such a big chunk of our revenue. Well, that and also because they each have a hotline to someone on Customer Success, who will then come and derail our work if things don't seem right."/
+    JANINE: I'm pretty excited about how Cogs 2.0 is coming together, on the engineering side. Oh, that reminded me, I wanted to ask: when we finally *do* migrate all the stores, what's the win you're most excited to see, at that point?
 
-Or they might say the opposite:
+    CEO: [tilts his head] What do you mean?
 
-/"Oh, the immediate revenue is not important, you can not worry about that. It's really much more about ensuring that 2.0 has genuine feature parity with 1.0."/
+    JANINE: We've been working on it for so long, and I've heard lots of different things people are hoping for from it. I'm just curious: what's the thing you, specifically, are most excited about?
 
-Or they might say:
+    CEO: [laughs] Having the project be over? I mean, honestly, there's a lot, dunno if I can narrow it down. [shrugs]
 
-/Oh, it's really not either of those. The enterprise customers just have so many users, it's going to take a long time to do the change management. And our support team can't support both versions forever, so we need to start that clock./
+Now, Janine could certainly give up at this point. But she could also take a shot at  using the Offer a Spectrum tactic to get her CEO talking:
 
-Then, you've got them talking, and you can start to repeat trailing words and echo back summaries.
+    JANINE: I could almost imagine two different ends of a spectrum.
 
-** Tactic 4: Offer a Labeled Understanding of Feelings
-It seems like, maybe you could
-** Tactic 5: Play Low Status to Inject Concerns
-** Tactic 6: Make Your Stakeholder a Beleaguered Hero
-ad
-** Retrain Your Brain By Practicing With Friends
+    [Holds her left hand up to indicate one end]. On the one hand, I've heard that, once we've got all the stores on 2.0, it's going to simplify new store set up a *ton*.
 
-I have coached dozens of people on these tactics.
+    The Success team won't have to build an inventory plan from scratch every time, we can use templates, it'll be both faster and cheaper.
 
-Over and over, I have seen people significantly level up their ability to influence and persuade.
+    So that should save us a bunch of money, and maybe let us go after some smaller stores.
 
-However, also over and over, I've seen them initially struggle to apply these tactics.
+    But, [holds up her right hand, showing a space between it and her left] I've also heard a lot of excitement about, once 2.0 is out, being able to create new add-on features for high-volume stores.
 
-Repeating words and echoing back summaries can just *feel* like such a strange way to talk to someone.
+    Which will let us add a pro tier, charge more, increase revenue per store.
 
-There are, I think, two core drivers for this:
+    Is it more one of those than the other? Or some mix of the two? Or something else?
 
-First, when you're about to echo or repeat, your brain will tell you "Ugh, they just told you this, don't *bore* them."
+The CEO is going to hear this, and it's going to be hard for them to not jump in and respond. They might pick one end, they might pick a mix, or they might reject the spectrum altogether. *All of those are valuable to Janine*.
 
-Once you've practiced this a few times, this feeling disappears -- because you can see  how much people love to hear their own words and thoughts.
+Let's see how that could look:
 
-The second problem is that using these tactics will turn up valuable context, aka things you didn't previously know.
+*** One End Is Right
 
-When that happens, your mind will suddenly make connections and see new opportunities.
+/"Oh, don't worry about the Success team. They like to complain about store set up, but, frankly, it's fine. But we *need* to start adding pro features, our whole growth plan depends on that."/
 
-That will often feel *exciting*.
+Great! Janine can now not worry so much about the complaints from the Success team.
 
-In our scenario the Janine might suddenly see the connection between the large customers and the capacity challenges she was eager to discuss.
+*** It's a Mix
 
-When that kind of discovery happens, a spike of excitement hormones hits your bloodstream, and your brain immediately *urges* you to share this new awesome idea, right away.
+/"Those *are* the key things -- but those are both part of improving profitability as we grow. I think we'll be doing a mix of both, neither one will likely be enough on their own./
 
-"Oh," your brain will say, "they're going to love this, go go go!"
+Ah hah! Janine has learned that the CEO is thinking a lot about profitability. Super useful.
 
-That's a trap -- you are *always* better served by first ensuring you fully understood and ensuring the speaker feels fully heard.
+*** Something Else Altogether
 
-It takes conscious practice to retrain your brain.
+/"I mean, it's not really either of those. We've got a whole high end sales pipeline that is stalled, beacause of the crappy ways that PoS integrations works in Cogs 1.0. Once Cogs 2.0 gets out there, with better integrations, we can move upmarket./
 
-Furthermore, it's best to do that practice when the stakes are low--aka, *not* in a negotiation with a key stakeholder.
+Fascinating -- hopefully she already knew about PoS integration pains. It'd be great to find out more about moving upmarket, and why the CEO thinks that's so important.
 
-Here's the game plan:
+And of course, ocne she's got the CEO talking, Janine can start to repeat trailing words and echo back summaries and draw out more information.[fn:: *hopefully* Janine hasn't spent a year building something without being clear on the ultimate strategic value that the CEO is hoping for. Sigh.]
 
-First, pick one of the two tactics -- either repeating trailing words, or echoing back summaries.
+*** Exercises
 
-Then, pick someone you trust -- it doesn't have to be a co-worker, I've seen people profitably practice with a friend, roommate, or spouse.
+This one rewards some slowing down and practicing ahead of time, because it requires a skill of "imagining two plausible answers".
 
-If you're feeling nervous, you can explicitly ask that person, "Is it okay if I practice some active listening skills that I'm working on for my job?"
+Thus, I'd recommend:
 
-# This is for *you*, not for them -- to remove some of your fear of being annoying.
+ - Make a list of 3-5 interesting questions in your part of the business
 
-As the conversation starts, tell yourself, "My job is to deliberately do use this tactic *too much* -- my goal is for the other person to say, afterwards, 'Eh, you could have echoed/repeated a bit less'".
+   E.g. this could include engineering-centric things like "What is the immediate win from building product <X>?", but also further afield things like "What part of the sales demo do prospects find most exciting?"
 
-Then, every single time the other person says something, employ the tactic.
+ - Pour yourself some coffee, and for each, brainstorm a bunch of answers, and then narrow it down to two.
 
-It should feel weird as heck.
+ - Take those into conversations with people use the tactic and see what you find
 
-After a few conversation rounds, pause, and ask the person "How did that feel?"
+#  Putting It Altogether
 
-Listen to them, and repeat back what they tell you.
-
-Some possible follow ups include:
-
- - "Did I miss anything important?"
-
- - "Was any part of it annoying?"
-
- - "Was there any part where I didn't sound sincerely interested"
-
-Then, keep practicing.
-
-** Wrapping It All Up
-
-Continuing our scenario, having gained all this information, the engineering leader is ready to lay out a really effective case for technical investment.
-
-They could take some time to review their notes, maybe talk to an engineer to flush out a bit more detail and then say[fn:: Or write down in a memo -- I find writing both forces a useful clarity of thinking and can also provide a nice opportunity for sharing your thinking with engineers who are growing towards leadership] something like the following:
-
-/Okay, it sounds like our key goal for *this* month is to ensure we're ready to transition Enterprise customers to Forms 2.0, *next* month./
-
-/We really want those first ENT customers who come over to have a *great* experience of Forms 2.0, because the ENT segment represents almost half our revenue, so we can't win without them. And they have a lot of clout through their dedicated Success team partners, so if any one of them has a bad experience, it could blow up our ability to keep moving forward./
-
-/The engineers have identified a risk -- all our early adopters of Forms 2.0 come from our SMB segment. Those customers all have relatively small data sets. But the Enterprise customers who use the old, legacy Forms 1.0 product, all have *much* bigger data sets than we've seen for the new Form 2.0 in production so far./
-
-/As we've sprinted to build Forms 2.0, we've asked the team to get things out in the simplest form as quickly as possible. Which we're really glad about. But we think there's a very real chance that, if an ENT customer were to start using Forms 2.0 today, with their large data sets, they would experience painfully long load times for almost all the key new pages. In fact, worst case, many of those pages could potentially seem broken./
-
-/We really don't want that to happen./
-
-/Fortunately, we think we have a couple of good options for speeding things up -- once we find any bottlenecks./
-
-/Unfortunately, we don't have great *visibility* into how those pages are performing, or where bottlenecks are./
-
-/Therefore, we'd like to propose that we commit time to building a clearer picture of our capacity limits, and, once we've done that, ensuring that we have sufficient capacity to guarantee an excellent experience for the first Enterprise customers who commit to Forms 2.0./
-
-This is a far more persuasive pitch then where things started -- it's laid out in the context of the stakeholder's immediate goals, it makes clear that the lack of visibility is in and of itself a key problem, it even subtly evokes some specific and vivid fears ("many pages could potentially seem broken.")
-
-In fact, the product leader is so convinced, they say:
-
-/"That sounds like a great idea, thank you raising this concern. Just one question, and then I'd be ready to commit time on the roadmap: how long will this project take? How long will it take to ensure good performance for enterprise users?"/
-
-How to answer that question is the subject of our next chapter.
-
+# XXX E.g. say that Eduardo and Janine are now talking to the head of Customer Success, who has been raising the potential blockers for moving the high-end urban stores over. Eduardo asks "What's the exact problem if one of them experiences sluggish site performance?" But gets nothing back. Janine then steps in and guesses.
 
 ** Cultivate Curiosity & Sincerity
+
+After Janine carefully listened to Eduardo and summarized what she'd heard, he was ready to listen to her in turn. She shared the team's fears about database performance, and, in particular, the risks for the high-volume stores they were going to be migrating soon. He was glad to hear that she had planned a timeboxed first step (implementing SLI's), and, given that they'd already seen some small-scale brownouts with early adopters, he committed to doing it this month.
+
+With a sigh, he said he was going to go tell the head of Customer success that they weren't going to have the new Snack Aisle features.
+
 A final point.
 
 As you work to learn these tactics, you'll be very well-served by living in a place of *curiosity*.
@@ -513,6 +537,27 @@ Allow yourself to be curious about your business, allow yourself to be curious a
 It can sometimes be useful to try to unhook the part of your brain worries about whether or not you'll be percieved as intelligent or experienced (which is a totally natural thing to be worried about!)
 
 You *will* be able to demonstrate intelligence and experience -- by asking great questions, and by giving concise and clear summaries.[fn:: Of course, I must acknowledge that I'm saying this as a tall white man with a deep voice... so people are far too ready to ascribe intelligence and experience to me. But I have seen the tactic of "moving the conversation forward by being the listener and summarizer and clarifier" be a form of leadership for folks from less privileged groups]
+
+* For an Appendix
+** Tactic 4: Offer a Labeled Understanding of Feelings
+It seems like, maybe you could
+** Tactic 5: Play Low Status to Inject Concerns
+** Tactic 6: Make Your Stakeholder a Beleaguered Hero
+ad
+
+** Parts Work
+<touchy feely emotional stuff>
+
+If you find one of these, or something similar, I will offer the approach I have found most useful for myself. At the recommendation of some excellent therapists I've worked with (and also of the movie Inside Out), I visualize a part of myself, who is responsible for that emotion, as a specific imagined person. I take time to *appreciate* that that person, that part of me, as important. I work to recognize that they are doing their very best to *protect* me. I then *thank* them, and tell them that I've got it for now, and it's okay for them to stand down for a bit.
+
+For me, probably my biggest trigger is feeling like there's a looming disaster which I am going to be blamed for--but where both my concerns and my proposed plans are being patronizingly dismissed. Being talked down to when I'm trying to bring attention to a real problem just makes me kind of lose my mind. And not in a useful way.
+
+In trying to gain some understanding and control over myself, I spent some time developing a picture of a part of me I named "The Panic Captain". He sits in a small office, tensely scanning screens full of information. If it looks like I'm going to get blamed for a failure, he reaches over and presses a giant red button. An alarm sounds, lights would flash, and my veins flood with cortisol and adrenaline. He had helped me many times through the years, by quickly putting me on high alert when I need to react quickly -- but he also sometimes grows tired, and haggard, and starts reaching for the big red button all the time. And so, when I feel a surge of panic rising, I sometimes take a deep breath, visualize him at this desk, and genuinely thank him. I say to him "It's okay, I've got this. If I need you, you'll be there."
+
+This kind of, well, empathy with yourself can be a key to making these kinds of changes.
+
+</touchy feely emotional stuff>
+
 
 * [OLD] Practice Tactical Empathy
 ** Putting Ourselves In a Stakeholder's Shoes
