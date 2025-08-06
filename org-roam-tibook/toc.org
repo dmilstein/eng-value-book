@@ -2,16 +2,47 @@
 :ID:       B4926308-39DD-471B-8E71-5FFF7546D6E3
 :END:
 #+title: ToC
-* Table of Contents
-** [[id:454225CA-DD66-4ACA-B8B3-429F6551DBDC][New Intro]]
+* Stakeholder ToC
+** [[id:A99B72A8-3582-4BEA-8FA8-40CA8EDD306D][Intro]]: The Pains of Working With Humans
+** Part I - A Game Plan For Improvement
+*** [[id:0B7B14D2-FAC9-4A85-A618-873B720D1E9A][The Overall Game Plan]]
+Jacob's story at Medium, lightly fictionalized? Or the Story of Sprint shift? Or the "get the CEO to stop coming to stand up" thing I have mostly written already.
+
+*** [[id:4FEA3BD5-8E85-4BB6-8F59-15FDE4F38572][Practice Tactical Empathy]]
+Sketch it in, show Repeat Trailing Words
+
+*** [[id:7976BDAE-B87A-4418-A78E-856A18D3C44D][Envision a Better Way To Work]]
+*** [[id:A1EF14A2-5F19-488D-926C-A8208142E794][Identify a Strategic Intent]]
+*** [[id:E0C4E0B7-C73B-4681-A008-3BC75F146176][Map Fears & Aspirations]]
+More tac empathy here? Bring to life w/ stories and examples.
+*** [[id:36B484FC-E7B1-4BC9-B8A1-4CE43DED66C8][Design an Increment of Change]]
+*** [[id:BC355160-42E0-4EA9-8256-4D9F81C16DFE][Craft a Compelling Pitch]]
+ - Draw in organizational authority/allies
+ - Creating pain / making pain visual
+*** Earn & Celebrate a Win
+** Part II - Case Studies
+*** Story of Sprint @ Wingu
+*** Eng Listens to Product @ Kyruus
+*** Problems, Not Solutions @ Medium (Jacob)
+*** Maintenance Triage @ Ellevation
+*** Embracing Experiments & Failure @ BookBub (Lisa)
+*** Product Owns The Details @ BookBub (Ryan)
+*** Product Dev Pipeline @ Ellevation
+*** Heartbeats @ Ellevation
+*** Something w/ getting N to step back @ Ellevation
+*** Failure: getting Jordan to stop meeting w/ math team @ Ellevation (eventually threatened to quit)
+*** Engineers Do QA @ Wayfair (convo w/ Jen Straub)
+*** Build & Learn via Returns Team @ Wayfair
+(pushing to hypothesis, got in their face, profound learning)
+
+
+* Art of Biz Problems ToC
 ** Overview
-*** [[id:25B84349-E03D-4C1D-AA91-6F2C1E050E6E][The Struggle to Create Value]]
 *** Build Increments Around Decisions (Analytics 2.0)
 *** Turn Interruptions Into Cadenced Decision-Making
 *** Mine For Context Using Empathy
 *** Take the Lead on Technical Investments
-
-* Stashed for later
+** [[id:25B84349-E03D-4C1D-AA91-6F2C1E050E6E][The Struggle to Create Value]]
 ** Part II: Creating Value in the Presence of Uncertainty: Build Increments Around Key Decisions
 *** [[id:D3158CC2-8A69-4097-B9ED-ED6BD855A7AD][Understand Value In Depth]]
 *** Map the Landscape of Uncertainty
@@ -45,7 +76,7 @@ Make Your Stakeholder Into A Bealeaugered H
 *** [[id:22032FA8-F94E-492F-8138-7E1859B3F0CA][Assign Ownership to Align Costs With Benefits]]
 *** [[id:722C702D-A6C2-4A51-AB62-515CE8144AA2][Climb the Ladder of Commitment]]
 
-* Old Table of Contents
+* Tech Investments ToC
 ** [[id:47FF75F6-17DB-4E36-950D-F7CFAFA950EA][Introduction]]
 ** Part I: Identify Valuable Investments
 *** [[id:71B164B6-0AB2-4FDE-B51E-71870F553C67][The Tech Investment Cycle]]

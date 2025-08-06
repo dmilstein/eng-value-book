@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       454225CA-DD66-4ACA-B8B3-429F6551DBDC
 :END:
-#+title: New Intro
+#+title: Art of Solving Biz Problems Intro
 #+filetags: :Chapter:
 
 Part of [[id:42FF29AB-A3A1-4307-85E5-69C08C7D4DB4][Reframe/Restructure]], integrating the core value prop from [[id:412A3285-6344-4D0E-9641-692417B5A540][New Structure]]

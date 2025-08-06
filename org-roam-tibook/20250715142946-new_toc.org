@@ -4,43 +4,6 @@
 #+title: New ToC
 A part of [[id:42FF29AB-A3A1-4307-85E5-69C08C7D4DB4][Reframe/Restructure]]
 * Fixing The Engineering/Stakeholder Interface ToC
-** Intro/The Problem - Engineering Would Be Easy, If It Weren't For These Pesky Humans
-*** Bring Problem to Life (maybe start w/ my own story of biz problems?)
-*** State My History
-*** Define Stakeholders
-*** Define Who the Book Is For
-*** Overview of Remainder of Book
-** A Game Plan for Change (as a story)
-Jacob's story at Medium, lightly fictionalized? Or the Story of Sprint shift?
-
-** Part I - The Game Plan
-*** Practice Tactical Empathy
-*** Align With a Strategic Intent
-Some tactical empathy here?
-*** Map Fears & Aspirations
-More tac empathy here? Bring to life w/ stories and examples.
-*** Design an Increment of Change
-*** Craft a Pitch That Creates Urgency
- - Draw in organizational authority/allies
- - Creating pain / making pain visual
-*** Clear the Decks & Stack the Deck
-*** Celebrate Wins With Storytelling
-** Part II - Case Studies
-*** Story of Sprint @ Wingu
-*** Eng Listens to Product @ Kyruus
-*** Problems, Not Solutions @ Medium (Jacob)
-*** Maintenance Triage @ Ellevation
-*** Embracing Experiments & Failure @ BookBub (Lisa)
-*** Product Owns The Details @ BookBub (Ryan)
-*** Product Dev Pipeline @ Ellevation
-*** Heartbeats @ Ellevation
-*** Something w/ getting N to step back @ Ellevation
-*** Failure: getting Jordan to stop meeting w/ math team @ Ellevation (eventually threatened to quit)
-*** Engineers Do QA @ Wayfair (convo w/ Jen Straub)
-*** Build & Learn via Returns Team @ Wayfair
-(pushing to hypothesis, got in their face, profound learning)
-
-
 
 * All Three In One Table of Contents
 ** Overview
