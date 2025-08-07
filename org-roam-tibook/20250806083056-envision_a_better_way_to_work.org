@@ -4,12 +4,117 @@
 #+title: Envision a Better Way To Work
 #+filetags: :Chapter:
 * Envision a Better Way To Work
-* Problems
+
+So, there you are, enmeshed in your day-to-day work. A bunch of things are going well... but there's that central frustration, which is worrying you more and more.
+
+Of course, making a change will require convincing your stakeholder to *listen* to you, which is its own significant challenge. That may feel impossible at this moment. We're going to spend real time, later, mapping out a plan to gradually draw your stakeholder into a positive, collaborative relationship that they will love. And which will make them willing to try out changes in the way you work together that right now seem impossible to even imagine proposing.
+
+However, before we do that, you need to decide how you *want* to work with them.
+
+In some cases, this may be obvious, e.g. let's actually run our two week sprints in a sane fashion. In which case, feel very much free to skip ahead to the next chapter, which focuses on building the skill of empathetic listening, so you can draw out of your stakeholder all the key information you're going to need.
+
+# XXX which focuses on understanding where your business is headed, overall, to prepare you to make the most effective case possible
+
+# e.g. maybe you've been on a few well-run agile teams, and you know a good cadence of plan, execute, retro. If your main problem is that a key stakeholder is constantly trying to wedge extra work in, then
+
+However, there are lots of cases where it's clear the current way of working together has some really profound problems.. but it's in not obvious what to do *instead*.
+
+Mini Sidebar: this is not because everyone in software are idiots, and if only we followed the prescriptive dictates of Insert Named Processs Here, all those challenges would go away. Groups of humans working together to solve business problems by developing and operating software is a deeply complex endeavor that brings with it some fascinatingly specific challenges.
+
+I have found that there are useful patterns, and some incredibly powerful underlying *principles* (fwiw, Don Reinertsen is basically right about everything). But I have not found that there is One True Process, that can be applied, regardless of company size, business type, customer relationship, etc.
+
+Personally, I find this *exciting*. If you're an engineer, and you love solving problems and searching for underlying patterns inside complex systems, well, figuring out how to usefully apply the underlying principles in lots of different contexts can be a lifelong joy.
+
+But it also means: don't trust anyone who comes along with a cut and dried process, and promises to solve all your problems if you just stop thinking and do what it says.
+
+Below, I'm going to talk about a series of problematic ways of working, and, for each, share some ideas for better ways to work together.
+
+Most of these could be the topic of a book on their own. In fact, many of them *are* the topics of books on their own -- often, quite good books. In those cases, I will point you in the directions of those books, many of which I've found extraordinarily useful.
+
+However, just about none of those books help with what I've experienced as a core challenge -- which is to persuade the humans you work with to try one of these ways out, and *with* you, adapt them to fit your specific situation.
+
+That's what the rest of this book is going to dig into.
+
 ** The Feature Factory
-Read Escaping the Build Trap, by Melissa Perri.
+
+If there's one thing that we've learned as an industry, it is:
+
+    Engineering and Product teams create much more value, much more quickly, if they are given *customer problems to try to solve*, rather than *specific features to build*.
+
+But, now that I say that, maybe we've also learned /something else/ as an industry, which is:
+
+    Most stakeholders super duper want to give teams specific features to build
+
+If your team is just churning out features, without much understanding of the business problems those features are supposed to solve, and without being able to come up with creative solutions and/or adapt to what is learned as they go...
+
+... well, you might even be in the median of most software companies, sadly?
+
+The Good News here, is there are much better ways to work, and those better ways to work are quite well described in a some very good books.
+
+If I had to pick one, I'd recommend Escaping the Build Trap, by Melissa Perri.
+
+It's a concise, truly excellent guide to the practices of product management, and is, in particular, *very* strong on what it means to guide teams by way of business problems to solve, instead of features to build.
+
+Honestly, one of the only weak things about Escaping the Build Trap is that the imagined stakeholder in the story she tells is waaaay more rational than just about any stakeholder I've ever worked with. He basically says "Okay, sure", any time the authorial stand-in tells him to change his behavior.
+
+That has, um, not been my experience?
+
+In the Case Studies later in this book, I'll walk through some examples of working with stakeholders to move towards setting problems to solve -- both in their day-to-day interactions with a product/engineering team, and also in their overall goal setting.
+
+Other strong books:
+
+ - User Stories Applied
+
+ - Build, by Tony Fadell
+
 
 ** Interruptions & Distractions
-Put in place collaborative triage processes, explicit decision making.
+
+Wouldn't it be great if your engineers had time to, say, *do software engineering*?
+
+But instead, every day they face what feels like some kind of coordinated assult on their focused work time, thanks to:
+
+ - A stream of bugs from customers
+
+   Somehow every one of them at the HIGHEST PRIORITY
+
+ - Constant feature requests from sales/success/support
+
+   Each incredibly important for SOME SPECIFIC CUSTOMER
+
+ - Weird bits of operational work only engineering can do
+
+   That manual account set-up step for some Important New Customer, or a data pull that BI needs by end of day, to prep for presenting to Senior Leadership *tomorrow*
+
+Plus, these interruptive requests tend to fall most heavily on your strongest, most valuable engineers. And that's especially true if those engineers suffer from the  misfortune of being nice.
+
+I have vivid memories of standing by Tom Hare's desk at Wayfair, watching just a parade of people from the operations teams "wander by", each asking for Tom's to help fix some weird edge case. Tom was such a good engineer! And so nice!
+
+In some theories of software that I've seen, all of this work should just be routed through the normal prioritization and planning processes.
+
+Personally, I haven't seen that go great -- it tends to load the PM down with a giant set of tiny decisions, each sort of exhausting to make, each pretty low value by themselves. "Should we fix the account profile bug this week, or not?" "Should we make it possible to put spaces in the campaign names?" "Should Miranda spend three days pulling activity data?"
+
+Because there are often 10's to 100's of such requests per week coming in, the pattern I've seen the most is that the PM ends up drifting away from this, and then, through the guise of a "bug queue" and/or personal connections, people across the company just shove all kinds of requests at the engineers, and reach out directly to advocate and/or ask for status.
+
+Instead of putting this through normal sprint planning, I recommend trying something like the following (which I'll explore in detail in one of the case studies, hat tip to Andy Rosequist, who first turned me onto this pattern):
+
+ - Set up a weekly or biweekly "Maintenance Triage" meeting
+
+ - Set aside a fixed budget of engineering time for dealing with "Maintenance" issues
+
+ - Designate a *single* person on the "customer" side as the lead for that meeting (e.g. the head of the help desk, or a senior support person).
+
+ - Designate a single person on the engineering side as point for the meeting -- this must be someone who knows the systems well enough to give meaningful estimates of effort
+
+ - Each week, the Customer Lead brings in a lightly prioritized list of potential issues from across the company, the Eng Lead gives rough estimates of effort for the top ones
+
+ - Then the *Customer Lead* picks a set of to work on, that fit within the budget.
+
+This dramatically reduces the cost of making all these decisions, and forces the folks on the customer side to talk to each other.
+
+Over time, the Customer Lead learns some basic product management skills.
+
+It also creates visibility -- that group can start to see patterns, and that can help create investment cases (e.g. to build a data extraction tool).
 
 ** Constantly Changing Priorities
 Again, Perri or any coherent definition of agile -- define a strategic goal, and then have an explicit cadence.
@@ -22,10 +127,10 @@ Either step up and do the product function because you want to (again, read Buil
 
 Have known many, many Engineers who could lean over and do the product job for a bit, but a) there's some skills it takes to learn to do it well, and b) it takes a metric ton of time.
 
-** Product Team "Separate" From Engineering
+** Product Team Disengaged From Engineering
 Throwing things over the wall. Joined at the hip, etc.
 
-** Leaders Who Won't Trust The Team
+** Leaders Don't Trust The Team
 
 ** Multiple Stakeholders in Conflict
 Team topologies?
@@ -33,8 +138,7 @@ Team topologies?
 ** Slow, Heavyweight Goal Setting
 Art of Action, Good Strategy/Bad Strategy.
 
-** No Willingness To Experiment
-?
+** Chasing New Products But Avoiding Failures
 
 * Scraps
 # This is where I can talk about how to organize teams, etc.
