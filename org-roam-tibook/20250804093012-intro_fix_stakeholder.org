@@ -9,6 +9,60 @@
 # The Problem - Engineering Would Be Easy, If It Weren't For These Pesky Humans
 # The Pains of Being Stuck in a Broken Interaction Pattern
 *** Bring Problem to Life (maybe start w/ my own story of biz problems?)
+There's *something* about the way you're working every day which feels, well, less than awesome.
+
+It's not (usually) a full-on disaster (though if it is, man, this book is for you), but you can feel that you're wasting time, or working at cross-purposes. Sure, you're super busy every day... but are you making a big impact? Are you solving real problems for the business?
+
+Or is your work going to be thrown away, or land to late too help?
+
+Good News: this book has a lot to offer you, in steadily improving the way that you work, so that you solve more business problems, create more value, and feel a greater sense of agency and control.
+
+Bad News: this is a non-trivial problem to solve. Every single time I've talked to someone about their company, or I've started working with a new company, I've quickly found that there are some sort of "know problems" that, well, everyone is frustrated by, but no one seems to feel like they can address.
+
+At heart, I believe these problems are hard to solve for two joined reasons, which reinforce each other:
+
+**** Designing a way for a group of humans to work together to successfully build and selling software is an inherently complex challenge
+
+There is some *inherent* trickiness in it, with tendrils that extend into how large your company is, how close or far you are from product/market fit, the complexity of the software you're trying to write, your customer behavior, etc.
+
+As a result, there isn't One True Process, that, if everyone just did it, you'd all smoothly work together to solve business problems, build valuable software and sell it.
+
+So you have to figure out how to work together, given the exact circumstances you find yourself in. And then you have to adapt that, over time.
+
+I don't mean some super theoretical organizational structuring (though you can get a lot of leverage from that, we'll talk about that in a Case Study on Domain-Aligned Teams), but often just the day-to-day relationships all around you.
+
+And it's not always obvious *how* exactly you should work together.
+
+Does your company urgently need to discover a new product to unlock growth? How should you be working together to do that?
+
+Does your team need to land a major restructuring of your core platform, to allow you to meet security demands from your enterprise customers? How should you be working together to do that?
+
+Are you trying to balance maintenance of an existing product with develoment of something new, and finding them team thrashing?
+
+Do you have multiple teams who need to work together?
+
+Is your company trying to balance competing priorities?
+
+Are you trying to figure out how to balance engineering-driven investments to improve speed of delivery against near-term feature requests?
+
+The only people who will tell you these are simple problems to solve are consultants trying to sell you something.
+
+**** It's not easy to persuade humans to change their behavior... especially humans who think they get to tell you what to do
+
+You *can* find some quite good ideas for how to organize your work and your collaborations to face the problems above.
+
+But, most of the books and writing on those topics tends to leave the question of "How do you persuade your stakeholders to change their behavior" as, like, an Exercise for the Reader.
+
+# This second thing is very hard
+
+# You need to solve them *together*. Incrementally make things a little better, adapt.
+
+# This is fun!
+
+# Then, tell it as a story, calling out some of the details.
+
+
+
 *** State My History
 *** Define Stakeholders
 *** Define Who the Book Is For
