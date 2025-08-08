@@ -11,7 +11,7 @@ Of course, making a change will require convincing your stakeholder to *listen* 
 
 However, before we do that, you need to decide how you *want* to work with them.
 
-In some cases, this may be obvious, e.g. let's actually run our two week sprints in a sane fashion. In which case, feel very much free to skip ahead to the next chapter, which focuses on building the skill of empathetic listening, so you can draw out of your stakeholder all the key information you're going to need.
+In some cases, this may be obvious, e.g. you need to your stakeholder to play their role in your two week sprint process, instead of trying to route around the planning processs. In that case, feel very much free to skip ahead to the next chapter, which focuses on building the skill of empathetic listening, so you can draw out of your stakeholder all the key information you're going to need.
 
 # XXX which focuses on understanding where your business is headed, overall, to prepare you to make the most effective case possible
 
@@ -19,7 +19,7 @@ In some cases, this may be obvious, e.g. let's actually run our two week sprints
 
 However, there are lots of cases where it's clear the current way of working together has some really profound problems.. but it's in not obvious what to do *instead*.
 
-Mini Sidebar: this is not because everyone in software are idiots, and if only we followed the prescriptive dictates of Insert Named Processs Here, all those challenges would go away. Groups of humans working together to solve business problems by developing and operating software is a deeply complex endeavor that brings with it some fascinatingly specific challenges.
+Mini Sidebar: this is not because everyone in software is an idiot, and if only we followed the prescriptive dictates of Insert Named Processs Here, all those challenges would go away. Groups of humans working together to solve business problems by developing and operating software is a deeply complex endeavor that brings with it some fascinatingly specific challenges.
 
 I have found that there are useful patterns, and some incredibly powerful underlying *principles* (fwiw, Don Reinertsen is basically right about everything). But I have not found that there is One True Process, that can be applied, regardless of company size, business type, customer relationship, etc.
 
@@ -27,7 +27,7 @@ Personally, I find this *exciting*. If you're an engineer, and you love solving 
 
 But it also means: don't trust anyone who comes along with a cut and dried process, and promises to solve all your problems if you just stop thinking and do what it says.
 
-Below, I'm going to talk about a series of problematic ways of working, and, for each, share some ideas for better ways to work together.
+Below, I'm going to talk about a series of problematic ways of working, and, for each, share some ideas for what better might look like.
 
 Most of these could be the topic of a book on their own. In fact, many of them *are* the topics of books on their own -- often, quite good books. In those cases, I will point you in the directions of those books, many of which I've found extraordinarily useful.
 
@@ -55,7 +55,7 @@ If I had to pick one, I'd recommend Escaping the Build Trap, by Melissa Perri.
 
 It's a concise, truly excellent guide to the practices of product management, and is, in particular, *very* strong on what it means to guide teams by way of business problems to solve, instead of features to build.
 
-Honestly, one of the only weak things about Escaping the Build Trap is that the imagined stakeholder in the story she tells is waaaay more rational than just about any stakeholder I've ever worked with. He basically says "Okay, sure", any time the authorial stand-in tells him to change his behavior.
+Honestly, one of the only weak things about Escaping the Build Trap is that the imagined stakeholder in the story she tells is waaaay more rational than just about any stakeholder I've ever worked with. He cheerfully shrugs his shoulders and says "Okay, sure", any time the authorial stand-in tells him to change his behavior.
 
 That has, um, not been my experience?
 
@@ -67,18 +67,20 @@ Other strong books:
 
  - Build, by Tony Fadell
 
+ - Marty Cagan's series
+
 
 ** Interruptions & Distractions
 
 Wouldn't it be great if your engineers had time to, say, *do software engineering*?
 
-But instead, every day they face what feels like some kind of coordinated assult on their focused work time, thanks to:
+But instead, every day they face what feels like some kind of coordinated assault on their focused work time, thanks to:
 
  - A stream of bugs from customers
 
    Somehow every one of them at the HIGHEST PRIORITY
 
- - Constant feature requests from sales/success/support
+ - Relentless feature requests from sales/success/support
 
    Each incredibly important for SOME SPECIFIC CUSTOMER
 
@@ -94,27 +96,37 @@ In some theories of software that I've seen, all of this work should just be rou
 
 Personally, I haven't seen that go great -- it tends to load the PM down with a giant set of tiny decisions, each sort of exhausting to make, each pretty low value by themselves. "Should we fix the account profile bug this week, or not?" "Should we make it possible to put spaces in the campaign names?" "Should Miranda spend three days pulling activity data?"
 
-Because there are often 10's to 100's of such requests per week coming in, the pattern I've seen the most is that the PM ends up drifting away from this, and then, through the guise of a "bug queue" and/or personal connections, people across the company just shove all kinds of requests at the engineers, and reach out directly to advocate and/or ask for status.
+Because there are often 10's to 100's of such requests per week coming in, in my experience, the PM often drifts away from these decisions, and then, through the guise of a "bug queue" and/or personal connections, people across the company just shove all kinds of requests at the engineers, and reach out directly to advocate and/or ask for status.
 
-Instead of putting this through normal sprint planning, I recommend trying something like the following (which I'll explore in detail in one of the case studies, hat tip to Andy Rosequist, who first turned me onto this pattern):
+Unfortunately, it's not usually good for the business to simply ignore all of these.
 
- - Set up a weekly or biweekly "Maintenance Triage" meeting
+Instead of putting these "uncorrelated requests" through normal sprint planning, I've had really good luck putting in place a weekly or bi-weekly meeting where *all* such "non-sprint" requests for the engineers are gathered and reviewed.
 
- - Set aside a fixed budget of engineering time for dealing with "Maintenance" issues
+The key that really unlocked this for me, which was an idea I learned from Andy Rosequist, was to set aside a fixed budget of engineering time for such issues (e.g. 10%) and then empower a single person *on the customer side* to be the one to decide how to spend that budget each week. Aka, how to prioritize among all the requests.
 
- - Designate a *single* person on the "customer" side as the lead for that meeting (e.g. the head of the help desk, or a senior support person).
+I'm going to walk through that in real detail in one of the Case Studies -- it proved an extremely powerful approach.
 
- - Designate a single person on the engineering side as point for the meeting -- this must be someone who knows the systems well enough to give meaningful estimates of effort
+# into a single weekly or bi-weekly "triage" meeting. This is quite different in nature from normal sprint planning.
 
- - Each week, the Customer Lead brings in a lightly prioritized list of potential issues from across the company, the Eng Lead gives rough estimates of effort for the top ones
+# Instead of putting this through normal sprint planning, I recommend trying something like the following (which I'll explore in detail in one of the case studies, hat tip to Andy Rosequist, who first turned me onto this pattern):
 
- - Then the *Customer Lead* picks a set of to work on, that fit within the budget.
+#  - Set up a weekly or biweekly "Maintenance Triage" meeting
 
-This dramatically reduces the cost of making all these decisions, and forces the folks on the customer side to talk to each other.
+#  - Set aside a fixed budget of engineering time for dealing with "Maintenance" issues
 
-Over time, the Customer Lead learns some basic product management skills.
+#  - Designate a *single* person on the "customer" side as the lead for that meeting (e.g. the head of the help desk, or a senior support person).
 
-It also creates visibility -- that group can start to see patterns, and that can help create investment cases (e.g. to build a data extraction tool).
+#  - Designate a single person on the engineering side as point for the meeting -- this must be someone who knows the systems well enough to give meaningful estimates of effort
+
+#  - Each week, the Customer Lead brings in a lightly prioritized list of potential issues from across the company, the Eng Lead gives rough estimates of effort for the top ones
+
+#  - Then the *Customer Lead* picks a set of to work on, that fit within the budget.
+
+# This dramatically reduces the cost of making all these decisions, and forces the folks on the customer side to talk to each other.
+
+# Over time, the Customer Lead learns some basic product management skills.
+
+# It also creates visibility -- that group can start to see patterns, and that can help create investment cases (e.g. to build a data extraction tool).
 
 ** Constantly Changing Priorities
 Again, Perri or any coherent definition of agile -- define a strategic goal, and then have an explicit cadence.
