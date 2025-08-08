@@ -1,18 +1,45 @@
 Project/todo list for the Book In Question
 
 * Book Inbox                                      :inbox:
+** TODO Add something on value stream-aligned teams/team topologies?
+As a form of change to want to unlock?
+** TODO Down this road, spend more time in intro on "learn better patterns"
+So it's making clear, early on that you don't need to know a better way.
 ** TODO Create a book landing page
 For "I want to find out when you publish this" but I don't want your substack
+** TODO Find a Two Ends of Spectrum thing w/ Eduardo?
+E.g. what happens if the stores have sluggish perf?
+** TODO Do I use three part teens/terrorists negotiation thing?
+** TODO Is this "process"? Yes but also no.
+As in, it subsumes process, but also is about the human relationships beneath the process
+** TODO Point at stakeholder toc
+** TODO For envision a better way to work, make list of problems
+E.g.
+** TODO Save the full game plan? Get into useful things faster?
+Or, tell it as a lighter story, and then unpack it.
+
+Or, don't worry yet.
+** TODO Consider an intro that says "you need both"
+Both better ways to work together and a way to gradually build trust.
+
+Unstuck
+
+Getting Unstuck
+How Engineers Can Build Trust and Change the Way They Work With Stakeholders
 * [[id:454225CA-DD66-4ACA-B8B3-429F6551DBDC][New Intro]]                                       :gtasks:
+** DONE Spike: two interwoven problems            :pom:
+CLOSED: [2025-08-08 Fri 08:27]
 ** TODO Tell people they can read the case studies first
 ** TODO Copy from substack + 2 existing intros
 ** TODO Experiment: tell story before game plan?
 ** TODO Write Jacob's Medium story, check length
 ** TODO Write New Intro
 :LOGBOOK:
+CLOCK: [2025-08-08 Fri 07:55]--[2025-08-08 Fri 08:27] =>  0:32
+CLOCK: [2025-08-07 Thu 07:48]--[2025-08-07 Thu 08:58] =>  1:10
+CLOCK: [2025-08-06 Wed 16:33]--[2025-08-06 Wed 17:09] =>  0:36
 CLOCK: [2025-08-06 Wed 07:33]--[2025-08-06 Wed 08:36] =>  1:03
 CLOCK: [2025-08-05 Tue 16:40]--[2025-08-05 Tue 17:20] =>  0:40
-CLOCK: [2025-08-05 Tue 10:45]--[2025-08-05 Tue 17:20] =>  6:35
 CLOCK: [2025-08-05 Tue 09:39]--[2025-08-05 Tue 10:34] =>  0:55
 CLOCK: [2025-08-04 Mon 15:36]--[2025-08-04 Mon 16:27] =>  0:51
 CLOCK: [2025-08-04 Mon 09:23]--[2025-08-04 Mon 10:53] =>  1:30
@@ -63,7 +90,7 @@ CLOSED: [2025-07-16 Wed 11:11]
 CLOSED: [2025-08-05 Tue 10:33]
 ** DONE Finish "offer spectrum" Janine/Eduardo    :curweek:
 CLOSED: [2025-08-05 Tue 17:20]
-** TODO Add testing w/ Map Fears / Aspirations    :curweek:
+** TODO Add testing w/ Map Fears / Aspirations
 ** DONE Add a full story with all three tactics   :curweek
 CLOSED: [2025-08-05 Tue 17:20]
 Have it be the Directo of Customer Success, model on Lauren Dill.
@@ -88,6 +115,12 @@ CLOSED: [2025-08-04 Mon 09:23]
 To make the emotions more visible on the surface
 ** DONE Review, adjust to be less about Tech Invest
 CLOSED: [2025-08-02 Sat 09:50]
+* [[id:7976BDAE-B87A-4418-A78E-856A18D3C44D][Envision Better Way]]                             :gtasks:
+** DONE Break out 4-6 "problems"                  :curweek:pom:
+CLOSED: [2025-08-06 Wed 17:03]
+** DONE Write 1 problem                           :curweek:pom:
+CLOSED: [2025-08-07 Thu 08:58]
+** TODO Write 2 more problems                     :curweek:
 * Mine For Intent                                 :gtasks:
 ** TODO Add explicit "Be in detective mode"
 ** * Arc of Persuasion                               :gtasks:
@@ -101,6 +134,9 @@ E.g. if Doug is going to be the first PM to actually PM, can you sell that as a 
 ** TODO From Ryan: when/how to loop in your boss
 To deploy authority.
 * [[id:42FF29AB-A3A1-4307-85E5-69C08C7D4DB4][Reframe/Reorg]]                                   :gtasks:
+** DONE Dump the game plan into new chapter       :curweek:pom:
+CLOSED: [2025-08-06 Wed 16:46]
+From Substack
 ** DONE Stash all my old tib-todo headers somewhere
 CLOSED: [2025-08-02 Sat 09:04]
 ** TODO Maybe: back half of book is all case studies
@@ -543,10 +579,3 @@ To... someone
 Something that demonstrates they're getting value, not being nice.
 *** TODO Define dumbest, simplest progress-checking habit
 Could easily lose my mind, be careful.
-*  Inbox
-** TODO Find a Two Ends of Spectrum thing w/ Eduardo?
-E.g. what happens if the stores have sluggish perf?
-** TODO Do I use three part teens/terrorists negotiation thing?
-** TODO Is this "process"? Yes but also no.
-As in, it subsumes process, but also is about the human relationships beneath the process
-** TODO Point at stakeholder toc
