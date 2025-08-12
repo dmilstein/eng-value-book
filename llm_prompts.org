@@ -1,6 +1,23 @@
 
 * My Prompts
 
+** Af
+
+
+
+Mon 8/08: 2.5 ██████████████▍
+Tue 8/09: 3.2 █████████▍
+Wed 8/10: 1.8 ██████████████▏
+Th  8/11: 4.1 █████████████████▍
+Fr  8/12: 2.9 ████████████████████
+Sa  8/13: 0
+Su  8/14: 1.5 ██████
+
+
+
+
+
+
 ** Generate The Spec
 Ask me one question at a time so we can develop a thorough, step-by-step spec for this idea. Each question should build on my previous answers, and our end goal is to have a detailed specification I can hand off to a developer. Let’s do this iteratively and dig into every relevant detail. Remember, only one question at a time.
 
