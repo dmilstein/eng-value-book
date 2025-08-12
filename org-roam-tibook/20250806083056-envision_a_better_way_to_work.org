@@ -11,7 +11,7 @@ Of course, making a change will require convincing your stakeholder to *listen* 
 
 However, before we do that, you need to decide how you *want* to work with them.
 
-In some cases, this may be obvious, e.g. you need to your stakeholder to play their role in your two week sprint process, instead of trying to route around the planning processs. In that case, feel very much free to skip ahead to the next chapter, which focuses on building the skill of empathetic listening, so you can draw out of your stakeholder all the key information you're going to need.
+In some cases, this may be obvious, e.g. you need to your stakeholder to play their role in your agile sprint process, instead of trying to route around the planning processs and wedge in new work all the time. In that case, feel very much free to skip ahead to the next chapter, which focuses on building the skills of empathetic listening, so you can draw out of your stakeholder all the key information you're going to need.
 
 # XXX which focuses on understanding where your business is headed, overall, to prepare you to make the most effective case possible
 
@@ -19,29 +19,29 @@ In some cases, this may be obvious, e.g. you need to your stakeholder to play th
 
 However, there are lots of cases where it's clear the current way of working together has some really profound problems.. but it's in not obvious what to do *instead*.
 
-Mini Sidebar: this is not because everyone in software is an idiot, and if only we followed the prescriptive dictates of Insert Named Processs Here, all those challenges would go away. Groups of humans working together to solve business problems by developing and operating software is a deeply complex endeavor that brings with it some fascinatingly specific challenges.
+Mini Sidebar: this is not because everyone in software is an idiot, and if only we followed the prescriptive dictates of Insert Named Processs Here, all those challenges would go away. Groups of humans working together to solve business problems by developing and operating software is a deeply complex endeavor that brings with it some somewhat profound challenges.
 
-I have found that there are useful patterns, and some incredibly powerful underlying *principles* (fwiw, Don Reinertsen is basically right about everything). But I have not found that there is One True Process, that can be applied, regardless of company size, business type, customer relationship, etc.
+I have found that there are useful patterns, and some powerful underlying *principles* (fwiw, Don Reinertsen is basically right about everything). But I have not found that there is One True Process, that can be applied, regardless of company size, business type, market dynamics, customer relationship, etc.
 
-Personally, I find this *exciting*. If you're an engineer, and you love solving problems and searching for underlying patterns inside complex systems, well, figuring out how to usefully apply the underlying principles in lots of different contexts can be a lifelong joy.
+Personally, I find this *exciting*. If you're an engineer, and you love solving problems and searching for underlying patterns inside complex systems, figuring out how to usefully apply the underlying principles in lots of different contexts can be a lifelong joy.
 
 But it also means: don't trust anyone who comes along with a cut and dried process, and promises to solve all your problems if you just stop thinking and do what it says.
 
 Below, I'm going to talk about a series of problematic ways of working, and, for each, share some ideas for what better might look like.
 
-Most of these could be the topic of a book on their own. In fact, many of them *are* the topics of books on their own -- often, quite good books. In those cases, I will point you in the directions of those books, many of which I've found extraordinarily useful.
+Most of these could be the topic of a book on their own. Actually, scratch that: many of these *are* the topics of books on their own -- often, quite good books. In such cases, I will point you in the directions of those books, many of which I've found extraordinarily useful.
 
-However, just about none of those books help with what I've experienced as a core challenge -- which is to persuade the humans you work with to try one of these ways out, and *with* you, adapt them to fit your specific situation.
+However, sadly, just about *none* of those books help with what I've experienced as a core challenge -- which is to gradually persuade the humans you work with to try one of these ways out, and *with* you, adapt them to fit your specific situation.
 
 That's what the rest of this book is going to dig into.
-
 ** The Feature Factory
+# Welcome To The Feature Factory, Here's Your Widget Tool
 
 If there's one thing that we've learned as an industry, it is:
 
-    Engineering and Product teams create much more value, much more quickly, if they are given *customer problems to try to solve*, rather than *specific features to build*.
+    Engineering and Product teams create much more value, much more quickly, if they are given *customer problems to solve*, rather than *features to build*.
 
-But, now that I say that, maybe we've also learned /something else/ as an industry, which is:
+But, we've also learned /something else/ as an industry:
 
     Most stakeholders super duper want to give teams specific features to build
 
@@ -55,11 +55,11 @@ If I had to pick one, I'd recommend Escaping the Build Trap, by Melissa Perri.
 
 It's a concise, truly excellent guide to the practices of product management, and is, in particular, *very* strong on what it means to guide teams by way of business problems to solve, instead of features to build.
 
-Honestly, one of the only weak things about Escaping the Build Trap is that the imagined stakeholder in the story she tells is waaaay more rational than just about any stakeholder I've ever worked with. He cheerfully shrugs his shoulders and says "Okay, sure", any time the authorial stand-in tells him to change his behavior.
+Honestly, one of the few weak things about Escaping the Build Trap is that the imagined stakeholder in the story she tells is waaaay more rational than just about any stakeholder I've ever worked with. He cheerfully shrugs his shoulders and says "Okay, sure", any time the authorial stand-in asks him to change his behavior.
 
 That has, um, not been my experience?
 
-In the Case Studies later in this book, I'll walk through some examples of working with stakeholders to move towards setting problems to solve -- both in their day-to-day interactions with a product/engineering team, and also in their overall goal setting.
+In the Case Studies later in this book, I'll walk through some examples of working with stakeholders to move towards aligning around problems to solve -- both in their day-to-day interactions with a product/engineering team, and also in their overall goal setting.
 
 Other strong books:
 
@@ -68,7 +68,6 @@ Other strong books:
  - Build, by Tony Fadell
 
  - Marty Cagan's series
-
 
 ** Interruptions & Distractions
 
@@ -88,23 +87,27 @@ But instead, every day they face what feels like some kind of coordinated assaul
 
    That manual account set-up step for some Important New Customer, or a data pull that BI needs by end of day, to prep for presenting to Senior Leadership *tomorrow*
 
-Plus, these interruptive requests tend to fall most heavily on your strongest, most valuable engineers. And that's especially true if those engineers suffer from the  misfortune of being nice.
+These interruptive requests tend to fall most heavily on your strongest, most valuable engineers. And that's especially true if those engineers suffer from the  misfortune of being nice.
 
 I have vivid memories of standing by Tom Hare's desk at Wayfair, watching just a parade of people from the operations teams "wander by", each asking for Tom's to help fix some weird edge case. Tom was such a good engineer! And so nice!
 
 In some theories of software that I've seen, all of this work should just be routed through the normal prioritization and planning processes.
 
-Personally, I haven't seen that go great -- it tends to load the PM down with a giant set of tiny decisions, each sort of exhausting to make, each pretty low value by themselves. "Should we fix the account profile bug this week, or not?" "Should we make it possible to put spaces in the campaign names?" "Should Miranda spend three days pulling activity data?"
+Personally, I haven't seen that go great -- it tends to load the PM down with a giant set of tiny decisions, each sort of exhausting to make, each pretty low value by themselves. "Should we fix the account profile bug this week, or not?" "Should we make it possible to put spaces in the campaign names?" "Should Antonio spend today pulling activity data?"
 
-Because there are often 10's to 100's of such requests per week coming in, in my experience, the PM often drifts away from these decisions, and then, through the guise of a "bug queue" and/or personal connections, people across the company just shove all kinds of requests at the engineers, and reach out directly to advocate and/or ask for status.
+Because there are often dozens (and dozens) of such requests coming in per week, the PM often drifts away from these decisions over time. And then, through the guise of a "bug queue" and/or personal connections, people across the company just shove all kinds of requests at the engineers, and/or reach out directly to advocate and then ask for status (or ask for status as a means to advocate!).
 
-Unfortunately, it's not usually good for the business to simply ignore all of these.
+Tempting as it may be to simply ignore all such requests, that's rarely anywhere near optimal for the overall business.
 
-Instead of putting these "uncorrelated requests" through normal sprint planning, I've had really good luck putting in place a weekly or bi-weekly meeting where *all* such "non-sprint" requests for the engineers are gathered and reviewed.
+Instead of putting these "random requests" through normal sprint planning, I've had better luck establishing a weekly or bi-weekly meeting where all such "non-sprint" requests for the engineers are gathered, reviewed, and prioritized *against each other*.
 
-The key that really unlocked this for me, which was an idea I learned from Andy Rosequist, was to set aside a fixed budget of engineering time for such issues (e.g. 10%) and then empower a single person *on the customer side* to be the one to decide how to spend that budget each week. Aka, how to prioritize among all the requests.
+If you establish a fixed budget of engineering time for such issues (e.g. 10% of the sprint points), then you can make economically rational decisions without the high overhead of considering each one, one at a time.
 
-I'm going to walk through that in real detail in one of the Case Studies -- it proved an extremely powerful approach.
+The key that really unlocked this for me, was an idea I learned from Andy Rosequist -- which was to empower a single person *on the customer side* to decide how to spend that budget each week. Aka, how to prioritize among all the requests.
+
+I'm going to walk through that in real detail in one of the Case Studies -- it proved an extremely powerful approach, but also took some time and care to properly bootstrap.
+
+If you're finding that there's a barrage of genuinely important, *unrelated to main sprint goals* work taking up time for your team, I highly recommend reading that Case Study.
 
 # into a single weekly or bi-weekly "triage" meeting. This is quite different in nature from normal sprint planning.
 
@@ -128,21 +131,81 @@ I'm going to walk through that in real detail in one of the Case Studies -- it p
 
 # It also creates visibility -- that group can start to see patterns, and that can help create investment cases (e.g. to build a data extraction tool).
 
-** Constantly Changing Priorities
-Again, Perri or any coherent definition of agile -- define a strategic goal, and then have an explicit cadence.
+** Leaders Won't Trust The Team
+At All Hands, your {boss, VPE, CTO, CPO} loves to talk about how, at your company, the teams are *empowered*... but on the ground, it feels like most teams can't make a single decision without being second guessed, redirected or outright shut down.
+
+You can feel your team drifting into passivity, which is making you crazy. But you can't honestly tell them how to fix it, because your boss, despite talking such a good game, keeps on nervously seizing control back again, any time your and/or the team shows the smallest spark of independence.
+
+Of course, this sluggish, start-and-stop process is killing any hope of velocity. To make matter worse, your boss has started raising concerns about how slow the team seems to be going... even though you're just about certain that the driving factor is that boss's own inability to step back.
+
+This is a fun one!
+
+There *are* totally better ways to work, but to implement them you need two things:
+
+ 1) A process that allow leaders to step back while *retaining control*
+
+ 2) Sufficient trust with your leader that they're willing to try a change
+
+It's a process problem and a human beings problem!
+
+Let's take those in turn.
+
+On the process side, I've seen repeated failures from simply pushing for "less involvement" from the boss/leader.
+
+Some of those failures were very much my own, where I set teams wildly open-ended challenges, and then later discovered that what they had done wasn't any kind of valuable for the business.
+
+Some were from PM's or Tech Leads who had a vision of "autonomy" that seemed to involve acting without any guidance whatsoever from their management chain (if that's your takeaway from Marty Cagan/Melissa Perri/etc, I will heartily beg you to reconsider).
+
+As per my rants earlier, I don't think there's One True Process. But I have had a lot of luck by focusing on, essentially, two distinct *decision points*, working backwards from the boss being able to *make good decisions* in those moments, and ensuring the team is able to move very quickly *between those moments*.
+
+We'll dig into this in Case Study Foo, but here's the quick sketch.
+
+For leaders, this means, in essence:
+
+ - Set the team a business problem to solve (Decision Point 1)
+
+ - Ensure they have sufficient context to understand the range of possible solutions
+
+ - Define a first milestone to work towards
+
+ - Specify the *decisions* that the leader is going to want to make, when that milestone is achieved (Decision Point 2)
+
+E.g. say that your team is working on a new dashboard, which is intended to be the new homepage for customers, once it's live. There are four different widgets being developed, each pulling in data from a specific feature of the product. There's a new look and feel, being implemented in a new-to-the-team JS front end framework. There are a bunch of questions about how different segments of customers will set up their homepages, once the dashboard is live.
+
+What should the first milestone be?
+
+What would create meainingful ownership for the team to execute quickly?
+
+The key question to ask is: what is the next *decision* do you want to support the boss in making?
+
+In the example above, let's go through the various Things That Could Blow Up, and imagine what eng and product leads on the ground might find:
+
+ - Customer use cases: the product team has been deep in conversations with early adopter users from various segments, and even built some manual spreadsheets those customers are now happily using = low risk
+
+ - New look and feel: there's a strong front-end engineer on your team, who just helped another team at your company transition to this framework = low risk
+
+ - Four different widgets: two are straightforward, but the proposed designs for the other two features data which it's not clear if you even currently have = high risk
+
+Given this, the key decision your boss needs to make is "Do we stick with the current design for those two widgets, if it's going to delay our timeline? Or do we simplify or even abandon them?"
+
+Thus, set a milestone that enables that decision, ala:
+
+"The team will build functioning but ugly versions of the two risky widgets, with whatever data they can easily get (not necesarily the originally planned design). They will also be ready to speak to options and costs for implementing the original design."
+
+The team can then go and work on that for a month *without constant check-ins*.
+
+The boss can "forget about the team" for a month -- and when they come back, the team is explicitly charged with giving them enough information to make the next decision.
+
+This is easy to say, but "training your boss" to work this way is an art of its own -- that's what we'll be talking about it in the next chapters.
+** We Need a New Product!
 
 ** No Time for "Engineering" Work
 Tech Investments, collaborative prioritization, etc.
 
-** Weak or Non-Existent Product Team
+** Weak/Disengaged/Non-Existent Product Team
 Either step up and do the product function because you want to (again, read Build Trap), or make the case for someone to take it over.
 
 Have known many, many Engineers who could lean over and do the product job for a bit, but a) there's some skills it takes to learn to do it well, and b) it takes a metric ton of time.
-
-** Product Team Disengaged From Engineering
-Throwing things over the wall. Joined at the hip, etc.
-
-** Leaders Don't Trust The Team
 
 ** Multiple Stakeholders in Conflict
 Team topologies?
@@ -150,8 +213,13 @@ Team topologies?
 ** Slow, Heavyweight Goal Setting
 Art of Action, Good Strategy/Bad Strategy.
 
-** Chasing New Products But Avoiding Failures
+** Product Team Disengaged From Engineering
+Throwing things over the wall. Joined at the hip, etc.
 
+** Constantly Changing Priorities
+Again, Perri or any coherent definition of agile -- define a strategic goal, and then have an explicit cadence.
+
+** Infrequent Releases (Due to Fear)
 * Scraps
 # This is where I can talk about how to organize teams, etc.
 
