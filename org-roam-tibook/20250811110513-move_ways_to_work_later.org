@@ -1,0 +1,74 @@
+:PROPERTIES:
+:ID:       7EF40B03-4FD3-4DBF-97D8-0E6F2863A19F
+:END:
+#+title: Move Ways to Work Later?
+As part of [[id:42FF29AB-A3A1-4307-85E5-69C08C7D4DB4][Reframe/Restructure]] (and also [[id:B4926308-39DD-471B-8E71-5FFF7546D6E3][ToC]]).
+
+* New Toc?
+** Intro: The Joys and Pains of Working With Humans
+** Part I: The Loop of Improvement
+*** A Story of Iterative Improvement
+*** Mine for Intent, Fears & Dreams
+*** Pitch an Increment of Change
+** Part II: Case Studies
+*** The Feature Factory
+*** Interruptions & Distractions
+*** No Trust Given, No Results Achieved
+*** We Need a New Product ASAP!
+*** No Time for "Engineering" Work
+*** Weak/Disengaged/Non-Existent Product Team
+** Part III: +Manipulating+ Working With Humans
+*** Tactical Empathy
+*** Collaborative Problem Solving
+*** Storytelling Structures
+*** Putting It Together: Asking For More Responsibility
+
+
+* Random Thinking
+As I'm digging into Envision a Better Way to Work, it's very hard to walk the line, of giving enough information to feel useful, but not so much as to kill all momentum.
+
+*Plus*, I can't explain the increments, which makes it feel like half the story.
+
+Could I do better by, something like:
+
+ - Intro = define the problem, mention that solution requires both better way to work *and* means to gradually persuade
+
+ - Full Story = maybe Story of Sprint, but try a few different forms of opening it up, maybe? Or I could, possibly, tease it, and then break it up over the next few condensed chapter?
+
+ - End full story with the sketch / game plan, but say, we're going to spend time on empathy-building first
+
+ - Sell it a bit as -- this is intended to teach you the design and implementation skills of adjusting how you work together. Will show you 3-5 detailed case studies, hopefully those are useful, but also, think and apply.
+
+Then:
+ - Tactical Empathy to Build Influence
+ - Mine for Intent, Fears, Dreams
+ - Design an Increment of Change
+ - Craft a Compelling Pitch
+
+and then go deeper in case studies?
+
+What if I put Tac Empathy at the *end*? I could maybe crush the pre-case study sections down to like 2 chapters? And then show them in more detail in the case studies?
+
+Like, it's:
+
+ - Mine for Intent, Fears & Dreams
+ - Pitch an Increment of Change
+   # Design Increment of Change
+
+
+
+
+* Key Pains
+** The Feature Factory
+** Interruptions & Distractions
+** Leaders Won't Trust The Team
+** We Need a New Product!
+** No Time for "Engineering" Work
+** Weak/Disengaged/Non-Existent Product Team
+
+* Other Pains
+** Multiple Stakeholders in Conflict
+** Slow, Heavyweight Goal Setting
+** Product Team Disengaged From Engineering
+** Constantly Changing Priorities
+** Infrequent Releases (Due to Fear)
