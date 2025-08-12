@@ -1,0 +1,222 @@
+:PROPERTIES:
+:ID:       F6A8995D-D0A2-458B-AB62-181284DEF1A1
+:END:
+#+title: Intro - Work With Humans
+#+filetags: :Chapter:
+* Introduction: The Joys and Pains of Working With Humans
+** Intro
+Few things are more frustrating than being stuck in a broken interaction pattern with the people you work with.
+
+For an engineer or a product manager, trying to develop some hopefully valuable piece of software, that could be:
+
+ - A CEO who interrupts standup every other day with "important" new information, constantly randomizing the work of the team and killing any hope of velocity
+
+ - A key sales leader who relentlessly advocates for their pet feature ideas and resists aligning around customer problems
+
+ - A weak product manager who mindlessly ferries requests from stakeholders to the team without ever pushing back or setting a meaningful prioritization scheme
+
+ - A close-minded tech lead who refuses to let the PM talk directly with the engineers on the team, and insists that all conversations go through them
+
+ - A senior engineering or product leader who claims to want to create ownership and autonomy for their teams, but insists on staying "in the loop" for so many decisions, the team has to wait for approvals before taking even the tiniest of steps
+
+Furthermore, in such situations, it's overwhelmingly the case that the human in question, be they the CEO, sales leader, engineer or PM, *super doesn't want to change their own behavior*.
+
+This should not surprise us.
+
+If there's one thing that unifies basically all humans (myself very much included, sadly) it's that we are *extremely* reluctant to change the way we behave.
+
+/I mean, why should *we* have to change!? Our behavior is clearly only natural and right, given the very special difficulties we personally are facing! There's literally nothing else we even *could* do!/
+
+Unfortunately, this means that, when an engineer or PM approaches one of these humans, and proposes changing the way they work together... that engineer or PM will generally be met with a form of resistance that falls somewhere between slightly stiff and absolutely ferocious.
+
+# What is said engineering or product leader supposed to do?
+
+This can be a tough situation to be in.
+
+The product/engineering team could create enormous value for the business... if they had a meaningful problem to solve, time to focus, and partners willing and able to make key decisions as they went.
+
+If, on the other hand, the engineers and/or their product partners are stuck in one of these broken interaction patterns, it can feel like they're watching, powerless, as an inevitable disaster unfolds in slow motion. A disaster which, even though they saw it coming, and did everything they could to prevent it, will likely be blamed on them.
+
+At its worst, this can be an incredibly exhausting way to work and live. I once got stuck in such a bad pattern, and experienced such pervasive stress and anxiety, that my wife Bonnie and I still refer to that period as "The Dark Time".
+
+Fortunately, I believe that there is often a way out.
+
+A means for engineers or PM's to gradually persuade the humans around them to work with them in a new way.
+
+I want to share a game plan for making this kind of change -- for fixing broken interaction patterns.
+
+This game plan takes full account of the complexities of human nature, as well as the challenges of working within a business that is trying to accomplish some complex, ambitious goal.
+
+It focuses on starting with what you have within your control today, uses that to earn early wins, and then gradually builds trust and alignment to enable more significant change.
+
+Running the game plan will likely requiring practicing some new skills -- using "tactical empathy" to deeply understand the hopes and fears of a stakeholder, and also learning how to creatively design increments of change.
+
+Before we dig into that game plan, you might be wondering, "Um, Dan, who are you, exactly?"
+
+I'm glad you asked!
+
+** The Mini-Tab & The Microsoft C Compiler
+
+# One of the great pleasures of working as a software engineer is solving meaningful problems.
+
+# One of the profound rewards of working as a software engineer is solving meaningful problems.
+
+Let me tell you a story.
+
+# XXX Move this all back into past tense.
+
+It's the summer of 1991. I've just arrived home from my sophmore year in college.
+
+As I catch up with my parents, I tell them I'm still liking my computer science major, and that, in fact, I want to spend time that summer coding. I'm looking to teach myself C, and am casting about for a project to work on.
+
+My mother looks interested -- she might have something for me. She works as an Assistant Dean at a local community college, where she runs their adult and continuing education programs. Apparently, each year, late in the summer, her division spends a couple of unpleasant weeks preparing "The Mini-Tab"--their annual catalog of courses.
+
+The Mini-Tab prep involves a great deal of rote work to extract and format course metadata from the descriptions submitted by instructors (so that each course could be properly formatted for their printer).
+
+She says that if I could write them a program to help, she could even pay me.
+
+I had a copy of Microsoft's C Compiler on my Microsoft DOS computer. I had a copy of Kernighan & Ritchie. I had the confidence of youth.
+
+I said, sure.
+
+# I wrote her a C program to transcribe their input document into a table of courses, each tagged with a course code, and each having the schedule, title and instructor cleanly pulled out.
+
+Today I would write that program in an afternoon using python and a handful of regular expressions. But I had never heard of regex's at the time, and my long love affair with python was years in my future. It took me a couple of weeks. The input data wasn't consistently in the format she'd described to me, so I kept having to slowly figure out the actual patterns, and then add special cases to handle each one[fn:: My long love affair with automated testing was *also* many years in the future, so I kept on breaking what I had written, and only figuring that out later.].
+
+In the end, the program worked, and I got a check for $100.
+
+I was *delighted*. This thing I loved doing, hacking on a computer to get it do what I wanted, could actually turn into money?
+
+But I was also delighted to realize that I had saved my mother and her colleagues hours of extremely frustrating work.
+
+She shared real, excited appreciations from the people on her team, that my little program had saved them so much time.
+
+That felt, well, *amazing* -- I had, just by typing strange words and symbols into a little monochrome yellow and black screen, somehow created something that made the real world, well, a little bit better. That *helped* people.
+
+Her division at the community college ended up using that program for years and years. They very much got their money's worth for the $100 they'd spent.
+
+But, so did I.
+
+That little job started me on the path of creating software that solved problems for people, in the real world. That path has turned into both a career, and also a great deal of meaningful work.
+
+I've written software to help people lay out and prepare textbooks for print production; to understand how their marketing campaigns have performed; to fill a warehouse with goods and then to pick, pack and ship those goods back out again; to collaborate on scientific research during drug discovery; to help support english language learner students in public schools.
+
+In so doing, I've spent a great deal of (very rewarding!) time gradually learning how to structure complex software to solve problems in the real world.
+
+# That has included everything from the day-to-day tactics of how to write clean, understandable, testable code; to how to decompose large programs into pieces that can be understood and worked on independently; to a thousand details about how to represent and store data; to how to operate systems in the harsh reality of production.
+
+But I've also learned something else.
+
+I've learned that all those wonderful tactics for writing complex, powerful programs aren't enough, by themselves.
+
+There are a slew of challenges, some running through how businesses function, some through how human beings function, that must be faced, to identify problems worth solving and then gradually hone in on valuable solutions.
+
+I, like just about all programmers, learned this the hard way.  I watched programs I had spent months writing get thrown away the moment they were finished, because the problem I had been asked to solve no longer mattered to anyone. I found myself mired in painful stasis and frustration thanks to constant churn and changing requirements.
+
+# I watched in mounting frustration, as work ground to a halt due to delays between teams.
+
+# XXX add a third to the above
+
+# My journey into solving business problems took me from engineering into product management, and then back into engineering.
+
+My journey into solving problems for people took me from engineering into product management, and then back into engineering, and then to various forms of leadership over both disciplines.
+
+# I've worked as a principal engineer building and operating complex systems; I've led product at startups desperately trying to find traction; I've managed engineering teams ranging in size from 2 to 500.
+
+This book is my attempt to share what I've learned about how engineers can work with humans to solve meaningful problems.
+
+** Making Ethical Choices
+
+I will, here in the wilds of 2025, enourage you to take some time to think about the problems you agree to help solve. All our work has an ethical component, whether we realize that or not.
+
+Perhaps also, take a moment to feel that sense of wonder -- I'm still astonished that, by typing a bunch of arcane characters into a glowing box, I can affect people's actual lives.
+
+# I adored role playing games as a kid -- and I loved playing wizards and spellcasters. I think the idea of being able to affect the real world by saying *just the right thing*, by learning some arcane incantation, was just a form of power that stirred dreams in my heart. How amazing is it that I've found a life where I can do just that.
+
+* Scraps
+** Defining Stakeholders
+And their relationship with their stakeholders feels central to that struggle.
+
+# Is this a sidebar? Later?
+Before we go any further, what exactly is a "stakeholder"?
+
+For this book, we'll define a stakeholder as:
+
+/Someone the engineers work with, who has the authority to decide what is valuable for the business./
+
+That doesn't necessarily mean that person directly tells the engineers "what to do". It *does* mean they play a central role in determining *priorities* for the engineers. And usually, it means they decide, after the fact, if what the engineers did *worked* -- aka actually solved a proble for the business.
+
+That person could be a product manager.
+
+It could be the CEO.
+
+It could be the head of sales.
+
+It could be the lead user for an internal, tech-enabled operation.
+
+It could even be other engineers, for teams that build tooling or a platform for the  broader eng team.[fn:: I *love* working on DevPlats teams, but I must also note that doing so means having stakeholders who will question every single move you make. "You're unpacking the builds *on* the hosts? Why would you do that? That seems kind of dumb."]
+
+It isn't always one person! Often engineers work with multiple people who each believe they should be able to decide what is valuable for the business. Sadly, those people don't always agree with each other[fn:: It's super common that, instead of hashing it out directly, such rival stakeholders will each separately try to convince the engineers to work on their personal priorities.]
+
+# Now, I firmly believe that most stakeholders well and truly want the overall business to succeed.
+** Engineering Would Be So Easy Without Those Pesky Humans
+One of my favorite things to do is to sit down for lunch or coffee with some bright engineering leader who is eagerly engaged in learning everything they can about the job.
+
+# XXX Fix this intro graph
+
+# One of my favorite things to do is to sit down for lunch or coffee with one of the extremely bright engineers who I was lucky enough to work with early in their careers.
+
+I love hearing about what they've learned, the company they've landed at, the new responsibilities they're taking on -- be that as managers, executives, or moving up the technical track.
+
+At these lunches or coffees, there's one topic that comes up over and over.
+
+# over cups of coffee or sandwiches or pho
+
+It's *not* how to structure complex softare.
+
+It's *not* how to speed up the pace of the team's delivery. [agile rituals]
+
+It's *not* how to have hard conversations with engineers on their team.
+
+*It's about how to handle the crazy, conflicting, impossible requests from the humans they work with.*
+
+I want to be carefully clear: these are engineers who love solving business problems.
+
+They don't *want* to "just do engineering" -- they want to make an impact.
+
+But, they find themselves struggling to do so.
+
+And the frustratingly broken patterns of interactions with the humans around them seem central to that struggle.
+
+** The Three Core Problems
+
+As fun as it is to write software to solve problems I personally experience (ask me about my .emacs file sometime), it's ultimately been more rewarding--both financially and personally--to write software to solve problems for other people.
+
+# With a few exceptions[fn:: Ask me some time about the system I may have built for myself in 2005 to bet on baseball games], almost all the software I've written to solve problems in the real world has been developed working *with other people*.
+
+This has led to my spending a great deal of time working within various businesses[fn:: Though I should say that, personally, some of the joy of doing open source work has been getting to solve meaningful problems *without* being embedded in a business].
+
+Therefore, I've spent many, many years trying to understand how to solve *business problems*. How to ensure that the work I do, the software I build, ultimately helps the business succeed -- which generally means solving problems that matter for *someone* (though, see "Ethical Choices", later). Which I continue to find profoundly motivating and rewarding.
+
+In the course of those years, I've run into three major challenges, each of which initially completely defeated me, and each of which I gradually learned how to tackle.
+** I've Looked At +Love+ Engineering From Both Sides Now
+
+All appearances to the contrary, I strongly believe that the engineers and those other humans have the same underlying goal:
+
+*They both want the business to succeed.*
+
+They find themselves in conflict when they have different understandings of how to achieve that goal.
+
+This sounds like an absurdly simple truism, but I've spoken with plenty of engineers *and* plenty of stakeholders over the years who would struggle to believe it.
+
+On the engineering side, given how frustrating some stakeholders are to work with, and how deeply unwilling those stakeholders seem to be to *listen*, engineers will decide that those stakeholders are either pursuing some kind of narrow, political self-interest, or are trying to get an obvious immediate win and then move on, leaving a painful mess behind them for the future. Engineers will also assume that their stakeholders are well, *dumb* -- that they *can't* understand what needs to be done, in order to create valuable software for the business.
+
+# that they simply can't or won't understand the issues that engineers are trying to share with them.
+
+For the stakeholders, working with engineering teams can be such a nightmare of uncertainty and confusion, it can be very hard indeed for them to believe that those engineers are trying to solve any business problems whatsoever. Much of the time, the engineers speak in impenetrable techno-gibberish, and when they do briefly make sense, it's usually to announce that they've missed yet another delivery date. The median stakeholder experience is: they don't know what the engineers are doing; they can't get them to do what they want; and, when the team finally does deliver something, it doesn't work.
+
+# The engineers seem to  want to talk about absurdly specific details, and complain about not having time to address some abstract notion of "good design".
+
+I have a plan! A way to gradually bring engineers and their stakeholders into a *shared understanding* of what to do *and* how to do it -- such that each side sees the other as a true partner.
+
+Doing so requires understanding both better ways to work together *and* how to persuade stakeholders to try those ways out.
