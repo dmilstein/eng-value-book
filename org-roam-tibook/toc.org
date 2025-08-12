@@ -2,8 +2,8 @@
 :ID:       B4926308-39DD-471B-8E71-5FFF7546D6E3
 :END:
 #+title: ToC
-* Stakeholder ToC
-** [[id:A99B72A8-3582-4BEA-8FA8-40CA8EDD306D][Intro]]: The Pains of Working With Humans
+* Work With Humans ToC
+** [[id:F6A8995D-D0A2-458B-AB62-181284DEF1A1][Intro]]: The Joys & Pains of Working With Humans
 ** Part I - A Game Plan For Improvement
 *** [[id:0B7B14D2-FAC9-4A85-A618-873B720D1E9A][The Overall Game Plan]]
 Jacob's story at Medium, lightly fictionalized? Or the Story of Sprint shift? Or the "get the CEO to stop coming to stand up" thing I have mostly written already.
