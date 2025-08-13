@@ -1,0 +1,72 @@
+:PROPERTIES:
+:ID:       EBBA71C3-8C1A-4DF9-9842-DC9989E52521
+:END:
+#+title: No Trust Given
+#+filetags: :Chapter:
+
+* Leaders Won't Trust The Team
+At All Hands, your {boss, VPE, CTO, CPO} loves to talk about how, at your company, the teams are *empowered*... but on the ground, it feels like most teams can't make a single decision without being second guessed, redirected or outright shut down.
+
+You can feel your team drifting into passivity, which is making you crazy. But you can't honestly tell them how to fix it, because your boss, despite talking such a good game, keeps on nervously seizing control back again, any time your and/or the team shows the smallest spark of independence.
+
+Of course, this sluggish, start-and-stop process is killing any hope of velocity. To make matter worse, your boss has started raising concerns about how slow the team seems to be going... even though you're just about certain that the driving factor is that boss's own inability to step back.
+
+This is a fun one!
+
+There *are* totally better ways to work, but to implement them you need two things:
+
+ 1) A process that allow leaders to step back while *retaining control*
+
+ 2) Sufficient trust with your leader that they're willing to try a change
+
+It's a process problem and a human beings problem!
+
+Let's take those in turn.
+
+On the process side, I've seen repeated failures from simply pushing for "less involvement" from the boss/leader.
+
+Some of those failures were very much my own, where I set teams wildly open-ended challenges, and then later discovered that what they had done wasn't any kind of valuable for the business.
+
+Some were from PM's or Tech Leads who had a vision of "autonomy" that seemed to involve acting without any guidance whatsoever from their management chain (if that's your takeaway from Marty Cagan/Melissa Perri/etc, I will heartily beg you to reconsider).
+
+As per my rants earlier, I don't think there's One True Process. But I have had a lot of luck by focusing on, essentially, two distinct *decision points*, working backwards from the boss being able to *make good decisions* in those moments, and ensuring the team is able to move very quickly *between those moments*.
+
+We'll dig into this in Case Study Foo, but here's the quick sketch.
+
+For leaders, this means, in essence:
+
+ - Set the team a business problem to solve (Decision Point 1)
+
+ - Ensure they have sufficient context to understand the range of possible solutions
+
+ - Define a first milestone to work towards
+
+ - Specify the *decisions* that the leader is going to want to make, when that milestone is achieved (Decision Point 2)
+
+E.g. say that your team is working on a new dashboard, which is intended to be the new homepage for customers, once it's live. There are four different widgets being developed, each pulling in data from a specific feature of the product. There's a new look and feel, being implemented in a new-to-the-team JS front end framework. There are a bunch of questions about how different segments of customers will set up their homepages, once the dashboard is live.
+
+What should the first milestone be?
+
+What would create meainingful ownership for the team to execute quickly?
+
+The key question to ask is: what is the next *decision* do you want to support the boss in making?
+
+In the example above, let's go through the various Things That Could Blow Up, and imagine what eng and product leads on the ground might find:
+
+ - Customer use cases: the product team has been deep in conversations with early adopter users from various segments, and even built some manual spreadsheets those customers are now happily using = low risk
+
+ - New look and feel: there's a strong front-end engineer on your team, who just helped another team at your company transition to this framework = low risk
+
+ - Four different widgets: two are straightforward, but the proposed designs for the other two features data which it's not clear if you even currently have = high risk
+
+Given this, the key decision your boss needs to make is "Do we stick with the current design for those two widgets, if it's going to delay our timeline? Or do we simplify or even abandon them?"
+
+Thus, set a milestone that enables that decision, ala:
+
+"The team will build functioning but ugly versions of the two risky widgets, with whatever data they can easily get (not necesarily the originally planned design). They will also be ready to speak to options and costs for implementing the original design."
+
+The team can then go and work on that for a month *without constant check-ins*.
+
+The boss can "forget about the team" for a month -- and when they come back, the team is explicitly charged with giving them enough information to make the next decision.
+
+This is easy to say, but "training your boss" to work this way is an art of its own -- that's what we'll be talking about it in the next chapters.

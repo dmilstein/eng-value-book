@@ -1,0 +1,40 @@
+:PROPERTIES:
+:ID:       311775E5-191B-429A-A168-4F712659E334
+:END:
+#+title: The Feature Factory
+#+filetags: :Chapter:
+
+* The Feature Factory
+# Welcome To The Feature Factory, Here's Your Widget Tool
+
+If there's one thing that we've learned as an industry, it is:
+
+    Engineering and Product teams create much more value, much more quickly, if they are given *customer problems to solve*, rather than *features to build*.
+
+But, we've also learned /something else/ as an industry:
+
+    Most stakeholders super duper want to give teams specific features to build
+
+If your team is just churning out features, without much understanding of the business problems those features are supposed to solve, and without being able to come up with creative solutions and/or adapt to what is learned as they go...
+
+... well, you might even be in the median of most software companies, sadly?
+
+The Good News here, is there are much better ways to work, and those better ways to work are quite well described in a some very good books.
+
+If I had to pick one, I'd recommend Escaping the Build Trap, by Melissa Perri.
+
+It's a concise, truly excellent guide to the practices of product management, and is, in particular, *very* strong on what it means to guide teams by way of business problems to solve, instead of features to build.
+
+Honestly, one of the few weak things about Escaping the Build Trap is that the imagined stakeholder in the story she tells is waaaay more rational than just about any stakeholder I've ever worked with. He cheerfully shrugs his shoulders and says "Okay, sure", any time the authorial stand-in asks him to change his behavior.
+
+That has, um, not been my experience?
+
+In the Case Studies later in this book, I'll walk through some examples of working with stakeholders to move towards aligning around problems to solve -- both in their day-to-day interactions with a product/engineering team, and also in their overall goal setting.
+
+Other strong books:
+
+ - User Stories Applied
+
+ - Build, by Tony Fadell
+
+ - Marty Cagan's series

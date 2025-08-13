@@ -1,0 +1,66 @@
+:PROPERTIES:
+:ID:       B9798ABE-0A34-4EC6-9F78-CD5C6404C9D8
+:END:
+#+title: Interruptions & Distractionso
+#+filetags: :Chapter:
+* Interruptions & Distractions
+
+Wouldn't it be great if your engineers had time to, say, *do software engineering*?
+
+But instead, every day they face what feels like some kind of coordinated assault on their focused work time, thanks to:
+
+ - A stream of bugs from customers
+
+   Somehow every one of them at the HIGHEST PRIORITY
+
+ - Relentless feature requests from sales/success/support
+
+   Each incredibly important for SOME SPECIFIC CUSTOMER
+
+ - Weird bits of operational work only engineering can do
+
+   That manual account set-up step for some Important New Customer, or a data pull that BI needs by end of day, to prep for presenting to Senior Leadership *tomorrow*
+
+These interruptive requests tend to fall most heavily on your strongest, most valuable engineers. And that's especially true if those engineers suffer from the  misfortune of being nice.
+
+I have vivid memories of standing by Tom Hare's desk at Wayfair, watching just a parade of people from the operations teams "wander by", each asking for Tom's to help fix some weird edge case. Tom was such a good engineer! And so nice!
+
+In some theories of software that I've seen, all of this work should just be routed through the normal prioritization and planning processes.
+
+Personally, I haven't seen that go great -- it tends to load the PM down with a giant set of tiny decisions, each sort of exhausting to make, each pretty low value by themselves. "Should we fix the account profile bug this week, or not?" "Should we make it possible to put spaces in the campaign names?" "Should Antonio spend today pulling activity data?"
+
+Because there are often dozens (and dozens) of such requests coming in per week, the PM often drifts away from these decisions over time. And then, through the guise of a "bug queue" and/or personal connections, people across the company just shove all kinds of requests at the engineers, and/or reach out directly to advocate and then ask for status (or ask for status as a means to advocate!).
+
+Tempting as it may be to simply ignore all such requests, that's rarely anywhere near optimal for the overall business.
+
+Instead of putting these "random requests" through normal sprint planning, I've had better luck establishing a weekly or bi-weekly meeting where all such "non-sprint" requests for the engineers are gathered, reviewed, and prioritized *against each other*.
+
+If you establish a fixed budget of engineering time for such issues (e.g. 10% of the sprint points), then you can make economically rational decisions without the high overhead of considering each one, one at a time.
+
+The key that really unlocked this for me, was an idea I learned from Andy Rosequist -- which was to empower a single person *on the customer side* to decide how to spend that budget each week. Aka, how to prioritize among all the requests.
+
+I'm going to walk through that in real detail in one of the Case Studies -- it proved an extremely powerful approach, but also took some time and care to properly bootstrap.
+
+If you're finding that there's a barrage of genuinely important, *unrelated to main sprint goals* work taking up time for your team, I highly recommend reading that Case Study.
+
+# into a single weekly or bi-weekly "triage" meeting. This is quite different in nature from normal sprint planning.
+
+# Instead of putting this through normal sprint planning, I recommend trying something like the following (which I'll explore in detail in one of the case studies, hat tip to Andy Rosequist, who first turned me onto this pattern):
+
+#  - Set up a weekly or biweekly "Maintenance Triage" meeting
+
+#  - Set aside a fixed budget of engineering time for dealing with "Maintenance" issues
+
+#  - Designate a *single* person on the "customer" side as the lead for that meeting (e.g. the head of the help desk, or a senior support person).
+
+#  - Designate a single person on the engineering side as point for the meeting -- this must be someone who knows the systems well enough to give meaningful estimates of effort
+
+#  - Each week, the Customer Lead brings in a lightly prioritized list of potential issues from across the company, the Eng Lead gives rough estimates of effort for the top ones
+
+#  - Then the *Customer Lead* picks a set of to work on, that fit within the budget.
+
+# This dramatically reduces the cost of making all these decisions, and forces the folks on the customer side to talk to each other.
+
+# Over time, the Customer Lead learns some basic product management skills.
+
+# It also creates visibility -- that group can start to see patterns, and that can help create investment cases (e.g. to build a data extraction tool).
