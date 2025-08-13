@@ -4,10 +4,10 @@
 #+title: Intro - Work With Humans
 #+filetags: :Chapter:
 * Introduction: The Joys and Pains of Working With Humans
-** Intro
+** Intro - Pains of Broken Interactions
 Few things are more frustrating than being stuck in a broken interaction pattern with the people you work with.
 
-For an engineer or a product manager, trying to develop some hopefully valuable piece of software, that could be:
+For someone working as a software engineer or a product manager that could be:
 
  - A CEO who interrupts standup every other day with "important" new information, constantly randomizing the work of the team and killing any hope of velocity
 
@@ -21,7 +21,7 @@ For an engineer or a product manager, trying to develop some hopefully valuable 
 
 Furthermore, in such situations, it's overwhelmingly the case that the human in question, be they the CEO, sales leader, engineer or PM, *super doesn't want to change their own behavior*.
 
-This should not surprise us.
+This isn't a surprise!
 
 If there's one thing that unifies basically all humans (myself very much included, sadly) it's that we are *extremely* reluctant to change the way we behave.
 
@@ -37,7 +37,7 @@ The product/engineering team could create enormous value for the business... if 
 
 If, on the other hand, the engineers and/or their product partners are stuck in one of these broken interaction patterns, it can feel like they're watching, powerless, as an inevitable disaster unfolds in slow motion. A disaster which, even though they saw it coming, and did everything they could to prevent it, will likely be blamed on them.
 
-At its worst, this can be an incredibly exhausting way to work and live. I once got stuck in such a bad pattern, and experienced such pervasive stress and anxiety, that my wife Bonnie and I still refer to that period as "The Dark Time".
+At its worst, this can be an incredibly exhausting way to work and live. I once got stuck in such a bad pattern, and experienced such pervasive stress and anxiety, that my wife and I still refer to that period as "The Dark Time".
 
 Fortunately, I believe that there is often a way out.
 
@@ -49,11 +49,13 @@ This game plan takes full account of the complexities of human nature, as well a
 
 It focuses on starting with what you have within your control today, uses that to earn early wins, and then gradually builds trust and alignment to enable more significant change.
 
-Running the game plan will likely requiring practicing some new skills -- using "tactical empathy" to deeply understand the hopes and fears of a stakeholder, and also learning how to creatively design increments of change.
+Running the game plan may requiring practicing some new skills -- using "tactical empathy" to deeply understand the hopes and fears of a stakeholder, and also learning how to creatively design increments of change.
 
-Before we dig into that game plan, you might be wondering, "Um, Dan, who are you, exactly?"
+I'm very excited to share this with you.
 
-I'm glad you asked!
+But, before we dig into that game plan, you might be wondering, "Um, Dan, who are you, exactly?"
+
+Good point! I'm glad you asked!
 
 ** The Mini-Tab & The Microsoft C Compiler
 
@@ -65,13 +67,13 @@ Let me tell you a story.
 
 # XXX Move this all back into past tense.
 
-It's the summer of 1991. I've just arrived home from my sophmore year in college.
+It's the summer of 1991. I've just arrived home from my sophmore year in college.[fn:: Yep, I am old.]
 
-As I catch up with my parents, I tell them I'm still liking my computer science major, and that, in fact, I want to spend time that summer coding. I'm looking to teach myself C, and am casting about for a project to work on.
+As I catch up with my parents, I tell them I'm still liking my computer science major, and that, in fact, I'm looking forward to spending some time that summer coding. I'm planning on teaching myself C, and am casting about for a project to work on.
 
-My mother looks interested -- she might have something for me. She works as an Assistant Dean at a local community college, where she runs their adult and continuing education programs. Apparently, each year, late in the summer, her division spends a couple of unpleasant weeks preparing "The Mini-Tab"--their annual catalog of courses.
+My mother looks interested -- she might have something for me. She works as an Assistant Dean at a local community college, where she runs their adult and continuing education programs. She tells me that, each year, late in the summer, her division spends a couple of unpleasant weeks preparing the "Mini-Tab"--an annual catalog of courses.
 
-The Mini-Tab prep involves a great deal of rote work to extract and format course metadata from the descriptions submitted by instructors (so that each course could be properly formatted for their printer).
+The Mini-Tab prep involves a great deal of rote work to extract and format course metadata from the descriptions submitted by instructors.
 
 She says that if I could write them a program to help, she could even pay me.
 
@@ -83,13 +85,15 @@ I said, sure.
 
 Today I would write that program in an afternoon using python and a handful of regular expressions. But I had never heard of regex's at the time, and my long love affair with python was years in my future. It took me a couple of weeks. The input data wasn't consistently in the format she'd described to me, so I kept having to slowly figure out the actual patterns, and then add special cases to handle each one[fn:: My long love affair with automated testing was *also* many years in the future, so I kept on breaking what I had written, and only figuring that out later.].
 
-In the end, the program worked, and I got a check for $100.
+In the end, the program worked, and she handed me a check for $100.
 
-I was *delighted*. This thing I loved doing, hacking on a computer to get it do what I wanted, could actually turn into money?
+I was delighted! This thing I loved doing, hacking on a computer to get it do what I wanted, could actually turn into money?
 
-But I was also delighted to realize that I had saved my mother and her colleagues hours of extremely frustrating work.
+But then, something interesting happened.
 
-She shared real, excited appreciations from the people on her team, that my little program had saved them so much time.
+# But I was *also* delighted to realize that I had saved my mother and her colleagues hours of extremely frustrating work.
+
+My mother shared excited appreciations from the people on her team, about how my little program had saved them hours and hours of frustrating work.
 
 That felt, well, *amazing* -- I had, just by typing strange words and symbols into a little monochrome yellow and black screen, somehow created something that made the real world, well, a little bit better. That *helped* people.
 
@@ -99,7 +103,7 @@ But, so did I.
 
 That little job started me on the path of creating software that solved problems for people, in the real world. That path has turned into both a career, and also a great deal of meaningful work.
 
-I've written software to help people lay out and prepare textbooks for print production; to understand how their marketing campaigns have performed; to fill a warehouse with goods and then to pick, pack and ship those goods back out again; to collaborate on scientific research during drug discovery; to help support english language learner students in public schools.
+I've written software to help people lay out and prepare textbooks for print production; to understand how their marketing campaigns have performed; to fill a warehouse with goods and then to pick, pack and ship those goods back out again; to collaborate on scientific research during drug discovery; to help support English language learner students in public schools.
 
 In so doing, I've spent a great deal of (very rewarding!) time gradually learning how to structure complex software to solve problems in the real world.
 
@@ -126,6 +130,8 @@ My journey into solving problems for people took me from engineering into produc
 This book is my attempt to share what I've learned about how engineers can work with humans to solve meaningful problems.
 
 ** Making Ethical Choices
+
+A final word, before we dive into the game plan.
 
 I will, here in the wilds of 2025, enourage you to take some time to think about the problems you agree to help solve. All our work has an ethical component, whether we realize that or not.
 
