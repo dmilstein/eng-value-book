@@ -58,7 +58,7 @@ Other examples include:
 
 All of those people *need* you. And all of those people have varying forms of influence *over* you.
 
-** The Basic Game Plan
+** The Four Steps of the Loop of Improvement
 
 Okay, now that we've got the definition out of the way, we can lay out the fundamental framework for going through a single loop of improvement:
 
@@ -80,5 +80,51 @@ Okay, now that we've got the definition out of the way, we can lay out the funda
 
 Over time, this will both steadily improve things, and build more and more trust and rapport.
 
-** A Few Trips Through the Loop of Improvement
-A story
+** A Few Cycles of Improvement
+
+Let's imagine a concrete, somewhat common situation -- a key stakeholder who keeps on blowing up the team's focus, by injecting new priorities.
+
+Here's the scenario.
+
+You're at a startup named "All Together Now!", which sells tools for remote team-building. You're still very early -- you have a handful of friends and family users, but are trying to break into "real" customers.
+
+You're the engineering lead over a (very) small team of engineers. You're early enough that ATN! doesn't have a distinct product manager yet. You work closely with the founder/CEO on prioritization.
+
+Good News Part 1: That CEO spends as much time as they can talking to potential customers.
+
+Good News Part 2: it seems like you've identified a genuine, painful problem in the market. Companies are cutting back on expensive in-person offsites, and are actively looking for ways to replace that with means to help their remote teams feel connected to each other, and to the company as a whole.
+
+Bad News: if feels like every time the CEO comes back from a customer call, they jump into the team's Slack and pitches a set of new feature ideas.
+
+This is causing a great deal of churn and confusion.
+
+You're worried that, because the work keeps getting pulled in so many different directions, you won't be able to test out an actual idea, with actual customers, any time soon (and it's not like you have infinite runway).
+
+The team is growing frustrated.
+
+And, to cap it off, the CEO has started expressing concerns about the team's velocity, and asking if you should be pushing people to work longer hours. You're just about certain that more hours will just equal more churn (and possibly some people quitting), if the CEO can't find a way to be more disciplined in how they work with the team.
+
+Unfortunately, when you suggested to the CEO that they not feature bomb the team so often, they rejected it without missing a beat. "Loo, we're early," they said, "I need the team to hear everything I'm learning, we can't wait for some artifical process."
+
+What do you do?
+
+*** Develop an Empathetic Understanding
+The CEO who is constantly interrupting the team may be *afraid* that that they don't know what the team is working on (and thus the team could go off the rails), and they might *want* to play a key role in deciding what problems the team commits to solving (and may even *dream* of some exciting new product coming out that work).
+
+# They're currently frustrated that there doesn't seem to be much visible progress (of course, the constant changes in priority aren't helping on that front).
+
+Stated that way, you can authentically agree that those are *valid concerns* -- even if the behavior those concerns are currently leading to is a disaster.
+
+You want to be able to say something like:
+
+/We're worried that, as we're working right now, it can feel pretty unclear to you what, exactly, the team has prioritized at any given moment. We really want to fix that. We also want to be 100% certain that, as various business priorities shift, you're able to ensure the team is always pointed at the most important problems to solve --  and that, as they work, you have full clarity about what they're developing and discovering. We want to have the best possible shot at building something that you'll be super excited to share with customers./
+
+Stated that way, you're set up to cleanly bridge to something which might involve that CEO *not bothering the team so goddamn often* -- but you can make that proposal while ensuring they have the visibility and the control that they want, and they can feel some hope and excitement about what that might lead to.
+
+Persuading humans to change their behavior works roughly a thousand times better if you can find a way to speak to their hearts as well as their minds.
+
+How can you build this map of your stakeholder's feelings?
+
+Given how powerful and important your stakeholder likely is for both you and your peers, there's a decent chance you can get a pretty good first draft by just spending a half an hour talking about this with people you trust, close to you.
+
+For more, I can heartily recommend building the skills of "Tactical Empathy", which Chris Voss and Tahl Raz describe in their excellent book "Never Split the Difference" -- and which I'll be exploring in my book.
