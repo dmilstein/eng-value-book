@@ -1,0 +1,84 @@
+:PROPERTIES:
+:ID:       B0637E99-E30C-4FF8-B8BA-A660454DE08B
+:END:
+#+title: The Fundamental Game Plan
+#+filetags: :Chapter:
+* The Fundamental Game Plan
+** Increments For the Win
+
+An absolute core of the approach is to make things better through a *series of small steps*, not via one big sweeping change.
+
+Why is the incremental approach so foundational?
+
+First, because adjusting the ways that groups of humans work together to solve problems is, well, not totally dissimilar from adjusting the way a big, complex piece of software works. You may have an overall sense of where you want to go, but you're going to make a bunch of interesting discoveries as you go, you're 100% going to need to learn and adapt.
+
+But then, beyond that, there's another reason: getting other humans to change the way they work is only possible if those humans *trust* you--and fairly deeply at that. In the game plan, you're going to build up more and more trust up over time--by earning wins together, and by steadily demonstrating that you deeply understand the challenges they're facing. There is no shortcut I know of, to instantly build that kind of trust.
+
+Thus, the game plan is a series of *Loops of Improvement*--each trip through the loop makes things a little bit better, creates some win for the business, and builds a little more trust between you and some key person you work with.
+
+This is good news! You can apply all your experience in iterative software and product development. It's just, here you're applying it to a set of humans, instead of a pile of code.
+
+** Naming a Player: "The Stakeholder"
+
+For the game plan, we're going to assume there's one key person you need to advocate with.
+
+Of course, in an actual business, things can be more complex. E.g. an engineering lead may want to challenge their PM partner to take more ownership... but to make that change, they *also* need the Head of Product to step back and create space.
+
+This is another reason why the incremental approach is useful. For any one increment of change, you're going to pick a single key person to focus on. As you work through increments, you can then shift to someone else.
+
+E.g. maybe the first step for that engineering lead is to advocate for just a bit of space with the Head of Product. Then, once they have that they can work with their PM partner to find a way to take a bit more ownership.[fn:: FWIW, if you want someone to take more ownership, "Start with Their Boss" is often a good rule of thumb.]
+
+(If you're wondering how the engineering lead can possibly advocate for space if their PM partner isn't ready to step up and fill that space, we talk through that in real detail in the "Underpowered Product Team" case study. The shortest answer is: the engineering lead will commit to "leaning over" and helping do the product job, for a short period of time. The details of how they pitch this depend on whether or not the Head of Product *already* wants the PM to take more ownership, or if they themselves need to see the benefits of letting go.)
+
+So, for one increment of improvement, you're going to focus on one specific person.
+
+We're going to name this person "The Stakeholder", and we'll define them as:
+
+ a) Someone who *needs* you, in order to accomplish their own goals
+
+ b) Someone who has some form of *influence* or *control* over you, possibly indirectly
+
+# Add c) Someone you need in turn? Or say how you don't always.
+
+Sometimes "influence or control" is extremely straighforward -- e.g. the Head of Product who has final say on your priorities during quarterly planning. But sometimes it's a bit more subtle, e.g. the senior sales rep who has the ear of the CEO, and will sometimes complain about how your team doesn't "care about customer problems". That sales rep may not have any *formal* authority over you, but they still have *influence* -- and thus, in certain contexts, they may be a key stakeholder for you.
+
+Other examples include:
+
+ - Your product or engineering partner in the day-to-day running of a team
+
+ - An executive who is responsible for an overall business objective
+
+ - An engineering or product leader who is guiding a major product investment
+
+ - A lead user for an internal, tech-enabled operation
+
+ - Someone who is responsible for bugs and feature requests from the field (e.g. the head of Support or Customer Success)
+
+ - An engineer who works (or is supposed to work) on top of the platform you're building[fn:: Personally, I love working on tools/platform teams, but it does mean having stakeholders who question, like, everything. "You're unpacking the builds *on* the hosts? Why would you do that? That seems kind of dumb."]
+
+All of those people *need* you. And all of those people have varying forms of influence *over* you.
+
+** The Basic Game Plan
+
+Okay, now that we've got the definition out of the way, we can lay out the fundamental framework for going through a single loop of improvement:
+
+ 1. Develop an *empathetic understanding* of your stakeholder's fears, dreams and frustrations
+
+    By understanding the underlying emotions which are driving your stakeholder's day-to-day behavior, you'll be equipped to make a case for change.
+
+ 2. Design an *increment of improvement* in how you currently work
+
+    Something that will make things a little bit better, while, ideally, generating a meaningful business win on the way.
+
+ 3. Make a *compelling offer* to your stakeholder
+
+    You're going to: offer some concrete things they urgently desire; speak clearly to the fears that they may feel; and then ask them to make a just-the-right-amount-of-uncomfortable change.
+
+   You'll make it as easy as possible for them to say yes by carefully timeboxing the increment and also by ensuring they retain control.
+
+ 4. At the end of the increment, come together to reflect on what's been learned, *adjust and try again*
+
+Over time, this will both steadily improve things, and build more and more trust and rapport.
+
+** A Few Trips Through the Loop of Improvement
+A story
