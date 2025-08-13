@@ -1,0 +1,134 @@
+* Intro / Purpose
+For me to learn from you, and maybe see if any challenges can be helped by the ideas I'm working on.
+
+Time check: 45 minutes?
+
+Theme: challenges w/ stakeholders, maybe more broadly -- how to create value, solve business problems.
+
+My background -- spent a long time building, the move to product, back to building, then leading and managing, over both. Love the intersection of the two.
+
+* Good/Bad
+
+* Context
+** Where do you work
+At PubMark -- since Feb 2019. Second "real job" ever -- 13 years in software. Spent a long time at the two places he's been.
+
+Same as BookBub -- and he works on the Chirp side of the house
+
+Has done a fair amount of "interdisciplinary".
+
+Interested in a more technical leadership role -- wanted to build more things.
+
+The pendulum has swung back a bit - tech leadership, people leadership, the intersection of that jazz.
+
+He works on the Chirp side of the house, has become a mobile developer. he's the engineering lead, is responsible for both, as well as tech lead for one.
+
+** What is your team
+Two eng
+
+Web/Mobile split, currentl.
+
+Each has a "tech lead", his counterpart Laura is the web tech lead.
+
+The purvieu there is "build the thing" make sure people are okay.
+
+His role is that, plus wider, cultural, structure of the teams makes sense.
+
+He reports to their GM, who is also head of product. There is a PM in the mix.
+
+Team size wise -- both currently 3 engineers, normal 3-6. His team was a two-person team
+
+Is the PM on the team?
+
+The role boundaries are... a challenge.
+
+He's worked on teams that has strongly formalized the product role. They don't really need that.
+
+He does think there's a bit of a blur between what the GM does and what the PM does. She's historically an engineer.
+
+The flavor of challenges in working with
+
+** Your role
+** What does your company need to do, in the next 1-2 years?
+Likely an answer as Chirp for a business.
+
+It's being able to tell a particular kind of growth story.
+
+They are a relatively old startup -- the odds of wanting an exit, are high. Being able to show
+
+Stats the roll up to that.
+
+There's nuance to that.
+
+One of the challenges is -- how do you talk about that, in ways that let people feel informed.
+
+** How does your team fit into that?
+By web and mobile. For web, that's enabling different kinds of merchandising. Traditional eCommerce, they don't do subscription-y stuff.
+
+Esp for audiobooks, everyone's catalog is essential identical. They're so expensive to produce, there aren't that many
+
+Is there more of a focus on acquisition -- legacy purchasing has been relatively consistent.
+
+On Mobile, things have been very interesting, because of court rulings -- they can now do things that they couldn't do before on iOS. They can now link to their site and say there's a sale going on. They expected this might be a possibility, and that's changing what's worth building.
+
+As with most developers, the economics of in app purchases don't yet make sense -- but lots of opps to to interact with.
+
+Retention = more listening.
+
+What pct of revenue are they - c. 30%. And, yes, Chirp is seen as a bit more the growth plan.
+
+** What is frustrating about your job?
+Very technical stakeholder.
+
+One of the current areas that's a challenge -- not baseline rapport, but negotiation of boundaries.
+
+I asked -- regular cadence of planning; recent example.
+
+Recent example.
+
+Elle is the GM. Was an engineering.
+
+She and Ben have been talking about ways to define the boundary -- it's not a big re-org, but there was some shift.
+
+What should he be taking off her plate, what should he be learning more of.
+
+lately -- they do alright if they have explicit agreement ahead of time (e.g. for API connections with partners who provide).
+
+Elle is high competence, can keep a lot of detail in her head across a ot of domains. Able to be helpful in a lot of discussions at the drop of the hat.
+
+Recently had an engineer rotate onto the mobile team. He asked a question -- about optimizing images. Ben saw opportunity for that engineer to learn. But Elle jumped in with ideas.
+
+PM = Mary.
+
+What has he tried so far? Some conversations he's trying to have in the next week or two.
+
+Haven't found patterns for more ad hoc check ins negotations.
+
+Can find more ways for "this is my thing, this is your thing".
+
+Elle and he have talked about role def between Mary and Ben--but there's still more to talk about.
+
+** What are Elle's fears and aspirations
+
+A fear = losing technical touch. Not sure if it's more personal identity, or more how she's been successful in her job. Some of both.
+
+Maybe: if she loses that technical guidance and touch, it will slow things down. ("I can do the thing quickly.")
+
+Does she understand this -- yes intellectually, not so much emotionally, doesn't know how to get there.
+
+What makes her feel good?
+
+She wants to feel like her engineering teams are able to move fast.
+
+Have, in conversations, struggled to get specific about.
+
+They do a ton of rotating of engineers. That can influence the vibes about "moving as fast as we can".
+
+The work that happens "before you stop typing" -- that's getting taken away.
+
+If you go in with a really strong "how" already.
+
+* Possible Topics
+** Estimates/increments/milestones
+** Building trust/alignment/rapport
+** Advocating for important technical work
