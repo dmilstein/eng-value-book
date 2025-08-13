@@ -2,8 +2,31 @@
 :ID:       B4926308-39DD-471B-8E71-5FFF7546D6E3
 :END:
 #+title: ToC
-* Work With Humans ToC
+
+* Work With Humans Toc
 ** [[id:F6A8995D-D0A2-458B-AB62-181284DEF1A1][Intro]]: The Joys & Pains of Working With Humans
+** Part I: The Loop of Improvement
+*** [[id:B0637E99-E30C-4FF8-B8BA-A660454DE08B][The Fundamental Game Plan]]
+*** Mine for Frustrations, Fears & Dreams
+*** Design & Propose an Increment of Change
+** Part II: Case Studies
+*** [[id:311775E5-191B-429A-A168-4F712659E334][The Feature Factory]]
+*** [[id:B9798ABE-0A34-4EC6-9F78-CD5C6404C9D8][Interruptions & Distractions]]
+*** [[id:EBBA71C3-8C1A-4DF9-9842-DC9989E52521][No Trust Given]], No Results Achieved
+*** We Need a New Product ASAP!
+*** No Time for "Engineering" Work
+*** Underpowered Product Team
+*** Disengaged Engineering Team
+*** Rival Stakeholders
+** Part III: +Manipulating+ Working With Humans
+*** Tactical Empathy
+*** Collaborative Problem Solving
+*** Storytelling Structures
+*** Putting It Together: Asking For More Responsibility
+
+
+
+* Old Work With Humans ToC
 ** Part I - A Game Plan For Improvement
 *** [[id:0B7B14D2-FAC9-4A85-A618-873B720D1E9A][The Overall Game Plan]]
 Jacob's story at Medium, lightly fictionalized? Or the Story of Sprint shift? Or the "get the CEO to stop coming to stand up" thing I have mostly written already.
