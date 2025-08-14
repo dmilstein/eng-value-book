@@ -4,7 +4,7 @@
 #+title: The Fundamental Game Plan
 #+filetags: :Chapter:
 * The Fundamental Game Plan
-** Increments For the Win
+** Make Improvements in Small Increments
 
 You're going to make things better through a *series of small steps*, not via one big sweeping change.
 
@@ -18,7 +18,7 @@ Because of these reasons, the game plan is a series of *Loops of Improvement*--e
 
 This is good news! You can, with creative thinking, apply just about all your experience in iterative software and product development. Only here you're applying it to a group of humans, instead of a pile of code.
 
-** Defining Your Partner In The Game Plan
+** Choose a Partner For Each Increment
 
 For this game plan, we're going to assume there's one key person you need to advocate with.
 
@@ -58,7 +58,7 @@ Examples of "stakeholders" in this sense include:
 
 All of those people *need* you. And all of those people have varying forms of influence *over* you.
 
-** Stakeholders: People You "Can't Afford To Ignore"
+*** People "You Can't Afford To Ignore"
 
 One useful frame is: someone is one of your stakeholders if you *can't afford to ignore them*.
 
@@ -66,79 +66,91 @@ That may sound a bit brutally transactional, but if there's too large a set of p
 
 E.g. maybe your CEO talks night and day about how critical it is for your team to stay on track for the big new product launch. But, your team is *also* expected to handle a stream of feature requests from existing customers... which that CEO doesn't pay much attention to.
 
-One day, the Head of Customer Success bangs on your door, and demands you immediately add a new feature for a handful of "at-risk" enterprise customers.
+One day, the Head of Customer Success comes banging on your door, and demands you immediately add a new feature for a handful of "at-risk" enterprise customers.
 
-Can you *afford* to ignore this request, in order to stay on track for the big feature launch?
+Can you *afford* to ignore this request, in order to stay on track for the big product launch?
 
 Or if you do, will you later receive an unpleasant lecture from the CEO and acquire a reputation as "not being a team player"?
 
-The only way you and your team will create significant value is if you can relentlessly focus on the most important, most valuable work at every moment. One extremely common failure mode is to struggle with too large a set of people you and your team are somehow implicitly accountable to.
+The only way you and your team will create significant value is if you can relentlessly focus on the most important, most valuable work at every moment. Struggling with too large a set of people you are somehow implicitly accountable to makes it impossible to do so.
 
 Consider developing (and maintaining) a list of the people you can't afford to ignore.
 
-Looking that over, you may find a few key "stakeholders" you hadn't been thinking about -- with several of whom you may be stuck in broken interaction patterns, leading to frustration and/or wasted work.
+Looking that over, you may find a few key "stakeholders" you hadn't been thinking about -- and, you may be stuck in broken interaction patterns with some of them, leading to frustration and/or wasted work.
 
-We'll touch on how to improve collaborations with these kinds of "implicit stakeholders" in several Case Studies, including [[id:B9798ABE-0A34-4EC6-9F78-CD5C6404C9D8][Interruptions & Distractions]], and also *Low-Value/Waste Work*.
+We'll touch on how to improve collaborations with these kinds of "implicit stakeholders" in several Case Studies, including [[id:B9798ABE-0A34-4EC6-9F78-CD5C6404C9D8][Interruptions & Distractions]], and also *Stop Doing Low-Value/Waste Work*.
 
-** The Four Steps of the Loop of Improvement
+** The Four Steps of an Increment of Improvement
 
-Okay, now that we've got the definition out of the way, we can lay out the fundamental framework for going through a single loop of improvement:
+Okay, now that we've selected a single stakeholder to focus on, we can lay out the fundamental framework for a single increment of improvement:
 
  1. Develop an *empathetic understanding* of your stakeholder's fears, dreams and frustrations
 
     By understanding the underlying emotions which are driving your stakeholder's day-to-day behavior, you'll be equipped to make a case for change.
 
- 2. Design an *increment of improvement* in how you currently work
+ 2. Design an *increment of improvement* in how you currently work together
 
-    Something that will make things a little bit better, while, ideally, generating a meaningful business win on the way.
+    Something that will make things a little bit better, while also generating a meaningful business win on the way.
 
  3. Make a *compelling offer* to your stakeholder
 
-    You're going to: offer some concrete things they urgently desire; speak clearly to the fears that they may feel; and then ask them to make a just-the-right-amount-of-uncomfortable change.
+    Offer them something concrete that they urgently desire.
 
-   You'll make it as easy as possible for them to say yes by carefully timeboxing the increment and also by ensuring they retain control.
+    In doing so, speak to both their fears and their hopes.
 
- 4. At the end of the increment, come together to reflect on what's been learned, *adjust and try again*
+    In return, ask them to make a "slightly uncomfortable" change.
 
-Over time, this will both steadily improve things, and build more and more trust and rapport.
+    Make it as easy as possible for them to say "yes" by a) carefully timeboxing the increment and b) ensuring the stakeholder explicitly retains *control*.
 
-** A Few Cycles of Improvement
+ 4. At the end of the increment, *decide together* what you've learned and how, together, you want to adjust going ahead.
 
-Let's imagine a concrete, somewhat common situation -- a key stakeholder who keeps on blowing up the team's focus, by injecting new priorities.
+Through repeated cycles of this collaborative work, you can both drive improvements and also build a great deal of trust and rapport.
 
-Here's the scenario.
+Let's see how this works through an example.
 
-You're at a startup named "All Together Now!", which sells tools for remote team-building. You're still very early -- you have a handful of enthusiastic friends and family users, but are trying to break into "real" customers.
+** Scenario: Constantly Changing Priorities
 
-You're the engineering lead over a (very) small team of engineers. You're early enough that ATN! doesn't have a distinct product manager yet. You work closely with the founder/CEO on prioritization.
+We'll go through a series of increments to improve a specific, real-world situation -- an engineering leader who is struggling to make progress, because a key stakeholder keeps changing priorities.
 
-Good News Part 1: That CEO spends as much time as they can talking to potential customers.
+Because so much of what we're going to be talking about has to do with the *humans*, with their messy feelings, we're going to tell a story about those humans.
 
-Good News Part 2: it seems like you've identified a genuine, painful problem in the market. Companies are cutting back on expensive in-person offsites, and are actively looking for ways to replace that with means to help their remote teams feel connected to each other, and to the company as a whole.
+It features a young engineering manager named Quin.
 
-Bad News: if feels like every time the CEO comes back from a customer call, they jump into the team's Slack and pitch a set of new feature ideas.
+Quin works at an early-stage startup named "All Together Now!". Her company is developing tools for remote team-building, featuring a playful mix of video, activities, and prompts. ATN! (as they call call it) is still quite early -- they have a handful of enthusiastic friends and family users, but are still trying to break into "real" customers.
+
+Quin is the engineering lead over a (very) small team of engineers. ATN! doesn't have a distinct product manager yet. Instead, Quin works closely on prioritization with Marco, the founder/CEO.
+
+In terms of how Marco and Quin work together, there's some good news and some bad news.
+
+Good News, Part 1: Marco spends as a great deat of time talking to potential customers.
+
+Good News, Part 2: It seems like ATN! has identified a genuine, painful problem in the market. Companies are cutting back on expensive in-person offsites, and are actively looking for ways to replace that with means to help their remote teams feel connected to each other.
+
+Bad News: if feels to Quin like every time Marco hangs up with a customer, he jumps into the team's Slack and pitches an entirely new set of feature ideas.
 
 This is causing a great deal of churn and confusion.
 
-You're worried that, because the work keeps getting pulled in so many different directions, you won't be able to test out an actual idea, with actual customers, any time soon (and it's not like you have infinite runway).
+Quin is worried that, because the team keeps getting pulled in so many different directions, ATN! won't be able to test out an actual idea, with actual customers, any time soon.
 
-The team is growing frustrated.
+Plus, the engineers are growing frustrated.
 
-To cap it off, the CEO has started expressing concerns about the team's velocity, and asking if you should be pushing people to work longer hours. You're just about certain that more hours will just equal more churn (and possibly some people quitting), if the CEO can't find a way to be more disciplined in how they work with the team.
+To cap it off, Marco has started expressing concerns about the team's velocity. At their last 1:1, he suggeste Quin start nudging people to work longer hours. She's just about certain that more hours won't do much except push their best engineer out the door. They need to find one idea and stick to it.
 
-Unfortunately, when you suggested to the CEO that they not feature bomb the team so often, they rejected it without missing a beat. "Look, we're early," they said, "I need the team to hear everything I'm learning, we can't wait for some artifical process."
+Unfortunately, when Quin carefully suggested to the Marco that he not feature bomb the team so often, he rejected the suggestion without missing a beat. "Look, we're early," he said, "I need the team to hear everything I'm learning, we can't wait for some artificial process."
 
-What do you do?
+What can Quin do?
 
-*** Step 1. Develop an Empathetic Understanding
+** Step 1. Develop an Empathetic Understanding
 
-Instead of suggesting to the CEO that they work differently, instead, you find a relatively calm moment in the workday, and break out a bit of time to *ask them questions*.
+/1. Develop an *empathetic understanding* of your stakeholder's fears, dreams and frustrations/
 
-During their weekly Zoom 1:1 with the CEO, Quin says:
+Given that her attempts to address the problem head on failed, Quin backs up and decides to start by *learning more about what Marco is thinking*, instead of advocating for any specific changes.
+
+Partway through their weekly Zoom 1:1, Quin says:
 
 "I've been wanting to ask you a few questions, is now a good time?"
 
-Marco, the CEO, shrugs in agreement. Quin can see his eyes flicking off screen occasionally. She knows he has other windows open.
+Marco shrugs in agreement. Quin can see his eyes flicking off screen occasionally. She knows he has other windows open.
 
 She takes a breath. "You've talked a good bit about what we'd need to demonstrate, to raise a series B on good terms. I wanted to see if I have that all mostly right."
 
@@ -146,55 +158,76 @@ Marco quirks his head. This has broken through just a bit, Quin thinks.
 
 "Our current runway is about 18 months", she begins, "but we need to get some big customers in the next six to twelve months, so that you have time to tell that story to potential investors. Is that about right?"
 
-Marco purses his lips. "Almost. It's not enough that they're *big*--they need to be happy and engaged, too. Big sales aren't going to do it on their own."
+Marco purses his lips. "Almost. It's not enough that our first customers are *big*--they need to be happy and engaged, too. Big sales aren't going to do it on their own. VC's are going to want to talk to people who are *using* the product."
 
-"Got it," said Quin eagerly, "let me say that back to you, make sure I've got it. It's not enough..."
+"Got it," said Quin eagerly, "let me say that back to you, make sure I've got it. It's not enough to get sales..." She summarized the nuance around engagement she had just heard from Marco, and made sure it sounded right to him.
 
-Quin then spent a few more minutes drawing out from Marco a picture of the key overall strategic goals for their startup, and how those mapped back to the current work of the team. At each step, she carefully echoed back to him what she'd heard, and asked if she'd got it right.
+Quin spent a few more minutes drawing out from Marco a picture of the key overall strategic goals for their startup, and how those mapped back to the current work of the team. At each step, she carefully echoed back to him what she'd heard, and asked if she'd got it right.
 
-After a few minutes, she paused briefly to look through her notes, and then wrapped it all up by giving as clear and concise a summary as she could, of what they had discussed.
+After a few minutes, she paused briefly to look through her notes, and then wrapped it all up by giving a clear and concise a summary of everything they had discussed.
 
 "Does that sound about right?" she asked Marco, one final time.
 
-This time, he nodded vigorously.  "Yes, that's exactly it. I'm glad we talked this out." He'd long since stopped looking at his other screens.
+This time, he nodded vigorously.  "Yes, that's *exactly* it. I'm glad we talked this out." He'd long since stopped looking at his other screens.
 
 "Thanks", said Quin. "Me, too."
 
-Quin has obtained the first part of what she needs, to develop an empathetic understanding of Marco's fears, dreams and frustrations:
+Quin has been using an *extremely* powerful technique -- "echoing back and summarizing". We'll talk in more detail about that in the next chapter. It's a sort of superpower for working with stakeholders.
+
+By using that superpower, Quin has obtained the first part of what she needs, to develop an empathetic understanding of Marco's fears, dreams and frustrations:
 
 *The specific way he would describe an overall "strategic intent" for the business, and how her work fits into it.*
 
-She's done so by using an extremely powerful technique -- echoing back and summarizing. We'll talk in more detail about that in the next chapter.
+In other words, she's now ready to *start* a pitch for change by putting it in the context of that overall strategic intent.
 
-The other thing she needs is an understanding of some of Marco's driving underlying emotions -- what he's afraid of, what he hopes for, what is currently frustrating him.
+Instead of saying "It's frustrating the team for you to keep changing priorities", she can say:
 
-With the strategic intent in hand, the four questions she nexts needs to answer about her stakeholder are:
+"As I understand it, ATN!'s most important goal is to have a set of happy, engaged customers within six to eight months. To get there, we need to get something concrete in the hands of a few actual customers as quickly as possible, and then improve based on what we learn. I'm worried that, because we keep on changing what we're trying to build, it could take too long to get to those first customers."
 
- - What is currently *frustrating* them?
+Marco is hugely more likely to listen to that latter concern -- because it's speaking to what he is trying to do, *using the words he himself uses*.
 
- - What are they *afraid* of?
+Literally just *saying* that overall strategic goal first can make a big difference. It encourages the stakeholder to join you in a discussion of what is best for the business.
 
- - What makes them *feel good*?
+This is a great start.
 
- - What do they *dream of* or hope for?
+However, to make a full empathetic statement, Quin needs a bit more.
 
-Note, it's not important that you get this exactly right! Because you'll be working iteratively, you can update and adjust this as you go.
+She needs an understanding of some of Marco's underlying emotions, specifically, she needs to answer four questions:
 
-Quin has worked closely enough with Marco that she has a pretty good guess as to what those things are:
+ - What is currently *frustrating* him?
 
- - What is currently frustrating him?
+ - What is he *afraid* of?
 
-   The team can't seem to build any of the ideas they talk about, fast enough for Marco to see them and decide if they feel good.
+ - What makes him *feel good*?
 
- - What are they afraid of?
+ - What does he *dream of* or hope for?
 
-   Losing control. They've worked with engineering teams in the past who spent weeks on meaningless refactorings, and at the end of it, Marco was super frustrated.
+Note, it's not necessary for her to get this exactly right on the first try. Because she'll be working iteratively, she can update and adjust this as she goes.
 
- - What makes them feel good?
+Quin could use her echoing back and summarizing skill to "mine for" these answers. But, in this case, she has worked closely enough with Marco that she has some pretty good guesses.
 
-   Looking at prototypes and brainstorming next steps. Sharing what they've learned in the field with the team -- both because it helps them clarify their own thinking, and also because they want the team to feel connected to the customers.
+ - *What is currently frustrating him?*
 
- - What do they dream or hope for?
+   Quin is pretty sure it's the lack of *velocity*. She can tell Marco feels like it takes forever for him to see any progress on the product (and that's why he's starting to suggest she put more pressure on the team).
+
+ - *What is he afraid of?*
+
+   Quin has heard Marco speak about engineering teams he's worked with in the past, who missed all their deadlines, didn't let him know in advance, and left him completely in the lurch.
+
+   She suspects one of his biggest fears is discovering that the engineering team is wildly far behind where he thought, or has gone off in some crazy direction.
+
+   She thinks, he's also likely afraid of not finding early customers.
+
+ - *What makes him feel good?*
+
+   Marco consistently lights up when he has a chance to interact with a visual prototype.
+
+   He also clearly deeply enjoys sharing what he's learned in the field with the team.
+
+   # XXX fix grammar
+   Quin has heard him say that this both helps him clarify his own thinking, but also it's because he wants to build a company where everyone feels connected to the customers.
+
+ - *What does he dream of or hope for*?
 
    Sharing something exciting with customers that they can't wait to start using.
 
