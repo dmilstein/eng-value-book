@@ -6,23 +6,63 @@
 * The Fundamental Game Plan
 ** Increments For the Win
 
-An absolute core of the approach is to make things better through a *series of small steps*, not via one big sweeping change.
+You're going to make things better through a *series of small steps*, not via one big sweeping change.
 
-Why is the incremental approach so foundational?
+The incremental approach is absolutely foundational, for at least two reasons:
 
-First, because adjusting the ways that groups of humans work together to solve problems is, well, not totally dissimilar from adjusting the way a big, complex piece of software works. You may have an overall sense of where you want to go, but you're going to make a bunch of interesting discoveries as you go, you're 100% going to need to learn and adapt.
+First, adjusting the ways that groups of humans work together has a great deal in common with adjusting the way a big, complex piece of software works. You'll start with an overall sense of where you want to go, but you're going to make a bunch of interesting discoveries, some things will turn out to be much, much harder than you expected, unexpected opportunities will arise, the circumstances around you will change. Thus, just as when developing software, the iterative, experiment-and-learn approach is vastly more likely to succeed than the big bang plan-it-all-ahead-of-time approach.
 
 But then, beyond that, there's another reason: getting other humans to change the way they work is only possible if those humans *trust* you--and fairly deeply at that. In the game plan, you're going to build up more and more trust up over time--by earning wins together, and by steadily demonstrating that you deeply understand the challenges they're facing. There is no shortcut I know of, to instantly build that kind of trust.
 
-Thus, the game plan is a series of *Loops of Improvement*--each trip through the loop makes things a little bit better, creates some win for the business, and builds a little more trust between you and some key person you work with.
+Because of these reasons, the game plan is a series of *Loops of Improvement*--each trip through the loop makes your interaction patterns a little bit better, creates a small win for the business, and builds a little more trust between you and some key person you work with.
 
-This is good news! You can apply all your experience in iterative software and product development. It's just, here you're applying it to a set of humans, instead of a pile of code.
+This is good news! You can, with creative thinking, apply just about all your experience in iterative software and product development. Only here you're applying it to a group of humans, instead of a pile of code.
 
 ** Naming a Player: "The Stakeholder"
 
-For the game plan, we're going to assume there's one key person you need to advocate with.
+For this game plan, we're going to assume there's one key person you need to advocate with.
 
-Of course, in an actual business, things can be more complex. E.g. an engineering lead may want to challenge their PM partner to take more ownership... but to make that change, they *also* need the Head of Product to step back and create space.
+Of course, in an actual business, things can be more complex. E.g. an engineering lead may want to encourage their PM partner to take more ownership... but to make that change, they *also* need the Head of Product to step back and create space.
+
+This is another reason why the incremental approach is so useful. For any one increment of change, you're going to pick a single key person to focus on. As you work through increments, you can then shift to someone else.
+
+E.g. maybe the first step for that engineering lead is to advocate for just a bit of space with the Head of Product. Then, once they have that, they can work with their PM partner to help them gradually take more ownership.[fn:: You might be wondering how the engineering lead can possibly advocate for space if their PM partner isn't ready to step up. One answer is: the engineering lead can commit to "leaning over" and personally helping do the product job, for a short period of time. Exactly how they make this offer this depends on whether or not the Head of Product *already* wants their PM to take more independent ownership, or if that Head of Product needs to first experience the benefits of letting go. We'll talk through this in detail in the "Underpowered Product Team" case study.]
+
+So, for your first increment of improvement, we're going to focus on one specific person.
+
+We're going to name this person *The Stakeholder*, and we'll define a "stakeholder" as:
+
+ a) Someone who *needs* you, in order to accomplish their own goals
+
+ b) Someone who has some form of *influence* over you
+
+# Add c) Someone you need in turn? Or say how you don't always.
+
+In some cases, "influence" is extremely straighforward -- e.g. the Head of Product who has final say on your team's priorities during quarterly planning, or the Engineering Director who conducts your semi-annual performance reviews.
+
+But sometimes it's a bit more subtle -- e.g. the senior sales rep who has the ear of the CEO, and will sometimes complain about how your team doesn't "care about the customer". That sales rep may not have any *formal* authority over you, but they still have *influence* -- and thus, in certain contexts, they may be a key stakeholder for you.
+
+Examples of "stakeholders" in this sense include:
+
+ - Your product or engineering partner in the day-to-day running of a team
+
+ - An executive who is responsible for an overall business objective
+
+ - A senior engineering or product leader who is guiding a major product investment
+
+ - A power user of an internal tool your team owns
+
+ - A customer support lead who collects bugs and feature requests from the field
+
+ - An engineering manager whose team depends on a platform you own[fn:: I love working on tools/platform teams, but it does mean having stakeholders who question kind of everything. "What? You're unpacking the builds *on* the hosts? Why would you do that? That seems dumb."]
+
+All of those people *need* you. And all of those people have varying forms of influence *over* you.
+
+*** Multiple People
+
+E.g. an engineering lead may want to encourage their PM partner to, early in development, deeply engage with key product tradeoffs, to prevent weeks of later churn. Unfortunately, the PM's manager, the Head of Product, has long insisted on being consulted for all key product decisions, no matter how small. Thus, the PM has just about no experience making decision on their own, and may not even fully understand that part of the product role.
+
+Where can the engineering lead start?
 
 This is another reason why the incremental approach is useful. For any one increment of change, you're going to pick a single key person to focus on. As you work through increments, you can then shift to someone else.
 
@@ -30,33 +70,19 @@ E.g. maybe the first step for that engineering lead is to advocate for just a bi
 
 (If you're wondering how the engineering lead can possibly advocate for space if their PM partner isn't ready to step up and fill that space, we talk through that in real detail in the "Underpowered Product Team" case study. The shortest answer is: the engineering lead will commit to "leaning over" and helping do the product job, for a short period of time. The details of how they pitch this depend on whether or not the Head of Product *already* wants the PM to take more ownership, or if they themselves need to see the benefits of letting go.)
 
-So, for one increment of improvement, you're going to focus on one specific person.
+*** Afford to Ignore
 
-We're going to name this person "The Stakeholder", and we'll define them as:
+One useful frame is: someone is one of your stakeholders if you *can't afford to ignore them*. That may sound a bit brutally transactional, but if there's too large a set of people who you can't ignore, then there's almost no chance your team can move quickly and create meaningful value.  Asking who you can ignore will sometimes shine a light on the implicit power structures of your company--and can reveal fundamental conflicts that are making it impossible for you to win. E.g. maybe your CEO talks night and day about how critical it is for your team to stay on track for the big new product launch they've promised to the board. However, your team is *also* expected to handle a stream of feature requests from existing customers, which that CEO doesn't pay any attention to. If, one day, the Head of Customer Success comes banging on your door, demanding you immediately add a new feature for enterprise customers, can you *afford* to ignore them? Or if you do, will you receive an unpleasant lecture from the CEO and then acquire a reputation as "not being a team player"?
 
- a) Someone who *needs* you, in order to accomplish their own goals
+If not, the CEO's statement of your priorities isn't a full truth of your situation.
 
- b) Someone who has some form of *influence* or *control* over you, possibly indirectly
+The Head of Customer Success  has shown a willingness in the past to blame engineering and product if they fail to hit their retention numbers.
 
-# Add c) Someone you need in turn? Or say how you don't always.
+Separately, the Head of Customer Success
 
-Sometimes "influence or control" is extremely straighforward -- e.g. the Head of Product who has final say on your priorities during quarterly planning. But sometimes it's a bit more subtle, e.g. the senior sales rep who has the ear of the CEO, and will sometimes complain about how your team doesn't "care about customer problems". That sales rep may not have any *formal* authority over you, but they still have *influence* -- and thus, in certain contexts, they may be a key stakeholder for you.
+The only way you and your team will create significant value is if you can relentlessly focus on the most important, most valuable work at every moment. People you can't ignore are, in the actual,
 
-Other examples include:
 
- - Your product or engineering partner in the day-to-day running of a team
-
- - An executive who is responsible for an overall business objective
-
- - An engineering or product leader who is guiding a major product investment
-
- - A lead user for an internal, tech-enabled operation
-
- - Someone who is responsible for bugs and feature requests from the field (e.g. the head of Support or Customer Success)
-
- - An engineer who works (or is supposed to work) on top of the platform you're building[fn:: Personally, I love working on tools/platform teams, but it does mean having stakeholders who question, like, everything. "You're unpacking the builds *on* the hosts? Why would you do that? That seems kind of dumb."]
-
-All of those people *need* you. And all of those people have varying forms of influence *over* you.
 
 ** The Four Steps of the Loop of Improvement
 
@@ -86,7 +112,7 @@ Let's imagine a concrete, somewhat common situation -- a key stakeholder who kee
 
 Here's the scenario.
 
-You're at a startup named "All Together Now!", which sells tools for remote team-building. You're still very early -- you have a handful of friends and family users, but are trying to break into "real" customers.
+You're at a startup named "All Together Now!", which sells tools for remote team-building. You're still very early -- you have a handful of enthusiastic friends and family users, but are trying to break into "real" customers.
 
 You're the engineering lead over a (very) small team of engineers. You're early enough that ATN! doesn't have a distinct product manager yet. You work closely with the founder/CEO on prioritization.
 
@@ -94,7 +120,7 @@ Good News Part 1: That CEO spends as much time as they can talking to potential 
 
 Good News Part 2: it seems like you've identified a genuine, painful problem in the market. Companies are cutting back on expensive in-person offsites, and are actively looking for ways to replace that with means to help their remote teams feel connected to each other, and to the company as a whole.
 
-Bad News: if feels like every time the CEO comes back from a customer call, they jump into the team's Slack and pitches a set of new feature ideas.
+Bad News: if feels like every time the CEO comes back from a customer call, they jump into the team's Slack and pitch a set of new feature ideas.
 
 This is causing a great deal of churn and confusion.
 
@@ -102,13 +128,80 @@ You're worried that, because the work keeps getting pulled in so many different 
 
 The team is growing frustrated.
 
-And, to cap it off, the CEO has started expressing concerns about the team's velocity, and asking if you should be pushing people to work longer hours. You're just about certain that more hours will just equal more churn (and possibly some people quitting), if the CEO can't find a way to be more disciplined in how they work with the team.
+To cap it off, the CEO has started expressing concerns about the team's velocity, and asking if you should be pushing people to work longer hours. You're just about certain that more hours will just equal more churn (and possibly some people quitting), if the CEO can't find a way to be more disciplined in how they work with the team.
 
-Unfortunately, when you suggested to the CEO that they not feature bomb the team so often, they rejected it without missing a beat. "Loo, we're early," they said, "I need the team to hear everything I'm learning, we can't wait for some artifical process."
+Unfortunately, when you suggested to the CEO that they not feature bomb the team so often, they rejected it without missing a beat. "Look, we're early," they said, "I need the team to hear everything I'm learning, we can't wait for some artifical process."
 
 What do you do?
 
-*** Develop an Empathetic Understanding
+*** Step 1. Develop an Empathetic Understanding
+
+Instead of suggesting to the CEO that they work differently, instead, you find a relatively calm moment in the workday, and break out a bit of time to *ask them questions*.
+
+During their weekly Zoom 1:1 with the CEO, Quin says:
+
+"I've been wanting to ask you a few questions, is now a good time?"
+
+Marco, the CEO, shrugs in agreement. Quin can see his eyes flicking off screen occasionally. She knows he has other windows open.
+
+She takes a breath. "You've talked a good bit about what we'd need to demonstrate, to raise a series B on good terms. I wanted to see if I have that all mostly right."
+
+Marco quirks his head. This has broken through just a bit, Quin thinks.
+
+"Our current runway is about 18 months", she begins, "but we need to get some big customers in the next six to twelve months, so that you have time to tell that story to potential investors. Is that about right?"
+
+Marco purses his lips. "Almost. It's not enough that they're *big*--they need to be happy and engaged, too. Big sales aren't going to do it on their own."
+
+"Got it," said Quin eagerly, "let me say that back to you, make sure I've got it. It's not enough..."
+
+Quin then spent a few more minutes drawing out from Marco a picture of the key overall strategic goals for their startup, and how those mapped back to the current work of the team. At each step, she carefully echoed back to him what she'd heard, and asked if she'd got it right.
+
+After a few minutes, she paused briefly to look through her notes, and then wrapped it all up by giving as clear and concise a summary as she could, of what they had discussed.
+
+"Does that sound about right?" she asked Marco, one final time.
+
+This time, he nodded vigorously.  "Yes, that's exactly it. I'm glad we talked this out." He'd long since stopped looking at his other screens.
+
+"Thanks", said Quin. "Me, too."
+
+Quin has obtained the first part of what she needs, to develop an empathetic understanding of Marco's fears, dreams and frustrations:
+
+*The specific way he would describe an overall "strategic intent" for the business, and how her work fits into it.*
+
+She's done so by using an extremely powerful technique -- echoing back and summarizing. We'll talk in more detail about that in the next chapter.
+
+The other thing she needs is an understanding of some of Marco's driving underlying emotions -- what he's afraid of, what he hopes for, what is currently frustrating him.
+
+With the strategic intent in hand, the four questions she nexts needs to answer about her stakeholder are:
+
+ - What is currently *frustrating* them?
+
+ - What are they *afraid* of?
+
+ - What makes them *feel good*?
+
+ - What do they *dream of* or hope for?
+
+Note, it's not important that you get this exactly right! Because you'll be working iteratively, you can update and adjust this as you go.
+
+Quin has worked closely enough with Marco that she has a pretty good guess as to what those things are:
+
+ - What is currently frustrating him?
+
+   The team can't seem to build any of the ideas they talk about, fast enough for Marco to see them and decide if they feel good.
+
+ - What are they afraid of?
+
+   Losing control. They've worked with engineering teams in the past who spent weeks on meaningless refactorings, and at the end of it, Marco was super frustrated.
+
+ - What makes them feel good?
+
+   Looking at prototypes and brainstorming next steps. Sharing what they've learned in the field with the team -- both because it helps them clarify their own thinking, and also because they want the team to feel connected to the customers.
+
+ - What do they dream or hope for?
+
+   Sharing something exciting with customers that they can't wait to start using.
+
 The CEO who is constantly interrupting the team may be *afraid* that that they don't know what the team is working on (and thus the team could go off the rails), and they might *want* to play a key role in deciding what problems the team commits to solving (and may even *dream* of some exciting new product coming out that work).
 
 # They're currently frustrated that there doesn't seem to be much visible progress (of course, the constant changes in priority aren't helping on that front).
