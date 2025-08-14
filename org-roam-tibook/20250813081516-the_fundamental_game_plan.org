@@ -18,15 +18,15 @@ Because of these reasons, the game plan is a series of *Loops of Improvement*--e
 
 This is good news! You can, with creative thinking, apply just about all your experience in iterative software and product development. Only here you're applying it to a group of humans, instead of a pile of code.
 
-** Naming a Player: "The Stakeholder"
+** Defining Your Partner In The Game Plan
 
 For this game plan, we're going to assume there's one key person you need to advocate with.
 
 Of course, in an actual business, things can be more complex. E.g. an engineering lead may want to encourage their PM partner to take more ownership... but to make that change, they *also* need the Head of Product to step back and create space.
 
-This is another reason why the incremental approach is so useful. For any one increment of change, you're going to pick a single key person to focus on. As you work through increments, you can then shift to someone else.
+This is another reason why the incremental approach is so useful. For any one increment of change, you'll pick a single key person to focus on. As you work through increments, you can then shift to someone else.
 
-E.g. maybe the first step for that engineering lead is to advocate for just a bit of space with the Head of Product. Then, once they have that, they can work with their PM partner to help them gradually take more ownership.[fn:: You might be wondering how the engineering lead can possibly advocate for space if their PM partner isn't ready to step up. One answer is: the engineering lead can commit to "leaning over" and personally helping do the product job, for a short period of time. Exactly how they make this offer this depends on whether or not the Head of Product *already* wants their PM to take more independent ownership, or if that Head of Product needs to first experience the benefits of letting go. We'll talk through this in detail in the "Underpowered Product Team" case study.]
+E.g. maybe the first step for that engineering lead is to advocate for just a bit of space with the Head of Product. Then, once they have that, they can work with their PM partner to help them gradually take more ownership.[fn:: You might be wondering how the engineering lead can possibly advocate for space if their PM partner isn't ready to step up. One answer is: the engineering lead can commit to "leaning over" and personally helping do the product job, for a short period of time. Exactly how they make this offer this depends on whether or not the Head of Product *already* wants the PM to take more independent ownership, or if that Head of Product needs to first experience the benefits of letting go. We'll talk through this in detail in the "Underpowered Product Team" case study.]
 
 So, for your first increment of improvement, we're going to focus on one specific person.
 
@@ -58,31 +58,27 @@ Examples of "stakeholders" in this sense include:
 
 All of those people *need* you. And all of those people have varying forms of influence *over* you.
 
-*** Multiple People
+** Stakeholders: People You "Can't Afford To Ignore"
 
-E.g. an engineering lead may want to encourage their PM partner to, early in development, deeply engage with key product tradeoffs, to prevent weeks of later churn. Unfortunately, the PM's manager, the Head of Product, has long insisted on being consulted for all key product decisions, no matter how small. Thus, the PM has just about no experience making decision on their own, and may not even fully understand that part of the product role.
+One useful frame is: someone is one of your stakeholders if you *can't afford to ignore them*.
 
-Where can the engineering lead start?
+That may sound a bit brutally transactional, but if there's too large a set of people who you can't ignore, then there's almost no chance your team can move quickly and create meaningful value.  Asking who you can ignore can shine a light on the implicit power structures of your company--and can reveal fundamental conflicts that are making it impossible for you to win.
 
-This is another reason why the incremental approach is useful. For any one increment of change, you're going to pick a single key person to focus on. As you work through increments, you can then shift to someone else.
+E.g. maybe your CEO talks night and day about how critical it is for your team to stay on track for the big new product launch. But, your team is *also* expected to handle a stream of feature requests from existing customers... which that CEO doesn't pay much attention to.
 
-E.g. maybe the first step for that engineering lead is to advocate for just a bit of space with the Head of Product. Then, once they have that they can work with their PM partner to find a way to take a bit more ownership.[fn:: FWIW, if you want someone to take more ownership, "Start with Their Boss" is often a good rule of thumb.]
+One day, the Head of Customer Success bangs on your door, and demands you immediately add a new feature for a handful of "at-risk" enterprise customers.
 
-(If you're wondering how the engineering lead can possibly advocate for space if their PM partner isn't ready to step up and fill that space, we talk through that in real detail in the "Underpowered Product Team" case study. The shortest answer is: the engineering lead will commit to "leaning over" and helping do the product job, for a short period of time. The details of how they pitch this depend on whether or not the Head of Product *already* wants the PM to take more ownership, or if they themselves need to see the benefits of letting go.)
+Can you *afford* to ignore this request, in order to stay on track for the big feature launch?
 
-*** Afford to Ignore
+Or if you do, will you later receive an unpleasant lecture from the CEO and acquire a reputation as "not being a team player"?
 
-One useful frame is: someone is one of your stakeholders if you *can't afford to ignore them*. That may sound a bit brutally transactional, but if there's too large a set of people who you can't ignore, then there's almost no chance your team can move quickly and create meaningful value.  Asking who you can ignore will sometimes shine a light on the implicit power structures of your company--and can reveal fundamental conflicts that are making it impossible for you to win. E.g. maybe your CEO talks night and day about how critical it is for your team to stay on track for the big new product launch they've promised to the board. However, your team is *also* expected to handle a stream of feature requests from existing customers, which that CEO doesn't pay any attention to. If, one day, the Head of Customer Success comes banging on your door, demanding you immediately add a new feature for enterprise customers, can you *afford* to ignore them? Or if you do, will you receive an unpleasant lecture from the CEO and then acquire a reputation as "not being a team player"?
+The only way you and your team will create significant value is if you can relentlessly focus on the most important, most valuable work at every moment. One extremely common failure mode is to struggle with too large a set of people you and your team are somehow implicitly accountable to.
 
-If not, the CEO's statement of your priorities isn't a full truth of your situation.
+Consider developing (and maintaining) a list of the people you can't afford to ignore.
 
-The Head of Customer Success  has shown a willingness in the past to blame engineering and product if they fail to hit their retention numbers.
+Looking that over, you may find a few key "stakeholders" you hadn't been thinking about -- with several of whom you may be stuck in broken interaction patterns, leading to frustration and/or wasted work.
 
-Separately, the Head of Customer Success
-
-The only way you and your team will create significant value is if you can relentlessly focus on the most important, most valuable work at every moment. People you can't ignore are, in the actual,
-
-
+We'll touch on how to improve collaborations with these kinds of "implicit stakeholders" in several Case Studies, including [[id:B9798ABE-0A34-4EC6-9F78-CD5C6404C9D8][Interruptions & Distractions]], and also *Low-Value/Waste Work*.
 
 ** The Four Steps of the Loop of Improvement
 
@@ -221,3 +217,16 @@ How can you build this map of your stakeholder's feelings?
 Given how powerful and important your stakeholder likely is for both you and your peers, there's a decent chance you can get a pretty good first draft by just spending a half an hour talking about this with people you trust, close to you.
 
 For more, I can heartily recommend building the skills of "Tactical Empathy", which Chris Voss and Tahl Raz describe in their excellent book "Never Split the Difference" -- and which I'll be exploring in my book.
+
+* Scraps
+** Multiple People
+
+E.g. an engineering lead may want to encourage their PM partner to, early in development, deeply engage with key product tradeoffs, to prevent weeks of later churn. Unfortunately, the PM's manager, the Head of Product, has long insisted on being consulted for all key product decisions, no matter how small. Thus, the PM has just about no experience making decision on their own, and may not even fully understand that part of the product role.
+
+Where can the engineering lead start?
+
+This is another reason why the incremental approach is useful. For any one increment of change, you're going to pick a single key person to focus on. As you work through increments, you can then shift to someone else.
+
+E.g. maybe the first step for that engineering lead is to advocate for just a bit of space with the Head of Product. Then, once they have that they can work with their PM partner to find a way to take a bit more ownership.[fn:: FWIW, if you want someone to take more ownership, "Start with Their Boss" is often a good rule of thumb.]
+
+(If you're wondering how the engineering lead can possibly advocate for space if their PM partner isn't ready to step up and fill that space, we talk through that in real detail in the "Underpowered Product Team" case study. The shortest answer is: the engineering lead will commit to "leaning over" and helping do the product job, for a short period of time. The details of how they pitch this depend on whether or not the Head of Product *already* wants the PM to take more ownership, or if they themselves need to see the benefits of letting go.)
