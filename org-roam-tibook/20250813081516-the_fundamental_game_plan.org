@@ -146,7 +146,7 @@ What can Quin do?
 
 The first step is to: /Develop an *empathetic understanding* of your stakeholder's fears, dreams and frustrations/.
 
-We'll break that down into two parts: first, mining for strategic intent; second, answering four key emotion questions about your stakeholder.
+We'll break that down into two parts: first, mining for strategic intent; second, answering the four key emotion questions about a stakeholder.
 
 *** Mining for Strategic Intent
 
@@ -254,9 +254,52 @@ Quin could use her echoing back and summarizing skill to "mine for" these answer
 
 Now that she's got all this critical information, Quin is ready to design a single increment of change.
 
-** Step 2. Design A (Slightly) Better Way to Work
+** Step 2. Design A Slightly Better Way to Work
+
+/A modest step from where you are now, that has wins for you, your stakeholder, and the business./
+
+The key thing here is: *don't jump too far ahead*.
+
+Just about any experienced engineer or product manager could easily map out a better pattern of collaboration among Marco, Quin and the engineers. It would likely involve some set of grooming, planning, standup, demo and retro meetings, along with rules for what gets discussed in each meeting.
+
+For such an experienced engineer or product manager, that won't even feel particularly complicated, because they've worked that way many times before. Thus, they might be tempted to try to quickly put the whole thing in place at once.
+
+Doing so carries two significant risks. First, getting "all the way there" in one step will require Marco to change his behavior a *lot*. That will tend to create a lot of resistance. As a result, Marco may well end up promising to try that change "some time soon", but then delaying over and over.
+
+Second, and even more importantly, if you make a "big" change, it's not likely to work perfectly from the start. This creates an enormous risk that Marco will then decide it's a failure and return to his comfort zone of acting exactly the way he did before--and worse, now "knowing" that your proposed way "won't work".
+
+To be clear: sometimes it can make sense to bootstrap a big change all at once. But, especially if you have a stakeholder who seems to be operating from a place of fear (aka, most stakeholders), picking a small step to start is usually the way to go.
+
+Ideally, you want to find a small step which makes things a little better for you, gives your stakeholder something they don't currently have, and also sets you up for a concrete business win. Given all of that, you'll be able to ask for a "slightly uncomfortable" shift in behavior for the stakeholder.
+
+Quin spends some real time thinking this one through, mostly as she's walking her dog in the mornings.
+
+She finally arrives at the following proposed incremental change:
+
+ - After his customer calls, Marco will always *first* meet 1:1 w/ Quin, for a quick debrief, *before* he shares anything with the team
+
+ - She will commit to being ready to drop anything else and meet with him, while his thoughts are fresh
+
+ - Otherwise, he can continue to interact with the team as he wishes
+
+That's *it*.
+
+There's a lot more Quin could aim for, but by starting small, she can run that for a week or two, and then build on it.
+
+But note, this *is* a meaningful change:
+
+ - It positions Quin to buffer the team from Marco's initial swirl of thoughts, immediately after he's talked with customers
+
+ - It also positions her to work with him to identify any true updates to priorities
+
+ - It requires Marco to do something "slightly uncomfortable",by adjusting his habits around customer calls
+
+ - It gives him a tiny reward for doing so -- Quin's immediate attention and thought partnership
 
 ** Step 3. Make A Compelling Offer
+
+Now is the key step -- putting together the strategic intent, the map of your stakeholder's feelings, and your deliberately small change into a *compelling offer*. Something your stakeholder is willing to try, *right now*, not at some later date.
+
 
 ** Step 4. At Conclusion, Decide Together What To Do Next
 
