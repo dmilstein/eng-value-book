@@ -4,7 +4,7 @@
 #+title: Intro - Work With Humans
 #+filetags: :Chapter:
 * Introduction: The Joys and Pains of Working With Humans
-** Intro - Pains of Broken Interactions
+** The Pains of Broken Interactions
 Few things are more frustrating than being stuck in a broken interaction pattern with the people you work with.
 
 For someone working as a software engineer or a product manager that could be:
@@ -57,7 +57,7 @@ But, before we dig into that game plan, you might be wondering, "Um, Dan, who ar
 
 Good point! I'm glad you asked!
 
-** The Mini-Tab & The Microsoft C Compiler
+** My Origin Story: The Mini-Tab & The Microsoft C Compiler
 
 # One of the great pleasures of working as a software engineer is solving meaningful problems.
 
