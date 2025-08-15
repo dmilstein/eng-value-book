@@ -144,9 +144,13 @@ What can Quin do?
 
 ** Step 1. Develop an Empathetic Understanding
 
-/1. Develop an *empathetic understanding* of your stakeholder's fears, dreams and frustrations/
+The first step is to: /Develop an *empathetic understanding* of your stakeholder's fears, dreams and frustrations/.
 
-Given that her attempts to address the problem head on failed, Quin backs up and decides to start by *learning more about what Marco's feelings*, instead of advocating for any specific changes.
+We'll break that down into two parts: first, mining for strategic intent; second, answering four key emotion questions about your stakeholder.
+
+*** Mining for Strategic Intent
+
+Given that her attempts to address things head on failed, Quin decides to back up  a bit, and start by aligning at a higher level, instead of advocating for any specific changes.
 
 Partway through their weekly Zoom 1:1, Quin says:
 
@@ -166,9 +170,9 @@ Marco purses his lips. "Almost. It's not enough that we just *land* a few big cu
 
 Quin spends a few more minutes drawing out the key strategic goals for ATN!, and then mapping those back to the current work of the team. At each step, she carefully echoes back to Marco what she's just heard, and asks if she's got it right.
 
-Finally, she pauses and looks through her notes. "Let me see if I've got the overall story," she says. She then steadily works through her notes, giving a clear and concise a summary of everything they've just discussed.
+Finally, she pauses and looks through her notes. "Let me see if I've got the overall story," she says. She then takes them to time to give a brief summary of everything they've just discussed. Because she's heard Marco say "engaged customers", "start with something good enough", and "make it better *with* them", she uses those exact phrases.
 
-"Does that sound about right?" she asks Marco, one final time.
+"Does that sound about right?" she asks Marco one final time, as she wraps up.
 
 This time, he nods vigorously.  "Yes, that's *exactly* it. I'm glad we talked this out." He's long since stopped looking at his other screens.
 
@@ -186,77 +190,69 @@ Before obtaining that intent, she might have said:
 
 "The team is getting frustrating with the constantly changing priorities."
 
-Unfortunately, we've already seen that Marco has a way to discount that -- "We're a startup, we have to move fast."[fn:: "Dan, why don't you just /explain/ to Marco that ATN! will /actually/ move faster if he just chooses a single goal?". In my extensive testing in the field, trying to *intellectually* convince someone to change their behavior works, let me check my notes here, approximately *never*.]
+Unfortunately, we've already seen that Marco has a way to discount that -- "We're a startup, we have to move fast."[fn:: "Dan, why doesn't Quin just /explain/ to Marco that ATN! will /actually/ move faster if he just chooses a single goal?". In my extensive testing in the field, trying to *intellectually* convince someone to change their behavior works, let me check my notes here, approximately *never*.]
 
 Having drawn out from Marco a statement of intent, Quin could instead open her pitch for change with something like:
 
-"As I understand it, ATN!'s most important goal is to have a set of *engaged customers* within six to eight months--meaning, customers who are regularly using the platform. To get there, we need to get something concrete in the hands of a few actual customers as quickly as possible, and then improve based on what we learn." She could then check to see if that sounds right to him, before continuing with, "Unfortunately, I'm worried that the team is struggling with shifting priorities, and we might miss our targets for shipping something customers can start *using*."
+"As I understand it, ATN!'s most important goal is to have a set of *engaged customers* within six to eight months. Potential investors in a next round are going to want to see happy users, running actual team activities on the platform--not just a couple of big sales. Given that, our current goal is to *very* quickly build something that is "*just good enough*". Something we can get into the hands of a few early customers, and then make better *with* them." She could then check to see if that sounds right to him, before continuing with, "Unfortunately, I'm worried that the team is struggling a bit with shifting priorities. We might miss our target for shipping something good enough for customers to start *using*."
 
-Marco is hugely more likely to listen to that latter concern--both because it's speaking to key overall business goals, but also because it's *using the words he himself uses*.
+Marco is hugely more likely to listen to that latter concern--both because it's positioning the problem in the context of their overall business goals, but also because it's *using the words he himself uses*.
 
-Fun fact: just *stating* that overall strategic goal can make a big difference. It positions you as discussing what is best for the business, *not* your own "personal" frustrations.
+Fun fact: just *stating* that overall strategic goal in your stakeholder's own words can make a big difference. It positions you as discussing what is best for the business, *not* your own "personal" frustrations.
 
 For Quin, having obtained this information is a great start.
 
 However, to make a full empathetic statement, she needs a bit more.
 
-She needs an understanding of some of Marco's underlying *emotions*. Specifically, she needs to answer The Four Key Questions:
+*** The Four Key Emotion Questions
 
- - What is currently *frustrating* him?
+Quin needs to answer the Four Key Emotion Questions about a stakeholder:
 
- - What is he *afraid* of?
+ - What is currently *frustrating* them?
 
- - What makes him *feel good*?
+ - What are they *afraid* of?
 
- - What does he *dream of* or hope for?
+ - What makes them *feel good*?
 
-Note, it's not necessary for her to get this exactly right on the first try. Because she'll be working iteratively, she can update and adjust this as she goes. She needs a useful working hypothesis of those things.
+ - What do they *dream of*?
 
-Quin could use her echoing back and summarizing skill to "mine for" these answers. But, in this case, she has worked closely enough with Marco that she has some pretty good guesses.
+These are an extremely powerful core for persuasion. Two focus on day-to-day experiences (frustrations and "things that feel good"), two on longer-term, deeper motivations (fears and dreams).
+
+If you can come up with answers to these four questions, you can build an an *extremely* compelling request to try something new.
+
+A request that the stakeholder will both *hear* and *feel* as worth listening to.
+
+We'll spend real time on how to craft such a request in the "Design a Compelling Offer" chapter.
+
+For now, let's continue with Quin.
+
+Quin could use her echoing back and summarizing skill to "mine for" these answers. But she has worked closely enough with Marco that she has some good guesses.
 
  - *What is currently frustrating Marco?*
 
-   Quin is pretty sure it's the lack of *velocity*. She can tell Marco feels like it takes forever for him to see any progress on the product--and that's why he's starting to suggest she put more pressure on the team to work longer hours.
+   Quin is pretty sure it's the lack of *velocity*.
+
+   She can tell Marco feels like it takes forever to see any progress on the product--that's why he's starting to suggest she put more pressure on the team to work longer hours.
 
  - *What is Marco afraid of?*
 
-   Quin has heard him speak about engineering teams he's worked with in the past, who missed all their deadlines, didn't let him know in advance, and left him completely in the lurch.
+   Quin knows that, at his last job, Marco almost got fired because of a massively failed software project. The engineering team he was working with completely lost the way, but kept a lot of that hidden from him. When the real situation came to light, Marco's CEO was so angry, he chewed Marco out in front of half the executive team.
 
-   She suspects one of his biggest fears is discovering that the engineering team is wildly far behind where he thought, or has gone off in some crazy direction.
+   Given that, Quin suspects his biggest fear is suddenly discovering that the project is wildly far behind, or that the engineering team has gone off in some crazy direction. And kind of "stepping back" may *feel* like a terrifying loss of control.
 
  - *What makes Marco feel good?*
 
-   He lights up when he has a chance to interact with a visual prototype.
+   Quin sees Marco absolutely light up when he has a chance to interact with a visual prototype.
 
-   He also clearly deeply enjoys sharing what he's learned in the field with the team. Quin guesses that part of that is because Marco is using those debriefs to clarify his own thinking. He comes in swirling with thoughts, and by the end, he's condensed it down. Unfortunately, the team is dizzied by all the ideas.
+   He also clearly deeply enjoys sharing what he's learned from talking with customers. Whe she stops to think about it, Quin realizes that's in part because Marco is using those debriefs to clarify his own thinking. He comes in swirling with thoughts, and by the end, he's condensed it down, and that *feels good* to him. Unfortunately, the team is dizzied and distracted by all the ideas.
 
  - *What does he dream of or hope for*?
 
    Sharing something exciting with customers that they can't wait to start using.
 
-   Quin has also heard him say more than once that he wants to build a company where everyone feels connected to the customers. She suspects that his constant updates from the field are partly motivated by that vision.
+   Quin has also heard him say more than once that he wants to build a company where everyone feels connected to the customers. She suspects that his constant updates after his customer calls are partly driven by a desire to live up to that vision.
 
-
-
-The CEO who is constantly interrupting the team may be *afraid* that that they don't know what the team is working on (and thus the team could go off the rails), and they might *want* to play a key role in deciding what problems the team commits to solving (and may even *dream* of some exciting new product coming out that work).
-
-# They're currently frustrated that there doesn't seem to be much visible progress (of course, the constant changes in priority aren't helping on that front).
-
-Stated that way, you can authentically agree that those are *valid concerns* -- even if the behavior those concerns are currently leading to is a disaster.
-
-You want to be able to say something like:
-
-/We're worried that, as we're working right now, it can feel pretty unclear to you what, exactly, the team has prioritized at any given moment. We really want to fix that. We also want to be 100% certain that, as various business priorities shift, you're able to ensure the team is always pointed at the most important problems to solve --  and that, as they work, you have full clarity about what they're developing and discovering. We want to have the best possible shot at building something that you'll be super excited to share with customers./
-
-Stated that way, you're set up to cleanly bridge to something which might involve that CEO *not bothering the team so goddamn often* -- but you can make that proposal while ensuring they have the visibility and the control that they want, and they can feel some hope and excitement about what that might lead to.
-
-Persuading humans to change their behavior works roughly a thousand times better if you can find a way to speak to their hearts as well as their minds.
-
-How can you build this map of your stakeholder's feelings?
-
-Given how powerful and important your stakeholder likely is for both you and your peers, there's a decent chance you can get a pretty good first draft by just spending a half an hour talking about this with people you trust, close to you.
-
-For more, I can heartily recommend building the skills of "Tactical Empathy", which Chris Voss and Tahl Raz describe in their excellent book "Never Split the Difference" -- and which I'll be exploring in my book.
+Now that she's got all this critical information, Quin is ready to design a single increment of change.
 
 ** Step 2. Design A (Slightly) Better Way to Work
 
