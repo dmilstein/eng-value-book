@@ -1,0 +1,91 @@
+* The Eight Different Bosses Problem: Mapping Your True Stakeholders
+
+In my most recent post, [[https://buildingandlearning.substack.com/p/fixing-the-engineeringstakeholder][Fixing The Engineering/Stakeholder Interface]], I laid out a game plan for improving how you work with some key stakeholder, so that, *together*, you can solve meaningful business problems and win.
+
+Unfortunately, for some engineers and product managers, it may feel tricky to apply that game plan, for the extremely frustrating reason that they're not even sure where the hell all their time is going.
+
+"Sure, Dan," such an engineering or product manager might say, "if I had /one/ person to work with, I could run your little build empathy first thingy, but who am I even supposed to build empathy with? In theory we're "doing OKR's", but, every week, my team is drifting behind on our Key Results, because there's all this stuff that just has to get done."[fn:: Fun fact: I have physical trouble restraining myself from climbing over the table when someone says with a shrug 'I know <thing foo> isn't important, but we just have to do it'. OMG even typing that makes me angry. Carrying on.]
+
+To understand this problem, we're going to refer to that font of sage wisdom on the modern workplace, the movie Office Space. In one scene, Peter Gibbons, a programmer at < > Corp, blithely explains to one of the two Consultants Named Bon a key characteristic of his job:
+
+Peter Gibbons: And here's something else, Bob: I have eight different bosses right now.
+
+Bob Slydell: I beg your pardon?
+
+Peter Gibbons: Eight bosses.
+
+Bob Slydell: Eight?
+
+Peter Gibbons: Eight, Bob. So that means that when I make a mistake, I have eight different people coming by to tell me about it.
+
+Although few of us (hopefully?) have eight different "actual" bosses, I suspect there are a great many of us indeed who have *at least* eight people who believe, in their heart of hearts, that they should be able to *tell the engineering team what to do*.  People who are certain that, if only the engineering team would *listen* to them, they could accomplish <Thing Foo>, which is Obviously Super Important.
+
+In order to improve how we work with The Rest of The Business, to solve business problems and win, we're going to have start by understanding our *full set of Stakeholders*.
+
+** An Expansive Definition of Stakeholders
+
+We'll define a "stakeholder" as someone with two key properties:
+
+ a) They *need* you, in order to accomplish their own goals
+
+ b) They have some form of *influence* over you
+
+# Add c) Someone you need in turn? Or say how you don't always.
+
+In some cases, "influence" is extremely straighforward -- e.g. the Head of Product who has final say on your team's priorities during quarterly planning, or the Engineering Director who conducts your semi-annual performance reviews.
+
+But sometimes it's a bit more subtle -- e.g. the senior sales rep who has the ear of the CEO, and will sometimes complain about how your team doesn't "care about the customer". That sales rep may not have any *formal* authority over you, but they still have *influence* -- and thus, in certain contexts, they may be a key stakeholder for you.
+
+Examples of "stakeholders" in this sense include:
+
+ - Your product or engineering partner in the day-to-day running of a team
+
+ - An executive who is responsible for an overall business objective
+
+ - A senior engineering or product leader who is guiding a major product investment
+
+ - A power user of an internal tool your team owns
+
+ - A customer support lead who collects bugs and feature requests from the field
+
+ - An engineering manager whose team depends on a platform you own[fn:: I love working on tools/platform teams, but it does mean having stakeholders who question kind of everything. "What? You're unpacking the builds *on* the hosts? Why would you do that? That seems dumb."]
+
+All of those people *need* you. And all of those people have varying forms of influence *over* you.
+
+** A Functional Definition: People You Can't Afford To Ignore
+
+One useful frame is: someone is one of your stakeholders if you *can't afford to ignore them*.
+
+That may sound a bit brutally transactional, but if there's too large a set of people who you can't ignore, then there's almost no chance your team can move quickly and create meaningful value.  Asking who you can ignore can shine a light on the implicit power structures of your company--and can reveal fundamental conflicts that are making it impossible for you to win.
+
+E.g. maybe your CEO talks night and day about how critical it is for your team to stay on track for the big new product launch. But, your team is *also* expected to handle a stream of feature requests from existing customers... which that CEO doesn't pay much attention to.
+
+One day, the Head of Customer Success comes banging on your door, and demands you immediately add a new feature for a handful of "at-risk" enterprise customers. If you don't, he insists that those customers are going to churn this quarter.
+
+Can you *afford* to ignore this request, in order to stay on track for the big product launch?
+
+Or if you do, will you later receive an unpleasant lecture from the CEO and acquire a reputation as "not being a team player"?
+
+The only way you and your team will create significant value is if you can relentlessly focus on the most important, most valuable work at every moment. Struggling with too large a set of people you are somehow implicitly accountable to makes it impossible to do so.
+
+Consider developing (and maintaining) a list of the people you can't afford to ignore.
+
+Looking that over, you may find a few key "stakeholders" you hadn't been thinking about -- and, you may be stuck in broken interaction patterns with some of them, leading to frustration and/or wasted work.
+
+We'll touch on how to improve collaborations with these kinds of "implicit stakeholders" in several Case Studies, including [[id:B9798ABE-0A34-4EC6-9F78-CD5C6404C9D8][Interruptions & Distractions]], and also *Stop Doing Low-Value/Waste Work*.
+
+
+
+
+* Random Thoughts
+I want to to take ideas and most of the prose from "Who is a stakeholder?"
+
+From my walk:
+
+ - Want to apply game plan from last post to solve biz problems
+
+ - But, pulled in multiple directions
+
+ - Step 0 is actually "Who are our stakeholders?"
+
+ - Later: tell story of Scott, iPad, Augie (angie? audie?)
