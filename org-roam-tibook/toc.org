@@ -7,8 +7,8 @@
 ** [[id:F6A8995D-D0A2-458B-AB62-181284DEF1A1][Intro]]: The Joys & Pains of Working With Humans
 ** Part I: The Loop of Improvement
 *** [[id:B0637E99-E30C-4FF8-B8BA-A660454DE08B][The Fundamental Game Plan]]
-*** Mine for Frustrations, Fears & Dreams
-*** Design & Propose an Increment of Change
+*** [[id:5903AFE7-4B1E-422C-8537-2C56BBFBA643][Mine for Goals & Feelings]]
+*** Design a Compelling Offer
 ** Part II: Case Studies
 *** [[id:311775E5-191B-429A-A168-4F712659E334][The Feature Factory]]
 *** [[id:B9798ABE-0A34-4EC6-9F78-CD5C6404C9D8][Interruptions & Distractions]]
@@ -18,6 +18,7 @@
 *** Underpowered Product Team
 *** Disengaged Engineering Team
 *** Rival Stakeholders
+*** Low Value, High Urgency Work (Work You Shouldn't Be Doing),
 ** Part III: +Manipulating+ Working With Humans
 *** Tactical Empathy
 *** Collaborative Problem Solving
