@@ -4,9 +4,9 @@ In my most recent post, [[https://buildingandlearning.substack.com/p/fixing-the-
 
 Unfortunately, for some engineers and product managers, it may feel tricky to apply that game plan, for the extremely frustrating reason that they're not even sure where the hell all their time is going.
 
-"Sure, Dan," such an engineering or product manager might say, "if I had /one/ person to work with, I could run your little build empathy first thingy, but who am I even supposed to build empathy with? In theory we're "doing OKR's", but, every week, my team is drifting behind on our Key Results, because there's all this stuff that just has to get done."[fn:: Fun fact: I have physical trouble restraining myself from climbing over the table when someone says with a shrug 'I know <thing foo> isn't important, but we just have to do it'. OMG even typing that makes me angry. Carrying on.]
+"Sure, Dan," such an engineering or product manager might say, "if I had /one/ person to work with, I could run your little build empathy first thingy, but who am I even supposed to build empathy with? In theory we're "doing OKR's", but, every week, my team is drifting behind, because there's all this stuff that just has to get done."[fn:: Fun fact: I have physical trouble restraining myself from climbing over the table when someone says with a shrug 'I know <thing foo> isn't important, but we just have to do it'. OMG even typing that makes me angry. Carrying on.]
 
-To understand this problem, we're going to refer to that font of sage wisdom on the modern workplace, the movie Office Space. In one scene, Peter Gibbons, a programmer at < > Corp, blithely explains to one of the two Consultants Named Bon a key characteristic of his job:
+To understand this problem, we're going to refer to that font of sage wisdom on the modern workplace, <Mike Judd's> movie Office Space. In one scene, Peter Gibbons, a programmer at < > Corp, blithely explains to one of the two Consultants Named Bob a key characteristic of his job:
 
 Peter Gibbons: And here's something else, Bob: I have eight different bosses right now.
 
@@ -18,21 +18,21 @@ Bob Slydell: Eight?
 
 Peter Gibbons: Eight, Bob. So that means that when I make a mistake, I have eight different people coming by to tell me about it.
 
-Although few of us (hopefully?) have eight different "actual" bosses, I suspect there are a great many of us indeed who have *at least* eight people who believe, in their heart of hearts, that they should be able to *tell the engineering team what to do*.  People who are certain that, if only the engineering team would *listen* to them, they could accomplish <Thing Foo>, which is Obviously Super Important.
+Although few of us (hopefully?) have eight different "actual" bosses, I suspect there are a great many of us indeed who have *at least* eight people who believe, in their heart of hearts, that they should be able to *tell the engineering team what to do*.  People who are certain that, if only the engineering team would *listen* to them, they could accomplish Some Thing They Need To Do, which is Obviously Super Important.
 
-In order to improve how we work with The Rest of The Business, to solve business problems and win, we're going to have start by understanding our *full set of Stakeholders*.
+In order to solve business problems and win, we're going to understand our *full set of Stakeholders*.
 
 ** An Expansive Definition of Stakeholders
 
-We'll define a "stakeholder" as someone with two key properties:
+We'll define a stakeholder as someone possessing two key properties:
 
- a) They *need* you, in order to accomplish their own goals
+ a) They believe they *need* you, in order to accomplish their own goals
 
  b) They have some form of *influence* over you
 
 # Add c) Someone you need in turn? Or say how you don't always.
 
-In some cases, "influence" is extremely straighforward -- e.g. the Head of Product who has final say on your team's priorities during quarterly planning, or the Engineering Director who conducts your semi-annual performance reviews.
+In some cases, "influence" is extremely straightforward -- e.g. the Head of Product who has final say on your team's priorities during quarterly planning, or the Engineering Director who conducts your semi-annual performance reviews.
 
 But sometimes it's a bit more subtle -- e.g. the senior sales rep who has the ear of the CEO, and will sometimes complain about how your team doesn't "care about the customer". That sales rep may not have any *formal* authority over you, but they still have *influence* -- and thus, in certain contexts, they may be a key stakeholder for you.
 
@@ -56,21 +56,53 @@ All of those people *need* you. And all of those people have varying forms of in
 
 One useful frame is: someone is one of your stakeholders if you *can't afford to ignore them*.
 
-That may sound a bit brutally transactional, but if there's too large a set of people who you can't ignore, then there's almost no chance your team can move quickly and create meaningful value.  Asking who you can ignore can shine a light on the implicit power structures of your company--and can reveal fundamental conflicts that are making it impossible for you to win.
+That may sound a bit brutally transactional, but if there's too large a set of people who you can't ignore, then there's almost no chance your team can move quickly and create meaningful value. Asking who you can ignore can shine a light on the implicit power structures of your company--and can reveal fundamental conflicts that are making it impossible for you to win.
 
-E.g. maybe your CEO talks night and day about how critical it is for your team to stay on track for the big new product launch. But, your team is *also* expected to handle a stream of feature requests from existing customers... which that CEO doesn't pay much attention to.
+E.g. maybe your CEO talks night and day about how critical it is for your team to stay on track for the big new product launch. But, at the same time, Everyone Knows that your team is *also* expected to handle a stream of feature requests from existing customers... which that CEO doesn't pay much attention to.
 
-One day, the Head of Customer Success comes banging on your door, and demands you immediately add a new feature for a handful of "at-risk" enterprise customers. If you don't, he insists that those customers are going to churn this quarter.
+Imagine that, one day the Head of Customer Success comes banging on your door, and demands you immediately add a new feature for a handful of at-risk enterprise customers. He insists that, if you don't, those customers are going to churn any minute now.
 
 Can you *afford* to ignore this request, in order to stay on track for the big product launch?
 
-Or if you do, will you later receive an unpleasant lecture from the CEO and acquire a reputation as "not being a team player"?
+Or if you do, will you be blamed for any customer cancellation, receive some unpleasant lectures and acquire a reputation as "not being a team player"?
 
-The only way you and your team will create significant value is if you can relentlessly focus on the most important, most valuable work at every moment. Struggling with too large a set of people you are somehow implicitly accountable to makes it impossible to do so.
+The only way you and your team will create significant value is if you can relentlessly focus on the most important work at every moment. Struggling with too large a set of people you are somehow /implicitly/ accountable to makes it impossible to do so.
 
-Consider developing (and maintaining) a list of the people you can't afford to ignore.
+When that accountability is not visible, it is very hard indeed to *improve* it.
 
-Looking that over, you may find a few key "stakeholders" you hadn't been thinking about -- and, you may be stuck in broken interaction patterns with some of them, leading to frustration and/or wasted work.
+** Make It Visible, Make It Better
+
+Consider spending a few minutes making a list of all the people you can't afford to ignore, and what they're trying to get you to do.
+
+Are there any key "stakeholders" in that list that you hadn't been thinking about explicitly? Are you stuck in broken interaction patterns with any of them, leading to frustration and/or wasted work?
+
+If so, consider picking one stakeholder and try out the ideas in [[https://buildingandlearning.substack.com/p/fixing-the-engineeringstakeholder][Fixing The Engineering/Stakeholder Interface]].
+
+That said, sometimes what's best for the business is for you to *stop* working with some stakeholder altogether, rather than improve how you work *with* them
+
+E.g. maybe your team is building a new product, so that your business can expand the set of customers it can sell to (which you urgently need to do before your next funding round). In such a case, it might be optimal for the business as a whole to accept some genuine risk of unhappiness in current customers, in order to get that new product out as quickly as possible.
+
+Thus, you and your team should maybe be /ignoring/ the Customer Success leads who are tasked with keeping the current customers as happy as possible.
+
+Unfortunately, at most companies I've worked at, the implicit dynamics of the various humans will totally defeat such a clean prioritization, and the engineers and PM's will spend a great deal of time "playing defense" against requests from the field.
+
+In that case, to apply the ideas in the previous post, you'll want to do a combo of two things:
+
+ 1. Make the costs of not ignoring some people more visible
+
+ 2. Then, run the game plan, but focus on someone who has the authority to tell people to more fully leave you alone
+
+If you'd like more detailed examples of this particular pattern in upcoming posts, please feel free to message me or drop me a line!
+
+
+
+
+
+
+
+
+Of course, identifying them is just step 1. You'll then need to identify some combination of a better way to work and a series of incremental steps to get there, as per the game plan in the previous post.
+
 
 We'll touch on how to improve collaborations with these kinds of "implicit stakeholders" in several Case Studies, including [[id:B9798ABE-0A34-4EC6-9F78-CD5C6404C9D8][Interruptions & Distractions]], and also *Stop Doing Low-Value/Waste Work*.
 
