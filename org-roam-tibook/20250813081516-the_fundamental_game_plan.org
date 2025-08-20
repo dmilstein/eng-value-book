@@ -10,27 +10,32 @@ You're going to make things better through a *series of small steps*, not via on
 
 The incremental approach is absolutely foundational, for at least two reasons:
 
-First, adjusting the ways that groups of humans work together has a great deal in common with adjusting the way a big, complex piece of software works. You'll start with an overall sense of where you want to go, but you're going to make a bunch of interesting discoveries, some things will turn out to be much, much harder than you expected, unexpected opportunities will arise, the circumstances around you will change. Thus, just as when developing software, the iterative, experiment-and-learn approach is vastly more likely to succeed than the big bang plan-it-all-ahead-of-time approach.
+First, adjusting the ways that groups of humans work together is too complex to fully plan out in advance. In this, it has a great deal in common with adjusting the way a big, complex piece of software works. You'll start with an overall sense of where you want to go, but you're going to make a bunch of interesting discoveries, some things will turn out to be much, much harder than you expected, unexpected opportunities will arise, the circumstances around you will change.
 
-But then, beyond that, there's another reason: getting other humans to change the way they work is only possible if those humans *trust* you--and fairly deeply at that. In the game plan, you're going to build up more and more trust up over time--by earning wins together, and by steadily demonstrating that you deeply understand the challenges they're facing. There is no shortcut I know of, to instantly build that kind of trust.
+Thus, just as when developing software, the iterative, experiment-and-learn approach is vastly more likely to succeed than the big bang plan-it-all-ahead-of-time approach.
 
-Because of these reasons, the game plan is a series of *Loops of Improvement*--each trip through the loop makes your interaction patterns a little bit better, creates a small win for the business, and builds a little more trust between you and some key person you work with.
+But then, beyond that, there's another reason: getting other humans to change the way they work is only possible if those humans *trust* you -- and fairly deeply at that. You'll be asking the people around you, few of whom you have any kind of formal authority over, to try something new, something out of their comfort zone. For that to work, you need to be able to draw on some reservoir of trust -- you need those people to believe that you have their interests at heart.
 
-This is good news! You can, with creative thinking, apply just about all your experience in iterative software and product development. Only here you're applying it to a group of humans, instead of a pile of code.
+In the game plan, you're going to build that kind of trust up over time--by earning wins together, and by giving you a chance to steadily demonstrate that you deeply understand the challenges the people around you are struggling with. There is no shortcut I know of, to build that kind of trust at the flip of a switch.
+
+Because of these reasons, the game plan is best run as a series of *Increments of Improvement*--each increment makes your interaction patterns a little bit better, builds a little more trust between you and some key person you work with, and, with any luck, creates a small win for the business, too.
+
+The necessity of working incrementally is, believe it or not, good news! You can, with creative thinking, apply much of your experience in iterative software and product development. Only here you're applying it to a group of humans, instead of a pile of code.
 
 ** Choose a Partner For Each Increment
 
-For this game plan, we're going to assume there's one key person you need to advocate with.
+For each increment of the game plan, we'll choose a single key person to focus on.
 
-Of course, in an actual business, things can be more complex. E.g. an engineering lead may want to encourage their PM partner to take more ownership... but to make that change, they *also* need the Head of Product to step back and create space.
+Of course, in an actual business, situations can be complex enough to require changes in behavior in more than one person.
 
-This is another reason why the incremental approach is so useful. For any one increment of change, you'll pick a single key person to focus on. As you work through increments, you can then shift to someone else.
+An engineering lead may feel that, for their team to move more quickly, their PM partner needs to start making /some/ decisions on their own, instead of running every single question up to their boss. But to make that change, they *also* need to convince the boss in question, the company's VP of Product, to stop slapping that PM on the hand every time they make an even /slightly/ different decision than they themselves would have made.
 
-E.g. maybe the first step for that engineering lead is to advocate for just a bit of space with the Head of Product. Then, once they have that, they can work with their PM partner to help them gradually take more ownership.[fn:: You might be wondering how the engineering lead can possibly advocate for space if their PM partner isn't ready to step up. One answer is: the engineering lead can commit to "leaning over" and personally helping do the product job, for a short period of time. Exactly how they make this offer this depends on whether or not the Head of Product *already* wants the PM to take more independent ownership, or if that Head of Product needs to first experience the benefits of letting go. We'll talk through this in detail in the "Underpowered Product Team" case study.]
+This is another reason why the incremental approach is so useful. By focusing your advocacy with one person at a time, you can dig in and figure out a way for each of them to see a benefit in making a change. If you try to change them all at once, it's very difficult to get full buy-in.
 
-So, for your first increment of improvement, we're going to focus on one specific person.
+In the above scenario, the first step is likely for the engineering lead to advocate with the VP of Product, to help them see the benefits of allowing the team to make *"small" decisions more quickly* (as long as those decisions are "mostly right", and "big" decisions still come up to the Head of Product). Once the enginering lead has created space for that kind of rapid small decision-making, they can *then* work with their PM partner to help them start to actually make those decisions.[fn:: You might be wondering how the engineering lead can advocate for faster decision-making if their PM partner isn't ready to step up and take advantage of it. As in, how can they ensure the VP of Product will see some positive improvements, in the immediate term? One answer is: the engineering lead can commit to "leaning over" and personally helping do the product job, for a short period of time. We'll talk through this in detail in the "Underpowered Product Team" case study.]
 
-We're going to name this person *The Stakeholder*, and we'll define a "stakeholder" as:
+
+We're going to name the person you'll focus on as your *Stakeholder*, and we'll define a "stakeholder" as:
 
  a) Someone who *needs* you, in order to accomplish their own goals
 
@@ -38,9 +43,9 @@ We're going to name this person *The Stakeholder*, and we'll define a "stakehold
 
 # Add c) Someone you need in turn? Or say how you don't always.
 
-In some cases, "influence" is extremely straighforward -- e.g. the Head of Product who has final say on your team's priorities during quarterly planning, or the Engineering Director who conducts your semi-annual performance reviews.
+In some cases, "influence" is extremely straighforward -- e.g. the CPO who has final say on your team's priorities during quarterly planning, or the Engineering Director who conducts your semi-annual performance reviews.
 
-But sometimes it's a bit more subtle -- e.g. the senior sales rep who has the ear of the CEO, and will sometimes complain about how your team doesn't "care about the customer". That sales rep may not have any *formal* authority over you, but they still have *influence* -- and thus, in certain contexts, they may be a key stakeholder for you.
+But sometimes it's a bit more subtle -- e.g. the senior sales rep who has the ear of the CEO, and who complains about how your team doesn't "care about the customer" when you refuse to build their pet features. That sales rep may not have any *formal* authority over you, but they still have *influence* -- and thus, in certain contexts, they may be a key stakeholder for you.
 
 Examples of "stakeholders" in this sense include:
 
@@ -66,15 +71,15 @@ That may sound a bit brutally transactional, but if there's too large a set of p
 
 E.g. maybe your CEO talks night and day about how critical it is for your team to stay on track for the big new product launch. But, your team is *also* expected to handle a stream of feature requests from existing customers... which that CEO doesn't pay much attention to.
 
-One day, the Head of Customer Success comes banging on your door, and demands you immediately add a new feature for a handful of "at-risk" enterprise customers.
+One day, the Head of Customer Success comes banging on your door, and demands you immediately add a new feature for a handful of "at-risk" enterprise customers.  He insists that, if you don't, those customers are going to churn any minute now.
 
 Can you *afford* to ignore this request, in order to stay on track for the big product launch?
 
-Or if you do, will you later receive an unpleasant lecture from the CEO and acquire a reputation as "not being a team player"?
+Or if you do, will you be blamed for any customer cancellations, receive some unpleasant lectures and acquire a reputation as "not being a team player"?
 
 The only way you and your team will create significant value is if you can relentlessly focus on the most important, most valuable work at every moment. Struggling with too large a set of people you are somehow implicitly accountable to makes it impossible to do so.
 
-Consider developing (and maintaining) a list of the people you can't afford to ignore.
+Consider developing a list of the people you can't afford to ignore.
 
 Looking that over, you may find a few key "stakeholders" you hadn't been thinking about -- and, you may be stuck in broken interaction patterns with some of them, leading to frustration and/or wasted work.
 
@@ -82,17 +87,19 @@ We'll touch on how to improve collaborations with these kinds of "implicit stake
 
 ** The Four Steps of an Increment of Improvement
 
-Okay, now that we've selected a single stakeholder to focus on, we can lay out the fundamental framework for a single increment of improvement:
+Now that we've selected a single stakeholder to focus on, we can lay out the fundamental framework for a single increment of improvement:
 
- 1. Develop an *empathetic understanding* of your stakeholder's fears, dreams and frustrations
+ 1. Develop an *empathetic statement* of your stakeholder's fears, dreams and frustrations
 
     By understanding the underlying emotions which are driving your stakeholder's day-to-day behavior, you'll be equipped to make a case for change.
 
- 2. Design a (slightly) better way to work
-
-    # Design an *increment of improvement* in how you currently work together
+ 2. Design a slightly better way to work
 
     A modest step from where you are now, that has wins for you, your stakeholder, and the business.
+
+    One subtle but critical point: this modest step must end with some kind of a *shared decision*, made by you and your stakeholder, together.
+
+    # Design an *increment of improvement* in how you currently work together
 
  3. Make a *compelling offer* to your stakeholder
 
@@ -104,13 +111,15 @@ Okay, now that we've selected a single stakeholder to focus on, we can lay out t
 
     Make it as easy as possible for them to say "yes" by a) carefully timeboxing the increment and b) ensuring the stakeholder explicitly retains *control*.
 
- 4. At the end of the increment, *decide together* what you've learned and how, together, you want to adjust going ahead.
+ 4. Earn a win, and then make a shared decision
+
+    Do everything you can to have things go well, in the increment. At the end, *decide together* what you've learned and how, together, you want to adjust going ahead.
 
 Through repeated cycles of this collaborative work, you can steadily make improvements while building more and more trust and rapport.
 
 Let's bring this to life through an example.
 
-** Scenario: Constantly Changing Priorities
+** Scenario: The CEO & The Constantly Changing Priorities
 
 We'll go through a series of increments to improve a specific, real-world situation -- an engineering leader who is struggling to make progress, because a key stakeholder keeps changing priorities.
 
@@ -160,17 +169,19 @@ Marco shrugs in agreement. Quin can see his eyes flicking off screen occasionall
 
 She takes a breath. "You've talked a good bit about what we'd need to demonstrate, to raise a series B on good terms. I wanted to see if I have that all mostly right."
 
-Marco quirks his head. This has broken through just a bit, Quin thinks.
+Marco quirks his head. He's still got an eye on some chat window, Quin thinks, but he's paying just a bit more attention.
 
 "Our current runway is about 18 months", she begins, "but we need to get some big customers in the next six to twelve months, so that you have time to tell that story to potential investors. Is that about right?"
 
-Marco purses his lips. "Almost. It's not enough that we just *land* a few big customers--we need them to be *using* ATN!, with their actual teams, pretty *often*. We need *engaged customers* A couple of big sales where the implementations don't get off the ground are almost worse than no sales."
+Marco purses his lips. "Almost. It's not enough that we just *land* a few big customers--we need them to be *using* ATN!, with their actual teams, pretty *often*. We need *engaged customers*. A couple of big sales where the implementations don't get off the ground are almost worse than no sales."
 
 "Got it," Quin says eagerly, "let me say that back to you, make sure I've got it. It's not enough to just land big customers, we need *engaged customers*, which means..." She summarizes what she's just heard from Marco, and then makes sure it sounds right to him.
 
-Quin spends a few more minutes drawing out the key strategic goals for ATN!, and then mapping those back to the current work of the team. At each step, she carefully echoes back to Marco what she's just heard, and asks if she's got it right.
+Quin spends a few more minutes drawing out the key strategic goals for ATN!. She hears Marco say that the team needs to build something "just good enough". He adds, speaking at his usual rapid clip, that once they've got some customers using that "just good enough" thing, the team should "make it better *with* them".
 
-Finally, she pauses and looks through her notes. "Let me see if I've got the overall story," she says. She then takes them to time to give a brief summary of everything they've just discussed. Because she's heard Marco say "engaged customers", "start with something good enough", and "make it better *with* them", she uses those exact phrases.
+At each step, Quin carefully echoes back to Marco what she's just heard, and asks if she's got it right.
+
+Finally, she pauses and looks through her notes. "Let me see if I've got the overall story," she says. She then takes them to time to give a brief summary of everything they've just discussed--both the overall strategic goals, and also how those goals inform the work of her team. Because she's heard Marco say "engaged customers", "start with something good enough", and "make it better *with* them", she uses those *exact phrases* as part of her summary.
 
 "Does that sound about right?" she asks Marco one final time, as she wraps up.
 
@@ -184,21 +195,23 @@ By using that superpower, Quin has obtained the first part of what she needs, to
 
 *The specific way he would describe an overall "strategic intent" for the business, and how her work fits into it.*
 
-Knowing a strategic intent, and knowing *the words the stakeholder uses to describe it*, will allow her to anchor her pitch for change in a very powerful way.
+*** Leveraging a Strategic Intent
 
-Before obtaining that intent, she might have said:
+Knowing a strategic intent, and knowing *the words your stakeholder uses to describe it*, allows you to *anchor* your pitch for change in a very powerful way.
+
+Before obtaining that intent, Quin might have said:
 
 "The team is getting frustrating with the constantly changing priorities."
 
-Unfortunately, we've already seen that Marco has a way to discount that -- "We're a startup, we have to move fast."[fn:: "Dan, why doesn't Quin just /explain/ to Marco that ATN! will /actually/ move faster if he just chooses a single goal?". In my extensive testing in the field, trying to *intellectually* convince someone to change their behavior works, let me check my notes here, approximately *never*.]
+Unfortunately, we've already seen that Marco has a way to discount that -- "We're a startup, we have to move fast."[fn:: "Dan, why doesn't Quin just /explain/ to Marco that ATN! will /actually/ move faster if he just chooses a single goal?". In my extensive testing in the field, trying to *intellectually* convince someone to change their behavior works, let me check my notes here, *never*.]
 
-Having drawn out from Marco a statement of intent, Quin could instead open her pitch for change with something like:
+Having drawn out from Marco a statement of strategic intent, Quin could instead open her pitch for change with something like:
 
 "As I understand it, ATN!'s most important goal is to have a set of *engaged customers* within six to eight months. Potential investors in a next round are going to want to see happy users, running actual team activities on the platform--not just a couple of big sales. Given that, our current goal is to *very* quickly build something that is "*just good enough*". Something we can get into the hands of a few early customers, and then make better *with* them." She could then check to see if that sounds right to him, before continuing with, "Unfortunately, I'm worried that the team is struggling a bit with shifting priorities. We might miss our target for shipping something good enough for customers to start *using*."
 
 Marco is hugely more likely to listen to that latter concern--both because it's positioning the problem in the context of their overall business goals, but also because it's *using the words he himself uses*.
 
-Fun fact: just *stating* that overall strategic goal in your stakeholder's own words can make a big difference. It positions you as discussing what is best for the business, *not* your own "personal" frustrations.
+Fun fact: just *stating* that overall strategic goal, and doing so in your stakeholder's own words, can make a big difference to whatever comes after. It positions you as discussing what is best for the business, *not* your own "personal" frustrations.
 
 For Quin, having obtained this information is a great start.
 
@@ -216,47 +229,47 @@ Quin needs to answer the Four Key Emotion Questions about a stakeholder:
 
  - What do they *dream of*?
 
-These are an extremely powerful core for persuasion. Two focus on day-to-day experiences (frustrations and "things that feel good"), two on longer-term, deeper motivations (fears and dreams).
+These are an extremely powerful core for persuasion. Two focus on day-to-day experiences (frustrations and "things that feel good"), two on longer-term motivations (fears and dreams).
 
-If you can come up with answers to these four questions, you can build an an *extremely* compelling request to try something new.
-
-A request that the stakeholder will both *hear* and *feel* as worth listening to.
+If you can come up with answers to these four questions, you can build an an *extremely* compelling request to try something new. A request that the stakeholder will both *hear* and *feel* as worth listening to.
 
 We'll spend real time on how to craft such a request in the "Design a Compelling Offer" chapter.
 
-For now, let's continue with Quin.
+For now, let's see what Quin does next.
 
-Quin could use her echoing back and summarizing skill to "mine for" these answers. But she has worked closely enough with Marco that she has some good guesses.
+Quin could use her echoing back and summarizing skill to "mine for" these answers. But she has worked closely enough with Marco that she has a pretty good idea, already.
 
  - *What is currently frustrating Marco?*
 
-   Quin is pretty sure it's the lack of *velocity*.
+   Quin can tell Marco feels like it takes forever to see any progress on the product--that's why he's starting to suggest she put more pressure on the team to work longer hours.
 
-   She can tell Marco feels like it takes forever to see any progress on the product--that's why he's starting to suggest she put more pressure on the team to work longer hours.
+   She can summarize this as: the lack of *velocity*.
 
  - *What is Marco afraid of?*
 
-   Quin knows that, at his last job, Marco almost got fired because of a massively failed software project. The engineering team he was working with completely lost the way, but kept a lot of that hidden from him. When the real situation came to light, Marco's CEO was so angry, he chewed Marco out in front of half the executive team.
+   Quin remembers that, at his last job, Marco was nearly fired because of a massive, failed software project. The engineering team he was working with completely lost the way, but kept a lot of that hidden from him. When the real situation came to light, Marco's CEO was so angry, he chewed Marco out in front of half the executive team.
 
-   Given that, Quin suspects his biggest fear is suddenly discovering that the project is wildly far behind, or that the engineering team has gone off in some crazy direction. And kind of "stepping back" may *feel* like a terrifying loss of control.
+   Given that, Quin suspects Marco's biggest fear is suddenly discovering that the project is wildly far behind, or that the engineering team has gone off in some crazy direction.
+
+   Thus, some kind of "stepping back" may *feel* like a terrifying loss of control.
 
  - *What makes Marco feel good?*
 
    Quin sees Marco absolutely light up when he has a chance to interact with a visual prototype.
 
-   He also clearly deeply enjoys sharing what he's learned from talking with customers. Whe she stops to think about it, Quin realizes that's in part because Marco is using those debriefs to clarify his own thinking. He comes in swirling with thoughts, and by the end, he's condensed it down, and that *feels good* to him. Unfortunately, the team is dizzied and distracted by all the ideas.
+   He also clearly deeply enjoys sharing what he's learned from talking with customers. When she stops to think about it, Quin comes to suspect that's in part because Marco is using those debriefs to clarify his own thinking. He comes in swirling with thoughts, and by the end, he's condensed it down, and that *feels good* to him. Unfortunately, the team is dizzied and distracted by all the ideas.
 
  - *What does he dream of or hope for*?
 
-   Sharing something exciting with customers that they can't wait to start using.
+   Quin can see a glint of excitment in his eye when he imagines demoing a product to customers, and seeing them eager to start using it.
 
-   Quin has also heard him say more than once that he wants to build a company where everyone feels connected to the customers. She suspects that his constant updates after his customer calls are partly driven by a desire to live up to that vision.
+   # She's also heard him say more than once that he wants to build a company where everyone feels connected to the customers. She suspects that his constant updates after his customer calls are partly driven by a desire to live up to that vision.
 
 Now that she's got all this critical information, Quin is ready to design a single increment of change.
 
 ** Step 2. Design A Slightly Better Way to Work
 
-/A modest step from where you are now, that has wins for you, your stakeholder, and the business./
+/A modest step from where you are now, that has wins for you, your stakeholder, and the business -- and that explicitly ends with a shared decision./
 
 The key thing here is: *don't jump too far ahead*.
 
@@ -264,44 +277,168 @@ Just about any experienced engineer or product manager could easily map out a be
 
 For such an experienced engineer or product manager, that won't even feel particularly complicated, because they've worked that way many times before. Thus, they might be tempted to try to quickly put the whole thing in place at once.
 
-Doing so carries two significant risks. First, getting "all the way there" in one step will require Marco to change his behavior a *lot*. That will tend to create a lot of resistance. As a result, Marco may well end up promising to try that change "some time soon", but then delaying over and over.
+Doing so can sometimes work, but it carries two significant risks.
 
-Second, and even more importantly, if you make a "big" change, it's not likely to work perfectly from the start. This creates an enormous risk that Marco will then decide it's a failure and return to his comfort zone of acting exactly the way he did before--and worse, now "knowing" that your proposed way "won't work".
+First, getting "all the way there" in one step will require Marco to change his behavior a *lot*. That tends to create a lot of resistance, and Marco may well simply refuse to engage. He might promise to try that change at some point in the future, but insist on waiting until "things settle down". And of course, things never settle down.
 
-To be clear: sometimes it can make sense to bootstrap a big change all at once. But, especially if you have a stakeholder who seems to be operating from a place of fear (aka, most stakeholders), picking a small step to start is usually the way to go.
+Second, if you make a "big" change, there's almost no chance it will work perfectly from the start. This creates a significant risk that Marco will decide the new way of working is a failure and promptly return to his comfort zone of acting exactly the way he did before--and worse, now "knowing" that your proposed way "won't work".
+
+To be clear: sometimes it can make sense to bootstrap a "big" change all at once. But, especially if you have a stakeholder who seems to be operating from a place of fear (aka, most stakeholders), picking a small step to start is usually a better way to go.
 
 Ideally, you want to find a small step which makes things a little better for you, gives your stakeholder something they don't currently have, and also sets you up for a concrete business win. Given all of that, you'll be able to ask for a "slightly uncomfortable" shift in behavior for the stakeholder.
 
-Quin spends some real time thinking this one through, mostly as she's walking her dog in the mornings.
+Quin spends some real time thinking this one through on her daily morning walks with her dog.
 
 She finally arrives at the following proposed incremental change:
 
- - After his customer calls, Marco will always *first* meet 1:1 w/ Quin, for a quick debrief, *before* he shares anything with the team
+ - For the next two weeks, after customer calls, Marco will always *first* meet 1:1 w/ Quin, for a quick debrief, *before* he shares anything with the team
 
- - She will commit to being ready to drop anything else and meet with him, while his thoughts are fresh
+ - For these two weeks, Quin will commit to being ready to drop anything else and meet with him, while his thoughts are fresh
 
- - Otherwise, he can continue to interact with the team as he wishes
+ - Otherwise, Marco can continue to interact with the team as he wishes
+
+ - At the end of the two weeks, Quin & Marco will check in about progress towards the "Just Good Enough" first milestone, and decide what, if anything to further ajdust
 
 That's *it*.
 
-There's a lot more Quin could aim for, but by starting small, she can run that for a week or two, and then build on it.
+There's a lot more Quin could aim for, but by starting small, she can get going right away, and build momentum.
 
-But note, this *is* a meaningful change:
+Also, note, this *is* a meaningful change:
 
  - It positions Quin to buffer the team from Marco's initial swirl of thoughts, immediately after he's talked with customers
 
- - It also positions her to work with him to identify any true updates to priorities
+ - It requires Marco to do something "slightly uncomfortable", by adjusting his habits around customer calls
 
- - It requires Marco to do something "slightly uncomfortable",by adjusting his habits around customer calls
+ - It gives him a small, immediate reward for doing so -- Quin's immediate attention and thought partnership
 
- - It gives him a tiny reward for doing so -- Quin's immediate attention and thought partnership
+ - It promises a further near-term reward: visible progress towards the "Just Good Enough" initial version of the product.
 
 ** Step 3. Make A Compelling Offer
 
-Now is the key step -- putting together the strategic intent, the map of your stakeholder's feelings, and your deliberately small change into a *compelling offer*. Something your stakeholder is willing to try, *right now*, not at some later date.
+Now is the key step -- you'll put together the strategic intent, your empathetic understanding of your stakeholder's feelings, and your deliberately small change into a *compelling offer*. Something your stakeholder will be willing to say "yes" to, *right away*.
+
+I strongly recommend doing this *verbally*, in whatever form of "in-person" your company has.
+
+You'll go through a series of specific steps -- and you'll practice ahead of time so that you can fluidly move through them:
+
+ - Name the strategic intent, and state that you have a concern about achieving it
+
+ - Next, share an authentic, empathetic understanding of their frustrations, fears & hopes
+
+ - Then, state your own concerns
+
+ - Describe your proposed increment of change
+
+ - Check for concerns, adjust, and get a commitment
+
+To see the power of this approach, let's see how Quin can apply it.
+
+*** Quin's Compelling Offer to Marco
+
+They've gone for a walk together, which they do once in a while. As they get into the city park, Quin asks if they can sit on a bench to talk. They sit side by side, watching people stride by.
+
+**** Name the strategic intent, and state that you have a concern about achieving it
+
+"As I understand it," Quin says, "ATN!'s most important goal is to have a set of *engaged customers* within six to eight months. Potential investors in a next round are going to want to see happy users, running *actual* team activities on the platform--not just a couple of big sales. Given that, our current goal is to *very* quickly build something that is "*just 'Good Enough*'". Something we can get into the hands of a few early customers, and then make better *with* them. Do I have that right?"
+
+Marco nods for her to go on.
+
+She takes a breath. "Unfortunately, I'm worried that we're struggling to move fast enough. Unless we make some changes, I think we might not have a product *any* customer will be able to actually use until early next year."
+
+Marco frowns unhappily. This isn't shocking news, but it doesn't feel good to hear it said out loud.
+
+**** Share an authentic, empathetic understanding of their frustrations, fears & hopes
+
+"Whatever changes we make," Quin continues, as a breeze stirs leaves around them, "I want to be certain we solve for a few things. First, I want to be sure you can actually *see* that the team is moving faster--I don't want you to have to take that on faith from me."
+
+Marco nods.
+
+Note how Quin has already shown that she cares about both Marco's biggest *frustration* (that the team isn't moving fast enough) and his biggest *fear* (that he won't know is going on, and will get a nasty surprise).
+
+# She's demonstrating a commitment to solve for that.
+
+She continues, "I also want to be certain that, as you talk to prospects, we can quickly adjust based on what you're hearing and learning. That's what's going to let us build something that we can build an awesome demo around, that customers are going to be super excited to try out."
+
+He's with her, she can tell.
+
+Note how she's speaking to his *dreams* -- the excitement he's going to feel in doing a great demo.
+
+She's also picking out a genuinely important thing from his problematic behavior--that she and team can adjust, *when necessary*. She can authentically agree that that's important, even if the current pattern isn't working.
 
 
-** Step 4. At Conclusion, Decide Together What To Do Next
+**** State your own concerns
+
+Quin has spent a bit of time thinking about how to avoid any kind of accusation that could trigger defensiveness, so she says:
+
+"One thing I worry about is that I think the team doesn't have quite as much context as you and I do. So, when you come back from a customer call, and share what you've heard and learned, they sometimes get confused. They're not sure what is, like, extra context, and what represents a real change in direction. That confusion is starting to add up. Of course, I absolutely want them to hear new information from potential customers, and quickly -- but I think we can find better ways."
+
+Marco nods, slowly.
+
+Note how Quin positioned this as a "weakness" of her and the team, instead of a failing on the part of Marco. She could easily have said "The way you're constantly bringing in new ideas is causing problems", but, instead, by playing just a bit of "low status", she is sharing a problem to solve together--where the "problem" is "the team can't follow your new ideas", not "you're being chaotic and unfocused". That framing makes it much easier for Marco to stay with her.
+
+Even so, she quickly reiterates her commitment to solving for his concerns.
+
+**** Describe your proposed increment of change
+
+"I'd like to try a small change, for the next two weeks. Whenever you get off a customer call, I'll ask you to ping me on Slack. I'll drop whatever else I'm doing, and you and I can do an immediate debrief. That'll give you a chance to really think through what you've heard, while it's still fresh. If something important comes up, I can share our current status with you, and we can make an immediate call about any priority changes to bring to the team."
+
+"That's most of it. I would ask that, if, during one of those debriefs, I tell you that the team is super heads down, that you wait to give them the full update. But we don't need to be too formal about that."
+
+"I'm hopeful that, if we do this, I can really focus with the team, and we can have a demo of the Virtual Water Cooler ready by end of sprint."
+
+"Finally, I want to set a meeting up, for immediately after that end-of-sprint demo, for you and I to review how close we are to "Just Good Enough" and what, if anything, we want to keep tweaking to ensure the team can move faster."
+
+This is asking Marco to make a specific change in his behavior, which will be "just slightly uncomfortable". Instead of acting on his current, excited instinct after customer calls, he'll have to remember to Slack Quin instead.
+
+But she's making a personal commitment to make this work. Both being more available to him than usual, and also by providing within-sprint status, directly (which, remember, is one of his biggest fears).
+
+She's speaking to his biggest frustrations--team velocity. He urgently wants more speed, wants to *see* progress aginst the new product features.
+
+By timeboxing it to two weeks, it's easy for Marco to say yes, especially because he'll have a chance to weigh in, at the end of those two weeks, on how it's going for him.
+
+Now, to be clear, Marco may not say yes immediately. But that's fine. Quin can probe for any hesitations and tweak the offer, until he's ready to try. Usually, if you've done the previous steps well, you can do that within the discussion, so you're emerging with a commitment to try something new.
+
+** Step 4. Earn a Win & Make a Shared Decision
+
+Once you get commitment to try something different for a limited period of time, you now want to do everything you can to ensure that things go *great*.
+
+You want to *earn a win* --- doing so will allow you to build trust, which will allow you to then drive more change over time.
+
+There is a real chance that earning a win here is more valuable than literally anything else you could do at your job -- improving a broken pattern of interaction can have a huge impact on the value your team can create over time.
+
+Thus, you'll usually want to:
+
+ *a) Clear the Decks*
+
+     Throw overboard everything else about your job you can, for a short time.
+
+ *b) Stack the Deck*
+
+     Do everything you can to increase the odds of landing a visible, exciting win.
+
+To *clear the decks*, Quin tells her team that, for the next two weeks, she's going to be very focused on building a better collaboration with Marco. She tells them she will have to drop out of some meetings at a moment's notice. She cancels some networking chats she had on her calendar, to clear up space.
+
+To *stack the deck*, she sits down with her experienced front-end dev and brainstorms options for a really exciting demo of the Virtual Water Cooler feature. Thanks to her digging in on Marco's underlying hopes and dreams, Quin has a nuanced understanding of what he wants to *do* with a demo. That allows her to work with that front end dev to come up with a limited-scope version that she is pretty sure Marco will love. The two engineers decide which corners they can safely cut at this stage--again, with a nuanced understanding of what Marco is going to want to do next, if this demo goes well.
+
+As the sprint unfolds, there are some initial bumps as everyone gets used to the adjustments. Marco comes rushing into one standup fresh off a call, and starts to launch into an excited, confusing summary. But, before he can get going, he manages to catch himself. "Right, sorry!", he says, "Not allowed!" He grins abashedly. Quin laughs along with him, and then, with a quick apology to her team, drops out of the standup, so she and Marco can talk.
+
+Later in the sprint, Quin finds herself getting into a solid rhythm. The post-customer call conversations between her and Marco start to feel like a steady ongoing discussion. A few important themes emerge--some of which will likely lead to changes in what they're building. They decide together to not raise any of those for the team yet, since the options will be much clearer once they have a thing they can use.
+
+The team is excited about working towards an actual thing to demo. Quin stays close enough to the day-to-day development to make constant small decisions to keep them on track.
+
+*** Celebrate and Make a Shared Decision
+
+"And then", says Tom, the youngest engineer on the team, "when time is up, the game is over." He circles his mouse pointer around a timer in the top right corner of his screen, which is being shared with all of them. As that tiemr ticks down from 5 to zero, the little gallery of faces he's been viewing all begin to fade at once. The engineering team, who are representing a group of employees participating in an online ice breaker game, all wave as they disappear. And then, with a final visual flourish, the game over.
+
+As they return to their normal Zoom, Marco is applauding excitedly. "That's great, that's great," he says, as he comes off mute. "We could record almost exactly that, I could show it to Illuminatio. They love the idea of the quick games."
+
+The team grins at each other.
+
+At their planned, after-demo meeting, Marco and Quin review both the product progress, and also how they've been working together. Although Marco is excited about the progress, he has some concerns about the new way of working. They quickly talk out a few options for adjustments, and decide together on one to try. They then dive into a discussion of which prospects might want to see the new VWC demo.
+
+Quin thinks their sprint process still has a lot of room for improvement--but now they're working on it together.
+
+** Succeeding Increments
 
 * Scraps
 ** Multiple People
