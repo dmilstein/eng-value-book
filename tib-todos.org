@@ -3,8 +3,6 @@ Project/todo list for the Book In Question
 ; (org-clock-csv-to-file "./clock-data.csv")
 
 * Book Inbox                                      :inbox:
-** TODO Think about: positive/you can do it energy
-Robfitz does that, when I find it, it feels good.
 ** DONE Point at stakeholder toc
 CLOSED: [2025-08-11 Mon 08:18]
 ** DONE For envision a better way to work, make list of problems
@@ -13,48 +11,89 @@ E.g.
 ** DONE Tweak clock color to be not quiet so bright
 CLOSED: [2025-08-12 Tue 08:37]
 org-agenda-clocking, trying AntiqueWhite1
+** DONE Switch "you" to a person in CEO story?
+CLOSED: [2025-08-18 Mon 09:04]
+** DONE Substack: stakeholder = who you can't ignore?
+CLOSED: [2025-08-18 Mon 09:04]
+** DONE Afford to Ignore -- return to Fundamental Game Plan?
+CLOSED: [2025-08-18 Mon 09:05]
+** DONE Fix tense issues in Step 1.
+CLOSED: [2025-08-15 Fri 08:11]
+** DONE For Loop story, decide "you" vs "Quin"
+CLOSED: [2025-08-18 Mon 09:05]
+Like, do I start each section by explaining what "you" do at a high level, then show Quin doing it, then explain it? Or do I start with Quin?
+** TODO emdashes in org-mode export
+** TODO Look into smart quotes export from org-mode
+** TODO Make more dramatic changes in priorities in initial story
 * [[id:B4926308-39DD-471B-8E71-5FFF7546D6E3][ToC/Structure ]]                                  :gtasks:
-** DONE Rough out new title + TOC                 :curweek:
+** TODO Experiment: add exercises to end of each chapter
+Like, now go do these things
+
+** TODO Aim for: each section (chapter?) has an *action plan*
+People are clearly resonating with that, and it's actually how I think.
+** DONE Rough out new title + TOC
 CLOSED: [2025-08-12 Tue 09:31]
 :LOGBOOK:
 CLOCK: [2025-08-12 Tue 08:43]--[2025-08-12 Tue 09:31] =>  0:48
 :END:
-** TODO Maybe: collapse Strat Intent/Map Fears
+** DONE Insert new ToC
+CLOSED: [2025-08-13 Wed 07:50]
+:LOGBOOK:
+CLOCK: [2025-08-13 Wed 07:45]--[2025-08-13 Wed 07:50] =>  0:05
+:END:
+** DONE Cut up existing Case Study bits, insert
+CLOSED: [2025-08-13 Wed 08:05]
+:LOGBOOK:
+CLOCK: [2025-08-13 Wed 07:50]--[2025-08-13 Wed 08:05] =>  0:15
+:END:
+** DONE Maybe: collapse Strat Intent/Map Fears
+CLOSED: [2025-08-18 Mon 09:17]
 Build Key Context
 
-** TODO Experiment: add exercises to end of each chapter
-Like, now go do these things
-
-** TODO Maybe: back half of book is all case studies
-** TODO Aim for: each section (chapter?) has an *action plan*
-People are clearly resonating with that, and it's actually how I think.
+** DONE Maybe: back half of book is all case studies
+CLOSED: [2025-08-18 Mon 09:17]
 * [[id:454225CA-DD66-4ACA-B8B3-429F6551DBDC][New Intro]]                                       :gtasks:
-** TODO Write forward from solving biz problems   :curweek:pom:
+** DONE Write forward from solving biz problems
+CLOSED: [2025-08-12 Tue 11:01]
 :LOGBOOK:
-CLOCK: [2025-08-12 Tue 09:31]
+CLOCK: [2025-08-12 Tue 09:31]--[2025-08-12 Tue 11:01] =>  1:30
 :END:
-** TODO Say "you need both"                       :curweek:pom:
+** DONE Say "you need both"
+CLOSED: [2025-08-12 Tue 17:01]
+:LOGBOOK:
+CLOCK: [2025-08-12 Tue 16:52]--[2025-08-12 Tue 17:01] =>  0:09
+:END:
 Both better ways to work together and a way to gradually build trust.
 
 Unstuck
 
 Getting Unstuck
 How Engineers Can Build Trust and Change the Way They Work With Stakeholders
-** TODO Experiment: shrink game plan              :curweek:
-** TODO Speak to cyclic nature of trust building  :curweek:
-** TODO Save the full game plan? Get to useful things faster?
-Or, tell it as a lighter story, and then unpack it.
-
-Or, don't worry yet.
+** DONE Speak to cyclic nature of trust building
+CLOSED: [2025-08-13 Wed 08:51]
+:LOGBOOK:
+CLOCK: [2025-08-13 Wed 08:05]--[2025-08-13 Wed 08:51] =>  0:46
+:END:
+** DONE Speak to "Who is a Stakeholder?"
+CLOSED: [2025-08-13 Wed 10:26]
+:LOGBOOK:
+CLOCK: [2025-08-13 Wed 08:51]--[2025-08-13 Wed 10:26] =>  1:35
+:END:
+** DONE Experiment: tell CEO story next
+CLOSED: [2025-08-14 Thu 07:39]
+:LOGBOOK:
+CLOCK: [2025-08-13 Wed 11:00]--[2025-08-13 Wed 11:28] =>  0:28
+CLOCK: [2025-08-13 Wed 10:37]--[2025-08-13 Wed 10:58] =>  0:21
+:END:
+** DONE Experiment: shrink game plan
+CLOSED: [2025-08-13 Wed 10:26]
 ** TODO Is this "process"? Yes but also no.
 As in, it subsumes process, but also is about the human relationships beneath the process
-** TODO Spend more time in intro on "learn better patterns"
+** TODO Speak to "learn better patterns"
 So it's making clear, early on that you don't need to know a better way.
-** DONE Spike: two interwoven problems            :pom:
-CLOSED: [2025-08-08 Fri 08:27]
-** TODO Tell people they can read the case studies first?
-** TODO Copy from substack + 2 existing intros
-** TODO Experiment: tell story before game plan?
+** TODO Say: can read the case studies first?
+** DONE Experiment: tell story before game plan?
+CLOSED: [2025-08-14 Thu 07:40]
 ** TODO Write New Intro
 :LOGBOOK:
 CLOCK: [2025-08-08 Fri 07:55]--[2025-08-08 Fri 08:27] =>  0:32
@@ -82,12 +121,22 @@ CLOCK: [2025-07-22 Tue 15:10]--[2025-07-22 Tue 15:33] =>  0:23
 CLOCK: [2025-07-22 Tue 06:54]--[2025-07-22 Tue 08:13] =>  1:19
 CLOCK: [2025-07-22 Tue 06:50]--[2025-07-22 Tue 06:54] =>  0:04
 :END:
+** TODO Experiment w/ EWJ's summary?
+Half of what they asked for we never finished, half of what remained was never used.
+** DONE Save the full game plan?
+CLOSED: [2025-08-13 Wed 07:43]
+Or, tell it as a lighter story, and then unpack it.
+
+Or, don't worry yet.
+Get to useful things faster?
+** DONE Spike: two interwoven problems
+CLOSED: [2025-08-08 Fri 08:27]
+** DONE Copy from substack + 2 existing intros
+CLOSED: [2025-08-13 Wed 07:42]
 ** DONE Move solution to challenges out of intro
 CLOSED: [2025-07-22 Tue 08:11]
 ** DONE Break out 3/4 distinct challenges
 CLOSED: [2025-07-29 Tue 11:22]
-** TODO Experiment w/ EWJ's summary?
-Half of what they asked for we never finished, half of what remained was never used.
 ** DONE Signal, early on, that I'm not demonizing PMs's
 CLOSED: [2025-07-24 Thu 06:59]
 Like, product *specifically*. In an ideal world, the Product and Engineering team are managing stakeholders together. But we don't live in that world, do we.
@@ -101,6 +150,27 @@ CLOSED: [2025-07-16 Wed 11:11]
 CLOSED: [2025-07-15 Tue 12:46]
 ** DONE Revise new intro
 CLOSED: [2025-07-16 Wed 11:11]
+* [[id:B0637E99-E30C-4FF8-B8BA-A660454DE08B][The Game Plan]]                                   :gtasks:
+** DONE Finish first "Loop of Improvement"        :curweek:
+CLOSED: [2025-08-19 Tue 10:20]
+:LOGBOOK:
+CLOCK: [2025-08-19 Tue 09:01]--[2025-08-19 Tue 10:20] =>  1:19
+CLOCK: [2025-08-15 Fri 11:40]--[2025-08-15 Fri 12:36] =>  0:56
+CLOCK: [2025-08-15 Fri 07:50]--[2025-08-15 Fri 10:05] =>  2:15
+CLOCK: [2025-08-14 Thu 07:35]--[2025-08-14 Thu 10:17] =>  2:42
+:END:
+** TODO Experiment with succeeding loops          :curweek:
+* [[id:5903AFE7-4B1E-422C-8537-2C56BBFBA643][Mine for Context]]                                :gtasks:
+** TODO Insert "echoing back" from Tac Empathy
+** TODO Add "exercise" -- prepend a strategic intent
+ - First, describe a frustration, imagine it to your stakeholder
+ - Then, prepend a statement of intent
+Hear the difference. Ask someone how it sounds.
+** TODO Spike: show failed convos before good ones?
+Ala Mom Test?
+** TODO Use "I'm worried", "I'm afraid"
+** TODO Put the echoing back tactic in Mine for Frustrations
+** TODO Add: mine for the stakeholder's *current frustrations*
 * [[id:4FEA3BD5-8E85-4BB6-8F59-15FDE4F38572][Tactical Empathy]]                                :gtasks:
 ** TODO Do I use three part teens/terrorists negotiation thing?
 ** TODO Find a Two Ends of Spectrum thing w/ Eduardo?
@@ -135,7 +205,7 @@ To make the emotions more visible on the surface
 ** DONE Review, adjust to be less about Tech Invest
 CLOSED: [2025-08-02 Sat 09:50]
 * [[id:7976BDAE-B87A-4418-A78E-856A18D3C44D][Envision Better ]]                                :gtasks:
-** DONE Write 2 more problems                     :curweek:pom:
+** DONE Write 2 more problems
 CLOSED: [2025-08-11 Mon 11:21]
 :LOGBOOK:
 CLOCK: [2025-08-11 Mon 10:06]--[2025-08-11 Mon 11:21] =>  1:15
@@ -151,14 +221,14 @@ CLOCK: [2025-08-11 Mon 10:06]--[2025-08-11 Mon 11:21] =>  1:15
 ** TODO Add a section on Domain-Aligned Teams?
 Or on value stream-aligned teams/team topologies?
 As a form of change to want to unlock?
-** DONE Break out 4-6 "problems"                  :pom:
+** DONE Break out 4-6 "problems"
 CLOSED: [2025-08-06 Wed 17:03]
-** DONE Write 1 problem                           :pom:
+** DONE Write 1 problem
 CLOSED: [2025-08-07 Thu 08:58]
 * [[id:A1EF14A2-5F19-488D-926C-A8208142E794][Strat Intent]]                                    :gtasks:
-** TODO Review Tech Invest chapters               :curweek:
-** TODO Write bad first draft                     :curweek:
-** TODO Add explicit "Be in detective mode"       :curweek:
+** TODO Review Tech Invest chapters
+** TODO Write bad first draft
+** TODO Add explicit "Be in detective mode"
 * Arc of Persuasion                               :gtasks:
 ** TODO What if my stakeholder resists prioritization?
 ** TODO Get a win without a strategy, first
@@ -170,6 +240,9 @@ E.g. if Doug is going to be the first PM to actually PM, can you sell that as a 
 ** TODO From Ryan: when/how to loop in your boss
 To deploy authority.
 * Case Studies
+** TODO Two distinct "multiple stakeholder" challenges
+ - Hidden conflict in prioritization
+ - Vertical conflict -- someone's boss needs to step back (or step in)
 ** TODO Add post-mortems w/ roberto and vahe?
 As means to face fears from stakeholders
 * [[id:49E66E86-CE83-447E-87C2-3BFF3D8FE42E][Teach/Coach]]                                     :gtasks:
@@ -186,11 +259,11 @@ Dan <-> Ben
 ** DONE Write up Lisa Plesko follow ups
 CLOSED: [2025-07-30 Wed 14:29]
 ** TODO Ping Ryan Scott, ask what he's applied
-DEADLINE: <2025-08-21 Thu>
-** TODO Ping Lisa P, ask what she's applied       :curweek:
-DEADLINE: <2025-08-14 Thu>
+DEADLINE: <2025-09-01 Mon>
+** DONE Ping Lisa P, ask what she's applied
+CLOSED: [2025-08-17 Sun 11:56] DEADLINE: <2025-08-14 Thu>
 ** TODO Ping Jacob, ask how it's going
-DEADLINE: <2025-08-18 Mon>
+DEADLINE: <2025-09-01 Mon>
 ** DONE Make todos for Jacob follow ups
 CLOSED: [2025-07-30 Wed 14:29]
 *** Share my chapters on Tactical Empathy
@@ -209,9 +282,23 @@ CLOSED: [2025-07-16 Wed 10:19]
 ** DONE Draft new email re coaching/helping
 CLOSED: [2025-07-21 Mon 08:11]
 * [[id:E0ADBF07-90B8-4C37-81C0-96A428020F5E][Substack]]                                        :gtasks:
-** TODO Write email to EWJ re posting to Medium
-** TODO Think about a call to action for book announcements
+** TODO Research Medium cross-post practices
+** TODO Cross-post to Medium
+** TODO Substack: It's not important but we have to do it
+Like, stop immediately and ask what the fuck
+** DONE First draft map your stakeholders
+CLOSED: [2025-08-17 Sun 11:45]
+:LOGBOOK:
+CLOCK: [2025-08-17 Sun 11:00]--[2025-08-17 Sun 11:45] =>  0:45
+CLOCK: [2025-08-17 Sun 10:27]--[2025-08-17 Sun 10:47] =>  0:20
+CLOCK: [2025-08-17 Sun 10:20]--[2025-08-17 Sun 10:25] =>  0:05
+CLOCK: [2025-08-17 Sun 08:55]--[2025-08-17 Sun 09:20] =>  0:25
+:END:
+
 ** TODO Decide: cross-post to Medium? Wait 'til... what?
+** DONE Write email to EWJ re posting to Medium
+CLOSED: [2025-08-17 Sun 08:54]
+** TODO Think about a call to action for book announcements
 ** DONE Pick a topic for this week
 CLOSED: [2025-07-30 Wed 09:22]
 ** DONE First draft post <2025-07-28 Mon> week
@@ -279,9 +366,9 @@ CLOSED: [2025-06-11 Wed 17:06]
 ** DONE Understand diff between Substack notes and posts
 CLOSED: [2025-06-12 Thu 11:16]
 * [[id:17305FA7-A43F-40C9-9309-0EF3577C70D0][Author Platform]]                                 :gtasks:
+** TODO Put new email address on Substack
 ** TODO Create a book landing page
 For "I want to find out when you publish this" but I don't want your substack
-** TODO Research Medium cross-post practices
 ** TODO Ping Winston re: building platform
 Esp how he uses LI
 ** TODO Brainstorm 10 bad ideas for "hearing from" people
@@ -289,7 +376,6 @@ Esp how he uses LI
 E.g. buy myself dinner, or a game, or go out w/ friends, or tell Edmund + someone, take Bonnie out for dinner.
 ** TODO Research: places for building followers
 Bluesky?
-** TODO Make new email address, put on Substack
 ** DONE Define next increment of success, create viz
 CLOSED: [2025-06-27 Fri 07:23]
 Likely: subscriber count? Separate goal around beta readers? Frequency of recommendation? People reaching out to me. DO a bit of thinking.
@@ -304,6 +390,9 @@ CLOSED: [2025-06-11 Wed 17:06]
 CLOSED: [2025-06-11 Wed 17:06]
 Announce I'm working on a book, will post here sometimes, but please go join my new newsletter/Substack if you're interested for more (and/or might like to be a beta reader for a eection).
 * [[id:49435FCD-0590-44DE-8FC7-585E7BCC8BB2][Tooling]]                                         :gtasks:
+** TODO Produce a viz of writing hours
+** DONE Do I write sub-heads in overall ToC?
+CLOSED: [2025-08-18 Mon 09:19]
 ** DONE Go back to flat list of project           :curweek
 CLOSED: [2025-08-05 Tue 09:38]
 And, maybe just have a single ":sleeping:" one at the end, and stash everything under there that I don't want to see.
@@ -311,10 +400,10 @@ And, maybe just have a single ":sleeping:" one at the end, and stash everything 
 Because this is dumb.
 ** DONE Adjust toc.org to point to new book
 CLOSED: [2025-08-05 Tue 09:43]
-** TODO Produce a viz of writing hours            :curweek:
-** DONE Timeboxed spike on pom->clock->DONE       :curweek:
+** DONE Timeboxed spike on pom->clock->DONE
 CLOSED: [2025-08-11 Mon 16:39]
-** TODO Write out 3 bad ways to clock time
+** DONE Write out 3 bad ways to clock time
+CLOSED: [2025-08-18 Mon 09:19]
 E.g. start/end *every pomodoro* by clocking *something*, so that's becomes part of the habit of intenionality.
 
 Write out three bad ideas for what tasks to clock against.
@@ -324,8 +413,8 @@ E.g. create a file of clocking tasks, and just record things there (and put it t
 Or, clock detailed tasks, and roll them up.
 
 Check on how archiving affects clocking
-** TODO Try one of those bad ways to clock time
-** TODO Do I write sub-heads in overall ToC?
+** DONE Try one of those bad ways to clock time
+CLOSED: [2025-08-18 Mon 09:19]
 ** DONE Learn just enough to clock in and out for writing hours (ask Claude?)
 CLOSED: [2025-07-23 Wed 11:51]
 ** DONE Make watch_book.sh work for new book
@@ -354,6 +443,14 @@ So I can either run full screen or within 80 columns
 Because now my wordcount history stuff is sensitive to those being missing.
 ** TODO Create a new chapter template or abbrev?
 * Book Misc                                       :gtasks:
+** TODO "engineering team" = product team, sprint team, etc?
+** TODO Ask Satoe: rank order the chapters?
+by what you want to learn about
+** TODO Think about: positive/you can do it energy
+Robfitz does that, when I find it, it feels good.
+** TODO Ask Satoe "What have you tried to learn about?"
+Who have you coached on these topics? Be specific.
+** TODO Don't forget: how to use the organizational authority for you
 ** TODO Set a goal for week around hours of writing
 ** TODO Read up on "breadcrumb bio" from WUB?
 ** TODO Get into "I can't wait to help" mode
@@ -362,7 +459,6 @@ What was my mindset for writing Rewrites? I think, I knew something, and couldn'
 Thanks Again + Follow Up Q's
 ** TODO Name the case studies by "problem"
 E.g. so that someone flipping through the table of contents sees something and says "Wait that's me"
-** TODO Add a section about multiple disagreeing stakeholders?
 ** TODO Add something about OKR's
 Every Unhappy OKR is Unhappy In the Same Way
 ** TODO Check out [[https://www.amazon.com/Aligned-Stakeholder-Management-Product-Leaders/dp/1098134427][Melissa Appel's book]]
