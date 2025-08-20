@@ -1,0 +1,19 @@
+:PROPERTIES:
+:ID:       5903AFE7-4B1E-422C-8537-2C56BBFBA643
+:END:
+#+title: Mine for Frustrations, Fears & Dreams
+#+filetags: :Chapter:
+* Mine for Frustrations, Fears & Dreams
+
+# Who you're mining from = variety of stakeholders
+** Afford to Ignore
+
+One useful frame is: someone is one of your stakeholders if you *can't afford to ignore them*. That may sound a bit brutally transactional, but if there's too large a set of people who you can't ignore, then there's almost no chance your team can move quickly and create meaningful value.  Asking who you can ignore will sometimes shine a light on the implicit power structures of your company--and can reveal fundamental conflicts that are making it impossible for you to win. E.g. maybe your CEO talks night and day about how critical it is for your team to stay on track for the big new product launch they've promised to the board. However, your team is *also* expected to handle a stream of feature requests from existing customers, which that CEO doesn't pay any attention to. If, one day, the Head of Customer Success comes banging on your door, demanding you immediately add a new feature for enterprise customers, can you *afford* to ignore them? Or if you do, will you receive an unpleasant lecture from the CEO and then acquire a reputation as "not being a team player"?
+
+If not, the CEO's statement of your priorities isn't a full truth of your situation.
+
+The Head of Customer Success  has shown a willingness in the past to blame engineering and product if they fail to hit their retention numbers.
+
+Separately, the Head of Customer Success
+
+The only way you and your team will create significant value is if you can relentlessly focus on the most important, most valuable work at every moment. People you can't ignore are, in the actual,
