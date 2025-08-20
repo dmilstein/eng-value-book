@@ -428,17 +428,25 @@ The team is excited about working towards an actual thing to demo. Quin stays cl
 
 *** Celebrate and Make a Shared Decision
 
-"And then", says Tom, the youngest engineer on the team, "when time is up, the game is over." He circles his mouse pointer around a timer in the top right corner of his screen, which is being shared with all of them. As that tiemr ticks down from 5 to zero, the little gallery of faces he's been viewing all begin to fade at once. The engineering team, who are representing a group of employees participating in an online ice breaker game, all wave as they disappear. And then, with a final visual flourish, the game over.
+"And then", says Tom, the youngest engineer on the team, "when time is up, the game is over." He circles his mouse pointer around a timer in the top right corner of his screen, which he is sharing with all of them. As the tiemr ticks down from 5 to zero, the little gallery of faces he's been viewing all begin to fade at once. The engineering team, who are representing a group of employees participating in an online ice breaker game, all wave as they disappear. And then, with a final visual flourish, the game is over.
 
-As they return to their normal Zoom, Marco is applauding excitedly. "That's great, that's great," he says, as he comes off mute. "We could record almost exactly that, I could show it to Illuminatio. They love the idea of the quick games."
+As they return to their normal Zoom set up, Marco is applauding excitedly. "That's great, that's great," he says, as he comes off mute. "We could record almost exactly that, I could show it to Illuminatio. They love the idea of quick games."
 
 The team grins at each other.
 
-At their planned, after-demo meeting, Marco and Quin review both the product progress, and also how they've been working together. Although Marco is excited about the progress, he has some concerns about the new way of working. They quickly talk out a few options for adjustments, and decide together on one to try. They then dive into a discussion of which prospects might want to see the new VWC demo.
+Immediately after demo wraps up, Marco and Quin meet for the new 1:1 end-of-sprint sync. They discuss both the product increment and also how they've been working together. On that latter front, although Marco is excited about the progress, and has been finding the immediate debriefs with Quin very useful, he does raise a concern.
 
-Quin thinks their sprint process still has a lot of room for improvement--but now they're working on it together.
+He says, with a vague frown, that he doesn't want the team to get "too far from the customers". Quin probes a bit for what "too far from the customers" means, using her echoing back and summarizing skills. After just a few rounds, she arrives at a statement that she can wholeheartedly agree with: both she and Marco want the engineers to have a real feel for their customers' day-to-day lives. Such an understanding is important both for motivation but also so the engineers can make smart tradeoffs as they build.
+
+Once that's clear, Quin realizes that she might be able to address Marco's concern while also addressing a concern of her own, which is the transactional, overly ticket-focused nature of their sprint planning meetings. She wants to reboot those meetings to focus more on the "why" behind their near-term goals. She suspects there's a way to give Marco a chance to use sprint planning to bring customer's day-to-day experiences to life, while also challenging him to be clearer about communicating the context behind his feature requests.
+
+She tells Marco that she thinks she has an idea, and promises to bring him something concrete tomorrow to consider. Given how clearly she understood his worry about the team losing contact with their customers' working experience, Marco is feeling good, and he nods.
+
+The two of them then dive into a discussion of which prospects might want to see the new VWC demo.
 
 ** Succeeding Increments
+
+Over the next several months, they continually evolve how they work together. They make some missteps, but also make a bunch of discoveries that feel exciting. Throughout it, they not only build more momentum, but they also build a great deal of trust in each other.
 
 * Scraps
 ** Multiple People
