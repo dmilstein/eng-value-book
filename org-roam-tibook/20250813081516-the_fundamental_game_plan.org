@@ -10,15 +10,15 @@ You're going to make things better through a *series of small steps*, not via on
 
 The incremental approach is absolutely foundational, for at least two reasons:
 
-First, adjusting the ways that groups of humans work together is too complex to fully plan out in advance. In this, it has a great deal in common with adjusting the way a big, complex piece of software works. You'll start with an overall sense of where you want to go, but you're going to make a bunch of interesting discoveries, some things will turn out to be much, much harder than you expected, unexpected opportunities will arise, the circumstances around you will change.
+First, adjusting the ways that groups of humans work together is too complex to fully plan out in advance. In this, it has a great deal in common with developing a big, complex piece of software. You'll start with an overall sense of where you want to go, but you're going to make a bunch of interesting discoveries, some things will turn out to be much, much harder than you expected, unexpected opportunities will arise, the circumstances around you will change.
 
 Thus, just as when developing software, the iterative, experiment-and-learn approach is vastly more likely to succeed than the big bang plan-it-all-ahead-of-time approach.
 
 But then, beyond that, there's another reason: getting other humans to change the way they work is only possible if those humans *trust* you -- and fairly deeply at that. You'll be asking the people around you, few of whom you have any kind of formal authority over, to try something new, something out of their comfort zone. For that to work, you need to be able to draw on some reservoir of trust -- you need those people to believe that you have their interests at heart.
 
-In the game plan, you're going to build that kind of trust up over time--by earning wins together, and by giving you a chance to steadily demonstrate that you deeply understand the challenges the people around you are struggling with. There is no shortcut I know of, to build that kind of trust at the flip of a switch.
+In the game plan, you're going to build that kind of trust up over time--by earning wins together, and by steadily demonstrating that you understand and care about the challenges the people around you face. There is no shortcut I know of, to build that kind of trust at the flip of a switch.
 
-Because of these reasons, the game plan is best run as a series of *Increments of Improvement*--each increment makes your interaction patterns a little bit better, builds a little more trust between you and some key person you work with, and, with any luck, creates a small win for the business, too.
+Because of these reasons, we'll run  the game plan as a series of *Increments of Improvement*--each increment makes your interaction patterns a little bit better, builds a little more trust between you and some key person you work with, and, with any luck, creates a small win for the business, too.
 
 The necessity of working incrementally is, believe it or not, good news! You can, with creative thinking, apply much of your experience in iterative software and product development. Only here you're applying it to a group of humans, instead of a pile of code.
 
@@ -30,10 +30,11 @@ Of course, in an actual business, situations can be complex enough to require ch
 
 An engineering lead may feel that, for their team to move more quickly, their PM partner needs to start making /some/ decisions on their own, instead of running every single question up to their boss. But to make that change, they *also* need to convince the boss in question, the company's VP of Product, to stop slapping that PM on the hand every time they make an even /slightly/ different decision than they themselves would have made.
 
-This is another reason why the incremental approach is so useful. By focusing your advocacy with one person at a time, you can dig in and figure out a way for each of them to see a benefit in making a change. If you try to change them all at once, it's very difficult to get full buy-in.
+In this case, the engineering lead should likely start by advocating with the VP of Product.
 
-In the above scenario, the first step is likely for the engineering lead to advocate with the VP of Product, to help them see the benefits of allowing the team to make *"small" decisions more quickly* (as long as those decisions are "mostly right", and "big" decisions still come up to the Head of Product). Once the enginering lead has created space for that kind of rapid small decision-making, they can *then* work with their PM partner to help them start to actually make those decisions.[fn:: You might be wondering how the engineering lead can advocate for faster decision-making if their PM partner isn't ready to step up and take advantage of it. As in, how can they ensure the VP of Product will see some positive improvements, in the immediate term? One answer is: the engineering lead can commit to "leaning over" and personally helping do the product job, for a short period of time. We'll talk through this in detail in the "Underpowered Product Team" case study.]
+They want to help them see the benefits of allowing the team to make *"small" decisions more quickly* -- as long as those decisions are "mostly right", and "big" decisions still come up to the Head of Product. Once the enginering lead has created space for that kind of rapid small decision-making, they can *then* work with their PM partner to help them start to actually make those decisions.[fn:: You might be wondering how the engineering lead can advocate for faster decision-making if their PM partner isn't ready to step up and take advantage of it. As in, how can they ensure the VP of Product will see some positive improvements, in the immediate term? One answer is: the engineering lead can commit to "leaning over" and personally helping do the product job, for a short period of time. We'll talk through this in detail in the "Underpowered Product Team" case study.]
 
+Focusing on one person at a time is very powerful.
 
 We're going to name the person you'll focus on as your *Stakeholder*, and we'll define a "stakeholder" as:
 
@@ -43,7 +44,7 @@ We're going to name the person you'll focus on as your *Stakeholder*, and we'll 
 
 # Add c) Someone you need in turn? Or say how you don't always.
 
-In some cases, "influence" is extremely straighforward -- e.g. the CPO who has final say on your team's priorities during quarterly planning, or the Engineering Director who conducts your semi-annual performance reviews.
+In many cases, such "influence" is extremely straighforward -- e.g. the CPO who has final say on your team's priorities during quarterly planning, or the Engineering Director who conducts your semi-annual performance reviews.
 
 But sometimes it's a bit more subtle -- e.g. the senior sales rep who has the ear of the CEO, and who complains about how your team doesn't "care about the customer" when you refuse to build their pet features. That sales rep may not have any *formal* authority over you, but they still have *influence* -- and thus, in certain contexts, they may be a key stakeholder for you.
 
@@ -69,7 +70,7 @@ One useful frame is: someone is one of your stakeholders if you *can't afford to
 
 That may sound a bit brutally transactional, but if there's too large a set of people who you can't ignore, then there's almost no chance your team can move quickly and create meaningful value.  Asking who you can ignore can shine a light on the implicit power structures of your company--and can reveal fundamental conflicts that are making it impossible for you to win.
 
-E.g. maybe your CEO talks night and day about how critical it is for your team to stay on track for the big new product launch. But, your team is *also* expected to handle a stream of feature requests from existing customers... which that CEO doesn't pay much attention to.
+E.g. maybe your CEO talks night and day about how critical it is for your team to stay on track for the big product launch. But, your team is *also* expected to handle a stream of feature requests from existing customers... which that CEO doesn't pay much attention to.
 
 One day, the Head of Customer Success comes banging on your door, and demands you immediately add a new feature for a handful of "at-risk" enterprise customers.  He insists that, if you don't, those customers are going to churn any minute now.
 
@@ -147,7 +148,7 @@ The engineers are growing frustrated. Quin is just about certain that their one 
 
 To cap it off, Marco has started expressing concerns about the team's velocity. At their last 1:1, he suggested Quin start requiring the team to work longer hours. She would bet all the marbles that more hours won't do much except push their best engineer out the door. They need to find one idea and stick to it--which means Marco needs to stop randomizing their work.
 
-Unfortunately, when Quin carefully suggested to the Marco that he not feature bomb the team so often, he rejected the suggestion without missing a beat. "Look, we're a *startup*," he said. "We have to move *fast*. I need the team to hear everything from customers right away, we can't wait for some artificial process."
+Unfortunately, when Quin gently suggested to the Marco that he not feature bomb the team so often, he rejected the idea without missing a beat. "Look, we're a *startup*," he said. "We have to move *fast*. I need the team to hear everything from customers right away, we can't wait for some artificial process."
 
 What can Quin do?
 
@@ -159,7 +160,7 @@ We'll break that down into two parts: first, mining for strategic intent; second
 
 *** Mining for Strategic Intent
 
-Given that her attempts to address things head on failed, Quin decides to back up  a bit, and start by aligning at a higher level, instead of advocating for any specific changes.
+Given that her attempts to address things at a "tactical" leve failed, Quin decides to back up  a bit, and start by aligning at a higher level, instead of advocating for any specific changes.
 
 Partway through their weekly Zoom 1:1, Quin says:
 
@@ -169,13 +170,15 @@ Marco shrugs in agreement. Quin can see his eyes flicking off screen occasionall
 
 She takes a breath. "You've talked a good bit about what we'd need to demonstrate, to raise a series B on good terms. I wanted to see if I have that all mostly right."
 
-Marco quirks his head. He's still got an eye on some chat window, Quin thinks, but he's paying just a bit more attention.
+Marco quirks his head. He's still got an eye on some chat window, Quin thinks, but he's paying just a bit more attention. The Series B is their key upcoming goal, she knows -- the series A gave them enough money to hire their tiny team, but the clock is ticking.
 
-"Our current runway is about 18 months", she begins, "but we need to get some big customers in the next six to twelve months, so that you have time to tell that story to potential investors. Is that about right?"
+"Our current runway is about 18 months", she begins, "but my understanding is that we need to get some big customers in the next six to twelve months. That way, you'll have time to tell a story to potential investors. Is that about right?"
 
-Marco purses his lips. "Almost. It's not enough that we just *land* a few big customers--we need them to be *using* ATN!, with their actual teams, pretty *often*. We need *engaged customers*. A couple of big sales where the implementations don't get off the ground are almost worse than no sales."
+Marco purses his lips and tilts his head to one side. "Almost. It's not enough that we just *land* a few big customers--we need them to be *using* ATN!, with their actual teams, and, like, *often*. VC's are going to want to see *engaged customers*. A couple of big sales where the implementations don't get off the ground could be worse than no sales." He seems to shiver a bit at the idea.
 
 "Got it," Quin says eagerly, "let me say that back to you, make sure I've got it. It's not enough to just land big customers, we need *engaged customers*, which means..." She summarizes what she's just heard from Marco, and then makes sure it sounds right to him.
+
+"Yeah, that's right," he says, satisfied.
 
 Quin spends a few more minutes drawing out the key strategic goals for ATN!. She hears Marco say that the team needs to build something "just good enough". He adds, speaking at his usual rapid clip, that once they've got some customers using that "just good enough" thing, the team should "make it better *with* them".
 
@@ -207,7 +210,9 @@ Unfortunately, we've already seen that Marco has a way to discount that -- "We'r
 
 Having drawn out from Marco a statement of strategic intent, Quin could instead open her pitch for change with something like:
 
-"As I understand it, ATN!'s most important goal is to have a set of *engaged customers* within six to eight months. Potential investors in a next round are going to want to see happy users, running actual team activities on the platform--not just a couple of big sales. Given that, our current goal is to *very* quickly build something that is "*just good enough*". Something we can get into the hands of a few early customers, and then make better *with* them." She could then check to see if that sounds right to him, before continuing with, "Unfortunately, I'm worried that the team is struggling a bit with shifting priorities. We might miss our target for shipping something good enough for customers to start *using*."
+"As I understand it, ATN!'s most important goal is to have a set of *engaged customers* within six to eight months. Potential investors in a next round are going to want to see happy users, running actual team activities on the platform--not just a couple of big sales. Given that, our current goal is to *very* quickly build something that is "*just good enough*". Something we can get into the hands of a few early customers, and then make better *with* them."
+
+She could then check to see if that sounds right to him, before continuing with, "Unfortunately, I'm worried that the team is struggling a bit with shifting priorities. We might miss our target for shipping something good enough for customers to start *using*."
 
 Marco is hugely more likely to listen to that latter concern--both because it's positioning the problem in the context of their overall business goals, but also because it's *using the words he himself uses*.
 
@@ -231,7 +236,7 @@ Quin needs to answer the Four Key Emotion Questions about a stakeholder:
 
 These are an extremely powerful core for persuasion. Two focus on day-to-day experiences (frustrations and "things that feel good"), two on longer-term motivations (fears and dreams).
 
-If you can come up with answers to these four questions, you can build an an *extremely* compelling request to try something new. A request that the stakeholder will both *hear* and *feel* as worth listening to.
+If you can come up with answers to these four questions, you can build an *extremely* compelling request to try something new. A request that the stakeholder will both *hear* and *feel* as worth listening to.
 
 We'll spend real time on how to craft such a request in the "Design a Compelling Offer" chapter.
 
@@ -384,7 +389,7 @@ Even so, she quickly reiterates her commitment to solving for his concerns.
 
 "That's most of it. I would ask that, if, during one of those debriefs, I tell you that the team is super heads down, that you wait to give them the full update. But we don't need to be too formal about that."
 
-"I'm hopeful that, if we do this, I can really focus with the team, and we can have a demo of the Virtual Water Cooler ready by end of sprint."
+"I'm hopeful that, if we do this, I can really focus with the team, and we can have a demo of the Virtual Dunk Tank ready by end of sprint."
 
 "Finally, I want to set a meeting up, for immediately after that end-of-sprint demo, for you and I to review how close we are to "Just Good Enough" and what, if anything, we want to keep tweaking to ensure the team can move faster."
 
@@ -395,6 +400,8 @@ But she's making a personal commitment to make this work. Both being more availa
 She's speaking to his biggest frustrations--team velocity. He urgently wants more speed, wants to *see* progress aginst the new product features.
 
 By timeboxing it to two weeks, it's easy for Marco to say yes, especially because he'll have a chance to weigh in, at the end of those two weeks, on how it's going for him.
+
+# XXX Focus on this - there's a decision at the end, she's implicitly *offering him a decision*, just not in this moment.
 
 Now, to be clear, Marco may not say yes immediately. But that's fine. Quin can probe for any hesitations and tweak the offer, until he's ready to try. Usually, if you've done the previous steps well, you can do that within the discussion, so you're emerging with a commitment to try something new.
 
@@ -418,15 +425,19 @@ Thus, you'll usually want to:
 
 To *clear the decks*, Quin tells her team that, for the next two weeks, she's going to be very focused on building a better collaboration with Marco. She tells them she will have to drop out of some meetings at a moment's notice. She cancels some networking chats she had on her calendar, to clear up space.
 
-To *stack the deck*, she sits down with her experienced front-end dev and brainstorms options for a really exciting demo of the Virtual Water Cooler feature. Thanks to her digging in on Marco's underlying hopes and dreams, Quin has a nuanced understanding of what he wants to *do* with a demo. That allows her to work with that front end dev to come up with a limited-scope version that she is pretty sure Marco will love. The two engineers decide which corners they can safely cut at this stage--again, with a nuanced understanding of what Marco is going to want to do next, if this demo goes well.
+To *stack the deck*, she sits down with her experienced front-end dev and brainstorms options for a really exciting demo of the Virtual Dunk Tank feature. Thanks to her digging in on Marco's underlying hopes and dreams, Quin has a nuanced understanding of what he wants to *do* with a demo. That allows her to work with that front end dev to come up with a limited-scope version that she is pretty sure Marco will love. The two engineers decide which corners they can safely cut at this stage--again, with a nuanced understanding of what Marco is going to want to do next, if this demo goes well.
 
-As the sprint unfolds, there are some initial bumps as everyone gets used to the adjustments. Marco comes rushing into one standup fresh off a call, and starts to launch into an excited, confusing summary. But, before he can get going, he manages to catch himself. "Right, sorry!", he says, "Not allowed!" He grins abashedly. Quin laughs along with him, and then, with a quick apology to her team, drops out of the standup, so she and Marco can talk.
+As the sprint unfolds, there are some initial bumps as everyone gets used to the adjustments. Marco comes rushing into one standup fresh off a call, and starts to launch into an excited, confusing summary. But, before he can get going, he manages to catch himself. "Right, sorry!", he says, "Not allowed!" He grins embarrassedly. Quin laughs cheerfully, and, with a quick apology to her team, drops out of the standup, so she and Marco can talk right away.
 
 Later in the sprint, Quin finds herself getting into a solid rhythm. The post-customer call conversations between her and Marco start to feel like a steady ongoing discussion. A few important themes emerge--some of which will likely lead to changes in what they're building. They decide together to not raise any of those for the team yet, since the options will be much clearer once they have a thing they can use.
 
 The team is excited about working towards an actual thing to demo. Quin stays close enough to the day-to-day development to make constant small decisions to keep them on track.
 
+Finally, they reach the end of sprint demo day.
+
 *** Celebrate and Make a Shared Decision
+
+# XXX Add something about falling into the water
 
 "And then", says Tom, the youngest engineer on the team, "when time is up, the game is over." He circles his mouse pointer around a timer in the top right corner of his screen, which he is sharing with all of them. As the tiemr ticks down from 5 to zero, the little gallery of faces he's been viewing all begin to fade at once. The engineering team, who are representing a group of employees participating in an online ice breaker game, all wave as they disappear. And then, with a final visual flourish, the game is over.
 
@@ -434,7 +445,7 @@ As they return to their normal Zoom set up, Marco is applauding excitedly. "That
 
 The team grins at each other.
 
-Immediately after demo wraps up, Marco and Quin meet for the new 1:1 end-of-sprint sync. They discuss both the product increment and also how they've been working together. On that latter front, although Marco is excited about the progress, and has been finding the immediate debriefs with Quin very useful, he does raise a concern.
+Quin and Marco switch zoom meetings, and hold their first 1:1 end-of-sprint sync. They discuss both the product increment and also how they've been working together. On that latter front, although Marco is excited about the progress, and has been finding the immediate debriefs with Quin very useful, he does raise a concern.
 
 He says, with a vague frown, that he doesn't want the team to get "too far from the customers". Quin probes a bit for what "too far from the customers" means, using her echoing back and summarizing skills. After just a few rounds, she arrives at a statement that she can wholeheartedly agree with: both she and Marco want the engineers to have a real feel for their customers' day-to-day lives. Such an understanding is important both for motivation but also so the engineers can make smart tradeoffs as they build.
 
@@ -442,7 +453,7 @@ Once that's clear, Quin realizes that she might be able to address Marco's conce
 
 She tells Marco that she thinks she has an idea, and promises to bring him something concrete tomorrow to consider. Given how clearly she understood his worry about the team losing contact with their customers' working experience, Marco is feeling good, and he nods.
 
-The two of them then dive into a discussion of which prospects might want to see the new VWC demo.
+The two of them then dive into a discussion of which prospects might want to see the new VDT demo.
 
 ** Succeeding Increments
 
