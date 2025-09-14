@@ -1,40 +1,54 @@
 :PROPERTIES:
 :ID:       B0637E99-E30C-4FF8-B8BA-A660454DE08B
 :END:
-#+title: The Fundamental Game Plan
+#+title: The Improvement Game Plan
 #+filetags: :Chapter:
-* The Fundamental Game Plan
+* The Improvement Game Plan
 ** Make Improvements in Small Increments
 
 You're going to make things better through a *series of small steps*, not via one big sweeping change.
 
 The incremental approach is absolutely foundational, for at least two reasons:
 
-First, adjusting the ways that groups of humans work together is too complex to fully plan out in advance. In this, it has a great deal in common with developing a big, complex piece of software. You'll start with an overall sense of where you want to go, but you're going to make a bunch of interesting discoveries, some things will turn out to be much, much harder than you expected, unexpected opportunities will arise, the circumstances around you will change.
+*1. You're adjusting a complex systems*
+
+Adjusting the ways that groups of humans work together is too complex to fully plan out in advance. In this, it has a great deal in common with developing a big, complex piece of software:
+
+You'll start with an overall sense of where you want to go, but you're going to make a bunch of interesting discoveries, some things will turn out to be much, much harder than you expected, unexpected opportunities will arise, the circumstances around you will change.
 
 Thus, just as when developing software, the iterative, experiment-and-learn approach is vastly more likely to succeed than the big bang plan-it-all-ahead-of-time approach.
 
-But then, beyond that, there's another reason: getting other humans to change the way they work is only possible if those humans *trust* you -- and fairly deeply at that. You'll be asking the people around you, few of whom you have any kind of formal authority over, to try something new, something out of their comfort zone. For that to work, you need to be able to draw on some reservoir of trust -- you need those people to believe that you have their interests at heart.
+*2. You need to build trust as you go*
+
+Convincing other humans to change the way they behave is only possible if those humans *trust* you. You'll be asking the people around you, few of whom you have any kind of formal authority over, to try something new, something out of their comfort zone. For that to work, you need those people to believe that you understand them and have their interests at heart.
 
 In the game plan, you're going to build that kind of trust up over time--by earning wins together, and by steadily demonstrating that you understand and care about the challenges the people around you face. There is no shortcut I know of, to build that kind of trust at the flip of a switch.
 
-Because of these reasons, we'll run  the game plan as a series of *Increments of Improvement*--each increment makes your interaction patterns a little bit better, builds a little more trust between you and some key person you work with, and, with any luck, creates a small win for the business, too.
+Because of these reasons, we'll run the game plan as a series of *Increments of Improvement*--each increment makes your interaction patterns a little bit better, builds a little more trust between you and some key person you work with, and, with any luck, creates a small win for the business, too.
 
 The necessity of working incrementally is, believe it or not, good news! You can, with creative thinking, apply much of your experience in iterative software and product development. Only here you're applying it to a group of humans, instead of a pile of code.
 
-** Choose a Partner For Each Increment
+** Identify a "Stakeholder" For Each Increment
 
-For each increment of the game plan, we'll choose a single key person to focus on.
+For each increment of the game plan, you'll choose a single key person to focus on.
 
-Of course, in an actual business, situations can be complex enough to require changes in behavior in more than one person.
+Of course, in an actual business, meaningful improvements often require more than one person to change their behavior.
+
+But, for any one increment of change, you're going to pick a single key person to focus on. As you work through increments, you can then shift to someone else.
+
+For example:
 
 An engineering lead may feel that, for their team to move more quickly, their PM partner needs to start making /some/ decisions on their own, instead of running every single question up to their boss. But to make that change, they *also* need to convince the boss in question, the company's VP of Product, to stop slapping that PM on the hand every time they make an even /slightly/ different decision than they themselves would have made.
 
-In this case, the engineering lead should likely start by advocating with the VP of Product.
+The team isn't going to be able to genuinely move faster unless both the PM and the Head of Product are willing to change.
 
-They want to help them see the benefits of allowing the team to make *"small" decisions more quickly* -- as long as those decisions are "mostly right", and "big" decisions still come up to the Head of Product. Once the enginering lead has created space for that kind of rapid small decision-making, they can *then* work with their PM partner to help them start to actually make those decisions.[fn:: You might be wondering how the engineering lead can advocate for faster decision-making if their PM partner isn't ready to step up and take advantage of it. As in, how can they ensure the VP of Product will see some positive improvements, in the immediate term? One answer is: the engineering lead can commit to "leaning over" and personally helping do the product job, for a short period of time. We'll talk through this in detail in the "Underpowered Product Team" case study.]
+As above, I recommend you start with a primary focus on just one of them. See if you can fashion a partial win with that one, and then move on to the other. In my experience, that's more successful than trying to convince multiple people to  all risk making a change at once.
 
-Focusing on one person at a time is very powerful.
+In the example above, perhaps the engineering lead has a strong hunch that the PM would *like* to make more "small" decisions on their own, but just doesn't feel fully safe in doing so.
+
+In that case, the engineering lead could start by advocating with the VP of Product to create more space---and then, once they have some initial buy-in, lean over, and help the PM to feel safe in making those small decisions.
+
+We'll return to this (very common!) challenge in detail in the [[id:EBBA71C3-8C1A-4DF9-9842-DC9989E52521][No Trust Given]] case study in Part II.
 
 We're going to name the person you'll focus on as your *Stakeholder*, and we'll define a "stakeholder" as:
 
@@ -76,7 +90,7 @@ One day, the Head of Customer Success comes banging on your door, and demands yo
 
 Can you *afford* to ignore this request, in order to stay on track for the big product launch?
 
-Or if you do, will you be blamed for any customer cancellations, receive some unpleasant lectures and acquire a reputation as "not being a team player"?
+Or if you do, will you be blamed for any customer cancellations, receive some unpleasant lectures and acquire a reputation for "not being a team player"?
 
 The only way you and your team will create significant value is if you can relentlessly focus on the most important, most valuable work at every moment. Struggling with too large a set of people you are somehow implicitly accountable to makes it impossible to do so.
 
@@ -88,35 +102,53 @@ We'll touch on how to improve collaborations with these kinds of "implicit stake
 
 ** The Four Steps of an Increment of Improvement
 
-Now that we've selected a single stakeholder to focus on, we can lay out the fundamental framework for a single increment of improvement:
+Now that you've selected a single stakeholder to focus on, you can methodically work through the the four steps of an increment of improvement. We'll spend real time digging into each of these, in subsequent chapters:
 
- 1. Develop an *empathetic statement* of your stakeholder's fears, dreams and frustrations
+ 1. *Identify a Strategic Intent*
 
-    By understanding the underlying emotions which are driving your stakeholder's day-to-day behavior, you'll be equipped to make a case for change.
+    You'll start by identifying a critical long-term goal for your business that you believe your team can help achieve.
 
- 2. Design a slightly better way to work
+    For that goal, and your role in achieving it, you'll do whatever work is necessary todevelop a clear, concise statement of strategy--a *strategic intent*. As you do that work, you'll ensure you're framing the intent in a way that your stakeholder finds deeply compelling.
 
-    A modest step from where you are now, that has wins for you, your stakeholder, and the business.
+ 2. *Mine for Frustrations, Fears, Delights & Dreams*
 
-    One subtle but critical point: this modest step must end with some kind of a *shared decision*, made by you and your stakeholder, together.
+    You'll use the tools of "Tactical Empathy" to understand and to speak empathically to your stakeholder's hopes and fears.
 
-    # Design an *increment of improvement* in how you currently work together
+    By understanding the underlying emotions which are driving your stakeholder's day-to-day behavior, you'll be extremely well-equipped to make your case for change.
 
- 3. Make a *compelling offer* to your stakeholder
+ 3. *Design a Compelling Offer*
 
-    Offer them something concrete that they urgently desire.
+    You're going to ask your stakeholder to make a "slightly uncomfortable" change.
 
-    In doing so, speak to both their fears and their hopes.
+    But, you'll make that request *compelling*, by:
 
-    In return, ask them to make a "slightly uncomfortable" change.
+      - Demonstrating *alignment* with the business's long-term goals
 
-    Make it as easy as possible for them to say "yes" by a) carefully timeboxing the increment and b) ensuring the stakeholder explicitly retains *control*.
+      - Speaking with *authentic empathy* to your stakeholder's hopes and fears
 
- 4. Earn a win, and then make a shared decision
+      - Setting a *time limit* on the initial period of change
 
-    Do everything you can to have things go well, in the increment. At the end, *decide together* what you've learned and how, together, you want to adjust going ahead.
+      - Ensuring your stakeholder *retains control*
 
-Through repeated cycles of this collaborative work, you can steadily make improvements while building more and more trust and rapport.
+    If you've done the steps before this carefully, you'll be able to go to your stakeholder with something that they will *be happy to hear*. It won't require you to be some kind of uncomfortably slick salesman---rather, you'll be offering something which is good for *both* of you, *and* for the business as a whole.
+
+    Even if you don't usually like negotiating with or persuading people, you're having done the alignment and empathy prep work will give you a powerful base to stand on.
+
+    We'll dig into how to do develop this kind of compelling offer in later chapters.
+
+ 4. *Celebrate a Win With Storytelling*
+
+    At this point you can actually try out a new way of working, for a deliberately limited period of time.
+
+    You'll do everything you can to "earn a win" during that period---to ensure things go great.
+
+    Then, as you close out the increment, you'll employ an incredibly powerful trick for helping your stakeholder *feel* the change as positive: you'll tell a *story*.
+
+    The human mind is deeply wired to understand the world through stories. You'll take advantage of that, to ensure the benefits of this new way of working feel vivid and powerful to your stakeholder. This is a key step in building motivation for continued change,
+
+    In later chapters, we'll break down the key moments (aka "beats") in the structure of a story, and show how you can employ those in a wide variety of business contexts.
+
+By going through repeated cycles of the above steps, you'll steadily build more and more trust and rapport, while *also* making significant improvements in how you work together.
 
 Let's bring this to life through an example.
 
@@ -148,7 +180,7 @@ The engineers are growing frustrated. Quin is just about certain that their one 
 
 To cap it off, Marco has started expressing concerns about the team's velocity. At their last 1:1, he suggested Quin start requiring the team to work longer hours. She would bet all the marbles that more hours won't do much except push their best engineer out the door. They need to find one idea and stick to it--which means Marco needs to stop randomizing their work.
 
-Unfortunately, when Quin gently suggested to the Marco that he not feature bomb the team so often, he rejected the idea without missing a beat. "Look, we're a *startup*," he said. "We have to move *fast*. I need the team to hear everything from customers right away, we can't wait for some artificial process."
+Unfortunately, when Quin gently suggested to the Marco that he not feature bomb the team so often, he rejected the idea without missing a beat. "Look, we're a *startup*," he said. "We have to move *fast*. I need the team to hear everything from customers right away, we can't wait for some artificial process slowing us down."
 
 What can Quin do?
 
@@ -160,13 +192,13 @@ We'll break that down into two parts: first, mining for strategic intent; second
 
 *** Mining for Strategic Intent
 
-Given that her attempts to address things at a "tactical" leve failed, Quin decides to back up  a bit, and start by aligning at a higher level, instead of advocating for any specific changes.
+Given that her attempts to address things at a "tactical" level failed, Quin decides to back up a bit, and start by aligning at a higher level.
 
 Partway through their weekly Zoom 1:1, Quin says:
 
 "I've been wanting to ask you a few questions, is now a good time?"
 
-Marco shrugs in agreement. Quin can see his eyes flicking off screen occasionally. She knows he has other windows open.
+Marco shrugs in agreement. Quin can see his eyes flicking off screen occasionally. Marco keeps other windows open during Zooms, she knows.
 
 She takes a breath. "You've talked a good bit about what we'd need to demonstrate, to raise a series B on good terms. I wanted to see if I have that all mostly right."
 
@@ -174,7 +206,7 @@ Marco quirks his head. He's still got an eye on some chat window, Quin thinks, b
 
 "Our current runway is about 18 months", she begins, "but my understanding is that we need to get some big customers in the next six to twelve months. That way, you'll have time to tell a story to potential investors. Is that about right?"
 
-Marco purses his lips and tilts his head to one side. "Almost. It's not enough that we just *land* a few big customers--we need them to be *using* ATN!, with their actual teams, and, like, *often*. VC's are going to want to see *engaged customers*. A couple of big sales where the implementations don't get off the ground could be worse than no sales." He seems to shiver a bit at the idea.
+Marco purses his lips and tilts his head to the other side. "Almost. It's not enough that we just *land* a few big customers--we need them to be *using* ATN!, with their actual teams, and, like, *often*. VC's are going to want to see *engaged customers*. A couple of big sales where the implementations don't get off the ground could be worse than no sales." He seems to shiver a bit at the idea.
 
 "Got it," Quin says eagerly, "let me say that back to you, make sure I've got it. It's not enough to just land big customers, we need *engaged customers*, which means..." She summarizes what she's just heard from Marco, and then makes sure it sounds right to him.
 
@@ -192,6 +224,8 @@ This time, he nods vigorously.  "Yes, that's *exactly* it. I'm glad we talked th
 
 "Thanks," says Quin, "me, too."
 
+What's been going on, here?
+
 Quin has been using an *extremely* powerful technique -- "echoing back and summarizing". We'll talk in more detail about that in the next chapter. It's a superpower for working with stakeholders (and with just about everyone else, too).
 
 By using that superpower, Quin has obtained the first part of what she needs, to develop an empathetic understanding of Marco's fears, dreams and frustrations:
@@ -201,6 +235,8 @@ By using that superpower, Quin has obtained the first part of what she needs, to
 *** Leveraging a Strategic Intent
 
 Knowing a strategic intent, and knowing *the words your stakeholder uses to describe it*, allows you to *anchor* your pitch for change in a very powerful way.
+
+# XXX Can I move this all later?
 
 Before obtaining that intent, Quin might have said:
 
@@ -381,7 +417,7 @@ Marco nods, slowly.
 
 Note how Quin positioned this as a "weakness" of her and the team, instead of a failing on the part of Marco. She could easily have said "The way you're constantly bringing in new ideas is causing problems", but, instead, by playing just a bit of "low status", she is sharing a problem to solve together--where the "problem" is "the team can't follow your new ideas", not "you're being chaotic and unfocused". That framing makes it much easier for Marco to stay with her.
 
-Even so, she quickly reiterates her commitment to solving for his concerns.
+Even so, notice how, in the last sentence, she is reiterating her commitment to solving for his concerns.
 
 **** Describe your proposed increment of change
 
@@ -471,3 +507,7 @@ This is another reason why the incremental approach is useful. For any one incre
 E.g. maybe the first step for that engineering lead is to advocate for just a bit of space with the Head of Product. Then, once they have that they can work with their PM partner to find a way to take a bit more ownership.[fn:: FWIW, if you want someone to take more ownership, "Start with Their Boss" is often a good rule of thumb.]
 
 (If you're wondering how the engineering lead can possibly advocate for space if their PM partner isn't ready to step up and fill that space, we talk through that in real detail in the "Underpowered Product Team" case study. The shortest answer is: the engineering lead will commit to "leaning over" and helping do the product job, for a short period of time. The details of how they pitch this depend on whether or not the Head of Product *already* wants the PM to take more ownership, or if they themselves need to see the benefits of letting go.)
+** More on Multiple People
+
+
+They want to help them see the benefits of allowing the team to make *"small" decisions more quickly* -- as long as those decisions are "mostly right", and "big" decisions still come up to the Head of Product. Once the enginering lead has created space for that kind of rapid small decision-making, they can *then* work with their PM partner to help them start to actually make those decisions.[fn:: You might be wondering how the engineering lead can advocate for faster decision-making if their PM partner isn't ready to step up and take advantage of it. As in, how can they ensure the VP of Product will see some positive improvements, in the immediate term? One answer is: the engineering lead can commit to "leaning over" and personally helping do the product job, for a short period of time. We'll talk through this in detail in the "Underpowered Product Team" case study.]
