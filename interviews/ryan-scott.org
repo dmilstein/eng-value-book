@@ -1,3 +1,75 @@
+* Email <2025-09-12 Fri>
+
+** My response
+Ryan,
+
+I totally understand what you're saying, and honestly, you're in a tricky situation.
+
+I would summarize as:
+
+ - Your Head of Product (also GM?) has a different understanding of the product function than you do
+
+ - She's not currently experiencing much in the way of obvious pains because of this
+
+ - But that's true because you, Ryan, are actually doing a lot of the product function
+
+ - But because you're not working directly with her on product things, it's not possible to even do the product function *well* (see game of telephone, etc).
+
+I think there are maybe two key questions:
+
+ - How "satisfied" is the Head of Product with the status quo?
+
+ - Is the current situation bad enough for you, that you might seriously consider leaving your job?
+
+I'm not recommending you doing so, but it's a key thing to think about.
+
+If the Head of Product is mostly satisfied with how things work now, but you're growing more and more frustrated, you could run the game plan something as follows:
+
+ - Pitch the increment to the Head of Product, not to your peer
+
+ - Explicitly tell her that you think there's a different way for the PM role to work
+
+   And that way of working will give her something she's not getting now (faster execution, more ideas explored, leverage, etc).
+
+   But put the idea of changing her "interface" with product, directly on the table
+
+   You can potentially create some urgency with some of the slowdowns due to game of telephone, etc.
+
+ - Tell her that you'd like to explore working in a new way for a period of time (that will end with her decision, etc)
+
+ - Tell her that, during this time, you, Ryan, will *temporarily* step fully into this new version of the product role, but you would want to "bring your peer along"
+
+   This requires some nuance. You want to position this as something which isn't just directly undercutting your peer. Maybe you can lean on the fact that he has another responsibility -- so you're saying "Just for now, what if I play the lead, but keep him fully in the loop".
+
+   More deeply, a key problem is that it's not clear if your peer can or wants to work in this new way.
+
+   I suspect the only way things can change is if the Head of Product can *feel* how much better the new way is, and then be willing to push your peer to develop (and be ready to move on from them, if they can't).
+
+   That's what I'm trying to work backwards from. I realize it may be an outside shot, but it's sort of the only real way I can see a change happening.
+
+   If she's willing to do that, you can help her. If she's not willing to do that, there's no reason for your peer to change.
+
+ - If you can them "earn a win", where she *feels* how much better things could be, you could then put on the table "I'm willing to help coach up my peer, if you, as their boss, direct them to learn this." And, depending on how frustrated you are, you could also say it as "I want to work as a product-minded engineer, not an actual product manager. I really want to understand how we can change things, so that's what I'm doing."
+
+D
+
+
+
+** His Email
+Hey Dan,
+
+I have to admit I haven't made any moves on it. Partially because teams have been a bit in flux and I wasn't quite sure how they were going to shake out. But I've also struggled to find the right incremental change to suggest - I'm finding that I'm not 100% confident in the problem or in what I would suggest is the solution.
+
+Our original premise was that the Head of Product plays too active of a role in all product decisions, and that the Product Manager on my team isn't able to freely execute. They end up as a middle-man, and I deal with the various challenges that come with that such as not getting a clear vision to help me plan, having some information feel like a game of telephone, having to react as product decisions change or weren't fully communicated, etc. So the takeaway was finding a way to pitch an incremental change where the Head of Product lets us run more freely in order to solve their strategic intent (building new products quickly) and alleviate their fears (moving too slowly, not being able to vet ideas quickly enough).
+
+As I thought through this, I got stuck on a couple fears/concerns:
+
+ - I'm not confident that the PM is ready for more responsibility, for a couple reasons - they are new to the role, they actually (confusingly) have another non-PM role on another team that they balance along with this one. I'm not always confident that they know what a PM should be doing that they aren't.
+ - I think the win that I really want is for the PM to learn how to step up and take more ownership, but I'm sure how to make that happen. I'm pitching this idea to their boss, but how do I know that I have buy-in from the PM? Maybe they are okay with how things are? They might not feel the pain that I feel. It feels like I need to actually pitch this idea to them first.
+ - I worry that if the PM isn't really ready for this, then I end up carrying some of the weight (I already feel like I'm doing this a bit; I'm definitely doing some typical PM work in addition to my engineer role.) It sounds like this is the intent of your "clear the decks and stack the deck", but I worry that's the wrong strategy here. I don't actually want to do more of this work - I want to enable the PM to do more of the work. And if I carry more of that weight then the test might "succeed", but the goal won't.
+
+What do you think? Am I missing the mark in any of this?
+
 * Intro / Purpose
 For me to learn from you, and maybe see if any challenges can be helped by the ideas I'm working on.
 
