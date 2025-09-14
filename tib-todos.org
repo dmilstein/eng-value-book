@@ -3,6 +3,12 @@ Project/todo list for the Book In Question
 ; (org-clock-csv-to-file "./clock-data.csv")
 
 * Book Inbox                                      :inbox:
+** DONE Book: change four steps?
+CLOSED: [2025-09-14 Sun 09:17]
+ - Identify a Strategic Intent
+ - Mine for Frustrations, Fears & Dreams
+ - Design a Compelling Offer
+ - Celebrate Wins With Storytelling
 ** DONE Point at stakeholder toc
 CLOSED: [2025-08-11 Mon 08:18]
 ** DONE For envision a better way to work, make list of problems
@@ -22,9 +28,6 @@ CLOSED: [2025-08-15 Fri 08:11]
 ** DONE For Loop story, decide "you" vs "Quin"
 CLOSED: [2025-08-18 Mon 09:05]
 Like, do I start each section by explaining what "you" do at a high level, then show Quin doing it, then explain it? Or do I start with Quin?
-** TODO emdashes in org-mode export
-** TODO Look into smart quotes export from org-mode
-** TODO Make more dramatic changes in priorities in initial story
 * [[id:B4926308-39DD-471B-8E71-5FFF7546D6E3][ToC/Structure ]]                                  :gtasks:
 ** TODO Experiment: add exercises to end of each chapter
 Like, now go do these things
@@ -151,7 +154,18 @@ CLOSED: [2025-07-15 Tue 12:46]
 ** DONE Revise new intro
 CLOSED: [2025-07-16 Wed 11:11]
 * [[id:B0637E99-E30C-4FF8-B8BA-A660454DE08B][The Game Plan]]                                   :gtasks:
-** DONE Finish first "Loop of Improvement"        :curweek:
+** TODO Rewrite Fundamental Game plan as *failure*? :pom:
+:LOGBOOK:
+CLOCK: [2025-09-14 Sun 09:19]
+:END:
+So I'm doing story structure. Could even have a helper, who coaches Quin, that's the classic heroic journey. Get the reader really invested, tease with the possibility of success, and then crash down on failure.
+
+I drift towards The Goal, but let myself go there?
+** TODO Pick "you" vs "we" as pronoun
+** TODO For Quin story, be consistent about order
+(e.g. story then principle or other way around)
+** TODO Make more dramatic changes in priorities in initial story
+** DONE Finish first "Loop of Improvement"
 CLOSED: [2025-08-19 Tue 10:20]
 :LOGBOOK:
 CLOCK: [2025-08-19 Tue 09:01]--[2025-08-19 Tue 10:20] =>  1:19
@@ -159,8 +173,18 @@ CLOCK: [2025-08-15 Fri 11:40]--[2025-08-15 Fri 12:36] =>  0:56
 CLOCK: [2025-08-15 Fri 07:50]--[2025-08-15 Fri 10:05] =>  2:15
 CLOCK: [2025-08-14 Thu 07:35]--[2025-08-14 Thu 10:17] =>  2:42
 :END:
-** TODO Experiment with succeeding loops          :curweek:
+** DONE Experiment with succeeding loops
+CLOSED: [2025-08-20 Wed 10:23]
+:LOGBOOK:
+CLOCK: [2025-08-20 Wed 09:11]--[2025-08-20 Wed 10:01] =>  0:50
+:END:
 * [[id:5903AFE7-4B1E-422C-8537-2C56BBFBA643][Mine for Context]]                                :gtasks:
+** DONE Write bad subheads for Mine for Context   :curweek:
+CLOSED: [2025-09-13 Sat 10:22]
+** TODO Keep pawing away, maybe start writing     :curweek:
+:LOGBOOK:
+CLOCK: [2025-09-14 Sun 09:08]--[2025-09-14 Sun 09:16] =>  0:08
+:END:
 ** TODO Insert "echoing back" from Tac Empathy
 ** TODO Add "exercise" -- prepend a strategic intent
  - First, describe a frustration, imagine it to your stakeholder
@@ -258,12 +282,12 @@ Dan <-> Ben
 
 ** DONE Write up Lisa Plesko follow ups
 CLOSED: [2025-07-30 Wed 14:29]
-** TODO Ping Ryan Scott, ask what he's applied
-DEADLINE: <2025-09-01 Mon>
+** DONE Ping Ryan Scott, ask what he's applied
+CLOSED: [2025-09-04 Thu 17:13] DEADLINE: <2025-09-01 Mon>
 ** DONE Ping Lisa P, ask what she's applied
 CLOSED: [2025-08-17 Sun 11:56] DEADLINE: <2025-08-14 Thu>
-** TODO Ping Jacob, ask how it's going
-DEADLINE: <2025-09-01 Mon>
+** DONE Ping Jacob, ask how it's going
+CLOSED: [2025-09-04 Thu 17:15] DEADLINE: <2025-09-01 Mon>
 ** DONE Make todos for Jacob follow ups
 CLOSED: [2025-07-30 Wed 14:29]
 *** Share my chapters on Tactical Empathy
@@ -282,10 +306,15 @@ CLOSED: [2025-07-16 Wed 10:19]
 ** DONE Draft new email re coaching/helping
 CLOSED: [2025-07-21 Mon 08:11]
 * [[id:E0ADBF07-90B8-4C37-81C0-96A428020F5E][Substack]]                                        :gtasks:
+** DONE Create list of possible topics            :curweek:
+CLOSED: [2025-09-09 Tue 08:54]
+** TODO Pick one topics, prep it                  :curweek:
+** TODO Read up on Google/Substack/SEO
 ** TODO Research Medium cross-post practices
-** TODO Cross-post to Medium
-** TODO Substack: It's not important but we have to do it
-Like, stop immediately and ask what the fuck
+** TODO Cross-post to Medium?
+** TODO Publish something this week
+** DONE Draft ideas (4 emotion questions?)
+CLOSED: [2025-09-06 Sat 08:42]
 ** DONE First draft map your stakeholders
 CLOSED: [2025-08-17 Sun 11:45]
 :LOGBOOK:
@@ -295,7 +324,6 @@ CLOCK: [2025-08-17 Sun 10:20]--[2025-08-17 Sun 10:25] =>  0:05
 CLOCK: [2025-08-17 Sun 08:55]--[2025-08-17 Sun 09:20] =>  0:25
 :END:
 
-** TODO Decide: cross-post to Medium? Wait 'til... what?
 ** DONE Write email to EWJ re posting to Medium
 CLOSED: [2025-08-17 Sun 08:54]
 ** TODO Think about a call to action for book announcements
@@ -443,6 +471,20 @@ So I can either run full screen or within 80 columns
 Because now my wordcount history stuff is sensitive to those being missing.
 ** TODO Create a new chapter template or abbrev?
 * Book Misc                                       :gtasks:
+** TODO New book title options
+
+Strip out "engineers"?
+
+Working With Humans
+Solve Business Problems
++Despite+ With Bosses, Peers & Stakeholders
+** TODO Make goals for end of September
+** TODO Notes after Fundamental Game Plan
+The story is so much more effective. Maybe move the concrete ideas to the end?
+
+Spike on the "Quin has an adviser" trope?
+
+Maybe: show more mis-steps from Quin?
 ** TODO "engineering team" = product team, sprint team, etc?
 ** TODO Ask Satoe: rank order the chapters?
 by what you want to learn about
