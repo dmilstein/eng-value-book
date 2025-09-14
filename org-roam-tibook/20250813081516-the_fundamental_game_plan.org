@@ -142,9 +142,11 @@ Now that you've selected a single stakeholder to focus on, you can methodically 
 
     You'll do everything you can to "earn a win" during that period---to ensure things go great.
 
-    Then, as you close out the increment, you'll employ an incredibly powerful trick for helping your stakeholder *feel* the change as positive: you'll tell a *story*.
+    Then, as you close out the increment, you'll employ an incredibly powerful trick for helping your stakeholder *feel* the change as positive:
 
-    The human mind is deeply wired to understand the world through stories. You'll take advantage of that, to ensure the benefits of this new way of working feel vivid and powerful to your stakeholder. This is a key step in building motivation for continued change,
+    You'll tell a *story*.
+
+    The human mind is deeply wired to understand the world through stories. You'll take advantage of that, to ensure the benefits of this new way of working feel vivid and immediate to your stakeholder. This is a key step in building motivation for continued change.
 
     In later chapters, we'll break down the key moments (aka "beats") in the structure of a story, and show how you can employ those in a wide variety of business contexts.
 
@@ -154,7 +156,7 @@ Let's bring this to life through an example.
 
 ** Scenario: The CEO & The Constantly Changing Priorities
 
-We'll go through a series of increments to improve a specific, real-world situation -- an engineering leader who is struggling to make progress, because a key stakeholder keeps changing priorities.
+We're going to develop a running example around a classic, extremely common real-world situation -- an engineering leader who is struggling to make progress, because a key stakeholder keeps changing priorities.
 
 Because so much of what we're going to be talking about has to do with the *humans*, with their messy feelings, we're going to tell a story about those humans.
 
@@ -162,9 +164,9 @@ It features a young engineering manager named Quin.
 
 Quin works at an early-stage startup named "All Together Now!". Her company is developing tools for remote team-building, featuring a playful mix of video, activities, and prompts. ATN! (as they call call it) is still quite early -- they have a handful of enthusiastic friends and family users, but are still trying to break into "real" customers.
 
-Quin is the engineering lead over a small team of engineers. ATN! doesn't have a distinct product manager yet. Instead, Quin works directly with Marco, the founder/CEO.
+Quin is the engineering lead over a small team of engineers. ATN! doesn't have a distinct product manager yet. Instead, Quin works directly with Marco, the founder/CEO, who raised their Series A and use the funds to, among other things, hire her.
 
-In terms of Marco and Quin's and collaborations, and the business as a whole, there's some good news and some bad news.
+In terms of Marco and Quin's collaborations, and the business as a whole, there's some good news and some bad news.
 
 Good News, Part 1: Marco spends as a great deat of time talking to potential customers.
 
@@ -174,15 +176,61 @@ Bad News: it feels to Quin like every single time Marco hangs up with a customer
 
 This is causing a great deal of churn and confusion.
 
-Quin is worried that, because the team keeps getting pulled in so many different directions, ATN! won't be able to test out an actual product idea, with actual customers, any time soon.
-
 The engineers are growing frustrated. Quin is just about certain that their one experienced front-end dev, who she personally recruited, is running out of patience for with the chaos.
 
-To cap it off, Marco has started expressing concerns about the team's velocity. At their last 1:1, he suggested Quin start requiring the team to work longer hours. She would bet all the marbles that more hours won't do much except push their best engineer out the door. They need to find one idea and stick to it--which means Marco needs to stop randomizing their work.
+To make matters worse, Marco has started expressing concerns about the team's velocity. At their last 1:1, he suggested Quin start requiring the team to work longer hours. She is nearly dead certain that more hours won't do much except push their best engineer out the door. They need to find one idea and stick to it--which means Marco needs to stop randomizing their work.
 
-Unfortunately, when Quin gently suggested to the Marco that he not feature bomb the team so often, he rejected the idea without missing a beat. "Look, we're a *startup*," he said. "We have to move *fast*. I need the team to hear everything from customers right away, we can't wait for some artificial process slowing us down."
+** An Unfortunately Doomed Attempt at Change
 
-What can Quin do?
+One day, after a particularly frustrating standup, Quin pings Marco on Slack, and asks if they could check in one-on-one. He sends back a quick thumbs up, and a minute later, they're staring at each other in Zoom.
+
+Behind Marco Quin sees, as always, his bookcase with its neat rows of colorful business books, and, at the top, that one extravagant fern. As she gathers her thoughts, she can see Marco's eyes flicking off screen. He has a habit of keeping other windows open during Zooms, she knows. She finds it a bit frustrating at the best of times. And this is very much not the best of times.
+
+"I have to do this", she reminds herself firly. "It's for the team. Not just for me."
+
+Quin has been a manager long enough to know that it's best to speak directly to difficult topics. Of course, it's a different matter when you're speaking to someone who is, ultimately, your boss. She realizes her heart is beating fast.
+
+She draws a deep breath. "Look, I have some concerns about how you've been working with the engineers in standups."
+
+Marco blinks. "What do you mean?" he says, squinting.
+
+Quin tries to stay calm. She reminds herself to be as direct and clear as possible. "When you come back from customer calls, you have a habit of bringing a lot of new feature ideas. That kind of constant changing of priorities is confusing the engineers. I'd like to ask you to be more careful about sharing feature ideas with the team. You can do that in sprint planning, instead of in standup."
+
+There, she said it, and she said it as clearly as she can.
+
+Marco is already vigorously shaking his head. "No, no, no. Look, we're a *startup*," he says, punctuating it with a sharp jerk of his head. "We have to be able to move *fast*. I need the engineers to hear everything that I hear from customers *right away*, we can't wait for some artificial process to slow us down."
+
+Quin can feel the conversation slipping out of her control. She makes herself try one more time. "No, look, I totally want us to move fast---it's just, I think that, if you could be a bit more /careful/ in standups, we might actually move faster. That's all I'm asking for."
+
+Marco frowns. "Okay, fine. I guess I can try." He gives a tight shrug. "Is there anything else?"
+
+They wrap up.
+
+Quin sits there, staring at her blank monitor screen.
+
+She tries to feel glad she forced herself to say something, but she doesn't have much hope that Marco is going to change his behavior[fn:: He won't.]. And she feels like she's burned some of the fragile trust she'd built up with him.
+
+She wonders if she's just not going to be able to make this job work.
+
+That weekend, she catches up with Alistair, a friend from two jobs ago, on a long walk downtown. She tells him about her conversation with Marco.
+
+# XXX At a crab festival, at some kind of absurd festival, Vietnamese food, tai-bo.
+
+"And he just totally shut me down," she says. "Does it always have to suck like this?"
+
+Alistair suddenly stops and snaps his fingers. "You should talk to Jeremiah."
+
+"What? Who?"
+
+"I met him through Ellie. He loves this shit."
+
+"What, broken sprints with delusional CEO's?"
+
+"No, helping people get their bosses to stop being crazy. He helped me out with that dumb AI thing last year, with the board presentation and the stuffed gopher. I'll intro you. I dunno why, but he seems to legit enjoy talking about crazy bosses. You should totally reach out."
+
+"Okay, okay," says Quin. Why not, she thinks. It's not like she has anything else to try.
+
+* Cut bits
 
 ** Step 1. Develop an Empathetic Understanding
 
@@ -511,3 +559,5 @@ E.g. maybe the first step for that engineering lead is to advocate for just a bi
 
 
 They want to help them see the benefits of allowing the team to make *"small" decisions more quickly* -- as long as those decisions are "mostly right", and "big" decisions still come up to the Head of Product. Once the enginering lead has created space for that kind of rapid small decision-making, they can *then* work with their PM partner to help them start to actually make those decisions.[fn:: You might be wondering how the engineering lead can advocate for faster decision-making if their PM partner isn't ready to step up and take advantage of it. As in, how can they ensure the VP of Product will see some positive improvements, in the immediate term? One answer is: the engineering lead can commit to "leaning over" and personally helping do the product job, for a short period of time. We'll talk through this in detail in the "Underpowered Product Team" case study.]
+** Being pulled in different directions
+Quin is worried that, because the team keeps getting pulled in so many different directions, ATN! won't be able to test out an actual product idea, with actual customers, any time soon.
