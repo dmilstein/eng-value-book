@@ -4,6 +4,87 @@
 #+title: Identify a Strategic Intent
 #+filetags: :Chapter:
 * Identify a Strategic Intent
+** The Power of Speaking to Strategic Outcomes
+
+You're going to by developing a clear articulation of a single key strategic outcome for the business that your team can play a role in achieving, *if* you can successfully solve some specific set of business problems.
+
+# XXX Drill in on "Your area of the business"?
+
+This will most often be something the business needs to achieve in the next 18-24 months, stated in business terms, along with some specifics of what your teams needs to do, as part of that. It could be a shorter time frame, but I'll gently nudge you to look at least a year and a half out. Maybe ask: if you totally crush it the short-term, what's the awesome thing that might happen in 18 months? Consider speaking to that slightly longer-term thing as your Intent.
+
+This could be something like:
+
+ - Business: show sufficient customer growth to enable an acquisition
+
+   Team: develop new product that helps acquire new customers
+
+ - Business: Break into the enterprise segment
+
+   Team: Address key functionality limitations that are blocking enterprise sales
+
+By articulating this kind of "strategic intent" to yourself, you'll be ready to authentically position a pitch for change as a *necessary* step in achieving that overall strategic outcome.
+
+Instead of saying something focused on day to day problems, you want to be able to say to a stakeholder something like:
+
+/"My understanding is that our absolutely highest priority is customer growth, because that is what potential acquirers value. The company as a whole needs to show an increase in ARR of X% within the next 18 months or so. Our team has been asked to play our part by rapidly prototyping a series of new product ideas, and seeing if we can find one which is a winner. We're very excited about that challenge. However, we do have a concern.../
+
+That is enormously more compelling than just starting with "the problems on the ground".
+
+A note: there is an, um, uncomfortably high likelihood that *no one has told you* a strategic intent.
+
+In an ideal world, company leadership would share a concise, coherent statement of strategic intent with the whole company. In that ideal world, even as you're reading this, you'd be nodding and saying "Yep, I've got that, let's go."
+
+Unfortunately, here in the *actual* world, it's super common for company leadership to be not fully clear in their own thinking, and/or not fully clear in how they convey context and strategy to the company at large.
+
+E.g. for that example intent above, there's a very good chance that company leadership hasn't explicitly named acquisition as a near-term goal, nor defined an increase in ARR as the main thing to focus on. And the team likely hasn't been told to prototype a "series of new product ideas", they've been handed *one*, and been told to go validate it (or, worst case, to just build it, because it's so clearly going to be a winner. See the case study on [[id:C70B2607-338E-44F3-9CD0-F7B52B90A6E6][We Need a New Product ASAP!]] for more ideas on how to navigate this situation).
+
+Luckily, all is very much not lost--there's a solid game plan by which you can pull a strategic intent out of your stakeholder.
+
+** Some Problems With Goals
+** Use Strategic Intents To Define Core Challenge
+
+** Tactical Empathy Skill #1: Guess & Check
+
+In such a situation my advice is to, well, start by *guessing*.
+
+As in: you've likely got a fair amount of context, I recommend you make your own best guess statement of strategic intent. Talk to some folks near you, gather a bit of info, and then boil it down to a coherent single sentence or two.
+
+You can then test that out with your stakeholder, and ask if you've got it right, ala:
+
+/I wanted to ask something -- my understanding is that, in the next 18-24 months, the most important thing we need to achive is <X>, and that my team should be supporting that by way of <Y>. Do I have that mostly right? Am I missing anything important?/
+
+Oddly, this tends to work better than just point blank asking your stakeholder for a  coherent intent.
+
+I suspect there are two reasons why guess-and-check works better than ask-directly.
+
+First, it doesn't put the stakeholder on the spot -- coming up with a clear, concise statement of strategy can be hard to do on your feet. By offering one and inviting critique, you're making a smaller ask of them.
+
+Second, it's usually much easier for people to express their thoughts by telling you what's wrong with yours, than to lay their own out.
+
+Sometimes, they're not even perfectly clear on what they think, but when you say something like /"My understanding is that our top priority is growth, which means acquiring new customers, is that right?"/, they'll realize that sounds wrong, and say:
+
+/"Wait, that's not quite it. A good bit of revenue growth should come from upselling existing customers -- but we need more compelling features in our Pro tier to do that."/
+
+You say thank you, and then update your coherent statement and test it again.
+
+*The Saddest Sidebar*
+
+I can't get out of this section without mentioning the unfortunate possibility that your stakeholder may *angrily resist* making a clear statement of a *single* strategic intent. Such a stakeholder might say something like:
+
+/"Look, it's not that simple. You're always asking for the "one top priority", but *all* the goals are critically important. We *can't* just pick one. We have to find a way to get them *all* done."/
+
+First off, ugggggggghhhhh.
+
+Second off, ugggggghhhh.
+
+An unwillingess to make hard prioritization calls is a pretty reliable way to doom a team to failure.
+
+That said, all is not lost in this situation. There's a real chance that, if you can earn some wins using the steps below, that same stakeholder will start to experience prioritization decisions as an *empowering* thing for them, rather than a demand for them to disappoint one of *their* stakeholders or bosses.
+
+In such a case, my recommendation is to just go with your best guess for now -- it's likely pretty good, and having *some* direction to move in is better than just churning around at random.
+** Tactical Empathy Skill #2: Echo Back & Summarize
+** Quin Identifies a Strategic Intent
+** Exercises
 * Scraps/Thoughts
 Maybe, use this chapter to, like, *define* a strategy, and explain that, if they don't know one, they should guess. But they ideally want to state it in terms the stakeholder uses. And we'll learn more about that in the next chapter.
 
