@@ -8,7 +8,7 @@ As part of my [[id:17305FA7-A43F-40C9-9309-0EF3577C70D0][Author Platform]], I've
 
 Substack Dashboard: https://buildingandlearning.substack.com/publish/home
 
-* Substack Buttong HTML
+* Substack Button HTML
 <iframe src="https://buildingandlearning.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
 
 * Ideas for posting cadence
@@ -119,3 +119,9 @@ In this herein Substack, I'll be sharing ideas from it and thoughts the writing 
 (and just possibly some random Lewis Carrol-inspired absurdity once in a while, I make no promises otherwise)
 
 Speaking of said book, if you're potentially interested in being a beta reader at some stage of development, holler at me.
+* Potential Topics
+** TODO Share Calibrations, Unconscious Bias & You
+** TODO Write a post on Decision Stories
+** TODO Share 4 key emotion questions
+** TODO "It's not important but we have to do it"
+Like, stop immediately and ask what the fuck
