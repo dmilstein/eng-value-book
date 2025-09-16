@@ -7,7 +7,7 @@ Outputs a sorted list of dates and total hours clocked.
 import re
 import sys
 from collections import defaultdict
-from datetime import datetime
+from datetime import datetime, timedelta
 
 def parse_clock_line(line):
     """
@@ -77,11 +77,21 @@ def main():
     
     # Sort by date and output
     if hours_by_date:
+        # Get date range from first to last date
+        all_dates = sorted(hours_by_date.keys())
+        start_date = datetime.strptime(all_dates[0], '%Y-%m-%d')
+        end_date = datetime.strptime(all_dates[-1], '%Y-%m-%d')
+        
         print("Date       Hours")
         print("-" * 15)
-        for date in sorted(hours_by_date.keys()):
-            hours = hours_by_date[date]
-            print(f"{date}  {hours:5.2f}")
+        
+        # Generate all dates in range and output with hours (0.00 if no entry)
+        current_date = start_date
+        while current_date <= end_date:
+            date_str = current_date.strftime('%Y-%m-%d')
+            hours = hours_by_date.get(date_str, 0.0)
+            print(f"{date_str}  {hours:5.2f}")
+            current_date += timedelta(days=1)
         
         total_hours = sum(hours_by_date.values())
         print("-" * 15)
