@@ -9,6 +9,45 @@ import sys
 from collections import defaultdict
 from datetime import datetime, timedelta
 
+def create_hours_bar(hours: float, max_hours: float, width: int = 10) -> str:
+    """Create a horizontal bar representation of hours using Unicode blocks.
+
+    Args:
+        hours: Current hours to display
+        max_hours: Maximum hours for scaling
+        width: Width of the bar in characters
+
+    Returns:
+        String representation of the bar chart
+    """
+    if max_hours == 0 or hours == 0:
+        return ' ' * width
+
+    # Calculate how many full blocks and partial block
+    ratio = hours / max_hours
+    filled_chars = ratio * width
+    full_blocks = int(filled_chars)
+    partial = filled_chars - full_blocks
+
+    # Unicode block characters from full to empty
+    blocks = ['█', '▉', '▊', '▋', '▌', '▍', '▎', '▏']
+
+    # Build the bar
+    bar = '█' * full_blocks
+
+    # Add partial block if needed
+    if partial > 0 and full_blocks < width:
+        partial_index = int(partial * len(blocks))
+        if partial_index >= len(blocks):
+            partial_index = len(blocks) - 1
+        bar += blocks[partial_index]
+        full_blocks += 1
+
+    # Fill remaining with spaces
+    bar += ' ' * (width - full_blocks)
+
+    return bar
+
 def parse_clock_line(line):
     """
     Parse a CLOCK line and return (date, hours) or None if invalid.
@@ -82,10 +121,38 @@ def main():
         start_date = datetime.strptime(all_dates[0], '%Y-%m-%d')
         end_date = datetime.strptime(all_dates[-1], '%Y-%m-%d')
         
-        print("Date       Hours")
-        print("-" * 15)
+        # Find max hours for scaling bars
+        max_daily_hours = max(hours_by_date.values()) if hours_by_date.values() else 0
         
-        # Generate all dates in range and output with hours (blank if no entry)
+        # Calculate weekly totals first to find max weekly hours
+        weekly_totals = []
+        current_date = start_date
+        weekly_hours = 0.0
+        week_start = None
+        
+        while current_date <= end_date:
+            hours = hours_by_date.get(current_date.strftime('%Y-%m-%d'), 0.0)
+            
+            if current_date.weekday() == 0:  # Monday - start of week
+                if week_start is not None:  # Save previous week total
+                    weekly_totals.append(weekly_hours)
+                week_start = current_date
+                weekly_hours = hours
+            else:
+                weekly_hours += hours
+            
+            current_date += timedelta(days=1)
+        
+        # Save final week total
+        if week_start is not None:
+            weekly_totals.append(weekly_hours)
+        
+        max_weekly_hours = max(weekly_totals) if weekly_totals else 0
+        
+        print("Date       Hours")
+        print("-" * 35)
+        
+        # Generate all dates in range and output with hours and bars
         current_date = start_date
         weekly_hours = 0.0
         week_start = None
@@ -93,16 +160,19 @@ def main():
         while current_date <= end_date:
             date_str = current_date.strftime('%Y-%m-%d')
             hours = hours_by_date.get(date_str, 0.0)
+            
             if hours == 0.0:
-                print(f"{date_str}      ")
+                print(f"{date_str}       {' ' * 10}")
             else:
-                print(f"{date_str}  {hours:4.1f}")
+                hours_bar = create_hours_bar(hours, max_daily_hours, 10)
+                print(f"{date_str}  {hours:4.1f} {hours_bar}")
             
             # Track weekly totals (Monday = 0, Sunday = 6)
             if current_date.weekday() == 0:  # Monday - start of week
                 if week_start is not None:  # Print previous week total
                     week_end = current_date - timedelta(days=1)
-                    print(f"Week {week_start.strftime('%m/%d')}-{week_end.strftime('%m/%d')}  {weekly_hours:4.1f}")
+                    weekly_bar = create_hours_bar(weekly_hours, max_weekly_hours, 15)
+                    print(f"Week {week_start.strftime('%m/%d')}-{week_end.strftime('%m/%d')}  {weekly_hours:4.1f} {weekly_bar}")
                     print()
                 week_start = current_date
                 weekly_hours = hours
@@ -114,11 +184,12 @@ def main():
         # Print final week total
         if week_start is not None:
             week_end = end_date
-            print(f"Week {week_start.strftime('%m/%d')}-{week_end.strftime('%m/%d')}  {weekly_hours:4.1f}")
+            weekly_bar = create_hours_bar(weekly_hours, max_weekly_hours, 15)
+            print(f"Week {week_start.strftime('%m/%d')}-{week_end.strftime('%m/%d')}  {weekly_hours:4.1f} {weekly_bar}")
             print()
         
         total_hours = sum(hours_by_date.values())
-        print("-" * 15)
+        print("-" * 35)
         print(f"Total      {total_hours:4.1f}")
     else:
         print("No CLOCK entries found")
