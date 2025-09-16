@@ -6,31 +6,101 @@
 * Identify a Strategic Intent
 ** The Power of Speaking to Strategic Outcomes
 
-You're going to by developing a clear articulation of a single key strategic outcome for the business that your team can play a role in achieving, *if* you can successfully solve some specific set of business problems.
+You're going to start by developing a clear articulation of a single key strategic outcome for the business---an outcome that your team can play a role in achieving, *if* you can solve some set of business problems.
 
 # XXX Drill in on "Your area of the business"?
 
-This will most often be something the business needs to achieve in the next 18-24 months, stated in business terms, along with some specifics of what your teams needs to do, as part of that. It could be a shorter time frame, but I'll gently nudge you to look at least a year and a half out. Maybe ask: if you totally crush it the short-term, what's the awesome thing that might happen in 18 months? Consider speaking to that slightly longer-term thing as your Intent.
+# This will most often be something the business needs to achieve in the next 18-24 months, stated in business terms, along with some specifics of what your teams needs to do, as part of that.
 
-This could be something like:
+# It could be a shorter time frame, but I'll gently nudge you to look at least a year and a half out. Maybe ask: if you totally crush it the short-term, what's the awesome thing that might happen in 18 months? Consider speaking to that slightly longer-term thing as your Intent.
+
+A few examples:
+
+ - Business: Break into the enterprise segment to unlock more growth
+
+   Team: Address key functionality limitations that are blocking enterprise sales
 
  - Business: show sufficient customer growth to enable an acquisition
 
    Team: develop new product that helps acquire new customers
 
- - Business: Break into the enterprise segment
+ - Business: Integrate AI into our practices, to ensure we remain attractive to investors
 
-   Team: Address key functionality limitations that are blocking enterprise sales
+   Team: Develop AI support for our data ingestion operations
 
-By articulating this kind of "strategic intent" to yourself, you'll be ready to authentically position a pitch for change as a *necessary* step in achieving that overall strategic outcome.
+We'll name that combo of a key strategic goal plus your team's part in that goal a "Strategic Intent" (this framing is adapted from the marvelous The Art of Action, by Stephen Bungay, which Melissa Perri also references in Escaping the Build Trap)
 
-Instead of saying something focused on day to day problems, you want to be able to say to a stakeholder something like:
+Why is it so important to start by articulating a Strategic Intent?
 
-/"My understanding is that our absolutely highest priority is customer growth, because that is what potential acquirers value. The company as a whole needs to show an increase in ARR of X% within the next 18 months or so. Our team has been asked to play our part by rapidly prototyping a series of new product ideas, and seeing if we can find one which is a winner. We're very excited about that challenge. However, we do have a concern.../
+In particular, why take the time to do so if you already have a *goal*?
 
-That is enormously more compelling than just starting with "the problems on the ground".
+There are (at least!) three reasons why moving from a near-term goal to a longer-term strategic intent is so valuable.
 
-A note: there is an, um, uncomfortably high likelihood that *no one has told you* a strategic intent.
+ 1. Creating Flexibility
+
+    Being able to speak to that longer-team strategic outcome creates the *flexibility* to offer a new way to work -- because you can situate that new way as a necessary step in helping achieve that outcome, even if it means *changing* the near-term goals (as it often will).
+
+ 2. Demonstrating Alignment
+
+    That strategic outcome is what your stakeholder feels ultimately accountable for. By being able to speak clearly to it, you can demonstrate that you're *aligned* with them, that you are on their side. This can convert your conversations from tense negotiations to productive collaborations.
+
+ 3. Generating Motivation
+
+    By being able to cite something your stakeholder *wants*, you'll be able to anchor your pitch in a positive vision of the future. That is a very powerful way to *motivate* humans to take the risk of making a change.
+
+** Moving From Goals to Strategic Outcomes
+
+To bring this to life, let's dig into our first example above:
+
+/"Over the next 18-24 months, we need to break into the enterprise segment, in order to unlock more growth. To enable that, our team needs to address key functionality limitations that are blocking enterprise sales."/
+
+Now, at most software companies I've met, no one will have told the team the long-term goal that clearly, nor drawn the connection from their day-to-day work to that longer-term outcome.
+
+Instead, they likely have a much *narrower* goal.
+
+E.g. perhaps every time someone on the sales team manages to get an enterprise prospect on the phone, said prospect immediately announces they can't even talk unless the product supports Single Sign On--which it very much does *not* currently do.
+
+As a result, the engineering leader for a new Authentication/Authorization team has been handed a goal that is simply "Add SSO Support", stripped bare of context and underlying purpose.
+
+There is some uncomfortably early deadline for "Adding SSO Support". The team has already started poring over SSO integration docs from vendors, and spelunking through ancient bits of login code in the legacy guts of the system.
+
+Unfortunately, the key stakeholder for the team proceeds to badly drift into "project management" mode. They spend their days talking with the sales team and only join eng team meetings to check on status and then harrangue the team about how they're drifting behind the schedule they "committed" to[fn:: Must... resist... temptation to rant about economic stupidity of forcing teams to "commit" to schedules and then moralizing about their failures to live up to their "commitments".]. The stakeholder builds a spreadsheet of launch dates, which they routinely share with executive leadership, even though it feels more and more divorced from the reality the team is living in. Finally, the stakeholder does not seem to understand how SSO actually works, and is therefore unable or unwilling to engage in nuanced tradeoff conversations.
+
+In such a situation, no one feels like there is time to breathe and/or consider a change in how they collaborate.
+
+Say the engineering or product leader on that team decides to advocate for a change with that stakeholder. As per the advice of this book, they decide to start small by focusing on building a deeper shared understanding of SSO, so that they can make good tradeoff decisions together.
+
+If that team lead can only speak to the near-term goal, they might say something like: /"I'm not sure we'll able to hit our launch dates for SSO unless we can make some hard tradeoffs. And to do that, I think you'll need a deeper understanding of SSO. Can we spend some time digging into what the team has learned?"/
+
+How is the stakeholder going to hear this?
+
+Well, first off, the stakeholder is *already* living in fear of missing their SSO launch dates.
+
+So hearing the team lead say this is likely to raise some low-grade panic. In such a state, they're not going to be receptive to anything that feels uncomfortable or risky.
+
+Furthermore, the *reason* the stakeholder fears missing SSO launch dates is because doing so will turn into a *failure for them*. They won't be able to achieve their actual goal, which is to unlock enterprise sales.
+
+Hearing the team lead speak only to the near-term goal will make the stakeholder feel *alone* in facing their fears about the longer-term outcome.
+
+Finally, precisely because the stakeholder doesn't understand the nuances of SSO, they likely can't even imagine how they can achieve their ultimate goal without fully delivering on their near-term goal as originally planned. So this will just sound like a flat-out failure, and there's a decent chance they'll push back instead of engaging.
+
+If the team lead has managed to develop an articulation of a strategic intent, they could instead say something like:
+
+/"My understanding is that the company's absolutely highest priority is unlocking enterprise sales, so that we can continue to grow revenue. Unfortunately, right now, enterprise sales conversations keep getting killed because we don't support SSO. Our team is playing a key role in unlocking enterprise sales by adding SSO support as quickly as possible. We're very excited about that challenge, and have turned up some interesting options for getting something to the sales team very soon. In fact, we think we might be able to launch some key customer segments early -- but, to be able to do that, we'll need to spend some real time with you to digging into some SSO details. Can we look at our calendars to block out a few hours?/
+
+Let's unpack that:
+
+ - The team lead drew on *flexibility* to propose deconstructing the monolithic "Add SSO Support" goal into an incremental launch plan ("launch some key segments early").
+
+ - They demonstrated *alignment* by showing that understand and care about what the stakeholder is trying to do ("unlock enterprise sales").
+
+ - Finally, they created *motivation*, by citing things that the stakeholder will find exciting ("launching some key segments early", "getting something to the sales team very soon").
+
+That is all enormously more compelling than just starting with "the problems on the ground".
+
+** What If All I Have Is A Goal?
+
+There is an, um, uncomfortably high likelihood that *no one has told you* a strategic intent.
 
 In an ideal world, company leadership would share a concise, coherent statement of strategic intent with the whole company. In that ideal world, even as you're reading this, you'd be nodding and saying "Yep, I've got that, let's go."
 
@@ -40,7 +110,6 @@ E.g. for that example intent above, there's a very good chance that company lead
 
 Luckily, all is very much not lost--there's a solid game plan by which you can pull a strategic intent out of your stakeholder.
 
-** Some Problems With Goals
 ** Use Strategic Intents To Define Core Challenge
 
 ** Tactical Empathy Skill #1: Guess & Check
@@ -83,7 +152,7 @@ That said, all is not lost in this situation. There's a real chance that, if you
 
 In such a case, my recommendation is to just go with your best guess for now -- it's likely pretty good, and having *some* direction to move in is better than just churning around at random.
 ** Tactical Empathy Skill #2: Echo Back & Summarize
-** Quin Identifies a Strategic Intent
+** Scenario: Quin Identifies a Strategic Intent
 ** Exercises
 * Scraps/Thoughts
 Maybe, use this chapter to, like, *define* a strategy, and explain that, if they don't know one, they should guess. But they ideally want to state it in terms the stakeholder uses. And we'll learn more about that in the next chapter.
