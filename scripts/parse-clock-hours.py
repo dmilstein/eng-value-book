@@ -41,24 +41,39 @@ def main():
     # Dictionary to sum hours by date
     hours_by_date = defaultdict(float)
     
-    try:
-        with open(filename, 'r', encoding='utf-8') as f:
-            for line_num, line in enumerate(f, 1):
-                line = line.strip()
-                if 'CLOCK:' in line:
-                    result = parse_clock_line(line)
-                    if result:
-                        date, hours = result
-                        hours_by_date[date] += hours
-                    else:
-                        print(f"Warning: Could not parse CLOCK line {line_num}: {line}", file=sys.stderr)
+    # List of files to process
+    files_to_process = [filename]
     
+    # Add archive file if it exists
+    archive_filename = filename + '_archive'
+    try:
+        with open(archive_filename, 'r', encoding='utf-8'):
+            files_to_process.append(archive_filename)
     except FileNotFoundError:
-        print(f"Error: File '{filename}' not found", file=sys.stderr)
-        sys.exit(1)
-    except Exception as e:
-        print(f"Error reading file: {e}", file=sys.stderr)
-        sys.exit(1)
+        pass  # Archive file doesn't exist, that's okay
+    
+    # Process each file
+    for current_file in files_to_process:
+        try:
+            with open(current_file, 'r', encoding='utf-8') as f:
+                for line_num, line in enumerate(f, 1):
+                    line = line.strip()
+                    if 'CLOCK:' in line:
+                        result = parse_clock_line(line)
+                        if result:
+                            date, hours = result
+                            hours_by_date[date] += hours
+                        else:
+                            print(f"Warning: Could not parse CLOCK line {line_num} in {current_file}: {line}", file=sys.stderr)
+        
+        except FileNotFoundError:
+            if current_file == filename:
+                print(f"Error: File '{current_file}' not found", file=sys.stderr)
+                sys.exit(1)
+            # Archive file not found is okay, we already checked for it
+        except Exception as e:
+            print(f"Error reading file {current_file}: {e}", file=sys.stderr)
+            sys.exit(1)
     
     # Sort by date and output
     if hours_by_date:
