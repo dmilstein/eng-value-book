@@ -203,12 +203,28 @@ def main():
             weekly_bar = create_hours_bar(weekly_hours, max_weekly_hours, 15)
             print(f"Week {week_start.strftime('%m/%d')}-{week_end.strftime('%m/%d')}  {weekly_hours:4.1f} {weekly_bar}")
         
-        # Current week section (most recent week)
+        # Current week section (most recent week with daily breakdown)
         if weekly_data:
             print()
             print("Current Week")
             print("-" * 35)
             current_week_start, current_week_end, current_weekly_hours = weekly_data[-1]
+            
+            # Show each day of the current week
+            current_date = current_week_start
+            while current_date <= current_week_end:
+                date_str = current_date.strftime('%Y-%m-%d')
+                hours = hours_by_date.get(date_str, 0.0)
+                
+                if hours == 0.0:
+                    print(f"{date_str}       {' ' * 10}")
+                else:
+                    hours_bar = create_hours_bar(hours, max_daily_hours, 10)
+                    print(f"{date_str}  {hours:4.1f} {hours_bar}")
+                
+                current_date += timedelta(days=1)
+            
+            # Show weekly summary
             current_weekly_bar = create_hours_bar(current_weekly_hours, max_weekly_hours, 15)
             print(f"Week {current_week_start.strftime('%m/%d')}-{current_week_end.strftime('%m/%d')}  {current_weekly_hours:4.1f} {current_weekly_bar}")
     else:
