@@ -152,6 +152,9 @@ def main():
         print("Date       Hours")
         print("-" * 35)
         
+        # Collect weekly data for summary section
+        weekly_data = []
+        
         # Generate all dates in range and output with hours and bars
         current_date = start_date
         weekly_hours = 0.0
@@ -169,10 +172,10 @@ def main():
             
             # Track weekly totals (Monday = 0, Sunday = 6)
             if current_date.weekday() == 0:  # Monday - start of week
-                if week_start is not None:  # Print previous week total
+                if week_start is not None:  # Save previous week data
                     week_end = current_date - timedelta(days=1)
-                    weekly_bar = create_hours_bar(weekly_hours, max_weekly_hours, 15)
-                    print(f"Week {week_start.strftime('%m/%d')}-{week_end.strftime('%m/%d')}  {weekly_hours:4.1f} {weekly_bar}")
+                    weekly_data.append((week_start, week_end, weekly_hours))
+                    print(f"Week {week_start.strftime('%m/%d')}-{week_end.strftime('%m/%d')}")
                     print()
                 week_start = current_date
                 weekly_hours = hours
@@ -181,16 +184,24 @@ def main():
             
             current_date += timedelta(days=1)
         
-        # Print final week total
+        # Save final week data
         if week_start is not None:
             week_end = end_date
-            weekly_bar = create_hours_bar(weekly_hours, max_weekly_hours, 15)
-            print(f"Week {week_start.strftime('%m/%d')}-{week_end.strftime('%m/%d')}  {weekly_hours:4.1f} {weekly_bar}")
+            weekly_data.append((week_start, week_end, weekly_hours))
+            print(f"Week {week_start.strftime('%m/%d')}-{week_end.strftime('%m/%d')}")
             print()
         
         total_hours = sum(hours_by_date.values())
         print("-" * 35)
         print(f"Total      {total_hours:4.1f}")
+        print()
+        
+        # Weekly summary section
+        print("Weekly Summary")
+        print("-" * 35)
+        for week_start, week_end, weekly_hours in weekly_data:
+            weekly_bar = create_hours_bar(weekly_hours, max_weekly_hours, 15)
+            print(f"Week {week_start.strftime('%m/%d')}-{week_end.strftime('%m/%d')}  {weekly_hours:4.1f} {weekly_bar}")
     else:
         print("No CLOCK entries found")
 
