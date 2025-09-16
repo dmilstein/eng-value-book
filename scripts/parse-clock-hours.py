@@ -85,7 +85,7 @@ def main():
         print("Date       Hours")
         print("-" * 15)
         
-        # Generate all dates in range and output with hours (0.00 if no entry)
+        # Generate all dates in range and output with hours (blank if no entry)
         current_date = start_date
         weekly_hours = 0.0
         week_start = None
@@ -93,7 +93,10 @@ def main():
         while current_date <= end_date:
             date_str = current_date.strftime('%Y-%m-%d')
             hours = hours_by_date.get(date_str, 0.0)
-            print(f"{date_str}  {hours:4.1f}")
+            if hours == 0.0:
+                print(f"{date_str}      ")
+            else:
+                print(f"{date_str}  {hours:4.1f}")
             
             # Track weekly totals (Monday = 0, Sunday = 6)
             if current_date.weekday() == 0:  # Monday - start of week
