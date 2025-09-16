@@ -28,7 +28,7 @@ Because of these reasons, we'll run the game plan as a series of *Increments of 
 
 The necessity of working incrementally is, believe it or not, good news! You can, with creative thinking, apply much of your experience in iterative software and product development. Only here you're applying it to a group of humans, instead of a pile of code.
 
-** Identify a "Stakeholder" For Each Increment
+** Identify One "Stakeholder" For Each Increment
 
 For each increment of the game plan, you'll choose a single key person to focus on.
 
