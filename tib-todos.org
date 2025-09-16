@@ -29,6 +29,7 @@ CLOSED: [2025-08-15 Fri 08:11]
 CLOSED: [2025-08-18 Mon 09:05]
 Like, do I start each section by explaining what "you" do at a high level, then show Quin doing it, then explain it? Or do I start with Quin?
 * [[id:B4926308-39DD-471B-8E71-5FFF7546D6E3][ToC/Structure ]]                                  :gtasks:
+** TODO Book: try the full sub-head outline breakdown now?
 ** TODO Experiment: add exercises to end of each chapter
 Like, now go do these things
 
@@ -56,6 +57,9 @@ Build Key Context
 ** DONE Maybe: back half of book is all case studies
 CLOSED: [2025-08-18 Mon 09:17]
 * [[id:454225CA-DD66-4ACA-B8B3-429F6551DBDC][New Intro]]                                       :gtasks:
+** TODO For TE in intro, steal from existing TE chapter
+** TODO In Intro/Chap 1: cite Tac Empathy throughout
+Maybe define it, there, and mention that we'll be learning it as we go. Requires practice, profoundly powerful and valuable. Will pull out tactics in an appendix as well as scattered throughout
 ** DONE Write forward from solving biz problems
 CLOSED: [2025-08-12 Tue 11:01]
 :LOGBOOK:
@@ -154,17 +158,20 @@ CLOSED: [2025-07-15 Tue 12:46]
 ** DONE Revise new intro
 CLOSED: [2025-07-16 Wed 11:11]
 * [[id:B0637E99-E30C-4FF8-B8BA-A660454DE08B][The Game Plan]]                                   :gtasks:
-** TODO Rewrite Fundamental Game plan as *failure*? :pom:
+** DONE Rewrite Fundamental Game plan as *failure*?
+CLOSED: [2025-09-14 Sun 11:16]
 :LOGBOOK:
-CLOCK: [2025-09-14 Sun 09:19]
+CLOCK: [2025-09-14 Sun 09:19]--[2025-09-14 Sun 11:16] =>  1:57
 :END:
 So I'm doing story structure. Could even have a helper, who coaches Quin, that's the classic heroic journey. Get the reader really invested, tease with the possibility of success, and then crash down on failure.
 
 I drift towards The Goal, but let myself go there?
-** TODO Pick "you" vs "we" as pronoun
-** TODO For Quin story, be consistent about order
+** DONE Pick "you" vs "we" as pronoun
+CLOSED: [2025-09-15 Mon 09:33]
+** DONE For Quin story, be consistent about order
+CLOSED: [2025-09-15 Mon 09:33]
 (e.g. story then principle or other way around)
-** TODO Make more dramatic changes in priorities in initial story
+** TODO More dramatic priority changes in story setup
 ** DONE Finish first "Loop of Improvement"
 CLOSED: [2025-08-19 Tue 10:20]
 :LOGBOOK:
@@ -178,10 +185,25 @@ CLOSED: [2025-08-20 Wed 10:23]
 :LOGBOOK:
 CLOCK: [2025-08-20 Wed 09:11]--[2025-08-20 Wed 10:01] =>  0:50
 :END:
+* [[id:A1EF14A2-5F19-488D-926C-A8208142E794][Strat Intent]]                                    :gtasks:
+** DONE Review Tech Invest chapters
+CLOSED: [2025-09-14 Sun 14:25]
+** DONE Draft learning outcomes/structure
+CLOSED: [2025-09-14 Sun 14:57]
+:LOGBOOK:
+CLOCK: [2025-09-14 Sun 14:15]--[2025-09-14 Sun 14:57] =>  0:42
+:END:
+** TODO Bad first draft Strategic Intent          :curweek:
+:LOGBOOK:
+CLOCK: [2025-09-16 Tue 08:31]--[2025-09-16 Tue 11:07] =>  2:36
+:END:
+** TODO Add explicit "Be in detective mode"
 * [[id:5903AFE7-4B1E-422C-8537-2C56BBFBA643][Mine for Context]]                                :gtasks:
-** DONE Write bad subheads for Mine for Context   :curweek:
+** TODO Bad first draft Mine for Context          :curweek:
+** DONE Write bad subheads for Mine for Context
 CLOSED: [2025-09-13 Sat 10:22]
-** TODO Keep pawing away, maybe start writing     :curweek:
+** DONE Keep pawing away, maybe start writing
+CLOSED: [2025-09-15 Mon 09:35]
 :LOGBOOK:
 CLOCK: [2025-09-14 Sun 09:08]--[2025-09-14 Sun 09:16] =>  0:08
 :END:
@@ -190,11 +212,19 @@ CLOCK: [2025-09-14 Sun 09:08]--[2025-09-14 Sun 09:16] =>  0:08
  - First, describe a frustration, imagine it to your stakeholder
  - Then, prepend a statement of intent
 Hear the difference. Ask someone how it sounds.
-** TODO Spike: show failed convos before good ones?
+** DONE Spike: show failed convos before good ones?
+CLOSED: [2025-09-15 Mon 09:34]
 Ala Mom Test?
 ** TODO Use "I'm worried", "I'm afraid"
-** TODO Put the echoing back tactic in Mine for Frustrations
-** TODO Add: mine for the stakeholder's *current frustrations*
+* [[id:4D62F0DE-2862-45F3-97EE-6AFED5382F2C][Storytelling/Wins ]]                              :gtasks:
+** TODO Quote White Album: We tell stories in order to live
+** TODO Review/integrate Mike Isman feedback on storytelling
+Rough Draft of Storytelling Chapter(s)
+** TODO Find videos w/ dots pushing each other up hills
+** TODO Add reference to Kahneman mic drop about stories
+** TODO Revise with up to date story research
+E.g. less heroic narrative, more objective/struggle
+
 * [[id:4FEA3BD5-8E85-4BB6-8F59-15FDE4F38572][Tactical Empathy]]                                :gtasks:
 ** TODO Do I use three part teens/terrorists negotiation thing?
 ** TODO Find a Two Ends of Spectrum thing w/ Eduardo?
@@ -228,31 +258,6 @@ CLOSED: [2025-08-04 Mon 09:23]
 To make the emotions more visible on the surface
 ** DONE Review, adjust to be less about Tech Invest
 CLOSED: [2025-08-02 Sat 09:50]
-* [[id:7976BDAE-B87A-4418-A78E-856A18D3C44D][Envision Better ]]                                :gtasks:
-** DONE Write 2 more problems
-CLOSED: [2025-08-11 Mon 11:21]
-:LOGBOOK:
-CLOCK: [2025-08-11 Mon 10:06]--[2025-08-11 Mon 11:21] =>  1:15
-:END:
-** TODO Brainstorm alternatives to "Envision"
- - Design
- - Identify
- - Architect
- - Specify
- - Name
- - Map
- - Check a Thesaurus For
-** TODO Add a section on Domain-Aligned Teams?
-Or on value stream-aligned teams/team topologies?
-As a form of change to want to unlock?
-** DONE Break out 4-6 "problems"
-CLOSED: [2025-08-06 Wed 17:03]
-** DONE Write 1 problem
-CLOSED: [2025-08-07 Thu 08:58]
-* [[id:A1EF14A2-5F19-488D-926C-A8208142E794][Strat Intent]]                                    :gtasks:
-** TODO Review Tech Invest chapters
-** TODO Write bad first draft
-** TODO Add explicit "Be in detective mode"
 * Arc of Persuasion                               :gtasks:
 ** TODO What if my stakeholder resists prioritization?
 ** TODO Get a win without a strategy, first
@@ -306,11 +311,11 @@ CLOSED: [2025-07-16 Wed 10:19]
 ** DONE Draft new email re coaching/helping
 CLOSED: [2025-07-21 Mon 08:11]
 * [[id:E0ADBF07-90B8-4C37-81C0-96A428020F5E][Substack]]                                        :gtasks:
-** DONE Create list of possible topics            :curweek:
+** TODO Figure out next topic, prep it            :curweek:
+** TODO Research Medium cross-post practices      :curweek:
+** DONE Create list of possible topics
 CLOSED: [2025-09-09 Tue 08:54]
-** TODO Pick one topics, prep it                  :curweek:
 ** TODO Read up on Google/Substack/SEO
-** TODO Research Medium cross-post practices
 ** TODO Cross-post to Medium?
 ** TODO Publish something this week
 ** DONE Draft ideas (4 emotion questions?)
@@ -394,11 +399,13 @@ CLOSED: [2025-06-11 Wed 17:06]
 ** DONE Understand diff between Substack notes and posts
 CLOSED: [2025-06-12 Thu 11:16]
 * [[id:17305FA7-A43F-40C9-9309-0EF3577C70D0][Author Platform]]                                 :gtasks:
-** TODO Put new email address on Substack
+** DONE Put new email address on Substack
+CLOSED: [2025-09-15 Mon 09:36]
+** DONE Ping Winston re: building platform
+CLOSED: [2025-09-15 Mon 09:36]
+Esp how he uses LI
 ** TODO Create a book landing page
 For "I want to find out when you publish this" but I don't want your substack
-** TODO Ping Winston re: building platform
-Esp how he uses LI
 ** TODO Brainstorm 10 bad ideas for "hearing from" people
 ** TODO Define incremental rewards/celebrations
 E.g. buy myself dinner, or a game, or go out w/ friends, or tell Edmund + someone, take Bonnie out for dinner.
@@ -418,7 +425,8 @@ CLOSED: [2025-06-11 Wed 17:06]
 CLOSED: [2025-06-11 Wed 17:06]
 Announce I'm working on a book, will post here sometimes, but please go join my new newsletter/Substack if you're interested for more (and/or might like to be a beta reader for a eection).
 * [[id:49435FCD-0590-44DE-8FC7-585E7BCC8BB2][Tooling]]                                         :gtasks:
-** TODO Produce a viz of writing hours
+** TODO Produce a viz of writing hours            :curweek:pom:
+I did figure out how to dump the clocked hours into a csv, now work with claude to do what I want.
 ** DONE Do I write sub-heads in overall ToC?
 CLOSED: [2025-08-18 Mon 09:19]
 ** DONE Go back to flat list of project           :curweek
@@ -471,6 +479,12 @@ So I can either run full screen or within 80 columns
 Because now my wordcount history stuff is sensitive to those being missing.
 ** TODO Create a new chapter template or abbrev?
 * Book Misc                                       :gtasks:
+** TODO Make goals for end of September           :curweek:
+Hours of writing?
+** TODO Remember: when to loop in adjacent authority
+(e.g. your own boss)
+** TODO For running example, make it more complex?
+Or speak to the fact that we're starting small?
 ** TODO New book title options
 
 Strip out "engineers"?
@@ -478,8 +492,8 @@ Strip out "engineers"?
 Working With Humans
 Solve Business Problems
 +Despite+ With Bosses, Peers & Stakeholders
-** TODO Make goals for end of September
-** TODO Notes after Fundamental Game Plan
+** DONE Notes after Fundamental Game Plan
+CLOSED: [2025-09-15 Mon 09:37]
 The story is so much more effective. Maybe move the concrete ideas to the end?
 
 Spike on the "Quin has an adviser" trope?
@@ -688,19 +702,32 @@ CLOSED: [2025-06-10 Tue 09:53]
 So I can make better tomorrow
 **** TODO Add Game Days as Big viz for reduce duration of outages
 * Stashed Projects                                :sleep:
+** [[id:7976BDAE-B87A-4418-A78E-856A18D3C44D][Envision Better ]] :gtasks:
+*** DONE Write 2 more problems
+CLOSED: [2025-08-11 Mon 11:21]
+:LOGBOOK:
+CLOCK: [2025-08-11 Mon 10:06]--[2025-08-11 Mon 11:21] =>  1:15
+:END:
+*** TODO Brainstorm alternatives to "Envision"
+ - Design
+ - Identify
+ - Architect
+ - Specify
+ - Name
+ - Map
+ - Check a Thesaurus For
+*** TODO Add a section on Domain-Aligned Teams?
+Or on value stream-aligned teams/team topologies?
+As a form of change to want to unlock?
+*** DONE Break out 4-6 "problems"
+CLOSED: [2025-08-06 Wed 17:03]
+*** DONE Write 1 problem
+CLOSED: [2025-08-07 Thu 08:58]
 ** [[id:EFA43963-DB19-4EA6-8EF3-4F4376AED1F1][Story Makeovers]]                                :gtasks:
 *** DONE Rough out one more makeover
 CLOSED: [2025-07-08 Tue 11:44]
 *** DONE Review structure of each makeover
 CLOSED: [2025-07-08 Tue 11:24]
-** [[id:4D62F0DE-2862-45F3-97EE-6AFED5382F2C][Storytelling/Wins ]]                             :gtasks:
-*** TODO Review/integrate Mike Isman feedback on storytelling
-Rough Draft of Storytelling Chapter(s)
-*** TODO Find videos w/ dots pushing each other up hills
-*** TODO Add reference to Kahneman mic drop about stories
-*** TODO Revise with up to date story research
-E.g. less heroic narrative, more objective/struggle
-
 ** [[id:93FF0A9B-F54E-49D5-8154-640BBAE08D4D][Beta Readers ]]                                  :gtasks:
 *** DONE Make plan + tasks for Beta Reading
 CLOSED: [2025-06-27 Fri 07:12]
