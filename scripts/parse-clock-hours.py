@@ -202,6 +202,15 @@ def main():
         for week_start, week_end, weekly_hours in weekly_data:
             weekly_bar = create_hours_bar(weekly_hours, max_weekly_hours, 15)
             print(f"Week {week_start.strftime('%m/%d')}-{week_end.strftime('%m/%d')}  {weekly_hours:4.1f} {weekly_bar}")
+        
+        # Current week section (most recent week)
+        if weekly_data:
+            print()
+            print("Current Week")
+            print("-" * 35)
+            current_week_start, current_week_end, current_weekly_hours = weekly_data[-1]
+            current_weekly_bar = create_hours_bar(current_weekly_hours, max_weekly_hours, 15)
+            print(f"Week {current_week_start.strftime('%m/%d')}-{current_week_end.strftime('%m/%d')}  {current_weekly_hours:4.1f} {current_weekly_bar}")
     else:
         print("No CLOCK entries found")
 
