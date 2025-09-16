@@ -87,11 +87,32 @@ def main():
         
         # Generate all dates in range and output with hours (0.00 if no entry)
         current_date = start_date
+        weekly_hours = 0.0
+        week_start = None
+        
         while current_date <= end_date:
             date_str = current_date.strftime('%Y-%m-%d')
             hours = hours_by_date.get(date_str, 0.0)
             print(f"{date_str}  {hours:5.2f}")
+            
+            # Track weekly totals (Monday = 0, Sunday = 6)
+            if current_date.weekday() == 0:  # Monday - start of week
+                if week_start is not None:  # Print previous week total
+                    week_end = current_date - timedelta(days=1)
+                    print(f"Week {week_start.strftime('%m/%d')}-{week_end.strftime('%m/%d')}  {weekly_hours:5.2f}")
+                    print()
+                week_start = current_date
+                weekly_hours = hours
+            else:
+                weekly_hours += hours
+            
             current_date += timedelta(days=1)
+        
+        # Print final week total
+        if week_start is not None:
+            week_end = end_date
+            print(f"Week {week_start.strftime('%m/%d')}-{week_end.strftime('%m/%d')}  {weekly_hours:5.2f}")
+            print()
         
         total_hours = sum(hours_by_date.values())
         print("-" * 15)
