@@ -193,8 +193,9 @@ CLOSED: [2025-09-14 Sun 14:57]
 :LOGBOOK:
 CLOCK: [2025-09-14 Sun 14:15]--[2025-09-14 Sun 14:57] =>  0:42
 :END:
-** TODO Bad first draft Strategic Intent          :curweek:
+** TODO Bad first draft Strategic Intent          :curweek:pom:
 :LOGBOOK:
+CLOCK: [2025-09-17 Wed 09:23]
 CLOCK: [2025-09-16 Tue 08:31]--[2025-09-16 Tue 11:07] =>  2:36
 :END:
 ** TODO Add explicit "Be in detective mode"
@@ -310,122 +311,9 @@ CLOSED: [2025-07-16 Wed 10:11]
 CLOSED: [2025-07-16 Wed 10:19]
 ** DONE Draft new email re coaching/helping
 CLOSED: [2025-07-21 Mon 08:11]
-* [[id:E0ADBF07-90B8-4C37-81C0-96A428020F5E][Substack]]                                        :gtasks:
-** TODO Figure out next topic, prep it            :curweek:
-** TODO Research Medium cross-post practices      :curweek:
-** DONE Create list of possible topics
-CLOSED: [2025-09-09 Tue 08:54]
-** TODO Read up on Google/Substack/SEO
-** TODO Cross-post to Medium?
-** TODO Publish something this week
-** DONE Draft ideas (4 emotion questions?)
-CLOSED: [2025-09-06 Sat 08:42]
-** DONE First draft map your stakeholders
-CLOSED: [2025-08-17 Sun 11:45]
-:LOGBOOK:
-CLOCK: [2025-08-17 Sun 11:00]--[2025-08-17 Sun 11:45] =>  0:45
-CLOCK: [2025-08-17 Sun 10:27]--[2025-08-17 Sun 10:47] =>  0:20
-CLOCK: [2025-08-17 Sun 10:20]--[2025-08-17 Sun 10:25] =>  0:05
-CLOCK: [2025-08-17 Sun 08:55]--[2025-08-17 Sun 09:20] =>  0:25
-:END:
-
-** DONE Write email to EWJ re posting to Medium
-CLOSED: [2025-08-17 Sun 08:54]
-** TODO Think about a call to action for book announcements
-** DONE Pick a topic for this week
-CLOSED: [2025-07-30 Wed 09:22]
-** DONE First draft post <2025-07-28 Mon> week
-CLOSED: [2025-07-31 Thu 10:41]
-** DONE Revise post for <2025-07-31 Thu> week
-CLOSED: [2025-08-01 Fri 09:40]
-** DONE Finish/post <2025-07-28 Mon> week
-CLOSED: [2025-08-01 Fri 14:02]
-** DONE Make sure I'm not talking down about Tech Debt
-CLOSED: [2025-07-19 Sat 09:20]
-** DONE Split posts: 1) ops work, 2) interruptions.
-CLOSED: [2025-07-18 Fri 07:58]
-** DONE Simple, dumb idea for organizing posts
-CLOSED: [2025-07-15 Tue 14:46]
-Obvs, a folder with named files. Still in org-roam? Or is that the whole point, I move out of org-roam, and then my links aren't weirdly wrong? Yes, do it.
-** DONE Draft next post
-CLOSED: [2025-07-18 Fri 07:58]
-** DONE Schedule next post
-CLOSED: [2025-07-18 Fri 07:58]
-** DONE Draft next post (maybe Geary's idea)
-CLOSED: [2025-07-07 Mon 17:12]
-E.g. Things engineers think are valuable, when they are/are not.
-
-I like how good examples and good anti-examples of engineering value opportunities are explored in this chapter. The good examples resonated with me - I wrote them down on a sticky note.
-
-In Understand Valuie in Depth
-** DONE Post draft to Substack
-CLOSED: [2025-07-07 Mon 17:12]
-** DONE Draft email to TD
-CLOSED: [2025-07-02 Wed 11:09]
-** DONE Send email to TD
-CLOSED: [2025-07-08 Tue 17:18]
-** DONE Draft post for <2025-06-30 Mon>
-CLOSED: [2025-06-29 Sun 13:10]
-** DONE Post to LinkedIn, ref'ing last 4 posts
-CLOSED: [2025-06-23 Mon 11:50]
-But primary focus on the most recent one
-** DONE Check w/ EWJ after posts go out
-CLOSED: [2025-06-22 Sun 10:11]
-** DONE Review Substack growth tips
-CLOSED: [2025-06-23 Mon 11:51]
-Growth tip: Make your publication sell for you
-** DONE Revise my one-liner
-CLOSED: [2025-06-27 Fri 14:49]
-Signal who the target audience is and why they might subscribe.
-** DONE Improve About page.
-CLOSED: [2025-06-27 Fri 14:59]
-Build credibility by explaining who you are, what you offer, and when you publish.
-
-Link to your Substack in your email signature and social profiles.
-Make it easy for your network to discover your publication.
-** DONE Research tools to schedule posts to LI
-CLOSED: [2025-06-29 Sun 13:10]
-So that I can queue things up and have them just go. Don't stay tied.
-** DONE Finish drafting LinkedIn post
-CLOSED: [2025-06-20 Fri 08:53]
-** DONE Draft 1-2 next posts, prep
-CLOSED: [2025-06-12 Thu 12:42]
- - Tech Investments definition
- - Edmund's post on golden cesspool
-** DONE Draft a test post on my substack
-CLOSED: [2025-06-09 Mon 13:11]
-** DONE Send my first post, check if Al got it
-CLOSED: [2025-06-11 Wed 17:06]
-** DONE Understand diff between Substack notes and posts
-CLOSED: [2025-06-12 Thu 11:16]
-* [[id:17305FA7-A43F-40C9-9309-0EF3577C70D0][Author Platform]]                                 :gtasks:
-** DONE Put new email address on Substack
-CLOSED: [2025-09-15 Mon 09:36]
-** DONE Ping Winston re: building platform
-CLOSED: [2025-09-15 Mon 09:36]
-Esp how he uses LI
-** TODO Create a book landing page
-For "I want to find out when you publish this" but I don't want your substack
-** TODO Brainstorm 10 bad ideas for "hearing from" people
-** TODO Define incremental rewards/celebrations
-E.g. buy myself dinner, or a game, or go out w/ friends, or tell Edmund + someone, take Bonnie out for dinner.
-** TODO Research: places for building followers
-Bluesky?
-** DONE Define next increment of success, create viz
-CLOSED: [2025-06-27 Fri 07:23]
-Likely: subscriber count? Separate goal around beta readers? Frequency of recommendation? People reaching out to me. DO a bit of thinking.
-** DONE Build some basic habit + tooling around it
-CLOSED: [2025-06-23 Mon 10:00]
-E.g. post 3-5 times/week, set up some org file that has the postings collected, and some script that uploads them for me. So it's just feeding a hopper, nothing I keep on my day-to-day todo list
-** DONE Post to LinkedIn once Substack is live
-CLOSED: [2025-06-12 Thu 12:06]
-** DONE Put my email address on my Substack
-CLOSED: [2025-06-11 Wed 17:06]
-** DONE Draft a post to LinkedIn
-CLOSED: [2025-06-11 Wed 17:06]
-Announce I'm working on a book, will post here sometimes, but please go join my new newsletter/Substack if you're interested for more (and/or might like to be a beta reader for a eection).
 * [[id:49435FCD-0590-44DE-8FC7-585E7BCC8BB2][Tooling]]                                         :gtasks:
-** TODO Produce a viz of writing hours            :curweek:pom:
+** DONE Produce a viz of writing hours            :curweek:
+CLOSED: [2025-09-16 Tue 12:27]
 I did figure out how to dump the clocked hours into a csv, now work with claude to do what I want.
 ** DONE Do I write sub-heads in overall ToC?
 CLOSED: [2025-08-18 Mon 09:19]
