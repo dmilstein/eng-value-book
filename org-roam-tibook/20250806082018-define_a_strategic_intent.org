@@ -38,11 +38,11 @@ There are (at least!) three reasons why moving from a near-term goal to a longer
 
  1. Creating Flexibility
 
-    Being able to speak to that longer-term strategic outcome creates the *flexibility* to offer a new way to work -- because you can situate that new way as a necessary step in helping achieve that outcome, even if it means *changing* the near-term goals (as it often will).
+    Being able to speak to a longer-term strategic outcome creates *flexibility* to offer a new way to work -- because you can situate that new way as a necessary step in helping achieve that outcome, even if it means *changing* the near-term goals (as it often will).
 
  2. Demonstrating Alignment
 
-    That strategic outcome is what your stakeholder feels ultimately accountable for. By being able to speak clearly to it, you can demonstrate that you're *aligned* with them, that you are on their side. This can convert your conversations from tense negotiations to productive collaborations.
+    That strategic outcome is what your stakeholder feels ultimately accountable for. By being able to speak clearly to it, you can demonstrate that you're *aligned* with them, i.e. that you are on their side. This can convert your conversations from tense negotiations to productive collaborations.
 
  3. Generating Motivation
 
@@ -64,29 +64,33 @@ As a result, the engineering leader for a new Authentication/Authorization team 
 
 There is some uncomfortably early deadline for "Adding SSO Support". The team has already started poring over SSO integration docs from vendors, and spelunking through ancient bits of login code in the legacy guts of the system.
 
-Unfortunately, the key stakeholder for the team proceeds to badly drift into "project management" mode. They spend their days talking with the sales team and only join eng team meetings to check on status and then harrangue the team about how they're drifting behind the schedule they "committed" to[fn:: Must... resist... temptation to rant about economic stupidity of forcing teams to "commit" to schedules and then moralizing about their failures to live up to their "commitments".]. The stakeholder builds a spreadsheet of launch dates, which they routinely share with executive leadership, even though it feels more and more divorced from the reality the team is living in. Finally, the stakeholder does not seem to understand how SSO actually works, and is therefore unable or unwilling to engage in nuanced tradeoff conversations.
+Unfortunately, the key stakeholder for the team proceeds to badly drift into "project management" mode. They spend their days talking with the sales team and only join eng team meetings to check on status and harrangue the team about how they're drifting behind the schedule they "committed" to[fn:: Must... resist... temptation to rant about economic stupidity of forcing teams to "commit" to schedules and then moralizing about their failures to live up to their "commitments".]. The stakeholder builds a spreadsheet of launch dates, which they routinely review with executive leadership, even though it feels more and more divorced from the reality the team is living in. Finally, the stakeholder does not seem to understand how SSO actually works, and is therefore unable or unwilling to engage in nuanced tradeoff conversations.
 
-In such a situation, no one feels like there is time to breathe and/or consider a change in how they collaborate.
+No one feels like there is time to breathe and/or consider a change in how they collaborate.
 
-Say the engineering or product leader on that team decides to advocate for a change with that stakeholder. As per the advice of this book, they decide to start small by focusing on building a deeper shared understanding of SSO, so that they can make good tradeoff decisions together.
+Say the engineering lead on that team decides to advocate for a change with that stakeholder. As per the advice of this book, they decide to start small by focusing on building a deeper shared understanding of SSO, so that they can make good tradeoff decisions together.
 
-If that team lead can only speak to the near-term goal, they might say something like: /"I'm not sure we'll able to hit our launch dates for SSO unless we can make some hard tradeoffs. And to do that, I think you'll need a deeper understanding of SSO. Can we spend some time digging into what the team has learned?"/
+If that engineering lead can only speak to the near-term goal, they might say something like: /"I'm not sure we'll able to hit our launch dates for SSO unless we can make some hard tradeoffs. And to do that, I think you'll need a deeper understanding of SSO. Can we spend some time digging into what the team has learned?"/
 
-How is the stakeholder going to hear this?
+The engineering lead has done a solid job of making their ask in the context of a business goal, instead of just pushing for a change.
 
-Well, first off, the stakeholder is *already* living in fear of missing their SSO launch dates.
+However, how is the stakeholder going to hear this request?
 
-So hearing the team lead say this is likely to raise some low-grade panic. In such a state, they're not going to be receptive to anything that feels uncomfortable or risky.
+Odds are very good that the stakeholder is *already* living in fear of missing their SSO launch dates.
+
+Hearing the engineering lead say this out loud is likely to raise some low-grade panic. In such a state, the stakeholder is not going to be receptive to anything that feels uncomfortable or risky.
 
 Furthermore, the *reason* the stakeholder fears missing SSO launch dates is because doing so will turn into a *failure for them*. They won't be able to achieve their actual goal, which is to unlock enterprise sales.
 
 Hearing the team lead speak only to the near-term goal will make the stakeholder feel *alone* in facing their fears about the longer-term outcome.
 
-Finally, precisely because the stakeholder doesn't understand the nuances of SSO, they likely can't even *imagine* how they can achieve their ultimate goal without fully delivering on their near-term goal as originally planned. So this request from the team lead will just sound like an invitation to accept failure, and there's a decent chance the stakeholder will push back instead of engaging.
+Finally, precisely because the stakeholder doesn't understand the nuances of SSO, they likely can't even *imagine* how they can achieve their ultimate goal without fully delivering on their near-term goal as originally planned. So this request from the team lead will just sound like an invitation to accept failure. Given that, there's a decent chance the stakeholder will push back instead of engaging.
 
-If the team lead has managed to develop an articulation of a strategic intent, they could instead say something like:
+On the other hand, let's say the engineering lead has managed to develop an articulation of a strategic intent. In that case, they could instead say:
 
-/"My understanding is that the company's absolutely highest priority is unlocking enterprise sales, so that we can continue to grow revenue. Unfortunately, right now, enterprise sales conversations keep getting killed because we don't support SSO. Our team is playing a key role in unlocking enterprise sales by adding SSO support as quickly as possible. We're very excited about that challenge, and have turned up some interesting options for getting something to the sales team very soon. In fact, we think we might be able to launch some key customer segments early -- but, to be able to do that, we'll need to spend some real time with you to digging into some SSO details. Can we look at our calendars to block out a few hours?/
+/"My understanding is that the company's absolutely highest priority is unlocking enterprise sales, so that we can continue to grow revenue. Unfortunately, right now, enterprise sales conversations keep getting killed because we don't support SSO. Our team is playing a key role in unlocking enterprise sales by adding SSO support as quickly as possible./
+
+/We're very excited about that challenge, and have turned up some interesting options for getting something to the sales team very soon. In fact, we think we might be able to launch some key customer segments early -- but, to be able to do that, we'll need to spend some real time with you to digging into some SSO details. Can we look at our calendars to block out a few hours?/
 
 Let's unpack that:
 
@@ -98,23 +102,25 @@ Let's unpack that:
 
 That is all enormously more compelling than just starting with "the problems on the ground".
 
+They have *not* led with their concerns about missing launch dates---because they're changing one thing at a time. If they can get the stakeholder into a tradeoff conversation around the details of various SSO options, they'll be in a position to propose a positive alternative (e.g. launching to some key customers first, gradually rolling out to more).
+
 ** What If All I Have Is A Goal?
 
-There is an uncomfortably high likelihood that *no one has told you* a strategic intent.
+One core challenge with running this game plan is that there is an uncomfortably high likelihood that *no one has told you* a strategic intent.
 
 In an ideal world, company leadership would share a concise, coherent statement of strategic intent with every team. In that ideal world, even as you're reading the above, you'd be nodding and saying "Yep, I've got that, let's go."
 
 Unfortunately, here in the *actual* world, that's almost never the case.
 
-First off, company leadership isn't always fully clear in their own thinking. That's why you sometimes hear people say with a straight face, "We have twenty-seven strategic goals, we need to achieve every one of them".
+First off, company leadership isn't always fully clear in their own thinking. Developing an effective strategic intent means being rigorously, painfully clear about what your company is and is *not* going to be able to do. Many leaders resist this painful clarity of thought. If your company works off some sprawling list of "Critical Projects" or "Key Initiatives", your leaders might fallen into this trap.
 
-Even when leadership *has* done the hard work to develop a coherent, focused strategy, they don't always share full context with individual teams. They fall into the trap of passing down goals, but not the reason for those goals.
+Furthermore, even when leadership *has* done the hard work to develop a coherent, focused strategy, they don't always share the full breadth of their thinking with individual teams. They may simply pass down goals, but not share the business context that led to selecting those goals, nor the business outcomes that achieving those goals will hopefully unlock.
 
-Luckily, even if leadership hasn't fully defined or communicated a strategy, you can still pull a useful strategic intent out of your stakeholder, and then align around it.
+Luckily, even if leadership hasn't perfectly defined or communicated a strategy, you can, almost always, *still* identify and align around some form of strategic intent with your stakeholder.
+
+# XXX Talk about Strategy as a skill, link to Bungay + Build Trap?
 
 To do so, we're going to learn about our first two Tactical Empathy skills -- "Guess & Check" and "Echo Back & Summarize".
-
-The first is a lightweight tactical framing, the second is a profoundly valuable skill (that will take real practice to master).
 
 ** Tactical Empathy Skill #1: Guess & Check
 
@@ -130,7 +136,7 @@ However, I usually recommend something slightly different:
 
 As prep for guessing, talk to some folks near you, gather whatever information you can, and use your imagination. Then, boil it all down to a coherent single sentence or two.
 
-Once you've done so, test it out with your stakeholder, and ask if you've got it right, ala:
+Once you've done so, test it out with your stakeholder, and ask if you've got it right, fitting into a template like the following:
 
 /I wanted to ask something -- my understanding is that, in the next 18-24 months, the most important thing we need to achive is <X>, and that my team should be supporting that by way of <Y>. Do I have that mostly right? Am I missing anything important?/
 
@@ -154,22 +160,154 @@ If you want to dig for information, or understand someone's concerns, or draw ou
 
 We'll lay out some exercises to practice this, at the end of the chapter.
 
-*The Saddest Sidebar*
+** Our Story: Quin Tries Guess & Check
+
+"Okay, you're saying I should just, like, /make up/ a strategy for ATN?" she says, uncertainly.
+
+Jeremiah, the engineering leader who her friend Alistair has connected her with, nods vigorously. "Yep. Exactly."
+
+"Okay," she says slowly, "I guess I can try?"
+
+"You're going to do great," he insists. "Be sure to let me know how it goes." He waves a cheerful goodbye as the zoom fades out.
+
+That evening, while washing up the dishes after dinner, Quin lets her mind wander over all the things she's heard from Marco over their six months of working together. Can she come up with a coherent strategic intent from their conversations? What is a key 18-24 month "outcome" for All Together Now?
+
+Well, ATN is a startup. Obviously, they need customers. That's all she and Marco talk about. Her team is trying to launch some initial set of features those customers might find compelling.
+
+Could that be it?
+
+It feels a bit... short-term? They need customers way before 18 months.
+
+She picks up another pot and swishes in some sudsy water. What good thing might happen *later*, if they *do* get those initial customers? They'd get... more customers? Hmm.
+
+She remembers something else Jeremiah suggested -- to think about what Marco might want, even if  he's not talking about it, day-to-day: "What do you think might *feel* like a success for Marco? What's he working backwards from?"
+
+She tries to remember moments where Marco seemed to feel good, or excited. If she lets herself imagine it, it's not just getting customer, the thing that makes Marco happy is *telling a story* about those customers. She can see his happy, confident grin as, after a good customer call, he's laying out how the company is going to grow.
+
+Suddenly, something clicks in her mind. Of course! She's only been thinking about ATN as a business, and on how the new product might fit into that business. But they're a *startup*. The key thing that needs to happen in 18 to 24 months is that they need to raise more money!
+
+*That's* their key outcome. That's why Marco likes telling stories. He's imagining telling those stories to potential investors! And, she realizes excitedly, as it falls into place, he's not probably talking about that day-to-day, because he wants the team to "not worry" about the possibility of *not* being able to raise money.
+
+At that moment, her roommate, Naia, wanders into the kitchen. Quin turns to her and announces, "We're a startup!".
+
+"Bully for you," says Naia, grabs some Cocoa Puffs and heads back to the living room.
+
+---
+
+The next day, partway through their weekly Zoom 1:1, Quin says:
+
+"I've been wanting to ask you a few questions, is now a good time?"
+
+Marco shrugs in agreement. Quin can see his eyes flicking off screen occasionally.
+
+# XXX pick up here, adjust to fit the above more, where he *hasn't* talked about this. He's talked about all the things they need to do to get new customers. And she's saying "I want to talk about what happens next, if we do get those customers. And she says "I remember during our interview you talked about our Series A. I'm guessing that, a key next step is to be able to raise a Series B? And that, to do that, we need to show that we've, well, got some customers. That we have the start of a business." He looks engaged. They don't usually talk about this, she can feel he's regarding her in a slightly new way.
+
+She takes a breath. "You've talked a good bit about what we'd need to demonstrate, to raise a series B on good terms. I wanted to see if I have that all mostly right."
+
+Marco quirks his head. He's still got an eye on some chat window, Quin thinks, but he's paying just a bit more attention. The Series B is their key upcoming goal, she knows -- the series A gave them enough money to hire their tiny team, but the clock is ticking.
+
+"Our current runway is about 18 months", she begins, "but my understanding is that we need to get some big customers in the next six to twelve months. That way, you'll have time to tell a story to potential investors. Is that about right?"
+
+Marco purses his lips and tilts his head to the other side. "Almost. It's not enough that we just *land* a few big customers--we need them to be *using* ATN!, with their actual teams, and, like, *often*. VC's are going to want to see *engaged customers*. A couple of big sales where the implementations don't get off the ground could be worse than no sales." He seems to shiver a bit at the idea.
+
+
+
+** Tactical Empathy Skill #2: Echo Back & Summarize
+
+Why is this so valuable?
+
+First, by summarizing, you will nearly always discover something you didn't get quite right.
+
+In the example above, *being ready* to convert some key customers *next* month is quite different from *actually converting* those customers *this* month.
+
+If Janine had left the conversation believing the goal was immediate conversions, she'd be taking her team down the wrong road.
+
+Second, summarizing back makes an enormous difference in helping the speaker to *feel understood*.
+
+When a person explains something they care about, it's quite rare for them to feel confident that they've actually been understood.
+
+It's rare for them to be consciously aware of this -- but some part of them will wonder, uncertainly, if their attempt succeeded or not.
+
+I feel like I should say that, for certain kinds of, well, extra difficult stakeholders, they won't be thinking "Did my attempt to communicate succeed?" but rather, "Did the listener understand this completely clear point I just made, or are they stupid?" If my game plan for working with stakeholders assumed they were all kind and pleasant, I would not have very much to offer you. Luckily, that's not the case.
+
+You can address both "nice" and "not so nice" stakeholder the same way -- because they are driven by the same underlying uncertainty about being understood.
+
+# Humans rarely experience themselves as being fully understood.
+
+If you, as  that listener, take the time to summarize back your understanding, and get it even vaguely right, the speaker will feel a sense of *relief*.
+
+If you pay careful attention, you may even see them visibly exhale and relax.
+
+# It's like you've completed an open transaction that was otherwise hanging.
+
+Which is exactly the mode you want them to be in, if you're going to turn the corner and now ask them to engage in *your* concerns.
+
+You can earn space to advocate, by demonstrating that you are willing to lead with empathy and understanding.
+
+This is an incredibly valuable tactic, usable in an incredibly wide variety of situations. If you're only going to take one thing away from this chapter (or, frankly, this book), spend some time learning to effectively echo back and summarize.
+
+*** Exercises
+
+I'm going to take some time to talk about how to learn this one, because it's so foundationally valuable. I have coached dozens of people on this approach. Over and over, I've seen them initially struggle.
+
+Echoing back summaries just *feels* like such a strange way to talk to someone. When you're about to echo or repeat, your brain will tell you "Ugh, they just told you this, don't *bore* them."
+
+Once you've practiced this a few times, this feeling will fade away. You'll come to realize that people love to hear their own words and thoughts.
+
+Another problem is that using these tactics will turn up valuable context, aka things you didn't previously know. When that happens, your mind will suddenly make connections and see new opportunities.
+
+That will often feel *exciting*.
+
+In our scenario the Janine suddenly sees the connection between the large customers and the database performance challenges she's eager to discuss.
+
+When that kind of discovery happens, a spike of excitement hormones hits your bloodstream, and your brain immediately *urges* you to share this new awesome idea, right away.
+
+"Oh," your brain will say, "they're going to love this, go go go!"
+
+That's a trap -- you are *always* better served by first ensuring you fully understood and that the speaker feels fully heard.
+
+Also, the ideal way to play this game is to clarify the speaker's thoughts, as you echo them back. To make your summary *useful*. That also takes real practice.
+
+Because of these challenges, it's best to first practice this one when the stakes are low--aka, *not* in a negotiation with a key stakeholder.
+
+Here's the game plan:
+
+First, pick someone you trust -- it doesn't have to be a co-worker, I've seen people profitably practice with a friend, roommate, or spouse.
+
+Ask that person, "I'm working on some active listening skills. Would it be okay if I asked you some questions as part of that?"
+
+# This is for *you*, not for them -- to remove some of your fear of being annoying.
+
+As the conversation starts, tell yourself, "My job is to deliberately do use this tactic *too much* -- my goal is for the other person to say, afterwards, 'Eh, you could have echoed/repeated a bit less'".
+
+Then, *every single time* the other person says something, say "Let me say that back to you, see if I've got it right." Then say your understanding, then say "Is that about right?"
+
+It should feel weird as heck. After a few conversation rounds, pause, and ask the person "How did that feel?" Listen to them, and then repeat back what they tell you.
+
+If you'd like, dig for a bit more info, by asking if they ever felt at all irritated or annoyed, or if you missed anything important.
+
+Then, keep practicing.
+
+Once you've got some basic comfort with it, try it out with a "lower stakes" peer, then move on to stakeholders.
+
+A great topic to practice this with is Mapping Fears and Aspiration.
+
+** The Saddest Sidebar
 
 I can't get out of this section without mentioning the unfortunate possibility that your stakeholder may *angrily resist* making a clear statement of a *single* strategic intent. Such a stakeholder might say something like:
 
 /"Look, it's not that simple. You're always asking for the "one top priority", but *all* the goals are critically important. We *can't* just pick one. We have to find a way to get them *all* done."/
 
-First off, ugggggggghhhhh.
+First off, uggggghhhhh.
 
-Second off, ugggggghhhh.
+Second off, uggggggggghhhh.
 
 An unwillingess to make hard prioritization calls is a reliable way to doom a team to failure.
 
 That said, you still have options in this situation. There's a real chance that, if you can earn some shared wins, that same stakeholder will start to experience prioritization decisions as an *empowering* thing for them, rather than a demand for them to disappoint one of *their* stakeholders or bosses.
 
 Thus, in such a case, my recommendation is to just go with your best guess for now -- it's likely pretty good, and having *some* direction to move in is better than just churning around at random.
-** Tactical Empathy Skill #2: Echo Back & Summarize
+
 ** Our Story: Quin Identifies a Strategic Intent
 ** Exercises
 *** Develop Strategic Intents
