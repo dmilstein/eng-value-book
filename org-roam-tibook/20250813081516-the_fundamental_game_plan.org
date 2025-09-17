@@ -154,7 +154,7 @@ By going through repeated cycles of the above steps, you'll steadily build more 
 
 Let's bring this to life through an example.
 
-** Scenario: The CEO & The Constantly Changing Priorities
+** Our Story: The CEO & The Constantly Changing Priorities
 
 We're going to develop a running example around a classic, extremely common real-world situation -- an engineering leader who is struggling to make progress, because a key stakeholder keeps changing priorities.
 
@@ -231,7 +231,6 @@ Alistair suddenly stops and snaps his fingers. "You should talk to Jeremiah."
 "Okay, okay," says Quin. Why not, she thinks. It's not like she has anything else to try.
 
 * Cut bits
-
 ** Step 1. Develop an Empathetic Understanding
 
 The first step is to: /Develop an *empathetic understanding* of your stakeholder's fears, dreams and frustrations/.
