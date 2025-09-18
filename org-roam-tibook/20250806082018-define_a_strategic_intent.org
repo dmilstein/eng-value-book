@@ -48,6 +48,12 @@ There are (at least!) three reasons why moving from a near-term goal to a longer
 
     By being able to cite something your stakeholder *wants*, you'll be able to anchor your pitch in a positive vision of the future. That is a very powerful way to *motivate* humans to take the risk of making a change.
 
+# XXX Bad Prose GO!
+
+A good strategic intent is *clarifying* -- for some key outcomes, it first distills down, from all the swirl of reality, the central challenge that must be faced, and then it concisely names a means to face that challenge.
+
+Building such a clear picture is a *learnable skill* but it takes real practice. For some ideas on effective strategy, I recommend by Rumelt's Good Strategy/Bad Strategy and Stephen Bungay's The Art of Action.
+
 ** Moving From Goals to Strategic Outcomes
 
 To bring this to life, let's dig into our first example above:
@@ -138,7 +144,7 @@ As prep for guessing, talk to some folks near you, gather whatever information y
 
 Once you've done so, test it out with your stakeholder, and ask if you've got it right, fitting into a template like the following:
 
-/I wanted to ask something -- my understanding is that, in the next 18-24 months, the most important thing we need to achive is <X>, and that my team should be supporting that by way of <Y>. Do I have that mostly right? Am I missing anything important?/
+/I wanted to ask something -- my understanding is that, in the next 18-24 months, the most important thing we need to achieve is <X>, and that my team should be supporting that by way of <Y>. Do I have that mostly right? Am I missing anything important?/
 
 This works far better than just point blank asking your stakeholder for a coherent intent.
 
@@ -162,7 +168,7 @@ We'll lay out some exercises to practice this, at the end of the chapter.
 
 ** Our Story: Quin Tries Guess & Check
 
-"Okay, you're saying I should just, like, /make up/ a strategy for ATN?" she says, uncertainly.
+"Okay, you're saying I should just, like, /make up/ a strategy for ATN?" Quin says, uncertainly.
 
 Jeremiah, the engineering leader who her friend Alistair has connected her with, nods vigorously. "Yep. Exactly."
 
@@ -182,13 +188,13 @@ She picks up another pot and swishes in some sudsy water. What good thing might 
 
 She remembers something else Jeremiah suggested -- to think about what Marco might want, even if  he's not talking about it, day-to-day: "What do you think might *feel* like a success for Marco? What's he working backwards from?"
 
-She tries to remember moments where Marco seemed to feel good, or excited. If she lets herself imagine it, it's not just getting customer, the thing that makes Marco happy is *telling a story* about those customers. She can see his happy, confident grin as, after a good customer call, he's laying out how the company is going to grow.
+She tries to remember moments where Marco seemed to feel good, or excited. Honestly, she thinks wryly, it's not actually *getting* customers, it's *telling a story* about those customers. She can see his happy, confident grin as, after a good customer call, he's laying out awesome landing this deal is, and how the company is going to grow.
 
-Suddenly, something clicks in her mind. Of course! She's only been thinking about ATN as a business, and on how the new product might fit into that business. But they're a *startup*. The key thing that needs to happen in 18 to 24 months is that they need to raise more money!
+A thought hits her, and she freezes, a spatula in her hand. Stories! Of course! How could she be so dense? She's only been thinking about ATN as a *business*, and on how the new product might fit into that business. But they're a *startup*. The key thing that needs to happen in 18 to 24 months is that they need to raise more money!
 
-*That's* their key outcome. That's why Marco likes telling stories. He's imagining telling those stories to potential investors! And, she realizes excitedly, as it falls into place, he's not probably talking about that day-to-day, because he wants the team to "not worry" about the possibility of *not* being able to raise money.
+*That's* their key outcome. That's why Marco likes telling stories. He's imagining telling those stories to potential investors! And, she realizes excitedly, as it falls into place, he doesn't like to talk with the team about that, because, he's told her, "they shouldn't worry about the money stuff".
 
-At that moment, her roommate, Naia, wanders into the kitchen. Quin turns to her and announces, "We're a startup!".
+At that moment, her roommate, Naia, wanders into the kitchen. Quin announces, with a forceful wave of her spatula, "We're a startup!".
 
 "Bully for you," says Naia, grabs some Cocoa Puffs and heads back to the living room.
 
@@ -198,19 +204,21 @@ The next day, partway through their weekly Zoom 1:1, Quin says:
 
 "I've been wanting to ask you a few questions, is now a good time?"
 
-Marco shrugs in agreement. Quin can see his eyes flicking off screen occasionally.
+Marco shrugs in agreement. Quin is mostly sure he's got his email open in another tab.
+
+# Bad prose go
+
+She takes a deep breath. "I'm excited about all the customer calls you've been getting. And I want to keep the team laser-focused on shipping the new Virtual Dunk Tank, so you can start demoing it, just as soon as possible. But I wanted to talk a bit, just you and me, about what might happen next, if we *do* get those customers."
+
+Marco quirks his head. He's still got an eye on some chat window, Quin thinks, but he's paying just a bit more attention.
+
+She launches her guess-and-check. "I remember, when I interviewed at ATN, you had just raised your series A. I'm guessing that, a key next step is to be able to raise a Series B? And that, to do that, we need to show that we've, well, got some customers. That we have a real start of a business. If I had to guess, I might imagine that investors are going to want to see something like a few million in ARR, and a few deals with *big* customers." She sat back a bit. "Is that vaguely right?"
 
 # XXX pick up here, adjust to fit the above more, where he *hasn't* talked about this. He's talked about all the things they need to do to get new customers. And she's saying "I want to talk about what happens next, if we do get those customers. And she says "I remember during our interview you talked about our Series A. I'm guessing that, a key next step is to be able to raise a Series B? And that, to do that, we need to show that we've, well, got some customers. That we have the start of a business." He looks engaged. They don't usually talk about this, she can feel he's regarding her in a slightly new way.
 
-She takes a breath. "You've talked a good bit about what we'd need to demonstrate, to raise a series B on good terms. I wanted to see if I have that all mostly right."
+# "Our current runway is about 18 months", she begins, "but my understanding is that we need to get some big customers in the next six to twelve months. That way, you'll have time to tell a story to potential investors. Is that about right?"
 
-Marco quirks his head. He's still got an eye on some chat window, Quin thinks, but he's paying just a bit more attention. The Series B is their key upcoming goal, she knows -- the series A gave them enough money to hire their tiny team, but the clock is ticking.
-
-"Our current runway is about 18 months", she begins, "but my understanding is that we need to get some big customers in the next six to twelve months. That way, you'll have time to tell a story to potential investors. Is that about right?"
-
-Marco purses his lips and tilts his head to the other side. "Almost. It's not enough that we just *land* a few big customers--we need them to be *using* ATN!, with their actual teams, and, like, *often*. VC's are going to want to see *engaged customers*. A couple of big sales where the implementations don't get off the ground could be worse than no sales." He seems to shiver a bit at the idea.
-
-
+Marco purses his lips. He's silent for a long moment. "Almost," he says, slowly. "ARR is really key, and some big customers are going to be super important. But it's not enough that we just *land* some big customers--we need them to be *using* ATN, with their actual teams, and, like, *often*. VC's are going to want to see *engaged customers*. A couple of big sales where the implementations don't get off the ground could be worse than no sales." He seems to shiver a bit at the idea.
 
 ** Tactical Empathy Skill #2: Echo Back & Summarize
 
