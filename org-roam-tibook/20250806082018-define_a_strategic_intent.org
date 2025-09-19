@@ -70,7 +70,286 @@ Melissa Perri touches nicely on strategic intents in Escaping the Build Trap, bu
 
 Most of all a good strategic intent must be *clarifying* -- for some key outcomes, it first distills down, from all the swirl of reality, the central challenge that must be faced, and then it concisely names a means to face that challenge.
 
-** Moving From Goals to Strategic Outcomes
+** What If All I Have Is A Goal?
+
+One core challenge with running this game plan is that there is an uncomfortably high likelihood that *no one has told you* a strategic intent.
+
+In an ideal world, company leadership would share a concise, coherent statement of strategic intent with every team. In that ideal world, even as you're reading the above, you'd be nodding and saying "Yep, I've got that, let's go."
+
+Unfortunately, here in the *actual* world, that's almost never the case.
+
+First off, company leadership isn't always fully clear in their own thinking. Developing an effective strategic intent means being rigorously, painfully clear about what your company is and is *not* going to be able to do. Many leaders resist this painful clarity of thought. If your company works off some sprawling list of "Critical Projects" or "Key Initiatives", your leaders might fallen into this trap.
+
+Furthermore, even when leadership *has* done the hard work to develop a coherent, focused strategy, they don't always share much in the way of *context* with individual teams. They may simply pass down goals, but not share the thinking that led to selecting those goals, nor the business outcomes that achieving those goals will hopefully unlock. For software projects, which need a tremendous amount of flexibility in order to succeed, passing down goals with context very rarely works.
+
+Luckily, even if leadership hasn't perfectly defined or communicated a strategy, you can, almost always, *still* identify and align around *some* form of strategic intent with your stakeholder. And then gradually improve that over time.
+
+To do so, we're going to learn about our first two Tactical Empathy skills -- "Guess & Check" and "Echo Back & Summarize".
+
+** Tactical Empathy Skill #1: Guess & Check
+
+You're trying to determine a strategic intent for your business, and, in particular, one that your stakeholder finds *compelling*.
+
+You might well imagine that your first step should be to simply *ask* your stakeholder about what the business needs to achieve, and how the work of your team fits into that.
+
+That can sometimes work. However, I usually recommend a different approach:
+
+ 1. *Guess* a strategic intent
+
+ 2. *Check* that intent with your stakeholder
+
+ 3. *Invite* them to tell you how you got it wrong
+
+Let's open that up a bit.
+
+You'll likely want to do some preparation to come up with the "guess": talk to people you work with, review whatever leadership has shared with you, gather information from wherever you can. Then, take some time to distill it all down to a coherent statement. Test that out with someone you trust, ask for their feedback, and then make it sharper and clearer.
+
+Once you've got something which feels clear and potentially useful, you're ready to share it with your stakeholder. Lay out your understanding, ask if you've got it right, and make it as easy as possible for them to tell you what's wrong. You can use something like the following conversational template.
+
+/I wanted to ask something -- my understanding is that, in the next 18-24 months, the most important thing we need to achieve is <X>, and that my team should be supporting that by way of <Y>. Do I have that mostly right? Am I missing anything important?/
+
+In many cases, this works far better than just point-blank asking your stakeholder for a coherent intent.
+
+There are two reasons why guess-and-check is an effective alternative to ask-directly.
+
+First, it doesn't put the stakeholder on the spot -- it can be quite hard to come up with a clear, concise statement of strategy on your feet. If, instead, you offer one and invite their critique, you're making a smaller ask of them.
+
+Second, it's usually much easier for people to express their thoughts by telling you what's wrong with yours, than it is to lay their own out.
+
+Sometimes, they're not even perfectly clear on what they think, but when you say something like /"My understanding is that our top priority is growth, which means acquiring new customers, is that right?"/, they'll realize that sounds wrong, and say:
+
+/"Wait, that's not quite it. A good bit of revenue growth should come from upselling *existing* customers -- but we need more compelling features in our Pro tier to do that."/
+
+You say thank you, and then update your coherent statement and test it again.
+
+Note: the "Guess & Check" approach can be applied in a very wide variety of situations.
+
+If you want to dig for information, or understand someone's concerns, or draw out their opinions, your best bet is often to offer a guess, and then invite them to tell you where you got it wrong.
+
+We'll lay out some exercises to practice this, at the end of the chapter.
+
+** Our Story: Quin Tries Guess & Check
+
+When we last checked on Quin, she was struggling with her CEO, Marco, over his habit of constantly changing priorities at their startup, All Together Now (who are developing remote team building games). Her friend sent her to talk with an experienced engineering leader who, by the friend's account, likes "helping people get their bosses to stop being crazy."
+
+"You're saying I should just, like, /make up/ a strategy for ATN?" Quin says, uncertainly.
+
+Jeremiah nods vigorously. "Yep. Exactly."
+
+"Okay," she says slowly, "I guess I can... try?"
+
+"You're going to do great," he insists. "Be sure to let me know how it goes." He waves a cheerful goodbye as the zoom fades out.
+
+That evening, while washing up the dishes after dinner, Quin lets her mind wander. How can she come up with a business strategy for ATN? She thinks about all the things she's heard from Marco over their six months of working together. Is there some guiding theme in all of that? What might be a key 18-24 month "outcome" for All Together Now?
+
+Well, she tells herself, ATN is a very early startup. Obviously, they need customers. In fact, that's all she and Marco talk about. Her team is trying to launch some initial set of features those customers might find compelling.
+
+Could that be it?
+
+It feels a bit... short-term? They need customers *way* before 18 months.
+
+She picks up another pot and swishes in some sudsy water. What good thing might happen *later*, if they *do* get those initial customers? They'd get... more customers? Hmm.
+
+She remembers something else Jeremiah suggested -- to think about what Marco might want, even if he's not talking about it, day-to-day: "What do you think might *feel* like a success for Marco? What's he working backwards from?"
+
+She tries to remember moments when Marco seemed to feel good, or excited. Honestly, she thinks wryly, it's not actually *getting* customers, it's *telling a story* about those customers. She can see his happy, confident grin as, after a good customer call, he's laying out how awesome landing this deal is going to be, and how the company is going to grow.
+
+A thought suddenly hits her, and she freezes, a spatula in her hand. Stories! Of course! How could she be so dense!? She's only been thinking about ATN as a *business*, and on how the new product might fit into that business. But they're a *startup*. The key thing that needs to happen in 18 to 24 months is that they need to *raise more money*!
+
+*That's* their key outcome. That's why Marco likes telling stories. He's imagining telling those stories to potential investors! And, she realizes excitedly, as it falls into place, he doesn't like to talk with the team about that day-to-day, because, he's told her, "they shouldn't worry about the money stuff".
+
+At that moment, her roommate, Naia wanders into the kitchen. Quin announces excitedly, "Naia! We're a *startup*!".
+
+"Bully for you," replies Naia. She grabs some Cocoa Puffs and heads back to the living room.
+
+---
+
+The next day, partway through their weekly Zoom 1:1, Quin says:
+
+"I've been wanting to ask you a few questions, is now a good time?"
+
+Marco shrugs in agreement. Quin is mostly sure he's got his email open in another tab.
+
+# Bad prose go
+
+She takes a deep breath. "I'm excited about all the customer calls you've been getting. And I want to keep the team laser-focused on shipping the Virtual Dunk Tank, so you can start demoing it, just as soon as possible. But I wanted to talk a bit, just you and me, about what might happen next, if we *do* get those customers."
+
+Marco quirks his head. He's still got an eye on some other window, Quin thinks, but he's paying just a bit more attention.
+
+She launches her guess-and-check. "I remember, when I interviewed at ATN, you had just raised a seed round. I'm guessing that a key next step is to be able to raise a Series A? And that, to do that, we need to show that we've, well, got some customers. That we have a real start of a business. If I had to guess, I might imagine that investors are going to want to see a few deals with *big* customers." She sat back. "Is that vaguely right? Am I missing anything important?"
+
+# XXX pick up here, adjust to fit the above more, where he *hasn't* talked about this. He's talked about all the things they need to do to get new customers. And she's saying "I want to talk about what happens next, if we do get those customers. And she says "I remember during our interview you talked about our Series A. I'm guessing that, a key next step is to be able to raise a Series B? And that, to do that, we need to show that we've, well, got some customers. That we have the start of a business." He looks engaged. They don't usually talk about this, she can feel he's regarding her in a slightly new way.
+
+# "Our current runway is about 18 months", she begins, "but my understanding is that we need to get some big customers in the next six to twelve months. That way, you'll have time to tell a story to potential investors. Is that about right?"
+
+Marco purses his lips and stares directly at Quin. "Almost," he says, slowly. "Yeah, big customers are going to be super important. But it's not enough that we just *land* some big customers--we need them to be *using* ATN. I've talked to VC's, and, for a subscription business, they're super worried about churn. We're going to need to raise money before we really know what churn looks like. So VC's are going to want to see *engagement*. We need actual teams using ATN, and, like, *often*. A couple of big sales where the implementations don't even get started could be worse than no sales." He seems to shiver a bit at the idea.
+
+This is brand new information for Quin. They've been talking so much about sales, she hadn't realized that Marco was equally worried about usage and engagement.
+
+Her mind starts whirring with ideas. They have that one big customer whose HR director loves the idea of ATN, and claims to be ready to use the Dunk Tank the moment it launches. She and the team have been putting off adding usage tracking to the product, but if they could focus on just shipping the Dunk Tank, they could probably get something out there *with* usage tracking, pretty fast. Quin thinks, excitedly, that they could be looking at actual engagement data within just a few weeks! *And* still be setting Marco up with a new sales demo!
+
+Let's pause here for a moment, as Quin is midway through her conversation with Marco.
+
+I want to ask you a very important question.
+
+What, in your opinion, should Quin do, right in this moment?
+
+** Tactical Empathy Skill #2: Echo Back & Summarize
+
+She is going to be incredibly tempted to *tell Marco about these ideas*.
+
+But that's *not* what she should do, *first*.
+
+Instead, she should take the time to carefully echo back what she's just heard from Marco, summarize it as clearly as she can, and, again, ask if she's gotten it right.
+
+# Insert what happens if she *doesn't* echo back
+
+# Marco looked a bit non-plussed. "Okay, you're saying we should pivot to adding usage tracking? I thought you wanted us to focus?" And he's thinking: sure that HR lead is talking a good game, but their company is huge. They can't do *anything* quickly. He doesn't say that, though, since Quin has jumped so quickly into planning.
+
+For example, she might do that by saying:
+
+"Let me see if I've got that right. For us to be able to raise a Series A, we *do* need a few big customers, but, in addition, we need to show real engagement from those customers. We can't have those deals launch with no usage. Is that about right?"
+
+Let's see what happens when she does this:
+
+To her surprise, Marco pauses again. "Closer," he said. "But, actually, I'm not sure we need to see every one of our big customers engaged. VC's understand that things take time with larger customers. We need *some* engagement from the big customers, I'd guess we need them to be actively implementing. *And* we need our smaller, earlier customers to be very actively *using*. I think that mix will allow us to tell a good story."
+
+"Okay, that's super useful," says Quin eagerly. "Let me say that back, see if I've got it. For us to raise a series A, we need to show we can sell to big customers, we need those big customers to demonstrate commitment by starting to implement, and we need some of our smaller customers to be actively engaged. Putting all of that together will let us tell a good story. Is that about right?"
+
+This time, he nods vigorously.  "Yes, that's *exactly* it. I'm glad we talked this out." He's long since stopped looking at his other screens.
+
+"Thanks," says Quin, "me, too."
+
+What's been going on, here?
+
+Why am I being so insistent that you should echo back & summarize, before moving on to the ideas that have been sparked?
+
+# XXX add a bit more
+
+# Why is this so valuable?
+
+First, by summarizing, you will nearly always discover something you didn't get quite right, just as Quin did, about *which* customers need to show engagement.
+
+Second, summarizing back makes an enormous difference in helping the speaker to *feel understood*.
+
+When a person explains something they care about, it's quite rare for them to feel like they've actually been understood.
+
+They're not usually consciously aware of this -- but some part of them will wonder, uncertainly, if their attempt succeeded or not.
+
+# I feel like I should say that, for certain kinds of, well, extra difficult stakeholders, they won't be thinking "Did my attempt to communicate succeed?" but rather, "Did the listener understand this completely clear point I just made, or are they stupid?" If my game plan for working with stakeholders assumed they were all kind and pleasant, I would not have very much to offer you. Luckily, that's not the case.
+
+# You can address both "nice" and "not so nice" stakeholder the same way -- because they are driven by the same underlying uncertainty about being understood.
+
+# Humans rarely experience themselves as being fully understood.
+
+If you, as  that listener, take the time to summarize back your understanding, and get it even vaguely right, the speaker will feel a sense of *relief*.
+
+If you pay careful attention, you may even see them visibly exhale and relax.
+
+# It's like you've completed an open transaction that was otherwise hanging.
+
+Which is exactly the mode you want them to be in, if you're going to turn the corner and now ask them to engage in *your* concerns.
+
+You earn space to advocate, by demonstrating that you are willing to lead with empathy and understanding.
+
+This is an incredibly valuable tactic, useful in an incredibly wide variety of situations. If you're only going to take one thing away from this chapter (or, frankly, this book), spend some time learning to effectively echo back and summarize.
+
+We'll talk in the exercises about how to build it up.
+
+** The Saddest Sidebar
+
+I can't get out of this chapter without mentioning the unfortunate possibility that your stakeholder may *angrily resist* making a clear statement of a *single* strategic intent. Such a stakeholder might say something like:
+
+/"Look, it's not that simple. You're always asking for the "one top priority", but *all* the goals are critically important. We *can't* just pick one. We have to find a way to get them *all* done."/
+
+Sigh.
+
+An unwillingess to make hard prioritization calls is a reliable way to doom a team to failure.
+
+That said, you still have options in this situation. There's a real chance that, if you can earn some shared wins, that same stakeholder will start to experience prioritization decisions as an *empowering* thing for them, rather than a demand for them to disappoint one of *their* stakeholders or bosses.
+
+Thus, in such a case, my recommendation is to just go with your best guess for now -- it's likely pretty good, and having *some* direction to move in is better than just churning around at random.
+
+** Exercises
+*** Develop Strategic Intents
+Find some trusted peers or friends, and talk out the strategy of your business. Build a picture of:
+
+ - Some centrally important thing your business is trying to achieve, over the next few years
+
+ - A core challenge the business must face, on the path to that achievement
+
+ - How your team can play a role in facing that challenge
+
+Try to develop a few different formulations of the above, do some work to hone and clarify.
+
+Depending on the size of your company, these outcomes might be scoped to a sub-part of your company vs the entire business.
+
+For further practice, talk this out with friends who work at other companies. Ask what their business is trying to achieve, ask about fundamental challenges they must face, brainstorm different ways their teams might help face those challenges.
+
+*** Practicing Guess & Check
+
+Take your strategic intents around, offer them to various people, and invite them to tell you how you got it wrong.
+
+*** Practicing Echo Back & Summarize
+
+I'm going to take some time to talk about how to learn this one, because it's so foundationally valuable. I have coached dozens of people on this approach. Over and over, I've seen them initially struggle.
+
+Echoing back summaries just *feels* like such a strange way to talk to someone. When you're about to echo or repeat, your brain will tell you "Ugh, they just told you this, don't *bore* them."
+
+Once you've practiced the technique, that feeling will fade away. You'll come to realize that people love to hear their own words and thoughts.
+
+Another problem is that using these tactics will turn up valuable context, aka things you didn't previously know. When that happens, your mind will suddenly make connections and see new opportunities.
+
+That will often feel *exciting*.
+
+In our scenario Quin suddenly sees ways they could start to track usage and engagement, very soon.
+
+When that kind of discovery happens, a spike of excitement hormones hits your bloodstream, and your brain immediately *urges* you to share this new awesome idea, right away.
+
+"Oh," your brain will say, "they're going to love this, go go go!"
+
+That's a trap -- you are *always* better served by first ensuring you fully understood and that the speaker feels fully heard.
+
+Also, the ideal way to play this game is to clarify the speaker's thoughts, as you echo them back. To make your summary *useful*. That also takes real practice.
+
+Because of these challenges, it's best to first practice this one when the stakes are low--aka, *not* in a negotiation with a key stakeholder.
+
+Here's the game plan:
+
+First, pick someone you trust. It doesn't have to be a co-worker, I've seen people profitably practice with a friend, roommate, or spouse.
+
+Ask that person, "I'm working on some active listening skills. Would it be okay if I asked you some questions as part of that?"
+
+# This is for *you*, not for them -- to remove some of your fear of being annoying.
+
+As the conversation starts, tell yourself, "My job is to deliberately use this echoing back tactic *too much* -- my goal is for the other person to say, afterwards, 'Eh, you could have echoed/repeated a bit less'".
+
+Then, *every single time* the other person says something, say "Let me say that back to you, see if I've got it right." Then say your understanding, then say "Is that about right?"
+
+It should feel weird as heck. After a few conversation rounds, pause, and ask the person "How did that feel?" Listen to them, and then repeat back what they tell you.
+
+If you'd like, dig for a bit more info, by asking if they ever felt at all irritated or annoyed, or if you missed anything important.
+
+Then, keep practicing.
+
+Once you've got some basic comfort with it, try it out with a "lower stakes" peer, then move on to stakeholders.
+
+** References
+
+ - Never Split the Difference
+
+ - The Art of Action
+
+ - Good Strategy/Bad Strategy
+* Scraps/Thoughts
+Maybe, use this chapter to, like, *define* a strategy, and explain that, if they don't know one, they should guess. But they ideally want to state it in terms the stakeholder uses. And we'll learn more about that in the next chapter.
+
+But you must be clear in your own hears and mind about what you think the most important challenge for the business is.
+
+Can mention both Rumelt and Bungay/Art of Action.
+
+Oooh, and what I fold in the "tell me how I'm wrong" tactic!
+** Moving From Goals to Strategic Outcomes - XXX CUT THIS,
 
 To bring this to life, let's dig into our first example above:
 
@@ -136,259 +415,6 @@ Of course, in the above sketch, the engineering leader is able to cite a strateg
 
 Sadly, that's not particularly common.
 
-** What If All I Have Is A Goal?
-
-One core challenge with running this game plan is that there is an uncomfortably high likelihood that *no one has told you* a strategic intent.
-
-In an ideal world, company leadership would share a concise, coherent statement of strategic intent with every team. In that ideal world, even as you're reading the above, you'd be nodding and saying "Yep, I've got that, let's go."
-
-Unfortunately, here in the *actual* world, that's almost never the case.
-
-First off, company leadership isn't always fully clear in their own thinking. Developing an effective strategic intent means being rigorously, painfully clear about what your company is and is *not* going to be able to do. Many leaders resist this painful clarity of thought. If your company works off some sprawling list of "Critical Projects" or "Key Initiatives", your leaders might fallen into this trap.
-
-Furthermore, even when leadership *has* done the hard work to develop a coherent, focused strategy, they don't always share much in the way of *context* with individual teams. They may simply pass down goals, but not share the thinking that led to selecting those goals, nor the business outcomes that achieving those goals will hopefully unlock. For software projects, which need a tremendous amount of flexibility in order to succeed, passing down goals with context very rarely works.
-
-Luckily, even if leadership hasn't perfectly defined or communicated a strategy, you can, almost always, *still* identify and align around *some* form of strategic intent with your stakeholder. And then gradually improve that over time.
-
-To do so, we're going to learn about our first two Tactical Empathy skills -- "Guess & Check" and "Echo Back & Summarize".
-
-** Tactical Empathy Skill #1: Guess & Check
-
-You're trying to determine a strategic intent for your business, and, in particular, one that your stakeholder finds *compelling*.
-
-You might well imagine that your first step should be to simply *ask* your stakeholder about what the business needs to achieve, and how the work of your team fits into that.
-
-That can sometimes work. However, I usually recommend a different approach:
-
- 1. *Guess* a strategic intent
-
- 2. *Check* that intent with your stakeholder
-
- 3. *Invite* them to tell you how you got it wrong
-
-Let's open that up a bit.
-
-You'll likely want to do some preparation to come up with the "guess": talk to people you work with, review whatever leadership has shared with you, gather information from wherever you can. Then, take some time to distill it all down to a coherent statement. Test that out with someone you trust, ask for their feedback, and then make it sharper and clearer.
-
-Once you've got something which feels clear and potentially useful, you're ready to share it with your stakeholder. Lay out your understanding, ask if you've got it right, and make it as easy as possible for them to tell you what's wrong. You can use something like the following conversational template.
-
-/I wanted to ask something -- my understanding is that, in the next 18-24 months, the most important thing we need to achieve is <X>, and that my team should be supporting that by way of <Y>. Do I have that mostly right? Am I missing anything important?/
-
-In many cases, this works far better than just point-blank asking your stakeholder for a coherent intent.
-
-There are two reasons why guess-and-check is an effective alternative to ask-directly.
-
-First, it doesn't put the stakeholder on the spot -- it can be quite hard to come up with a clear, concise statement of strategy on your feet. If, instead, you offer one and invite their critique, you're making a smaller ask of them.
-
-Second, it's usually much easier for people to express their thoughts by telling you what's wrong with yours, than it is to lay their own out.
-
-Sometimes, they're not even perfectly clear on what they think, but when you say something like /"My understanding is that our top priority is growth, which means acquiring new customers, is that right?"/, they'll realize that sounds wrong, and say:
-
-/"Wait, that's not quite it. A good bit of revenue growth should come from upselling *existing* customers -- but we need more compelling features in our Pro tier to do that."/
-
-You say thank you, and then update your coherent statement and test it again.
-
-Note: the "Guess & Check" approach can be applied in a very wide variety of situations.
-
-If you want to dig for information, or understand someone's concerns, or draw out their opinions, your best bet is often to offer a guess, and then invite them to tell you where you got it wrong.
-
-We'll lay out some exercises to practice this, at the end of the chapter.
-
-** Our Story: Quin Tries Guess & Check
-
-When we last checked on Quin, she was struggling with her CEO, Marco, over his habit of constantly changing priorities at their startup, All Together Now (who are developing remote team building games). Her friend had sent her to talk with an experienced engineering leader who, by the friend's account, likes "helping people get their bosses to stop being crazy."
-
-Let's see how things are going...
-
-"You're saying I should just, like, /make up/ a strategy for ATN?" Quin says, uncertainly.
-
-Jeremiah nods vigorously. "Yep. Exactly."
-
-"Okay," she says slowly, "I guess I can... try?"
-
-"You're going to do great," he insists. "Be sure to let me know how it goes." He waves a cheerful goodbye as the zoom fades out.
-
-That evening, while washing up the dishes after dinner, Quin lets her mind wander. How can she come up with a business strategy for ATN? She thinks about all the things she's heard from Marco over their six months of working together. Is there some guiding theme in all of that? What might be a key 18-24 month "outcome" for All Together Now?
-
-Well, she tells herself, ATN is a startup. Obviously, they need customers. In fact, that's all she and Marco talk about. Her team is trying to launch some initial set of features those customers might find compelling.
-
-Could that be it?
-
-It feels a bit... short-term? They need customers way before 18 months.
-
-She picks up another pot and swishes in some sudsy water. What good thing might happen *later*, if they *do* get those initial customers? They'd get... more customers? Hmm.
-
-She remembers something else Jeremiah suggested -- to think about what Marco might want, even if he's not talking about it, day-to-day: "What do you think might *feel* like a success for Marco? What's he working backwards from?"
-
-She tries to remember moments when Marco seemed to feel good, or excited. Honestly, she thinks wryly, it's not actually *getting* customers, it's *telling a story* about those customers. She can see his happy, confident grin as, after a good customer call, he's laying out how awesome landing this deal is going to be, and how the company is going to grow.
-
-A thought suddenly hits her, and she freezes, a spatula in her hand. Stories! Of course! How could she be so dense!? She's only been thinking about ATN as a *business*, and on how the new product might fit into that business. But they're a *startup*. The key thing that needs to happen in 18 to 24 months is that they need to *raise more money*!
-
-*That's* their key outcome. That's why Marco likes telling stories. He's imagining telling those stories to potential investors! And, she realizes excitedly, as it falls into place, he doesn't like to talk with the team about that day-to-day, because, he's told her, "they shouldn't worry about the money stuff".
-
-At that moment, her roommate, Naia, wanders into the kitchen. Quin announces excitedly, "Naia! We're a *startup*!".
-
-"Bully for you," replies Naia. She grabs some Cocoa Puffs and heads back to the living room.
-
----
-
-The next day, partway through their weekly Zoom 1:1, Quin says:
-
-"I've been wanting to ask you a few questions, is now a good time?"
-
-Marco shrugs in agreement. Quin is mostly sure he's got his email open in another tab.
-
-# Bad prose go
-
-She takes a deep breath. "I'm excited about all the customer calls you've been getting. And I want to keep the team laser-focused on shipping the Virtual Dunk Tank, so you can start demoing it, just as soon as possible. But I wanted to talk a bit, just you and me, about what might happen next, if we *do* get those customers."
-
-Marco quirks his head. He's still got an eye on some chat window, Quin thinks, but he's paying just a bit more attention.
-
-She launches her guess-and-check. "I remember, when I interviewed at ATN, you had just raised a seed round. I'm guessing that a key next step is to be able to raise a Series A? And that, to do that, we need to show that we've, well, got some customers. That we have a real start of a business. If I had to guess, I might imagine that investors are going to want to see a few deals with *big* customers." She sat back. "Is that vaguely right? Am I missing anything important?"
-
-# XXX pick up here, adjust to fit the above more, where he *hasn't* talked about this. He's talked about all the things they need to do to get new customers. And she's saying "I want to talk about what happens next, if we do get those customers. And she says "I remember during our interview you talked about our Series A. I'm guessing that, a key next step is to be able to raise a Series B? And that, to do that, we need to show that we've, well, got some customers. That we have the start of a business." He looks engaged. They don't usually talk about this, she can feel he's regarding her in a slightly new way.
-
-# "Our current runway is about 18 months", she begins, "but my understanding is that we need to get some big customers in the next six to twelve months. That way, you'll have time to tell a story to potential investors. Is that about right?"
-
-Marco purses his lips and stares directly at Quin. "Almost," he says, slowly. "Yeah, big customers are going to be super important. But it's not enough that we just *land* some big customers--we need them to be *using* ATN. I've talked to VC's, and, for a subscription business, they're super worried about churn. We're going to need to raise money before we really know what churn looks like. So VC's are going to want to see *engagement*. We need actual teams using ATN, and, like, *often*. A couple of big sales where the implementations don't get off the ground could be worse than no sales." He seems to shiver a bit at the idea.
-
-This is brand new information for Quin. They've been talking so much about sales, she hadn't realized that Marco was equally worried about usage and engagement.
-
-Her mind starts whirring with ideas. They have that one excited friends-and-family customer who loves the idea of ATN, and claims to be ready to use the Dunk Tank the moment it launches. She and the team have been putting off adding usage tracking to the product, but if they could focus on just shipping the Dunk Tank, they could probably get something out there *with* usage tracking, pretty fast. Quin thinks, excitedly, that they could be looking at actual engagement data within just a few weeks! *And* still be setting Marco up with a new sales demo!
-
-Let's pause here for a moment.
-
-I want to ask you a very important question.
-
-What, in your opinion, should Quin do, right in this moment?
-
-** Tactical Empathy Skill #2: Echo Back & Summarize
-
-She is going to be incredibly tempted to *tell Marco about these ideas*.
-
-But that's *not* what she should do, *first*.
-
-Instead, she should take the time to carefully echo back what she's just heard from Marco, summarize it as clearly as she can, and, again, ask if she's gotten it right.
-
-She might do that by saying:
-
-"Let me see if I've got that right. For us to be able to raise a Series A, we *do* need a few big customers, but, in addition, we need to show real engagement from those customers. We can't have those deals launch with no usage. Is that about right?"
-
-To her surprise, Marco pauses again. "Closer," he said. "But, actually, I'm not sure we need to see every one of our big customers engaged. VC's understand that things take time with larger customers. We need *some* engagement from the big customers, I'd guess we need them to be actively implementing. *And* we need our smaller, earlier customers to be very actively *using*. I think that mix will allow us to tell a good story."
-
-"Okay, that's super useful," says Quin eagerly. "Let me say that back, see if I've got it. For us to raise a series A, we need to show we can sell to big customers, we need those big customers to demonstrate commitment by starting to implement, and we need some of our smaller customers to be actively engaged. Putting all that together will let us tell a good story. Is that about right?"
-
-This time, he nods vigorously.  "Yes, that's *exactly* it. I'm glad we talked this out." He's long since stopped looking at his other screens.
-
-"Thanks," says Quin, "me, too."
-
-What's been going on, here?
-
-
-# XXX add a bit more
-
-Why is this so valuable?
-
-First, by summarizing, you will nearly always discover something you didn't get quite right.
-
-Second, summarizing back makes an enormous difference in helping the speaker to *feel understood*.
-
-When a person explains something they care about, it's quite rare for them to feel confident that they've actually been understood.
-
-They're not usually consciously aware of this -- but some part of them will wonder, uncertainly, if their attempt succeeded or not.
-
-I feel like I should say that, for certain kinds of, well, extra difficult stakeholders, they won't be thinking "Did my attempt to communicate succeed?" but rather, "Did the listener understand this completely clear point I just made, or are they stupid?" If my game plan for working with stakeholders assumed they were all kind and pleasant, I would not have very much to offer you. Luckily, that's not the case.
-
-You can address both "nice" and "not so nice" stakeholder the same way -- because they are driven by the same underlying uncertainty about being understood.
-
-# Humans rarely experience themselves as being fully understood.
-
-If you, as  that listener, take the time to summarize back your understanding, and get it even vaguely right, the speaker will feel a sense of *relief*.
-
-If you pay careful attention, you may even see them visibly exhale and relax.
-
-# It's like you've completed an open transaction that was otherwise hanging.
-
-Which is exactly the mode you want them to be in, if you're going to turn the corner and now ask them to engage in *your* concerns.
-
-You can earn space to advocate, by demonstrating that you are willing to lead with empathy and understanding.
-
-This is an incredibly valuable tactic, usable in an incredibly wide variety of situations. If you're only going to take one thing away from this chapter (or, frankly, this book), spend some time learning to effectively echo back and summarize.
-
-** The Saddest Sidebar
-
-I can't get out of this section without mentioning the unfortunate possibility that your stakeholder may *angrily resist* making a clear statement of a *single* strategic intent. Such a stakeholder might say something like:
-
-/"Look, it's not that simple. You're always asking for the "one top priority", but *all* the goals are critically important. We *can't* just pick one. We have to find a way to get them *all* done."/
-
-First off, uggggghhhhh.
-
-Second off, uggggggggghhhh.
-
-An unwillingess to make hard prioritization calls is a reliable way to doom a team to failure.
-
-That said, you still have options in this situation. There's a real chance that, if you can earn some shared wins, that same stakeholder will start to experience prioritization decisions as an *empowering* thing for them, rather than a demand for them to disappoint one of *their* stakeholders or bosses.
-
-Thus, in such a case, my recommendation is to just go with your best guess for now -- it's likely pretty good, and having *some* direction to move in is better than just churning around at random.
-
-** Exercises
-*** Develop Strategic Intents
-*** Practicing Guess & Check
-*** Practicing Echo Back & Summarize
-*** Echo Back Exercises
-
-I'm going to take some time to talk about how to learn this one, because it's so foundationally valuable. I have coached dozens of people on this approach. Over and over, I've seen them initially struggle.
-
-Echoing back summaries just *feels* like such a strange way to talk to someone. When you're about to echo or repeat, your brain will tell you "Ugh, they just told you this, don't *bore* them."
-
-Once you've practiced this a few times, this feeling will fade away. You'll come to realize that people love to hear their own words and thoughts.
-
-Another problem is that using these tactics will turn up valuable context, aka things you didn't previously know. When that happens, your mind will suddenly make connections and see new opportunities.
-
-That will often feel *exciting*.
-
-In our scenario the Janine suddenly sees the connection between the large customers and the database performance challenges she's eager to discuss.
-
-When that kind of discovery happens, a spike of excitement hormones hits your bloodstream, and your brain immediately *urges* you to share this new awesome idea, right away.
-
-"Oh," your brain will say, "they're going to love this, go go go!"
-
-That's a trap -- you are *always* better served by first ensuring you fully understood and that the speaker feels fully heard.
-
-Also, the ideal way to play this game is to clarify the speaker's thoughts, as you echo them back. To make your summary *useful*. That also takes real practice.
-
-Because of these challenges, it's best to first practice this one when the stakes are low--aka, *not* in a negotiation with a key stakeholder.
-
-Here's the game plan:
-
-First, pick someone you trust -- it doesn't have to be a co-worker, I've seen people profitably practice with a friend, roommate, or spouse.
-
-Ask that person, "I'm working on some active listening skills. Would it be okay if I asked you some questions as part of that?"
-
-# This is for *you*, not for them -- to remove some of your fear of being annoying.
-
-As the conversation starts, tell yourself, "My job is to deliberately do use this tactic *too much* -- my goal is for the other person to say, afterwards, 'Eh, you could have echoed/repeated a bit less'".
-
-Then, *every single time* the other person says something, say "Let me say that back to you, see if I've got it right." Then say your understanding, then say "Is that about right?"
-
-It should feel weird as heck. After a few conversation rounds, pause, and ask the person "How did that feel?" Listen to them, and then repeat back what they tell you.
-
-If you'd like, dig for a bit more info, by asking if they ever felt at all irritated or annoyed, or if you missed anything important.
-
-Then, keep practicing.
-
-Once you've got some basic comfort with it, try it out with a "lower stakes" peer, then move on to stakeholders.
-
-A great topic to practice this with is Mapping Fears and Aspiration.
-
-* Scraps/Thoughts
-Maybe, use this chapter to, like, *define* a strategy, and explain that, if they don't know one, they should guess. But they ideally want to state it in terms the stakeholder uses. And we'll learn more about that in the next chapter.
-
-But you must be clear in your own hears and mind about what you think the most important challenge for the business is.
-
-Can mention both Rumelt and Bungay/Art of Action.
-
-Oooh, and what I fold in the "tell me how I'm wrong" tactic!
 * Learning Outcomes/Arc
 ** Maybe: The Power of Speaking to Strategic Outcomes
 ** Some Problems With Goals
