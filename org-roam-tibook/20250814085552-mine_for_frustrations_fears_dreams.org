@@ -3,7 +3,7 @@
 :END:
 #+title: Mine for Frustrations, Fears & Dreams
 #+filetags: :Chapter:
-* Mine for Frustrations, Fears, Dreams & Delights
+* Mine for Fears & Dreams
 ** Humans Have Feelings, Ignore At Your Own Risk
 
 I'm going to go out on a limb here: you probably work with humans.
@@ -14,81 +14,163 @@ If you want one of those humans to change their behavior, it's absolutely critic
 
 This may sound a bit odd. Perhaps you work with a CEO whose only outward expression of emotion is a series of variations on the tightly clenched jaw. You might have legitimate debates with coworkers about whether or not this CEO even *has* feelings.
 
-Understanding feelings doesn't mean getting into a drum circle and getting in touch with our inner child. All humans, in whatever positions of power they may find themselves, have things they deeply want, and things they are deeply afraid of. I don't care what role they're in, your stakeholder's current behavior patterns are driven by some combination of what they want and what they're afraid of.
+Look. Understanding feelings doesn't mean getting into a drum circle and getting in touch with our inner child. All humans, in whatever positions of power they may find themselves, have things they deeply want, and things they are deeply afraid of. I don't care what role they're in, your stakeholder's current behavior patterns are driven by some combination of what they want and what they're afraid of.
 
 When you advocate for change, you want to be able to speak with authentic connection to both the fears that are keeping them up at night, as well as the things that they desperately wish were happening.
 
-But there's a major problem.
+But there's a problem.
 
 Many leaders do their best to *hide* these feelings. If you haven't had positions of serious responsibility, I encourage you to have some empathy for people in these roles. It can feel incredibly important to "project confidence". And that can very easily turn into "pretend to have no fears or desires". In fact, many leaders unconsciously feel some desperate fear of their emotions being found out. They feel, without realizing it, that they must hide their emotions to retain control.  That is why it's so common to feel like you're banging up against an unyielding, inhuman, unemotional wall.
 
 However, even if your key stakeholder seems to be working very hard to present as a goal-driven business automaton, you *must* find a way to get past that.
 
-Your key goal is to develop an *empathetic understanding* of your stakeholder's fears and aspirations.
+To persuade your stakeholder to risk making a change, you need to to develop an *empathetic understanding* of their fears and dreams.
 
-That way, even if you want to challenge them to change their current *behavior*, you ac
+That way, when you challenge them to change their current *behavior*, you can speak *authentically* to their *underlying concerns*. Even if they've been actively trying to hide those from you.
 
 Persuading humans to change their behavior works roughly a thousand times better if you can find a way to speak to their hearts as well as their minds.
 
-How can you build this map of your stakeholder's feelings?
-
-Given how powerful and important your stakeholder likely is for both you and your peers, there's a decent chance you can get a pretty good first draft by just spending a half an hour talking about this with people you trust, close to you.
-
-For more, I can heartily recommend building the skills of "Tactical Empathy", which Chris Voss and Tahl Raz describe in their excellent book "Never Split the Difference" -- and which I'll be exploring in my book.
+So, how can you build this map of your stakeholder's feelings?
 
 ** The Four Key Emotions
-Quin needs to answer the Four Key Emotion Questions about a stakeholder:
 
- - What is currently *frustrating* them?
+You're not going to worry about every facet of your stakeholder's emotional life.
 
- - What are they *afraid* of?
+You're going to develop a picture of four key emotions:
 
- - What makes them *feel good*?
+# XXX Make this less terrible.
 
- - What do they *dream of*?
+ - *Frustrations*
 
-These are an extremely powerful core for persuasion. Two focus on day-to-day experiences (frustrations and "things that feel good"), two on longer-term motivations (fears and dreams).
+   What happens, day-to-day, that they find frustrating?
+
+ - *Fears*
+
+   What are the afraid might happen at some point in the future?
+
+ - *Delights*
+
+   What happens, day-to-day, that makes them feel good?
+
+ - *Dreams*
+
+   What do they most fondly hope happens at some point in the future?
+
+These are an extremely powerful core for persuasion. Two focus on day-to-day experiences (frustrations and delights), two on longer-term motivations (fears and dreams).
 
 If you can come up with answers to these four questions, you can build an *extremely* compelling request to try something new. A request that the stakeholder will both *hear* and *feel* as worth listening to.
 
 We'll spend real time on how to craft such a request in the "Design a Compelling Offer" chapter.
 
-For now, let's see what Quin does next.
+But first we need to talk about how to come up with answers to these questions, especially if your stakeholder seems committed to showing as little vulnerability as possible.
 
-Quin could use her echoing back and summarizing skill to "mine for" these answers. But she has worked closely enough with Marco that she has a pretty good idea, already.
-
- - *Frustrations: What is currently frustrating Marco?*
-
-   Quin can tell Marco feels like it takes forever to see any progress on the product--that's why he's starting to suggest she put more pressure on the team to work longer hours.
-
-   She can summarize this as: the lack of *velocity*.
-
- - *Fears: What is Marco afraid of?*
-
-   Quin remembers that, at his last job, Marco was nearly fired because of a massive, failed software project. The engineering team he was working with completely lost the way, but kept a lot of that hidden from him. When the real situation came to light, Marco's CEO was so angry, he chewed Marco out in front of half the executive team.
-
-   Given that, Quin suspects Marco's biggest fear is suddenly discovering that the project is wildly far behind, or that the engineering team has gone off in some crazy direction.
-
-   Thus, some kind of "stepping back" may *feel* like a terrifying loss of control.
-
- - *Dreams: What does he dream of or hope for*?
-
-   Quin can see a glint of excitment in his eye when he imagines demoing a product to customers, and seeing them eager to start using it.
-
-   # She's also heard him say more than once that he wants to build a company where everyone feels connected to the customers. She suspects that his constant updates after his customer calls are partly driven by a desire to live up to that vision.
-
- - *Delights: What makes Marco feel good?*
-
-   Quin sees Marco absolutely light up when he has a chance to interact with a visual prototype.
-
-   He also clearly deeply enjoys sharing what he's learned from talking with customers. When she stops to think about it, Quin comes to suspect that's in part because Marco is using those debriefs to clarify his own thinking. He comes in swirling with thoughts, and by the end, he's condensed it down, and that *feels good* to him. Unfortunately, the team is dizzied and distracted by all the ideas.
-
-Now that she's got all this critical information, Quin is ready to design a single increment of change.
+This requires doing a form of detective work. I call this "mining for emotions".
 
 ** Tactical Empathy Skill #3: Repeat Trailing Three Words
-** Tactical Empathy Skill #4: Offer Labeled Feelings
+
+First off, it requires some work to *get people talking at all*.
+
+Say you notice that your stakeholder seems frustrated after a customer call.
+
+Eager to build up your picture, you say, "I noticed that that call seemed a little frustrating. Can I ask what was going on?"
+
+Your stakeholder says briefly, "It's nothing. I'd just like to advance the deal."
+
+They show no interest in explaining more. That hasn't shown you much useful about their feelings. In fact, they seem to be shutting the conversation down.
+
+What can you do?
+
+You're going to employ a simple and, honestly, somewhat *bizarrely* effective tactic, "Repeat Trailing Three Words".
+
+Here's how it works.
+
+First, you ask someone a question.
+
+They respond with an answer.
+
+You then calmly and curiously repeat the last three words they said, back to them, inflected as a question.
+
+And then you stop talking and wait.
+
+*That's it*.
+
+If you can achieve any form of genuine curiosity as you speak, and if you can stop yourself from saying anything other than those three words...
+
+...the person will then start talking again, telling you more and more.
+
+And they'll *feel* like you're hearing and understanding them.
+
+It shouldn't be this simple. But it totally works.[fn:: If you happen to like romantic comedies, you might catch this *exact tactic* from Never Split the Difference being referenced in episode <something> of Nobody Wants This (in the very fun B storyline of the two "loser" siblings, which honestly, I maybe liked more than the main storyline?)]
+
+In our scenario, your stakeholder said, "It's nothing. I'd just like to advance the deal."
+
+You calmly say back to them, with genuine curiosity, "Advance the deal...?"
+
+The stakeholder says nothing for a moment, but then, once the silence has opened up, suddenly continues with, "Yeah, they just keep talking and talking."
+
+You try the tactic once more. "They're talking and talking...?"
+
+A slightly shorter pause, and then the stakeholder says "Yeah. I honestly don't know if they're *ever* going to convert. Of if they just like *talking* about their problems."
+
+A final time, "About their problems...?"
+
+The stakeholder is now talking more smoothly, there's barely a pause. "Yes. It's almost like these aren't *real* problems. We might be talking about a vitamin, not a pain-killer."
+
+And, lo, you've turned up one of your stakeholder's biggest fears---that you may be offering something which customers don't urgently *need*.
+
+Those may look like dry words on the page, but the tactic is remarkably effective in person. It's honestly kind of bonkers that you can get so far with such a simple approach. You may have to experience it to fully believe it.
+
+If you're able to deploy this tactic well, you'll achieve two *super* important things:
+
+ - *First, you'll build rapport*
+
+   You're demonstrating, simply by listening, that you want to work *with* the stakeholder to solve their problems.
+
+   # Eduardo started the above conversation in a bit of a haze, half-listening, half-distracted.
+
+   # By the end, he had a sort of cautious hope that maybe Janine understands his problems.
+
+ - *Second, you'll acquire context*
+
+   # Janine learned: how he thinks about the team's overall goal; which segment of customers Eduardo is focused on; and some tricky internal company dynamics he's wrestling with.
+
+   Which you can put those use in making your case.
+
+Let's see what Quin finds out when she uses the Repeat Trailing Three Words tactic.
+
+#  We'll demonstrate how to do so, but first, we'll talk about a second core skill of Tactical Empathy.
+
 ** Our Story: Quin Mines for Feelings
+** Tactical Empathy Skill #4: Offer Labeled Feelings
 ** Exercises
+*** Repeat Trailing Three Words
+
+Because it's so simple, there are two good ways to practice the Repeat Trailing Three Words tactic.
+
+1) Experiment In Random Parts of Your Life
+
+Whenever you can, in whatever conversations you find yourself in, try repeating the last few words someone says to you, inflected as a question. Try it in both professional and personal contexts, try it with your boss, try it with your peers, with your spouse, kids, neighbors, whoever.
+
+Do it over and over, and you'll find your own authentic way in, and it'll start to feel and more more natural.
+
+If you start by using it just once in a given conversation, then, as that feels comfortable, see how long you can keep someone talking and opening up by just repeating those last three words of each thing they say to you.[fn:: "Dan, this whole active listening thing has helped my relationship with [insert spouse's name]", is something I've heard let's just say, a bunch of times.])
+
+As above, take a bit of time to explicitly reflect on how it feels to do it, and use that reflection to tweak your personal approach.
+
+For an initial, focused period of practice to rewire yourself, aim to do this 2-3 times/day for a week, and see where that lands you.
+
+2) Explicitly Test With a Trusted Friend
+
+Tell a friend you want to work on active listening, and then ask them a series of questions to dig into some issue -- maybe specifically something close to the kind of conversations you might have with a stakeholder.
+
+E.g. you could say "I want to practice some active listening sikills I'm working on. Would it be okay if I ask you some questions about your work?"
+
+And then see if you can dig for information about what they're most worried about, and what they most hope to achieve, using the repeat trailing three words tactic as you go.
+
+At the end, pause and ask for feedback from them on how it felt for them.
+
+During a period of focused practice, do this 3-4 separate times, and again, make sure you make time to reflect.
+
 * Structure Ideas
 ** What are my learning outcomes?
 Have I sold the idea enough in the previous chapter, of the value?
