@@ -3,9 +3,113 @@
 :END:
 #+title: Mine for Frustrations, Fears & Dreams
 #+filetags: :Chapter:
-* Mine for Frustrations, Fears & Dreams
+* Mine for Frustrations, Fears, Dreams & Delights
+** Humans Have Feelings, Ignore At Your Own Risk
 
-# Who you're mining from = variety of stakeholders
+I'm going to go out on a limb here: you probably work with humans.
+
+That's great! Except, of course, for when it's not.
+
+If you want one of those humans to change their behavior, it's absolutely critical for you to understand their *feelings*.
+
+This may sound a bit odd. Perhaps you work with a CEO whose only outward expression of emotion is a series of variations on the tightly clenched jaw. You might have legitimate debates with coworkers about whether or not this CEO even *has* feelings.
+
+Understanding feelings doesn't mean getting into a drum circle and getting in touch with our inner child. All humans, in whatever positions of power they may find themselves, have things they deeply want, and things they are deeply afraid of. I don't care what role they're in, your stakeholder's current behavior patterns are driven by some combination of what they want and what they're afraid of.
+
+When you advocate for change, you want to be able to speak with authentic connection to both the fears that are keeping them up at night, as well as the things that they desperately wish were happening.
+
+But there's a major problem.
+
+Many leaders do their best to *hide* these feelings. If you haven't had positions of serious responsibility, I encourage you to have some empathy for people in these roles. It can feel incredibly important to "project confidence". And that can very easily turn into "pretend to have no fears or desires". In fact, many leaders unconsciously feel some desperate fear of their emotions being found out. They feel, without realizing it, that they must hide their emotions to retain control.  That is why it's so common to feel like you're banging up against an unyielding, inhuman, unemotional wall.
+
+However, even if your key stakeholder seems to be working very hard to present as a goal-driven business automaton, you *must* find a way to get past that.
+
+Your key goal is to develop an *empathetic understanding* of your stakeholder's fears and aspirations.
+
+That way, even if you want to challenge them to change their current *behavior*, you ac
+
+Persuading humans to change their behavior works roughly a thousand times better if you can find a way to speak to their hearts as well as their minds.
+
+How can you build this map of your stakeholder's feelings?
+
+Given how powerful and important your stakeholder likely is for both you and your peers, there's a decent chance you can get a pretty good first draft by just spending a half an hour talking about this with people you trust, close to you.
+
+For more, I can heartily recommend building the skills of "Tactical Empathy", which Chris Voss and Tahl Raz describe in their excellent book "Never Split the Difference" -- and which I'll be exploring in my book.
+
+** The Four Key Emotions
+Quin needs to answer the Four Key Emotion Questions about a stakeholder:
+
+ - What is currently *frustrating* them?
+
+ - What are they *afraid* of?
+
+ - What makes them *feel good*?
+
+ - What do they *dream of*?
+
+These are an extremely powerful core for persuasion. Two focus on day-to-day experiences (frustrations and "things that feel good"), two on longer-term motivations (fears and dreams).
+
+If you can come up with answers to these four questions, you can build an *extremely* compelling request to try something new. A request that the stakeholder will both *hear* and *feel* as worth listening to.
+
+We'll spend real time on how to craft such a request in the "Design a Compelling Offer" chapter.
+
+For now, let's see what Quin does next.
+
+Quin could use her echoing back and summarizing skill to "mine for" these answers. But she has worked closely enough with Marco that she has a pretty good idea, already.
+
+ - *Frustrations: What is currently frustrating Marco?*
+
+   Quin can tell Marco feels like it takes forever to see any progress on the product--that's why he's starting to suggest she put more pressure on the team to work longer hours.
+
+   She can summarize this as: the lack of *velocity*.
+
+ - *Fears: What is Marco afraid of?*
+
+   Quin remembers that, at his last job, Marco was nearly fired because of a massive, failed software project. The engineering team he was working with completely lost the way, but kept a lot of that hidden from him. When the real situation came to light, Marco's CEO was so angry, he chewed Marco out in front of half the executive team.
+
+   Given that, Quin suspects Marco's biggest fear is suddenly discovering that the project is wildly far behind, or that the engineering team has gone off in some crazy direction.
+
+   Thus, some kind of "stepping back" may *feel* like a terrifying loss of control.
+
+ - *Dreams: What does he dream of or hope for*?
+
+   Quin can see a glint of excitment in his eye when he imagines demoing a product to customers, and seeing them eager to start using it.
+
+   # She's also heard him say more than once that he wants to build a company where everyone feels connected to the customers. She suspects that his constant updates after his customer calls are partly driven by a desire to live up to that vision.
+
+ - *Delights: What makes Marco feel good?*
+
+   Quin sees Marco absolutely light up when he has a chance to interact with a visual prototype.
+
+   He also clearly deeply enjoys sharing what he's learned from talking with customers. When she stops to think about it, Quin comes to suspect that's in part because Marco is using those debriefs to clarify his own thinking. He comes in swirling with thoughts, and by the end, he's condensed it down, and that *feels good* to him. Unfortunately, the team is dizzied and distracted by all the ideas.
+
+Now that she's got all this critical information, Quin is ready to design a single increment of change.
+
+** Tactical Empathy Skill #3: Repeat Trailing Three Words
+** Tactical Empathy Skill #4: Offer Labeled Feelings
+** Our Story: Quin Mines for Feelings
+** Exercises
+* Structure Ideas
+** What are my learning outcomes?
+Have I sold the idea enough in the previous chapter, of the value?
+*** Humans Have Feelings
+*** The Key Questions To Answer
+**** Frustrations
+**** Fears
+**** Delights
+**** Dreams
+*** Tactical Empathy Skill #3: Repeat Trailing 3 Words
+*** Tactical Empathy Skill #4: Offering "Labeled" Feelings
+*** Our Story: Quin Mines for Feelings
+*** Exercises
+
+* Title Ideas
+
+** Mine for Context, Fears & Dreams
+** Mine for Strategy, Fears & Dreams
+** Mine for Frustrations, Fears, Delights & Dreams
+** Mine for Intent & Feelings
+* Scraps
 ** Afford to Ignore
 
 One useful frame is: someone is one of your stakeholders if you *can't afford to ignore them*. That may sound a bit brutally transactional, but if there's too large a set of people who you can't ignore, then there's almost no chance your team can move quickly and create meaningful value.  Asking who you can ignore will sometimes shine a light on the implicit power structures of your company--and can reveal fundamental conflicts that are making it impossible for you to win. E.g. maybe your CEO talks night and day about how critical it is for your team to stay on track for the big new product launch they've promised to the board. However, your team is *also* expected to handle a stream of feature requests from existing customers, which that CEO doesn't pay any attention to. If, one day, the Head of Customer Success comes banging on your door, demanding you immediately add a new feature for enterprise customers, can you *afford* to ignore them? Or if you do, will you receive an unpleasant lecture from the CEO and then acquire a reputation as "not being a team player"?
@@ -17,25 +121,3 @@ The Head of Customer Success  has shown a willingness in the past to blame engin
 Separately, the Head of Customer Success
 
 The only way you and your team will create significant value is if you can relentlessly focus on the most important, most valuable work at every moment. People you can't ignore are, in the actual,
-* Structure Ideas
-** What are my learning outcomes?
-Have I sold the idea enough in the previous chapter, of the value?
-*** The Power of Speaking to Fundamental Drives
-*** Everything is Feelings
-*** The Key Questions To Answer
-**** What is success for the business?
-**** What is the fundamental challenge to achieving that success?
-**** Frustrations
-**** Fears
-**** Delights
-**** Dreams
-*** Echoing Back Is a Superpower
-*** Case Study
-*** Exercises
-
-* Title Ideas
-
-** Mine for Context, Fears & Dreams
-** Mine for Strategy, Fears & Dreams
-** Mine for Frustrations, Fears, Delights & Dreams
-** Mine for Intent & Feelings
