@@ -48,9 +48,29 @@ There are (at least!) three reasons why moving from a near-term goal to a longer
 
     By being able to cite something your stakeholder *wants*, you'll be able to anchor your pitch in a positive vision of the future. That is a very powerful way to *motivate* humans to take the risk of making a change.
 
+*** What Makes a Good Intent?
+
+You're going to work on coming up with a clear articulation of that combination of a strategic outcome and your team's role in achieving that outcome.
+
+As you do that work, here are a pair of useful questions to ask yourself:
+
+ - Is it possible to *disagree* with the intent?
+
+ - Does the intent allow you to say *"No"* to things?
+
+These two questions ensure you avoid impressive-sounding by meaningless [toothless] strategies like "Accelerate growth" or "Become more customer centric". Who could possibly disagree with those? What would they possibly allow you to say "no" to?
+
+You want to relentlessly refine such vague statements until they become sharper, clearer and more opinionated. For example, you might turn "Accelerate growth" into "Accelerate growth by enabling more upsells to existing customers".
+
+That's a statement that someone could absolutely disagree with. Such a person might make a case for expanding your Total Addressable Market (TAM), instead of capturing more revenue from existing customers. That's a valid alternative strategy. If you can't imagine a valid alternative strategy, you're running some real risk of developing a statement too vague and aspirational to be useful.
+
+If your comany committed to "Accelerate growth by enabling more upsells to existing customers" that would absolutely let a team on the ground say "No" to things. When an excited sales leader shows up at the weekly demo and demands the team add a feature to allow them to sell into a new segment, the product manager can calmly refer to that intent to push back.
+
+Fundamentally, a good strategic intent allows you to *make decisions*.
+
 # XXX Bad Prose GO!
 
-Before we dig into more details, I want to say: developing a coherent, concise and  compelling strategic intent is *hard*.
+Before we go any further, I want to say: developing a coherent, concise and compelling strategic intent is *hard*.
 
 The reality facing any business is always extremely complex. Trying to distill that down to a single core challenge takes real work. There are dozens of factors you could consider, dozens of problems people are worrying about, different hopes and dreams different people across the company are treasuring in their hearts.
 
@@ -58,29 +78,27 @@ As you work to develop your a strategic intent for your business, you may find t
 
 Building such a clear picture is a *learnable skill*, but it does takes real practice.
 
-We'll illustrate some ways to think about it, in the below. But be ready to productively struggle a bit, with this one.
+We'll illustrate some ways to think about it, in the below. But I think you'll be well-served by being ready to productively struggle.
 
-If you'd like to learn more about developing strategy, I recommend the following:
+If you'd like to learn more about developing strategy, I recommend:
 
  - The Art of Action, by Stephen Bungay
 
  - Good Strategy/Bad Strategy, by Richard Rumelt
 
-Melissa Perri touches nicely on strategic intents in Escaping the Build Trap, but she doesn't dig into how to learn the skills.
-
-Most of all a good strategic intent must be *clarifying* -- for some key outcomes, it first distills down, from all the swirl of reality, the central challenge that must be faced, and then it concisely names a means to face that challenge.
+For ideas on how to work with strategic intents, Escaping the Build Trap does an excellent job of describing how to use strategic intents to *lead* an organization.
 
 ** What If All I Have Is A Goal?
 
 One core challenge with running this game plan is that there is an uncomfortably high likelihood that *no one has told you* a strategic intent.
 
-In an ideal world, company leadership would share a concise, coherent statement of strategic intent with every team. In that ideal world, even as you're reading the above, you'd be nodding and saying "Yep, I've got that, let's go."
+In an ideal world, company leadership would share a concise, coherent, *opinionated* statement of strategic intent with every team.  A statement that allowed the team to quickly and confidently say "No" to distractions. In that ideal world, even as you're reading the above, you'd be nodding and saying "Yep, I've got that, let's go."
 
 Unfortunately, here in the *actual* world, that's almost never the case.
 
 First off, company leadership isn't always fully clear in their own thinking. Developing an effective strategic intent means being rigorously, painfully clear about what your company is and is *not* going to be able to do. Many leaders resist this painful clarity of thought. If your company works off some sprawling list of "Critical Projects" or "Key Initiatives", your leaders might fallen into this trap.
 
-Furthermore, even when leadership *has* done the hard work to develop a coherent, focused strategy, they don't always share much in the way of *context* with individual teams. They may simply pass down goals, but not share the thinking that led to selecting those goals, nor the business outcomes that achieving those goals will hopefully unlock. For software projects, which need a tremendous amount of flexibility in order to succeed, passing down goals with context very rarely works.
+Furthermore, even when leadership *has* done the hard work to develop a coherent, focused strategy, they don't always share much in the way of *context* with individual teams. They may simply pass down goals, but not share the thinking that led to selecting those goals, nor the business outcomes that achieving those goals will hopefully unlock. For software projects, which need a tremendous amount of flexibility in order to succeed, passing down goals without context very rarely works.
 
 Luckily, even if leadership hasn't perfectly defined or communicated a strategy, you can, almost always, *still* identify and align around *some* form of strategic intent with your stakeholder. And then gradually improve that over time.
 
@@ -102,9 +120,9 @@ That can sometimes work. However, I usually recommend a different approach:
 
 Let's open that up a bit.
 
-You'll likely want to do some preparation to come up with the "guess": talk to people you work with, review whatever leadership has shared with you, gather information from wherever you can. Then, take some time to distill it all down to a coherent statement. Test that out with someone you trust, ask for their feedback, and then make it sharper and clearer.
+First, you'll likely want to do some preparation to come up with the "guess": talk to people you work with, review whatever leadership has shared, gather information from wherever you can. Then, take some time to distill it all down to a coherent statement. Test that out with someone you trust, ask for their feedback, and then make it sharper and clearer.
 
-Once you've got something which feels clear and potentially useful, you're ready to share it with your stakeholder. Lay out your understanding, ask if you've got it right, and make it as easy as possible for them to tell you what's wrong. You can use something like the following conversational template.
+Once you've got something which feels clear and potentially useful, you're ready to share it with your stakeholder. You can use something like the following conversational template.
 
 /I wanted to ask something -- my understanding is that, in the next 18-24 months, the most important thing we need to achieve is <X>, and that my team should be supporting that by way of <Y>. Do I have that mostly right? Am I missing anything important?/
 
@@ -122,6 +140,8 @@ Sometimes, they're not even perfectly clear on what they think, but when you say
 
 You say thank you, and then update your coherent statement and test it again.
 
+This is part of why developing an *opinionated* strategy is so valuable. By making one which it's "possible to disagree with", you're far more likely to draw a response from your stakeholder. If you offer something vague and positive, they'll nod without really thinking. If, on the other hand, you say something which "feels wrong" to them, they'll engage and work to clarify.
+
 Note: the "Guess & Check" approach can be applied in a very wide variety of situations.
 
 If you want to dig for information, or understand someone's concerns, or draw out their opinions, your best bet is often to offer a guess, and then invite them to tell you where you got it wrong.
@@ -138,11 +158,11 @@ Jeremiah nods vigorously. "Yep. Exactly."
 
 "Okay," she says slowly, "I guess I can... try?"
 
-"You're going to do great," he insists. "Be sure to let me know how it goes." He waves a cheerful goodbye as the zoom fades out.
+"You're going to do great," he insists. "Be sure to let me know how it goes." He waves a cheerful goodbye as the Zoom fades out.
 
 That evening, while washing up the dishes after dinner, Quin lets her mind wander. How can she come up with a business strategy for ATN? She thinks about all the things she's heard from Marco over their six months of working together. Is there some guiding theme in all of that? What might be a key 18-24 month "outcome" for All Together Now?
 
-Well, she tells herself, ATN is a very early startup. Obviously, they need customers. In fact, that's all she and Marco talk about. Her team is trying to launch some initial set of features those customers might find compelling.
+Well, she tells herself, ATN is an early-stage startup. Obviously, they need customers. In fact, that's all she and Marco talk about. Her team is trying to launch some initial set of features those customers might find compelling.
 
 Could that be it?
 
@@ -150,17 +170,17 @@ It feels a bit... short-term? They need customers *way* before 18 months.
 
 She picks up another pot and swishes in some sudsy water. What good thing might happen *later*, if they *do* get those initial customers? They'd get... more customers? Hmm.
 
-She remembers something else Jeremiah suggested -- to think about what Marco might want, even if he's not talking about it, day-to-day: "What do you think might *feel* like a success for Marco? What's he working backwards from?"
+She remembers something else Jeremiah suggested -- to think about what Marco might want, even if he's not talking about it, day-to-day.  Jeremiah has asked, "What do you think might *feel* like a success for Marco? What's he working backwards from?"
 
 She tries to remember moments when Marco seemed to feel good, or excited. Honestly, she thinks wryly, it's not actually *getting* customers, it's *telling a story* about those customers. She can see his happy, confident grin as, after a good customer call, he's laying out how awesome landing this deal is going to be, and how the company is going to grow.
 
-A thought suddenly hits her, and she freezes, a spatula in her hand. Stories! Of course! How could she be so dense!? She's only been thinking about ATN as a *business*, and on how the new product might fit into that business. But they're a *startup*. The key thing that needs to happen in 18 to 24 months is that they need to *raise more money*!
+A thought suddenly hits her, and she freezes, a spatula in her hand. Stories! Of course! How could she be so dense!? She's only been thinking about ATN as a *business*, and how the new product might fit into that business. But they're a *startup*. The key thing that needs to happen in 18 to 24 months is that they need to *raise more money*!
 
 *That's* their key outcome. That's why Marco likes telling stories. He's imagining telling those stories to potential investors! And, she realizes excitedly, as it falls into place, he doesn't like to talk with the team about that day-to-day, because, he's told her, "they shouldn't worry about the money stuff".
 
-At that moment, her roommate, Naia wanders into the kitchen. Quin announces excitedly, "Naia! We're a *startup*!".
+At that moment, her roommate Naia wanders into the kitchen. Quin turns to her and announces excitedly, "Naia! We're a *startup*!".
 
-"Bully for you," replies Naia. She grabs some Cocoa Puffs and heads back to the living room.
+"Bully for you," replies Naia, as she grabs some Cocoa Puffs and heads back to the living room.
 
 ---
 
@@ -176,9 +196,9 @@ She takes a deep breath. "I'm excited about all the customer calls you've been g
 
 Marco quirks his head. He's still got an eye on some other window, Quin thinks, but he's paying just a bit more attention.
 
-She launches her guess-and-check. "I remember, when I interviewed at ATN, you had just raised a seed round. I'm guessing that a key next step is to be able to raise a Series A? And that, to do that, we need to show that we've, well, got some customers. That we have a real start of a business. If I had to guess, I might imagine that investors are going to want to see a few deals with *big* customers." She sat back. "Is that vaguely right? Am I missing anything important?"
+She launches her guess-and-check. "I remember, when I interviewed at ATN, you had just raised a seed round. I'm guessing that a key next step is to be able to raise a Series A. To do that, we need to show that we've acquired some early customers. If I had to guess, I might imagine that investors are going to want to see a few deals with *big* customers." She sat back. "Is that vaguely right? Am I missing anything important?"
 
-# XXX pick up here, adjust to fit the above more, where he *hasn't* talked about this. He's talked about all the things they need to do to get new customers. And she's saying "I want to talk about what happens next, if we do get those customers. And she says "I remember during our interview you talked about our Series A. I'm guessing that, a key next step is to be able to raise a Series B? And that, to do that, we need to show that we've, well, got some customers. That we have the start of a business." He looks engaged. They don't usually talk about this, she can feel he's regarding her in a slightly new way.
+Note: this is genuinely opinionated. The larger customers they've talked to present a distinctive set of challenges. A valid alternative strategy would be to try to acquire a large set of smaller customers.
 
 # "Our current runway is about 18 months", she begins, "but my understanding is that we need to get some big customers in the next six to twelve months. That way, you'll have time to tell a story to potential investors. Is that about right?"
 
@@ -186,7 +206,7 @@ Marco purses his lips and stares directly at Quin. "Almost," he says, slowly. "Y
 
 This is brand new information for Quin. They've been talking so much about sales, she hadn't realized that Marco was equally worried about usage and engagement.
 
-Her mind starts whirring with ideas. They have that one big customer whose HR director loves the idea of ATN, and claims to be ready to use the Dunk Tank the moment it launches. She and the team have been putting off adding usage tracking to the product, but if they could focus on just shipping the Dunk Tank, they could probably get something out there *with* usage tracking, pretty fast. Quin thinks, excitedly, that they could be looking at actual engagement data within just a few weeks! *And* still be setting Marco up with a new sales demo!
+Her mind starts whirring with ideas. They have that one big customer whose HR director seems to absolutely love the idea of ATN, and claims to be ready to use the Dunk Tank the moment it launches. She and the team have been putting off adding usage tracking to the product, but if they could focus on just shipping the Dunk Tank, they could probably get something out there *with* usage tracking, pretty fast. Quin thinks excitedly that they could be looking at actual engagement data within just a few weeks! *And* still be setting Marco up with a new sales demo!
 
 Let's pause here for a moment, as Quin is midway through her conversation with Marco.
 
@@ -196,7 +216,7 @@ What, in your opinion, should Quin do, right in this moment?
 
 ** Tactical Empathy Skill #2: Echo Back & Summarize
 
-She is going to be incredibly tempted to *tell Marco about these ideas*.
+It's going to be incredibly temptint for Quin to *tell Marco about these ideas*.
 
 But that's *not* what she should do, *first*.
 
@@ -212,7 +232,7 @@ For example, she might do that by saying:
 
 Let's see what happens when she does this:
 
-To her surprise, Marco pauses again. "Closer," he said. "But, actually, I'm not sure we need to see every one of our big customers engaged. VC's understand that things take time with larger customers. We need *some* engagement from the big customers, I'd guess we need them to be actively implementing. *And* we need our smaller, earlier customers to be very actively *using*. I think that mix will allow us to tell a good story."
+To her surprise, Marco pauses again. "Closer," he said. "But, actually, I'm not sure we need to see every one of our big customers engaged. VC's understand that things take time with larger customers. We need *some* engagement from the big customers, I'd guess we need them to be actively implementing. *And* we need some of our smaller, earlier customers to be very actively *using*. I think that mix will allow us to tell a good story."
 
 "Okay, that's super useful," says Quin eagerly. "Let me say that back, see if I've got it. For us to raise a series A, we need to show we can sell to big customers, we need those big customers to demonstrate commitment by starting to implement, and we need some of our smaller customers to be actively engaged. Putting all of that together will let us tell a good story. Is that about right?"
 
@@ -250,13 +270,13 @@ If you pay careful attention, you may even see them visibly exhale and relax.
 
 Which is exactly the mode you want them to be in, if you're going to turn the corner and now ask them to engage in *your* concerns.
 
-You earn space to advocate, by demonstrating that you are willing to lead with empathy and understanding.
+You will earn space to advocate, by demonstrating that you are willing to lead with empathy and understanding.
 
 This is an incredibly valuable tactic, useful in an incredibly wide variety of situations. If you're only going to take one thing away from this chapter (or, frankly, this book), spend some time learning to effectively echo back and summarize.
 
 We'll talk in the exercises about how to build it up.
 
-** The Saddest Sidebar
+** Leaders Who Are Afraid to Make Decisions
 
 I can't get out of this chapter without mentioning the unfortunate possibility that your stakeholder may *angrily resist* making a clear statement of a *single* strategic intent. Such a stakeholder might say something like:
 
@@ -270,8 +290,8 @@ That said, you still have options in this situation. There's a real chance that,
 
 Thus, in such a case, my recommendation is to just go with your best guess for now -- it's likely pretty good, and having *some* direction to move in is better than just churning around at random.
 
-** Exercises
-*** Develop Strategic Intents
+** Exercises & References
+*** Developing Strategic Intents
 Find some trusted peers or friends, and talk out the strategy of your business. Build a picture of:
 
  - Some centrally important thing your business is trying to achieve, over the next few years
@@ -282,27 +302,45 @@ Find some trusted peers or friends, and talk out the strategy of your business. 
 
 Try to develop a few different formulations of the above, do some work to hone and clarify.
 
-Depending on the size of your company, these outcomes might be scoped to a sub-part of your company vs the entire business.
+Depending on the size of your company, these outcomes might be scoped to a sub-part of your company instead of the entire business.
 
-For further practice, talk this out with friends who work at other companies. Ask what their business is trying to achieve, ask about fundamental challenges they must face, brainstorm different ways their teams might help face those challenges.
+Once you arrive at some statement of strategic intent, ask yourself the key questions:
+
+ - Is it possible to *disagree* with the intent?
+
+ - Does the intent allow you to say *"No"* to things?
+
+If not, continue to refine your statement.
+
+As an experiment, try making your statement of intent "frighteningly opinionated": so clear that your team would have to immediately stop doing some things that "every knows are critically important". See what you find when you do that.
+
+For further practice, talk this out with friends who work at other companies. Ask what their business is trying to achieve, ask about fundamental challenges they must face, brainstorm different ways their teams might help face those challenges. Look for something usefully opinionated.
 
 *** Practicing Guess & Check
 
-Take your strategic intents around, offer them to various people, and invite them to tell you how you got it wrong.
+First, rehearse saying your intent, embedded in a template like the following:
+
+/I wanted to ask something -- my understanding is that, in the next 18-24 months, the most important thing we need to achieve is <X>, and that my team should be supporting that by way of <Y>. Do I have that mostly right? Am I missing anything important?/
+
+Make sure you're able to ask the questions at the end *authentically*. You wan tto channel true curiosity. Feel free to adjust the wording to make it feel more natural for you.
+
+Then, once you've got that comfortable, take your strategic intent around, offer it to various people, and invite them to tell you how you got it wrong.
 
 *** Practicing Echo Back & Summarize
 
-I'm going to take some time to talk about how to learn this one, because it's so foundationally valuable. I have coached dozens of people on this approach. Over and over, I've seen them initially struggle.
+This is a *profoundly* valuable skill. But it takes some effort to master.
 
-Echoing back summaries just *feels* like such a strange way to talk to someone. When you're about to echo or repeat, your brain will tell you "Ugh, they just told you this, don't *bore* them."
+I have coached dozens of people on this approach. Over and over, I've seen them initially struggle.
 
-Once you've practiced the technique, that feeling will fade away. You'll come to realize that people love to hear their own words and thoughts.
+One problem is that echoing back and summarizing just *feels* like such a strange way to talk to someone. When you're about to echo or repeat, your brain will tell you "Ugh, they just told you this, don't *bore* them."
+
+Once you've practiced the technique, that feeling will fade away. People *love* to hear their own words and thoughts.
 
 Another problem is that using these tactics will turn up valuable context, aka things you didn't previously know. When that happens, your mind will suddenly make connections and see new opportunities.
 
 That will often feel *exciting*.
 
-In our scenario Quin suddenly sees ways they could start to track usage and engagement, very soon.
+In our scenario Quin suddenly saw a way they could start to track usage and engagement, very soon.
 
 When that kind of discovery happens, a spike of excitement hormones hits your bloodstream, and your brain immediately *urges* you to share this new awesome idea, right away.
 
@@ -310,19 +348,17 @@ When that kind of discovery happens, a spike of excitement hormones hits your bl
 
 That's a trap -- you are *always* better served by first ensuring you fully understood and that the speaker feels fully heard.
 
-Also, the ideal way to play this game is to clarify the speaker's thoughts, as you echo them back. To make your summary *useful*. That also takes real practice.
+Finally, the ideal way to play this game is to clarify the speaker's thoughts, as you echo them back. To make your summary *useful*. That also takes real practice.
 
-Because of these challenges, it's best to first practice this one when the stakes are low--aka, *not* in a negotiation with a key stakeholder.
+Because of these challenges, it's best to practice echoing back & summarizing when the stakes are low--aka, *not* in a negotiation with a key stakeholder.
 
-Here's the game plan:
-
-First, pick someone you trust. It doesn't have to be a co-worker, I've seen people profitably practice with a friend, roommate, or spouse.
+First, pick someone you trust. It doesn't have to be a co-worker, I've seen people profitably practice with friends, roommates, and spouses.
 
 Ask that person, "I'm working on some active listening skills. Would it be okay if I asked you some questions as part of that?"
 
 # This is for *you*, not for them -- to remove some of your fear of being annoying.
 
-As the conversation starts, tell yourself, "My job is to deliberately use this echoing back tactic *too much* -- my goal is for the other person to say, afterwards, 'Eh, you could have echoed/repeated a bit less'".
+As the conversation starts, tell yourself, "My job is to deliberately use this echoing back tactic *way too much* -- my goal is for the other person to say, afterwards, 'Eh, you could have echoed/repeated a bit less'".
 
 Then, *every single time* the other person says something, say "Let me say that back to you, see if I've got it right." Then say your understanding, then say "Is that about right?"
 
@@ -334,7 +370,7 @@ Then, keep practicing.
 
 Once you've got some basic comfort with it, try it out with a "lower stakes" peer, then move on to stakeholders.
 
-** References
+*** References
 
  - Never Split the Difference
 
