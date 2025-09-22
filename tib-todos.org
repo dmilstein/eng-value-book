@@ -3,34 +3,10 @@ Project/todo list for the Book In Question
 ; (org-clock-csv-to-file "./clock-data.csv")
 
 * Book Inbox                                      :inbox:
-** DONE Book: change four steps?
-CLOSED: [2025-09-14 Sun 09:17]
- - Identify a Strategic Intent
- - Mine for Frustrations, Fears & Dreams
- - Design a Compelling Offer
- - Celebrate Wins With Storytelling
-** DONE Point at stakeholder toc
-CLOSED: [2025-08-11 Mon 08:18]
-** DONE For envision a better way to work, make list of problems
-CLOSED: [2025-08-11 Mon 08:18]
-E.g.
-** DONE Tweak clock color to be not quiet so bright
-CLOSED: [2025-08-12 Tue 08:37]
-org-agenda-clocking, trying AntiqueWhite1
-** DONE Switch "you" to a person in CEO story?
-CLOSED: [2025-08-18 Mon 09:04]
-** DONE Substack: stakeholder = who you can't ignore?
-CLOSED: [2025-08-18 Mon 09:04]
-** DONE Afford to Ignore -- return to Fundamental Game Plan?
-CLOSED: [2025-08-18 Mon 09:05]
-** DONE Fix tense issues in Step 1.
-CLOSED: [2025-08-15 Fri 08:11]
-** DONE For Loop story, decide "you" vs "Quin"
-CLOSED: [2025-08-18 Mon 09:05]
-Like, do I start each section by explaining what "you" do at a high level, then show Quin doing it, then explain it? Or do I start with Quin?
 * [[id:B4926308-39DD-471B-8E71-5FFF7546D6E3][ToC/Structure ]]                                  :gtasks:
 ** TODO Book: try the full sub-head outline breakdown now?
-** TODO Experiment: add exercises to end of each chapter
+** DONE Experiment: add exercises to end of each chapter
+CLOSED: [2025-09-22 Mon 09:17]
 Like, now go do these things
 
 ** TODO Aim for: each section (chapter?) has an *action plan*
@@ -57,134 +33,27 @@ Build Key Context
 ** DONE Maybe: back half of book is all case studies
 CLOSED: [2025-08-18 Mon 09:17]
 * [[id:454225CA-DD66-4ACA-B8B3-429F6551DBDC][New Intro]]                                       :gtasks:
+** TODO Add "how to read this book" -> can skip to case studies
+** TODO Set up learning tactical empathy as real work
+But it will serve you incredibly well.
 ** TODO For TE in intro, steal from existing TE chapter
-** TODO In Intro/Chap 1: cite Tac Empathy throughout
-Maybe define it, there, and mention that we'll be learning it as we go. Requires practice, profoundly powerful and valuable. Will pull out tactics in an appendix as well as scattered throughout
-** DONE Write forward from solving biz problems
-CLOSED: [2025-08-12 Tue 11:01]
-:LOGBOOK:
-CLOCK: [2025-08-12 Tue 09:31]--[2025-08-12 Tue 11:01] =>  1:30
-:END:
-** DONE Say "you need both"
-CLOSED: [2025-08-12 Tue 17:01]
-:LOGBOOK:
-CLOCK: [2025-08-12 Tue 16:52]--[2025-08-12 Tue 17:01] =>  0:09
-:END:
-Both better ways to work together and a way to gradually build trust.
-
-Unstuck
-
-Getting Unstuck
-How Engineers Can Build Trust and Change the Way They Work With Stakeholders
-** DONE Speak to cyclic nature of trust building
-CLOSED: [2025-08-13 Wed 08:51]
-:LOGBOOK:
-CLOCK: [2025-08-13 Wed 08:05]--[2025-08-13 Wed 08:51] =>  0:46
-:END:
-** DONE Speak to "Who is a Stakeholder?"
-CLOSED: [2025-08-13 Wed 10:26]
-:LOGBOOK:
-CLOCK: [2025-08-13 Wed 08:51]--[2025-08-13 Wed 10:26] =>  1:35
-:END:
-** DONE Experiment: tell CEO story next
-CLOSED: [2025-08-14 Thu 07:39]
-:LOGBOOK:
-CLOCK: [2025-08-13 Wed 11:00]--[2025-08-13 Wed 11:28] =>  0:28
-CLOCK: [2025-08-13 Wed 10:37]--[2025-08-13 Wed 10:58] =>  0:21
-:END:
-** DONE Experiment: shrink game plan
-CLOSED: [2025-08-13 Wed 10:26]
 ** TODO Is this "process"? Yes but also no.
 As in, it subsumes process, but also is about the human relationships beneath the process
 ** TODO Speak to "learn better patterns"
 So it's making clear, early on that you don't need to know a better way.
 ** TODO Say: can read the case studies first?
-** DONE Experiment: tell story before game plan?
-CLOSED: [2025-08-14 Thu 07:40]
-** TODO Write New Intro
-:LOGBOOK:
-CLOCK: [2025-08-08 Fri 07:55]--[2025-08-08 Fri 08:27] =>  0:32
-CLOCK: [2025-08-07 Thu 07:48]--[2025-08-07 Thu 08:58] =>  1:10
-CLOCK: [2025-08-06 Wed 16:33]--[2025-08-06 Wed 17:09] =>  0:36
-CLOCK: [2025-08-06 Wed 07:33]--[2025-08-06 Wed 08:36] =>  1:03
-CLOCK: [2025-08-05 Tue 16:40]--[2025-08-05 Tue 17:20] =>  0:40
-CLOCK: [2025-08-05 Tue 09:39]--[2025-08-05 Tue 10:34] =>  0:55
-CLOCK: [2025-08-04 Mon 15:36]--[2025-08-04 Mon 16:27] =>  0:51
-CLOCK: [2025-08-04 Mon 09:23]--[2025-08-04 Mon 10:53] =>  1:30
-CLOCK: [2025-08-03 Sun 16:39]--[2025-08-03 Sun 17:33] =>  0:54
-CLOCK: [2025-08-03 Sun 07:45]--[2025-08-03 Sun 08:26] =>  0:41
-CLOCK: [2025-08-01 Fri 09:20]--[2025-08-01 Fri 11:09] =>  1:49
-CLOCK: [2025-07-31 Thu 16:05]--[2025-07-31 Thu 17:08] =>  1:03
-CLOCK: [2025-07-31 Thu 09:15]--[2025-07-31 Thu 13:01] =>  3:46
-CLOCK: [2025-07-30 Wed 09:16]--[2025-07-30 Wed 11:20] =>  2:04
-CLOCK: [2025-07-29 Tue 09:33]--[2025-07-29 Tue 12:01] =>  2:28
-CLOCK: [2025-07-28 Mon 10:01]--[2025-07-28 Mon 10:55] =>  0:54
-CLOCK: [2025-07-28 Mon 07:10]--[2025-07-28 Mon 08:06] =>  0:56
-CLOCK: [2025-07-26 Sat 09:01]--[2025-07-26 Sat 10:02] =>  1:01
-CLOCK: [2025-07-24 Thu 06:58]--[2025-07-24 Thu 09:07] =>  2:09
-CLOCK: [2025-07-23 Wed 14:01]--[2025-07-23 Wed 15:20] =>  1:19
-CLOCK: [2025-07-23 Wed 10:40]--[2025-07-23 Wed 11:41] =>  1:01
-CLOCK: [2025-07-22 Tue 15:10]--[2025-07-22 Tue 15:33] =>  0:23
-CLOCK: [2025-07-22 Tue 06:54]--[2025-07-22 Tue 08:13] =>  1:19
-CLOCK: [2025-07-22 Tue 06:50]--[2025-07-22 Tue 06:54] =>  0:04
-:END:
 ** TODO Experiment w/ EWJ's summary?
 Half of what they asked for we never finished, half of what remained was never used.
-** DONE Save the full game plan?
-CLOSED: [2025-08-13 Wed 07:43]
-Or, tell it as a lighter story, and then unpack it.
-
-Or, don't worry yet.
-Get to useful things faster?
-** DONE Spike: two interwoven problems
-CLOSED: [2025-08-08 Fri 08:27]
-** DONE Copy from substack + 2 existing intros
-CLOSED: [2025-08-13 Wed 07:42]
-** DONE Move solution to challenges out of intro
-CLOSED: [2025-07-22 Tue 08:11]
-** DONE Break out 3/4 distinct challenges
-CLOSED: [2025-07-29 Tue 11:22]
-** DONE Signal, early on, that I'm not demonizing PMs's
-CLOSED: [2025-07-24 Thu 06:59]
-Like, product *specifically*. In an ideal world, the Product and Engineering team are managing stakeholders together. But we don't live in that world, do we.
-** DONE Try to weave in 'experience of misaligment'
-CLOSED: [2025-07-19 Sat 19:43]
-** DONE First draft "Underlying Challenge"
-CLOSED: [2025-07-16 Wed 15:28]
-** DONE Add a pain around interruptions?
-CLOSED: [2025-07-16 Wed 11:11]
-** DONE Spike on new intro
-CLOSED: [2025-07-15 Tue 12:46]
-** DONE Revise new intro
-CLOSED: [2025-07-16 Wed 11:11]
 * [[id:B0637E99-E30C-4FF8-B8BA-A660454DE08B][The Game Plan]]                                   :gtasks:
-** DONE Rewrite Fundamental Game plan as *failure*?
-CLOSED: [2025-09-14 Sun 11:16]
-:LOGBOOK:
-CLOCK: [2025-09-14 Sun 09:19]--[2025-09-14 Sun 11:16] =>  1:57
-:END:
-So I'm doing story structure. Could even have a helper, who coaches Quin, that's the classic heroic journey. Get the reader really invested, tease with the possibility of success, and then crash down on failure.
+** TODO mention the story will happen in just a few days
 
-I drift towards The Goal, but let myself go there?
-** DONE Pick "you" vs "we" as pronoun
-CLOSED: [2025-09-15 Mon 09:33]
-** DONE For Quin story, be consistent about order
-CLOSED: [2025-09-15 Mon 09:33]
-(e.g. story then principle or other way around)
+In real time
+
+But we're going to unpack it. Once you get more skilled, you can go through this very quickly. But it's not quick the first time.
+** TODO Quin: deepen the problem so the time spent feels good
+Immediately, she needs him to stop randomizing sprints, more long term, she needs to get into partnership with him.
 ** TODO More dramatic priority changes in story setup
-** DONE Finish first "Loop of Improvement"
-CLOSED: [2025-08-19 Tue 10:20]
-:LOGBOOK:
-CLOCK: [2025-08-19 Tue 09:01]--[2025-08-19 Tue 10:20] =>  1:19
-CLOCK: [2025-08-15 Fri 11:40]--[2025-08-15 Fri 12:36] =>  0:56
-CLOCK: [2025-08-15 Fri 07:50]--[2025-08-15 Fri 10:05] =>  2:15
-CLOCK: [2025-08-14 Thu 07:35]--[2025-08-14 Thu 10:17] =>  2:42
-:END:
-** DONE Experiment with succeeding loops
-CLOSED: [2025-08-20 Wed 10:23]
-:LOGBOOK:
-CLOCK: [2025-08-20 Wed 09:11]--[2025-08-20 Wed 10:01] =>  0:50
-:END:
+
 * [[id:A1EF14A2-5F19-488D-926C-A8208142E794][Strat Intent]]                                    :gtasks:
 ** DONE Review Tech Invest chapters
 CLOSED: [2025-09-14 Sun 14:25]
@@ -193,14 +62,39 @@ CLOSED: [2025-09-14 Sun 14:57]
 :LOGBOOK:
 CLOCK: [2025-09-14 Sun 14:15]--[2025-09-14 Sun 14:57] =>  0:42
 :END:
-** TODO Bad first draft Strategic Intent          :curweek:pom:
+** DONE Bad first draft Strategic Intent
+CLOSED: [2025-09-19 Fri 10:29]
 :LOGBOOK:
-CLOCK: [2025-09-17 Wed 09:23]
+CLOCK: [2025-09-19 Fri 10:01]--[2025-09-19 Fri 10:29] =>  0:28
+CLOCK: [2025-09-19 Fri 07:08]--[2025-09-19 Fri 08:55] =>  1:47
+CLOCK: [2025-09-18 Thu 16:42]--[2025-09-18 Thu 17:04] =>  0:22
+CLOCK: [2025-09-17 Wed 11:39]--[2025-09-17 Wed 11:40] =>  0:01
+CLOCK: [2025-09-17 Wed 09:23]--[2025-09-17 Wed 10:53] =>  1:30
 CLOCK: [2025-09-16 Tue 08:31]--[2025-09-16 Tue 11:07] =>  2:36
 :END:
-** TODO Add explicit "Be in detective mode"
-* [[id:5903AFE7-4B1E-422C-8537-2C56BBFBA643][Mine for Context]]                                :gtasks:
-** TODO Bad first draft Mine for Context          :curweek:
+* [[id:5903AFE7-4B1E-422C-8537-2C56BBFBA643][Mine For Feelings]]                               :gtasks:
+** TODO Write bad version: Offer Labeled Feelings :curweek:pom:
+:LOGBOOK:
+CLOCK: [2025-09-22 Mon 10:02]
+:END:
+** TODO Write exercises                           :curweek:
+** TODO Use "I'm worried", "I'm afraid"
+** TODO Have Quin discover Marco's past w/ failed project?
+** TODO Have Quin know one feeling by guessing
+Maybe it's the frustration of things going slow? Or save that, because labeled feeling are so important for negative things, and have her guess the positive feelings, around telling stories.
+** TODO Add "Plug the fear hole"
+** DONE Add explicit "Be in detective mode"
+CLOSED: [2025-09-21 Sun 09:22]
+** DONE Work on more of fears & dreams
+CLOSED: [2025-09-21 Sun 09:22]
+:LOGBOOK:
+CLOCK: [2025-09-21 Sun 08:15]--[2025-09-21 Sun 09:22] =>  1:07
+:END:
+** DONE Bad first draft Mine for Context
+CLOSED: [2025-09-20 Sat 11:41]
+:LOGBOOK:
+CLOCK: [2025-09-20 Sat 09:13]--[2025-09-20 Sat 11:41] =>  2:28
+:END:
 ** DONE Write bad subheads for Mine for Context
 CLOSED: [2025-09-13 Sat 10:22]
 ** DONE Keep pawing away, maybe start writing
@@ -208,15 +102,15 @@ CLOSED: [2025-09-15 Mon 09:35]
 :LOGBOOK:
 CLOCK: [2025-09-14 Sun 09:08]--[2025-09-14 Sun 09:16] =>  0:08
 :END:
-** TODO Insert "echoing back" from Tac Empathy
-** TODO Add "exercise" -- prepend a strategic intent
- - First, describe a frustration, imagine it to your stakeholder
- - Then, prepend a statement of intent
-Hear the difference. Ask someone how it sounds.
+** DONE Insert "echoing back" from Tac Empathy
+CLOSED: [2025-09-20 Sat 11:41]
+** DONE Mention: can just guess
+CLOSED: [2025-09-21 Sun 09:21]
 ** DONE Spike: show failed convos before good ones?
 CLOSED: [2025-09-15 Mon 09:34]
 Ala Mom Test?
-** TODO Use "I'm worried", "I'm afraid"
+* Compelling Offer                                :gtasks:
+** TODO Sketch in learning outcomes               :curweek:
 * [[id:4D62F0DE-2862-45F3-97EE-6AFED5382F2C][Storytelling/Wins ]]                              :gtasks:
 ** TODO Quote White Album: We tell stories in order to live
 ** TODO Review/integrate Mike Isman feedback on storytelling
@@ -312,7 +206,7 @@ CLOSED: [2025-07-16 Wed 10:19]
 ** DONE Draft new email re coaching/helping
 CLOSED: [2025-07-21 Mon 08:11]
 * [[id:49435FCD-0590-44DE-8FC7-585E7BCC8BB2][Tooling]]                                         :gtasks:
-** DONE Produce a viz of writing hours            :curweek:
+** DONE Produce a viz of writing hours
 CLOSED: [2025-09-16 Tue 12:27]
 I did figure out how to dump the clocked hours into a csv, now work with claude to do what I want.
 ** DONE Do I write sub-heads in overall ToC?
@@ -366,13 +260,12 @@ So I can either run full screen or within 80 columns
 ** TODO Look for missing Chapter filetags in scripts
 Because now my wordcount history stuff is sensitive to those being missing.
 ** TODO Create a new chapter template or abbrev?
-* Book Misc                                       :gtasks:
-** TODO Make goals for end of September           :curweek:
-Hours of writing?
+* Book Misc
+** TODO Learn about em v en dash usage            :curweek:
+** TODO Should I feature more actual stories from my past
+E.g. the way he does in NSTD? Vs made up scenarios?
 ** TODO Remember: when to loop in adjacent authority
 (e.g. your own boss)
-** TODO For running example, make it more complex?
-Or speak to the fact that we're starting small?
 ** TODO New book title options
 
 Strip out "engineers"?
@@ -380,6 +273,9 @@ Strip out "engineers"?
 Working With Humans
 Solve Business Problems
 +Despite+ With Bosses, Peers & Stakeholders
+** DONE Make goals for end of September
+CLOSED: [2025-09-19 Fri 10:31]
+Hours of writing?
 ** DONE Notes after Fundamental Game Plan
 CLOSED: [2025-09-15 Mon 09:37]
 The story is so much more effective. Maybe move the concrete ideas to the end?
