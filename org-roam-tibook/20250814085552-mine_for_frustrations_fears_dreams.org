@@ -78,9 +78,9 @@ If you want to understand your stakeholder's fears and dreams, you're going to, 
 
 Unfortunately, it often requires real work to *get people talking at all*.
 
-Luckily, there's a surprising simple tactic that helps a great deal on this front.
+Luckily, there's a surprisingly simple tactic that helps a great deal on this front.
 
-Let's see it in action, with Quin and Marco. First we'll show the challenge, and then we'll lay out the tactic.
+Let's see it in action, with Quin and Marco. First we'll show the challenge, and then we'll lay out the tactic:
 
 One day, Quin notices that Marco seems frustrated after a call with a potential customer. Eager to build up her picture, she says, "I noticed that that call seemed a little frustrating. Can I ask what was going on?"
 
@@ -88,13 +88,11 @@ Marco says shortly, "It's nothing. I'd just like to advance the deal."
 
 He shows no interest in explaining more. This is a near-total failure. Quin hasn't learned anything useful about Marco's feelings, beyond the fact that he'd like this potential customer to *buy their product*. Which, of course, she already knew.
 
-If you were in Quin's shoes with some key stakeholder of yours, what would you do?
+If you were in Quin's shoes with some key stakeholder of yours, what would you do? It kind of seems like the stakeholder actively wants to shut the conversation down. Asking *another* question about their feelings could easily slide over into irritating. Do you just give up and wait for another day? Or do you push for more, despite the risk of triggering frustration?
 
-It might seem like that stakeholder actively wants to shut the conversation down. Asking *another* question about their feelings could easily turn into badgering them. Do you just give up and wait for another day? Or do you push for more, despite the risk of triggering frustration?
+Unfortunately, *neither* of these approaches is likely to help you. Neither will give you the insight you need into your stakeholder's underlying drives.
 
-Neither of these approaches is likely to help you. Neither will give you the insight you need into your stakeholder's underlying drives.
-
-The alternative is to employ a simple and somewhat *bizarrely* effective tactic, "Repeat Trailing Three Words".
+Instead, you can employ a simple and somewhat *bizarrely* effective tactic, "Repeat Trailing Three Words".
 
 Here's how it works.
 
@@ -126,13 +124,15 @@ Marco says nothing for a long moment. A silence opens up between them. Just as Q
 
 Quin tries the tactic once more. "They're talking and talking...?"
 
-This time, there's a slightly shorter pause, before Marco starts up again. "Yeah. I honestly don't know if they're *ever* going to convert. Of if they just like *talking* about their problems."
+This time, there's a slightly shorter pause before Marco starts up again. "Yeah. I honestly don't know if they're *ever* going to convert. Of if they just like *talking* about their problems."
 
 Quin tries again, "About their problems...?"
 
-Marco is now talking more smoothly, there's barely a pause. "Yes. It's almost like these aren't *real* problems. We might be talking about a vitamin, not a pain-killer." [fn:: Reid Hoffman is credited with the vitamin versus pain-killer formulation for product opportunities. "Vitamins" are nice-to-haves. Potential customers will /tell/ you they want such products, but often they're doing so because they feel like they "should". "Pain-killers", on the other hand, are products that solve pressing, painful, important problems.]
+Marco is now talking smoothly, there's barely a pause. "Yes. It's almost like these aren't *real* problems. We might be talking about a vitamin, not a pain-killer."
 
-Quin realizes with a start that she's turned up one of Marco's biggest fears---that ATN might be building something that customers don't truly need. He hasn't said that, once, to her or the team.
+Reid Hoffman is credited with the vitamin versus pain-killer formulation for product opportunities. "Vitamins" are nice-to-haves. Potential customers will /tell/ you they want such products, but often they're doing so because they feel like they "should". "Pain-killers", on the other hand, are products that solve pressing, painful, important problems.
+
+Quin, who knows the vitamin/pain-killer metaphor, realizes with a start that she's turned up one of Marco's biggest fears---that ATN might be building something that customers don't truly need. He hasn't said that, once, to her or the team.
 
 In the moment, she can, believe it or not, simply wrap up the conversation with a slight variation on the tactic. She'll repeat the last few words, and this time, instead of inflecting it as a question, she'll indicate agreement.
 
@@ -142,26 +142,58 @@ In the moment, she can, believe it or not, simply wrap up the conversation with 
 
 Those may look like dry words on the page, but the tactic is *remarkably* effective in person. It's honestly kind of amazing that you can get so far with such a simple approach.[fn:: If you are in some form of therapy, you may realize that your therapist does a lot of this! It really works!]
 
-If you're able to deploy this tactic well, you'll achieve two extremely things:
+If you're able to deploy this tactic well, you'll achieve two extremely valuable things:
 
  - *First, you'll build rapport*
 
    You'll demonstrate, simply by listening, that you want to work *with* the stakeholder to solve their problems.
 
-   Marco started the above conversation half shut-down, struggling with his unstated fear that ATN was pointed in the wrong direection. By the end, he has a sort of cautious hope that maybe Quin understands that risk, and will work with him to face it.
+   Marco started the above conversation half shut-down, struggling with his unstated fear that ATN was pointed in the wrong direection. By the end, he has a sort of cautious hope that Quin maybe understands that risk, and will work with him to face it.
 
  - *Second, you'll acquire context*
 
-   Quin learned that Marco has fears about how deeply customers *need* to put in place remote team-building tools. How much their teams' potential lack of connection *matters*. It might be a "nice to have", not high on their lists.
+   Quin learned that Marco has fears about how deeply customers *need* to put in place remote team-building tools. How much their teams' potential lack of connection *matters*. It might be a "nice to have".
 
    That might help explain why Marco keeps coming back with new feature ideas---doing so is a means to soothe that fear.
 
-   Understanding that is going to be incredibly valuable, if Quin is going to ask him to stop doing that. She can come up with some other way to address that underlying fear.
-
+   Understanding that is going to be incredibly valuable, if Quin is going to ask him to change that behavior pattern. She can come up more productive options to address that underlying fear.
 
 We'll demonstrate how to do so, but first, we'll talk about a second core skill of Tactical Empathy.
 
 ** Tactical Empathy Skill #4: Offer Labeled Feelings
+
+Repeat Trailing Three Words will help get your stakeholder talking, and start to fill in your picture of what they're *feeling*, that they aren't saying outright.
+
+But you need to go further, to come up with answers you can trust to the four key emotion questions.
+
+Unfortunately, just as people are often resistant to showing their emotions, they can *also* easily become defensive if you try to *tell them* what their emotions are.
+
+E.g. if Quin were to say to Marco: "You're afraid that we're not solving an important problem, right?", he might feel accused.
+
+The trick to get around this is to carefully go through two steps, which Chris Voss calls "Labeling" emotions:
+
+ 1. Describe the *situation* your stakeholder is in
+
+ 2. Offer a potential name/label for their emotion, as a *natural response* to that situation
+
+For example, Quin might say:
+
+"We're in a tricky spot. Potential customers keep telling us that they're *interested*, but because we don't have a thing we can *sell* them yet, we're not finding out just *how* interested. It seems like you might be afraid that we're not solving a genuinely *important* problem."
+
+Note that Quin is specifying, in evocative detail, what, in their current situation makes that fear natural.
+
+Also note that, when she then goes to describe his emotional reaction, she prefaces it with "It seems like you might...". She's not *telling* him his feelings, she's *offering* a potential understanding of his feelings.
+
+On the page this may not seem that different, but if you can do the work to lay out the situation first, and then offer that second part in a calm, curious, dispassionate tone, it has a *remarkably* powerful effect. Your stakeholder, instead of feeling *accused*, will feel *relieved*.
+
+As Voss explains, research shows that, by naming their fears out loud in this way, you can actually help people *feel* calmer. It both shows the person that it's "okay to name the fear", and it also engages the rational, problem-solving parts of their brain.
+
+This one takes real practice. Many of us are subtly trained to *not* tell other people their feelings, because doing so will trigger defensiveness. Overcoming that takes real work, and you're going to stumble here and there as you do so.
+
+I find the key is to focus first on developing a specific, empathetic understanding of the *situation* which leads to the feelings. In particular, try to get to the point that, when you describe the situation, the resulting feeling seems *inevitable*.
+
+We'll return to this in the exercises.
+
 ** Exercises
 *** Repeat Trailing Three Words
 
