@@ -92,7 +92,7 @@ This is a near-total failure. Quin hasn't learned anything useful about Marco's 
 
 If you were in Quin's shoes with some key stakeholder of yours, what would you do? It seems like the stakeholder actively wants to shut the conversation down. Asking another question about their feelings could easily slide over into being irritating. Should you just give up and wait for another day? Or should you push for more, despite the risk of actively annoying them?
 
-Unfortunately, *neither* of these approaches is likely to help you. Neither will give you the insight you need into your stakeholder's underlying drives, in order to advocate for change.
+Unfortunately, *neither* of these approaches is likely to help you. Neither will give you the insight you need into your stakeholder's underlying drives, which you need in order to advocate for change.
 
 What you *can* do instead is to employ a simple and somewhat *bizarrely* effective tactic, "Repeat Trailing Three Words".
 
@@ -114,13 +114,17 @@ If you can achieve any form of genuine curiosity as you speak, and if you can st
 
 And they'll *feel* like you're hearing and understanding them.
 
-It shouldn't be this simple. But it totally works.[fn:: If you happen to like romantic comedies, you might catch this *exact tactic* and the book Never Split the Difference being referenced in episode <something> of Nobody Wants This (in the fun B storyline of the two "loser" siblings, what, you're not low-grade obsessed with romcoms?)]
+It shouldn't be this simple. But it totally works.[fn:: If you happen to like romantic comedies, you might catch this *exact tactic* being referenced in episode <something> of Nobody Wants This (in the fun B storyline of the two loser siblings, what, you're not low-grade obsessed with romcoms?)]
 
-Returning again to Quin and Marco, say she's been coached in the Repeat Trailing Three Words tactic by her new mentor.
+** Our Story: Quin Tries Repeat Trailing Three Words
 
-She has asked Marco a question. He has responded with: "It's nothing. I'd just like to advance the deal."
+Returning to Quin and Marco, say she's been coached in this conversational tactic by her new mentor.
 
-To employ the tactic, Quin simply responds, calmly and with genuine curiosity, "Advance the deal...?"
+She starts by asking a question of Marco: "I noticed that that call seemed a little frustrating. Can I ask what was going on?"
+
+He responds brusquely, "It's nothing. I'd just like to advance the deal."
+
+She feels a momentary spike of frustration. Why won't he /talk/ to her? But then she remembers the trailing three words tactic. She takes a breath to focus and then says, calmly and with genuine curiosity, "Advance the deal...?"
 
 Marco says nothing for a long moment. A silence opens up between them. Just as Quin is about to give up, Marco abruptly says, "Yeah, they just keep talking and talking." And then he sits back and frowns.
 
@@ -136,7 +140,7 @@ Reid Hoffman is credited with the vitamin versus pain-killer formulation for pro
 
 Quin, who knows the vitamin/pain-killer metaphor, realizes with a start that she's turned up one of Marco's biggest fears---that ATN might be building something that customers don't truly need. He has not mentioned this fear, even once, to her or the team. She's excited by what she's found, but needs some time to process it.
 
-She can now wrap up the conversation with a slight variation on what she's been doing. She'll once again repeat the last few words Marco said, but this time, instead of inflecting it as a question, she'll indicate agreement.
+She now wraps up the conversation with a slight variation on what she's been doing. She once again repeats the last few words Marco said, but this time, instead of inflecting it as a question, she indicates agreement.
 
 "A vitamin not a pain-killer, got it," she says, nodding her head.
 
@@ -154,11 +158,11 @@ If you're able to deploy this tactic well, you'll achieve two extremely valuable
 
  - *Second, you'll acquire context*
 
-   Quin learned that Marco has fears about how deeply customers *need* to put in place remote team-building tools. How much their teams' potential lack of connection *matters*. ATN's products might be a "nice to have".
+   Quin learned that Marco has fears about how deeply customers *need* to put in place remote team-building tools. How much their teams' potential lack of connection *matters*. ATN's products might be that dreaded failure mode of startups throughtout time: a "nice to have".
 
-   Once she has a little time to think, she realizes this might help explain why Marco keeps coming back with new feature ideas---doing so is a means to soothe that fear.
+   Once Quin has a little time to think, she realizes this might help explain why Marco keeps coming back with new feature ideas---doing so is a means to soothe that fear.
 
-   Understanding that is going to be incredibly valuable, if Quin is going to ask him to change that behavior pattern. She'll have to come up with more productive options to address that underlying fear.
+   Understanding that is going to be incredibly valuable, if Quin is going to ask him to change that behavior pattern.
 
 Now, let's talk about the second Tactical Empathy skill you'll use, when mining for emotions.
 
@@ -166,13 +170,15 @@ Now, let's talk about the second Tactical Empathy skill you'll use, when mining 
 
 Repeat Trailing Three Words will help get your stakeholder talking, and start to fill in your picture of their key emotions.
 
-But if you're going to advocate for change, you often need to go further. To develop a nuanced understanding of their four key emotions...
+But if you're going to advocate for change, you often need to go further.
+
+To develop a nuanced understanding of their four key emotions...
 
 ...you'll need to talk to them *about* their emotions.
 
-Now, I'm imagining many readers, as they read this, visualizing their frustrating, emotionally shut down stakeholder, and saying to themselves "Dan, you are completely stoned. there is no way on earth this is going to work."
+Now, I'm imagining many readers, in this moment, visualizing some frustrating, emotionally shut down stakeholder, and saying to themselves "Dan, you are completely stoned. There is no way on earth this is going to work."
 
-I get it. It may seem literally impossible to imagine that stakeholder opening up to you in any useful way. But I encourage you to study and then practice the tactical empathy skills we've been discussing. You may well find yourself astonished by how far a mix of active listening, echoing, validating and open-ended questions can get you.
+Look, I get it. It may seem literally impossible to imagine that stakeholder opening up to you in any useful way. But I encourage you to study and then practice the tactical empathy skills we've been discussing. You may well find yourself astonished by how far a mix of active listening, echoing, validating and open-ended questions can get you.
 
 Returning to the challenge in front of us, how can you get into a useful conversation with your stakeholder about their emotions?
 
@@ -182,7 +188,7 @@ E.g. imagine Quin were to say to Marco: "Are you afraid that we're not solving a
 
 Although that may be exactly right, there's a very good chance that he will feel accused and become defensive.
 
-This problem is particularly tricky for the tnegative emotions---frustrations and fears. If you try to speak to those, your stakeholder can easily feel like you're accusing them either of being weak, or of being too emotional. But you urgently need to understand frustrations and fears---those two have the potential to absolutely shut down any attempt you to make change.
+This problem is particularly tricky for the tnegative emotions---frustrations and fears. If you try to speak to those, your stakeholder can easily feel like you're accusing them either of being weak, or of being too emotional. But you urgently need to understand frustrations and fears---those two have the potential to absolutely shut down any attempt you make to change.
 
 The trick to get these negative feelings out in the open is to carefully go through two steps, which Chris Voss names "Labeling" emotions:
 
@@ -200,9 +206,11 @@ She immediately follows that up with an offer of a labeled emotion, as a natural
 
 Note that Quin has specified, in some detail, what, in their current situation makes "being afraid" natural ("we can't find out if they're genuinely willing to buy").
 
-Also note that, when she then goes to describe his emotional reaction, she prefaces it with "It seems like you might...". She's not *telling* him his feelings, she's *offering* a potential understanding of his feelings.
+She's also labeled the situation as "tricky", which, again makes "being afraid" of something quite natural.
 
-When you go to make such an offer, it's critical that you preface it with an opening that creates a bit of separation between you and the statement of emotions you're about to make:
+Furthermore, when she then goes to describe his emotional reaction, she prefaces it with "It seems like you might...". She's not *telling* him his feelings, she's *offering* a potential understanding of his feelings.
+
+When you go to make such an offer, it's critical that you preface it with an opening that creates a bit of separation between you and the statement of emotions you're about to make, e.g.:
 
  - "It seems like you might..."
 
@@ -210,9 +218,9 @@ When you go to make such an offer, it's critical that you preface it with an ope
 
  - "I could imagine you might..."
 
-Those create space for the person to hear it as you *trying to understand them*, not announcing their feelings to them.
+Those create space for the person to hear it as you *trying to understand them*, not announcing their feelings to them. Of course, they work far, far better if you can get yourself into a place of genuine curiosity, so that you *are* trying to understand.
 
-To review, here are the two different ways Quin could speak to the fear she thinks Marco might have:
+Let's review the two different ways Quin could speak to the fear she thinks Marco might have:
 
 Direct Question: "Are you afraid that we're not solving an important problem?"
 
@@ -220,11 +228,11 @@ Labeled Offer: "We're in a tricky spot. Potential customers keep telling us that
 
 On the page the two may not seem that different, but if you can do the work to lay out the situation first, and then offer that second part in a calm, curious, dispassionate tone, it has a *remarkably* powerful effect. Your stakeholder, instead of feeling *accused*, will feel *relieved*.
 
-As Voss explains, research shows that, by naming fears out loud in this way, you can actually help people *feel* calmer. It both shows the person that it's okay to name the fear, and it also engages the rational, problem-solving parts of their brain.
+As Voss explains, research shows that, by naming fears out loud in this way, you can actually help people *feel* calmer. It both shows the person that it's okay to openly name the fear, and it also engages the rational, problem-solving parts of their brain.
 
 This approach is *extremely* powerful. But it takes real practice, for two reasons.
 
-First, it takes practice to develop an empathetic understanding of the *situation* which leads to the feelings. The key is to get to the point that, when you describe the situation, the resulting feeling seems *inevitable*. This is very much a learnable skill, and we'll return to in the exercises.
+First, it's often not easy to develop an empathetic understanding of the *situation* which leads to the feelings. The key is to get to the point that, when you describe the situation, the resulting feeling seems *inevitable*. This is very much a learnable skill, and we'll return to it in the exercises.
 
 Second, many of us have learned to *not* talk to other people about their feelings, especially people who seem upset or angry in any way (and especially especially if those people have some form of power). With experience, you'll find that offering labeled emotions almost always makes listeners feel *good*. Once you experience this tactic as defusing tension and anger, it won't feel so risky. But you do have to build up that experience. In the exercises, we'll talk through how to practice this tactic in gradually higher-stakes situations.
 
@@ -265,6 +273,8 @@ Take your most frustrating stakeholder. Come up with a description of their situ
 This doesn't mean *justifying* it, to be clear. It means understanding the story they're telling themselves, the way the world presents to them.
 
 E.g. say your stakeholder is demanding progress across far more initiatives than your team can possibly achieve. Is their boss making unreasonable demands of them? Have they experienced so many software projects as failing, they're trying to cover their bets?
+
+What if you're pissed at your stakeholder? You shouldn't have to be the one to do this work.
 * Structure Ideas
 ** What are my learning outcomes?
 Have I sold the idea enough in the previous chapter, of the value?
