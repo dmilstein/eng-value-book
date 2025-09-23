@@ -73,9 +73,14 @@ CLOCK: [2025-09-17 Wed 09:23]--[2025-09-17 Wed 10:53] =>  1:30
 CLOCK: [2025-09-16 Tue 08:31]--[2025-09-16 Tue 11:07] =>  2:36
 :END:
 * [[id:5903AFE7-4B1E-422C-8537-2C56BBFBA643][Mine For Feelings]]                               :gtasks:
-** TODO Write bad version: Offer Labeled Feelings :curweek:pom:
+** DONE Write bad version: Offer Labeled Feelings :curweek:
+CLOSED: [2025-09-22 Mon 10:38]
 :LOGBOOK:
-CLOCK: [2025-09-22 Mon 10:02]
+CLOCK: [2025-09-22 Mon 10:02]--[2025-09-22 Mon 10:38] =>  0:36
+:END:
+** TODO Write crappy "Putting it all together"    :curweek:pom:
+:LOGBOOK:
+CLOCK: [2025-09-23 Tue 08:30]
 :END:
 ** TODO Write exercises                           :curweek:
 ** TODO Use "I'm worried", "I'm afraid"
@@ -111,6 +116,9 @@ CLOSED: [2025-09-15 Mon 09:34]
 Ala Mom Test?
 * Compelling Offer                                :gtasks:
 ** TODO Sketch in learning outcomes               :curweek:
+:LOGBOOK:
+CLOCK: [2025-09-22 Mon 10:41]--[2025-09-22 Mon 10:43] =>  0:02
+:END:
 * [[id:4D62F0DE-2862-45F3-97EE-6AFED5382F2C][Storytelling/Wins ]]                              :gtasks:
 ** TODO Quote White Album: We tell stories in order to live
 ** TODO Review/integrate Mike Isman feedback on storytelling
@@ -261,7 +269,8 @@ So I can either run full screen or within 80 columns
 Because now my wordcount history stuff is sensitive to those being missing.
 ** TODO Create a new chapter template or abbrev?
 * Book Misc
-** TODO Learn about em v en dash usage            :curweek:
+** DONE Learn about em v en dash usage            :curweek:
+CLOSED: [2025-09-22 Mon 12:25]
 ** TODO Should I feature more actual stories from my past
 E.g. the way he does in NSTD? Vs made up scenarios?
 ** TODO Remember: when to loop in adjacent authority
