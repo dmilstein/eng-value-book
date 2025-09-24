@@ -116,7 +116,7 @@ And they'll *feel* like you're hearing and understanding them.
 
 It shouldn't be this simple. But it totally works.[fn:: If you happen to like romantic comedies, you might catch this *exact tactic* being referenced in episode <something> of Nobody Wants This (in the fun B storyline of the two loser siblings, what, you're not low-grade obsessed with romcoms?)]
 
-** Our Story: Quin Tries Repeat Trailing Three Words
+** Our Story: Quin Draws Marco Out
 
 Returning to Quin and Marco, say she's been coached in this conversational tactic by her new mentor.
 
@@ -236,8 +236,111 @@ First, it's often not easy to develop an empathetic understanding of the *situat
 
 Second, many of us have learned to *not* talk to other people about their feelings, especially people who seem upset or angry in any way (and especially especially if those people have some form of power). With experience, you'll find that offering labeled emotions almost always makes listeners feel *good*. Once you experience this tactic as defusing tension and anger, it won't feel so risky. But you do have to build up that experience. In the exercises, we'll talk through how to practice this tactic in gradually higher-stakes situations.
 
-** Our Story: Putting It All Together
+** Our Story: Quin Puts It All Together
+Over the course of the next few days, Quin employs different tactics to answer the four key emotion questions:
+
 # Quin guesses a few feelings, uses trailing three words, echoes back and summarizes, offers labeled feelings, at the end, Marco feels excited, open, energized.
+
+*Frustrations: What happens, day-to-day, that frustrates Marco?*
+
+This one Quin is able to get to with a straightforward Educated Guess. Marco clearly feels like it takes /forever/ to see progress on the product---that's why he suggested putting pressure on the team to work longer hours.
+
+She starts to fill out the template she got from her mentor:
+
+Frustrations: lack of visible progress (i.e. poor velocity)
+
+*Fears: What is Marco afraid might happen at some point in the future?*
+
+She develops a picture of two related fears.
+
+First, in the scene above, we saw Quin draw out a key fear through Repeat Trailing Three Words and Offer Labeled Emotions: Marco is deeply afraid that, although potential customers *seem* excited about All Together Now's under-development product, they may not truly *need* it.
+
+Answer 1: he is afraid ATN is developing a vitamin, not a pain-killer.
+
+Second, when she dug into Marco's strategic intent for the business (where she used Echo Back & Summarize), she learned that ATN needs to see *engagement* from some of their customers, in order to generate interest from funders.
+
+Answer 2: he is afraid that, even if ATN makes a sale, customers won't end up using the product (and then he'll have nothing to show potential investors).
+
+She extends the template further:
+
+ - Frustrations
+
+   - Lack of visible progress
+
+ - Fears
+
+   - ATN might be developing a vitamin, not a pain-killer
+
+   - Customers might buy but not use, and that will take a long time to learn
+
+Once she's developed this much of the template, she spends a bit of time trying to put herself in Marco's shoes; in particular, she tries to imagine what it would be like to have those fears eating away at her, every day.
+
+She realizes that, in such a situation, she would be *very* tempted to try, somewhat desperately, to make the product *more compelling*. In particular, if she were on a call with a potential customer, and she heard them first describe a feature, and then claim they needed that feature to commit, she might feel intense urgency to do what they asked. Adding that feature might feel like the only way to save ATN from a looming disaster.
+
+She's certain this part of why Marco keeps trying to jam new feature ideas into their development process.
+
+She realizes she can understand and empathize with these underlying fears, even if she thinks the actions they are leading to are profoundly counterproductive.
+
+*Delights: What happens, day-to-day, that makes Marco feel good?*
+
+Here, she comes up with two answers.
+
+First, she can make an Educated Guess, because she sees Marco absolutely light up when he has a chance to try out some sort of new UI, even if the full product isn't working yet. Correspondingly, she's seen him glaze over when the team reports progress on database structures under the hood.
+
+Answer 1: Marco is delighted when he gets to interact with something visual.
+
+She also spends some time thinking about the frustrating stand up meetings. From her perspective, Marco is barging and blowing up the team's focus by forcing an instant brainstorming session about some new feature ideas. She tries to put aside her frustrations for a moment and imagine the situation from Marco's perspective. In particular, what benefits is he getting, from his current behavior?
+
+Part of it, she thinks, is that he is able to channel his fears into some sort of action.
+
+But that's not all, she realizes. When she thinks about Marco, she realizes that, pretty much every time he blows up up one of the team's standups, he goes through the same arc. At the start, he's swirling with excitement and ideas, but doesn't have a clean way to express them. As they talk, he gradually hones in on a coherent way to summarize what he's heard, and what it could mean for the product.  By the end of the brainstorming, he has condensed and clarified his own thinking. And that, she realizes, *feels good* to him. Of course, the team is intensely dizzied and distracted by those same conversations, so they can't keep doing that. But she can very much empathize with Marco wanting to quickly talk out what he has heard from customers, while it's still fresh.
+
+Answer 2: Marco is delighted by quickly turning a customer call into a clean understanding of product options.
+
+She extends the template further:
+
+ - Frustrations
+
+   - Lack of visible progress
+
+ - Fears
+
+   - ATN might be developing a vitamin, not a pain-killer
+
+   - Customers might buy but not use, and that will take a long time to learn
+
+ - Delights
+
+   - Interacting with something visual
+
+   - Clarifying his thinking immediately after customer calls
+
+*Dreams*
+
+Here Quin is going to mix a few tactics together, let's see it in action
+
+# XXX Notes on what to do, here.
+
+# XXX Mix in another fear, around losing control? Or save for next chapter. Yes, save.
+
+She asks him what, if things were go to really great, might happen by the end of next year. (maybe wave a magic wand).
+
+She draws him out with repeat trailing words
+
+Once she has a whole picture, she echoes back and summarizes.
+
+Finally, she offers a labeled understanding of both the excitment and also the fear.
+
+Maybe hone in on her figuring out that he wants the engineers to be *connected* to customers.
+
+ - *What does he dream of or hope for*?
+
+   Quin can see a glint of excitment in his eye when he imagines demoing a product to customers, and seeing them eager to start using it.
+
+   # She's also heard him say more than once that he wants to build a company where everyone feels connected to the customers. She suspects that his constant updates after his customer calls are partly driven by a desire to live up to that vision.
+
+Now that she's got all this critical information, Quin is ready to design a single increment of change.
+
 ** Exercises
 *** Repeat Trailing Three Words
 
