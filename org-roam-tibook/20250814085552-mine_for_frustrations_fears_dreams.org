@@ -178,9 +178,9 @@ To develop a nuanced understanding of their four key emotions...
 
 Now, I'm imagining many readers, in this moment, visualizing some frustrating, emotionally shut down stakeholder, and saying to themselves "Dan, you are completely stoned. There is no way on earth this is going to work."
 
-Look, I get it. It may seem literally impossible to imagine that stakeholder opening up to you in any useful way. But I encourage you to study and then practice the tactical empathy skills we've been discussing. You may well find yourself astonished by how far a mix of active listening, echoing, validating and open-ended questions can get you.
+Look, I get it. It may seem literally impossible to imagine that stakeholder opening up to you in any useful way. But I encourage you to study and then practice the tactical empathy skills we've been discussing. You may well find yourself astonished by how far a mix of active listening, echoing, validating and open-ended questions can get you. Start with people who are lower risk and gradually build up, learning as you go.
 
-Returning to the challenge in front of us, how can you get into a useful conversation with your stakeholder about their emotions?
+Returning to the challenge in front of us, how can you possibly get into a useful conversation with your stakeholder about their emotions?
 
 Just as people are often resistant to showing their emotions, they can *also* easily become defensive if they perceive you as, in any way, *telling them* what their emotions are.
 
@@ -206,11 +206,11 @@ She immediately follows that up with an offer of a labeled emotion, as a natural
 
 Note that Quin has specified, in some detail, what, in their current situation makes "being afraid" natural ("we can't find out if they're genuinely willing to buy").
 
-She's also labeled the situation as "tricky", which, again makes "being afraid" of something quite natural.
+She's also called the overall situation as "tricky", which, again makes "being afraid" of something quite natural.
 
-Furthermore, when she then goes to describe his emotional reaction, she prefaces it with "It seems like you might...". She's not *telling* him his feelings, she's *offering* a potential understanding of his feelings.
+Finally, when she then goes to describe his emotional reaction, she prefaces it with "It seems like you might...". She's not *telling* him his feelings, she's *offering* a potential understanding of his feelings.
 
-When you go to make such an offer, it's critical that you preface it with an opening that creates a bit of separation between you and the statement of emotions you're about to make, e.g.:
+When you make such an offer, it's *critical* that you preface it with an opening that creates separation between you and the statement of emotions you're about to make, e.g.:
 
  - "It seems like you might..."
 
@@ -218,9 +218,9 @@ When you go to make such an offer, it's critical that you preface it with an ope
 
  - "I could imagine you might..."
 
-Those create space for the person to hear it as you *trying to understand them*, not announcing their feelings to them. Of course, they work far, far better if you can get yourself into a place of genuine curiosity, so that you *are* trying to understand.
+Those prefaces allow the person to hear the statement of emotions as you *trying to understand them*, not announcing their feelings to them. Of course, those openings really only work if you can get yourself into a place of genuine curiosity, so that you truly *are* trying to understand.
 
-Let's review the two different ways Quin could speak to the fear she thinks Marco might have:
+Let's review the two different ways Quin could speak to Marco's potential fear:
 
 Direct Question: "Are you afraid that we're not solving an important problem?"
 
@@ -230,24 +230,30 @@ On the page the two may not seem that different, but if you can do the work to l
 
 As Voss explains, research shows that, by naming fears out loud in this way, you can actually help people *feel* calmer. It both shows the person that it's okay to openly name the fear, and it also engages the rational, problem-solving parts of their brain.
 
-This approach is *extremely* powerful. But it takes real practice, for two reasons.
+This approach is *extremely* powerful, but it takes real practice to master, for two reasons.
 
-First, it's often not easy to develop an empathetic understanding of the *situation* which leads to the feelings. The key is to get to the point that, when you describe the situation, the resulting feeling seems *inevitable*. This is very much a learnable skill, and we'll return to it in the exercises.
+First, it's not always easy to develop an empathetic understanding of the *situation* which leads to the feelings. [You also may have to do some work to temporarily let go of your own frustrations or resentments.] You need to get to the point that, when you describe the situation, the resulting feeling seems *inevitable*. This is very much a learnable skill, and we'll return to it in the exercises.
 
 Second, many of us have learned to *not* talk to other people about their feelings, especially people who seem upset or angry in any way (and especially especially if those people have some form of power). With experience, you'll find that offering labeled emotions almost always makes listeners feel *good*. Once you experience this tactic as defusing tension and anger, it won't feel so risky. But you do have to build up that experience. In the exercises, we'll talk through how to practice this tactic in gradually higher-stakes situations.
 
 ** Our Story: Quin Puts It All Together
-Over the course of the next few days, Quin employs different tactics to answer the four key emotion questions:
+
+Over the course of the next few days, Quin employs different tactics to answer the four key emotion questions.
 
 # Quin guesses a few feelings, uses trailing three words, echoes back and summarizes, offers labeled feelings, at the end, Marco feels excited, open, energized.
 
 *Frustrations: What happens, day-to-day, that frustrates Marco?*
 
-This one Quin is able to get to with a straightforward Educated Guess. Marco clearly feels like it takes /forever/ to see progress on the product---that's why he suggested putting pressure on the team to work longer hours.
+Here Quin simply makes an educated guess. Marco clearly feels like it takes /forever/ to see progress on the product---that's why he suggested putting pressure on the team to work longer hours.
 
 She starts to fill out the template she got from her mentor:
 
-Frustrations: lack of visible progress (i.e. poor velocity)
+ - Frustrations
+   - Lack of visible progress (i.e. poor velocity)
+ - Fears
+ - Delights
+ - Dreams
+
 
 *Fears: What is Marco afraid might happen at some point in the future?*
 
@@ -255,13 +261,9 @@ She develops a picture of two related fears.
 
 First, in the scene above, we saw Quin draw out a key fear through Repeat Trailing Three Words and Offer Labeled Emotions: Marco is deeply afraid that, although potential customers *seem* excited about All Together Now's under-development product, they may not truly *need* it.
 
-Answer 1: he is afraid ATN is developing a vitamin, not a pain-killer.
-
 Second, when she dug into Marco's strategic intent for the business (where she used Echo Back & Summarize), she learned that ATN needs to see *engagement* from some of their customers, in order to generate interest from funders.
 
-Answer 2: he is afraid that, even if ATN makes a sale, customers won't end up using the product (and then he'll have nothing to show potential investors).
-
-She extends the template further:
+She extends the template:
 
  - Frustrations
 
@@ -271,33 +273,35 @@ She extends the template further:
 
    - ATN might be developing a vitamin, not a pain-killer
 
-   - Customers might buy but not use, and that will take a long time to learn
+   - Customers might buy but not use (and that could take a long time to learn)
 
-Once she's developed this much of the template, she spends a bit of time trying to put herself in Marco's shoes; in particular, she tries to imagine what it would be like to have those fears eating away at her, every day.
+ - Delights
 
-She realizes that, in such a situation, she would be *very* tempted to try, somewhat desperately, to make the product *more compelling*. In particular, if she were on a call with a potential customer, and she heard them first describe a feature, and then claim they needed that feature to commit, she might feel intense urgency to do what they asked. Adding that feature might feel like the only way to save ATN from a looming disaster.
+ - Dreams
 
-She's certain this part of why Marco keeps trying to jam new feature ideas into their development process.
+Once she's developed this much of the template, she spends some time trying to put herself in Marco's shoes; in particular, she tries to imagine what it would be like to have those fears eating away at her, every day.
+
+She realizes that, in such a situation, she would be *very* tempted to try, somewhat desperately, to make the product *more compelling*. In particular, if she were on a call with a potential customer, and she heard them first describe a feature, and then claim they *needed* that feature, she might feel intense urgency to do what they asked. Rational thinking aside, adding that feature might *feel* like the only way to save ATN from a looming disaster.
+
+She's certain this is part of why Marco keeps trying to jam new feature ideas into their development process.
 
 She realizes she can understand and empathize with these underlying fears, even if she thinks the actions they are leading to are profoundly counterproductive.
 
 *Delights: What happens, day-to-day, that makes Marco feel good?*
 
-Here, she comes up with two answers.
+Here, she again comes up with two answers.
 
-First, she can make an Educated Guess, because she sees Marco absolutely light up when he has a chance to try out some sort of new UI, even if the full product isn't working yet. Correspondingly, she's seen him glaze over when the team reports progress on database structures under the hood.
+First, she's always seen Marco absolutely light up when he has a chance to try out a new UI. On the other hand, she's also seen him consistently glaze over when the team reports progress on modeling some key concept in the database, or adding a new data integration.
 
-Answer 1: Marco is delighted when he gets to interact with something visual.
+She also spends some time thinking about the stand up meetings. From her perspective, Marco is barging and blowing up the team's focus by forcing an instant brainstorming session about some new feature idea. She tries to put aside her frustrations for a moment and imagine the situation from Marco's perspective. In particular, what benefits is he getting, from his current behavior?
 
-She also spends some time thinking about the frustrating stand up meetings. From her perspective, Marco is barging and blowing up the team's focus by forcing an instant brainstorming session about some new feature ideas. She tries to put aside her frustrations for a moment and imagine the situation from Marco's perspective. In particular, what benefits is he getting, from his current behavior?
+# XXX The next time it happens, she observes with curiosity, rather than seething with frustrations.
 
 Part of it, she thinks, is that he is able to channel his fears into some sort of action.
 
-But that's not all, she realizes. When she thinks about Marco, she realizes that, pretty much every time he blows up up one of the team's standups, he goes through the same arc. At the start, he's swirling with excitement and ideas, but doesn't have a clean way to express them. As they talk, he gradually hones in on a coherent way to summarize what he's heard, and what it could mean for the product.  By the end of the brainstorming, he has condensed and clarified his own thinking. And that, she realizes, *feels good* to him. Of course, the team is intensely dizzied and distracted by those same conversations, so they can't keep doing that. But she can very much empathize with Marco wanting to quickly talk out what he has heard from customers, while it's still fresh.
+But that's not all, she realizes. When she thinks about Marco, she realizes that, pretty much every time he blows up up one of the team's standups, he goes through the same arc. At the start, he's swirling with excitement and ideas, but doesn't have a clean way to express them. As they talk, he gradually hones in on a coherent way to summarize what he's heard. By the end of the brainstorming, he has condensed and clarified his own thinking, and understands some options for extending the product. Going through that arc, she realizes, *feels good* to Marco. Of course, the team is intensely dizzied and distracted by those same conversations, so they can't keep doing it. But she can very much empathize with Marco wanting to quickly talk out what he has heard from customers, while it's still fresh.
 
-Answer 2: Marco is delighted by quickly turning a customer call into a clean understanding of product options.
-
-She extends the template further:
+She extends her template further:
 
  - Frustrations
 
@@ -315,69 +319,118 @@ She extends the template further:
 
    - Clarifying his thinking immediately after customer calls
 
+ - Dreams
+
 *Dreams*
 
-Here Quin is going to mix a few tactics together, let's see it in action
+Quin thinks Marco is motivated *both* by building a successful business, and *also* by genuinely helping people to feel more connected to their colleagues. She's heard him speak about the close friendships he made at his very first job, fed out of afternoon breaks at the Foosball table and lunches grabbed in the atrium of their office building.
 
-# XXX Notes on what to do, here.
+# Maybe name: laughter as a key in that? "He laughs when he talks about those friends."
 
-# XXX Mix in another fear, around losing control? Or save for next chapter. Yes, save.
+She finishes her draft of the template:
 
-She asks him what, if things were go to really great, might happen by the end of next year. (maybe wave a magic wand).
+ - Frustrations
 
-She draws him out with repeat trailing words
+   - Lack of visible progress
 
-Once she has a whole picture, she echoes back and summarizes.
+ - Fears
 
-Finally, she offers a labeled understanding of both the excitment and also the fear.
+   - ATN might be developing a vitamin, not a pain-killer
 
-Maybe hone in on her figuring out that he wants the engineers to be *connected* to customers.
+   - Customers might buy but not use, and that will take a long time to learn
 
- - *What does he dream of or hope for*?
+ - Delights
 
-   Quin can see a glint of excitment in his eye when he imagines demoing a product to customers, and seeing them eager to start using it.
+   - Interacting with something visual
 
-   # She's also heard him say more than once that he wants to build a company where everyone feels connected to the customers. She suspects that his constant updates after his customer calls are partly driven by a desire to live up to that vision.
+   - Clarifying his thinking immediately after customer calls
 
-Now that she's got all this critical information, Quin is ready to design a single increment of change.
+ - Dreams
+
+   - Building a successful business that creates genuine connections between people
+
+Quin now has everything she needs to make a compelling offer. She can offer Marco things he wants---greater velocity, visual UX prototypes he can interact with, options to more quickly learn just how valuable and compelling their product might be.
+
+When she challenges him to change his behavior, she can offer him new, less disruptive ways to work together that will still give him what he wants and needs.
+
+Throughout it all, the work to develop a genuinely empathetic understanding will allow her to advocate effectively.
+
+In the next chapter, we'll how to put this all together.
 
 ** Exercises
+*** What if you're too angry at your stakeholder to do this?
+
+You may feel that you shouldn't have to be the one to do this work. Honestly, you may very well be right in that feeling. Far too many leaders don't take responsibility for the impact their behavior has on the people over whom they have authority.
+
+That said, an act of intentional, deliberate empathy on your part can, ultimately, *give you control*. It can be a path to getting what *you* want and need. I encourage you to see if you can engage with these tactics.
+
 *** Repeat Trailing Three Words
 
-Because it's so simple, there are two good ways to practice the Repeat Trailing Three Words tactic.
+This one is simple enough that I recommend building up the skill across various parts of your life.
 
-1) Experiment In Random Parts of Your Life
+Whenever you can, in whatever conversations you find yourself in, try repeating the last few words someone says to you, inflected as a question. Try it in both professional and personal contexts, try it with your manager, try it with your peers, with your spouse, kids, neighbors.
 
-Whenever you can, in whatever conversations you find yourself in, try repeating the last few words someone says to you, inflected as a question. Try it in both professional and personal contexts, try it with your boss, try it with your peers, with your spouse, kids, neighbors, whoever.
+As you do, be sure you:
 
-Do it over and over, and you'll find your own authentic way in, and it'll start to feel and more more natural.
+ - Allow yourself to be in a place of genuine curiosity
 
-If you start by using it just once in a given conversation, then, as that feels comfortable, see how long you can keep someone talking and opening up by just repeating those last three words of each thing they say to you.[fn:: "Dan, this whole active listening thing has helped my relationship with [insert spouse's name]", is something I've heard let's just say, a bunch of times.])
+ - Say only the last three or four words back
 
-As above, take a bit of time to explicitly reflect on how it feels to do it, and use that reflection to tweak your personal approach.
+ - Wait silently for a response, even if it feels uncomfortable
 
-For an initial, focused period of practice to rewire yourself, aim to do this 2-3 times/day for a week, and see where that lands you.
+Practice over and over. As you do, take some time to reflect on how it feels, and use that reflection to tweak your personal approach.
 
-2) Explicitly Test With a Trusted Friend
+Once you have some comfort with it, see how long you can keep someone talking and opening up by just repeating those last three words of each thing they say to you.
 
-Tell a friend you want to work on active listening, and then ask them a series of questions to dig into some issue -- maybe specifically something close to the kind of conversations you might have with a stakeholder.
+For an initial, focused period of practice to rewire yourself, aim to do this at least two to three times a day, every day for a week.
 
-E.g. you could say "I want to practice some active listening sikills I'm working on. Would it be okay if I ask you some questions about your work?"
+*** Labeled Feelings - The Offering Preface
+*** Labeled Feelings - Empathetic Situation Descriptions
+
+Take your most frustrating stakeholder. Come up with a description of their situation that makes their frustrating behavior an inevitable response.
+
+This doesn't mean *justifying* it, to be clear. It means understanding the story they're telling themselves, the way the world presents to them.
+
+E.g. say your stakeholder is demanding progress across far more initiatives than your team can possibly achieve, and seems angrily unwilling to consider narrowing scope.
+
+Is their boss making unreasonable demands of them?
+
+Have they experienced so many software projects as failing, they're trying to cover their bets?
+
+Talk this out with people you work with, see if you can learn something new about what might be driving the frustrating feelings and behavior.
+
+*** Combining Tactical Empathy Tactics
+2) Test Combined Tactics With a Trusted Friend
+
+Tell a friend you want to work on active listening, and then ask them a series of questions to dig into some issue---maybe specifically something close to the kind of conversations you might have with a stakeholder.
+
+E.g. you could say "I want to practice some active listening skills I'm working on. Would it be okay if I ask you some questions about your work?"
 
 And then see if you can dig for information about what they're most worried about, and what they most hope to achieve, using the repeat trailing three words tactic as you go.
 
 At the end, pause and ask for feedback from them on how it felt for them.
 
 During a period of focused practice, do this 3-4 separate times, and again, make sure you make time to reflect.
-*** Labeled Feelings
 
-Take your most frustrating stakeholder. Come up with a description of their situation that makes their frustrating behavior an inevitable response.
+*** Fill Out the Four Emotions Template
 
-This doesn't mean *justifying* it, to be clear. It means understanding the story they're telling themselves, the way the world presents to them.
+ - *Frustrations*
 
-E.g. say your stakeholder is demanding progress across far more initiatives than your team can possibly achieve. Is their boss making unreasonable demands of them? Have they experienced so many software projects as failing, they're trying to cover their bets?
+   What happens, day-to-day, that frustrates your stakeholder?
 
-What if you're pissed at your stakeholder? You shouldn't have to be the one to do this work.
+ - *Fears*
+
+   What are they afraid might happen at some point in the future?
+
+ - *Delights*
+
+   What happens, day-to-day, that makes your stakeholder feel good?
+
+ - *Dreams*
+
+   What do they most fondly hope happens at some point in the future?
+
+
 * Structure Ideas
 ** What are my learning outcomes?
 Have I sold the idea enough in the previous chapter, of the value?
