@@ -434,6 +434,8 @@ First, explore a couple of different prefaces, and find one you can work with:
 
  - "I could imagine you might feel..."
 
+ - "It could be easy to feel..."
+
 Choose one, and just rehearse it over and over until you can get through it, precisely word for word, without effort. Make 100% certain you're not dropping the key prefatory words (e.g. "It seems like you might...").
 
 This is likely to feel pretty unnatural at first. That's okay. Getting the knack of inserting this preface is like learning a physical skill---it takes practice to make it smooth.
@@ -474,11 +476,11 @@ Then:
 
 Don't let yourself dance around or avoid saying the feeling. Put yourself in a place of curiosity and then, from that place, be *painfully* simple and direct. End your offer inflected as a question, and then *stop talking*.
 
-In particular, try to *not* say something like:
+Try to *not* say something like:
 
-"I'm just wondering, maybe, you said that he kept asking for meetings, like a lot of meetings. That's not great, of course. I sometimes have had that happen. At my last job, ugh. This is for the important project, right? Maybe that, is sometimes, I don't know, maybe a bit, like, frustrating. Or maybe not, maybe it's not that bad? I know you mostly like your boss, right?"
+"I'm just wondering, maybe, you said that he kept asking for meetings, like a lot of meetings? That's not great, of course. I sometimes have had that happen. At my last job, ugh. This is for the important project, right? Maybe that, is sometimes, I don't know, maybe a bit, like, frustrating. Or maybe not, maybe it's not that bad? I know you mostly like your boss, right?"
 
-That kind of scattered talking is the fear taking over your brain. It's telling you that the person won't want to hear their feelings out loud. The fear will desperately try to convince you to stall ("I sometimes have had that happen", "the important project, right?"). The moemnt you actually *do* say something at all direct, the fear will urge you to immediately walk it back ("Or maybe not...", "you mostly like your boss, right?").
+That kind of scattered talking is the fear taking over your brain. It's telling you that the person won't want to hear their feelings out loud. The fear will desperately try to convince you to stall ("I sometimes have had that happen", "the important project, right?"). The moment say something at all direct, the fear will urge you to immediately walk it back ("Or maybe not...", "you mostly like your boss, right?").
 
 This is why you're practicing with a friend.
 
@@ -486,36 +488,37 @@ You have to get yourself into that place of discomfort in speaking directly to e
 
 After you've done a few rounds of this, ask your friend how it felt. Dig in specifically to whether or not they felt like you understood how they were feeling. Ask if anything you said sounded odd or pushy.
 
-Then, try again. Take the time to notice how *you're* feeling, in the midst of this.
+Then, try again.
+
+Take the time to notice how *you're* feeling, in the midst of this.
 
 *** Labeled Feelings - Empathetic Situation Descriptions
 
-Take your most frustrating stakeholder. Come up with a description of their situation that makes their frustrating behavior an inevitable response.
+Pick a stakeholder who exhibits some specific, frustrating behavior.
 
-This doesn't mean *justifying* it, to be clear. It means understanding the story they're telling themselves, the way the world presents to them.
+Then, take the time to develop a description of their situation that would make their frustrating behavior an *inevitable response*.
 
-E.g. say your stakeholder is demanding progress across far more initiatives than your team can possibly achieve, and seems angrily unwilling to consider narrowing scope.
+This doesn't mean *justifying* their behavior.
 
-Is their boss making unreasonable demands of them?
+It means understanding the story they're telling themselves, the way the world presents to them.
 
-Have they experienced so many software projects as failing, they're trying to cover their bets?
+E.g. say your stakeholder is demanding progress across multiple initiatives at once, and seems angrily unwilling to consider narrowing scope.
+
+What might be a way to describe their situation that makes this behavior an inevitable response?
+
+ - Is *their* boss making unreasonable demands of them, and they don't feel like there's any way they can push back?
+
+ - Did they misunderstand an earlier scoping and estimating exercise, so they're only now realizing that they have overpromised things to other people?
+
+ - Have they experienced so many software projects as failing, they've "learned" that they need to push the engineers?
+
+Again, developing this empathetic statement doesn't mean their behavior is *right*. It means you can see genuinely how it might *seem* right to them, given their context.
 
 Talk this out with people you work with, see if you can learn something new about what might be driving the frustrating feelings and behavior.
 
-*** Combining Tactical Empathy Tactics
-2) Test Combined Tactics With a Trusted Friend
-
-Tell a friend you want to work on active listening, and then ask them a series of questions to dig into some issue---maybe specifically something close to the kind of conversations you might have with a stakeholder.
-
-E.g. you could say "I want to practice some active listening skills I'm working on. Would it be okay if I ask you some questions about your work?"
-
-And then see if you can dig for information about what they're most worried about, and what they most hope to achieve, using the repeat trailing three words tactic as you go.
-
-At the end, pause and ask for feedback from them on how it felt for them.
-
-During a period of focused practice, do this 3-4 separate times, and again, make sure you make time to reflect.
-
 *** Fill Out the Four Emotions Template
+
+Now, put all your new tactical empathy skills together to fill out the template for your stakeholder:
 
  - *Frustrations*
 
