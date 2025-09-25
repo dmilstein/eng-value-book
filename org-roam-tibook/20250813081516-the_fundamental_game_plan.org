@@ -3,7 +3,7 @@
 :END:
 #+title: The Improvement Game Plan
 #+filetags: :Chapter:
-* The Improvement Game Plan
+* A Game Plan For Making Improvements
 ** Make Improvements in Small Increments
 
 You're going to make things better through a *series of small steps*, not via one big sweeping change.
@@ -28,7 +28,7 @@ Because of these reasons, we'll run the game plan as a series of *Increments of 
 
 The necessity of working incrementally is, believe it or not, good news! You can, with creative thinking, apply much of your experience in iterative software and product development. Only here you're applying it to a group of humans, instead of a pile of code.
 
-** Identify One "Stakeholder" For Each Increment
+** Focus On One Stakeholder For Each Increment
 
 For each increment of the game plan, you'll choose a single key person to focus on.
 
