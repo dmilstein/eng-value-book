@@ -48,7 +48,10 @@ Engineering & The Creation of Value, Part III
 
 
 * New Post
-The company needs a new product, the engineering team needs to stop clawing their eyes out every time they deploy to production. Those concerns are not actually in conflict! They represent two investment opportunities with a common goal -- increasing company value, by acquiring evidence that would cause Bertha, our economically rational investor, to be willing to pay *more* for our company.
+
+The company needs a new product, the engineering team needs to stop clawing their eyes out every time they deploy to production.
+
+Those concerns are not actually in conflict! They represent two investment opportunities with a common goal -- increasing company value, by acquiring evidence that would cause Bertha, our economically rational investor, to be willing to pay *more* for our company.
 
 The acquiring of evidence is one of the most powerful ways to understand potential investments.
 
@@ -60,15 +63,15 @@ For each, we'll ask: "What evidence would Bertha need, to increase her estimate 
 
 The evidence/estimate frame will cast a light into many murky areas.
 
-"How Do People Make Demands Of Engineering? Let Me Count The Ways"
+** How Do People Make Demands Of Engineering? Let Me Count The Ways
 
-We're going to start each one from the perspective of a "problem" that someone might want an engineering team to solve.
+# We're going to start each one from the perspective of a "problem" that someone might want an engineering team to solve. We'll characterize those as "demands".
 
-I'm going to break these problems out into three buckets, based on where, in the organization, I've typically seen the problems or pains localized. Your organization may vary! But I find this useful, because people rarely come to engineering teams with truly clear thinking about overall company strategy and their place within it. Rather, they're essentially always worried about some local problem for their function, which they then try to dress up in impressive and/or moralizing terms (e.g. "This is a huge opportunity!", or "Don't you care about the customer?!")
+I'm going to break these problems out into three buckets, based on where, in the organization, I've typically seen the problems or pains localized. Your organization may vary! But I find this useful, because people rarely come to engineering teams with truly clear thinking about overall company strategy and their place within it. Rather, they're just about always worried about some local problem for their function, which they then try to dress up in impressive and/or moralizing terms (e.g. "This is a huge opportunity!", or "Don't you care about the customer?!")
 
 The whole point of this post is to show that all of these problems can be compared against each other, on a common ground.
 
-Sales & Marketing
+*** Sales & Marketing
 
 Typical demands:
 
@@ -78,11 +81,11 @@ Typical demands:
 
  - Fix bugs
 
-Concerns of these groups are frequently seen as the only economically valid problems. Of course, company leaders won't say it in those flowery academic words. They'll just talk about adding new products or fixing bugs as addressing "actual business problems". By which they're demonstrating that they consider other problems *not* real business problems. We're not going to fall into that trap!
+Sales & Marketing concerns are sometimes (tbh, *usually*) seen as the only economically valid problems for the company. Of course, company leaders won't say it in those flowery academic words. They'll just talk about adding new products or fixing bugs as addressing "actual business problems". By which they're demonstrating that they consider other problems *not* real business problems. We're not going to fall into that trap!
 
-Internal Operations
+*** Internal Operations
 
-E.g. the customer support desk, the data ingestion team, the business intelligence group, the warehousing and fulfillment teams.
+E.g. the customer support desk, the data ingestion team, a business intelligence group, the warehousing and fulfillment teams.
 
 Typical demands:
 
@@ -92,10 +95,9 @@ Typical demands:
 
  - Add support for a new operation
 
+*** Engineering
 
-Engineering
-
-Typical demands:
+Typical demands (of... themselves):
 
  - Clean up or replace "bad" code
 
@@ -105,12 +107,38 @@ Typical demands:
 
  - Address system performance issues
 
-Wait, why is the product team not listed? Haha! The product team is the person of whom demands are made! They have the awesome power of saying no to people (aka prioritization), and with it the attendant awesome power of everyone being kind of mad at them, all the time!
+*** Product
 
-This is the "product function" at its heart. If you don't have a product team (or if your product team is a project management team in disguise), ask: who decides which problems are important enough to solve? How is that updated over time, as more information comes in? That person is serving the product function.
+Haha!
 
-Alright, let's go:
+They make no demands!
 
+The product team is the people of whom demands are made! They have the awesome power of saying no to people (aka prioritization), and with it the attendant awesome power of everyone being kind of mad at them, all the time!
+
+This is the "product function" at its heart. They are responsible for disappointing people by saying no.
+
+If you don't have a product team, or if your product team seems to be kind of a project management team in disguise, you can figure out who is serving the product function by asking: who decides which problems are important enough to solve? Who gets to disappoint people?
+
+Sometimes this is an engineering leader. One sign that this might be the case is that various engineers are frustrated with that leader for "not allowing them to deal with tech debt" (to be clear, engineers are, to a first approximation, *always* frustrated with someone for not letting them deal with tech debt. It's when that frustration is focused on an engineering lead instead of a product manager that you might suspect the engineering lead is serving the product function).
+
+
+
+
+** Sales & Marketing Demands
+
+Remember, value is created by acquiring *evidence* that will increase a probablistic *estimate* of future profits
+
+How can an engineering team create value, when confronted with the following demands? What questions should they ask, to orient? What answers might they hear that could make them push back?
+
+I'm going to be inevitably blurring the line between engineering and product here. I make no apologies for this! I have never seen a high-functioning engineering team where the engineering lead wasn't able to think like a product manager. I have seen... some... high-functioning engineering teams that didn't have a PM, but, honestly, not that many. There's simply too much to do, across the two functions, to have one person have both the skills and the capacity to handle both. The "product-minded" engineering lead just  ends up basically being a PM, in those cases, and finds that they're spending all their time talking with stakeholders and/or trying to triage concerns from the help desk, and/or preparing for meetings with the exec team, and/or trying to quickly learn customer interview or presentation design skills, etc.
+
+*** Develop new products
+
+
+
+*** Add features for a specific segment of customers
+
+*** Fix bugs
 
 * Old Turn "Engineering Concerns" Into Potential Value, I
 ** Intro
