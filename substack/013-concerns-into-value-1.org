@@ -1,5 +1,119 @@
-* Turn "Engineering Concerns" Into Potential Value, I
+* Scraps/Thinking
 
+** Random Thinking
+The "this is valuable when/not valuable when" thing worked super well.
+
+I do really like the idea of unifying across product/engineering/operations, showing them all with a common, true view.
+
+What if I make a central point about the unification, so I can show both top-down and bottom-up concerns through a common lens?
+
+
+** Good/Bad Engineering Activities
+*** Rapidly Banging Out Prototypes
+*** Building Complex Data Pipelines
+*** Cleaning Up Horrible Code
+*** Investing in "DevOps" or "Dev Experience"
+*** Retiring/Upgrading Old Infrastructure
+*** Developing New Products to Expand TAM or $/Customer
+*** Adding Features for Big Customers
+*** Making It Possible to Sell to Smaller Customers
+*** Making Internal Operations Easier
+*** Making Onboarding Easier
+*** Writing Lots and Lots and Lots of New Code, Super Fast
+
+** Contextual Situations
+Can I run that through. What are my four forms of value so far?
+
+Existing Forms of Value:
+
+ - "This Code Is a Nightmare From The Black Depths of Hell"
+
+ - "Deploying To Production Saps My Will To Live"
+
+ - "I Can't Find a Moment to Think"
+
+ - "The Database Is On the Verge of Death And No One Cares"
+
+
+** Possible Titles
+Turn "Engineering Concerns" Into Potential Value, I
+
+The Landscape of Potential Value
+
+The Unifying Force of Potential Value
+
+Seeing Engineering Work Through the Lens of Value
+
+Engineering & The Creation of Value, Part III
+
+
+* New Post
+The company needs a new product, the engineering team needs to stop clawing their eyes out every time they deploy to production. Those concerns are not actually in conflict! They represent two investment opportunities with a common goal -- increasing company value, by acquiring evidence that would cause Bertha, our economically rational investor, to be willing to pay *more* for our company.
+
+The acquiring of evidence is one of the most powerful ways to understand potential investments.
+
+It covers both "simple" situations, like closing new customers who add to this year's top-line revenue, but also more nuanced ones, like, a team that rapidly chews through three different product hypotheses, invalidates two of them and makes a critical discovery about a third. That key discovery creates *evidence* that the company is on the verge of building a valuable new product. Bertha, in reviewing that, may even consider that action as having created a greater probabilistic increase in future profits than closing a few new customers (though, note, closing those new customers can create evidence that the company can keep growing, which, in some situations, might be the most important evidence of all).
+
+To understand how to apply this model for understanding potential investments, we're going to dig into a variety of situations, and illustrate the key questions you can ask, if you want to maximize the value you and your team can create, with the hours of work you're spending, right now.
+
+For each, we'll ask: "What evidence would Bertha need, to increase her estimate of future profits?"
+
+The evidence/estimate frame will cast a light into many murky areas.
+
+"How Do People Make Demands Of Engineering? Let Me Count The Ways"
+
+We're going to start each one from the perspective of a "problem" that someone might want an engineering team to solve.
+
+I'm going to break these problems out into three buckets, based on where, in the organization, I've typically seen the problems or pains localized. Your organization may vary! But I find this useful, because people rarely come to engineering teams with truly clear thinking about overall company strategy and their place within it. Rather, they're essentially always worried about some local problem for their function, which they then try to dress up in impressive and/or moralizing terms (e.g. "This is a huge opportunity!", or "Don't you care about the customer?!")
+
+The whole point of this post is to show that all of these problems can be compared against each other, on a common ground.
+
+Sales & Marketing
+
+Typical demands:
+
+ - Develop new products
+
+ - Add features for a specific segment of customers (e.g. enterprise)
+
+ - Fix bugs
+
+Concerns of these groups are frequently seen as the only economically valid problems. Of course, company leaders won't say it in those flowery academic words. They'll just talk about adding new products or fixing bugs as addressing "actual business problems". By which they're demonstrating that they consider other problems *not* real business problems. We're not going to fall into that trap!
+
+Internal Operations
+
+E.g. the customer support desk, the data ingestion team, the business intelligence group, the warehousing and fulfillment teams.
+
+Typical demands:
+
+ - Automate repetitive work
+
+ - Handle exceptional/severe problems
+
+ - Add support for a new operation
+
+
+Engineering
+
+Typical demands:
+
+ - Clean up or replace "bad" code
+
+ - Upgrade or retire old infrastructure
+
+ - Make it easier to deploy changes to production
+
+ - Address system performance issues
+
+Wait, why is the product team not listed? Haha! The product team is the person of whom demands are made! They have the awesome power of saying no to people (aka prioritization), and with it the attendant awesome power of everyone being kind of mad at them, all the time!
+
+This is the "product function" at its heart. If you don't have a product team (or if your product team is a project management team in disguise), ask: who decides which problems are important enough to solve? How is that updated over time, as more information comes in? That person is serving the product function.
+
+Alright, let's go:
+
+
+* Old Turn "Engineering Concerns" Into Potential Value, I
+** Intro
 # Getting a Handle on Interruptions
 
 # Hmm, When You Put It That Way, That Does Sound Pretty Important
