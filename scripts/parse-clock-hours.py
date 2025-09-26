@@ -6,6 +6,7 @@ Outputs a sorted list of dates and total hours clocked.
 
 import re
 import sys
+import os
 from collections import defaultdict
 from datetime import datetime, timedelta
 
@@ -48,6 +49,19 @@ def create_hours_bar(hours: float, max_hours: float, width: int = 10) -> str:
 
     return bar
 
+def is_substack_heading(line):
+    """
+    Check if a line is a heading that contains "Substack" in an org-style link.
+    Expected format: * [[link][Substack]] or similar
+    """
+    # Check if it's a heading line (starts with *)
+    if not line.strip().startswith('*'):
+        return False
+    
+    # Check if it contains an org-style link with "Substack" as the title
+    link_pattern = r'\[\[[^\]]*\]\[([^\]]*Substack[^\]]*)\]\]'
+    return bool(re.search(link_pattern, line, re.IGNORECASE))
+
 def parse_clock_line(line):
     """
     Parse a CLOCK line and return (date, hours) or None if invalid.
@@ -71,6 +85,49 @@ def parse_clock_line(line):
 
     return None
 
+def process_file_with_substack_filter(file_path, hours_by_date):
+    """
+    Process a file and only count CLOCK lines that are under Substack headings.
+    """
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            lines = f.readlines()
+        
+        in_substack_section = False
+        current_heading_level = 0
+        
+        for line_num, line in enumerate(lines, 1):
+            line_stripped = line.strip()
+            
+            # Check if this is a heading line
+            if line_stripped.startswith('*'):
+                # Count the number of stars to determine heading level
+                heading_level = len(line_stripped) - len(line_stripped.lstrip('*'))
+                
+                # Check if this is a Substack heading
+                if is_substack_heading(line_stripped):
+                    in_substack_section = True
+                    current_heading_level = heading_level
+                else:
+                    # If we encounter a heading at the same or higher level, we're out of the Substack section
+                    if in_substack_section and heading_level <= current_heading_level:
+                        in_substack_section = False
+            
+            # Process CLOCK lines only if we're in a Substack section
+            elif in_substack_section and 'CLOCK:' in line_stripped:
+                result = parse_clock_line(line_stripped)
+                if result:
+                    date, hours = result
+                    hours_by_date[date] += hours
+                else:
+                    print(f"Warning: Could not parse CLOCK line {line_num} in {file_path}: {line_stripped}", file=sys.stderr)
+    
+    except FileNotFoundError:
+        # File doesn't exist, that's okay for optional files
+        pass
+    except Exception as e:
+        print(f"Error reading file {file_path}: {e}", file=sys.stderr)
+
 def main():
     if len(sys.argv) > 1:
         filename = sys.argv[1]
@@ -80,7 +137,7 @@ def main():
     # Dictionary to sum hours by date
     hours_by_date = defaultdict(float)
 
-    # List of files to process
+    # List of files to process (tib-todos files - process all CLOCK lines)
     files_to_process = [filename]
 
     # Add archive file if it exists
@@ -91,7 +148,7 @@ def main():
     except FileNotFoundError:
         pass  # Archive file doesn't exist, that's okay
 
-    # Process each file
+    # Process tib-todos files (all CLOCK lines)
     for current_file in files_to_process:
         try:
             with open(current_file, 'r', encoding='utf-8') as f:
@@ -113,6 +170,16 @@ def main():
         except Exception as e:
             print(f"Error reading file {current_file}: {e}", file=sys.stderr)
             sys.exit(1)
+
+    # Process coach-todos files (only CLOCK lines under Substack headings)
+    coach_todos_dir = "/Users/danmil/Dropbox/Projects/CoachTeach/"
+    coach_files = [
+        os.path.join(coach_todos_dir, "coach-todos.org"),
+        os.path.join(coach_todos_dir, "coach-todos.org_archive")
+    ]
+    
+    for coach_file in coach_files:
+        process_file_with_substack_filter(coach_file, hours_by_date)
 
     # Sort by date and output
     if hours_by_date:
