@@ -57,7 +57,7 @@ The acquiring of evidence is one of the most powerful ways to understand potenti
 
 It covers both "simple" situations, like closing new customers who add to this year's top-line revenue, but also more nuanced ones, like, a team that rapidly chews through three different product hypotheses, invalidates two of them and makes a critical discovery about a third. That key discovery creates *evidence* that the company is on the verge of building a valuable new product. Bertha, in reviewing that, may even consider that action as having created a greater probabilistic increase in future profits than closing a few new customers (though, note, closing those new customers can create evidence that the company can keep growing, which, in some situations, might be the most important evidence of all).
 
-To understand how to apply this model for understanding potential investments, we're going to dig into a variety of situations, and illustrate the key questions you can ask, if you want to maximize the value you and your team can create, with the hours of work you're spending, right now.
+To understand how to apply this model for understanding engineering work, we're going to dig into a variety of situations, and illustrate the key questions you can ask, if you want to maximize the value you and your team can create, with the hours of work you're spending, right now.
 
 For each, we'll ask: "What evidence would Bertha need, to increase her estimate of future profits?"
 
@@ -67,7 +67,7 @@ The evidence/estimate frame will cast a light into many murky areas.
 
 # We're going to start each one from the perspective of a "problem" that someone might want an engineering team to solve. We'll characterize those as "demands".
 
-I'm going to break these problems out into three buckets, based on where, in the organization, I've typically seen the problems or pains localized. Your organization may vary! But I find this useful, because people rarely come to engineering teams with truly clear thinking about overall company value creation and their place within it. Rather, they're just about always worried about some local problem for their function, which they then try to dress up in impressive and/or moralizing terms (e.g. "This is a huge opportunity!", or "Don't you care about the customer?!")
+I'm going to break "demands of engineering" into three buckets, based on where, in the organization, I've typically seen the demands come from. People rarely come to engineering teams with truly clear thinking about overall company value creation and their place within it. Rather, they're just about always worried about some local problem for their function, which they then try to dress up in impressive and/or moralizing terms (e.g. "This is a huge opportunity!", or "Don't you care about the customer?!")
 
 The whole point of this post is to show that all of these problems can be compared against each other, on a common ground.
 
@@ -77,9 +77,9 @@ Typical demands:
 
  - Develop new products
 
- - Add features for a specific segment of customers (e.g. enterprise)
+ - Add features to existing products
 
- - Fix bugs
+ - Fix bugs in existing products
 
 *** Internal Operations
 
@@ -111,15 +111,17 @@ Haha!
 
 The product team is the people of whom demands are made! They have the awesome power of saying no to people (aka prioritization), and with it the attendant awesome power of everyone being kind of mad at them, all the time!
 
-This is the "product function" at its heart. Being responsible for disappointing people by saying no.
+This is the "product function" at its heart---disappointing people by saying no.
 
-If you don't have a product team, or if your product team seems to be kind of a project management team in disguise, you can figure out who is serving the product function by asking: who decides which problems are important enough to solve? Who gets to disappoint people? Who continually updates their understanding of reality to adjust the answers to those questions as you go?
+If you don't have a product team, or if your product team seems to be kind of a project management team in disguise, you can figure out who is serving the product function by asking: Who gets to/has to disappoint other people? Who decides which problems are important enough to solve? Who continually updates their understanding of reality to adjust the answers to those questions as you go?
 
-Sometimes this is an engineering leader.
+There are plenty of situations [cases, times] where the person doing the "product funtion" is actually an engineering leader.
 
-One sign that this might be the case is that various engineers are frustrated with that leader for "not allowing them to deal with tech debt" (to be clear, engineers are, to a first approximation, *always* frustrated with someone for not letting them deal with tech debt. It's when that frustration is focused on an engineering lead instead of a product manager that you might suspect the engineering lead is serving the product function).
+One sign that this might be the case is that various IC engineers on the team are frustrated with that leader for "not allowing them to deal with tech debt".
 
-** Evalauating Demands of the Engineering Teams
+Engineers are, to a first approximation, *always* frustrated with someone for not letting them deal with tech debt. if the engineers focus that frustration on an engineering lead instead of a nearby product manager, that could be a clue about who is serving the product function.
+
+** Evaluating Demands of the Engineering Teams
 
 Company value is created by acquiring *evidence* that will increase Bertha's probablistic *estimate* of future profits.
 
@@ -129,35 +131,92 @@ What questions should they ask, to orient?
 
 What answers might they hear that could make them push back?
 
-Wait, you might be saying, does't the product manager ask these questions? Didn't you just say, Dan, that the product team is the one of whom demand are made?
+"Wait", you might be saying, "isn't this the product manager's job?"
 
-I'm going to be inevitably blurring the line between engineering and product here. I make no apologies for this!
+"Didn't you just say, Dan, that the product team is the one of whom demands are made? Shouldn't they be digging in, on these questions?"
 
-I have *never* seen a high-functioning engineering team where the engineering lead wasn't able to think like a product manager. So, if you're an engineering leader, even if your product peer will ultimately make the prioritization calls, you'll very, very much want to understand how your team's work could ultimately turn into value for the company. You want to be an *active partner* in that prioritization decision[fn:: And if you're product peer doesn't seem interested in that kind of partnership, being able to speak to potential value can be very powerful. This is a common topic of my coaching practice -- helping engineering leaders "earn their way" into a greater degree of influence and partnership.]
+Look, I'm going to be blurring the line between engineering and product here, and *I make no apologies for this*.
 
-If you're a product manager, I think I'm describing a core function of your job? Hopefully that's kind of useful?
+I have *never* seen a high-functioning engineering team where the engineering lead wasn't able to think like a product manager. So, if you're an engineering leader, even if your product peer will ultimately make the prioritization calls, I *highly* recommend that you understand how your team's work could ultimately turn into value for the company. To excel at your job, you need to be an *active partner* in that prioritization decision.
 
-But wait, you might still be saying, we don't have PM's.
+Note: if your product peer doesn't currently seem interested in that kind of partnership, being able to speak to potential value can be a very powerful way to gradually change the dynamic between you. Unsurprisingly, this is a common topic of my coaching practice: helping engineering leaders "earn their way" into a greater degree of influence and partnership. I wrote about a form of this in <Fixing the Engineering/Stakeholder API>.
+
+On the other hand, if you're a product manager, I think I'm describing a core function of your job? Hopefully that's kind of useful?
+
+"But wait, Dan", you might still be saying, "my team doesn't have a PM."
 
 I have seen... some... high-functioning engineering teams that didn't have a PM.
 
-But, honestly, not that many. There's simply too much to do, across the two functions, to have one person have both the skills and the capacity to handle both. If you get rid of your PM's, the "product-minded" engineering lead will soon find that that they're spending all their time talking with stakeholders and/or trying to triage concerns from the help desk, and/or preparing for meetings with the exec team, and/or trying to quickly learn customer interview or presentation design skills, etc. Aka, they're just being a PM. And, every day, they're feeling like they're doing an increasingly bad job of staying on top of the evolving architecture of their systems, or mentoring promising early-career engineers, or steadily flushing out key risks and opportunities, etc. Aka, they're not being effective as an engineering leader. There's a stereotypical conversation I find myself in with young engineering leads who are considering quitting their jobs when they find themselves in this situation.
+But, honestly, not that many. There's simply too much to do, across the two functions, to have one person have both the skills and the capacity to handle both. If you get rid of your PM's, your "product-minded" engineering lead can easily find that that they're spending all their time talking with stakeholders and/or trying to triage concerns from the help desk, and/or preparing for meetings with the exec team, and/or trying to quickly learn customer interview or presentation design skills, etc. Aka, they're just being a PM. And, every day, they're feeling like they're doing an increasingly bad job of staying on top of the evolving architecture of their systems, or mentoring promising early-career engineers, or steadily flushing out key risks and opportunities, etc. Aka, they're not being effective as an engineering leader. There's a conversation I find myself in, not infrequently, with young engineering leads who have found themselves in this situation and are thinking about leaving their jobs.
 
-In short: Product Managers can be *incredibly* valuable! Don't get rid of them lightly!
+In short: I believe Product Managers can be *extremely* valuable! Don't get rid of them lightly!
 
-Yes, at a somewhat painfully wide variety of places, the PM's may be doing a poor job (though I'm always suspicious of structural reasons as well as weak performance). In my in-no-way humble opinion, the optimal answer is *never* to just get rid of product. I believe this passionately. (if you want to learn more, this is, um, exactly the kind of thing I like to help my coaching clients with).
+Yes, at a somewhat painfully wide variety of places, the PM's may be doing a poor job (though I'm always suspicious of structural reasons as well as weak performance). In my in-no-way humble opinion, the optimal answer is just about *never* to simply get rid of product. I believe this passionately. (again unsurprisingly, this is very much the kind of thing I help my coaching clients wrestle with).
 
 Okay, I'll get off my soapbox now.
 
 ** Sales & Marketing Demands
 
-Sales & Marketing concerns are somewhat distressingly often seen as the only economically valid problems for the company. Of course, company leaders won't say it in those flowery academic words. They'll just talk about adding new products or fixing bugs as addressing "actual business problems". By which they're demonstrating that they consider other problems *not* real business problems. We're not going to fall into that trap!
+First off: Sales & Marketing-sourced problems are somewhat distressingly often seen as the only economically valuable problems for the engineering team to work on.
 
-*** Develop new products
+Of course, company leaders won't say it in those flowery academic words. They'll instead talk about adding new products or fixing bugs as addressing "actual business problems", or "being customer-centric". By which they're demonstrating that they consider problems identified by other parts of the business as *not* real business problems, or as not serving the morally pure purpose of centring customers[fn:: Look, if you've managed to work at a company where a push to be be "more customer-centric" *didn't* immediately become a means for powerful people to sabotage the prioritization process by elevating their evidence-free opinions about customers into moral imperatives, I'll be thrilled to hear about it. But I am batting negative one thousand on that one. At this point, I've decided to just go immediately to the mat when someone self-importantly announces we should all be more customer-centric.].
 
-*** Add features for a specific segment of customers
+We're going to avoid falling into that trap.
 
-*** Fix bugs
+*** Develop New Products
+
+This one feels obvious, right? If the engineering team can build a new product that customers will pay for, then Bertha, our economically rational investor, will happily increase her estimate of the future stream of profits, and thus the value of the company will increase.
+
+Great, we can move on---
+
+Waitwaitwait.
+
+Understanding value creation *during* new product development is a total cesspit of confusion. In particular, there are a couple of extremely common anti-patterns to watch out for.
+
+Here is the absolute key to understanding the *incremental* creation of value, as you work on developing a new product:
+
+Bertha, being economically rational, *doesn't think you're going to succeed*.
+
+Most new product development efforts *fail*.
+
+Most new product ideas *fail* (especially as they are initially conceived of).
+
+An economically rational investor will look *extremely suspiciously* at your CEO's optimistic PowerPoint deck, the one that explains how the new product your team is going to develop will double revenue over the next three years. Bertha has seen *plenty* of such decks, and very few companies who actually achieved the promised increase in revenue (and, essentially *none* who achieved that increase in revenue without significantly changing their original plan).
+
+To properly understand value creation in new product development, you should think of your company as considering a *set* of product ideas it could potentially invest in. At any moment, your company doesn't actually know which product ideas (if any) in that set will turn out to be both valuable to customers and feasible to build.
+
+A rational investor will therefore assign a weighted average across all of them -- and, unless you have evidence, that expected return from any one new product idea is quite low.
+
+# If, say, on average one out of ten of product ideas turn into a modest increase in profits, then Bertha's *current* estimate of future profits will be one tenth of that modest increase.
+
+Given this context, value is created during new product development by two activities:
+
+ - *Learning* which products idea, if any, are potentially valuable
+
+ - Actually *building* those product
+
+The best teams *interleave* these two activities, so that they iteratively hone in on a product customers will pay for, steadily learning and adapting as they go.
+
+There are two classic failure modes companies fall into, here:
+
+ 1. They try to do all the learning before they start building
+
+Aka, conduct full market research before a team can start, try to analyize it all up front, and then fully commit to a single bet.
+
+ 2. They try to do the building, "as fast as possible", by not slowing down to learn as they go
+
+Just go with what some executive is "certain customers want", and don't do anything to test that with customers and/or reality as you build.
+
+
+
+
+
+
+
+*** Add Features To Existing Products
+
+*** Fix Bugs In Existing Products
+
 
 * Old Turn "Engineering Concerns" Into Potential Value, I
 ** Intro
