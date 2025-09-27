@@ -3,7 +3,7 @@
 
 In our previous posts in this series, (Link, Link), we developed a model for how engineers can *create value* for the companies at which they work.
 
-We dug deeply into how investors determine what a company is *worth*, aka what it is *valued* at.  We established that the work an engineer does *creates value* if that work:
+We dug deeply into how investors determine what a company is *worth*, which is to say, what it is *valued* at.  We established that the work an engineer does *creates value* if that work:
 
  - Increases the probabilistic estimate of future profits...
 
@@ -11,17 +11,19 @@ We dug deeply into how investors determine what a company is *worth*, aka what i
 
  - who possesses information known both inside and outside the company.
 
-We named our economically rational investor *Bertha*.
+Furthemore, we named our economically rational investor *Bertha*.
 
-Armed with this fuller understanding of how value is created, we're ready to explore various kinds of engineering work.
+Armed with this fuller understanding of how value is created (and this made-up person!), we're ready to explore various kinds of engineering work.
 
 In particular, we're ready to analyze [explore, dig into] a wide variety of different *demands* that can be made of engineering teams, and undertand when the engineer teams should agree to those demands, and when they should push back.
 
-# XXX Make above Suck Less
+# XXX Make Above Suck Less (MASL)
 
-** Acquiring Evidence Drives The Creation Of Value
+** Value Is Created By The Acquiring Of Evidence
 
-Let's start with a classic tension:
+# Let's start with a classic tension:
+
+Stop me if you've heard this one before:
 
  - The company desperately needs a new product, it's all the CEO can talk about
 
@@ -31,29 +33,37 @@ Should the team work on the "business" problem (building a new product, asap), o
 
 First off, these are *both business problems*. They are *both* opportunities to create value.
 
-Now, it's easy (and maybe even typical) to think of the new product opportunity as more important because it creates "immediate" value (being able to acquire new customers), whereas an improvement in deploys is less important, because it will take a long time for such an improvement to either generate revenue or reduce costs for the business.
+Now, it's easy (and maybe even typical!) to think of the new product opportunity as more important because it creates "immediate" value (being able to acquire new customers), whereas an improvement in deploys is less important, because it will take a long time for such an improvement to either generate revenue or reduce costs for the business.
 
-But that perspective is *profoundly wrong*. It falls into the trap of equating company value with present revenue.
+That perspective is *profoundly wrong*. It falls into the trap of equating company value with current revenue.
 
-Value is not current revenue, value is a rational investor's probabilistic estimate of *future* profits. Therefore, value can accrue *immediately*, even if the actual increase in profits will take a long time to land. If Bertha, our rational investor, suddenly decides that expected future profits are now twice as large as she had previously believed, the company will *immediately* double in value.
+Value is not current revenue, value is a rational investor's probabilistic estimate of *future* profits. Therefore, value can accrue *immediately*, even if the actual increase in profits will take a long time to land. If Bertha, our rational investor, suddenly decides that expected future profits are now twice as large as she had previously believed, the company will *immediately* double in value. In the very moment that she changes her mind.
 
-Why would Bertha change her mind about expected future profits?
+Why would Bertha suddenly change her mind about expected future profits?
 
-Beause she saw *evidence*.
+Beause she saw a new piece of *evidence*.
 
 For *both* of our potential investment opportunities, Bertha will *only* change her estimate of future profits if she sees *evidence*.
 
-That evidence could be some customers who have purchased the new product---which will provide Bertha with evidence that the company can keep growing revenues, and therefore profits, over time.
+For the new product, that evidence might be some customers actually purchasing the new product. But it could also be a series of extremely positive customer pre-sales conversations, with clear signals of intent to later buy. It could even simply be evidence that customers are already spending money to try to solve the problem the product helps solve.
 
-Or the evidence could be an increase in the frequency of deploys---which, because Bertha has read Accelerate [link], she understands as predictive of an increase in profits over time.
+Each of those outcomes would provide Bertha with a different form of evidence that this new product will allow the company to keep growing revenues, and therefore profits, over time. Each of those pieces of evidence would therefore immediately increase the value of the company (to different amounts, to be clear).
 
-In the extreme cases, almost all engineers already understand this.
+A team who had *acquired* that evidence would therefore have created value for the company.
 
-Say an engineer joins a company, with an express mandate to build a new product. On their first day, that engineer discovers to their horror that the company only ships to production once per quarter. In such a situation, just about every engineer I know would feel *extremely confident* in telling their leadership that improving deploy frequency is their absolute top priority.
+On the deploys side, the evidence might be an increase in the frequency of deploys. But it could also be a reduction in the time to make a single deploy.
 
-They would just do that because it "felt good" to them. They'd do that because, at some level, they believe that their new company has essentially zero chance of successfully developing a new product if it takes up to twelve weeks to get anything new to production.
+Because Bertha has read Accelerate [link], she understands each of those as predictive of an increase in profits over time.
 
-Let's further dig into this scenario. Say that, after their first two months of work, the new engineer has cleaned up a variety of issues, and now, when they look at their little deploy frequency graph, they see that, for the most recent three week period, deploys were happening once per week. A rational investor, who understands the impact of infrequent deploys on product development,  would look at that graph as *evidence*, and based on that evidence, would *immediately* ascribe a higher likelihood of the company successfully developing a new product and thus increasing profits.
+A team who can show *evidence* that they've increased the frequency of deploys will have immediately created value for their company.
+
+In the extreme cases, almost all engineers already intuitively understand this, though they don't use these precise words.
+
+Say an engineer joins a B2B SaaS company, with an express mandate to quickly build a new product. However, on their first day, that engineer discovers to their horror that the company only ships to production *once per quarter*. In such a situation, just about every engineer I know would feel an urgent desire to tell their leadership that improving deploy frequency should be their top priority.
+
+That engineer would not make that case that just because deploying more often "feels good" to them. They'd advocate for more frequent deploys because they believe (correctly!) that their new company has essentially zero chance of successfully developing a new product if it takes up to twelve weeks to get anything new to production.
+
+Let's further dig into this scenario. Say that, after their first two months of work, the new engineer has cleaned up a variety of issues, and now, when they look at their little deploy frequency graph, they see that, for the most recent three week period, deploys were happening once per week. An investor who understands the impact of deploy frequency on product development, would look at that graph as *evidence*, and based on that evidence, would *immediately* ascribe a higher likelihood of the company successfully developing a new product and thus increasing profits.
 
 The moment that graph exists, and could be shared with a rational investor, the company *immediately* becomes more valuable. Even if the actual revenue comes in much later.
 
