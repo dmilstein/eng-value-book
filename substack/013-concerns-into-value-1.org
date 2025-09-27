@@ -1,9 +1,9 @@
-* New Post
+* Engineering & The Creation of Value, Part III
 ** Intro
 
 In our previous posts in this series, (Link, Link), we developed a model for how engineers can *create value* for the companies at which they work.
 
-We dug deeply into how investors determine what a company is *worth*, which is to say, what it is *valued* at.  We established that the work an engineer does *creates value* if that work:
+We dug deeply into how investors determine what a company is *worth*, also known as what it is *valued at*.  We established that the work an engineer does *creates value* if that work:
 
  - Increases the probabilistic estimate of future profits...
 
@@ -11,7 +11,7 @@ We dug deeply into how investors determine what a company is *worth*, which is t
 
  - who possesses information known both inside and outside the company.
 
-Furthemore, we named our economically rational investor *Bertha*.
+Furthermore, we named our economically rational investor *Bertha*.
 
 Armed with this fuller understanding of how value is created (and this made-up person!), we're ready to explore various kinds of engineering work.
 
@@ -20,6 +20,8 @@ In particular, we're ready to analyze [explore, dig into] a wide variety of diff
 # XXX Make Above Suck Less (MASL)
 
 ** Value Is Created By The Acquiring Of Evidence
+
+# The Acquisition of Evidence
 
 # Let's start with a classic tension:
 
@@ -31,39 +33,43 @@ Stop me if you've heard this one before:
 
 Should the team work on the "business" problem (building a new product, asap), or the "engineering" problem (smoothing out the path to production)?
 
-First off, these are *both business problems*. They are *both* opportunities to create value.
+First off, let's clear up our terminology: these are *both business problems*. They are *both* opportunities to create value.
 
-Now, it's easy (and maybe even typical!) to think of the new product opportunity as more important because it creates "immediate" value (being able to acquire new customers), whereas an improvement in deploys is less important, because it will take a long time for such an improvement to either generate revenue or reduce costs for the business.
+It's easy (and maybe even typical!) to think of the new product opportunity as *more important* because it creates "immediate" value (being able to acquire new customers), whereas a reduction in deploy pain is *less important*, because it will take a long time for such an improvement to either generate revenue or reduce costs for the business.
 
 That perspective is *profoundly wrong*. It falls into the trap of equating company value with current revenue.
 
-Value is not current revenue, value is a rational investor's probabilistic estimate of *future* profits. Therefore, value can accrue *immediately*, even if the actual increase in profits will take a long time to land. If Bertha, our rational investor, suddenly decides that expected future profits are now twice as large as she had previously believed, the company will *immediately* double in value. In the very moment that she changes her mind.
+Company value is not current revenue, company value is a rational investor's probabilistic estimate of *future profits*. Crucially, value can accrue *immediately*, even if the actual increase in profits will take a long time to land. Say that, at some moment on a Tuesday morning, Bertha, our rational investor, suddenly decides to double her estimate of future profits for our company. In that moment, the company will *immediately* double in value. In the very moment that she changes her mind. If a team had somehow gotten her to change her mind, that team will have created an enormous amount of value for their company. *Immediately*.
 
 Why would Bertha suddenly change her mind about expected future profits?
 
-Beause she saw a new piece of *evidence*.
+For a simple reason: beause she saw a new piece of *evidence*.
 
-For *both* of our potential investment opportunities, Bertha will *only* change her estimate of future profits if she sees *evidence*.
+Bertha *only* ever changes her estimate of future profits if she sees evidence.
 
-For the new product, that evidence might be some customers actually purchasing the new product. But it could also be a series of extremely positive customer pre-sales conversations, with clear signals of intent to later buy. It could even simply be evidence that customers are already spending money to try to solve the problem the product helps solve.
+Let's see how that plays out for our two potential investment opportunities.
 
-Each of those outcomes would provide Bertha with a different form of evidence that this new product will allow the company to keep growing revenues, and therefore profits, over time. Each of those pieces of evidence would therefore immediately increase the value of the company (to different amounts, to be clear).
+For the new product, evidence might be customers purchasing the new product. It could also be a series of extremely positive customer pre-sales conversations, with clear signals of intent to later buy. It could even simply be discovering that customers are already spending money to try to solve the problem the product focuses on.
 
-A team who had *acquired* that evidence would therefore have created value for the company.
+Each of these outcomes would provide Bertha with a different form of evidence that this new product will allow the company to keep growing revenues, and therefore profits, over time. Each of those pieces of evidence would therefore immediately increase the value of the company (to different amounts, to be clear)[fn:: Current revenue *is* a powerful predictor of future revenue. Which is why investors short-hand valuation by simply picking revenue multiples. But, inside a company, as we're evaluating fine-grained activities, we need a more nuanced model].
 
-On the deploys side, the evidence might be an increase in the frequency of deploys. But it could also be a reduction in the time to make a single deploy.
+A team who *acquires* that evidence therefore immediately creates value for the company.
 
-Because Bertha has read Accelerate [link], she understands each of those as predictive of an increase in profits over time.
+On the deploys side, the evidence might be an increase in the frequency of deploys. Or it could be a reduction in the time to make a single deploy.
 
-A team who can show *evidence* that they've increased the frequency of deploys will have immediately created value for their company.
+Because Bertha has read Accelerate [link], she understands each of these as predictive of an increase in profits over time.
 
-In the extreme cases, almost all engineers already intuitively understand this, though they don't use these precise words.
+A team who can show *evidence* that they've increased the frequency of deploys immediately creates value for their company.
 
-Say an engineer joins a B2B SaaS company, with an express mandate to quickly build a new product. However, on their first day, that engineer discovers to their horror that the company only ships to production *once per quarter*. In such a situation, just about every engineer I know would feel an urgent desire to tell their leadership that improving deploy frequency should be their top priority.
+This may sound a bit abstract or hard to believe, but, in extreme cases, almost all engineers already intuitively understand this.
 
-That engineer would not make that case that just because deploying more often "feels good" to them. They'd advocate for more frequent deploys because they believe (correctly!) that their new company has essentially zero chance of successfully developing a new product if it takes up to twelve weeks to get anything new to production.
+# Name the engineer? Jorja?
 
-Let's further dig into this scenario. Say that, after their first two months of work, the new engineer has cleaned up a variety of issues, and now, when they look at their little deploy frequency graph, they see that, for the most recent three week period, deploys were happening once per week. An investor who understands the impact of deploy frequency on product development, would look at that graph as *evidence*, and based on that evidence, would *immediately* ascribe a higher likelihood of the company successfully developing a new product and thus increasing profits.
+Say an engineer joins a B2B SaaS company, with an express mandate to build a new product over the succeeding year. However, on their first day, that engineer discovers to their horror that the company only ships to production *once per quarter*. In such a situation, just about every engineer I know would feel an urgent desire to tell their leadership that improving deploy processes should be their top priority.
+
+That engineer would not make that case because easy deploys "feel good". They'd advocate for work on deploys because they believe (correctly!) that their new company has essentially zero chance of successfully developing a new product in a year if they can only ship to production four times during that period.
+
+Say that, after their first two months of work, the new engineer has cleaned up a variety of issues, and now, when they look at their little deploy frequency graph, they see that, for the most recent three week period, deploys were happening once per week. An investor who understands the impact of deploy frequency on product development would look at that graph as *evidence*, and based on that evidence, would *immediately* ascribe a higher likelihood of the company successfully developing a new product and thus increasing profits.
 
 The moment that graph exists, and could be shared with a rational investor, the company *immediately* becomes more valuable. Even if the actual revenue comes in much later.
 
@@ -73,21 +79,21 @@ This is critical to both understand and, well, *believe*.
 
 Of course, there's every chance that your key stakeholders neither understand nor believe this. That's okay! By having this understanding yourself, you'll be able to advocate for work which, over time, pays off.
 
-# It covers both "simple" situations, like closing new customers who add to this year's top-line revenue, but also more nuanced ones, like, a team that rapidly chews through three different product hypotheses, invalidates two of them and makes a critical discovery about a third. That key discovery creates *evidence* that the company is on the verge of building a valuable new product. Bertha, in reviewing that, may even consider that action as having created a greater probabilistic increase in future profits than closing a few new customers (though, note, closing those new customers can create evidence that the company can keep growing, which, in some situations, might be the most important evidence of all).
+You might be thinking: but we can't quantify this! And if we can't quantify it, how can we possible use it to make decisions? This is a fair concern. As we dig into the various ways evidence creates value I think you'll find that there are often continuous tradeoffs happening, so you don't need much in the way of precision. But I'm super curious about exploring quanitification as a means to unlock rapid decision-making. If you've taken a shot at making that work, please let me know what you've learned! Or if you *want* to take a shot at making that work, ooooh, please reach out!
 
-To understand how to apply this model for understanding engineering work, we're going to dig into a variety of situations, and illustrate the key questions you can ask, if you want to maximize the value you and your team can create, with the hours of work you're spending, right now.
-
-For each, we'll ask: "What evidence would Bertha need, to increase her estimate of future profits?"
+To understand how to apply this model for understanding engineering work, we're going to dig into a variety of situations, and illustrate the key questions you can ask, if you want to maximize the value you and your team can create, with the hours of work you're spending, right now, by asking: "What evidence would Bertha need, to increase her estimate of future profits?"
 
 The evidence/estimate frame will cast a light into many murky areas.
 
 ** How Do People Make Demands Of Engineering? Let Me Count The Ways
 
+To think about the kinds of work engineers can do, I'm going to speak to the kinds of requests made of engineering. Except, to match up more fully with my lived experience, I'll name them as "Demands", not "Requests".
+
 # We're going to start each one from the perspective of a "problem" that someone might want an engineering team to solve. We'll characterize those as "demands".
 
-I'm going to break "demands of engineering" into three buckets, based on where, in the organization, I've typically seen the demands come from. People rarely come to engineering teams with truly clear thinking about overall company value creation and their place within it. Rather, they're just about always worried about some local problem for their function, which they then try to dress up in impressive and/or moralizing terms (e.g. "This is a huge opportunity!", or "Don't you care about the customer?!")
+I'm going to break the demands made of engineering into a few buckets, based on where, in the organization, I've typically seen such demands come from. Why do this? People rarely come to engineering teams with truly clear thinking about overall company value creation and their place within it. Rather, they're just about always worried about some local problem for their function, which they then try to dress up in impressive and/or moralizing terms (e.g. "This is a huge opportunity!", or "Don't you care about the customer?!")
 
-The whole point of this post is to show that all of these problems can be compared against each other, on a common ground.
+So, by looking at the different buckets, we can develop means to map from the "local" concerns of those functions to overall company value.
 
 *** Sales & Marketing
 
@@ -157,7 +163,7 @@ Look, I'm going to be blurring the line between engineering and product here, an
 
 I have *never* seen a high-functioning engineering team where the engineering lead wasn't able to think like a product manager. So, if you're an engineering leader, even if your product peer will ultimately make the prioritization calls, I *highly* recommend that you understand how your team's work could ultimately turn into value for the company. To excel at your job, you need to be an *active partner* in that prioritization decision.
 
-Note: if your product peer doesn't currently seem interested in that kind of partnership, being able to speak to potential value can be a very powerful way to gradually change the dynamic between you. Unsurprisingly, this is a common topic of my coaching practice: helping engineering leaders "earn their way" into a greater degree of influence and partnership. I wrote about a form of this in <Fixing the Engineering/Stakeholder API>.
+Note: if your product peer doesn't currently seem interested in that kind of partnership, being able to speak to potential value can be a very powerful way to gradually change the dynamic between you. Unsurprisingly, this is a common topic of my coaching practice: helping engineering leaders earn their way into a greater degree of influence and partnership. I wrote about a form of this in <Fixing the Engineering/Stakeholder API>.
 
 On the other hand, if you're a product manager, I think I'm describing a core function of your job? Hopefully that's kind of useful?
 
@@ -177,7 +183,7 @@ Okay, I'll get off my soapbox now.
 
 First off: Sales & Marketing-sourced problems are somewhat distressingly often seen as the only economically valuable problems for the engineering team to work on.
 
-Of course, company leaders won't say it in those flowery academic words. They'll instead talk about adding new products or fixing bugs as addressing "actual business problems", or "being customer-centric". By which they're demonstrating that they consider problems identified by other parts of the business as *not* real business problems, or as not serving the morally pure purpose of centring customers[fn:: Look, if you've managed to work at a company where a push to be be "more customer-centric" *didn't* immediately become a means for powerful people to sabotage the prioritization process by elevating their evidence-free opinions about customers into moral imperatives, I'll be thrilled to hear about it. But I am batting negative one thousand on that one. At this point, I've decided to just go immediately to the mat when someone self-importantly announces we should all be more customer-centric.].
+Of course, company leaders won't say it in those flowery academic words. They'll instead talk about adding new products or fixing bugs as addressing "actual business problems", or "being customer-centric". By which they're demonstrating that they consider problems identified by other parts of the business as *not* real business problems, or as not serving the morally pure purpose of centering customers[fn:: Look, if you've managed to work at a company where a push to be be "more customer-centric" *didn't* immediately become a means for powerful people to sabotage the prioritization process by elevating their evidence-free opinions about customers into moral imperatives, I'll be thrilled to hear about it. But I am batting negative one thousand on that one.].
 
 We're going to avoid falling into that trap.
 
@@ -199,19 +205,19 @@ Most new product development efforts *fail*.
 
 Most new product ideas *fail* (especially as they are initially conceived of).
 
-An economically rational investor will look *extremely suspiciously* at your CEO's optimistic PowerPoint deck, the one that explains how the new product your team is going to develop will double revenue over the next three years. Bertha has seen *plenty* of such decks, and very few companies who actually achieved the promised increase in revenue (and, essentially *none* who achieved that increase in revenue without significantly changing their original plan).
+An economically rational investor will look *extremely suspiciously* at your CEO's optimistic PowerPoint deck, the one that explains how the new product your team is going to develop will double revenue over the next three years. Bertha has seen *plenty* of such decks. Very few of those companies actually achieved the promised increase in revenue (and, essentially *none* achieved that increase in revenue without significantly changing their original plan).
 
-To properly understand value creation in new product development, you should think of your company as considering a *set* of product ideas it could potentially invest in. At any moment, your company doesn't actually know which product ideas (if any) in that set will turn out to be both valuable to customers and feasible to build.
+To understand value creation in new product development, you should think of your company as considering a *set* of product ideas it could potentially invest in. At any moment, your company doesn't actually know which product ideas (if any) in that set will turn out to be both valuable for customers and feasible to build.
 
-A rational investor will therefore assign a weighted average across all of them -- and, unless you have evidence, that expected return from any one new product idea is quite low.
+A rational investor will therefore assign a weighted average across all of them -- and, unless you have evidence, that weight average will be quite low (because so few product ideas work out)
 
 # If, say, on average one out of ten of product ideas turn into a modest increase in profits, then Bertha's *current* estimate of future profits will be one tenth of that modest increase.
 
 Given this context, value is created during new product development by two activities:
 
- - *Learning* which products idea, if any, are potentially valuable
+ - *Learning* which product idea, if any, are potentially valuable
 
- - Actually *building* those product
+ - Actually *building* those product, aka, learning which are feasible to build
 
 The best teams *interleave* these two activities, so that they iteratively hone in on a product customers will pay for, steadily learning and adapting as they go.
 
@@ -223,19 +229,16 @@ Aka, conduct full market research before a team can start, try to analyize it al
 
  2. They try to do the building, "as fast as possible", by not slowing down to learn as they go
 
-Just go with what some executive is "certain customers want", and don't do anything to test that with customers and/or reality as you build.
+Just go with what some executive is "certain customers want", and don't do anything to learn from customers and/or reality as you build.
 
+Given that evidence creates value, a team building a new product should be eagerly pursuing evidence. They should bias towards building to learn -- building their product in a smart sequence that lets them test their biggest risks at every moment.
 
-
-
-
-
+For more on this idea, see my talk Risk, Information, Time & Money
 
 *** Add Features To Existing Products
 
 *** Fix Bugs In Existing Products
 * Scraps/Thinking
-
 ** Random Thinking
 The "this is valuable when/not valuable when" thing worked super well.
 
@@ -282,6 +285,9 @@ Seeing Engineering Work Through the Lens of Value
 
 Engineering & The Creation of Value, Part III
 
+
+** Scrap
+It covers both "simple" situations, like closing new customers who add to this year's top-line revenue, but also more nuanced ones, like, a team that rapidly chews through three different product hypotheses, invalidates two of them and makes a critical discovery about a third. That key discovery creates *evidence* that the company is on the verge of building a valuable new product. Bertha, in reviewing that, may even consider that action as having created a greater probabilistic increase in future profits than closing a few new customers (though, note, closing those new customers can create evidence that the company can keep growing, which, in some situations, might be the most important evidence of all).
 
 * Old Turn "Engineering Concerns" Into Potential Value, I
 ** Intro
