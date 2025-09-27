@@ -1,61 +1,69 @@
-* Scraps/Thinking
-
-** Random Thinking
-The "this is valuable when/not valuable when" thing worked super well.
-
-I do really like the idea of unifying across product/engineering/operations, showing them all with a common, true view.
-
-What if I make a central point about the unification, so I can show both top-down and bottom-up concerns through a common lens?
-
-
-** Good/Bad Engineering Activities
-*** Rapidly Banging Out Prototypes
-*** Building Complex Data Pipelines
-*** Cleaning Up Horrible Code
-*** Investing in "DevOps" or "Dev Experience"
-*** Retiring/Upgrading Old Infrastructure
-*** Developing New Products to Expand TAM or $/Customer
-*** Adding Features for Big Customers
-*** Making It Possible to Sell to Smaller Customers
-*** Making Internal Operations Easier
-*** Making Onboarding Easier
-*** Writing Lots and Lots and Lots of New Code, Super Fast
-
-** Contextual Situations
-Can I run that through. What are my four forms of value so far?
-
-Existing Forms of Value:
-
- - "This Code Is a Nightmare From The Black Depths of Hell"
-
- - "Deploying To Production Saps My Will To Live"
-
- - "I Can't Find a Moment to Think"
-
- - "The Database Is On the Verge of Death And No One Cares"
-
-
-** Possible Titles
-Turn "Engineering Concerns" Into Potential Value, I
-
-The Landscape of Potential Value
-
-The Unifying Force of Potential Value
-
-Seeing Engineering Work Through the Lens of Value
-
-Engineering & The Creation of Value, Part III
-
-
 * New Post
+** Intro
 
-The company needs a new product, the engineering team needs to stop clawing their eyes out every time they deploy to production.
+In our previous posts in this series, (Link, Link), we developed a model for how engineers can *create value* for the companies at which they work.
 
-Those concerns are not actually in conflict! They represent two investment opportunities with a common goal -- increasing company value, by acquiring evidence that would cause Bertha, our economically rational investor, to be willing to pay *more* for our company.
+We dug deeply into how investors determine what a company is *worth*, aka what it is *valued* at.  We established that the work an engineer does *creates value* if that work:
 
-The acquiring of evidence is one of the most powerful ways to understand potential investments.
+ - Increases the probabilistic estimate of future profits...
 
-It covers both "simple" situations, like closing new customers who add to this year's top-line revenue, but also more nuanced ones, like, a team that rapidly chews through three different product hypotheses, invalidates two of them and makes a critical discovery about a third. That key discovery creates *evidence* that the company is on the verge of building a valuable new product. Bertha, in reviewing that, may even consider that action as having created a greater probabilistic increase in future profits than closing a few new customers (though, note, closing those new customers can create evidence that the company can keep growing, which, in some situations, might be the most important evidence of all).
+ - made by an economically rational investor...
+
+ - who possesses information known both inside and outside the company.
+
+We named our economically rational investor *Bertha*.
+
+Armed with this fuller understanding of how value is created, we're ready to explore various kinds of engineering work.
+
+In particular, we're ready to analyze [explore, dig into] a wide variety of different *demands* that can be made of engineering teams, and undertand when the engineer teams should agree to those demands, and when they should push back.
+
+# XXX Make above Suck Less
+
+** Acquiring Evidence Drives The Creation Of Value
+
+Let's start with a classic tension:
+
+ - The company desperately needs a new product, it's all the CEO can talk about
+
+ - The engineering team desperately needs to stop clawing their eyes out every time they deploy to production
+
+Should the team work on the "business" problem (building a new product, asap), or the "engineering" problem (smoothing out the path to production)?
+
+First off, these are *both business problems*. They are *both* opportunities to create value.
+
+Now, it's easy (and maybe even typical) to think of the new product opportunity as more important because it creates "immediate" value (being able to acquire new customers), whereas an improvement in deploys is less important, because it will take a long time for such an improvement to either generate revenue or reduce costs for the business.
+
+But that perspective is *profoundly wrong*. It falls into the trap of equating company value with present revenue.
+
+Value is not current revenue, value is a rational investor's probabilistic estimate of *future* profits. Therefore, value can accrue *immediately*, even if the actual increase in profits will take a long time to land. If Bertha, our rational investor, suddenly decides that expected future profits are now twice as large as she had previously believed, the company will *immediately* double in value.
+
+Why would Bertha change her mind about expected future profits?
+
+Beause she saw *evidence*.
+
+For *both* of our potential investment opportunities, Bertha will *only* change her estimate of future profits if she sees *evidence*.
+
+That evidence could be some customers who have purchased the new product---which will provide Bertha with evidence that the company can keep growing revenues, and therefore profits, over time.
+
+Or the evidence could be an increase in the frequency of deploys---which, because Bertha has read Accelerate [link], she understands as predictive of an increase in profits over time.
+
+In the extreme cases, almost all engineers already understand this.
+
+Say an engineer joins a company, with an express mandate to build a new product. On their first day, that engineer discovers to their horror that the company only ships to production once per quarter. In such a situation, just about every engineer I know would feel *extremely confident* in telling their leadership that improving deploy frequency is their absolute top priority.
+
+They would just do that because it "felt good" to them. They'd do that because, at some level, they believe that their new company has essentially zero chance of successfully developing a new product if it takes up to twelve weeks to get anything new to production.
+
+Let's further dig into this scenario. Say that, after their first two months of work, the new engineer has cleaned up a variety of issues, and now, when they look at their little deploy frequency graph, they see that, for the most recent three week period, deploys were happening once per week. A rational investor, who understands the impact of infrequent deploys on product development,  would look at that graph as *evidence*, and based on that evidence, would *immediately* ascribe a higher likelihood of the company successfully developing a new product and thus increasing profits.
+
+The moment that graph exists, and could be shared with a rational investor, the company *immediately* becomes more valuable. Even if the actual revenue comes in much later.
+
+The acquiring of evidence is one of the most powerful ways to understand the creation of value.
+
+This is critical to both understand and, well, *believe*.
+
+Of course, there's every chance that your key stakeholders neither understand nor believe this. That's okay! By having this understanding yourself, you'll be able to advocate for work which, over time, pays off.
+
+# It covers both "simple" situations, like closing new customers who add to this year's top-line revenue, but also more nuanced ones, like, a team that rapidly chews through three different product hypotheses, invalidates two of them and makes a critical discovery about a third. That key discovery creates *evidence* that the company is on the verge of building a valuable new product. Bertha, in reviewing that, may even consider that action as having created a greater probabilistic increase in future profits than closing a few new customers (though, note, closing those new customers can create evidence that the company can keep growing, which, in some situations, might be the most important evidence of all).
 
 To understand how to apply this model for understanding engineering work, we're going to dig into a variety of situations, and illustrate the key questions you can ask, if you want to maximize the value you and your team can create, with the hours of work you're spending, right now.
 
@@ -216,6 +224,53 @@ Just go with what some executive is "certain customers want", and don't do anyth
 *** Add Features To Existing Products
 
 *** Fix Bugs In Existing Products
+* Scraps/Thinking
+
+** Random Thinking
+The "this is valuable when/not valuable when" thing worked super well.
+
+I do really like the idea of unifying across product/engineering/operations, showing them all with a common, true view.
+
+What if I make a central point about the unification, so I can show both top-down and bottom-up concerns through a common lens?
+
+
+** Good/Bad Engineering Activities
+*** Rapidly Banging Out Prototypes
+*** Building Complex Data Pipelines
+*** Cleaning Up Horrible Code
+*** Investing in "DevOps" or "Dev Experience"
+*** Retiring/Upgrading Old Infrastructure
+*** Developing New Products to Expand TAM or $/Customer
+*** Adding Features for Big Customers
+*** Making It Possible to Sell to Smaller Customers
+*** Making Internal Operations Easier
+*** Making Onboarding Easier
+*** Writing Lots and Lots and Lots of New Code, Super Fast
+
+** Contextual Situations
+Can I run that through. What are my four forms of value so far?
+
+Existing Forms of Value:
+
+ - "This Code Is a Nightmare From The Black Depths of Hell"
+
+ - "Deploying To Production Saps My Will To Live"
+
+ - "I Can't Find a Moment to Think"
+
+ - "The Database Is On the Verge of Death And No One Cares"
+
+
+** Possible Titles
+Turn "Engineering Concerns" Into Potential Value, I
+
+The Landscape of Potential Value
+
+The Unifying Force of Potential Value
+
+Seeing Engineering Work Through the Lens of Value
+
+Engineering & The Creation of Value, Part III
 
 
 * Old Turn "Engineering Concerns" Into Potential Value, I
