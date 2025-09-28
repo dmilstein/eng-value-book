@@ -55,6 +55,9 @@ if [ -f "$TODO_ARCHIVE" ]; then
     WATCH_FILES="$WATCH_FILES $TODO_ARCHIVE"
 fi
 
-fswatch -o $WATCH_FILES | while read -r num; do
+
+COACH_TODOS="/Users/danmil/Dropbox/Projects/CoachTeach/coach-todos.org"
+
+fswatch -o $WATCH_FILES "$COACH_TODOS" | while read -r num; do
     run_hours_parser
 done
