@@ -19,7 +19,7 @@ In particular, we're ready to analyze [explore, dig into] a wide variety of diff
 
 # XXX Make Above Suck Less (MASL)
 
-** Value Is Created By The Acquiring Of Evidence
+** Value Is Created By The Acquistion Of Evidence
 
 # The Acquisition of Evidence
 
@@ -145,7 +145,7 @@ One sign that this might be the case is that various IC engineers on the team ar
 
 Engineers are, to a first approximation, *always* frustrated with someone for not letting them deal with tech debt. if the engineers focus that frustration on an engineering lead instead of a nearby product manager, that could be a clue about who is serving the product function.
 
-** Evaluating Demands of the Engineering Teams
+** Who Evaluates Demands of the Engineering Team?
 
 Company value is created by acquiring *evidence* that will increase Bertha's probablistic *estimate* of future profits.
 
@@ -205,6 +205,8 @@ Most new product development efforts *fail*.
 
 Most new product ideas *fail* (especially as they are initially conceived of).
 
+# Everyone at your company are sort of joining hands and agreeing to pretend this isn't true. Because it would be depressing to go to work every day on something you thought was likely to fail, right? Trick: turn failure into success. How, by adopting a portfolio/pipeline view, and celebrating evidence that lets you winnow bets out of your portfolio. Most sales calls do not turn into conversations. Does the sales team spend an incredibly long time debating about who to call? Or staying on the line with someone who is clearly not going to buy? No, they put in their hours, they "build pipeline", and they spend their time wisely.
+
 An economically rational investor will look *extremely suspiciously* at your CEO's optimistic PowerPoint deck, the one that explains how the new product your team is going to develop will double revenue over the next three years. Bertha has seen *plenty* of such decks. Very few of those companies actually achieved the promised increase in revenue (and, essentially *none* achieved that increase in revenue without significantly changing their original plan).
 
 To understand value creation in new product development, you should think of your company as considering a *set* of product ideas it could potentially invest in. At any moment, your company doesn't actually know which product ideas (if any) in that set will turn out to be both valuable for customers and feasible to build.
@@ -239,6 +241,42 @@ For more on this idea, see my talk Risk, Information, Time & Money
 
 *** Fix Bugs In Existing Products
 * Scraps/Thinking
+** Morning Walk Thinking <2025-09-28 Sun>
+I've got a tiger by the tail.
+
+I do like that I'm speaking to the "immediacy" of value creation.
+
+Could maybe back up and frame the entire thing around increments, around the incremental creation of value.
+
+Why are increments important?
+
+So you can stay on track -- building a big piece of software in increments is important because it allows you to learn and adapt.
+
+The exact same thing is true of all software work -- you need to see if you're creating value, and if you're not, adapt.
+
+But the increments are tricky.
+
+Maybe, show the classic Agile skateboard picture -- this is profoundly wrong (even though it's usefully right, at the same time). Yes, you should hook your software up all the time, but you shouldn't always have a thing that is useful to a user.
+
+The first picture is asking someone about where they need to go every day
+
+The second one is building 5 different engines and testing them.
+
+The third one is experimenting with different sales models.
+
+Could I show that with arrows going off in different directions, so it's finding a path through decision space? Visually? That's an interesting idea.
+
+And that does maybe give me a way to make clear that each moment, each key milestone, is a *decision*, not a deliverable.
+
+I still want to find a way to give the reader that sort of actionable, useful when/not useful when.
+
+Definitely frame the portfolio/pipeline thing as a way to make the economics manifest, and enable better decisions. And to unlock good bits of human nature, and point stakeholders at useful decisions.
+
+Also, this is clearly exploding into something between a series and a book, embrace that.
+
+Key Q: if I want to touch both on the immediacy of value creation (the incremental creation of value), *and* some specific tactics for new product dev, should I make that one post or two.
+
+It could be two, as long as the first is grounded enough in reality to not be purely abstract.
 ** Random Thinking
 The "this is valuable when/not valuable when" thing worked super well.
 
