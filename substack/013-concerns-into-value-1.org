@@ -1,9 +1,9 @@
-* Engineering & The Creation of Value, Part III
+* Engineering & The Creation of Value, Part III - Realizing Value In Increments
 ** Intro
 
 In our previous posts in this series, (Link, Link), we developed an understanding of how engineers *create value* for their companies.
 
-In order to understand value, we dug deeply into how investors determine what a company is *worth*---also known as that valuation they assign a company. Because an investor's valuation of a company is based on a guess about that company's future profits, we came to understand that the work an engineer does *creates value* for their company if that work:
+In order to understand value, we dug deeply into how investors determine what a company is *worth*---also known as the "valuation" they assign a company. Because an investor's valuation of a company is based on a guess about that company's future profits, we came to understand that the work an engineer does *creates value* for their company if that work:
 
  - Increases a probabilistic estimate of future profits...
 
@@ -23,17 +23,17 @@ Armed with this fuller understanding of how value is created (and our made-up pe
 
 We'll start by digging into how value is created *incrementally*.
 
-This is absolutely key. Our model of value creation is of no use to us if it can only be applied at the scale of a year-long project. To win at software development, you need to make good decisions on a weekly and daily basis. To support that, we need a *fine-grained* understanding of value creation. As we go through our planning cycles, we'll look at potential increments our team could build, and use our understanding of value to select the best one. That will allow to steadily hone in on *visible wins* for our business.
+This is absolutely key. Our model of value creation is of no use to us if it can only be applied at the scale of a year-long project. To win at software development, you need to steadily make good decisions on a weekly and daily basis. To support that, we'll need a *fine-grained* understanding of value creation, operating at the scale of months and even weeks. Then, as we go through our planning cycles, we'll be able look at potential increments our team could build, and use our understanding of value to select the best one. That will allow to steadily hone in on *visible wins* for our business.
 
 # [that will create the most value.]
 
-Working on a software project that will hopefully create value is like launching an expedition to cross an unknown sea, and hopefully find a city to trade with on the far side. Storms might arise, there might be a single narrow passage to that far shore, there might not even be a city in the direction you're initially aiming in.[fn:: Does this sound overly grandiose? Have you ever worked on a months or years-long project which was, ultimately, a total failure? Did that not feel like you'd utterly lost your way? Like you'd been blown so far off course, you couldn't even remember what you'd been trying to do in the first place?]
+Working on a software project that will hopefully create value is a bit like launching an expedition to cross an unknown sea, and hopefully find a city to trade with on the far side. There might be a single narrow passage to that far shore, savage storms might arise, there might not even be a city in the direction you're initially aiming in.[fn:: Have you ever worked on a months or years-long project which was, ultimately, a total failure? Did that not feel like you'd utterly lost your way? Like you'd been blown so far off course, you couldn't even remember what you'd been trying to do in the first place?]
 
 # What is useful about this metaphor is that it makes it enormously clear that you can't make all your big decisions up front and stick to them.
 
-You can't make a single decision up front and then just stick to it.
+You can't make all your decisions up front and then just stick to them.
 
-You need to steer, every day and every week. And you need to constantly update where you're trying to get to next, based on what you've learned as you've gone.
+You need to *steer*, every day and every week. You need to constantly update where you're trying to get to next, based on what you've learned so far.
 
 An understanding of value creation will let us *steer* as we build.
 
@@ -53,49 +53,79 @@ Let's dig in.
 
 # Stop me if you've heard this one before:
 
-Let me sketch in a situation that is utterly unique, that you've definitely never heard of before or experienced personally.
+Let me sketch in a situation that you've definitely never heard of before or experienced personally.
 
- - The company desperately needs a new product, it's all the CEO can talk about
+ - Your company desperately needs a new product, it's all the CEO can talk about
 
- - The engineering team desperately needs to stop clawing their eyes out every time they deploy to production
+ - Your engineering team desperately needs to stop clawing their eyes out every time they deploy to production
 
-How should the team decide what to do with their next increment of work? What will create the most value?
+How should an engineering decide what to do with their next increment of work? Should they work on a new product, or on smoothing out deploys? Which will create the most value?
 
-One common way to frame the question is: should the team work on the *business* problem (building a new product, asap), or the *engineering* problem (smoothing out the path to production)?
+One common way to frame the question is: should the team work on the *business* problem (new product), or the *engineering* problem (deploys)?
 
-Hold it right there, Mr Common Way: these are *both* business problems. Because gthey are *both* opportunities to create value.
+Hold it right there, Mr Common Way: these are *both* business problems. They are both opportunities to incrementally create value.
 
-It's depressingly common for people, even engineers, to consider the new product opportunity *more valuable* because it creates "immediate" value (being able to acquire new customers), whereas a reduction in deploy pain is *less valuable*, because it will take a long time for such an improvement to either generate revenue or reduce costs for the business.
+But which of those opportunities should we work on *today*?
 
-That perspective is *profoundly wrong*. Company value is not simply current revenue. Company value is a rational investor's probabilistic estimate of *future profits*.
+It's depressingly common for people to consider the new product opportunity much more urgent because it seems like the only way to create "immediate" value. A reduction in deploy pain feels a lot less urgent, because it will take such a long time for that improvement to impact profits for the business (and we just said profits are value, right?)
 
-Therefore, crucially, value can accrue *immediately*, even if the actual increase in profits will take a long time to land.
+That perspective is *profoundly wrong*. Remember, company value is a rational investor's *current* probabilistic estimate of *future* profits. Therefore, crucially, value can accrue *immediately*, even if the actual increase in profits will take a very long time to land.
+
+What?
 
 Let's see how this could happen.
 
-It's a Tuesday morning. Something suddenly causes Bertha, our rational investor, to *double* her estimate of future profits for our company. In that moment, the company as a whole will *immediately* double in value. In the moment she changes her rational mind. If a team somehow gets her to change her mind this way, that team creates an enormous amount of value for their company. *Immediately*.
+It's a Tuesday morning. Bertha, our economically rational investor, is having her mid-morning tea. As she drinks her tea... something... happens. That... something... causes her to change her beliefs about your company. She suddenly becomes much more optimistic. That something makes her *double* her probabilistic estimate of future profits. Now, Bertha is standing in for all rational investors, so if she changes her mind, so will the mass of other investors. And the value of a company is simply what those investors are willing to pay for it. So, in that moment, whatever the... something... was that made Bertha change her mind has made the company as a whole *immediately* double in value. In the moment she changed her rational mind.
 
-And therefore there's an *incremental* creation of value.
-
-Why would Bertha suddenly change her mind about expected future profits?
+Why on earth would Bertha suddenly change her mind about expected future profits?[fn:: She's *rational*, so you can't answer "There was something in her tea." Even if you're kind of tempted to.]
 
 For exactly one and only one reason: beause she sees a new piece of *evidence*.
 
-Bertha *only* ever changes her estimate of future profits if she sees evidence.
+Bertha *only* ever changes her estimate of future profits if she sees evidence. That's what it *means* to be rational.
 
-Let's see how that plays out for our two potential investment opportunities.
+Does this idea of doubling an estimate of profits due to new evidence seem ridiculously far-fetched? In 2024 and 2025, this is *precisely* what happened to a variety of companies in the AI space. Their valuations skyrocketed as evidence accrued about the potential for AI to generate massive future profits. And those valuations went through the roof even though every single one of those companies was, in the present, incredibly *unprofitable*. They were all sinking just incredible amounts of capital into building models and data centers, and losing money just as fast an investors could hand it to them.
 
-For the new product, evidence might be customers purchasing the new product. But it could also be a series of extremely positive customer pre-sales conversations, with clear signals of intent to later buy. It could even simply be discovering that customers are already spending money to try to solve the problem the product focuses on.
+Now, for most teams, there's nothing they can do to get Bertha to double her estimate of future profits by way of a single piece of evidence. But there's a great deal they can do that will cause her to slightly increase her estimate.
+
+If a team somehow gets economically rational Bertha to change her mind this way, that team creates some value for their company *immediately*.
+
+A team that creates evidence, today, of a future increase in profits creates incremental value, today.
+
+Let's dig in to our decision between "building a new product" and "improving deploys" to start to see how this model can be used.
+
+# Let's see how that plays out for our two potential investment opportunities.
+
+** Incremental Value: New Products, Improved Deploys
+
+For the new product, a form of evidence that would cause Bertha to change her estimate of future profits would simply be customers *purchasing* the new product.
+
+But even best case, that's likely months or years in the future.
+
+What might be some incremental forms of evidence?
+
+Maybe the team has built a rough prototype, and the sales team took that into the field. Every customer who sees the prototype is excited, and starts talking about how, exactly, they'll find budget to purchase.
+
+That would be powerful evidence.
+
+Or, even earlier, maybe the team had conversations with customers and discovered that customers are already spending money to try to solve the problem the product focuses on.
 
 Each of these outcomes would provide Bertha with a different form of evidence that this new product will allow the company to keep growing revenues, and therefore profits, over time. Each of those pieces of evidence would therefore, in the moment they were acquired, immediately increase the value of the company (by different amounts, to be clear)[fn:: Current revenue *is* a powerful predictor of future revenue. Which is why investors short-hand valuation by simply picking revenue multiples. But, inside a company, as we're evaluating fine-grained activities, we need a more nuanced model].
 
-A team that *acquires* that evidence therefore immediately creates value for the company.
+A team that *acquires* that evidence therefore incrementally creates value for the company.
 
 How could incremental value creation work on the deploy side?
 
-Let's say that, because Bertha is rational, she has read Accelerate [link]. She therefore understands that frequency of deploy is predictive of an increase in future profits.
+First off, we're going to say that, because Bertha is rational, she has read Accelerate [link]. She therefore understands that frequency of deploy is predictive of an increase in future profits. (Yes, your CEO may not be as rational as Bertha, see some ideas in [link] for how to get buy-in to this kind of technical investment).
 
-Thus, evidence could be: a direct increase in deploy frequency. But it could also be: identifying a bottleneck in the deploy process -- Bertha would see the identification of the bottlenck as evidence that the team has just improved their odds of increasing deploy frequency. It could even simply be the team *measuring* deploy frequency, if it wasn't measured before. Again, a rational investor would see that as improving the odds that the team can later increase the frequency of deploys, and therefore, in the moment the team was able to start measuring, would immediately increase their estimate of future profits (by a small amount, to be clear).
+As above, we can work backwards in time to earlier and earlier forms of evidence.
+
+If the team can demonstrate a significant increase in deploy frequency, Betha would happily increase her estimate of future profits.
+
+But that might take a long time to achieve. What are some incremental steps, that could cause Bertha to increase her estimate?
+
+The team might, after some work, identify a bottleneck in the deploy process. Bertha would see the identification of the bottleneck as evidence that the team will later be able to improve deploy frequency.
+
+It could even simply be the team *measuring* deploy frequency, if it wasn't measured before. Again, a rational investor would see that as improving the odds that the team can later improve the frequency of deploys, and therefore, in the moment the team was able to start measuring, would immediately increase their estimate of future profits (by a small amount, to be clear).
 
 This may sound a bit abstract or hard to believe, but, in extreme cases, almost all engineers already intuitively understand this.
 
@@ -103,11 +133,15 @@ This may sound a bit abstract or hard to believe, but, in extreme cases, almost 
 
 Say an engineer joins a B2B SaaS company, and knows that they were hired because the company urgently wants to build a new product over the succeeding year. However, on their first day, that engineer discovers to their horror that the company only ships to production *once per quarter*. In such a situation, just about every engineer I know would tell their leadership that improving deploy processes should be their top priority.
 
-That engineer would not make that case because smoother deploys "feel good" to them. They'd advocate for that work because they believe (correctly!) that their new company has essentially zero chance of successfully developing a new product in a year if they can only ship to production four times during that period.
+That engineer would not make that case because more frequent deploys "feel good" to them. They'd advocate for that work because they know in their bones that their new company has absolutely zero chance of shipping a new product in a year if they can only deploy to production four times during that period.
 
-Say that, after their first two months of work, the new engineer has cleaned up a variety of issues, and now, when they look at their little deploy frequency graph, they see that, for the most recent three week period, deploys were happening once per week. A fully economically ration investor who understands the impact of deploy frequency on product development would look at that graph as *evidence*, and based on that evidence, would *immediately* ascribe a higher likelihood of the company successfully developing a new product and thus increasing profits.
+If that engineer then managed to get deploys happening *once per week* (aka c. 10 times more often), they would feel like they had created a ton of value for their company.
 
-The moment that graph exists, and could be shared with a rational investor, the company *immediately* becomes more valuable. Even if the actual revenue comes in much later.
+*And they would be right.*
+
+# Say that, after their first two months of work, the new engineer has cleaned up a variety of issues, and now, when they look at their little deploy frequency graph, they see that, for the most recent three week period, deploys were happening once per week. A fully economically ration investor who understands the impact of deploy frequency on product development would look at that graph as *evidence*, and based on that evidence, would *immediately* ascribe a higher likelihood of the company successfully developing a new product and thus increasing profits.
+
+# The moment that graph exists, and could be shared with a rational investor, the company *immediately* becomes more valuable. Even if the actual revenue comes in much later.
 
 The acquiring of evidence is one of the most powerful ways to understand the incremental creation of value.
 
