@@ -1,11 +1,11 @@
 * Engineering & The Creation of Value, Part III
 ** Intro
 
-In our previous posts in this series, (Link, Link), we developed a model for how engineers can *create value* for the companies at which they work.
+In our previous posts in this series, (Link, Link), we developed an understanding of how engineers *create value* for their companies.
 
-We dug deeply into how investors determine what a company is *worth*---also known as how they *value* a company. Because an investor's valuation of a company is, fundamentally, based on some estimate of future profits, we established that the work an engineer does *creates value* for their company if that work:
+In order to understand value, we dug deeply into how investors determine what a company is *worth*---also known as that valuation they assign a company. Because an investor's valuation of a company is based on a guess about that company's future profits, we came to understand that the work an engineer does *creates value* for their company if that work:
 
- - Increases the probabilistic estimate of future profits...
+ - Increases a probabilistic estimate of future profits...
 
  - made by an economically rational investor...
 
@@ -15,21 +15,37 @@ We named a specific, economically rational investor *Bertha*.
 
 Armed with this fuller understanding of how value is created (and our made-up person!), we're ready to explore various kinds of engineering work.
 
-In particular, we're ready to analyze [explore, dig into] a wide variety of different *demands* that are frequently made of engineering teams, by people across the company who believe that solving problems in their area will certainly absolutely for sure no questions asked create value for the company.
+# In particular, we're ready to analyze [explore, dig into] a wide variety of different *demands* that are frequently made of engineering teams, by people across the company who believe that solving problems in their area will certainly absolutely for sure no questions asked create value for the company.
 
-We will develop the key questions to ask, to determine if those people are correct or misguided in their beliefs about what engineering should work on.
+# We will develop the key questions to ask, to determine if those people are correct or misguided in their beliefs about what engineering should work on.
 
 # XXX Make Above Suck Less (MASL)
 
-We'll start by digging into how value can be created *incrementally*.
+We'll start by digging into how value is created *incrementally*.
 
-This is absolutely key. Our understanding of how value is created is of essentially no use to us if it can only be applied in bulk, at the scale of a full project. We need a way to, at a specific moment in time, look at a variety of potential increments our team could take, select an increment that will create the most incremental value, execute for a chunk, then pause, see how much value was created, and select a new increment.
+This is absolutely key. Our model of value creation is of no use to us if it can only be applied at the scale of a year-long project. To win at software development, you need to make good decisions on a weekly and daily basis. To support that, we need a *fine-grained* understanding of value creation. As we go through our planning cycles, we'll look at potential increments our team could build, and use our understanding of value to select the best one. That will allow to steadily hone in on *visible wins* for our business.
 
-That is what will let us steer, day-to-day.
+# [that will create the most value.]
 
-In order to understand that, we'll dig into how Bertha might evaluate the actions of a team doing two kinds of work.
+Working on a software project that will hopefully create value is like launching an expedition to cross an unknown sea, and hopefully find a city to trade with on the far side. Storms might arise, there might be a single narrow passage to that far shore, there might not even be a city in the direction you're initially aiming in.[fn:: Does this sound overly grandiose? Have you ever worked on a months or years-long project which was, ultimately, a total failure? Did that not feel like you'd utterly lost your way? Like you'd been blown so far off course, you couldn't even remember what you'd been trying to do in the first place?]
 
-** Acquiring Evidence Creates Incremental Value
+# What is useful about this metaphor is that it makes it enormously clear that you can't make all your big decisions up front and stick to them.
+
+You can't make a single decision up front and then just stick to it.
+
+You need to steer, every day and every week. And you need to constantly update where you're trying to get to next, based on what you've learned as you've gone.
+
+An understanding of value creation will let us *steer* as we build.
+
+So we can ultimately arrive at a form of business success so obvious that no one can deny it. Actual present money flowing in, right now, not just in probablistic estimate form.
+
+# day-to-day. It will, if you'll indulge a lofty metaphors, allow us to cross a choppy sea of uncertainty,
+
+But we need the guidance on what to do, each day, to get to that far shore.
+
+Let's dig in.
+
+** Incremental Value Is Created By Acquiring Evidence
 
 # The Acquisition of Evidence
 
@@ -103,6 +119,101 @@ To understand how to apply this model for understanding engineering work, we're 
 
 The evidence/estimate frame will cast a light into many murky areas.
 
+** [Bad Prose] Why The Classic Agile Skateboard To Car Cartoon Is Wrong
+
+# Aka,
+
+You know that classic cartoon that depicts what agile is and isn't?
+
+If not, here it is:
+
+[link]
+
+I want to make a case that this cartoon is both profoundly right, but, in a *very* important sense, also profoundly wrong.
+
+Let's start with the ways it's right (and therefore has seen deserved, widespread popularity).
+
+There are two things that the cartoon captures, about a well-run agile project.
+
+First, by steadily building something that customers can *use*, you can get feedback from customers are you. The customer goes from sad to happy in increments, each of those is a chunk of evidence that you're moving in the right direction.
+
+Part of why aterfall fails is that it doesn't let you check as you go, to see if what you're building actually makes customers happy. Building something simple and then expanding outward is often (thought not always!) the right strategy.
+
+The second thing that the cartoon usefully hints at is more on the engineering side. At each step, there's an end-to-end thing. Another classic failure more of waterfall projects is to build big, complicated things in isolation, and delay the integration of the parts until later. That leaves far too many nasty surprises.
+
+Okay, if that's all right, why is it also profoundly wrong?
+
+First off, it's far too linear. No one gets anything wrong or has to learn and adapt. That's so fundamental to value creation, the cartoon damagingly suggests that you're just marching along, making customers happier and happier.
+
+Second though, increments of value are often created *not* by simply making customers incrementally happier, but by various action which create evidence. In our model of a set of possible product opportunities, *identifying* a good one, or eliminating a bad one, create considerable value.
+
+Let's see how that could look, for a cteam trying to develop a new product, in cartoon form.
+
+First off, a smart team doesn't start with a product (aka solution) idea, instead, they start with a customer *problem*.
+
+[Picture of an upset customer]
+
+But, again, remember, we're thinking in terms of pipelines and portfolios. So they start with a *set* of such potential problems, ala:
+
+[Picture of 5 upset customers, maybe numbered, or different kinds of upset? Different strings of sweary characters]
+
+Each of those could lead to a further chunk of work:
+
+[Dotted/faint lines emerging from a single box to five other boxes, fanning out, all very faint]
+
+In their first increment of effort, they do a mix of a couple of different kinds of work.
+
+For some of the problems (say, "#!" and "@#$"), the team is quite confident they can build something. But they're deeply uncertain if this is, like, a genuinely painful problem for customers, or just something they enjoy complaining about.
+
+To learn more, they dust off their copy of The Mom Test and talk to a bunch of customers.
+
+[Maybe, picture of someone asking someone else questions, wearing a mom t-shirt?]
+
+But, for this other one, they know customers care intensely about it, but are completely unclear on if they can even solve it (maybe it depends on having access to data  they're not sure they can get).
+
+For that one, the engineering team does a spike of research, actually building a bit of their data collection, to see what's possible.
+
+[Picture of either someone typing, or maybe of the team building some weird bits of a machine, in a test lab]
+
+At the end of the increment, they've collected evidence of which path is most likely to lead to future profits.
+
+[Picture of one arrow coming out being much thicker or darker or colored green]
+
+Someone therefore can *make a decision* about what to do next.
+
+So they move on to the next increment:
+
+[The box darkens]
+
+Again, there are key questions to answer, that will determine what they do next. Having selected a problem to solve, perhaps they're now understanding how a product that they can build actually *will* solve that problem.
+
+[Show the fan out from the current box, make it clear what it is. Save for later the arrow that runs back to the earlier box, but add that before I move on]
+
+What should the team do in this increment? Again, remember that they want to increase the odds of improving future profits. Therefore, ultimately, they need to pick which arrow to follow, which subsequent box to move to.
+
+Remember how someone made a decision? Well, they need to do that again.
+
+You'll notice something, perhaps. Once you understand that value creation means picking your way, in a exploratory fashion, across a graph of options, you can understand that the key thing a team is doing, during each increment, is enabling a good decision about what to do next, aka, what edges to choose out of the current node.
+
+There's a marvelously powerful thing this unlocks: build your milestones explicitly around decisions. I'll write more about that in a subsequent post.
+
+Gotta have a footnote about Maxwell's Demon, who always just picks the right thing to work on, in every moment. Some sprint team should be named Maxwell's Demons. Or maybe Maxwell's Daemons.
+
+Walk through the math on how going into a node, and then coming back out, increases value.
+
+What... is the math? The expectation can be improved by digging in? But shouldn't that fit into the expectation? The expectation can go down, due to bad discoveries. So then something else becomes higher expectation.
+
+Or maybe also show that these expectations, early on, are quite broad.
+
+Based on what is known now. So we *don't* bake in the assumption that the team will do smart things.
+
+So, early on, it's gone from very low odds to, one of them being, like, sliiiightly better odds, but just barely. So then, the returning to the earlier one is an increase, and it's not like you're going from 70% likelihood and dropping back to 20%.
+
+But if you do, that's okay! Kill early.
+
+Can draw out the point that startups mostly don't work this way. VC's do. They just invest in a variety of things, are clever about making sure they can maximize the wins, and then try to convince a bunch of impressionable young people that their best odds of making money is to commit to a single idea.
+
+You are the dice.
 ** How Do People Make Demands Of Engineering? Let Me Count The Ways
 
 To think about the kinds of work engineers can do, I'm going to speak to the kinds of requests made of engineering. Except, to match up more fully with my lived experience, I'll name them as "Demands", not "Requests".
@@ -229,15 +340,15 @@ An economically rational investor will look *extremely suspiciously* at your CEO
 
 To understand value creation in new product development, you should think of your company as considering a *set* of product ideas it could potentially invest in. At any moment, your company doesn't actually know which product ideas (if any) in that set will turn out to be both valuable for customers and feasible to build.
 
-A rational investor will therefore assign a weighted average across all of them -- and, unless you have evidence, that weight average will be quite low (because so few product ideas work out)
+A rational investor will therefore assign a weighted average across all of them -- and, unless you have evidence, that weighted average will be *very* low (because so few product ideas work out)
 
 # If, say, on average one out of ten of product ideas turn into a modest increase in profits, then Bertha's *current* estimate of future profits will be one tenth of that modest increase.
 
 Given this context, value is created during new product development by two activities:
 
- - *Learning* which product idea, if any, are potentially valuable
+ - *Learning* which product idea, if any, are both valuable and feasible
 
- - Actually *building* those product, aka, learning which are feasible to build
+ - Actually *building* those products
 
 The best teams *interleave* these two activities, so that they iteratively hone in on a product customers will pay for, steadily learning and adapting as they go.
 
