@@ -95,7 +95,7 @@ Let's dig in to our decision between "building a new product" and "improving dep
 
 # Let's see how that plays out for our two potential investment opportunities.
 
-** Incremental Value: New Products, Improved Deploys
+** Evidence For New Products & Deploy Improvements
 
 For the new product, a form of evidence that would cause Bertha to change her estimate of future profits would simply be customers *purchasing* the new product.
 
@@ -171,29 +171,37 @@ There are two things that the cartoon captures, about a well-run agile project.
 
 First, by steadily building something that customers can *use*, you can get feedback from customers are you. The customer goes from sad to happy in increments, each of those is a chunk of evidence that you're moving in the right direction.
 
-Part of why aterfall fails is that it doesn't let you check as you go, to see if what you're building actually makes customers happy. Building something simple and then expanding outward is often (thought not always!) the right strategy.
+Part of why waterfall fails is that it doesn't let you check as you go, to see if what you're building actually makes customers happy. Building something simple and then expanding outward is often (thought not always!) the right strategy.
 
 The second thing that the cartoon usefully hints at is more on the engineering side. At each step, there's an end-to-end thing. Another classic failure more of waterfall projects is to build big, complicated things in isolation, and delay the integration of the parts until later. That leaves far too many nasty surprises.
 
 Okay, if that's all right, why is it also profoundly wrong?
 
-First off, it's far too linear. No one gets anything wrong or has to learn and adapt. That's so fundamental to value creation, the cartoon damagingly suggests that you're just marching along, making customers happier and happier.
+Two things.
 
-Second though, increments of value are often created *not* by simply making customers incrementally happier, but by various action which create evidence. In our model of a set of possible product opportunities, *identifying* a good one, or eliminating a bad one, create considerable value.
+First off, it's far too linear. No one gets anything wrong or has to learn and adapt. That's so fundamental to value creation, the cartoon damagingly suggests that you're just marching along, making customers happier and happier, with an ever-and-ever better machine for transportation. This is just not at all how it plays out in reality.
 
-Let's see how that could look, for a cteam trying to develop a new product, in cartoon form.
+Second, increments of value are often created *not* by simply making customers incrementally happier, but by various action which create evidence. In our model of a set of possible product opportunities, *identifying* a good one, or eliminating a bad one, create considerable value. That doesn't show up in this visualization at all.
 
-First off, a smart team doesn't start with a product (aka solution) idea, instead, they start with a customer *problem*.
+Let's see how that could look, for a team trying to develop a new product, in cartoon form.
+
+First off, a smart team doesn't start with a product (aka solution) idea, instead, they start with a customer *problem*. See Escaping the Build Trap for more on this.
 
 [Picture of an upset customer]
 
 But, again, remember, we're thinking in terms of pipelines and portfolios. So they start with a *set* of such potential problems, ala:
 
-[Picture of 5 upset customers, maybe numbered, or different kinds of upset? Different strings of sweary characters]
-
-Each of those could lead to a further chunk of work:
+[Picture of 5 upset customers, maybe numbered, or different kinds of upset? Different strings of sweary characters? Maybe in different boxes]
 
 [Dotted/faint lines emerging from a single box to five other boxes, fanning out, all very faint]
+
+Each of those could lead to a further work:
+
+[Show multiple lines fanning out from each of those.]
+
+For their first increment, they're trying to pick one of the customer problems to work on. They don't currently have a good estimate of the likelihood of success (aka increase in profits) from going along each arc.
+
+They want to create evidence to make a decisin.
 
 In their first increment of effort, they do a mix of a couple of different kinds of work.
 
@@ -211,7 +219,7 @@ For that one, the engineering team does a spike of research, actually building a
 
 At the end of the increment, they've collected evidence of which path is most likely to lead to future profits.
 
-[Picture of one arrow coming out being much thicker or darker or colored green]
+[Picture of one arrow coming out being much thicker or darker or colored green, maybe label all the arcs with estimates of future profits, all quite low, based on what is currently known]
 
 Someone therefore can *make a decision* about what to do next.
 
