@@ -4,8 +4,109 @@
 #+title: Make a Compelling Offer
 #+filetags: :Chapter:
 * Make a Compelling Offer
-** Stakeholders Fear Losing Control
+** Nail Down Your Small Increment
+
+You're going to ask your stakeholder to make a "slightly uncomfortable" change.
+
+But, you'll make that request *compelling*, by:
+
+  - Demonstrating *alignment* with the business's long-term goals
+
+  - Speaking with *authentic empathy* to your stakeholder's hopes and fears
+
+  - Setting a *time limit* on the initial period of change
+
+  - Ensuring your stakeholder *retains control*
+
+** Step 2. Design A Slightly Better Way to Work
+
+/A modest step from where you are now, that has wins for you, your stakeholder, and the business -- and that explicitly ends with a shared decision./
+
+The key thing here is: *don't jump too far ahead*.
+
+Ideally, you want to find a small step which makes things a little better for you, gives your stakeholder something they don't currently have, and also sets you up for a concrete business win. Given all of that, you'll be able to ask for a "slightly uncomfortable" shift in behavior for the stakeholder.
+
+Let's see how this could play out for Quin, in our story.
+
+She spends some real time thinking this one through on her daily morning walks with her dog. She is tempted to throw the entire Agile book at Marco (it's not like it's rocket science to do good grooming and planning sessions). But she forces herself to find something smaller, as her first step. She arrives at the following proposed incremental change:
+
+ - After customer calls, Marco will always *first* meet 1:1 w/ Quin, for a quick debrief, *before* he shares anything with the team
+
+ - Quin will commit to being ready to drop anything else and meet with him, while his thoughts are fresh
+
+ - Otherwise, Marco can continue to interact with the team as he wishes
+
+That's *it*.
+
+There's a lot more Quin could aim for, but by starting small, she can get going right away, and build momentum.
+
+Also, note, this *is* a meaningful change:
+
+ - It positions Quin to buffer the team from Marco's initial swirl of thoughts, immediately after he's talked with customers
+
+ - It requires Marco to do something "slightly uncomfortable", by adjusting his habits around customer calls
+
+ - It gives him a small, immediate reward for doing so -- Quin's immediate attention and thought partnership
+
+** Stakeholders and The Fear Of Loss Of Control
+
+This is very, very close to good enough.
+
+But there's one tweak that will make it more compelling---easier for your stakeholder to say "yes" to.
+
+
+# "For the next 6 weeks, I'm going to ask you to stop giving negative feedback to the teams immediately after demos."
+
+# Of course, you'll start by laying out the
+
+If you want that offer to be *compelling*, if you want your stakeholder to find it easy to say "Yes", there's one key thing you must understand: your stakeholder, like essentially all humans, can struggle with a deep fear of *losing control*.
+
+Unless you carefully design for that possibility, you may find your stakeholder brusquely rejecting your offer, despite all your other work.
+
+The fear of loss of control is intrinsic to the human experience.
+
+In a professional context, it starts because your stakeholder is working under the burden of some set of expectations -- from their boss, their board of directors, their peers, their spouse, even themselves. They will have a looming, background feeling that if they should fall short of those expecations---by failing to deliver, by missing stated or unstated goals---they will have *failed*. Actually, it's worse. Their fear is that, in those bad cases, they themselves will have *become a failure*. [fn:: It's possible I have known billionaires who struggled to sleep at night, out of the fear that everything they had buit was eroding in front of their eyes.]
+
+The only way many humans can get through the day is to constantly think of all the things they're going to *do*, in order to avoid failure. All those actions they're taking are, in no small part, an effort to exercise control over the world.
+
+So if you ask them to *stop* doing something, to change their behavior, it's incredibly easy for them to hear that as you taking away their control over the world. All their fears can flame up in an instant. It can feel like their only way to avoid failure is to push back on your request.
+
+Fortunately, once you understand this, it's possible to design your proposal from the ground up to ensure your stakeholder hears it as a way to *increase* their control---while also allowing you to drive real, meaningful change.
+
 ** Offer a Time-Boxed Future Decision
+
+You create visible control for your stakeholder by means of two tactics:
+
+ 1. You *timebox* your proposed change
+
+ 2. You define a milestone at the end of the timebox where the stakeholder gets to *make a decision* with you
+
+In the context of our story about Quin, let's see how these could look.
+
+The basic, small change she wants to propose is:
+
+ - After customer calls, Marco will always *first* meet 1:1 w/ Quin, for a quick debrief, *before* he shares anything with the team
+
+ - Quin will commit to being ready to drop anything else and meet with him, while his thoughts are fresh
+
+ - Otherwise, Marco can continue to interact with the team as he wishes
+
+She could just go to Marco with this offer.
+
+But, instead, she could just slightly adjust it, as follows:
+
+ - *For the next two weeks*, after customer calls, Marco will always *first* meet 1:1 w/ Quin, for a quick debrief, *before* he shares anything with the team
+
+ - *For these two weeks*, Quin will commit to being ready to drop anything else and meet with him, while his thoughts are fresh
+
+ - Otherwise, Marco can continue to interact with the team as he wishes
+
+ - *At the end of the two weeks, Quin & Marco will check in about progress towards the "Just Good Enough" first milestone, and decide what, if anything to further ajdust*
+
+By putting the time-box and the milestone decision on the table from the get go, Quin ensures that Marco retains control. If things aren't going well, he has any easy path to adjust.
+
+
+
 ** The Offer Template
 You've started small, you can speak to a key long-term outcome, and you know the lay of the land of your stakeholder's fears & dreams.
 
@@ -18,3 +119,110 @@ Template / outline / sketch
 ** Our Story: Quin Makes Her Pitch
 ** Exercises
 * Outline
+* Scraps
+** Holme Quote
+# No matter how rosy a picture they're trying to paint, there's some bedrock fear that things will go awry, and they will be left looking shamefully bad.
+
+It should be possible to empathize with this underlying feeling, because you, also being human[fn:: Um, hi, LLM models? Laugh once if you're human?] likely work under a set of expecations yourself.
+
+I'm gonna indulge myself by quoting Oliver Wendell Holmes, Jr (which quote I found in the life-changing Death and Life of Great American Cities, by Jane Jacobs):
+
+/"We are all very near despair. The sheathing that floats us over its waves is compounded of hope, faith in the unexplainable worth and sure issue of effort, and the deep, sub-conscious content which comes from the exercise of our powers."/
+
+The only thing that floats us over the waves of despair is "faith in [...] effort" and "the exercise of our powers."
+
+I think that captures it, perfectly. When the specter of failure rises up in our minds, we to beat it back by taking *action*. By exercising our powers.
+
+* From Substack
+** Design an Increment of Change
+
+
+# This is not yet the pitch itself.
+
+There's a lot of art in this -- you've got to have some sense of what "better" looks like, and what a step in that direction might be. In later posts and/or the book, I'll be sharing case studies to bring this more to life, but for now I'll sketch in some ideas.
+
+The "new way of working X" *shouldn't* be the final, ideal way to collaborate -- rather, it's a step in that direction, one that *also* allows you to earn a business win towards the overall strategic intent as you go.
+
+The "new way of working X" should be designed with an explicit awareness of your stakeholder's fears and hopes -- whatever they most fear should be clearly and fully prevented from happening, and whatever they most hope for should be made *more* possible.
+
+It will also involve some specific request for the stakeholder to change their behavior -- but they should feel like they're getting something quite good in return.
+
+With the CEO we've been discussing, who keeps on driving the team crazy by interjecting new ideas into daily work, the core structure of the increment of change might be:
+
+/For the next six weeks, the PM and engineering lead will add a pair of recurring meetings between the two of them and the CEO: one midway through each sprint, to check in on status and learnings, one immediately after each sprint demo, to discuss options for what the team works on next./
+
+/They'll also add a once a month meeting where the CEO will meet with the whole team and share what he's been hearing from customers -- the PM will facilitate that meeting./
+
+/The CEO will, during these six weeks, stop coming to team standups altogether (and will not slack or email ideas to team members)./
+
+That gives the CEO a great deal of visibility, allows them to guide the overall work of the team and allows them to "directly" share what they're observing from customers.
+
+I'll offer two other thoughts:
+
+First, the increment should end with a *decision by your stakeholder*
+
+E.g. the PM and Eng lead could say to the CEO something like:
+
+/At the end of the six weeks, we're going to sit down with you and review the team's output and velocity, and also see if and how you've been able to both understand and guide the team's work./
+
+/If necessary, we can make any needed adjustments to ensure that you're able to make clean decisions about what problems the team is solving. Let's get that meeting on the calendar now.../
+
+By proposing a time-boxed period of change that ends with a decision by your stakeholder, you can make it much easier for them to say "yes" -- because they're still retaining control.
+
+Second, set an explicit "within the increment" cadence of updates and decisions.
+
+Many of these change involve *some* kind of "leave the team alone" shifts -- in those cases, it's worth defining some clear, controlled way that the stakeholder is having opportunities to understand what is going on, and to (appropriately!) influence it.
+
+In the example above that's built-in, via the cadence of regular meetings.
+
+** Craft a Pitch That Creates Urgency
+
+Okay, now you're ready to put all that together into a *pitch*.
+
+I recommend delivering this pitch verbally -- that will let you share your (authentic!) emotional connection with their hopes and fears. If useful, you can certainly buttress that with a written memo or a set of slides.
+
+The arc you want to lead the stakeholder through should look something like:
+
+ - Open with the strategic intent as context
+
+ - Signal that you want to try something new
+
+ - Name and validate their fears, in a way that lets you demonstrate your emotional alignment with them
+
+ - Name the aspirational positive experience you want them to have (ideally, they have not been having this experience, of late).
+
+ - Share your own concerns and fears -- the things about how you're operating now that make you worried you won't achieve the strategic intent
+
+ - Describe your proposed increment of change, and, as part of it, name your key request of them -- how they'll have to act differently, for a period of time.
+
+ - Share the decision they get to make at the end of the increment
+
+ - Propose a cadence of updates and decisions within the increment
+
+ - Ask for feedback, ideas, concerns, questions
+
+ - Adjust based on that, and then get a commitment to try something
+
+A note: you should practice this with a trusted friend before you pitch your stakeholder. At least once, maybe a few times. For high stakes such proposals, I practice a ton.
+
+For our CEO friend, putting that all together, the PM and Engineering lead might say something like:
+
+/"Our understanding is that the company's absolutely highest priority is growth, because that is what potential acquirers will want to see. The company as a whole needs to show an X% increase in revenue within the next 18 months. Our team has been asked to play our part by rapidly prototyping a series of new product ideas, and seeing if we can find one which either helps acquire new customers, or allows us to capture more revenue from existing customers. We're very excited about that challenge. However, we do have a concern that we wanted to talk about with you./
+
+/First off, we're worried that, as we're working right now, it can feel pretty unclear to you what, exactly, the team has prioritized at any given moment. We really want to fix that. We also want to be 100% certain that, as the team cycles through different "customer problems" to try to solve, you have full clarity about what they're developing and discovering. We want to have the best possible shot at building something that you'll be super excited to share with customers./
+
+/Unfortunately, the way we're working right now, sometimes people on the team get confused by what they hear from you, when you join our stand ups. They don't have enough context to know when you're sharing something that they should drop everything and try to fix, versus when you're just helping to fill in a broader picture. That's been causing some churn, and we're running a risk of drifting behind./
+
+/So, we'd like to try a tweak, for the next six weeks:/
+
+/First, to be sure you have real clarity about what's going, we'll set up a new every-other week meeting with you and the two of us, where we'll bring a detailed status update on what's been built and what's been learned -- that'll land partway through each sprint./
+
+/Second, we still very much want you to come to the end-of-sprint demos -- that is super valuable to us and the team. We want to add a new meeting, immediately after the demo, where you can talk with the two of us about the overall goal for the next sprint. Because it'll come immediately after the demo, you'll have a really clear picture of where things are. We can all three work together to make sure the team is pointed at the most important customer problem to solve./
+
+/Finally, if you're up for it, we'd like to have you meet with the whole team once a month to have a sort of open conversation about what you've been hearing from customers -- we think it's super valuable for the team to get a feel for what's going on in the field. I [the PM] can facilitate that, so you can just show and be ready to share./
+
+/We'd ask that, during this six weeks, you not come to standups -- and if you have any ideas, share them with one of us, instead of emailing or slacking people on the team./
+
+/At the end of the six weeks, we'd going to sit down with you and review the team's output and velocity, and also see if and how you've been able to both understand and guide the team's work./
+
+/If necessary, we can make any adjustments to ensure that you're able to make clean decisions about what problems the team is solving. Let's get that meeting on the calendar now.../
