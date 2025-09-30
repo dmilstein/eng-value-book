@@ -73,16 +73,26 @@ CLOCK: [2025-09-17 Wed 09:23]--[2025-09-17 Wed 10:53] =>  1:30
 CLOCK: [2025-09-16 Tue 08:31]--[2025-09-16 Tue 11:07] =>  2:36
 :END:
 * [[id:5903AFE7-4B1E-422C-8537-2C56BBFBA643][Mine For Feelings]]                               :gtasks:
-** DONE Write bad version: Offer Labeled Feelings :curweek:
+** TODO Rename to Repeat Trailing Words? (cut Three)
+** TODO Show example of labeling for fear of making prioritization calls
+** DONE Write bad version: Offer Labeled Feelings
 CLOSED: [2025-09-22 Mon 10:38]
 :LOGBOOK:
 CLOCK: [2025-09-22 Mon 10:02]--[2025-09-22 Mon 10:38] =>  0:36
 :END:
-** TODO Write crappy "Putting it all together"    :curweek:pom:
+** DONE Write crappy "Putting it all together"    :pom:
+CLOSED: [2025-09-24 Wed 10:20]
 :LOGBOOK:
-CLOCK: [2025-09-23 Tue 08:30]
+CLOCK: [2025-09-24 Wed 08:27]--[2025-09-24 Wed 10:19] =>  1:52
+CLOCK: [2025-09-23 Tue 10:23]--[2025-09-23 Tue 10:45] =>  0:22
+CLOCK: [2025-09-23 Tue 08:30]--[2025-09-23 Tue 09:51] =>  1:21
 :END:
-** TODO Write exercises                           :curweek:
+** DONE Finish exercises
+CLOSED: [2025-09-25 Thu 11:44]
+:LOGBOOK:
+CLOCK: [2025-09-25 Thu 09:17]--[2025-09-25 Thu 11:44] =>  2:27
+CLOCK: [2025-09-24 Wed 11:51]--[2025-09-24 Wed 12:01] =>  0:10
+:END:
 ** TODO Use "I'm worried", "I'm afraid"
 ** TODO Have Quin discover Marco's past w/ failed project?
 ** TODO Have Quin know one feeling by guessing
@@ -114,10 +124,26 @@ CLOSED: [2025-09-21 Sun 09:21]
 ** DONE Spike: show failed convos before good ones?
 CLOSED: [2025-09-15 Mon 09:34]
 Ala Mom Test?
-* Compelling Offer                                :gtasks:
-** TODO Sketch in learning outcomes               :curweek:
+* Compelling Offer
+** DONE Sketch in learning outcomes
+CLOSED: [2025-09-24 Wed 08:33]
 :LOGBOOK:
 CLOCK: [2025-09-22 Mon 10:41]--[2025-09-22 Mon 10:43] =>  0:02
+:END:
+** DONE Cut up Substack post, shove it in         :curweek:
+CLOSED: [2025-09-29 Mon 17:46]
+:LOGBOOK:
+CLOCK: [2025-09-29 Mon 14:29]--[2025-09-29 Mon 14:56] =>  0:27
+:END:
+** DONE Crappy draft of Fear of Loss of Control   :curweek:
+CLOSED: [2025-09-29 Mon 18:15]
+:LOGBOOK:
+CLOCK: [2025-09-29 Mon 17:46]--[2025-09-29 Mon 18:15] =>  0:29
+:END:
+** TODO Crappy draft of Time-Boxed Decision       :curweek:pom:
+:LOGBOOK:
+CLOCK: [2025-09-30 Tue 17:32]
+CLOCK: [2025-09-29 Mon 18:15]--[2025-09-29 Mon 18:32] =>  0:17
 :END:
 * [[id:4D62F0DE-2862-45F3-97EE-6AFED5382F2C][Storytelling/Wins ]]                              :gtasks:
 ** TODO Quote White Album: We tell stories in order to live
@@ -269,7 +295,12 @@ So I can either run full screen or within 80 columns
 Because now my wordcount history stuff is sensitive to those being missing.
 ** TODO Create a new chapter template or abbrev?
 * Book Misc
-** DONE Learn about em v en dash usage            :curweek:
+** TODO Move exercises to the back
+But harrangue people to *actually do them*.
+** TODO Ask for "early testers" *of the exercises*?
+Separately from the whole book
+** TODO Think: ask Chris Voss for a review at some point
+** DONE Learn about em v en dash usage
 CLOSED: [2025-09-22 Mon 12:25]
 ** TODO Should I feature more actual stories from my past
 E.g. the way he does in NSTD? Vs made up scenarios?
@@ -324,7 +355,14 @@ E.g. things I tried that didn't work, or that I've seen people try and have not 
 ** TODO Ping Alla H about using her name?
 * Future Books                                    :sleep:
 ** TODO The Art of Increment Design (milestones)
+*** [[id:03D1870C-E583-4D5C-9589-5E0799793D48][Mstones/Decisions]]
+**** TODO Break out Design Milestones chapter?
+**** TODO Review Ell Milestones doc for ideas
+
 ** TODO Engineering Leads the Way (tech investments)
+Investing for the Long Term
+
+Technical Stewardship
 ** TODO The Tech Investment Casebook
 ** TODO Collect ideas for book 2 about inteviewing + hiring
 "That Was Fun!" - How to interview so that great people can't wait to say yes
@@ -333,11 +371,6 @@ In [[id:77C90CB8-9DA8-48D7-B534-2C448F34D489][Blog Topics]] I have a reasonable 
 ** TODO Add Book Idea: "How to Increase Your Scope"
 Aka, how to get promoted, aka, how to figure out your bosses' probelms and help solved them
 ** TODO Build out from Milestones doc? It's kinda great
-** The Art of Increment Design
-*** [[id:03D1870C-E583-4D5C-9589-5E0799793D48][Mstones/Decisions]]
-**** TODO Break out Design Milestones chapter?
-**** TODO Review Ell Milestones doc for ideas
-
 ** Tech Investments Book
 *** [[id:47FF75F6-17DB-4E36-950D-F7CFAFA950EA][Tech Invest Intro ]]
 **** DONE Finish first draft of Intro chapter
