@@ -15,7 +15,9 @@ To do so, we're going to develop a nuanced understanding of how engineering work
 
 We'll start by digging into why it's so important to design good increments.
 
-Let's see what happens when a team is laboring under the pain of *bad increment design*.
+Then we'll offer a way to distinguish between good and bad such increments.
+
+But first, let's see what happens when a team is laboring under the pain of *bad increment design*.
 
 # I have come to believe it is *the* most important skill of a senior engineer (and of an engineering and product pair).
 
@@ -53,7 +55,7 @@ What happened next?
 
 The engineers sat down and broke the work down into *increments*. That is to say, they decided what they would build first, what they would build second, etc. The product team wasn't closely involved in the development of the increments---they considered themselves a consumer of this process.
 
-The engineers, led by one of the senior engineers, used a very common approach to develop their increments: they first broke the planned system down into a set of components, then ordered the development of those components in a way that felt natural to them. The choice of order didn't feel particularly high stakes to them---no matter the order, they'd ultimately have to develop all the components. In this particular case, they decided to start with something fairly easy first, to build some momentum.
+The team, led by one of the senior engineers, used a very common approach to develop their increments: they first broke the planned system down into a set of components, then ordered the development of those components in a way that felt natural to them. The choice of order didn't feel particularly high stakes to them---no matter the order, they'd ultimately have to develop all the components. In this particular case, they decided to start with something fairly easy first, to build some momentum.
 
 Once the engineers had the increments, they estimated each, then the product team turned all of that into a schedule with milestones and deadlines. The product team then cut a good bit of scope, to ensure there was a comfortable four weeks of padding at the end of the project, in case anything went wrong.
 
@@ -61,25 +63,23 @@ And the engineers got to work, in their (well-observed!) agile process.
 
 Now.
 
-No one knows it, but, in this moment, the team is already doomed.
+In this moment, the team is already doomed.
 
-Why?
+They've chosen their overall increments arbitrarily and poorly.
 
-Because they've chosen their overall increments arbitrarily and poorly.
-
-As a result, they will make horrible discoveries very late in the project, when there are no good options to adapt and still deliver something valuable. They have not engaged their stakeholders in any discussion around the increments, instead treating them as internal to engineering and product. As a result, none of those increments deliver something that is at all *useful* to their stakeholders. Thus, there's no point, before the very end of the project that they could decide, with their stakeholders, to take a partial win, and move on.
+They will make horrible discoveries very late in the project, when there are no good options to adapt and still deliver something valuable. They have not engaged their stakeholders in any discussion around the increments, instead treating the increments as internal to engineering and product. As a result, none of the increments deliver something that is at all *useful* to their stakeholders. Thus, there's no point, before the very end of the project that the team could decide, *with* their stakeholders, to take a partial win, and move on.
 
 Fundamentally, they have not chosen their sequence of work to *create incremental value*.
 
 Despite the team working in an agile fashion day-to-day, the company as a whole only seems to see any value at the very end of the project. Which is the opposite of agile.
 
-Now, you might be thinking, "This is why teams should *always* build an end-to-end solution, from day one." Actually, *no*. There are plenty of cases where that is *also* the wrong incremental breakdown. I have seen a great many projects go horribly off the rails because the team started by building a clever-looking end-to-end prototype, and then discovered far too late that they couldn't actually deliver even vaguely what they had promised, due to a profound misunderstanding of some constraint deep in the guts of a key data source.
+Now, you might be thinking, "This is why teams should *always* build an end-to-end solution, from day one." Unfortunately, that doesn't consistent work either. I have seen a great many projects go horribly off the rails because the team started by building a clever-looking end-to-end prototype, and then discovered far too late that they couldn't actually deliver even vaguely what they had promised, due to, say, a profound misunderstanding of a constraint deep in the guts of a key data source.
 
-There isn't one true sequence to building complex software. It requires an act of creative design every time.
+There isn't one true sequence for building complex software. It requires an act of creative design every time (and, in fact, continual redesign, as the project unfold).
 
-Depending on the context, each of the following could be the key first step:
+Depending on the context, each of the following could be the key first increment:
 
- - Build something crude that satisfies a subset of users with a subset of planned functionality
+ - Build something limited-but-real that satisfies a subset of users with a subset of planned functionality
 
  - Build an interactive-but-fake protoype of the complete set of planned functionality
 
@@ -89,33 +89,39 @@ Depending on the context, each of the following could be the key first step:
 
  - Don't build anything, but instead do a deep dive into a key data source
 
-Of course, if each of the above could be the key first step, each of the above can also be the *exactly wrong* first increment, setting your team down the wrong road.
+Of course, if each of the above could be the key first increment, each of the above can also be the *exactly wrong* first increment, setting your team down the wrong road.
 
-If you want to avoid getting trapped in a situation where, no matter what you do, there is no win for the business, you need to understand how your team can create incremental value. That will allow you to, with careful increment design, offer your business counterparts a steady series of options for when to *stop* and still realize value.
+If you want to avoid getting trapped in a situation where, no matter what you do, there is no win for the business, you need to understand how your team can create incremental value as they work.
 
-And here is the absolute key.
+That will allow you to, with careful increment design, offer your business counterparts a steady series of options for when to *stop* and still realize value.
 
-An engineering team can create incremental *value* for their company, even if they're *not* shipping software that is incrementally *useful* to any users.
+As we turn to do so, here is the absolute key:
 
-...what?
+An engineering team can create incremental *value* for their company, even if they're *not* shipping software that is incrementally more *useful* to any users.
 
-Value is *not* only created by usable software.
+"...what?" I hear you thinking.
 
-...but doesn't the Agile Manifesto say working software is the measure of progress?
+Shipping useful software is *not* the only way engineers create value for a business.
 
-Yeah, sigh. The Agile Manifesto is legitimately great, but they got this one wrong.
+"...but doesn't the Agile Manifesto say working software is the measure of progress?" I hear you continue to think.
 
-Let's dig in.
+Yeah, sigh. The Agile Manifesto is legitimately and enduringly great, but they got this one wrong.
 
 # The engineers had, of course, complained that the product team hadn't sufficiently defined the product for them to give a good estimate. But they always made that complaint.
 
 # The product team complained (to each other, over drinks), that the engineers weren't willing to stand behind their commitments.
 
-** Callback to Previous Post
+** Defining Overall Company Value
 
-In our previous posts in this series, (Link, Link), we developed an understanding of how engineers *create value* for their companies.
+We're talking about overall company value. Not just "what makes stakeholders happy", or "what users can use", but what makes the overall business *worth more*. Specifically worth more to *investors*.
 
-In order to understand value, we dug deeply into how investors determine what a company is *worth*---also known as the "valuation" they assign a company. Because an investor's valuation of a company is based on a guess about that company's future profits, we came to understand that the work an engineer does *creates value* for their company if that work:
+We need to answer: what would make an investor *pay more* for (a fraction of) a company? That is directly driven by the investor's "valuation" of the company, aka, how much they think the company as a whole is worth. That is the kind of value we're talking about.
+
+In our previous posts in this series, (Link, Link), we dug deeply into this question.
+
+What we arrived at, in brief, is that an investor's *valuation* of a company is based on a *guess* about that company's future profits, aka a "probabilistic estimate of future profits". Thus, an increment of engineering work *creates incremental value* for their company if that work:
+
+# In order to understand value, we dug deeply into how investors determine what a company is *worth*---also known as the "valuation" they assign a company.
 
  - Increases a probabilistic estimate of future profits...
 
@@ -123,9 +129,9 @@ In order to understand value, we dug deeply into how investors determine what a 
 
  - who possesses information known both inside and outside the company.
 
-We named a specific, economically rational investor *Bertha*.
+For ease of discourse[fn:: and because it's fun?] we named one specific, economically rational investor *Bertha*.
 
-Armed with this fuller understanding of how value is created (and our made-up person!), we're ready to explore various kinds of engineering work.
+Armed with this fuller understanding of how value is created (and our made-up person!), we're ready to explore how various kinds of engineering work can create *incremental* value.
 
 # In particular, we're ready to analyze [explore, dig into] a wide variety of different *demands* that are frequently made of engineering teams, by people across the company who believe that solving problems in their area will certainly absolutely for sure no questions asked create value for the company.
 
@@ -133,13 +139,13 @@ Armed with this fuller understanding of how value is created (and our made-up pe
 
 # XXX Make Above Suck Less (MASL)
 
-We'll start by digging into how value is created *incrementally*.
+# We'll start by digging into how value is created *incrementally*.
 
-This is absolutely key. Our model of value creation is of no use to us if it can only be applied at the scale of a year-long project. To win at software development, you need to steadily make good decisions on a weekly and daily basis. To support that, we'll need a *fine-grained* understanding of value creation, operating at the scale of months and even weeks. Then, as we go through our planning cycles, we'll be able look at potential increments our team could build, and use our understanding of value to select the best one. That will allow to steadily hone in on *visible wins* for our business.
+# This is absolutely key. Our model of value creation is of no use to us if it can only be applied at the scale of a year-long project. To win at software development, you need to steadily make good decisions on a weekly and daily basis. To support that, we'll need a *fine-grained* understanding of value creation, operating at the scale of months and even weeks. Then, as we go through our planning cycles, we'll be able look at potential increments our team could build, and use our understanding of value to select the best one. That will allow to steadily hone in on *visible wins* for our business.
 
 # [that will create the most value.]
 
-Working on a software project that will hopefully create value is a bit like launching an expedition to cross an unknown sea, and hopefully find a city to trade with on the far side. There might be a single narrow passage to that far shore, savage storms might arise, there might not even be a city in the direction you're initially aiming in.[fn:: Have you ever worked on a months or years-long project which was, ultimately, a total failure? Did that not feel like you'd utterly lost your way? Like you'd been blown so far off course, you couldn't even remember what you'd been trying to do in the first place?]
+Working on a software project that will hopefully create value is a bit like launching an expedition to cross an unknown sea, and in hopes of finding a city to trade with on the far side. There might be a single narrow passage to that far shore, savage storms might arise, there might not even be a city in the direction you're initially aiming in.[fn:: Have you ever worked on a months or years-long project which was, ultimately, a total failure? Did that not feel like you'd utterly lost your way? Like you'd been blown so far off course, you couldn't even remember what you'd been trying to do in the first place?]
 
 # What is useful about this metaphor is that it makes it enormously clear that you can't make all your big decisions up front and stick to them.
 
@@ -164,30 +170,11 @@ Let's dig in.
 # Let's start with a classic tension:
 
 # Stop me if you've heard this one before:
+It's a Tuesday morning. Bertha, our economically rational investor, is having her mid-morning tea. When she woke up that morning, her economically rational, probabilistic estimate for your comnpany is that it will make, say, $10 million in profits over the next five years.
 
-Let me sketch in a situation that you've definitely never heard of before or experienced personally.
+But then, as she drinks her tea... something... happens. That... something... causes her to change her beliefs about your company. She suddenly becomes much more optimistic. That something makes her *double* her probabilistic estimate of future profits---she now believes you'll make $20 million in profits over the next five years. Bertha is, remember, standing in for *all* rational investors. So if Bertha changes her mind, so will the mass of other investors. And the value of a company is simply what those investors are willing to pay for it, which they base on their probabilistic estimate of future profits.
 
- - Your company desperately needs a new product, it's all the CEO can talk about
-
- - Your engineering team desperately needs to stop clawing their eyes out every time they deploy to production
-
-How should an engineering decide what to do with their next increment of work? Should they work on a new product, or on smoothing out deploys? Which will create the most value?
-
-One common way to frame the question is: should the team work on the *business* problem (new product), or the *engineering* problem (deploys)?
-
-Hold it right there, Mr Common Way: these are *both* business problems. They are both opportunities to incrementally create value.
-
-But which of those opportunities should we work on *today*?
-
-It's depressingly common for people to consider the new product opportunity much more urgent because it seems like the only way to create "immediate" value. A reduction in deploy pain feels a lot less urgent, because it will take such a long time for that improvement to impact profits for the business (and we just said profits are value, right?)
-
-That perspective is *profoundly wrong*. Remember, company value is a rational investor's *current* probabilistic estimate of *future* profits. Therefore, crucially, value can accrue *immediately*, even if the actual increase in profits will take a very long time to land.
-
-What?
-
-Let's see how this could happen.
-
-It's a Tuesday morning. Bertha, our economically rational investor, is having her mid-morning tea. As she drinks her tea... something... happens. That... something... causes her to change her beliefs about your company. She suddenly becomes much more optimistic. That something makes her *double* her probabilistic estimate of future profits. Now, Bertha is standing in for all rational investors, so if she changes her mind, so will the mass of other investors. And the value of a company is simply what those investors are willing to pay for it. So, in that moment, whatever the... something... was that made Bertha change her mind has made the company as a whole *immediately* double in value. In the moment she changed her rational mind.
+So, in that moment, whatever the... something... was that made Bertha change her mind has made the company as a whole *immediately* double in value. In the moment she changed her rational mind.
 
 Why on earth would Bertha suddenly change her mind about expected future profits?[fn:: She's *rational*, so you can't answer "There was something in her tea." Even if you're kind of tempted to.]
 
@@ -199,31 +186,17 @@ Does this idea of doubling an estimate of profits due to new evidence seem ridic
 
 Now, for most teams, there's nothing they can do to get Bertha to double her estimate of future profits by way of a single piece of evidence. But there's a great deal they can do that will cause her to slightly increase her estimate.
 
-If a team somehow gets economically rational Bertha to change her mind this way, that team creates some value for their company *immediately*.
+If a team somehow gets economically rational Bertha to change her mind this way, that team creates incremental value for their company *immediately*.
 
-A team that creates evidence, today, of a future increase in profits creates incremental value, today.
-
-Let's dig in to our decision between "building a new product" and "improving deploys" to start to see how this model can be used.
+A team that creates evidence of a future increase in profits creates incremental value, right now.
 
 # Let's see how that plays out for our two potential investment opportunities.
 
-** Evidence For New Products & Deploy Improvements
+** Incremental Value & Improving Deploys
 
-For the new product, a form of evidence that would cause Bertha to change her estimate of future profits would simply be customers *purchasing* the new product.
+Say your team is agitating for work to improve the process of getting code into production.
 
-But even best case, that's likely months or years in the future.
-
-What might be some incremental forms of evidence?
-
-Maybe the team has built a rough prototype, and the sales team took that into the field. Every customer who sees the prototype is excited, and starts talking about how, exactly, they'll find budget to purchase.
-
-That would be powerful evidence.
-
-Or, even earlier, maybe the team had conversations with customers and discovered that customers are already spending money to try to solve the problem the product focuses on.
-
-Each of these outcomes would provide Bertha with a different form of evidence that this new product will allow the company to keep growing revenues, and therefore profits, over time. Each of those pieces of evidence would therefore, in the moment they were acquired, immediately increase the value of the company (by different amounts, to be clear)[fn:: Current revenue *is* a powerful predictor of future revenue. Which is why investors short-hand valuation by simply picking revenue multiples. But, inside a company, as we're evaluating fine-grained activities, we need a more nuanced model].
-
-A team that *acquires* that evidence therefore incrementally creates value for the company.
+# What are things that *won't* increase a rational investor's estimate of future profits?
 
 How could incremental value creation work on the deploy side?
 
@@ -254,6 +227,47 @@ If that engineer then managed to get deploys happening *once per week* (aka c. 1
 # Say that, after their first two months of work, the new engineer has cleaned up a variety of issues, and now, when they look at their little deploy frequency graph, they see that, for the most recent three week period, deploys were happening once per week. A fully economically ration investor who understands the impact of deploy frequency on product development would look at that graph as *evidence*, and based on that evidence, would *immediately* ascribe a higher likelihood of the company successfully developing a new product and thus increasing profits.
 
 # The moment that graph exists, and could be shared with a rational investor, the company *immediately* becomes more valuable. Even if the actual revenue comes in much later.
+
+** Evidence For New Products & Deploy Improvements
+
+Let me sketch in a situation that you've definitely never heard of before or experienced personally.
+
+ - Your company desperately needs a new product, it's all the CEO can talk about
+
+ - Your engineering team desperately needs to stop clawing their eyes out every time they deploy to production
+
+How should an engineering decide what to do with their next increment of work? Should they work on a new product, or on smoothing out deploys? Which will create the most value?
+
+One common way to frame the question is: should the team work on the *business* problem (new product), or the *engineering* problem (deploys)?
+
+Hold it right there, Mr Common Way: these are *both* business problems. They are both opportunities to incrementally create value.
+
+But which of those opportunities should we work on *today*?
+
+It's depressingly common for people to consider the new product opportunity much more urgent because it seems like the only way to create "immediate" value. A reduction in deploy pain feels a lot less urgent, because it will take such a long time for that improvement to impact profits for the business (and we just said profits are value, right?)
+
+That perspective is *profoundly wrong*. Remember, company value is a rational investor's *current* probabilistic estimate of *future* profits. Therefore, crucially, value can accrue *immediately*, even if the actual increase in profits will take a very long time to land.
+
+What?
+
+Let's see how this could happen.
+
+
+For the new product, a form of evidence that would cause Bertha to change her estimate of future profits would simply be customers *purchasing* the new product.
+
+But even best case, that's likely months or years in the future.
+
+What might be some incremental forms of evidence?
+
+Maybe the team has built a rough prototype, and the sales team took that into the field. Every customer who sees the prototype is excited, and starts talking about how, exactly, they'll find budget to purchase.
+
+That would be powerful evidence.
+
+Or, even earlier, maybe the team had conversations with customers and discovered that customers are already spending money to try to solve the problem the product focuses on.
+
+Each of these outcomes would provide Bertha with a different form of evidence that this new product will allow the company to keep growing revenues, and therefore profits, over time. Each of those pieces of evidence would therefore, in the moment they were acquired, immediately increase the value of the company (by different amounts, to be clear)[fn:: Current revenue *is* a powerful predictor of future revenue. Which is why investors short-hand valuation by simply picking revenue multiples. But, inside a company, as we're evaluating fine-grained activities, we need a more nuanced model].
+
+A team that *acquires* that evidence therefore incrementally creates value for the company.
 
 The acquiring of evidence is one of the most powerful ways to understand the incremental creation of value.
 
@@ -611,7 +625,8 @@ Engineering & The Creation of Value, Part III
 It covers both "simple" situations, like closing new customers who add to this year's top-line revenue, but also more nuanced ones, like, a team that rapidly chews through three different product hypotheses, invalidates two of them and makes a critical discovery about a third. That key discovery creates *evidence* that the company is on the verge of building a valuable new product. Bertha, in reviewing that, may even consider that action as having created a greater probabilistic increase in future profits than closing a few new customers (though, note, closing those new customers can create evidence that the company can keep growing, which, in some situations, might be the most important evidence of all).
 
 * Mini Todos
-** TODO Rewrite opening to focus on value of increments
+** DONE Rewrite opening to focus on value of increments
+CLOSED: [2025-09-30 Tue 10:20]
 Possibly use the "waterfall in disguise" there
 ** TODO Throw in link / quote to Rewrites post
 ** TODO For New Product + Deploy pain, show bad alternatives (first?)
