@@ -26,7 +26,7 @@ Let's see what happens when a team is laboring under the pain of *bad increment 
 
 Sometimes, in the middle of a dark wood, you will find yourself on a team that is "doing Agile", but that doesn't *feel* agile in any way.
 
-The team does all the rituals, and does them as faithfully and well as they know how. Their sprints are a crisp two weeks long. They start each sprint on a Monday morning with a full team planning session. They collect around their board every day for standup, and then individual engineers pull well-groomed tickets. On the final Friday of the sprint, the engineers demo what they've built, and then the team runs a brief retro in the afternoon.
+The team does all the rituals, and does them faithfully and well. Their sprints are a crisp two weeks long. They start each sprint on a Monday morning with a full team planning session. They gather every day for standup, and then individual engineers pull well-groomed tickets from their board. On the final Friday of the sprint, the engineers demo what they've built, and then the team runs a brief retro in the afternoon.
 
 All that is as it should be, right?
 
@@ -36,24 +36,31 @@ But, in practice, there's a problem.
 
 Somehow, the overall project has turned into a giant, slow, lumbering effort that is drifting totally out of control.
 
-The team is far, far behind where they are supposed to be. There don't seem to be any options whatsoever to catch up. Every lingering problem they finally tackle immediately sprouts three new problems, hydra-like. The PM is losing sleep, and wakes each morning from anxious dreams about their next update to the executive team. The engineers have grown defeatist and bitter. Every day they're asked to pile new expedient hacks on top of yesterday's expedient hacks, resulting in a system that is already profoundly unstable and getting steadily worse. But, because they've already missed all their key delivery dates, there's no time to deal with any of the emerging problems. The team just soldiers on, having long-since given up on shipping something that they can be proud of. The engineers and the PM's both have a growing suspicion that when they finally *do* ship the unstable, limited, badly compromised product, literally everyone will be angry at them. This is, in fact, exactly what will happen.
+The team is far, far behind where they are supposed to be. There don't seem to be any options whatsoever to catch up. Every lingering problem they finally tackle immediately sprouts three new problems, hydra-like. The PM is losing sleep, and wakes each morning from anxious dreams about their next update to the executive team. The engineers have grown defeatist and bitter. Every day they're asked to pile new expedient hacks on top of yesterday's expedient hacks, resulting in a system that is already profoundly unstable and getting steadily worse. But, because they've already missed all their key delivery dates, there's no time to deal with any of the emerging problems. The team just soldiers on, having long since given up on shipping something that they can be proud of. The engineers and the PM's both have a growing suspicion that when they finally *do* ship the unstable, limited, badly compromised product, literally everyone will be angry at them. This is, in fact, exactly what will happen.
 
 # This is a team that is "doing waterfall with agile methods". Somehow, despite successfully applying agile *tactics*, they're still gaining the pretty nasty outcomes of waterfall.
 
 How did this team get here? And how can we avoid getting here in the future? Why didn't "doing agile" save them? Note: I am a huge believer in agile as a way to organize the work of a team. This post is speaking about why agile tactics, as commonly practiced, are not enough. They are, in the terminology of my friends the mathematicians, *necessary but not sufficient*.
 
-To learn more, let's rewind to the start of the project.
+Let's rewind to the start of the project.
 
-At the time, senior non-technical stakeholders grudgingly conceeded to the project being run "via Agile", because otherwise the engineers would have actually quit[fn:: More accurately, because the engineers and product team are so confidently dismissive of the way the stakeholders *want* to run the project. The tech team derisively calls the stakeholder's desired approach, "waterfall". The stakeholder doesn't really understand what the alternative to "waterfall" is, but they've been around software development for long enough to know "waterfall" is Very Bad Indeed, so they don't force the question]. But those stakeholders extracted a concession of their own from the product team: a commitment to complete the project by Q2 of the following year.
+At the time, senior non-technical stakeholders grudgingly conceeded to the project being run "via Agile", because otherwise the engineers would have actually quit[fn:: More accurately, because the engineers and product team were so confidently dismissive of the way the stakeholders *wanted* to run the project. The tech team derisively called the stakeholder's desired approach "waterfall". The stakeholder didn't really understand what the alternative to "waterfall" was, but they've been around software development for long enough to know "waterfall" is Very Bad Indeed, so they didn't force the question]. But those stakeholders extracted a concession of their own from the product team: a commitment to complete the project by Q2 of the following year.
 
 At the time, Q2 was a full nine months away. The engineers didn't love making this kind of long-term commitment, but they believed they had no choice but to give the business *some* kind of promise. They looked over the high-level PRD's from the product team and said "It looks like we should be able to finish by Q2 *if there are no horrible surprises*".
 
-The product team said "Of course, we understand." They even made a good-faith attempt to share that caveat with the senior non-technical stakeholders. But, surprisingly appromixately no one, those stakeholders neither understood nor accepted those caveats. Instead, after meeting with the product team, they immediately turned around and told the Rest Of the Business, "The engineering team has committed to a Q2 launch date." The Rest Of the Business said "Great, thanks," and started basing all their own plans on that date.
+The product team said "Of course, we understand." They even made a good-faith attempt to share that caveat with the senior non-technical stakeholders. But, surprisingly appromixately no one, those stakeholders neither understood nor accepted those caveats. Instead, after meeting with the product team, they immediately turned around and told the Rest Of The Business, "The engineering team has committed to a Q2 launch date." The Rest Of The Business said "Great, thanks," and started basing all their own plans on that date.
 
 What happened next?
 
-The engineers sat down and broke the work down into *increments*. They came up with *some* understanding of waht they would build first, what they'd build second,
+The engineers sat down and broke the work down into *increments*. That is to say, they decided what they would build first, what they would build second, etc. The product team wasn't closely involved in the development of the increments---they considered themselves a "consumer" of this process.
 
+The engineers, led by one of the senior engineers, used a very common approach to develop their increments: they first broke the planned system down into a set of large components, then ordered the development of those components in a way that felt natural to them. The choice of order didn't feel super high stakes to them---no matter the order, they'd ultimately have to build it all. In this particular case, they decided to start with something fairly easy first, to create some momentum.
+
+Once the engineers had the increments, they estimated each, the product team turned all of that into milestones in a schedule, and assigned deadlines for each. Together, the engineers and product team reviewed that schedule, and then product team cut a meaningful amount of scope, to ensure there was a comfortable four weeks of padding at the end of the project, in case anything went wrong.
+
+And the engineers got to work, in their (well-observed!) agile process.
+
+No one knew it, but this team was already doomed.
 
 
 
