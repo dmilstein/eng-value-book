@@ -1,12 +1,4 @@
 * The Art of Increment Design, Part I - The Value Of Increments
-** Titles
- - The Value of Increments
- - Understanding The Value of Increments
- - Increments & The Creation of Value
- - The Incremental Creation of Value
- - Engineering & The Incremental Creation of Value
- - Engineering & The *Incremental* Creation of Value
-
 ** Intro
 
 Today's post is the first in a series about how to design effective *increments* for the development of software.
@@ -15,19 +7,19 @@ That is to say: how to break a large body of engineering work into a series of s
 
 I have come to believe that effective increment design is *the* most important skill of a senior engineer. I further believe that the design of increments should be a centerpiece of the conversations between engineering and product, and even stretch out to include the rest of the business.
 
-To understand why, we'll start by developing a nuanced understanding of how engineering work does (or does *not*) create value for an overall business (building on previous posts [link], [link]). We'll discover how some increments can, despite consuming a great deal of engineering effort, somehow create *no value whatsoever*. We'll also find how other increments, even one where the engineers write very little code, can somehow create a great deal of value.
+To understand why, we'll start by developing a nuanced understanding of how engineering work does (or does *not*) create value for an overall business (building on previous posts [link], [link]). We'll discover how some increments can, despite consuming a great deal of engineering effort, somehow create *no value whatsoever*. We'll also find how other increments, even ones where the engineers write very little code, can somehow create a great deal of value.
 
-This understanding of value will ultimately both give us tools to break large efforts into small pieces, but *also* offer creative ways to mix in increments of value-creating work to address a wide variety of concerns, e.g. being able to make smalll, safe, frequent deploys; ensuring a system can handle expected increases in load; meeting security expectations of customers; etc.
+This understanding of value will ultimately give us tools to break large efforts into small pieces, and will *also* offer creative ways to mix in increments of value-creating work to address a wide variety of concerns, e.g. being able to make small, safe, frequent deploys; ensuring a system can handle increases in load; meeting security expectations of customers; etc.
 
 Why is good increment design so valuable?
 
-As a theater teacher of mine once said, "The beauty of something is made clear by its absence."
+As teacher of mine once said, "The beauty of something is made clear by its absence."
 
 Thus: what is life like, on a team that suffers from poor increment design?
 
 My guess is that you, dear reader, may have actually experienced this first hand.
 
-Let's see how.
+Let's see what that feels like.
 
 # This theoretical foundation will give you a powerful way to reason about your work. With practice (and some further tactics, to be explored in subsequent posts), it will allow you to find a path through the shifting chaos of reality to a valuable outcome for your business.
 
@@ -37,11 +29,11 @@ Let's see how.
 
 ** The Perils of Bad Increment Design
 
-Sometimes, in the middle of a dark wood, an engineer or a PM will find themselves on a team that is "doing Agile", but that doesn't *feel* agile in any way.
+Sometimes, in the middle of a dark wood, an engineer or a PM will find themselves on a team that is Doing Agile, but that somehow doesn't *feel* agile in any way.
 
 # Switch all to "you" in the below?
 
-The team does all the rituals, and does them faithfully and well. Their sprints are a crisp two weeks long. They start each sprint on a Monday morning with a full team planning session. They gather every day for a standup. As they work, the engineers steadily pull well-groomed tickets from the board. On the final Friday of each sprint, the engineers demo what they've built, and then the team runs a brief retro in the afternoon.
+The team does all the agile rituals, and does them faithfully and well. Their sprints are a crisp two weeks long. They start each sprint on a Monday morning with a full team planning session. They gather every day for a standup. As they work, the engineers steadily pull well-groomed tickets from the board. On the final Friday of each sprint, the engineers demo what they've built, and then the team runs a brief retro in the afternoon.
 
 All that is as it should be, right?
 
@@ -61,7 +53,7 @@ How did this team get here?
 
 How can we avoid getting to a similar place in the future?
 
-Why didn't "doing agile" save them? I am a huge believer in agile as a way to organize the work of a team. But, unfortunately, agile tactics, as commonly practiced, are not enough. They are, in the terminology of my friends the mathematicians, *necessary but not sufficient*.
+Why didn't "doing agile" save them? I am a huge believer in agile as a way to organize the work of a team. But, unfortunately, agile tactics, as commonly practiced, are not enough. They are, in the precise terminology of mathematics, *necessary but not sufficient*.
 
 Let's rewind to the start of the project.
 
@@ -79,41 +71,41 @@ What happened next?
 
 The engineers sat down and broke the work down into *increments*.
 
-That is to say, they decided what they would build first, what they would build second, etc. The product team wasn't closely involved in the development of the increments---they considered themselves a consumer of this "engineering" process[fn:: or, perhaps, the engineers pushed them out of the room].
+That is to say, they decided what they would build first, what they would build second, etc. The product team wasn't closely involved in the development of the increments---they considered themselves a consumer of, rather than a direct participant in, this "engineering" process.
 
-The team, led by one of the senior engineers, used a very common approach to develop their increments: they first broke the planned system down into a set of components, then ordered the development of those components in a way that felt natural to them. The choice of order didn't feel particularly high stakes to them---no matter the order, they'd ultimately have to develop all the components. In this particular case, they decided to start with something fairly easy first, to build some momentum.
+The team, led by one of the senior engineers, developed their increments as follows: first, they broke the planned system down into a set of components; then they ordered the development of those components in a way that felt natural to them. The choice of order didn't feel particularly high stakes to them---no matter the order, they'd ultimately have to develop all the components. In this particular case, they decided to start with something fairly easy first, to build some momentum.
 
-Once the engineers had the increments, they estimated each, then the product team turned all of that into a schedule with milestones and deadlines. The product team then cut a good bit of scope, to ensure there was a comfortable four weeks of padding at the end of the project, in case anything went wrong.
+Once the engineers had the increments, they estimated each, then the product team turned all of that into a schedule with milestones and deadlines. Everyone then worked together to cut a good bit of scope, to ensure there was a comfortable four weeks of padding at the end of the project, in case anything went wrong.
 
-And the engineers got to work, in their (well-observed!) agile process.
+And then the engineers got to work, in their (well-observed!) agile process.
 
-Unfortunately, in this moment, the team was already doomed.
+Unfortunately, in this moment, the team is already doomed.
 
-They chose their overall increments arbitrarily and poorly.
+It will turn out that chose their overall increments arbitrarily and poorly.
 
 They will make horrible discoveries very late in the project, when there are no good options to adapt and still deliver something valuable. They have not engaged their stakeholders in any discussion around the increments, instead treating the increments as an internal concern of engineering and product. None of the increments deliver something that is at all *useful* to their stakeholders. Thus, there's no point, before the very end of the project that the team could decide, *with* their stakeholders, to take a partial win, and move on.
 
 One way to understand this is that they have not chosen their sequence of work to *create incremental value*.
 
-Despite the team working in an agile fashion day-to-day, the company as a whole only seems to see *any* value at the very end of the project. Which is the opposite of agile.
+Despite the team working in an agile fashion day-to-day, the company as a whole only seems to see *any* value at the very end of the project.
 
-If a team creates incremental value, then, well, they can *never really lose*. There's no panicked anxiety looming over them, because they can always stop, and the Rest Of The Business will be some degree of happy---because they will have gotten *some* value. The Rest of the Business may not get everything they *expected*, but if the team can create some genuine value, a smart PM and engineering lead can find a way to help the rest of the business understand the win. (There's a whole other series, about how to draw stakeholders into collaboration around these increments, but we'll start by understanding which increments are even valuable in the first place)
+If a team creates incremental value, then, well, they can *never really lose*. There's no panicked anxiety looming over them, because they can always stop, and the Rest Of The Business will be some degree of happy---because they will have gotten *some* value. The Rest of the Business may not get everything they *expected*, but if the team can create some genuine value, a smart PM and engineering lead can find a way to help the rest of the business understand the win. (Learning how to draw stakeholders into collaboration around valuable increments is a profundly interesting challenge, we're going to start by understanding which increments are even valuable in the first place)
 
 ** Sadly, Blind Adherence To One Approach Will Not Save You
 
-Now, you might well have read the above parable and though: "Ugh, that was an obvious mistake by that team. Teams should *always* build an end-to-end solution, from day one, to avoid exactly that problem. That's what true agile is."
+Now, you might well have read the above parable and thought: "Ugh, Dan, that was an obvious mistake by that team. Teams should always build an end-to-end solution, from day one, to avoid exactly that problem."
 
-Unfortunately, that doesn't always work, either.
+Unfortunately, that approach doesn't always work, either.
 
 I have seen projects go horribly off the rails even though the team started by building an end-to-end prototype and immediately sharing it with users. Those teams discovered, very late in their work, that they couldn't actually deliver even vaguely what that prototype had promised (because, say, they had badly misunderstood what data was actually available to them).
 
 # a constraint deep in the guts of a key data source).
 
-There isn't one true sequence for building complex software.
+Unfortunately, there isn't one true sequence for building complex software.
 
 Selecting good increments requires an act of creative design, every time---and then, continual redesign, as the work unfolds.
 
-Consider the following, each of which teams will sometimes consider as their next incremental chunk of work:
+Consider the following approaches, each of which teams will sometimes consider as their next incremental chunk of work:
 
  - Build something limited-but-real that satisfies a subset of customers with a subset of planned functionality
 
@@ -143,15 +135,75 @@ Let's see how each of those could or could *not* create value, depending on cont
 
    The limitations in functionality mean customers can't use it to actually solve their problems. Instead, they just tell you how great it looks, and how certain they are to use it once you've added just a few more features. You feel like you're making tremendous progress, but, once you address the remaining "blockers", it turns out the customers just wanted you to not feel bad and were lying to you (see The Mom Test for how to find out the truth, even when everyone will eagerly lie to you in this way).
 
-   The "limited subset" rests atop an iceberg of technical complexity below the surface, so getting it working requires 90% of the time and effort of the full project. If the product team names that limited subset the "MVP", but it's more than a few months to build that MVP... the engineering team often drifts into the "build the technical components in some random order" plan described above, with all its attendant dangers.[fn:: The term "MVP" has, sadly, fallen just about totally apart as a useful piece of product development discourse. Far too often it becomes "What bundle of features does a stakeholder like to imagine customers using." Rather than fight over a better definition of MVP (e.g. "The next hypothesis to test"), I've had better luck just leaving MVP on the side of the road, and focusing on building a shared understanding of other terms.]
+   The limited subset rests atop an iceberg of technical complexity below the surface, so getting it working requires 90% of the time and effort of the full project. If the product team names that limited subset the "MVP", but it's more than a few months to build that MVP... the engineering team often drifts into the "build the technical components in some random order" plan described above, with all its attendant dangers.[fn:: The term "MVP" has, sadly, fallen just about totally apart as a useful piece of product development discourse. Far too often it becomes "What bundle of features does a stakeholder like to imagine customers using." Rather than fight over a better definition of MVP (e.g. "The next hypothesis to test"), I've had better luck just leaving MVP on the side of the road, and focusing on building a shared understanding of other terms.]
 
- - Build an interactive-but-fake protoype of the complete set of planned functionality
+ - *Build an interactive-but-fake protoype of the complete set of planned functionality*
 
- - Build a single backend component in full, rigorous depth
+   Creates Value If:
 
- - Build lightweight versions of all the backend components, and wire them all together
+   - The engineering team is confident in their ability to build that complete set of functionality
 
- - Don't build anything, but instead do a deep dive into a key data source
+   - It's hard or impossible for customers to imagine how the product even *could* solve their problems
+
+     Customers are near-universally terrible at *imagining* software that they can't see or interact with. If the team can allow them to interact with something where they can successfully imagine using it to solve their problems, the team can achieve one of two outcomes, *each of which* is valuable:
+
+     a) Customers not only get excited about the product, they start talking in detail about *how* they would use it to solve their problems, they talk about what they are currently doing to try to solve those problems, they beg to show it to other people they work with, etc.
+
+     Value = Great, you've gotten validation + a partner for incrementally testing out your solution as you go.
+
+     Or,
+
+     b) Customers show *none* of the above evidence of commitment.
+
+     Value = Great, you've learned that you shouldn't waste time building that full set of planned functionality.
+
+     This latter result is *super valuable*! It creates the opportunity for the team to build *something else* that customers will pay for. (We'll dig into this form of value creation in detail below)
+
+   Does Not Create Value If:
+
+   - The product has the nature where interacting with a fake prototype isn't enough for customers to imagine using it to solve their problems
+
+     A classic example of this is when the product involves aggregating some complex set of the customer's own data. Showing them a slick-looking visualization tool on top of fake data often fails to engage the part of their brain that is worrying about their problems, so you fall back into the risk of them trying to make you feel good by "being nice".[fn:: Fun fact: the best early increment in this case is often a *spreadsheet*, into which you've painstakingly hand-collected that customer's *own data*, and can then see what they do with it.]
+
+   - The engineering team isn't certain they can build all the functionality
+
+     If you learned that customers will eagerly pay for Magic Solution X, but then you can't actually build Magic Solution X (because, y'know, *magic*), you've wasted a bunch of time, and have to start over. That does not create value.
+
+ - *Build a single backend component in full, rigorous depth*
+
+   Creates Value If:
+
+   - The engineering team has real fears about whether or not they even *can* build  that backend component,
+
+   - What they discover will exert a major influence on the design of the overall product
+
+   Does Not Create Value If:
+
+   - It might take a while to build that backend component, but there's no question about whether or not it's *possible* (aka, It's "hard but not risky")
+
+   - The absence of that backend component would only change the ultimate product design in a fairly minor way
+
+ - *Build lightweight versions of all the backend components, and wire them all together*
+
+   Creates Value If:
+
+   - Those lightweight versions all add up to something that allows you to test with customers, via one of the increments above (and to do so in confidence that you're showing them something you can fully build)
+
+   - There a *lot* of engineers working on this effort, and the company wants subsets of them to work in parallel on different parts of the overall system
+
+   Does Not Create Value If:
+
+   - It's going to take a while to build all those components, and it's not clear if customers want or will pay for a solution to the problem the system helps with.
+
+   - You have a small team, and all the risks and questions are concentrated in one component
+
+     E.g. if your team is trying to build some form of domain-specific AI assistant, there's a good chance all you should be focused on is "Can we get that assistant to usefully answer questions about that domain?", and not string together all the other bits of a full solution (e.g. automatic ingestion of relevant customer context, smooth UI to offer answers, etc).
+
+ - *Don't build anything, but instead do a deep dive into a key data source*
+
+   Creates Value If:
+
+   Does Not Create Value If:
 
 Of course, if each of the above could be the key first increment, each of the above can also be the *exactly wrong* first increment, setting your team down the wrong road.
 
@@ -603,6 +655,26 @@ For more on this idea, see my talk Risk, Information, Time & Money
 *** Add Features To Existing Products
 
 *** Fix Bugs In Existing Products
+* Mini Todos
+** DONE Rewrite opening to focus on value of increments
+CLOSED: [2025-09-30 Tue 10:20]
+Possibly use the "waterfall in disguise" there
+** TODO Throw in link / quote to Rewrites post
+I've come to place a really high value. Or, quoting Kent Beck.
+** TODO Maybe, for stuck team, show in more detail how the "prototype-first" team also gets stuck
+** TODO For New Product + Deploy pain, show bad alternatives (first?)
+** TODO Maybe: separate New Product + Deploy Pain
+So that I'm not asking to compare them, I'm saying, how do you see value here.
+
+Maybe, start with Deploy Pain, since it's less obvious.
+
+And then, I can do my "New Product" is obvious, right? Not, really
+** TODO End with teaser of "How do you select the most valuable increment?"
+Or is that "which evidence is most valuable?"
+
+So I'm setting it up for "The one that steers into the biggest risk" = gathers
+** TODO Further tease for "how do you set goals for teams"
+
 * Scraps/Thinking
 ** Morning Walk Thinking <2025-09-28 Sun>
 I've got a tiger by the tail.
@@ -690,25 +762,13 @@ Engineering & The Creation of Value, Part III
 ** Scrap
 It covers both "simple" situations, like closing new customers who add to this year's top-line revenue, but also more nuanced ones, like, a team that rapidly chews through three different product hypotheses, invalidates two of them and makes a critical discovery about a third. That key discovery creates *evidence* that the company is on the verge of building a valuable new product. Bertha, in reviewing that, may even consider that action as having created a greater probabilistic increase in future profits than closing a few new customers (though, note, closing those new customers can create evidence that the company can keep growing, which, in some situations, might be the most important evidence of all).
 
-* Mini Todos
-** DONE Rewrite opening to focus on value of increments
-CLOSED: [2025-09-30 Tue 10:20]
-Possibly use the "waterfall in disguise" there
-** TODO Throw in link / quote to Rewrites post
-I've come to place a really high value. Or, quoting Kent Beck.
-** TODO Maybe, for stuck team, show in more detail how the "prototype-first" team also gets stuck
-** TODO For New Product + Deploy pain, show bad alternatives (first?)
-** TODO Maybe: separate New Product + Deploy Pain
-So that I'm not asking to compare them, I'm saying, how do you see value here.
-
-Maybe, start with Deploy Pain, since it's less obvious.
-
-And then, I can do my "New Product" is obvious, right? Not, really
-** TODO End with teaser of "How do you select the most valuable increment?"
-Or is that "which evidence is most valuable?"
-
-So I'm setting it up for "The one that steers into the biggest risk" = gathers
-** TODO Further tease for "how do you set goals for teams"
+* Possible Titles
+ - The Value of Increments
+ - Understanding The Value of Increments
+ - Increments & The Creation of Value
+ - The Incremental Creation of Value
+ - Engineering & The Incremental Creation of Value
+ - Engineering & The *Incremental* Creation of Value
 
 * Old Turn "Engineering Concerns" Into Potential Value, I
 ** Intro
