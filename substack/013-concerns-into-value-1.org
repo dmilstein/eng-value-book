@@ -97,19 +97,53 @@ One way to understand this is that they have not chosen their sequence of work t
 
 Despite the team working in an agile fashion day-to-day, the company as a whole only seems to see *any* value at the very end of the project. Which is the opposite of agile.
 
-If a team creates incremental value, then, well, they can *never really lose*. There's no panicked anxiety looming over them, because they can always stop, and the rest of the business will be Some Degree of Happy---because they will have gotten *some* value. The Rest of the Business may not get everything they *expected*, but if they get some genuine value, a smart PM and engineering lead can find a way to help the rest of the business understand the win. (There's a whole other series, about how to draw stakeholders into collaboration around these increments, but we'll start by understanding which increments are even valuable in the first place)
+If a team creates incremental value, then, well, they can *never really lose*. There's no panicked anxiety looming over them, because they can always stop, and the Rest Of The Business will be some degree of happy---because they will have gotten *some* value. The Rest of the Business may not get everything they *expected*, but if the team can create some genuine value, a smart PM and engineering lead can find a way to help the rest of the business understand the win. (There's a whole other series, about how to draw stakeholders into collaboration around these increments, but we'll start by understanding which increments are even valuable in the first place)
 
 ** Sadly, Blind Adherence To One Approach Will Not Save You
 
-Now, you might be thinking, "This is why teams should *always* build an end-to-end solution, from day one." Unfortunately, that doesn't consistent work either. I have seen a great many projects go horribly off the rails because the team started by building a clever-looking end-to-end prototype, and then discovered far too late that they couldn't actually deliver even vaguely what they had promised, due to, say, a profound misunderstanding of a constraint deep in the guts of a key data source.
+Now, you might well have read the above parable and though: "Ugh, that was an obvious mistake by that team. Teams should *always* build an end-to-end solution, from day one, to avoid exactly that problem. That's what true agile is."
 
-There isn't one true sequence for building complex software. It requires an act of creative design every time (and, in fact, continual redesign, as the project unfold).
+Unfortunately, that doesn't always work, either.
 
-Depending on the context, each of the following could be the key first increment:
+I have seen projects go horribly off the rails even though the team started by building an end-to-end prototype and immediately sharing it with users. Those teams discovered, very late in their work, that they couldn't actually deliver even vaguely what that prototype had promised (because, say, they had badly misunderstood what data was actually available to them).
 
-# Maybe, for each of these, explain when it's good, when not
+# a constraint deep in the guts of a key data source).
 
- - Build something limited-but-real that satisfies a subset of users with a subset of planned functionality
+There isn't one true sequence for building complex software.
+
+Selecting good increments requires an act of creative design, every time---and then, continual redesign, as the work unfolds.
+
+Consider the following, each of which teams will sometimes consider as their next incremental chunk of work:
+
+ - Build something limited-but-real that satisfies a subset of customers with a subset of planned functionality
+
+ - Build an interactive-but-fake protoype of the complete set of planned functionality
+
+ - Build a single backend component in full, rigorous depth
+
+ - Build lightweight versions of all the backend components, and wire them all together
+
+ - Don't build anything, but instead do a deep dive into a key data source
+
+Let's see how each of those could or could *not* create value, depending on context:
+
+ - *Build something limited-but-real that satisfies a subset of customers with a subset of planned functionality*
+
+   Creates Value If:
+
+   - That subset of customes is *representative* of the full set of customers
+
+   - The subset of functionality is compelling enough for those initial customers to *actually use* it to solve problems they care about
+
+   - The team can build the useful subset *significantly faster* than they can build the full product
+
+   Does Not Create Value If:
+
+   The subset of customers has meaningfully different needs than the rest of the customer base, so a product that satisfies them can not be expanded to serve all customers.
+
+   The limitations in functionality mean customers can't use it to actually solve their problems. Instead, they just tell you how great it looks, and how certain they are to use it once you've added just a few more features. You feel like you're making tremendous progress, but, once you address the remaining "blockers", it turns out the customers just wanted you to not feel bad and were lying to you (see The Mom Test for how to find out the truth, even when everyone will eagerly lie to you in this way).
+
+   The "limited subset" rests atop an iceberg of technical complexity below the surface, so getting it working requires 90% of the time and effort of the full project. If the product team names that limited subset the "MVP", but it's more than a few months to build that MVP... the engineering team often drifts into the "build the technical components in some random order" plan described above, with all its attendant dangers.[fn:: The term "MVP" has, sadly, fallen just about totally apart as a useful piece of product development discourse. Far too often it becomes "What bundle of features does a stakeholder like to imagine customers using." Rather than fight over a better definition of MVP (e.g. "The next hypothesis to test"), I've had better luck just leaving MVP on the side of the road, and focusing on building a shared understanding of other terms.]
 
  - Build an interactive-but-fake protoype of the complete set of planned functionality
 
