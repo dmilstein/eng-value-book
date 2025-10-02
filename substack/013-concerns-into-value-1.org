@@ -1,8 +1,6 @@
-* The Art of Increment Design, Part I: Only Good Increments Can Save Us Now
+* The Art of Increment Design, Part I: Help Us, Good Increments, You're Our Only Hope
 
-Why Increments Are Important
-
-Help Us, Good Increments, You're Our Only Hope
+# Only Good Increments Can Save Us Now
 
 ** Intro
 
@@ -10,7 +8,7 @@ Today's post is the first in a series about how to design effective *increments*
 
 By "increments" I simply mean: how to break up a large body of engineering work into a series of small, safe, value-generating steps.
 
-I have come to believe that effective increment design is perhaps *the* most important skill of an experienced engineer[fn:: Breaking up a large system into distinct components (another fundamental skill), is sort of like decomposing across *space*. Increment design is decomposing across *time*, and, since time is unidrectional, that challenge is sort of interestingly trickier.]. I further believe that the design of increments should be a centerpiece of the conversations between engineering and product, and even stretch out to include the rest of the business.
+I have come to believe that effective increment design is perhaps *the* most important skill of an experienced engineer[fn:: Breaking up a large system into distinct components (another fundamental skill), is sort of like decomposing across *space*. Increment design is decomposing across *time*, and, since time is unidirectional, that challenge is sort of interestingly trickier.]. I further believe that the design of increments should be a centerpiece of the conversations between engineering and product, and even stretch out to include the rest of the business.
 
 To understand why, over the course of this series, I'll develop a nuanced understanding of how engineering work does (or does *not*) create value for an overall business (building on previous posts [link], [link]). We'll discover how some increments can, despite requiring a great deal of engineering effort, somehow create *no value whatsoever*. We'll also find how other increments, including ones where the engineers write very little code, can somehow create a great deal of value.
 
@@ -28,7 +26,7 @@ Let's see what that feels like.
 
 # This theoretical foundation will give you a powerful way to reason about your work. With practice (and some further tactics, to be explored in subsequent posts), it will allow you to find a path through the shifting chaos of reality to a valuable outcome for your business.
 
-# When I talk with engineers or product managers at tech companies, just about universally, their teams are using some form of agile to organize their day-to-day work. They have sprint teams, those teams do daily standups, they work in iterations of a few weeks, with some form of planning at the start of each.
+# When I talk with engineers or product managers at tech companies, just about universally, their teams are using some form of agile to organize their day-to-day work. They have sprint teams, those teams do daily stand ups, they work in iterations of a few weeks, with some form of planning at the start of each.
 
 # In a sense, the alternative to agile (Waterfall, natch), has "lost"
 
@@ -38,7 +36,7 @@ Sometimes, in the middle of a dark wood, an engineer or a PM will find themselve
 
 # Switch all to "you" in the below?
 
-The team observes all the agile rituals, and observes them faithfully and well. Their sprints are a crisp two weeks long. They start each sprint on a Monday morning with a full team planning session. They gather every day for a standup. As they work, the engineers steadily pull well-groomed tickets from the board. On the final Friday of each sprint, the engineers demo what they've built, and then the team runs a brief retro in the afternoon.
+The team observes all the agile rituals, and observes them faithfully and well. Their sprints are a crisp two weeks long. They start each sprint on a Monday morning with a full team planning session. They gather every day for a stand up. As they work, the engineers steadily pull well-groomed tickets from the board. On the final Friday of each sprint, the engineers demo what they've built, and then the team runs a brief retro in the afternoon.
 
 All that is as it should be, right?
 
@@ -48,7 +46,7 @@ But, in practice, there's a problem.
 
 Somehow, the overall project is drifting totally out of control.
 
-The team is far, far behind where they are supposed to be. Every lingering problem they finally tackle immediately sprouts three new problems, hydra-like. The PM is losing sleep, and wakes each morning from anxious dreams about their next update to the executive team. The engineers are growing defeatist and bitter. Every day they're asked to pile new expedient hacks on top of yesterday's expedient hacks, resulting in a system that is ever-moree unstable. They've already missed all their key delivery dates, so there's no time to deal with any of the emerging problems. The engineers and the PM's have a growing suspicion that when they finally *do* ship the unstable, limited, badly compromised system, literally everyone will be angry at them.
+The team is far, far behind where they are supposed to be. Every lingering problem they finally tackle immediately sprouts three new problems, hydra-like. The PM is losing sleep, and wakes each morning from anxious dreams about their next update to the executive team. The engineers are growing defeatist and bitter. Every day they're asked to pile new expedient hacks on top of yesterday's expedient hacks, resulting in a system that is ever-more unstable. They've already missed all their key delivery dates, so there's no time to deal with any of the emerging problems. The engineers and the PM's have a growing suspicion that when they finally *do* ship the unstable, limited, badly compromised system, literally everyone will be angry at them.
 
 This is, in fact, exactly what will happen.
 
@@ -70,7 +68,7 @@ But, that stakeholder extracted a concession of their own from the product team:
 
 At the time, Q2 was a full nine months away. The engineers didn't love making this kind of long-term commitment, but they believed they had no choice but to give the business *some* kind of promise. They looked over the high-level PRD's from the product team and said "It looks like we should be able to finish by Q2 *if there are no horrible surprises*".
 
-The product team said "Of course, we understand." They made a good-faith attempt to share that caveat with the senior non-technical stakeholder. But, surprisingly appromixately no one, that stakeholder neither understood nor accepted the caveat. Instead, after meeting with the product team, they immediately turned around and told the Rest Of The Business, "The engineering team has committed to a Q2 launch date." The Rest Of The Business said "Great, thanks," and started basing all their own plans on that date.
+The product team said "Of course, we understand." They made a good-faith attempt to share that caveat with the senior non-technical stakeholder. But, surprisingly approximately no one, that stakeholder neither understood nor accepted the caveat. Instead, after meeting with the product team, they immediately turned around and told the Rest Of The Business, "The engineering team has committed to a Q2 launch date." The Rest Of The Business said "Great, thanks," and started basing all their own plans on that date.
 
 What happened next?
 
@@ -94,7 +92,7 @@ Why is this so?
 
 One of the components will turn out to be impossible to build as they had planned. The absence of that component will trigger a ripple effect through the rest of the system, requiring enormous amount of rework and ultimately forcing a rethinking of what the product is able to do. Unfortunately, the team chose to work on that component *late* in their sequence. By the time they make this unfortunate discovery, their original launch date is only four weeks away. There are no good options to adapt and still deliver something valuable anywhere close to the plan.
 
-Of course, missing plan isn't an uncommon occurence. Why does this leave the team in such bad shape?
+Of course, missing plan isn't an uncommon occurrence. Why does this leave the team in such bad shape?
 
 The engineers and the PM have not engaged their stakeholders in any discussion around the increments. Instead, they treated the increments as an internal concern of engineering and product. Therefore, none of the intermediate increments deliver anything that their stakeholders would find at all *useful* or valuable. There's no point, before the very end of the project that the team can decide, *with* their stakeholders, to take some form of a partial win, and move on.
 
@@ -107,7 +105,7 @@ If a team creates incremental value, then, well, they can *never really lose*. T
 ** Sadly, Blind Adherence To One Approach Will Not Save You
 *** Intro
 
-Someone might read the above parable and think: "Ugh, Dan, that team made an /obvious/ mistake. Teams should /always/ build an end-to-end solution first, and then gradually expand outward from that. That's the True Agile approach. If they had done that, they would never have goten stuck in such a pit."
+Someone might read the above parable and think: "Ugh, Dan, that team made an /obvious/ mistake. Teams should /always/ build an end-to-end solution first, and then gradually expand outward from that. That's the True Agile approach. If they had done that, they would never have gotten stuck in such a pit."
 
 Unfortunately, that approach, though sometimes effective... can *still fail spectacularly*.
 
@@ -125,11 +123,11 @@ Consider the following approaches. Teams are, possibly implicitly, considering s
 
  - Build something limited-but-real that satisfies a subset of customers with a subset of planned functionality
 
- - Build an interactive-but-fake protoype of the complete set of planned functionality
+ - Build an interactive-but-fake prototype of the complete set of planned functionality
 
- - Build a single backend component in full, rigorous depth
+ - Build a single back-end component in full, rigorous depth
 
- - Build lightweight versions of all the backend components, and wire them all together
+ - Build lightweight versions of all the back-end components, and wire them all together
 
  - Don't build anything, but instead do a deep dive into a key data source
 
@@ -145,7 +143,7 @@ Let's dig into how each of the above could or could not be valuable.
 
 Creates Value If:
 
- - That subset of customes is representative of the full set of customers
+ - That subset of customers is representative of the full set of customers
 
  - The subset of functionality is compelling enough for those initial customers to actually use it to solve problems they care about
 
@@ -163,7 +161,7 @@ Does Not Create Value If:
 
    Massive risk in this case: the product team names that limited subset the "MVP", but it's more than a few months to build it... so the engineering team drifts into the "build the technical components in some random order" plan described above, with all its attendant dangers.[fn:: The term "MVP" has, sadly, lost just about all ability to function as a useful piece of product development discourse. Far too often it becomes "What bundle of features does a stakeholder insist a customer will want." Rather than fight over a better definition of MVP (e.g. "The next hypothesis to test"), I've had better luck just leaving the term MVP fully on the side of the road, and focusing on building a shared understanding of other terms.]
 
-*** Build an interactive-but-fake protoype of the complete set of planned functionality
+*** Build an interactive-but-fake prototype of the complete set of planned functionality
 
 Creates Value If:
 
@@ -195,21 +193,21 @@ Does Not Create Value If:
 
    If, by building a cool looking prototype, you learned that customers would happily pay for some Magic Solution, but your engineering team knew all along that they can't build the Magic Solution (because, y'know, *magic*), you've wasted a bunch of time, and have to start over, no with less time. This kind of "learning" does not create value.
 
-*** Build a single backend component in full, rigorous depth
+*** Build a single back-end component in full, rigorous depth
 
 Creates Value If:
 
- - The engineering team has real fears about whether or not they even *can* build that backend component
+ - The engineering team has real fears about whether or not they even *can* build that back-end component
 
- - The absence (or shape) of that backend component has a major impact on the design of the overall product
+ - The absence (or shape) of that back-end component has a major impact on the design of the overall product
 
 Does Not Create Value If:
 
- - It might take a while to build that backend component, but there's no question about whether or not it's *possible* (aka, It's "hard but not risky")
+ - It might take a while to build that back-end component, but there's no question about whether or not it's *possible* (aka, It's "hard but not risky")
 
- - The absence of that backend component would only change the ultimate product design in a fairly minor way
+ - The absence of that back-end component would only change the ultimate product design in a fairly minor way
 
-*** Build lightweight versions of all the backend components, and wire them all together
+*** Build lightweight versions of all the back-end components, and wire them all together
 
 Creates Value If:
 
