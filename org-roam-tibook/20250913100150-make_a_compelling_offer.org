@@ -8,19 +8,78 @@
 
 You're going to ask your stakeholder to make a "slightly uncomfortable" change.
 
-You'll make that request compelling, despite the slight discomfort, by:
+You'll make that request compelling enough to overcome the slight discomfort, by:
 
   - Demonstrating *alignment* with the business's long-term goals
 
   - Speaking with *authentic empathy* to your stakeholder's hopes and fears
 
-  - Setting an explicit *time limit* on the initial period of change
+  - Setting an explicit *time limit* on an initial period of change
 
-  - Ensuring your stakeholder *retains control*
+  - Ensuring your stakeholder feels like they *retain control*
 
-# The key thing here is: *don't jump too far ahead*.
+As you prepare your request, the first step is to clearly define the incremental change you're going to ask your stakeholder to make.
 
-# Ideally, you want to find a small step which makes things a little better for you, gives your stakeholder something they don't currently have, and also sets you up for a concrete business win. Given all of that, you'll be able to ask for a "slightly uncomfortable" shift in behavior for the stakeholder.
+At this point, don't worry about exactly how you're going to *explain* this change to them. Instead, just focus on the details of your proposed adjustment.
+
+*Do* think about this as an "initial period" of change. Work backwards from where things will be at the end of this initial period.
+
+# A key key here is: *don't jump too far ahead*. Start with something that feels small.
+
+Ideally, you want your proposed small adjustment to create near-term improvements in three distinct ways:
+
+ - It makes things a little better for you
+
+ - It makes things a little better for your stakeholder
+
+   e.g. they get something  they want, but have not been getting
+
+ - It delivers a small, visible, business win for both of you
+
+Note: this is where the work you've done to dig into their fears, frustrations, delights and dreams will really pay off. That map of their emotional landscape gives you a variety of options for incremental improvements that will feel good to them, while also setting up some guardrails for you to observe.
+
+At All Together Now, Quin desperately wants Marco to stop jumping into standups and blowing up the team's focus by brainstorming new product ideas.
+
+Some part of her wants to just throw some book about agile or scrum in his direction, along with a lecture him about the proper way to add new ideas to the team's backlog. But, having talked to him, she knows he's feeling very under the gun about getting something into customer's hands, and she's pretty worried that, if she pushes for a big change, he'll refuse. [freak out, dig in, get defensive and push back.]
+
+She knows that he feels like he's not seeing a lot of rapid progress (an existing frustration), and she knows he feels like it's been forever since he's been able to try out anything new (a /potential/ delight). Whatever change she proposes shouldn't take away one of his /existing/ delights---being able to, immediately after customer calls, talk out what he's heard in order to clarify his own thinking.
+
+Finally, she knows that one of his biggest *fears* is that ATN might be building something that customers won't end up actually using---because it's a vitamin, not a pain-killer. They need to be both building towards sales, while also learning about how to get *engagement*.
+
+Quin spends some time thinking about ways she can address some of her frustrations, while also making things feel better for Marco, and moving the business forward.
+
+After a good bit of work, she arrives at the following, as a proposed first increment of change, stretching out over two weeks:
+
+ - For that two week period Marco will stop coming to the team after customer calls
+
+ - Instead, he will always first meet with Quin, one-on-one
+
+ - Quin will commit to being ready to drop everything and meet with him the moment he gets off a call, while his thoughts are fresh
+
+ - Otherwise, Marco can continue to interact with the team as he wishes
+
+ - At the end of the two weeks, the team will share an interactive demo of the Virtual Dunk Tank for Marco to test out
+
+That's *it*.
+
+There's a lot more Quin wants, but by starting small, she has a much, much better chance of getting going and building momentum.
+
+Also, note, if she can get Marco to agree to it, this *would* be a meaningful change:
+
+ - It positions Quin to buffer the team from Marco's initial swirl of thoughts, immediately after he's talked with customers
+
+ - It requires Marco to do something "slightly uncomfortable", by adjusting his habits around customer calls
+
+ - It gives him a small, immediate reward for doing so -- Quin's immediate attention and thought partnership (this preserves his existing delight)
+
+ - It gives him another reward, at the end of the increment -- a version of the Virtual Dunk Tank that he can play with (giving him both the velocity and the interactive UI that he's been wanting, but not getting)
+
+ - Finally, getting that demo moves ATN one step closer to actually asking a customer some form of commitment, to see if they're solving a real problem[
+
+How should she present this proposal to Marco?
+
+
+
 
 Be ready to spend time preparing this offer. You've got all the pieces you need, but it still takes time to put them all together.
 
@@ -195,7 +254,6 @@ Now, to be clear, Marco may not say yes immediately. But that's fine. Quin can p
 ** Getting Commitment
 ** Our Story: Quin Makes Her Pitch
 ** Exercises
-* Outline
 * Scraps
 ** Holme Quote
 # No matter how rosy a picture they're trying to paint, there's some bedrock fear that things will go awry, and they will be left looking shamefully bad.
