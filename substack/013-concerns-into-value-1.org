@@ -1,12 +1,10 @@
 * The Art of Increment Design, Part I: Help Us, Good Increments, You're Our Only Hope
-
 # Only Good Increments Can Save Us Now
-
 ** Intro
 
 Today's post is the first in a series about how to design effective *increments* when developing software.
 
-By "increments" I simply mean: how to break up a large body of engineering work into a series of small, safe, value-generating steps.
+By "increments" I simply mean: how to break up a large body of engineering work into a series of smaller steps.
 
 I have come to believe that effective increment design is perhaps *the* most important skill of an experienced engineer[fn:: Breaking up a large system into distinct components (another fundamental skill), is sort of like decomposing across *space*. Increment design is decomposing across *time*, and, since time is unidirectional, that challenge is sort of interestingly trickier.]. I further believe that the design of increments should be a centerpiece of the conversations between engineering and product, and even stretch out to include the rest of the business.
 
@@ -104,7 +102,6 @@ If a team creates incremental value, then, well, they can *never really lose*. T
 
 ** Sadly, Blind Adherence To One Approach Will Not Save You
 *** Intro
-
 Someone might read the above parable and think: "Ugh, Dan, that team made an /obvious/ mistake. Teams should /always/ build an end-to-end solution first, and then gradually expand outward from that. That's the True Agile approach. If they had done that, they would never have gotten stuck in such a pit."
 
 Unfortunately, that approach, though sometimes effective... can *still fail spectacularly*.
@@ -237,7 +234,7 @@ Does Not Create Value If:
 
  - The team knows the data inside and out already
 
-*** Outro
+** Outro
 
 # For many experienced engineers and product managers, various situations above will, hopefully, feel familiar, and the "good" options may even feel kind of "obvious".
 
@@ -262,6 +259,8 @@ An engineering team can create incremental *value* for their company, even if th
 Shipping useful software is *not* the only way engineers create value for a business.
 
 "...but doesn't the Agile Manifesto say working software is the measure of progress?" I hear you continue to think.
+
+# "Working software is the primary measure of progress.", and it's Principles Behind the Manifesto
 
 The Agile Manifesto is legitimately and enduringly great.
 
