@@ -4,11 +4,11 @@
 #+title: Make a Compelling Offer
 #+filetags: :Chapter:
 * Make a Compelling Offer
-** Prepare A Proposal For a Small Change
+** Prepare A Proposal [Request?] For a Small Change
 
 You're going to ask your stakeholder to make a "slightly uncomfortable" change.
 
-You'll make that request compelling enough to overcome the slight discomfort, by:
+You'll make your request compelling by:
 
   - Demonstrating *alignment* with the business's long-term goals
 
@@ -18,41 +18,49 @@ You'll make that request compelling enough to overcome the slight discomfort, by
 
   - Ensuring your stakeholder feels like they *retain control*
 
-As you prepare your request, the first step is to clearly define the incremental change you're going to ask your stakeholder to make.
+As you prepare your request, the first step is to precisely define the incremental change you're going to ask your stakeholder to make.
 
 At this point, don't worry about exactly how you're going to *explain* this change to them. Instead, just focus on the details of your proposed adjustment.
 
-*Do* think about this as an "initial period" of change. Work backwards from where things will be at the end of this initial period.
+As you define the change, do so in the contxt of an initial, limited period of time. It's *much* easier for a stakeholder to say "yes" to a request to try something a little uncomfortable for a few weeks, than it is to commit to changing "forever".
 
-# A key key here is: *don't jump too far ahead*. Start with something that feels small.
+Of course, you want to then ensure that, at the end of those few weeks, the stakeholder feels like things are going great, and they therefore want to continue in this new way of working.
 
-Ideally, you want your proposed small adjustment to create near-term improvements in three distinct ways:
+# That will allow you to work backwards from where things will be at the end of this initial period, and will also create an opportunity to help your stakeholder feel like they're retaining control.
+
+# A key here is: *don't jump too far ahead*. Start with something that feels small.
+
+To that end, you want your small adjustment to create three distinct kinds of wins:
 
  - It makes things a little better for you
 
  - It makes things a little better for your stakeholder
 
-   e.g. they get something  they want, but have not been getting
-
  - It delivers a small, visible, business win for both of you
 
-Note: this is where the work you've done to dig into their fears, frustrations, delights and dreams will really pay off. That map of their emotional landscape gives you a variety of options for incremental improvements that will feel good to them, while also setting up some guardrails for you to observe.
+This is where the work you've done to dig into your stakeholder's fears, frustrations, delights and dreams pays off. That map of their emotional landscape makes it possible for you to design incremental improvements that will feel good to them, while also addressing your concerns.
 
 At All Together Now, Quin desperately wants Marco to stop jumping into standups and blowing up the team's focus by brainstorming new product ideas.
 
 Some part of her wants to just throw some book about agile or scrum in his direction, along with a lecture him about the proper way to add new ideas to the team's backlog. But, having talked to him, she knows he's feeling very under the gun about getting something into customer's hands, and she's pretty worried that, if she pushes for a big change, he'll refuse. [freak out, dig in, get defensive and push back.]
 
-She knows that he feels like he's not seeing a lot of rapid progress (an existing frustration), and she knows he feels like it's been forever since he's been able to try out anything new (a /potential/ delight). Whatever change she proposes shouldn't take away one of his /existing/ delights---being able to, immediately after customer calls, talk out what he's heard in order to clarify his own thinking.
+She knows that he feels like:
 
-Finally, she knows that one of his biggest *fears* is that ATN might be building something that customers won't end up actually using---because it's a vitamin, not a pain-killer. They need to be both building towards sales, while also learning about how to get *engagement*.
+ a) He's not seeing much in the way of progress (a frustration)
+
+ b) It's been /forever/ since he's been able to try out anything new (a potential delight).
+
+Whatever change she proposes should provide him a means to brainstorm and clarify his thinking immediately after customer calls (thus, preserving an existing delight).
+
+Finally, she knows that one of his overarching *fears* is that ATN might be building something that customers won't actually use---their product might be a vitamin, not a pain-killer. To win, ATN needs to be simultaneously building towards sales, while also learning how to get *engagement*.
 
 Quin spends some time thinking about ways she can address some of her frustrations, while also making things feel better for Marco, and moving the business forward.
 
-After a good bit of work, she arrives at the following, as a proposed first increment of change, stretching out over two weeks:
+After a good bit of work, she arrives at the following, as a proposed first increment of change:
 
- - For that two week period Marco will stop coming to the team after customer calls
+ - For the next two weeks Marco will agree to *fully* stop coming to the team after customer calls
 
- - Instead, he will always first meet with Quin, one-on-one
+ - Instead, he will first meet with Quin, one-on-one
 
  - Quin will commit to being ready to drop everything and meet with him the moment he gets off a call, while his thoughts are fresh
 
@@ -60,54 +68,25 @@ After a good bit of work, she arrives at the following, as a proposed first incr
 
  - At the end of the two weeks, the team will share an interactive demo of the Virtual Dunk Tank for Marco to test out
 
-That's *it*.
+There's a lot more Quin wants, but she's going to start small, and then build momentum. This change is carefully calibrated to be "slightly uncomfortable" for Marco. He will, in his excited moments immediately after getting off a customer call, *not* do what feels natural to him. He'll have to do some actual work to remap his instincts.
 
-There's a lot more Quin wants, but by starting small, she has a much, much better chance of getting going and building momentum.
-
-Also, note, if she can get Marco to agree to it, this *would* be a meaningful change:
+However, if Quin can get Marco to agree to try it, can believes she can generate wins across the three fronts:
 
  - It positions Quin to buffer the team from Marco's initial swirl of thoughts, immediately after he's talked with customers
 
- - It requires Marco to do something "slightly uncomfortable", by adjusting his habits around customer calls
+ - It gives Marco a small, immediate reward -- Quin's immediate attention and thought partnership after customer calls (this preserves his existing delight)
 
- - It gives him a small, immediate reward for doing so -- Quin's immediate attention and thought partnership (this preserves his existing delight)
+ - It gives him another reward, at the end of the increment -- an opportunity to try out an interactive demo of the Virtual Dunk Tank (giving him both the velocity and the interactive UI that he's been growing increasinly desperate for)
 
- - It gives him another reward, at the end of the increment -- a version of the Virtual Dunk Tank that he can play with (giving him both the velocity and the interactive UI that he's been wanting, but not getting)
+ - Finally, the creation of that demo moves ATN one step closer to being able to ask a customer to *use something*, which moves them towards their key strategic outcome around engagement.
 
- - Finally, getting that demo moves ATN one step closer to actually asking a customer some form of commitment, to see if they're solving a real problem[
+Again note how all that she learned about his feelings has allowed her to develop something which has the potential to work for her, Marco and the business as a whole.
 
-How should she present this proposal to Marco?
-
-
-
-
-Be ready to spend time preparing this offer. You've got all the pieces you need, but it still takes time to put them all together.
-
-Let's see how this could play out for Quin, in our story:
-
-On her daily morning walks with her dog, she thinks through everything she's learned about Marco, and about what she wants to ask of him. His pattern of jumping into standups and initiating random brainstorming is really driving her crazy. She is tempted to just throw some Agile book in his direction -- it's not like it's rocket science to do good grooming and planning sessions, some voice inside her says. But she forces herself to start with something small and concrete as a first step. After a good bit of work, she arrives at the following, as a proposed first increment of change:
-
- - After customer calls, Marco will always *first* meet 1:1 w/ Quin, for a quick debrief, *before* he shares anything with the team
-
- - Quin will commit to being ready to drop anything else and meet with him, while his thoughts are fresh
-
- - Otherwise, Marco can continue to interact with the team as he wishes
-
-That's *it*.
-
-There's a lot more Quin wants, but by starting small, she has a much, much better chance of getting going and building momentum.
-
-Also, note, if she can get Marco to agree to it, this *would* be a meaningful change:
-
- - It positions Quin to buffer the team from Marco's initial swirl of thoughts, immediately after he's talked with customers
-
- - It requires Marco to do something "slightly uncomfortable", by adjusting his habits around customer calls
-
- - It gives him a small, immediate reward for doing so -- Quin's immediate attention and thought partnership
+There's just one last detail
 
 How should she present this proposal to Marco?
 
-** Ensure Your Stakeholder Retains Control By Offering a Time-Boxed Future Decision
+** Ensure Your Stakeholder Retains Control By Offering a Future Decision
 
 She's very close.
 
@@ -163,7 +142,7 @@ By putting the time-box and the end-of-increment decision on the table from the 
 
 Also note that, ideally, the end-of-timebox review isn't *only* about this new practice. Ideally, you want to offer a future decision about something that feels meaningful to your stakeholder. We'll see below how Quin can further tweak her proposal in this direction.
 
-** The Proposal Template
+** The Steps in Making a Proposal
 
 I recommend delivering this pitch verbally -- that will let you share your (authentic!) emotional connection with their hopes and fears. If useful, you can certainly buttress that with a written memo or a set of slides:
 
