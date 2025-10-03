@@ -134,89 +134,103 @@ Even more fundamentally, she's increasing his control over his ultimate goals. B
 
 ** The Steps in Making a Proposal
 
-I recommend delivering this pitch verbally -- that will let you share your (authentic!) emotional connection with their hopes and fears. If useful, you can certainly buttress that with a written memo or a set of slides:
+I'm going to map out a step-by-step plan. I'll encourage you to try to methodically work through the steps, without rushing. It's designed to gradually move your stakeholder to a willingness to consider a new way of working.
 
- - Open with the strategic intent as context
+You should deliver yor proposal verbally -- that will let you share your (authentic!) emotional connection with their hopes and fears. If useful, you can certainly buttress what you say with a written memo or a set of slides. But find a way to connect, as humans, in this moment.
 
- - Signal that you have want to try something new
+In order to make your proposal, create a space slightly outside of the normal flow of day-to-day pressures. That could simply be starting a regular 1:1 by sayhing "I have some concerns I want to talk out, can I ask to put aside our normal agenda for today?" Or it could mean breaking normal patterns, perhaps meeting in person instead of online. You want to signal that there's something important for you to face, together.
 
- - Speak empathetically to their fears and hopes
+Once you've created that big of space, go through the following steps, checking for understanding with your stakeholder after each one:
 
- - Share your own concerns -- the things about how you're operating now that make you worried you won't achieve the strategic intent
+ - Name the strategic intent
 
- - Describe your proposed increment of change, and, as part of it, clearly name your key request of them -- how they'll have to act differently, for a period of time.
+ - Speak to their concerns
 
- - Share the decision they get to make at the end of the increment
+ - Share your concerns
 
- - Ask for feedback, ideas, concerns, questions
+ - Describe your proposed increment of change
 
- - Adjust based on that, and then get a commitment to try something
+ - Name the future decision
 
-A note: you should practice this with a trusted friend before you pitch your stakeholder. At least once, maybe a few times. For high stakes such proposals, I practice a ton.
+ - Ask for commitment
+
+You should practice this with a trusted friend before you pitch your stakeholder. At least once, maybe a few times. Personally, for high stakes such proposals, I practice over and over, until it feels fully smooth and authentic.
+
+Let's see how this works for Quin.
 
 ** Quin's Compelling Offer to Marco
 
-They've gone for a walk together. As they get into the city park, Quin asks if they can sit on a bench to talk. They sit side by side, watching people stride by.
+They've gone for a walk together. As they get into the city park, Quin asks if they can sit on a bench to talk. They sit side by side, watching people walk by.
 
-*** Name the strategic intent, and signal that you want to try something new
+*** Name the strategic intent
 
 "As I understand it," Quin says, "ATN!'s most important goal is to have a set of *engaged customers* within six to eight months. Potential investors in a next round are going to want to see happy users, running *actual* team activities on the platform--not just a couple of big sales. Given that, our current goal is to *very* quickly build something that is "*just 'Good Enough*'". Something we can get into the hands of a few early customers, and then make better *with* them. Do I have that right?"
 
 Marco nods for her to go on.
 
-She takes a breath. "Unfortunately, I'm worried that we're struggling to move fast enough. Unless we make some changes, I think we might not have a product *any* customer will be able to actually use until early next year."
+She has spoken to the stratgic intent, using some of his own words ("just 'Good Enough'", "make better with them"). She's also spoken to one of his biggest fears (that they won't see actual use), but done so in the "positive form", of the good thing they *want* to have happen.
+
+Quin takes a breath. "Unfortunately, I'm worried that we're struggling to move fast enough. Unless we make some changes, I think we might not have a product *any* customer will be able to actually use until early next year."
 
 Marco frowns unhappily. This isn't shocking news, but it doesn't feel good to hear it said out loud.
 
-*** Speak empathetically to their fears and hopes
+Note how Quin has named a desirable outcome, and then shared a specific "danger" that might make it impossible to achieve that outcome. This is powerful rhetorical tactic. It creates suspense that will make your listener sort of lean forward to hear more.[fn:: It does so by adapting the story-telling structures that are wired deeply into the human mind.]
 
-"Whatever changes we make," Quin continues, as a breeze stirs leaves around them, "I want to be certain we solve for a few things. First, I want to be sure you can actually *see* that the team is moving faster--I don't want you to have to take that on faith from me."
+*** Speak to their concerns
 
-Marco nods.
+"Whatever changes we make," Quin continues, as a breeze stirs leaves in front of their bench, "I want to be certain we solve for a few things. First, I want to be sure you can actually *see* that the team is moving faster---I worry that we've drifted a bit into building separate bits and pieces of the final product, but we're not regularly putting together visual prototypes that you can test out and react to."
 
-Note how Quin has already shown that she cares about both Marco's biggest *frustration* (that the team isn't moving fast enough) and his biggest *fear* (that he won't know is going on, and will get a nasty surprise).
+Quin has immediately shown that she cares about both Marco's biggest frustration (that the team isn't moving fast enough) and one of his potential delights (being able to interact with a visual UI).
 
-# She's demonstrating a commitment to solve for that.
+Marco nods. He would certainly be happy if the team shipped, well, anything. He'd be even more happy if it was a thing he could *see*.
 
-She continues, "I also want to be certain that, as you talk to prospects, we can quickly adjust based on what you're hearing and learning. That's what's going to let us build something that we can build an awesome demo around, that customers are going to be super excited to try out."
+She continues, "Finally, I want to be certain that, immediately after you talk to customers, you have a chance to think through what you've heard, while it's still fresh in your mind. Most of the time, we won't adjust what the team is doing based on any one call, but, even if we don't, it's important to quickly update our shared understanding of customer needs."
 
-He's with her, she can tell.
+"Does that sound about right?"
 
-Note how she's speaking to his *dreams* -- the excitement he's going to feel in doing a great demo.
+Quin has spoken to preserving something he cares about (a delight). She's paused and checked in, before she moves on.
 
-She's also picking out a genuinely important thing from his problematic behavior--that she and team can adjust, *when necessary*. She can authentically agree that that's important, even if the current pattern isn't working.
+Marco replies, somewhat cautiously, "That sounds mostly right, yeah."
 
-*** Share your own concerns
+He is remembering that Quin had recently demanded he *stop* talking to the team immediately after calls. He's not certain where she's going, but he appreciates that she now seems to understand why it's so important that he can process those calls right away. In fact, he likes the way she frames it: "quickly update a shared understanding of customer needs." That gets at it well.
 
-Quin has spent a bit of time thinking about how to avoid any kind of accusation that could trigger defensiveness, so she says:
+He also thinks that, of course he understands that they're not to ask the team to, like, change everything based on one customer call. He's not unreasonable.
 
-"One thing I worry about is that I think the team doesn't have quite as much context as you and I do. So, when you come back from a customer call, and share what you've heard and learned, they sometimes get confused. They're not sure what is, like, extra context, and what represents a real change in direction. That confusion is starting to add up. Of course, I absolutely want them to hear new information from potential customers, and quickly -- but I think we can find better ways."
+*** Share your concerns
+
+Having heard his agreement about how she's framed his concerns, Quin is ready to move on to herown.
+
+She has spent a bit of time thinking about how to avoid any kind of accusation that could trigger defensiveness, so she says:
+
+"One thing I worry about is that I think the team doesn't have as much context as you and I do. So, when you come back from a customer call, and share what you've heard and learned, they sometimes get confused. They're not sure what is extra context, and what represents a real change in direction. That confusion is starting to add up. I want them to go faster, but we've been losing time when engineers went off in some new direction after one of thoses sessions."
 
 Marco nods, slowly.
 
-Note how Quin positioned this as a "weakness" of her and the team, instead of a failing on the part of Marco. She could easily have said "The way you're constantly bringing in new ideas is causing problems", but, instead, by playing just a bit of "low status", she is sharing a problem to solve together--where the "problem" is "the team can't follow your new ideas", not "you're being chaotic and unfocused". That framing makes it much easier for Marco to stay with her.
-
-Even so, notice how, in the last sentence, she is reiterating her commitment to solving for his concerns.
+Note how Quin subtly positioned this as a "weakness" of her and the team, rather than a "failing" on the part of Marco. She could easily have said "The way you're constantly bringing in new ideas is causing problems", but, instead, by playing just a bit of low status, she is sharing a problem to solve together---where the "problem" is "the team can't follow your new ideas", not "you're being chaotic and unfocused". Those are actually exactly the same problem, just focused on different perspectives. The non-accusational framing makes it easier for Marco to stay with her.
 
 *** Describe your proposed increment of change
+
+Now Quin will walk through what she's worked out, and be very direct and very specific about what she's asking of Marco:
 
 "I'd like to try a small change, for the next two weeks. Whenever you get off a customer call, I'll ask you to ping me on Slack. I'll drop whatever else I'm doing, and you and I can do an immediate debrief. That'll give you a chance to really think through what you've heard, while it's still fresh. If something important comes up, I can share our current status with you, and we can make an immediate call about any priority changes to bring to the team."
 
 "That's most of it. I would ask that, if, during one of those debriefs, I tell you that the team is super heads down, that you wait to give them the full update. But we don't need to be too formal about that."
 
+Note how extremely specific she is being, about what she is asking: "Whenever you get a customer call, ping me on Slack". That's far, far better than saying "Can you please stop coming to standups", or tip-toeing around it, ala, "I don't know maybe you and I could check in, sometimes, before you talk to the team?" You want to give your stakeholder a crisp, specific thing to visualize themselves doing.
+
 "I'm hopeful that, if we do this, I can really focus with the team, and we can have a demo of the Virtual Dunk Tank ready by end of sprint."
 
-"Finally, I want to set a meeting up, for immediately after that end-of-sprint demo, for you and I to review how close we are to "Just Good Enough" and what, if anything, we want to keep tweaking to ensure the team can move faster."
+She's immediately followed up her request with a benefit he'll get --- a demo of a feature he's been waiting on, for a while.
 
-This is asking Marco to make a specific change in his behavior, which will be "just slightly uncomfortable". Instead of acting on his current, excited instinct after customer calls, he'll have to remember to Slack Quin instead.
+*** Name the future decision
 
-But she's making a personal commitment to make this work. Both being more available to him than usual, and also by providing within-sprint status, directly (which, remember, is one of his biggest fears).
+"Finally, I want to set a meeting up, for immediately after that end-of-sprint demo, for you and I to review how close the Dunk Tank is to sharing with customers and what, if anything, we want to keep tweaking to ensure the team can move faster."
 
-She's speaking to his biggest frustrations--team velocity. He urgently wants more speed, wants to *see* progress aginst the new product features.
+Note how she's mixing a business decision (What do we do with the cool new Dunk Tank?), with a collaboration decision (what do we want to tweak?)
 
-By timeboxing it to two weeks, it's easy for Marco to say yes, especially because he'll have a chance to weigh in, at the end of those two weeks, on how it's going for him.
+Also, she is *not* offering a Yes/No decision. She could have said "if we want to keep working this way." You... can do that, in particular if it feels incredibly risky to your stakeholder to try this change. But you're generally better off drawing them into shared problem solving, so that the decision is about *how to continue to solve the problem together*, not simply yes/no on one specific practice.
 
-# XXX Focus on this - there's a decision at the end, she's implicitly *offering him a decision*, just not in this moment.
+*** Ask for commitment
 
 Now, to be clear, Marco may not say yes immediately. But that's fine. Quin can probe for any hesitations and tweak the offer, until he's ready to try. Usually, if you've done the previous steps well, you can do that within the discussion, so you're emerging with a commitment to try something new.
 
