@@ -4,9 +4,9 @@
 #+title: Make a Compelling Offer
 #+filetags: :Chapter:
 * Make a Compelling Offer
-** Prepare A Proposal [Request?] For a Small Change
+** Prepare a Request For a Small Change
 
-You're going to ask your stakeholder to make a "slightly uncomfortable" change.
+You're going to ask your stakeholder to make a /slightly uncomfortable/ change.
 
 You'll make your request compelling by:
 
@@ -18,49 +18,69 @@ You'll make your request compelling by:
 
   - Ensuring your stakeholder feels like they *retain control*
 
-As you prepare your request, the first step is to precisely define the incremental change you're going to ask your stakeholder to make.
+As you prepare your request, start by precisely defining the incremental change you're going to ask your stakeholder to make.
 
 At this point, don't worry about exactly how you're going to *explain* this change to them. Instead, just focus on the details of your proposed adjustment.
 
-As you define the change, do so in the contxt of an initial, limited period of time. It's *much* easier for a stakeholder to say "yes" to a request to try something a little uncomfortable for a few weeks, than it is to commit to changing "forever".
+Focus on an initial period of change, where you'll propose adjusting behavior for a limited period of time. It's *much* easier for a stakeholder to say "yes" to a request to try something "slightly uncomfortable" for a few weeks, than it is to make an open-ended commitment to change indefinitely.
 
-Of course, you want to then ensure that, at the end of those few weeks, the stakeholder feels like things are going great, and they therefore want to continue in this new way of working.
+Once you get a commitment to briefly try something new, you can then work to ensure that, at the end of that testing period, the stakeholder feels like things are going great, and they therefore want to continue in this new way of working.
+
+You want to work backward from a win.
 
 # That will allow you to work backwards from where things will be at the end of this initial period, and will also create an opportunity to help your stakeholder feel like they're retaining control.
 
 # A key here is: *don't jump too far ahead*. Start with something that feels small.
 
-To that end, you want your small adjustment to create three distinct kinds of wins:
+In fact, ideally, you want your small adjustment to create three distinct kinds of wins:
 
  - It makes things a little better for you
 
  - It makes things a little better for your stakeholder
 
- - It delivers a small, visible, business win for both of you
+ - It delivers a bit of small, but visible, progress against long-term goals
 
-This is where the work you've done to dig into your stakeholder's fears, frustrations, delights and dreams pays off. That map of their emotional landscape makes it possible for you to design incremental improvements that will feel good to them, while also addressing your concerns.
+This is where the work you've done to dig into your stakeholder's fears, frustrations, delights and dreams pays off. That map of their emotional landscape will make it possible for you to propose an incremental improvements that will feel good to them, while also addressing your concerns.
+
+Let's see how Quin can take what she's learned about Marco's emotional landscape, and use it to carefully define the request she's going to make of him.
+
+** Our Story: Quin Prepares Her Request
 
 At All Together Now, Quin desperately wants Marco to stop jumping into standups and blowing up the team's focus by brainstorming new product ideas.
 
-Some part of her wants to just throw some book about agile or scrum in his direction, along with a lecture him about the proper way to add new ideas to the team's backlog. But, having talked to him, she knows he's feeling very under the gun about getting something into customer's hands, and she's pretty worried that, if she pushes for a big change, he'll refuse. [freak out, dig in, get defensive and push back.]
+# Quin's biggest problem at ATN is that Marco keeps jumping into standups and blowing up the team's focus by brainstorming new product ideas.
 
-She knows that he feels like:
+Some part of her wants to just throw some book about agile or scrum in his direction, along with a lecture about the proper way to add new ideas to the team's backlog. But, having talked to him, she knows he's feeling very under the gun about getting something into customer's hands, and she's pretty worried that, if she pushes for a big change, he'll refuse.
 
- a) He's not seeing much in the way of progress (a frustration)
+Thanks to her having drawn him out, Quin knows that Marco's "under the gun" feeling is driven by a deep fear that ATN might be building something that customers won't actually use. As it happens, Quin has that exact same fear, in spades. The various team building games they've been working on all feel like they /might/ be fun... but they all depend on users being willing to playfully engage in some pretty oddball online activities. There's just no way to really know how that goes until they see it in action.
 
- b) It's been /forever/ since he's been able to try out anything new (a potential delight).
+Quin decides that, whatever she proposes, she's going to anchor it in a shared goal of delivering something, as soon as possible, that will allow ATN to get their games into the hands of early adopter users.
 
-Whatever change she proposes should provide him a means to brainstorm and clarify his thinking immediately after customer calls (thus, preserving an existing delight).
+As she writes that down in her notes, she realizes that she can explicitly link that to their long-term objectives---because, when she dug into strategic goals for the next year, Marco told her that VC's would only consider a further round of investment if ATN could show *engagement*. As she makes this connection, she feels a spike of excitement. This will be great to share with her team---they've been hungry for a better understanding of *why* they're working on the various features and games.
 
-Finally, she knows that one of his overarching *fears* is that ATN might be building something that customers won't actually use---their product might be a vitamin, not a pain-killer. To win, ATN needs to be simultaneously building towards sales, while also learning how to get *engagement*.
+But, of course, they won't be able to make much progress if Marco keeps derailing every other standup with ideas from customer calls.
 
-Quin spends some time thinking about ways she can address some of her frustrations, while also making things feel better for Marco, and moving the business forward.
+She turns her attention to how, exactly, she wants to ask him to change his behavior. At some level, she thinks, her ask is *simple*: please stop bringing new ideas to standup. But she knows that's going to be a bit of a struggle for him. So she tries to think about what she can offer, to make him willing to try.
 
-After a good bit of work, she arrives at the following, as a proposed first increment of change:
+She starts by thinking about the frustratations she's heard about, or seen.
+
+In terms of their day-to-day, her model of Marco's frustrations is:
+
+ a) He's not seeing much in the way of progress
+
+ b) He feels like it's been /forever/ since he's been able to interact with anything new
+
+Given that understanding of his feelings, she decides to design her proposed initial increment to specifically deliver a *visual prototype* that Marco can interact with. That way, if he can commit to a relatively brief period of changing his behavior, the team can, at the end of that period, give him something that will feel truly exciting.[fn:: You might be thinking, "But, hang on, what if delivering a visual prototype is not the most valuable thing for the team to be doing right now?" In fact, if you know me, you might be putting your hands angrily on your hips and saying, "Look, Dan, I've spent hours of my life, reading thousands of words of *your* writing about steering into risks. What if the visual prototype doesn't address the biggest risk?" Great question! In my experience, building trust and rapport with a key stakeholder is *well* worth the cost of working on something that is /theoretically/ off the critical path of learning. Another way to put it is: if you and your key stakeholder aren't able to work effectively together, *that* is one of your biggest risks. Getting into effective collaboration is therefore likely the most valuable thing you can do.]
+
+She's just about ready to nail down her proposal, but then she catches herself. She remembers her mentor insisting she take the time to ask: "What about the current situation is *good* for Marco? What might he be worried about giving up, if he agrees to make this change?"
+
+She feels briefly stuck. Marco clearly loves coming directly to standup, while his experience of talking to a customer is fresh in his mind. Quin's thinks that he specifically loves that because it allows him to clarify his thinking. But that's exactly what is blowing up the team's focus.
+
+That morning, while walking her dog, Quin suddenly has an idea. She rushes home and writes out her proposed first increment of change:
 
  - For the next two weeks Marco will agree to *fully* stop coming to the team after customer calls
 
- - Instead, he will first meet with Quin, one-on-one
+ - Instead, he will always first meet with Quin, one-on-one
 
  - Quin will commit to being ready to drop everything and meet with him the moment he gets off a call, while his thoughts are fresh
 
@@ -84,7 +104,7 @@ Again note how all that she learned about his feelings has allowed her to develo
 
 There's just one last detail to touch on, before we map out how to walk your stakeholder through your offer.
 
-** Work Backwards From a Future Decision
+** Embed a Future Decision
 
 # Ensure Your Stakeholder Retains Control By Offering a Future Decision
 
@@ -132,7 +152,7 @@ By explicitly putting the end-of-increment decision on the table, Quin ensures t
 
 Even more fundamentally, she's increasing his control over his ultimate goals. Being able to review a demo of the Virtual Dunk Tank creates new options for the business, by inviting Marco to start thinking about those options, she's giving him something he very badly wants.
 
-** The Steps in Making a Proposal
+** Structure Your Proposal To Enable Commitment
 
 I'm going to map out a step-by-step plan. I'll encourage you to try to methodically work through the steps, without rushing. It's designed to gradually move your stakeholder to a willingness to consider a new way of working.
 
@@ -140,17 +160,15 @@ You should deliver yor proposal verbally -- that will let you share your (authen
 
 In order to make your proposal, create a space slightly outside of the normal flow of day-to-day pressures. That could simply be starting a regular 1:1 by sayhing "I have some concerns I want to talk out, can I ask to put aside our normal agenda for today?" Or it could mean breaking normal patterns, perhaps meeting in person instead of online. You want to signal that there's something important for you to face, together.
 
-Once you've created that big of space, go through the following steps, checking for understanding with your stakeholder after each one:
+Once you've created that bit of space, go through the following steps, checking for understanding with your stakeholder after each one:
 
  - Name the strategic intent
 
  - Speak to their concerns
 
- - Share your concerns
+ - Speak to your concerns
 
- - Describe your proposed increment of change
-
- - Name the future decision
+ - Propose a common solution with a future decision
 
  - Ask for commitment
 
@@ -158,7 +176,7 @@ You should practice this with a trusted friend before you pitch your stakeholder
 
 Let's see how this works for Quin.
 
-** Quin's Compelling Offer to Marco
+** Our Story: Quin's Compelling Offer to Marco
 
 They've gone for a walk together. As they get into the city park, Quin asks if they can sit on a bench to talk. They sit side by side, watching people walk by.
 
@@ -196,7 +214,7 @@ He is remembering that Quin had recently demanded he *stop* talking to the team 
 
 He also thinks that, of course he understands that they're not to ask the team to, like, change everything based on one customer call. He's not unreasonable.
 
-*** Share your concerns
+*** Speak to your concerns
 
 Having heard his agreement about how she's framed his concerns, Quin is ready to move on to herown.
 
@@ -208,7 +226,7 @@ Marco nods, slowly.
 
 Note how Quin subtly positioned this as a "weakness" of her and the team, rather than a "failing" on the part of Marco. She could easily have said "The way you're constantly bringing in new ideas is causing problems", but, instead, by playing just a bit of low status, she is sharing a problem to solve together---where the "problem" is "the team can't follow your new ideas", not "you're being chaotic and unfocused". Those are actually exactly the same problem, just focused on different perspectives. The non-accusational framing makes it easier for Marco to stay with her.
 
-*** Describe your proposed increment of change
+*** Propose common solution with a future decision
 
 Now Quin will walk through what she's worked out, and be very direct and very specific about what she's asking of Marco:
 
@@ -222,7 +240,7 @@ Note how extremely specific she is being, about what she is asking: "Whenever yo
 
 She's immediately followed up her request with a benefit he'll get --- a demo of a feature he's been waiting on, for a while.
 
-*** Name the future decision
+She moves on to the future decision.
 
 "Finally, I want to set a meeting up, for immediately after that end-of-sprint demo, for you and I to review how close the Dunk Tank is to sharing with customers and what, if anything, we want to keep tweaking to ensure the team can move faster."
 
@@ -234,8 +252,7 @@ Also, she is *not* offering a Yes/No decision. She could have said "if we want t
 
 Now, to be clear, Marco may not say yes immediately. But that's fine. Quin can probe for any hesitations and tweak the offer, until he's ready to try. Usually, if you've done the previous steps well, you can do that within the discussion, so you're emerging with a commitment to try something new.
 
-** Getting Commitment
-** Our Story: Quin Makes Her Pitch
+** Get a Commitment
 ** Exercises
 * Scraps
 ** Loss of Control
