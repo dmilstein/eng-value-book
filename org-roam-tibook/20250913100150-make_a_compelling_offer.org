@@ -60,23 +60,27 @@ As she writes that down in her notes, she realizes that she can explicitly link 
 
 But, of course, they won't be able to make much progress if Marco keeps derailing every other standup with ideas from customer calls.
 
-She turns her attention to how, exactly, she wants to ask him to change his behavior. At some level, she thinks, her ask is *simple*: please stop bringing new ideas to standup. But she knows that's going to be a bit of a struggle for him. So she tries to think about what she can offer, to make him willing to try.
+She turns her attention to how, exactly, she wants to ask him to change his behavior. At some level, she thinks, her ask is dead simple: just stop bringing new ideas to standup. But she knows that's going to be a bit of a struggle for him. She tries to think about what she can offer, to make him willing to try.
 
-She starts by thinking about the frustratations she's heard about, or seen.
+As per her mentor's advice, she starts by thinking about the *frustratations* she believes Marco is feeling (which can include the absence of specific delights---thing he wants, but isn't getting). If she can offer him something that will remove a frustration or add a delight, that could make him willing to consider a change.
 
-In terms of their day-to-day, her model of Marco's frustrations is:
+In terms of their day-to-day, she thinks Marco's frustrations are:
 
  a) He's not seeing much in the way of progress
 
  b) He feels like it's been /forever/ since he's been able to interact with anything new
 
-Given that understanding of his feelings, she decides to design her proposed initial increment to specifically deliver a *visual prototype* that Marco can interact with. That way, if he can commit to a relatively brief period of changing his behavior, the team can, at the end of that period, give him something that will feel truly exciting.[fn:: You might be thinking, "But, hang on, what if delivering a visual prototype is not the most valuable thing for the team to be doing right now?" In fact, if you know me, you might be putting your hands angrily on your hips and saying, "Look, Dan, I've spent hours of my life, reading thousands of words of *your* writing about steering into risks. What if the visual prototype doesn't address the biggest risk?" Great question! In my experience, building trust and rapport with a key stakeholder is *well* worth the cost of working on something that is /theoretically/ off the critical path of learning. Another way to put it is: if you and your key stakeholder aren't able to work effectively together, *that* is one of your biggest risks. Getting into effective collaboration is therefore likely the most valuable thing you can do.]
+Given that understanding of his feelings, she decides to design her proposed initial increment to deliver a *visual prototype* that Marco can interact with. That way, if he can commit to a relatively brief period of changing his behavior, the team can, at the end of that period, give him something that will feel truly exciting.[fn:: You might be thinking, "But, hang on, what if delivering a visual prototype is not the most valuable thing for the team to be doing right now?" In fact, if you know me, you might be putting your hands angrily on your hips and saying, "Look, Dan, I've spent hours of my life, reading thousands of words of *your* writing about steering into risks. What if the visual prototype doesn't address the biggest risk?" Great question! In my experience, building trust and rapport with a key stakeholder is *well* worth the cost of working on something that is /theoretically/ off the critical path of learning. Another way to put it is: if you and your key stakeholder aren't able to work effectively together, *that* is one of your biggest risks. Getting into effective collaboration is therefore likely the most valuable thing you can do.]
 
-She's just about ready to nail down her proposal, but then she catches herself. She remembers her mentor insisting she take the time to ask: "What about the current situation is *good* for Marco? What might he be worried about giving up, if he agrees to make this change?"
+In fact, she knows that the team has put together most of the bits of one specific activity: the Virtual Dunk Tank (a team leader holds a cup of water over their own head, and, once enough people on their team have hit the virtual target, the screen flashes and the leader has to dump the water on themselves).
 
-She feels briefly stuck. Marco clearly loves coming directly to standup, while his experience of talking to a customer is fresh in his mind. Quin's thinks that he specifically loves that because it allows him to clarify his thinking. But that's exactly what is blowing up the team's focus.
+If they could just have a couple of weeks, they could get that into demo-able state.
 
-That morning, while walking her dog, Quin suddenly has an idea. She rushes home and writes out her proposed first increment of change:
+She's just about ready to nail down her proposal, but then she catches herself. Her mentor insisted she take the time to ask: "What about the current situation is *good* for Marco? What might he be worried about giving up, if he agrees to make this change?"
+
+Marco clearly *loves* coming directly to standup, while his experience of talking to a customer is fresh in his mind. Quin has come to think that he specifically loves that because it allows him to clarify his thinking. But that's exactly what is blowing up the team's focus. She feels stuck. How can he brainstorm with the team, while not brainstorming with the team?
+
+The next morning, while walking her dog, Quin suddenly has an idea. She rushes home and writes out her proposed first increment of change:
 
  - For the next two weeks Marco will agree to *fully* stop coming to the team after customer calls
 
@@ -86,23 +90,23 @@ That morning, while walking her dog, Quin suddenly has an idea. She rushes home 
 
  - Otherwise, Marco can continue to interact with the team as he wishes
 
- - At the end of the two weeks, the team will share an interactive demo of the Virtual Dunk Tank for Marco to test out
+ - At the end of the two weeks, the team will share an interactive demo of the Virtual Dunk Tank that Marco can test out
 
-There's a lot more Quin wants, but she's going to start small, and then build momentum. This change is carefully calibrated to be "slightly uncomfortable" for Marco. He will, in his excited moments immediately after getting off a customer call, *not* do what feels natural to him. He'll have to do some actual work to remap his instincts.
+Quin has arrived at a very well-designed request. The proposed change will be "slightly uncomfortable" for Marco. He will, in his excited moments immediately after getting off a customer call, have to stop himself, and *not* do what feels natural to him. He'll have to do some actual work to remap his instincts.
 
-However, if Quin can get Marco to agree to try it, can believes she can generate wins across the three fronts:
+But, if Quin can get Marco to agree to try it, she has the opportunity to generate wins across all three fronts:
 
- - It positions Quin to buffer the team from Marco's initial swirl of thoughts, immediately after he's talked with customers
+ - It positions Quin to buffer the team from Marco's initial swirl of thoughts, immediately after he's talked with customers. This addresses one of her biggest concerns.
 
- - It gives Marco a small, immediate reward -- Quin's immediate attention and thought partnership after customer calls (this preserves his existing delight)
+ - It gives Marco a small, immediate reward: Quin's immediate attention and thought partnership after customer calls. This preserves something good about the current situation.
 
- - It gives him another reward, at the end of the increment -- an opportunity to try out an interactive demo of the Virtual Dunk Tank (giving him both the velocity and the interactive UI that he's been growing increasinly desperate for)
+ - It gives Maco another reward, at the end of the increment: an opportunity to try out an interactive demo of the Virtual Dunk Tank. This will give him both the velocity and the interactive UI that he's been growing increasingly desperate for.
 
- - Finally, the creation of that demo moves ATN one step closer to being able to ask a customer to *use something*, which moves them towards their key strategic outcome around engagement.
+ - Finally, the creation of that demo will move ATN one step closer to being able to ask a customer to *use something*. That moves both her *and* Marco towards their shared strategic goal around engagement.
 
-Again note how all that she learned about his feelings has allowed her to develop something which has the potential to work for her, for Marco and fo the business as a whole.
+Note how Quin used all that she learned about Marco's *feelings* to develop something which has the potential to work for her, for Marco and fo the business as a whole.
 
-There's just one last detail to touch on, before we map out how to walk your stakeholder through your offer.
+There's just one last detail to touch on, before we map out the steps to take, to walk your stakeholder through your offer.
 
 ** Embed a Future Decision
 
