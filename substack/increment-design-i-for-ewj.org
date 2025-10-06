@@ -1,0 +1,270 @@
+* The Art of Increment Design, Part I: Help Us, Good Increments, You're Our Only Hope
+# Only Good Increments Can Save Us Now
+** Intro
+
+Today's post is the first in a series about how to design effective *increments* when developing software.
+
+By "increments" I simply mean: how to break up a large body of engineering work into a series of smaller steps.
+
+I have come to believe that effective increment design is perhaps *the* most important skill of an experienced engineer[fn:: Breaking up a large system into distinct components (another fundamental skill), is sort of like decomposing across *space*. Increment design is decomposing across *time*, and, since time is unidirectional, that challenge is sort of interestingly trickier.]. I further believe that the design of increments should be a centerpiece of the conversations between engineering and product, and even stretch out to include the rest of the business.
+
+To understand why, over the course of this series, I'll develop a nuanced understanding of how engineering work does (or does *not*) create value for an overall business (building on previous posts [link], [link]). We'll discover how some increments can, despite requiring a great deal of engineering effort, somehow create *no value whatsoever*. We'll also find how other increments, including ones where the engineers write very little code, can somehow create a great deal of value.
+
+This understanding of value will ultimately give us tools to break large efforts into small pieces, and will *also* offer creative ways to mix in increments of value-generating work to address a wide variety of concerns, e.g. being able to deploy more frequently; ensuring a system can handle increases in load; meeting security expectations; etc.
+
+Why is good increment design so valuable?
+
+A teacher of mine once said, "The beauty of something is made clear by its absence."
+
+Thus: what is life like, on a team that suffers from poor increment design?
+
+My guess is that you, dear reader, may have actually experienced this first hand.
+
+Let's see what that feels like.
+
+# This theoretical foundation will give you a powerful way to reason about your work. With practice (and some further tactics, to be explored in subsequent posts), it will allow you to find a path through the shifting chaos of reality to a valuable outcome for your business.
+
+# When I talk with engineers or product managers at tech companies, just about universally, their teams are using some form of agile to organize their day-to-day work. They have sprint teams, those teams do daily stand ups, they work in iterations of a few weeks, with some form of planning at the start of each.
+
+# In a sense, the alternative to agile (Waterfall, natch), has "lost"
+
+** The Perils of Bad Increment Design
+
+Sometimes, in the middle of a dark wood, an engineer or a PM will find themselves on a team that is *doing* Agile, but that somehow doesn't *feel* agile in any way.
+
+# Switch all to "you" in the below?
+
+The team observes all the agile rituals, and observes them faithfully and well. Their sprints are a crisp two weeks long. They start each sprint on a Monday morning with a full team planning session. They gather every day for a stand up. As they work, the engineers steadily pull well-groomed tickets from the board. On the final Friday of each sprint, the engineers demo what they've built, and then the team runs a brief retro in the afternoon.
+
+All that is as it should be, right?
+
+In theory, yes.
+
+But, in practice, there's a problem.
+
+Somehow, the overall project is drifting totally out of control.
+
+The team is far, far behind where they are supposed to be. Every lingering problem they finally tackle immediately sprouts three new problems, hydra-like. The PM is losing sleep, and wakes each morning from anxious dreams about their next update to the executive team. The engineers are growing defeatist and bitter. Every day they're asked to pile new expedient hacks on top of yesterday's expedient hacks, resulting in a system that is ever-more unstable. They've already missed all their key delivery dates, so there's no time to deal with any of the emerging problems. The engineers and the PM's have a growing suspicion that when they finally *do* ship the unstable, limited, badly compromised system, literally everyone will be angry at them.
+
+This is, in fact, exactly what will happen.
+
+# This is a team that is "doing waterfall with agile methods". Somehow, despite successfully applying agile *tactics*, they're still gaining the pretty nasty outcomes of waterfall.
+
+How did this team get here?
+
+How can we avoid getting to a similar place in the future?
+
+Why didn't "doing agile" save them? I am a huge believer in agile as a way to organize the work of a team. But, unfortunately, agile tactics, as commonly practiced, are not enough. They are, in the precise terminology of mathematics, *necessary but not sufficient*.
+
+Let's rewind to the start of the project.
+
+At the time, the team was working closely with a senior non-technical stakeholder. That stakeholder, after a good bit of back and forth, grudgingly conceded to the project being run "via Agile", instead of the way, well, every other project they'd ever supervised had been run: with a task breakdown, and a schedule, and a PMO to ensure everyone stays on track.[fn:: Why did the stakeholder agree to this? Because the engineers and product team were so *confidently dismissive* of the way the stakeholder *wanted* to run the project. The tech team derisively called the stakeholder's desired approach "waterfall". The stakeholder didn't really understand any alternatives to "waterfall", but within their first five minutes of being even *near* software development, they had learned that "waterfall" is Very Bad. They didn't want to look stupid, so they agreed to try this vague thing that everyone assured them was their only option.]
+
+# because otherwise the engineers would have actually quit.
+
+But, that stakeholder extracted a concession of their own from the product team: a commitment to complete the project by Q2 of the following year.
+
+At the time, Q2 was a full nine months away. The engineers didn't love making this kind of long-term commitment, but they believed they had no choice but to give the business *some* kind of promise. They looked over the high-level PRD's from the product team and said "It looks like we should be able to finish by Q2 *if there are no horrible surprises*".
+
+The product team said "Of course, we understand." They made a good-faith attempt to share that caveat with the senior non-technical stakeholder. But, surprisingly approximately no one, that stakeholder neither understood nor accepted the caveat. Instead, after meeting with the product team, they immediately turned around and told the Rest Of The Business, "The engineering team has committed to a Q2 launch date." The Rest Of The Business said "Great, thanks," and started basing all their own plans on that date.
+
+What happened next?
+
+The engineers sat down and broke the work down into increments.
+
+That is to say, they decided what they would build first, what they would build second, etc. The product team wasn't closely involved in the development of the increments---they considered themselves a consumer of, rather than a direct participant in, this "engineering process".
+
+The eng team, led by one of the senior IC's, developed their increments as follows: first, they broke the planned system down into a set of components; then they ordered the development of those components in a way that felt natural to them. The choice of order didn't feel particularly high stakes to them---no matter the order, they'd ultimately have to develop all the components.
+
+Once the engineers had the increments, they estimated each, then the product team turned all of that into a schedule with milestones and deadlines. Everyone then worked together to cut scope, to ensure there was a comfortable four weeks of padding at the end of the project, in case anything went wrong.
+
+And then the engineers got to work, in their (well-observed!) agile process.
+
+Unfortunately, in this moment, the team is already doomed.
+
+# Clean up tenses in the below
+
+They have chosen their overall increments arbitrarily and poorly. Even if they run their agile processes well, sprint-to-sprint, they are going to find themselves trapped, with no options as the work unfolds.
+
+Why is this so?
+
+One of the components will turn out to be impossible to build as they had planned. The absence of that component will trigger a ripple effect through the rest of the system, requiring enormous amount of rework and ultimately forcing a rethinking of what the product is able to do. Unfortunately, the team chose to work on that component *late* in their sequence. By the time they make this unfortunate discovery, their original launch date is only four weeks away. There are no good options to adapt and still deliver something valuable anywhere close to the plan.
+
+Of course, missing plan isn't an uncommon occurrence. Why does this leave the team in such bad shape?
+
+The engineers and the PM have not engaged their stakeholders in any discussion around the increments. Instead, they treated the increments as an internal concern of engineering and product. Therefore, none of the intermediate increments deliver anything that their stakeholders would find at all *useful* or valuable. There's no point, before the very end of the project that the team can decide, *with* their stakeholders, to take some form of a partial win, and move on.
+
+One way to understand all of the above is that the team has not chosen their sequence of work to *create incremental value*.
+
+Despite the team working in an agile fashion day-to-day, the company as a whole only seems to see *any* value at the very end of the project.
+
+If a team creates incremental value, then, well, they can *never really lose*. There's no panicked anxiety looming over them, because they can always stop, and the Rest Of The Business will be some degree of happy---because they will have gotten *some* value. The Rest of the Business may not get everything they *expected*, but if the team can create some genuine value, a smart PM and engineering lead can find a way to help the rest of the business understand the win.[fn:: Effectively drawing stakeholders into collaboration around valuable increments is a profoundly interesting challenge. We'll return to that challenge, once we have an understanding of which increments are even valuable in the first place.]
+
+** Sadly, Blind Adherence To One Approach Will Not Save You
+*** Intro
+Someone might read the above parable and think: "Ugh, Dan, that team made an /obvious/ mistake. Teams should /always/ build an end-to-end solution first, and then gradually expand outward from that. That's the True Agile approach. If they had done that, they would never have gotten stuck in such a pit."
+
+Unfortunately, that approach, though sometimes effective... can *still fail spectacularly*.
+
+I have seen projects go horribly off the rails even though the team started by building an end-to-end prototype and immediately sharing it with users. Those teams discovered, very late in their work, that they couldn't actually deliver even vaguely what that prototype had promised (because, say, they had badly misunderstood what data was available to them, or delayed facing some profound technical challenge or risk).
+
+# a constraint deep in the guts of a key data source).
+
+There isn't one true sequence for building complex software.
+
+Designing good increments requires an understanding of how teams create value, and a good deal of creative effort to apply that understanding to a specific situation.
+
+# Designing good increments requires creative effort---and then, continual effort to redesign, as the work unfolds.
+
+Consider the following approaches. Teams are, possibly implicitly, considering something like this list when selecting their next incremental chunk of work. Individual engineers or PM's might advocate for something on this list as the One True Way to decompose a software project into smaller pieces:
+
+ - Build something limited-but-real that satisfies a subset of customers with a subset of planned functionality
+
+ - Build an interactive-but-fake prototype of the complete set of planned functionality
+
+ - Build a single back-end component in full, rigorous depth
+
+ - Build lightweight versions of all the back-end components, and wire them all together
+
+ - Don't build anything, but instead do a deep dive into a key data source
+
+Here's the thing: in different situations, each of those could be the exactly right next increment, *or* the exactly wrong one.
+
+Because each can either *create incremental value* for the overall business, or can completely *fail to create value* for the overall business.
+
+And, remember, increments that don't create incremental value are super dangerous. A succession of such increments will leave a team in a very bad place. Every increment of work must create an increment of value.
+
+Let's dig into how each of the above could or could not be valuable.
+
+*** Build something limited-but-real that satisfies a subset of customers with a subset of planned functionality
+
+Creates Value If:
+
+ - That subset of customers is representative of the full set of customers
+
+ - The subset of functionality is compelling enough for those initial customers to actually use it to solve problems they care about
+
+ - The team can build the useful subset significantly faster than they can build the full product
+
+Does Not Create Value If:
+
+ - The subset of customers has completely different needs than the rest of the customer base, so a product that satisfies them can not be expanded to serve all customers.
+
+ - The limitations in functionality mean customers can't use it to actually solve their problems.
+
+   Massive risk in this case: customers tell you how great the limited product /looks/, and they'll /absolutely/ use it once you've added just a few more features. You feel like you're making tremendous progress, but, once you address the remaining "blockers", it turns out the customers just wanted you to not feel bad and were lying to you, and none of them are willing to use or pay for what you've built (see The Mom Test for how to handle customers cheerfully lying to you in this exact way).
+
+ - The limited subset rests atop an iceberg of technical complexity below the surface, so getting it working requires 90% of the time and effort of the full project.
+
+   Massive risk in this case: the product team names that limited subset the "MVP", but it's more than a few months to build it... so the engineering team drifts into the "build the technical components in some random order" plan described above, with all its attendant dangers.[fn:: The term "MVP" has, sadly, lost just about all ability to function as a useful piece of product development discourse. Far too often it becomes "What bundle of features does a stakeholder insist a customer will want." Rather than fight over a better definition of MVP (e.g. "The next hypothesis to test"), I've had better luck just leaving the term MVP fully on the side of the road, and focusing on building a shared understanding of other terms.]
+
+*** Build an interactive-but-fake prototype of the complete set of planned functionality
+
+Creates Value If:
+
+ - The engineering team is confident in their ability to build the complete set of functionality
+
+ - It's hard or impossible for customers to imagine how the product even could solve their problems
+
+   Customers are near-universally terrible at imagining software that they can't interact with. If the team can allow them to interact with something where they can successfully imagine using it to solve their problems, the team can achieve one of two outcomes, *each of which* is valuable:
+
+   a) Customers not only get excited about the product, they start talking in detail about *how* they would use it to solve their problems, they talk about what they are currently doing to try to solve those problems, they beg to show it to other people they work with, etc.
+
+   Value = Great, you've gotten validation + a partner for incrementally testing out your solution as you go.
+
+   Or,
+
+   b) Customers demonstrate *none* of the above evidence of commitment.
+
+   Value = Great, you've learned that you shouldn't waste time building that full set of planned functionality.
+
+   This latter result is *super valuable*! It creates the opportunity for the team to build *something else* that customers will pay for, when there's still plenty of time to do so. (We'll dig into this form of value creation throughout this series)
+
+Does Not Create Value If:
+
+ - The product has the nature where interacting with a fake prototype isn't enough for customers to imagine using it to solve their problems
+
+   A classic example of this is when the product involves aggregating some complex set of the customer's own data. Showing such customers a slick-looking visualization tool on top of /fake/ data often fails to engage the part of their brain that is worrying about their problems. Which means you fall back into the risk of them trying to make you feel good by "being nice".[fn:: Fun fact: the best early increment in this case is often a *spreadsheet*, into which you've painstakingly hand-collected that customer's *own data*, and can then see what they do with it.]
+
+ - The engineering team isn't certain they can build all the functionality
+
+   If, by building a cool looking prototype, you learned that customers would happily pay for some Magic Solution, but your engineering team knew all along that they can't build the Magic Solution (because, y'know, *magic*), you've wasted a bunch of time, and have to start over, no with less time. This kind of "learning" does not create value.
+
+*** Build a single back-end component in full, rigorous depth
+
+Creates Value If:
+
+ - The engineering team has real fears about whether or not they even *can* build that back-end component
+
+ - The absence (or shape) of that back-end component has a major impact on the design of the overall product
+
+Does Not Create Value If:
+
+ - It might take a while to build that back-end component, but there's no question about whether or not it's *possible* (aka, It's "hard but not risky")
+
+ - The absence of that back-end component would only change the ultimate product design in a fairly minor way
+
+*** Build lightweight versions of all the back-end components, and wire them all together
+
+Creates Value If:
+
+ - There a lot of engineers working on this effort, and the company wants subsets of them to work in parallel on different parts of the overall system
+
+ - The engineering team, at project start, has broad-based concerns about if/how they can tie all the pieces together
+
+   E.g. maybe the system depends on threading some key pieces of data through the various components, but the team isn't certain where that data is available. Or some are system decomposition questions will have a major impact on the design of the product (e.g. maybe the team fears that some key step in the user workflow will have be completed asynchronously).
+
+   One way to say the above is: there isn't something that can be shown to users that the team is confident they can build.
+
+Does Not Create Value If:
+
+ - It's going to take a while to build all those components, and it's not clear if customers care about the *problem* the product tries to solve.
+
+ - All the risks and questions are concentrated in one component
+
+   E.g. if your team is trying to build some form of domain-specific AI assistant, there's a good chance all you should be focused on is "Can we get that assistant to usefully answer questions about that domain?", and not string together all the other bits of a full solution (e.g. automatic ingestion of relevant customer context, a smooth UI to offer answers, etc).
+
+*** Don't build anything, but instead do a deep dive into a key data source
+
+Creates Value If:
+
+ - The presence, absence or shape of the available data will have a major impact on what product you can build
+
+Does Not Create Value If:
+
+ - The team knows the data inside and out already
+
+** Outro
+
+# For many experienced engineers and product managers, various situations above will, hopefully, feel familiar, and the "good" options may even feel kind of "obvious".
+
+What is the pattern behind all of above?
+
+How can you reason about your exact situation, and be certain you're picking a good increment?
+
+My answer is: be sure your team is creating incremental value as you go.
+
+To do this, you will be very well-served by having a first principles understanding of how value creation works during the development of software.
+
+That understanding will allow you to design the increments for even very large software efforts such that you can offer your business counterparts both steadily visible *progress*, and more importantly, a steady series of options for when to *stop* and still realize value.
+
+Now that we've established *why* good increment design is so important, in the next post we're going to dig into *how* engineering teams can create incremental value.
+
+In closing, I'll offer a teaser for what's to come:
+
+An engineering team can create incremental *value* for their company, even if they're *not* shipping software that is incrementally more *useful* to any users.
+
+"...what?" I hear you thinking.
+
+Shipping useful software is *not* the only way engineers create value for a business.
+
+"...but doesn't the Agile Manifesto say working software is the measure of progress?" I hear you continue to think.
+
+The Agile Manifesto is legitimately and enduringly great.
+
+But they got this one wrong.
+
+
+# The engineers had, of course, complained that the product team hadn't sufficiently defined the product for them to give a good estimate. But they always made that complaint.
+
+# The product team complained (to each other, over drinks), that the engineers weren't willing to stand behind their commitments.
