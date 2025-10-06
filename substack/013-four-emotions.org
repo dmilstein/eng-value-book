@@ -1,18 +1,18 @@
 Working on Substack post on the 4 key emotion questions.
 * Draft Post on Feelings
 # Mine for Fears & Dreams
-** Bad New Intro
-/Today's post is a sneak peak excerpt from the book I'm writing, which is provisionally titled:/
+** Intro
+/Today's post is an excerpt from the book [link] I'm writing, which is provisionally titled:/
 
 /*Getting Unstuck*/
 
 /How To Solve Problems With Bosses, Peers & Stakeholders/
 
-/I touched on this [], if you read that, feel free to jump down to [link] Humans Have Feelings, Ignore At Your Own Risk. Or, read the below and enjoy the fun changes in prose I made. JUST SAYING./
+/I touched on this [], if you read that, feel free to jump down to [link] Humans Have Feelings, Ignore At Your Own Risk. Or, read the below and enjoy the fun small changes in prose I made. JUST SAYING./
 
-It is a truth universally acknowledged, that a person in possession of a career in software, must be in a state of frustration with Some Important Person they work with.
+It is a truth universally acknowledged, that a person in possession of a career in software, must be in a state of frustration with Some Important Person.
 
-Just to name a few fun possibilities:
+Just to name a few fun such Important People:
 
  - The CEO who interrupts a team's standup every other day to brainstorm new product ideas, randomizing their work and killing any hope of velocity
 
@@ -50,13 +50,13 @@ How can you get *unstuck*?
 
 I'm so glad you asked.
 
-/[Hello again, Substack friends! In the book, I map out a step-by-step game plan for drawing your very own Important Person, who I name your "Stakeholder", into a process of collaborative problem-solving, so that you can, together, find a better way to work, together. A core part of that game plan is understanding your stakeholder's underlying *feelings*. The below is an excerpt from a chapter where I walk through a means to do so. If you would like to be a beta reader of an early version of this book, feel free to drop me a line at dan@dan-milstein.com! Ditto if you have such challenges with your very own Important Person and could use help from, say, a [link] coach or advisor]/
+/[Hello again, Substack friends! In the book, I map out a step-by-step game plan for drawing your very own Important Person, who I name your "Stakeholder", into a process of collaborative problem-solving. This will allow you to, together, find a better way to work, together. A core part of that game plan is understanding your stakeholder's underlying *feelings*. The below is an excerpt from a chapter where I walk through a means to do so. If you would like to be a beta reader of an early version of this book, feel free to drop me a line at dan@dan-milstein.com! Ditto if you have such challenges with your very own Important Person and could use help from, say, a [link] coach]/
 
 ** Humans Have Feelings, Ignore At Your Own Risk
 
 If you want someone to change their behavior, it's absolutely critical that you understand their *feelings*.
 
-/But wait,/, I hear you think. /My CEO's only outward expression of emotion is a series of variations on the tightly clenched jaw? My coworkers and I engage in regular debates about whether or not our CEO even *has* feelings./
+/But wait,/ I hear you think. /My CEO's only outward expression of emotion is a series of variations on the tightly clenched jaw. My coworkers and I engage in regular debates about whether or not our CEO even *has* feelings./
 
 Look. Understanding feelings doesn't mean gathering in a drum circle and getting in touch with your inner child. Humans, however they present, have things they deeply want, and things they are deeply afraid of. Your stakeholder's current behavior patterns are driven by some combination of what they want and what they're afraid of.
 
@@ -74,13 +74,15 @@ In fact, to persuade your stakeholder to change their behavior, you need to to d
 
 Which is to say, you not only need to understand their feelings, you need to be able to understand the *situation* they perceive themselves to be in, which is making those feelings seem inevitable.
 
-To be carefully clear, an empathetic understanding doesn't mean *justifying* or *excusing* problematic behaviors by those in positions of power. It means being able to articulate an understanding of why someone might behave the way they are behaving. One where you can say, authentically, "What they're doing is wrong, but I can maybe see why that feels to them like their only option."
+To be carefully clear, an empathetic understanding doesn't mean *justifying* or *excusing* problematic behaviors by those in positions of power. It means being able to articulate an understanding of why someone might both feel and behave the way they do. An understanding which allows you to say, authentically, "What they're doing is wrong, but I can maybe see why it feels to them like they have no other options."
 
-For example, say you're working with a head of product who insists on reviewing and tweaking every single detailed UX design before it ships, which is slowing the pace of delivery to a painful crawl (and triggering intense resentment among the designers and PM's).
+Let's bring that to life with an example.
+
+Say you work with a head of product who insists on reviewing and tweaking every single detailed UX design before it ships, which is slowing the pace of delivery to a painful crawl (and triggering intense resentment among the designers and PM's).
 
 That head of product might be struggling with an intense, overwhelming fear of *loss of control*. Inserting themselves into this detailed work may be an attempt to still that raging fear.
 
-That's a somewhat useful statement of their feelings, but it doesn't quite speak empatheticly to the situation they perceive themselves to be in.
+That's a useful statement of their feelings, but it doesn't quite speak empathetically to the situation they perceive themselves to be in.
 
 An empathetic understanding might be:
 
@@ -92,15 +94,15 @@ An empathetic understanding might be:
 
  - A few months back, a confusing product change made it through to some important customers, and the CEO lambasted the head of product in front of other executives
 
-In such a situation, their habit of soothing their feelings of fear by inserting themselves into detailed design work is a bit easier to understand. It's *still* extremely problematic, and you still need to find a way to help them change that behavior.
+In such a situation, the head of product's habit of soothing their feelings of fear by inserting themselves into detailed design work is, well, a lot easier to understand. It's *still* extremely problematic, and to build a healthy, fast-moving team with them, you still need to find a way to help them change that behavior.
 
-But your empathetic understanding will allow you to productively challenge them to change, by speaking authentically to their underlying feelings.
+But your empathetic understanding will allow you to productively challenge them to change, by speaking authentically to the situation they find themselves in.
 
 Persuading humans to change their behavior works roughly a thousand times better if you can find a way to speak to their hearts as well as their minds.
 
-** The Four Key Emotions
+** The Four Key Emotions: Frustrations, Fears, Delights & Dreams
 
-Fortunately, you don't have to worry about every facet of your stakeholder's inner life. You're going to focus on *four key emotions*, which will meand answering four distinct questions:
+Fortunately, to help motivate change, you don't have to understand every facet of your stakeholder's inner life. You can focus on *four key emotions*, which will mean answering four distinct questions:
 
  - *Frustrations*
 
@@ -120,15 +122,17 @@ Fortunately, you don't have to worry about every facet of your stakeholder's inn
 
 These form an extremely powerful core for understanding, and thus, persuasion. Two focus on day-to-day experiences (frustrations and delights), two on longer-term motivations (fears and dreams).
 
-If you can come up with answers to these four questions, you can build an *extremely* compelling request to try something new. A request that the stakeholder will both *hear* and *feel* as compelling.
+If you can come up with answers to these four questions, you can build an *extremely* compelling request to try something new. A request that the stakeholder will both *hear* and *feel* as worth taking a risk on.
 
-We'll spend real time on how to craft such a request in the "Make a Compelling Offer" chapter.
+We'll spend real time on how to craft such a request in later chapters.
 
-But first we need to talk about how to answer these questions.
+But first we need to talk about how to come up with answers to these questions.
 
-Directly asking is... tricky, to say the least. Again, since many stakeholders are trying to actively hide their emotions, *and* because power dynamics are an actual thing, it can feel very hard to say to someone like: "What makes you happy, day-to-day?" But you need that information---because you can then ensure that, whatever change you propose, they can envision themselves doing the thing that makes them feel good.
+Directly asking is... tricky, to say the least. Again, since many stakeholders are trying to actively hide their emotions, *and* because power dynamics are an actual thing, it can feel very hard to say to Someone Important: "What makes you happy, day-to-day?"
 
-To make progressk, you're going to use a mix of two techniques:
+But you need exactly that information. Only that can ensure that, whatever change you propose, your stakeholder will envision themselves doing the thing that makes them feel good (and *won't* envision themselves doing the thing that frustrates the hell out of them).
+
+To develop your answers, you're going to use a mix of two techniques:
 
  - Educated Guesses
 
@@ -142,11 +146,29 @@ Of course, that's only true if you work at a company where people spend time tal
 
 Making an educated guess is a very good way to start, but, often that's not enough. Especially if your stakeholder seems committed to showing little or no vulnerability.
 
-In that case, you'll need to do a bit of detective work. I call this mining for emotion". As part of it, you'll practice and then deploy two key tactical empathy skills.
+In that case, you'll need to do a bit of detective work. I call this "mining for emotions", which gets at how it feels---that you're patiently digging away, getting to what's below the surface.
+
+As part of it, you'll practice and then deploy two key Tactical Empathy skills.
+
+** What Is This Tactical Empathy You Speak Of?
+
+Chris Voss, in his truly excellent book "Never Split the Difference" (written with Tahl Raz), describes *Tactical Empathy* as follows:
+
+    /In my negotiating course, I tell my students that empathy is "the ability to recognize the perspective of a counterpart, and the vocalization of that recognition." That's an academic way of saying that empathy is paying attention to another human being, asking what they are feeling, and making a commitment to understanding their world./
+
+    /Notice that I don't say anything about agreeing with the other person's values and beliefs or giving out hugs. That's sympathy. What I'm talking about is trying to understand a situation from another person's perspective./
+
+    /One step beyond that is tactical empathy./
+
+    /Tactical empathy is understanding the feelings and mindset of another in the moment and also hearing what is *behind* those feelings so you increase your influence in all the moments that follow. It's bringing our attention to both the emotional obstacles and the potential pathways to getting an agreement done./
+
+Tactical empathy is a sort of actionable form of active listening, that can move your stakeholder from distrust to trust. If it works with hostage-taking terrorists, maybe it'll work with your boss!
+
+For reals, these skills are legitimately life-changing. They take real practice to master, but can pay off forever.
 
 ** Tactical Empathy Skill #3: Repeat Trailing Words
 
-If you want to understand your stakeholder's fears and dreams, you're going to need them to *talk to you*.[fn:: At least that's true... now? If this book is invalidated by mind-reading technologies, ALL BETS ARE OFF.]
+If you want to understand your stakeholder's fears and dreams, you're going to need them to *talk to you*.
 
 Unfortunately, it often requires real work to *get people talking at all*.
 
