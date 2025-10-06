@@ -2119,3 +2119,349 @@ CLOSED: [2025-08-20 Wed 10:23]
 :LOGBOOK:
 CLOCK: [2025-08-20 Wed 09:11]--[2025-08-20 Wed 10:01] =>  0:50
 :END:
+
+* DONE Experiment: add exercises to end of each chapter
+CLOSED: [2025-09-22 Mon 09:17]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-10-06 Mon 10:00
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: ToC/Structure
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+Like, now go do these things
+
+* DONE Rough out new title + TOC
+CLOSED: [2025-08-12 Tue 09:31]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-10-06 Mon 10:00
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: ToC/Structure
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+:LOGBOOK:
+CLOCK: [2025-08-12 Tue 08:43]--[2025-08-12 Tue 09:31] =>  0:48
+:END:
+
+* DONE Insert new ToC
+CLOSED: [2025-08-13 Wed 07:50]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-10-06 Mon 10:00
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: ToC/Structure
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+:LOGBOOK:
+CLOCK: [2025-08-13 Wed 07:45]--[2025-08-13 Wed 07:50] =>  0:05
+:END:
+
+* DONE Cut up existing Case Study bits, insert
+CLOSED: [2025-08-13 Wed 08:05]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-10-06 Mon 10:00
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: ToC/Structure
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+:LOGBOOK:
+CLOCK: [2025-08-13 Wed 07:50]--[2025-08-13 Wed 08:05] =>  0:15
+:END:
+
+* DONE Maybe: collapse Strat Intent/Map Fears
+CLOSED: [2025-08-18 Mon 09:17]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-10-06 Mon 10:00
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: ToC/Structure
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+Build Key Context
+
+* DONE Maybe: back half of book is all case studies
+CLOSED: [2025-08-18 Mon 09:17]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-10-06 Mon 10:00
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: ToC/Structure
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Split Tac Empathy, put some in an Appendix
+CLOSED: [2025-08-05 Tue 10:33]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-10-06 Mon 10:05
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Tactical Empathy
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Finish "offer spectrum" Janine/Eduardo
+CLOSED: [2025-08-05 Tue 17:20]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-10-06 Mon 10:05
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Tactical Empathy
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Add a full story with all three tactics   :curweek
+CLOSED: [2025-08-05 Tue 17:20]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-10-06 Mon 10:05
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Tactical Empathy
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+Have it be the Directo of Customer Success, model on Lauren Dill.
+
+* DONE Exercises at end of each section?
+CLOSED: [2025-08-05 Tue 08:24]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-10-06 Mon 10:05
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Tactical Empathy
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Add the "offering summaries of feelings" tactic
+CLOSED: [2025-08-05 Tue 09:01]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-10-06 Mon 10:05
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Tactical Empathy
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Make your own limitations the problem
+CLOSED: [2025-08-05 Tue 09:01]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-10-06 Mon 10:05
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Tactical Empathy
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+E.g. my tactic w/ Konicki, or the "the team doesn't have enough context to understand" thing w/ the CEO.
+
+* DONE Turn XXX's in [[id:4FEA3BD5-8E85-4BB6-8F59-15FDE4F38572][Tactical Empathy]] into TODO's
+CLOSED: [2025-08-05 Tue 09:01]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-10-06 Mon 10:05
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Tactical Empathy
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE For Tac Empathy, use current story, just set it up
+CLOSED: [2025-08-03 Sun 16:31]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-10-06 Mon 10:05
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Tactical Empathy
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+As in: the change you want to make is to have the product team listen to engineering.
+
+And then, in mine for context, make it more PM-like
+
+* DONE Keep working through the rewrite
+CLOSED: [2025-08-04 Mon 09:23]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-10-06 Mon 10:05
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Tactical Empathy
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Maybe spike on making it more novelistic
+CLOSED: [2025-08-04 Mon 09:23]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-10-06 Mon 10:05
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Tactical Empathy
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+To make the emotions more visible on the surface
+
+* DONE Review, adjust to be less about Tech Invest
+CLOSED: [2025-08-02 Sat 09:50]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-10-06 Mon 10:05
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Tactical Empathy
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Block time on calendar for Ben LaV calls
+CLOSED: [2025-08-06 Wed 07:37]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-10-06 Mon 10:06
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Teach/Coach
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+8/12 @ 2 or 3
+8/14 @ 1
+
+* DONE Respond to Ben LaVerreiere @ Medium
+CLOSED: [2025-08-02 Sat 09:12]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-10-06 Mon 10:06
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Teach/Coach
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+Dan <-> Ben
+
+"Scheduling-wise, Tuesdays and Thursdays tend to be my most flexible days during work hours, if there's something there that works for you."
+
+* DONE Write up Lisa Plesko follow ups
+CLOSED: [2025-07-30 Wed 14:29]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-10-06 Mon 10:06
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Teach/Coach
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Ping Ryan Scott, ask what he's applied
+CLOSED: [2025-09-04 Thu 17:13] DEADLINE: <2025-09-01 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-10-06 Mon 10:06
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Teach/Coach
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Ping Lisa P, ask what she's applied
+CLOSED: [2025-08-17 Sun 11:56] DEADLINE: <2025-08-14 Thu>
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-10-06 Mon 10:06
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Teach/Coach
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Ping Jacob, ask how it's going
+CLOSED: [2025-09-04 Thu 17:15] DEADLINE: <2025-09-01 Mon>
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-10-06 Mon 10:06
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Teach/Coach
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Make todos for Jacob follow ups
+CLOSED: [2025-07-30 Wed 14:29]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-10-06 Mon 10:06
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Teach/Coach
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+** Share my chapters on Tactical Empathy
+** Maybe other chapters
+** Maybe sketch on building trust and levering up
+** Specifically on asking for problems not solutions and "cheating" on the backend
+** Add scheduled task to ping him
+
+* DONE Respond/schedule
+CLOSED: [2025-07-19 Sat 11:05]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-10-06 Mon 10:06
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Teach/Coach
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Sign up for pro zoom
+CLOSED: [2025-07-21 Mon 08:10]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-10-06 Mon 10:06
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Teach/Coach
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Draft email for Edmund, asking for intros
+CLOSED: [2025-07-16 Wed 10:11]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-10-06 Mon 10:06
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Teach/Coach
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Ask Edmund for intros
+CLOSED: [2025-07-16 Wed 10:19]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-10-06 Mon 10:06
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Teach/Coach
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Draft new email re coaching/helping
+CLOSED: [2025-07-21 Mon 08:11]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-10-06 Mon 10:06
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Teach/Coach
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:

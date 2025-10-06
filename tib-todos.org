@@ -4,35 +4,58 @@ Project/todo list for the Book In Question
 
 * Book Inbox                                      :inbox:
 * [[id:B4926308-39DD-471B-8E71-5FFF7546D6E3][ToC/Structure ]]                                  :gtasks:
+** TODO Move exercises to the back
+But harrangue people to *actually do them*.
 ** TODO Book: try the full sub-head outline breakdown now?
-** DONE Experiment: add exercises to end of each chapter
-CLOSED: [2025-09-22 Mon 09:17]
-Like, now go do these things
-
 ** TODO Aim for: each section (chapter?) has an *action plan*
 People are clearly resonating with that, and it's actually how I think.
-** DONE Rough out new title + TOC
-CLOSED: [2025-08-12 Tue 09:31]
-:LOGBOOK:
-CLOCK: [2025-08-12 Tue 08:43]--[2025-08-12 Tue 09:31] =>  0:48
-:END:
-** DONE Insert new ToC
-CLOSED: [2025-08-13 Wed 07:50]
-:LOGBOOK:
-CLOCK: [2025-08-13 Wed 07:45]--[2025-08-13 Wed 07:50] =>  0:05
-:END:
-** DONE Cut up existing Case Study bits, insert
-CLOSED: [2025-08-13 Wed 08:05]
-:LOGBOOK:
-CLOCK: [2025-08-13 Wed 07:50]--[2025-08-13 Wed 08:05] =>  0:15
-:END:
-** DONE Maybe: collapse Strat Intent/Map Fears
-CLOSED: [2025-08-18 Mon 09:17]
-Build Key Context
 
-** DONE Maybe: back half of book is all case studies
-CLOSED: [2025-08-18 Mon 09:17]
 * [[id:454225CA-DD66-4ACA-B8B3-429F6551DBDC][New Intro]]                                       :gtasks:
+** TODO For Intro or Gameplan, lay out CPS
+Like, "Ultimately, what you're going to do is lay out for your stakeholder:
+
+ - Some key long-term objective you're both working towards
+ - An empathetic understanding of their concerns
+ - A direct statement of your concerns, in a way they can hear
+ - A proposal for a change in how you work that will address both of your concerns.
+
+That's it. That's the whole game.
+
+However, the reason I'm writing a *book*, is for two reasons.
+
+First, it takes practice and skills to do those first three -- drawing out a useflu strategic objective from your stakeholder (not just some fixed numeric goal), drawing out their underlying concerns (which they are often trying to hide), and learning how to say your own clearly and cleanly.
+
+The skills to do this are profoundly valuable, but non-trivial to learn. By sharing the contexts that I've worked in (tech companies, primarily), I hope to offer you a path in to mastering them.
+
+Second, for the proposal to change how you work together, there are a variety of specific challenges to getting groups of humans to work together to achieve meaningful goals, specific to places for which building new software is some part of how they create value.
+
+So I also want to off some hard-won lessons on useful changes in how you work, many of which it took me a long time to discover or work out.
+
+E.g.
+
+ - How do engineers and PM's handle the constant stream of demands/requests to fix or improve existing software, from one set of stakeholders, even as another set is demanding *new* software?
+
+ - How do engineers carve out time to handle pressing issues in the "health" of their codebase, e.g. to ensure they can safely deploy, or that the system can handle increased load without collapsing, or that the company doesn't suddenly hit a brick wall because customers discover a low standard of security practices
+
+ - How can product managers work with engineers to come up with *some* means to hit real, external deadlines for their overall business (e.g. next year's sales kick off, or the big annual conference for your customers, or the start of school for ed tech companies, or peak selling season for ecomm). These are not the made-up deadlines of the PMO, how do you hit them?
+
+ - How can tech leaders (eng or PM), effectively work with a senior non-technical stakeholder who demands they commit to long-termd deadlines to build specific feature sets?
+
+ - How can tech leaders gently persuade their bosses to give them sufficient decision-making authority to move quickly, day-to-day, instead of having to run every single idea up to them?
+
+ - How can leaders break a pattern where their bosses demonstrate the awful "swoop and poop" behavior?
+
+ - How can tech leaders work with executives who are trying to expand the market for their business by developing new products, but are trying to apply the processes, approaches and value systems they use for incrementally improving mature, at-scale products, and it's not working even a tiny bit?
+
+So the ideas for getting unstuck just about inevitably involve a mix of how to build trust and rapport with humans, while *also* having a rich toolchest of tactics to apply in different business situations.
+
+To that end, this book is written in two parts.
+
+Part I - How To Solve Problems With Humans, walks through, in detail, how to draw your stakeholder into a collaborative relationship, to adjust how you work togethe.
+
+Part II - How Humans Can Solve Problems Together, is a series of case studies on ways to approach the kinds of challenges above.
+** TODO Add in intro: these skills become fluid but take time at first
+Add -- not just learning new skills, but replacing your existing anger/powerlessness/frustrations
 ** TODO Add "how to read this book" -> can skip to case studies
 ** TODO Set up learning tactical empathy as real work
 But it will serve you incredibly well.
@@ -124,28 +147,57 @@ CLOSED: [2025-09-21 Sun 09:21]
 ** DONE Spike: show failed convos before good ones?
 CLOSED: [2025-09-15 Mon 09:34]
 Ala Mom Test?
-* Compelling Offer
+* Compelling Offer                                :gtasks:
+** TODO First draft troubleshooting               :curweek:
+Being ready for the Stakeholder to say no, etc
+
+Both to the overall idea, and also to your understanding partway through.
+** TODO Troubleshooting: Review Arc of Persuasion :curweek:
+** TODO First draft exercises                     :curweek:
+** TODO Pull out ideas from Quin's offer, move up :curweek:
+She's doing a few things everyone should do, add thos earlier
+** TODO Add: put yourself on the line             :curweek:
+Aka, demonstrate your own commitment somehow
+** TODO Maybe: move embed a decision earlier?     :curweek:
+** TODO Explore: name heroic narrative/fear thing :curweek:
+As in make that a core part of the plan. The Strategic Intent is at ris, and therfore we must change. And own it as your own fear.
+** TODO Quin: review actual strategic intent      :curweek:
+** TODO Maybe: "First ask about frustrations, then present delights"
 ** DONE Sketch in learning outcomes
 CLOSED: [2025-09-24 Wed 08:33]
 :LOGBOOK:
 CLOCK: [2025-09-22 Mon 10:41]--[2025-09-22 Mon 10:43] =>  0:02
 :END:
-** DONE Cut up Substack post, shove it in         :curweek:
+** DONE Cut up Substack post, shove it in
 CLOSED: [2025-09-29 Mon 17:46]
 :LOGBOOK:
 CLOCK: [2025-09-29 Mon 14:29]--[2025-09-29 Mon 14:56] =>  0:27
 :END:
-** DONE Crappy draft of Fear of Loss of Control   :curweek:
+** DONE Crappy draft of Fear of Loss of Control
 CLOSED: [2025-09-29 Mon 18:15]
 :LOGBOOK:
 CLOCK: [2025-09-29 Mon 17:46]--[2025-09-29 Mon 18:15] =>  0:29
 :END:
-** TODO Crappy draft of Time-Boxed Decision       :curweek:pom:
+** DONE Crappy draft of Time-Boxed Decision       :pom:
+CLOSED: [2025-09-30 Tue 18:07]
 :LOGBOOK:
-CLOCK: [2025-09-30 Tue 17:32]
+CLOCK: [2025-09-30 Tue 17:32]--[2025-09-30 Tue 18:07] =>  0:35
 CLOCK: [2025-09-29 Mon 18:15]--[2025-09-29 Mon 18:32] =>  0:17
 :END:
+** DONE Review all the terribleness
+CLOSED: [2025-10-03 Fri 11:09]
+:LOGBOOK:
+CLOCK: [2025-10-03 Fri 08:20]--[2025-10-03 Fri 11:09] =>  2:49
+:END:
+** DONE Write something for Get a Commitment
+CLOSED: [2025-10-04 Sat 11:27]
+:LOGBOOK:
+CLOCK: [2025-10-04 Sat 09:12]--[2025-10-04 Sat 11:27] =>  2:15
+:END:
 * [[id:4D62F0DE-2862-45F3-97EE-6AFED5382F2C][Storytelling/Wins ]]                              :gtasks:
+** TODO Draft learning outcomes/structure         :curweek:
+** TODO Review/paste in old stuff                 :curweek:
+** TODO Cut up & distribute old stuff             :curweek:
 ** TODO Quote White Album: We tell stories in order to live
 ** TODO Review/integrate Mike Isman feedback on storytelling
 Rough Draft of Storytelling Chapter(s)
@@ -158,35 +210,8 @@ E.g. less heroic narrative, more objective/struggle
 ** TODO Do I use three part teens/terrorists negotiation thing?
 ** TODO Find a Two Ends of Spectrum thing w/ Eduardo?
 E.g. what happens if the stores have sluggish perf?
-** DONE Split Tac Empathy, put some in an Appendix
-CLOSED: [2025-08-05 Tue 10:33]
-** DONE Finish "offer spectrum" Janine/Eduardo
-CLOSED: [2025-08-05 Tue 17:20]
 ** TODO Add testing w/ Map Fears / Aspirations
-** DONE Add a full story with all three tactics   :curweek
-CLOSED: [2025-08-05 Tue 17:20]
-Have it be the Directo of Customer Success, model on Lauren Dill.
-** DONE Exercises at end of each section?
-CLOSED: [2025-08-05 Tue 08:24]
-** DONE Add the "offering summaries of feelings" tactic
-CLOSED: [2025-08-05 Tue 09:01]
-** DONE Make your own limitations the problem
-CLOSED: [2025-08-05 Tue 09:01]
-E.g. my tactic w/ Konicki, or the "the team doesn't have enough context to understand" thing w/ the CEO.
-** DONE Turn XXX's in [[id:4FEA3BD5-8E85-4BB6-8F59-15FDE4F38572][Tactical Empathy]] into TODO's
-CLOSED: [2025-08-05 Tue 09:01]
-** DONE For Tac Empathy, use current story, just set it up
-CLOSED: [2025-08-03 Sun 16:31]
-As in: the change you want to make is to have the product team listen to engineering.
 
-And then, in mine for context, make it more PM-like
-** DONE Keep working through the rewrite
-CLOSED: [2025-08-04 Mon 09:23]
-** DONE Maybe spike on making it more novelistic
-CLOSED: [2025-08-04 Mon 09:23]
-To make the emotions more visible on the surface
-** DONE Review, adjust to be less about Tech Invest
-CLOSED: [2025-08-02 Sat 09:50]
 * Arc of Persuasion                               :gtasks:
 ** TODO What if my stakeholder resists prioritization?
 ** TODO Get a win without a strategy, first
@@ -204,41 +229,7 @@ To deploy authority.
 ** TODO Add post-mortems w/ roberto and vahe?
 As means to face fears from stakeholders
 * [[id:49E66E86-CE83-447E-87C2-3BFF3D8FE42E][Teach/Coach]]                                     :gtasks:
-** DONE Block time on calendar for Ben LaV calls
-CLOSED: [2025-08-06 Wed 07:37]
-8/12 @ 2 or 3
-8/14 @ 1
-** DONE Respond to Ben LaVerreiere @ Medium
-CLOSED: [2025-08-02 Sat 09:12]
-Dan <-> Ben
 
-"Scheduling-wise, Tuesdays and Thursdays tend to be my most flexible days during work hours, if there's something there that works for you."
-
-** DONE Write up Lisa Plesko follow ups
-CLOSED: [2025-07-30 Wed 14:29]
-** DONE Ping Ryan Scott, ask what he's applied
-CLOSED: [2025-09-04 Thu 17:13] DEADLINE: <2025-09-01 Mon>
-** DONE Ping Lisa P, ask what she's applied
-CLOSED: [2025-08-17 Sun 11:56] DEADLINE: <2025-08-14 Thu>
-** DONE Ping Jacob, ask how it's going
-CLOSED: [2025-09-04 Thu 17:15] DEADLINE: <2025-09-01 Mon>
-** DONE Make todos for Jacob follow ups
-CLOSED: [2025-07-30 Wed 14:29]
-*** Share my chapters on Tactical Empathy
-*** Maybe other chapters
-*** Maybe sketch on building trust and levering up
-*** Specifically on asking for problems not solutions and "cheating" on the backend
-*** Add scheduled task to ping him
-** DONE Respond/schedule
-CLOSED: [2025-07-19 Sat 11:05]
-** DONE Sign up for pro zoom
-CLOSED: [2025-07-21 Mon 08:10]
-** DONE Draft email for Edmund, asking for intros
-CLOSED: [2025-07-16 Wed 10:11]
-** DONE Ask Edmund for intros
-CLOSED: [2025-07-16 Wed 10:19]
-** DONE Draft new email re coaching/helping
-CLOSED: [2025-07-21 Mon 08:11]
 * [[id:49435FCD-0590-44DE-8FC7-585E7BCC8BB2][Tooling]]                                         :gtasks:
 ** DONE Produce a viz of writing hours
 CLOSED: [2025-09-16 Tue 12:27]
@@ -295,8 +286,12 @@ So I can either run full screen or within 80 columns
 Because now my wordcount history stuff is sensitive to those being missing.
 ** TODO Create a new chapter template or abbrev?
 * Book Misc
-** TODO Move exercises to the back
-But harrangue people to *actually do them*.
+** TODO Title: Getting Unstuck: Solving Problems w/ Bosses, Peers & Stakeholders
+** TODO Look for more ops for Quin to be wrong, then right
+What I'm finding in the Compelling Offer chapter, where she's stuck, thinking about how to move things forward with Marco, and then gets unstuck
+** TODO Confirm: did Marco say 'good enough'
+** TODO Make sure Quin learns about fear of non-use, as part of vitamin/pain-killer
+So it's actually that they might pay, but after paying, not use. The internal capital is more worrisome than the L&D budget, which is enough to get started
 ** TODO Ask for "early testers" *of the exercises*?
 Separately from the whole book
 ** TODO Think: ask Chris Voss for a review at some point
@@ -363,6 +358,10 @@ E.g. things I tried that didn't work, or that I've seen people try and have not 
 Investing for the Long Term
 
 Technical Stewardship
+*** TODO Sarah recs: reach out to people I worked with
+With a personal offer of "If you know anyone", that could turn out to be them.
+*** TODO Practice getting to company budgets
+*** TODO Brainstorm: how to expand from one coaching gig to more (at one company)
 ** TODO The Tech Investment Casebook
 ** TODO Collect ideas for book 2 about inteviewing + hiring
 "That Was Fun!" - How to interview so that great people can't wait to say yes
