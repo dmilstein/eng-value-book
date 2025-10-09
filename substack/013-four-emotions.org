@@ -1,24 +1,11 @@
 Working on Substack post on the 4 key emotion questions.
-* Getting Unstuck By Understanding Feelings, Part I
-** Titles
- - The Unreasonable Effectiveness of Empathy
- - The Unreasonable Effectiveness of an Empathetic Understanding
- - Getting Unstuck, Part I
- - Getting Unstuck By Understanding Underlying Feelings, Part I
- - Getting Unstuck By Getting To Emotions, Part I
- - Getting Unstuck With Humans = Understanding Emotions: Part I
- - Getting Unstuck With Humans = Working Withs Emotions: Part I
- - Getting Unstuck With Humans = Mining For Emotions: Part I
- - Getting Unstuck With Humans = Mining For Feelings: Part I
- - Mine for Fears & Dreams
- - Emotional Judo
- - The Power of Understanding and Empathy
- - The Unreasonable Effectivness of Empathy
+* Fears & Dreams & Humans & Building Softare: Part I
+Subhead: The Unreasonable Effectiveness of an Empathetic Understanding
 ** Introduction
 
 It is a truth universally acknowledged, that a person in possession of a career in software, must be in a state of frustration with some Important Person.
 
-/Today's post is an excerpt from a book [link] I'm writing, provisionally titled:/
+/Hello! Today's post is an excerpt from a book [link] I'm writing, provisionally titled:/
 
 /*Getting Unstuck*/
 
@@ -28,21 +15,21 @@ It is a truth universally acknowledged, that a person in possession of a career 
 
 To name a few fun such Important People:
 
- - The CEO who interrupts a team's standup every other day to brainstorm new product ideas, randomizing their work and killing any hope of velocity
+ - The CEO who interrupts a team's standup every other day to propose new product ideas, randomizing their work and killing any hope of velocity
 
- - The sales leader who relentlessly advocates for feature ideas for their pet customers, directly undercutting the product team's attempt to build something new
+ - The sales leader who relentlessly advocates for feature ideas for their pet customers, constantly undercutting the prioritization decisions of the product manager
 
  - The senior engineering leader who inserts themselves into so many decisions, every single one of their teams is just sitting around, waiting for approvals
 
- - The product manager who mindlessly ferries requests from stakeholders to the team, making a mockery of any attempt to develop a prioritization scheme with meaningful bite
+ - The product manager who dismisses their engineering peer's concerns around system stability, and then complains when the engineers spends all their time putting out fires
 
- - The tech lead who refuses to let their PM talk directly with the engineers on the team, blocking the development of rapport, shared context and velocity
+ - The engineering lead who refuses to let their product peer talk directly with the engineers on the team[fn:: No, really, I have seen this], blocking the development of rapport, shared context and velocity
 
-# The product manager who patronizingly dismisses engineering team concerns around the health of their systems, insisting on shipping features and only features
+# - The product manager who mindlessly ferries requests from stakeholders to the team, forcing their engineering peer to spend all their time negotiating, pushing back making a mockery of any attempt to develop a prioritization scheme with meaningful bite
 
 I could go on! I suspect you could, too!
 
-Furthermore, in such situations, the Important Person in question, be they CEO, sales leader, engineer or PM, *super duper doesn't want to change their own behavior*.
+Furthermore, in such situations, the Important Person in question, be they CEO, sales leader, engineer or product manager, *super duper doesn't want to change their own behavior*.
 
 Sadly, this should come as no surprise.
 
@@ -54,7 +41,9 @@ Thus, if you approach an Important Person, and gently propose that they change t
 
 # you will be met with resistance that falls somewhere between stiff and absolutely ferocious.
 
-These are unpleasant and also pretty somewhat career limiting experiences. So maybe, you think, don't do that?
+These are unpleasant and also pretty somewhat career limiting experiences.
+
+# So maybe, you think, don't do that?
 
 And yet.
 
@@ -68,17 +57,17 @@ What can you do?
 
 I'm so glad you asked.
 
-/[Hello again, Substack friends! In the book, I map out a step-by-step game plan for drawing your very own Important Person, whom I term your "Stakeholder", into a process of collaborative problem-solving. This will allow you to, together, find a better way to work, together. A core part of that game plan is developing an understanding of your stakeholder's underlying *feelings*. The below is an excerpt from a chapter where I walk through a means to do so. Speaking of the book: if you would like to be a beta reader of an early version, please drop me a line at dan@dan-milstein.com! Ditto if you have some challenges with your very own Important Person and could use some [coaching support] from, say, an experienced product and enagineering leader who finds human beings endlessly fascinating]/
+/[Hello again! In the book, I develop a step-by-step game plan for drawing your very own Important Person, whom I term your "Stakeholder", into a process of collaborative problem-solving. This will allow you to, together, find a better way to work, together. A core part of that game plan is developing an understanding of the underlying *feelings* that are leading to your stakeholder's problematic *behavior*. The below is an excerpt from a chapter about how and why to develop such an understanding of feelings. Speaking of the book: if you would like to be a beta reader of an early version, please drop me a line at dan@dan-milstein.com! Ditto if you have some challenges with your very own Important Person and could use some [coaching support] from, say, an experienced product and enagineering leader who finds human beings endlessly fascinating]/
 
 ** Humans Have Feelings, Ignore At Your Own Risk
 
 If you want someone to change their behavior, it's absolutely critical that you understand their feelings.
 
-More specifically, to persuade your stakeholder to change their behavior, you will need to to develop an *empathetic understanding* of their feelings.
+More specifically, to persuade your stakeholder to change their behavior, you will need to develop an *empathetic understanding* of their feelings.
 
-Which is to say: you need to understand not only their feelings, but also the *situation* they perceive themselves to be in, which is driving [triggering, causing] those feelings. Somewhere in that situation, you will be able to find a business problem that you can agree is worth solving. You'll then be able to offer them a productive challenge to solve that problem in a new way.
+Which is to say: you need to understand not only their feelings, but also the *situation* they perceive themselves to be in, which is driving [triggering, causing] those feelings. Somewhere in that situation, you will be able to find a business problem that you can agree is worth solving. You'll then be able to offer them a productive challenge to solve that problem in a new way, while speaking with empathy to the feelings they are currently experiencing.
 
-Now, to be carefully clear, developing such an empathetic understanding doesn't mean *justifying* or *excusing* problematic behaviors by those in positions of power. It means being able to articulate an understanding of why someone might both feel and behave the way they do. An understanding which allows you to say: "What they're doing is wrong, but they are facing some genuine challenges, and I can see why it feels to them like they have no other options."
+To be carefully clear, developing such an empathetic understanding doesn't mean *justifying* or *excusing* problematic behaviors by those in positions of power. It means being able to articulate an understanding of why someone might both feel and behave the way they do. An understanding which allows you to say: "What they're doing is wrong, but they are facing some genuine challenges, and I can see why it feels to them like they have no other options."
 
 It can be tricky to find this way in. Let's bring it to life with an example of this kind of very human challenge you might find yourself facing:
 
@@ -106,23 +95,23 @@ Not... quite.
 
 It's useful, don't get me wrong. We might feel some *sympathy* for someone struggling with that feeling of impending disaster. But we haven't gotten to a full description of the *situation* that head of product perceives themselves to be in, nor to how, exactly, that situation is driving their behavior. And, crucially, we have not yet identified a meaningful business problem we can agree is worth solving with them.
 
-Let's deploy our magic power once again, to dig deeper, and develop a picture of their overall situation:
+Let's deploy our magic power once again. We'll wave a magic wand and understand what in their overall situation is leading to this behavior:
 
  - *A few months back, a confusing product change made it through to some important customers.*
 
    The largest customer, a notoriously thorny account, personally complained to the CEO  and threatened to delay their upcoming renewal.
 
-   The CEO then chewed out the head of product in front of other executives. "How could you let this get out?" the CEO had demanded. "It was /obviously/ broken. Do you not understand how important that renewal is?"
+   The CEO then chewed out the head of product in front of other executives. "How could you let this get out?" the CEO had demanded. "It was /obviously broken/. Do you not understand how important that renewal is?"
 
-   The head of product's neck grows rigid with tension every time they remember that conversation.
+   Whenever the head of product thinks of that conversation, the back of their neck grows rigid with tension.
 
  - *The product team includes several new designers*
 
-   And, unfortunately, the company's core product, which their largest customers depend on for high-stakes, deadline-driven workflows, has grown quite complex over time.
+   And, unfortunately, the company's core product, which their largest customers depend on for high-stakes workflows, has grown quite complex over time.
 
    Naturally, some of the new designers don't fully understand the most complex workflows, nor the wide variety of ways customers have tweaked the product to meet their needs.
 
-   There is a genuine risk of one of those new designers "breaking the product".
+   Thus, there is a genuine risk of one of those new designers "breaking the product", and for that to be very disruptive to some customers.
 
  - *The head of product was only recently promoted to supervise multiple teams.*
 
@@ -132,11 +121,11 @@ Let's deploy our magic power once again, to dig deeper, and develop a picture of
 
    Therefore, their comfort place, the thing that makes them feel like they're actually *doing something* is... adjusting details of a UX.
 
-In this situation, we can identify a genuine challenge that the head of product is facing: finding a scalable way to ensure that design work doesn't break existing, complex workflows for customers.
+In this situation, we *can* identify a genuine challenge that the head of product is facing: finding a scalable way to ensure that design work doesn't break existing, complex workflows for customers.
 
-This is a meaningful challenge for the business. Given our (magic!) understanding of the situation, we could authentically commit to working with the head of product to tackle that challenge.
+This is a meaningful challenge *for the business*. If we had this (magic!) understanding of the situation, we could authentically commit to working with the head of product to tackle that challenge.
 
-Unfortunately, they are currently reaching for the only tool they have in their existing kit: direct, final-say oversight over every single design change. In the past, exerting that kind of fine-grained oversight allowed the to heroically save at-risk projects. It is how they established control and prevented failure. Thus, it's completely unsurprising that they're reaching for it now. That said, they are dimly aware that the team is growing frustrated with them, but part of the story in their head is that they have to be willing to piss their team off a bit, in order to get the details right.
+Unfortunately, they are currently reaching for the only tool they have in their existing kit: direct, final-say oversight over every single design change. In the past, exerting that kind of fine-grained oversight allowed them to heroically save at-risk projects. It is how they established control and prevented failure. Thus, it's completely unsurprising that they're reaching for it now. They are dimly aware that the team is growing frustrated with them, but part of the story in their head is that they have to be willing to piss their team off a bit, in order to get the details right.
 
 Finally, ever since the CEO turned the emotional pressure up to eleven, the background fear is so strong, it feels impossible to even *imagine* any other options.
 
@@ -146,11 +135,11 @@ To be clear: that behavior is *still* extremely problematic.
 
 To build a healthy, fast-moving team that achieves real wins for the business, you would still need to find a way to help them change that behavior.[fn:: And, a boy can dream: to help the CEO change their behavior, too]
 
-But, importantly, *beneath* the problematic behavior, and the surging emotions, you're now seeing a *valid business problem*, around ensuring stability in product design. That's a problem you can authentically agree needs to be solved.
+But, importantly, *beneath* the problematic behavior, and the surging emotions, you're now seeing a *valid business problem*, around ensuring stability in the product as it evolves. That's a problem you can authentically agree needs to be solved.
 
 # Furthermore, you can see the key emotional challenges (and opportunities!), tangled up in the head of product's experience of that business problem.
 
-Your fuller, empathetic understanding will allow you to productively challenge your stakeholder to change. You will be able to speak with detailed, genuine empathy to the situation they find themselves in, and offer them a new way to address their underlying concerns.
+Your fuller, empathetic understanding will allow you to productively challenge your stakeholder to change.
 
 Persuading humans to change their behavior works roughly a thousand times better if you can find a way to speak to their hearts as well as their minds.
 
@@ -182,31 +171,50 @@ If you can come up with empathetic answers to these four questions, you can buil
 
 Two focus on "negative" feelings (Frustrations & Fears), two on "positive" feelings (Delights & Dreams). Within each domain, we further split day-to-day experiences from longer-term motivations.
 
-For the negative feelings, the Frustrations and the Fears, you want to look for the underlying business problems that you can agree to help solve. The *valid concerns*.
+For the negative feelings, the Frustrations and the Fears, as you dig in, you'll want to be on the lookout for underlying business problems that you can agree to help solve. aka, looking for *valid concerns*.
 
-For the Delights and Dreams, it's a bit different. Understanding those serves two purposes. First, that knowledge will enable you to offer your stakeholder new Good Feelings (and/or promise to avoid losing existing Good Feelings).
+For the Delights and Dreams, it's a bit different. Understanding those serves two purposes. First, that knowledge will enable you to offer your stakeholder new Good Feelings (and/or promise to avoid losing existing Good Feelings). That's an important way to motivate someone to take the risk of making a change.
 
-Second, many, *many* problems are caused by stakeholders pursuing things that make them feel good, but that cause issues for others (e.g. the head of product doing detailed design work because it soothes their fears). If you're going to ask someone to change a behavior that currently makes them feel good, it's extremely valuable to be able to speak with genuine empathy to what they're going to have to give up.
+Second, *many* problems are caused by stakeholders pursuing things that make them Feel Good, but that cause issues for others (e.g. the head of product doing detailed design work because it soothes their fears). If you're going to ask someone to change a behavior that currently makes them Feel Good, it's extremely valuable to be able to speak with genuine empathy to what they're going to have to give up.
 
 What might these emotions look like for our Head of Product friend?
 
-Let's go through that list, imagining for just a bit longer that we have our magic, perfect access to their inner life. Let's see a few answers, and, for each, touch on how we might leverage that understanding to help persaude someone to consider making a change.
+How might someone use their knowledge of these emotions to develop a persuasive case to change their problematic behavior?
 
+To make it concrete, we'll assume the person who is gaining this knowledge of the head of product's emotions is someone they trust. Someone who would be able to offer them a productive challenge. Perhaps that's the head of engineering, who is their partner on the exec team. Perhaps it's their most senior PM, who has worked with them for years.
+
+Let's go through our list of emotions, imagining for just a bit longer that we have our magic, perfect access to their inner life.
+
+Let's see a few answers, and, for each, touch on how a trusted friend might leverage that understanding to help persuade the head of product to consider making a change.
+
+** How To Use an Understanding of Feelings
 *** Frustrations
 
 /What happens, day-to-day, that frustrates your stakeholder?/
 
 The head of product finds it very frustrating when the new designers don't understand the complexities of the existing product.
 
-Although this isn't particularly odd on its face, the *reason* they find that frustrating is actually somewhat surprising: the head of product created much of the existing design, and they feel somewhat *ashamed* of it. Every confusing screen reminds them of bad tradeoffs they had to make, and all the later problems those tradeoffs caused. When the new designers get tripped up by one of the ambiguous workflows (or the endless, conflicting series of cryptic settings screns), the head of product is both upset because of the potential for customer confusion, but also for the reminder of their own past failings.
+Although this isn't particularly odd on its face, our magic insight reveals a somewhat surprising underlying reason: the head of product created much of the existing design, and they feel somewhat *ashamed* of it. Every confusing screen reminds them of bad tradeoffs they had to make, and all the painful issues those tradeoffs caused. When the new designers get tripped up by one of the ambiguous workflows (or the endless, conflicting series of cryptic "settings" screens), the head of product is both upset because of the potential for customer confusion, but also because of the reminder of their own past failings.
 
-It's obviously not okay to *act* on that feeling, but I would guess many of us can empathize with the shame of watching your own worst work come back to haunt you. Personally, I can effortlessly recall the moment, a full fifteen years ago, when a brilliant new engineer joined a team I led, and, in poking around the codebase, found the horrifying hack job of a deploy process I had personally kludged together. I felt a surge of shame that I can easily access, even right now as I type these words.
+It's obviously not okay to *act* on that feeling, but I would guess many of us can empathize with the shame of watching your own worst work come back to haunt you. Personally, I can effortlessly recall the moment, a full fifteen years ago, when a brilliant new engineer joined a team I led, and, in poking around the codebase, found the horrifying hack job of a deploy process I had kludged together. I felt a surge of shame that I can easily access, even right now as I type these words.
 
-What might be a valid business problems in there?
+What might be a valid business problems beneath this frustration the head of product is feeling?
 
-We need to find a way to help new designers understand not just what the existing product *does*, but also which parts of it have proved to poorly meet customer needs.
+Well, the business needs to find a way to help new designers understand not just what the existing product *does*, but also which parts of it have proved to poorly meet customer needs. Only then can they develop effective new designs.
 
-We might propose to our head of product that, as a new designer goes to work in some area of the product, they spend real time doing a shared walk through, speaking both to
+Given that understanding, the trusted friend could propose some new way to address this totally valid concern.
+
+To make this concrete, perhaps they propose to the head of product that, when a new designer goes to work in some area of the product, they first spend real time doing a detailed walk through of that area with the head of product. That walk through would have an explicit goal of touching on all of:
+
+ - What are the existing features /supposed/ to do
+
+ - How do customers /actually/ use them
+
+ - What would the head of product do /differently/ today
+
+And then, once that walk through was done, the head of product would commit to staying off the critical path for deploying product changes.
+
+Note how, by getting to the underlying feelings and valid concerns, the trusted friend can propose something *positive* (a new, useful thing to do), instead of merely insisting the head of product *stop doing their current behavior*. That's far more likely to work.
 
 *** Fears
 
@@ -216,50 +224,65 @@ More than anything, the head of product is afraid that the CEO will, once again,
 
 That fear should be straightforward to empathize with. Shame is a profoundly awful experience.
 
-They also have a suite of more proximal fears, including:
+They also have a suite of fears that emanate from this, the most relevant of which is:
 
- - Important customers being angered by product changes
+ - Important customers might being angered by imperfect, rough or confusing product changes
 
- - The engineering team missing key delivery deadlines
+This is valid business problems. In fact, the full business problem is better stated as:
 
- - The sales team refusing to test the new product in sales conversations
+"How can the team continue to move quickly and learn, even though some important customers will be angered if the product changes in confusing ways?"
 
-These are fully valid business problems, you could pick one as a top priority, and commit to solving it together.
+Now that we've gotten to this full, nuanced understanding of what's going on, the trusted friend sees a straightforward option: they could propose collecting a set of "beta-tolerant" customers, who are eager to see new changes, and willing to handle some confusion to do so. Once that customer group is in place, the head of product could step back and let the team  make some mistakes as they learn, confident that they won't could piss off the most important, change-resistant customers as they do so.
+
+This pairs extremely well with the idea of the detailed walk throughs, above.
 
 *** Delights
 
 /What happens, day-to-day, that makes your stakeholder feel good?/
 
-First, the Head of Product loves getting into the details of a UX and experimenting with alternatives.
+The Head of Product loves getting into the details of a UX and experimenting with alternatives.
 
 This used to be central to their job, their new bad pattern of behavior is letting them return to this happy place. You're going to have to ask them to do a lot less of this. When you do so, it will be important to be able to speak with empathy to their experience. It will also be helpful if you can offer some non-disruptive ways that they can look forward to some related good feeling.
 
-Second, they love it when a team brings them a creative UX / product solution. They don't do a great job of *showing* this to the teams, but they find it legitimately exciting when they see creative solutions.
+In our specific situation, what might the trusted friend say?
+
+They could build on the walk through idea by saying: "Look, I know how good it can feel to get back into the details. But I think we'll be better off if we focus that on these deep dive periods of exploring the existing UX. And keep it off the critical path for deploys."
+
+That's a direct challenge to change, while acknowledging the loss.
 
 *** Dreams
 
 /What do they most fondly hope happens at some point in the future?/
 
-Early in their career, the head of product had a mentor who, well, changed their life. That person saw their potential and created space for them to take on more and more responsibility, supporting them through some early stumbles. They still talk to that mentor, and every time they do so, it leaves them feeling energized and hopeful.
+Early in their career, the head of product had a mentor who, well, changed their life. That person saw their potential and created space for them to take on more and more responsibility, and then supported them through some early stumbles. They still talk to that mentor, and every time they do so, it leaves them feeling energized and hopeful.
 
-With their promotion to head of product, they started to dream about having that effect on someone else's life. But then they immediately got sucked into their own fears and the CEO's frustrations and have barely had a moment to look up, ever since.
+With their promotion to lead all of product, they started to dream about having that effect on someone else's life. But then they immediately got sucked into their own fears and the CEO's frustrations and have barely had a moment to look up, ever since.
 
+Knowing this, a trusted friend could say: "I know how important it is for you to create a space where people can grow. I know how much that meant to you, early in your career. I think we need to find a new way for you to guide the teams, if people are going to have that kind of growth, here."
 
+** Where Do The Magic Understanding and Trust Come From?
 
-** Outro
+Hopefully you can see how powerful it is to deeply understand the situation a person perceives themselves to be in.
 
-We'll spend real time on how to craft such a request in later chapters.
+Without such an understanding, we're left with little option but to issue a blunt demand: "Please stop changing all the designs at the last minute. It's slowing everything down and pissing off the team." Such a demand gives the stakeholder *more things to be afraid of*. If they're *already* operating in a state of fear, the odds are extremely low that they'll respond to such a blunt request by changing their behavior.
 
-But first we need to talk about how to come up with answers to these questions.
+With our magic understanding (and some trust), we can offer the stakeholder a new way to work, that will be better for the business *and* better for them. And we can speak to both their fears and their hopes as we do so.
 
-Directly asking is... tricky, to say the least. Because power dynamics are an actual thing, it can feel very hard to say to Someone Important: "Hey there, Important Friend, what would you say makes you happy, day-to-day?"
+Now we must turn to the question that we've been blithely ignoring.
 
-But... you need exactly that information.
+How are going to come up with answers to these questions? How are we going to understand the inner emotional lives of our stakeholder?
 
-In my next post, I'm going to show you how you can, right here in the real world, develop the seemingly-magic ability to understand someone's fears and dreams. Tune in next week...
+We don't, sadly, have access to the magic power above.
 
-# Only that will ensure that, whatever change you propose, your stakeholder will be able to still envision themselves doing some form of the thing that makes them feel good (and/or *won't* envision themselves doing the thing that frustrates the hell out of them).
+Or... do we? /me raises eyebrows dramatically
 
+In my next post, I'm going to share how you can, right here in the real world, develop an astonishing, near-magic ability to understand someone's fears and dreams.
+
+We'll be exploring the profoundly valuable skills of Tactical Empathy.
+
+Tune in next week...[fn:: Or, you know, however long it takes me to cobble the next section into shape! kthxbai!]
+
+* Later Posts
 ** Humans Hide Feelings
 
 /But wait,/ I hear you think. /My CEO's only outward expression of emotion is a series of variations on the tightly clenched jaw. My coworkers and I engage in regular debates about whether or not our CEO even *has* feelings./
@@ -808,6 +831,29 @@ Finally, put all your new tactical empathy skills together to fill out the templ
  - *Dreams*
 
    What do they most fondly hope happens at some point in the future?
+* Titles
+** Main Titles
+ - Getting Unstuck, Part I
+ - Getting Unstuck By Understanding Underlying Feelings, Part I
+ - Getting Unstuck By Getting To Emotions, Part I
+ - Getting Unstuck With Humans = Understanding Emotions: Part I
+ - Getting Unstuck With Humans = Working Withs Emotions: Part I
+ - Getting Unstuck With Humans = Mining For Emotions: Part I
+ - Getting Unstuck With Humans = Mining For Feelings: Part I
+ - Mine for Fears & Dreams
+ - Emotional Judo
+ - The Power of Understanding and Empathy
+ - The Unreasonable Effectivness of Empathy
+ - The Power of Understanding Someone's Feelings
+ - How To Persuade By Understanding Fears & Dreams
+ - Fears & Dreams & The Path To Changing Someone's Mind
+ - Fears & Dreams & Important People & Making Your Job Suck Less
+ - How To Make Your Job Suck Less: Fears & Dreams & Important People
+ - Fears & Dreams & Important People: How to Make Your Job Suck Less
+ - Fears & Dreams & Important People & You: How to Fix Your Boss/Stakeholder, I
+** Subtitles
+ - The Unreasonable Effectiveness of Empathy
+ - The Unreasonable Effectiveness of an Empathetic Understanding
 * Scraps
 ** Head of Engineering Sux
 # DO I need this?
@@ -836,7 +882,8 @@ CLOSED: [2025-10-08 Wed 07:33]
 ** DONE Add: what if we magically knew their inner life?
 CLOSED: [2025-10-08 Wed 08:48]
 Hold for how we'll figure that out.
-** TODO Maybe: only find biz problem for frustrations/fears
+** DONE Maybe: only find biz problem for frustrations/fears
+CLOSED: [2025-10-09 Thu 09:03]
 ** TODO Show how to use empathetic understanding
 But, do it as a series of separate things
 ** TODO Spike: name the Head of Product?
