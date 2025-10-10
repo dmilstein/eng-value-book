@@ -16,7 +16,7 @@ You'll make it possible for them to say yes, despite that discomfort, by:
 
   - Setting an explicit *timebox* on the initial period of change
 
-  - Ensuring your stakeholder feels like they *retain control*
+  - Ensuring your stakeholder feels like they *retain control*, by naming a specific, meaningful *decision* they'll get to make, at the end of the timebox
 
 In order to put together such a compelling offer, your first step is to precisely define the new, slightly better way you want to work with your stakeholder. In so doing, you should build on all you've learned about both the long-term strategic intent and your stakeholder's suite of feelings.
 
@@ -38,15 +38,17 @@ You'll go through the following four steps:
 
  - *Map from your team's day-to-day work to the company's strategic goals*
 
-   How can changing how you work with your stakeholder increase the odds of the business achieving their long-term goals? What are the steps in that chain?
+   How can changing how you work with your stakeholder increase the odds of the business achieving their long-term goals? What are the steps in the chain that lead from what your team is doing, tomorrow, to what the business is trying to achieve, over the next year?
 
  - *List what is frustrating to your stakeholder, in the current situation*
 
-   You want to be able to pair your ask for a change with an offer to improve something for them. That could be removing something that is actively frustrating them, or adding something that they want, but aren't currently  (If there is nothing frustrating for your stakeholder, you might need to use some advanced tactics. See the section at the end of this chapter on "Creating Urgency".)
+   You want to be able to pair your ask for a change with an offer to improve something for them. That could be removing something that is actively frustrating them, or adding something that they want, but aren't currently getting.
+
+   If there is nothing frustrating for your stakeholder, you might need to use some advanced tactics. See the section at the end of this chapter on "Creating Urgency".
 
  - *List what your stakeholder likes about the current situation*
 
-   Your stakeholder will often be afraid that, if things change, they'll lose something that is currently good. You want to know what they might be afraid of losing, so that you can carefully address that in your request for change.
+   Your stakeholder will often be afraid that, if things change, they'll lose something they currently like. You want to know what they might be afraid of losing, so that you can carefully address that in your request for change.
 
  - *Brainstorm how you can address your concerns, in the context of the above*
 
@@ -58,7 +60,7 @@ As is our way, we'll bring this to life with a story:
 
 Imagine that you're the engineering lead on a sprint team.
 
-You're getting more and more frustrated, because the sales team keeps pestering you and your team with an endless series of 'urgent' feature requests. When a sales rep doesn't get an immediate response, they ping engineers over and over to "check the status" of whatever they asked for. Last month, at the company party, a sales rep strode towards you with a big smile on their face, and you had to physically resist a desire to run away, fearing they'd try to get you to commit to working on their pet feature.[fn:: You were right.]
+You're getting more and more frustrated, because the sales team keeps pestering you and your team with an endless series of 'urgent' feature requests. When a sales rep doesn't get an immediate response, they relentlessly ping some engineer to "check the status" of whatever they asked for. Last month, at the company party, a sales rep strode towards you with a big smile on their face, and you had to physically resist a desire to run away, fearing they'd try to get you to commit to working on their pet feature.[fn:: You were right.]
 
 You've tried to get your product peer to step in and wrangle the sales team, but, so far, they've been unwilling to do so. You've decided that, for your current bid for incremental improvement, your product peer is "your stakeholder".
 
@@ -70,23 +72,29 @@ One useful tactic is to start with the immediate frustrations you're feeling, an
 
 For our story, that might look like:
 
-  - /"Why is it a problem for the business that the sales team keeps interrupting engineers with 'urgent' feature requests?"/
-    Because it's distracting the engineers.
+  - Why is it a problem for the business that the sales team keeps interrupting engineers with 'urgent' feature requests?
 
-  - /"Why is it a problem for the business that the engineers are distracted?"/
-    Because the team as a whole can't move quickly.
+    /Because it's distracting the engineers/
 
-  - /"Why is it a problem for the business that the team isn't moving as fast as it could?"/
-    Because it's pushing out the delivery of the early prototypes we're trying to build.
+  - Why is it a problem for the business that the engineers are distracted?
 
-  - /"Why is it a problem for the business if it takes a little longer to build those prototypes?"/
-    Because we need to test those prototypes with customers before we can find our next product opportunity.
+    /Because the team as a whole can't move quickly/
 
-  - /"Why is it a problem for the business if it takes a little longer to find our next product opportunity?"/
-    Because we need to develop a new product to sell, and before we can commit to development, we need to identify a feasible and valuable product opportunity.
+  - Why is it a problem for the business that the team isn't moving as fast as it could?
 
-  - /"Why is a problem for the business if it has to wait a little longer to develop a new product?"/
-    Because top-line revenue growth has stalled, and the company needs to show more growth by our next funding round, which is fast approaching, and we can only show more growth if the sales team has something new to sell.
+    /Because it's pushing out the delivery of the early prototypes we're trying to build/
+
+  - Why is it a problem for the business if it takes a little longer to build those prototypes?
+
+    /Because we need to test those prototypes with customers before we can find our next product opportunity/
+
+  - Why is it a problem for the business if it takes a little longer to find our next product opportunity?
+
+    /Because we need to develop a new product to sell, and before we can commit to development, we need to identify a feasible and valuable product opportunity/
+
+  - Why is a problem for the business if it has to wait a little longer to develop a new product?
+
+    /Because top-line revenue growth has stalled, and the company needs to show more growth by our next funding round, which is fast approaching, and we can only show more growth if the sales team has something new to sell/
 
 With that end-to-end understanding in hand, you can *authentically* explain how a small reduction in the frequency of interruptive requests from the sales team can, in a small but real way, help the company achieve its long-term goals.
 
@@ -128,9 +136,82 @@ In our story, such a Better World might be:
 
 This is far too big a change to institute all at once, especially given the lack of trust between the product manager and the VP of Sales.
 
+But, with that idea in mind, and knowing all of the above constraints, you could say:
 
+ - You'll set up a new weekly Request Review meeting with you, one lead engineer, and the PM
 
-** Our Story: Quin Prepares Her Request
+ - You'll tell the engineers to just collect all feature requests for that meeting
+
+ - You give the engineers a "form letter" response they can use for both feature requests and "status checks" from the sales team
+
+ - You'll commit to spending time in that meeting helping the PM understand the product better, as you decide what to do
+
+ - You can commit to the PM, that if you do the above, you can increase the speed of delivery of the new prototype
+
+ - You commit to working with the PM to handle the VP of Sales, if they complain about this shift
+
+You're almost ready to make our request.
+
+But there's one final step, to make it as easy as possible for your stakeholder to agree to the proposal. We're going to make certain we speak to an underlying fear that just about all stakeholders share.
+
+** Offer Your Stakeholder a Future Decision
+
+# Ensure Your Stakeholder Retains Control By Offering a Future Decision
+
+# Offer a Future Decision To Maintain Feeling of Control
+
+Almost all stakeholders have some fear of *losing control*.
+
+# The fear of loss of control is incredibly common. We can *all* feel the risk of losing agency, of watching, powerless, as things all around us collapse into failure.
+
+Such a fear can easily cause your stakeholder to tensely [rigidly] reject your proposal, even if you've gotten all the other pieces right.
+
+Why is this?
+# When people are operating from a place of fear, they can't engage in rational thought.
+
+Having someone ask us to change our behavior can feel like a *criticism*. That can immediately raise the emotional stakes. From that place of heightened emotion, it's extremely easy to hear a request to change as a request to give up our control over a situation. Our fear will be shouting at us that, if we go along with the request, we will be completely at the mercy of a situation that is on the verge of tipping over into abject failure. The fear will be insisting that the only way to prevent that failure is to push back on this request, immediately.
+
+# Humans, am I right? (I say this someone who has 100% done exactly this, plennnnty of times)
+
+Fortunately, once you understand this, it's possible to design your proposal so that your stakeholder hears it as a way to *increase* their control---even as you ask them to make an uncomfortable change.
+
+You create the feeling of control for your stakeholder by building your proposal around a *meaningful future decision*.
+
+Specifically, you want your initial period of change to *explicitly* end with a decision your stakeholder will get to make. Ideally, you want that decision to be both about "Should we continue working in this new way", and *also* about if and how to pursue some new, potentially valuable, business option. This is part of why generating wins across all three fronts is so valuable.
+
+When your stakeholder hears your request for change, you want them to, *as part of it*, be imagining that future moment of decision, of control. That will make it far easier for them to say yes.
+
+** Work Backwards From Yes
+
+I'm going to map out a step-by-step plan. I'll encourage you to try to methodically work through the steps, without rushing. It's designed to gradually move your stakeholder to a willingness to consider a new way of working.
+
+You should deliver yor proposal verbally -- that will let you share your (authentic!) emotional connection with their hopes and fears. If useful, you can certainly buttress what you say with a written memo or a set of slides. But find a way to connect, as humans, in this moment.
+
+In order to make your proposal, create a space slightly outside of the normal flow of day-to-day pressures. That could simply be starting a regular 1:1 by saying "I have some concerns I want to talk out, can I ask to put aside our normal agenda for today?" Or it could mean breaking normal patterns, perhaps meeting in person instead of online. You want to signal that there's something important for you to face, together.
+
+Once you've created that bit of space, go through the following steps, checking for understanding with your stakeholder after each one:
+
+ - Name the strategic intent
+
+ - Speak to their concerns
+
+ - Speak to your concerns
+
+ - Propose a period of change that ends with a decision
+
+ - Ask for commitment
+
+Before you make your proposal, *practice*. Out loud.
+
+First on your own, then with a trusted friend. At least once, maybe a few times.
+
+Eventually, going through this arc will feel natural, and you won't need to practice as much. But, early on, you're going to want to be extremely disciplined about going through the steps in sequenc. It's incredibly easy to skip over important steps, which can leave your stakeholder unwilling to say yes.
+
+For high stakes such proposals, I still practice over and over, until it feels fully clear, smooth and authentic.
+
+Let's see how this works for Quin.
+
+** Our Story: Quin Makes A Compelling Offer
 
 At All Together Now, Quin desperately wants Marco to stop jumping into standups and blowing up the team's focus by brainstorming new product ideas.
 
@@ -194,47 +275,9 @@ But if Quin can get Marco to try it, this new way of working could generate wins
 
 Quin has used all that she learned about Marco's *feelings* to develop something which has the potential to work for Marco, for her and for the business as a whole.
 
-She's almost ready to make her request of Marco.
-
-But there's one final step, to make it as easy as possible for him to agree to her proposal. She's going to add something to speak to an underlying fear that just about all stakeholders share.
-
-** Offer Your Stakeholder a Future Decision
-
-# Ensure Your Stakeholder Retains Control By Offering a Future Decision
-
-# Offer a Future Decision To Maintain Feeling of Control
-
-We're going to want to assume that your stakeholder has some fear of *losing control*.
-
-The fear of loss of control is incredibly common. We can *all* feel the risk of losing agency, of watching, powerless, as things all around us collapse into failure.
-
-Such a fear can easily cause your stakeholder to tensely [rigidly] reject your proposal, even if you've gotten all the other pieces right.
-
-When people are operating from a place of fear, they can't engage in rational thought. Having someone ask us to change our behavior can feel like a *criticism*. That can immediately raise the emotional stakes. From that place of heightened emotion, it's extremely easy to hear a request to change as a request to give up our control over a situation. Our fear will be shouting at us that, if we go along with the request, we will be completely at the mercy of a situation that is on the verge of tipping over into abject failure. The fear will be insisting that the only way to prevent that failure is to push back on this request, immediately.
-
-# Humans, am I right? (I say this someone who has 100% done exactly this, plennnnty of times)
-
-Fortunately, once you understand this, it's possible to design your proposal so that your stakeholder hears it as a way to *increase* their control---even as you ask them to make an uncomfortable change.
-
-You create the feeling of control for your stakeholder by building your proposal around a *meaningful future decision*.
-
-Specifically, you want your initial period of change to *explicitly* end with a decision your stakeholder will get to make. Ideally, you want that decision to be both about "Should we continue working in this new way", and *also* about if and how to pursue some new, potentially valuable, business option. This is part of why generating wins across all three fronts is so valuable.
-
-When your stakeholder hears your request for change, you want them to, *as part of it*, be imagining that future moment of decision, of control. That will make it far easier for them to say yes.
+# XXX Now she needs to give him a future decision
 
 Let's see how this could work for Quin.
-
-Remeber, the small change she wants to propose is:
-
- - For the next two weeks Marco will agree to *fully* stop coming to the team after customer calls
-
- - Instead, he will first meet with Quin, one-on-one
-
- - Quin will commit to being ready to drop everything and meet with him the moment he gets off a call, while his thoughts are fresh
-
- - Otherwise, Marco can continue to interact with the team as he wishes
-
- - At the end of the two weeks, the team will share an interactive demo of the Virtual Dunk Tank for Marco to test out
 
 The only new thing to add is:
 
@@ -247,38 +290,6 @@ She and Marco will, today, schedule a meeting for immediately after that demo, t
 By explicitly putting the end-of-increment decision on the table, Quin ensures that Marco feels like he retains control. She's making it clear, with her actions, that if he ends up frustrated by something in this new way of working, he'll have a time to speak to those frustrations.
 
 Even more fundamentally, she's increasing his control over his ultimate goals. Being able to review a demo of the Virtual Dunk Tank creates new options for the business, by inviting Marco to start thinking about those options, she's giving him something he very badly wants.
-
-** Make It Easy to Say Yes
-
-I'm going to map out a step-by-step plan. I'll encourage you to try to methodically work through the steps, without rushing. It's designed to gradually move your stakeholder to a willingness to consider a new way of working.
-
-You should deliver yor proposal verbally -- that will let you share your (authentic!) emotional connection with their hopes and fears. If useful, you can certainly buttress what you say with a written memo or a set of slides. But find a way to connect, as humans, in this moment.
-
-In order to make your proposal, create a space slightly outside of the normal flow of day-to-day pressures. That could simply be starting a regular 1:1 by saying "I have some concerns I want to talk out, can I ask to put aside our normal agenda for today?" Or it could mean breaking normal patterns, perhaps meeting in person instead of online. You want to signal that there's something important for you to face, together.
-
-Once you've created that bit of space, go through the following steps, checking for understanding with your stakeholder after each one:
-
- - Name the strategic intent
-
- - Speak to their concerns
-
- - Speak to your concerns
-
- - Propose a period of change that ends with a decision
-
- - Ask for commitment
-
-Before you make your proposal, *practice*. Out loud.
-
-First on your own, then with a trusted friend. At least once, maybe a few times.
-
-Eventually, going through this arc will feel natural, and you won't need to practice as much. But, early on, you're going to want to be extremely disciplined about going through the steps in sequenc. It's incredibly easy to skip over important steps, which can leave your stakeholder unwilling to say yes.
-
-For high stakes such proposals, I still practice over and over, until it feels fully clear, smooth and authentic.
-
-Let's see how this works for Quin.
-
-** Our Story: Quin Makes A Compelling Offer
 
 They've gone for a walk together. As they get into the city park, Quin asks if they can sit on a bench to talk. They sit side by side, watching people walk by.
 
