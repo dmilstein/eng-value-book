@@ -8,17 +8,21 @@
 
 You're going to ask your stakeholder to make a /slightly uncomfortable/ change.
 
-You'll make it possible for them to say yes, despite that discomfort, by:
+# You'll make it possible for them to say yes, despite that discomfort, by:
 
-  - Demonstrating *alignment* with the business's long-term goals
+#   - Demonstrating *alignment* with the business's long-term goals
 
-  - Speaking with *authentic empathy* to their hopes and fears
+#   - Ensuring something improves for them, in the short term
 
-  - Setting an explicit *timebox* on the initial period of change
+#   - Ensuring you're aware of anything they might feel like they're losing
 
-  - Ensuring your stakeholder feels like they *retain control*, by naming meaningful *decision* they'll get to make, at the end of the timebox
+#     #  - Speaking with *authentic empathy* to their hopes and fears
 
-In order to put together such a compelling offer, your first step is to precisely define the new, slightly better way you want to work with your stakeholder. In so doing, you should build on all you've learned about both the long-term strategic intent and your stakeholder's suite of feelings.
+#   - Setting an explicit *timebox* on the initial period of change
+
+#   - Ensuring your stakeholder feels like they *retain control*, by naming meaningful *decision* they'll get to make, at the end of the timebox
+
+# In order to prepare a compelling offer, your first step is to precisely define the new, slightly better way you want to work with your stakeholder. In so doing, you should build on all you've learned about both the long-term strategic intent and your stakeholder's suite of feelings.
 
 # That will allow you to work backwards from where things will be at the end of this initial period, and will also create an opportunity to help your stakeholder feel like they're retaining control.
 
@@ -32,138 +36,45 @@ Ideally, you want your small adjustment to create three distinct kinds of wins:
 
  - It moves you both a little closer to your shared long-term goals
 
-This is where the work you've done to dig into your stakeholder's fears, frustrations, delights and dreams really pays off. That map of their emotional landscape will make it possible to, with some creative thinking, come up with an incremental improvement that addresses your concerns, while also *feeling good* to them.
+This is where the work you've done to dig into your stakeholder's fears, frustrations, delights and dreams really pays off. That map of their emotional landscape will make it possible to come up with an incremental improvement that addresses your concerns, while also *feeling good* to them.
 
-To define a specific increment, you'll go through the following four steps:
+To define a specific adjustment, I recommend going through the following four steps in some order. Personally, when I do this work, I tend to loop around, jumping back and forth and refining, eventually honing in on something.
 
- - *Map from your team's day-to-day work to your company's strategic goals*
+ - *Map from company strategy to your team's day-to-day work*
 
-   Lay out the steps in a logical chain that lead from what your team is (or could be) doing, right now, to what the business is trying to achieve, a year or more from now.
+   Lay out the steps in a logical chain that lead from what your team is doing, right now, to what your business is trying to achieve, a year or more from now.
 
-   Given that, how could small changes in how you work with your stakeholder increase the odds (even slightly) of the business achieving their long-term goals?
+   Be certain you see how small changes in how you work with your stakeholder could increase the odds (even slightly) of the business achieving those long-term goals.
 
-   It's important to start here for two reasons. First, because this should help your stakeholder find your offer compelling. Second, to keep yourself *honest*. Do your current frustrations, well, actually matter? If so, why? Make sure you can see the connections.
+   I'll describe a tactic for doing this, in "Working Backwards With Whys", below.
 
- - *Identify what frustrates your stakeholder, in the current situation*
+   Understanding this linkage is important for two reasons. First, your stakeholder cares a lot about those long-term goals, so this will help make your offer compelling. Second, pressure-testing this connection will, well, keep you honest with yourself. Do your current frustrations actually matter? If so, why?
 
-   You want to be able to pair your ask for a change with an offer to *improve* something for them. That could be removing something that is actively frustrating them, or adding something that they want, but aren't currently getting.
+ - *Find wins for your stakeholder*
 
-   If there is nothing frustrating for your stakeholder, you might need to use some advanced tactics. See the later section on "Creating Urgency".
+   Beyond speaking to the long-term goals, ideally, you want to pair your ask for a change with an offer to improve *something* for them. That could be removing something that is actively frustrating them, or promising to give them something that they want, but aren't currently getting.
 
- - *Identify what your stakeholder likes about the current situation*
+   If there is seemingly /nothing/ frustrating for your stakeholder, and they seem to have no strong desires, see the later section on "Creating Urgency".
+
+ - *Identify potential losses for your stakeholder*
 
    Your stakeholder will often be afraid that, if things change, they'll lose something they currently value or enjoy.
 
-   You want to know what they might be afraid of losing, so that you can carefully address that in your request for change.
+   You want to know what they might be afraid of losing, so that you can carefully address that in your request for change. Sometimes that means reassuring then that they won't lose that thing, sometimes it means supplying them with an alternative. And sometimes it means directly asking them to give it up.
 
- - *Brainstorm how you can address your concerns, in the context of the above*
+ - *Define a slightly better way to work*
 
-   Be ready to spend some real time thinking about this. In my experience, there isn't usually an immediately obvious first increment. It takes some creative design. Talk to some friends about good patterns of work, test out your thinking with people you trust.
+   Where it's slightly better for you, your stakeholder, and the business.
 
-** Defining an Increment: An Example
+   Make sure it ends with your stakeholder making a decision.
 
-As is our way, we'll bring this to life with a story:
+   See if you can find a way to Put Yourself on the Line.
 
-# Change from 3rd person to something else? "Lila is the engineering lead..."
+   Be ready to spend some real time thinking about this. In my experience, there isn't usually an immediately obvious first increment. It takes some creative design. Talk to some friends about good patterns of work, test out your thinking with people you trust. Sleep on it, and see if any new ideas come to you the next day.
 
-Imagine that you're the engineering lead on a sprint team.
+   I'll describe a tactic for doing this, in "Imagine a Better World", below
 
-You're getting more and more frustrated, because the sales team keeps pestering you and your team with an endless series of 'urgent' feature requests. When a sales rep doesn't get an immediate response, they relentlessly ping some engineer to "check the status" of whatever they asked for. Last month, at the company party, a sales rep strode towards you with a big smile on their face, and you had to physically resist a desire to run away, fearing they'd try to get you to commit to working on their pet feature.[fn:: You were right.]
-
-You've tried to get your product peer to step in and wrangle the sales team, but, so far, they've been unwilling to do so. You've decided that, for your current bid for incremental improvement, your product peer is "your stakeholder".
-
-Let's dig into the steps:
-
-
-*** Map from your team's day-to-day work to the company's strategic goals
-
-One useful tactic is to start with the immediate frustrations you're feeling, and ask "Why is this a problem for the business?" Then, whatever answer you come up with, ask that "Why" question again. Keep doing that, over and over, until you arrive at the company's strategic goals.
-
-For our story, that might look like:
-
-  - Why is it a problem for the business that the sales team keeps interrupting engineers with 'urgent' feature requests?
-
-    /Because it's distracting the engineers/
-
-  - Why is it a problem for the business that the engineers are distracted?
-
-    /Because the team as a whole can't move quickly/
-
-  - Why is it a problem for the business that the team isn't moving as fast as it could?
-
-    /Because it's pushing out the delivery of the early prototypes we're trying to build/
-
-  - Why is it a problem for the business if it takes a little longer to build those prototypes?
-
-    /Because we need to test those prototypes with customers before we can find our next product opportunity/
-
-  - Why is it a problem for the business if it takes a little longer to find our next product opportunity?
-
-    /Because we need to develop a new product to sell, and before we can commit to development, we need to identify a feasible and valuable product opportunity/
-
-  - Why is a problem for the business if it has to wait a little longer to develop a new product?
-
-    /Because top-line revenue growth has stalled, and the company needs to show more growth by our next funding round, which is fast approaching, and we can only show more growth if the sales team has something new to sell/
-
-With that end-to-end understanding in hand, you can *authentically* explain how a small reduction in the frequency of interruptive requests from the sales team can, in a small but real way, help the company achieve its long-term goals.
-
-That would give you and your product peer a *shared* goal.
-
-*** List what is frustrating to your stakeholder, in the current situation.
-
-In our story, thanks to having deployed your tactical empathy skills, you are in proud possession of two sources of frustration for your product peer.
-
-First, the PM feels like the team should be moving faster, and every small delay in getting a prototype built frustrates them. The head of product is constantly asking them when they're going to take something into the field.
-
-Second, the PM finds their interactions with the VP of Sales extremely frustrating. When the PM asks for justifications for feature requests, the VP of Sales just rolls their eyes and says "Look, you don't understand how the product actually works. Just let my team talk to the engineers, okay?"
-
-Unfortunately, there's a grain of truth in this: for many feature requests, the PM feels out of their depth, and can't even have a first-order conversation about scope without having to turn around and interrupt the engineers themselves. That's part of why they're finding it easier to just stay out of the loop, and have pushed back on your requests to insert themselves back in.
-
-Notice how tactical empathy has turned up something super valuable: frustrations you can commit to *improving*, if your stakeholder is willing to work with you.
-
-*** List what your stakeholder *likes* about the current situation
-
-In our story, a key benefit the product manager is getting is, well, *focus*. Because they're *not* spending time triaging and pushing back on requests from the sales team, they're able to work intensely with the designer and the engineers to shape the prototype. They *love* doing that kind of work. At some level, it's why they got into product management in the first place (a fact you learned by drawing them out via your tactical empathy skills)
-
-Thus, as you go to design your request, you will want to find a way to speak carefully to the potential for added distractions for the PM.
-
-*** Brainstorm how you can address your concerns, in the context of the above
-
-One useful tactic can be to first let yourself imagine a Better World: some far better way of working, that is not possible to get to, immediately. Then, see if you can come up with a first small step in that direction.
-
-In our story, such a Better World might be:
-
- - You, your PM and the VP of Sales have a regular meeting to review new feature requests
-
- - The VP of Sales brings a list of feature requests to that meeting
-
- - At the meeting, you, the PM and the VP of Sales priority sort that list, with an understanding that you'll only be able to work on the very top priorities
-
- - The PM has sufficient understanding of how the product works to participate usefully in that discussion
-
- - The VP of Sales uses their authority to ensure no one on their team reaches out directly to the engineers, outside of the above process
-
-This is far too big a change to institute all at once, especially given the lack of trust between the product manager and the VP of Sales.
-
-But, with that idea in mind, and knowing all of the above constraints, you could say:
-
- - You'll set up a new weekly Request Review meeting with you, one lead engineer, and the PM
-
- - You'll tell the engineers to just collect all feature requests for that meeting
-
- - You give the engineers a "form letter" response they can use for both feature requests and "status checks" from the sales team
-
- - You'll commit to spending time in that meeting helping the PM understand the product better, as you decide what to do
-
- - You can commit to the PM, that if you do the above, you can increase the speed of delivery of the new prototype
-
- - You commit to working with the PM to handle the VP of Sales, if they complain about this shift
-
-You're almost ready to make our request.
-
-But there's one final step, to make it as easy as possible for your stakeholder to agree to the proposal. We're going to make certain we speak to an underlying fear that just about all stakeholders share.
-
-** Name a Future Decision
+** Tactic: End With A Decision
 
 # Ensure Your Stakeholder Retains Control By Offering a Future Decision
 
@@ -190,12 +101,61 @@ Specifically, you want your initial period of change to *explicitly* end with a 
 
 When your stakeholder hears your request for change, you want them to, *as part of it*, be imagining that future moment of decision, of control. That will make it far easier for them to say yes.
 
-In our story, that would simply mean that, you'd tell your product peer that, at the end of the first few weeks together, you'd sit down and review how those triage meetings have been going *and* how overall delivery is going. And they will get to decide, at that meeting, on next steps.
+** Tactic: Work Backwards With Whys
 
-** Put Yourself On the Line
+You need to develop a logical chain that leads from what your team is doing, right now, to what your business is trying to achieve, a year or more from now.
+
+And, specifically, the strategic intent you've extracted from your stakeholder.
+
+That can feel overwhelming. It can feel very difficult to see the impact of our day-to-day work on some distant goal.
+
+One way to break this down is to simply name the immediate frustration you're experiencing, and ask "Why is this a problem for the business?".
+
+Then, whatever answer you come up with, ask that same "Why" question again. Keep doing that, over and over, until you eventually arrive at the strategic intent you've extracted from your stakeholder. If you can't get there, talk to some people, keep refining your understanding of the business.
+
+For example, meet Sagar, the engineering lead on a sprint team.
+
+Sagar is getting more and more frustrated, because the sales team keeps pestering him and his team with an endless series of 'urgent' new feature requests. When a sales rep doesn't get an immediate response, they ping Sagar to "check status" over and over. Last month, at the company party, Sagar saw Jordy, a sales rep, striding towards him with a big grin on his face, and Sagar had an overwhelming desire to run away, out of fear that Jordy would try to get him to commit to working on his pet feature.[fn:: He was right.]
+
+Sagar has been trying to get his product manager, Emily, to step in and wrangle the sales team, but, so far, she's been unwilling to do so. He's decided that, for his current bid for incremental improvement, Emily is his stakeholder.
+
+He has extracted a meaningful strategic intent from her: their company needs a new product in order to keep growing revenue, and Sagar's team's work is a part of trying to develop that product.
+
+How can he map the steps in the chain? Let's ask "Why".
+
+  - Why is it a problem for the business that the sales team keeps interrupting engineers with 'urgent' feature requests?
+
+    /Because it's distracting the engineers/
+
+  - Why is it a problem for the business that the engineers are distracted?
+
+    /Because the team as a whole can't move quickly/
+
+  - Why is it a problem for the business that the team isn't moving as fast as it could?
+
+    /Because it's pushing out the delivery of the early prototypes we're trying to build/
+
+  - Why is it a problem for the business if it takes a little longer to build those prototypes?
+
+    /Because we need to test those prototypes with customers before we can find our next product opportunity/
+
+  - Why is it a problem for the business if it takes a little longer to find our next product opportunity?
+
+    /Because we need to develop a new product to sell, and before we can commit to development, we need to identify a feasible and valuable product opportunity/
+
+  - Why is a problem for the business if it has to wait a little longer to develop a new product?
+
+    /Because top-line revenue growth has stalled, and the company needs to show more growth by our next funding round, which is fast approaching, and we can only show more growth if the sales team has something new to sell/
+
+With that end-to-end understanding in hand, Sagar can *authentically* explain how a small reduction in the frequency of interruptive requests from the sales team can, in a small but real way, increase the odds of the company achieving its long-term goals.
+
+** Tactic: Imagine a Better World
+
+** Tactic: Put Yourself On the Line
 adf
 
-** Make Your Offer
+** Tactic: Creating Urgency
+** How To Make Your Offer
 
 I'm going to map out a step-by-step plan. I'll encourage you to try to methodically work through the steps, without rushing. It's designed to gradually move your stakeholder to a willingness to consider a new way of working.
 
@@ -225,7 +185,6 @@ For high stakes such proposals, I still practice over and over, until it feels f
 
 Let's see how this works for Quin.
 
-** Creating Urgency
 ** Our Story: Quin Prepares A Compelling Offer
 
 At All Together Now, Quin desperately wants Marco to stop jumping into standups and blowing up the team's focus by brainstorming new product ideas.
@@ -385,6 +344,78 @@ Now, to be clear, Marco may not say yes immediately. But that's fine. Quin can p
 *** Stakeholder pushes back on specifics of change
 ** Exercises
 * Scraps
+** Defining an Increment: An Example
+
+As is our way, we'll bring this to life with a story:
+
+# Change from 3rd person to something else? "Lila is the engineering lead..."
+
+Imagine that you're the engineering lead on a sprint team.
+
+You're getting more and more frustrated, because the sales team keeps pestering you and your team with an endless series of 'urgent' feature requests. When a sales rep doesn't get an immediate response, they relentlessly ping some engineer to "check the status" of whatever they asked for. Last month, at the company party, a sales rep strode towards you with a big smile on their face, and you had to physically resist a desire to run away, fearing they'd try to get you to commit to working on their pet feature.[fn:: You were right.]
+
+You've tried to get your product peer to step in and wrangle the sales team, but, so far, they've been unwilling to do so. You've decided that, for your current bid for incremental improvement, your product peer is "your stakeholder".
+
+Let's dig into the steps:
+
+
+*** Map from your team's day-to-day work to the company's strategic goals
+
+
+*** List what is frustrating to your stakeholder, in the current situation.
+
+In our story, thanks to having deployed your tactical empathy skills, you are in proud possession of two sources of frustration for your product peer.
+
+First, the PM feels like the team should be moving faster, and every small delay in getting a prototype built frustrates them. The head of product is constantly asking them when they're going to take something into the field.
+
+Second, the PM finds their interactions with the VP of Sales extremely frustrating. When the PM asks for justifications for feature requests, the VP of Sales just rolls their eyes and says "Look, you don't understand how the product actually works. Just let my team talk to the engineers, okay?"
+
+Unfortunately, there's a grain of truth in this: for many feature requests, the PM feels out of their depth, and can't even have a first-order conversation about scope without having to turn around and interrupt the engineers themselves. That's part of why they're finding it easier to just stay out of the loop, and have pushed back on your requests to insert themselves back in.
+
+Notice how tactical empathy has turned up something super valuable: frustrations you can commit to *improving*, if your stakeholder is willing to work with you.
+
+*** List what your stakeholder *likes* about the current situation
+
+In our story, a key benefit the product manager is getting is, well, *focus*. Because they're *not* spending time triaging and pushing back on requests from the sales team, they're able to work intensely with the designer and the engineers to shape the prototype. They *love* doing that kind of work. At some level, it's why they got into product management in the first place (a fact you learned by drawing them out via your tactical empathy skills)
+
+Thus, as you go to design your request, you will want to find a way to speak carefully to the potential for added distractions for the PM.
+
+*** Brainstorm how you can address your concerns, in the context of the above
+
+One useful tactic can be to first let yourself imagine a Better World: some far better way of working, that is not possible to get to, immediately. Then, see if you can come up with a first small step in that direction.
+
+In our story, such a Better World might be:
+
+ - You, your PM and the VP of Sales have a regular meeting to review new feature requests
+
+ - The VP of Sales brings a list of feature requests to that meeting
+
+ - At the meeting, you, the PM and the VP of Sales priority sort that list, with an understanding that you'll only be able to work on the very top priorities
+
+ - The PM has sufficient understanding of how the product works to participate usefully in that discussion
+
+ - The VP of Sales uses their authority to ensure no one on their team reaches out directly to the engineers, outside of the above process
+
+This is far too big a change to institute all at once, especially given the lack of trust between the product manager and the VP of Sales.
+
+But, with that idea in mind, and knowing all of the above constraints, you could say:
+
+ - You'll set up a new weekly Request Review meeting with you, one lead engineer, and the PM
+
+ - You'll tell the engineers to just collect all feature requests for that meeting
+
+ - You give the engineers a "form letter" response they can use for both feature requests and "status checks" from the sales team
+
+ - You'll commit to spending time in that meeting helping the PM understand the product better, as you decide what to do
+
+ - You can commit to the PM, that if you do the above, you can increase the speed of delivery of the new prototype
+
+ - You commit to working with the PM to handle the VP of Sales, if they complain about this shift
+
+You're almost ready to make our request.
+
+But there's one final step, to make it as easy as possible for your stakeholder to agree to the proposal. We're going to make certain we speak to an underlying fear that just about all stakeholders share.
+
 ** Better World imagining
 your first thought is: the sales team should just stop submitting requests, altogether. But you know that's not ideal for the business. Both because there is useful signal in the requests, and also because some of the requests are easy to build and will create a lot of value for modest effort.
 
