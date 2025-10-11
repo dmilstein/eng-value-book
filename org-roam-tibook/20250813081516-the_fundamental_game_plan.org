@@ -3,8 +3,8 @@
 :END:
 #+title: The Improvement Game Plan
 #+filetags: :Chapter:
-* A Game Plan For Making Improvements
-** Make Improvements in Small Increments
+* A Game Plan For Getting Unstuck
+** Make Improvements Incrementally
 
 You're going to make things better through a *series of small steps*, not via one big sweeping change.
 
@@ -28,7 +28,7 @@ Because of these reasons, we'll run the game plan as a series of *Increments of 
 
 The necessity of working incrementally is, believe it or not, good news! You can, with creative thinking, apply much of your experience in iterative software and product development. Only here you're applying it to a group of humans, instead of a pile of code.
 
-** Focus On One Stakeholder For Each Increment
+** Focus On One Stakeholder At A Time
 
 For each increment of the game plan, you'll choose a single key person to focus on.
 
@@ -100,7 +100,7 @@ Looking that over, you may find a few key "stakeholders" you hadn't been thinkin
 
 We'll touch on how to improve collaborations with these kinds of "implicit stakeholders" in several Case Studies, including [[id:B9798ABE-0A34-4EC6-9F78-CD5C6404C9D8][Interruptions & Distractions]], and also *Stop Doing Low-Value/Waste Work*.
 
-** The Four Steps of an Increment of Improvement
+** The Four Steps To Develop An Increment of Improvement
 
 Now that you've selected a single stakeholder to focus on, you can methodically work through the the four steps of an increment of improvement. We'll spend real time digging into each of these, in subsequent chapters:
 
@@ -180,7 +180,7 @@ The engineers are growing frustrated. Quin is just about certain that their one 
 
 To make matters worse, Marco has started expressing concerns about the team's velocity. At their last 1:1, he suggested Quin start requiring the team to work longer hours. She is nearly dead certain that more hours won't do much except push their best engineer out the door. They need to find one idea and stick to it--which means Marco needs to stop randomizing their work.
 
-** An Unfortunately Doomed Attempt at Change
+** Our Story: An Unfortunately Doomed Attempt at Change
 
 One day, after a particularly frustrating standup, Quin pings Marco on Slack, and asks if they could check in one-on-one. He sends back a quick thumbs up, and a minute later, they're staring at each other in Zoom.
 
