@@ -4,7 +4,7 @@
 #+title: Make a Compelling Offer
 #+filetags: :Chapter:
 * Make a Compelling Offer
-** Request An Incremental Change
+** Define An Increment of Change
 
 You're going to ask your stakeholder to make a /slightly uncomfortable/ change.
 
@@ -16,7 +16,7 @@ You'll make it possible for them to say yes, despite that discomfort, by:
 
   - Setting an explicit *timebox* on the initial period of change
 
-  - Ensuring your stakeholder feels like they *retain control*, by naming a specific, meaningful *decision* they'll get to make, at the end of the timebox
+  - Ensuring your stakeholder feels like they *retain control*, by naming meaningful *decision* they'll get to make, at the end of the timebox
 
 In order to put together such a compelling offer, your first step is to precisely define the new, slightly better way you want to work with your stakeholder. In so doing, you should build on all you've learned about both the long-term strategic intent and your stakeholder's suite of feelings.
 
@@ -65,7 +65,6 @@ You're getting more and more frustrated, because the sales team keeps pestering 
 You've tried to get your product peer to step in and wrangle the sales team, but, so far, they've been unwilling to do so. You've decided that, for your current bid for incremental improvement, your product peer is "your stakeholder".
 
 Let's dig into the steps:
-
 *** Map from your team's day-to-day work to the company's strategic goals
 
 One useful tactic is to start with the immediate frustrations you're feeling, and ask "Why is this a problem for the business?" Then, whatever answer you come up with, ask that "Why" question again. Keep doing that, over and over, until you arrive at the company's strategic goals.
@@ -154,7 +153,7 @@ You're almost ready to make our request.
 
 But there's one final step, to make it as easy as possible for your stakeholder to agree to the proposal. We're going to make certain we speak to an underlying fear that just about all stakeholders share.
 
-** Offer Your Stakeholder a Future Decision
+** Name a Future Decision
 
 # Ensure Your Stakeholder Retains Control By Offering a Future Decision
 
@@ -181,7 +180,12 @@ Specifically, you want your initial period of change to *explicitly* end with a 
 
 When your stakeholder hears your request for change, you want them to, *as part of it*, be imagining that future moment of decision, of control. That will make it far easier for them to say yes.
 
-** Work Backwards From Yes
+In our story, that would simply mean that, you'd tell your product peer that, at the end of the first few weeks together, you'd sit down and review how those triage meetings have been going *and* how overall delivery is going. And they will get to decide, at that meeting, on next steps.
+
+** Put Yourself On the Line
+adf
+
+** Make Your Offer
 
 I'm going to map out a step-by-step plan. I'll encourage you to try to methodically work through the steps, without rushing. It's designed to gradually move your stakeholder to a willingness to consider a new way of working.
 
@@ -211,7 +215,8 @@ For high stakes such proposals, I still practice over and over, until it feels f
 
 Let's see how this works for Quin.
 
-** Our Story: Quin Makes A Compelling Offer
+** Creating Urgency
+** Our Story: Quin Prepares A Compelling Offer
 
 At All Together Now, Quin desperately wants Marco to stop jumping into standups and blowing up the team's focus by brainstorming new product ideas.
 
@@ -259,6 +264,8 @@ The next morning, while walking her dog, Quin suddenly has an idea. She rushes h
 
  - At the end of the two weeks, the team will share an interactive demo of the Virtual Dunk Tank for Marco to test out
 
+ - Immediately after that demo, Marco and Quin will meet and decide two things: a) what next steps they want to take with the Virtual Dunk Tank, and b) what further adjustments they want to make in how they're working together.
+
 She sits back. This feels good. She has to figure out how, exactly, she'll pitch it to Marco. But it feels good.
 
 Quin has arrived at a very well-designed request. The proposed change will be "slightly uncomfortable" for Marco. He will, in his excited moments immediately after getting off a customer call, have to stop himself, and *not* do what feels natural to him. He'll have to do some work to remap his instincts.
@@ -271,27 +278,15 @@ But if Quin can get Marco to try it, this new way of working could generate wins
 
  - It gives Maco another reward, at the end of the increment: an opportunity to try out an interactive demo of the Virtual Dunk Tank. This will give him both the sense of velocity and the interactive UI that he's been growing increasingly desperate for.
 
- - Finally, the creation of that demo will move ATN one step closer to being able to ask a customer to *use something*. That moves both her *and* Marco towards their shared strategic goal around engagement.
+ - The creation of that demo will move ATN one step closer to being able to ask a customer to *use something*. That moves both her *and* Marco towards their shared strategic goal around engagement.
 
-Quin has used all that she learned about Marco's *feelings* to develop something which has the potential to work for Marco, for her and for the business as a whole.
+Finally, by explicitly putting an end-of-increment decision on the table, Quin ensures that Marco will feel like he retains control. She's making it clear, with her actions, that if he ends up frustrated by something in this new way of working, he'll have a time to speak to those frustrations.
 
-# XXX Now she needs to give him a future decision
+Even more fundamentally, she's increasing his control over his ultimate goals. Being able to review a demo of the Virtual Dunk Tank creates new options for the business. By inviting Marco to start thinking about those options, she's giving him something he very badly wants.
 
-Let's see how this could work for Quin.
+** Our Story: Quin Delivers Her Compelling Offer
 
-The only new thing to add is:
-
-She and Marco will, today, schedule a meeting for immediately after that demo, to:
-
-  a) Decide next steps with the Virtual Dunk Tank demo
-
-  b) Review how the new way of working, and decide on any further adjustments
-
-By explicitly putting the end-of-increment decision on the table, Quin ensures that Marco feels like he retains control. She's making it clear, with her actions, that if he ends up frustrated by something in this new way of working, he'll have a time to speak to those frustrations.
-
-Even more fundamentally, she's increasing his control over his ultimate goals. Being able to review a demo of the Virtual Dunk Tank creates new options for the business, by inviting Marco to start thinking about those options, she's giving him something he very badly wants.
-
-They've gone for a walk together. As they get into the city park, Quin asks if they can sit on a bench to talk. They sit side by side, watching people walk by.
+Quin and Marco have gone for a walk together downtown. As they get into the city park, Quin asks if they can stop on a bench to talk. They sit side by side, watching people walk by.
 
 *** Name the strategic intent
 
@@ -365,7 +360,6 @@ Also, she is *not* offering a Yes/No decision. She could have said "if we want t
 
 Now, to be clear, Marco may not say yes immediately. But that's fine. Quin can probe for any hesitations and tweak the offer, until he's ready to try. Usually, if you've done the previous steps well, you can do that within the discussion, so you're emerging with a commitment to try something new.
 
-** Creating Urgency
 ** Troubleshooting
 *** Stakeholder doesn't confirm Strategic Intent
 *** Stakeholder doesn't validate summary of their concerns
@@ -403,6 +397,24 @@ I'm gonna indulge myself by quoting Oliver Wendell Holmes, Jr (which quote I fou
 The only thing that floats us over the waves of despair is "faith in [...] effort" and "the exercise of our powers."
 
 I think that captures it, perfectly. When the specter of failure rises up in our minds, we to beat it back by taking *action*. By exercising our powers.
+
+* TODOs
+** TODO Try to split the initial long section
+See if I can find a natural way to glue together future decisions, putting yourself on the line (maaaybe creating urgency).
+** TODO Do give Head of Product a name - David? Jenna?
+** TODO Add: put yourself on the line
+Aka, demonstrate your own commitment somehow
+** TODO Mix in Marco's desire to share joy of connection
+
+** TODO Troubleshooting: Review Arc of Persuasion
+
+** TODO Pull out ideas from Quin's offer, move up
+She's doing a few things everyone should do, add thos earlier
+
+** TODO Explore: name heroic narrative/fear thing
+As in make that a core part of the plan. The Strategic Intent is at ris, and therfore we must change. And own it as your own fear.
+** TODO Quin: review actual strategic intent
+** TODO Maybe: "First ask about frustrations, then present delights"
 
 * From Substack
 ** Design an Increment of Change
