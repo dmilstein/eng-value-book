@@ -53,20 +53,6 @@ Be ready to spend some real time thinking on this. In my experience, there isn't
 
 I'll describe a tactic for doing this, in "Imagine a Better World", below
 
-** Tactic: End With A Decision
-
-One powerful thing to do is to ensure that your initial, timeboxed increment of change ends with a *decision* that your stakeholder gets to make.
-
-That will help them feel in control, which makes it much easier for them to say yes.
-
-For example, say Timofey is a product manager who is struggling with his engineering peer Lizabet. She's the tech lead for their team, and she insists that Timofey write extremely detailed tickets before she'll let the team spend any time sizing or starting the work. Liza insists this is necessary to avoid wasting the team's time. However, in the past Timofey has worked on teams where the engineers and PM's talked all the time, leaned on much lighter and more informal tickets, and things went much faster.
-
-He goes through the various steps we've laid out, and comes up with a proposed increment that includes some things that he knows Lila really wants (e.g. a carve out of eng time to improve deploy, a long-time team frustration). The "slightly uncomfortable" change he asks for is to bring a much lighter set of tickets to sprint planning, and then spend time discussing the nuances, all togeher. He also commits to, throughout the sprint, being available to answer any and all engineering questions at the drop of a hat.
-
-Finally, to ensure that Lizabet feels in control, as she takes this risk, he says:
-
-"Also, I want to get a meeting on the calendar, now, for just after we've completed our first increment. I'll want to hear from you how this change has been working for the team, and if there's anything that's been difficult about it. Then we can decide, together, if and how we want to adjust this new way of working. I want to be certain the engineers don't feel like we're wasting their time."
-
 ** Tactic: Work Backwards With Whys
 
 You need to develop a logical chain that leads from what your team is doing, right now, to what your business is trying to achieve, at some point in the future.
@@ -115,12 +101,28 @@ How can he map the steps in the chain? Let's ask "Why".
 
 With that end-to-end understanding in hand, Sagar can *authentically* explain how a small reduction in the frequency of interruptive requests from the sales team can, in a small but real way, increase the odds of the company achieving its long-term goals.
 
+Having all those specific steps gives him much more clear ammunition than just a vague sense that they're not working fast enough. It also pairs well with "Create Visibility To Create Urgency" -- once you understand the steps in the chain, you can make blockers or slowdowns more visible *at those steps*.
+
+** Tactic: End With A Decision
+
+One powerful thing to do is to ensure that your initial, timeboxed increment of change ends with a *decision* that your stakeholder gets to make.
+
+That will help them feel in control, which makes it much easier for them to say yes.
+
+For example, say Timofey is a product manager who is struggling with his engineering peer Lizabet. She's the tech lead for their team, and she insists that Timofey write extremely detailed tickets before she'll let the team spend any time sizing or starting the work. Liza insists this is necessary to avoid wasting the team's time. However, in the past Timofey has worked on teams where the engineers and PM's talked all the time, leaned on much lighter and more informal tickets, and things went much faster.
+
+He goes through the various steps we've laid out, and comes up with a proposed increment that includes some things that he knows Lila really wants (e.g. a carve out of eng time to improve deploy, a long-time team frustration). The "slightly uncomfortable" change he asks for is to bring a much lighter set of tickets to sprint planning, and then spend time discussing the nuances, all togeher. He also commits to, throughout the sprint, being available to answer any and all engineering questions at the drop of a hat.
+
+Finally, to ensure that Lizabet feels in control, as she takes this risk, he says:
+
+"Also, I want to get a meeting on the calendar, now, for just after we've completed our first increment. I'll want to hear from you how this change has been working for the team, and if there's anything that's been difficult about it. Then we can decide, together, if and how we want to adjust this new way of working. I want to be certain the engineers don't feel like we're wasting their time."
+
 ** Tactic: Imagine a Better World
 
 ** Tactic: Put Yourself On the Line
 adf
 
-** Tactic: Creating Urgency
+** Tactic: Create Visibility To Create Urgency
 ** How To Make Your Offer
 
 I'm going to map out a step-by-step plan. I'll encourage you to try to methodically work through the steps, without rushing. It's designed to gradually move your stakeholder to a willingness to consider a new way of working.
@@ -137,7 +139,7 @@ Once you've created that bit of space, go through the following steps, checking 
 
  - Speak to your concerns
 
- - Propose a period of change that ends with a decision
+ - Carefully and clearly explain your proposed adjustment
 
  - Ask for commitment
 
@@ -149,8 +151,6 @@ Eventually, going through this arc will feel natural, and you won't need to prac
 
 For high stakes such proposals, I still practice over and over, until it feels fully clear, smooth and authentic.
 
-Let's see how this works for Quin.
-
 ** Our Story: Quin Prepares A Compelling Offer
 
 At All Together Now, Quin desperately wants Marco to stop jumping into standups and blowing up the team's focus by brainstorming new product ideas.
@@ -159,7 +159,7 @@ At All Together Now, Quin desperately wants Marco to stop jumping into standups 
 
 Some part of her wants to just throw some book about agile or scrum in his direction, along with a lecture about the proper way to add new ideas to the team's backlog. But, having talked to him, she knows he's feeling very under the gun about getting something into customer's hands. She's pretty worried that, if she pushes, again, for a big change, he'll refuse, *again*.
 
-*** Map from your team's day-to-day work to the company's strategic goals
+*** Connect your work to strategic goals
 
 However, thanks to her having drawn him out, Quin knows that Marco's under the gun feeling is driven by a deep fear that ATN might be building something that customers won't actually use. As it happens, Quin has that exact same fear, in spades. The various team-building games they've been developing on all feel like they /might/ be fun... but they all depend on users being willing to playfully engage in some pretty oddball online activities. There's just no way to really know how that goes until they see it in action.
 
@@ -169,7 +169,7 @@ As she writes that down in her notes, she realizes that she can explicitly link 
 
 But, she thinks with an internal sigh, they won't be able to make much progress if Marco keeps derailing every other standup with ideas from customer calls.
 
-*** List what is frustrating to your stakeholder, in the current situation.
+*** Find wins for your stakeholder
 
 She turns her attention to how, exactly, she wants to ask him to change his behavior. At some level, she thinks, her ask is dead simple: just stop bringing new ideas to standup, and operate like a normal stakeholder. But she knows that's going to be a bit of a struggle for him. She tries to think about what she can offer, to make him willing to try.
 
@@ -189,11 +189,11 @@ If the team could just have a couple of weeks without distractions, she'll bet t
 
 She's just about ready to nail down her proposal, but then she catches herself. Her mentor insisted she take the time to ask: "What about the current situation is *good* for Marco? What might he be worried about giving up, if he agrees to make this change?"
 
-*** List what your stakeholder *likes* about the current situation
+*** Identify potential losses for your stakeholder
 
 Marco clearly *loves* coming directly to standup, while his experience of talking to a customer is fresh in his mind. Quin has realized that he specifically loves that because it allows him to clarify his thinking. But that's exactly what is blowing up the team's focus. She feels stuck. How can he brainstorm with the team, while not brainstorming with the team? Should she just point blank tell him he has to give that up? She... could. But she worries about where that pent up energy will go.
 
-*** Brainstorm how you can address your concerns, in the context of the above
+*** Define and test an adjustment
 
 The next morning, while walking her dog, Quin suddenly has an idea. She rushes home and writes out her proposed first increment of change:
 
@@ -277,7 +277,7 @@ Marco nods, slowly.
 
 Note how Quin subtly positioned this as a "weakness" of her and the team, rather than a "failing" on the part of Marco. She could easily have said "The way you're constantly bringing in new ideas is causing problems", but, instead, by playing just a bit of low status, she is sharing a problem to solve together---where the "problem" is "the team can't follow your new ideas", not "you're being chaotic and unfocused". Those are actually exactly the same problem, just focused on different perspectives. The non-accusational framing makes it easier for Marco to stay with her.
 
-*** Propose a period of change that ends with a decision
+*** Propose a period of change
 
 Now Quin will walk through what she's worked out, and be very direct and very specific about what she's asking of Marco:
 
