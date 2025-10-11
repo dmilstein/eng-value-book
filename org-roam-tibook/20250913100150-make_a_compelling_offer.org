@@ -34,25 +34,33 @@ Ideally, you want your small adjustment to create three distinct kinds of wins:
 
 This is where the work you've done to dig into your stakeholder's fears, frustrations, delights and dreams really pays off. That map of their emotional landscape will make it possible to, with some creative thinking, come up with an incremental improvement that addresses your concerns, while also *feeling good* to them.
 
-You'll go through the following four steps:
+To define a specific increment, you'll go through the following four steps:
 
- - *Map from your team's day-to-day work to the company's strategic goals*
+ - *Map from your team's day-to-day work to your company's strategic goals*
 
-   How can changing how you work with your stakeholder increase the odds of the business achieving their long-term goals? What are the steps in the chain that lead from what your team is doing, tomorrow, to what the business is trying to achieve, over the next year?
+   Lay out the steps in a logical chain that lead from what your team is (or could be) doing, right now, to what the business is trying to achieve, a year or more from now.
 
- - *List what is frustrating to your stakeholder, in the current situation*
+   Given that, how could small changes in how you work with your stakeholder increase the odds (even slightly) of the business achieving their long-term goals?
 
-   You want to be able to pair your ask for a change with an offer to improve something for them. That could be removing something that is actively frustrating them, or adding something that they want, but aren't currently getting.
+   It's important to start here for two reasons. First, because this should help your stakeholder find your offer compelling. Second, to keep yourself *honest*. Do your current frustrations, well, actually matter? If so, why? Make sure you can see the connections.
 
-   If there is nothing frustrating for your stakeholder, you might need to use some advanced tactics. See the section at the end of this chapter on "Creating Urgency".
+ - *Identify what frustrates your stakeholder, in the current situation*
 
- - *List what your stakeholder likes about the current situation*
+   You want to be able to pair your ask for a change with an offer to *improve* something for them. That could be removing something that is actively frustrating them, or adding something that they want, but aren't currently getting.
 
-   Your stakeholder will often be afraid that, if things change, they'll lose something they currently like. You want to know what they might be afraid of losing, so that you can carefully address that in your request for change.
+   If there is nothing frustrating for your stakeholder, you might need to use some advanced tactics. See the later section on "Creating Urgency".
+
+ - *Identify what your stakeholder likes about the current situation*
+
+   Your stakeholder will often be afraid that, if things change, they'll lose something they currently value or enjoy.
+
+   You want to know what they might be afraid of losing, so that you can carefully address that in your request for change.
 
  - *Brainstorm how you can address your concerns, in the context of the above*
 
    Be ready to spend some real time thinking about this. In my experience, there isn't usually an immediately obvious first increment. It takes some creative design. Talk to some friends about good patterns of work, test out your thinking with people you trust.
+
+** Defining an Increment: An Example
 
 As is our way, we'll bring this to life with a story:
 
@@ -65,6 +73,8 @@ You're getting more and more frustrated, because the sales team keeps pestering 
 You've tried to get your product peer to step in and wrangle the sales team, but, so far, they've been unwilling to do so. You've decided that, for your current bid for incremental improvement, your product peer is "your stakeholder".
 
 Let's dig into the steps:
+
+
 *** Map from your team's day-to-day work to the company's strategic goals
 
 One useful tactic is to start with the immediate frustrations you're feeling, and ask "Why is this a problem for the business?" Then, whatever answer you come up with, ask that "Why" question again. Keep doing that, over and over, until you arrive at the company's strategic goals.
@@ -224,6 +234,8 @@ At All Together Now, Quin desperately wants Marco to stop jumping into standups 
 
 Some part of her wants to just throw some book about agile or scrum in his direction, along with a lecture about the proper way to add new ideas to the team's backlog. But, having talked to him, she knows he's feeling very under the gun about getting something into customer's hands. She's pretty worried that, if she pushes, again, for a big change, he'll refuse, *again*.
 
+*** Map from your team's day-to-day work to the company's strategic goals
+
 However, thanks to her having drawn him out, Quin knows that Marco's under the gun feeling is driven by a deep fear that ATN might be building something that customers won't actually use. As it happens, Quin has that exact same fear, in spades. The various team-building games they've been developing on all feel like they /might/ be fun... but they all depend on users being willing to playfully engage in some pretty oddball online activities. There's just no way to really know how that goes until they see it in action.
 
 Quin decides that, whatever she proposes, she's going to anchor it in a shared goal of delivering something, as soon as possible, that will allow ATN to get their games into the hands of early adopter users.
@@ -231,6 +243,8 @@ Quin decides that, whatever she proposes, she's going to anchor it in a shared g
 As she writes that down in her notes, she realizes that she can explicitly link that to their long-term objectives---because, when she dug into strategic goals for the next year, Marco told her that VC's would only consider a further round of investment if ATN could show *engagement*. Moving a step closer to getting games into the hands of users will move them towards learning, asap, if they're going to be able to generate engagement. As Quin makes this connection, she feels a spike of excitement. She can't wait to share this with her team---they've been hungry for a better understanding of *why* they're working on the various features and games.
 
 But, she thinks with an internal sigh, they won't be able to make much progress if Marco keeps derailing every other standup with ideas from customer calls.
+
+*** List what is frustrating to your stakeholder, in the current situation.
 
 She turns her attention to how, exactly, she wants to ask him to change his behavior. At some level, she thinks, her ask is dead simple: just stop bringing new ideas to standup, and operate like a normal stakeholder. But she knows that's going to be a bit of a struggle for him. She tries to think about what she can offer, to make him willing to try.
 
@@ -250,7 +264,11 @@ If the team could just have a couple of weeks without distractions, she'll bet t
 
 She's just about ready to nail down her proposal, but then she catches herself. Her mentor insisted she take the time to ask: "What about the current situation is *good* for Marco? What might he be worried about giving up, if he agrees to make this change?"
 
+*** List what your stakeholder *likes* about the current situation
+
 Marco clearly *loves* coming directly to standup, while his experience of talking to a customer is fresh in his mind. Quin has realized that he specifically loves that because it allows him to clarify his thinking. But that's exactly what is blowing up the team's focus. She feels stuck. How can he brainstorm with the team, while not brainstorming with the team? Should she just point blank tell him he has to give that up? She... could. But she worries about where that pent up energy will go.
+
+*** Brainstorm how you can address your concerns, in the context of the above
 
 The next morning, while walking her dog, Quin suddenly has an idea. She rushes home and writes out her proposed first increment of change:
 
@@ -401,6 +419,9 @@ I think that captures it, perfectly. When the specter of failure rises up in our
 * TODOs
 ** TODO Try to split the initial long section
 See if I can find a natural way to glue together future decisions, putting yourself on the line (maaaybe creating urgency).
+** TODO Rename "Identify Frustrations" to Enticing
+Identify Improvements For Them
+
 ** TODO Do give Head of Product a name - David? Jenna?
 ** TODO Add: put yourself on the line
 Aka, demonstrate your own commitment somehow
