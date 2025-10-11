@@ -8,27 +8,7 @@
 
 You're going to ask your stakeholder to make a /slightly uncomfortable/ change.
 
-# You'll make it possible for them to say yes, despite that discomfort, by:
-
-#   - Demonstrating *alignment* with the business's long-term goals
-
-#   - Ensuring something improves for them, in the short term
-
-#   - Ensuring you're aware of anything they might feel like they're losing
-
-#     #  - Speaking with *authentic empathy* to their hopes and fears
-
-#   - Setting an explicit *timebox* on the initial period of change
-
-#   - Ensuring your stakeholder feels like they *retain control*, by naming meaningful *decision* they'll get to make, at the end of the timebox
-
-# In order to prepare a compelling offer, your first step is to precisely define the new, slightly better way you want to work with your stakeholder. In so doing, you should build on all you've learned about both the long-term strategic intent and your stakeholder's suite of feelings.
-
-# That will allow you to work backwards from where things will be at the end of this initial period, and will also create an opportunity to help your stakeholder feel like they're retaining control.
-
-# A key here is: *don't jump too far ahead*. Start with something that feels small.
-
-Ideally, you want your small adjustment to create three distinct kinds of wins:
+Ideally, you want this small adjustment to create three distinct kinds of wins:
 
  - It makes things a little better for you
 
@@ -40,70 +20,56 @@ This is where the work you've done to dig into your stakeholder's fears, frustra
 
 To define a specific adjustment, I recommend going through the following four steps in some order. Personally, when I do this work, I tend to loop around, jumping back and forth and refining, eventually honing in on something.
 
- - *Map from company strategy to your team's day-to-day work*
+In the next few sections, I'll list some tactics to explore, as you do this work.
+*** Connect your work to strategic goals
 
-   Lay out the steps in a logical chain that lead from what your team is doing, right now, to what your business is trying to achieve, a year or more from now.
+Lay out the steps in a logical chain that lead from what your team is doing, right now, to what your business is trying to achieve, a year or more from now.
 
-   Be certain you see how small changes in how you work with your stakeholder could increase the odds (even slightly) of the business achieving those long-term goals.
+Be certain you see how small changes in how you work with your stakeholder could increase the odds (even slightly) of the business achieving those long-term goals.
 
-   I'll describe a tactic for doing this, in "Working Backwards With Whys", below.
+I'll describe a tactic for doing this, in "Working Backwards With Whys", below.
 
-   Understanding this linkage is important for two reasons. First, your stakeholder cares a lot about those long-term goals, so this will help make your offer compelling. Second, pressure-testing this connection will, well, keep you honest with yourself. Do your current frustrations actually matter? If so, why?
+Understanding this linkage is important for two reasons. First, your stakeholder cares a lot about those long-term goals, so this will help make your offer compelling. Second, pressure-testing this connection will, well, keep you honest with yourself. Do your current frustrations actually matter? If so, why?
 
- - *Find wins for your stakeholder*
+*** Find wins for your stakeholder
 
-   Beyond speaking to the long-term goals, ideally, you want to pair your ask for a change with an offer to improve *something* for them. That could be removing something that is actively frustrating them, or promising to give them something that they want, but aren't currently getting.
+Beyond speaking to the long-term goals, you want to pair your request for a change with an offer to improve *something* for them. That could be removing something that is actively frustrating them, or promising to give them something that they want, but aren't currently getting.
 
-   If there is seemingly /nothing/ frustrating for your stakeholder, and they seem to have no strong desires, see the later section on "Creating Urgency".
+If there is seemingly /nothing/ frustrating for your stakeholder, and they seem to have no strong desires, see the later section on "Creating Urgency".
 
- - *Identify potential losses for your stakeholder*
+*** Identify potential losses for your stakeholder
 
-   Your stakeholder will often be afraid that, if things change, they'll lose something they currently value or enjoy.
+Your stakeholder will often be afraid that, if things change, they'll lose something they currently value or enjoy.
 
-   You want to know what they might be afraid of losing, so that you can carefully address that in your request for change. Sometimes that means reassuring then that they won't lose that thing, sometimes it means supplying them with an alternative. And sometimes it means directly asking them to give it up.
+You want to know what they might be afraid of losing, so that you can carefully address that in your request for change. Sometimes that means reassuring then that they won't lose that thing, sometimes it means supplying them with an alternative. And sometimes it means directly asking them to give it up, but doing so clearly and with empathy.
 
- - *Define a slightly better way to work*
+*** Define and test an adjustment
 
-   Where it's slightly better for you, your stakeholder, and the business.
+Sketch in some different way of working, and then check if it's slightly better for you, your stakeholder, and the business.
 
-   Make sure it ends with your stakeholder making a decision.
+Check if it is too big a change to take on, all at once. If so, go back and make it more incremental.
 
-   See if you can find a way to Put Yourself on the Line.
+Be ready to spend some real time thinking on this. In my experience, there isn't usually an immediately obvious first increment. It takes some creative design. Talk to some friends about good patterns of work, test out your thinking with people you trust. Sleep on it, and see if any new ideas come to you the next day.
 
-   Be ready to spend some real time thinking about this. In my experience, there isn't usually an immediately obvious first increment. It takes some creative design. Talk to some friends about good patterns of work, test out your thinking with people you trust. Sleep on it, and see if any new ideas come to you the next day.
-
-   I'll describe a tactic for doing this, in "Imagine a Better World", below
+I'll describe a tactic for doing this, in "Imagine a Better World", below
 
 ** Tactic: End With A Decision
 
-# Ensure Your Stakeholder Retains Control By Offering a Future Decision
+One powerful thing to do is to ensure that your initial, timeboxed increment of change ends with a *decision* that your stakeholder gets to make.
 
-# Offer a Future Decision To Maintain Feeling of Control
+That will help them feel in control, which makes it much easier for them to say yes.
 
-Almost all stakeholders have some fear of *losing control*.
+For example, say Timofey is a product manager who is struggling with his engineering peer Lizabet. She's the tech lead for their team, and she insists that Timofey write extremely detailed tickets before she'll let the team spend any time sizing or starting the work. Liza insists this is necessary to avoid wasting the team's time. However, in the past Timofey has worked on teams where the engineers and PM's talked all the time, leaned on much lighter and more informal tickets, and things went much faster.
 
-# The fear of loss of control is incredibly common. We can *all* feel the risk of losing agency, of watching, powerless, as things all around us collapse into failure.
+He goes through the various steps we've laid out, and comes up with a proposed increment that includes some things that he knows Lila really wants (e.g. a carve out of eng time to improve deploy, a long-time team frustration). The "slightly uncomfortable" change he asks for is to bring a much lighter set of tickets to sprint planning, and then spend time discussing the nuances, all togeher. He also commits to, throughout the sprint, being available to answer any and all engineering questions at the drop of a hat.
 
-Such a fear can easily cause your stakeholder to tensely [rigidly] reject your proposal, even if you've gotten all the other pieces right.
+Finally, to ensure that Lizabet feels in control, as she takes this risk, he says:
 
-Why is this?
-# When people are operating from a place of fear, they can't engage in rational thought.
-
-Having someone ask us to change our behavior can feel like a *criticism*. That can immediately raise the emotional stakes. From that place of heightened emotion, it's extremely easy to hear a request to change as a request to give up our control over a situation. Our fear will be shouting at us that, if we go along with the request, we will be completely at the mercy of a situation that is on the verge of tipping over into abject failure. The fear will be insisting that the only way to prevent that failure is to push back on this request, immediately.
-
-# Humans, am I right? (I say this someone who has 100% done exactly this, plennnnty of times)
-
-Fortunately, once you understand this, it's possible to design your proposal so that your stakeholder hears it as a way to *increase* their control---even as you ask them to make an uncomfortable change.
-
-You create the feeling of control for your stakeholder by building your proposal around a *meaningful future decision*.
-
-Specifically, you want your initial period of change to *explicitly* end with a decision your stakeholder will get to make. Ideally, you want that decision to be both about "Should we continue working in this new way", and *also* about if and how to pursue some new, potentially valuable, business option. This is part of why generating wins across all three fronts is so valuable.
-
-When your stakeholder hears your request for change, you want them to, *as part of it*, be imagining that future moment of decision, of control. That will make it far easier for them to say yes.
+"Also, I want to get a meeting on the calendar, now, for just after we've completed our first increment. I'll want to hear from you how this change has been working for the team, and if there's anything that's been difficult about it. Then we can decide, together, if and how we want to adjust this new way of working. I want to be certain the engineers don't feel like we're wasting their time."
 
 ** Tactic: Work Backwards With Whys
 
-You need to develop a logical chain that leads from what your team is doing, right now, to what your business is trying to achieve, a year or more from now.
+You need to develop a logical chain that leads from what your team is doing, right now, to what your business is trying to achieve, at some point in the future.
 
 And, specifically, the strategic intent you've extracted from your stakeholder.
 
@@ -344,6 +310,33 @@ Now, to be clear, Marco may not say yes immediately. But that's fine. Quin can p
 *** Stakeholder pushes back on specifics of change
 ** Exercises
 * Scraps
+** Tactic: End With A Decision
+
+# Ensure Your Stakeholder Retains Control By Offering a Future Decision
+
+# Offer a Future Decision To Maintain Feeling of Control
+
+Almost all stakeholders have some fear of *losing control*.
+
+# The fear of loss of control is incredibly common. We can *all* feel the risk of losing agency, of watching, powerless, as things all around us collapse into failure.
+
+Such a fear can easily cause your stakeholder to tensely [rigidly] reject your proposal, even if you've gotten all the other pieces right.
+
+Why is this?
+# When people are operating from a place of fear, they can't engage in rational thought.
+
+Having someone ask us to change our behavior can feel like a *criticism*. That can immediately raise the emotional stakes. From that place of heightened emotion, it's extremely easy to hear a request to change as a request to give up our control over a situation. Our fear will be shouting at us that, if we go along with the request, we will be completely at the mercy of a situation that is on the verge of tipping over into abject failure. The fear will be insisting that the only way to prevent that failure is to push back on this request, immediately.
+
+# Humans, am I right? (I say this someone who has 100% done exactly this, plennnnty of times)
+
+Fortunately, once you understand this, it's possible to design your proposal so that your stakeholder hears it as a way to *increase* their control---even as you ask them to make an uncomfortable change.
+
+You create the feeling of control for your stakeholder by building your proposal around a *meaningful future decision*.
+
+Specifically, you want your initial period of change to *explicitly* end with a decision your stakeholder will get to make. Ideally, you want that decision to be both about "Should we continue working in this new way", and *also* about if and how to pursue some new, potentially valuable, business option. This is part of why generating wins across all three fronts is so valuable.
+
+When your stakeholder hears your request for change, you want them to, *as part of it*, be imagining that future moment of decision, of control. That will make it far easier for them to say yes.
+
 ** Defining an Increment: An Example
 
 As is our way, we'll bring this to life with a story:
@@ -448,20 +441,28 @@ The only thing that floats us over the waves of despair is "faith in [...] effor
 I think that captures it, perfectly. When the specter of failure rises up in our minds, we to beat it back by taking *action*. By exercising our powers.
 
 * TODOs
-** TODO Try to split the initial long section
+** DONE Try to split the initial long section
+CLOSED: [2025-10-11 Sat 17:33]
 See if I can find a natural way to glue together future decisions, putting yourself on the line (maaaybe creating urgency).
-** TODO Rename "Identify Frustrations" to Enticing
+** DONE Rename "Identify Frustrations" to Enticing
+CLOSED: [2025-10-11 Sat 17:33]
 Identify Improvements For Them
 
-** TODO Do give Head of Product a name - David? Jenna?
+** DONE Do give Head of Product a name - David? Jenna?
+CLOSED: [2025-10-11 Sat 17:33]
+** DONE Pull out ideas from Quin's offer, move up
+CLOSED: [2025-10-11 Sat 17:33]
+She's doing a few things everyone should do, add thos earlier
+
 ** TODO Add: put yourself on the line
 Aka, demonstrate your own commitment somehow
 ** TODO Mix in Marco's desire to share joy of connection
 
-** TODO Troubleshooting: Review Arc of Persuasion
+** TODO Add tactic: depersonalize the problems
+Don't trigger shame
 
-** TODO Pull out ideas from Quin's offer, move up
-She's doing a few things everyone should do, add thos earlier
+** TODO Can I get all the tactics short enough to be one section
+** TODO Troubleshooting: Review Arc of Persuasion
 
 ** TODO Explore: name heroic narrative/fear thing
 As in make that a core part of the plan. The Strategic Intent is at ris, and therfore we must change. And own it as your own fear.
