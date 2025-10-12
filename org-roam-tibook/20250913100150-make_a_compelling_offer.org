@@ -1,9 +1,9 @@
 :PROPERTIES:
 :ID:       5C7A0B37-8984-4A1F-8371-C1FCEB637174
 :END:
-#+title: Make a Compelling Offer
+#+title: Prepare a Compelling Offer
 #+filetags: :Chapter:
-* Make a Compelling Offer
+* Prepare a Compelling Offer
 ** The Steps In A Compelling Offer
 
 You've defined a Strategic Intent that your stakeholder cares about. You have a shared long-term goal you can speak to, and an understanding of how your work contributes to that goal.
@@ -36,13 +36,35 @@ When you deliver that compelling offer, you'll go through four steps:
 
     - Move you both a little closer to your shared long-term goals
 
-Be ready to spend some real time preparing  your offer. In my experience, even once you have all the pieces, there's rarely an immediately obvious way proceed. Coming up with something crisp, clearn and compelling takes time. Talk to some friends about good patterns of work, test out your thinking with people you trust. Sleep on it, and see if any new ideas come to you the next day.
+Be ready to spend some real time preparing  your offer. In my experience, even once you have all the pieces, there ususally isn't an immediately obvious way proceed. It takes time to come up with something crisp, clean and compellings. Talk to some friends about good patterns of work, test out your thinking with people you trust. Sleep on it, and see if any new ideas come to you the next day.
 
-To support you in that work, I'm going to list a set of tactics, along with examples to bring each to life. You'll find more ideas in the second half of the book, in the case studies.
+To support you in the work, I'm going to list a set of tactics, along with examples to bring them to life. For each tactic, I'll list the kind of problems it can help address.
 
 Feel free to dip in an out of these.
 
+You'll find more ideas in the second half of the book, in the case studies.
+
 ** Tactic: Timebox The Adjustment
+Problem: your stakeholder is reluctant to consider a change in their behavior.
+
+Tactic: ask your stakeholder to try changing their behavior for an initial, limited period of time. Commit to reviewing how that's going for them, at the end of that period of time.
+
+It's *much* easier for a stakeholder to say "yes" to a request to try something that  ay feel "slightly uncomfortable" for a few weeks, than it is to agree to change their behavior indefinitely (aka, /forever/).
+
+Once you get a commitment to try something new for a short period of time, you can then work to ensure that, at the end of that initial period, the stakeholder experiences things as going well.
+
+Example:
+
+Louisa is a staff engineer. One of her key responsibilities is conducting periodic architecture review sessions with teams in her domain. Unfortunately, her CTO, Dave, has developed a frustrating habit of "dropping by" those review sessions and offering half-baked ideas (Dave always /starts/ by saying "Can I ask a question?", but somehow his questions all end up being thinly veiled suggestions). This pattern is both undercutting Louisa's authority *and* sending the teams down a succession of blind alleys (he's the CTO! His suggestions seem really important!).
+
+She could simply say, "Dave, please stop speaking up in the review sessions." Or, even "Dave, please stop coming to those sessions." But both of those feel like big asks to make, and she's worried he'll push back. Also, he does, in fact, need to be able to ask questions in order to stay on top the evolving architecture of their systems. She also knows Dave likes observing his teams at work, seeing who is stepping up, who is struggling.
+
+She decides to frame it as: "Dave, I'd like to ask to try something out for our next two sessions. If you're okay with it, I'll ask you to *just* listen and take notes. I'll meet with you immediately after each session, to dig into any questions you have, and to get your feedback on both the team and the architecture. After the first two sessions, we can see how it's going. I think this could help with <long-term goal X>..."
+
+That's a lot easier to ask. It positions the adjustment as a sort of "shared experiment" they're entering into together, instead of a demand that Louisa is making. It's an ask for just two sessions, not forever.
+
+Committing to meet with him after each session is an example of the Put Yourself On the Line tactic. Asking for his feedback on the team and the achitecture is an example of Find Wins From Feelings.
+
 ** Tactic: Shrink Your Ask
 ** Tactic: Find Wins From Feelings
 
