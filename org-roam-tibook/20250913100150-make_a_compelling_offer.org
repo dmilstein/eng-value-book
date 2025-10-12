@@ -4,70 +4,78 @@
 #+title: Make a Compelling Offer
 #+filetags: :Chapter:
 * Make a Compelling Offer
-** Define An Increment of Change
+** The Steps In A Compelling Offer
 
-You're going to ask your stakeholder to make a /slightly uncomfortable/ change.
+You've defined a Strategic Intent that your stakeholder cares about. You have a shared long-term goal you can speak to, and an understanding of how your work contributes to that goal.
 
-Ideally, you want this small adjustment to create three distinct kinds of wins:
+You've taken the time to develop an empathetic understanding of their key emotions. You can speak with empathy to the situation they find themselves in. You can identify frustrations that they want smoothed away. You can name things they want, that they feel like they're not getting.
 
- - It makes things a little better for you
+You're ready to define a specific request for change, and then wrap that up in a compelling offer.
 
- - It makes things a little better for your stakeholder
+When you deliver that compelling offer, you'll go through four steps:
 
- - It moves you both a little closer to your shared long-term goals
+1. *Name the shared long-term goal*
 
-This is where the work you've done to dig into your stakeholder's fears, frustrations, delights and dreams really pays off. That map of their emotional landscape will make it possible to come up with an incremental improvement that addresses your concerns, while also *feeling good* to them.
+   As part of this, you'll share that you have worries about achieving it
 
-To define a specific adjustment, I recommend going through the following four steps in some order. Personally, when I do this work, I tend to loop around, jumping back and forth and refining, eventually honing in on something.
+2. *Share your understanding of their concerns*
 
-In the next few sections, I'll list some tactics to explore, as you do this work.
-*** Connect your work to strategic goals
+   You'll give them plenty of room to "fix" your understanding
 
-Lay out the steps in a logical chain that lead from what your team is doing, right now, to what your business is trying to achieve, a year or more from now.
+3. *State your own concerns*
 
-Be certain you see how small changes in how you work with your stakeholder could increase the odds (even slightly) of the business achieving those long-term goals.
+   You'll do so directly and clearly, but in a way which doesn't trigger defensiveness
 
-I'll describe a tactic for doing this, in "Working Backwards With Whys", below.
+4. *Propose an incremental adjustment in how you work together*
 
-Understanding this linkage is important for two reasons. First, your stakeholder cares a lot about those long-term goals, so this will help make your offer compelling. Second, pressure-testing this connection will, well, keep you honest with yourself. Do your current frustrations actually matter? If so, why?
+   This adjustment should:
 
-*** Find wins for your stakeholder
+    - Make things a little better for you
+
+    - Make things a little better for your stakeholder
+
+    - Move you both a little closer to your shared long-term goals
+
+Be ready to spend some real time preparing  your offer. In my experience, even once you have all the pieces, there's rarely an immediately obvious way proceed. Coming up with something crisp, clearn and compelling takes time. Talk to some friends about good patterns of work, test out your thinking with people you trust. Sleep on it, and see if any new ideas come to you the next day.
+
+To support you in that work, I'm going to list a set of tactics, along with examples to bring each to life. You'll find more ideas in the second half of the book, in the case studies.
+
+Feel free to dip in an out of these.
+
+** Tactic: Timebox The Adjustment
+** Tactic: Shrink Your Ask
+** Tactic: Find Wins From Feelings
+
+# Don't fall into trap of thinking of wins as just sourced from what they're asking for.
 
 Beyond speaking to the long-term goals, you want to pair your request for a change with an offer to improve *something* for them. That could be removing something that is actively frustrating them, or promising to give them something that they want, but aren't currently getting.
 
 If there is seemingly /nothing/ frustrating for your stakeholder, and they seem to have no strong desires, see the later section on "Creating Urgency".
 
-*** Identify potential losses for your stakeholder
-
+** Tactic: Reassure Key Fears
 Your stakeholder will often be afraid that, if things change, they'll lose something they currently value or enjoy.
 
 You want to know what they might be afraid of losing, so that you can carefully address that in your request for change. Sometimes that means reassuring then that they won't lose that thing, sometimes it means supplying them with an alternative. And sometimes it means directly asking them to give it up, but doing so clearly and with empathy.
 
-*** Define and test an adjustment
+** Tactic: Connect Now To Later
 
-Sketch in some different way of working, and then check if it's slightly better for you, your stakeholder, and the business.
+Work Backwards With Whys
 
-Check if it is too big a change to take on, all at once. If so, go back and make it more incremental.
+In order to both motivate your stakeholder, *and* to identify small changes that could matter, it can be very powerful to develop a chain of logical steps that connect the work your team is doing, right now, to what your business is trying to achieve, a year or more from now (the strategic intent you've extracted from your stakeholder)
 
-Be ready to spend some real time thinking on this. In my experience, there isn't usually an immediately obvious first increment. It takes some creative design. Talk to some friends about good patterns of work, test out your thinking with people you trust. Sleep on it, and see if any new ideas come to you the next day.
+# Lay out the steps in a logical chain that lead from what your team is doing, right now, to what your business is trying to achieve, a year or more from now.
 
-I'll describe a tactic for doing this, in "Imagine a Better World", below
+That will allow you to see how small changes in how you work with your stakeholder could increase the odds (even slightly) of the business achieving those long-term goals.
 
-** Tactic: Work Backwards With Whys
+However, it can sometimes feel very difficult to see the impact of our day-to-day work on some distant goal.
 
-You need to develop a logical chain that leads from what your team is doing, right now, to what your business is trying to achieve, at some point in the future.
-
-And, specifically, the strategic intent you've extracted from your stakeholder.
-
-That can feel overwhelming. It can feel very difficult to see the impact of our day-to-day work on some distant goal.
-
-One way to break this down is to simply name the immediate frustration you're experiencing, and ask "Why is this a problem for the business?".
+One way to break this down is to start by simply naming the immediate frustration you're experiencing, and then asking "Why is this a problem for the business?".
 
 Then, whatever answer you come up with, ask that same "Why" question again. Keep doing that, over and over, until you eventually arrive at the strategic intent you've extracted from your stakeholder. If you can't get there, talk to some people, keep refining your understanding of the business.
 
 For example, meet Sagar, the engineering lead on a sprint team.
 
-Sagar is getting more and more frustrated, because the sales team keeps pestering him and his team with an endless series of 'urgent' new feature requests. When a sales rep doesn't get an immediate response, they ping Sagar to "check status" over and over. Last month, at the company party, Sagar saw Jordy, a sales rep, striding towards him with a big grin on his face, and Sagar had an overwhelming desire to run away, out of fear that Jordy would try to get him to commit to working on his pet feature.[fn:: He was right.]
+Sagar is getting more and more frustrated, because the sales team keeps pestering him and his team with an endless series of 'urgent' new feature requests. When a sales rep doesn't get an immediate response, they relentlessly ping Sagar to "check for status". Last month, at the company party, Sagar saw Jordy, a sales rep, striding towards him with a big grin on his face, and Sagar had an overwhelming desire to run away, out of fear that Jordy would try to browbeat him into working on Jordy's pet feature.[fn:: He was right.]
 
 Sagar has been trying to get his product manager, Emily, to step in and wrangle the sales team, but, so far, she's been unwilling to do so. He's decided that, for his current bid for incremental improvement, Emily is his stakeholder.
 
@@ -103,7 +111,7 @@ With that end-to-end understanding in hand, Sagar can *authentically* explain ho
 
 Having all those specific steps gives him much more clear ammunition than just a vague sense that they're not working fast enough. It also pairs well with "Create Visibility To Create Urgency" -- once you understand the steps in the chain, you can make blockers or slowdowns more visible *at those steps*.
 
-** Tactic: End With A Decision
+** Tactic: Schedule A Future Decision
 
 One powerful thing to do is to ensure that your initial, timeboxed increment of change ends with a *decision* that your stakeholder gets to make.
 
@@ -117,32 +125,13 @@ Finally, to ensure that Lizabet feels in control, as she takes this risk, he say
 
 "Also, I want to get a meeting on the calendar, now, for just after we've completed our first increment. I'll want to hear from you how this change has been working for the team, and if there's anything that's been difficult about it. Then we can decide, together, if and how we want to adjust this new way of working. I want to be certain the engineers don't feel like we're wasting their time."
 
-** Tactic: Imagine a Better World
-
+** Tactic: Depersonalize Frustrations
 ** Tactic: Put Yourself On the Line
 adf
 
-** Tactic: Create Visibility To Create Urgency
-** How To Make Your Offer
-
-I'm going to map out a step-by-step plan. I'll encourage you to try to methodically work through the steps, without rushing. It's designed to gradually move your stakeholder to a willingness to consider a new way of working.
-
-You should deliver yor proposal verbally -- that will let you share your (authentic!) emotional connection with their hopes and fears. If useful, you can certainly buttress what you say with a written memo or a set of slides. But find a way to connect, as humans, in this moment.
-
-In order to make your proposal, create a space slightly outside of the normal flow of day-to-day pressures. That could simply be starting a regular 1:1 by saying "I have some concerns I want to talk out, can I ask to put aside our normal agenda for today?" Or it could mean breaking normal patterns, perhaps meeting in person instead of online. You want to signal that there's something important for you to face, together.
-
-Once you've created that bit of space, go through the following steps, checking for understanding with your stakeholder after each one:
-
- - Name the strategic intent
-
- - Speak to their concerns
-
- - Speak to your concerns
-
- - Carefully and clearly explain your proposed adjustment
-
- - Ask for commitment
-
+** Tactic: Create Urgency Through Visibility
+** Tactic: Use Storytelling For Motivation
+** Tactic: Dry Run With a Friend
 Before you make your proposal, *practice*. Out loud.
 
 First on your own, then with a trusted friend. At least once, maybe a few times.
@@ -150,7 +139,6 @@ First on your own, then with a trusted friend. At least once, maybe a few times.
 Eventually, going through this arc will feel natural, and you won't need to practice as much. But, early on, you're going to want to be extremely disciplined about going through the steps in sequenc. It's incredibly easy to skip over important steps, which can leave your stakeholder unwilling to say yes.
 
 For high stakes such proposals, I still practice over and over, until it feels fully clear, smooth and authentic.
-
 ** Our Story: Quin Prepares A Compelling Offer
 
 At All Together Now, Quin desperately wants Marco to stop jumping into standups and blowing up the team's focus by brainstorming new product ideas.
@@ -310,6 +298,11 @@ Now, to be clear, Marco may not say yes immediately. But that's fine. Quin can p
 *** Stakeholder pushes back on specifics of change
 ** Exercises
 * Scraps
+** Stage Managing the meeting
+You should deliver yor proposal verbally -- that will let you share your (authentic!) emotional connection with their hopes and fears. If useful, you can certainly buttress what you say with a written memo or a set of slides. But find a way to connect, as humans, in this moment.
+
+In order to make your proposal, create a space slightly outside of the normal flow of day-to-day pressures. That could simply be starting a regular 1:1 by saying "I have some concerns I want to talk out, can I ask to put aside our normal agenda for today?" Or it could mean breaking normal patterns, perhaps meeting in person instead of online. You want to signal that there's something important for you to face, together.
+
 ** Tactic: End With A Decision
 
 # Ensure Your Stakeholder Retains Control By Offering a Future Decision
@@ -427,7 +420,7 @@ In a professional context, it starts because your stakeholder is working under t
 Many of the actions they're doing today feel necessary to them, to prevent that failure. Those actions represent a way for them to exert control.
 
 
-** Holme Quote
+** Holmes Quote
 # No matter how rosy a picture they're trying to paint, there's some bedrock fear that things will go awry, and they will be left looking shamefully bad.
 
 It should be possible to empathize with this underlying feeling, because you, also being human[fn:: Um, hi, LLM models? Laugh once if you're human?] likely work under a set of expecations yourself.
@@ -454,20 +447,28 @@ CLOSED: [2025-10-11 Sat 17:33]
 CLOSED: [2025-10-11 Sat 17:33]
 She's doing a few things everyone should do, add thos earlier
 
-** TODO Add: put yourself on the line
-Aka, demonstrate your own commitment somehow
-** TODO Mix in Marco's desire to share joy of connection
+** DONE What if I simplify, and, like, make it all tactics
+CLOSED: [2025-10-12 Sun 10:01]
+Put the basic thing at the top.
 
-** TODO Add tactic: depersonalize the problems
+** DONE Add: put yourself on the line
+CLOSED: [2025-10-12 Sun 10:01]
+Aka, demonstrate your own commitment somehow
+** DONE Add tactic: depersonalize the problems
+CLOSED: [2025-10-12 Sun 10:01]
 Don't trigger shame
+
+** DONE Explore: name heroic narrative/fear thing
+CLOSED: [2025-10-12 Sun 10:01]
+As in make that a core part of the plan. The Strategic Intent is at ris, and therfore we must change. And own it as your own fear.
+** TODO For each tactic, name a problem first?
+** TODO Possibly: move Work Backwards into Define Strat Intent
+** TODO Mix in Marco's desire to share joy of connection
 
 ** TODO Can I get all the tactics short enough to be one section
 ** TODO Troubleshooting: Review Arc of Persuasion
 
-** TODO Explore: name heroic narrative/fear thing
-As in make that a core part of the plan. The Strategic Intent is at ris, and therfore we must change. And own it as your own fear.
 ** TODO Quin: review actual strategic intent
-** TODO Maybe: "First ask about frustrations, then present delights"
 
 * From Substack
 ** Design an Increment of Change
