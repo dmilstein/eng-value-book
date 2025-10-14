@@ -6,11 +6,11 @@
 * Prepare a Compelling Offer
 ** The Steps In A Compelling Offer
 
-You've defined a Strategic Intent that your stakeholder cares about. You have a shared long-term goal you can speak to, and an understanding of how your work contributes to that goal.
+You've defined a Strategic Intent that your stakeholder cares about. Thanks to that work, you have a shared long-term goal you can speak to. You have a high-level understanding of how your work contributes to that goal.
 
-You've taken the time to develop an empathetic understanding of their key emotions. You can speak with empathy to the situation they find themselves in. You can identify frustrations that they want smoothed away. You can name things they want, that they feel like they're not getting.
+You've taken the time to develop an empathetic understanding of your stakeholder's key emotions. You can speak with empathy to the situation they find themselves in. You can identify frustrations that they want smoothed away. You can name things they want, that they feel like they're not getting.
 
-You're ready to define a specific request for change, and then wrap that up in a compelling offer.
+You're ready to define a specific request for change, and turn that into a compelling offer.
 
 When you deliver that compelling offer, you'll go through four steps:
 
@@ -24,7 +24,7 @@ When you deliver that compelling offer, you'll go through four steps:
 
 3. *State your own concerns*
 
-   You'll do so directly and clearly, but in a way which doesn't trigger defensiveness
+   You'll do so directly and clearly, but in a way that doesn't trigger defensiveness
 
 4. *Propose an incremental adjustment in how you work together*
 
@@ -36,37 +36,82 @@ When you deliver that compelling offer, you'll go through four steps:
 
     - Move you both a little closer to your shared long-term goals
 
-Be ready to spend some real time preparing  your offer. In my experience, even once you have all the pieces, there ususally isn't an immediately obvious way proceed. It takes time to come up with something crisp, clean and compellings. Talk to some friends about good patterns of work, test out your thinking with people you trust. Sleep on it, and see if any new ideas come to you the next day.
+Be ready to spend time preparing your offer. Even once you have all the pieces, it can often feel like there's no obvious way to proceed. It takes time to come up with something crisp, clean and compellings. Talk to some friends about good patterns of work, test out your thinking with people you trust. Sleep on it, and see if any new ideas come to you the next day.
 
-To support you in the work, I'm going to list a set of tactics, along with examples to bring them to life. For each tactic, I'll list the kind of problems it can help address.
+To support you in the work, I'm going to list a set of tactics you can consider. For each, I'll name the kind of problems it helps address, along with a brief narrative example to bring it to life.
 
 Feel free to dip in an out of these.
 
 You'll find more ideas in the second half of the book, in the case studies.
 
-** Tactic: Timebox The Adjustment
+** Tactic: Propose a Timebox
+
 Problem: your stakeholder is reluctant to consider a change in their behavior.
 
 Tactic: ask your stakeholder to try changing their behavior for an initial, limited period of time. Commit to reviewing how that's going for them, at the end of that period of time.
 
-It's *much* easier for a stakeholder to say "yes" to a request to try something that  ay feel "slightly uncomfortable" for a few weeks, than it is to agree to change their behavior indefinitely (aka, /forever/).
+If your request feels slightly uncomfortable for your stakeholder (as it often will), t's *much* easier for thems to say "yes" if you're asking for a few weeks, than it is to agree to change their behavior indefinitely.
 
-Once you get a commitment to try something new for a short period of time, you can then work to ensure that, at the end of that initial period, the stakeholder experiences things as going well.
+If you can get a commitment to try something new for a short period of time, you can then work to ensure that, at the end of that initial period, the stakeholder experiences things as going well.
 
 Example:
 
-Louisa is a staff engineer. One of her key responsibilities is conducting periodic architecture review sessions with teams in her domain. Unfortunately, her CTO, Dave, has developed a frustrating habit of "dropping by" those review sessions and offering half-baked ideas (Dave always /starts/ by saying "Can I ask a question?", but somehow his questions all end up being thinly veiled suggestions). This pattern is both undercutting Louisa's authority *and* sending the teams down a succession of blind alleys (he's the CTO! His suggestions seem really important!).
+Louisa is a staff engineer, and a key part of her job is conducting regular architecture review sessions with teams in her domain. Unfortunately, her CTO, Dave, has developed a frustrating habit of "dropping by" those architecture reviews and offering a series of half-baked ideas (he always /starts/ by saying "Is okay if I ask a question?", but somehow his questions all end up turning into thinly veiled suggestions). These interruptions are undercutting Louisa's authority *and* sending the teams down a succession of blind alleys (he's the CTO! His suggestions seem really important! But he doesn't know what he's talking about in her area!).[fn:: "Wait, Dan, I just remembered: *you've* been a CTO. Did your directs, like, ask you to stop talking at architecture reviews at some point?" Um... maybe we should just move on.]
 
-She could simply say, "Dave, please stop speaking up in the review sessions." Or, even "Dave, please stop coming to those sessions." But both of those feel like big asks to make, and she's worried he'll push back. Also, he does, in fact, need to be able to ask questions in order to stay on top the evolving architecture of their systems. She also knows Dave likes observing his teams at work, seeing who is stepping up, who is struggling.
+She tries to imagine herself saying: "Dave, please stop speaking up during architecture reviews." Or, even: "Dave, please just stop coming to those sessions." But she gets an immediate pit in her stomach at the thought. Both of those feel like uncomfortably aggressive demands.
 
-She decides to frame it as: "Dave, I'd like to ask to try something out for our next two sessions. If you're okay with it, I'll ask you to *just* listen and take notes. I'll meet with you immediately after each session, to dig into any questions you have, and to get your feedback on both the team and the architecture. After the first two sessions, we can see how it's going. I think this could help with <long-term goal X>..."
+After talking it out with a friend, she decides to instead frame it as: "Dave, I'd like to ask if we can try something new out for our next two sessions. If you're okay with it, I'll ask you to *just* listen and take notes. I'll meet with you immediately after each session, to dig into any questions you have, and to get your feedback on both the team and the architecture. After the first two sessions, we can see how it's going."
 
-That's a lot easier to ask. It positions the adjustment as a sort of "shared experiment" they're entering into together, instead of a demand that Louisa is making. It's an ask for just two sessions, not forever.
+That positions the adjustment as a sort of "shared experiment" they're entering into together, instead of a one-sided demand that Louisa is making. It's much easier for Dave to say yes to it, because he knows that, if it's not working for him, he only has to try it twice.
 
-Committing to meet with him after each session is an example of the Put Yourself On the Line tactic. Asking for his feedback on the team and the achitecture is an example of Find Wins From Feelings.
+Other tactics she's using:
+
+ - Put Yourself On the Line: she personally commits to spending extra time with him after each session.
+
+ - Keep 'Em Busy: instead of just telling Dave to stop attending and/or talking, she asks him to *do something* specific (take notes so he can give feedback on the team and the architecture)
+
+ - Find Some Wins: she creates a new opportunity for sharing team/architecture feedback (which knows Dave finds meaningful)
 
 ** Tactic: Shrink Your Ask
-** Tactic: Find Wins From Feelings
+
+Problem: A better way of working has a lot of moving parts, and you can't see a way to implement it all at once.
+
+Tactic: Shrink your ask to implementing just a *part* of that better way to work.
+
+Often, this will mean that your first adjustment won't make a big difference in fixing *your* frustrations. But if you can draw your stakeholder into steady collaborative improvements, you can then layer in the other pieces of the puzzle.
+
+Example:
+
+Oliver is an engineering director, leading a half-dozen teams who maintain his company's backend fulfillment systems. This quarter, he's working with his product peer, Alicia, on building a new, complex integration with a key strategic partner, that will allow his company to offer customers faster delivery times. Unfortunately, his team is barely making any progress, because they're swamped by issues reported by the fulfillment ops teams using the existing systems.
+
+Oliver wants to put in place a new triage process to handle those issues. He believes doing so will create two benefits:
+
+ - First, he'll be able to force explicit tradeoffs between handling current issues and building the new integration
+
+   Currently, the engineers are sort of vaguely expected to just get it all done, aka make their own, local decisions about how to spend their time.
+
+ - Second, he can create motivation to clean up some problematic bits of old code
+
+   He strongly suspects there are a couple of places in their legacy systems that are responsible for most of the issues. But he doesn't know which parts, and so he can't make a case to Alicia other than "Update all our legacy systems", which is a total non-starter. By centralizing bug handling through a triage process, he has a shot at identifying what to fix.
+
+Unfortunately, there are multiple changes he'd need to put in place before he'd see those benefits: he'd have to persuade Alicia to spend political capital to push the ops teams into this new triage process; he'd have to figure out how to link ops team-reported issues to the code that caused each problem (often far upstream of the reported issue); he'd need to carve out time to fix those underlying problems.
+
+After a few weeks of feeling stuck, he decides to just get started with something small. He asks Alicia to join him in a new, weekly 30 minute meeting with his engineering leads. He asks each lead to bring to that meeting:
+
+ - A rough estimate of how much time their engineers spent dealing with ops team issues that week
+
+ - The top 2-3 "themes" of those issues
+
+That's it. They can get going with that right away. Note: it won't free up any time (in fact, it means his tech leads have to do something new). But it is a meaningful first step towards setting up that triage process. It build alignments with Alicia on both the value of reducing time spent on issues (because she can now see just how much time the engineers are spending), *and* on some ways she and Oliver could reduce that time (if they can identify a small number of themes which drive most of the issues, they can make a targeted technical investment to clean up those underlying problems).
+
+It also gets Oliver closer to the triage meeting he ultimately wants. To get all the way there, he could gradually expand on that initial 30 minute meeting, layering in the other parts of how he thinks the triage could/should work.
+
+This tactic pairs well with both Propose a Timebox, and Create Urgency Through Visibility (in the above, Oliver is essentially creating a form of visibility).
+
+
+
+** Tactic: Find Some Wins
+Problem: Your stakeholder is a human being and doesn't want to change their behavior.
 
 # Don't fall into trap of thinking of wins as just sourced from what they're asking for.
 
@@ -74,40 +119,53 @@ Beyond speaking to the long-term goals, you want to pair your request for a chan
 
 If there is seemingly /nothing/ frustrating for your stakeholder, and they seem to have no strong desires, see the later section on "Creating Urgency".
 
-** Tactic: Reassure Key Fears
-Your stakeholder will often be afraid that, if things change, they'll lose something they currently value or enjoy.
 
-You want to know what they might be afraid of losing, so that you can carefully address that in your request for change. Sometimes that means reassuring then that they won't lose that thing, sometimes it means supplying them with an alternative. And sometimes it means directly asking them to give it up, but doing so clearly and with empathy.
+** Tactic: Keep 'Em Busy
+** Tactic: Address Fears Directly
 
-** Tactic: Connect Now To Later
+Problem: There's something your stakeholder *likes* about the current way of working, and they're going to hear a request for change as having to give that up.
 
-Work Backwards With Whys
+Tactic: carefully and explicitly address this in your request for change. If you can, make clear to them that they'll still get that benefit, possibly in a new way. If, on the other hand, they do just have to give something, make that very clear and express your empathetic understanding.
 
-In order to both motivate your stakeholder, *and* to identify small changes that could matter, it can be very powerful to develop a chain of logical steps that connect the work your team is doing, right now, to what your business is trying to achieve, a year or more from now (the strategic intent you've extracted from your stakeholder)
+** Tactic: Link Your Frustrations To Goals
+
+Problem: Your stakeholder doesn't seem to hear your concerns as valid or important. They don't understand why the problems that frustrate you matter for the business.
+
+Tactic: use a form of "5 Whys" to develop a chain of consequences that shows how your day-to-day frustrations, if left unchecked, will eventually impact your company's long-term goals.
+
+# Then, find ways to make early challenges in proceeding through those steps *visible*, using the Create Urgency Through Visibility tactic.
+
+# In order to both motivate your stakeholder, *and* to identify small changes that could matter, it can be very powerful to develop a chain of logical steps that connect the work your team is doing, right now, to what your business is trying to achieve, a year or more from now (the strategic intent you've extracted from your stakeholder)
 
 # Lay out the steps in a logical chain that lead from what your team is doing, right now, to what your business is trying to achieve, a year or more from now.
 
-That will allow you to see how small changes in how you work with your stakeholder could increase the odds (even slightly) of the business achieving those long-term goals.
+# That will allow you to see how small changes in how you work with your stakeholder could increase the odds (even slightly) of the business achieving those long-term goals.
 
-However, it can sometimes feel very difficult to see the impact of our day-to-day work on some distant goal.
+# However, it can sometimes feel very difficult to see the impact of our day-to-day work on some distant goal.
 
-One way to break this down is to start by simply naming the immediate frustration you're experiencing, and then asking "Why is this a problem for the business?".
+Do this initial work by yourself or with a trusted friendd. Start by naming the immediate frustration you want to work on. Then ask "Why is this a problem for the business?"
 
-Then, whatever answer you come up with, ask that same "Why" question again. Keep doing that, over and over, until you eventually arrive at the strategic intent you've extracted from your stakeholder. If you can't get there, talk to some people, keep refining your understanding of the business.
+Whatever answer you come up with, ask that same "Why" question again. Keep doing that, over and over, until you eventually arrive at the strategic intent you've extracted from your stakeholder. If you can't get to the strategic intent, talk to some people, keep refining your understanding of the business. You may even end up realizing that your current frustrations *aren't* that important (this isn't bad! It will let you focus your advocacy on things that do matter).
 
-For example, meet Sagar, the engineering lead on a sprint team.
+# That chain should not only show the importance of dealing with your frustrations, it should also help identify some leading indicators, which you can then target for creating visibility.
 
-Sagar is getting more and more frustrated, because the sales team keeps pestering him and his team with an endless series of 'urgent' new feature requests. When a sales rep doesn't get an immediate response, they relentlessly ping Sagar to "check for status". Last month, at the company party, Sagar saw Jordy, a sales rep, striding towards him with a big grin on his face, and Sagar had an overwhelming desire to run away, out of fear that Jordy would try to browbeat him into working on Jordy's pet feature.[fn:: He was right.]
+Example:
 
-Sagar has been trying to get his product manager, Emily, to step in and wrangle the sales team, but, so far, she's been unwilling to do so. He's decided that, for his current bid for incremental improvement, Emily is his stakeholder.
+Sagar is the engineering lead on a sprint team. Unfortunately, the sales reps at his company keep pestering him with an endless series of new feature requests. When a sales rep doesn't get an immediate response, they ping Sagar over and over to "check for status". Last month, at the company party, Sagar saw Jordy, a sales rep, striding towards him with a big grin on his face, and Sagar had an overwhelming desire to run away.
 
-He has extracted a meaningful strategic intent from her: their company needs a new product in order to keep growing revenue, and Sagar's team's work is a part of trying to develop that product.
+# , out of fear that Jordy would try to browbeat him into working on Jordy's pet feature.[fn:: He was right.]
 
-How can he map the steps in the chain? Let's ask "Why".
+# Sagar has been trying to get his product manager, Emily, to step in and wrangle the sales team, but, so far, she's been unwilling to do so. He's decided that, for his current bid for incremental improvement, Emily is his stakeholder.
 
-  - Why is it a problem for the business that the sales team keeps interrupting engineers with 'urgent' feature requests?
+Jordy has extracted a meaningful strategic intent from his product peer: their company needs a new product in order to keep growing revenue, and Sagar's team's work is a part of trying to develop that product.
 
-    /Because it's distracting the engineers/
+How can Jordy connect his day-to-day frustrations to longer-term company goals?
+
+Here is the 5 Whys he works out with a friend who is a tech lead on adjacent team:
+
+  - Why is it a problem for the business that the sales team keeps interrupting Sagar with 'urgent' feature requests?
+
+    /Because it's distracting him and the other engineers/
 
   - Why is it a problem for the business that the engineers are distracted?
 
@@ -119,7 +177,7 @@ How can he map the steps in the chain? Let's ask "Why".
 
   - Why is it a problem for the business if it takes a little longer to build those prototypes?
 
-    /Because we need to test those prototypes with customers before we can find our next product opportunity/
+    /Because the ProdDev teams need to test those prototypes with customers before we can find our next product opportunity/
 
   - Why is it a problem for the business if it takes a little longer to find our next product opportunity?
 
@@ -129,11 +187,13 @@ How can he map the steps in the chain? Let's ask "Why".
 
     /Because top-line revenue growth has stalled, and the company needs to show more growth by our next funding round, which is fast approaching, and we can only show more growth if the sales team has something new to sell/
 
-With that end-to-end understanding in hand, Sagar can *authentically* explain how a small reduction in the frequency of interruptive requests from the sales team can, in a small but real way, increase the odds of the company achieving its long-term goals.
+With that end-to-end understanding in hand, Sagar can *authentically* explain how a small reduction in the frequency of interruptive requests from the sales team can, in a small but real way, increase the odds of the company achieving its long-term goals. And, conversely, he can show how every week they *don't* fix that broken pattern, they're drifting further behind on their most important goals.
 
-Having all those specific steps gives him much more clear ammunition than just a vague sense that they're not working fast enough. It also pairs well with "Create Visibility To Create Urgency" -- once you understand the steps in the chain, you can make blockers or slowdowns more visible *at those steps*.
+Having all those specific steps gives him much more clear ammunition than just a vague sense that they're not moving fast enough.
 
-** Tactic: Schedule A Future Decision
+That chain of consequences can also help Sagar define *leading indicators*: near-term outcomes that his team can only achieve if they get the sales reps to stop blowing up his focus. In this case, that's delivery of early prototypes. Having some options for leading indicators sets him up to use the Create Urgency Through Visibility tactic.
+
+** Tactic: Set A Future Decision
 
 One powerful thing to do is to ensure that your initial, timeboxed increment of change ends with a *decision* that your stakeholder gets to make.
 
@@ -148,10 +208,24 @@ Finally, to ensure that Lizabet feels in control, as she takes this risk, he say
 "Also, I want to get a meeting on the calendar, now, for just after we've completed our first increment. I'll want to hear from you how this change has been working for the team, and if there's anything that's been difficult about it. Then we can decide, together, if and how we want to adjust this new way of working. I want to be certain the engineers don't feel like we're wasting their time."
 
 ** Tactic: Depersonalize Frustrations
+
+Problem: You need to ask your stakeholder to change some (objectively) frustrating behavior, but if they feel at all attacked, they shut down.
+
+Tactic: Find a way to move the "problem" away from them, into the situation, so they're not feeling personally attacked.
+
 ** Tactic: Put Yourself On the Line
-adf
+
+Problem: You're stakeholder is reluctant to commit.
+
+Tactic: Make clear that you're willing to work extra hard to make this work.
 
 ** Tactic: Create Urgency Through Visibility
+
+Problem: Your stakeholder seems to accept that your frustrations matter... but they keep putting off dealing with them.
+
+Tactic: Make your early drift off course visible, so that you can attack it together.
+
+# Use an example around security
 ** Tactic: Use Storytelling For Motivation
 ** Tactic: Dry Run With a Friend
 Before you make your proposal, *practice*. Out loud.
@@ -440,7 +514,6 @@ Once you get a commitment to temporarily try something new, you can then work to
 In a professional context, it starts because your stakeholder is working under the burden of some set of expectations -- from their boss, their board of directors, their peers, their spouse, even themselves. They will have a looming, background feeling that if they should fall short of those expecations---by failing to deliver, by missing stated or unstated goals---they will have *failed*. Actually, it's worse. Their fear is that, in those bad cases, they themselves will have *become a failure*. [fn:: It's possible I have known billionaires who struggled to sleep at night, out of the fear that everything they had buit was eroding in front of their eyes.]
 
 Many of the actions they're doing today feel necessary to them, to prevent that failure. Those actions represent a way for them to exert control.
-
 
 ** Holmes Quote
 # No matter how rosy a picture they're trying to paint, there's some bedrock fear that things will go awry, and they will be left looking shamefully bad.
