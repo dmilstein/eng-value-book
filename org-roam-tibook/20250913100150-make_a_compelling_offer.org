@@ -188,8 +188,17 @@ Dylan gets more and more worried. He drafts a long, ranting email to Thomson, ab
 
 Finally, he comes up with a plan. He realizes that, although no one intended it, there's a specific exception that gets recorded in the logs, every time a nightly job finishes for a customer. He throws together a couple of parsing and summing scripts, puts the resulting data into a graph, and sits down with Thomson to review what he's found. Dylan is able to show Thomson that the finish time for the largest nightly jobs has been steadily creeping later and later. It very much looks like, if they add a few more customers with large data sets, those finish times will land after start of business, meaning customers will be dealing with stale data. This is a Very Bad Thing, for their particular business.
 
-Thomson emerges from that meeting ready to talk to both his product peer and his boss about carving out some time to dig into what, exactly, is causing imports to run so late.
+Thomson emerges from that meeting ready to talk to both his product peer and his boss about carving out some time to dig into what, exactly, is causing imports to run so late. He's willing to do so *both* because he can see the risks of waiting, but also because he, *and his stakeholders*, can now see the value of incremental investments. If they can do a little bit of work and push the "stale data in the morning" moment further out into the future, that's a real win. If they can do a little bit more and fix issues just for a few big customers, that's an interesting option. And, as they do each of those things, everyone concerned will be able to *see* the value created.
 
+Note: this tactic can be used in a wide variety of contexts, not just ones where precise measurements are available.
+
+Is your team constantly stuck waiting on dependencies? Create visibility by regularly estimating how much time each work stream spends in a wait state, and therefore how much overall time is being added to individual projects.[fn:: Don't fall into the trap of estimating how much time each engineer is waiting. The problem isn't that your engineers are waiting, it's that the work isn't advancing. To quote Don Reinertsen: Watch the work product, not the worker.]
+
+Is your team somehow failing to carve out time to do some early technical exploration as a first step in a large project? Create a visible, near-term milestone where your key stakeholder gets to review learnings, and help decide among a set of options. Now delays in this "early" part of a project are clear much more quickly.
+
+Creating visibility is one of my very favorite tactics. It pairs beautifully with Link Your Frustrations To Goals, with Shrink Your Ask, with Propose a Timebox.
+
+Ultimateluy, I think the act of creating visibility is so profoundly helpful for getting unstuck, because it enables you and your stakeholder to literally *see* the world in the same way.
 
 # Use an example around security
 ** Tactic: Depersonalize Frustrations
