@@ -182,33 +182,66 @@ Tactic: Create visibility into the early impact of the underlying problems, so t
 
 Example:
 
-Dylan is a senior engineer on a team that maintains the data ingestion pipeline for his company, which pipeine imports customer data in bulk on a nightly basis. Dylan is growing more and more worried about how his team's systems will handle the increasing load as their customer base grows (and as they acquire some customers with very large data sets). His team lead, Thomson, agrees that the current pipeline is pretty hairy and will need some reworking at some point. Unfortunately, Thomson keeps on telling Dylan that that point is absolutely not now. The team was handed a top-down OKR to plumb some new data types through, and therefore new data types is all Thomson is willing to talk about.
+Dylan is a senior engineer on a team that maintains the data ingestion pipeline for his company, which imports customer data in bulk on a nightly basis. Of late, Dylan has been growing more and more worried about how his team's systems will handle the increasing load as their customer base grows (and as they acquire some customers with very large data sets). His team lead, Thomson, agrees that the current pipeline is pretty hairy and will need some reworking at some point. Unfortunately, Thomson keeps on telling Dylan that that point is absolutely not now. The team was handed a top-down OKR to plumb some new data types through the pipeline, and therefore new data types is all Thomson is willing to talk about.
 
-Dylan gets more and more worried. He drafts a long, ranting email to Thomson, about how the top-down OKR's are ignoring the context of the team. He (wisely) decides to not send that email.[fn:: It's possible that he keeps the email draft around so that he can periodically reread it to make himself feel better.] He starts to spend time in the evenings trawling through random logs, looking for problems.
+Dylan gets more and more worried. One afternoon, he drafts a long, ranting email to Thomson, about how the top-down OKR's are ignoring the context of the team. The next morning, he (wisely) decides to not send that email.[fn:: he keeps the email draft around so that he can periodically reread it to make himself feel better.] He starts to spend time in the evenings trawling through random logs, looking for problems.
 
-Finally, he comes up with a plan. He realizes that, although no one intended it, there's a specific exception that gets recorded in the logs, every time a nightly job finishes for a customer. He throws together a couple of parsing and summing scripts, puts the resulting data into a graph, and sits down with Thomson to review what he's found. Dylan is able to show Thomson that the finish time for the largest nightly jobs has been steadily creeping later and later. It very much looks like, if they add a few more customers with large data sets, those finish times will land after start of business, meaning customers will be dealing with stale data. This is a Very Bad Thing, for their particular business.
+Finally, he comes up with a plan. He realizes that, although no one intended it, there's a specific exception that gets recorded in the logs, every time a nightly job finishes for a customer. He throws together a couple of parsing and summing scripts, puts the resulting data into a graph, and sits down with Thomson to review what he's found. Dylan is able to show Thomson that the finish time for the largest nightly jobs has been steadily creeping later and later. It looks like, if they add just a few more customers with large data sets, those finish times will land after start of business, meaning customers will be dealing with stale data. This is a Very Bad Thing, for their particular business.
 
-Thomson emerges from that meeting ready to talk to both his product peer and his boss about carving out some time to dig into what, exactly, is causing imports to run so late. He's willing to do so *both* because he can see the risks of waiting, but also because he, *and his stakeholders*, can now see the value of incremental investments. If they can do a little bit of work and push the "stale data in the morning" moment further out into the future, that's a real win. If they can do a little bit more and fix issues just for a few big customers, that's an interesting option. And, as they do each of those things, everyone concerned will be able to *see* the value created.
+Thomson emerges from that meeting ready to talk to both his product peer and his boss about carving out some time to dig into what, exactly, is causing imports to run so late.
+
+Note: he's willing to do so *both* because he can see the risks of waiting, but also because he, *and his stakeholders*, can now see the result of various kinds of incremental investments. If they can do a little bit of work and delay the arrival of the "stale data in the morning" moment, that's a real win. If they can do a little bit of work and fix issues just for a few big customers, that might be a real win. And, as they do each of those things, everyone concerned will be able to *see* the value created.
 
 Note: this tactic can be used in a wide variety of contexts, not just ones where precise measurements are available.
 
-Is your team constantly stuck waiting on dependencies? Create visibility by regularly estimating how much time each work stream spends in a wait state, and therefore how much overall time is being added to individual projects.[fn:: Don't fall into the trap of estimating how much time each engineer is waiting. The problem isn't that your engineers are waiting, it's that the work isn't advancing. To quote Don Reinertsen: Watch the work product, not the worker.]
+Is your team constantly stuck waiting on dependencies? Create visibility by regularly estimating how much time each work stream spends in a wait state, and therefore how much overall time is being added to individual projects.[fn:: Don't fall into the trap of estimating how much time each engineer is waiting. The problem isn't that your engineers are waiting, it's that the work isn't advancing. Sayeth Don Reinertsen: Watch the work product, not the worker.]
 
 Is your team somehow failing to carve out time to do some early technical exploration as a first step in a large project? Create a visible, near-term milestone where your key stakeholder gets to review learnings, and help decide among a set of options. Now delays in this "early" part of a project are clear much more quickly.
 
+Is your CEO's desire to sit in on all customer interviews stalling out the product team's ability to learn? Start tracking the number of customer interviews each week, and make this friction clear.
+
 Creating visibility is one of my very favorite tactics. It pairs beautifully with Link Your Frustrations To Goals, with Shrink Your Ask, with Propose a Timebox.
 
-Ultimateluy, I think the act of creating visibility is so profoundly helpful for getting unstuck, because it enables you and your stakeholder to literally *see* the world in the same way.
+Ultimately, I think the act of creating visibility is so profoundly helpful for getting unstuck, because it enables you and your stakeholder to literally *see* the world in the same way. Which can be a deeply meaningful way to bring you together.
 
 # Use an example around security
-** Tactic: Depersonalize Frustrations
+** Tactic: Use Storytelling For Motivation
+** Tactic: Depersonalize Your Frustrations
 
-Problem: You need to ask your stakeholder to change some (objectively) frustrating behavior, but if they feel at all attacked, they shut down.
+Problem: You need to ask your stakeholder to change some frustrating behavior, but it feels like doing so will mean getting into a power struggle argument with them.
 
-Tactic: Find a way to move the "problem" away from them, into the situation, so they're not feeling personally attacked.
+Tactic: Find a way to describe the results of their behavior as a depersonalized problem for the two of you to solve together.
+
+Example
+
+Lisa is a PM in the fulfillment space, working with a key operational stakeholder: Mark Blevins, the VP of Warehousing. The Good News: Mark Blevins has worked in warehousing for almost two decades, and knows his shit inside and out. The Bad New: Mark Blevins has worked in warehousing for almost two decades, and has zero patience with anyone asking him, well, any questions whatsoever. He routinely calls Lisa and demands that she commit to fixing some existing workflow, asap. When she tries to ask basic questions around what warehouse ops metrics that will improve, he cuts her off and says "Look, I don't need all that crap. If I'm telling you we have to fix receiving, then we have to fix receiving. Okay?" And then hangs up.
+
+Lisa hasn't had to deal with many stakeholders who take a request for business metrics as a personal affront. She is good and completely stymied for a while. She *wants* to solve problems with Mark, but if she can't get him to give her some basic operational metrics, how is she ever going to do her job? She has to make prioritization decisions, she has to set goals for her teams, she has to understand what Mark is trying to do. She can't just tell her engineers to run around and do whatever he asks.
+
+She imagines confronting Mark about this directly: "Look, if you refuse to give me metrics that are tied to these operations, I won't prioritize this work." It just feels like an invitation to a power struggle. She can hardly hope to be successful if she can't draw Mark into *some* kind of collaboration.
+
+Finally, she has an inspiration. If she can position the problem as "outside" of Mark, and invite him to solve the problem with her, she could maybe make *some* headway. She does a little prep, and in their next meeting, she says: "Mark, I'm really eager to work on the receiving issues you talked about. I was getting ready to get the engineers started on it, but then I realized: there have been a bunch of times the engineers worked on some warehouse process, but, well, they didn't fully understand it, and the end result didn't work for you and your team. I hate when that happens. If they got this one right, how would we tell? Or, if they messed up, what would tell you that? I want to make sure I can keep them on track, so that we're not wasting your time."
+
+Mark gruffly agrees that there have been too many failed launches. He says "Well, it's mostly UPH on the receiving line, but it's also exception count, per day. Our exceptions are getting out of hand, we have to keep that under control."
+
+And lo, she's got a line on the things he really cares about.
+
+One trick that Lisa used was to "play low status": she suggested that she and the engineers needed Mark's help, which made it easy for him to be the hero. It also makes it difficult for him to tell her she's *wrong* (he could say "The engineers should know how those processes work!", but she can just nod her head and sigh and say "Man, I wish they did! But we're just not there yet").
+
+The other version of this which literally every experienced PM has used at some point is to say "I so *wish* I could prioritize this, but I'm going to have to convince all those other VP's, who are demanding lots of other stuff. I'm sure their demands aren't anywhere near as important as yours. Can you think of anything I can say that will help make the case?"
+
+
+
+
+
+
+
+
+
 
 ** Tactic: Find Wins For Your Stakeholder
-Problem: Your proposed adjustment doesn't make things better for your stakeholder, in the short-term.
+
+Problem: You can't figure out a way for your adjustment to make things better for your stakeholder, in the short-term.
 
 # Don't fall into trap of thinking of wins as just sourced from what they're asking for.
 
@@ -243,7 +276,6 @@ Problem: You're stakeholder is reluctant to commit.
 
 Tactic: Make clear that you're willing to work extra hard to make this work.
 
-** Tactic: Use Storytelling For Motivation
 ** Tactic: Dry Run With a Friend
 Before you make your proposal, *practice*. Out loud.
 
