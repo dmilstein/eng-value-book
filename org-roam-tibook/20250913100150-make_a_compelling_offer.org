@@ -232,23 +232,34 @@ Note that a trick she used was to "play low status": she suggested that she and 
 
 This is a form of what Chris Voss calls Calibrated Questions, in Never Split the Difference.
 
-
-
-
-
-
-
-
-
 ** Tactic: Find Wins For Your Stakeholder
 
-Problem: You can't figure out a way for your adjustment to make things better for your stakeholder, in the short-term.
+Problem: You can't figure out a way for your adjustment to improve things for your stakeholder in the near-term. Try as you might, you don't see how to address your frustration in a way that *directly* benefits them.
 
-# Don't fall into trap of thinking of wins as just sourced from what they're asking for.
+Tactic: Find some win for them that you *can* offer, even if it's not strictly necessary for your adjustment.
 
-Beyond speaking to the long-term goals, you want to pair your request for a change with an offer to improve *something* for them. That could be removing something that is actively frustrating them, or promising to give them something that they want, but aren't currently getting.
+This is where having a map of their emotions really pays off: you can almost always find some win they'll care deeply about, by digging into their frustrations, fears, delights & dreams.
 
-If there is seemingly /nothing/ frustrating for your stakeholder, and they seem to have no strong desires, see the later section on "Creating Urgency".
+You can find adjustments that:
+
+ - Smooth away some frustration
+
+ - Create reassurance about some long-term fear
+
+ - Provide something they deeply want, but haven't been getting
+
+ - Build towards their long-term dreams
+
+A key: don't fall into trap of thinking of wins as just sourced from what they're explicitly asking for. You often *can't* give them what they're directly asking for. But you can solve for the underlying problems they're struggling with.
+
+Example:
+
+Timothy and Marguerite are product and engineering leads for a team. They have an excellent, high trust relationship. Unfortunately, they really struggle with Timothy's boss, Tina, the VP of Product. Tina will quote Marty Cagan at length about empowered teams, but somehow can't let Timothy and Margeruite make a single decision on their own.
+
+They need her to step back -- but that's not going to immediately give her anything she wants. They know that one of her favorite things is <something>, and also that she has a a fear of replicating the irritating behavior of their CEO.
+
+
+If there is seemingly /nothing/ frustrating for your stakeholder, and they seem to have no strong desires, take a look at both Link Your Frustrations To Goals and Create Urgency Through Visibility.
 
 ** Tactic: Keep 'Em Busy
 ** Tactic: Address Fears Directly
