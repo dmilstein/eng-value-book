@@ -205,7 +205,6 @@ Creating visibility is one of my very favorite tactics. It pairs beautifully wit
 Ultimately, I think the act of creating visibility is so profoundly helpful for getting unstuck, because it enables you and your stakeholder to literally *see* the world in the same way. Which can be a deeply meaningful way to bring you together.
 
 # Use an example around security
-** Tactic: Use Storytelling For Motivation
 ** Tactic: Depersonalize Your Frustrations
 
 Problem: You need to ask your stakeholder to change some frustrating behavior, but  doing so directly risks getting into a power struggle (because they will feel challenged)
@@ -234,32 +233,65 @@ This is a form of what Chris Voss calls Calibrated Questions, in Never Split the
 
 ** Tactic: Find Wins For Your Stakeholder
 
-Problem: You can't figure out a way for your adjustment to improve things for your stakeholder in the near-term. Try as you might, you don't see how to address your frustration in a way that *directly* benefits them.
+Problem: You can't figure out a way for your adjustment to improve things for your stakeholder. Try as you might, you don't see how to address your frustrations in a way that directly benefits them.
 
 Tactic: Find some win for them that you *can* offer, even if it's not strictly necessary for your adjustment.
 
-This is where having a map of their emotions really pays off: you can almost always find some win they'll care deeply about, by digging into their frustrations, fears, delights & dreams.
-
-You can find adjustments that:
+This is where having a map of their emotions really pays off: you can almost always find some win they'll care deeply about, by thinking through their frustrations, fears, delights & dreams. E.g. you could:
 
  - Smooth away some frustration
 
- - Create reassurance about some long-term fear
+ - Address some long-term fear
 
- - Provide something they deeply want, but haven't been getting
+ - Provide a delight they've been yearning for
 
- - Build towards their long-term dreams
+ - Move towards their long-term dreams
 
-A key: don't fall into trap of thinking of wins as just sourced from what they're explicitly asking for. You often *can't* give them what they're directly asking for. But you can solve for the underlying problems they're struggling with.
+A key: don't fall into trap of thinking of wins as just sourced from what they're explicitly asking for. You often *can't* give them what they're asking for. But you can solve for the underlying feelings they're struggling with.
+
+If you're in the challenging situation where seemingly /nothing/ is frustrating for your stakeholder, take a look at both Link Your Frustrations To Goals and Create Urgency Through Visibility.
 
 Example:
 
-Timothy and Marguerite are product and engineering leads for a team. They have an excellent, high trust relationship. Unfortunately, they really struggle with Timothy's boss, Tina, the VP of Product. Tina will quote Marty Cagan at length about empowered teams, but somehow can't let Timothy and Margeruite make a single decision on their own.
+Marguerite and Timothy are product and engineering leads for a sprint team. They have an excellent, high trust relationship with each other. Unfortunately, they really struggle with Marguerite's boss, Natalie, the VP of Product. Natalie likes to quote Marty Cagan all day about empowered teams... but somehow can't let her PM's make a single decision on their own. She's constantly asking for memos and briefs before she'll allow work to start; she overrules her PM's on decisions of every size and scope; she regularly takes over the planning meetings she attends to steer the teams herself.
 
-They need her to step back -- but that's not going to immediately give her anything she wants. They know that one of her favorite things is <something>, and also that she has a a fear of replicating the irritating behavior of their CEO.
+Over a series of fevered [heads-together, whispered, outside-of-the-office] conversations over coffees, Marguerite and Timothy have hashed out a first incremental adjustment they want to propose to Natalie: they will ask to run their team for a full month without her attending *any* of their weekly planning meetings.
 
+If they can stick with this approach for a few months, they strongly believe that they'll be able to visibly help Natalie achieve her own goals. But in the short term, they're worried it's going to feel like a major loss of control. If there's one thing they know about Natalie, it's that she really, really likes to be in control. Like, a *lot*.
 
-If there is seemingly /nothing/ frustrating for your stakeholder, and they seem to have no strong desires, take a look at both Link Your Frustrations To Goals and Create Urgency Through Visibility.
+Try as they might, they can't seem to find any way to make this *feel* like a win for Natalie. All she ever seems to ask for is more visibility, more control, more direct contact with the teams---precisely the things they're going to take away.
+
+One night, Marguerite is talking this over with her partner while they make dinner. Her partner looks up from peeling some carrots. "Look, hon, I have to ask. Is it possible you're so pissed at Natalie that you don't actually *want* to find a win for her?" Marguerite starts to protest, but trails off as the truth of it settles uncomfortably in. "Look," she says, "how about if you shut up?", and throws a cherry tomato in her partner's smug direction.
+
+The next day, before her 1:1 with Natalie, Marguerite tries to let go of some of her frustrations. She takes a few minutes to put herself in a place of curiosity. "Just treat this like a customer interview", she tell herself, "where you're prospecting for pain." Then, during the conversation, she uses her suite of tactical empathy skills to try to draw out Natalie's underlying feelings.
+
+She meets with Timothy immediately after. "Okay," she say, "I might have a few things we can work with."
+
+She lays out the two opportunities she thinks they can focus on.
+
+First, despite her behavior, it seems like Natalie actually *wants* to create empowered teams, operating with meaningful independence. That's a *dream* that she finds motivating, but feels incredibly far away from right now. She's been telling herself a somewhat confused story about how, by giving such tight direction to the teams, she's gradually coaching them up. There's a grain of truth in that, but she hasn't been able to follow through by actually stepping back, even when the teams are genuinely ready.
+
+Second, part of why Natalie keeps jumping into the planning meetings is because she misses working directly with engineers. That's a potential *delight*. Her close collaboration with engineers of every level was one of her favorite things about working as a PM. It got her mind going about product opportunities, it helped her feel grounded in terms of the tradeoffs she's pushing for. And it was just fun! Engineers are different from PM's and stakeholders, she loved staying connected with them. The planning sessions aren't actually giving her the thing she remembers loving, but Marguerite thinks that's part of what Natalie is hoping for.
+
+Timothy and Marguerite come up with two additions to their proposed increment. First, they add something that will allow Natalie to move towards her dream of empowered teams:
+
+ - They'll position the adjustment to Natalie as helping to learn *how* the teams can take more independent ownership
+
+ - They'll schedule brief weekly touchpoints with her, where, among other things, the three of them will check in on what they're learning about having the team operate more independently
+
+   Natalie can both look forward to an ongoing conversation about something she really cares about, and can also be reassured that she won't lose all visibility and control (this is mixing in some Address Fears Directly).
+
+ - At the end of the month, Marguerite and Timothy will work with Natalie to draft early guidance for all the teams, on how to earn more independent ownership
+
+   This will be a chance to start to bring her dream to life.
+
+Second, they come up with something that will give her the delight of directly interacting with engineers.
+
+They'll add a middle of the month meeting, playfully called "Technical Throwdown", where all the engineers on their team will meet with Natalie and have an open-ended conversation about what they're learning, how their systems are holding up, new technologies they're playing with. Timothy & Marguerite will always start that meeting by solemnly announcing that No Decisions Will Be Made, and will enforce that if the conversation becomes too directive.
+
+By adding this to their proposed first adjustment, they can offer Natalie another win, by supplying a delight.
+
+They now feel excited about sharing their proposed first increment with Natalie. It feels like they can genuinely offer wins all around.
 
 ** Tactic: Keep 'Em Busy
 ** Tactic: Address Fears Directly
@@ -288,6 +320,7 @@ Problem: You're stakeholder is reluctant to commit.
 
 Tactic: Make clear that you're willing to work extra hard to make this work.
 
+** Tactic: Use Storytelling For Motivation
 ** Tactic: Dry Run With a Friend
 Before you make your proposal, *practice*. Out loud.
 
