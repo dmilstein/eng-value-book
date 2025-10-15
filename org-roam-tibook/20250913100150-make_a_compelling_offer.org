@@ -294,6 +294,30 @@ By adding this to their proposed first adjustment, they can offer Natalie anothe
 They now feel excited about sharing their proposed first increment with Natalie. It feels like they can genuinely offer wins all around.
 
 ** Tactic: Keep 'Em Busy
+
+Problem: You're going to ask your stakeholder to *stop* doing something. You're worried that they will resist, because they are human beings, and thus *like doing stuff*.
+
+Tactic: Find a way to make a request that your stakeholder *start* doing something new and specific, *instead* of their existing behavior. Allow them to channel their energy into that new thing.
+
+If you've ever had small children, you may recognize this as an, um, familiar tactic? Someone once explained to my wife and I that, instead of angrily saying, "Stop poking your sister!" we should give calm and extremely specific directions ala, "Put your hands in your pockets." This has served us quite well! I'm not saying you should treat your CEO like a toddler. Or, I dunno, maybe I am? Look, we're all humans here.
+
+Examples:
+
+ - "Stop talking during meeting X" -> "Take notes during meeting X to discuss after"
+
+ - "Stop attending meeting X altogether" -> "Attend meeting Y instead"
+
+ - "Stop overruling all the team's decisions" -> "Pick the one or two most important decisions that you really care about, align on those"
+
+ - "Stop harrassing the team with status requests" -> "Bring your questions to the progress sync meeting"
+
+ - "Stop crapping all over the team during demos" -> "Note down all your concerns and discuss them with me, immediately after demo"
+
+ - "Stop trying to get the team to spend extra time on your priorities" -> "Bring your requests to a shared triage meeting where you can directly argue with our other stakeholders"
+
+ - "Stop demanding high-stakes commitments to long-term estimates" -> "Demand that the teams demonstrate that they deeply understand the underlying business goal and are steadily offering options to achieve it"[fn:: This one is so easy! I'm gonna leave it as an exercise for the reader. Hahahahahahaha. /me wipes tear from eye.]
+
+This pairs very well with Find Wins For Stakeholders and Address Fears Directly.
 ** Tactic: Address Fears Directly
 
 Problem: There's something your stakeholder *likes* about the current way of working, and they're going to hear a request for change as having to give that up.
@@ -650,12 +674,30 @@ Don't trigger shame
 ** DONE Explore: name heroic narrative/fear thing
 CLOSED: [2025-10-12 Sun 10:01]
 As in make that a core part of the plan. The Strategic Intent is at ris, and therfore we must change. And own it as your own fear.
-** TODO For each tactic, name a problem first?
+** DONE For each tactic, name a problem first?
+CLOSED: [2025-10-15 Wed 10:09]
+** DONE Can I get all the tactics short enough to be one section
+CLOSED: [2025-10-15 Wed 10:09]
+** TODO Take a pass on making all stories more vivid/playful
+E.g. Mark Blevins-style.
+** TODO Cluster the tactics?
+E.g.
+
+ - For You
+   - Timebox
+   - Shrink the Ask
+   - Link Frustrations to Goals
+   - Create Urgency
+ - For Your Stakeholder
+   - Depersonalize Frustrations
+   - Find Wins
+   - Keep 'Em Busy
+   - Address Fears Directly
+   - Offer Future Decision
+   - Put Yourself On The Line
+
 ** TODO Possibly: move Work Backwards into Define Strat Intent
 ** TODO Mix in Marco's desire to share joy of connection
-
-** TODO Can I get all the tactics short enough to be one section
-** TODO Troubleshooting: Review Arc of Persuasion
 
 ** TODO Quin: review actual strategic intent
 
