@@ -350,67 +350,65 @@ This pairs very well with Find Wins By Hook Or By Crook (because such "not stric
 
 ** Tactic: Address Fears Directly
 
-Problem: Your proposed adjustment might raise fears for your stakeholder.
+Problem: Your proposed adjustment might raise concerns for your stakeholder, such that they resist making a change.
 
 Tactic: address their fears *directly* in your request for change.
 
-"Addressing directly" means, more than anything, *validating* the fears. Sharing your genuine understanding of those fears as reasonable, even *inevitable*.
+Addressing fears directly means, first, *validating* those fears. Sharing your genuine understanding of the fears as reasonable, even *inevitable*.
 
-Once you've done so, you have a handful of options for speaking directly to your stakeholder's fears:
+Once you've done so, you have several good options:
 
  - *Create shared visibility*
 
-   Ensure you and your stakeholder can *both* see if/how those fears are coming true
+   Ensure you and your stakeholder can *both* see if their fears are coming true, early enough to take action.
+
+   Example
+
+   The engineers on a team want to disable a suite of slow, flaky tests that keeps stalling out their CI/CD pipeline. Unfortunately, the head of engineering has some very reasonable fears about a resulting increase in bugs making their way to production. To speak directly to that fear, a senior engineer on the team works with the help desk to create a graph of weekly bug reports touching on their part of the product. The team and the head of engineering can now review that graph to see if customer bugs trend up. If they do, the team can quickly re-enable the tests.
 
  - *Offer meaningful control*
 
-   Ensure your stakeholder has something they can *do*, to prevent those fears from coming true
+   Ensure your stakeholder has something they can do, to prevent their fears from coming true.
+
+   Example
+
+   The engineers are about to start on a key, multi-month project. Before they get going, they want to spend time researching a promising new technology. Their PM is, naturally, afraid that doing so could delay project start enough that they'll be "behind before they even get off the starting line." To speak directly to this fear, the engineers commit to a weekly review of what they've learned with the PM. After each such review the PM can, if they feel strongly enough, simply cut short the exploration and request a return to tried and true tooling.
 
  - *Own the risk with empathy*
 
-   Directly own the possibility of the fears coming true, and the potential impact on them. Situate it as part of something worth doing, and ask them to take that chance with you.
+   Directly own the possibility of the fears coming true, and the potential impact on your stakeholder. Situate it as part of something worth doing, and ask them to take that chance with you.
+
+   Example
+
+   As part of developing a new enterprise-tier feature, the CPO wants several PM's on their team to work directly with their company's largest customers. Howeer, the VP of Customer Success, who has spent years keeping those big customers happy, has some reasonable fears about frustrating them in any way. The CPO works hard to put in place both visibility and control for the VP of Success. Finally, she says, authentically, "Look, your team knows those customers far better than we do. I wish I could promise that my PM's will never say something that lands wrong. But those are tricky customers, and I'm not certain we'll never misstep. But if we want to fix the customized data export issues they keep beating us up about, then working closely with the big accounts is the only way I know to do it. And I really want us to get there."
 
 And now, a warning, with the giantest of flashing red lights:
 
-DON'T TRY TO *CONVINCE* YOUR STAKEHOLDER THAT THEIR FEARS *WON'T COME TRUE*.
+Whatever you do, don't try to blithely convince your stakeholder that their fears *won't come true*.
 
-Note: this path, despite being a terrible idea, can be *enormously* tempting.
+Note: this path, despite being a reliably terrible idea, can be *enormously* tempting.
 
-You know that your ask could make life harder for your stakeholder. Having that hanging over you doesn't feel good or safe. As a result, some part of your brain will desperately try to convince you that it simply won't happen. Once it convinces you of this, your brain will then insist that, if only you can explain that to your stakeholder, everything will be fine. This path feels easier to your brain than *admitting* to your stakeholder that there is, in fact, anything to be afraid of.
+You know that your ask could, depending on how it plays out, make life harder for your stakeholder. That's *why* there is fear in the air. Having that hanging over you doesn't feel good or safe. As a result, some part of your brain may desperately try to convince you that the bad things simply won't happen. Once it convinces you of this, your brain will then insist that, if only you can *explain* this to your stakeholder, everything will be fine. Going down this path can feel easier to your brain than *admitting* to your stakeholder that there is, in fact, anything to be afraid of.
 
-But, telling someone who is being asked to take a risk: "Don't worry, it'll be fine", will make them feel like you're minimizing them and their concerns. It often even sounds *patronizing*.[fn:: In which case, game over. This entire effort is a loss and you'll want to back way the heck up and start over.]
+But, you're asking your stakeholder to take a genuine risk. Insisting "Don't worry, trust me, everything will be fine", runs a serious risk of making them feel like you're minimizing their concerns, that you're patronizing them. Which can trigger exactly the resentment and resistance you want to avoid.
 
-Address the potential dowsides, the fears, directly, clearly and with empathy. Make the risks visible, offer them control, of just own that you're asking something hard. Don't avoid, minimize, or skirt around.
+Instead, address any potential dowsides directly, clearly and with empathy. Make the risks visible, offer them control over those risks, and own that you're asking for something potentially hard. Don't avoid, don't minimize, and don't skirt around the potential challenges.
 
-Example
-
-
-
-For example, say you're an engineering lead, and you're asking your product manager to start to consistently set aside time in each sprint to deal with some nasty under-the-hood issues that are causing lots of reactive work on the part of the team.
-
-# or: issues in parts of the code the team expects to work on, in upcoming months
-
-What might that PM be afraid of:
-
- - They're giving up some control over their ability to achieve their own goals
-
- - They're afraid the engineers, if given this blank check, will come back with a demand to launch a giant rewrite (or, better yet, blithely announcing that they've already started that rewrite, and they'll need to spend "the next couple of sprints" finishing it up).
-
- - They're afraid that the team's understanding of what they're going to work on is wrong, and therefore, the team will waste time (the PM has the humility to know that even their own understanding of what they're going to work on may change)
+# Example
 
 
 
-For example, your stakeholder might hear a request to
+# For example, say you're an engineering lead, and you're asking your product manager to start to consistently set aside time in each sprint to deal with some nasty under-the-hood issues that are causing lots of reactive work on the part of the team.
 
-Sometimes, addressing directly means making it clear that you understand and are committed to
+# # or: issues in parts of the code the team expects to work on, in upcoming months
 
-Other times
+# What might that PM be afraid of:
 
-If you can, make clear to them that they'll still get that benefit, possibly in a new way. If, on the other hand, they do just have to give something, make that very clear and express your empathetic understanding.
+#  - They're giving up some control over their ability to achieve their own goals
 
-Example
+#  - They're afraid the engineers, if given this blank check, will come back with a demand to launch a giant rewrite (or, better yet, blithely announcing that they've already started that rewrite, and they'll need to spend "the next couple of sprints" finishing it up).
 
-
+#  - They're afraid that the team's understanding of what they're going to work on is wrong, and therefore, the team will waste time (the PM has the humility to know that even their own understanding of what they're going to work on may change)
 
 ** Tactic: Offer A Future Decision
 
