@@ -48,21 +48,23 @@ You'll find more ideas in the second half of the book, in the case studies.
 
 Problem: your stakeholder is reluctant to consider a change in their behavior.
 
-Tactic: ask your stakeholder to try changing their behavior for an initial, limited period of time. Commit to reviewing how that's going for them, at the end of that period of time.
+Tactic: ask your stakeholder to try changing their behavior for an initial, limited period of time.
 
-If your request feels slightly uncomfortable for your stakeholder (as it often will), t's *much* easier for thems to say "yes" if you're asking for a few weeks, than it is to agree to change their behavior indefinitely.
+If your request feels slightly uncomfortable for your stakeholder (as it often will), t's *much* easier for them to say "yes" if you're asking for a few weeks, than it is to agree to make a change indefinitely.
 
 If you can get a commitment to try something new for a short period of time, you can then work to ensure that, at the end of that initial period, the stakeholder experiences things as going well.
 
 Example:
 
-Louisa is a staff engineer, and a key part of her job is conducting regular architecture review sessions with teams in her domain. Unfortunately, her CTO, Dave, has developed a frustrating habit of "dropping by" those architecture reviews and offering a series of half-baked ideas (he always /starts/ by saying "Is okay if I ask a question?", but somehow his questions all end up turning into thinly veiled suggestions). These interruptions are undercutting Louisa's authority *and* sending the teams down a succession of blind alleys (he's the CTO! His suggestions seem really important! But he doesn't know what he's talking about in her area!).[fn:: "Wait, Dan, I just remembered: *you've* been a CTO. Did your directs, like, ask you to stop talking at architecture reviews at some point?" Um... maybe we should just move on.]
+Louisa is a staff engineer, and a key part of her job is conducting regular architecture review sessions with teams in her domain. Unfortunately, her CTO, Dave, has developed a frustrating habit of "dropping by" those architecture reviews and offering a series of half-baked ideas (he always /starts/ by saying "Is it okay if I ask a question?", but somehow all his questions end up turning into thinly veiled suggestions). These interruptions are undercutting Louisa's authority *and* sending the teams down a succession of blind alleys (he's the CTO! His suggestions seem really important! But he doesn't know what he's talking about in her area!).[fn:: "Wait, Dan, I just remembered: *you've* been a CTO. Did your directs ask you to stop talking at architecture reviews at some point?" Um... maybe we should just move on.]
 
 She tries to imagine herself saying: "Dave, please stop speaking up during architecture reviews." Or, even: "Dave, please just stop coming to those sessions." But she gets an immediate pit in her stomach at the thought. Both of those feel like uncomfortably aggressive demands.
 
-After talking it out with a friend, she decides to instead frame it as: "Dave, I'd like to ask if we can try something new out for our next two sessions. If you're okay with it, I'll ask you to *just* listen and take notes. I'll meet with you immediately after each session, to dig into any questions you have, and to get your feedback on both the team and the architecture. After the first two sessions, we can see how it's going."
+She's stuck for a bit, until she's talking it out with a friend over beers, and realizes she can make a more collaborative proposal.
 
-That positions the adjustment as a sort of "shared experiment" they're entering into together, instead of a one-sided demand that Louisa is making. It's much easier for Dave to say yes to it, because he knows that, if it's not working for him, he only has to try it twice.
+She decides to instead frame it as: "Dave, I'd like to ask if we can try out something new for our next two sessions. If you're okay with it, I'll ask you to *just* listen and take notes. I'll meet with you immediately after each session, to dig into any questions you have, and to get your feedback on both the team and the architecture. After the first two sessions, we can see how it's going."
+
+That positions the adjustment as a sort of shared experiment they're entering into together, instead of a one-sided demand that Louisa is making. This is a much easier request for Dave to say yes to it, because he can tell himself that, if it's not working for him, he only has to do it twice.
 
 Other tactics she's using:
 
@@ -70,15 +72,33 @@ Other tactics she's using:
 
  - Keep 'Em Busy: instead of just telling Dave to stop attending and/or talking, she asks him to *do something* specific (take notes so he can give feedback on the team and the architecture)
 
- - Find Some Wins: she creates a new opportunity for sharing team/architecture feedback (which knows Dave finds meaningful)
+ - Find Some Wins: she creates a new opportunity for sharing team/architecture feedback (which she knows Dave finds meaningful)
+
+** Tactic: Offer A Future Decision
+
+Problem: Your stakeholder is a human being. Therefore, agreeing to your proposal for a change in their own behvior may make them feel like they're losing control.
+
+Tactic: ensure that your initial, timeboxed increment of change ends with a decision that your stakeholder gets to make.
+
+That will help them feel in control, which makes it much easier for them to say yes.
+
+Example
+
+Jonas is a product manager who is struggling with his engineering peer Lizabet, the engineering manager and tech lead for their team. Lizabet insists that, before her engineers start *any* work, Jonas first write extremely detailed tickets, containing enough information for the engineer to fully deliver the ticket on their own. Lizabet insists this is necessary to avoid wasting the team's time. However, Jonas has worked on teams where the engineers and PM's wrote much lighter and more informal tickets, then talked to each other steadly throughout the sprints, and things went much faster.
+
+He goes through the various steps we've laid out, and comes up with a proposed adjustment. The core, slightly uncomfortable change will be to bring *much* lighter tickets to sprint planning. He'll then discuss the nuances of those tickets *during* planning. Throughout the sprint, Jonas wil commit to being available to answer any and all engineering questions at the drop of a hat. Finally, he includes some things that will feel like wins for Lizabet (most notably, a carve out of time to improve deploy).
+
+But, even with all of that planned out, he's still worried about approaching Lizabet with his request. She's fairly new as a manager, and he knows she feels concerned about her authority with the team (some of who have been programming for years longer than she has). He's worried that she's put some kind of a stake in the ground about this way of working, and therefore this shift will feel like a challenge to her authority.
+
+After talking it over with his manager, he decides to really focus on this as a temporary experiment, and one where *Lizabet* will get to decide whether or not it's working. He decides to close by saying, "I'll want you and I to meet, immediately after we've completed a sprint. I'll want to hear from you how this change has been working for the team, and if there's anything whatsoever that's been difficult about it. Then we can decide, together, if and how we want to adjust this new way of working, or even return to the fully detailed tickets we've been doing. I want to be certain both you and the engineers don't end up feeling like we're wasting their time."
 
 ** Tactic: Shrink Your Ask
 
-Problem: A better way of working has a lot of moving parts, and you can't see a way to implement it all at once.
+Problem: The better way of working you want to get to is complex, and you can't see a way to implement it all at once.
 
 Tactic: Shrink your ask to implementing just a *part* of that better way to work.
 
-Often, this will mean that your first adjustment won't make a big difference in fixing *your* frustrations. But if you can draw your stakeholder into steady collaborative improvements, you can then layer in the other pieces of the puzzle.
+This can sometimes mean that your first adjustment won't make a big difference in fixing *your* frustrations. But if you can draw your stakeholder into steady collaborative improvements, you can then layer in the other pieces of the puzzle.
 
 Example:
 
@@ -409,20 +429,6 @@ Instead, address any potential dowsides directly, clearly and with empathy. Make
 #  - They're afraid the engineers, if given this blank check, will come back with a demand to launch a giant rewrite (or, better yet, blithely announcing that they've already started that rewrite, and they'll need to spend "the next couple of sprints" finishing it up).
 
 #  - They're afraid that the team's understanding of what they're going to work on is wrong, and therefore, the team will waste time (the PM has the humility to know that even their own understanding of what they're going to work on may change)
-
-** Tactic: Offer A Future Decision
-
-One powerful thing to do is to ensure that your initial, timeboxed increment of change ends with a *decision* that your stakeholder gets to make.
-
-That will help them feel in control, which makes it much easier for them to say yes.
-
-For example, say Timofey is a product manager who is struggling with his engineering peer Lizabet. She's the tech lead for their team, and she insists that Timofey write extremely detailed tickets before she'll let the team spend any time sizing or starting the work. Liza insists this is necessary to avoid wasting the team's time. However, in the past Timofey has worked on teams where the engineers and PM's talked all the time, leaned on much lighter and more informal tickets, and things went much faster.
-
-He goes through the various steps we've laid out, and comes up with a proposed increment that includes some things that he knows Lila really wants (e.g. a carve out of eng time to improve deploy, a long-time team frustration). The "slightly uncomfortable" change he asks for is to bring a much lighter set of tickets to sprint planning, and then spend time discussing the nuances, all togeher. He also commits to, throughout the sprint, being available to answer any and all engineering questions at the drop of a hat.
-
-Finally, to ensure that Lizabet feels in control, as she takes this risk, he says:
-
-"Also, I want to get a meeting on the calendar, now, for just after we've completed our first increment. I'll want to hear from you how this change has been working for the team, and if there's anything that's been difficult about it. Then we can decide, together, if and how we want to adjust this new way of working. I want to be certain the engineers don't feel like we're wasting their time."
 
 ** Tactic: Put Yourself On the Line
 
