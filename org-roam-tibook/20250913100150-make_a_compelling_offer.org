@@ -1,10 +1,10 @@
 :PROPERTIES:
 :ID:       5C7A0B37-8984-4A1F-8371-C1FCEB637174
 :END:
-#+title: Prepare a Compelling Offer
+#+title: Make a Compelling Offer
 #+filetags: :Chapter:
-* Prepare a Compelling Offer
-** The Steps In A Compelling Offer
+* Make a Compelling Offer
+** The Elements Of A Compelling Offer
 
 You've defined a Strategic Intent that your stakeholder cares about. Thanks to that work, you have a shared long-term goal you can speak to. You have a high-level understanding of how your work contributes to that goal.
 
@@ -205,31 +205,46 @@ Creating visibility is one of my very favorite tactics. It pairs beautifully wit
 Ultimately, I think the act of creating visibility is so profoundly helpful for getting unstuck, because it enables you and your stakeholder to literally *see* the world in the same way. Which can be a deeply meaningful way to bring you together.
 
 # Use an example around security
-** Tactic: Depersonalize Your Frustrations
+** Tactic: Invite Your Stakeholder To Solve Your Problems
+# Depersonalize Your Frustrations
+# Invite Them To Solve Your Problems
+# Make An Invitation To Solve Your Problems
+# Craft An Invitation To Solve Your Problems
+# Craft A Problem-Solving Invitation
+# Invite Them To Solve Your Problems
+# Invite Your Stakeholder To Solve Your Problems
 
-Problem: You need to ask your stakeholder to change some frustrating behavior, but  doing so directly risks getting into a power struggle (because they will feel challenged)
+Problem: You need to ask your stakeholder to change their behavior, but doing so risks getting into a power struggle.
 
-Tactic: Find a way to describe the results of their behavior as a depersonalized problem for the two of you to solve together.
+# (because they will feel challenged)
+
+Tactic: Find a way to describe the results of their behavior as a problem for the two of you to solve together. Ask them open-ended questions that offer them a chance to be an expert, and solve the problem you're laying out to them.
+
+This is a form of what Chris Voss calls Calibrated Questions, in Never Split the Difference.
 
 Example
 
-Lisa is a PM in the fulfillment space, working with a key operational stakeholder: Mark Blevins, the VP of Warehousing. The Good News: Mark Blevins has worked in warehousing for almost two decades, and knows his shit. The Bad News: Mark Blevins has worked in warehousing for almost two decades, and has zero patience with anyone asking him, well, any questions whatsoever. He routinely calls Lisa and demands that she fix some existing workflow, asap. When she tries to ask about the warehouse ops metrics he's hoping to improve, he cuts her off and says "Look, I don't need all that crap. If I'm telling you we have to fix receiving, then we have to fix receiving. Okay?" And then hangs up.
+Lisa is a PM in the fulfillment space, working with a key operational stakeholder: Mark Blevins, the VP of Warehousing. The Good News: Mark Blevins has worked in warehousing for almost two decades, and knows his shit. The Bad News: Mark Blevins has worked in warehousing for almost two decades, and has zero patience with anyone asking him, well, any questions whatsoever. He routinely calls Lisa at the end of her working day and demands that she improve some existing workflow, asap. When she tries to ask about the warehouse ops metrics tied to that workflow, he cuts her off and says "Look, I don't need all that crap. If I'm telling you we have to fix receiving, then we have to fix receiving. Okay?" And then hangs up.
 
-Lisa hasn't had to deal with many stakeholders who take a request for business metrics as a personal affront. She is good and completely stymied. She *wants* to solve problems with Mark, but if she can't get him to give her some basic operational metrics, how is she ever going to do her job? She has to make prioritization decisions, she has to set goals for her teams, for god's sake, she has to *understand* what Mark is even trying to do. She can't just tell her engineers to randomly start coding.
+Lisa doesn't know what to do with a stakeholder who takes a request for business metrics as a personal affront. She *wants* to solve problems with Mark, but if she can't get him to give her some basic operational metrics, how is she going to do her job? She has to make prioritization decisions, she has to set goals for her teams, for god's sake, she has to *understand* what Mark is even trying to do. She can't just tell her engineers to randomly start coding receiving workflows. She sits staring at her desk, her phone still in her hand.
 
-She imagines confronting Mark about this directly: "Look, if you refuse to give me metrics that are impacted by these operations, I can't prioritize this work." It just feels like an invitation to a power struggle. She can hardly hope to be successful if she can't draw Mark into *some* kind of collaboration.
+She imagines confronting Mark about this directly: "If you won't give me metrics that are impacted by these operations, I won't prioritize this work." That feels like a guaranteed failure. In her interactions with Mark so far, he always seems to be spoiling for a fight.
 
-She feels stuck.
+She feels good and completely stuck.
 
-Finally, she has an inspiration. She does a little prep, and in their next meeting, she says: "Mark, I'm really eager to work on the receiving issues you talked about. I was getting ready to get the engineers started on it, but then I realized: there have been a bunch of times the engineers worked on some warehouse process, but, well, they didn't fully understand it, and the end result didn't work for you and your team. I hate when that happens. If they got this one right, how would we tell? Or, if they messed up, what would tell you that? I want to make sure I can keep them on track, so that we're not wasting your time."
+But then, the next morning, while cleaning up after breakfast, she has an idea. She hurries into her office, clears a couple of meetings off her calendar, and gets her thoughts together. She pings Mark for "a quick check-in". When Mark appears, frowning, on her zoom screen, she starts off, briskly: "I'm really eager to work on the receiving issues we talked about yesterday. I was getting ready to get the engineers started on it, but then I realized: there have been *far* too many times that the engineers worked on some warehouse process for you, but they didn't fully understand what they were doing." She shakes her head regretfully before continuing.
 
-Mark gruffly agrees that there have been too many failed launches. He thinks for a moment, and then says "Well, it's mostly UPH on the receiving line, but it's also exception count, per day. Our exceptions are getting out of hand, we have to keep that under control."
+"They just don't have your depth of experience in warehousing. And then, what they delivered just *didn't work*. I *hate* when that happens. I want to be sure to keep them on track this time. If they got this one right, how would you tell? Or, if they messed up, what would tell you that? What would you see, when you looked at, like, your dashboards that would show you that whatever they had launched didn't work for you, and your team? I want to hold them accountable, so that we're not wasting your time."
 
-And lo, Lisa has gotten a line on the things Mark really cares about, *and* has started to draw him away from features demands and into the business impacts of the work.
+Mark blinks. He gruffly agrees that there have been too many failed launches. He then says, slowly, "Well, of course, I'd first look at UPH on the receiving line. But you can't /only/ look at UPH, only an idiot does that. It's *also* exception counts. Our exceptions are getting totally out of hand, we *have* to keep that under control. I'm checking exceptions every few hours, which is *batshit*. That's no way to run a building." Having delivered this statement [ultimatum, lesson, homily], he sits back with his arms folded over his chest.
 
-Note that a trick she used was to "play low status": she suggested that she and the engineers *needed Mark's help*, which made it easy for him to be the hero. It also made it difficult for him to tell her she's wrong.[fn:: Mark might say "The engineers should know how those processes work!". If he does, Lisa can just nod her head, sigh and say "Man, you are *so* right. I really wish they did! But we're just not there yet. How can I make sure they stay on track?"]
+Lisa has to restrain herself from grinning. She has managed to get a line on the things Mark really cares about, with a healthy side order of emotions (about the rising tide of exceptions). She's neatly avoided direct conflict, but started to draw him into collaboration around the business impacts of "fixing receiving."
 
-This is a form of what Chris Voss calls Calibrated Questions, in Never Split the Difference.
+Note that she "played low status": she suggested that she and the engineers *needed Mark's help*. That created space for him to be a high-status expert. It also made it difficult for him to tell her she's wrong---he'd have to suggest that the engineers know the warehouse processes as well as he does.
+
+Of course, Mark might still be frustrated, and say, "The engineers should know how those processes work!" If he does, Lisa can just nod her head, sigh and *agree*. "You are *so* right, Mark. I really wish they did! But we're just not there yet. How can I make sure they stay on track?"
+
+If you keep on steadily and calmly asking open-ended "How could I possibly solve my problem?" questions, often, your stakeholder will find themselves coming up with the precise solutions you've been wanting to implement. And they'll feel like the ideas are their own, not something they've been forced to do.
 
 ** Tactic: Find Wins For Your Stakeholder
 
@@ -353,158 +368,6 @@ First on your own, then with a trusted friend. At least once, maybe a few times.
 Eventually, going through this arc will feel natural, and you won't need to practice as much. But, early on, you're going to want to be extremely disciplined about going through the steps in sequenc. It's incredibly easy to skip over important steps, which can leave your stakeholder unwilling to say yes.
 
 For high stakes such proposals, I still practice over and over, until it feels fully clear, smooth and authentic.
-** Our Story: Quin Prepares A Compelling Offer
-
-At All Together Now, Quin desperately wants Marco to stop jumping into standups and blowing up the team's focus by brainstorming new product ideas.
-
-# Quin's biggest problem at ATN is that Marco keeps jumping into standups and blowing up the team's focus by brainstorming new product ideas.
-
-Some part of her wants to just throw some book about agile or scrum in his direction, along with a lecture about the proper way to add new ideas to the team's backlog. But, having talked to him, she knows he's feeling very under the gun about getting something into customer's hands. She's pretty worried that, if she pushes, again, for a big change, he'll refuse, *again*.
-
-*** Connect your work to strategic goals
-
-However, thanks to her having drawn him out, Quin knows that Marco's under the gun feeling is driven by a deep fear that ATN might be building something that customers won't actually use. As it happens, Quin has that exact same fear, in spades. The various team-building games they've been developing on all feel like they /might/ be fun... but they all depend on users being willing to playfully engage in some pretty oddball online activities. There's just no way to really know how that goes until they see it in action.
-
-Quin decides that, whatever she proposes, she's going to anchor it in a shared goal of delivering something, as soon as possible, that will allow ATN to get their games into the hands of early adopter users.
-
-As she writes that down in her notes, she realizes that she can explicitly link that to their long-term objectives---because, when she dug into strategic goals for the next year, Marco told her that VC's would only consider a further round of investment if ATN could show *engagement*. Moving a step closer to getting games into the hands of users will move them towards learning, asap, if they're going to be able to generate engagement. As Quin makes this connection, she feels a spike of excitement. She can't wait to share this with her team---they've been hungry for a better understanding of *why* they're working on the various features and games.
-
-But, she thinks with an internal sigh, they won't be able to make much progress if Marco keeps derailing every other standup with ideas from customer calls.
-
-*** Find wins for your stakeholder
-
-She turns her attention to how, exactly, she wants to ask him to change his behavior. At some level, she thinks, her ask is dead simple: just stop bringing new ideas to standup, and operate like a normal stakeholder. But she knows that's going to be a bit of a struggle for him. She tries to think about what she can offer, to make him willing to try.
-
-As per her mentor's advice, she starts by thinking about the *frustratations* she believes Marco is currently feeling. If she can offer him something that will remove a frustration or add something he's missing, that could make him willing to consider a change.
-
-In terms of their day-to-day, her list of Marco's frustrations is:
-
- a) He's not seeing rapid progress
-
- b) He feels like it's been /forever/ since he's been able to interact with anything new
-
-Given that understanding of his feelings, she decides to design her proposed initial increment to deliver a *visual prototype* that Marco can interact with. That way, if he can commit to a relatively brief period of changing his behavior, the team can, at the end of that period, give him something that will feel truly exciting.[fn:: You might be thinking, "But, hang on, what if delivering a visual prototype is not the most valuable thing for the team to be doing right now?" In fact, if you know me, you might be putting your hands angrily on your hips and saying, "Look, Dan, I've spent hours of my life, reading thousands of words of *your* writing about how teams should always priortize their work based on the biggest risk. What if building the visual prototype doesn't address ATN's biggest risk?" Great question! In my experience, building trust and rapport with a key stakeholder is *well* worth the cost of working on something that is /theoretically/ off the critical path of learning. Another way to put it is: if you and your key stakeholder aren't able to work effectively together, *that* is one of your biggest risks. Getting into effective collaboration is therefore likely the most valuable thing you can do.]
-
-In thinking back over the last month of development, she realizes that the team has put together most of the bits of one specific activity: the Virtual Dunk Tank![fn:: For this ridiculously early version of the VDT, some leader will hold a bowl of water over their own head, and, once enough people on their team have hit the virtual targets on each of their own screens, a buzzer sounds and the leader has to dump the water on themselves.]
-
-If the team could just have a couple of weeks without distractions, she'll bet they could get that into demo-able state. She can almost see it, already.
-
-She's just about ready to nail down her proposal, but then she catches herself. Her mentor insisted she take the time to ask: "What about the current situation is *good* for Marco? What might he be worried about giving up, if he agrees to make this change?"
-
-*** Identify potential losses for your stakeholder
-
-Marco clearly *loves* coming directly to standup, while his experience of talking to a customer is fresh in his mind. Quin has realized that he specifically loves that because it allows him to clarify his thinking. But that's exactly what is blowing up the team's focus. She feels stuck. How can he brainstorm with the team, while not brainstorming with the team? Should she just point blank tell him he has to give that up? She... could. But she worries about where that pent up energy will go.
-
-*** Define and test an adjustment
-
-The next morning, while walking her dog, Quin suddenly has an idea. She rushes home and writes out her proposed first increment of change:
-
- - For the next two weeks Marco will agree to stop coming to the team after customer calls
-
- - Instead, he will always first meet with Quin, one-on-one
-
- - Quin will commit to being ready to drop everything and meet with him the moment he gets off a call, while his thoughts are fresh
-
- - Otherwise, Marco can continue to interact with the team as he wishes
-
- - At the end of the two weeks, the team will share an interactive demo of the Virtual Dunk Tank for Marco to test out
-
- - Immediately after that demo, Marco and Quin will meet and decide two things: a) what next steps they want to take with the Virtual Dunk Tank, and b) what further adjustments they want to make in how they're working together.
-
-She sits back. This feels good. She has to figure out how, exactly, she'll pitch it to Marco. But it feels good.
-
-Quin has arrived at a very well-designed request. The proposed change will be "slightly uncomfortable" for Marco. He will, in his excited moments immediately after getting off a customer call, have to stop himself, and *not* do what feels natural to him. He'll have to do some work to remap his instincts.
-
-But if Quin can get Marco to try it, this new way of working could generate wins across all three fronts:
-
- - It positions Quin to buffer the team from Marco's initial swirl of thoughts, immediately after he's talked with customers. This addresses one of her biggest concerns.
-
- - It gives Marco a small, immediate reward: Quin's immediate attention and thought partnership after customer calls. This preserves something good about the current situation.
-
- - It gives Maco another reward, at the end of the increment: an opportunity to try out an interactive demo of the Virtual Dunk Tank. This will give him both the sense of velocity and the interactive UI that he's been growing increasingly desperate for.
-
- - The creation of that demo will move ATN one step closer to being able to ask a customer to *use something*. That moves both her *and* Marco towards their shared strategic goal around engagement.
-
-Finally, by explicitly putting an end-of-increment decision on the table, Quin ensures that Marco will feel like he retains control. She's making it clear, with her actions, that if he ends up frustrated by something in this new way of working, he'll have a time to speak to those frustrations.
-
-Even more fundamentally, she's increasing his control over his ultimate goals. Being able to review a demo of the Virtual Dunk Tank creates new options for the business. By inviting Marco to start thinking about those options, she's giving him something he very badly wants.
-
-** Our Story: Quin Delivers Her Compelling Offer
-
-Quin and Marco have gone for a walk together downtown. As they get into the city park, Quin asks if they can stop on a bench to talk. They sit side by side, watching people walk by.
-
-*** Name the strategic intent
-
-"As I understand it," Quin says, "ATN!'s most important goal is to have a set of *engaged customers* within six to eight months. Potential investors in a next round are going to want to see happy users, running *actual* team activities on the platform--not just a couple of big sales. Given that, our current goal is to *very* quickly build something that is "*just 'Good Enough*'". Something we can get into the hands of a few early customers, and then make better *with* them. Do I have that right?"
-
-She has spoken to the strategic intent, using some of his own words ("just 'Good Enough'", "make better with them"). She's also spoken to one of his biggest fears (that they won't see actual use), but done so in the "positive form", of the good thing they *want* to have happen.
-
-Marco nods for her to go on.
-
-Quin takes a breath. "Unfortunately, I'm worried that we're struggling to move fast enough. Unless we make some changes, I think we might not have a product *any* customer will be able to actually use until early next year."
-
-Marco frowns unhappily. This isn't shocking news, but it doesn't feel good to hear it said out loud.
-
-Note how Quin has named a desirable outcome, and then shared a specific "danger" that might make it impossible to achieve that outcome. This is powerful rhetorical tactic. It creates suspense that will make your listener sort of lean forward to hear more.[fn:: It does so by adapting the story-telling structures that are wired deeply into the human mind.]
-
-*** Speak to their concerns
-
-"Whatever changes we make," Quin continues, as a breeze stirs leaves in front of their bench, "I want to be certain we solve for a few things. First, I want to be sure you can actually *see* that the team is moving faster---I worry that we've drifted a bit into building separate bits and pieces of the final product, but we're not regularly putting together visual prototypes that you can test out and react to."
-
-Quin has immediately shown that she cares about both Marco's biggest frustration (that the team isn't moving fast enough) and one of his potential delights (being able to interact with a visual UI).
-
-Marco nods. He would certainly be happy if the team shipped, well, anything. He'd be even more happy if it was a thing he could *see*.
-
-She continues, "Finally, I want to be certain that, immediately after you talk to customers, you have a chance to think through what you've heard, while it's still fresh in your mind. Most of the time, we won't adjust what the team is doing based on any one call, but, even if we don't, it's important to quickly update our shared understanding of customer needs."
-
-Quin has spoken to preserving something he cares about. She's pauses and checks in, before she moves on.
-
-"Does that sound about right?"
-
-Marco replies, somewhat cautiously, "That sounds mostly right, yeah."
-
-He is remembering that Quin had recently demanded he *stop* talking to the team immediately after calls. He's not certain where she's going, but he appreciates that she now seems to understand why it's so important that he can process those calls right away. In fact, he likes the way she frames it: "quickly update a shared understanding of customer needs." That gets at it well.
-
-He also thinks that, of course he understands that they're not to ask the team to change everything based on one customer call. He's not unreasonable.
-
-*** Speak to your concerns
-
-Having heard his agreement about how she's framed his concerns, Quin is ready to move on to her own.
-
-She has spent a bit of time thinking about how to avoid any kind of accusation that could trigger defensiveness, so she says:
-
-"One thing I worry about is that I think the team doesn't have as much context as you and I do. So, when you come back from a customer call, and share what you've heard and learned, they sometimes get confused. They're not sure what is extra context, and what represents a real change in direction. That confusion is starting to add up. I want them to go faster, but we've been losing time when engineers went off in some new direction after one of thoses sessions."
-
-Marco nods, slowly.
-
-Note how Quin subtly positioned this as a "weakness" of her and the team, rather than a "failing" on the part of Marco. She could easily have said "The way you're constantly bringing in new ideas is causing problems", but, instead, by playing just a bit of low status, she is sharing a problem to solve together---where the "problem" is "the team can't follow your new ideas", not "you're being chaotic and unfocused". Those are actually exactly the same problem, just focused on different perspectives. The non-accusational framing makes it easier for Marco to stay with her.
-
-*** Propose a period of change
-
-Now Quin will walk through what she's worked out, and be very direct and very specific about what she's asking of Marco:
-
-"I'd like to try a small change, for the next two weeks. Whenever you get off a customer call, I'll ask you to ping me on Slack. I'll drop whatever else I'm doing, and you and I can do an immediate debrief. That'll give you a chance to really think through what you've heard, while it's still fresh. If something important comes up, I can share our current status with you, and we can make an immediate call about any priority changes to bring to the team."
-
-"That's most of it. I would ask that, if, during one of those debriefs, I tell you that the team is super heads down, that you wait to give them the full update. But we don't need to be too formal about that."
-
-Note how extremely specific she is being, about what she is asking: "Whenever you get a customer call, ping me on Slack". That's far, far better than saying "Can you please stop coming to standups", or tip-toeing around it, ala, "I don't know maybe you and I could check in, sometimes, before you talk to the team?" You want to give your stakeholder a crisp, specific thing to visualize themselves doing.
-
-"I'm hopeful that, if we do this, I can really focus with the team, and we can have a demo of the Virtual Dunk Tank ready by end of sprint."
-
-She's immediately followed up her request with a benefit he'll get --- a demo of a feature he's been waiting on, for a while.
-
-She moves on to the future decision.
-
-"Finally, I want to set a meeting up, for immediately after that end-of-sprint demo, for you and I to review how close the Dunk Tank is to sharing with customers and what, if anything, we want to keep tweaking to ensure the team can move faster."
-
-Note how she's mixing a business decision (What do we do with the cool new Dunk Tank?), with a collaboration decision (what do we want to tweak?)
-
-Also, she is *not* offering a Yes/No decision. She could have said "if we want to keep working this way." You... can do that, in particular if it feels incredibly risky to your stakeholder to try this change. But you're generally better off drawing them into shared problem solving, so that the decision is about *how to continue to solve the problem together*, not simply yes/no on one specific practice.
-
-*** Ask for commitment
-
-Now, to be clear, Marco may not say yes immediately. But that's fine. Quin can probe for any hesitations and tweak the offer, until he's ready to try. Usually, if you've done the previous steps well, you can do that within the discussion, so you're emerging with a commitment to try something new.
-
 ** Troubleshooting
 *** Stakeholder doesn't confirm Strategic Intent
 *** Stakeholder doesn't validate summary of their concerns
