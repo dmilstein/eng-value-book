@@ -8,9 +8,9 @@
 
 You've defined a Strategic Intent that your stakeholder cares about. Thanks to that work, you have a shared long-term goal you can speak to. You have a high-level understanding of how your work contributes to that goal.
 
-You've taken the time to develop an empathetic understanding of your stakeholder's key emotions. You can speak with empathy to the situation they find themselves in. You can identify frustrations that they want smoothed away. You can name things they want, that they feel like they're not getting.
+You've taken the time to develop an empathetic understanding of your stakeholder's key emotions. You can speak to the situation they find themselves in. You can list frustrations they want smoothed away. You can name things they want, that they feel like they're not getting.
 
-You're ready to define a specific request for change, and turn that into a compelling offer.
+You're ready to define a specific request for change, and wrap that up in a compelling offer.
 
 When you deliver that compelling offer, you'll go through four steps:
 
@@ -108,7 +108,7 @@ It also gets Oliver closer to the triage meeting he ultimately wants. To get all
 
 This tactic pairs well with both Propose a Timebox, and Create Urgency Through Visibility (in the above, Oliver is essentially creating a form of visibility).
 
-** Tactic: Link Your Frustrations To Goals
+** Tactic: Link Frustrations To Outcomes
 
 Problem: Your stakeholder doesn't seem to hear your concerns as valid or important. They don't understand why the problems that frustrate you matter for the business.
 
@@ -246,7 +246,7 @@ Of course, Mark might still be frustrated, and say, "The engineers should know h
 
 If you keep on steadily and calmly asking open-ended "How could I possibly solve my problem?" questions, often, your stakeholder will find themselves coming up with the precise solutions you've been wanting to implement. And they'll feel like the ideas are their own, not something they've been forced to do.
 
-** Tactic: Find Wins For Your Stakeholder
+** Tactic: Find Wins By Hook Or By Crook
 
 Problem: You can't figure out a way for your adjustment to improve things for your stakeholder. Try as you might, you don't see how to address your frustrations in a way that directly benefits them.
 
@@ -260,7 +260,7 @@ This is where having a map of their emotions really pays off: you can almost alw
 
  - Provide a delight they've been yearning for
 
- - Move towards their long-term dreams
+ - Move them towards their long-term dreams
 
 A key: don't fall into trap of thinking of wins as just sourced from what they're explicitly asking for. You often *can't* give them what they're asking for. But you can solve for the underlying feelings they're struggling with.
 
@@ -268,53 +268,67 @@ If you're in the challenging situation where seemingly /nothing/ is frustrating 
 
 Example:
 
-Marguerite and Timothy are product and engineering leads for a sprint team. They have an excellent, high trust relationship with each other. Unfortunately, they really struggle with Marguerite's boss, Natalie, the VP of Product. Natalie likes to quote Marty Cagan all day about empowered teams... but somehow can't let her PM's make a single decision on their own. She's constantly asking for memos and briefs before she'll allow work to start; she overrules her PM's on decisions of every size and scope; she regularly takes over the planning meetings she attends to steer the teams herself.
+Marguerite and Tom are product and engineering leads for a sprint team. Fortunately, they have an excellent, high trust relationship with each other. Unfortunately, they are feeling super stuck with Marguerite's boss, Natalie, the VP of Product. Natalie likes to quote Marty Cagan all day about empowered teams... but somehow can't let her PM's make a single decision on their own. She's constantly asking for memos and briefs before she'll allow work to start; she overrules her PM's on decisions of every size and scope; she regularly takes over the planning meetings she attends to steer the teams herself.
 
-Over a series of fevered [heads-together, whispered, outside-of-the-office] conversations over coffees, Marguerite and Timothy have hashed out a first incremental adjustment they want to propose to Natalie: they will ask to run their team for a full month without her attending *any* of their weekly planning meetings.
+Over a series of fevered [heads-together, whispered, outside-of-the-office] conversations over coffees, Marguerite and Tom have hashed out a first incremental adjustment they want to propose to Natalie: they will ask to run their team for a full month without her attending *any* of their weekly planning meetings. This represents a significant shift from how they've been working with her.
 
-If they can stick with this approach for a few months, they strongly believe that they'll be able to visibly help Natalie achieve her own goals. But in the short term, they're worried it's going to feel like a major loss of control. If there's one thing they know about Natalie, it's that she really, really likes to be in control. Like, a *lot*.
+If they can stick with this approach for a few months, they both believe they'll be able to *visibly* help Natalie achieve her own goals. But in the short term, it there's every chance it will just feel like a significant loss of control. And, if there's one thing they know about Natalie, it's that she really, really likes to be in control.
 
-Try as they might, they can't seem to find any way to make this *feel* like a win for Natalie. All she ever seems to ask for is more visibility, more control, more direct contact with the teams---precisely the things they're going to take away.
+Marguerite tries to imagine making this pitch. All she can see is Natalie squinting at them skeptically through her wire-rimmed glasses. And then bluntly refusing to go along.
 
-One night, Marguerite is talking this over with her partner while they make dinner. Her partner looks up from peeling some carrots. "Look, hon, I have to ask. Is it possible you're so pissed at Natalie that you don't actually *want* to find a win for her?" Marguerite starts to protest, but trails off as the truth of it settles uncomfortably in. "Look," she says, "how about if you shut up?", and throws a cherry tomato in her partner's smug direction.
+Try as they might, she and Tom can't seem to find any way to make this *feel* like a win for Natalie. All Natalie ever seems to ask for is more checkpoints, more control, more direct contact with the teams---precisely the things they're going to take away.
 
-The next day, before her 1:1 with Natalie, Marguerite tries to let go of some of her frustrations. She takes a few minutes to put herself in a place of curiosity. "Just treat this like a customer interview", she tell herself, "where you're prospecting for pain." Then, during the conversation, she uses her suite of tactical empathy skills to try to draw out Natalie's underlying feelings.
+One night, Marguerite is talking this over with her partner while they make dinner. Her partner looks up from peeling some carrots. "Look, hon, I have to ask. Is it possible you're so pissed at Natalie that you don't actually *want* to find a win for her?" Marguerite starts to protest, but trails off as the truth of it settles uncomfortably in. "or," she says, "how about if you shut up?", and throws a cherry tomato in her partner's grinning direction.
 
-She meets with Timothy immediately after. "Okay," she say, "I might have a few things we can work with."
+The next day, before her 1:1 with Natalie, Marguerite spends time letting go of her frustrations. She tries to allow herself to be in a place of curiosity. "Just treat this like a customer interview", she tells herself, "where you're prospecting for pain."
 
-She lays out the two opportunities she thinks they can focus on.
+Then, during the conversation, she deploys her full suite of tactical empathy skills to draw out Natalie's underlying feelings.
 
-First, despite her behavior, it seems like Natalie actually *wants* to create empowered teams, operating with meaningful independence. That's a *dream* that she finds motivating, but feels incredibly far away from right now. She's been telling herself a somewhat confused story about how, by giving such tight direction to the teams, she's gradually coaching them up. There's a grain of truth in that, but she hasn't been able to follow through by actually stepping back, even when the teams are genuinely ready.
+She meets with Tom immediately after. "Okay," she say, "I might have a few things we can work with."
 
-Second, part of why Natalie keeps jumping into the planning meetings is because she misses working directly with engineers. That's a potential *delight*. Her close collaboration with engineers of every level was one of her favorite things about working as a PM. It got her mind going about product opportunities, it helped her feel grounded in terms of the tradeoffs she's pushing for. And it was just fun! Engineers are different from PM's and stakeholders, she loved staying connected with them. The planning sessions aren't actually giving her the thing she remembers loving, but Marguerite thinks that's part of what Natalie is hoping for.
+Tom leans forward. "Lay it on me."
 
-Timothy and Marguerite come up with two additions to their proposed increment. First, they add something that will allow Natalie to move towards her dream of empowered teams:
+First, offers Marguerite, despite Natalie's behavior, it seemss like she truly *wants* to create empowered teams, operating with meaningful independence.
+
+That's a *dream* that she finds motivating, but it also feels incredibly far away from right now. Natalie has been telling herself a somewhat confused story about how, by giving such tight direction to the teams, she's gradually coaching them up. There's a grain of truth in that, but Natalie hasn't been able to follow through by actually stepping back, even when the teams are genuinely ready. But she truly wants to be the kind of leader who creates space for empowered teams to thrive under her.
+
+"Huh," says Tom. "This is not a thing I would have guessed. What else?"
+
+Marguerite shares her theory that part of why Natalie keeps jumping into the planning meetings is because *she misses working directly with engineers*.
+
+That's a potential *delight*. Her close collaboration with engineers of every level was one of her favorite things about working as a PM. It got her mind going about product opportunities, it helped her feel grounded in terms of the tradeoffs she's pushing for. And it was just fun! Engineers are different from PM's and stakeholders, she loved staying connected with them. The planning sessions aren't actually giving her much of the thing she remembers loving, but Marguerite thinks that's part of why Natalie keeps jumping in.
+
+Given this set of hypotheses about what is driving Natalie's behavior, Tom and Marguerite come up with two additions to their proposed increment.
+
+First, they add something that will allow Natalie to move towards her dream of empowered teams:
 
  - They'll position the adjustment to Natalie as helping to learn *how* the teams can take more independent ownership
+
+   They have enough trust with Natalie that they can lay out some ideas how to do this, see below.
+
+   That said, if they didn't have that level of trust, they could stop at this point, an Invite Natalie To Solve Their Problems, ala: "How do you think the teams could show you that they were ready for more independent ownership?"
 
  - They'll schedule brief weekly touchpoints with her, where, among other things, the three of them will check in on what they're learning about having the team operate more independently
 
    Natalie can both look forward to an ongoing conversation about something she really cares about, and can also be reassured that she won't lose all visibility and control (this is mixing in some Address Fears Directly).
 
- - At the end of the month, Marguerite and Timothy will work with Natalie to draft early guidance for all the teams, on how to earn more independent ownership
+ - At the end of the month, Marguerite and Tom will work with Natalie to draft early guidance for all the teams, on how to earn more independent ownership
 
    This will be a chance to start to bring her dream to life.
 
 Second, they come up with something that will give her the delight of directly interacting with engineers.
 
-They'll add a middle of the month meeting, playfully called "Technical Throwdown", where all the engineers on their team will meet with Natalie and have an open-ended conversation about what they're learning, how their systems are holding up, new technologies they're playing with. Timothy & Marguerite will always start that meeting by solemnly announcing that No Decisions Will Be Made, and will enforce that if the conversation becomes too directive.
+They'll add a middle of the month meeting, playfully called "Technical Throwdown", where all the engineers on their team will meet with Natalie and have an open-ended conversation about what they're learning, how their systems are holding up, new technologies they're playing with. Tom & Marguerite will always start that meeting by solemnly announcing that No Decisions Will Be Made, and will enforce that if the conversation becomes too directive.
 
-By adding this to their proposed first adjustment, they can offer Natalie another win, by supplying a delight.
+By adding this to their proposed first adjustment, they can offer Natalie another win, by supplying an absent delight.
 
-They now feel excited about sharing their proposed first increment with Natalie. It feels like they can genuinely offer wins all around.
+They realize they now feel excited about sharing their proposed first increment with Natalie. They can offer her some genuine wins, while still sticking to their guns about clearing space for them to move more quickly on the ground.
 
 ** Tactic: Keep 'Em Busy
 
-Problem: You're going to ask your stakeholder to *stop* doing something. You're worried that they will resist, because they are human beings, and thus *like doing stuff*.
+Problem: You need to ask your stakeholder to *stop* doing something. You're worried that they will resist, because they are a human being, and thus like *doing stuff*.
 
-Tactic: Find a way to make a request that your stakeholder *start* doing something new and specific, *instead* of their existing behavior. Allow them to channel their energy into that new thing.
-
-If you've ever had small children, you may recognize this as an, um, familiar tactic? Someone once explained to my wife and I that, instead of angrily saying, "Stop poking your sister!" we should give calm and extremely specific directions ala, "Put your hands in your pockets." This has served us quite well! I'm not saying you should treat your CEO like a toddler. Or, I dunno, maybe I am? Look, we're all humans here.
+Tactic: Find a way to ask your stakeholder to *start* doing something new, *instead* of their existing behavior. Allow them to channel their energy into that new thing.[fn:: If you've ever had small children, you may recognize this as a familiar tactic. Someone once explained to my wife and I that, instead of angrily saying, "Stop poking your sister!" we should give calm and extremely specific directions that would result in our son no longer poking his sister. E.g. "Put your hands in your pockets." This has served us quite well! I'm not saying you should treat your CEO like a toddler. Or, wait, maybe I am? Look, we're all humans here.]
 
 Examples:
 
@@ -322,22 +336,81 @@ Examples:
 
  - "Stop attending meeting X altogether" -> "Attend meeting Y instead"
 
- - "Stop overruling all the team's decisions" -> "Pick the one or two most important decisions that you really care about, align on those"
+ - "Stop overruling all the team's decisions" -> "Pick the one or two most important decisions that you really care about, drive alignment on those"
 
- - "Stop harrassing the team with status requests" -> "Bring your questions to the progress sync meeting"
+ - "Stop harrassing the team with status requests" -> "Bring all your questions to the progress sync meeting"
 
  - "Stop crapping all over the team during demos" -> "Note down all your concerns and discuss them with me, immediately after demo"
 
- - "Stop trying to get the team to spend extra time on your priorities" -> "Bring your requests to a shared triage meeting where you can directly argue with our other stakeholders"
+ - "Stop trying to get the team to spend extra time on your priorities" -> "Bring your requests to the shared triage meeting so you can directly argue with the team's other stakeholders"
 
- - "Stop demanding high-stakes commitments to long-term estimates" -> "Demand that the teams demonstrate that they deeply understand the underlying business goal and are steadily offering options to achieve it"[fn:: This one is so easy! I'm gonna leave it as an exercise for the reader. Hahahahahahaha. /me wipes tear from eye.]
+ - "Stop demanding high-stakes commitments to long-term estimates" -> "Demand that the teams demonstrate that they deeply understand the underlying business goal and are steadily offering options to achieve it"[fn:: This one is so easy! I will leave the details as an exercise for the reader.]
 
-This pairs very well with Find Wins For Stakeholders and Address Fears Directly.
+This pairs very well with Find Wins By Hook Or By Crook (because such "not strictly needed" wins are sometimes the specific other thing you'll ask them to do), and also Address Fears Directly (by thinking about their underlying fears, you can come up with good alternative actions).
+
 ** Tactic: Address Fears Directly
 
-Problem: There's something your stakeholder *likes* about the current way of working, and they're going to hear a request for change as having to give that up.
+Problem: Your proposed adjustment might raise fears for your stakeholder.
 
-Tactic: carefully and explicitly address this in your request for change. If you can, make clear to them that they'll still get that benefit, possibly in a new way. If, on the other hand, they do just have to give something, make that very clear and express your empathetic understanding.
+Tactic: address their fears *directly* in your request for change.
+
+"Addressing directly" means, more than anything, *validating* the fears. Sharing your genuine understanding of those fears as reasonable, even *inevitable*.
+
+Once you've done so, you have a handful of options for speaking directly to your stakeholder's fears:
+
+ - *Create shared visibility*
+
+   Ensure you and your stakeholder can *both* see if/how those fears are coming true
+
+ - *Offer meaningful control*
+
+   Ensure your stakeholder has something they can *do*, to prevent those fears from coming true
+
+ - *Own the risk with empathy*
+
+   Directly own the possibility of the fears coming true, and the potential impact on them. Situate it as part of something worth doing, and ask them to take that chance with you.
+
+And now, a warning, with the giantest of flashing red lights:
+
+DON'T TRY TO *CONVINCE* YOUR STAKEHOLDER THAT THEIR FEARS *WON'T COME TRUE*.
+
+Note: this path, despite being a terrible idea, can be *enormously* tempting.
+
+You know that your ask could make life harder for your stakeholder. Having that hanging over you doesn't feel good or safe. As a result, some part of your brain will desperately try to convince you that it simply won't happen. Once it convinces you of this, your brain will then insist that, if only you can explain that to your stakeholder, everything will be fine. This path feels easier to your brain than *admitting* to your stakeholder that there is, in fact, anything to be afraid of.
+
+But, telling someone who is being asked to take a risk: "Don't worry, it'll be fine", will make them feel like you're minimizing them and their concerns. It often even sounds *patronizing*.[fn:: In which case, game over. This entire effort is a loss and you'll want to back way the heck up and start over.]
+
+Address the potential dowsides, the fears, directly, clearly and with empathy. Make the risks visible, offer them control, of just own that you're asking something hard. Don't avoid, minimize, or skirt around.
+
+Example
+
+
+
+For example, say you're an engineering lead, and you're asking your product manager to start to consistently set aside time in each sprint to deal with some nasty under-the-hood issues that are causing lots of reactive work on the part of the team.
+
+# or: issues in parts of the code the team expects to work on, in upcoming months
+
+What might that PM be afraid of:
+
+ - They're giving up some control over their ability to achieve their own goals
+
+ - They're afraid the engineers, if given this blank check, will come back with a demand to launch a giant rewrite (or, better yet, blithely announcing that they've already started that rewrite, and they'll need to spend "the next couple of sprints" finishing it up).
+
+ - They're afraid that the team's understanding of what they're going to work on is wrong, and therefore, the team will waste time (the PM has the humility to know that even their own understanding of what they're going to work on may change)
+
+
+
+For example, your stakeholder might hear a request to
+
+Sometimes, addressing directly means making it clear that you understand and are committed to
+
+Other times
+
+If you can, make clear to them that they'll still get that benefit, possibly in a new way. If, on the other hand, they do just have to give something, make that very clear and express your empathetic understanding.
+
+Example
+
+
 
 ** Tactic: Offer A Future Decision
 
@@ -368,6 +441,8 @@ First on your own, then with a trusted friend. At least once, maybe a few times.
 Eventually, going through this arc will feel natural, and you won't need to practice as much. But, early on, you're going to want to be extremely disciplined about going through the steps in sequenc. It's incredibly easy to skip over important steps, which can leave your stakeholder unwilling to say yes.
 
 For high stakes such proposals, I still practice over and over, until it feels fully clear, smooth and authentic.
+** Tactic: Invite Them To Tell You What's Wrong
+When you actually deliver it, don't ask "yes/no", ask what's wrong?
 ** Troubleshooting
 *** Stakeholder doesn't confirm Strategic Intent
 *** Stakeholder doesn't validate summary of their concerns
