@@ -196,6 +196,32 @@ Having all those specific steps gives him much more clear ammunition than just a
 
 That chain of consequences can also help Sagar define *leading indicators*: near-term outcomes that his team can only achieve if they get the sales reps to stop blowing up his focus. In this case, that's delivery of early prototypes. Having some options for leading indicators sets him up to use the Create Urgency Through Visibility tactic.
 
+** Tactic: Tell A Story Of Growing Danger
+
+Problem: You've linked your current frustrations to longer-term strategic outcomes, but that linkage feels dry and unconvincing.
+
+Tactic: Lean on storytelling structures to make your concerns *feel* vivid and immediate to your stakeholder
+
+Evolution has wired storytelling structures deeply into the human mind, so using them to frame your concerns can have a big effect.
+
+There's a specific structure, a form of the Heroic Arc, which is somewhat shockingly useful for framing business challenges. It goes like this:
+
+ - The world is at peace
+
+ - A danger emerges that threatens that peace
+
+ - The hero struggles to face the danger
+
+ - The danger intensifies
+
+ - The hero discovers new strength within themselves, often with the help of a friend or mentor
+
+ - The hero overcomes the danger and creates a better world
+
+How can you use that? What am I even talking about?
+
+# Say you're
+
 ** Tactic: Create Urgency Through Visibility
 
 Problem: Your stakeholder accepts that your frustrations matter, but they seem unwilling to do anything *now*.
@@ -669,6 +695,7 @@ As in make that a core part of the plan. The Strategic Intent is at ris, and the
 CLOSED: [2025-10-15 Wed 10:09]
 ** DONE Can I get all the tactics short enough to be one section
 CLOSED: [2025-10-15 Wed 10:09]
+** TODO Finish what I started with storytelling
 ** TODO Take a pass on making all stories more vivid/playful
 E.g. Mark Blevins-style.
 ** TODO Cluster the tactics?
