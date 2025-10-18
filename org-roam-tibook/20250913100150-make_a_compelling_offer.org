@@ -76,7 +76,7 @@ Other tactics she's using:
 
 ** Tactic: Offer A Future Decision
 
-Problem: Your stakeholder is a human being. Therefore, agreeing to your proposal for a change in their own behvior may make them feel like they're losing control.
+Problem: Your stakeholder is a human being. Therefore, agreeing to your proposal for a change in their own behavior may make them feel like they're losing control.
 
 Tactic: ensure that your initial, timeboxed increment of change ends with a decision that your stakeholder gets to make.
 
@@ -130,7 +130,9 @@ This tactic pairs well with both Propose a Timebox, and Create Urgency Through V
 
 ** Tactic: Link Frustrations To Outcomes
 
-Problem: Your stakeholder doesn't seem to hear your concerns as valid or important. They don't understand why the problems that frustrate you matter for the business.
+Problem: Your stakeholder doesn't seem to hear your concerns as valid or important.
+
+Or, to put it another way: they don't understand why "your" problems matter for the business.
 
 Tactic: use a form of "5 Whys" to develop a chain of consequences that shows how your day-to-day frustrations, if left unchecked, will eventually impact your company's long-term goals.
 
@@ -268,7 +270,7 @@ If you keep on steadily and calmly asking open-ended "How could I possibly solve
 
 ** Tactic: Find Wins By Hook Or By Crook
 
-Problem: You can't figure out a way for your adjustment to improve things for your stakeholder. Try as you might, you don't see how to address your frustrations in a way that directly benefits them.
+Problem: You can't figure out a way for your adjustment to immediately improve things for your stakeholder. Try as you might, you don't see how to address your frustrations in a way that directly benefits them.
 
 Tactic: Find some win for them that you *can* offer, even if it's not strictly necessary for your adjustment.
 
@@ -346,9 +348,9 @@ They realize they now feel excited about sharing their proposed first increment 
 
 ** Tactic: Keep 'Em Busy
 
-Problem: You need to ask your stakeholder to *stop* doing something. You're worried that they will resist, because they are a human being, and thus like *doing stuff*.
+Problem: You need to ask your stakeholder to *stop* doing something. You're worried that they will resist, because they are a human being, and thus like *doing things*.
 
-Tactic: Find a way to ask your stakeholder to *start* doing something new, *instead* of their existing behavior. Allow them to channel their energy into that new thing.[fn:: If you've ever had small children, you may recognize this as a familiar tactic. Someone once explained to my wife and I that, instead of angrily saying, "Stop poking your sister!" we should give calm and extremely specific directions that would result in our son no longer poking his sister. E.g. "Put your hands in your pockets." This has served us quite well! I'm not saying you should treat your CEO like a toddler. Or, wait, maybe I am? Look, we're all humans here.]
+Tactic: Find a way to ask your stakeholder to *start* doing something new, *instead* of their existing behavior. Allow them to channel their energy into that new thing.[fn:: If you've ever had small children, you may recognize this as a familiar tactic. Someone once explained to my wife and I that, instead of angrily saying, "Stop poking your sister!" we should give calm and extremely specific directions that would result in our son no longer poking his sister. E.g. "Please put your hands in your pockets." This has served us quite well! I'm not saying you should treat your CEO like a toddler. Or, wait, maybe I am? Look, we're all humans here.]
 
 Examples:
 
@@ -364,13 +366,13 @@ Examples:
 
  - "Stop trying to get the team to spend extra time on your priorities" -> "Bring your requests to the shared triage meeting so you can directly argue with the team's other stakeholders"
 
- - "Stop demanding high-stakes commitments to long-term estimates" -> "Demand that the teams demonstrate that they deeply understand the underlying business goal and are steadily offering options to achieve it"[fn:: This one is so easy! I will leave the details as an exercise for the reader.]
+ - "Stop demanding high-stakes commitments to long-term estimates" -> "Demand that the teams demonstrate that they deeply understand the underlying business goal and are steadily offering options to achieve it, as the work unfolds"[fn:: This one is so easy. I will leave the details as an exercise for the reader.]
 
 This pairs very well with Find Wins By Hook Or By Crook (because such "not strictly needed" wins are sometimes the specific other thing you'll ask them to do), and also Address Fears Directly (by thinking about their underlying fears, you can come up with good alternative actions).
 
 ** Tactic: Address Fears Directly
 
-Problem: Your proposed adjustment might raise concerns for your stakeholder, such that they resist making a change.
+Problem: Your proposed adjustment might raise concerns or fears for your stakeholder, such that they resist making a change.
 
 Tactic: address their fears *directly* in your request for change.
 
@@ -432,9 +434,56 @@ Instead, address any potential dowsides directly, clearly and with empathy. Make
 
 ** Tactic: Put Yourself On the Line
 
-Problem: You're stakeholder is reluctant to commit.
+Problem: You're worried that your stakeholder will be reluctant to commit to your proposed adjustment, because it will feel to them like they have to do all the hard work.
 
-Tactic: Make clear that you're willing to work extra hard to make this work.
+Tactic: Make it easier for them to say yes by proposing that you will personally take on extra work, or personally face some hard thing.
+
+If humans see someone putting themselves on the line to face a difficult or risky challenge, they become much more willing to listen to requests from the person to help.[fn:: This is a big part of what we mean when we talk about someone having "moral authority".] Whereas, if a human is asked to do something that they perceive as risky, but the person doing the asking doesn't seem to be taking any personal risks, or shouldering any of the new burdens created, that creates resentment and resistance.
+
+Examples of you how you can put yourself on the line:
+
+ - *Take on off-hours responsibilities*
+
+   As part of your proposed adjustment, will someone have to login at 11 pm each night, to check for successful close of business on the west coast? You will, of course, offer to be that person.
+
+ - *Force yourself to be extra responsive*
+
+   Give key players in the adjustment a means to get directly to you, no matter what else you're doing, e.g.:
+
+   - Set up a new slack channel you'll have to monitor
+
+   - Put in place a daily standup that you'll always attend
+
+   - Give out your personal cell phone number to all and sundry
+
+ - *Throw other parts of your job overboard*
+
+   Cancel some key set of meetings you usually lead, so that this adjustment can get your full focus.
+
+   Note: the more visible a cost this has to you, the more weight it will carry with your stakeholder. You're not going to tip the scales with your stakeholder by cancelling a few 1:1's with of your directs. You want to find something more painful to you, like  suspending a regular meeting with the CEO, or having someone on your team lead a key monthly planning meeting, or the like.
+
+ - *Point problems firmly in your own direction*
+
+   Add a regular 1:1 check-in with your stakeholder, where they can share any problems that have cropped up. Make clear that you will take responsibility for resolving such problems. Or personally run a regular triage process, so that you're hearing about any problems as quickly as possible.
+
+ - *Face a difficult shared stakeholder*
+
+   As a part of this adjustment, will someone have to tell the CEO that they're not going to see any progress on their pet project for a few months? Offer to be the one to share this news and bear the brunt of the CEO's frustrations.
+
+ - *Take on extra travel*
+
+   Hop on a flight to meet your stakeholder in person, for either the initial pitch, or as a regular part of the ongoing adjustment. Commit to being the one to visit sites or customers in person.
+
+ - *Have a hard conversation with your team*
+
+   Are you asking your stakeholder to lean into a difficult conversation with one of their direct reports? If so, find a way to commit to having a "similarly hard" conversation with people on your team.
+
+   Note: this doesn't mean that your team has to be equally to blame. Perhaps you're asking the VP of Product to challenge one of their PM's to push back on stakeholders, rather than passing all requests through to the ever-more frustrated engineers on your team. You can commit to sitting down with the engineers, making clear that the PM is stepping up to try something new, and challenging them to put aside their frustrations and work their butts off on any requests that *do* come through.
+
+
+
+
+
 
 ** Tactic: Use Storytelling For Motivation
 ** Tactic: Dry Run With a Friend
