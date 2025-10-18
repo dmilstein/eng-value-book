@@ -4,16 +4,16 @@
 #+title: The Feature Factory
 #+filetags: :Chapter:
 
-* The Feature Factory
+* Overhauling The Feature Factory
 # Welcome To The Feature Factory, Here's Your Widget Tool
 
 If there's one thing that we've learned as an industry, it is:
 
-    Engineering and Product teams create much more value, much more quickly, if they are given *customer problems to solve*, rather than *features to build*.
+    Engineering and Product teams create much more value, much more quickly, if they are given *business problems to solve*, rather than *features to build*.
 
 But, we've also learned /something else/ as an industry:
 
-    Most stakeholders super duper want to give teams specific features to build
+    Most stakeholders super duper want to give teams features to build
 
 If your team is just churning out features, without much understanding of the business problems those features are supposed to solve, and without being able to come up with creative solutions and/or adapt to what is learned as they go...
 
