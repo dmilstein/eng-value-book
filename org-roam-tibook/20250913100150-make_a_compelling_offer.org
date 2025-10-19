@@ -204,13 +204,13 @@ Tactic: Use the structure of a *story* to render your concerns vivid, immediate 
 
 /Lean in close, I'm going to tell you a secret/. Thanks to several million years of work by evolution, human beings have certain storytelling structures wired super deeply into our minds. If you can frame your concerns using one of those structures, you can take advantage of that wiring to bring your concerns vividly to life.
 
-There's one particular structure, a form of a Heroic Arc, which is somewhat shockingly useful for sharing business challenges. I like to frame that arc as:
+There's one particular structure, a form of Heroic Arc, which is specifically useful for sharing business challenges. I like to frame that arc as:
 
  - The world is at peace
 
  - A danger emerges that threatens that peace
 
- - A hero struggles to face the danger
+ - A hero tries to face the danger, but fails
 
  - The danger intensifies
 
@@ -220,48 +220,73 @@ There's one particular structure, a form of a Heroic Arc, which is somewhat shoc
 
  - The hero overcomes the danger and creates a better world
 
-Now, you may well be saying to yourself, "Um, Dan, what on earth are you talking about? Do you have some kind of deranged love for empowerment fantasies? We're talking about running a business here. I need help with hitting my OKR's, not to hear some random muttering about heroes."
+Now, you may well be saying to yourself, "Um, Dan, what on earth are you talking about? Do you have some kind of life-long love of empowerment fantasies?[fn:: I mean, *yes*, obviously.] We're talking about running a business here. I need help with hitting my OKR's, I don't need to hear your random mutterings about heroic journeys."
 
-Of course, of course. But just stick with me for a moment, and let's see if we can bring this to life with an...
+Of course, of course. But just stick with me for a moment, and let's see if we can bring this to life.
 
 Example
 
-Let's start with the basic situation:
+Ted is an engineering leader at a tech-enabled online pharmacy. He wants to temporarily hit pause on delivery of new features, so that his team can clean up their systems. In particular, he's unhappy about the number of high-impact, time-sensitive exceptions that his team has to fix by hand.
 
-Ted is an engineering leader at a tech-enabled online pharmacy. He wants to temporarily hit pause on delivery of new features, so that his team can clean up their systems. In particular, he's unhappy about the number of high-impact, time-sensitive exceptions those systems throw off (each of which require some engineering time to fix).
+His key stakeholder is the VP of Pharmacy Operations, Amitai (Ted's systems face internal users, not customers). Six months back, the CEO of the company brought Amitai on board and charged him with hitting a set of extremely ambitious scale and efficiency targets. Amitai then turned around and handed Ted a sprawling list of features he claims he needs, every one absolutely as soon as possible, if he's going to hit those targets.
 
-His key stakeholder is the VP of Operations, Amitai (Ted's systems face internal users, not customers). Six months back, the CEO of the company brought Amitai on board and charged him with hitting a set of extremely ambitious scale and efficiency targets. Amitai then turned around and handed Ted a list of new features he claims he needs, absolutely as soon as possible, if he's going to hit those targets.
-
-Now, Ted has done some of the work we've described earlier in this book, so he knows there's a long-term strategic goal to enable same-day delivery of prescriptions. That's what their near-term scale and efficiency targets are ultimately driving towards.
+Ted has done some of the work we've described earlier in this book, so he knows there's a long-term strategic goal to enable same-day delivery of prescriptions. That's what their near-term scale and efficiency targets are ultimately driving towards.
 
 Given the above, how could Ted most effectively frame his concerns to Amitai?
 
 What might you say, if you were in Ted's shoes?
 
-In point of fact, what Ted tries first is an *appeal to reason*.
+What Ted tries first is an *appeal to reason*.
 
-He sits down with Amitai and makes a cool, clear, rational case. "I know how important it is to scale up to more pharmacist users, and to keep taking time out of our mean-time-to-fill. But, if we're going to hit our long-term goal of same-day delivery, we need to pause feature delivery so my teams can reduce the rate of exceptions they have to hand-fix."
+He sits down with Amitai and makes a cool, clear, rational case. "I know how important it is to scale up our pharmacist count, and to keep taking time out of our mean-time-to-fill. But, if we're going to hit our long-term goal of same-day delivery, we need to pause feature delivery so my teams can reduce the rate of exceptions they have to hand fix."
 
-Now, this is not bad! It's probably well above the 50th percentile of effectiveness, of all requests made to stakeholders by engineers in, say, the last year. Ted demonstrated an empathetic understanding of Amitai's near-term goals (around pharmacist count and time-to-fill). He named the shared strategic goal of enabling same-day delivery. He's focused his request for technical investment on the visible outcome of reducing an exception rate (instead of some vague plea to clean up technical debt). Heck, now that I write all that out, maybe this is above the 70th percentile!
+Now, this is not bad! Ted demonstrated an empathetic understanding of Amitai's near-term goals (around pharmacist count and time-to-fill). He named the shared strategic goal of enabling same-day delivery. He focused his request for technical investment on the visible outcome of reducing the exception rate (instead of a vaguely moralizing demand to clean up technical debt). Heck, now that I write all that out, this is a really excellent request!
 
-But, unfortunately, it doesn't work.
+Unfortunately, it doesn't work.
 
-Amitai says "Fine, I'll think about it. But right now, you need to stay focused on integrating the new packaging machines. We can talk about this exception count later."
+Amitai says "Fine, I'll think about it. But right now, you need to stay focused on integrating the new shrink wrapper. We can talk about this exception count problem later."
 
 And then, even as he walks out of the meeting, *Amitai promptly forgets about this conversation*.
 
 Literally all Amitai hears all day is a parade of numbers from people, each accompanied by a plea for him to deploy his political capital to do something that will piss off some other people and/or his boss. Nothing about this particular one lodges more firmly into his mind.
 
-Now, Ted could certainly spend time Creating Urgency Through Visibility. But the other thing he could do, is to frame his concerns using a story structure.
+Ted sits there, feeling completely stuck. He's certain that the exception count issues aren't just *annoying*, they're a real risk for the business. But he can't seem to break through to Amitai.
 
-Perhaps he talks to some friend of his who weirdly happens to develop and direct original physical theater productions. Who lays out for Ted the heroic arc above.
+That weekend, on the sidelines of an ultimate frisbee game, Ted complains about this to a friend who develops original physical theater productions.[fn:: Just a random such frisbee-playing, physical theater-devising friend, not resembling anyone writing this book.] That friend (um, *Dean*) lays out the heroic arc above.
 
+At first, Ted can't see how to apply it. Dean says, pointing at Ted with the frisbee he's holding, "Start by finding a *moment in time*, when problems first emerge. Things seemed to be heading in the right direction, but then this Bad Thing started to develop." Dean waves the frisbee grandly. "Like distant thunder rumbling on the horizon. See if you can find a specific moment. Maybe when something changed, or maybe when you made a worrisome discovery." He points the frisbee at Ted. "What might that be?"
 
+"I... dunno? I guess I could do something about when I got switched to backend from customer-facing. Actually," says Ted slowly, "that *is* when I realized how bad things were."
 
+"Great, perfect. Really hone in on at that moment you realized 'how bad things were'. Then, were there things you or other people tried, that *didn't* help?"
 
+"Oh, plenty. We added logging, and--"
 
-Theodore Grantwell (Ted to his friends) is an engineering leader at a tech-enabled online pharmacy, Rx-R-Us. Recently, after a successful arc leading the consumer-facing Storefront team, Ted was asked to take over the tech that supports backend prescription review, drug inventory management and prescription fulfillment. Now, Ted well knows that Rx-R-Us has a long, proud history of spinning up their internal operations just as fast as humanly possible, often well well in advance of any kind of stable tech support. As he digs in, he discovers that just about every step in receiving, reviewing and acting on prescription requests from customers can result in a cascade of exceptions which engineers then need to hand-fix in the backend databases (luckily, the patient safety systems are the one glowing exception to this pattern). Ted discovers, to his dismay, that each of his teams sacrifices one engineer per sprint to serve on the "Criticals" rotation, where they desperately handle time-sensitive issues from the pharmacy and ops teams.
+"Yeah, I don't care. Don't tell *me* this, tell your guy. And then tell him how, despite your noble efforts, things kept getting worse and worse. And now it's almost too late! If he doesn't do your, whatever it is you want him to do, things are going to go completely to hell, the forces of chaos will win. Your guy, whatshisname---"
 
+"Amitai."
+
+"---Amitai will *care*. And he'll remember." With that, Dean stands up, stretches, and jogs onto the frisbee field, leaving Ted thoughtful.
+
+Over the next few days, Ted works on his story pitch, even calling up Dean for some practice. It's a lot of time, but it feels worth it. He's really worried that, if he *can't* get buy in from Amitai to do something other than churn out new features, they're going to be backed into a corner that he's not sure how they'll get out of.
+
+Finally, he's ready. At his next weekly meeting with Amitai, he lays out his request in a new way.
+
+"I don't think I ever told you, but I only came over to the ops side at around the time you were hired. Before then, I'd been working on Storefront. It's the same tech stack, but there's a totally different history. As I was getting to know my new teams, I sat in on a series of team planning sessions. And as I did... I started to notice this weird pattern. I couldn't understand it at first." Amitai is listening intently. He has been drawn into this moment in time that, as per Dean's advice, Ted has brought to life.
+
+"At every single sprint planning," Ted continues, "the teams would name an engineer to 'Criticals'. I didn't know what that meant, but that engineer always looked *miserable*. Finally, after a few meetings, I stopped everyone and asked what was going on. It turned out that the teams were handling so many exceptions, that one engineer from every team had to do nothing but clean up critical data in the field, for *the entirety of the sprint*. They wouldn't work on new features, they wouldn't improve the code, they would just try to keep prescriptions flowing, and make absolutely certain no safety issues creep in." Amitai visibly tenses at the mention of safety issues.
+
+"We've tried to fix some underlying issues, but just staying on top of the existing criticals is taking so much time, that we're barely treading water. I'm worried that, as we scale up our pharmacist count, we're going to be generating more and more exceptions, and more and more engineering time will be devoted to just keeping things from falling over. I want to reduce time-to-fill, and I want to get us to same-day, but, unless we do something to get a handle on critical exceptions, I just don't know if we're going to be able to."
+
+He sits back. There's a long pause. Finally, Amitai says, slowly, "Okay, what are some options?"
+
+Just as Dean had predicted.
+
+Even if you don't get immediate buy-in, using the structures of a story will ensure you stakeholder *remembers* the concern. That it feels *real* to them.
+
+# Maybe ref the Daniel Kahneman thing
+
+This pairs beautifully with Create Urgency Through Visibility.
 
 
 ** Tactic: Create Urgency Through Visibility
