@@ -38,11 +38,63 @@ When you deliver that compelling offer, you'll go through four steps:
 
 Be ready to spend time preparing your offer. Even once you have all the pieces, it can often feel like there's no obvious way to proceed. It takes time to come up with something crisp, clean and compellings. Talk to some friends about good patterns of work, test out your thinking with people you trust. Sleep on it, and see if any new ideas come to you the next day.
 
-To support you in the work, I'm going to list a set of tactics you can consider. For each, I'll name the kind of problems it helps address, along with a brief narrative example to bring it to life.
+To support you in the work, I'm going to list a set of tactics you can consider. For each, I'll name the kind of problems it helps address. Then, I'll expand on each, usually including a brief narrative example to bring it to life.
 
 Feel free to dip in an out of these.
 
 You'll find more ideas in the second half of the book, in the case studies.
+
+** Tactics & Problems
+*** Propose a Timebox
+Problem: your stakeholder is reluctant to consider a change in their behavior.
+
+Tactic: ask your stakeholder to try changing their behavior for an initial, limited period of time.
+*** Offer A Future Decision
+Problem: Your stakeholder is a human being. Therefore, agreeing to your proposal for a change in their own behavior may make them feel like they're losing control.
+
+Tactic: ensure that your initial, timeboxed increment of change ends with a decision that your stakeholder gets to make.
+*** Shrink Your Ask
+Problem: The better way of working you want to get to is complex, and you can't see a way to implement it all at once.
+
+Tactic: Shrink your ask to implementing just a *part* of that better way to work, even if that doesn't immediately improve things for you.
+*** Link Frustrations To Outcomes
+Problem: Your stakeholder doesn't seem to hear your concerns as valid or important. They don't understand why "your" problems matter for the business.
+
+Tactic: use a form of "5 Whys" to develop a chain of consequences that shows how your day-to-day frustrations, if left unchecked, will eventually impact your company's long-term goals.
+*** Tell A Story Of Growing Danger
+Problem: You've worked out a way to connect your current frustrations to longer-term strategic outcomes, but the connections feel dry and unconvincing.
+
+Tactic: Use the structure of a *story* to render your concerns vivid, immediate and memorable to your stakeholder.
+*** Create Urgency Through Visibility
+Problem: Your stakeholder accepts that your frustrations matter, but they seem unwilling to do anything *now*.
+
+Tactic: Create visibility into the early impact of the underlying problems, so that you can both motivate immediate action, *and* make it possible to see incremental improvement.
+
+*** Invite Your Stakeholder To Solve Your Problems
+Problem: You need to ask your stakeholder to change their behavior, but doing so risks getting into a power struggle.
+
+# (because they will feel challenged)
+
+Tactic: Find a way to describe the results of their behavior as a problem for the two of you to solve together. Ask them open-ended questions that offer them a chance to be an expert, and solve the problem you're laying out to them.
+
+*** Find Wins For Your Stakeholder By Hook Or By Crook
+Problem: You can't figure out a way for your adjustment to immediately improve things for your stakeholder. Try as you might, you don't see how to address your frustrations in a way that directly benefits them.
+
+Tactic: Find some win for them that you *can* offer, even if it's not strictly necessary for your adjustment.
+
+*** Keep 'Em Busy
+Problem: You need to ask your stakeholder to *stop* doing something. You're worried that they will resist, because they are a human being, and thus like *doing things*.
+
+Tactic: Find a way to ask your stakeholder to *start* doing something new, *instead* of their existing behavior. Allow them to channel their energy into that new thing.
+*** Address Fears Directly
+Problem: Your proposed adjustment might raise concerns or fears for your stakeholder, such that they resist making a change.
+
+Tactic: address their fears *directly* in your request for change.
+
+*** Put Yourself On the Line
+Problem: You're worried that your stakeholder will be reluctant to commit to your proposed adjustment, because it will feel to them like they have to do all the hard work.
+
+Tactic: Make it easier for them to say yes by making it clear that you will personally take on extra work, and/or face some hard thing.
 
 ** Tactic: Propose a Timebox
 
@@ -96,7 +148,7 @@ After talking it over with his manager, he decides to really focus on this as a 
 
 Problem: The better way of working you want to get to is complex, and you can't see a way to implement it all at once.
 
-Tactic: Shrink your ask to implementing just a *part* of that better way to work.
+Tactic: Shrink your ask to implementing just a *part* of that better way to work, even if that doesn't immediately improve things for you.
 
 This can sometimes mean that your first adjustment won't make a big difference in fixing *your* frustrations. But if you can draw your stakeholder into steady collaborative improvements, you can then layer in the other pieces of the puzzle.
 
@@ -361,7 +413,7 @@ Of course, Mark might still be frustrated, and say, "The engineers should know h
 
 If you keep on steadily and calmly asking open-ended "How could I possibly solve my problem?" questions, often, your stakeholder will find themselves coming up with the precise solutions you've been wanting to implement. And they'll feel like the ideas are their own, not something they've been forced to do.
 
-** Tactic: Find Stakeholder Wins By Hook Or By Crook
+** Tactic: Find Wins For Your Stakeholder By Hook Or By Crook
 
 Problem: You can't figure out a way for your adjustment to immediately improve things for your stakeholder. Try as you might, you don't see how to address your frustrations in a way that directly benefits them.
 
@@ -529,7 +581,7 @@ Instead, address any potential dowsides directly, clearly and with empathy. Make
 
 Problem: You're worried that your stakeholder will be reluctant to commit to your proposed adjustment, because it will feel to them like they have to do all the hard work.
 
-Tactic: Make it easier for them to say yes by proposing that you will personally take on extra work, or personally face some hard thing.
+Tactic: Make it easier for them to say yes by making it clear that you will personally take on extra work, and/or face some hard thing.
 
 If humans see someone putting themselves on the line to face a difficult or risky challenge, they become much more willing to listen to requests from the person to help.[fn:: This is a big part of what we mean when we talk about someone having "moral authority".] Whereas, if a human is asked to do something that they perceive as risky, but the person doing the asking doesn't seem to be taking any personal risks, or shouldering any of the new burdens created, that creates resentment and resistance.
 
@@ -578,7 +630,6 @@ Examples of you how you can put yourself on the line:
 
 
 
-** Tactic: Use Storytelling For Motivation
 ** Tactic: Dry Run With a Friend
 Before you make your proposal, *practice*. Out loud.
 
