@@ -198,29 +198,71 @@ That chain of consequences can also help Sagar define *leading indicators*: near
 
 ** Tactic: Tell A Story Of Growing Danger
 
-Problem: You've linked your current frustrations to longer-term strategic outcomes, but that linkage feels dry and unconvincing.
+Problem: You've worked out a way to connect your current frustrations to longer-term strategic outcomes, but the connections feel dry and unconvincing.
 
-Tactic: Lean on storytelling structures to make your concerns *feel* vivid and immediate to your stakeholder
+Tactic: Use the structure of a *story* to render your concerns vivid, immediate and memorable to your stakeholder.
 
-Evolution has wired storytelling structures deeply into the human mind, so using them to frame your concerns can have a big effect.
+/Lean in close, I'm going to tell you a secret/. Thanks to several million years of work by evolution, human beings have certain storytelling structures wired super deeply into our minds. If you can frame your concerns using one of those structures, you can take advantage of that wiring to bring your concerns vividly to life.
 
-There's a specific structure, a form of the Heroic Arc, which is somewhat shockingly useful for framing business challenges. It goes like this:
+There's one particular structure, a form of a Heroic Arc, which is somewhat shockingly useful for sharing business challenges. I like to frame that arc as:
 
  - The world is at peace
 
  - A danger emerges that threatens that peace
 
- - The hero struggles to face the danger
+ - A hero struggles to face the danger
 
  - The danger intensifies
 
- - The hero discovers new strength within themselves, often with the help of a friend or mentor
+ - The hero discovers new strength within themselves
+
+   (Often with the help of a friend or mentor)
 
  - The hero overcomes the danger and creates a better world
 
-How can you use that? What am I even talking about?
+Now, you may well be saying to yourself, "Um, Dan, what on earth are you talking about? Do you have some kind of deranged love for empowerment fantasies? We're talking about running a business here. I need help with hitting my OKR's, not to hear some random muttering about heroes."
 
-# Say you're
+Of course, of course. But just stick with me for a moment, and let's see if we can bring this to life with an...
+
+Example
+
+Let's start with the basic situation:
+
+Ted is an engineering leader at a tech-enabled online pharmacy. He wants to temporarily hit pause on delivery of new features, so that his team can clean up their systems. In particular, he's unhappy about the number of high-impact, time-sensitive exceptions those systems throw off (each of which require some engineering time to fix).
+
+His key stakeholder is the VP of Operations, Amitai (Ted's systems face internal users, not customers). Six months back, the CEO of the company brought Amitai on board and charged him with hitting a set of extremely ambitious scale and efficiency targets. Amitai then turned around and handed Ted a list of new features he claims he needs, absolutely as soon as possible, if he's going to hit those targets.
+
+Now, Ted has done some of the work we've described earlier in this book, so he knows there's a long-term strategic goal to enable same-day delivery of prescriptions. That's what their near-term scale and efficiency targets are ultimately driving towards.
+
+Given the above, how could Ted most effectively frame his concerns to Amitai?
+
+What might you say, if you were in Ted's shoes?
+
+In point of fact, what Ted tries first is an *appeal to reason*.
+
+He sits down with Amitai and makes a cool, clear, rational case. "I know how important it is to scale up to more pharmacist users, and to keep taking time out of our mean-time-to-fill. But, if we're going to hit our long-term goal of same-day delivery, we need to pause feature delivery so my teams can reduce the rate of exceptions they have to hand-fix."
+
+Now, this is not bad! It's probably well above the 50th percentile of effectiveness, of all requests made to stakeholders by engineers in, say, the last year. Ted demonstrated an empathetic understanding of Amitai's near-term goals (around pharmacist count and time-to-fill). He named the shared strategic goal of enabling same-day delivery. He's focused his request for technical investment on the visible outcome of reducing an exception rate (instead of some vague plea to clean up technical debt). Heck, now that I write all that out, maybe this is above the 70th percentile!
+
+But, unfortunately, it doesn't work.
+
+Amitai says "Fine, I'll think about it. But right now, you need to stay focused on integrating the new packaging machines. We can talk about this exception count later."
+
+And then, even as he walks out of the meeting, *Amitai promptly forgets about this conversation*.
+
+Literally all Amitai hears all day is a parade of numbers from people, each accompanied by a plea for him to deploy his political capital to do something that will piss off some other people and/or his boss. Nothing about this particular one lodges more firmly into his mind.
+
+Now, Ted could certainly spend time Creating Urgency Through Visibility. But the other thing he could do, is to frame his concerns using a story structure.
+
+Perhaps he talks to some friend of his who weirdly happens to develop and direct original physical theater productions. Who lays out for Ted the heroic arc above.
+
+
+
+
+
+Theodore Grantwell (Ted to his friends) is an engineering leader at a tech-enabled online pharmacy, Rx-R-Us. Recently, after a successful arc leading the consumer-facing Storefront team, Ted was asked to take over the tech that supports backend prescription review, drug inventory management and prescription fulfillment. Now, Ted well knows that Rx-R-Us has a long, proud history of spinning up their internal operations just as fast as humanly possible, often well well in advance of any kind of stable tech support. As he digs in, he discovers that just about every step in receiving, reviewing and acting on prescription requests from customers can result in a cascade of exceptions which engineers then need to hand-fix in the backend databases (luckily, the patient safety systems are the one glowing exception to this pattern). Ted discovers, to his dismay, that each of his teams sacrifices one engineer per sprint to serve on the "Criticals" rotation, where they desperately handle time-sensitive issues from the pharmacy and ops teams.
+
+
 
 ** Tactic: Create Urgency Through Visibility
 
@@ -294,7 +336,7 @@ Of course, Mark might still be frustrated, and say, "The engineers should know h
 
 If you keep on steadily and calmly asking open-ended "How could I possibly solve my problem?" questions, often, your stakeholder will find themselves coming up with the precise solutions you've been wanting to implement. And they'll feel like the ideas are their own, not something they've been forced to do.
 
-** Tactic: Find Wins By Hook Or By Crook
+** Tactic: Find Stakeholder Wins By Hook Or By Crook
 
 Problem: You can't figure out a way for your adjustment to immediately improve things for your stakeholder. Try as you might, you don't see how to address your frustrations in a way that directly benefits them.
 
@@ -696,6 +738,7 @@ CLOSED: [2025-10-15 Wed 10:09]
 ** DONE Can I get all the tactics short enough to be one section
 CLOSED: [2025-10-15 Wed 10:09]
 ** TODO Finish what I started with storytelling
+** TODO Make a ToC-like section of problems/tactics
 ** TODO Take a pass on making all stories more vivid/playful
 E.g. Mark Blevins-style.
 ** TODO Cluster the tactics?
