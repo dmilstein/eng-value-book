@@ -173,25 +173,29 @@ Example
 
 Jonas is a product manager who is struggling with his engineering peer Lizabet, the engineering manager and tech lead for their team. Lizabet insists that, before her engineers start *any* work, Jonas first write extremely detailed tickets, containing enough information for the engineer to fully deliver the ticket on their own. Lizabet insists this is necessary to avoid wasting the team's time. However, Jonas has worked on teams where the engineers and PM's wrote much lighter and more informal tickets, then talked to each other steadly throughout the sprints, and things went much faster.
 
-He goes through the various steps we've laid out, and comes up with a proposed adjustment. The core, slightly uncomfortable change will be to bring *much* lighter tickets to sprint planning. He'll then discuss the nuances of those tickets *during* planning. Throughout the sprint, Jonas wil commit to being available to answer any and all engineering questions at the drop of a hat. Finally, he includes some things that will feel like wins for Lizabet (most notably, a carve out of time to improve deploy).
+He goes through the various steps we've laid out, and comes up with a proposed adjustment. The core change will be for Jonas to bring much lighter tickets to sprint planning. He and the entire team will then discuss some of the nuances of those tickets during planning, ensuring everyone has a shared understanding. Throughout the sprint, Jonas will commit to being available to answer any and all engineering questions at the drop of a hat. Finally, he includes some things that will feel like wins for Lizabet (most notably, a carve out of time to improve their deploy scripts).
 
-But, even with all of that planned out, he's still worried about approaching Lizabet with his request. She's fairly new as a manager, and he knows she feels concerned about her authority with the team (some of who have been programming for years longer than she has). He's worried that she's put some kind of a stake in the ground about this way of working, and therefore this shift will feel like a challenge to her authority.
+But, even with all of that planned out, he's still worried about approaching Lizabet with his request. She's fairly new as a manager, and he knows she feels concerned about her authority with the team (some of who have been professional programmers since she was in middle school). He's worried that she's put some kind of a stake in the ground about this way of working.
 
-After talking it over with his manager, he decides to really focus on this as a temporary experiment, and one where *Lizabet* will get to decide whether or not it's working. He decides to close by saying, "I'll want you and I to meet, immediately after we've completed a sprint. I'll want to hear from you how this change has been working for the team, and if there's anything whatsoever that's been difficult about it. Then we can decide, together, if and how we want to adjust this new way of working, or even return to the fully detailed tickets we've been doing. I want to be certain both you and the engineers don't end up feeling like we're wasting their time."
+After talking it over with his manager, he decides to really focus on this as a temporary experiment, and one where *Lizabet* will get to decide whether or not it's working. He decides to close his pitch to her by saying, "You and I would meet immediately after the sprint demo.[fn:: Why not after retro? Jonas and Lizabet's team has fallen out of the habit of doing a regular sprint retro. That should likely be the next thing for him to work on.] I'll want to hear from you how this change has been working for the team, and if there's anything whatsoever that's been difficult about it. I can share how it's been working on my end. At that point, you can make the call on whether or not to stick with this new way of working. If it seems like there's something good in it, you and I could decide on any adjustments. Most of all, I want to be certain both you and the engineers don't end up feeling like we're wasting their time."
+
+Lizabet agreed to try it for a single sprint, and even did a surprisingly good job of explaining why to the team. By keeping her clearly in control, Jonas made it easier for her to say yes.
 
 ** Tactic: Shrink Your Ask
 
 Problem: Truly improving how you work together requires a complex adjustment, and you can't see a way to implement it all at once.
 
-Tactic: Shrink your ask to implementing just a *part* of that better way to work, even if that doesn't immediately improve things for you.
+Tactic: Shrink your ask to implementing just a part of that better way to work, even if that doesn't immediately improve things for you.
 
-This can sometimes mean that your first adjustment won't make a big difference in fixing *your* frustrations. But if you can draw your stakeholder into steady collaborative improvements, you can then layer in the other pieces of the puzzle.
+If you can draw your stakeholder into steady collaborative improvements, you can then layer in the other pieces of the puzzle.
 
 Example:
 
-Oliver is an engineering director, leading a half-dozen teams who maintain his company's backend fulfillment systems. This quarter, he's working with his product peer, Alicia, on building a new, complex integration with a key strategic partner, that will allow his company to offer customers faster delivery times. Unfortunately, his team is barely making any progress, because they're swamped by issues reported by the fulfillment ops teams using the existing systems.
+# XXX Make his company do something specific -- sell pens online, or I dunno what.
 
-Oliver wants to put in place a new triage process to handle those issues. He believes doing so will create two benefits:
+Oliver is an engineering director, leading a half-dozen teams who maintain his company's backend fulfillment systems. This quarter, he's working with his product peer, Alicia, to develop a new, complex integration with a key strategic partner. Once that work is done, his company will be able to offer customers faster delivery times. Unfortunately, Olvier feels like his team is barely making any progress, because they're swamped by supporting the fulfillment teams who use the existing systems.
+
+Oliver wants to put in place a new triage process to handle field issues. He believes doing so will create two benefits:
 
  - First, he'll be able to force explicit tradeoffs between handling current issues and building the new integration
 
@@ -199,9 +203,11 @@ Oliver wants to put in place a new triage process to handle those issues. He bel
 
  - Second, he can create motivation to clean up some problematic bits of old code
 
-   He strongly suspects there are a couple of places in their legacy systems that are responsible for most of the issues. But he doesn't know which parts, and so he can't make a case to Alicia other than "Update all our legacy systems", which is a total non-starter. By centralizing bug handling through a triage process, he has a shot at identifying what to fix.
+   He strongly suspects there are a couple of places in their legacy systems that are responsible for most of the issues. But he doesn't know which parts, and so he can't make a case to Alicia other than "We should fix our legacy systems", which is a total non-starter. If they can centralize bug handling through a triage process, he has a shot at seeing patterns he can then act on.
 
-Unfortunately, there are multiple changes he'd need to put in place before he'd see those benefits: he'd have to persuade Alicia to spend political capital to push the ops teams into this new triage process; he'd have to figure out how to link ops team-reported issues to the code that caused each problem (often far upstream of the reported issue); he'd need to carve out time to fix those underlying problems.
+Unfortunately, to see these benefits, he'd have to put in place *multiple* changes: he'd have to persuade Alicia to spend political capital to push the ops teams into this new triage process; he'd have to figure out how to link ops team-reported issues to the code that caused each problem (often far upstream of the reported issue); he'd need to carve out time to fix those underlying problems. Until then, he's not going to see any speed ups in delivery velocity.
+
+# XXX Add someone to talk to?
 
 After a few weeks of feeling stuck, he decides to just get started with something small. He asks Alicia to join him in a new, weekly 30 minute meeting with his engineering leads. He asks each lead to bring to that meeting:
 
@@ -217,10 +223,7 @@ This tactic pairs well with both Propose a Timebox, and Create Urgency Through V
 
 ** Tactic: Link Frustrations To Outcomes
 
-Problem: Your stakeholder doesn't seem to hear your concerns as valid or important.
-
-Or, to put it another way: they don't understand why "your" problems matter for the business.
-
+Problem: Your stakeholder doesn't seem to hear your concerns as valid or important. They don't understand why "your" problems matter for the business.
 
 Tactic: Run a 5 Whys to develop a chain of consequences that shows how your day-to-day frustrations, if left unchecked, will eventually impact your company's long-term goals.
 
@@ -236,11 +239,13 @@ Tactic: Run a 5 Whys to develop a chain of consequences that shows how your day-
 
 Do this initial work by yourself or with a trusted friend. Start by naming the immediate frustration you want to work on. Then ask, "Why is this a problem for the business?"
 
-Whatever answer you come up with, ask that same "Why" question again. Keep doing that, over and over, until you eventually arrive at the strategic intent you've extracted from your stakeholder. If you can't get to the strategic intent, talk to some people, keep refining your understanding of the business. You may even end up realizing that your current frustrations *aren't* related to achieving that strategic intent, no matter how hard you look (this isn't bad! It will let you focus your advocacy on things that do matter).
+Whatever answer you come up with, ask that same "Why" question again. Keep doing that, over and over, until you eventually arrive at the strategic intent you've extracted from your stakeholder. If you can't get to the strategic intent, talk to some people, keep refining your understanding of the business. You may even end up realizing that your current frustrations *aren't* related to achieving that strategic intent, no matter how hard you look (this isn't bad! It will let you focus your advocacy on things that do matter!).
 
 # That chain should not only show the importance of dealing with your frustrations, it should also help identify some leading indicators, which you can then target for creating visibility.
 
 Example:
+
+# Make his company more specific
 
 Sagar is the engineering lead on a sprint team. Unfortunately, the sales reps at his company keep pestering him with an endless series of new feature requests. When a sales rep doesn't get an immediate response, they ping Sagar over and over in Slack to "check for status". Last month, at the company party, Sagar saw Jordy, a sales rep, striding towards him with a big grin on his face, and Sagar had to fight an overwhelming desire to run away.
 
@@ -248,11 +253,11 @@ Sagar is the engineering lead on a sprint team. Unfortunately, the sales reps at
 
 # Sagar has been trying to get his product manager, Emily, to step in and wrangle the sales team, but, so far, she's been unwilling to do so. He's decided that, for his current bid for incremental improvement, Emily is his stakeholder.
 
-Jordy has extracted a meaningful strategic intent from his product peer: their company needs a new product in order to keep growing revenue, and Sagar's team's work is a part of trying to develop that product.
+Jordy *has* managed to extract a meaningful strategic intent from his product peer: within the next eighteen to twenty-four months, their company needs a new product in order to keep growing revenue. Sagar's team's work is a part of trying to develop that product.
 
-How can Jordy connect his day-to-day frustrations to longer-term company goals?
+How can Jordy connect his day-to-day frustrations to that long-term company goal?
 
-Here is the 5 Whys he works out with a friend (a tech lead on adjacent team):
+Here is the 5 Whys he works out with a friend (a tech lead on an adjacent team):
 
   - Why is it a problem for the business that the sales team keeps interrupting Sagar with 'urgent' feature requests?
 
@@ -389,23 +394,23 @@ Dylan is a senior engineer on a team that maintains the data ingestion pipeline 
 
 Dylan gets more and more worried. One afternoon, he drafts a long, ranting email to Thomson, about how the top-down OKR's are ignoring the context of the team. The next morning, he (wisely) decides to not send that email.[fn:: He keeps the email draft around so that he can periodically reread it to make himself feel better.] He starts to spend time in the evenings trawling through random logs, looking for problems.
 
-One night, he makes a discovery deep in the logs, and a plan clicks into place. Although no one specifically intended it, there's n exception that gets recorded in the logs, every time a nightly job finishes for a customer. He throws together a couple of parsing and summing scripts, puts the resulting data into a graph, and sits down with Thomson to review what he's found. Dylan shows Thomson that the finish time for the largest nightly jobs has been steadily creeping later and later. It looks like, if they add just a few more customers with large data sets, those finish times will land *after start of business*. Which will mean that customers will be dealing with stale data. This is a Very Bad Thing, for their particular business.
+One night, he makes a discovery deep in the logs, and a plan clicks into place. Although no one specifically intended it, Dylan discovers that there's an exception that gets recorded in the logs, every time a nightly job finishes for a customer. He spends a few days building parsing and summing scripts, and then rendering the resulting data into a graph. Finally, he sits down with Thomson to review what he's found. Dylan shows that the finish time for the largest nightly jobs has been steadily creeping later and later. It looks like, if they add just a few more customers with large data sets, those finish times will land *after start of business*. Which will mean that customers will be dealing with stale data. This is a Very Bad Thing, for their particular business.
 
 Thomson emerges from that meeting ready to talk to both his product peer and his boss about carving out some time to dig into what, exactly, is causing imports to run so late.
 
-Note: he's willing to do so *both* because he can see the risks of waiting, but also because he, *and his stakeholders*, can now see the result of various kinds of incremental investments. If they can do a little bit of work and delay the arrival of the "stale data in the morning" moment, that's a real win, *which will be visible on Dylan's new graphs*. If they can do a little bit of work and fix issues just for a few big customers, that might be a real win, which they could also make visible. Going from  a monolithic "We have to fix this", to "There are ways to make things a little better with a little work" is just transformative for these kinds of conversations.
+Note: he's willing to do so *both* because he can see the risks of waiting, but also because he, *and his stakeholders*, can now see the result of various kinds of incremental investments. If they can do a little bit of work and buy themselves a bit of time, that's a real win, *which will be visible on Dylan's new graphs*. If they can do a little bit of work and fix issues just for a few big customers, that might be a real win, which they could also make visible. Going from a monolithic "We have to fix this", to "If we make things a little better, we can see it" is transformative for these kinds of conversations.
 
 Note: creating visibility to motivate action is useful in an extremely wide variety of contexts, not just ones where precise measurements are available.
 
-Is your team constantly stuck waiting on dependencies? Create visibility by regularly estimating how much time each work stream spends in a wait state, and therefore how much overall time is being added to individual projects. Is that precisely accurate? Of course not. Is it useful enough to enable you and your stakeholders to make good decisions? Absolutely.[fn:: BTW, if you are struggling with dependency challenges, don't fall into the trap of estimating how much time each engineer is waiting. The problem isn't that your engineers are waiting, it's that the work isn't advancing. Sayeth Don Reinertsen: Watch the work product, not the worker.]
+Is your team constantly stuck waiting on dependencies? Create visibility by regularly estimating how much time each work stream spends in a wait state, and therefore how much overall time is being added to each projects. Are such estimates precisely accurate? Of course not. Could even extremely rought estimates enable you and your stakeholders to make good decisions about reducing depenedency wait times? Absolutely.[fn:: By the way, if you are struggling with dependency challenges, don't fall into the trap of estimating how much time each engineer is waiting. The problem isn't that your engineers are waiting, it's that the work isn't advancing. Sayeth Don Reinertsen: Watch the work product, not the worker.]
 
-Is your team somehow failing to carve out time to do some early technical exploration as a first step in a large project? Create a list of questions you want to develop answers for, and then march through that list of questions, checking them off as you go.
+Is your team somehow failing to carve out time to do some early technical exploration as a first step in a large project? Create a list of questions you want to develop answers for, and then march through that list of questions, checking them off as you go. That's a useful way to make your incremental learning progress visible, enabling tradeoffs, early exits, etc.
 
 Is your CEO's desire to sit in on all customer interviews stalling out the product team's ability to learn? Start tracking the number of customer interviews each week, and make this friction clear.
 
 Creating visibility is one of my very favorite tactics. It pairs beautifully with Link Your Frustrations To Goals, with Shrink Your Ask, with Propose a Timebox.
 
-Ultimately, I think the act of creating visibility is so profoundly helpful for getting unstuck, because it enables you and your stakeholder to literally *see* the world in the same way. Which can be a deeply meaningful way to bring you together.
+Ultimately, I think the act of creating visibility is so profoundly helpful for getting unstuck because it enables you and your stakeholder to literally *see* the world in the same way. Which can be a deeply meaningful way to bring you together.
 
 # Use an example around security
 ** Tactic: Invite Your Stakeholder To Solve Your Problems
@@ -416,7 +421,7 @@ Problem: You need to ask your stakeholder to change their behavior, but doing so
 
 Tactic: Find a non-judgmental way to describe the results of their behavior as a problem for the two of you to solve together. Ask them open-ended questions that offer them a chance to be an expert, and solve the problem you're laying out to them.
 
-This is a form of what Chris Voss calls Calibrated Questions, in Never Split the Difference.
+This is a form of what Chris Voss calls Calibrated Questions, in Never Split the Difference. And if it works with terrorists, maybe it'll work with your boss!
 
 Example
 
@@ -428,13 +433,15 @@ She imagines confronting Mark about this directly: "If you won't give me metrics
 
 She feels good and completely stuck.
 
-But then, the next morning, while cleaning up after breakfast, she has an idea. She hurries into her office, clears a couple of meetings off her calendar, and gets her thoughts together. She pings Mark for "a quick check-in". When Mark appears, frowning, on her zoom screen, she starts off, briskly: "I'm really eager to work on the receiving issues we talked about yesterday. I was getting ready to get the engineers started on it, but then I realized: there have been *far* too many times that the engineers worked on some warehouse process for you, but they didn't fully understand what they were doing." She shakes her head regretfully before continuing.
+But then, the next morning, while cleaning up after breakfast, she has an idea. She hurries into her office, clears a couple of meetings off her calendar, and gets her thoughts together. She pings Mark for "a quick check-in". When Mark appears, frowning, on her zoom screen, she forces herself to start talking, despite her nerves. "Mark, I'm really eager to work on the receiving issues we talked about yesterday. I was getting ready to tell the engineers to get started, but then I realized: there have been *far* too many times that the engineers worked on some warehouse process for you, but they didn't fully understand what they were doing." She shakes her head regretfully.
 
-"They just don't have your depth of experience in warehousing. And then, what they delivered just *didn't work*. I *hate* when that happens. I want to be sure to keep them on track this time. If they got this one right, how would you tell? Or, if they messed up, what would tell you that? What would you see, when you looked at, like, your dashboards that would show you that whatever they had launched didn't work for you, and your team? I want to hold them accountable, so that we're not wasting your time."
+"They just don't have your depth of experience in warehousing. Too many times, they've delivered something that just *didn't work*. I *hate* when that happens." Mark harrumphs in agreement.
 
-Mark blinks. He gruffly agrees that there have been too many failed launches. He then says, slowly, "Well, of course, I'd first look at UPH on the receiving line. But you can't /only/ look at UPH, only an idiot does that. It's *also* exception counts. Our exceptions are getting totally out of hand, we *have* to keep that under control. I'm checking exceptions every few hours, which is *batshit*. That's no way to run a building." Having delivered this statement [ultimatum, lesson, homily], he sits back with his arms folded over his chest.
+"I want to be sure to keep them on track this time. If they got the receiving fix right... how would you tell? Or, if they messed up again, what would tell you that? What would you see, when you looked at, like, your dashboards that would show you that whatever they had launched hadn't worked? I want to hold them accountable, so that we're not wasting your time."
 
-Lisa has to restrain herself from grinning. She has managed to get a line on the things Mark really cares about, with a healthy side order of emotions (about the rising tide of exceptions). She's neatly avoided direct conflict, but started to draw him into collaboration around the business impacts of "fixing receiving."
+Mark gruffly agrees that there have been too many failed launches. He then says, slowly, "Of course, I'd first look at UPH on the receiving line. But you can't /only/ look at UPH, only an idiot does that. It's *also* exception counts. Our exceptions are getting totally out of hand, we *have* to keep that under control. I'm checking exceptions every few hours, which is *batshit*. That's no way to run a building." Having delivered this statement [ultimatum, lesson, homily], he sits back with his arms folded over his chest.
+
+Lisa has to restrain herself from grinning. She has managed to get a set of metricc things Mark hopes to improve by working on receiving, plus a healthy side order of emotions. She's neatly avoided direct conflict, but has started to draw him into collaboration around the business impacts of "fixing receiving."
 
 Note that she "played low status": she suggested that she and the engineers *needed Mark's help*. That created space for him to be a high-status expert. It also made it difficult for him to tell her she's wrong---he'd have to suggest that the engineers know the warehouse processes as well as he does.
 
@@ -842,10 +849,13 @@ As in make that a core part of the plan. The Strategic Intent is at ris, and the
 CLOSED: [2025-10-15 Wed 10:09]
 ** DONE Can I get all the tactics short enough to be one section
 CLOSED: [2025-10-15 Wed 10:09]
+** DONE Make a ToC-like section of problems/tactics
+CLOSED: [2025-10-20 Mon 12:22]
 ** TODO Finish what I started with storytelling
-** TODO Make a ToC-like section of problems/tactics
 ** TODO Take a pass on making all stories more vivid/playful
 E.g. Mark Blevins-style.
+** TODO Count # of prod vs eng stories
+** TODO Make all the stories at more specific companies
 ** TODO Cluster the tactics?
 E.g.
 
