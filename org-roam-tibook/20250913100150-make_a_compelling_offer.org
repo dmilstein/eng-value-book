@@ -56,7 +56,7 @@ But remember, for all of them, you're working backwards from being able to:
 
 Okay, let's dig in.
 
-** Tactics & Problems
+** A Catalog of Tactics
 
 *** Propose a Timebox
 Problem: your stakeholder is reluctant to consider a change in their behavior.
@@ -96,7 +96,7 @@ Tactic: Find a non-judgmental way to describe the results of their behavior as a
 *** Find Wins For Your Stakeholder By Hook Or By Crook
 Problem: You can't figure out a way for your adjustment to immediately improve things for your stakeholder. Try as you might, you don't see how to address your frustrations in a way that directly benefits them.
 
-Tactic: Find some win for them that you *can* offer, even if it's not strictly necessary for your adjustment.
+Tactic: Find some stakeholder wins that you *can* offer, even if they're not strictly necessary for your adjustment.
 
 *** Keep 'Em Busy
 Problem: You need to ask your stakeholder to stop doing something. You're worried that they will resist, because they are a human being, and thus like doing things.
@@ -106,7 +106,7 @@ Tactic: Find a way to ask your stakeholder to *start* doing something new, *inst
 *** Address Fears Directly
 Problem: Your proposed adjustment might raise concerns or fears for your stakeholder, such that they resist making a change.
 
-Tactic: in your request for change, first *validate* their fears and then address them *directly*.
+Tactic: In your request for change, first validate their fears and then address them directly.
 
 *** Put Yourself On the Line
 Problem: You're worried that your stakeholder will be reluctant to commit to your proposed adjustment, because, being human, they will feel like they'll have to do all the hard work.
@@ -119,29 +119,47 @@ Problem: your stakeholder is reluctant to consider a change in their behavior.
 
 Tactic: ask your stakeholder to try changing their behavior for an initial, limited period of time.
 
-If your request feels slightly uncomfortable for your stakeholder (as it often will), t's *much* easier for them to say "yes" if you're asking for a few weeks, than it is to agree to make a change indefinitely.
+If your request feels slightly uncomfortable for your stakeholder (as it often will!), it's *much* easier for them to say "yes" if you're asking for a few weeks, than it is to agree to make a change indefinitely.
 
-If you can get a commitment to try something new for a short period of time, you can then work to ensure that, at the end of that initial period, the stakeholder experiences things as going well.
+Usually, you'll want the initial period to end with some kind of "review of how it's been going" (which is a very naural opportunity to Offer A Future Decision).
+
+If you can get a commitment to try something new for this short period of time, you can then work to ensure that, at the end of that initial period, the stakeholder experiences things as going well.
 
 Example:
 
-Louisa is a staff engineer, and a key part of her job is conducting regular architecture review sessions with teams in her domain. Unfortunately, her CTO, Dave, has developed a frustrating habit of "dropping by" those architecture reviews and offering a series of half-baked ideas (he always /starts/ by saying "Is it okay if I ask a question?", but somehow all his questions end up turning into thinly veiled suggestions). These interruptions are undercutting Louisa's authority *and* sending the teams down a succession of blind alleys (he's the CTO! His suggestions seem really important! But he doesn't know what he's talking about in her area!).[fn:: "Wait, Dan, I just remembered: *you've* been a CTO. Did your directs ask you to stop talking at architecture reviews at some point?" Um... maybe we should just move on.]
+Louisa is a staff engineer, and a key part of her job is conducting regular architecture reviews with the teams in her domain. Unfortunately, her CTO, Jameson, has developed a frustrating habit of dropping by those architecture reviews and derailing them with half-baked proposals.[fn:: "Wait, Dan, I just remembered: *you've* been a CTO. Did your directs ask you to stop talking at architecture reviews at some point?" Um... maybe we should just move on.] Jameson always starts by saying, "Is it okay if I ask a question?" But somehow all his "questions" end up turning into thinly veiled suggestions, pretty much all of which are useless thanks to key bits of technical reality he doesn't fully understand. If Louisa hears him say "I don't know, but it seems to me like we could..." one more time, she is going to scream. His interruptions are undercutting her authority, eating up time in the meetings, *and* sending the teams down a succession of blind alleys. She's getting more and more frustrated, her partner is starting to finish her sentences at dinner, "I know, Louisa, Jameson is smart, but Jameson just doesn't know what he's talking about in your area, Jameson should maybe learn to shut up sometimes. And could that maybe be the last Jameson thing for tonight?"
 
-She tries to imagine herself saying: "Dave, please stop speaking up during architecture reviews." Or, even: "Dave, please just stop coming to those sessions." But she gets an immediate pit in her stomach at the thought. Both of those feel like uncomfortably aggressive demands.
+When Louisa has a minute to think, she tries to imagine herself saying: "Jameson, please stop speaking up during architecture reviews." Or, even: "Jameson, please just stop coming to those sessions." But she gets an immediate pit in her stomach. Both of those feel like uncomfortably aggressive demands.
 
-She's stuck for a bit, until she's talking it out with a friend over beers, and realizes she can make a more collaborative proposal.
+She's stuck for a while, until she's talking it out with a friend over beers, who turns out to be something of a master of the ju-jitsu of stakeholder management. That friend pushes her to think about asking for a brief, timeboxed change, instead of some grand statement. She also suggests tha Louisa think about Jameson *likes* about attending the architecture reviews.
 
-She decides to instead frame it as: "Dave, I'd like to ask if we can try out something new for our next two sessions. If you're okay with it, I'll ask you to *just* listen and take notes. I'll meet with you immediately after each session, to dig into any questions you have, and to get your feedback on both the team and the architecture. After the first two sessions, we can see how it's going."
+Louisa feels charged up on her walk home. Somehow the license to ask for a limited change feels very freeing. And, with her mind now working away, she has ideas for how to speak to Jameson's underlying feelings (as her partner well knows, she has spent plenty of time analyzing All Things Jameson).
 
-That positions the adjustment as a sort of shared experiment they're entering into together, instead of a one-sided demand that Louisa is making. This is a much easier request for Dave to say yes to it, because he can tell himself that, if it's not working for him, he only has to do it twice.
+# about both Jameson's concerns, and also what things he really enjoys. "You know," Louisa says to her friend, "I'll bet part of it is that he likes seeing the team at work. He's really good at that, if I'm going to be honest. He just picks up on, like, all these little things." Her friend toasts her with her pint glass. "And there you go."
 
-Other tactics she's using:
+The next day, she grabs a bit of time with Jameson, and, after some initial chitchat, she takes a deep breath and says, "I'd like to ask if we can try out something new for tomorrow's arch review. First off, I want to make sure you can stay on top of how the architecture is evolving, *and* I want you to be certain that you get to see the team at work. My sense is that it's super valuable for you to *see* who on the tech track is really stepping up. So I think it's really good that you're there."
 
- - Put Yourself On the Line: she personally commits to spending extra time with him after each session.
+Jameson nods, it's clear to Louisa her guess about what he likes was correct.
 
- - Keep 'Em Busy: instead of just telling Dave to stop attending and/or talking, she asks him to *do something* specific (take notes so he can give feedback on the team and the architecture)
+"But, unfortunately, when you ask questions, I think the team sometimes gets confused. They're not sure if you're just trying to fill in your own understanding, of if you're telling them a decision, or if you're asking them to go off and explore something. I'm struggling a bit with keeping everyone on track."
 
- - Find Some Wins: she creates a new opportunity for sharing team/architecture feedback (which she knows Dave finds meaningful)
+"For tomorrow's session, if you're okay with it, I'll ask you to listen and take notes, but to not speak up during the actual discussions. Then, I'll meet with you 1:1, immediately after, to dig into any questions you have, and to get your feedback on both the team and the architecture. We can also talk then about if that feels like a useful pattern for future reviews, or if it could be with some tweaks."
+
+Jameson thinks for a moment, then shrugs. "I can try that, sure. I might want to have one of the directors also stay to talk about the team, but we can wait and see how it goes. Do you want me to, like, say absolutely nothing? Or just not talk as much?"
+
+He seems genuinely open, so Louisa says, "For tomorrow, I'd love to try having you say absolutely nothing, see how that goes."
+
+"Can do," says Jameson. And they move on to other topics.
+
+To Louisa's pleasant surprise, it didn't feel particularly hard to make her request. Instead of making a demand, she was offering Jameson a sort of shared experiment, to enter into together. And the, adjusting the details together felt like a nice bit of working together.
+
+Other tactics she used:
+
+ - Put Yourself On the Line: she personally committed to spending extra time with him after the session.
+
+ - Keep 'Em Busy: instead of just asking Jameson to stop talking, she asked him to do something specific instead -- take notes so he can give feedback on the team and the architecture.
+
+ - Find Wins For Your Stakeholder By Hook Or By Crook: even though it wasn't stricly necessary for her own needs, she created a new opportunity for Jameson to discuss team performance, which she knows he finds both valuable and meaningful.
 
 ** Tactic: Offer A Future Decision
 
@@ -428,7 +446,7 @@ If you keep on steadily and calmly asking open-ended "How could I possibly solve
 
 Problem: You can't figure out a way for your adjustment to immediately improve things for your stakeholder. Try as you might, you don't see how to address your frustrations in a way that directly benefits them.
 
-Tactic: Find some win for them that you *can* offer, even if it's not strictly necessary for your adjustment.
+Tactic: Find some stakeholder wins that you *can* offer, even if they're not strictly necessary for your adjustment.
 
 This is where having a map of their emotions really pays off: you can almost always find some win they'll care deeply about, by thinking through their frustrations, fears, delights & dreams. E.g. you could:
 
@@ -530,7 +548,7 @@ This pairs very well with Find Wins By Hook Or By Crook (because such "not stric
 
 Problem: Your proposed adjustment might raise concerns or fears for your stakeholder, such that they resist making a change.
 
-Tactic: in your request for change, first *validate* their fears and then address them *directly*.
+Tactic: In your request for change, first validate their fears and then address them directly.
 
 Addressing fears directly means, first, *validating* those fears. Sharing your genuine understanding of the fears as reasonable, even *inevitable*.
 
