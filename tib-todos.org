@@ -4,9 +4,19 @@ Project/todo list for the Book In Question
 
 * Book Inbox                                      :inbox:
 * Compelling Offer                                :gtasks:
-** TODO Keep revising/restructuring               :curweek:pom:
+** TODO Write "How To Deliver Offer"              :curweek:
+** TODO Make it Good Enough For Now               :curweek:pom:
 :LOGBOOK:
-CLOCK: [2025-10-16 Thu 14:31]
+CLOCK: [2025-10-20 Mon 10:15]
+:END:
+I'm aiming for an MVP, remember. For people who really want this, and need it. Gotta find out that bad news sooner than later.  Yeah, that list of tactics is kind of gold? And the narratives might be an inconsistent mess, but so what? This is the crappy UI that still works.
+** DONE Keep revising/restructuring
+CLOSED: [2025-10-20 Mon 09:56]
+:LOGBOOK:
+CLOCK: [2025-10-19 Sun 10:01]--[2025-10-19 Sun 11:38] =>  1:37
+CLOCK: [2025-10-19 Sun 07:53]--[2025-10-19 Sun 09:03] =>  1:10
+CLOCK: [2025-10-18 Sat 08:40]--[2025-10-18 Sat 10:20] =>  1:40
+CLOCK: [2025-10-16 Thu 14:31]--[2025-10-16 Thu 16:05] =>  1:34
 CLOCK: [2025-10-16 Thu 08:39]--[2025-10-16 Thu 10:59] =>  2:20
 CLOCK: [2025-10-15 Wed 08:47]--[2025-10-15 Wed 10:48] =>  2:01
 CLOCK: [2025-10-14 Tue 20:13]--[2025-10-14 Tue 20:33] =>  0:20
@@ -18,10 +28,9 @@ CLOCK: [2025-10-11 Sat 18:58]--[2025-10-11 Sat 19:23] =>  0:25
 CLOCK: [2025-10-11 Sat 17:23]--[2025-10-11 Sat 18:01] =>  0:38
 CLOCK: [2025-10-11 Sat 16:10]--[2025-10-11 Sat 17:17] =>  1:07
 :END:
-** TODO First draft exercises
 
 * [[id:B4926308-39DD-471B-8E71-5FFF7546D6E3][ToC/Structure ]]                                  :gtasks:
-** TODO Experiment: Move Quin story to separate chapters? :curweek:
+** TODO Experiment: Move Quin story to separate chapters?
 ** TODO Move exercises to the back?
 But harrangue people to *actually do them*.
 ** TODO Book: try the full sub-head outline breakdown now?
@@ -29,6 +38,26 @@ But harrangue people to *actually do them*.
 People are clearly resonating with that, and it's actually how I think.
 
 * [[id:454225CA-DD66-4ACA-B8B3-429F6551DBDC][New Intro]]                                       :gtasks:
+** TODO Deepen the problem before solution        :curweek:
+It would be great if...
+
+But your stakeholder angrily rejects this...
+
+Then bring what is going on for your stakeholder to life.
+
+# Review/steal from Substack post I wrote but didn't publish yet
+
+from stakeholder side
+
+As in, make clear that your stakeholder isn't hearing your request as helping them achieve their goals, they're hearing it as blocking them from doing so. Plus, they have a swirl of feelings. If only you had a way to speak to those things, if you could wave a magic wand.
+
+That magic wand has to do two things for you:
+
+ - What is your stakeholder ultimately trying to achieve, even if they haven't told you
+
+ - What are they afraid of, what are they hoping for?
+
+But then, there's another problem. Software is weird. Once you have that knowledge, you need some options for better ways to work together. This is not trivial! Are there weird dependencies between teams? Is it not clear how to balance maintenance work vs new product dev? How do you lay out meaningful milestones for a year long project?
 ** TODO Lay out CPS + tech-specific context       :curweek:
 Like, "Ultimately, what you're going to do is lay out for your stakeholder:
 
@@ -203,7 +232,9 @@ To deploy authority.
 As means to face fears from stakeholders
 * [[id:49E66E86-CE83-447E-87C2-3BFF3D8FE42E][Teach/Coach]]                                     :gtasks:
 
-* [[id:49435FCD-0590-44DE-8FC7-585E7BCC8BB2][Tooling]]                                         :gtasks:
+* [[id:49435FCD-0590-44DE-8FC7-585E7BCC8BB2][Book Tooling]]
+** TODO Claude: rework wc graph use other tooling :curweek:
+Specifically, to use what I use for watch_book.sh which is doing what I want.
 ** DONE Produce a viz of writing hours
 CLOSED: [2025-09-16 Tue 12:27]
 I did figure out how to dump the clocked hours into a csv, now work with claude to do what I want.
@@ -259,17 +290,27 @@ So I can either run full screen or within 80 columns
 Because now my wordcount history stuff is sensitive to those being missing.
 ** TODO Create a new chapter template or abbrev?
 * Book Misc
-** TODO Think: test lots of little examples vs one bigger story
+** TODO Replace "goal" with "outcome" in, like, a lot of places
+** TODO Weave playfulness throughout
+ - Playful stories about the foibles of stakeholders
+ - Playful stories about our own foibles
+ - Absurdities
+ - Energetic asides
+
+ Broadly, channel my *authentic* sense that all of this is, well, *fun*.
+** TODO Look at book blockers thing from Help This Book
+In email
+** TODO How to test lots of little examples vs one big story
 E.g. do I get more juice from leading people through Quin's journey, or through scattering micro stories throughout?
 
 I'm leaning towards doing both, but that'll be a bunch of time.
+** TODO Look for more ops for Quin to be wrong, then right
+What I'm finding in the Compelling Offer chapter, where she's stuck, thinking about how to move things forward with Marco, and then gets unstuck
+** TODO Confirm: did Marco say 'good enough'
 ** DONE Update book title on website
 CLOSED: [2025-10-09 Thu 17:27]
 ** DONE Title: Getting Unstuck: Solving Problems w/ Bosses, Peers & Stakeholders
 CLOSED: [2025-10-13 Mon 10:57]
-** TODO Look for more ops for Quin to be wrong, then right
-What I'm finding in the Compelling Offer chapter, where she's stuck, thinking about how to move things forward with Marco, and then gets unstuck
-** TODO Confirm: did Marco say 'good enough'
 ** TODO Make sure Quin learns about fear of non-use, as part of vitamin/pain-killer
 So it's actually that they might pay, but after paying, not use. The internal capital is more worrisome than the L&D budget, which is enough to get started
 ** TODO Ask for "early testers" *of the exercises*?
@@ -281,7 +322,8 @@ CLOSED: [2025-09-22 Mon 12:25]
 E.g. the way he does in NSTD? Vs made up scenarios?
 ** TODO Remember: when to loop in adjacent authority
 (e.g. your own boss)
-** TODO New book title options
+** DONE New book title options
+CLOSED: [2025-10-20 Mon 10:03]
 
 Strip out "engineers"?
 
@@ -301,12 +343,10 @@ Maybe: show more mis-steps from Quin?
 ** TODO "engineering team" = product team, sprint team, etc?
 ** TODO Ask Satoe: rank order the chapters?
 by what you want to learn about
-** TODO Think about: positive/you can do it energy
-Robfitz does that, when I find it, it feels good.
 ** TODO Ask Satoe "What have you tried to learn about?"
 Who have you coached on these topics? Be specific.
-** TODO Don't forget: how to use the organizational authority for you
-** TODO Set a goal for week around hours of writing
+** TODO Think about: positive/you can do it energy
+Robfitz does that, when I find it, it feels good.
 ** TODO Read up on "breadcrumb bio" from WUB?
 ** TODO Get into "I can't wait to help" mode
 What was my mindset for writing Rewrites? I think, I knew something, and couldn't wait to tell you.
