@@ -6,7 +6,7 @@
 * Make a Compelling Offer
 ** The Elements Of A Compelling Offer
 
-You've defined a Strategic Intent that your stakeholder cares about. Thanks to that work, you have a shared long-term goal you can speak to. You have a high-level understanding of how your work contributes to that goal.
+You've defined a Strategic Intent that your stakeholder cares about. Thanks to that work, you have a shared long-term goal you can speak to. You understand how your work contributes to that goal.
 
 You've taken the time to develop an empathetic understanding of your stakeholder's key emotions. You can speak to the situation they find themselves in. You can list frustrations they want smoothed away. You can name things they want, that they feel like they're not getting.
 
@@ -28,7 +28,7 @@ This adjustment should, ideally:
 
  - Make things a little better for your stakeholder
 
- - Move you /both/ a little closer to your shared long-term goals
+ - Move you /both/ a little closer to your shared long-term goal
 
 Be ready to spend real time preparing this offer.
 
@@ -38,11 +38,11 @@ In the next chapter, we'll see Quin go through this process, ending with her del
 
 Before we jump ahead to that, though, I want to share a suite of tactics for you to explore. If you've done the work to align on strategic outcomes, and to map your stakeholder's key emotions, you have at your disposal a somewhat surprisingly wide variety of ways to get unstuck. A somewhat surprisingly wide variety of ways to draw your stakeholder into productive collaboration.
 
-To bring that variety of options to life, I'm going to, first, list a series in summary form. For each, I'll first name a problem you might run into with stakeholders, and then sketch in the corresponding action you could take.
+To bring that variety of options to life, I'm going to, first, list them in summary form. For each, I'll first name a problem you might run into with stakeholders, and then sketch in the corresponding action you could take.
 
-In the remainder of the chapter, I'll explore each tactic in more detail, bringing them to life with narrative examples.
+In the remainder of the chapter, I'll explore each tactic in more detail, bringing many to life with narrative examples.
 
-Feel free to dip in an out of these, depending on what challenges you run into with your very own stakeholder.
+Feel free to dip in an out of these, depending on what problems you run into with your very own stakeholder.
 
 But remember, for all of them, you're working backwards from being able to:
 
@@ -127,31 +127,31 @@ If you can get a commitment to try something new for this short period of time, 
 
 Example:
 
-Louisa is a staff engineer, and a key part of her job is conducting regular architecture reviews with the teams in her domain. Unfortunately, her CTO, Jameson, has developed a frustrating habit of dropping by those architecture reviews and derailing them with half-baked proposals.[fn:: "Wait, Dan, I just remembered: *you've* been a CTO. Did your directs ask you to stop talking at architecture reviews at some point?" Um... maybe we should just move on.] Jameson always starts by saying, "Is it okay if I ask a question?" But somehow all his "questions" end up turning into thinly veiled suggestions, pretty much all of which are useless thanks to key bits of technical reality he doesn't fully understand. If Louisa hears him say "I don't know, but it seems to me like we could..." one more time, she is going to scream. His interruptions are undercutting her authority, eating up time in the meetings, *and* sending the teams down a succession of blind alleys. She's getting more and more frustrated, her partner is starting to finish her sentences at dinner, "I know, Louisa, Jameson is smart, but Jameson just doesn't know what he's talking about in your area, Jameson should maybe learn to shut up sometimes. And could that maybe be the last Jameson thing for tonight?"
+Louisa is a staff engineer at Hydralitics, a business intelligence platform focused on utility companies. A key part of her job is conducting regular architecture reviews with the teams in her domain. Unfortunately, her CTO, Jameson, has developed a frustrating habit of dropping by those architecture reviews and derailing them with half-baked proposals.[fn:: "Wait, Dan, I just remembered: *you've* been a CTO. Did your directs ask you to stop talking at architecture reviews at some point?" Um... maybe we should just move on.] Jameson always starts by saying, "Is it okay if I ask a question?" But somehow all his "questions" end up turning into thinly veiled suggestions, pretty much all of which are useless thanks to key bits of technical reality he doesn't fully understand. If Louisa hears him say "I don't know, but it seems to me like we could..." one more time, she is going to scream. His interruptions are undercutting her authority, eating up time in the meetings, *and* sending the teams down a succession of blind alleys. Her partner is starting to finish her Jameson-releated sentences at dinner, "I know, Louisa, Jameson is smart, but Jameson just doesn't know what he's talking about in your area, Jameson should maybe learn to shut up sometimes. And could that maybe be the last Jameson thing for tonight? Pretty please?"
 
-When Louisa has a minute to think, she tries to imagine herself saying: "Jameson, please stop speaking up during architecture reviews." Or, even: "Jameson, please just stop coming to those sessions." But she gets an immediate pit in her stomach. Both of those feel like uncomfortably aggressive demands.
+When Louisa has a minute to think, she tries to imagine saying: "Jameson, please stop talking during architecture reviews." Or, even: "Jameson, please stop coming to the reviews." But she gets an immediate pit in her stomach. Those feel like uncomfortably aggressive demands.
 
-She's stuck for a while, until she's talking it out with a friend over beers, who turns out to be something of a master of the ju-jitsu of stakeholder management. That friend pushes her to think about asking for a brief, timeboxed change, instead of some grand statement. She also suggests tha Louisa think about Jameson *likes* about attending the architecture reviews.
+She's stuck for a while, just getting more and more frustrated. But then, one night, she's talking out life with a friend over beers, and discovers that her friend is something of a master of the ju-jitsu of stakeholder management. That friend pushes her to think about asking for a brief, timeboxed change, instead of some intimidatingly permanent shift. She also suggests tha Louisa think about Jameson *likes* about attending the architecture reviews.
 
-Louisa feels charged up on her walk home. Somehow the license to ask for a limited change feels very freeing. And, with her mind now working away, she has ideas for how to speak to Jameson's underlying feelings (as her partner well knows, she has spent plenty of time analyzing All Things Jameson).
+Louisa feels oddly charged up on her walk home. Somehow the license to ask for a limited change feels very freeing. And, with her mind now working away, she starts getting ideas about how to speak to Jameson's underlying feelings (as her partner well knows, Louisa has spent plenty of time analyzing All Things Jameson).
 
 # about both Jameson's concerns, and also what things he really enjoys. "You know," Louisa says to her friend, "I'll bet part of it is that he likes seeing the team at work. He's really good at that, if I'm going to be honest. He just picks up on, like, all these little things." Her friend toasts her with her pint glass. "And there you go."
 
-The next day, she grabs a bit of time with Jameson, and, after some initial chitchat, she takes a deep breath and says, "I'd like to ask if we can try out something new for tomorrow's arch review. First off, I want to make sure you can stay on top of how the architecture is evolving, *and* I want you to be certain that you get to see the team at work. My sense is that it's super valuable for you to *see* who on the tech track is really stepping up. So I think it's really good that you're there."
+The next day, she grabs a bit of time with her CTO. After some initial chitchat, she takes a deep breath and says, "I'd like to ask if we can try out something new for tomorrow's arch review. First off, I want to make sure you can stay on top of how the architecture is evolving, *and* I want you to be certain that you get to see the team at work. My sense is that it's super valuable for you to *see* who on the tech track is really stepping up. So I think it's really good that you're there."
 
-Jameson nods, it's clear to Louisa her guess about what he likes was correct.
+Jameson nods, and it's clear to Louisa her guess was right: one of the things Jameson really likes is being able to get a window into the performance of the senior and staff engineer cohort. She continues.
 
-"But, unfortunately, when you ask questions, I think the team sometimes gets confused. They're not sure if you're just trying to fill in your own understanding, of if you're telling them a decision, or if you're asking them to go off and explore something. I'm struggling a bit with keeping everyone on track."
+"But, unfortunately, sometimes, when you ask questions, I think the team gets confused. They're not sure if you're just trying to fill in your own understanding, or if you're telling them your decision, or if you're asking them to go off and explore something. I'm struggling a bit to keep everyone on track. Both during the meetings, but also afterwards."
 
-"For tomorrow's session, if you're okay with it, I'll ask you to listen and take notes, but to not speak up during the actual discussions. Then, I'll meet with you 1:1, immediately after, to dig into any questions you have, and to get your feedback on both the team and the architecture. We can also talk then about if that feels like a useful pattern for future reviews, or if it could be with some tweaks."
+"For tomorrow's session, if you're okay with it, I'll ask you to listen and take notes, but to not speak up during the actual discussions. I'll meet with you 1:1, immediately after, to dig into any questions you have, and to get your feedback on both the team and the architecture. We can also talk then about if that feels like a useful pattern for future reviews, or if we'd want to tweak it."
 
-Jameson thinks for a moment, then shrugs. "I can try that, sure. I might want to have one of the directors also stay to talk about the team, but we can wait and see how it goes. Do you want me to, like, say absolutely nothing? Or just not talk as much?"
+Jameson thinks for a moment, then shrugs. "I can try that for tomorrow, sure. I might want to have one of the directors also stay to talk about the team, but we can wait and see how it goes. Do you want me to, like, say absolutely nothing? Or just not talk as much?"
 
-He seems genuinely open, so Louisa says, "For tomorrow, I'd love to try having you say absolutely nothing, see how that goes."
+He seems genuinely open, so Louisa says, "For tomorrow, I'd love to try having you say absolutely nothing."
 
 "Can do," says Jameson. And they move on to other topics.
 
-To Louisa's pleasant surprise, it didn't feel particularly hard to make her request. Instead of making a demand, she was offering Jameson a sort of shared experiment, to enter into together. And the, adjusting the details together felt like a nice bit of working together.
+To Louisa's pleasant surprise, it didn't feel hard to make her request. Instead of making a demand, she was offering Jameson a sort of shared experiment, to enter into together. And the, adjusting the details together felt like a nice bit of working together.
 
 Other tactics she used:
 
@@ -171,15 +171,17 @@ That will help them feel in control, which makes it much easier for them to say 
 
 Example
 
-Jonas is a product manager who is struggling with his engineering peer Lizabet, the engineering manager and tech lead for their team. Lizabet insists that, before her engineers start *any* work, Jonas first write extremely detailed tickets, containing enough information for the engineer to fully deliver the ticket on their own. Lizabet insists this is necessary to avoid wasting the team's time. However, Jonas has worked on teams where the engineers and PM's wrote much lighter and more informal tickets, then talked to each other steadly throughout the sprints, and things went much faster.
+Jonas is a product manager at BoardedUp, a board game subscription service. He is, unfortunately, struggling with his engineering peer Lizabet, the engineering manager and tech lead for their team. Lizabet won't let her engineers start any work, until Jonas first writes /extremely/ detailed tickets. She wants every ticket to contain enough information that any engineer on the team could pick up any ticket and fully deliver it, without having to "slow down" to ask Jonas questions. Lizabet insists this is necessary to avoid wasting the team's time, and also says the it will make them extremely efficient. However, Jonas has worked on teams where the engineers and PM's wrote much more informal tickets, then talked to each other steadly throughout the sprints, and it felt like things went much faster.[fn:: 100% of the highest-performing teams I've been on and/or witnessed all talked to each other a *ton*. Just about all of them leaned on pretty lightweight ticket-writing as part of that.]
 
-He goes through the various steps we've laid out, and comes up with a proposed adjustment. The core change will be for Jonas to bring much lighter tickets to sprint planning. He and the entire team will then discuss some of the nuances of those tickets during planning, ensuring everyone has a shared understanding. Throughout the sprint, Jonas will commit to being available to answer any and all engineering questions at the drop of a hat. Finally, he includes some things that will feel like wins for Lizabet (most notably, a carve out of time to improve their deploy scripts).
+Jonas goes through the various steps we've laid out, and comes up with a proposed adjustment. The core change will be for Jonas to run sprint planning with much lighter, shorter tickets. He will spend planning discussing some of the nuances of those tickets with the whole team, ensuring everyone has a shared understanding. Then, throughout the sprint, Jonas will commit to being available at the drop of a hat to answer any and all engineering questions. Finally, as an extra win, he proposes a carve out of time to improve the team's deploy scripts, a long-standing engineer frustration.
 
-But, even with all of that planned out, he's still worried about approaching Lizabet with his request. She's fairly new as a manager, and he knows she feels concerned about her authority with the team (some of who have been professional programmers since she was in middle school). He's worried that she's put some kind of a stake in the ground about this way of working.
+But, even with all of that planned out, he's still worried about approaching Lizabet with his request.
 
-After talking it over with his manager, he decides to really focus on this as a temporary experiment, and one where *Lizabet* will get to decide whether or not it's working. He decides to close his pitch to her by saying, "You and I would meet immediately after the sprint demo.[fn:: Why not after retro? Jonas and Lizabet's team has fallen out of the habit of doing a regular sprint retro. That should likely be the next thing for him to work on.] I'll want to hear from you how this change has been working for the team, and if there's anything whatsoever that's been difficult about it. I can share how it's been working on my end. At that point, you can make the call on whether or not to stick with this new way of working. If it seems like there's something good in it, you and I could decide on any adjustments. Most of all, I want to be certain both you and the engineers don't end up feeling like we're wasting their time."
+She's fairly new as a manager, and he knows she feels concerned about her authority with the team (some of who have been professional programmers since she was in high school). He's worried that she's put some kind of a stake in the ground about this way of working.
 
-Lizabet agreed to try it for a single sprint, and even did a surprisingly good job of explaining why to the team. By keeping her clearly in control, Jonas made it easier for her to say yes.
+After talking it over with his manager, he decides to really focus on this as a temporary experiment, and one where *Lizabet* will get to decide whether or not it's working. He decides to close his pitch to her by saying, "You and I would meet immediately after sprint demo.[fn:: Why not after retro? Jonas and Lizabet's team has fallen out of the habit of doing a regular sprint retro. That should likely be the next thing for him to work on.] I'll want to hear from you how this change has been working for the team, and if there's anything whatsoever that's been difficult about it. I can share how it's been working on my end. At that point, you can make the call on whether or not to stick with this new way of working. If it seems like there's something good in it, you and I could decide on any adjustments. Most of all, I want to be certain both you and the engineers don't end up feeling like we're wasting their time."
+
+Given this clear signaling that she'll retain control, Lizabet proves willing to try this experiment for a sprint. She does ask that any ticket touching the datbase schema get *some* extra details, which Jonas is happy to agree to. They pitch the change to the team together, and Jonas can see that both Lizabet and her engineers are a little excited by shaking things up.
 
 ** Tactic: Shrink Your Ask
 
@@ -191,35 +193,49 @@ If you can draw your stakeholder into steady collaborative improvements, you can
 
 Example:
 
-# XXX Make his company do something specific -- sell pens online, or I dunno what.
+Oliver is an engineering director at Rugger, a leading online purveyor of artificial grass and turf. Oliver leads a handful of teams who maintain his company's backend fulfillment systems. This quarter, he's working with his product peer, Alicia, to integrate their systems with a partner who builds and maintains fields for college athletic departments. Once that integration work is done, his company will be able to offer colleges packaged purchase, delivery and install services, which should unlock a significant boost in revenue.
 
-Oliver is an engineering director, leading a half-dozen teams who maintain his company's backend fulfillment systems. This quarter, he's working with his product peer, Alicia, to develop a new, complex integration with a key strategic partner. Once that work is done, his company will be able to offer customers faster delivery times. Unfortunately, Olvier feels like his team is barely making any progress, because they're swamped by supporting the fulfillment teams who use the existing systems.
+Unfortunately, Olvier feels like his team is barely making any progress, because they're completely swamped with support requests from the warehousing and shipping teams who depend on the existing systems.
 
-Oliver wants to put in place a new triage process to handle field issues. He believes doing so will create two benefits:
+There's no simple fix. They can't just abandon their existing users (the resulting customer complaints have a way of getting back to the CEO). They also can't just hit an indefinite pause on the integration work---half the company's revenue forecasts seem to count on it.
+
+Fortunately, Oliver does have an idea he thinks could really help. He wants to put in place a new, much more visible triage process for warehousing and shipping issues. He believes doing so will create two benefits:
 
  - First, he'll be able to force explicit tradeoffs between handling current issues and building the new integration
 
    Currently, the engineers are sort of vaguely expected to just get it all done, aka make their own, local decisions about how to spend their time.
 
- - Second, he can create motivation to clean up some problematic bits of old code
+ - Second, he can identify where they can make the highest leverage fixes
 
-   He strongly suspects there are a couple of places in their legacy systems that are responsible for most of the issues. But he doesn't know which parts, and so he can't make a case to Alicia other than "We should fix our legacy systems", which is a total non-starter. If they can centralize bug handling through a triage process, he has a shot at seeing patterns he can then act on.
+He strongly suspects there are a couple of places in their legacy systems that are responsible for most of the issues. But he doesn't know which parts, and so he can't make a case to Alicia other than "We should fix our legacy systems", which is a total non-starter. If they can centralize bug handling through a triage process, he has at least a shot at seeing patterns he can then act on.
 
-Unfortunately, to see these benefits, he'd have to put in place *multiple* changes: he'd have to persuade Alicia to spend political capital to push the ops teams into this new triage process; he'd have to figure out how to link ops team-reported issues to the code that caused each problem (often far upstream of the reported issue); he'd need to carve out time to fix those underlying problems. Until then, he's not going to see any speed ups in delivery velocity.
+Unfortunately, to see these benefits, he'd have to put in place *multiple* changes:
 
-# XXX Add someone to talk to?
+ - He'd have to persuade Alicia to spend political capital to push the ops teams into this new triage process
 
-After a few weeks of feeling stuck, he decides to just get started with something small. He asks Alicia to join him in a new, weekly 30 minute meeting with his engineering leads. He asks each lead to bring to that meeting:
+ - They'd have to figure out who, exactly, does the key triage decision-making. Alicia *doesn't* do this right now, and isn't going to be super excited about taking it on.
 
- - A rough estimate of how much time their engineers spent dealing with ops team issues that week
+ - Oliver will have to figure out how to link ops team-reported issues to the code that caused each problem (often far upstream of the reported issue)
 
- - The top 2-3 "themes" of those issues
+ - He and Alicia will then need to carve out time to fix those underlying problems.
 
-That's it. They can get going with that right away. Note: it won't free up any time (in fact, it means his tech leads have to do something new). But it is a meaningful first step towards setting up that triage process. It build alignments with Alicia on both the value of reducing time spent on issues (because she can now see just how much time the engineers are spending), *and* on some ways she and Oliver could reduce that time (if they can identify a small number of themes which drive most of the issues, they can make a targeted technical investment to clean up those underlying problems).
+Until all that happens, he's not going to see any speed ups in delivery velocity, nor much improvement in engineer focus time.
 
-It also gets Oliver closer to the triage meeting he ultimately wants. To get all the way there, he could gradually expand on that initial 30 minute meeting, layering in the other parts of how he thinks the triage could/should work.
+After a few weeks of feeling stuck, he decides to just get started with something small, to try to build some momentum towards what he ultimately thinks they need.
 
-This tactic pairs well with both Propose a Timebox, and Create Urgency Through Visibility (in the above, Oliver is essentially creating a form of visibility).
+He asks Alicia to join him in a new, weekly thirty minute meeting with his three engineering leads. He asks each lead to bring to that meeting:
+
+ - A rough estimate of how much time their engineers spend dealing with ops team issues that week
+
+ - The top two or three "themes" of those issues
+
+That's it. They can get going with that right away. It's a very modest ask of Alicia.
+
+Note: this won't free up any time---in fact, it means his tech leads have to do something new. But it is a meaningful first step towards setting up that triage process. It builds alignment with Alicia on the value of reducing time spent on issues, because she can now *see* just how much time the engineers are spending. It should also show her and Oliver some options for reducing that time. If they can identify a small number of themes which drive most of the issues, they can make a targeted technical investment to clean up those underlying problems.
+
+It gets Oliver closer to the triage meeting he ultimately wants. To get all the way there, he could gradually expand on that initial thirty minute meeting, layering in the other parts of how he thinks the triage could/should work.
+
+This tactic pairs well with both Propose a Timebox, and Create Urgency Through Visibility (in the above, Oliver is creating a form of visibility).
 
 ** Tactic: Link Frustrations To Outcomes
 
@@ -245,7 +261,7 @@ Whatever answer you come up with, ask that same "Why" question again. Keep doing
 
 Example:
 
-# Make his company more specific
+# XXX Make his company more specific
 
 Sagar is the engineering lead on a sprint team. Unfortunately, the sales reps at his company keep pestering him with an endless series of new feature requests. When a sales rep doesn't get an immediate response, they ping Sagar over and over in Slack to "check for status". Last month, at the company party, Sagar saw Jordy, a sales rep, striding towards him with a big grin on his face, and Sagar had to fight an overwhelming desire to run away.
 
@@ -319,6 +335,8 @@ Of course, of course. But just stick with me for a moment, and let's see if we c
 
 Example
 
+# XXX Name the pharmacy
+
 Ted is an engineering leader at a tech-enabled online pharmacy. He wants to temporarily hit pause on delivery of new features, so that his team can clean up their systems. In particular, he's unhappy about the number of high-impact, time-sensitive exceptions that his team has to fix by hand.
 
 His key stakeholder is the VP of Pharmacy Operations, Amitai (Ted's systems face internal users, not customers). Six months back, the CEO of the company brought Amitai on board and charged him with hitting a set of extremely ambitious scale and efficiency targets. Amitai then turned around and handed Ted a sprawling list of features he claims he needs, every one absolutely as soon as possible, if he's going to hit those targets.
@@ -390,6 +408,8 @@ Tactic: Create visibility into the early impact of the underlying problems, so t
 
 Example:
 
+# XXX Name the company
+
 Dylan is a senior engineer on a team that maintains the data ingestion pipeline for his company, which imports customer data in bulk on a nightly basis. Of late, Dylan has been growing more and more worried about how his team's systems will handle the increasing load as their customer base grows (and as they acquire some customers with very large data sets). His team lead, Thomson, agrees that the current pipeline is pretty hairy and will need some reworking at some point. Unfortunately, Thomson keeps on telling Dylan that that point is absolutely not now. The team was handed a top-down OKR to plumb some new data types through the pipeline, and therefore new data types is all Thomson is willing to talk about.
 
 Dylan gets more and more worried. One afternoon, he drafts a long, ranting email to Thomson, about how the top-down OKR's are ignoring the context of the team. The next morning, he (wisely) decides to not send that email.[fn:: He keeps the email draft around so that he can periodically reread it to make himself feel better.] He starts to spend time in the evenings trawling through random logs, looking for problems.
@@ -424,6 +444,8 @@ Tactic: Find a non-judgmental way to describe the results of their behavior as a
 This is a form of what Chris Voss calls Calibrated Questions, in Never Split the Difference. And if it works with terrorists, maybe it'll work with your boss!
 
 Example
+
+# XXX Give the company a name + domain
 
 Lisa is a PM in the fulfillment space, working with a key operational stakeholder: Mark Blevins, the VP of Warehousing. The Good News: Mark Blevins has worked in warehousing for almost two decades, and knows his shit. The Bad News: Mark Blevins has worked in warehousing for almost two decades, and has zero patience with anyone asking him, well, any questions whatsoever. He routinely calls Lisa at the end of her working day and demands that she improve some existing workflow, asap. When she tries to ask about the warehouse ops metrics tied to that workflow, he cuts her off and says "Look, I don't need all that crap. If I'm telling you we have to fix receiving, then we have to fix receiving. Okay?" And then hangs up.
 
@@ -470,6 +492,8 @@ A key: don't fall into trap of thinking of wins as just sourced from what they'r
 If you're in the challenging situation where seemingly /nothing/ is frustrating for your stakeholder, take a look at both Link Your Frustrations To Goals and Create Urgency Through Visibility.
 
 Example:
+
+# XXX Name company + domain
 
 Marguerite and Tom are product and engineering leads for a sprint team. Fortunately, they have an excellent, high trust relationship with each other. Unfortunately, they are feeling super stuck with Marguerite's boss, Natalie, the VP of Product. Natalie likes to quote Marty Cagan all day about empowered teams... but somehow can't let her PM's make a single decision on their own. She's constantly asking for memos and briefs before she'll allow work to start; she overrules her PM's on decisions of every size and scope; she regularly takes over the planning meetings she attends to steer the teams herself.
 
@@ -660,11 +684,6 @@ Examples of you how you can put yourself on the line:
    Are you asking your stakeholder to lean into a difficult conversation with one of their direct reports? If so, find a way to commit to having a "similarly hard" conversation with people on your team.
 
    Note: this doesn't mean that your team has to be equally to blame. Perhaps you're asking the VP of Product to challenge one of their PM's to push back on stakeholders, rather than passing all requests through to the ever-more frustrated engineers on your team. You can commit to sitting down with the engineers, making clear that the PM is stepping up to try something new, and challenging them to put aside their frustrations and work their butts off on any requests that *do* come through.
-
-
-
-
-
 
 ** Tactic: Dry Run With a Friend
 Before you make your proposal, *practice*. Out loud.
