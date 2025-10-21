@@ -113,7 +113,7 @@ Problem: You're worried that your stakeholder will be reluctant to commit to you
 
 Tactic: Make it easier for them to say yes by making it clear that you will personally take on extra work, and/or face some hard thing.
 
-** Tactic: Propose a Timebox
+** Propose a Timebox
 
 Problem: your stakeholder is reluctant to consider a change in their behavior.
 
@@ -161,7 +161,7 @@ Other tactics she used:
 
  - Find Wins For Your Stakeholder By Hook Or By Crook: even though it wasn't stricly necessary for her own needs, she created a new opportunity for Jameson to discuss team performance, which she knows he finds both valuable and meaningful.
 
-** Tactic: Offer A Future Decision
+** Offer A Future Decision
 
 Problem: Your stakeholder is a human being. Therefore, agreeing to change their behavior /because someone asked them to/ makes them feel like they're losing control.
 
@@ -183,7 +183,7 @@ After talking it over with his manager, he decides to really focus on this as a 
 
 Given this clear signaling that she'll retain control, Lizabet proves willing to try this experiment for a sprint. She does ask that any ticket touching the datbase schema get *some* extra details, which Jonas is happy to agree to. They pitch the change to the team together, and Jonas can see that both Lizabet and her engineers are a little excited by shaking things up.
 
-** Tactic: Shrink Your Ask
+** Shrink Your Ask
 
 Problem: Truly improving how you work together requires a complex adjustment, and you can't see a way to implement it all at once.
 
@@ -237,7 +237,7 @@ It gets Oliver closer to the triage meeting he ultimately wants. To get all the 
 
 This tactic pairs well with both Propose a Timebox, and Create Urgency Through Visibility (in the above, Oliver is creating a form of visibility).
 
-** Tactic: Link Frustrations To Outcomes
+** Link Frustrations To Outcomes
 
 Problem: Your stakeholder doesn't seem to hear your concerns as valid or important. They don't understand why "your" problems matter for the business.
 
@@ -320,7 +320,7 @@ That chain of consequences also allows Sagar to define *leading indicators*: nea
 
 Finally, by having made the connection to the exec teams highest priority, he realizes he can approach Emily with a proposal that they, together, go to their bosses and advocate for support.
 
-** Tactic: Tell A Story Of Growing Danger
+** Tell A Story Of Growing Danger
 
 Problem: You've worked out a way to connect your current frustrations to longer-term strategic outcomes, but the connections feel dry and unconvincing.
 
@@ -415,7 +415,7 @@ Even if you don't get immediate buy-in, using the structures of a story will ens
 This pairs beautifully with Create Urgency Through Visibility.
 
 
-** Tactic: Create Urgency Through Visibility
+** Create Urgency Through Visibility
 
 Problem: Your stakeholder accepts that your frustrations matter, but they seem unwilling to do anything *now*.
 
@@ -448,7 +448,7 @@ Creating visibility is one of my very favorite tactics. It pairs beautifully wit
 Ultimately, I think the act of creating visibility is so profoundly helpful for getting unstuck because it enables you and your stakeholder to literally *see* the world in the same way. Which can be a deeply meaningful way to bring you together.
 
 # Use an example around security
-** Tactic: Invite Your Stakeholder To Solve Your Problems
+** Invite Your Stakeholder To Solve Your Problems
 
 Problem: You need to ask your stakeholder to change their behavior, but doing so could make them feel attacked, in which case they may angrily resist.
 
@@ -486,7 +486,7 @@ Of course, Mark might still be frustrated, and say, "The engineers should know h
 
 If you keep on steadily and calmly asking open-ended "How could I possibly solve my problem?" questions, often, your stakeholder will find themselves coming up with the precise solutions you've been wanting to implement. And they'll feel like the ideas are their own, not something they've been forced to do.
 
-** Tactic: Find Wins For Your Stakeholder By Hook Or By Crook
+** Find Wins For Your Stakeholder By Hook Or By Crook
 
 Problem: You can't figure out a way for your adjustment to immediately improve things for your stakeholder. Try as you might, you don't see how to address your frustrations in a way that directly benefits them.
 
@@ -566,7 +566,7 @@ By adding this to their proposed first adjustment, they can offer Natalie anothe
 
 They realize they now feel excited about sharing their proposed first increment with Natalie. They can offer her some genuine wins, while still sticking to their guns about clearing space for them to move more quickly on the ground.
 
-** Tactic: Keep 'Em Busy
+** Keep 'Em Busy
 
 Problem: You need to ask your stakeholder to *stop* doing something. You're worried that they will resist, because they are a human being, and thus like *doing things*.
 
@@ -590,7 +590,7 @@ Examples:
 
 This pairs very well with Find Wins By Hook Or By Crook (because such "not strictly needed" wins are sometimes the specific other thing you'll ask them to do), and also Address Fears Directly (by thinking about their underlying fears, you can come up with good alternative actions).
 
-** Tactic: Address Fears Directly
+** Address Fears Directly
 
 Problem: Your proposed adjustment might raise concerns or fears for your stakeholder, such that they resist making a change.
 
@@ -652,7 +652,7 @@ Instead, address any potential dowsides directly, clearly and with empathy. Make
 
 #  - They're afraid that the team's understanding of what they're going to work on is wrong, and therefore, the team will waste time (the PM has the humility to know that even their own understanding of what they're going to work on may change)
 
-** Tactic: Put Yourself On the Line
+** Put Yourself On the Line
 
 Problem: You're worried that your stakeholder will be reluctant to commit to your proposed adjustment, because, being human, they will feel like they'll have to do all the hard work.
 
@@ -700,7 +700,7 @@ Examples of you how you can put yourself on the line:
 
    Note: this doesn't mean that your team has to be equally to blame. Perhaps you're asking the VP of Product to challenge one of their PM's to push back on stakeholders, rather than passing all requests through to the ever-more frustrated engineers on your team. You can commit to sitting down with the engineers, making clear that the PM is stepping up to try something new, and challenging them to put aside their frustrations and work their butts off on any requests that *do* come through.
 
-** Tactic: Dry Run With a Friend
+** Dry Run With a Friend
 Before you make your proposal, *practice*. Out loud.
 
 First on your own, then with a trusted friend. At least once, maybe a few times.
@@ -708,7 +708,7 @@ First on your own, then with a trusted friend. At least once, maybe a few times.
 Eventually, going through this arc will feel natural, and you won't need to practice as much. But, early on, you're going to want to be extremely disciplined about going through the steps in sequenc. It's incredibly easy to skip over important steps, which can leave your stakeholder unwilling to say yes.
 
 For high stakes such proposals, I still practice over and over, until it feels fully clear, smooth and authentic.
-** Tactic: Invite Them To Tell You What's Wrong
+** Invite Them To Tell You What's Wrong
 When you actually deliver it, don't ask "yes/no", ask what's wrong?
 ** Troubleshooting
 *** Stakeholder doesn't confirm Strategic Intent
