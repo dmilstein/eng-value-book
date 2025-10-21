@@ -76,7 +76,7 @@ Tactic: Shrink your ask to implementing just a *part* of that better way to work
 *** Link Frustrations To Outcomes
 Problem: Your stakeholder doesn't seem to hear your concerns as valid or important. They don't understand why "your" problems matter for the business.
 
-Tactic: Run a 5 Whys to develop a chain of consequences that shows how your day-to-day frustrations, if left unchecked, will eventually impact your company's long-term goals.
+Tactic: Run a Five Whys to develop a chain of consequences that shows how your day-to-day frustrations, if left unchecked, will eventually impact your company's long-term goals.
 
 *** Tell A Story Of Growing Danger
 Problem: You've worked out a way to connect your current frustrations to longer-term strategic outcomes, but the connections feel dry and unconvincing.
@@ -241,69 +241,84 @@ This tactic pairs well with both Propose a Timebox, and Create Urgency Through V
 
 Problem: Your stakeholder doesn't seem to hear your concerns as valid or important. They don't understand why "your" problems matter for the business.
 
-Tactic: Run a 5 Whys to develop a chain of consequences that shows how your day-to-day frustrations, if left unchecked, will eventually impact your company's long-term goals.
+Tactic: Go through a Five Whys to develop a chain of consequences that shows how your day-to-day frustrations, if left unchecked, will eventually impact your company's long-term goals.
 
-# Then, find ways to make early challenges in proceeding through those steps *visible*, using the Create Urgency Through Visibility tactic.
+The Five Whys process, famously associated with Toyota[fn:: A company profoundly worthy of study.], simply means asking "Why?" over and over again, to probe deeply beneath the surface of some challenge or problem.
 
-# In order to both motivate your stakeholder, *and* to identify small changes that could matter, it can be very powerful to develop a chain of logical steps that connect the work your team is doing, right now, to what your business is trying to achieve, a year or more from now (the strategic intent you've extracted from your stakeholder)
+Below, I'll provide a detailed example of how to use this technique to connect your immediate concerns to long-term business outcomes.
 
-# Lay out the steps in a logical chain that lead from what your team is doing, right now, to what your business is trying to achieve, a year or more from now.
+However, before we dive into that, we have to first decide: who are you asking your "Whys" *of*?
 
-# That will allow you to see how small changes in how you work with your stakeholder could increase the odds (even slightly) of the business achieving those long-term goals.
+My recommendation is to start by asking *yourself*. Use this to build your own mental model. Perhaps then continue with a trusted friend.
 
-# However, it can sometimes feel very difficult to see the impact of our day-to-day work on some distant goal.
+In general, I *don't* recommend asking a relentless series of "Whys" of your stakeholder. Why not? Unfortunately, many stakeholders find this kind of rigorous probing, *well*, frustrating. They can get defensive, and resent having to "explain themselves."[fn:: E.g. Louis CK does a brilliant riff in Hilarious on how it feels to be on the receiving end of a Five Whys, in the context of parenting young children, not of running a business. But it's surprisingly similar?] That said, if your tactical empathy skills are strong, and your stakeholder welcomes rigor in your collective thinking, go for it! Otherwise, I recommend going through the cycle of repeated "Whys" on your own. Doing so will usually generate some specific questions for you to take to your stakeholder, to fill in missing parts of your picture of the business. You can ask them those more specific questions, instead of the blunt series of Whys.
 
-Do this initial work by yourself or with a trusted friend. Start by naming the immediate frustration you want to work on. Then ask, "Why is this a problem for the business?"
+Here's how to use the Five Whys to link your frustrations to long-term business outcomes.
 
-Whatever answer you come up with, ask that same "Why" question again. Keep doing that, over and over, until you eventually arrive at the strategic intent you've extracted from your stakeholder. If you can't get to the strategic intent, talk to some people, keep refining your understanding of the business. You may even end up realizing that your current frustrations *aren't* related to achieving that strategic intent, no matter how hard you look (this isn't bad! It will let you focus your advocacy on things that do matter!).
+Name the immediate frustration you're experiencing.
+
+Ask, "Why is this a problem for the business?"
+
+Then, whatever answer you come up with, ask that same "Why" question again.
+
+Keep doing that, over and over, until you eventually arrive at the strategic intent you've extracted from your stakeholder. If you can't get to the strategic intent, talk to some people, keep refining your understanding of the business. You may even end up realizing that your current frustrations *aren't* related to achieving that strategic intent, no matter how hard you look (this isn't bad! It will let you focus your advocacy on things that do matter!).
 
 # That chain should not only show the importance of dealing with your frustrations, it should also help identify some leading indicators, which you can then target for creating visibility.
 
 Example:
 
-# XXX Make his company more specific
+Sagar works as an engineer at InfinityPool, a B2B company that sells applicant tracking systems to talent departments at large enterprises. Sagar is the tech lead on a sprint team that owns the hiring manager experience within the overall product. Unfortunately, Sagar suffers from the misfortune of being friendly and nice and thus knowing people on teams outside of engineering. As a result, the sales reps at InfinityPool just /relentlessly/ pester Sagar with feature requests. When a sales rep doesn't get an immediate response, they ping Sagar over and over in Slack to "check for status". Last month, at the company party, Sagar saw Jordy, a sales rep, striding towards him with a big grin on his face, and Sagar had to fight an overwhelming desire to run away.
 
-Sagar is the engineering lead on a sprint team. Unfortunately, the sales reps at his company keep pestering him with an endless series of new feature requests. When a sales rep doesn't get an immediate response, they ping Sagar over and over in Slack to "check for status". Last month, at the company party, Sagar saw Jordy, a sales rep, striding towards him with a big grin on his face, and Sagar had to fight an overwhelming desire to run away.
-
+#  Each sales rep claims that their own large, opinionated customer will churn if they don't get their feature, right away.
 # , out of fear that Jordy would try to browbeat him into working on Jordy's pet feature.[fn:: He was right.]
 
-# Sagar has been trying to get his product manager, Emily, to step in and wrangle the sales team, but, so far, she's been unwilling to do so. He's decided that, for his current bid for incremental improvement, Emily is his stakeholder.
+Sagar has been trying to get his product manager, Emily, to step in and wrangle the sales team, but, so far, she's been unwilling to do so. Sagar has to admit that Emily has plenty to do to organize the work the team is *supposed* to be doing. Furthermore, these feature requests (of course) come in as "bugs", and Emily genuinely doesn't have time to review every single bug report. But neither does Sagar! He and his team are getting more and more miserable, having to spend every day fending off angry requests they can't possibly satisfy.
 
-Jordy *has* managed to extract a meaningful strategic intent from his product peer: within the next eighteen to twenty-four months, their company needs a new product in order to keep growing revenue. Sagar's team's work is a part of trying to develop that product.
+Sagar *has* managed to extract a meaningful strategic intent from Emily: within the next eighteen to twenty-four months, InfinityPool needs a new product to sell to enterprise hiring teams, if they're going to keep growing revenue. The current best bet is to find a way to help companies handle the overwhelming tidal wave of resumes that pour in, now that AI assistance has spread through the applicant pool.[fn:: The sharp-eyed among you will recognize that, in this moment, our story has taken something of an abrupt turn to aspirational fantasy! I would /love/ to tell you that most companies set strategic product goals around *customer problems* instead of *cool-sounding products*, but that has not been my experience! I'm sure such companies exist, but they are hella rare! We'll explore this in more depth in the "We Need a New Product ASAP!" case study.]
 
-How can Jordy connect his day-to-day frustrations to that long-term company goal?
+Sagar wants to make his case to Emily one more time, but he's worried it's going to sound like he's just bitching about doing maintenance. And their day-to-day work is so far removed from that long-term goal, all he can come up with is, "The engineers are getting pissed." Which doesn't sound compelling, even to him. That sounds like a problem for /Sagar/, not for InfinityPool.
 
-Here is the 5 Whys he works out with a friend (a tech lead on an adjacent team):
+Then, one day, he runs into his friend Anamika, who leads the resume ingest teams, in the office kitchen. Anamika hears him out, and suggests he does a Five Whys.
 
-  - Why is it a problem for the business that the sales team keeps interrupting Sagar with 'urgent' feature requests?
+"A what what?" asks Sagar, grabbing a bag of salted almonds from the snack wall.
 
-    /Because it's distracting him and the other engineers/
+"A Five Whys. Look, we can do it right now. What's the thing that's frustrating you, again?"
 
-  - Why is it a problem for the business that the engineers are distracted?
+"What I just said. The sales reps keep interrupting me with 'urgent' feature requests." Sagar makes bitter air quotes with his fingers.
 
-    /Because the team as a whole can't move quickly/
+Anamika casually waves that aside, "Okay, why is it a problem for the business that the sales team keeps interrupting you with 'urgent' feature requests?"
 
-  - Why is it a problem for the business that the team isn't moving as fast as it could?
+That's easy, thinks Sagar. "Because it's *distracting* me. *And* the other engineers." He pops an almond into his mouth.
 
-    /Because it's pushing out the delivery of the early prototypes we're trying to build/
+"Why is it a problem for the business that you and the other engineers are distracted?"
 
-  - Why is it a problem for the business if it takes a little longer to build those prototypes?
+What kind of question is that? Being distracted is, just bad in and of itself, right? Sagar chews on his almond, relishing the sharp tang of salt. Why is it bad for the /business/, not just for him and his team? Oh, wait, that's actually easy, too. "Because the team as a whole isn't moving as *quickly* as we could be."
 
-    /Because the ProdDev teams need to test those prototypes with customers before we can find our next product opportunity/
+Before Sagar can feel satisfied for even a moment, Anamika nods and asks again: "Why is it a problem for the business that the team isn't moving as fast as it could be?"
 
-  - Why is it a problem for the business if it takes a little longer to find our next product opportunity?
+Sagar wants to say, "because we're falling behind our sprint goals", but he knows Anamika will just ask him why again. So he tries instead to think about what Emily is working backwards from. Luckily, she often takes a few minutes during sprint planning to share the whys behind what they're building. After a moment, Sagar says to Anamika, "Because it's pushing out the delivery of the early prototypes we're trying to build."
 
-    /Because we need to develop a new product to sell, and before we can commit multiple teams to development, we need to identify a feasible and valuable product opportunity/
+"Mmm-hmmm," says Anamika, brushing a strand of hair out of her face. "Why is it a problem for the business if it takes a little longer to build those prototypes?"
 
-  - Why is a problem for the business if it has to wait a little longer to develop a new product?
+Sagar is finding himself slowing down. It's like he's having to imagine the overall business around him as a sort of machine, working towards some outcome. Finally, he says, deliberately, "I... think it's because the ProdDev teams need to test prototypes with customers, as soon as possible. And I think we need to do that to, like, identify a /specific/ product we could build that might solve the resume overload problem."
 
-    /Because top-line revenue growth has stalled, and the company needs to show more growth by our next funding round, which is fast approaching, and we can only show more growth if the sales team has something new to sell/
+Anamika quirks her head to one side. "Why is it a problem for the business if it takes a little longer to identify one specific product opportunity?"
 
-With that end-to-end understanding in hand, Sagar can *authentically* explain how a small reduction in the frequency of interruptive requests from the sales team can, in a small but real way, increase the odds of the company achieving its long-term goals. And, conversely, he can show how every week they *don't* fix that broken pattern, they're drifting further behind on their most important goals.
+Sagar realizes he's just about made it to the strategic outcome that Emily told him the exec team is super focused on. He says, "Because InfinityPool needs to develop a new product to sell, and before we can commit multiple teams to development, we need to identify a specific product opportunity."
 
-Having all those specific steps gives him much more clear ammunition than just a vague sense that they're not moving fast enough.
+Anamika asks, to finish their game off, "Why is a problem for InfinityPool if it has to wait a little longer to start selling a new product?"
 
-That chain of consequences can also help Sagar define *leading indicators*: near-term outcomes that his team can only achieve if they get the sales reps to stop blowing up his focus. In this case, that's delivery of early prototypes. Having some options for leading indicators sets him up to use the Create Urgency Through Visibility tactic.
+With an odd feeling of satisfaction, Sagar says, "Because top-line revenue growth has stalled, and we need to show more growth by our next funding round, which is only eighteen to twenty-four months out. And we can only show more growth if the sales team has something new to sell." He sits back.
+
+"And there you go," says Anamika.
+
+With that end-to-end understanding clear in his mind, Sagar realizes he can *authentically* explain how a small reduction in the frequency of interruptive requests from the sales team can, in a small but real way, increase the odds of the company achieving its long-term goals. And, conversely, he can show how every week they *don't* fix that broken pattern, they're slowly drifting further behind.
+
+Having all those specific steps gives him much more clear ammunition than just a vague sense that the engineers are unhappy.
+
+That chain of consequences also allows Sagar to define *leading indicators*: near-term outcomes that his team can only achieve if they get the sales reps to stop blowing up his focus. In this case, that's delivery of early prototypes. Having some options for leading indicators sets him up to use the Create Urgency Through Visibility tactic.
+
+Finally, by having made the connection to the exec teams highest priority, he realizes he can approach Emily with a proposal that they, together, go to their bosses and advocate for support.
 
 ** Tactic: Tell A Story Of Growing Danger
 
@@ -870,11 +885,11 @@ CLOSED: [2025-10-15 Wed 10:09]
 CLOSED: [2025-10-15 Wed 10:09]
 ** DONE Make a ToC-like section of problems/tactics
 CLOSED: [2025-10-20 Mon 12:22]
+** TODO Make all the stories at more specific companies
 ** TODO Finish what I started with storytelling
 ** TODO Take a pass on making all stories more vivid/playful
 E.g. Mark Blevins-style.
 ** TODO Count # of prod vs eng stories
-** TODO Make all the stories at more specific companies
 ** TODO Cluster the tactics?
 E.g.
 
