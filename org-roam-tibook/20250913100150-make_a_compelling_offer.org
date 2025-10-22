@@ -328,9 +328,9 @@ Problem: You've worked out a way to connect your current frustrations to longer-
 
 Solution: Use the structure of a *story* to render your concerns vivid, immediate and memorable to your stakeholder.
 
-/Lean in close, I'm going to tell you a secret/. Thanks to several million years of work by evolution, human beings have certain storytelling structures wired deeply into our minds. If you can frame a request using one of those structures, you can take advantage of that wiring to bring your concerns vividly to life.
+Thanks to several million years of work by evolution, human beings have certain storytelling structures wired deeply into our minds. If you can frame a request using one of those structures, you can take advantage of that wiring to bring your concerns vividly to life.
 
-There's one particular story structure which is particularly useful for sharing business challenges. That structure is "A Story of Growing Danger", using steps of a heroic arc, ala:
+There's one story structure which I have found particularly useful for sharing business challenges. That structure is "A Story of Growing Danger". Such a story can use steps of a heroic arc, ala:
 
  - The world is at peace
 
@@ -352,13 +352,13 @@ Of course, of course. But just stick with me for a moment, and let's see if we c
 
 Example
 
-Ted is an engineering director at MediMates, a tech-enabled online pharmacy. Ted's teams own the systems supporting back-end pharmacy operations: prescription review, safety checks, labeling, and shipping.
+Ted is an engineering director at MediMates, a tech-enabled online pharmacy. Ted's teams own the systems supporting back-end pharmacy operations: prescription review, safety checks, labeling and shipping.
 
-Early in MediMates's history, those operational systems were thrown together to support a handful of pharmacists, serving a few hundred patients in total. Today, Medimates employs nearly one hundred pharmacists, and fills prescriptions for over twenty thousand patients. The backend systems are really struggling to meet current needs. Ted somewhat desperately wants to hit pause on delivery of new features, so that his team can clean up some particularly nasty legacy bits.
+Early in MediMates's history, those operational systems were thrown together to support a handful of pharmacists, serving a few hundred patients in total. Today, Medimates employs nearly one hundred pharmacists, and fills prescriptions for over twenty thousand patients. The backend systems are really struggling to meet current needs. Ted desperately wants to hit pause on delivery of new features, so that he and his team can clean up some particularly nasty legacy bits.
 
 # In particular, he's unhappy about the number of high-impact, time-sensitive exceptions that his team has to fix by hand.
 
-Unfortunately, Ted has been facing a major challenge in getting, well, any time on their roadmap whatsover. His main stakeholder is the VP of Pharmacy Operations, Amitai. When MediMates's CEO hired Amitai six months ago, he handed him a set of extremely ambitious targets around both scale and efficiency. Amitai spent his first few weeks drafting a fifty-six page PowerPoint deck, with a sprawling list of features he claimed he needed, every one absolutely as soon as possible.[fn:: Why yes, Amitai *did* work for McKinsey earlier in his career, funny that you ask.] All they ever seem to do is move through that deck, one feature at a time.
+Unfortunately, Ted has been facing a major challenge in getting, well, any time on their roadmap whatsover. His main stakeholder is the VP of Pharmacy Operations, Amitai. When MediMates's CEO hired Amitai six months ago, he handed him a set of extremely ambitious targets around both scale and efficiency. Amitai spent his first few weeks drafting a fifty-six page PowerPoint deck, detailing a sprawling list of features.[fn:: Why yes, Amitai *did* work for McKinsey earlier in his career, funny that you ask.] All they ever seem to do is move through that deck, one feature at a time.
 
 Ted has been feeling *very* stuck for a while.
 
@@ -374,11 +374,11 @@ With Kelsey's help, he went through a Five Whys, and identified a specific, visi
 
 # What might you say, if you were in Ted's shoes?
 
-Excited to be able to speak to business outcomes, Ted sits down with Amitai before their next team planning session. He feels proud about how clearly he is able to make his case. "I know how important it is to scale up our pharmacist count, and to keep taking time out of our mean-time-to-fill. But, if we're going to hit our long-term goal of same-day delivery, I think we should pause feature delivery so my teams can reduce the rate of exceptions they have to hand fix."
+Excited to be able to speak to business outcomes, Ted sits down with Amitai before their next team planning session. "I know how important it is to scale up our pharmacist count, and to keep taking time out of our mean-time-to-fill. But, if we're going to hit our long-term goal of same-day delivery, I think we should pause feature delivery so my teams can reduce the rate of exceptions they have to hand fix." He feels proud about how clearly he made his case.
 
 # What Ted has just tried is an *appeal to reason*.
 
-Now, this is not bad! Ted has demonstrated an empathetic understanding of Amitai's near-term goals (around pharmacist count and time-to-fill). He's named the shared strategic goal of enabling same-day delivery. He's focused his request for technical investment on the visible outcome of reducing the exception rate (instead of a vaguely moralizing demand to clean up technical debt). Heck, now that I write all that out, this is a really excellent request!
+This is not bad! Ted has demonstrated an empathetic understanding of Amitai's near-term goals (around pharmacist count and time-to-fill). He's named the shared strategic goal of enabling same-day delivery. He's focused his request for technical investment on the visible outcome of reducing the exception rate (instead of a vaguely moralizing demand to clean up technical debt). Heck, now that I write all that out, this is a really excellent request!
 
 Unfortunately, it doesn't work.
 
@@ -390,17 +390,17 @@ What? Why?
 
 Literally all Amitai hears all day is a parade of complaints from people, each accompanied by a plea for him to deploy his political capital to do something that will piss off some other people and/or his boss. Nothing about this particular request lodges more firmly into his mind.
 
-After Amitai leaves, Ted sits there, feeling more stuck than ever. He's certain that the exception count issues aren't just *annoying*, they're a genuine risk for the business. But he can't seem to break through to Amitai.
+After Amitai leaves, Ted sits there, feeling more stuck than ever. He's certain that the exception count issues aren't just *annoying*, they're a serious risk for the business. But he can't seem to break through to Amitai.
 
-That weekend, on the sidelines of an ultimate frisbee game, Ted complains about this to a friend who happens to be a playwright and director.[fn:: Just a random such frisbee-playing, theater-devising friend, not resembling anyone writing this book.] That friend, um, *Dean*, lays out the idea of telling a story of growing danger.
+That weekend, on the sidelines of an ultimate frisbee game, Ted complains about this to a friend on his team who writes and directs plays.[fn:: Just a random such frisbee-playing, theater-devising friend, not resembling anyone writing this book.] That friend, um, *Dean*, lays out the idea of telling a story of growing danger.
 
 At first, Ted can't see how to apply it. Dean says, pointing at Ted with the frisbee he's holding, "Start by finding a *moment in time*, when the danger first emerged. Things were going well, but then some Bad Thing started to develop." Dean waves the frisbee grandly. "Like distant thunder rumbling on the horizon. See if you can find a specific moment. Maybe when something changed, or maybe when you made a worrisome discovery." He waves the frisbee back at Ted. "When might that be?"
 
 "I... dunno? Hang on a sec," Ted says slowly, "I could maybe do something about when I got switched to backend from customer-facing. Actually," he continues, "that *is* when I realized how bad things were. I mean back on Storefront--"
 
-"Now," continues Dean, "hone in on the *moment* of realization. Bring it to life. Then, after that, did your team try to face the growing danger, before it got completely out of hand?"
+"Now," continues Dean, "hone in on the *moment* of realization. Bring it to life. Then, once that moment is clear, move forward in time. You tried something, you struggled against this rising tide of danger. You all tried *something*, right?"
 
-"Oh, we've tried. We added logging, and--"
+"So many things. We added logging, and--"
 
 "Don't tell *me* this, tell your guy. And then tell him how, despite your noble efforts, things kept getting worse and worse. And now it's almost too late! If he doesn't do your, whatever it is you want him to do, things are going to go completely to hell, the forces of chaos will win. Your guy, whatshisname---"
 
@@ -412,9 +412,9 @@ Over the next few days, Ted works on his story pitch, even calling up Dean for s
 
 Finally, he's ready. At his next weekly meeting with Amitai, he lays out his request in a new way.
 
-"I don't think I ever told you, but I only came over to the ops side at around the time you were hired. As I was getting to know my new teams, I sat in on a series of team planning sessions. And as I did... I started to notice this weird pattern. I couldn't understand it at first." Ted notices that Amitai is leaning very slightly forward. He's started to get drawn into this moment in time that, as per Dean's advice, Ted has brought to life.
+"I don't think I ever told you, but I only came over to the backend ops side at around the time you were hired. As I was getting to know my new teams, I sat in on a series of planning sessions. And as I did... I started to notice this weird pattern. I couldn't understand it at first." Ted notices that Amitai is leaning very slightly forward. He's started to get drawn into this moment in time that, as per Dean's advice, Ted has brought to life.
 
-"At every single sprint planning," Ted continues, "the teams would name an engineer to 'Criticals'. I didn't know what that meant, but that engineer always looked *miserable*. Finally, after a few meetings, I stopped everyone and asked what was going on. It turned out that the teams were handling *so many exceptions*, that one engineer from every team had to spend *their entire sprint* doing nothing but cleaning up critical data issues for the pharmacists. That engineer couldn't work on new features, they couldn't improve the code, they would just try to keep prescriptions flowing." Amitai looks worried. Then, as per Dean's advice, Ted twists the knife. "More than once, we've come terrifyingly close to letting prescription conflicts creep in." A look of fear flickers across Amitai's face. All of MediMates is hugely afraid of shipping patients medications with dangerous, even possibly deadly, interactions.
+"At every single sprint planning," Ted continues, "the teams would name an engineer to 'Criticals'. I didn't know what that meant, but that engineer always looked *miserable*. Finally, after a few meetings, I stopped everyone and asked what was going on. It turned out that the teams were handling *so many exceptions*, that one engineer from every team had to spend *their entire sprint* doing nothing but cleaning up critical data issues for the pharmacists. That engineer couldn't work on new features, they couldn't improve the code, they would just try to keep prescriptions flowing." Amitai looks worried. Then, as per Dean's advice, Ted twists the knife. "More than once, we've come terrifyingly close to letting prescription conflicts creep in." A look of horror flickers across Amitai's face. All of MediMates is hugely afraid of shipping patients medications with dangerous, even possibly deadly, interactions.
 
 "We've tried to fix some underlying issues, but just staying on top of the existing criticals is taking so much time, that we're barely treading water. I'm worried that, as we scale up our pharmacist count, we're going to be generating more and more exceptions, and more and more engineering time will be devoted to just keeping things from falling over. I want to reduce time-to-fill, and I want to get us to same-day, but, unless we get a handle on critical exceptions, I just don't think we're going to be able to."
 
@@ -424,9 +424,9 @@ Just as Dean had predicted.
 
 Ted and Amitai dive into the possibilities, and come up with some initial visibility investments that will get them started (see, Create Urgency Through Visibility).
 
-As he walks back to his desk, Ted can't wait to tell his team that they're finally going to be facing these problems head on.
+As he walks back to his desk, Ted can't wait to tell his team that they're finally going to be facing their problems head on.
 
-In the above, we saw Ted telling a full story to Amitai. However, even if you don't have that much time, you can get a great deal of value by using story beats in a concise form.
+Now, in the above, we saw Ted telling a full story to Amitai. However, even if you don't have that much time, you can get a great deal of value by using story beats in a concise form.
 
 For example, here was how Ted first laid out his concern, in purely rational form:
 
@@ -450,27 +450,49 @@ Example:
 
 # XXX Name the company
 
-Dylan is a senior engineer on a team that maintains the data ingestion pipeline for his company, which imports customer data in bulk on a nightly basis. Of late, Dylan has been growing more and more worried about how his team's systems will handle the increasing load as their customer base grows (and as they acquire some customers with very large data sets). His team lead, Thomson, agrees that the current pipeline is pretty hairy and will need some reworking at some point. Unfortunately, Thomson keeps on telling Dylan that that point is absolutely not now. The team was handed a top-down OKR to plumb some new data types through the pipeline, and therefore new data types is all Thomson is willing to talk about.
+Dylan is a senior engineer working at Merchandize, a SaaS business that helps ecommerce companies manage art assets for the items they sell. Dylan works on a team that maintains Merchandize's data pipeline, which, every night, does a bulk ingestion of product data from every customer. Of late, Dylan has been growing more and more worried about how that pipeline will handle the increasing load as Merchandize's customer base grows.
 
-Dylan gets more and more worried. One afternoon, he drafts a long, ranting email to Thomson, about how the top-down OKR's are ignoring the context of the team. The next morning, he (wisely) decides to not send that email.[fn:: He keeps the email draft around so that he can periodically reread it to make himself feel better.] He starts to spend time in the evenings trawling through random logs, looking for problems.
+# and as they acquire customers with very large portfolios of products.
 
-One night, he makes a discovery deep in the logs, and a plan clicks into place. Although no one specifically intended it, Dylan discovers that there's an exception that gets recorded in the logs, every time a nightly job finishes for a customer. He spends a few days building parsing and summing scripts, and then rendering the resulting data into a graph. Finally, he sits down with Thomson to review what he's found. Dylan shows that the finish time for the largest nightly jobs has been steadily creeping later and later. It looks like, if they add just a few more customers with large data sets, those finish times will land *after start of business*. Which will mean that customers will be dealing with stale data. This is a Very Bad Thing, for their particular business.
+His team lead, Thomson, cheerfully agrees that the current pipeline is pretty hairy and will need some reworking at some point. Unfortunately, Thomson keeps on telling Dylan that that point is Not Yet. Earlier this quarter, their team was handed an OKR to plumb product dimensions through the pipeline, and product dimensions is all Thomson seems willing to talk about.
 
-Thomson emerges from that meeting ready to talk to both his product peer and his boss about carving out some time to dig into what, exactly, is causing imports to run so late.
+Dylan gets more and more worried.
 
-Note: he's willing to do so *both* because he can see the risks of waiting, but also because he, *and his stakeholders*, can now see the result of various kinds of incremental investments. If they can do a little bit of work and buy themselves a bit of time, that's a real win, *which will be visible on Dylan's new graphs*. If they can do a little bit of work and fix issues just for a few big customers, that might be a real win, which they could also make visible. Going from a monolithic "We have to fix this", to "If we make things a little better, we can see it" is transformative for these kinds of conversations.
+One afternoon, he prepares a long, ranting email for Thomson, about how the top-down OKR's are willfully ignoring the existence of tech debt. The next morning, prior to hitting send, he re-reads the email one last time, and discovers to his dismay that it sounds shrill and whiny. He decides, regretfully, to leave it unsent.[fn:: Over the next few days, Dylan re-reads his rant and hears, in his mind, someone delivering it in rousing tones, and that makes him feel briefly better.] Dylan starts to spend time in the evenings trawling through random ingestion logs, he's not even fully sure why.
 
-Note: creating visibility to motivate action is useful in an extremely wide variety of contexts, not just ones where precise measurements are available.
+Then, one night, he makes a discovery deep in the Job-Errors_NonCrit2 log.
 
-Is your team constantly stuck waiting on dependencies? Create visibility by regularly estimating how much time each work stream spends in a wait state, and therefore how much overall time is being added to each projects. Are such estimates precisely accurate? Of course not. Could even extremely rought estimates enable you and your stakeholders to make good decisions about reducing depenedency wait times? Absolutely.[fn:: By the way, if you are struggling with dependency challenges, don't fall into the trap of estimating how much time each engineer is waiting. The problem isn't that your engineers are waiting, it's that the work isn't advancing. Sayeth Don Reinertsen: Watch the work product, not the worker.]
+Although no one specifically intended it, Dylan realizes that there's an exception that gets recorded in the logs, every time a nightly job successfully finishes for a customer. And those exceptions, of course, *have a timestamp*. He excitedly downloads a set of logs from six months ago, and finds the same exceptions.
+
+Over the next few nights, Dylan hacks together some scripts to parse and sum this data from the error logs. He glues in data from their main customer database to identify a few outlier large customers. He renders the results in a series of graphs, then adjusts the layout until those graphs tell a clear story.
+
+At his next 1:1 with Thomson, Dylan asks, casually, "Can I show you something I've been working on?"
+
+When Thomson nods, Dylan, with a flourish, unveils his new graphs.
+
+"What am I looking at?" says Thomson, leaning forward to peer at the screen.
+
+"This line," Dylan says, gesturing with the mouse pointer, "is the p95 finish times for our largest customer's nightly jobs, over the last six months. And a forecast for the next three."
+
+"What's the left axis--- Wait, *what*?"
+
+Thomson has just realized that the current finish times are incredibly close to the start of their customer's business days. And, in the forecast, they sail right past that critical moment, and drift into the early afternoon. From painful past experience, both engineers know this is a Very Bad Thing for Merchandize. When their customers lose a day of site sales because they can't link up art assets to recently added products, they get super pissed.
+
+Thomson emerges from that meeting ready to talk to both his product peer and his boss about carving out some time to dig into what, exactly, is causing imports for large customers to run so late.
+
+A key nuance: Thomson is willing to do this work both because he can see the risks of waiting, but also because he will be able to see the result of incremental improvements. If they can do a little bit of work and buy themselves a bit of time, that's a real win, which will be visible on Dylan's new graphs, to both Thomson *and* his stakeholders. Going from a monolithic "We have to fix this giant mess", to "If we make things a little better, we can see a small improvement" is transformative for these kinds of conversations. Even if you don't yet know what the small fix will be.
+
+Creating visibility to motivate action is useful in an extremely wide variety of contexts, not just ones where precise measurements are available.
+
+Is your team constantly stuck waiting on dependencies? Create visibility by regularly estimating how much time each work stream spends in a wait state, and therefore how much overall time is being added to each project. Are such estimates precisely accurate? Of course not. Can even quite rough estimates improve the decisions you and your stakeholders make about whether or not to invest in reducing depenedency wait times? Absolutely.[fn:: By the way, if you are struggling with dependency challenges, don't fall into the trap of focusing on how much time each engineer is spending waiting. The problem isn't that your engineers can't staying busy, it's that the work isn't advancing. Sayeth Don Reinertsen: Watch the work product, not the worker.]
 
 Is your team somehow failing to carve out time to do some early technical exploration as a first step in a large project? Create a list of questions you want to develop answers for, and then march through that list of questions, checking them off as you go. That's a useful way to make your incremental learning progress visible, enabling tradeoffs, early exits, etc.
 
 Is your CEO's desire to sit in on all customer interviews stalling out the product team's ability to learn? Start tracking the number of customer interviews each week, and make this friction clear.
 
-Creating visibility is one of my very favorite tactics. It pairs beautifully with Link Your Frustrations To Goals, with Shrink Your Ask, with Propose a Timebox.
+Creating visibility is one of my very favorite tactics. It pairs beautifully with Link Your Frustrations To Goals, with Shrink Your Ask, with Propose a Timebox, with Tell a Story of Growing Danger.
 
-Ultimately, I think the act of creating visibility is so profoundly helpful for getting unstuck because it enables you and your stakeholder to literally *see* the world in the same way. Which can be a deeply meaningful way to bring you together.
+Ultimately, I believe the act of creating visibility is so profoundly helpful for getting unstuck because it enables you and your stakeholder to literally *see* the world in the same way. Which can be a deeply meaningful way to bring you together.
 
 # Use an example around security
 ** Invite Your Stakeholder To Solve Your Problems
@@ -913,6 +935,7 @@ CLOSED: [2025-10-20 Mon 12:22]
 ** TODO Make all the stories at more specific companies
 ** TODO Finish what I started with storytelling
 ** TODO Clean up Kahneman ref
+** TODO For Growing Danger, make stakeholder the friend/mentor
 ** TODO Add something about citing the potentially better world
 Like, it's not just at risk, it's possible.
 ** TODO Take a pass on making all stories more vivid/playful
