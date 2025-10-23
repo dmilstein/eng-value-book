@@ -503,43 +503,47 @@ This is a form of what Chris Voss calls Calibrated Questions, in Never Split the
 
 Example
 
-Lisa is a Product Manager at Doggo, an ecommerce company that specializes in high-end pet food. Lisa works on the Operational Product team, and her team owns the tools that support warehousing and fulfillment. Lisa's key operational stakeholder is the VP of Warehousing, Mark Blevins... who is something of a legend at Doggo.
+Lisa is a Product Manager at Doggo, an ecommerce company that specializes in high-end pet food. Lisa works on the Operational Product team, and her team owns the tools that support warehousing and fulfillment. Lisa's key operational stakeholder is the VP of Warehousing, Mark Blevins. He was an early hire, and is something of a legend at Doggo.
+
+# BoonDoggle, BoonDoggie
 
 The Good News: Mark Blevins has worked in warehousing for almost two decades, and Mark Blevins knows his shit.
 
-The Bad News: Mark Blevins has worked in warehousing for almost two decades, and Mark Belvins has zero patience with anyone asking him, well, any questions whatsoever.
+The Bad News: Mark Blevins has worked in warehousing for almost two decades, and Mark Belvins has zero patience with anyone asking him any questions whatsoever.
 
-One Thursday, Mark calls Lisa as she's getting ready to head home and demands that she drop everything and "fix" a key warehousing workflow, asap. When she tries to ask about the warehouse metrics tied to that workflow, Mark cuts her off and says "Look, I don't need all that crap. If I'm telling you that you have to fix receiving, then you have to fix receiving. Okay?" And then hangs up.
+One Thursday, Mark calls Lisa as she's getting ready to head home. He demands that she drop everything and commit her team to "fixing" a key warehouse workflow, asap. When she tries to ask about what metrics he's worried about, Mark cuts her off and says "Look, I don't need all that crap. If I'm telling you that you have to fix receiving, then you have to fix receiving. Okay?" And then hangs up.
 
 Lisa sits staring at her desk, her phone still in her hand.
 
-She doesn't know what to do with a stakeholder who takes a request for business metrics as a personal affront. She *wants* to solve problems with Mark, but if she can't get him to give her some basic operational metrics, how is she going to do her job? She has to make prioritization decisions, she has to set goals for her teams, for god's sake, she has to *understand* what Mark is even trying to do. She can't just tell her engineers to randomly start coding receiving workflows.
+She doesn't know what to do with someone who takes a request for business metrics as a personal affront. She *wants* to solve problems with Mark, but if she can't get him to give her some basic operational metrics, how is she going to do her job? She has to make prioritization decisions, she has to set goals for her teams, for god's sake, she has to *understand* what Mark is even trying to do. She can't just tell her engineers to randomly start coding receiving workflows.
 
 She imagines confronting Mark about this directly: "If you won't give me metrics that are impacted by fixing receiving, then I won't prioritize this work." But, in her interactions with Mark so far, he seems to be just spoiling for a fight. And given his long-standing status at Doggo, getting into a power struggle with Mark Blevins doesn't seem likely to end well for her.
 
 Lisa feels good and completely stuck.
 
-That night, after tucking her wonderful-but-totally-exhausting four year daughter into bed, she's reading a book about parenting. She's skimming through a section about how to handle a resistant child by inviting them to solve a problem with you, when, with a start, she suddenly realizes she may be looking at a new idea for how to handle Mark. "He's like a child!" she excitedly announces to her spouse, when they wander bleary-eyed into the room twenty minutes later. Given that they have two daughters, her spouse just blinks at Lisa uncertainly.
+That night, after tucking her wonderful-but-totally-exhausting four year daughter into bed, she's collapsed on the couch, and picks up a book about parenting that her spouse got out of the library. She's skimming through a section about how invite a resistant child them to solve a problem with you, when, with a start, she suddenly realizes she's looking at a new idea for how she can handle Mark. "He's like a child!" she excitedly announces to her spouse, when they wander bleary-eyed into the room twenty minutes later. "We have two girls?" says her spouse, uncertainly.
 
-The next morning, Lisa hurries into her office, clears a couple of meetings off her calendar, and gets her thoughts together. She then pings Mark for a quick check-in.
+The next morning, Lisa hurries into her office, clears a couple of meetings off her calendar, and spends an hour getting her thoughts together. The, she pings Mark for a quick check-in.
 
-When Mark appears on her zoom screen, frowning as always, Lisa forces herself to launch into the script she's been practicing. "Good morning, Mark. I'm really eager to work on the receiving issues we talked about yesterday. I was getting ready to tell the engineers to get started, but then I realized: there have been *far* too many times that the engineers worked on some warehouse process for you, but, well, they didn't fully understand what they were doing."
+When Mark appears on her zoom screen, frowning as always, Lisa launches into the script she's been practicing. "Good morning, Mark. I'm really eager to work on the receiving issues we talked about yesterday. I was getting ready to tell the engineers to get started, but then I realized: there have been *far* too many times that the engineers worked on some warehouse process for you, but, well, they didn't fully understand what they were doing."
 
-She shakes her head regretfully.
+She shakes her head regretfully. "They just don't have your depth of experience in warehousing. Too many times, they delivered something that just *didn't work*. I *hate* when that happens. It's such a waste of your time."
 
-"They just don't have your depth of experience in warehousing. Too many times, they've delivered something that just *didn't work*. I *hate* when that happens. It's such a waste of your time." Mark harrumphs in agreement.
+She pauses. Mark harrumphs in agreement.
 
-"So I wanted to ask: if they got the receiving fix right... how would you tell? Or, if they messed up /again/, what would tell you that? What would you see, when you looked at your dashboards? I want to hold them accountable, so that we're not wasting your time."
+"So," Lisa continues, "I wanted to ask: if the engineers actually got the receiving fix right... how would you tell? Or, if they messed up /again/, what would tell you that? What would you see, when you looked at your dashboards? I want to hold them accountable, so that we're not wasting your time."
 
-Mark gruffly agrees that there have been too many failed launches. He then says, slowly, "Of course, I'd first look at UPH on the receiving line. But you can't /only/ look at UPH, only an idiot does that. It's *also* exception counts. Our exceptions are getting totally out of hand, we *have* to keep that under control. I'm checking exceptions every few hours, it's *batshit*. That's no way to run a building." Having delivered this homily, he sits back with his arms folded over his chest.
+Mark gruffly agrees that there have been too many failed launches. He then says, slowly, "Of course, I'd first look at Units Per Hour on the receiving line. But you can't /only/ look at UPH, only an *idiot* does that. It's *also* exception counts. Our exceptions are totally out of hand, we *have* to get them under control. I'm checking exceptions every few hours, that's *batshit*. That's no way to run a building." Having delivered this homily, he sits back with his arms folded over his chest.
 
 Lisa has to restrain herself from grinning. She has managed to obtain the key metrics Mark hopes to improve by working on receiving, plus a healthy side order of emotions. She's neatly avoided direct conflict, but has started to draw him into collaboration around the business impacts of "fixing receiving."
 
 Note that Lisa "played low status": she suggested that she and the engineers *needed Mark's help*. That created space for him to be a high-status expert. It also made it difficult for him to tell her she's wrong---he'd have to suggest that the engineers know the warehouse processes as well as he does.
 
-Of course, Mark might have said, "The engineers should know how those processes work!" If he does, Lisa can just nod her head, sigh and *agree*. "You are *so* right, Mark. I really wish they did! But we're just not there yet. How can I make sure they stay on track?"
+You might be wondering what to do if Mark says, "The engineers should know how those processes work!" Fortunately, in that case, Lisa can just nod her head, sigh and *agree*. "You are *so* right, Mark. I really wish they did! But we're just not there yet. How can I make sure they stay on track? What could I look at?"
 
-If you keep on steadily and calmly asking open-ended "How could I possibly solve my problem?" questions, often, your stakeholder will find themselves coming up with the precise solutions you've been wanting to implement. And they'll feel like the ideas are their own, not something they've been forced to do.
+If you keep on steadily and calmly asking open-ended "How could I possibly solve my problem?" questions, often, your stakeholder will find themselves coming up with the precise solutions you've been wanting to implement.
+
+And they'll feel like the ideas are their own, not something they've been forced to do.
 
 ** Find Wins For Your Stakeholder By Hook Or By Crook
 
@@ -547,79 +551,107 @@ Problem: You can't figure out a way for your adjustment to immediately improve t
 
 Solution: Find some stakeholder wins that you *can* offer, even if they're not strictly necessary for your adjustment.
 
-This is where having a map of their emotions really pays off: you can almost always find some win they'll care deeply about, by thinking through their frustrations, fears, delights & dreams. E.g. you could:
+This is a place where having a map of their emotions really pays off: you can almost always find some win they'll care deeply about, by thinking through their frustrations, fears, delights & dreams. E.g. you could:
 
  - Smooth away some frustration
 
- - Address some long-term fear
+ - Address some long-standing fear
 
  - Provide a delight they've been yearning for
 
  - Move them towards their long-term dreams
 
-A key: don't fall into trap of thinking of wins as just sourced from what they're explicitly asking for. You often *can't* give them what they're asking for. But you can solve for the underlying feelings they're struggling with.
-
-If you're in the challenging situation where seemingly /nothing/ is frustrating for your stakeholder, take a look at both Link Your Frustrations To Goals and Create Urgency Through Visibility.
+A key: don't fall into trap of thinking of wins as just sourced from what they're *explicitly asking for*. You often *can't* give them what they're asking for. But you can solve for the underlying feelings they're struggling with.[fn:: If you're in the challenging situation where seemingly /nothing/ is frustrating for your stakeholder, take a look at both Link Your Frustrations To Goals and Create Urgency Through Visibility.]
 
 Example:
 
-# XXX Name company + domain
+Marguerite and Tom are, respsectively, the product and engineering lead for a sprint team at Trienna, a company that provides tools for scientists to explore genomic and proteomic data.
 
-Marguerite and Tom are product and engineering leads for a sprint team. Fortunately, they have an excellent, high trust relationship with each other. Unfortunately, they are feeling super stuck with Marguerite's boss, Natalie, the VP of Product. Natalie likes to quote Marty Cagan all day about empowered teams... but somehow can't let her PM's make a single decision on their own. She's constantly asking for memos and briefs before she'll allow work to start; she overrules her PM's on decisions of every size and scope; she regularly takes over the planning meetings she attends to steer the teams herself.
+Fortunately, Marguerite and Tom have an excellent, high trust relationship with each other.
 
-Over a series of fevered [heads-together, whispered, outside-of-the-office] conversations over coffees, Marguerite and Tom have hashed out a first incremental adjustment they want to propose to Natalie: they will ask to run their team for a full month without her attending *any* of their weekly planning meetings. This represents a significant shift from how they've been working with her.
+Unfortunately, they are feeling super stuck with Marguerite's boss, Natalie, the VP of Product.
 
-If they can stick with this approach for a few months, they both believe they'll be able to *visibly* help Natalie achieve her own goals. But in the short term, it there's every chance it will just feel like a significant loss of control. And, if there's one thing they know about Natalie, it's that she really, really likes to be in control.
+Natalie likes to quote Marty Cagan about empowered teams... but somehow she can't let her PM's make a single decision on their own. She's constantly asking for detailed memos before she'll allow work to start; she routinely overrules her PM's on decisions of every size and scope; she takes over half the planning meetings she attends to steer the teams herself.
 
-Marguerite tries to imagine making this pitch. All she can see is Natalie squinting at them skeptically through her wire-rimmed glasses. And then bluntly refusing to go along.
+Over a series of fevered conferences over coffee, Marguerite and Tom have hashed out a potential first adjustment: they will ask Natalie to not attend *any* of their team's sprint rituals, other than demos, for a full month: no planning sessions, no backlog grooming, no standups. This would represent a *significant* shift in how she interacts with them and their team.
 
-Try as they might, she and Tom can't seem to find any way to make this *feel* like a win for Natalie. All Natalie ever seems to ask for is more checkpoints, more control, more direct contact with the teams---precisely the things they're going to take away.
+# [heads-together, whispered, outside-of-the-office] conferences [scheming, conversations, collaborations] over coffees
 
-One night, Marguerite is talking this over with her partner while they make dinner. Her partner looks up from peeling some carrots. "Look, hon, I have to ask. Is it possible you're so pissed at Natalie that you don't actually *want* to find a win for her?" Marguerite starts to protest, but trails off as the truth of it settles uncomfortably in. "or," she says, "how about if you shut up?", and throws a cherry tomato in her partner's grinning direction.
+Both of them believe that, if they could get that kind of space to operate, their team will be able to deliver the next-gen protein search tool the sales team is demanding. But... even best case, that will take several months. And Marguerite and Tom are very worried that the change won't *feel* like a win for Natalie. All she ever seems to ask for is more fine-grained influence, more direct contact with the team, more tactical control---precisely the things they're going to take away.
 
-The next day, before her 1:1 with Natalie, Marguerite spends time letting go of her frustrations. She tries to allow herself to be in a place of curiosity. "Just treat this like a customer interview", she tells herself, "where you're prospecting for pain."
+Marguerite tries to imagine making this pitch. All she can see is Natalie glaring angrily through her heavy-rimmed glasses. And then bluntly refusing to go along.
 
-Then, during the conversation, she deploys her full suite of tactical empathy skills to draw out Natalie's underlying feelings.
+One night, Marguerite is talking this over with her partner Sam while they make dinner. Sam looks up from peeling carrots. "Look, hon, can I ask you something?"
+
+"Go for it," says Marguerite, as she drops lettuce leaves into the spinner.
+
+"Is it possible," says Sam slowly, before continuing in a rush, "that you're so angry with Natalie that you don't actually *want* to find a win for her?"
+
+"What?" Marguerite freezes, holding a dripping piece of lettuce in her hand. "No, that's not it. It's just, I mean..." She trails off. She *is* pretty angry with Natalie. The constant harping on about empowered teams, but then the constant undercutting of every single one of Marguerite decisions. She's been banging against Natalie's frustrating behavior for months. For *years*. She is *justified* in being angry. *Natalie* is the one who needs to face her own shit.
+
+But... nothing is going to change if Marguerite doesn't try something new.
+
+"Can you... finish up the..." she says vaguely to Sam. Marguerite stumbles into the living room and drops onto the couch.
+
+# She has a lot to think about.
+
+The next day, before her 1:1 with Natalie, Marguerite spends time trying to let go of her frustrations. She tries to allow herself to be in a place of curiosity. "Just treat this like a customer interview", she tells herself, "where you're prospecting for pain." She decides that, if she can pretend that Natalie is just a customer for an entire meeting, Marguerite can reward herself by buying a pint of her favorite ice cream. Somehow the ridiculousness of that juvenile reward, straight out of a middle school sticker chart, helps her relax just a little bit.
+
+When Natalie steps into the room, sits down and brusquely asks for a status report, Marguerite finds herself proceeding with a sort of calm detachment. Over the next thirty minutes, she deploys her full suite of tactical empathy skills, honed over years of customer and stakeholder conversations, to draw out Natalie's underlying feelings.
 
 She meets with Tom immediately after. "Okay," she say, "I might have a few things we can work with."
 
-Tom leans forward. "Lay it on me."
+Tom raises his eyebrows. "Lay it on me."
 
-First, offers Marguerite, despite Natalie's behavior, it seemss like she truly *wants* to create empowered teams, operating with meaningful independence.
+"You have to come with me to buy ice cream," says Marguerite, walking towards the elevator.
 
-That's a *dream* that she finds motivating, but it also feels incredibly far away from right now. Natalie has been telling herself a somewhat confused story about how, by giving such tight direction to the teams, she's gradually coaching them up. There's a grain of truth in that, but Natalie hasn't been able to follow through by actually stepping back, even when the teams are genuinely ready. But she truly wants to be the kind of leader who creates space for empowered teams to thrive under her.
+"Wait, what?" says Tom, scrambling to catch up.
 
-"Huh," says Tom. "This is not a thing I would have guessed. What else?"
+As they walk to a nearby convenience store, Marguerite lays out the picture she's now built up, of Marguerite's key emotions.
 
-Marguerite shares her theory that part of why Natalie keeps jumping into the planning meetings is because *she misses working directly with engineers*.
+First, despite Natalie's *behavior*, Marguerite now believes that Natalie truly *wants* to create empowered teams, operating with meaningful independence.
 
-That's a potential *delight*. Her close collaboration with engineers of every level was one of her favorite things about working as a PM. It got her mind going about product opportunities, it helped her feel grounded in terms of the tradeoffs she's pushing for. And it was just fun! Engineers are different from PM's and stakeholders, she loved staying connected with them. The planning sessions aren't actually giving her much of the thing she remembers loving, but Marguerite thinks that's part of why Natalie keeps jumping in.
+"Huh," says Tom. "This is not a thing I would have guessed. Are you, like, sure?"
 
-Given this set of hypotheses about what is driving Natalie's behavior, Tom and Marguerite come up with two additions to their proposed increment.
+Marguerite tells Tom that she's *certain*. Natatlie lit up at the idea of some day leading fast-moving, independent teams. It's a *dream* that Natalie truly loves. But it's also a dream that feels incredibly far away from her right now.
+
+Marguerite further discovered that Natalie is telling herself a somewhat confused story about how, by giving constant tight direction to the teams, she's gradually coaching them up. There's a grain of truth in that, but Natalie hasn't been able to follow through by actually stepping back, even when the teams are genuinely ready. But she seems to truly *want* to be a leader who creates space for empowered teams to thrive under her.
+
+"You rocking my world here, M," says Tom. "What else have you got?"
+
+Marguerite shares her other key learning. Part of why Natalie is so insistent on attending the planning meetings is because *she misses working directly with engineers*.
+
+That's a potential *delight*. Once Natalie opened up a bit, she told Marguerite that one of her favorite things about working as a sprint team PM was the close collaboration with the engineers. It got her mind going about product opportunities, it helped her feel grounded in terms of the tradeoffs in design. And it was just fun! Engineers are different from PM's and stakeholders, she loves working with them.
+
+The planning sessions aren't actually giving her much of the thing she remembers loving, but Marguerite is just about certain that's part of why Natalie keeps insisting on attending them.
+
+Given this set of hypotheses about what is driving Natalie's behavior, Tom and Marguerite come up with two additions to their proposed increment as they share the pint of ice cream.
 
 First, they add something that will allow Natalie to move towards her dream of empowered teams:
 
  - They'll position the adjustment to Natalie as helping to learn *how* the teams can take more independent ownership
 
-   They have enough trust with Natalie that they can lay out some ideas how to do this, see below.
+ - They'll schedule brief weekly touchpoints with her and the two of them. Those will allow her to check on status, and review any really key decisions.
 
-   That said, if they didn't have that level of trust, they could stop at this point, an Invite Natalie To Solve Their Problems, ala: "How do you think the teams could show you that they were ready for more independent ownership?"
+ - Finally, they'll set an end of the month decision for Natalie, about what they've learned in that month, how to adjust their own practices, and what they might want to share with other teams to experiment with.
 
- - They'll schedule brief weekly touchpoints with her, where, among other things, the three of them will check in on what they're learning about having the team operate more independently
+This positions this shift as the *start* of bringing Natalie's dream to life, while ensuring she remains firmly in control. By adding the weekly touchpoints, they're doing a bit of Address Fears Directly, and a bit of Keep 'Em Busy.  Then, at the end of the month, they're Offering A Future Decision, both about how to continue this experiment, but also about whether or not to scale it up to other teams.
 
-   Natalie can both look forward to an ongoing conversation about something she really cares about, and can also be reassured that she won't lose all visibility and control (this is mixing in some Address Fears Directly).
-
- - At the end of the month, Marguerite and Tom will work with Natalie to draft early guidance for all the teams, on how to earn more independent ownership
-
-   This will be a chance to start to bring her dream to life.
+They would never have come up with this idea if Marguerite hadn't discovered that, all surface evidence to the contrary, Natalie is genuinely motivated to create independence for her teams.
 
 Second, they come up with something that will give her the delight of directly interacting with engineers.
 
-They'll add a middle of the month meeting, playfully called "Technical Throwdown", where all the engineers on their team will meet with Natalie and have an open-ended conversation about what they're learning, how their systems are holding up, new technologies they're playing with. Tom & Marguerite will always start that meeting by solemnly announcing that No Decisions Will Be Made, and will enforce that if the conversation becomes too directive.
+They'll add a new, middle of the month meeting, playfully called "Technical Throwdown", where all the engineers on their team will meet with Natalie and have an open-ended conversation about what they're learning, how their systems are holding up, and any key technical constraints that are emerging. Tom & Marguerite will always start that meeting by solemnly announcing that No Decisions Will Be Made, and will enforce that if the conversation becomes too directive. But Natalie can go as deep as she wants, she can throw ideas around, she can have the kind of generative and energizing conversations she misses.
 
 By adding this to their proposed first adjustment, they can offer Natalie another win, by supplying an absent delight.
 
-They realize they now feel excited about sharing their proposed first increment with Natalie. They can offer her some genuine wins, while still sticking to their guns about clearing space for them to move more quickly on the ground.
+Again, it's only because Marguerite was able to mine for Natalie's underlying feelings that they realized this was a key thing to solve for.
+
+Tom and Marguerite realize they now feel cautiously excited about sharing their proposed adjustment with Natalie. They can offer her some genuine wins, while still sticking to their guns about clearing space for them to move more quickly on the ground.
+
+Notice: none of what they added was strictly *necessary* for their own goals. All they really need is to get Natalie to give them space to run their rituals without her interference. These two things they've added are wins for Natalie, that are "nearby" to what they're doing.
+
+As you design your proposed adjustment, look for wins for your stakeholder, that you can find some way to attach to your offer.
 
 ** Keep 'Em Busy
 
