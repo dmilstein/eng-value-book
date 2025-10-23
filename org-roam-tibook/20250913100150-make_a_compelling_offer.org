@@ -779,6 +779,72 @@ Examples of you how you can put yourself on the line:
 
    Note: this doesn't mean that your team has to be equally to blame. Perhaps you're asking the VP of Product to challenge one of their PM's to push back on stakeholders, rather than passing all requests through to the ever-more frustrated engineers on your team. You can commit to sitting down with the engineers, making clear that the PM is stepping up to try something new, and challenging them to put aside their frustrations and work their butts off on any requests that *do* come through.
 
+* Substack Intro
+Title:
+* Fears & Dreams & Humans & Building Softare: Part I
+Subhead: The Unreasonable Effectiveness of an Empathetic Understanding
+** Introduction
+
+It is a truth universally acknowledged, that a person in possession of a career in software, must be in a state of frustration with some Important Person.
+
+# with whom they work.
+
+# some Important Person.
+
+# With someone with whom they work
+
+/Hello! Today's post is an excerpt from a book [link] I'm writing, titled:/
+
+/*Getting Unstuck*/
+
+/How To Solve Problems With Bosses, Peers & Stakeholders./
+
+What's more, each of those Important People bring their own special challenges.[fn:: "Happy teams are all alike, every unhappy team is unhappy in their own way," writes Leo Tolstoy in the opening of his famous book about agile development, /Anna Karenina/.]
+
+Let me share a couple of /totally made up/ examples, not based on any actual stakeholders I have worked with (nor, of course, on any behavior I myself demonstrated when in a position of authority, because, luckily, I Am Perfect And Have No Flaws):
+
+Deanna is an engineering lead at a small startup. Her CEO, Karim, has developed a nasty habit of breaking into standup on a weekly basis and insisting the team drop everything and start working on the totally new and amazing product idea he's just dreamed up in the shower that morning. As a completely unsurprising result, it's been months since Deanna's team has gotten, well, anything whatsoever done. Then, one afternoon, Karim airily informs Deana that he's worried because team velocity seems so slow. Deanna finds herself striding angrily around her office, muttering a somewhat shocking torrent of swear words under her breath.
+
+Maria is a product manager at a thriving B2B SaaS company. Her job would be truly lovely if it wasn't for Geoff, the VP of Sales. Geoff seems to treat every single product decision as an opportunity to engage in underhanded politicking to advocate for features for his pet customers. Unfortunately, Maria's CEO, Theo, seems to be deeply uncomfortable with open conflict, so Maria has to handle Geoff's relentless pressure all on her own. Despite her best efforts, her team is somehow spending half their time on useless, Geoff-driven one offs, while their main product strategy slowly drifts off course like a doomed ship headed for an iceberg. Maria has started to dread the moment she opens her laptop at the start of her work day.
+
+Alistair is an engineering manager at a business that offers claims processing services to insurance companies. His team is great, his product manager has become a close friend, he likes the gritty details of parsing claims data. There's just one problem. Max Hartswell, the engineering director over Alistair's team, has apparently never met a decision he felt comfortable letting someone else make. As a result, Alistair, his PM, every tech lead he knows and half the PM's spend nearly all their working hours trying to track down Max and get him to sign off on some trivial decision he announced, weeks ago, he'd like to review "just one more time." At the company party, Max tells Alistair, while sipping on a cocktail, that he is unhappy that the teams aren't showing much ownership. Alistair almost chokes on his beer. After managing to extricate himself from that conversation, Alistair realizes he might have to talk with his spouse that night about just how long he can stick with this job.
+
+I could go on!
+
+I suspect you could, too!
+
+Furthermore, in such situations, the Important Person in question, be they CEO, sales leader, engineer or product manager, *super duper doesn't want to change their own behavior*.
+
+Sadly, this should come as no surprise.
+
+If there's one thing that unifies all humans, it's that we are *extremely* reluctant to change our own behavior.
+
+/(I mean, why should *we* have to change!? Our behavior is clearly only natural and right, given the very special difficulties we personally are facing! There's literally nothing else we even *could* do![fn:: I don't know when, exactly in the savannas of early human evolution it took place, but clearly self-justifying and self-deluding rationalizations have been a key part of the package of human intelligence from, like, Day One.])/
+
+Thus, if you approach an Important Person, and gently propose that they change their problematic behavior, you can expect to enjoy either the experience of being patronizingly dismissed, or, if you're luckly, ferociously attacked.
+
+# you will be met with resistance that falls somewhere between stiff and absolutely ferocious.
+
+These are unpleasant and also pretty somewhat career limiting experiences.
+
+# So maybe, you think, don't do that?
+
+And yet.
+
+The Important Person's behavior is causing *real problems*.
+
+Problems that make it very hard for you---and your team---to succeed at your jobs.
+
+What can you do?
+
+*How can you get unstuck*?
+
+I'm so glad you asked.
+
+/[Hello again! In the book, I develop a step-by-step game plan for drawing your very own Important Person, whom I term your "Stakeholder", into a process of collaborative problem-solving. This will allow you to, together, find a better way to work, together. A core part of that game plan is developing an understanding of the underlying *feelings* that are leading to your stakeholder's problematic *behavior*. The below is an excerpt from a chapter about how and why to develop such an understanding of feelings. Speaking of the book: if you would like to be a beta reader of an early version, please drop me a line at dan@dan-milstein.com! Ditto if you have some challenges with your very own Important Person and could use some [coaching support] from, say, an experienced product and enagineering leader who finds human beings endlessly fascinating]/
+
+
+
 * Scraps
 ** Stage Managing the meeting
 You should deliver yor proposal verbally -- that will let you share your (authentic!) emotional connection with their hopes and fears. If useful, you can certainly buttress what you say with a written memo or a set of slides. But find a way to connect, as humans, in this moment.
