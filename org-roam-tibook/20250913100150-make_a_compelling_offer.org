@@ -32,7 +32,7 @@ This adjustment should, ideally:
 
 Be ready to spend real time preparing this offer.
 
-It takes time to come up with something crisp, clean and compelling. Talk to some friends about how they've faced similar collaboration challenges at their jobs. Try out new ways to frame your stakeholder's concerns, to find a truly emapthetic way to speak to their underlying feelings. Brainstorm the smallest possible adjustment that you could propose, that would still help you just a little bit. Spend time refining and testing your understanding of what your overall business is trying to do, to see if you can find creative new ways to move towards long-term goals.
+It takes time to come up with something crisp, clean and compelling. Talk to some friends about how they've faced similar collaboration challenges at their jobs. Try out new ways to frame your stakeholder's concerns, to find a truly empathetic way to speak to their underlying feelings. Brainstorm the smallest possible adjustment that you could propose, that would still help you just a little bit. Spend time refining and testing your understanding of what your overall business is trying to do, to see if you can find creative new ways to move towards long-term goals.
 
 In the next chapter, we'll see Quin go through this process, ending with her delivering an offer to Marco.
 
@@ -121,17 +121,17 @@ Solution: ask your stakeholder to try changing their behavior for an initial, li
 
 If your request feels slightly uncomfortable for your stakeholder (as it often will!), it's *much* easier for them to say "yes" if you're asking for a few weeks, than it is to agree to make a change indefinitely.
 
-Usually, you'll want the initial period to end with some kind of "review of how it's been going" (which is a very naural opportunity to Offer A Future Decision).
+Usually, you'll want the initial period to end with some kind of "review of how it's been going" (which is a very natural opportunity to Offer A Future Decision).
 
 If you can get a commitment to try something new for this short period of time, you can then work to ensure that, at the end of that initial period, the stakeholder experiences things as going well.
 
 Example:
 
-Louisa is a staff engineer at Hydralitics, a business intelligence platform focused on utility companies. A key part of her job is conducting regular architecture reviews with the teams in her domain. Unfortunately, her CTO, Jameson, has developed a frustrating habit of dropping by those architecture reviews and derailing them with half-baked proposals.[fn:: "Wait, Dan, I just remembered: *you've* been a CTO. Did your directs ask you to stop talking at architecture reviews at some point?" Um... maybe we should just move on.] Jameson always starts by saying, "Is it okay if I ask a question?" But somehow all his "questions" end up turning into thinly veiled suggestions, pretty much all of which are useless thanks to key bits of technical reality he doesn't fully understand. If Louisa hears him say "I don't know, but it seems to me like we could..." one more time, she is going to scream. His interruptions are undercutting her authority, eating up time in the meetings, *and* sending the teams down a succession of blind alleys. Her partner is starting to finish her Jameson-releated sentences at dinner, "I know, Louisa, Jameson is smart, but Jameson just doesn't know what he's talking about in your area, Jameson should maybe learn to shut up sometimes. And could that maybe be the last Jameson thing for tonight? Pretty please?"
+Louisa is a staff engineer at Hydralitics, a business intelligence platform focused on utility companies. A key part of her job is conducting regular architecture reviews with the teams in her domain. Unfortunately, her CTO, Jameson, has developed a frustrating habit of dropping by those architecture reviews and derailing them with half-baked proposals.[fn:: "Wait, Dan, I just remembered: *you've* been a CTO. Did your directs ask you to stop talking at architecture reviews at some point?" Um... maybe we should just move on.] Jameson always starts by saying, "Is it okay if I ask a question?" But somehow all his "questions" end up turning into thinly veiled suggestions, pretty much all of which are useless thanks to key bits of technical reality he doesn't fully understand. If Louisa hears him say "I don't know, but it seems to me like we could..." one more time, she is going to scream. His interruptions are undercutting her authority, eating up time in the meetings, *and* sending the teams down a succession of blind alleys. Her partner is starting to finish her Jameson-related sentences at dinner, "I know, Louisa, Jameson is smart, but Jameson just doesn't know what he's talking about in your area, Jameson should maybe learn to shut up sometimes. And could that maybe be the last Jameson thing for tonight? Pretty please?"
 
 When Louisa has a minute to think, she tries to imagine saying: "Jameson, please stop talking during architecture reviews." Or, even: "Jameson, please stop coming to the reviews." But she gets an immediate pit in her stomach. Those feel like uncomfortably aggressive demands.
 
-She's stuck for a while, just getting more and more frustrated. But then, one night, she's talking out life with a friend over beers, and discovers that her friend is something of a master of the ju-jitsu of stakeholder management. That friend pushes her to think about asking for a brief, timeboxed change, instead of some intimidatingly permanent shift. She also suggests tha Louisa think about Jameson *likes* about attending the architecture reviews.
+She's stuck for a while, just getting more and more frustrated. But then, one night, she's talking out life with a friend over beers, and discovers that her friend is something of a master of the ju-jitsu of stakeholder management. That friend pushes her to think about asking for a brief, timeboxed change, instead of some intimidatingly permanent shift. She also suggests that Louisa think about Jameson *likes* about attending the architecture reviews.
 
 Louisa feels oddly charged up on her walk home. Somehow the license to ask for a limited change feels very freeing. And, with her mind now working away, she starts getting ideas about how to speak to Jameson's underlying feelings (as her partner well knows, Louisa has spent plenty of time analyzing All Things Jameson).
 
@@ -159,7 +159,7 @@ Other tactics she used:
 
  - Keep 'Em Busy: instead of just asking Jameson to stop talking, she asked him to do something specific instead -- take notes so he can give feedback on the team and the architecture.
 
- - Find Wins For Your Stakeholder By Hook Or By Crook: even though it wasn't stricly necessary for her own needs, she created a new opportunity for Jameson to discuss team performance, which she knows he finds both valuable and meaningful.
+ - Find Wins For Your Stakeholder By Hook Or By Crook: even though it wasn't strictly necessary for her own needs, she created a new opportunity for Jameson to discuss team performance, which she knows he finds both valuable and meaningful.
 
 ** Offer A Future Decision
 
@@ -171,7 +171,7 @@ That will help them feel in control, which makes it much easier for them to say 
 
 Example
 
-Jonas is a product manager at BoardedUp, a board game subscription service. He is, unfortunately, struggling with his engineering peer Lizabet, the engineering manager and tech lead for their team. Lizabet won't let her engineers start any work, until Jonas first writes /extremely/ detailed tickets. She wants every ticket to contain enough information that any engineer on the team could pick up any ticket and fully deliver it, without having to "slow down" to ask Jonas questions. Lizabet insists this is necessary to avoid wasting the team's time, and also says the it will make them extremely efficient. However, Jonas has worked on teams where the engineers and PM's wrote much more informal tickets, then talked to each other steadly throughout the sprints, and it felt like things went much faster.[fn:: 100% of the highest-performing teams I've been on and/or witnessed all talked to each other a *ton*. Just about all of them leaned on pretty lightweight ticket-writing as part of that.]
+Jonas is a product manager at BoardedUp, a board game subscription service. He is, unfortunately, struggling with his engineering peer Lizabet, the engineering manager and tech lead for their team. Lizabet won't let her engineers start any work, until Jonas first writes /extremely/ detailed tickets. She wants every ticket to contain enough information that any engineer on the team could pick up any ticket and fully deliver it, without having to "slow down" to ask Jonas questions. Lizabet insists this is necessary to avoid wasting the team's time, and also says the it will make them extremely efficient. However, Jonas has worked on teams where the engineers and PM's wrote much more informal tickets, then talked to each other steadily throughout the sprints, and it felt like things went much faster.[fn:: 100% of the highest-performing teams I've been on and/or witnessed all talked to each other a *ton*. Just about all of them leaned on pretty lightweight ticket-writing as part of that.]
 
 Jonas goes through the various steps we've laid out, and comes up with a proposed adjustment. The core change will be for Jonas to run sprint planning with much lighter, shorter tickets. He will spend planning discussing some of the nuances of those tickets with the whole team, ensuring everyone has a shared understanding. Then, throughout the sprint, Jonas will commit to being available at the drop of a hat to answer any and all engineering questions. Finally, as an extra win, he proposes a carve out of time to improve the team's deploy scripts, a long-standing engineer frustration.
 
@@ -181,7 +181,7 @@ She's fairly new as a manager, and he knows she feels concerned about her author
 
 After talking it over with his manager, he decides to really focus on this as a temporary experiment, and one where *Lizabet* will get to decide whether or not it's working. He decides to close his pitch to her by saying, "You and I would meet immediately after sprint demo.[fn:: Why not after retro? Jonas and Lizabet's team has fallen out of the habit of doing a regular sprint retro. That should likely be the next thing for him to work on.] I'll want to hear from you how this change has been working for the team, and if there's anything whatsoever that's been difficult about it. I can share how it's been working on my end. At that point, you can make the call on whether or not to stick with this new way of working. If it seems like there's something good in it, you and I could decide on any adjustments. Most of all, I want to be certain both you and the engineers don't end up feeling like we're wasting their time."
 
-Given this clear signaling that she'll retain control, Lizabet proves willing to try this experiment for a sprint. She does ask that any ticket touching the datbase schema get *some* extra details, which Jonas is happy to agree to. They pitch the change to the team together, and Jonas can see that both Lizabet and her engineers are a little excited by shaking things up.
+Given this clear signaling that she'll retain control, Lizabet proves willing to try this experiment for a sprint. She does ask that any ticket touching the database schema get *some* extra details, which Jonas is happy to agree to. They pitch the change to the team together, and Jonas can see that both Lizabet and her engineers are a little excited by shaking things up.
 
 ** Shrink Your Ask
 
@@ -195,7 +195,7 @@ Example:
 
 Oliver is an engineering director at Rugger, a leading online purveyor of artificial grass and turf. Oliver leads a handful of teams who maintain his company's backend fulfillment systems. This quarter, he's working with his product peer, Alicia, to integrate their systems with a partner who builds and maintains fields for college athletic departments. Once that integration work is done, his company will be able to offer colleges packaged purchase, delivery and install services, which should unlock a significant boost in revenue.
 
-Unfortunately, Olvier feels like his team is barely making any progress, because they're completely swamped with support requests from the warehousing and shipping teams who depend on the existing systems.
+Unfortunately, Oliver feels like his team is barely making any progress, because they're completely swamped with support requests from the warehousing and shipping teams who depend on the existing systems.
 
 There's no simple fix. They can't just abandon their existing users (the resulting customer complaints have a way of getting back to the CEO). They also can't just hit an indefinite pause on the integration work---half the company's revenue forecasts seem to count on it.
 
@@ -358,7 +358,7 @@ Early in MediMates's history, those operational systems were thrown together to 
 
 # In particular, he's unhappy about the number of high-impact, time-sensitive exceptions that his team has to fix by hand.
 
-Unfortunately, Ted has been facing a major challenge in getting, well, any time on their roadmap whatsover. His main stakeholder is the VP of Pharmacy Operations, Amitai. When MediMates's CEO hired Amitai six months ago, he handed him a set of extremely ambitious targets around both scale and efficiency. Amitai spent his first few weeks drafting a fifty-six page PowerPoint deck, detailing a sprawling list of features.[fn:: Why yes, Amitai *did* work for McKinsey earlier in his career, funny that you ask.] All they ever seem to do is move through that deck, one feature at a time.
+Unfortunately, Ted has been facing a major challenge in getting, well, any time on their roadmap whatsoever. His main stakeholder is the VP of Pharmacy Operations, Amitai. When MediMates's CEO hired Amitai six months ago, he handed him a set of extremely ambitious targets around both scale and efficiency. Amitai spent his first few weeks drafting a fifty-six page PowerPoint deck, detailing a sprawling list of features.[fn:: Why yes, Amitai *did* work for McKinsey earlier in his career, funny that you ask.] All they ever seem to do is move through that deck, one feature at a time.
 
 Ted has been feeling *very* stuck for a while.
 
@@ -482,7 +482,7 @@ A key nuance: Thomson is willing to do this work both because he can see the ris
 
 Creating visibility to motivate action is useful in an extremely wide variety of contexts, not just ones where precise measurements are available.
 
-Is your team constantly stuck waiting on dependencies? Create visibility by regularly estimating how much time each work stream spends in a wait state, and therefore how much overall time is being added to each project. Are such estimates precisely accurate? Of course not. Can even quite rough estimates improve the decisions you and your stakeholders make about whether or not to invest in reducing depenedency wait times? Absolutely.[fn:: By the way, if you are struggling with dependency challenges, don't fall into the trap of focusing on how much time each engineer is spending waiting. The problem isn't that your engineers can't staying busy, it's that the work isn't advancing. Sayeth Don Reinertsen: Watch the work product, not the worker.]
+Is your team constantly stuck waiting on dependencies? Create visibility by regularly estimating how much time each work stream spends in a wait state, and therefore how much overall time is being added to each project. Are such estimates precisely accurate? Of course not. Can even quite rough estimates improve the decisions you and your stakeholders make about whether or not to invest in reducing dependency wait times? Absolutely.[fn:: By the way, if you are struggling with dependency challenges, don't fall into the trap of focusing on how much time each engineer is spending waiting. The problem isn't that your engineers can't staying busy, it's that the work isn't advancing. Sayeth Don Reinertsen: Watch the work product, not the worker.]
 
 Is your team somehow failing to carve out time to do some early technical exploration as a first step in a large project? Create a list of questions you want to develop answers for, and then march through that list of questions, checking them off as you go. That's a useful way to make your incremental learning progress visible, enabling tradeoffs, early exits, etc.
 
@@ -565,7 +565,7 @@ A key: don't fall into trap of thinking of wins as just sourced from what they'r
 
 Example:
 
-Marguerite and Tom are, respsectively, the product and engineering lead for a sprint team at Trienna, a company that provides tools for scientists to explore genomic and proteomic data.
+Marguerite and Tom are, respectively, the product and engineering lead for a sprint team at Trienna, a company that provides tools for scientists to explore genomic and proteomic data.
 
 Fortunately, Marguerite and Tom have an excellent, high trust relationship with each other.
 
@@ -613,7 +613,7 @@ First, despite Natalie's *behavior*, Marguerite now believes that Natalie truly 
 
 "Huh," says Tom. "This is not a thing I would have guessed. Are you, like, sure?"
 
-Marguerite tells Tom that she's *certain*. Natatlie lit up at the idea of some day leading fast-moving, independent teams. It's a *dream* that Natalie truly loves. But it's also a dream that feels incredibly far away from her right now.
+Marguerite tells Tom that she's *certain*. Natalie lit up at the idea of some day leading fast-moving, independent teams. It's a *dream* that Natalie truly loves. But it's also a dream that feels incredibly far away from her right now.
 
 Marguerite further discovered that Natalie is telling herself a somewhat confused story about how, by giving constant tight direction to the teams, she's gradually coaching them up. There's a grain of truth in that, but Natalie hasn't been able to follow through by actually stepping back, even when the teams are genuinely ready. But she seems to truly *want* to be a leader who creates space for empowered teams to thrive under her.
 
@@ -667,7 +667,7 @@ Examples:
 
  - "Stop overruling all the team's decisions" -> "How about if you pick the one or two most important decisions, we can spend real time aligning on those"
 
- - "Stop harrassing the team with status requests" -> "Please bring all your questions to the progress sync meeting"
+ - "Stop harassing the team with status requests" -> "Please bring all your questions to the progress sync meeting"
 
  - "Stop crapping all over the team during demos" -> "I'd like you to note down any and all concerns so you can discuss them with me, immediately after demo"
 
@@ -695,7 +695,7 @@ Once you've done so, you have several good options for how to address them direc
 
    The engineers on a team want to fully disable a suite of flaky tests that keeps stalling out their CI/CD pipeline. Unfortunately, the head of engineering has some very reasonable fears about the potential for bugs to make their way to production. To directly address that fear, a senior engineer on the team works with the help desk to create a graph of bug reports specifically in their part of the product. The team and the head of engineering can now review that graph, together, to see if customer bugs trend up. If they do, the team can quickly re-enable the tests.
 
-   By explicitly making *shared* visibility, you're commiting to facing that risk with your stakeholder.
+   By explicitly making *shared* visibility, you're committing to facing that risk with your stakeholder.
 
  - *Offer meaningful control*
 
@@ -713,7 +713,7 @@ Once you've done so, you have several good options for how to address them direc
 
    As part of developing a new enterprise-tier feature, the Chief Product Officer wants several PM's on her team to spend time talking with their company's largest customers. Unfortunately, the VP of Customer Success, who has spent years keeping those demanding and difficult customers happy, has some reasonable fears about frustrating them in any way. The CPO works hard to put in place both visibility and control for the VP of Success, but she can tell he is still feeling very worried, and could push back.
 
-   Finally, the CPO says, "Look, your team knows those customers far better than we do. I wish I could promise that my PM's will never say something that lands wrong. But those are tricky customers, and I'm not certain we'll never misstep. But if we want to build a reall valuable enterprise-level feature set, then working closely with the big accounts is the only way I know to do it. And I really want us to get there."
+   Finally, the CPO says, "Look, your team knows those customers far better than we do. I wish I could promise that my PM's will never say something that lands wrong. But those are tricky customers, and I'm not certain we'll never misstep. But if we want to build a really valuable enterprise-level feature set, then working closely with the big accounts is the only way I know to do it. And I really want us to get there."
 
    If you can find an authentic way to state that as a valid concern, but something you're trying to face together, it can make a big difference.
 
@@ -729,7 +729,7 @@ In your heart of hearts you know that, if things land poorly, you might be makin
 
 But, insisting "Don't worry, trust me, everything will be fine", runs a gigantic risk of making your stakeholder feel like you're minimizing their concerns. Even, potentially, that you're /patronizing/ them. Which will trigger exactly the resentment and resistance you want to avoid.
 
-Instead, address any potential dowsides directly, clearly and with empathy. Make the risks visible, offer them control over those risks, and own that you're asking for something potentially hard. Don't avoid, don't minimize, and don't skirt around the potential challenges.
+Instead, address any potential downsides directly, clearly and with empathy. Make the risks visible, offer them control over those risks, and own that you're asking for something potentially hard. Don't avoid, don't minimize, and don't skirt around the potential challenges.
 
 ** Put Yourself On the Line
 
@@ -737,7 +737,7 @@ Problem: You're worried that your stakeholder will be reluctant to commit to you
 
 Solution: Make it easier for them to say yes by making it clear that you will personally take on extra work, and/or face some hard thing.
 
-If humans see someone putting themselves on the line to face a difficult or risky challenge, they become much more willing to listen to requests from the person to help.[fn:: This is a big part of what we mean when we talk about someone having "moral authority".] Whereas, if a human is asked to do something that they perceive as risky, but the person doing the asking doesn't seem to be taking any personal risks, or shouldering any of the new burdens created, that creates resentment and resistance.
+If humans see someone putting themselves on the line to face a difficult or risky challenge, they become much more willing to listen to requests from the person to help.[fn:: This is a big part of what we mean when we talk about someone having "moral authority".] Whereas, if a human is asked to do something that they perceive as risky or hard, but the person doing the asking doesn't seem to be taking any personal risks, or shouldering any of the new burdens created, that creates resentment and resistance.
 
 Examples of you how you can put yourself on the line:
 
@@ -753,13 +753,13 @@ Examples of you how you can put yourself on the line:
 
    - Put in place a daily standup that you'll always attend
 
-   - Give out your personal cell phone number to all and sundry
+   - Give out your personal cell phone number
 
  - *Throw other parts of your job overboard*
 
    Cancel some key set of meetings you usually lead, so that this adjustment can get your full focus.
 
-   Note: the more visible a cost this has to you, the more weight it will carry with your stakeholder. You're not going to tip the scales with your stakeholder by cancelling a few 1:1's with of your directs. You want to find something more painful to you, like  suspending a regular meeting with the CEO, or having someone on your team lead a key monthly planning meeting, or the like.
+   Note: the more visible a cost this has to you, the more weight it will carry with your stakeholder. You're not usually going to tip the scales with your stakeholder by promising to cancel a few 1:1's with your directs. You want to find something more painful to you, like suspending a regular meeting with the CEO, or having someone on your team lead a key monthly planning meeting in your stead, or the like.
 
  - *Point problems firmly in your own direction*
 
@@ -767,7 +767,7 @@ Examples of you how you can put yourself on the line:
 
  - *Face a difficult shared stakeholder*
 
-   As a part of this adjustment, will someone have to tell the CEO that they're not going to see any progress on their pet project for a few months? Offer to be the one to share this news and bear the brunt of the CEO's frustrations.
+   As a part of this adjustment, will someone have to tell the CEO that they're not going to see any progress on their pet project for the next few months? Offer to be the one to share this news and bear the brunt of the CEO's frustrations.
 
  - *Take on extra travel*
 
@@ -779,7 +779,14 @@ Examples of you how you can put yourself on the line:
 
    Note: this doesn't mean that your team has to be equally to blame. Perhaps you're asking the VP of Product to challenge one of their PM's to push back on stakeholders, rather than passing all requests through to the ever-more frustrated engineers on your team. You can commit to sitting down with the engineers, making clear that the PM is stepping up to try something new, and challenging them to put aside their frustrations and work their butts off on any requests that *do* come through.
 
-** Dry Run With a Friend
+* Scraps
+** Stage Managing the meeting
+You should deliver yor proposal verbally -- that will let you share your (authentic!) emotional connection with their hopes and fears. If useful, you can certainly buttress what you say with a written memo or a set of slides. But find a way to connect, as humans, in this moment.
+
+In order to make your proposal, create a space slightly outside of the normal flow of day-to-day pressures. That could simply be starting a regular 1:1 by saying "I have some concerns I want to talk out, can I ask to put aside our normal agenda for today?" Or it could mean breaking normal patterns, perhaps meeting in person instead of online. You want to signal that there's something important for you to face, together.
+
+** The mechanics of the meeting
+*** Dry Run With a Friend
 Before you make your proposal, *practice*. Out loud.
 
 First on your own, then with a trusted friend. At least once, maybe a few times.
@@ -787,19 +794,8 @@ First on your own, then with a trusted friend. At least once, maybe a few times.
 Eventually, going through this arc will feel natural, and you won't need to practice as much. But, early on, you're going to want to be extremely disciplined about going through the steps in sequenc. It's incredibly easy to skip over important steps, which can leave your stakeholder unwilling to say yes.
 
 For high stakes such proposals, I still practice over and over, until it feels fully clear, smooth and authentic.
-** Invite Them To Tell You What's Wrong
+*** Invite Them To Tell You What's Wrong
 When you actually deliver it, don't ask "yes/no", ask what's wrong?
-** Troubleshooting
-*** Stakeholder doesn't confirm Strategic Intent
-*** Stakeholder doesn't validate summary of their concerns
-*** Stakeholder doesn't accept your concerns
-*** Stakeholder pushes back on specifics of change
-** Exercises
-* Scraps
-** Stage Managing the meeting
-You should deliver yor proposal verbally -- that will let you share your (authentic!) emotional connection with their hopes and fears. If useful, you can certainly buttress what you say with a written memo or a set of slides. But find a way to connect, as humans, in this moment.
-
-In order to make your proposal, create a space slightly outside of the normal flow of day-to-day pressures. That could simply be starting a regular 1:1 by saying "I have some concerns I want to talk out, can I ask to put aside our normal agenda for today?" Or it could mean breaking normal patterns, perhaps meeting in person instead of online. You want to signal that there's something important for you to face, together.
 
 ** Tactic: End With A Decision
 
@@ -964,15 +960,18 @@ CLOSED: [2025-10-15 Wed 10:09]
 CLOSED: [2025-10-15 Wed 10:09]
 ** DONE Make a ToC-like section of problems/tactics
 CLOSED: [2025-10-20 Mon 12:22]
-** TODO Make all the stories at more specific companies
-** TODO Finish what I started with storytelling
+** DONE Make all the stories at more specific companies
+CLOSED: [2025-10-23 Thu 11:03]
+** DONE Finish what I started with storytelling
+CLOSED: [2025-10-23 Thu 11:03]
+** DONE Take a pass on making all stories more vivid/playful
+CLOSED: [2025-10-23 Thu 11:03]
+E.g. Mark Blevins-style.
+** TODO Count # of prod vs eng stories
 ** TODO Clean up Kahneman ref
 ** TODO For Growing Danger, make stakeholder the friend/mentor
 ** TODO Add something about citing the potentially better world
 Like, it's not just at risk, it's possible.
-** TODO Take a pass on making all stories more vivid/playful
-E.g. Mark Blevins-style.
-** TODO Count # of prod vs eng stories
 ** TODO Cluster the tactics?
 E.g.
 
@@ -990,10 +989,6 @@ E.g.
    - Put Yourself On The Line
 
 ** TODO Possibly: move Work Backwards into Define Strat Intent
-** TODO Mix in Marco's desire to share joy of connection
-
-** TODO Quin: review actual strategic intent
-
 * From Substack
 ** Design an Increment of Change
 
