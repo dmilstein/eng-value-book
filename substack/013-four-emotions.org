@@ -5,7 +5,9 @@ Subhead: The Unreasonable Effectiveness of an Empathetic Understanding
 
 It is a truth universally acknowledged, that a person in possession of a career in software, must be in a state of frustration with some Important Person.
 
-/Hello! Today's post is an excerpt from a book [link] I'm writing, provisionally titled:/
+# With someone with whom they work
+
+/Hello! Today's post is an excerpt from a book [link] I'm writing:/
 
 /*Getting Unstuck*/
 
@@ -15,13 +17,13 @@ It is a truth universally acknowledged, that a person in possession of a career 
 
 To name a few fun such Important People:
 
- - The CEO who interrupts a team's standup every other day to propose new product ideas, randomizing their work and killing any hope of velocity
+ - The CEO who interrupts a team's standup every other day to propose cool new product ideas, randomizing their work and killing any hope of velocity
 
- - The sales leader who relentlessly advocates for feature ideas for their pet customers, constantly undercutting the prioritization decisions of the product manager
+ - The VP of Sales who relentlessly advocates for feature ideas for their pet customers, constantly undercutting the prioritization decisions of the product team
 
- - The senior engineering leader who inserts themselves into so many decisions, every single one of their teams is just sitting around, waiting for approvals
+ - The engineering director who inserts themselves into so many decisions, every single one of their teams is just sitting around, waiting for approvals
 
- - The product manager who dismisses their engineering peer's concerns around system stability, and then complains when the engineers spends all their time putting out fires
+ - The product manager who dismisses their engineering peer's concerns around system stability, and then complains when the engineers disappear into incident after incident
 
  - The engineering lead who refuses to let their product peer talk directly with the engineers on the team[fn:: No, really, I have seen this], blocking the development of rapport, shared context and velocity
 
@@ -61,17 +63,23 @@ I'm so glad you asked.
 
 ** Humans Have Feelings, Ignore At Your Own Risk
 
-If you want someone to change their behavior, it's absolutely critical that you understand their feelings.
+If you want someone to change their behavior, it's absolutely critical that you understand the underlying feelings that are leading to that behavior.
 
-More specifically, to persuade your stakeholder to change their behavior, you will need to develop an *empathetic understanding* of their feelings.
+More specifically, if you're going to successfully persuade your stakeholder to change their behavior, you need an *empathetic* understanding of their feelings.
 
-Which is to say: you need to understand not only their feelings, but also the *situation* they perceive themselves to be in, which is driving [triggering, causing] those feelings. Somewhere in that situation, you will be able to find a business problem that you can agree is worth solving. You'll then be able to offer them a productive challenge to solve that problem in a new way, while speaking with empathy to the feelings they are currently experiencing.
+Which is to say: you need to understand the situation they perceive themselves to be in, which is driving [triggering, causing] those feelings.
 
-To be carefully clear, developing such an empathetic understanding doesn't mean *justifying* or *excusing* problematic behaviors by those in positions of power. It means being able to articulate an understanding of why someone might both feel and behave the way they do. An understanding which allows you to say: "What they're doing is wrong, but they are facing some genuine challenges, and I can see why it feels to them like they have no other options."
+Why is this so crucial?
+
+Somewhere in that situation, you will almost always be able to find a *business problem* that you can agree is worth solving. You can then make a compelling offer to them to solve that problem in a new way, while speaking with empathy to the feelings they are currently experiencing.
+
+To be carefully clear, developing an empathetic understanding doesn't mean *justifying* or *excusing* problematic behaviors by those in positions of power. It means being able to articulate an understanding of why someone might both feel and behave the way they do. An understanding which allows you to say: "What they're doing is wrong, but they are facing some genuine challenges, and I can see why it feels to them like they have no other options."
 
 It can be tricky to find this way in. Let's bring it to life with an example of this kind of very human challenge you might find yourself facing:
 
 You work at a B2B SaaS company.
+
+# Name the company, name all the players, find vivid details
 
 Over the last several months, your head of product has started to insist on reviewing and adjusting every single detailed UX design before it ships.
 
@@ -121,11 +129,11 @@ Let's deploy our magic power once again. We'll wave a magic wand and understand 
 
    Therefore, their comfort place, the thing that makes them feel like they're actually *doing something* is... adjusting details of a UX.
 
-In this situation, we *can* identify a genuine challenge that the head of product is facing: finding a scalable way to ensure that design work doesn't break existing, complex workflows for customers.
+In this situation, we *can* identify a genuine challenge that the head of product is facing: finding a scalable way to ensure that design work doesn't break existing, complex workflows for customers, despite the presence of several new designers on the team.
 
-This is a meaningful challenge *for the business*. If we had this (magic!) understanding of the situation, we could authentically commit to working with the head of product to tackle that challenge.
+This is a meaningful challenge *for the business*, as well as for the head of product.
 
-Unfortunately, they are currently reaching for the only tool they have in their existing kit: direct, final-say oversight over every single design change. In the past, exerting that kind of fine-grained oversight allowed them to heroically save at-risk projects. It is how they established control and prevented failure. Thus, it's completely unsurprising that they're reaching for it now. They are dimly aware that the team is growing frustrated with them, but part of the story in their head is that they have to be willing to piss their team off a bit, in order to get the details right.
+Unfortunately, they are reaching for the only tool they have in their existing kit: direct, final-say oversight over every single design change. In the past, exerting that kind of fine-grained oversight allowed them to heroically save at-risk projects. It is how they established control and prevented failure. Thus, it's completely unsurprising that they're reaching for it now. They are dimly aware that the team is growing frustrated with them, but part of the story in their head is that they have to be willing to piss their team off a bit, in order to get the details right.
 
 Finally, ever since the CEO turned the emotional pressure up to eleven, the background fear is so strong, it feels impossible to even *imagine* any other options.
 
@@ -137,9 +145,11 @@ To build a healthy, fast-moving team that achieves real wins for the business, y
 
 But, importantly, *beneath* the problematic behavior, and the surging emotions, you're now seeing a *valid business problem*, around ensuring stability in the product as it evolves. That's a problem you can authentically agree needs to be solved.
 
+If we had this magic, incredibly detailed understanding of the situation, we could make a very compelling offert to the head of product to change their behavior.
+
 # Furthermore, you can see the key emotional challenges (and opportunities!), tangled up in the head of product's experience of that business problem.
 
-Your fuller, empathetic understanding will allow you to productively challenge your stakeholder to change.
+# Your fuller, empathetic understanding will allow you to productively challenge your stakeholder to change.
 
 Persuading humans to change their behavior works roughly a thousand times better if you can find a way to speak to their hearts as well as their minds.
 
