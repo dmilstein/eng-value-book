@@ -1,0 +1,50 @@
+#    -*- mode: org -*-
+
+
+Archived entries from file /Users/danmil/Dropbox/Projects/TechInvestBook/org-roam-tibook/20250913100150-make_a_compelling_offer.org
+
+
+* Tactic: Invite Your Stakeholder To Solve Your Problems
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-10-20 Mon 17:38
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/org-roam-tibook/20250913100150-make_a_compelling_offer.org
+:ARCHIVE_OLPATH: Make a Compelling Offer
+:ARCHIVE_CATEGORY: 20250913100150-make_a_compelling_offer
+:ARCHIVE_ITAGS: Chapter
+:END:
+
+Problem: You need to ask your stakeholder to change their behavior, but doing so could make them feel attacked, in which case they may angrily resist.
+
+# (because they will feel challenged)
+
+Tactic: Find a non-judgmental way to describe the results of their behavior as a problem for the two of you to solve together. Ask them open-ended questions that offer them a chance to be an expert, and solve the problem you're laying out to them.
+
+This is a form of what Chris Voss calls Calibrated Questions, in Never Split the Difference. And if it works with terrorists, maybe it'll work with your boss!
+
+Example
+
+# XXX Give the company a name + domain
+
+Lisa is a PM in the fulfillment space, working with a key operational stakeholder: Mark Blevins, the VP of Warehousing. The Good News: Mark Blevins has worked in warehousing for almost two decades, and knows his shit. The Bad News: Mark Blevins has worked in warehousing for almost two decades, and has zero patience with anyone asking him, well, any questions whatsoever. He routinely calls Lisa at the end of her working day and demands that she improve some existing workflow, asap. When she tries to ask about the warehouse ops metrics tied to that workflow, he cuts her off and says "Look, I don't need all that crap. If I'm telling you we have to fix receiving, then we have to fix receiving. Okay?" And then hangs up.
+
+Lisa doesn't know what to do with a stakeholder who takes a request for business metrics as a personal affront. She *wants* to solve problems with Mark, but if she can't get him to give her some basic operational metrics, how is she going to do her job? She has to make prioritization decisions, she has to set goals for her teams, for god's sake, she has to *understand* what Mark is even trying to do. She can't just tell her engineers to randomly start coding receiving workflows. She sits staring at her desk, her phone still in her hand.
+
+She imagines confronting Mark about this directly: "If you won't give me metrics that are impacted by these operations, I won't prioritize this work." That feels like a guaranteed failure. In her interactions with Mark so far, he always seems to be spoiling for a fight.
+
+She feels good and completely stuck.
+
+But then, the next morning, while cleaning up after breakfast, she has an idea. She hurries into her office, clears a couple of meetings off her calendar, and gets her thoughts together. She pings Mark for "a quick check-in". When Mark appears, frowning, on her zoom screen, she forces herself to start talking, despite her nerves. "Mark, I'm really eager to work on the receiving issues we talked about yesterday. I was getting ready to tell the engineers to get started, but then I realized: there have been *far* too many times that the engineers worked on some warehouse process for you, but they didn't fully understand what they were doing." She shakes her head regretfully.
+
+"They just don't have your depth of experience in warehousing. Too many times, they've delivered something that just *didn't work*. I *hate* when that happens." Mark harrumphs in agreement.
+
+"I want to be sure to keep them on track this time. If they got the receiving fix right... how would you tell? Or, if they messed up again, what would tell you that? What would you see, when you looked at, like, your dashboards that would show you that whatever they had launched hadn't worked? I want to hold them accountable, so that we're not wasting your time."
+
+Mark gruffly agrees that there have been too many failed launches. He then says, slowly, "Of course, I'd first look at UPH on the receiving line. But you can't /only/ look at UPH, only an idiot does that. It's *also* exception counts. Our exceptions are getting totally out of hand, we *have* to keep that under control. I'm checking exceptions every few hours, which is *batshit*. That's no way to run a building." Having delivered this statement [ultimatum, lesson, homily], he sits back with his arms folded over his chest.
+
+Lisa has to restrain herself from grinning. She has managed to get a set of metricc things Mark hopes to improve by working on receiving, plus a healthy side order of emotions. She's neatly avoided direct conflict, but has started to draw him into collaboration around the business impacts of "fixing receiving."
+
+Note that she "played low status": she suggested that she and the engineers *needed Mark's help*. That created space for him to be a high-status expert. It also made it difficult for him to tell her she's wrong---he'd have to suggest that the engineers know the warehouse processes as well as he does.
+
+Of course, Mark might still be frustrated, and say, "The engineers should know how those processes work!" If he does, Lisa can just nod her head, sigh and *agree*. "You are *so* right, Mark. I really wish they did! But we're just not there yet. How can I make sure they stay on track?"
+
+If you keep on steadily and calmly asking open-ended "How could I possibly solve my problem?" questions, often, your stakeholder will find themselves coming up with the precise solutions you've been wanting to implement. And they'll feel like the ideas are their own, not something they've been forced to do.
