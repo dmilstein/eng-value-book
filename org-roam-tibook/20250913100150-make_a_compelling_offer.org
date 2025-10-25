@@ -925,35 +925,58 @@ But, luckily, there is a single, underlying game plan that Deanna, Maria and Ali
 
 /In the book, I develop a step-by-step game plan for gradually drawing your Important Person, whom I term your "stakeholder", into a process of collaborative problem-solving./
 
-/In today's post, I'm going to explore a somewhat late step in that game plan: how to approach your stakeholder with a specific request to change their behavior. In the full game plan, there are two preparatory stages before that moment. For context, I'll briefly sketch those in./
+/Today, I'm exploring a somewhat late stage in that plan: how to approach your stakeholder with a specific request to change their behavior. In the full game plan, there are two preparatory stages before that moment. For context, I'll briefly sketch those in below./
 
-/Speaking of the book: if you would like to be a beta reader once an early version is ready, please drop me a line at dan@dan-milstein.com! Ditto if you have some challenges with your very own Important Person and could use some [coaching support] from, say, an experienced product and enagineering leader who finds human beings endlessly fascinating./
+/Speaking of the book: if you would like to be a beta reader once an early version is ready, please drop me a line at dan@dan-milstein.com! Ditto if you have some challenges with your very own Important Person and could use some [coaching support] from, say, an experienced product and enagineering leader who finds human beings endlessly fascinating and is in the business of offering coaching and advising services to engineering and product leaders. Say./
 
-
-
-** The Game Plan, Parts The First and The Second
+** The Getting Unstuck Game Plan, Parts The First and The Second
 
 The first step in the Getting Unstuck game plan is to build alignment with your stakeholder by extracting two things from them:
 
  1. A long-term strategic outcome that they care deeply about achieving
 
- 2. An understanding of how your team can help make that outcome possible
+ 2. An understanding of how your team can help achieve that outcome
 
-As per Stephen Bungay's The Art of Action, I name this combination a "Strategic Intent". Aligning with your stakeholder on a Strategic Intent enables you to position a request for change as a *necessary step* in eventually reaching that long-term goal. It also enables you to demonstrate an authentic personal commitment to reaching the same goal. This allows your stakeholder to start to see you as a *partner*.
+As per Stephen Bungay's The Art of Action, I name this combination a "Strategic Intent". Aligning with your stakeholder on a Strategic Intent enables you to position a request for change as a *necessary step* in eventually achieving that long-term goal. It also enables you to demonstrate an authentic personal commitment to achieving that goal with them. This allows your stakeholder to start to see you as a *partner* in facing their most important challenges.
 
-Having a shared Strategic Intent is an excellent start. But, there's just one problem. Your stakeholder is a *human being*. And thus, an appeal to reason, even one that is buttressed by its importance for a key long-term goal, is almost never enough. Your stakeholder's problematic behavior is not driven merely by some rational desire to achieve that long-term outcome. Their actions are, always, also the result of some powerful underlying *emotions*.
+# Having a shared Strategic Intent is an excellent start.
 
-Maybe there's something they're intensely afraid of, and their current behavior is an unconscious attempt to keep that bad thing at bay. Or perhaps there's something they have long and fervently desired, and their behavior is an attemp to gradually move towards that dream.
+But, there's a problem.
 
-Of course, your stakeholder isn't going to *tell* you about these underlying fears and dreams. Often, they won't even fully realize the connections between their underlying emotions and their day-to-day behaviors.
+Your stakeholder is a human being.
 
-Humans have a truly astonishing ability to convince ourselves that anything even vaguely problematic about our own behavior isnt due to anything going on inside of *us*, but is rather the completely inevitable result of the situation we're unlucky enough to be in, aka all those other people around us. Your stakeholder isn't rude and dismissive because they're deeply insecure in their position of authority and therefore every innocent question from the team makes them feel attacked, no, no, no, they're actually being as calm as anyone could /possibly/ be expected to be, in the face of the obvious incompetence and lack of commitment that everyone around them is constantly demonstrating.[fn:: Again, since I Am Perfect And Have No Flaws, I never fall into this particular trap! No one who either works for or is married to me ever has to deal with any frustrating problems that I somehow convince myself aren't my fault!]
+Thus, their problematic behavior is not driven merely by some rational desire to achieve that long-term outcome. Their problematic behavior is *also* the result of some powerful underlying emotions that they are experiencing.
 
-Thus, the second stage in the Getting Unstuck game plan is to use a set of skills, which as per Chris Voss and Tahl Raz's Never Split the Difference, we name Tactical Empathy. These skills will allow you to draw out and then validate the underlying emotions that are driving your stakeholder's problematic behaviors.
+# Thus, an appeal to reason, even one that is buttressed by its importance for a key long-term goal, will very rarely be enough.
 
-You'll be able to get past what they're immediately *asking for*, and find a creative way to solve their true, underlying problems, while also addressing your own key concerns.
+Maybe there's something they're intensely afraid of, and their current behavior is an unconscious attempt to keep that Bad Thing at bay. Or perhaps there's something they have long and fervently desired, and their current behavior is an attempt to gradually move towards that Happy Dream.
 
-And how to make such a request is what the third stage in the game plan is all about.
+Naturally, your stakeholder doesn't openly *tell* you about these fears and dreams.
+
+Often, they don't even consciously recognize the connections between their emotions and their day-to-day behaviors. In this, they are very much not alone. We humans have a consistently impressive ability to convince ourselves that anything even vaguely problematic about our *own* behavior isn't because of anything going on inside of *us*. No, our behavior is the completely inevitable result of the situation we're in, aka all those *other people* nearby.
+
+That difficult stakeholder isn't rude and dismissive because they're deeply insecure in their position of authority and therefore every innocent question from the team makes them feel attacked, no, no, no, they're actually being as calm as anyone could /possibly/ be expected to be, in the face of the obvious incompetence and lack of commitment being constantly demonstrated by /everyone around them/.[fn:: Again, since I Am Perfect And Have No Flaws, I have never fallen into this particular trap! No one who either works for or is married to me has ever had to deal with any frustrating behaviors that I am somehow totally convinced aren't my fault!]
+
+Thus, the second stage in the Getting Unstuck game plan is to learn, practice and then deploy a set of skills for drawing out and validating people's underlying *emotions*. As per Chris Voss and Tahl Raz's Never Split the Difference, we name these skills "Tactical Empathy".
+
+Once you have worked through these first two stages of the Getting Unstuck game plan, you'll be in proud possession of:
+
+ a) A long-term outcome that you can commit to helping your stakeholder achieve
+
+ b) An understanding of the situation they perceive themselves as being in
+
+ c) An understanding of their fears, frustrations, hopes and dreams
+
+# Based on all of that, you can get past their immediate, day-to-day behavior, get past what they are *asking* for, and instead find a creative way to solve for their true, underlying problems. While addressing your own key concerns at the same time.
+
+Based on all of that, you'll be able to find a creative way to solve for their underlying problems, while addressing your own concerns, *at the same time*.
+
+Of course, finding that creative way, *and* effectively pitching it to your stakeholder, brings all kinds of interesting and fun challenges of its own.
+
+Which is what the third stage in the Getting Unstuck game plan is all about!
+
+Let's go!
+
 
 * Scraps
 
