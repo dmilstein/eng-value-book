@@ -4,13 +4,63 @@
 #+title: Make a Compelling Offer
 #+filetags: :Chapter:
 * Make a Compelling Offer
-** The Elements Of A Compelling Offer
+** The Nature Of Isolation In The Human Experience
 
-You've defined a Strategic Intent that your stakeholder cares about. Thanks to that work, you have a shared long-term goal you can speak to. You understand how your work contributes to that goal.
+You've defined a Strategic Intent that your stakeholder cares deeply about. You understand how your work contributes to that goal.
 
 You've taken the time to develop an empathetic understanding of your stakeholder's key emotions. You can speak to the situation they find themselves in. You can list frustrations they want smoothed away. You can name things they want, that they feel like they're not getting.
 
-You're ready to make them a compelling offer to adjust how you work together.
+# You're just about ready to make them a compelling offer to adjust how you work together.
+
+You're just about ready to make your request to adjust how you work together.
+
+# But how can you make that offer compelling? How can you ensure that they are willing to take the risk of changing their own behavior.
+
+# Let's talk about the core risk of approaching someone, and asking them to change their behavior. That will then illustrate/show how to take advantage of the assets we've gathered can be used.
+
+# Why is it hard for people to change their behavior?
+
+# Why is it hard for people to hear a request to change their behavior.
+
+But, here's a thing about about, well, *human beings*, ourselves very much included.
+
+As we suffer day to day frustrations and take pleasure in small delights, as we strive to accomplish work of which we can be proud, as we struggle to avoid failures that would bring shame... it is very easy for us to feel almost *entirely alone* in those experiences.
+
+It is very easy for human beings to know in their bones that they must face their most crucial challenges entirely on their own.
+
+We feel the weight of the world on our shoulders. We fear that, even if other people claim to be working with us, we can't fully trust them to do so. We fear that they have their own agendas. When well know that, when push comes to shove, we are going to be the ones shoved. We do not feel seen, we do not feel supported, we do not feel understood.
+
+Now, your stakeholder might present as some kind of emotionless automaton [frozen monolith of emotionlessness, devoid of any emotions whatsover]. You might be reading this and thinking "Sure, if my stakeholder were *human*, this would be relevant. But they're icy and cold and no appeal to emotion will have any effect whatsoever."
+
+First, stakeholders who presents as rigidly tight and distant are, *always*, living at the mercy of some very intense emotions indeed. Usually that's some deep wellspring of fear, along with a dream of overcoming that fear through control. Humans hide their inner state *because* they feel intense emotions, not because they have no emotions.
+
+Second, once you understand your stakeholder's emotions, once you understand their feeling of alone-ness, you're *not* going to just directly talk about those feelings with them. You're *not* going to say to your fierce Chief Operating Officer, "You seem unhappy and afraid and alone. Would you like a hug?"
+
+Instead, you're going to *demonstrate with your actions* that you understand them, and they can trust you.
+
+The first such action is simply how you make your request.
+
+You'll do so in a way which demonstrates a deep understanding of the goals they're working so hard to accomplish, along with a deep understanding of the difficult situation they find themselves in as they do so. You'll share some of your own concerns, and then ask for a small change in their behavior. You'll offer them meaningful things in exchange. You will ensure they stay in control of the overall situation.
+
+Once they agree to making a small change, you'll work hard to make the initial period of time a resounding success. To make the overall change *feel* like a win for them. Over time, you'll then steadily adjust more and more of how you work together, earning greater and greater trust as you do so.
+
+But the first key step is simply how you frame your request to them.
+
+In fact, we're not going to call it a request. We're going to call it an *offer*.
+
+We're going to talk about how to make a *compelling offer*.
+
+** The Elements Of A Compelling Offer
+
+Maybe explain *why* to go through that three part arc. Stakeholders are going to hear anything as a threat. They generally feel alone in pursuing their major goal, and alone in facing their own biggest fears.
+
+Therefore, if you can calmly and authentically demonstrate that you understand and care about their goals and their problems, they will exhale, and be much more ready to listen to you.
+
+Then, you can lay out your concerns, carefully doing so in a non-judgmental fashion.
+
+At that point, you can draw your stakeholder into a collaborative problem solving session by offering a possible solution.
+
+It's much easier to do this in small increments than as one big step -- that allows you to build trust as you to.
 
 When you deliver that compelling offer, you'll methodically go through four steps, checking for understanding after each:
 
@@ -42,16 +92,6 @@ Karim is, of course, frustrated by the lack of velocity. But after digging in, D
 
 He's also quite afraid that what they have planned won't be compelling enough---which is driving him to keep adding more and more features.
 
-# XXX Or, above the actual details explain why it's hard, ala:
-Maybe explain *why* to go through that three part arc. Stakeholders are going to hear anything as a threat. They generally feel alone in pursuing their major goal, and alone in facing their own biggest fears.
-
-Therefore, if you can calmly and authentically demonstrate that you understand and care about their goals and their problems, they will exhale, and be much more ready to listen to you.
-
-Then, you can lay out your concerns, carefully doing so in a non-judgmental fashion.
-
-At that point, you can draw your stakeholder into a collaborative problem solving session by offering a possible solution.
-
-It's much easier to do this in small increments than as one big step -- that allows you to build trust as you to.
 
 
 # Be ready to spend real time preparing this offer.
