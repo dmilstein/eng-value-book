@@ -24,40 +24,47 @@ First, being stuck is no way to live. Spending too many of your working hours in
 
 The other reason I'll encourage you to consider trying to get unstuck is that, once you learn some of the skills, it's actually *fun as heck*! Other humans are endlessly fascinating! Getting unstuck means finding ways to work *with* those other humans, instead of desparately trying to work *around* them. It means changing your experience of your job from powerlessness inaction to playful, creative agency. Which is way, way more fun than explaining to your mirror, once again, why your boss is crazy and wrong and ohmygod.
 
-# In fact, as you gradually level up your ability to build rapport and connection, you'll find that you can +manipulate+ *persuade* an incredibly variety of people to work with you.
+** Substack: Defining & Illustrating The State of Being Stuck
 
-# So let's talk about what you can do.
+*Being Stuck*: /Feeling that, due to a frustrating pattern of interaction with an Important Person, it's impossible to succeed at your job./
 
-# Let's dig in.
+# it's no longer possible
 
-# Ideas for moving from trapped frustration to productive action.
-# Before we dive in, I'm going to define and then illustrate the kind of situations I'm talking about.
+# We're going to share a Game Plan for getting *unstuck*.
 
-** Defining & Illustrating The State of being Stuck
+One of the very most fun parts of being stuck is how endless varied it can be.
 
-*Getting Stuck*: /Finding yourself in a situation where if feels impossible to succeed at your job, due to some frustrating pattern of interaction with an Important Person./
+# When things are *good*, there are some consistent patterns: the team enjoys clear objectives, high levels of trust, rapid feedback cycles, limited dependencies outside of the team, etc.
 
-One of the very most fun parts of getting stuck is how endless varied it can be.
+# On the other hand, when things *aren't* good...
 
-When things are *good*, there are some consistent patterns: the team enjoys clear objectives, high levels of trust, rapid feedback cycles, limited dependencies outside of the team, etc.
-
-On the other hand, when things *aren't* good... it's like every situation is its own special snowflake of exhausting dysfunction. Humans seem to be able to come up with a somewhat incredible variety of ways to be frustrating and crazy.[fn::  "Happy teams are all alike, every unhappy team is unhappy in their own way," writes Leo Tolstoy in his  agile software guide, /Anna Karenina/. (it's possible I just spent half an hour trying to find a *third* famous opening line I could mangle in this introduction. Maybe: "I write this sitting in the office kitchen sink." Or perhaps "Gregor From Ops awoke one morning from uneasy dreams to find himself transformed on zoom into a gigantic insect.")]
+# It's like every situation is its own special snowflake of exhausting dysfunction. Humans seem to be able to come up with a somewhat incredible variety of ways to be frustrating and crazy.[fn::  "Happy teams are all alike, every unhappy team is unhappy in their own way," writes Leo Tolstoy in his  agile software guide, /Anna Karenina/. (it's possible I just spent half an hour trying to find a *third* famous opening line I could mangle in this introduction. Maybe: "I write this sitting in the office kitchen sink." Or perhaps "Gregor From Ops awoke one morning from uneasy dreams to find himself transformed on zoom into a gigantic insect.")]
 
 To bring this variety to life, below are three /totally made up/ examples.[fn:: No examples in this post are based on any actual stakeholders I have ever worked with and who might be reading this footnote, nor on any behavior I myself demonstrated when in a position of authority, because, luckily, I Am Perfect And Have No Flaws, okay let's go.]
 
-Deanna is an engineering lead at a small startup. Her CEO, Karim, has developed a nasty habit of, once a week, breaking into daily standup and insisting the team drop everything and start working on some totally new and amazing product idea he just dreamed up in the shower that morning.
+*The Agent of Chaos*
 
-As a completely unsurprising result, it's been months since Deanna's team has gotten, well, anything whatsoever *done*.
+Deanna is an engineering lead at an early-stage startup. Her CEO, Karim, has developed a nasty habit of, once a week, breaking into daily standup and insisting the team drop everything and start working on some totally new and amazing product idea he's just dreamed up.
+
+As a completely unsurprising result, it's been months since Deanna's team has gotten, well, anything whatsoever *done*. She knows that they need to commit and focus, but she can't seem to get Karim to change his behavior.
 
 Then, one afternoon, Karim tensely informs Deana that he's worried about team velocity. He tells her he's decided that the team needs to start working longer hours, immediately. Afterwards, Deanna finds herself striding angrily around her office, muttering a somewhat shocking torrent of swear words under her breath.
 
-Deanna is feeling very stuck with Karim.
+# Deanna is feeling very stuck with Karim.
+
+If your stakeholder keeps on blowing up your backlog with new ideas, and then blames you for the resulting snail's pace of delivery, The Getting Unstuck Game Plan is for you!
+
+*The Dark Side Of Sales Persuasion*
 
 Maria is a product manager at a thriving B2B SaaS company. Her job would be truly lovely if it wasn't for her VP of Sales... /Geoff/[fn:: Or, as her team call him after a few drinks, "The Geoffster"]. A week doesn't go by without Geoff engaging in underhanded politicking to advocate for one-off features for his pet customers. Naturally, these features are completely unrelated to the strategic priorities Maria is supposed to be pushing forward.
 
 Unfortunately, Maria's CEO, Theo, seems to be deeply uncomfortable with open conflict, so Geoff suffers no consequences from this behavior, and Maria has to handle his relentless pressure all on her own. Despite her best efforts, Maria's team is somehow spending half their time on useless, Geoff-driven one-offs, while their main product strategy slowly drifts off course like a doomed ship headed for an iceberg. Maria has started to dread the moment she opens her laptop at the start of her work day.
 
-Maria is feeling completely and totally stuck with Geoff[fn:: and honestly, with Theo, too, because argh.].
+If your stakeholder relentlessly undercuts your attempts at disciplined prioritization, but still blames you when you never ship a new product, The Getting Unstuck Game Plan is for you!
+
+# Maria is feeling completely and totally stuck with Geoff[fn:: and honestly, with Theo, too, because argh.].
+
+*The Bottleneck To End All Bottlenecks*
 
 Alistair is an engineering manager at AccuraClaim, a business that provides claims processing services to the insurance industry. Alistair's team is great, his product manager has become a close friend, he really likes working with the messy, gritty details of claims data.
 
@@ -69,9 +76,13 @@ Alistair, Alistair's PM, all the adjacent tech leads and half the designers spen
 
 Then, one evening at the company happy hour, Alistair finds himself awkwardly chatting with Max. The engineering director takes a sip from his hard seltzer. Alistair tries to think of something to say. Then, out of nowhere, Max airily tells Alistair that he's "a little disappointed" that Alistair's team isn't stepping up and showing more independence and ownership. "It's like you're all just *waiting* to be told what to do," he says. Alistair nearly chokes on his beer. After managing to extricate himself from the conversation, Alistair realizes he might have to talk with his wife about whether or not he can stay at this job.
 
-Alistair is feeling so stuck, he's not sure he can imagine being unstuck ever again.
+If your stakeholder claims to want to empower their teams, but absolutely kneecaps anyone who shows the slightest bit of independence, The Getting Unstuck Game Plan is for you!
 
-Karim-the-CEO, Geoff-the-VP-of-Sales and Max-The-Engineering-Director are all very different human beings, working at very different businesses, trying to achieve very different goals... and each exhibiting a different form of dysfunction.
+I could go on! I suspect you could, too!
+
+# Alistair is feeling so stuck, he's not sure he can imagine being unstuck ever again.
+
+# Karim-the-CEO, Geoff-the-VP-of-Sales and Max-The-Engineering-Director are all very different human beings, working at very different businesses, trying to achieve very different goals... and each exhibiting a different form of dysfunction.
 
 But, luckily, there is a single, underlying game plan that Deanna, Maria and Alistair can all run. A common approach that will allow them to gradually shift into a productive collaboration with each of their difficult, Important People. An approach to get each of those Important People to change their behavior---at first in small ways, and them more deeply over time.
 
