@@ -20,9 +20,11 @@ Of course, making that kind of change takes real work.
 
 I believe the effort is well worth it, for two reasons.
 
-First, being stuck is, well, *kind of a terrible way to live*. Spending your working hours in a state of powerless resentment can be dangerous. The lack of agency can start to seep into other parts of your life. Your mind might drift into a habit of endlessly rehearsing your frustrations. Your sleep might start to break down. You might discover you're having trouble staying fully present with family or friends. Fundamentally, humans are not super great at compartmentalizing a feeling of lack of agency.
+First, being stuck is, well, *kind of a terrible way to live*. Spending your working hours in a state of powerless resentment can be dangerous. The lack of agency can start to seep into other parts of your life. Your mind might drift into a habit of endlessly rehearsing your frustrations. Your sleep might start to break down. You might discover you're having trouble staying fully present with family or friends.
 
-Second, I'll encourage you to make the effort to get unstuck because, believe it or not, it can be *fun*. Other humans are endlessly fascinating! Getting unstuck means finding ways to work *with* those other humans, instead of desparately trying to work *around* them. Getting unstuck allows your to live in a place of curiosity, and to engage your own sense of playful, creative problem-solving. Which is way, way more fun than explaining to your mirror, once again, why your boss is crazy and wrong.[fn:: Though it is maybe nice that your mirror always agrees with you?]
+Human beings are not super great at compartmentalizing a feeling of lack of agency.
+
+Second, I'll encourage you to make the effort to get unstuck because, believe it or not, it can be *fun*. Other humans are endlessly fascinating! Getting unstuck means finding ways to work *with* those other humans, instead of desperately trying to work *around* them. Getting unstuck allows your to live in a place of curiosity, and to engage your own sense of playful, creative problem-solving. Which is way, way more fun than explaining to your mirror, once again, why your boss is crazy and wrong.[fn:: Though it is maybe nice that your mirror always agrees with you?]
 
 ** The State of Being Stuck
 
@@ -30,21 +32,21 @@ Second, I'll encourage you to make the effort to get unstuck because, believe it
 
 *Being Stuck*: /Feeling like it's impossible to truly succeed at your job, due to a frustrating pattern of interaction with an Important Person./
 
-Let's unpack that a bit.
+Let's unpack that definition.
 
 First, to Be Stuck, you must feel truly worried about *succeeding at your job*. It's not enough to simply be irritated with a colleague, even if that irritation is quite intense ("If I have to hear George lecture us all about The Customer one more time, so help me god"). The internal emotional dial only truly goes up to eleven if you feel like you're powerlessly drifting towards a failure (and, in particular, a failure for which you will be blamed).
 
-Second, to Be Stuck, there has to be an Important Person involved. That's what puts you into the state of powerlessness, of low agency. In fact, we'll *define* an Important Person as: someone who has some form of influence or control over how you do your job. That could be your boss, of course. But it could also be a stakeholder who has significant influence over what your team builds, or a key peer with whom you have to collaborate to build that thing.
+Second, to Be Stuck, there has to be an Important Person involved. That's what puts you into the state of powerlessness, of low agency. In fact, we'll *define* an Important Person as: someone who has some form of influence or control over how you do your job. That could of course be your boss. But it could also be a stakeholder who has significant influence over what your team builds, or a key peer with whom you have to collaborate to build that thing.
 
-# It's a) someone you have to work with in order to succeed, and b) someone you can't tell to change their behavior.
+# An Important Person is a) someone you have to work with in order to succeed at your job, and b) someone who you can't just *tell* to change their behavior.
 
 # Some important person is *acting* like a jerk, it's not just that they *are* a jerk.
 
-Finally, Being Stuck means there is a problematic *pattern of interaction*. In other words, we focus on *behavior*, not just on *personality*. Your COO may be brusque and patronizing, and that may legitimately frustrate the heck out of you.[fn:: Ask my friends about how much I, personally, enjoy being patronized!] But those unpleasant traits are not, in and of themselves, enough to cause you to Be Stuck. If the COO's dismissive rudeness causes them to shut down planning sessions without understanding the risks the team is trying to surface, that's another story altogether.
+Finally, Being Stuck means there is a problematic *pattern of interaction*. In other words, we focus on *behavior*, not just on *personality*. Your COO may be brusque and patronizing, and that may legitimately frustrate the heck out of you.[fn:: Ask my friends about how much I, personally, enjoy being patronized!] But those unpleasant traits are not, in and of themselves, enough to cause you to Be Stuck. If, however, the COO's dismissive rudeness causes them to shut down planning sessions without first understanding the risks the team is trying to surface, that's another story altogether.
 
-Why the pedantic distinction between "personality" and "patterns of interaction"? Because focusing on behavior makes our concerns far more *actionable*. It sets us up to make a request of our Important Person to change that behavior, initially in some small way. Although that's still a pretty tricky request to make, it's way, way, *way* easier than asking them to *change their personality*. You're going to have much better luck telling your COO "I want to try out a new approach in our planning sessions", than telling them, "Could you please stop being such a dick?"[fn:: Even though you may be sorely, sorely tempted.]
+Why this pedantic distinction between "personality" and "patterns of interaction"?[fn:: I mean other than the obvious fact that I love pedantic distinctions. I may not yet gotten the nickname Dan 'Pedantic Distinctions' Milstein, but it's only a matter of time.]
 
-# We'd all like you to stop being such a dick.
+Focusing on behavior makes your concerns far more *actionable*. It sets you up to make a request of your Important Person to change that behavior, initially in some small way. Although that's still a pretty tricky request to make, it's way, way, *way* easier than asking them to *change their personality*. You're going to have much better luck asking your COO, "Could we maybe try out a new approach to our planning sessions?", than asking them, "Could you maybe try out not being such a dick all the time?"
 
 ** Three Totally Made Up Examples
 
@@ -52,11 +54,11 @@ To bring this definition to life, below are three /completely fictional/ example
 
 *The Agent of Chaos*
 
-Deanna is an engineering lead at an early-stage startup. Her CEO, Karim, has developed an unpleasant habit of, once a week or so, interrupting daily standup and insisting the team drop everything and start working on some totally new and amazing product idea he's just dreamed up.
+Deanna is an engineering lead at an early-stage startup. Her CEO, Karim, has developed an unpleasant habit of, once every other week or so, interrupting daily standup and excitedly telling the team to drop everything and start working on a new product idea he's just dreamed up.
 
-As a completely unsurprising result of all this context switching, it's been months since Deanna's team has gotten anything meaningful done. She can feel their cash runway burning up, every week that they keep randomly switching around. She knows they need to commit and focus, but she can't seem to get Karim to change his behavior.
+As a /completely unsurprising/ result of the constant context switching, it's been months since Deanna's team has gotten anything meaningful done. It's like she can feel their startup's cash runway burning to nothingness, every time they randomly switch gears. They'll never deliver anything if they can't commit and focus, but she can't seem to get Karim to change his behavior.
 
-Then, one afternoon, Karim tensely informs Deana that he's worried about team velocity. He tells her he's decided that the team needs to start working longer hours, immediately. Afterwards, Deanna finds herself striding angrily around her office, muttering a somewhat shocking torrent of swear words under her breath.
+Then, one afternoon, Karim takes Deana aside and informs her that he's worried about team velocity. He tells her he wants her to ask the team to start working longer hours, immediately. Before she can fully process this, he pats her on the shoulder and strides off. Later, Deanna finds herself pacing angrily around her office, muttering a somewhat shocking torrent of swear words under her breath.
 
 # Deanna is very stuck with Karim.
 
@@ -88,7 +90,7 @@ Max Hartswell, the engineering director over Alistair's team, has apparently nev
 
 Alistair, Alistair's PM, all the adjacent tech leads and half the designers spend all their working hours trying to track Max down and get him to sign off on some decision he announced, weeks ago, he wanted to review "just one more time."
 
-Then, one evening at the company happy hour, Alistair finds himself awkwardly chatting with Max Hartswell. The engineering director takes a sip from his hard seltzer. Alistair tries to think of something to say. Then, out of nowhere, Max airily tells Alistair that he's "a little disappointed" that Alistair's team isn't stepping up and showing more independence and ownership. "It's like you're all just *waiting* to be told what to do," he says. Alistair nearly chokes on his beer. After managing to extricate himself from the conversation, Alistair realizes he might have to talk with his wife about whether or not he can stay at this job.
+Then, one evening at the company happy hour, Alistair finds himself awkwardly chatting with Max. The engineering director takes a sip from his hard seltzer. Alistair tries to think of something to say. Then, out of nowhere, Max airily tells Alistair that he's "a little disappointed" that Alistair's team isn't stepping up and showing more independence and ownership. "It's like you're just *waiting* to be told what to do," he says. Alistair nearly chokes on his beer. After managing to extricate himself from the conversation, Alistair realizes he might have to talk with his wife about whether or not he can stay at this job.
 
 If your stakeholder claims to want to empower their teams, but absolutely kneecaps anyone who shows the slightest bit of independence, man, you are totally Stuck.
 
@@ -96,7 +98,9 @@ I could go on!
 
 I suspect you could, too!
 
-Humans in positions of power have a truly marvelous ability to come up with new ways to be frustrating and crazy. Leo Tolstoy spoke to this in his classic guide to agile software development, /Anna Karenina/: "Happy teams are all alike, every unhappy team is unhappy in their own way."[fn:: It's possible I just spent half an hour trying to find a *third* famous opening line I could mangle in this introduction. Maybe, "I write this sitting in the office kitchen sink." Or perhaps "Gregor From Ops awoke one morning from uneasy dreams to find himself transformed on Zoom into a gigantic insect.")]
+Humans in positions of power have a truly marvelous ability to come up with new ways to be frustrating and crazy. Leo Tolstoy spoke to this in his classic guide to agile software development, /Anna Karenina/: "Happy teams are all alike, every unhappy team is unhappy in their own way."[fn:: It's possible I just spent half an hour trying to find a *third* famous opening line I could mangle in this introduction. Maybe, "I write this sitting in the office kitchen sink." Or perhaps "Gregor From Ops awoke one morning from uneasy dreams to find himself transformed on Zoom into a gigantic insect."]
+
+Let's talk about what you can do. How you can Get Unstuck.
 
 /Hello! Today's post is an excerpt from a book [link] I'm writing, titled:/
 
@@ -108,11 +112,11 @@ Humans in positions of power have a truly marvelous ability to come up with new 
 
 /In this series of posts, I'm exploring a somewhat late stage in that plan: how to approach your stakeholder with your specific request to change their behavior. In the full game plan, there are two preparatory steps before that moment:/
 
-/The first step is to align around a long-term strategic outcome that your stakeholder cares deeply about achieving. The second is to develop a picture of the underlying emotions that might be driving your stakeholder's surface behavior./
+/The first step is to align around a long-term strategic outcome that your stakeholder cares deeply about achieving. The second is to develop a picture of the underlying emotions that might be driving your stakeholder's problematic behavior./
 
-/The book has a wealth of tactics for effectively going through those two steps. For today, though, I encourage you to, well, *guess*! Come up with a reasonable hypothesis for a) the long-term goal your stakeholder is working backward from, and b) their key frustrations, fears, hopes and desires./
+/The book has a wealth of tactics for effectively going through those two steps. For today, though, I encourage you to, well, *guess*! Come up with a reasonable hypothesis for a) the long-term goal your stakeholder is working backward from, and b) the key frustrations, fears, hopes and desires that might be leading to their problematic behavior./
 
-/Speaking of the book: if you would like to be a beta reader once an early version is ready, please drop me a line at dan@dan-milstein.com! Ditto if you have some challenges with your very own Important Person and could use some [coaching support] from, say, an experienced product and engineering leader who finds human beings endlessly fascinating and is in the business of offering coaching and advising services to engineering and product leaders. Say./
+/Speaking of the book: if you would like to be a beta reader once an early version is ready, please drop me a line at dan@dan-milstein.com! Ditto if you are wrestling with some challenges with your very own Important Person and could use some [professional coaching support] from, say, an experienced product and engineering leader who finds human beings endlessly fascinating and is in the business of offering professional coaching and advising services to engineering and product leaders. Say./
 
 ** The Elements Of A Compelling Offer
 
@@ -126,11 +130,11 @@ When you actually sit down with your stakeholder to ask them to change their beh
 
    /As I understand it, within the next two years our company needs to develop a new line of business, to demonstrate to investors that we can continue to grow. In order to do so, the company is building a new <Foo> product for people who run <Bar> departments in the <Baz> segment. My team will play a key role in that, by collecting and organizing data about <Quux>. Do I have that mostly right?/
 
-   Always check with your stakeholder after laying this out, ala "Do I have that mostly right?" If you see them hesitate, draw out any concerns and then adjust. Continue until it's clear you're stating the goal in a way they find *compelling*.
+   Always check with your stakeholder after laying this out, ala "Do I have that mostly right?" If you see them hesitate, draw out any concerns and then adjust. Continue until it's clear you're stating the goal in a way they find *personally compelling*.
 
    Why is this the first step?
 
-   By carefully anchoring the conversation in their long-term aspirations, you'll demonstrate that you are a potential partner for them. That they might be able to trust you to help them accomplish that goal.
+   By carefully anchoring the conversation in their long-term aspirations, you'll demonstrate that you are a potential partner for them. That they might be able to trust you to help them accomplish that goal. It also lifts the conversation out of day-to-day concerns, which starts to create a space to talk about how you work together.
 
    Then, you calmly state that you believe the goal is at risk:
 
@@ -140,43 +144,45 @@ When you actually sit down with your stakeholder to ask them to change their beh
 
 2. *Share your understanding of their concerns*
 
-   Before describing any of your own concerns, first speak to the things that are difficult, or important, or worrisome for them:
+   Before describing any of your own concerns, first speak to the things that are difficult, or worrisome, or important for them. Show that you can put yourself in their shoes:
 
-   /"Whatever we do, I want to be certain we solve for a few things. Right now, I worry that the team's work can feel like a bunch of cryptic backend changes, and you can't tell if we're on track or not. So I want to make sure progress is much more *visible* to you."/
+   /"Whatever we do, I want to be certain we solve for a few things. Right now, I worry that the team's work can feel to you like a bunch of cryptic backend changes, and you can't tell if we're on track or not. So I want to make sure incremental progress is much more *visible* to you."/
 
    /"I'm also worried that you're in a tough situation, because of... so I want to be sure you're able to..."/
 
    /"Finally, if I were in your shoes, I would probably be pretty worried about... so I want to be absolutely certain we don't..."/
 
-   If they have fears, express how reasonable those fears are, and that whatever you do, they must be addressed. If they have frustrations, validate those frustrations and express your desire to smooth them out as much as possible. If they have unmet desires and dreams, speak authentically to how much those matter.
-
-   As with the statement of strategic goals, after you lay those out, check in with them:
-
-   /"Does that sound about right?"/
+   # XXX For substack: This is where you'll use your hypothesis about their frustrations, fears, delights and dreams.
 
    This is the payoff for the work you've done to mine for underlying emotions.
 
-   # XXX For substack: This is where you'll use your hypothseis about their frustrations, fears, delights and dreams.
+   If they have fears, express how reasonable those fears are, and that whatever you do, they must be addressed. If they have frustrations, validate those frustrations and express your desire to smooth them out as much as possible. If they have unmet desires and dreams, speak authentically to how much those matter.
 
-   Why do you spend so much time speaking to your stakeholder's concerns?
+   As with the statement of strategic goals, after you lay those out to your stakeholder, check in with them:
 
-   You're about to ask your stakeholder to take the risk of changing their behavior. By making clear how deeply you understand and care about *their* concerns, you make that risk feel much safer. You make it clear that they aren't facing that risk alone.
+   /"Does that sound about right?"/
+
+   And again, if they hesitate or offer caveats, draw those out, and then repeat them back.
+
+   Why do I recommend spending so much time speaking to your stakeholder's concerns?
+
+   You're about to ask your stakeholder to take the risk of changing their behavior. By making clear how deeply you understand and care about *their* concerns, you make that risky step feel much safer. You make it clear that they aren't facing that risk alone.
 
    Which will then make it possible for them to hear *your* concerns.
 
 3. *Share your own concerns*
 
-   Lay out the things *you* need to solve for.
+   Lay out the things *you* need to solve for:
 
    /"I'm worried that the engineers are spending a ton of time responding to urgent support requests for our existing products. Unless we find a way to reduce interruptions, I don't think we're going to see much progress on the <Quux> pipeline this year."/
 
-   Express your concerns in a way which doesn't trigger feelings for your stakeholder of being judged or attacked. E.g. don't say, "You're not pushing back enough on the Success team, so the engineers are overwhelmed." Make a statement about the situation you both find yourselves in.
+   Express your concerns in a way which doesn't trigger feelings for your stakeholder of being judged or attacked. E.g. don't say, "You're not pushing back enough on the Success team, so the engineers are overwhelmed." Instead, as above, make a statement about the situation you both find yourselves in.
 
    Offer your concerns as challenges you can face together.
 
 4. *Propose an adjustment in how you work together*
 
-   Now, pull it all together. Lay out a concrete, incremental adjustment which, as much as possible:
+   Now, pull it all together. Lay out an incremental adjustment which, if possible:
 
    - Makes things a little better for you
 
@@ -184,19 +190,19 @@ When you actually sit down with your stakeholder to ask them to change their beh
 
    - Moves you /both/ a little closer to your shared long-term goal
 
-   Then, invite them to collaborate with you, around your proposed change.
+   Then, invite them to collaborate with you, around your proposed change:
 
-   /"I'd like to set up a weekly triage session, and ask the Success team to bring *all* support requests to that. I'll work with the engineers so that, at sprint planning, you have a much clearer understanding of what near-term outcome we're working backward from. That way, you and I can, together, decide when to push back on Success, to be certain we stay on track for the <Quux> pipeline. Could we try that for the next few weeks?"/
+   /"I'd like to set up a weekly triage session, and ask the Success team to bring *all* support requests to that. Also, I'll work with the engineers so that, at sprint planning, you have a much clearer understanding of what near-term outcome we're working backward from. That way, you and I can, together, decide when to push back on Success, to be certain we stay on track for the <Quux> project."/
 
 This four step approach works incredibly well, in an incredible variety of situations. It speaks to a deep part of the experience of being human.
 
-But it is also one of those easy-to-describe but fascinatingly-hard-to-do-in-practice kinds of things.
+But it is /also/ one of those easy-to-describe but fascinatingly-hard-to-do-in-practice kinds of things.
 
-To bring it more fully to life, and to equip you with a wide set of options to handle your very own Important Person, in your very own business context, I'm going to share an extensive list of *tactics* for first developing and then delivering this kind of offer.
+Thus, to bring it more fully to life, and to equip you with a wide set of options to work with your very own Important Person, I'm going to share a broad set of *tactics* for first developing and then delivering this kind of offer. For going through various parts of the four step approach.
 
-For each such tactic, I'll first name a problem you might run into with stakeholders, and then sketch in the corresponding action you could take.
+For each tactic, I'll first name a problem you might run into with stakeholders, and then sketch in the corresponding action you could take.
 
-In the final section of today's post, I'm going to list all the tactics in summary form. In subsequent posts, I'll explore each tactic in more detail.
+Below, I'm going to list all the tactics in summary form. In subsequent posts, I'll explore the tactics in more detail.
 
 # In the remainder of the chapter, I'll explore each tactic in more detail, bringing many to life with narrative examples.
 
@@ -248,7 +254,7 @@ Solution: Find a non-judgmental way to describe the results of their behavior as
 *** Find Wins For Your Stakeholder By Hook Or By Crook
 Problem: You can't figure out a way for your adjustment to immediately improve things for your stakeholder. Try as you might, you don't see how to address your frustrations in a way that directly benefits them.
 
-Solution: Find some stakeholder wins that you *can* offer, even if they're not strictly necessary for your adjustment.
+Solution: Find some wins for you stakeholder that you *can* offer, even if they're not strictly necessary for your adjustment.
 
 *** Keep 'Em Busy
 Problem: You need to ask your stakeholder to stop doing something. You're worried that they will resist, because they are a human being, and thus like doing things.
@@ -706,7 +712,7 @@ And they'll feel like the ideas are their own, not something they've been forced
 
 Problem: You can't figure out a way for your adjustment to immediately improve things for your stakeholder. Try as you might, you don't see how to address your frustrations in a way that directly benefits them.
 
-Solution: Find some stakeholder wins that you *can* offer, even if they're not strictly necessary for your adjustment.
+Solution: Find some wins for you stakeholder that you *can* offer, even if they're not strictly necessary for your adjustment.
 
 This is a place where having a map of their emotions really pays off: you can almost always find some win they'll care deeply about, by thinking through their frustrations, fears, delights & dreams. E.g. you could:
 
