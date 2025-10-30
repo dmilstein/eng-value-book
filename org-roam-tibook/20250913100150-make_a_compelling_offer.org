@@ -4,41 +4,43 @@
 #+title: Make a Compelling Offer
 #+filetags: :Chapter:
 * Make a Compelling Offer
-** Substack: Introduction
+** Introduction
 
 It is a truth universally acknowledged, that a person in possession of a career in software, must be extremely frustrated with an Important Person at their job.
 
 # [deal with, handle, act on]
 
+# In a series of posts,
+
 In today's post, I'm going to share some ideas on how to face that frustration---and *not* by simply giving up hope. Ideas for moving from trapped inaction to positive, productive action. Ideas for persuading your very own Important Person to *change their behavior*. Ideas for *getting unstuck*.
 
 I'm not going to claim that applying these ideas is *easy*. If that were true, well, pretty much no one would ever be frustrated with their bosses, peers or stakeholders. Which, [checks notes], nope, not yet.
 
-But I do believe it's *possible*---and far more often than people realize. It's possible to build trust and rapport with even very challenging bosses, peers and stakeholders. It's possible to lean on that trust and rapport to draw those challenging people into productive collaborations. It's possible to focus those collaborative relationships on, among other things, gradually improving how you work together. Over time, it's possible to develop a deep sense of trust and partnership, with people you once could only see as frustrating impediments.
+But I do believe it's *possible*---and far more often than people realize. It's possible to build trust and rapport with even very challenging bosses, peers and stakeholders. It's possible to lean on that trust and rapport to draw those challenging people into productive collaborations. It's possible to focus those collaborative relationships on, among other things, gradually improving how you work together. Over time, it's possible to develop a surprisingly deep sense of trust and partnership, with people you once could only see as frustrating impediments.
 
 Of course, making that kind of change takes real work.
 
 But I believe the effort is well worth it, for two reasons.
 
-First, being stuck is, well, *a terrible way to live*. Spending too many of your working hours in a state of powerless resentment can be dangerous. The lack of agency can start to seep into other parts of your life. Your mind might drift into a habit of endlessly rehearsing your frustrations. Your sleep might start to break down. You might discover you're having trouble staying fully present with family or friends. Humans are not great at compartmentalizing a feeling of lack of agency.
+First, being stuck is, well, *kind of a terrible way to live*. Spending too many of your working hours in a state of powerless resentment can be dangerous. The lack of agency can start to seep into other parts of your life. Your mind might start to drift into a habit of endlessly rehearsing your frustrations. Your sleep might start to break down. You might discover you're having trouble staying fully present with family or friends. Humans are not great at compartmentalizing a feeling of lack of agency.
 
 Second, I'll encourage you to make the effort to get unstuck because, believe it or not, it can be *fun*. Other humans are endlessly fascinating! Getting unstuck means finding ways to work *with* those other humans, instead of desparately trying to work *around* them. Getting unstuck allows your to live in a place of curiosity, and to engage your own sense of playful, creative problem-solving. Which is way, way more fun than explaining to your mirror, once again, why your boss is crazy and wrong.[fn:: Though it is maybe nice that your mirror always agrees with you?]
 
-** Being Stuck: A Definition
+** Defining The State of Being Stuck
 
 # Defining & Illustrating The State of Being Stuck
 
 *Being Stuck*: /Feeling like it's impossible to truly succeed at your job, due to a frustrating pattern of interaction with an Important Person./
 
-Let me unpack that a bit.
+Let's unpack that a bit.
 
-First, to Be Stuck, you must feel truly worried about *succeeding at your job*. It's not enough to simply be irritated with a colleague, even if that irritation is quite intense ("If I have to hear George lecture us all about The Customer one more time, so help me god"). The internal emotional dial only truly goes up to eleven if we feel like we're powerlessly drifting towards a failure (and, in particular, a failure for which we will be blamed).
+First, to Be Stuck, you must feel truly worried about *succeeding at your job*. It's not enough to simply be irritated with a colleague, even if that irritation is quite intense ("If I have to hear George lecture us all about The Customer one more time, so help me god"). The internal emotional dial only truly goes up to eleven if you feel like you're powerlessly drifting towards a failure (and, in particular, a failure for which you will be blamed).
 
 Second, to Be Stuck, there has to be an Important Person involved. That's what puts you into the state of powerlessness, of low agency. In fact, we'll *define* an Important Person as: someone who has some form of influence or control over how you do your job. That could be your boss, it could be a stakeholder, it could be a key peer.
 
 # It's a) someone you have to work with in order to succeed, and b) someone you can't tell to change their behavior.
 
-Third, we focus on behavior, not just personality. Being Stuck means being caught up in a *pattern of interaction* that is causing real problems. We focus on behavior because that makes our concerns more *actionable*. It sets us up to make a request of our Important Person to change their behavior, initially in some small way. Now, don't get me wrong, that's plenty hard! But it's way, *way* easier than asking them to change their personality.
+Third, we focus on behavior, not just personality. Being Stuck means being caught up in a *pattern of interaction* that is causing problems. We focus on behavior because that makes our concerns more *actionable*. It sets us up to make a request of our Important Person to change their behavior, initially in some small way. Now, don't get me wrong, that's still plenty hard! But it's way, *way* easier than asking them to change their personality.
 
 # So, instead of saying "I'm stuck because my CPO is condescending jerk", you'll say "I'm stuck because my CPO shuts people down during planning sessions, so no one is
 
@@ -73,7 +75,9 @@ Then, one afternoon, Karim tensely informs Deana that he's worried about team ve
 
 # Deanna is feeling very stuck with Karim.
 
-If your stakeholder keeps on blowing up your backlog with new ideas, and then blames you for the resulting snail's pace of delivery, The Getting Unstuck Game Plan is for you!
+If your stakeholder keeps on blowing up your backlog with new ideas, and then blames you for the resulting snail's pace of delivery, then you are very much Stuck.
+
+# The Getting Unstuck Game Plan is for you!
 
 *The Prioritization Destroyer*
 
@@ -83,7 +87,9 @@ Maria is a product manager at a thriving B2B SaaS company. Her job would be trul
 
 Despite her best efforts, Maria's team is somehow spending half their time on useless, Geoff-driven one-offs, while their main product strategy slowly drifts off course like a doomed ship headed for an iceberg. Maria has started to dread the moment she opens her laptop at the start of her work day.
 
-If your stakeholder relentlessly undercuts your attempts at disciplined prioritization, but still blames you when you struggle to ship a new product, The Getting Unstuck Game Plan is for you!
+If your stakeholder relentlessly undercuts your attempts at disciplined prioritization, but still blames you when you struggle to ship a new product, you are good and thoroughly Stuck.
+
+# The Getting Unstuck Game Plan is for you!
 
 # Maria is feeling completely and totally stuck with Geoff[fn:: and honestly, with Theo, too, because argh.].
 
@@ -99,11 +105,11 @@ Alistair, Alistair's PM, all the adjacent tech leads and half the designers spen
 
 Then, one evening at the company happy hour, Alistair finds himself awkwardly chatting with Max. The engineering director takes a sip from his hard seltzer. Alistair tries to think of something to say. Then, out of nowhere, Max airily tells Alistair that he's "a little disappointed" that Alistair's team isn't stepping up and showing more independence and ownership. "It's like you're all just *waiting* to be told what to do," he says. Alistair nearly chokes on his beer. After managing to extricate himself from the conversation, Alistair realizes he might have to talk with his wife about whether or not he can stay at this job.
 
-If your stakeholder claims to want to empower their teams, but absolutely kneecaps anyone who shows the slightest bit of independence, The Getting Unstuck Game Plan is for you!
+If your stakeholder claims to want to empower their teams, but absolutely kneecaps anyone who shows the slightest bit of independence, man, you are totally Stuck.
 
-I could go on.
+I could go on!
 
-I suspect you could, too?
+I suspect you could, too!
 
 # Alistair is feeling so stuck, he's not sure he can imagine being unstuck ever again.
 
@@ -121,130 +127,15 @@ I suspect you could, too?
 
 /In the book, I develop a step-by-step game plan for gradually drawing your Important Person, whom I term your "stakeholder", into a process of collaborative problem-solving./
 
-/Today, I'm exploring a somewhat late stage in that plan: how to approach your stakeholder with your specific request to change their behavior. In the full game plan, there are two preparatory stages before that moment. For context, I'll briefly sketch those in below./
+/In this series of posts, I'm exploring a somewhat late stage in that plan: how to approach your stakeholder with your specific request to change their behavior. In the full game plan, there are two preparatory stages before that moment./
+
+# /For context, I'll briefly sketch those in below./
+
+/The first step is to align around a long-term strategic outcome that your stakeholder cares deeply about achieving. The second is to develop a picture of the underlying emotions that might be driving your stakeholder's surface behavior./
+
+/The book has a wealth of tactics for effectively going through those two steps. For today, though, you can, well, just *guess*. Come up with your own hypothesis for a) what your stakeholder is working backward from, and b) their key frustrations, fears, hopes and desires./
 
 /Speaking of the book: if you would like to be a beta reader once an early version is ready, please drop me a line at dan@dan-milstein.com! Ditto if you have some challenges with your very own Important Person and could use some [coaching support] from, say, an experienced product and engineering leader who finds human beings endlessly fascinating and is in the business of offering coaching and advising services to engineering and product leaders. Say./
-
-** The Getting Unstuck Game Plan, Parts I & II
-
-# The Getting Unstuck Game Plan, Parts The First and The Second
-
-The first step in the Getting Unstuck game plan is to obtain two things from your stakeholder:
-
- 1. A single long-term strategic outcome that they care deeply about achieving
-
- 2. An understanding of how your team can help achieve that outcome
-
-We name this as its own step because, far too often, your stakeholder will be just hammering away at you about some near-term goal because, *in their head*, that's the only way to get to the long-term strategic outcome. You often have to do some work to understand what they're truly working backwards from, *and* how they're hoping your team can help get there.
-
-As per Stephen Bungay's The Art of Action, I name this combination a "Strategic Intent".
-
-Why is this so valuable?
-
-Aligning with your stakeholder on a Strategic Intent enables you to position a request for change as a *necessary step* in eventually achieving their long-term goal. It also enables you to demonstrate an authentic personal commitment to achieving that goal with them. This allows your stakeholder to start to see you as a *partner* in facing their most important challenges. It gives you a great deal of flexibility to come up with new ways to work together, that allow you to reach that long-term goal.
-
-In the book, we explore Strategic Intents in some detail. For today, I'll recommend something quite simple: just make a guess!
-
-Make your own best guess about some key, strategic business outcome that is 12-24 months out. Pick a single such outcome that you think your stakeholder is working backwards from. Then test that out your guess with them, and adjust until you get something that seems to resonate.
-
-That's the first step.
-
-The second step is to develop a picture of the underlying emotions that might be driving your stakeholder's behavior.
-
-Why is this so important?
-
-Well, your stakeholder is a human being.
-
-Thus, their problematic behavior is not driven merely by some rational desire to achieve that long-term outcome. Their problematic behavior is *also* the result of some powerful underlying emotions that they are experiencing.
-
-# Thus, an appeal to reason, even one that is buttressed by its importance for a key long-term goal, will very rarely be enough.
-
-Maybe there's something they're intensely afraid of, and their current behavior is an unconscious attempt to keep that Bad Thing at bay. Or perhaps there's something they have long and fervently desired, and their current behavior is an attempt to gradually move towards that Happy Dream.
-
-Naturally, your stakeholder doesn't openly *tell* you about these fears and dreams.
-
-Often, they don't even consciously recognize the connections between their emotions and their day-to-day behaviors. In this, they are very much not alone. Humans have an impressive ability to convince ourselves that anything even vaguely problematic about our *own* behavior isn't because of anything going on inside of *us*. No, our behavior is the completely inevitable result of the situation we're in, aka all those *other people* nearby.
-
-That difficult stakeholder isn't rude and dismissive because they're deeply insecure in their position of authority and therefore every innocent question from the team makes them feel attacked, no, no, no, they're actually being as calm as anyone could /possibly/ be expected to be, in the face of the obvious incompetence and lack of commitment being constantly demonstrated by /everyone around them/.[fn:: Again, since I Am Perfect And Have No Flaws, I have never fallen into this particular trap! No one who either works for or is married to me has ever had to deal with any frustrating behaviors that I am somehow totally convinced aren't my fault!]
-
-In order to position your request for a change, you're going to investigate four specific underlying emotions. You'll look both for potential causes for the problematic behaviors on the surface, and also for potential wins you can offer them, if they're willing to change their behavior:
-
- - What happens, day-to-day, that *frustrates* your stakeholder?
-
- - What are they *afraid* might happen at some point in the future?
-
- - What happens, day-to-day, that makes your stakeholder *feel good*?
-
- - What do they *hope* happens at some point in the future?
-
-In the book, I go into detail on tactics for drawing emotions out, drawing on ideas from Chris Voss and Tahl Raz's Never Split the Difference.
-
-For today, as above, I recommend making an educated guess. Because Important People are, well, Important, I find that it's often possible to make pretty good guesses to start.
-
-Once you have worked through these first two stages of the Getting Unstuck game plan, you'll be in proud possession of:
-
- a) A long-term outcome that you can commit to helping your stakeholder achieve
-
- b) An understanding of the situation they perceive themselves as being in
-
- c) An understanding of their fears, frustrations, delights and dreams
-
-# Based on all of that, you can get past their immediate, day-to-day behavior, get past what they are *asking* for, and instead find a creative way to solve for their true, underlying problems. While addressing your own key concerns at the same time.
-
-Based on all of that, you'll be able to find a creative way to offer a solution to their underlying problems, while addressing your own concerns, *at the same time*.
-
-Of course, finding that creative way, *and* effectively pitching it to your stakeholder, brings all kinds of interesting and fun challenges of its own.
-
-Which is what the third stage in the Getting Unstuck game plan is all about!
-
-Let's go!
-
-** The Human Experience Of Disconnection
-
-You've defined a Strategic Intent that your stakeholder cares deeply about. You understand how your work contributes to that goal.
-
-You've taken the time to develop an empathetic understanding of your stakeholder's key emotions. You can speak to the situation they find themselves in. You can list frustrations they want smoothed away. You can name things they want, that they feel like they're not getting.
-
-# You're just about ready to make them a compelling offer to adjust how you work together.
-
-# You're just about ready to make your request to adjust how you work together.
-
-How can you now make a *compelling offer* to them?
-
-How can you ask them to change their behavior? How can you ensure that they listen to your request, and then decide to take a risk?
-
-The key to all these question is to remember that your stakeholder is, in fact, a human being.
-
-# despite all evidence to the contrary?
-It's hard for us to trust the people around us.
-
-As we go through our lives, as we suffer day to day frustrations and take pleasure in small delights, as we strive to accomplish work of which we can be proud, as we struggle to avoid failures that would bring shame... it is very easy for us to feel *alone* in those experiences.
-
-#  It is extremely easy for us to fear that
-
-That fundamental feeling of disconnection is waiting for all of us. Especially if there is something we feel we must achieve.
-
-We are all prey to a fear that we can not trust those around us. They have their own agendas. They don't truly understand the situation we're caught up in. They don't genuinely care about the struggles we face in pursuit of our work. When push comes to shove, we are going to be the ones shoved.
-
-From such a place of fear, it's very hard for any human to hear a challenge from someone with whom they work. And your request *is* going to present as a challenge your stakeholder, at least a little bit. If it was easy... you would already have made the change.
-
-Thus, it's crucial to make your offer in a way that builds some *trust*.
-
-Now, you might be saying "Um, Dan, what?" Perhaps your stakeholder presents as an emotionless automaton, and this description of soothing fears clangs horribly out of key with your lived experience. [frozen monolith of emotionlessness, devoid of any emotions whatsover]. You might be reading this and thinking "Indeed, if my stakeholder were *human*, this would be relevant. But they are icy and cold and no appeal to emotion will have any effect whatsoever."
-
-Look. Humans who present as rigidly tight and distant are, essentially *always*, living at the mercy of some very intense emotions indeed. Usually that's a deep wellspring of fear, along with a desperate dream of overcoming that fear through status and control. Humans hide their inner state *because* they feel intense emotions, not because they have no emotions.
-
-Furthermore, once you understand your stakeholder's underlying feeling of alone-ness, you're *not* going to just directly talk about those feelings with them. You're *not* going to say to your fierce, easily-upset Chief Operating Officer, "You seem unhappy and afraid and alone. Would you like a hug?"
-
-Instead, you're going to demonstrate with your *actions* that you understand them, and they can trust you.
-
-As we'll explain in detail below, you'll start to do so by making your request for a change in a carefully structured manner.
-
-# You'll demonstrates a deep understanding of the goals they're working so hard to accomplish. You'll make clear how well you understand the challenging situation they find themselves in. You'll share some of your own concerns, and then ask for a small change in their behavior. You'll offer them meaningful things in exchange. You will ensure they stay in control of the overall situation.
-
-Then, once they agree to a small change, you'll work hard to make the initial period of time a resounding success. To make the overall change *feel* like a win for them. Over time, you can then steadily adjust more and more of how you work together, earning greater and greater trust as you do so.
-
-But the first key step is how you frame your offer to them.
 
 ** How To Make A Compelling Offer
 
@@ -256,7 +147,7 @@ When you deliver your offer, you'll go through four steps:
 
    /As I understand it, within the next two years our company needs to develop a new line of business, to demonstrate to investors that we have growth potential. In service of this, the company is building a new <Foo> product for people who run <Bar> departments in the <Baz> segment. Our team will play a key role in that, by collecting and organizing data about <Quux>. Do I have that right?/
 
-   As above, always check with your stakeholder after laying this out. If they hesitate, draw out any concerns and then adjust. Continue until it's clear you're stating the goal in a way they find *compelling*.
+   Always check with your stakeholder after laying this out. If they hesitate, draw out any concerns and then adjust. Continue until it's clear you're stating the goal in a way they find *compelling*.
 
    This is a powerful way to start. By carefully anchoring the conversation in their long-term aspirations, you're demonstrating that you are a potential partner for them. That they might be able to trust you to help them accomplish that goal.
 
@@ -306,6 +197,14 @@ When you deliver your offer, you'll go through four steps:
 
    Then, invite them to collaborate with you, around your proposed change.
 
+If you've done the work to align on strategic outcomes, and to map your stakeholder's key emotions, you have at your disposal a somewhat surprisingly wide variety of ways to go through the fours steps above.
+
+# A somewhat surprisingly wide variety of ways to draw your stakeholder into productive collaboration.
+
+To bring that variety of options to life, I'm going to, first, list them in summary form. For each, I'll first name a problem you might run into with stakeholders, and then sketch in the corresponding action you could take.
+
+In the remainder of the chapter, I'll explore each tactic in more detail, bringing many to life with narrative examples.
+
 # XXX Do an example story?
 
 # XXX Add domain, name, details, possibly earlier
@@ -329,25 +228,10 @@ When you deliver your offer, you'll go through four steps:
 
 # Before we jump ahead to that, though, I want to share a suite of tactics for you to explore.
 
-If you've done the work to align on strategic outcomes, and to map your stakeholder's key emotions, you have at your disposal a somewhat surprisingly wide variety of ways to get unstuck. A somewhat surprisingly wide variety of ways to draw your stakeholder into productive collaboration.
+# Feel free to dip in an out of these, depending on what problems you run into with your very own stakeholder.
 
-To bring that variety of options to life, I'm going to, first, list them in summary form. For each, I'll first name a problem you might run into with stakeholders, and then sketch in the corresponding action you could take.
-
-In the remainder of the chapter, I'll explore each tactic in more detail, bringing many to life with narrative examples.
-
-Feel free to dip in an out of these, depending on what problems you run into with your very own stakeholder.
-
-But remember, for all of them, you're working backwards from being able to:
-
-1. Name the shared strategic intent
-
-2. Share your understanding of their concerns
-
-3. Share your own concerns
-
-4. Propose an adjustment in how you work together
-
-Okay, let's dig in.
+# But remember, for all of them, you're working backwards from being able to:
+# Okay, let's dig in.
 
 ** A Catalog of Tactics
 *** Propose a Timebox
@@ -1311,6 +1195,127 @@ I'm gonna indulge myself by quoting Oliver Wendell Holmes, Jr (which quote I fou
 The only thing that floats us over the waves of despair is "faith in [...] effort" and "the exercise of our powers."
 
 I think that captures it, perfectly. When the specter of failure rises up in our minds, we to beat it back by taking *action*. By exercising our powers.
+
+** The Human Experience Of Disconnection
+
+You've defined a Strategic Intent that your stakeholder cares deeply about. You understand how your work contributes to that goal.
+
+You've taken the time to develop an empathetic understanding of your stakeholder's key emotions. You can speak to the situation they find themselves in. You can list frustrations they want smoothed away. You can name things they want, that they feel like they're not getting.
+
+# You're just about ready to make them a compelling offer to adjust how you work together.
+
+# You're just about ready to make your request to adjust how you work together.
+
+How can you now make a *compelling offer* to them?
+
+How can you ask them to change their behavior? How can you ensure that they listen to your request, and then decide to take a risk?
+
+The key to all these question is to remember that your stakeholder is, in fact, a human being.
+
+# despite all evidence to the contrary?
+It's hard for us to trust the people around us.
+
+As we go through our lives, as we suffer day to day frustrations and take pleasure in small delights, as we strive to accomplish work of which we can be proud, as we struggle to avoid failures that would bring shame... it is very easy for us to feel *alone* in those experiences.
+
+#  It is extremely easy for us to fear that
+
+That fundamental feeling of disconnection is waiting for all of us. Especially if there is something we feel we must achieve.
+
+We are all prey to a fear that we can not trust those around us. They have their own agendas. They don't truly understand the situation we're caught up in. They don't genuinely care about the struggles we face in pursuit of our work. When push comes to shove, we are going to be the ones shoved.
+
+From such a place of fear, it's very hard for any human to hear a challenge from someone with whom they work. And your request *is* going to present as a challenge your stakeholder, at least a little bit. If it was easy... you would already have made the change.
+
+Thus, it's crucial to make your offer in a way that builds some *trust*.
+
+Now, you might be saying "Um, Dan, what?" Perhaps your stakeholder presents as an emotionless automaton, and this description of soothing fears clangs horribly out of key with your lived experience. [frozen monolith of emotionlessness, devoid of any emotions whatsover]. You might be reading this and thinking "Indeed, if my stakeholder were *human*, this would be relevant. But they are icy and cold and no appeal to emotion will have any effect whatsoever."
+
+Look. Humans who present as rigidly tight and distant are, essentially *always*, living at the mercy of some very intense emotions indeed. Usually that's a deep wellspring of fear, along with a desperate dream of overcoming that fear through status and control. Humans hide their inner state *because* they feel intense emotions, not because they have no emotions.
+
+Furthermore, once you understand your stakeholder's underlying feeling of alone-ness, you're *not* going to just directly talk about those feelings with them. You're *not* going to say to your fierce, easily-upset Chief Operating Officer, "You seem unhappy and afraid and alone. Would you like a hug?"
+
+Instead, you're going to demonstrate with your *actions* that you understand them, and they can trust you.
+
+As we'll explain in detail below, you'll start to do so by making your request for a change in a carefully structured manner.
+
+# You'll demonstrates a deep understanding of the goals they're working so hard to accomplish. You'll make clear how well you understand the challenging situation they find themselves in. You'll share some of your own concerns, and then ask for a small change in their behavior. You'll offer them meaningful things in exchange. You will ensure they stay in control of the overall situation.
+
+Then, once they agree to a small change, you'll work hard to make the initial period of time a resounding success. To make the overall change *feel* like a win for them. Over time, you can then steadily adjust more and more of how you work together, earning greater and greater trust as you do so.
+
+But the first key step is how you frame your offer to them.
+
+** The Getting Unstuck Game Plan, Parts I & II
+
+# The Getting Unstuck Game Plan, Parts The First and The Second
+
+The first step in the Getting Unstuck game plan is to obtain two things from your stakeholder:
+
+ 1. A long-term strategic outcome that they care deeply about achieving
+
+ 2. An understanding of how your team can help achieve that outcome
+
+We name this as its own step because, far too often, your stakeholder will be just hammering away at you about some near-term goal because, *in their head*, that's the only way to get to the long-term strategic outcome. You often have to do some work to understand what they're truly working backwards from, *and* how they're hoping your team can help get there.
+
+As per Stephen Bungay's The Art of Action, I name this combination a "Strategic Intent".
+
+Why is this so valuable?
+
+Aligning with your stakeholder on a Strategic Intent enables you to position a request for change as a *necessary step* in eventually achieving their long-term goal. It gives you a great deal of flexibility to come up with new ways to work together, that allow you to reach that long-term goal. Also, importantly, it enables you to demonstrate an authentic personal commitment to achieving that goal with them. This allows your stakeholder to start to see you as a *partner* in facing their most important challenges.
+
+In the book, we explore Strategic Intents in some detail. For today, I'll recommend something quite simple: just make a guess!
+
+Make your own best guess about some key, strategic business outcome that is 12-24 months out. Pick a single such outcome that you think your stakeholder is working backwards from. Then test that out your guess with them, and adjust until you get something that seems to resonate.
+
+That's the first step.
+
+The second step is to develop a picture of the underlying emotions that might be driving your stakeholder's behavior.
+
+Why is this so important?
+
+# Well, your stakeholder is a human being.
+
+Your stakeholder is (just guessing here) a human being. Thus, their problematic behavior is not driven merely by some rational desire to achieve that long-term outcome. Their problematic behavior is *also* the result of some powerful underlying emotions that they are experiencing.
+
+# Thus, an appeal to reason, even one that is buttressed by its importance for a key long-term goal, will very rarely be enough.
+
+Maybe there's something they're intensely afraid of, and their current behavior is an unconscious attempt to keep that Bad Thing at bay. Or perhaps there's something they have long and fervently desired, and their current behavior is an attempt to gradually move towards that Happy Dream.
+
+Naturally, your stakeholder doesn't openly *tell* you about these fears and dreams.
+
+Often, they don't even consciously recognize the connections between their emotions and their day-to-day behaviors. In this, they are very much not alone. Humans have an impressive ability to convince ourselves that anything even vaguely problematic about our *own* behavior isn't because of anything going on inside of *us*. No, our behavior is the completely inevitable result of the situation we're in, aka all those *other people* nearby.
+
+That difficult stakeholder isn't rude and dismissive because they're deeply insecure in their position of authority and therefore every innocent question from the team makes them feel attacked, no, no, no, they're actually being as calm as anyone could /possibly/ be expected to be, in the face of the obvious incompetence and lack of commitment being constantly demonstrated by /everyone around them/.[fn:: Again, since I Am Perfect And Have No Flaws, I have never fallen into this particular trap! No one who either works for or is married to me has ever had to deal with any frustrating behaviors that I am somehow totally convinced aren't my fault!]
+
+In order to successfully develop a request to make a change, you're going to investigate four specific underlying emotions. You'll look both for potential causes for the problematic behaviors on the surface, and also for potential wins you can offer them, if they're willing to make a change:
+
+ - What happens, day-to-day, that *frustrates* your stakeholder?
+
+ - What are they *afraid* might happen at some point in the future?
+
+ - What happens, day-to-day, that makes your stakeholder *feel good*?
+
+ - What do they *hope* happens at some point in the future?
+
+In the book, I go into detail on tactics for drawing emotions out, drawing on ideas from Chris Voss and Tahl Raz's Never Split the Difference.
+
+For today, I once again recommend making an educated guess. Because Important People are, well, Important, I find that it's often possible to make pretty good guesses to start.
+
+Once you have worked through these first two stages of the Getting Unstuck game plan, you'll be in proud possession of:
+
+ a) A long-term outcome that you can commit to helping your stakeholder achieve
+
+ b) An understanding of the situation they perceive themselves as being in
+
+ c) An understanding of their fears, frustrations, delights and dreams
+
+# Based on all of that, you can get past their immediate, day-to-day behavior, get past what they are *asking* for, and instead find a creative way to solve for their true, underlying problems. While addressing your own key concerns at the same time.
+
+Based on all of that, you'll be able to find a creative way to offer a solution to their underlying problems, while addressing your own concerns, *at the same time*.
+
+Of course, finding that creative way, *and* effectively pitching it to your stakeholder, brings all kinds of interesting and fun challenges of its own.
+
+Which is what the third stage in the Getting Unstuck game plan is all about!
+
+Let's go!
 
 * Todos
 ** DONE Try to split the initial long section
