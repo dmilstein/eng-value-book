@@ -10,9 +10,7 @@ It is a truth universally acknowledged, that a person in possession of a career 
 
 # [deal with, handle, act on]
 
-# In a series of posts,
-
-In today's post, I'm going to share some ideas on how to face that frustration---and *not* by simply giving up hope. Ideas for moving from trapped inaction to positive, productive action. Ideas for persuading your very own Important Person to *change their behavior*. Ideas for *getting unstuck*.
+I'm going to share some ideas on how to face that frustration---and *not* by simply giving up hope. Ideas for moving from trapped inaction to positive, productive action. Ideas for persuading your very own Important Person to *change their behavior*. Ideas for *getting unstuck*.
 
 I'm not going to claim that applying these ideas is *easy*. If that were true, well, pretty much no one would ever be frustrated with their bosses, peers or stakeholders. Which, [checks notes], nope, not yet.
 
@@ -20,13 +18,13 @@ But I do believe it's *possible*---and far more often than people realize. It's 
 
 Of course, making that kind of change takes real work.
 
-But I believe the effort is well worth it, for two reasons.
+I believe the effort is well worth it, for two reasons.
 
-First, being stuck is, well, *kind of a terrible way to live*. Spending too many of your working hours in a state of powerless resentment can be dangerous. The lack of agency can start to seep into other parts of your life. Your mind might start to drift into a habit of endlessly rehearsing your frustrations. Your sleep might start to break down. You might discover you're having trouble staying fully present with family or friends. Humans are not great at compartmentalizing a feeling of lack of agency.
+First, being stuck is, well, *kind of a terrible way to live*. Spending your working hours in a state of powerless resentment can be dangerous. The lack of agency can start to seep into other parts of your life. Your mind might drift into a habit of endlessly rehearsing your frustrations. Your sleep might start to break down. You might discover you're having trouble staying fully present with family or friends. Fundamentally, humans are not super great at compartmentalizing a feeling of lack of agency.
 
 Second, I'll encourage you to make the effort to get unstuck because, believe it or not, it can be *fun*. Other humans are endlessly fascinating! Getting unstuck means finding ways to work *with* those other humans, instead of desparately trying to work *around* them. Getting unstuck allows your to live in a place of curiosity, and to engage your own sense of playful, creative problem-solving. Which is way, way more fun than explaining to your mirror, once again, why your boss is crazy and wrong.[fn:: Though it is maybe nice that your mirror always agrees with you?]
 
-** Defining The State of Being Stuck
+** The State of Being Stuck
 
 # Defining & Illustrating The State of Being Stuck
 
@@ -36,32 +34,19 @@ Let's unpack that a bit.
 
 First, to Be Stuck, you must feel truly worried about *succeeding at your job*. It's not enough to simply be irritated with a colleague, even if that irritation is quite intense ("If I have to hear George lecture us all about The Customer one more time, so help me god"). The internal emotional dial only truly goes up to eleven if you feel like you're powerlessly drifting towards a failure (and, in particular, a failure for which you will be blamed).
 
-Second, to Be Stuck, there has to be an Important Person involved. That's what puts you into the state of powerlessness, of low agency. In fact, we'll *define* an Important Person as: someone who has some form of influence or control over how you do your job. That could be your boss, it could be a stakeholder, it could be a key peer.
+Second, to Be Stuck, there has to be an Important Person involved. That's what puts you into the state of powerlessness, of low agency. In fact, we'll *define* an Important Person as: someone who has some form of influence or control over how you do your job. That could be your boss, of course. But it could also be a stakeholder who has significant influence over what your team builds, or a key peer with whom you have to collaborate to build that thing.
 
 # It's a) someone you have to work with in order to succeed, and b) someone you can't tell to change their behavior.
 
-Third, we focus on behavior, not just personality. Being Stuck means being caught up in a *pattern of interaction* that is causing problems. We focus on behavior because that makes our concerns more *actionable*. It sets us up to make a request of our Important Person to change their behavior, initially in some small way. Now, don't get me wrong, that's still plenty hard! But it's way, *way* easier than asking them to change their personality.
+# Some important person is *acting* like a jerk, it's not just that they *are* a jerk.
 
-# So, instead of saying "I'm stuck because my CPO is condescending jerk", you'll say "I'm stuck because my CPO shuts people down during planning sessions, so no one is
+Finally, Being Stuck means there is a problematic *pattern of interaction*. In other words, we focus on *behavior*, not just on *personality*. Your COO may be brusque and patronizing, and that may legitimately frustrate the heck out of you.[fn:: Ask my friends about how much I, personally, enjoy being patronized!] But those unpleasant traits are not, in and of themselves, enough to cause you to Be Stuck. If the COO's dismissive rudeness causes them to shut down planning sessions without understanding the risks the team is trying to surface, that's another story altogether.
 
-# And, believe it or not, you can sometimes get even quite difficult Important People to change their behavior, without having to do a full personality transplant.
+Why the pedantic distinction between "personality" and "patterns of interaction"? Because focusing on behavior makes our concerns far more *actionable*. It sets us up to make a request of our Important Person to change that behavior, initially in some small way. Although that's still a pretty tricky request to make, it's way, way, *way* easier than asking them to *change their personality*. You're going to have much better luck telling your COO "I want to try out a new approach in our planning sessions", than telling them, "Could you please stop being such a dick?"[fn:: Even though you may be sorely, sorely tempted.]
 
-
-# You're not going to ask your Important Person to
-
-# We're going to share a Game Plan for getting *unstuck*.
-
-# One of the very most fun parts of being stuck is how endless varied it can be.
-
-# When things are *good*, there are some consistent patterns: the team enjoys clear objectives, high levels of trust, rapid feedback cycles, limited dependencies outside of the team, etc.
-
-# On the other hand, when things *aren't* good...
-
-# It's like every situation is its own special snowflake of exhausting dysfunction. Humans seem to be able to come up with a somewhat incredible variety of ways to be frustrating and crazy.[fn::  "Happy teams are all alike, every unhappy team is unhappy in their own way," writes Leo Tolstoy in his  agile software guide, /Anna Karenina/. (it's possible I just spent half an hour trying to find a *third* famous opening line I could mangle in this introduction. Maybe: "I write this sitting in the office kitchen sink." Or perhaps "Gregor From Ops awoke one morning from uneasy dreams to find himself transformed on zoom into a gigantic insect.")]
+# We'd all like you to stop being such a dick.
 
 ** Three Totally Made Up Examples
-
-# completely fictional
 
 To bring this definition to life, below are three /completely fictional/ examples.[fn:: No examples in this post are based on any actual stakeholders I have ever worked with and who might be reading this footnote, nor on any behavior I myself demonstrated when in a position of authority, because, luckily, I Am Perfect And Have No Flaws, okay let's go.]
 
@@ -69,13 +54,13 @@ To bring this definition to life, below are three /completely fictional/ example
 
 Deanna is an engineering lead at an early-stage startup. Her CEO, Karim, has developed an unpleasant habit of, once a week or so, interrupting daily standup and insisting the team drop everything and start working on some totally new and amazing product idea he's just dreamed up.
 
-As a completely unsurprising result of this constant context switching, it's been months since Deanna's team has gotten, well, anything meaningful done. She knows that they need to commit and focus, but she can't seem to get Karim to change his behavior.
+As a completely unsurprising result of all this context switching, it's been months since Deanna's team has gotten anything meaningful done. She can feel their cash runway burning up, every week that they keep randomly switching around. She knows they need to commit and focus, but she can't seem to get Karim to change his behavior.
 
 Then, one afternoon, Karim tensely informs Deana that he's worried about team velocity. He tells her he's decided that the team needs to start working longer hours, immediately. Afterwards, Deanna finds herself striding angrily around her office, muttering a somewhat shocking torrent of swear words under her breath.
 
-# Deanna is feeling very stuck with Karim.
+# Deanna is very stuck with Karim.
 
-If your stakeholder keeps on blowing up your backlog with new ideas, and then blames you for the resulting snail's pace of delivery, then you are very much Stuck.
+If your stakeholder keeps on blowing up your backlog with new ideas, and then blames you for the resulting snail's pace of delivery, then that indeed qualifies as Being Stuck.
 
 # The Getting Unstuck Game Plan is for you!
 
@@ -103,7 +88,7 @@ Max Hartswell, the engineering director over Alistair's team, has apparently nev
 
 Alistair, Alistair's PM, all the adjacent tech leads and half the designers spend all their working hours trying to track Max down and get him to sign off on some decision he announced, weeks ago, he wanted to review "just one more time."
 
-Then, one evening at the company happy hour, Alistair finds himself awkwardly chatting with Max. The engineering director takes a sip from his hard seltzer. Alistair tries to think of something to say. Then, out of nowhere, Max airily tells Alistair that he's "a little disappointed" that Alistair's team isn't stepping up and showing more independence and ownership. "It's like you're all just *waiting* to be told what to do," he says. Alistair nearly chokes on his beer. After managing to extricate himself from the conversation, Alistair realizes he might have to talk with his wife about whether or not he can stay at this job.
+Then, one evening at the company happy hour, Alistair finds himself awkwardly chatting with Max Hartswell. The engineering director takes a sip from his hard seltzer. Alistair tries to think of something to say. Then, out of nowhere, Max airily tells Alistair that he's "a little disappointed" that Alistair's team isn't stepping up and showing more independence and ownership. "It's like you're all just *waiting* to be told what to do," he says. Alistair nearly chokes on his beer. After managing to extricate himself from the conversation, Alistair realizes he might have to talk with his wife about whether or not he can stay at this job.
 
 If your stakeholder claims to want to empower their teams, but absolutely kneecaps anyone who shows the slightest bit of independence, man, you are totally Stuck.
 
@@ -111,13 +96,7 @@ I could go on!
 
 I suspect you could, too!
 
-# Alistair is feeling so stuck, he's not sure he can imagine being unstuck ever again.
-
-# Karim-the-CEO, Geoff-the-VP-of-Sales and Max-The-Engineering-Director are all very different human beings, working at very different businesses, trying to achieve very different goals... and each exhibiting a different form of dysfunction.
-
-# But, luckily, there is a single, underlying game plan that Deanna, Maria and Alistair can all run. A common approach that will allow them to gradually shift into a productive collaboration with each of their difficult, Important People. An approach to get each of those Important People to change their behavior---at first in small ways, and them more deeply over time.
-
-# Let's dig in.
+Humans in positions of power have a truly marvelous ability to come up with new ways to be frustrating and crazy. Leo Tolstoy spoke to this in his classic guide to agile software development, /Anna Karenina/: "Happy teams are all alike, every unhappy team is unhappy in their own way."[fn:: It's possible I just spent half an hour trying to find a *third* famous opening line I could mangle in this introduction. Maybe, "I write this sitting in the office kitchen sink." Or perhaps "Gregor From Ops awoke one morning from uneasy dreams to find himself transformed on Zoom into a gigantic insect.")]
 
 /Hello! Today's post is an excerpt from a book [link] I'm writing, titled:/
 
@@ -127,53 +106,61 @@ I suspect you could, too!
 
 /In the book, I develop a step-by-step game plan for gradually drawing your Important Person, whom I term your "stakeholder", into a process of collaborative problem-solving./
 
-/In this series of posts, I'm exploring a somewhat late stage in that plan: how to approach your stakeholder with your specific request to change their behavior. In the full game plan, there are two preparatory stages before that moment./
-
-# /For context, I'll briefly sketch those in below./
+/In this series of posts, I'm exploring a somewhat late stage in that plan: how to approach your stakeholder with your specific request to change their behavior. In the full game plan, there are two preparatory steps before that moment:/
 
 /The first step is to align around a long-term strategic outcome that your stakeholder cares deeply about achieving. The second is to develop a picture of the underlying emotions that might be driving your stakeholder's surface behavior./
 
-/The book has a wealth of tactics for effectively going through those two steps. For today, though, you can, well, just *guess*. Come up with your own hypothesis for a) what your stakeholder is working backward from, and b) their key frustrations, fears, hopes and desires./
+/The book has a wealth of tactics for effectively going through those two steps. For today, though, I encourage you to, well, *guess*! Come up with a reasonable hypothesis for a) the long-term goal your stakeholder is working backward from, and b) their key frustrations, fears, hopes and desires./
 
 /Speaking of the book: if you would like to be a beta reader once an early version is ready, please drop me a line at dan@dan-milstein.com! Ditto if you have some challenges with your very own Important Person and could use some [coaching support] from, say, an experienced product and engineering leader who finds human beings endlessly fascinating and is in the business of offering coaching and advising services to engineering and product leaders. Say./
 
-** How To Make A Compelling Offer
+** The Elements Of A Compelling Offer
 
-When you deliver your offer, you'll go through four steps:
+When you actually sit down with your stakeholder to ask them to change their behavior, you'll methodically go through the following four steps:
+
+# XXX Rename below for Substack -- Name The Long-Term Strategic Goal
 
 1. *Name the shared Strategic Intent*
 
-   State your understanding of both the key long-term goal, and also your team's role in accomplishing that goal. Use their own words. Make it as clear and concise as possible:
+   State your understanding of both the key long-term goal, *and* your team's role in accomplishing that goal. Use their own words. Make it as clear and concise as possible:
 
-   /As I understand it, within the next two years our company needs to develop a new line of business, to demonstrate to investors that we have growth potential. In service of this, the company is building a new <Foo> product for people who run <Bar> departments in the <Baz> segment. Our team will play a key role in that, by collecting and organizing data about <Quux>. Do I have that right?/
+   /As I understand it, within the next two years our company needs to develop a new line of business, to demonstrate to investors that we can continue to grow. In order to do so, the company is building a new <Foo> product for people who run <Bar> departments in the <Baz> segment. My team will play a key role in that, by collecting and organizing data about <Quux>. Do I have that mostly right?/
 
-   Always check with your stakeholder after laying this out. If they hesitate, draw out any concerns and then adjust. Continue until it's clear you're stating the goal in a way they find *compelling*.
+   Always check with your stakeholder after laying this out, ala "Do I have that mostly right?" If you see them hesitate, draw out any concerns and then adjust. Continue until it's clear you're stating the goal in a way they find *compelling*.
 
-   This is a powerful way to start. By carefully anchoring the conversation in their long-term aspirations, you're demonstrating that you are a potential partner for them. That they might be able to trust you to help them accomplish that goal.
+   Why is this the first step?
 
-   But then, calmly state that you believe the goal is at risk:
+   By carefully anchoring the conversation in their long-term aspirations, you'll demonstrate that you are a potential partner for them. That they might be able to trust you to help them accomplish that goal.
+
+   Then, you calmly state that you believe the goal is at risk:
 
    /"I have some concerns about our ability to build a <Foo> product fast enough. I want to talk those concerns out with you."/
 
-   This creates space for them to listen carefully to whatever comes next.
-
-   # You're creating space for them t giving them a slight feeling of hope that they're not as *alone* in trying to achieve that goal.
+   If you've described a goal they truly care about, they will now listen carefully to whatever comes next.
 
 2. *Share your understanding of their concerns*
 
-   Before describing any of your own concerns, first speak to theirs:
+   Before describing any of your own concerns, first speak to the things that are difficult, or important, or worrisome for them:
 
-   /"Whatever we do, I want to be certain we solve for a few things. Right now, I worry that the team's work can feel like a bunch of cryptic backend changes, and you can't tell if we're on track or not. So I want to make sure progress is much more *visible* to you./
+   /"Whatever we do, I want to be certain we solve for a few things. Right now, I worry that the team's work can feel like a bunch of cryptic backend changes, and you can't tell if we're on track or not. So I want to make sure progress is much more *visible* to you."/
 
-   /I'm also worried that you're in a tough situation, because of... so I want to be sure you're able to.../
+   /"I'm also worried that you're in a tough situation, because of... so I want to be sure you're able to..."/
 
-   /Finally, if I were in your shoes, I would probably be pretty worried about... so I want to be absolutely certain we don't.../
+   /"Finally, if I were in your shoes, I would probably be pretty worried about... so I want to be absolutely certain we don't..."/
 
    If they have fears, express how reasonable those fears are, and that whatever you do, they must be addressed. If they have frustrations, validate those frustrations and express your desire to smooth them out as much as possible. If they have unmet desires and dreams, speak authentically to how much those matter.
 
+   As with the statement of strategic goals, after you lay those out, check in with them:
+
+   /"Does that sound about right?"/
+
    This is the payoff for the work you've done to mine for underlying emotions.
 
-   You're about to ask your stakeholder to take the risk of changing their behavior. By making clear how deeply you understand and care about *their* concerns, you give them a chance to feel less alone.
+   # XXX For substack: This is where you'll use your hypothseis about their frustrations, fears, delights and dreams.
+
+   Why do you spend so much time speaking to your stakeholder's concerns?
+
+   You're about to ask your stakeholder to take the risk of changing their behavior. By making clear how deeply you understand and care about *their* concerns, you make that risk feel much safer. You make it clear that they aren't facing that risk alone.
 
    Which will then make it possible for them to hear *your* concerns.
 
@@ -183,11 +170,13 @@ When you deliver your offer, you'll go through four steps:
 
    /"I'm worried that the engineers are spending a ton of time responding to urgent support requests for our existing products. Unless we find a way to reduce interruptions, I don't think we're going to see much progress on the <Quux> pipeline this year."/
 
-   Express your concerns in a way which doesn't trigger feelings for your stakeholder of being judged or attacked. Offer your concerns as challenges you can face together.
+   Express your concerns in a way which doesn't trigger feelings for your stakeholder of being judged or attacked. E.g. don't say, "You're not pushing back enough on the Success team, so the engineers are overwhelmed." Make a statement about the situation you both find yourselves in.
+
+   Offer your concerns as challenges you can face together.
 
 4. *Propose an adjustment in how you work together*
 
-   Now, pull it all together. Lay out a concrete, incremental adjustment which, ideally:
+   Now, pull it all together. Lay out a concrete, incremental adjustment which, as much as possible:
 
    - Makes things a little better for you
 
@@ -197,43 +186,30 @@ When you deliver your offer, you'll go through four steps:
 
    Then, invite them to collaborate with you, around your proposed change.
 
-If you've done the work to align on strategic outcomes, and to map your stakeholder's key emotions, you have at your disposal a somewhat surprisingly wide variety of ways to go through the fours steps above.
+   /"I'd like to set up a weekly triage session, and ask the Success team to bring *all* support requests to that. I'll work with the engineers so that, at sprint planning, you have a much clearer understanding of what near-term outcome we're working backward from. That way, you and I can, together, decide when to push back on Success, to be certain we stay on track for the <Quux> pipeline. Could we try that for the next few weeks?"/
 
-# A somewhat surprisingly wide variety of ways to draw your stakeholder into productive collaboration.
+This four step approach works incredibly well, in an incredible variety of situations. It speaks to a deep part of the experience of being human.
 
-To bring that variety of options to life, I'm going to, first, list them in summary form. For each, I'll first name a problem you might run into with stakeholders, and then sketch in the corresponding action you could take.
+But it is also one of those easy-to-describe but fascinatingly-hard-to-do-in-practice kinds of things.
 
-In the remainder of the chapter, I'll explore each tactic in more detail, bringing many to life with narrative examples.
+To bring it more fully to life, and to equip you with a wide set of options to handle your very own Important Person, in your very own business context, I'm going to share an extensive list of *tactics* for first developing and then delivering this kind of offer.
 
-# XXX Do an example story?
+For each such tactic, I'll first name a problem you might run into with stakeholders, and then sketch in the corresponding action you could take.
 
-# XXX Add domain, name, details, possibly earlier
+In the final section of today's post, I'm going to list all the tactics in summary form. In subsequent posts, I'll explore each tactic in more detail.
 
-# Remember Deanna, who was struggling with her CEO, Karim, because he kept blowing up their sprints with random new product ideas?
-
-# Let's see how this might work for her.
-
-# Deanna spent some time figuring out the long-term goals that Karim is working backwards from. Last week, she was finally able to lay that out crisply to him: their company has no more than eighteen months of runway, and, for their next funding round, they'll need a few large, happy, engaged customers. To get there, her team needs to improve the rough prototype they've sold to a few extremely adventurous early adopters, to turn those customers into engaged, active users, and to allow Karim to sell to another slice.
-
-# Karim is, of course, frustrated by the lack of velocity. But after digging in, Deanna realized that, for Karim, velocity is measured almost entirely in terms of delivery of interactive, visual protoypes. Part of why he's been blowing things up is that he genuinely can't visualize what the team is working on, half the time.
-
-# He's also quite afraid that what they have planned won't be compelling enough---which is driving him to keep adding more and more features.
-
-
-# Be ready to spend real time preparing this offer.
+# In the remainder of the chapter, I'll explore each tactic in more detail, bringing many to life with narrative examples.
 
 # It takes time to come up with something crisp, clean and compelling. Talk to some friends about how they've faced similar collaboration challenges at their jobs. Try out new ways to frame your stakeholder's concerns, to find a truly empathetic way to speak to their underlying feelings. Brainstorm the smallest possible adjustment that you could propose, that would still help you just a little bit. Spend time refining and testing your understanding of what your overall business is trying to do, to see if you can find creative new ways to move towards long-term goals.
 
-# In the next chapter, we'll see Quin go through this process, ending with her delivering an offer to Marco.
-
-# Before we jump ahead to that, though, I want to share a suite of tactics for you to explore.
-
 # Feel free to dip in an out of these, depending on what problems you run into with your very own stakeholder.
 
-# But remember, for all of them, you're working backwards from being able to:
-# Okay, let's dig in.
 
-** A Catalog of Tactics
+** A Smorgasbord Of Tactics
+# Buffet of Tactics
+# A Catalog of Tactics
+# An Overview Of Tactics
+# An Overview Of Tactics To Be Described Later
 *** Propose a Timebox
 Problem: your stakeholder is reluctant to consider a change in their behavior.
 
@@ -289,6 +265,7 @@ Problem: You're worried that your stakeholder will be reluctant to commit to you
 
 Solution: Make it easier for them to say yes by making it clear that you will personally take on extra work, and/or face some hard thing.
 
+* Later
 ** Propose a Timebox
 
 Problem: your stakeholder is reluctant to consider a change in their behavior.
@@ -996,6 +973,36 @@ Subhead: How To Ask Your Boss To Stop Pissing You Off And Live To Tell The Tale
 Fears & Dreams & Humans & Building Softare: Part I
 Subhead: The Unreasonable Effectiveness of an Empathetic Understanding
 * Scraps
+** Deanna/Karim example
+
+Remember Deanna, who was struggling with her CEO, Karim, because he kept blowing up their sprints with random new product ideas?
+
+Let's see how this might work for her.
+
+Deanna spent some time figuring out the long-term goals that Karim is working backwards from. Last week, she was finally able to lay that out crisply to him: their company has no more than eighteen months of runway, and, for their next funding round, they'll need a few large, happy, engaged customers. To get there, her team needs to improve the rough prototype they've sold to a few extremely adventurous early adopters, to turn those customers into engaged, active users, and to allow Karim to sell to another slice.
+
+Karim is, of course, frustrated by the lack of velocity. But after digging in, Deanna realized that, for Karim, velocity is measured almost entirely in terms of delivery of interactive, visual protoypes. Part of why he's been blowing things up is that he genuinely can't visualize what the team is working on, half the time.
+
+He's also quite afraid that what they have planned won't be compelling enough---which is driving him to keep adding more and more features.
+
+
+** One Game Plan for All three examples
+Alistair is feeling so stuck, he's not sure he can imagine being unstuck ever again.
+
+Karim-the-CEO, Geoff-the-VP-of-Sales and Max-The-Engineering-Director are all very different human beings, working at very different businesses, trying to achieve very different goals... and each exhibiting a different form of dysfunction.
+
+But, luckily, there is a single, underlying game plan that Deanna, Maria and Alistair can all run. A common approach that will allow them to gradually shift into a productive collaboration with each of their difficult, Important People. An approach to get each of those Important People to change their behavior---at first in small ways, and them more deeply over time.
+
+Let's dig in.
+
+** Snowflake of Dysfunction, All Happy Families
+
+When things are *good*, there are some consistent patterns: the team enjoys clear objectives, high levels of trust, rapid feedback cycles, limited dependencies outside of the team, etc.
+
+On the other hand, when things *aren't* good...
+
+It's like every situation is its own special snowflake of exhausting dysfunction. Humans seem to be able to come up with a somewhat incredible variety of ways to be frustrating and crazy.[fn::  "Happy teams are all alike, every unhappy team is unhappy in their own way," writes Leo Tolstoy in his  agile software guide, /Anna Karenina/. (it's possible I just spent half an hour trying to find a *third* famous opening line I could mangle in this introduction. Maybe: "I write this sitting in the office kitchen sink." Or perhaps "Gregor From Ops awoke one morning from uneasy dreams to find himself transformed on zoom into a gigantic insect.")]
+
 ** The Damage of Staying Stuck
 At its worst, getting stuck can be a somewhat profoundly awful experience. Over time, human beings suffer long-lasting physical stress damage if they perceive themselves as being in the presence of a growing danger over which they have no agency or control. We are supremely social animals, so the possibility of public failure and shame is a very real form of danger for us.
 
@@ -1014,7 +1021,6 @@ We name four key emotion questions to focus on with your stakeholder:
  4. What do they dream may one day come true?
 
 Those form a powerful foundation for empathetic understanding and thus, persuasion.
-
 
 ** Intro bits
 
