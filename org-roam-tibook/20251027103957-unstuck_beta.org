@@ -3,3 +3,83 @@
 :END:
 #+title: Unstuck Beta
 For a round of beta reading of Getting Unstuck
+
+Just gonna start to type, see what I come up with.
+
+* Goals
+
+What is my goal with a round of beta reading?
+
+ - See if I'm speaking to a problem people care about
+
+ - See when they stop reading
+
+ - See if they apply any of it
+
+
+* High-Level Chunks
+
+ - Finish a draft
+
+ - Upload to HelpThisBook
+
+ - Write an invitation
+
+ - Decide who to send that to
+
+ - Go?
+
+* What goes into the draft?
+
+Current ToC
+
+  Chapter 1: Introduction: The Joys and Pains of Working With Humans
+
+  Part I: How to Solve Problems So You Can Solve Problems
+    Chapter 2: The Getting Unstuck Game Plan
+    Chapter 3: Align On a Strategic Outcome
+    Chapter 4: Mine for Fears & Dreams
+    Chapter 5: Make a Compelling Offer
+    Chapter 6: /Quin & Marco Go For A Walk/
+
+I think, get rid of the Part I/Part II, but do the three part breakdown of compelling offer, so it becomes something like:
+
+  1. The Joys and Pains of Working With Humans
+  2. The Getting Unstuck Game Plan
+  3. Align On a Strategic Outcome
+  4. Mine for Fears & Dreams
+  5. The Elements of a Compelling Offer
+  6. Offer A Small, Easy-To-Agree-To Change
+  7. Motivate Action (Now and Not Later)
+  8. Speak To Your Stakeholder's Human Experience
+  9. /Quin & Marco Go For A Walk/
+
+In the vicinity of 30,000 words, give or take 5,000 words, at a guess. 150 minutes, call it 3 hours of reading.
+
+* Open Questions/Work I've Considered Doing
+** Review/merge new Intro ideas in [[file:20250913100150-make_a_compelling_offer.org::*Introduction][Compelling Offer]]
+All the stuff I have written in for Substack. Also maybe I have something in the abortive "Four Key Feelings" in sub
+** Review Strategic Outcome chapter
+Comb through all the substack writing, strip it down and simplify.
+
+** Review/merge from [[file:~/Dropbox/Projects/TechInvestBook/substack/013-four-emotions.org::*Fears & Dreams & Humans & Building Softare: Part I][4 Emotions]] substack
+And, not, I develop a whole narrative in there.
+
+** Experiment: Quin & Marco as separate chapters
+Move to interstitial chapters? Keep woven through? Get back to them... when?
+
+** Experiment: lots of little stories vs one big story
+** Split out Compelling Offer, review
+
+* Target Date
+December 5th is 5 weeks out.
+
+What would a week by week breakdown look like, to get to that date? Let's look by end of week dates:
+
+** 11/07: Review/merge new Intro ideas in Compelling Offer
+** 11/14: Review Strategic Outcome chapter
+*** Experiment: Quin & Marco as separate chapters
+** 11/21: Review/merge from 4 Emotions substack
+*** Experiment: lots of little stories vs one big story
+** 11/28: Split out Compelling Offer, review
+** 12/05: Finalize, upload to HTB
