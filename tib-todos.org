@@ -1,19 +1,44 @@
 Project/todo list for the Book In Question
 
-; (org-clock-csv-to-file "./clock-data.csv")
-
 * Book Inbox                                      :inbox:
 * [[id:E0ADBF07-90B8-4C37-81C0-96A428020F5E][Substack]]                                        :gtasks:
-** TODO Work in opening of other famous novels
+** TODO For Substack, introduce/illustrate emotions a bit differently
+Like, specifically say:
+
+Understand their frustrations, so you can offer a change that smoothes those away. Understand their fears, because often, their day-to-day difficult behavior is driven by some fear of something bad happening in the future. Once you understand their fear, you can offer a new way to work together, a new way to behave, that will still ensure that bad thing doesn't happen, without their making you lose your mind. Understand what it is that makes them feel good, so you can offer them more of those experiences then they're getting right now (or ensure they don't lose the ones they have).
+** DONE Work in opening of other famous novels    :curweek:
+CLOSED: [2025-10-30 Thu 12:08]
+*** A River Runs Through it
+In my family, there was never much distinction made between religion and fly fishing.
+*** The Crying of Lot 49
+One summer afternoon Mrs. Oedipa Maas came home from a Tupperware party whose hostess had put perhaps too much kirsch in the fondue to find that she, Oedipa, had been named executor, or she supposed executrix, of the estate of one Pierce Inverarity, a California real estate mogul who had once lost two million dollars in his spare time but still had assets numerous and tangled enough to make the job of sorting it all out more than honorary.
 *** I Capture the Castle
 I write this sitting in the kitchen sink.
 *** Metamorphosis
 Gregor Samsa awoke one morning from uneasy dreams to find himself transformed in his bed into a gigantic insect.
-*** The Crying of Lot 49
-Wendel "Mucho" Maas...
-*** A River Runs Through it
-In my family, there was never much distinction made between religion and fly fishing.
-** TODO Bring to life challenge of making request :curweek:pom:
+*** Gravity's Rainbow
+“A screaming comes across the sky. It has happened before, but there is nothing to compare it to now.
+*** The Hobbit
+In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it to sit down on or to eat: it was a hobbit-hole, and that means comfort.
+*** Fear & Loathing In Las Vegas
+We were somewhere around Barstow on the edge of the desert when the drugs began to take hold.
+** TODO Review/Revise 4 Emotions
+** DONE Decide: feedback or just ship?            :curweek:
+CLOSED: [2025-10-30 Thu 12:10]
+** TODO Format for Substack                       :curweek:
+** DONE Wrap post w/ just the catalog?            :curweek:
+CLOSED: [2025-10-30 Thu 11:09]
+:LOGBOOK:
+CLOCK: [2025-10-30 Thu 09:13]--[2025-10-30 Thu 11:09] =>  1:56
+CLOCK: [2025-10-29 Wed 09:40]--[2025-10-29 Wed 11:48] =>  2:08
+CLOCK: [2025-10-28 Tue 13:52]--[2025-10-28 Tue 15:05] =>  1:13
+CLOCK: [2025-10-28 Tue 10:16]--[2025-10-28 Tue 11:15] =>  0:59
+CLOCK: [2025-10-28 Tue 08:28]--[2025-10-28 Tue 09:00] =>  0:32
+CLOCK: [2025-10-25 Sat 08:59]--[2025-10-25 Sat 08:59] =>  0:00
+CLOCK: [2025-10-24 Fri 15:56]--[2025-10-24 Fri 16:21] =>  0:25
+:END:
+** DONE Bring to life challenge of making request :curweek:
+CLOSED: [2025-10-28 Tue 11:15]
 :LOGBOOK:
 CLOCK: [2025-10-26 Sun 16:57]--[2025-10-26 Sun 17:20] =>  0:23
 CLOCK: [2025-10-26 Sun 09:02]--[2025-10-26 Sun 10:30] =>  1:28
@@ -31,14 +56,6 @@ Then, you can lay out your concerns, carefully doing so in a non-judgmental fash
 At that point, you can draw your stakeholder into a collaborative problem solving session by offering a possible solution.
 
 It's much easier to do this in small increments than as one big step -- that allows you to build trust as you to.
-** TODO Wrap post w/ just the catalog?            :curweek:pom:
-:LOGBOOK:
-CLOCK: [2025-10-28 Tue 10:16]
-CLOCK: [2025-10-28 Tue 08:28]--[2025-10-28 Tue 09:00] =>  0:32
-CLOCK: [2025-10-25 Sat 08:59]--[2025-10-25 Sat 08:59] =>  0:00
-CLOCK: [2025-10-24 Fri 15:56]--[2025-10-24 Fri 16:21] =>  0:25
-:END:
-** TODO Review/Revise 4 Emotions
 ** TODO Agile Manifesto / working software
 ** TODO For Agile cartoon rewrite, consider pachinko metaphor
 Where, no matter what you do, your ball seems to bounce down to the middle, which is "late and not quite whate everyone wanted".
@@ -48,21 +65,34 @@ Could put it in late, after explaining the fanning out tree view, and picking yo
 ** TODO Read up on Google/Substack/SEO
 ** TODO Think about a call to action for book announcements
 * [[id:9410A7DC-111C-4791-B8A1-C20867904251][Unstuck Beta]]                                    :gtasks:
-** TODO Chunk out work to get to Beta             :curweek:
-** TODO Decide a target date                      :curweek:
-** TODO Make target visible                       :curweek:
+** DONE Chunk out work to get to Beta             :curweek:
+CLOSED: [2025-10-31 Fri 08:53]
+:LOGBOOK:
+CLOCK: [2025-10-31 Fri 08:17]--[2025-10-31 Fri 08:53] =>  0:36
+:END:
+** DONE Decide a target date                      :curweek:
+CLOSED: [2025-10-31 Fri 09:02]
+:LOGBOOK:
+CLOCK: [2025-10-31 Fri 08:53]--[2025-10-31 Fri 09:02] =>  0:09
+:END:
+** DONE Make target visible                       :curweek:
+CLOSED: [2025-10-31 Fri 09:12]
+:LOGBOOK:
+CLOCK: [2025-10-31 Fri 09:02]--[2025-10-31 Fri 09:12] =>  0:10
+:END:
 Up on the wall?
 
 Maybe have a burndown? Use claude to visualize?
 
 Visible on the wall and/or in org?
-* Compelling Offer                                :gtasks:
-** TODO Try splitting Compelling Offer            :curweek:
+* [[id:5C7A0B37-8984-4A1F-8371-C1FCEB637174][Compelling Offer]]                                :gtasks:
+** TODO Split into three chapters
  1. Offer A Small, Easy-To-Agree-To Change
     a. Propose a Timebox
     b. Offer A Future Decision
     c. Shrink Your Ask
- 2. How To Motivate Action (Now and Not Later)
+    d. Put Yourself On the Line (maybe move to section 3??)
+ 2. Motivate Action (Now and Not Later)
     a. Link Frustrations To Outcomes
     b. Tell A Story Of Growing Danger
     c. Create Urgency Through Visibility
@@ -71,15 +101,15 @@ Visible on the wall and/or in org?
     b. Find Wins For Your Stakeholder By Hook Or By Crook
     c. Keep 'Em Busy
     d. Address Fears Directly
-    e. Put Yourself On the Line (maybe move to section 1??)
-** TODO Review: bit more detail before stories?   :curweek:
+** TODO Add "Enlist Nearby Authority" to tactics?
+** TODO Review: bit more detail before stories?
 Either open up idea a bit or list a few options.
-** TODO Jordan Smith: bring online pharmacy to life
-** TODO Do online pharmacies do compounding?
 ** TODO Write "How To Deliver Offer"
 :LOGBOOK:
 CLOCK: [2025-10-20 Mon 16:52]--[2025-10-20 Mon 16:52] =>  0:00
 :END:
+** TODO Jordan Smith: bring online pharmacy to life
+** TODO Do online pharmacies do compounding?
 ** TODO Experiment with Problem/Tactic/Example layouts
 ** DONE Make it Good Enough For Now
 CLOSED: [2025-10-23 Thu 11:09]
@@ -120,7 +150,10 @@ But harrangue people to *actually do them*.
 People are clearly resonating with that, and it's actually how I think.
 
 * [[id:454225CA-DD66-4ACA-B8B3-429F6551DBDC][New Intro]]                                       :gtasks:
-** TODO Grab/integrate Compelling Offer>Substack
+** TODO Grab/integrate Compelling Offer>Substack  :curweek:pom:
+:LOGBOOK:
+CLOCK: [2025-10-31 Fri 09:12]
+:END:
 ** TODO Lay out CPS + tech-specific context
 Like, "Ultimately, what you're going to do is lay out for your stakeholder:
 
