@@ -44,9 +44,9 @@ Second, to Be Stuck, there has to be an Important Person involved. That's what p
 
 Finally, Being Stuck means there is a problematic *pattern of interaction*. In other words, we focus on *behavior*, not just on *personality*. Your COO may be brusque and patronizing, and that may legitimately frustrate the heck out of you.[fn:: Ask my friends about how much I, personally, enjoy being patronized!] But those unpleasant traits are not, in and of themselves, enough to cause you to Be Stuck. If, however, the COO's dismissive rudeness causes them to shut down planning sessions without first understanding the risks the team is trying to surface, that's another story altogether.
 
-Why this pedantic distinction between "personality" and "patterns of interaction"?[fn:: I mean other than the obvious fact that I love pedantic distinctions. I may not yet gotten the nickname Dan 'Pedantic Distinctions' Milstein, but it's only a matter of time.]
+Why this pedantic distinction between "personality" and "patterns of interaction"?[fn:: I mean other than the obvious fact that I love pedantic distinctions. I may not yet have gotten the nickname Dan 'Pedantic Distinctions' Milstein, but it's only a matter of time.]
 
-Focusing on behavior makes your concerns far more *actionable*. It sets you up to make a request of your Important Person to change that behavior, initially in some small way. Although that's still a pretty tricky request to make, it's way, way, *way* easier than asking them to *change their personality*. You're going to have much better luck asking your COO, "Could we maybe try out a new approach to our planning sessions?", than asking them, "Could you maybe try out not being such a dick all the time?"
+Focusing on behavior makes your concerns far more *actionable*. It sets you up to make a request of your Important Person to change that behavior, initially in some small way. Although that's still a pretty tricky request to make, it's way, way, *way* easier than asking them to *change their personality*. You're going to have much better luck asking your COO, "Could we maybe try out a new approach to our planning sessions?", than asking them, "Could we maybe try out you're not being such a dick all the time?"
 
 ** Three Totally Made Up Examples
 
@@ -56,7 +56,7 @@ To bring this definition to life, below are three /completely fictional/ example
 
 Deanna is an engineering lead at an early-stage startup. Her CEO, Karim, has developed an unpleasant habit of, once every other week or so, interrupting daily standup and excitedly telling the team to drop everything and start working on a new product idea he's just dreamed up.
 
-As a /completely unsurprising/ result of the constant context switching, it's been months since Deanna's team has gotten anything meaningful done. It's like she can feel their startup's cash runway burning to nothingness, every time they randomly switch gears. They'll never deliver anything if they can't commit and focus, but she can't seem to get Karim to change his behavior.
+As a /completely unsurprising/ result of the constant context switching, it's been months since Deanna's team has gotten anything meaningful done. She can feel their startup's cash runway burning to nothingness, every time they randomly switch gears. They'll never win if they can't commit and focus, but she can't seem to get Karim to change his behavior.
 
 Then, one afternoon, Karim takes Deana aside and informs her that he's worried about team velocity. He tells her he wants her to ask the team to start working longer hours, immediately. Before she can fully process this, he pats her on the shoulder and strides off. Later, Deanna finds herself pacing angrily around her office, muttering a somewhat shocking torrent of swear words under her breath.
 
@@ -98,7 +98,7 @@ I could go on!
 
 I suspect you could, too!
 
-Humans in positions of power have a truly marvelous ability to come up with new ways to be frustrating and crazy. Leo Tolstoy spoke to this in his classic guide to agile software development, /Anna Karenina/: "Happy teams are all alike, every unhappy team is unhappy in their own way."[fn:: It's possible I just spent half an hour trying to find a *third* famous opening line I could mangle in this introduction. Maybe, "I write this sitting in the office kitchen sink." Or perhaps "Gregor From Ops awoke one morning from uneasy dreams to find himself transformed on Zoom into a gigantic insect."]
+Humans in positions of power have a truly marvelous ability to come up with new ways to be frustrating and crazy. Leo Tolstoy spoke to this in his classic guide to agile software development, /Anna Karenina/: "Happy teams are all alike, every unhappy team is unhappy in their own way."[fn:: It's possible I just spent half an hour trying to find a *third* famous opening line I could mangle in this introduction. Maybe, "I write this sitting in the break room sink." Or maybe, "We were somewhere around Barstow when the OKR's began to take hold." Or perhaps, "Gregor From Ops awoke one morning from uneasy dreams to find himself transformed on Zoom into a gigantic insect."]
 
 Let's talk about what you can do. How you can Get Unstuck.
 
@@ -271,7 +271,6 @@ Problem: You're worried that your stakeholder will be reluctant to commit to you
 
 Solution: Make it easier for them to say yes by making it clear that you will personally take on extra work, and/or face some hard thing.
 
-* Later
 ** Propose a Timebox
 
 Problem: your stakeholder is reluctant to consider a change in their behavior.
