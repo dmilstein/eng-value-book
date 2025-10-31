@@ -12,13 +12,13 @@ It is a truth universally acknowledged, that a person in possession of a career 
 
 In this book, I'm going to share a set of ideas on how to face that frustration---and *not* by simply giving up hope. Ideas for moving from trapped inaction to positive, productive action. Ideas for persuading your very own Important Person to *change their behavior*. Ideas for *getting unstuck*.
 
-I'm not going to claim that applying these ideas is *easy*. If that were true, well, pretty much no one would ever be frustrated with their bosses, peers or stakeholders. Which I don't think has yet happened.
+I'm not going to claim that applying these ideas is *easy*. If that were true, well, pretty much no one would ever be frustrated with their bosses, peers or stakeholders.
 
 But I do believe it's *possible*---and far more often than people realize. It's possible to build trust and rapport with even very challenging bosses, peers and stakeholders. It's possible to lean on that trust and rapport to draw those challenging people into productive collaborations. It's possible to focus those collaborative relationships on, among other things, gradually improving how you work together. Over time, it's possible to develop a surprisingly deep sense of trust and partnership, with people you once could only see as frustrating impediments.
 
 Of course, making that kind of change takes real work and real time.
 
-I believe the effort is well worth it, for two reasons.
+I believe the effort is worth it, for two reasons.
 
 First, being stuck is, well, *kind of a terrible way to live*. Spending your working hours in a state of powerless resentment can be dangerous to your personality as a whole. The lack of agency can start to seep into other parts of your life. Your mind might drift into a habit of endlessly rehearsing your frustrations. Your sleep might start to break down. You might discover you're having trouble staying fully present with family or friends.
 
@@ -46,11 +46,11 @@ Finally, Being Stuck means there is a problematic *pattern of interaction*. In o
 
 Why this pedantic distinction between "personality" and "patterns of interaction"?
 
-Focusing on behavior makes your concerns far more *actionable*. It sets you up to make a request of your Important Person to change that behavior, initially in some small way. Although that's still a pretty tricky request to make, it's way, way, *way* easier than asking them to *change their personality*. You're going to have much better luck asking your COO, "Could we maybe try out a new approach to our planning sessions?", than asking them, "Could we maybe try out you're not being such a dick all the time?"
+Focusing on patterns of interaction makes your concerns far more *actionable*. It sets you up to make a request of your Important Person to change their *behavior*, initially in some small way. Although that's still a plenty tricky request to make, it's way, way, *way* easier than asking them to *change their personality*. You're going to have much better luck asking your COO, "Could we maybe try out a new approach to our planning sessions?", than asking them, "Could we maybe try out you're not being such a dick all the time?"[fn:: Even if you're sorely, sorely tempted to try the latter, just once.]
 
 ** Three Totally Made Up Examples
 
-To bring this definition to life, below are three /completely fictional/ examples.[fn:: No examples in this post are based on any actual stakeholders I have ever worked with and who might be reading this footnote, nor on any behavior I myself demonstrated when in a position of authority, because, luckily, I Am Perfect And Have No Flaws, okay let's go.]
+To bring this definition to life, below are three /completely fictional/ examples.[fn:: No examples in this book are based on any actual stakeholders I have ever worked with and who might be reading this footnote, nor on any behavior I myself demonstrated when in a position of authority, because, luckily, I Am Perfect And Have No Flaws, okay let's go.]
 
 *The Agent of Chaos*
 
@@ -112,7 +112,7 @@ Note: this long-term outcome is *not*, in general, what your stakeholder talks a
 
 Many (probably *most*) stakeholders convert that long-term outcome into a series of tasks or projects, and then only ever talk to a team about one particular task or project. Often, a stakeholder's frustrating behavior is, in their mind, the only way to get that task done, and therefore the only way to accomplish the long-term outcome. To find a new way to work together, you have to get beneath what they're asking for, and understand what they're ultimately trying to achieve. Once you do so, you can propose a different, less frustrating way of working together, that will move you *both* towards the long-term outcome.
 
-Aligning on a long-term outcome is a powerful place to start. But it's not enough by itself, for a somewhat profound reason:
+Aligning on a long-term outcome is a powerful place to start. But it's not enough by itself, for a somewhat simple reason:
 
 Your stakeholder is a human being.
 
@@ -128,11 +128,11 @@ Thus, the second step in the game plan is to develop a picture of your stakehold
 
  - Understand their *dreams*, so that you can offer a way to move towards a long-term aspirational vision
 
-Finally, the third step is to put all of that together into a *compelling offer* -- a proposal to adjust how you work together, initially in a small way. You'll deliver this offer in a carefully structured manner, to make it as easy as possible for your stakeholder to take the risk of saying yes.
+Once you've done so, the third step is to put all of that together into a *compelling offer* -- a proposal to adjust how you work together, initially in a small way. You'll deliver this offer in a carefully structured manner, that will make it as easy as possible for your stakeholder to take the risk of saying yes.
 
 Once you get a commitment to try something new, you'll then work hard to ensure the initial period of change *feels* like a win for your stakeholder.
 
-Once you get through the first period of change, you will:
+Once you get through the first period of change, you can:
 
  - Update your picture of your stakeholder's goals and feelings
 
@@ -150,7 +150,7 @@ In later chapters of the book, we'll share a wealth of tactics for going through
 
  3. Make A Compelling Offer
 
-That said, there is one approach, one skill, that is foundationally important. A skill that you'll end up using across all of the steps.
+That said, there is one approach, one skill, that is so foundationally important that we're going to touch on it here. A skill that you'll end up using, over and over, across all of the steps.
 
 ** Tactical Empathy: The Ultimate Superpower
 
@@ -160,7 +160,7 @@ More specifically, to talk to you about things which they may usually be quite r
 
 You will need them to *trust* you.
 
-Fortunately, there's a set of skills that allow people to open up to you. Even difficult, powerful, important people.
+Fortunately, there's a set of skills that help people to trust you. Even difficult, powerful, important people.
 
 Following the lead of Chris Voss and Raz Tahl, from their excellent book, Never Split the Difference, we'll name this set of skills *tactical empathy*.
 
@@ -182,18 +182,15 @@ If you want to break through to better collaborative relationships with your bos
 
 # A sort of skeleton key for working with humans.
 
-
 ** My Origin Story: The Mini-Tab & The Microsoft C Compiler
 
-# One of the great pleasures of working as a software engineer is solving meaningful problems.
-
-# One of the profound rewards of working as a software engineer is solving meaningful problems.
+Who, you might be asking, is this Dan person?
 
 Let me tell you a story.
 
 # XXX Move this all back into past tense.
 
-It's the summer of 1991. I've just arrived home from my sophmore year in college.[fn:: Yep, I am old.]
+It's the summer of 1991. I've just arrived home from my sophmore year in college.
 
 As I catch up with my parents, I tell them I'm still liking my computer science major, and that, in fact, I'm looking forward to spending some time that summer coding. I'm planning on teaching myself C, and am casting about for a project to work on.
 
@@ -201,27 +198,27 @@ My mother perks up -- she might have something for me. She works as an Assistant
 
 The Mini-Tab prep involves a great deal of rote work to extract and format course metadata from the descriptions submitted by instructors.
 
-She says that if I could write them a program to help, she could even pay me.
+She says that if I could write them a program to help, she could maybe even pay me.
 
-I had a copy of Microsoft's C Compiler on my Microsoft DOS computer. I had a copy of Kernighan & Ritchie. I had the confidence of youth.
+I had a copy of Kernighan & Ritchie. I had Microsoft's C Compiler installed on my DOS computer. I had the confidence of youth.
 
-I said, sure.
+I said sure.
 
 # I wrote her a C program to transcribe their input document into a table of courses, each tagged with a course code, and each having the schedule, title and instructor cleanly pulled out.
 
-Today I would write that program in an afternoon using python and a handful of regular expressions. But I had never heard of regex's at the time, and my long love affair with python was years in my future. It took me a couple of weeks. The input data wasn't consistently in the format she'd described to me, so I kept having to slowly figure out the actual patterns, and then add special cases to handle each one[fn:: My long love affair with automated testing was *also* many years in the future, so I kept on breaking what I had written, and only figuring that out later.].
+Today I would write that program in an afternoon using python and a handful of regular expressions. But I had never heard of regex's at the time, and my long love affair with python was years in the future. Writing the program took me a couple of weeks. The input data wasn't consistently in the format she'd described to me, so I kept having to slowly figure out the actual patterns, and then add special cases to handle each one. My long love affair with automated testing was *also* many years in the future, so I kept on breaking what I had written, over and over.
 
-In the end, the program worked, and she handed me a check for $100.
+In the end, the program finally worked, and my mother handed me a check for $100.
 
-I was delighted! This thing I loved doing, hacking on a computer to get it do what I wanted, could actually turn into money?
+I was *delighted*. This thing I loved doing, hacking on a computer to get it do what I wanted, could actually turn into money?
 
-But then, something wonderful happened.
+That was nice enough. But then a few months later, something wonderful happened.
 
 # But I was *also* delighted to realize that I had saved my mother and her colleagues hours of extremely frustrating work.
 
-My mother shared excited appreciations from the people on her team, about how my little program had saved them hours and hours of frustrating work.
+When I came home for Thanksiving break, my mother shared excited appreciations from the people on her team, about how my little program had saved them *days* of frustrating work.
 
-That felt, well, *amazing* -- I had, just by typing strange words and symbols into a little monochrome yellow and black screen, somehow created something that made the real world, well, a little bit better. That *helped* people.
+That felt, honestly, *amazing* -- I had, just by typing strange words and symbols into a little monochrome yellow and black screen, somehow created something that made the real world, well, a little bit better. That *helped* people.
 
 Her division at the community college ended up using that program for years and years. They very much got their money's worth for the $100 they'd spent.
 
@@ -229,7 +226,7 @@ But, so did I.
 
 That little job started me on the path of creating software that solved problems for people, in the real world. That path has turned into both a career, and also a great deal of meaningful work.
 
-I've written software to help people lay out and prepare textbooks for print production; to understand how their marketing campaigns have performed; to fill a warehouse with goods and then to pick, pack and ship those goods back out again; to collaborate on scientific research during drug discovery; to help support English language learner students in public schools.
+I've written software to help people lay out and prepare textbooks for print production; to understand how marketing campaigns are performing; to fill a warehouse with goods and then to pick, pack and ship those goods back out again; to collaborate on scientific research during drug discovery; to help support English language learner students in public schools.
 
 In so doing, I've spent a great deal of (very rewarding!) time gradually learning how to structure complex software to solve problems in the real world.
 
@@ -253,17 +250,7 @@ My journey into solving problems for people took me from engineering into produc
 
 # I've worked as a principal engineer building and operating complex systems; I've led product at startups desperately trying to find traction; I've managed engineering teams ranging in size from 2 to 500.
 
-This book is my attempt to share what I've learned about how engineers can work with humans to solve meaningful problems.
-
-** Making Ethical Choices
-
-A final word, before we dive into the game plan.
-
-I will, here in the wilds of 2025, enourage you to take some time to think about the problems you agree to help solve. All our work has an ethical component, whether we realize that or not.
-
-Perhaps also, take a moment to feel that sense of wonder -- I'm still astonished that, by typing a bunch of arcane characters into a glowing box, I can affect people's actual lives.
-
-# I adored role playing games as a kid -- and I loved playing wizards and spellcasters. I think the idea of being able to affect the real world by saying *just the right thing*, by learning some arcane incantation, was just a form of power that stirred dreams in my heart. How amazing is it that I've found a life where I can do just that.
+This book is an attempt to share some of the most important lessons I've learned about how to work with humans to solve meaningful problems.
 
 * Scraps
 ** Defining Stakeholders
@@ -411,3 +398,12 @@ I'm very excited to share this with you.
 But, before we dig into that game plan, you might be wondering, "Um, Dan, who are you, exactly?"
 
 Good point! I'm glad you asked!
+** Making Ethical Choices
+
+A final word, before we dive into the game plan.
+
+I will, here in the wilds of 2025, enourage you to take some time to think about the problems you agree to help solve. All our work has an ethical component, whether we realize that or not.
+
+Perhaps also, take a moment to feel that sense of wonder -- I'm still astonished that, by typing a bunch of arcane characters into a glowing box, I can affect people's actual lives.
+
+# I adored role playing games as a kid -- and I loved playing wizards and spellcasters. I think the idea of being able to affect the real world by saying *just the right thing*, by learning some arcane incantation, was just a form of power that stirred dreams in my heart. How amazing is it that I've found a life where I can do just that.
