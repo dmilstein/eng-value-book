@@ -6,6 +6,8 @@ Project/todo list for the Book In Question
 Like, specifically say:
 
 Understand their frustrations, so you can offer a change that smoothes those away. Understand their fears, because often, their day-to-day difficult behavior is driven by some fear of something bad happening in the future. Once you understand their fear, you can offer a new way to work together, a new way to behave, that will still ensure that bad thing doesn't happen, without their making you lose your mind. Understand what it is that makes them feel good, so you can offer them more of those experiences then they're getting right now (or ensure they don't lose the ones they have).
+** DONE Finish working in mini-examples           :curweek:
+CLOSED: [2025-10-31 Fri 15:49]
 ** DONE Work in opening of other famous novels    :curweek:
 CLOSED: [2025-10-30 Thu 12:08]
 *** A River Runs Through it
@@ -25,7 +27,11 @@ We were somewhere around Barstow on the edge of the desert when the drugs began 
 ** TODO Review/Revise 4 Emotions
 ** DONE Decide: feedback or just ship?            :curweek:
 CLOSED: [2025-10-30 Thu 12:10]
-** TODO Format for Substack                       :curweek:
+** DONE Format for Substack                       :curweek:
+CLOSED: [2025-10-31 Fri 13:48]
+:LOGBOOK:
+CLOCK: [2025-10-31 Fri 12:11]--[2025-10-31 Fri 13:48] =>  1:37
+:END:
 ** DONE Wrap post w/ just the catalog?            :curweek:
 CLOSED: [2025-10-30 Thu 11:09]
 :LOGBOOK:
@@ -69,6 +75,10 @@ Could put it in late, after explaining the fanning out tree view, and picking yo
 CLOSED: [2025-10-31 Fri 11:13]
 :LOGBOOK:
 CLOCK: [2025-10-31 Fri 09:12]--[2025-10-31 Fri 11:13] =>  2:01
+:END:
+** TODO Keep reviewing from [[file:org-roam-tibook/20250812093351-intro_work_with_humans.org::*1. Identify a long-term, strategic outcome that your stakeholder cares intensely about][checkpoint]]            :curweek:pom:
+:LOGBOOK:
+CLOCK: [2025-11-02 Sun 07:37]
 :END:
 ** TODO Lay out CPS + tech-specific context
 Like, "Ultimately, what you're going to do is lay out for your stakeholder:
@@ -149,6 +159,20 @@ That magic wand has to do two things for you:
  - What are they afraid of, what are they hoping for?
 
 But then, there's another problem. Software is weird. Once you have that knowledge, you need some options for better ways to work together. This is not trivial! Are there weird dependencies between teams? Is it not clear how to balance maintenance work vs new product dev? How do you lay out meaningful milestones for a year long project?
+* [[id:B0637E99-E30C-4FF8-B8BA-A660454DE08B][The Game Plan]]                                   :gtasks:
+** TODO Review in light of new intro              :curweek:pom:
+:LOGBOOK:
+CLOCK: [2025-11-01 Sat 09:17]--[2025-11-01 Sat 09:43] =>  0:26
+:END:
+** TODO mention the story will happen in just a few days
+
+In real time
+
+But we're going to unpack it. Once you get more skilled, you can go through this very quickly. But it's not quick the first time.
+** TODO Quin: deepen the problem so the time spent feels good
+Immediately, she needs him to stop randomizing sprints, more long term, she needs to get into partnership with him.
+** TODO More dramatic priority changes in story setup
+
 * [[id:9410A7DC-111C-4791-B8A1-C20867904251][Unstuck Beta]]                                    :gtasks:
 ** DONE Chunk out work to get to Beta             :curweek:
 CLOSED: [2025-10-31 Fri 08:53]
@@ -173,15 +197,18 @@ Visible on the wall and/or in org?
 * [[id:5C7A0B37-8984-4A1F-8371-C1FCEB637174][Compelling Offer]]                                :gtasks:
 ** TODO Split into three chapters
  1. Offer A Small, Easy-To-Agree-To Change
+    Structure incremental changes to make them easy to say “yes” to
     a. Propose a Timebox
     b. Offer A Future Decision
     c. Shrink Your Ask
     d. Put Yourself On the Line (maybe move to section 3??)
  2. Motivate Action (Now and Not Later)
+    Motivate immediate action, despite competing priorities
     a. Link Frustrations To Outcomes
     b. Tell A Story Of Growing Danger
     c. Create Urgency Through Visibility
  3. Speak To Your Stakeholder's Human Experience
+    (Draw even very thorny stakeholders into collaboration)
     a. Invite Your Stakeholder To Solve Your Problems
     b. Find Wins For Your Stakeholder By Hook Or By Crook
     c. Keep 'Em Busy
@@ -233,16 +260,6 @@ But harrangue people to *actually do them*.
 ** TODO Book: try the full sub-head outline breakdown now?
 ** TODO Aim for: each section (chapter?) has an *action plan*
 People are clearly resonating with that, and it's actually how I think.
-
-* [[id:B0637E99-E30C-4FF8-B8BA-A660454DE08B][The Game Plan]]                                   :gtasks:
-** TODO mention the story will happen in just a few days
-
-In real time
-
-But we're going to unpack it. Once you get more skilled, you can go through this very quickly. But it's not quick the first time.
-** TODO Quin: deepen the problem so the time spent feels good
-Immediately, she needs him to stop randomizing sprints, more long term, she needs to get into partnership with him.
-** TODO More dramatic priority changes in story setup
 
 * [[id:A1EF14A2-5F19-488D-926C-A8208142E794][Strat Intent]]                                    :gtasks:
 ** DONE Review Tech Invest chapters
