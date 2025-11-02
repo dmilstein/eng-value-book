@@ -14,15 +14,19 @@ In this book, I'm going to share a set of ideas on how to face that frustration-
 
 I'm not going to claim that applying these ideas is *easy*. If that were true, well, pretty much no one would ever be frustrated with their bosses, peers or stakeholders.
 
-But I do believe it's *possible*---and far more often than people realize. It's possible to build trust and rapport with even very challenging bosses, peers and stakeholders. It's possible to lean on that trust and rapport to draw those challenging people into productive collaborations. It's possible to focus those collaborative relationships on, among other things, gradually improving how you work together. Over time, it's possible to develop a surprisingly deep sense of trust and partnership, with people you once could only see as frustrating impediments.
+But I do believe it's *possible*---and far more often than people realize. It's possible to build trust and rapport with even very challenging bosses, peers and stakeholders. Over time, it's possible to develop a surprisingly deep sense of trust and partnership, with people you once could only see as frustrating impediments.
+
+#  Could splice in: It's possible to lean on that trust and rapport to draw those challenging people into productive collaborations. It's possible to focus those collaborative relationships on, among other things, gradually improving how you work together.
 
 Of course, making that kind of change takes real work and real time.
 
 I believe the effort is worth it, for two reasons.
 
-First, being stuck is, well, *kind of a terrible way to live*. Spending your working hours in a state of powerless resentment can be dangerous to your personality as a whole. The lack of agency can start to seep into other parts of your life. Your mind might drift into a habit of endlessly rehearsing your frustrations. Your sleep might start to break down. You might discover you're having trouble staying fully present with family or friends.
+First, being stuck is, well, *kind of a terrible way to live*. Spending your working hours in a state of powerless resentment can be dangerous to your personality as a whole. The lack of agency can start to seep into other parts of your life.
 
-Human beings are not great at compartmentalizing a feeling of lack of agency.
+# Your mind might drift into a habit of endlessly rehearsing your frustrations. Your sleep might start to break down. You might discover you're having trouble staying fully present with family or friends.
+
+Human beings are not great at compartmentalizing a feeling of powerlessness.
 
 Second, I'll encourage you to make the effort to get unstuck because, believe it or not, it can be *fun*. Other humans are endlessly fascinating! Getting unstuck means finding ways to work *with* those other humans, instead of desperately trying to work *around* them. Getting unstuck allows your to live in a place of curiosity, and to engage your own sense of playful, creative problem-solving. Which is way, way more fun than explaining to your mirror, once again, why your boss is crazy and wrong.[fn:: Though it is maybe nice that your mirror always agrees with you?]
 
@@ -30,23 +34,27 @@ Second, I'll encourage you to make the effort to get unstuck because, believe it
 
 # Defining & Illustrating The State of Being Stuck
 
+# XXX Grab thing from Substack
+
 *Being Stuck*: /Feeling like it's impossible to truly succeed at your job, due to a frustrating pattern of interaction with an Important Person./
 
-Let's unpack that definition.
+I'll call out three things from the concise definition.
 
-First, to Be Stuck, you must feel truly worried about *succeeding at your job*. It's not enough to simply be irritated with a colleague, even if that irritation is quite intense ("If I have to hear George lecture us all about The Customer one more time, so help me god"). The internal emotional dial only truly goes up to eleven if you feel like you're powerlessly drifting towards a failure (and, in particular, a failure for which you will be blamed).
+First, to be stuck, you must feel truly worried about *succeeding at your job*. It's not enough to simply be irritated with a colleague, even if that irritation is quite intense ("If I have to hear George lecture us all about The Customer one more time, so help me god"). The internal emotional dial only truly goes up to eleven if you feel like you're powerlessly drifting towards a failure (and, in particular, a failure for which you will be blamed).
 
-Second, to Be Stuck, there has to be an Important Person involved. That's what puts you into the state of powerlessness, of low agency. In fact, we'll *define* an Important Person as: someone who has some form of influence or control over how you do your job. That could of course be your boss. But it could also be a stakeholder who has significant influence over what your team builds, or a key peer with whom you have to collaborate to build that thing.
+Second, to be stuck, there has to be an Important Person involved. That's what puts you into the state of powerlessness, of low agency. In fact, we'll *define* an Important Person as: someone who has influence or control over your ability to succeed at your job. That could, of course, be your boss. But it could also be a stakeholder or a key peer.
+
+# That could of course be your boss. But it could also be a stakeholder who has significant influence over what your team builds, or a key peer with whom you have to collaborate to build that thing.
 
 # An Important Person is a) someone you have to work with in order to succeed at your job, and b) someone who you can't just *tell* to change their behavior.
 
 # Some important person is *acting* like a jerk, it's not just that they *are* a jerk.
 
-Finally, Being Stuck means there is a problematic *pattern of interaction*. In other words, we focus on *behavior*, not just on *personality*. Your COO may be brusque and patronizing, and that may legitimately frustrate the heck out of you.[fn:: Ask my friends about how much I, personally, enjoy being patronized!] But those unpleasant traits are not, in and of themselves, enough to cause you to Be Stuck. If, however, the COO's dismissive rudeness causes them to shut down planning sessions without first understanding the risks the team is trying to surface, that's another story altogether.
+Finally, to bei stuck, there must be a frustrating *pattern of interaction*. In other words, there must be problematic *behavior*, not just a problematic *personality*. Your COO may be brusque and patronizing, and that may legitimately frustrate the heck out of you.[fn:: Ask my friends about how much I, personally, enjoy being patronized!] But those unpleasant traits are not, in and of themselves, enough to cause you to be stuck. If, however, the COO's dismissive rudeness causes them to shut down planning sessions without first understanding the risks you are trying to surface, that's another story altogether.
 
 Why this pedantic distinction between "personality" and "patterns of interaction"?
 
-Focusing on patterns of interaction makes your concerns far more *actionable*. It sets you up to make a request of your Important Person to change their *behavior*, initially in some small way. Although that's still a plenty tricky request to make, it's way, way, *way* easier than asking them to *change their personality*. You're going to have much better luck asking your COO, "Could we maybe try out a new approach to our planning sessions?", than asking them, "Could we maybe try out you're not being such a dick all the time?"[fn:: Even if you're sorely, sorely tempted to try the latter, just once.]
+Focusing on patterns of interaction makes your concerns far more actionable. It sets you up to make a request of your Important Person to change their *behavior*, initially in some small way. Although that's still a plenty tricky request to make, it's way, way, way easier than asking them to change their *personality*. You're going to have much better luck asking your COO, "Could we maybe try out a new approach during our planning sessions?", than asking, "Could we maybe try out you're not being such a dick all the time?"[fn:: Even if you're sorely, sorely tempted to try the latter, just once.]
 
 ** Three Totally Made Up Examples
 
@@ -62,7 +70,7 @@ Then, one afternoon, Karim takes Deana aside and informs her that he's worried a
 
 # Deanna is very stuck with Karim.
 
-# If your stakeholder keeps on blowing up your backlog with new ideas, and then blames you for the resulting snail's pace of delivery, then that indeed qualifies as Being Stuck.
+If your stakeholder keeps on blowing up your backlog with new ideas, and then blames you for the resulting snail's pace of delivery, then that indeed qualifies as being stuck.
 
 # The Getting Unstuck Game Plan is for you!
 
@@ -74,7 +82,7 @@ Maria is a product manager at a thriving B2B SaaS company. Her job would be trul
 
 Despite her best efforts, Maria's team is somehow spending half their time on useless, Geoff-driven one-offs, while their main product strategy slowly drifts off course like a doomed ship headed for an iceberg. Maria has started to dread the moment she opens her laptop at the start of her work day.
 
-# If your stakeholder relentlessly undercuts your attempts at disciplined prioritization, but still blames you when you struggle to ship a new product, you are good and thoroughly Stuck.
+If your stakeholder relentlessly undercuts your attempts at disciplined prioritization, but still blames you when you struggle to ship a new product, you are good and thoroughly stuck.
 
 # The Getting Unstuck Game Plan is for you!
 
@@ -92,133 +100,81 @@ Alistair, Alistair's PM, all the adjacent tech leads and half the designers spen
 
 Then, one evening at the company happy hour, Alistair finds himself awkwardly chatting with Max. The engineering director takes a sip from his hard seltzer. Alistair tries to think of something to say. Then, out of nowhere, Max airily tells Alistair that he's "a little disappointed" that Alistair's team isn't stepping up and showing more independence and ownership. "It's like you're just *waiting* to be told what to do," he says. Alistair nearly chokes on his beer. After managing to extricate himself from the conversation, Alistair realizes he might have to talk with his wife about whether or not he can stay at this job.
 
-# If your stakeholder claims to want to empower their teams, but absolutely kneecaps anyone who shows the slightest bit of independence, man, you are totally Stuck.
+If your stakeholder claims to want to empower their teams, but absolutely kneecaps anyone who shows the slightest bit of independence, man, you are totally stuck.
 
 I could go on!
 
 I suspect you could, too!
 
-Humans in positions of power have a truly marvelous ability to come up with new ways to be frustrating and crazy. Leo Tolstoy spoke to this in his classic guide to agile software development, /Anna Karenina/: "Happy teams are all alike, every unhappy team is unhappy in their own way."[fn:: It's possible I just spent half an hour trying to find a *third* famous opening line I could mangle in this introduction. Maybe, "I write this sitting in the break room sink." Or maybe, "We were somewhere around Barstow when the OKR's began to take hold." Or perhaps, "Gregor From Ops awoke one morning from uneasy dreams to find himself transformed on Zoom into a gigantic insect."]
+Humans in positions of power have a truly marvelous ability to come up with new ways to be frustrating and crazy. "Happy teams are all alike, every unhappy team is unhappy in their own way," wrote Leo Tolstoy, in his classic guide to agile software development, /Anna Karenina/.[fn:: It's possible I just spent half an hour trying to find a *third* famous opening line I could mangle in this introduction. Maybe, "I write this sitting in the break room sink." Or maybe, "We were somewhere around Barstow when the OKR's began to take hold." Or perhaps, "Gregor From Ops awoke one morning from uneasy dreams to find himself transformed on Zoom into a gigantic insect."]
 
-Let's talk about what you can do. How you can Get Unstuck.
+Let's talk about what you can do, if you find yourself in of these unpleasant situations.
 
 ** The Getting Unstuck Game Plan
 
-We're going to develop a step-by-step game plan for gradually drawing your Important Person, whom we'll term your "stakeholder", into a process of collaborative problem-solving.
+We're going to develop a step-by-step game plan for gradually drawing your Important Person, whom we'll term your "stakeholder", into a process of collaborative problem-solving [with you].
 
-The first step is to identify a key, long-term outcome your stakeholder cares deeply about achieving. You'll also identify how your team can, if things go well, play a role in achieving that outcome.
+We'll focus on steadily making small improvements, building trust and rapport as we go. When trying to improve how you collaborate with a key stakeholder, working incrementally is far more effective than trying to make a single big change all at once. Of course, in this it resembles *every single other* facet of attempting to develop valuable software. If Waterfall doesn't work for adjusting complex software systems, why would we expect it to work for adjusting complex human systems, which bring with them their own delightful forms of complexity?[fn:: I've had software systems fail for an enormous variety of reasons, but, so far, not because any one component took it personally that it wasn't invited to another component's birthday party. Of course, I'm writing this late in 2025, so maybe in a few years soothing moody LLM's will turn into a full-time job?]
 
-Note: this long-term outcome is *not*, in general, what your stakeholder talks about day to day.
+In the game plan, an increment of improvement consists of four key steps:
 
-Many (probably *most*) stakeholders convert that long-term outcome into a series of tasks or projects, and then only ever talk to a team about one particular task or project. Often, a stakeholder's frustrating behavior is, in their mind, the only way to get that task done, and therefore the only way to accomplish the long-term outcome. To find a new way to work together, you have to get beneath what they're asking for, and understand what they're ultimately trying to achieve. Once you do so, you can propose a different, less frustrating way of working together, that will move you *both* towards the long-term outcome.
+ 1. Identify a long-term *strategic outcome* that your stakeholder cares intensely about
 
-Aligning on a long-term outcome is a powerful place to start. But it's not enough by itself, for a somewhat simple reason:
+ 2. Develop an *empathetic understanding* of your stakeholder's emotional experience
 
-Your stakeholder is a human being.
+ 3. Propose a *small adjustment* in how you work together, speaking to their emotional experience as you do so
 
-Like all human beings, their behavior is not driven merely by a rational desire to achieve a long-term outcome. We are none of us robots. If you want to persuade your stakeholder to make a change of some kind, you're going to need to understand them as a human being.
+ 4. When you put that adjustment in place, ensure the new way of working *feels like a win* for your stakeholder
 
-Thus, the second step in the game plan is to develop a picture of your stakeholder's key underlying *emotions*. You will do your best to:
+In the next chapter, we'll dig into those steps, and explore why each is so valuable.
 
- - Understand their *frustrations*, so you can propose a change that smoothes some of those frustrations away
+Then, throughout the rest of the book, we'll share a wealth of tactics for working through those steps *with* your stakeholder. No matter how thorny or difficult they may be!
 
- - Understand what it is that makes them *feel good*, so you can offer them more of those delightful experiences
-
- - Understand their *fears*, so that you can help them face the worries that keep them up at night
-
- - Understand their *dreams*, so that you can offer a way to move towards a long-term aspirational vision
-
-Once you've done so, the third step is to put all of that together into a *compelling offer* -- a proposal to adjust how you work together, initially in a small way. You'll deliver this offer in a carefully structured manner, that will make it as easy as possible for your stakeholder to take the risk of saying yes.
-
-Once you get a commitment to try something new, you'll then work hard to ensure the initial period of change *feels* like a win for your stakeholder.
-
-Once you get through the first period of change, you can:
-
- - Update your picture of your stakeholder's goals and feelings
-
- - Decide which of your concerns to address next
-
- - Propose a next incremental adjustment
-
-Over time, you can gradually build deeper and deeper trust and rapport, allowing you to propose ever larger changes in how you work together.
-
-In later chapters of the book, we'll share a wealth of tactics for going through each of these steps, which we will name:
-
- 1. Identify a Strategic Outcome
-
- 2. Mine For Feelings
-
- 3. Make A Compelling Offer
-
-That said, there is one approach, one skill, that is so foundationally important that we're going to touch on it here. A skill that you'll end up using, over and over, across all of the steps.
-
-** Tactical Empathy: The Ultimate Superpower
-
-You may have noticed that just about every step in the game plan requires your stakeholder to *talk to you*.
-
-More specifically, to talk to you about things which they may usually be quite reluctant to share: their long-term goals, their fears, their frustrations, their dreams and desires.
-
-You will need them to *trust* you.
-
-Fortunately, there's a set of skills that help people to trust you. Even difficult, powerful, important people.
-
-Following the lead of Chris Voss and Raz Tahl, from their excellent book, Never Split the Difference, we'll name this set of skills *tactical empathy*.
-
-These skills offer a way of listening to and connecting with other humans, that make those humans feel deeply understood. A means to draw out emotions and validate concerns. Ways to unblock conversations, to search for and find shared goals and values.
-
-And crucially: the skills of tactical empathy can be *learned*.
-
-Being able to help other people trust you is not simply an inherent part of a personality, accessible only to smooth-talking extroverts.
-
-I've seen dozens and dozens of people level up on their influence and impact by putting conscious effort into mastering the skills of tactical empathy.
-
-I've seen people do so who consider themselves extroverts, I've seen people do so who have to painfully force themselves to talk to strangers at parties.
-
-For just about all of those people, I've seen that work make their jobs more rewarding and their days easier.
-
-All that said, I'm not going to lie: the skills of tactical empathy take time and effort to learn.
-
-If you want to break through to better collaborative relationships with your boss, peers and stakeholders, I urge you to take the time to practice these skills.
-
-# A sort of skeleton key for working with humans.
+I can't wait!
 
 ** My Origin Story: The Mini-Tab & The Microsoft C Compiler
 
-Who, you might be asking, is this Dan person?
+Who, you might be asking, is this Dan person? What does he know about getting groups of humans to work together to build valuable software? What does he know about getting stuck or, for that matter, unstuck?
 
-Let me tell you a story.
+I'll answer those questions with a story.
 
-# XXX Move this all back into past tense.
+After I finished my sophmore year in college, I moved back home for the summer break.[fn:: For reasons that will soon become relevant, it was 1991.]
 
-It's the summer of 1991. I've just arrived home from my sophmore year in college.
+As I caught up with my parents, I told them I was hoping to spend some time over the next few months coding. I wanted to teach myself C, and was casting about for a decent-sized project to work on.
 
-As I catch up with my parents, I tell them I'm still liking my computer science major, and that, in fact, I'm looking forward to spending some time that summer coding. I'm planning on teaching myself C, and am casting about for a project to work on.
+To my surprise, my mother told me she might have something for me. She worked as a Dean at a local community college, running their adult and continuing education programs. She told me that, each year, late in the summer, her division would spend a couple of unpleasant weeks preparing the "Mini-Tab"--their annual catalog of continuing education courses.
 
-My mother perks up -- she might have something for me. She works as an Assistant Dean at a local community college, where she runs their adult and continuing education programs. She tells me that, each year, late in the summer, her division spends a couple of unpleasant weeks preparing the "Mini-Tab"--an annual catalog of courses.
+The Mini-Tab prep, she explained, involved a great deal of rote work to extract and format course metadata from the course description forms submitted by instructors.
 
-The Mini-Tab prep involves a great deal of rote work to extract and format course metadata from the descriptions submitted by instructors.
+She said that, if I could write a program to help, she could maybe even pay me.
 
-She says that if I could write them a program to help, she could maybe even pay me.
-
-I had a copy of Kernighan & Ritchie. I had Microsoft's C Compiler installed on my DOS computer. I had the confidence of youth.
+I had a copy of Kernighan & Ritchie. I had Microsoft's C Compiler installed on my DOS computer.[fn:: Did I mention that it was 1991?] I had the confidence of youth.
 
 I said sure.
 
 # I wrote her a C program to transcribe their input document into a table of courses, each tagged with a course code, and each having the schedule, title and instructor cleanly pulled out.
 
-Today I would write that program in an afternoon using python and a handful of regular expressions. But I had never heard of regex's at the time, and my long love affair with python was years in the future. Writing the program took me a couple of weeks. The input data wasn't consistently in the format she'd described to me, so I kept having to slowly figure out the actual patterns, and then add special cases to handle each one. My long love affair with automated testing was *also* many years in the future, so I kept on breaking what I had written, over and over.
+Today I would write that program in an afternoon using python and a handful of regular expressions. But I had never heard of regex's at the time, and my long love affair with python was years in the future. In the end, writing the Mini-tab prep program took me a couple of weeks.
 
-In the end, the program finally worked, and my mother handed me a check for $100.
+# The input data wasn't consistently in the format my mother had described to me, so I kept having to slowly figure out the actual patterns, and then add special cases to handle each one. My long love affair with automated testing was *also* many years in the future, so I kept on breaking what I had written, over and over.
+
+When it finally worked, my mother handed me a check for $100.[fn:: Again, 1991.]
 
 I was *delighted*. This thing I loved doing, hacking on a computer to get it do what I wanted, could actually turn into money?
 
-That was nice enough. But then a few months later, something wonderful happened.
+That was nice enough. But then a few months later, something even better happened.
 
 # But I was *also* delighted to realize that I had saved my mother and her colleagues hours of extremely frustrating work.
 
-When I came home for Thanksiving break, my mother shared excited appreciations from the people on her team, about how my little program had saved them *days* of frustrating work.
+When, I came home for Thanksiving break,my mother shared a series of excited appreciations from the people on her team. It turned out my little C program had saved them *days* of frustrating work.
 
-That felt, honestly, *amazing* -- I had, just by typing strange words and symbols into a little monochrome yellow and black screen, somehow created something that made the real world, well, a little bit better. That *helped* people.
+What a strange and wonderful truth.
+
+I had, just by typing cryptic symbols into a little monochrome yellow and black screen, somehow created something that made the real world, well, a little bit better. That *helped* people.
+
+# I kept thinking about the few week I had spent, sitting at my dining room table, K&R splayed open next to me, typing cryptic symbols into a monochrome yellow and black screen. I had apparently created something that made the *real world*, well, a little bit better. That *helped* people.
+
+That felt, well, kind of amazing. I still remember it.
 
 Her division at the community college ended up using that program for years and years. They very much got their money's worth for the $100 they'd spent.
 
@@ -228,29 +184,29 @@ That little job started me on the path of creating software that solved problems
 
 I've written software to help people lay out and prepare textbooks for print production; to understand how marketing campaigns are performing; to fill a warehouse with goods and then to pick, pack and ship those goods back out again; to collaborate on scientific research during drug discovery; to help support English language learner students in public schools.
 
-In so doing, I've spent a great deal of (very rewarding!) time gradually learning how to structure complex software to solve problems in the real world.
-
-# That has included everything from the day-to-day tactics of how to write clean, understandable, testable code; to how to decompose large programs into pieces that can be understood and worked on independently; to a thousand details about how to represent and store data; to how to operate systems in the harsh reality of production.
-
-But I've also learned something else.
-
-I've learned that all those wonderful tactics for writing complex, powerful programs aren't enough, by themselves.
-
-There are a slew of challenges, some running through how businesses function, some through how human beings function, that must be faced, to identify problems worth solving and then gradually hone in on valuable solutions.
-
-I, like just about all programmers, learned this the hard way.  I watched programs I had spent months writing get thrown away the moment they were finished, because the problem I had been asked to solve no longer mattered to anyone. I found myself mired in painful stasis and frustration thanks to constant churn and changing requirements.
-
-# I watched in mounting frustration, as work ground to a halt due to delays between teams.
-
-# XXX add a third to the above
-
-# My journey into solving business problems took me from engineering into product management, and then back into engineering.
+# In so doing, I've spent a great deal of (very rewarding!) time gradually learning how to structure complex software to solve problems in the real world. Everything from the day-to-day tactics of how to write clean, understandable, testable code; to how to decompose large programs into pieces that can be understood and worked on independently; to a thousand details about how to represent and store data; to how to operate systems in the harsh reality of production.
 
 My journey into solving problems for people took me from engineering into product management, and then back into engineering, and then to various forms of leadership over both disciplines.
 
-# I've worked as a principal engineer building and operating complex systems; I've led product at startups desperately trying to find traction; I've managed engineering teams ranging in size from 2 to 500.
+Finding and solving problems that matter in the real world has meant just a tremendous amount of *working with other human beings*.
+
+# Finding and solving problems that matter in the real world has also, of course, meant having to solve problems *due to other people*.
+
+Working with other human beings has been, at its best, incredibly rewarding. One of the most treasured memories of my working life is filling little plastic cups with expensive whiskey, and then toasting the members of my beloved sprint team as Patrick Fitzsimmons hit the enter key to finally delete tens of thousands of lines of code we'd all spent the last year replacing.
+
+But, of course, working with other humans has sometimes been incredibly frustrating! I have gotten stuck myself, a great many times.
 
 This book is an attempt to share some of the most important lessons I've learned about how to work with humans to solve meaningful problems.
+
+How to get unstuck, so you can do meaningful work that you can be proud of.
+
+# There are a slew of challenges, some running through how businesses function, some through how human beings function, that must be faced, to find problems worth solving and then gradually hone in on solutions.
+
+# I, like just about all programmers, learned this the hard way.  I watched programs I had spent months writing get thrown away the moment they were finished, because the problem I had been asked to solve no longer mattered to anyone. I found myself mired in painful stasis and frustration thanks to constant churn and changing requirements. I watched in mounting frustration, as work ground to a halt due to delays between teams.
+
+# XXX add a third to the above
+
+# I've worked as a principal engineer building and operating complex systems; I've led product at startups desperately trying to find traction; I've managed engineering teams ranging in size from 2 to 500.
 
 * Scraps
 ** Defining Stakeholders
