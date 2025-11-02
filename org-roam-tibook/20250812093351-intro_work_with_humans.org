@@ -142,41 +142,39 @@ After I finished my sophmore year in college, I moved back home for the summer b
 
 As I caught up with my parents, I told them I was hoping to spend some time over the next few months coding. I wanted to teach myself C, and was casting about for a decent-sized project to work on.
 
-To my surprise, my mother told me she might have something for me. She worked as a Dean at a local community college, running their adult and continuing education programs. She told me that, each year, late in the summer, her division would spend a couple of unpleasant weeks preparing the "Mini-Tab"--their annual catalog of continuing education courses.
+To my surprise, my mother said she might have something for me. She worked as a Dean at a local community college, running their adult and continuing education programs. She told me that, each year, late in the summer, her division would spend a couple of unpleasant weeks preparing the "Mini-Tab"--their annual catalog of continuing education courses.
 
-The Mini-Tab prep, she explained, involved a great deal of rote work to extract and format course metadata from the course description forms submitted by instructors.
+The Mini-Tab prep, she explained, involved a great deal of rote work to extract course titles, descriptions and dates from the forms submitted by instructors.
 
 She said that, if I could write a program to help, she could maybe even pay me.
 
-I had a copy of Kernighan & Ritchie. I had Microsoft's C Compiler installed on my DOS computer.[fn:: Did I mention that it was 1991?] I had the confidence of youth.
+I had a copy of Kernighan & Ritchie. I had Microsoft's C Compiler installed on my DOS computer.[fn:: Did I mention that it was 1991? It was 1991.] I had the confidence of youth.
 
 I said sure.
 
-# I wrote her a C program to transcribe their input document into a table of courses, each tagged with a course code, and each having the schedule, title and instructor cleanly pulled out.
-
-Today I would write that program in an afternoon using python and a handful of regular expressions. But I had never heard of regex's at the time, and my long love affair with python was years in the future. In the end, writing the Mini-tab prep program took me a couple of weeks.
+Today I would write that program in an afternoon using python and a handful of regular expressions. But I had never heard of regexes at the time, and my long love affair with python was years in the future. In the end, writing the Mini-tab prep program took me a couple of weeks.
 
 # The input data wasn't consistently in the format my mother had described to me, so I kept having to slowly figure out the actual patterns, and then add special cases to handle each one. My long love affair with automated testing was *also* many years in the future, so I kept on breaking what I had written, over and over.
 
-When it finally worked, my mother handed me a check for $100.[fn:: Again, 1991.]
+When it finally worked, my mother handed me a check from her community college for $100.[fn:: Again, 1991.]
 
-I was *delighted*. This thing I loved doing, hacking on a computer to get it do what I wanted, could actually turn into money?
+I was *delighted*. This thing I loved, hacking on a computer to get it do things, could actually turn into money?
 
 That was nice enough. But then a few months later, something even better happened.
 
 # But I was *also* delighted to realize that I had saved my mother and her colleagues hours of extremely frustrating work.
 
-When, I came home for Thanksiving break,my mother shared a series of excited appreciations from the people on her team. It turned out my little C program had saved them *days* of frustrating work.
+When I came home for Thanksiving break, my mother shared a series of excited appreciations from the people on her team. It turned out my little C program had saved them *days* of frustrating work.
 
-What a strange and wonderful truth.
+What a strange and wonderful fact to discover.
 
-I had, just by typing cryptic symbols into a little monochrome yellow and black screen, somehow created something that made the real world, well, a little bit better. That *helped* people.
+Apparently I had, just by typing cryptic symbols into a little monochrome yellow and black screen, somehow created something that made the *real world*, well, a little bit better. That *helped* people.
 
 # I kept thinking about the few week I had spent, sitting at my dining room table, K&R splayed open next to me, typing cryptic symbols into a monochrome yellow and black screen. I had apparently created something that made the *real world*, well, a little bit better. That *helped* people.
 
-That felt, well, kind of amazing. I still remember it.
+That felt kind of amazing. I still remember the moment.
 
-Her division at the community college ended up using that program for years and years. They very much got their money's worth for the $100 they'd spent.
+My mother's division at the community college ended up using that program for years and years. They very much got their money's worth for the $100 they'd spent.
 
 But, so did I.
 
