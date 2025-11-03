@@ -1,84 +1,19 @@
 Project/todo list for the Book In Question
 
 * Book Inbox                                      :inbox:
-* [[id:E0ADBF07-90B8-4C37-81C0-96A428020F5E][Substack]]                                        :gtasks:
-** TODO For Substack, introduce/illustrate emotions a bit differently
-Like, specifically say:
-
-Understand their frustrations, so you can offer a change that smoothes those away. Understand their fears, because often, their day-to-day difficult behavior is driven by some fear of something bad happening in the future. Once you understand their fear, you can offer a new way to work together, a new way to behave, that will still ensure that bad thing doesn't happen, without their making you lose your mind. Understand what it is that makes them feel good, so you can offer them more of those experiences then they're getting right now (or ensure they don't lose the ones they have).
-** DONE Finish working in mini-examples           :curweek:
-CLOSED: [2025-10-31 Fri 15:49]
-** DONE Work in opening of other famous novels    :curweek:
-CLOSED: [2025-10-30 Thu 12:08]
-*** A River Runs Through it
-In my family, there was never much distinction made between religion and fly fishing.
-*** The Crying of Lot 49
-One summer afternoon Mrs. Oedipa Maas came home from a Tupperware party whose hostess had put perhaps too much kirsch in the fondue to find that she, Oedipa, had been named executor, or she supposed executrix, of the estate of one Pierce Inverarity, a California real estate mogul who had once lost two million dollars in his spare time but still had assets numerous and tangled enough to make the job of sorting it all out more than honorary.
-*** I Capture the Castle
-I write this sitting in the kitchen sink.
-*** Metamorphosis
-Gregor Samsa awoke one morning from uneasy dreams to find himself transformed in his bed into a gigantic insect.
-*** Gravity's Rainbow
-“A screaming comes across the sky. It has happened before, but there is nothing to compare it to now.
-*** The Hobbit
-In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it to sit down on or to eat: it was a hobbit-hole, and that means comfort.
-*** Fear & Loathing In Las Vegas
-We were somewhere around Barstow on the edge of the desert when the drugs began to take hold.
-** TODO Review/Revise 4 Emotions
-** DONE Decide: feedback or just ship?            :curweek:
-CLOSED: [2025-10-30 Thu 12:10]
-** DONE Format for Substack                       :curweek:
-CLOSED: [2025-10-31 Fri 13:48]
-:LOGBOOK:
-CLOCK: [2025-10-31 Fri 12:11]--[2025-10-31 Fri 13:48] =>  1:37
-:END:
-** DONE Wrap post w/ just the catalog?            :curweek:
-CLOSED: [2025-10-30 Thu 11:09]
-:LOGBOOK:
-CLOCK: [2025-10-30 Thu 09:13]--[2025-10-30 Thu 11:09] =>  1:56
-CLOCK: [2025-10-29 Wed 09:40]--[2025-10-29 Wed 11:48] =>  2:08
-CLOCK: [2025-10-28 Tue 13:52]--[2025-10-28 Tue 15:05] =>  1:13
-CLOCK: [2025-10-28 Tue 10:16]--[2025-10-28 Tue 11:15] =>  0:59
-CLOCK: [2025-10-28 Tue 08:28]--[2025-10-28 Tue 09:00] =>  0:32
-CLOCK: [2025-10-25 Sat 08:59]--[2025-10-25 Sat 08:59] =>  0:00
-CLOCK: [2025-10-24 Fri 15:56]--[2025-10-24 Fri 16:21] =>  0:25
-:END:
-** DONE Bring to life challenge of making request :curweek:
-CLOSED: [2025-10-28 Tue 11:15]
-:LOGBOOK:
-CLOCK: [2025-10-26 Sun 16:57]--[2025-10-26 Sun 17:20] =>  0:23
-CLOCK: [2025-10-26 Sun 09:02]--[2025-10-26 Sun 10:30] =>  1:28
-:END:
-
-
-Really, it's not specifically the story, it's making the idea feel like a full idea, instead of just dropping the reader into the tactics so abruptly.
-
-Maybe explain *why* to go through that three part arc. Stakeholders are going to hear anything as a threat. They generally feel alone in pursuing their major goal, and alone in facing their own biggest fears.
-
-Therefore, if you can calmly and authentically demonstrate that you understand and care about their goals and their problems, they will exhale, and be much more ready to listen to you.
-
-Then, you can lay out your concerns, carefully doing so in a non-judgmental fashion.
-
-At that point, you can draw your stakeholder into a collaborative problem solving session by offering a possible solution.
-
-It's much easier to do this in small increments than as one big step -- that allows you to build trust as you to.
-** TODO Agile Manifesto / working software
-** TODO For Agile cartoon rewrite, consider pachinko metaphor
-Where, no matter what you do, your ball seems to bounce down to the middle, which is "late and not quite whate everyone wanted".
-
-Could put it in late, after explaining the fanning out tree view, and picking your way to the one valuable option in that tree.
-** TODO Prep Creation of Value I & II for Medium
-** TODO Read up on Google/Substack/SEO
-** TODO Think about a call to action for book announcements
 * [[id:454225CA-DD66-4ACA-B8B3-429F6551DBDC][New Intro]]                                       :gtasks:
-** DONE Grab/integrate Compelling Offer>Substack  :curweek:
+** TODO Splice in [[file:~/Dropbox/Projects/TechInvestBook/org-roam-tibook/20250812093351-intro_work_with_humans.org::*I've Looked At +Love+ Engineering From Both Sides Now][engineer/stakeholder pov]] bit
+Maybe as part of empathy as the core of all of this. Face that head on.
+** TODO Apply tweaks to Intro from Substack (claude?)
+** DONE Grab/integrate Compelling Offer>Substack
 CLOSED: [2025-10-31 Fri 11:13]
 :LOGBOOK:
 CLOCK: [2025-10-31 Fri 09:12]--[2025-10-31 Fri 11:13] =>  2:01
 :END:
-** TODO Keep reviewing from [[file:org-roam-tibook/20250812093351-intro_work_with_humans.org::*1. Identify a long-term, strategic outcome that your stakeholder cares intensely about][checkpoint]]            :curweek:pom:
+** DONE Keep reviewing from [[file:org-roam-tibook/20250812093351-intro_work_with_humans.org::*1. Identify a long-term, strategic outcome that your stakeholder cares intensely about][checkpoint]]
+CLOSED: [2025-11-02 Sun 10:20]
 :LOGBOOK:
-CLOCK: [2025-11-02 Sun 07:37]
+CLOCK: [2025-11-02 Sun 07:37]--[2025-11-02 Sun 10:20] =>  2:43
 :END:
 ** TODO Lay out CPS + tech-specific context
 Like, "Ultimately, what you're going to do is lay out for your stakeholder:
@@ -160,10 +95,20 @@ That magic wand has to do two things for you:
 
 But then, there's another problem. Software is weird. Once you have that knowledge, you need some options for better ways to work together. This is not trivial! Are there weird dependencies between teams? Is it not clear how to balance maintenance work vs new product dev? How do you lay out meaningful milestones for a year long project?
 * [[id:B0637E99-E30C-4FF8-B8BA-A660454DE08B][The Game Plan]]                                   :gtasks:
-** TODO Review in light of new intro              :curweek:pom:
+** TODO Show why just asking doesn't work as/before showing game plan?
+** DONE Review in light of new intro
+CLOSED: [2025-11-02 Sun 10:59]
 :LOGBOOK:
+CLOCK: [2025-11-02 Sun 10:21]--[2025-11-02 Sun 10:59] =>  0:38
 CLOCK: [2025-11-01 Sat 09:17]--[2025-11-01 Sat 09:43] =>  0:26
 :END:
+** TODO Get it Just Good Enough                   :curweek:pom:
+:LOGBOOK:
+CLOCK: [2025-11-03 Mon 14:56]
+:END:
+** TODO Step-by-step grafs in intro ala [[file:org-roam-tibook/20250813081516-the_fundamental_game_plan.org::*1. Identify a long-term, strategic outcome that your stakeholder cares intensely about][this]]      :curweek:pom:
+As in, sketch in *more* about the game plan in the intro, but shove the fuller details into the subsequent chapters. It may be that fundamental game plan goes away as a chapter, that's not bad.
+** TODO Spike on small stories                    :curweek:
 ** TODO mention the story will happen in just a few days
 
 In real time
@@ -173,18 +118,92 @@ But we're going to unpack it. Once you get more skilled, you can go through this
 Immediately, she needs him to stop randomizing sprints, more long term, she needs to get into partnership with him.
 ** TODO More dramatic priority changes in story setup
 
+* [[id:E0ADBF07-90B8-4C37-81C0-96A428020F5E][Substack]]                                        :gtasks:
+** TODO Prep post for Medium                      :curweek:
+** TODO Submit to publication on Medium           :curweek:
+** TODO Fill in Smorgasbord of Tactics            :curweek:
+** TODO Introduce/illustrate emotions a bit differently
+Like, specifically say:
+
+Understand their frustrations, so you can offer a change that smoothes those away. Understand their fears, because often, their day-to-day difficult behavior is driven by some fear of something bad happening in the future. Once you understand their fear, you can offer a new way to work together, a new way to behave, that will still ensure that bad thing doesn't happen, without their making you lose your mind. Understand what it is that makes them feel good, so you can offer them more of those experiences then they're getting right now (or ensure they don't lose the ones they have).
+** DONE Finish working in mini-examples
+CLOSED: [2025-10-31 Fri 15:49]
+** DONE Work in opening of other famous novels
+CLOSED: [2025-10-30 Thu 12:08]
+*** A River Runs Through it
+In my family, there was never much distinction made between religion and fly fishing.
+*** The Crying of Lot 49
+One summer afternoon Mrs. Oedipa Maas came home from a Tupperware party whose hostess had put perhaps too much kirsch in the fondue to find that she, Oedipa, had been named executor, or she supposed executrix, of the estate of one Pierce Inverarity, a California real estate mogul who had once lost two million dollars in his spare time but still had assets numerous and tangled enough to make the job of sorting it all out more than honorary.
+*** I Capture the Castle
+I write this sitting in the kitchen sink.
+*** Metamorphosis
+Gregor Samsa awoke one morning from uneasy dreams to find himself transformed in his bed into a gigantic insect.
+*** Gravity's Rainbow
+“A screaming comes across the sky. It has happened before, but there is nothing to compare it to now.
+*** The Hobbit
+In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it to sit down on or to eat: it was a hobbit-hole, and that means comfort.
+*** Fear & Loathing In Las Vegas
+We were somewhere around Barstow on the edge of the desert when the drugs began to take hold.
+** TODO Review/Revise 4 Emotions
+** DONE Decide: feedback or just ship?
+CLOSED: [2025-10-30 Thu 12:10]
+** DONE Format for Substack
+CLOSED: [2025-10-31 Fri 13:48]
+:LOGBOOK:
+CLOCK: [2025-10-31 Fri 12:11]--[2025-10-31 Fri 13:48] =>  1:37
+:END:
+** DONE Wrap post w/ just the catalog?
+CLOSED: [2025-10-30 Thu 11:09]
+:LOGBOOK:
+CLOCK: [2025-10-30 Thu 09:13]--[2025-10-30 Thu 11:09] =>  1:56
+CLOCK: [2025-10-29 Wed 09:40]--[2025-10-29 Wed 11:48] =>  2:08
+CLOCK: [2025-10-28 Tue 13:52]--[2025-10-28 Tue 15:05] =>  1:13
+CLOCK: [2025-10-28 Tue 10:16]--[2025-10-28 Tue 11:15] =>  0:59
+CLOCK: [2025-10-28 Tue 08:28]--[2025-10-28 Tue 09:00] =>  0:32
+CLOCK: [2025-10-25 Sat 08:59]--[2025-10-25 Sat 08:59] =>  0:00
+CLOCK: [2025-10-24 Fri 15:56]--[2025-10-24 Fri 16:21] =>  0:25
+:END:
+** DONE Bring to life challenge of making request
+CLOSED: [2025-10-28 Tue 11:15]
+:LOGBOOK:
+CLOCK: [2025-10-26 Sun 16:57]--[2025-10-26 Sun 17:20] =>  0:23
+CLOCK: [2025-10-26 Sun 09:02]--[2025-10-26 Sun 10:30] =>  1:28
+:END:
+
+
+Really, it's not specifically the story, it's making the idea feel like a full idea, instead of just dropping the reader into the tactics so abruptly.
+
+Maybe explain *why* to go through that three part arc. Stakeholders are going to hear anything as a threat. They generally feel alone in pursuing their major goal, and alone in facing their own biggest fears.
+
+Therefore, if you can calmly and authentically demonstrate that you understand and care about their goals and their problems, they will exhale, and be much more ready to listen to you.
+
+Then, you can lay out your concerns, carefully doing so in a non-judgmental fashion.
+
+At that point, you can draw your stakeholder into a collaborative problem solving session by offering a possible solution.
+
+It's much easier to do this in small increments than as one big step -- that allows you to build trust as you to.
+** TODO Agile Manifesto / working software
+** TODO For Agile cartoon rewrite, consider pachinko metaphor
+Where, no matter what you do, your ball seems to bounce down to the middle, which is "late and not quite whate everyone wanted".
+
+Could put it in late, after explaining the fanning out tree view, and picking your way to the one valuable option in that tree.
+** TODO Prep Creation of Value I & II for Medium
+** TODO Read up on Google/Substack/SEO
+** TODO Think about a call to action for book announcements
 * [[id:9410A7DC-111C-4791-B8A1-C20867904251][Unstuck Beta]]                                    :gtasks:
-** DONE Chunk out work to get to Beta             :curweek:
+** TODO Look at book blockers thing from Help This Book
+In email
+** DONE Chunk out work to get to Beta
 CLOSED: [2025-10-31 Fri 08:53]
 :LOGBOOK:
 CLOCK: [2025-10-31 Fri 08:17]--[2025-10-31 Fri 08:53] =>  0:36
 :END:
-** DONE Decide a target date                      :curweek:
+** DONE Decide a target date
 CLOSED: [2025-10-31 Fri 09:02]
 :LOGBOOK:
 CLOCK: [2025-10-31 Fri 08:53]--[2025-10-31 Fri 09:02] =>  0:09
 :END:
-** DONE Make target visible                       :curweek:
+** DONE Make target visible
 CLOSED: [2025-10-31 Fri 09:12]
 :LOGBOOK:
 CLOCK: [2025-10-31 Fri 09:02]--[2025-10-31 Fri 09:12] =>  0:10
@@ -195,6 +214,7 @@ Maybe have a burndown? Use claude to visualize?
 
 Visible on the wall and/or in org?
 * [[id:5C7A0B37-8984-4A1F-8371-C1FCEB637174][Compelling Offer]]                                :gtasks:
+** TODO Apply tweaks from Substack to Compelling Offer (claude?))
 ** TODO Split into three chapters
  1. Offer A Small, Easy-To-Agree-To Change
     Structure incremental changes to make them easy to say “yes” to
@@ -366,7 +386,6 @@ To deploy authority.
 ** TODO Add post-mortems w/ roberto and vahe?
 As means to face fears from stakeholders
 * [[id:49E66E86-CE83-447E-87C2-3BFF3D8FE42E][Teach/Coach]]                                     :gtasks:
-
 * [[id:49435FCD-0590-44DE-8FC7-585E7BCC8BB2][Book Tooling]]
 ** TODO Claude: rework wc graph use other tooling
 Specifically, to use what I use for watch_book.sh which is doing what I want.
@@ -425,8 +444,11 @@ So I can either run full screen or within 80 columns
 Because now my wordcount history stuff is sensitive to those being missing.
 ** TODO Create a new chapter template or abbrev?
 * Book Misc
-** TODO Book: what to do if you're purely project-based?
+** TODO "Book tone" less lively/playful than "blog tone"?
 ** TODO Replace "goal" with "outcome" in, like, a lot of places
+** TODO Remember: when to loop in adjacent authority
+(e.g. your own boss)
+** TODO Book: what to do if you're purely project-based?
 ** TODO Weave playfulness throughout
  - Playful stories about the foibles of stakeholders
  - Playful stories about our own foibles
@@ -434,8 +456,6 @@ Because now my wordcount history stuff is sensitive to those being missing.
  - Energetic asides
 
  Broadly, channel my *authentic* sense that all of this is, well, *fun*.
-** TODO Look at book blockers thing from Help This Book
-In email
 ** TODO How to test lots of little examples vs one big story
 E.g. do I get more juice from leading people through Quin's journey, or through scattering micro stories throughout?
 
@@ -456,8 +476,6 @@ Separately from the whole book
 CLOSED: [2025-09-22 Mon 12:25]
 ** TODO Should I feature more actual stories from my past
 E.g. the way he does in NSTD? Vs made up scenarios?
-** TODO Remember: when to loop in adjacent authority
-(e.g. your own boss)
 ** DONE New book title options
 CLOSED: [2025-10-20 Mon 10:03]
 
