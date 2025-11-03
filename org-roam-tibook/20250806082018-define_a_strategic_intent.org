@@ -4,6 +4,33 @@
 #+title: Identify a Strategic Intent
 #+filetags: :Chapter:
 * Align On a Strategic Outcome
+** [snippet] Why Do Stakeholders Hide Their Dreams?
+
+Why on earth not, you might well be asking?[fn:: Unless you've worked in software for a long time? In which case you might be saying, "/sigh/"]
+
+Stakeholders often take such a business outcome and then *convert* it into a series of specific tasks and projects. Having done so, they proceed to only ever talk about those tasks and projects.
+
+They may even consider this narrowness, this limitation on what they share, a *virtue*---because it forces their teams to "focus on what matters".
+
+Unfortunately, some stakeholders, being human, derive some of their sense of status or self-worth from being the only one who truly understands the strategic goals. Such stakeholders can thus be /resistant/ to openly sharing strategic goals. Which, sigh. We'll share tactics for helping such stakeholders open up in later chapters.
+
+At other times this is, essentially, an accident. The long-term strategic outcome feels so blindingly obvious to your stakeholder, they /forget/ they need to share it clearly and repeatedly. In fact, they may feel like they already *are* sharing it, over and over. When they say, "You absolutely need to hit your delivery deadlines for Q3," what they hear *in their own head* is, "Or else we won't be able to see if the new features improves retention rates."[fn:: That stakeholder is angrily surprised when they discover that, in order to hit the Q3 deadlines, the team cut corners, broke a key part of the product, and caused a raft of customers to churn. "But I told you how critical retention is!" the stakeholder may even say/yell. "It's literally all I ever talked about!" This statement is both completely true and completely untrue at the exact same time! Again, humans are fun.]
+
+Aligning with your stakeholder on a strategic outcome enables you to position your request for change as a necessary step in eventually achieving their long-term goal. It gives you a great deal of flexibility to come up with new ways to work together, that allow you to reach that long-term goal. Also, importantly, it enables you to demonstrate an authentic personal commitment to achieving that goal. This allows your stakeholder to start to see you as a *partner* in facing their most important challenges.
+
+
+# Being able to speak to a longer-term strategic outcome creates *flexibility* to offer a new way to work -- because you can situate that new way as a necessary step in helping achieve that outcome, even if it means *changing* the near-term goals (as it often will).
+
+# Furthermore, even when leadership *has* done the hard work to develop a coherent, focused strategy, they don't always share much in the way of *context* with individual teams. They may simply pass down goals, but not share the thinking that led to selecting those goals, nor the business outcomes that achieving those goals will hopefully unlock. For software projects, which need a tremendous amount of flexibility in order to succeed, passing down goals without context very rarely works.
+
+As a part of this, you'll also identify how your team can, if things go well, play a role in achieving that outcome.
+
+To be fair, this may be a perfectly reasonable way to run business efforts *outside of software development*.
+
+, and then only ever talk to a team about one particular task or project. Often, a stakeholder's frustrating behavior is, in their mind, the only way to get that task done, and therefore the only way to accomplish the long-term outcome. To find a new way to work together, you have to get beneath what they're asking for, and understand what they're ultimately trying to achieve. Once you do so, you can propose a different, less frustrating way of working together, that will move you *both* towards the long-term outcome.
+
+
+
 ** The Power of Speaking to Strategic Outcomes
 
 You're going to start by developing a clear articulation of a single key strategic outcome for the business---an outcome that your team can play a role in achieving, *if* you can solve some set of business problems.
