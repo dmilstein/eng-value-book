@@ -7,25 +7,32 @@
 ** Chapter Next
 *** 1. Identify a long-term, strategic outcome that your stakeholder cares intensely about
 
-We start by identifying a single, key long-term outcome---where "long-term" means something like twelve to twenty four months out. This is a *business* outcome that your stakeholder is spending their days and weeks and months working backwards from. This is an outcome that lies at the heart of their definition of success in their own job.
+We start by identifying a single, key long-term outcome---where "long-term" generaly means something like twelve to twenty four months out. This is a *business* outcome that your stakeholder is spending their days and weeks and months working backwards from. A business outcome that is core to their definition of success in their own job.
 
 Perhaps that's demonstrating that introducing a new product will increase the total addressable market for your company.
 
 Perhaps it's showing that tech-enabled operations can finally improve your company's depressingly mediocre profitability.
 
-Perhaps it's hitting some aspirationally high annual retention rate so that your company becomes more attractive to potential acquirers.
+Perhaps it's hitting some aspirationally high annual retention rate so that your company will at long last become attractive to potential acquirers.
 
-Again, these are long-term *business* outcomes, not simply product or feature deliverables.
+Again, these are business outcomes, not simply product or feature deliverables.
 
-Identifying such an outcome often takes real work! In many (...most?) cases, stakeholders do not clearly share the long-term business outcomes they care most intensely about.
+Identifying such an outcome often takes real work!
 
+In many, many cases, stakeholders do not clearly share the long-term business outcomes they care most intensely about.
+
+In "Extract A Strategic Outcome" we'll dig deeply into both why stakeholders often fail to share this kind of context, and what you can do to ensure you're getting past their day-to-day requests, to what they truly care about.
+
+**** Put in later chapter?
 Why on earth not, you might well be asking?[fn:: Unless you've worked in software for a long time? In which case you might be saying, "/sigh/"]
 
 Stakeholders often take such a business outcome and then *convert* it into a series of specific tasks and projects. Having done so, they proceed to only ever talk about those tasks and projects.
 
-They may even consider this narrowness, this limitation on what they share, a *virtue*---because it forces their teams to "focus on what matters".[fn:: Also, some stakeholders, being human, derive some of their sense of status or self-worth from being the only one who truly understands the strategic goals. Such stakeholders can thus be resistant to openly sharing strategic goals. Which, sigh. We'll share tactics for helping such stakeholders open up in later chapters.]
+They may even consider this narrowness, this limitation on what they share, a *virtue*---because it forces their teams to "focus on what matters".
 
-At other times this is, essentially, an accident. The long-term strategic outcome feels so blindingly obvious to your stakeholder, they forget they need to share it clearly and repeatedly. In fact, they may feel like they already *are* sharing it, over and over. When they say, "You absolutely need to hit your delivery deadlines for Q3," what they hear *in their own head* is, "Or else we won't be able to see if the new features improves retention rates."[fn:: That stakeholder will be angrily surprised when they discover that, in order to hit the Q3 deadlines, the team cut some serious corners, broke a key part of the product, and caused a raft of customers to churn. "But I told you how critical retention is!" the stakeholder may even say/yell. "It's literally all I ever talked about!"]
+Unfortunately, some stakeholders, being human, derive some of their sense of status or self-worth from being the only one who truly understands the strategic goals. Such stakeholders can thus be /resistant/ to openly sharing strategic goals. Which, sigh. We'll share tactics for helping such stakeholders open up in later chapters.
+
+At other times this is, essentially, an accident. The long-term strategic outcome feels so blindingly obvious to your stakeholder, they /forget/ they need to share it clearly and repeatedly. In fact, they may feel like they already *are* sharing it, over and over. When they say, "You absolutely need to hit your delivery deadlines for Q3," what they hear *in their own head* is, "Or else we won't be able to see if the new features improves retention rates."[fn:: That stakeholder is angrily surprised when they discover that, in order to hit the Q3 deadlines, the team cut corners, broke a key part of the product, and caused a raft of customers to churn. "But I told you how critical retention is!" the stakeholder may even say/yell. "It's literally all I ever talked about!" This statement is both completely true and completely untrue at the exact same time! Again, humans are fun.]
 
 Aligning with your stakeholder on a strategic outcome enables you to position your request for change as a necessary step in eventually achieving their long-term goal. It gives you a great deal of flexibility to come up with new ways to work together, that allow you to reach that long-term goal. Also, importantly, it enables you to demonstrate an authentic personal commitment to achieving that goal. This allows your stakeholder to start to see you as a *partner* in facing their most important challenges.
 
@@ -38,19 +45,18 @@ As a part of this, you'll also identify how your team can, if things go well, pl
 
 To be fair, this may be a perfectly reasonable way to run business efforts *outside of software development*.
 
-# XXX Pick this up here
-
-With any one team or one person, they will then only talk about the particular task or project they believe that team or person needs to get done.
-
 , and then only ever talk to a team about one particular task or project. Often, a stakeholder's frustrating behavior is, in their mind, the only way to get that task done, and therefore the only way to accomplish the long-term outcome. To find a new way to work together, you have to get beneath what they're asking for, and understand what they're ultimately trying to achieve. Once you do so, you can propose a different, less frustrating way of working together, that will move you *both* towards the long-term outcome.
+
+
+*** 2. Develop an *empathetic understanding* of your stakeholder's emotional experience
 
 Aligning on a long-term outcome is a powerful place to start. But it's not enough by itself, for a somewhat simple reason:
 
-Your stakeholder is a human being.
+Your stakeholder is, unless I very badly miss my guess, a human being.
 
-Like all human beings, their behavior is not driven merely by a rational desire to achieve a long-term outcome. We are none of us robots. If you want to persuade your stakeholder to make a change of some kind, you're going to need to understand them as a human being.
+Thus, like all human beings, their behavior is not driven merely by a rational plan to achieve some long-term outcome. We are none of us robots. If you want to persuade your stakeholder to make a change of some kind, you're going to need to understand their messy human emotions.
 
-Thus, the second step in the game plan is to develop a picture of your stakeholder's key underlying *emotions*. You will do your best to:
+Thus, the second step in the game plan is to develop an empathetic understanding of your stakeholder's key underlying emotions. You will do your best to:
 
  - Understand their *frustrations*, so you can propose a change that smoothes some of those frustrations away
 
@@ -60,7 +66,35 @@ Thus, the second step in the game plan is to develop a picture of your stakehold
 
  - Understand their *dreams*, so that you can offer a way to move towards a long-term aspirational vision
 
-Once you've done so, the third step is to put all of that together into a *compelling offer* -- a proposal to adjust how you work together, initially in a small way. You'll deliver this offer in a carefully structured manner, that will make it as easy as possible for your stakeholder to take the risk of saying yes.
+To be carefully clear, developing an empathetic understanding doesn't mean justifying or excusing problematic behaviors by someone in a position of power. It means being able to articulate an understanding of why your stakeholder might both feel and behave the way they do. An understanding of the situation they perceive themselves as being in.
+
+We'll explore how to go about this in Mine for Frustrations, Fears & Dreams.
+
+*** 3. Propose a *small adjustment* in how you work together, speaking to their emotional experience as you do so
+
+Armed with an understanding of your stakeholder's strategic goals, and their inner emotional landscape, you're ready to propose an incremental adjustment in how you work together.
+
+First, you'll decide a specific such adjustment, one which, if possible:
+
+  - Makes things a little better for you
+
+  - Makes things a little better for your stakeholder
+
+  - Moves you /both/ a little closer to the long-term strategic goal
+
+Then, you'll offer this adjustment to your stakeholder in a carefully structured manner. You'll go through four steps, in a sequence that is specifically designed to make it as easy as possible for your stakeholder say yes:
+
+  1. Name the strategic, long-term outcome
+
+  2. Share an empathetic understanding of their concerns
+
+  3. Share your own concerns
+
+  4. Propose your adjustment
+
+We'll explore this step in detail in Make a Compelling Offer.
+
+*** 4. When you put that adjustment in place, ensure the new way of working *feels like a win* for your stakeholder
 
 Once you get a commitment to try something new, you'll then work hard to ensure the initial period of change *feels* like a win for your stakeholder.
 
@@ -73,71 +107,6 @@ Once you get through the first period of change, you can:
  - Propose a next incremental adjustment
 
 Over time, you can gradually build deeper and deeper trust and rapport, allowing you to propose ever larger changes in how you work together.
-
-In later chapters of the book, we'll share a wealth of tactics for going through each of these steps, which we will name:
-
- 1. Identify a Strategic Outcome
-
- 2. Mine For Feelings
-
- 3. Make A Compelling Offer
-
-That said, there is one approach, one skill, that is so foundationally important that we're going to touch on it here. A skill that you'll end up using, over and over, across all of the steps.
-
-** Tactical Empathy: The Ultimate Superpower
-
-You may have noticed that just about every step in the game plan requires your stakeholder to *talk to you*.
-
-More specifically, to talk to you about things which they may usually be quite reluctant to share: their long-term goals, their fears, their frustrations, their dreams and desires.
-
-You will need them to *trust* you.
-
-Fortunately, there's a set of skills that help people to trust you. Even difficult, powerful, important people.
-
-Following the lead of Chris Voss and Raz Tahl, from their excellent book, Never Split the Difference, we'll name this set of skills *tactical empathy*.
-
-These skills offer a way of listening to and connecting with other humans, that make those humans feel deeply understood. A means to draw out emotions and validate concerns. Ways to unblock conversations, to search for and find shared goals and values.
-
-And crucially: the skills of tactical empathy can be *learned*.
-
-Being able to help other people trust you is not simply an inherent part of a personality, accessible only to smooth-talking extroverts.
-
-I've seen dozens and dozens of people level up on their influence and impact by putting conscious effort into mastering the skills of tactical empathy.
-
-I've seen people do so who consider themselves extroverts, I've seen people do so who have to painfully force themselves to talk to strangers at parties.
-
-For just about all of those people, I've seen that work make their jobs more rewarding and their days easier.
-
-All that said, I'm not going to lie: the skills of tactical empathy take time and effort to learn.
-
-If you want to break through to better collaborative relationships with your boss, peers and stakeholders, I urge you to take the time to practice these skills.
-
-# A sort of skeleton key for working with humans.
-
-
-** Make Incremental Improvements
-
-You're going to make things better through a *series of small steps*, not via one big sweeping change.
-
-The incremental approach is absolutely foundational, for at least two reasons:
-
-*1. You're adjusting a complex systems*
-
-Adjusting the ways that groups of humans work together is too complex to fully plan out in advance. In this, it has a great deal in common with developing a big, complex piece of software:
-
-You'll start with an overall sense of where you want to go, but you're going to make a bunch of interesting discoveries, some things will turn out to be much, much harder than you expected, unexpected opportunities will arise, the circumstances around you will change.
-
-Thus, just as when developing software, the iterative, experiment-and-learn approach is vastly more likely to succeed than the big bang plan-it-all-ahead-of-time approach.
-
-*2. You need to build trust as you go*
-
-Convincing other humans to change the way they behave is only possible if those humans *trust* you. You'll be asking the people around you, few of whom you have any kind of formal authority over, to try something new, something out of their comfort zone. For that to work, you need those people to believe that you understand them and have their interests at heart.
-
-In the game plan, you're going to build that kind of trust up over time--by earning wins together, and by steadily demonstrating that you understand and care about the challenges the people around you face. There is no shortcut I know of, to build that kind of trust at the flip of a switch.
-
-Because of these reasons, we'll run the game plan as a series of *Increments of Improvement*--each increment makes your interaction patterns a little bit better, builds a little more trust between you and some key person you work with, and, with any luck, creates a small win for the business, too.
-
-The necessity of working incrementally is, believe it or not, good news! You can, with creative thinking, apply much of your experience in iterative software and product development. Only here you're applying it to a group of humans, instead of a pile of code.
 
 ** Focus On One Stakeholder At A Time
 
@@ -153,7 +122,7 @@ An engineering lead may feel that, for their team to move more quickly, their PM
 
 The team isn't going to be able to genuinely move faster unless both the PM and the Head of Product are willing to change.
 
-As above, I recommend you start with a primary focus on just one of them. See if you can fashion a partial win with that one, and then move on to the other. In my experience, that's more successful than trying to convince multiple people to  all risk making a change at once.
+As above, I recommend you start with a primary focus on just one of them. See if you can fashion a partial win with that one, and then move on to the other. In my experience, that's more successful than trying to convince multiple people to all risk making a change at once.
 
 In the example above, perhaps the engineering lead has a strong hunch that the PM would *like* to make more "small" decisions on their own, but just doesn't feel fully safe in doing so.
 
@@ -163,9 +132,9 @@ We'll return to this (very common!) challenge in detail in the [[id:EBBA71C3-8C1
 
 We're going to name the person you'll focus on as your *Stakeholder*, and we'll define a "stakeholder" as:
 
- a) Someone who *needs* you, in order to accomplish their own goals
+ a) Someone who *needs* you, in order to accomplish their goals
 
- b) Someone who has some form of *influence* over you
+ b) Someone who has influence over your ability to succeed at your job
 
 # Add c) Someone you need in turn? Or say how you don't always.
 
@@ -210,6 +179,56 @@ Consider developing a list of the people you can't afford to ignore.
 Looking that over, you may find a few key "stakeholders" you hadn't been thinking about -- and, you may be stuck in broken interaction patterns with some of them, leading to frustration and/or wasted work.
 
 We'll touch on how to improve collaborations with these kinds of "implicit stakeholders" in several Case Studies, including [[id:B9798ABE-0A34-4EC6-9F78-CD5C6404C9D8][Interruptions & Distractions]], and also *Stop Doing Low-Value/Waste Work*.
+
+** Earning Trust Is The Heart of the Game Plan
+
+Convincing other humans to change the way they behave is only possible if those humans *trust* you. When you propose a change, you're asking your stakeholder--someone over whom you have no formal authority--to take a risk. For them to agree, they have to trust that you'll genuinely help them accomplish their long-term goals. They have to trust that you deeply understand their concerns and will commit to addressing them. They have to trust that you are truly on their side.
+
+You're going to build up that trust over time---by earning wins together, and by steadily demonstrating that you understand and care about the challenges facing your stakeholder.
+
+# With luck, each incremental adjustment will make your interaction patterns a little bit better, will build a little more trust between you and your stakeholder, and, will help your overall business move forward.
+
+As a reminder, here are the steps in the game plan that we laid out:
+
+ 1. Identify a long-term *strategic outcome* that your stakeholder cares intensely about
+
+ 2. Develop an *empathetic understanding* of your stakeholder's emotional experience
+
+ 3. Propose a *small adjustment* in how you work together, speaking to their emotional experience as you do so
+
+ 4. When you put that adjustment in place, ensure the new way of working *feels like a win* for your stakeholder
+
+You'll inititally go through that in the small, build a small amount of trust, and then gradually lever up to more and more comprehensive changes.
+
+** Tactical Empathy: The Ultimate Superpower
+
+You may have noticed that just about every step in the game plan requires your stakeholder to *talk to you*.
+
+More specifically, to talk to you about things which they may usually be quite reluctant to share: their long-term goals, their fears, their frustrations, their dreams and desires.
+
+You will need them to *trust* you.
+
+Fortunately, there's a set of skills that help people to trust you. Even difficult, powerful, important people.
+
+Following the lead of Chris Voss and Raz Tahl, from their excellent book, Never Split the Difference, we'll name this set of skills *tactical empathy*.
+
+These skills offer a way of listening to and connecting with other humans, that make those humans feel deeply understood. A means to draw out emotions and validate concerns. Ways to unblock conversations, to search for and find shared goals and values.
+
+And crucially: the skills of tactical empathy can be *learned*.
+
+Being able to help other people trust you is not simply an inherent part of a personality, accessible only to smooth-talking extroverts.
+
+I've seen dozens and dozens of people level up on their influence and impact by putting conscious effort into mastering the skills of tactical empathy.
+
+I've seen people do so who consider themselves extroverts, I've seen people do so who have to painfully force themselves to talk to strangers at parties.
+
+For just about all of those people, I've seen that work make their jobs more rewarding and their days easier.
+
+All that said, I'm not going to lie: the skills of tactical empathy take time and effort to learn.
+
+If you want to break through to better collaborative relationships with your boss, peers and stakeholders, I urge you to take the time to practice these skills.
+
+# A sort of skeleton key for working with humans.
 
 ** The Four Steps To Develop An Increment of Improvement
 
@@ -671,3 +690,26 @@ E.g. maybe the first step for that engineering lead is to advocate for just a bi
 They want to help them see the benefits of allowing the team to make *"small" decisions more quickly* -- as long as those decisions are "mostly right", and "big" decisions still come up to the Head of Product. Once the enginering lead has created space for that kind of rapid small decision-making, they can *then* work with their PM partner to help them start to actually make those decisions.[fn:: You might be wondering how the engineering lead can advocate for faster decision-making if their PM partner isn't ready to step up and take advantage of it. As in, how can they ensure the VP of Product will see some positive improvements, in the immediate term? One answer is: the engineering lead can commit to "leaning over" and personally helping do the product job, for a short period of time. We'll talk through this in detail in the "Underpowered Product Team" case study.]
 ** Being pulled in different directions
 Quin is worried that, because the team keeps getting pulled in so many different directions, ATN! won't be able to test out an actual product idea, with actual customers, any time soon.
+** Make Incremental Improvements
+
+You're going to make things better through a *series of small steps*, not via one big sweeping change.
+
+The incremental approach is absolutely foundational, for at least two reasons:
+
+*1. You're adjusting a complex systems*
+
+Adjusting the ways that groups of humans work together is too complex to fully plan out in advance. In this, it has a great deal in common with developing a big, complex piece of software:
+
+You'll start with an overall sense of where you want to go, but you're going to make a bunch of interesting discoveries, some things will turn out to be much, much harder than you expected, unexpected opportunities will arise, the circumstances around you will change.
+
+Thus, just as when developing software, the iterative, experiment-and-learn approach is vastly more likely to succeed than the big bang plan-it-all-ahead-of-time approach.
+
+*2. You need to build trust as you go*
+
+Convincing other humans to change the way they behave is only possible if those humans *trust* you. You'll be asking the people around you, few of whom you have any kind of formal authority over, to try something new, something out of their comfort zone. For that to work, you need those people to believe that you understand them and have their interests at heart.
+
+In the game plan, you're going to build that kind of trust up over time--by earning wins together, and by steadily demonstrating that you understand and care about the challenges the people around you face. There is no shortcut I know of, to build that kind of trust at the flip of a switch.
+
+Because of these reasons, we'll run the game plan as a series of *Increments of Improvement*--each increment makes your interaction patterns a little bit better, builds a little more trust between you and some key person you work with, and, with any luck, creates a small win for the business, too.
+
+The necessity of working incrementally is, believe it or not, good news! You can, with creative thinking, apply much of your experience in iterative software and product development. Only here you're applying it to a group of humans, instead of a pile of code.
