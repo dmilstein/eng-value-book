@@ -126,11 +126,112 @@ In the game plan, an increment of improvement consists of four key steps:
 
  4. When you put that adjustment in place, ensure the new way of working *feels like a win* for your stakeholder
 
-In the next chapter, we'll dig into those steps, and explore why each is so valuable.
+# In the next chapter, we'll dig into those steps, and explore why each is so valuable.
 
-Then, throughout the rest of the book, we'll share a wealth of tactics for working through those steps *with* your stakeholder. No matter how thorny or difficult they may be!
+Then, throughout the rest of this book, we'll share a wealth of tactics for working through those steps *with* your stakeholder.
 
-I can't wait!
+But first, let's sketch in a high-level overview of what you'll be doing each of these steps, along with why.
+
+# I can't wait!
+
+
+** Exploring the Steps
+
+*** 1. Identify a long-term, strategic outcome that your stakeholder cares intensely about
+
+You'll start by identifying a single, key long-term outcome (where "long-term" generally means something like twelve to twenty four months out). This is a *business* outcome that your stakeholder is spending their days and weeks and months thinking about. A few examples:
+
+ - Demonstrating that introducing a new product will increase the total addressable market for your company
+
+ - Showing that tech-enabled operations can finally improve your company's depressingly mediocre profitability
+
+ - Hitting some aspirationally high annual retention rate so that your company will at long last become attractive to potential acquirers
+
+Again, these are *business outcomes*, not simply product or feature deliverables.
+
+# A business outcome that is core to their definition of success in their own job.
+
+Why is identifying your stakeholder's most beloved strategic [business] dream so valuable? Let me count the ways:
+
+It enables you to position a request for change as a *necessary step* in eventually achieving that long-term outcome.
+
+It creates the *flexibility* to identify new ways to work together, that still move you towards that long-term outcome.
+
+Finally, it enables you to demonstrate a *personal commitment* to achieving that long-term outcome, yourself. This allows your stakeholder to start to see you as a potential partner in facing their most important challenges.
+
+All that is great, but, unfortunately...
+
+...identifying such a long-term outcome often takes real work.
+
+In many cases stakeholders do not clearly share the long-term business outcomes they care most intensely about. They do not share what they, themselves, are working backwards from. Sometimes, they even try to hide it from you![fn:: Because they don't want to "distract" you and your team with "things you don't need to worry about."]
+
+In "Extract A Strategic Outcome" we'll dig deeply into both why stakeholders often fail to share this kind of context, and also what you can do to ensure you're getting past their day-to-day requests, to what they truly care about.
+
+*** 2. Develop an *empathetic understanding* of your stakeholder's emotional experience
+
+Aligning on a long-term outcome is a powerful place to start. But it's not enough by itself, for a somewhat simple reason:
+
+Your stakeholder is, unless I very badly miss my guess, a human being.
+
+Thus, like all human beings, their behavior is not driven merely by a rational plan to achieve some long-term outcome. We are none of us robots. If you want to persuade your stakeholder to make a change of some kind, you're going to need to understand their messy human emotions.
+
+Thus, the second step in the game plan is to develop an empathetic understanding of your stakeholder's key underlying emotions. You will do your best to:
+
+ - Understand their *frustrations*, so you can propose a change that smoothes some of those frustrations away
+
+ - Understand what it is that makes them *feel good*, so you can offer them more of those delightful experiences
+
+ - Understand their *fears*, so that you can help them face the worries that keep them up at night
+
+ - Understand their *dreams*, so that you can offer a way to move towards a long-term aspirational vision
+
+To be carefully clear, developing an empathetic understanding doesn't mean justifying or excusing problematic behaviors by someone in a position of power. It means being able to articulate an understanding of why your stakeholder might both feel and behave the way they do. An understanding of the situation they perceive themselves as being in.
+
+We'll explore how to go about this in Mine for Frustrations, Fears & Dreams.
+
+*** 3. Propose a *small adjustment* in how you work together, speaking to their emotional experience as you do so
+
+Armed with an understanding of both your stakeholder's strategic goals, and their inner emotional landscape, you're ready to propose an incremental adjustment in how you work together.
+
+You'll pick a specific such adjustment, which, if possible:
+
+  - Makes things a little better for you
+
+  - Makes things a little better for your stakeholder
+
+  - Moves you /both/ a little closer to the long-term strategic goal
+
+Then, you'll offer this adjustment to your stakeholder in a carefully structured manner. You'll go through the following four steps, in a sequence that is specifically designed to make it as easy as possible for your stakeholder say yes:
+
+  1. Name the strategic, long-term outcome
+
+  2. Share an empathetic understanding of their concerns
+
+  3. Share your own concerns
+
+  4. Propose your adjustment
+
+Fun fact: this approach steals ideas from two books, one for dealing with teenagers, the other with terrorists! That's Raising Human Beings, by Ross Greene, and Never Split The Difference, by Chris Voss and Tahl Raz. Both are truly excellent! And both are highly relevant to working with your CEO!
+
+We'll explore this step in detail in Make a Compelling Offer.
+
+*** 4. When you put that adjustment in place, ensure the new way of working *feels like a win* for your stakeholder
+
+Once you get a commitment to try something new, you'll then work hard to ensure the initial period of change *feels* like a win for your stakeholder.
+
+Once you successfully get through the first period of change, you can:
+
+ - Update your picture of your stakeholder's goals and feelings
+
+ - Decide which of your own concerns to address next
+
+ - Propose a next incremental adjustment
+
+Over time, you can gradually build deeper and deeper trust and rapport, allowing you to propose ever larger changes in how you work together.
+
+# Then, throughout the rest of the book, we'll share a wealth of tactics for working through those steps *with* your stakeholder. No matter how thorny or difficult they may be!
+
+# I can't wait!
 
 ** My Origin Story: The Mini-Tab & The Microsoft C Compiler
 
