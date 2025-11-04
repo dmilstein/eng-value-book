@@ -3,7 +3,7 @@
 :END:
 #+title: Identify a Strategic Intent
 #+filetags: :Chapter:
-* Align On a Strategic Outcome
+* Identify A Strategic Outcome
 ** [snippet] Why Do Stakeholders Hide Their Dreams?
 
 Why on earth not, you might well be asking?[fn:: Unless you've worked in software for a long time? In which case you might be saying, "/sigh/"]
@@ -28,7 +28,6 @@ As a part of this, you'll also identify how your team can, if things go well, pl
 To be fair, this may be a perfectly reasonable way to run business efforts *outside of software development*.
 
 , and then only ever talk to a team about one particular task or project. Often, a stakeholder's frustrating behavior is, in their mind, the only way to get that task done, and therefore the only way to accomplish the long-term outcome. To find a new way to work together, you have to get beneath what they're asking for, and understand what they're ultimately trying to achieve. Once you do so, you can propose a different, less frustrating way of working together, that will move you *both* towards the long-term outcome.
-
 
 
 ** The Power of Speaking to Strategic Outcomes
@@ -77,7 +76,7 @@ There are (at least!) three reasons why moving from a near-term goal to a longer
 
     By being able to cite something your stakeholder *wants*, you'll be able to anchor your pitch in a positive vision of the future. That is a very powerful way to *motivate* humans to take the risk of making a change.
 
-*** What Makes a Good Intent?
+** What Makes a Good Intent?
 
 You're going to work on coming up with a clear articulation of that combination of a strategic outcome and your team's role in achieving that outcome.
 
