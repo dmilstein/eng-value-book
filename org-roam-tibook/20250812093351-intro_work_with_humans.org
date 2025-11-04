@@ -114,11 +114,13 @@ Let's talk about what you can do, if you find yourself in of these unpleasant si
 
 We're going to develop a step-by-step game plan for gradually drawing your Important Person, whom we'll term your "stakeholder", into a process of collaborative problem-solving [with you].
 
-We'll focus on steadily making small improvements, building trust and rapport as we go.
+We'll focus on steadily making small improvements, building trust and rapport as we go. You'll earn a series of small, shared wins. You'll demonstrate, over and over, that you understand and care about the challenges your stakeholder is wrestling with.
 
-When trying to improve how you collaborate with a key stakeholder, working incrementally is far more effective than trying to make a single big change all at once. In this it resembles *every single other* facet of attempting to develop valuable software. If Waterfall doesn't work for adjusting complex software systems, why would we expect it to work for adjusting complex human systems, which bring with them their own delightful forms of complexity?[fn:: I've had software systems fail for an enormous variety of reasons, but, so far, not because any one component took it personally that it wasn't invited to another component's party. Of course, I'm writing this late in 2025, so maybe in a few years soothing moody LLM's will turn into a full-time job?]
+Working in this incremental fashion is far more effective than trying to make a single big change all at once.
 
-In the game plan, going through an increment of improvement consists of four key steps:
+In this it of course resembles *every other* facet of developing software. Unsurprisingly, Waterfall super doesn't work for adjusting complex human systems, with all their delightful forms of complexity.[fn:: I've had software systems fail for an enormous variety of reasons, but, so far, not because one component wasn't invited to another component's party. Of course, I'm writing this late in 2025, and maybe in a few years soothing moody LLM's will turn into a full-time job?]
+
+In the game plan, going through a single increment of improvement consists of four key steps:
 
  1. Identify a long-term *strategic outcome* that your stakeholder cares intensely about
 
@@ -130,9 +132,9 @@ In the game plan, going through an increment of improvement consists of four key
 
 # In the next chapter, we'll dig into those steps, and explore why each is so valuable.
 
-Then, throughout the rest of this book, we'll share a wealth of tactics for working through those steps *with* your stakeholder.
+Throughout the rest of this book, we'll share a wealth of tactics for working through those steps *with* your stakeholder.
 
-But first, let's sketch in a high-level overview of what you'll be doing each of these steps, and why each is important.
+But first, let's sketch in a high-level overview of what you'll be doing in each of these steps, and why each is so important.
 
 # I can't wait!
 # * Exploring the Steps
@@ -143,7 +145,7 @@ But first, let's sketch in a high-level overview of what you'll be doing each of
 
 You'll start by identifying a single, key long-term outcome (where "long-term" generally means something like twelve to twenty four months out). This is a *business* outcome that your stakeholder is spending their days and weeks and months thinking about. A few examples:
 
- - Demonstrating that introducing a new product will increase the total addressable market for your company
+ - Introducing a new product that increases the total addressable market for your company
 
  - Showing that tech-enabled operations can finally improve your company's depressingly mediocre profitability
 
@@ -155,19 +157,23 @@ Again, these are *business outcomes*, not simply product or feature deliverables
 
 Why is identifying your stakeholder's most beloved strategic [business] dream so valuable? Let me count the ways:
 
-It enables you to position a request for change as a *necessary step* in eventually achieving that long-term outcome.
+First, it enables you to position a request for change as a *necessary step* in eventually achieving that long-term outcome.
 
-It creates the *flexibility* to identify new ways to work together, that still move you towards that long-term outcome.
+Second, it creates the *flexibility* to identify new ways to work together, that still move you towards that long-term outcome.
+
+# To find new ways to move towards that long-term outcome, that don't involve your stakeholder doing that super irritating thing.
+
+# For you to ask your stakeholder to stop doing that super irritating thing, but show them that you can still move towards the long-term outcome.
 
 Finally, it enables you to demonstrate a *personal commitment* to achieving that long-term outcome, yourself. This allows your stakeholder to start to see you as a potential partner in facing their most important challenges.
 
-All that is great, but, unfortunately...
+All that is great! You should totally start by aligning around a key strategic outcome! You're so totally convinced!
 
-...identifying such a long-term outcome often takes real work.
+But here's the thing: identifying your stakeholder's key long-term outcome often takes, well, real work.
 
-In many cases stakeholders do not clearly share the long-term business outcomes they care most intensely about. They do not share what they, themselves, are working backwards from. Sometimes, they even try to hide it from you![fn:: Because they don't want to "distract" you and your team with "things you don't need to worry about."]
+Stakeholders do not always clearly share the long-term business outcomes they care most intensely about. They do not always share what they, themselves, are working backwards from. Sometimes, believe it or not, stakeholders will even try to *hide* their long-term goals from you. No, really! Such stakeholders will tell themselves that they don't want to "distract" you and/or your team. They will tell themselves that your team "just needs to execute", and, by refusing to talk about the long-term, they are helping you to "focus."[fn:: Roughly 100% of the time, when leaders have told me or my team, "Look, you just need to execute," what they were /actually/ saying is "Please stop asking so many damn questions"... because the questions were highlighting massive risks or uncertainties they were desperately trying to pretend didn't exist.]
 
-In "Extract A Strategic Outcome" we'll dig deeply into both why stakeholders often fail to share this kind of context, and also what you can do to ensure you're getting past their day-to-day requests, to what they truly care about.
+In "Identify A Strategic Outcome" we'll dig deeply into both why stakeholders often fail to share this kind of context, and also what you can do to ensure you're getting past their day-to-day requests, to what they truly care about. Even if they're initially resistant to a conversation about anything but the project they're demanding a status update on.
 
 ** 2. Map Key Emotions
 
@@ -175,9 +181,9 @@ In "Extract A Strategic Outcome" we'll dig deeply into both why stakeholders oft
 
 Aligning on a long-term outcome is a powerful place to start. But it's not enough by itself, for a somewhat simple reason:
 
-Your stakeholder is, unless I very badly miss my guess, a human being.
+Your stakeholder is a human being.
 
-Thus, like all human beings, their behavior is not driven merely by a rational plan to achieve some long-term outcome. We are none of us robots. If you want to persuade your stakeholder to make a change of some kind, you're going to need to understand their messy human emotions.
+Their behavior is not driven merely by a rational plan to achieve some long-term outcome. We are none of us robots. If you want to persuade your stakeholder to make a change of some kind, you're going to need to understand their messy human emotions.
 
 Thus, the second step in the game plan is to develop an empathetic understanding of your stakeholder's key underlying emotions. You will do your best to:
 
@@ -227,9 +233,9 @@ We'll explore this step in detail in Make a Compelling Offer.
 
 Once you get a commitment to try something new, you'll then work hard to ensure the initial period of change *feels* like a win for your stakeholder.
 
-First off, you'll make absolutely certain your stakeholder has something meaningful to *do*, in this new way of working... even if right now all you are most desperately hoping for is for them to leave you alone. You'll ask them to play a genuinely critical role in this first increment. Perhaps that's making key decisions, or guiding work at certain key moments, or negotiating with other parties on key terms.
+First off, you'll make absolutely certain your stakeholder has something meaningful to *do*, in this new way of working... even if right now all you are most desperately hoping for is to be /left alone/. You'll ask your stakeholder to play a genuinely critical role in this first increment of change. Perhaps that's making key decisions, or guiding work at certain key moments, or negotiating with other parties on key terms.
 
-Then, as the work unfolds, you'll find small, meaningful wins to celebrate together. You'll steadily connect incremental progress today to the long-term outcomes you are hoping to some day achieve.
+Then, as the work unfolds, you'll find small, meaningful wins to celebrate together. You'll steadily connect incremental progress today to the long-term outcomes you are hoping to some day achieve. You'll help your stakeholder feel cautiously hopeful about this new way of working together.
 
 Once you successfully get through the first period of change, you'll then:
 
@@ -245,79 +251,37 @@ Over time, you can gradually build deeper and deeper trust and rapport, allowing
 
 # I can't wait!
 
-** My Origin Story: The Mini-Tab & The Microsoft C Compiler
+** The Joy Of Solving Problems
 
 Who, you might be asking, is this Dan person? What does he know about getting groups of humans to work together to build valuable software? What does he know about getting stuck or, for that matter, unstuck?
 
-I'll answer those questions with a story.
+I'm so glad you asked!
 
-After I finished my sophmore year in college, I moved back home for the summer break.[fn:: For reasons that will soon become relevant, it was 1991.]
+I had my first paying software job over 30 years ago, when, during a summer home from college, I wrote a program to help a local community college prepare their annual catalog of courses.
 
-As I caught up with my parents, I told them I was hoping to spend some time over the next few months coding. I wanted to teach myself C, and was casting about for a decent-sized project to work on.
+At the end of a few weeks of work, they paid me $100. I deposited that check, and, I don't know, bought whatever I bought when I was in college.
 
-To my surprise, my mother said she might have something for me. She worked as a Dean at a local community college, running their adult and continuing education programs. She told me that, each year, late in the summer, her division would spend a couple of unpleasant weeks preparing the "Mini-Tab"--their annual catalog of continuing education courses.
+But, I then learned, to my surprise and delight, that my little program had ended up saving them *days* of frustrating work, when they prepared their catalog at the end of tahat summer. They ended up using it for years and years.
 
-The Mini-Tab prep, she explained, involved a great deal of rote work to extract course titles, descriptions and dates from the forms submitted by instructors.
+Apparently I had, just by typing cryptic symbols into a little screen, somehow created something that made the *real world*, well, a little bit better. That *helped* people.
 
-She said that, if I could write a program to help, she could maybe even pay me.
-
-I had a copy of Kernighan & Ritchie. I had Microsoft's C Compiler installed on my DOS computer.[fn:: Did I mention that it was 1991? It was 1991.] I had the confidence of youth.
-
-I said sure.
-
-Today I would write that program in an afternoon using python and a handful of regular expressions. But I had never heard of regexes at the time, and my long love affair with python was years in the future. In the end, writing the Mini-tab prep program took me a couple of weeks.
-
-# The input data wasn't consistently in the format my mother had described to me, so I kept having to slowly figure out the actual patterns, and then add special cases to handle each one. My long love affair with automated testing was *also* many years in the future, so I kept on breaking what I had written, over and over.
-
-When it finally worked, my mother handed me a check from her community college for $100.[fn:: Again, 1991.]
-
-I was *delighted*. This thing I loved, hacking on a computer to get it do things, could actually turn into money?
-
-That was nice enough. But then a few months later, something even better happened.
-
-# But I was *also* delighted to realize that I had saved my mother and her colleagues hours of extremely frustrating work.
-
-When I came home for Thanksiving break, my mother shared a series of excited appreciations from the people on her team. It turned out my little C program had saved them *days* of frustrating work.
-
-What a strange and wonderful fact to discover.
-
-Apparently I had, just by typing cryptic symbols into a little monochrome yellow and black screen, somehow created something that made the *real world*, well, a little bit better. That *helped* people.
-
-# I kept thinking about the few week I had spent, sitting at my dining room table, K&R splayed open next to me, typing cryptic symbols into a monochrome yellow and black screen. I had apparently created something that made the *real world*, well, a little bit better. That *helped* people.
-
-That felt kind of amazing. I still remember the moment.
-
-My mother's division at the community college ended up using that program for years and years. They very much got their money's worth for the $100 they'd spent.
-
-But, so did I.
+That felt, honestly, kind of amazing.
 
 That little job started me on the path of creating software that solved problems for people, in the real world. That path has turned into both a career, and also a great deal of meaningful work.
 
 I've written software to help people lay out and prepare textbooks for print production; to understand how marketing campaigns are performing; to fill a warehouse with goods and then to pick, pack and ship those goods back out again; to collaborate on scientific research during drug discovery; to help support English language learner students in public schools.
 
-# In so doing, I've spent a great deal of (very rewarding!) time gradually learning how to structure complex software to solve problems in the real world. Everything from the day-to-day tactics of how to write clean, understandable, testable code; to how to decompose large programs into pieces that can be understood and worked on independently; to a thousand details about how to represent and store data; to how to operate systems in the harsh reality of production.
-
 My journey into solving problems for people took me from engineering into product management, and then back into engineering, and then to various forms of leadership over both disciplines.
 
 Finding and solving problems that matter in the real world has meant just a tremendous amount of *working with other human beings*.
 
-# Finding and solving problems that matter in the real world has also, of course, meant having to solve problems *due to other people*.
+That shared work has been, at its best, incredibly rewarding. I have treasured memories of toasting a beloved sprint team at the end of a massive, year-long effort, where we had worked together to successfully overcome challenges great and small.
 
-Working with other human beings has been, at its best, incredibly rewarding. One of the most treasured memories of my working life is filling little plastic cups with expensive whiskey, and then toasting the members of my beloved sprint team as Patrick Fitzsimmons hit the enter key to finally delete tens of thousands of lines of code we'd all spent the last year replacing.
-
-But, of course, working with other humans has sometimes been incredibly frustrating! I have gotten stuck myself, a great many times.
+But, of course, working with other humans has sometimes been incredibly frustrating. I have gotten stuck myself, a great many times.
 
 This book is an attempt to share some of the most important lessons I've learned about how to work with humans to solve meaningful problems.
 
-How to get unstuck, so you can do meaningful work that you can be proud of.
-
-# There are a slew of challenges, some running through how businesses function, some through how human beings function, that must be faced, to find problems worth solving and then gradually hone in on solutions.
-
-# I, like just about all programmers, learned this the hard way.  I watched programs I had spent months writing get thrown away the moment they were finished, because the problem I had been asked to solve no longer mattered to anyone. I found myself mired in painful stasis and frustration thanks to constant churn and changing requirements. I watched in mounting frustration, as work ground to a halt due to delays between teams.
-
-# XXX add a third to the above
-
-# I've worked as a principal engineer building and operating complex systems; I've led product at startups desperately trying to find traction; I've managed engineering teams ranging in size from 2 to 500.
+How to get unstuck.
 
 * Scraps
 ** Defining Stakeholders
@@ -395,7 +359,7 @@ They find themselves in conflict when they have different understandings of how 
 
 This sounds like an absurdly simple truism, but I've spoken with plenty of engineers *and* plenty of stakeholders over the years who would struggle to believe it.
 
-On the engineering side, given how frustrating some stakeholders are to work with, and how deeply unwilling those stakeholders seem to be to *listen*, engineers will decide that those stakeholders are either pursuing some kind of narrow, political self-interest, or are trying to get an obvious immediate win and then move on, leaving a painful mess behind them for the future. Engineers will also assume that their stakeholders are well, *dumb* -- that they *can't* understand what needs to be done, in order to create valuable software for the business.
+On the engineering side, given how frustrating some stakeholders are to work with, and how deeply unwilling those stakeholders seem to be to *listen*, engineers will decide that those stakeholders are either pursuing some kind of narrow, political self-interest, or are trying to get an obvious immediate win and then move on, leaving a painful mess behind them for the future. I hate to say this, but engineers will sometimes assume that their stakeholders are well, *stupid* -- that they *can't* understand what needs to be done, in order to create valuable software for the business.
 
 # that they simply can't or won't understand the issues that engineers are trying to share with them.
 
@@ -474,3 +438,80 @@ I will, here in the wilds of 2025, enourage you to take some time to think about
 Perhaps also, take a moment to feel that sense of wonder -- I'm still astonished that, by typing a bunch of arcane characters into a glowing box, I can affect people's actual lives.
 
 # I adored role playing games as a kid -- and I loved playing wizards and spellcasters. I think the idea of being able to affect the real world by saying *just the right thing*, by learning some arcane incantation, was just a form of power that stirred dreams in my heart. How amazing is it that I've found a life where I can do just that.
+** My Origin Story: The Mini-Tab & The Microsoft C Compiler
+
+I had my first paying job writing software over 30 years ago, when, during a summer home from college, I wrote a program to help prepare an annual catalog of courses at the community college my mother worked at.
+
+my mother paid me $100 for a program that helped the community college she worked at prepare an annual catalog of courses.
+
+Who, you might be asking, is this Dan person? What does he know about getting groups of humans to work together to build valuable software? What does he know about getting stuck or, for that matter, unstuck?
+
+I'll answer those questions with a story.
+
+After I finished my sophmore year in college, I moved back home for the summer break.[fn:: For reasons that will soon become relevant, it was 1991.]
+
+As I caught up with my parents, I told them I was hoping to spend some time over the next few months coding. I wanted to teach myself C, and was casting about for a decent-sized project to work on.
+
+To my surprise, my mother said she might have something for me. She worked as a Dean at a local community college, running their adult and continuing education programs. She told me that, each year, late in the summer, her division would spend a couple of unpleasant weeks preparing the "Mini-Tab"--their annual catalog of continuing education courses.
+
+The Mini-Tab prep, she explained, involved a great deal of rote work to extract course titles, descriptions and dates from the forms submitted by instructors.
+
+She said that, if I could write a program to help, she could maybe even pay me.
+
+I had a copy of Kernighan & Ritchie. I had Microsoft's C Compiler installed on my DOS computer.[fn:: Did I mention that it was 1991? It was 1991.] I had the confidence of youth.
+
+I said sure.
+
+Today I would write that program in an afternoon using python and a handful of regular expressions. But I had never heard of regexes at the time, and my long love affair with python was years in the future. In the end, writing the Mini-tab prep program took me a couple of weeks.
+
+# The input data wasn't consistently in the format my mother had described to me, so I kept having to slowly figure out the actual patterns, and then add special cases to handle each one. My long love affair with automated testing was *also* many years in the future, so I kept on breaking what I had written, over and over.
+
+When it finally worked, my mother handed me a check from her community college for $100.[fn:: Again, 1991.]
+
+I was *delighted*. This thing I loved, hacking on a computer to get it do things, could actually turn into money?
+
+That was nice enough. But then a few months later, something even better happened.
+
+# But I was *also* delighted to realize that I had saved my mother and her colleagues hours of extremely frustrating work.
+
+When I came home for Thanksiving break, my mother shared a series of excited appreciations from the people on her team. It turned out my little C program had saved them *days* of frustrating work.
+
+What a strange and wonderful fact to discover.
+
+Apparently I had, just by typing cryptic symbols into a little monochrome yellow and black screen, somehow created something that made the *real world*, well, a little bit better. That *helped* people.
+
+# I kept thinking about the few week I had spent, sitting at my dining room table, K&R splayed open next to me, typing cryptic symbols into a monochrome yellow and black screen. I had apparently created something that made the *real world*, well, a little bit better. That *helped* people.
+
+That felt kind of amazing. I still remember the moment.
+
+My mother's division at the community college ended up using that program for years and years. They very much got their money's worth for the $100 they'd spent.
+
+But, so did I.
+
+That little job started me on the path of creating software that solved problems for people, in the real world. That path has turned into both a career, and also a great deal of meaningful work.
+
+I've written software to help people lay out and prepare textbooks for print production; to understand how marketing campaigns are performing; to fill a warehouse with goods and then to pick, pack and ship those goods back out again; to collaborate on scientific research during drug discovery; to help support English language learner students in public schools.
+
+# In so doing, I've spent a great deal of (very rewarding!) time gradually learning how to structure complex software to solve problems in the real world. Everything from the day-to-day tactics of how to write clean, understandable, testable code; to how to decompose large programs into pieces that can be understood and worked on independently; to a thousand details about how to represent and store data; to how to operate systems in the harsh reality of production.
+
+My journey into solving problems for people took me from engineering into product management, and then back into engineering, and then to various forms of leadership over both disciplines.
+
+Finding and solving problems that matter in the real world has meant just a tremendous amount of *working with other human beings*.
+
+# Finding and solving problems that matter in the real world has also, of course, meant having to solve problems *due to other people*.
+
+Working with other human beings has been, at its best, incredibly rewarding. One of the most treasured memories of my working life is filling little plastic cups with expensive whiskey, and then toasting the members of my beloved sprint team as Patrick Fitzsimmons hit the enter key to finally delete tens of thousands of lines of code we'd all spent the last year replacing.
+
+But, of course, working with other humans has sometimes been incredibly frustrating! I have gotten stuck myself, a great many times.
+
+This book is an attempt to share some of the most important lessons I've learned about how to work with humans to solve meaningful problems.
+
+How to get unstuck, so you can do meaningful work that you can be proud of.
+
+# There are a slew of challenges, some running through how businesses function, some through how human beings function, that must be faced, to find problems worth solving and then gradually hone in on solutions.
+
+# I, like just about all programmers, learned this the hard way.  I watched programs I had spent months writing get thrown away the moment they were finished, because the problem I had been asked to solve no longer mattered to anyone. I found myself mired in painful stasis and frustration thanks to constant churn and changing requirements. I watched in mounting frustration, as work ground to a halt due to delays between teams.
+
+# XXX add a third to the above
+
+# I've worked as a principal engineer building and operating complex systems; I've led product at startups desperately trying to find traction; I've managed engineering teams ranging in size from 2 to 500.
