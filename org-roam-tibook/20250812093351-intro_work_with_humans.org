@@ -3,7 +3,7 @@
 :END:
 #+title: Intro - Getting Unstuck
 #+filetags: :Chapter:
-* Introduction: The Joys and Pains of Working With Humans
+* The Joys and Pains of Working With Humans
 ** Introduction
 
 It is a truth universally acknowledged, that a person in possession of a career in software, must be extremely frustrated with an Important Person at their job.
@@ -251,19 +251,55 @@ Over time, you can gradually build deeper and deeper trust and rapport, allowing
 
 # I can't wait!
 
-** The Joy Of Solving Problems
+** Tactical Empathy
 
-Who, you might be asking, is this Dan person? What does he know about getting groups of humans to work together to build valuable software? What does he know about getting stuck or, for that matter, unstuck?
+It's possible that, as you read through the steps of the game plan, you've noticed that each step requires your stakeholder to *talk to you*. And to do so about topics that may feel risky or vulnerable for them to share: their long-term goals, their fears, their frustrations, their dreams and desires.
 
-I'm so glad you asked!
+Openly sharing such feelings is by no means the default behavior for most humans. It's *certainly* not the default behavior for humans in positions of authority.
+
+Fortunately, there's a set of skills that help people open up to you. Even difficult, powerful, important people.
+
+Following the lead of Chris Voss and Raz Tahl, from their excellent book, Never Split the Difference, we call this set of skills *tactical empathy*.
+
+Tactical empathy is a way of listening to and connecting with other humans, that make those humans feel deeply understood. It offers a means to draw out emotions and validate concerns. It gives you ways to unblock conversations, to search for and find shared goals and values.
+
+And crucially: the skills of tactical empathy can be *learned*.
+
+Being able to help other people trust you is not simply an inherent part of a personality, accessible only to smooth-talking extroverts. I've seen dozens and dozens of people level up their influence and impact by putting conscious effort into mastering the skills of empathy. I've seen people do so who consider themselves extroverts, I've seen people do so who have to painfully force themselves to talk to strangers at parties.
+
+For just about all of those people, I've seen leveling up on empathy make their jobs more rewarding and their days easier.
+
+That said, I'm not going to lie: the skills of tactical empathy take time and effort to learn.
+
+Throughout the book, we'll be exploring various specific tactical empathy skills. We'll bring each to life with stories, and we'll share exercises you can do, to practice each.
+
+If you want to break through to better collaborative relationships with your boss, peers and stakeholders, I suspect you'll find tremendous value from consciously practicing these skills.
+
+Finally, there's one tactical empathy that's so fundamental, that you'll want to use so often, that we're going to spend a full chapter on it, before diving into the steps of the game plan. I call that skill "Echoing Back."
+
+# I urge you to take the time to practice these skills.
+
+# I believe there is nothing more valuable than
+
+# A sort of skeleton key for working with humans.
+
+** Who Is This Dan Person?
+
+# The Joy Of Solving Problems
+
+# Who, you might be asking, is this Dan person? What does he know about getting groups of humans to work together to build valuable software? What does he know about getting stuck or, for that matter, unstuck?
+
+# I'm so glad you asked!
 
 I had my first paying software job over 30 years ago, when, during a summer home from college, I wrote a program to help a local community college prepare their annual catalog of courses.
 
 At the end of a few weeks of work, they paid me $100. I deposited that check, and, I don't know, bought whatever I bought when I was in college.
 
-But, I then learned, to my surprise and delight, that my little program had ended up saving them *days* of frustrating work, when they prepared their catalog at the end of tahat summer. They ended up using it for years and years.
+But, I then learned, to my surprise and delight, that my little program ended up saving community college staff *days* of frustrating work, when they prepared their catalog at the end of the summer.
 
-Apparently I had, just by typing cryptic symbols into a little screen, somehow created something that made the *real world*, well, a little bit better. That *helped* people.
+# The staff at the community college ended up using that program for years and years.
+
+Somehow, I had, just by typing cryptic symbols into a little screen, created something that made the *real world*, well, a little bit better. That *helped* people.
 
 That felt, honestly, kind of amazing.
 
@@ -281,7 +317,7 @@ But, of course, working with other humans has sometimes been incredibly frustrat
 
 This book is an attempt to share some of the most important lessons I've learned about how to work with humans to solve meaningful problems.
 
-How to get unstuck.
+# How to get unstuck.
 
 * Scraps
 ** Defining Stakeholders
