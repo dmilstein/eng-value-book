@@ -1,9 +1,9 @@
 :PROPERTIES:
 :ID:       4FEA3BD5-8E85-4BB6-8F59-15FDE4F38572
 :END:
-#+title: Master Tactical Empathy
+#+title: Use Empathy To Build Influence
 #+filetags: :Chapter:
-* Empathy = Influence
+* The Core Empathy Skill: Echoing Back
 # Build Influence Through Empathy
 ** The Profound Value of Empathy
 
@@ -63,7 +63,7 @@ And, lo, you'll have a prioritization scheme.
 
 Never Split the Difference is *incredibly* good, by the way. It sits very comfortably in my list of top five "You should totally go drop everything and read this" books.[fn:: Others that threaten to be in that top five include "Escaping the Build Trap" by Melissa Perri, "The Principles of Product Development Flow" by Don Reinertsen, "Designing Data-Intensive Applications", by Martin Kleppmann, "High Output Management" by Andy Grove, "The Art of Action" by Stephen Bungay, rapidly rising up "The Pricing Roadmap", by XXX, and, just because it's brought me so much joy, "Eleanor & Park", by Rainbow Rowell]
 
-** Deliberate Practice Required and Rewarded
+** Deliberate Practice Required
 
 Mastering the skills of tactical empathy can be transformative.
 
@@ -117,7 +117,7 @@ Meet Janine, an engineering manager. She works at BreadBox, a SaaS startup which
 
 Janine's team has been working for much of the last year on a pretty significant overhaul of that flagship product. The "Cogs 2.0" project, as it's known internally, has stretched a few months past its original planned go-live date (surprisingly approximately no one). That said, they *do* have some adventurous early adopter customers using a very rough beta version in the field, and a full migration is starting to feel possible at some point in the not too distant future.
 
-The team's product manager is named Eduardo--he and Janine worked together for more than a year at this opint. Eduardo has been a fairly solid partner to engineering--he manages stakeholder expectations well enough to create space for the team to execute, and he's not afraid to dig into the details to identify good increments.
+The team's product manager is named Eduardo--he and Janine worked together for more than a year at this point. Eduardo has been a fairly solid partner to engineering--he manages stakeholder expectations well enough to create space for the team to execute, and he's not afraid to dig into the details to identify good increments.
 
 But there is one part of their working relationship which Janine finds very frustrating.
 
@@ -127,7 +127,7 @@ The team's grooming and planning meetings are entirely centered on user stories 
 
 If she tries to raise concerns about scalability or talk about tech debt, Eduardo expresses sympathy, and assures her that they'll find time for it as some point... but then they never do so. Worse, Janine feels like she's being "managed" by Eduardo during these conversations, and that's starting to damage her trust in him.
 
-A a full customer migration to Cogs 2.0 approaches, the team is getting more and more nervous about all the corners they've cut. They've started pushing Janine to make a case to slow down and deal with some looming problems. But Eduardo seems to feel more and more pressure to cram in "just one more feature" to please various stakeholders, and as a result, he seems even less willing than usual to listen to engineering's concerns.
+As a full customer migration to Cogs 2.0 approaches, the team is getting more and more nervous about all the corners they've cut. They've started pushing Janine to make a case to slow down and deal with some nasty buried problems. But Eduardo seems to feel more and more pressure to cram in "just one more feature" to please various stakeholders, and as a result, he seems even less willing than usual to listen to engineering's concerns.
 
 Before we go any futher, I just want to note that this is a genuine problem.
 
@@ -307,7 +307,7 @@ Returning to our story of Janine and Eduardo, she has, thanks to the repeat trai
 
 # XXX a bit of a repeat with the end of previous section.
 
-This context provides an *excellent* opening to discuss the databse performance issues she's worried about--those busy urban grocery stores will use some of Cogs 2.0's new features at a scale that could really strain the DB.
+This context provides an *excellent* opening to discuss the database performance issues she's worried about--those busy urban grocery stores will use some of Cogs 2.0's new features at a scale that could really strain the DB.
 
 If the team *doesn't* build better visibility into capacity limits via SLI's, they could end up frustrating those valuable, high-traffic customers the moment they convert.
 
