@@ -1,57 +1,276 @@
 :PROPERTIES:
 :ID:       4FEA3BD5-8E85-4BB6-8F59-15FDE4F38572
 :END:
-#+title: Use Empathy To Build Influence
+#+title: The Core Empathy Skill: Echoing Back
 #+filetags: :Chapter:
 * The Core Empathy Skill: Echoing Back
 # Build Influence Through Empathy
-** The Profound Value of Empathy
+** Intro
 
-We're going to talk in this chapter about a foundational approach for building trust and rapport.
+We're going to talk in this chapter about a foundational skill for building trust and rapport.
 
-This is a set of skills which can massively increase your *influence* -- when you demonstrate to people that you truly feel and care about their concerns, you will find them enormously more ready to listen to *your* concerns, and then be willing work with you to find a way to address both.
+Developing this specific skill can dramatically increase your *influence* with the people around you--very much including your stakeholder. If you can demonstrate to your stakeholder that you truly understand and care about their concerns, you will find them enormously more ready to listen to *your* concerns, and then be willing work with you to find a way to address both.
+
+The specific skill is Echoing Back.
+
+Which, in brief, simply means summarizing what you've just heard your conversational counterpart say to you, and then asking if you've got it right.
+
+This simple-sounding conversational widget is one of the most valuable skills I know.
+
+# Within the overall suite of Tactical Empathy skills, I think Echoing Back is, in the working world, the most foundational.
 
 # you'll be able to get people to listen to and your concerns, you'll be able to persuade them to take a chance on trying something new.
 
-In short, these are some of the most valuable skills I know.
+You'll be employing Echoing Back in just about every step of the overall game plan:
 
-You'll be employing them during multiple steps of the overall game plan:
+ - You'll use it when you mine for business context and goals during Identify a Strategic Outcome,
 
- - During Align With a Strategic Intent (to mine for context)
+ - When you Map Key Emotions, you'll echo back as part of sussing [puzzling, ferreting] out your stakeholder's underlying feelings
 
- - When you Map Fears and Aspirations (to puzzle out your stakeholder's underlying feelings)
+ - As part of Propose an Adjustment, you'll use it to smoothly integrate any concerns or suggestions your stakeholder raises
 
- - As part of Delivering a Pitch That Creates Urgency (to smoothly integrate concerns or questions or suggestions)
+We'll bring Echoing Back to life in the remainder of this chapter, and offer some concrete exercises to practice it. Although it sounds simple, it's interestingly hard to retrain yourself to confidently and repeatedly use it.
 
-*Sidebar: Wait? Why Do Engineers Need All This Empathy Bushwa?*
+*Sidebar: Wait? Do Engineers Need All This Empathy Bushwa?*
 
-/"Sure, Dan, I can see how building trust and rapport is a important for *product*, but isn't that kind of the whole point of having a product team? So the engineers can just focus on building stuff, right?"/ Yes indeed, these are fundamental survival skills for a PM[fn:: in fact, I highly recommend testing for them during PM interviews]. But they are also insanely valuable for engineers. As you rise up into any form of engineering leadership, be that management or the technical track, your ability to *influence* peers and executives [bosses? overlords?], becomes absolutely central to your ability to create value at scale. That is true both for driving change in interaction patterns, but also for many other facets of engineering (e.g. getting buy-in to a consistent technical approach across multiple teams; advocating for technical investments; etc).
+/"Sure, Dan, I can see how building trust and rapport is important for *product*, but isn't that kind of the whole point of having a product team? So the engineers can just focus on building stuff? Do I really need to practice this Echoing Back thing? Or any other tactical empathy skills?"/
 
-# END SIDEBAR
+Indeed, tactical empathy is fundamental survival skill for a PM.[fn:: I test for it when interviewing for product roles] But it is also /insanely valuable/ for engineers. Empathy allows you to get unstuck with stakeholders, and engineers *very* much have stakeholders (often, y'know, the product team). It's also super valuable for many other facets of engineering work, such as: getting buy-in to try a new technical approach; advocating for technical investments with business counterparts; negotiating tradeoffs with engineering leaders; handling concerns from other engineers on your team, etc.
 
-Developing effective influence through empathy is the work of a lifetime.
+Most of the ways I know how to be a really strong, really valuable engineer involve working with other humans. And these skills are just crazy valuable for doing so.
 
-We're going to focus on a few core skills.
+** Defining "Tactical Empathy"
 
-These are factors in what Chris Voss, in his excellent book "Never Split the Difference" (written with Tahl Raz), calls *Tactical Empathy*:
+# /In my negotiating course, I tell my students that empathy is "the ability to recognize the perspective of a counterpart, and the vocalization of that recognition." That's an academic way of saying that empathy is paying attention to another human being, asking what they are feeling, and making a commitment to understanding their world./
 
-    /In my negotiating course, I tell my students that empathy is "the ability to recognize the perspective of a counterpart, and the vocalization of that recognition." That's an academic way of saying that empathy is paying attention to another human being, asking what they are feeling, and making a commitment to understanding their world./
+   # /Notice that I don't say anything about agreeing with the other person's values and beliefs or giving out hugs. That's sympathy. What I'm talking about is trying to understand a situation from another person's perspective./
 
-    /Notice that I don't say anything about agreeing with the other person's values and beliefs or giving out hugs. That's sympathy. What I'm talking about is trying to understand a situation from another person's perspective./
+    /Empathy is paying attention to another human being, asking what they are feeling, and making a commitment to understanding their world. [It's] trying to understand a situation from another person's perspective./
 
     /One step beyond that is tactical empathy./
 
     /Tactical empathy is understanding the feelings and mindset of another in the moment and also hearing what is *behind* those feelings so you increase your influence in all the moments that follow. It's bringing our attention to both the emotional obstacles and the potential pathways to getting an agreement done./
 
-I love that he describes it as *"bringing your attention"*--so much of the act of empathy is quieting your own chorus of inner voices, so you truly fully pay attention to someone in front of you.
+From /In Never Split The Difference/, by Chris Voss, with Tahl Raz.
 
-Also: as Voss emphasizes, deploying the skill of tactical empathy doesn't meant that you have to believe your conversational counterpart is *right* or *justified*.
+What makes this form of empathy "tactical" is that it *has a purpose*. You are trying to get to an /agreement/. To do so, you're looking for /emotional obstacles/ to overcome. You're trying to find /potential pathways/ forward.
 
-If your stakeholder is angrily insisting that they shouldn't "have to" make a difficult prioritization choice, and they bitterly push back by saying "everything is important"... they are, of course, wrong.
+Having a purpose to an act of empathy doesn't mean you're being insincere or manipulative. On the contrary, you *must* be sincere, or your stakeholder will immediately detect it. You must authentically speak to their experience of the world, to the situation they perceive themselves to be in. And then, from that place of genuine connection, you can find a way to move towards solutions that work for both of you.
 
-Tactical empathy means reaching for ways to connect with the underlying *feelings* that are leading to such irrational statements--aka, the situation that person perceives themselves as being in.
+Also, I *love* that Voss describes it as /"bringing your attention"/. So much of the work of empathy is quieting your own chorus of inner voices, so you truly fully pay attention to someone in front of you.
 
-Maybe that means digging for enough information to be able to summarize at the end by saying /"Wow, it sounds kind of like you have two different bosses. And you're being held accountable by them for different goals that are actually in fundamental conflict with each other. I could imagine that feeling like there's no way for you to win."/
+** An Absurdly Short Template For Echoing Back
+
+We'll touch on various tactical empathy skills throughout the book, but for this chapter, we'll just focus on echoing back.
+
+Here's how it works. Someone is talking to you. They pause You say:
+
+ - "If it's okay, I'm going to say that back, make sure I understood it."
+
+ - <you summarize what you think you heard>
+
+ - "Is that about right?"
+
+ - <you wait>
+
+That's... it.
+
+Why is this so powerful?
+
+First, by summarizing, you will just about always discover something you didn't get quite right.
+
+Your stakeholder will say, "Almost. But it's honestly not /that/ big a deal if we churn a few customers. What's /really/ important is..."
+
+When this happens, you thank them and *immediately try again*:
+
+ - "Oh, interesting! I didn't realize that. It sounds like it's more:"
+
+ - <summarize what you heard again, incorporating this piece of information>
+
+ - "Is that right?"
+
+You repeat that little game until, eventually, they nod and say some form of "Yes, that's exactly right."
+
+Refining your understanding this way is *incredibly valuable*. No matter how carefully you listen, it's almost always impossible to fully understand and align with someone based on a single statement they make.
+
+By echoing back and inviting them to interactively "fix" your understanding, you can very quickly get to a fuller, richer, more nuanced understanding of what your stakeholder feels or believes. Which improved understanding will serve you *extremely* well, both when you later wish to influence themd, but also for accomplishing various key parts of your job. Basing your efforts on a flawed understanding of what your stakeholder is trying to tell you is a path straight to misery.
+
+But there's another, extremely significant benefit to using this pattern.
+
+Echoing back helps your stakeholder to *feel understood*.
+
+When a person explains something they care about, it's, well, extremely rare for them to feel genuinely understood. For some stakeholders, that might present as a vague feeling of, "Ugh, that thing I said sounded really complicated, I'm not sure I made myself clear." For other stakeholders, especially those who enjoy projecting their insecurities onto others, it might present more as, "Man, I sure did an objectively awesome job of communicating that point. I wonder if my listener is too stupid to understand."
+
+If my game plan for working with stakeholders assumed they were all kind and pleasant, I would not have very much to offer you. Luckily, that's not the case. You can address both "nice" and "not so nice" stakeholder the same way -- because they are driven by the same underlying uncertainty about being understood.
+
+# Humans rarely experience themselves as being fully understood.
+
+If you, as  that listener, take the time to summarize back your understanding, and get it even vaguely right, the speaker will feel a sense of *relief*.
+
+If you pay careful attention, you may even see them visibly exhale and relax.
+
+# It's like you've completed an open transaction that was otherwise hanging.
+
+Which is exactly the mode you want them to be in, if you're going to turn the corner and ask them to engage in *your* concerns. Or if you're going to ask them to open up, just a little bit, about their hopes and dreams. Or if you're going to propose a new way of working, that may sound a bit risky or uncomfortable.
+
+Fundamentally, you earn space to advocate, by demonstrating that you are willing to do the work to understand.
+
+This is an incredibly valuable tactic, usable in an incredibly wide variety of situations. If you're only going to take one thing away from this book, spend some time learning to effectively echo back and summarize.
+
+** TELL A STORY
+
+# Have them fail, then succeed.
+
+# XXX Name the startup
+
+Remember Deanna, our frustrated engineer at the startup? Whose CEO, Karim, keeps on blowing up her team's sprints with new feature ideas? And who apparently believes that working longer hours will somehow fix his own inability to stick with a decision for longer than the lifespan of a fruit fly?
+
+One day, after a particularly frustrating standup, Deanna pings Karim on Slack, and asks if they can check in one-on-one. He sends back a quick thumbs up, and a minute later, they're staring at each other in Zoom.
+
+Behind Karim Deanna can see, as always, his bookcase with its neat rows of colorful business books. As she gathers her thoughts, she can see Marco's eyes flicking off screen. He has a habit of keeping other windows open during Zooms, she knows. She finds it a bit frustrating at the best of times. And this is very much not the best of times.
+
+"I have to do this", she reminds herself firmly. "It's for the team. Not just for me."
+
+"I'm... a bit worried about our progress," she says. Karim nods without fully looking up from his other screens. "I know you're wanting to see more velocity from the team."
+
+She draws a deep breath. "I wanted to ask: if we *did* go faster, if things went great, what would happen? Like, what would be a real *success*? I just don't feel as clear on that as I'd like to be."
+
+She makes herself stop talking and wait.
+
+Karim squints at her. "We need sales. And engagement."
+
+"What kind of sales, exactly?" she asks.
+
+He shrugs. "I mean, it can't just be these little onesie twosie friends and family deals. We need a bigger customer to commit. And we need them to love the product, be really excited about it. That's why we have to make the product awesome." He sits back, with his arms folded.
+
+Let's hit pause, for a moment, and freeze Deanna and Karim in the midst of their zoom. Let's imagine we have a magic ability to peer into each of their respective pscyhe's. What would we find?
+
+Karim is a bit tense. He's very worried about hitting that goal he just described. He's also worried about the fact that Deanna felt like she had to ask. He's got a swirl of other feelings and fears. The one big customer he thought was going to commit has gotten skittish. He's not feeling more connected or confident.
+
+How about Deanna? She's feeling uncertain and kind of stymied. Karim threw out this summary in a terse manner. He hardly seemed to be inviting any form of collaboration whatsoever. And his statement about "having to make the product awesome" felt like a specific dig at her, because she's been the one pushing for launching something minimal. She was already a bit hyped up to ask him this question in the first place, now some part of her fight or flight system is kicking in.
+
+Given all that, it would be very easy for Deanna to *not* echo back. Let's see what happens if she goes down that road, let's hit play again.
+
+Deanna blinks. "Okay, got it," she says. Then, after a brief pause, she musters a "thanks" with as much positivity as she force into her tone. Karim nods, they both close their zooms and go about their day.
+
+Uggggggh. Near total failure all around.
+
+Let's rewind, and try again.
+
+Deanna makes herself pause. She sees, just to the side of her screen, the sticky note she posted there, which has "ALWAYS ECHO BACK" written on it.
+
+"Okay, got it. Let me say that back, see if I understood. We need to see sales, and some of those sales has to be from bigger customers than we've been getting. *And* we need to see those bigger customers *loving* the product. We need to see them highly *engaged*. That's why we need to keep making the product better. Is that about right?"
+
+Karim stares at her intently. He's not looking down at his other screens any more. "That's pretty good," he says. "But..." he trails off.
+
+"But what?" asks Deanna, genuinely curious.
+
+"I'm not sure it's realistic to see *engagement* right away. When I talk to bigger customers, it's clear that it's gonna take a while to ramp up to full use. What we need *first* is for the *buyer* to love it. For them to be ready to, like, spend their internal political capital because they love it so much."
+
+"Oh, interesting," says Denna, eagerly. "Let me see if I've got that. We do need more sales, and we do need some of those sales to be to larger customers. But, if we actually close some of those deals, getting to full engagement will take a while. So what we're looking for, the kind of key leading indicator, is that our buyer is excited enough, that they're willing to use their political capital to get other people to use it. Is that more it?"
+
+"Yes, yes," says Karim. "That's exactly it. I like that -- the key leading indicator, that's exactly it."
+
+"Great, thanks very much for explaining that. I feel a lot clearer now."
+
+"No problem," he says. "I'm glad we talked."
+
+# XXX Freeze again.
+
+# Note: they're no longer talking about jamming in more features! They're talking about the thing Karim wants!
+
+** How To Retrain Your Brain
+
+I have coached dozens of people on echoing back and summarizing.
+
+Over and over, I have seen people significantly level up their ability to influence and persuade. However, also over and over, I've seen them initially struggle to apply these tactics. Repeating words and echoing back summaries can just *feel* like such a strange way to talk to someone.
+
+There are, I think, two core drivers for this:
+
+First, when you're about to echo or repeat, your brain will tell you /"Ugh, they just told you this, don't *bore* them."/ This can feel weirdly intense. Almost like you're going to insult them.
+
+Here's the thing. Humans, well, *love* hearing their own words and thoughts reflecte back to them. If you get it slightly wrong, they'll enjoy correcting you. If you get it right, they'll feel pleasantly surprised at the sense of clear connection.
+
+Your brain just can not be trusted on this one. But you'll need to spend a bit of time retraining yourself.
+
+Once you've practiced this enough, that feeling will disappear -- because you'll see how much people love to hear their own words and thoughts.
+
+The second problem is that using these tactics will turn up valuable context, aka things you didn't previously know.
+
+When that happens, your mind will suddenly make connections and see new opportunities. That will often feel *exciting*.
+
+# In our scenario the engineering leader might suddenly see the connection between the Enterprise customers and the capacity challenges they were already eager to discuss.
+
+When that kind of discovery happens, a spike of excitement hormones hits your bloodstream, and your brain immediately *urges* you to share this new awesome idea, right away.
+
+"Oh," your brain will say, "they're going to love this, go go go!"
+
+That's a trap -- you are *always* better served by first ensuring you fully understood and ensuring the speaker feels fully heard.
+
+But it will feel urgently exciting, and you'll *forget*.
+
+Again, it takes practice to retrain your brain.
+
+I recommend doing some of that practice when the stakes are low -- aka, *not* in the midstof a critical negotiation with a key stakeholder.
+
+Instead, pick someone you trust -- it doesn't have to be a co-worker, I've seen people profitably practice with a friend, roommate, or spouse.
+
+If you're feeling nervous, you can explicitly ask that person, "Is it okay if I practice some active listening skills that I'm working on for my job?"
+
+# This is for *you*, not for them -- to remove some of your fear of being annoying.
+Then, ask your friend to explain something from their job. Ideally, something that's a bit irritating. Like, a problem they're wrestling with, or a difficult coworker.
+
+Tell yourself, "My job is to deliberately do use the echoing tactic *too much* -- my goal is for the other person to say, afterwards, 'Eh, you could have echoed/repeated a bit less'".
+
+Then, *every single time* the other person pauses after saying something, employ the tactic.
+
+It should feel weird as heck.
+
+After a few conversation rounds, pause, and ask the person "How did that feel?"
+
+Listen to them, and repeat back what they tell you (no, really, it's empathetic turtles the whole way down).
+
+Some questions you can ask your friend include:
+
+ - "Did I miss anything important?"
+
+ - "Was any part of it annoying?"
+
+ - "Was there any part where I didn't sound sincerely interested?"
+
+Then, keep practicing. Once you start to get a feel for it, work it into conversations with your stakeholder.
+
+Throughout the rest of the book, you'll see a ton of places where I'll ask you to echo back and summarize.
+
+** Cultivate Curiosity & Sincerity
+
+A final point.
+
+As you work to learn these tactics, you'll be very well-served by living in a place of *curiosity*.
+
+If you can allow yourself to be genuinely curious, all of these tactics will come across as *sincere* -- which makes them 100x more effective.
+
+Allow yourself to be curious about your business, allow yourself to be curious about your stakeholders, allow yourself to be curious about the problems in your business that your stakeholders are wrestling with.
+
+It can sometimes be useful to try to unhook the part of your brain worries about whether or not you'll be percieved as intelligent or experienced (which is a totally natural thing to be worried about!)
+
+You *will* be able to demonstrate intelligence and experience -- by asking great questions, and by giving concise and clear summaries.[fn:: Of course, I must acknowledge that I'm saying this as a tall, straight white man... so people are far too ready to ascribe intelligence and experience to me. But I have seen the tactic of "moving the conversation forward by being the listener and summarizer and clarifier" be a form of leadership for folks from less privileged groups.]
+
+* Snipping Heres
+** Example Stakeholder Won't Prioritize
+Let's bring this to life.
+
+Say you're facing a difficult prioritiation decision.
+
+# XXX Be specific, tell a story
+
+# Do an Echoing Back story?
+
+Unfortunately, your stakeholder is angrily insisting that they shouldn't "have to" make this difficult choice. They bitterly push back, and say *all the goals* are equally important. You can't fail on any of them.
+
+Tactical empathy means reaching for ways to connect with the underlying *feelings* that are leading to such irrational statements--aka, the situation your stakeholder perceives themselves as being in. What Voss calls "understanding their world".
+
+Maybe that means digging for enough information to be able to summarize at the end by saying /"Wow, it sounds kind of like you have two different bosses. And you're being held accountable by them for different goals that are actually in fundamental conflict with each other. I could imagine that feeling like there's no way for you to win. Is that what's going on?"/
 
 Note how, in this formulation, you're *offering* a potential understanding of your counterpart's situation and feelings, by using phrases like /"it sounds kind of like"/, and /"I could imagine that feeling"/. That's a powerful way to get feelings on the table without triggering defensiveness (absolutely no one likes being "told" their feelings directly).
 
@@ -59,9 +278,9 @@ If you can say something like the above, there's a very good chance the stakehol
 
 You're then positioned to offer productive challenge and collaboration, e.g. "Okay, if we're able to get a clear, visible win for *one* of your two bosses, and just keep things kind of going as they are for the other, which one would you want to get the win for?"
 
-And, lo, you'll have a prioritization scheme.
+And, lo, you have the start of a prioritization scheme.
 
-Never Split the Difference is *incredibly* good, by the way. It sits very comfortably in my list of top five "You should totally go drop everything and read this" books.[fn:: Others that threaten to be in that top five include "Escaping the Build Trap" by Melissa Perri, "The Principles of Product Development Flow" by Don Reinertsen, "Designing Data-Intensive Applications", by Martin Kleppmann, "High Output Management" by Andy Grove, "The Art of Action" by Stephen Bungay, rapidly rising up "The Pricing Roadmap", by XXX, and, just because it's brought me so much joy, "Eleanor & Park", by Rainbow Rowell]
+Never Split the Difference is *incredibly* good, by the way. It sits very comfortably in my list of top five "You should totally go drop everything and read this" books.[fn:: Others in competition for that top five include "Escaping the Build Trap" by Melissa Perri, "The Principles of Product Development Flow" by Don Reinertsen, "The Mom Test" by Rob Fitzpatrick, "High Output Management" by Andy Grove, "The Art of Action" by Stephen Bungay, "The Pricing Roadmap" by XXX. And, of course, "Eleanor & Park", by Rainbow Rowell, because literally everyone's lives are better reading about two high schoolers falling in love while riding the bus.]
 
 ** Deliberate Practice Required
 
@@ -520,24 +739,6 @@ Thus, I'd recommend:
 
 # XXX E.g. say that Eduardo and Janine are now talking to the head of Customer Success, who has been raising the potential blockers for moving the high-end urban stores over. Eduardo asks "What's the exact problem if one of them experiences sluggish site performance?" But gets nothing back. Janine then steps in and guesses.
 
-** Cultivate Curiosity & Sincerity
-
-After Janine carefully listened to Eduardo and summarized what she'd heard, he was ready to listen to her in turn. She shared the team's fears about database performance, and, in particular, the risks for the high-volume stores they were going to be migrating soon. He was glad to hear that she had planned a timeboxed first step (implementing SLI's), and, given that they'd already seen some small-scale brownouts with early adopters, he committed to doing it this month.
-
-With a sigh, he said he was going to go tell the head of Customer success that they weren't going to have the new Snack Aisle features.
-
-A final point.
-
-As you work to learn these tactics, you'll be very well-served by living in a place of *curiosity*.
-
-If you can allow yourself to be genuinely curious, all of these tactics will come across as *sincere* -- which makes them 100x more effective.
-
-Allow yourself to be curious about your business, allow yourself to be curious about your stakeholders, allow yourself to be curious about the problems in your business that your stakeholders are wrestling with.
-
-It can sometimes be useful to try to unhook the part of your brain worries about whether or not you'll be percieved as intelligent or experienced (which is a totally natural thing to be worried about!)
-
-You *will* be able to demonstrate intelligence and experience -- by asking great questions, and by giving concise and clear summaries.[fn:: Of course, I must acknowledge that I'm saying this as a tall white man with a deep voice... so people are far too ready to ascribe intelligence and experience to me. But I have seen the tactic of "moving the conversation forward by being the listener and summarizer and clarifier" be a form of leadership for folks from less privileged groups]
-
 * For an Appendix
 ** Tactic 4: Offer a Labeled Understanding of Feelings
 It seems like, maybe you could
@@ -590,7 +791,7 @@ When the business leader asks questions, they get back a flurry of incomprehensi
 
 And then, despite literally *everything* being painfully far behind plan, the engineers announce that they want to *stop working on actual business needs* so they can "clean things up", or "retire tech debt".
 
-It's weird as hell to work with engineering.[fn:: I like to think it's like hiring a contractor to remodel your kitchen, going away for the weekend, and coming back to discover they're on the verge of demolishing your entire house because they found some wiring they think is "ugly".]
+It's weird as hell to work with engineering.[fn:: I like to think it's like hiring a contractor to remodel your kitchen, going away for the weekend, and coming back to discover they've demolished your entire house because they found some wiring they think is "ugly".]
 
 # XXX Cut the below and stash it somewhere for later/other book
 
@@ -837,70 +1038,6 @@ If you pay careful attention, you may even see them visibly exhale.
 Which is exactly the mode you want them to be in, if you're going to turn the corner and now ask them to engage in *your* concerns.
 
 You earn space to advocate, by demonstrating that you are willing to lead with empathy and understanding.
-
-** Retrain Your Brain By Practicing With Friends
-
-I have coached dozens of people on these tactics.
-
-Over and over, I have seen people significantly level up their ability to influence and persuade.
-
-However, also over and over, I've seen them initially struggle to apply these tactics.
-
-Repeating words and echoing back summaries can just *feel* like such a strange way to talk to someone.
-
-There are, I think, two core drivers for this:
-
-First, when you're about to echo or repeat, your brain will tell you "Ugh, they just told you this, don't *bore* them."
-
-Once you've practiced this a few times, this feeling disappears -- because you can see  how much people love to hear their own words and thoughts.
-
-The second problem is that using these tactics will turn up valuable context, aka things you didn't previously know.
-
-When that happens, your mind will suddenly make connections and see new opportunities.
-
-That will often feel *exciting*.
-
-In our scenario the engineering leader might suddenly see the connection between the Enterprise customers and the capacity challenges they were already eager to discuss.
-
-When that kind of discovery happens, a spike of excitement hormones hits your bloodstream, and your brain immediately *urges* you to share this new awesome idea, right away.
-
-"Oh," your brain will say, "they're going to love this, go go go!"
-
-That's a trap -- you are *always* better served by first ensuring you fully understood and ensuring the speaker feels fully heard.
-
-It takes conscious practice to retrain your brain.
-
-Furthermore, it's best to do that practice when the stakes are low -- aka, *not* in a negotiation with a key stakeholder.
-
-Here's the game plan:
-
-First, pick one of the two tactics -- either repeating trailing words, or echoing back summaries.
-
-Then, pick someone you trust -- it doesn't have to be a co-worker, I've seen people profitably practice with a friend, roommate, or spouse.
-
-If you're feeling nervous, you can explicitly ask that person, "Is it okay if I practice some active listening skills that I'm working on for my job?"
-
-# This is for *you*, not for them -- to remove some of your fear of being annoying.
-
-As the conversation starts, tell yourself, "My job is to deliberately do use this tactic *too much* -- my goal is for the other person to say, afterwards, 'Eh, you could have echoed/repeated a bit less'".
-
-Then, every single time the other person says something, employ the tactic.
-
-It should feel weird as heck.
-
-After a few conversation rounds, pause, and ask the person "How did that feel?"
-
-Listen to them, and repeat back what they tell you.
-
-Some possible follow ups include:
-
- - "Did I miss anything important?"
-
- - "Was any part of it annoying?"
-
- - "Was there any part where I didn't sound sincerely interested"
-
-Then, keep practicing.
 
 ** Tactic 3: Posit a Spectrum to Draw People Out
 The two tactics we've discussed so far are useful for keeping a conversation moving.
