@@ -3,7 +3,7 @@
 :END:
 #+title: The Core Empathy Skill: Echoing Back
 #+filetags: :Chapter:
-* The Core Empathy Skill: Echoing Back
+* Echoing Back: A Core Empathy Skill
 # Build Influence Through Empathy
 ** Intro
 
@@ -39,7 +39,7 @@ Indeed, tactical empathy is fundamental survival skill for a PM.[fn:: I test for
 
 Most of the ways I know how to be a really strong, really valuable engineer involve working with other humans. And these skills are just crazy valuable for doing so.
 
-** Defining "Tactical Empathy"
+** Tactical Empathy
 
 # /In my negotiating course, I tell my students that empathy is "the ability to recognize the perspective of a counterpart, and the vocalization of that recognition." That's an academic way of saying that empathy is paying attention to another human being, asking what they are feeling, and making a commitment to understanding their world./
 
@@ -117,11 +117,9 @@ Fundamentally, you earn space to advocate, by demonstrating that you are willing
 
 This is an incredibly valuable tactic, usable in an incredibly wide variety of situations. If you're only going to take one thing away from this book, spend some time learning to effectively echo back and summarize.
 
-** Deanna Draws Out Karim
+** A Story: Deanna Draws Out Karim
 
-# Have them fail, then succeed.
-
-# XXX Name the startup
+# XXX Name the startup?
 
 Remember Deanna, our frustrated engineer at the startup? Whose CEO, Karim, keeps on blowing up her team's sprints with new feature ideas? And which CEO apparently believes that working longer hours will somehow fix his own inability to stick with a decision for longer than the lifespan of a fruit fly?
 
@@ -145,9 +143,11 @@ Karim shrugs. "I mean, it can't just be these little onesie twosie friends and f
 
 How is Deanna going to respond?
 
-Let's /freeze/ Deanna and Karim in the midst of their conversation. They sit there, poised in the moment after Karim shared some information about his goals, but before Deanna has responded.
+** The Feelings That Are Being Felt
 
-A mote of dust is hanging in the air in front of Deanna's screen.
+Let's /freeze/ Deanna and Karim in the midst of their conversation.
+
+They sit there, poised in the moment after Karim shared some information about his goals, but before Deanna has responded. A mote of dust is hanging in the air in front of Deanna's screen.
 
 We're going to grant outselves a magic ability. We can peer into their minds. We can observe their thoughts and their feelings. What do we find?
 
@@ -158,6 +158,8 @@ First off, as should not surprise us, given the tenor of his dialogue, Karim is 
 Okay, that's Karim. How about Deanna? What is running through her mind, as the mote of dust hangs suspended in the air?
 
 Deanna is feeling, more than anything, *stymied*. Karim threw out his summary in such a terse, almost dismissive manner, she feels a bit rocked back on her heels. There was maybe something new, something she hadn't quite heard before, in how he spoke about customers needing to "love" the product. But... given his tone, it's hard to imagine getting into any form of collaboration whatsoever. Furthermore, Karim's statement about "making the product awesome" felt like a dig at her, an invitation to get back into their ongoing argument. Some part of her fight or flight system is threatening to kick in.
+
+** Giving In To Fight Or Flight
 
 Let's see what happens if she gives in to the /flight/ impulse. Time moves forward, and...
 
@@ -176,6 +178,8 @@ Karim is shaking his head. "What you're /really/ saying is that you don't want m
 At this apparently complete denial of the reality she lives in, Deanna feels almost dizzy with frustration and anger. The argument staggers fruitlessly on for a few more minutes, as it always does. After Deanna exits the zoom, she's closes her laptop and just stares blankly around her home office.
 
 Alright, that was an even worse failure? It left them each in the same awful place. Feeling *justified* in their resentment.[fn:: The truly fascinating book, Leadership And Self-Deception, showed me that, when I'm stuck in a conflict, I often don't want my counterpart to change. What I want is to be *justified* in my anger.]
+
+** A Few Rounds of Echoing Back
 
 Let's rewind, and try one more time.
 
@@ -207,17 +211,19 @@ This is a fascinating bit of insight for Deanna. She hadn't thought much about w
 
 "No problem," he says. "I'm glad we talked."
 
+** Where They Landed
+
 Let's freeze again.
 
-Deanna has acquired a deeper understanding of both *why* Karim wants the product to seem exciting to their buyer, *and* how he'll be able to tell if they're succeeding in doing so. This gives her lots of interesting options. She feels engaged. Her mind is scanning over their backlog, thinking about how they could turn the various feature ideas into evidence of a plan to use influence. She's excited to share this insight with the engineers on the team.
+Deanna has acquired a deeper understanding of both *why* Karim wants the product to seem exciting to their buyer, *and* how he'll be able to tell if they're succeeding in doing so. She feels engaged. Her mind is scanning over their backlog, thinking about how they could turn the various feature ideas into evidence of a plan to use influence. She's excited to share this insight with the engineers on the team.
 
 Karim feels a rare sense of calm. It seems like Deanna really gets it, really understands what he's trying to do. That phrase she used is rattling around his head: "an explicit plan to use their influence." He likes it a lot. He can imagine saying it to their lead investor, at their meeting later that week. He remembers why he was excited when he first met Deanna--she had such a clear way of explaining things.
 
-Notice how, as the conversation went on, Karim and Deanna just altogether stopped talking about his pattern of derailing sprints and/or giving feedback. They ended up just talking about the underlying thing he is trying to achieve.
+Notice how, as the conversation went on, Karim and Deanna just altogether stopped talking about his pattern of derailing sprints. They ended up instead talking about the underlying thing he is trying to achieve.
 
 Which allowed them to *connect*.
 
-** How To Retrain Your Brain
+** Why Echoing Back Can Be Tricky To Learn
 
 I have coached dozens of people on echoing back and summarizing.
 
@@ -280,19 +286,21 @@ Then, keep practicing. Once you start to get a feel for it, work it into convers
 
 Throughout the rest of the book, you'll see a ton of places where I'll ask you to echo back and summarize.
 
-** Cultivate Curiosity & Sincerity
+** Allow Yourself To Live In a Place Of Curiosity
 
 A final point.
 
-As you work to learn these tactics, you'll be very well-served by living in a place of *curiosity*.
+As you work to learn these skills, you'll be very well-served by living in a place of *curiosity*.
 
-If you can allow yourself to be genuinely curious, all of these tactics will come across as *sincere* -- which makes them 100x more effective.
+If you can allow yourself to be genuinely curious, all of the tactical empathy approaches will come across as *sincere* -- which makes them 100x more effective.
 
 Allow yourself to be curious about your business, allow yourself to be curious about your stakeholders, allow yourself to be curious about the problems in your business that your stakeholders are wrestling with.
 
+# That can be quieting a sense of fear, or asking the part of you that is hitting the internal panic button to take a smoke break, or deluding yourself into believing everything is going to be just fine, no matter what.
+
 It can sometimes be useful to try to unhook the part of your brain worries about whether or not you'll be percieved as intelligent or experienced (which is a totally natural thing to be worried about!)
 
-You *will* be able to demonstrate intelligence and experience -- by asking great questions, and by giving concise and clear summaries.[fn:: Of course, I must acknowledge that I'm saying this as a tall, straight white man... so people are far too ready to ascribe intelligence and experience to me. But I have seen the tactic of "moving the conversation forward by being the listener and summarizer and clarifier" be a form of leadership for folks from less privileged groups.]
+You *will* be able to demonstrate intelligence and experience -- by asking great questions, and by giving concise and clear summaries.[fn:: Of course, I must acknowledge that I'm saying this as a tall, straight white man... so people tend to be ready to ascribe intelligence and experience to me, whether or not that's justified. That said, I have seen the tactic of "moving the conversation forward by being the listener and summarizer and clarifier" be a genuinely powerful form of leadership for people from less privileged groups.]
 
 * Snipping Heres
 ** Example Stakeholder Won't Prioritize
