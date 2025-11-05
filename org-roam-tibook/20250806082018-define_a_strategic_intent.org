@@ -6,13 +6,15 @@
 * Identify A Strategic Outcome
 ** [snippet] Why Do Stakeholders Hide Their Dreams?
 
+# Add back in/reference bits from intro chapter
+
 Why on earth not, you might well be asking?[fn:: Unless you've worked in software for a long time? In which case you might be saying, "/sigh/"]
 
 Stakeholders often take such a business outcome and then *convert* it into a series of specific tasks and projects. Having done so, they proceed to only ever talk about those tasks and projects.
 
 They may even consider this narrowness, this limitation on what they share, a *virtue*---because it forces their teams to "focus on what matters".
 
-Unfortunately, some stakeholders, being human, derive some of their sense of status or self-worth from being the only one who truly understands the strategic goals. Such stakeholders can thus be /resistant/ to openly sharing strategic goals. Which, sigh. We'll share tactics for helping such stakeholders open up in later chapters.
+Unfortunately, some stakeholders, being human, derive some of their sense of status or self-worth from being the only one who truly understands the strategic goals. Such stakeholders can thus be /resistant/ to openly sharing strategic goals. Which, sigh. We'll share tactics for helping such stakeholders open up in later in this chapter.
 
 At other times this is, essentially, an accident. The long-term strategic outcome feels so blindingly obvious to your stakeholder, they /forget/ they need to share it clearly and repeatedly. In fact, they may feel like they already *are* sharing it, over and over. When they say, "You absolutely need to hit your delivery deadlines for Q3," what they hear *in their own head* is, "Or else we won't be able to see if the new features improves retention rates."[fn:: That stakeholder is angrily surprised when they discover that, in order to hit the Q3 deadlines, the team cut corners, broke a key part of the product, and caused a raft of customers to churn. "But I told you how critical retention is!" the stakeholder may even say/yell. "It's literally all I ever talked about!" This statement is both completely true and completely untrue at the exact same time! Again, humans are fun.]
 
@@ -27,7 +29,9 @@ As a part of this, you'll also identify how your team can, if things go well, pl
 
 To be fair, this may be a perfectly reasonable way to run business efforts *outside of software development*.
 
-, and then only ever talk to a team about one particular task or project. Often, a stakeholder's frustrating behavior is, in their mind, the only way to get that task done, and therefore the only way to accomplish the long-term outcome. To find a new way to work together, you have to get beneath what they're asking for, and understand what they're ultimately trying to achieve. Once you do so, you can propose a different, less frustrating way of working together, that will move you *both* towards the long-term outcome.
+, and then only ever talk to a team about one particular task or project.
+
+Often, a stakeholder's frustrating behavior is, in their mind, the only way to get that task done, and therefore the only way to accomplish the long-term outcome. To find a new way to work together, you have to get beneath what they're asking for, and understand what they're ultimately trying to achieve. Once you do so, you can propose a different, less frustrating way of working together, that will move you *both* towards the long-term outcome.
 
 
 ** The Power of Speaking to Strategic Outcomes
@@ -48,7 +52,7 @@ A few examples:
 
    Team: Address key functionality limitations that are blocking enterprise sales
 
- - Business: show sufficient customer growth to enable an acquisition
+ - Business: Show sufficient customer growth to enable an acquisition
 
    Team: develop new product that helps acquire new customers
 
@@ -92,7 +96,7 @@ You want to relentlessly refine such vague statements until they become sharper,
 
 That's a statement that someone could absolutely disagree with. Such a person might make a case for expanding your Total Addressable Market (TAM), instead of capturing more revenue from existing customers. That's a valid alternative strategy. If you can't imagine a valid alternative strategy, you're running some real risk of developing a statement too vague and aspirational to be useful.
 
-If your comany committed to "Accelerate growth by enabling more upsells to existing customers" that would absolutely let a team on the ground say "No" to things. When an excited sales leader shows up at the weekly demo and demands the team add a feature to allow them to sell into a new segment, the product manager can calmly refer to that intent to push back.
+If your company committed to "Accelerate growth by enabling more upsells to existing customers" that would absolutely let a team on the ground say "No" to things. When an excited sales leader shows up at the weekly demo and demands the team add a feature to allow them to sell into a new segment, the product manager can calmly refer to that intent to push back.
 
 Fundamentally, a good strategic intent allows you to *make decisions*.
 
@@ -488,3 +492,24 @@ Failure to export context
 ** Tactical Empathy Skill #2: Echo Back & Summarize
 ** Quin Identifies a Strategic Intent
 ** Exercises
+* Todos
+** Overall rambles
+I think, shorter, punchier sections, with stories woven throughout.
+** TODO Decide "Intent" vs "Outcome"
+I think, Outcome.
+** TODO I think, several short stories
+Like, tighten up the intro, really strip it down, and then tell stories, showing bad and good.
+
+Maybe return to my intro chapter friends.
+** TODO Move guess & check into/after a story
+** TODO Try developing new learning outcomes/arc
+* Alternate Learning Outcomes
+** The Power of Strategic Outcomes
+** The Keys To An Effective Statement Of Strategy
+** Story: Clarifying And Sharpening Strategy
+** Why Some Stakeholders Hide Their Dreams
+** Story: Drawing Strategy Out
+** Handling Leaders Who Fear Decisions
+** Story: Mining For Priorities
+** Exercises
+
