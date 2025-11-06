@@ -8,93 +8,85 @@
 
 When you actually sit down with your stakeholder to ask them to change their behavior, you'll methodically go through the following four steps:
 
-  1. Name the strategic, long-term outcome
+  1. Invoke the strategic outcome
 
   2. Share your understanding of their concerns
 
-  3. Share your own concerns
+  3. Share your concerns
 
   4. Propose an adjustment in how you work together
 
-*** Name the strategic, long-term outcome
+# XXX Call back to the intro, where we explain why this works, cite books.
 
-   State your understanding of both the key long-term goal, *and* your team's role in accomplishing that goal. Use their own words. Make it as clear and concise as possible:
+** Invoke The Strategic Outcome
 
-   /As I understand it, within the next two years our company needs to develop a new line of business, to demonstrate to investors that we can continue to grow. In order to do so, the company is building a new <Foo> product for people who run <Bar> departments in the <Baz> segment. My team will play a key role in that, by collecting and organizing data about <Quux>. Do I have that mostly right?/
+State your understanding of both the key long-term goal, *and* your team's role in accomplishing that goal. Use their own words. Make it as clear and concise as possible:
 
-   Always check with your stakeholder after laying this out, ala "Do I have that mostly right?" If you see them hesitate, draw out any concerns and then adjust. Continue until it's clear you're stating the goal in a way they find *personally compelling*.
+/As I understand it, within the next two years our company needs to develop a new line of business, to demonstrate to investors that we can continue to grow. In order to do so, the company is building a new <Foo> product for people who run <Bar> departments in the <Baz> segment. My team will play a key role in that, by collecting and organizing data about <Quux>. Do I have that mostly right?/
 
-   Why is this the first step?
+Always check with your stakeholder after laying this out, ala "Do I have that mostly right?" If you see them hesitate, draw out any concerns and then adjust. Continue until it's clear you're stating the goal in a way they find *personally compelling*.
 
-   By carefully anchoring the conversation in their long-term aspirations, you'll demonstrate that you are a potential partner for them. That they might be able to trust you to help them accomplish that goal. It also lifts the conversation out of day-to-day concerns, which starts to create a space to talk about how you work together.
+Why is this the first step?
 
-   Then, you calmly state that you believe the goal is at risk:
+By carefully anchoring the conversation in their long-term aspirations, you'll demonstrate that you are a potential partner for them. That they might be able to trust you to help them accomplish that goal. It also lifts the conversation out of day-to-day concerns, which starts to create a space to talk about how you work together.
 
-   /"I have some concerns about our ability to build a <Foo> product fast enough. I want to talk those concerns out with you."/
+Then, you calmly state that you believe the goal is at risk:
 
-   If you've described a goal they truly care about, they will now listen carefully to whatever comes next.
+/"I have some concerns about our ability to build a <Foo> product fast enough. I want to talk those concerns out with you."/
 
-*** Share your understanding of their concerns
+If you've described a goal they truly care about, they will now listen carefully to whatever comes next.
 
-   Before describing any of your own concerns, first speak to the things that are difficult, or worrisome, or important for them. Show that you can put yourself in their shoes:
+** Share Your Understanding Of Their Concerns
 
-   /"Whatever we do, I want to be certain we solve for a few things. Right now, I worry that the team's work can feel to you like a bunch of cryptic backend changes, and you can't tell if we're on track or not. So I want to make sure incremental progress is much more *visible* to you."/
+Before describing any of your own concerns, first speak to the things that are difficult, or worrisome, or important for them. Show that you can put yourself in their shoes:
 
-   /"I'm also worried that you're in a tough situation, because of... so I want to be sure you're able to..."/
+/"Whatever we do, I want to be certain we solve for a few things. Right now, I worry that the team's work can feel to you like a bunch of cryptic backend changes, and you can't tell if we're on track or not. So I want to make sure incremental progress is much more *visible* to you."/
 
-   /"Finally, if I were in your shoes, I would probably be pretty worried about... so I want to be absolutely certain we don't..."/
+/"I'm also worried that you're in a tough situation, because of... so I want to be sure you're able to..."/
 
-   # XXX For substack: This is where you'll use your hypothesis about their frustrations, fears, delights and dreams.
+/"Finally, if I were in your shoes, I would probably be pretty worried about... so I want to be absolutely certain we don't..."/
 
-   This is the payoff for the work you've done to mine for underlying emotions.
+# XXX For substack: This is where you'll use your hypothesis about their frustrations, fears, delights and dreams.
 
-   If they have fears, express how reasonable those fears are, and that whatever you do, they must be addressed. If they have frustrations, validate those frustrations and express your desire to smooth them out as much as possible. If they have unmet desires and dreams, speak authentically to how much those matter.
+This is the payoff for the work you've done to mine for underlying emotions.
 
-   As with the statement of strategic goals, after you lay those out to your stakeholder, check in with them:
+If they have fears, express how reasonable those fears are, and that whatever you do, they must be addressed. If they have frustrations, validate those frustrations and express your desire to smooth them out as much as possible. If they have unmet desires and dreams, speak authentically to how much those matter.
 
-   /"Does that sound about right?"/
+As with the statement of strategic goals, after you lay those out to your stakeholder, check in with them:
 
-   And again, if they hesitate or offer caveats, draw those out, and then repeat them back.
+/"Does that sound about right?"/
 
-   Why do I recommend spending so much time speaking to your stakeholder's concerns?
+And again, if they hesitate or offer caveats, draw those out, and then repeat them back.
 
-   You're about to ask your stakeholder to take the risk of changing their behavior. By making clear how deeply you understand and care about *their* concerns, you make that risky step feel much safer. You make it clear that they aren't facing that risk alone.
+Why do I recommend spending so much time speaking to your stakeholder's concerns?
 
-   Which will then make it possible for them to hear *your* concerns.
+You're about to ask your stakeholder to take the risk of changing their behavior. By making clear how deeply you understand and care about *their* concerns, you make that risky step feel much safer. You make it clear that they aren't facing that risk alone.
 
-*** Share your own concerns
+Which will then make it possible for them to hear *your* concerns.
 
-   Lay out the things *you* need to solve for:
+** Share Your Concerns
 
-   /"I'm worried that the engineers are spending a ton of time responding to urgent support requests for our existing products. Unless we find a way to reduce interruptions, I don't think we're going to see much progress on the <Quux> pipeline this year."/
+Lay out the things *you* need to solve for:
 
-   Express your concerns in a way which doesn't trigger feelings for your stakeholder of being judged or attacked. E.g. don't say, "You're not pushing back enough on the Success team, so the engineers are overwhelmed." Instead, as above, make a statement about the situation you both find yourselves in.
+/"I'm worried that the engineers are spending a ton of time responding to urgent support requests for our existing products. Unless we find a way to reduce interruptions, I don't think we're going to see much progress on the <Quux> pipeline this year."/
 
-   Offer your concerns as challenges you can face together.
+Express your concerns in a way which doesn't trigger feelings for your stakeholder of being judged or attacked. E.g. don't say, "You're not pushing back enough on the Success team, so the engineers are overwhelmed." Instead, as above, make a statement about the situation you both find yourselves in.
 
-*** Propose an adjustment in how you work together
+Offer your concerns as challenges you can face together.
 
-   Now, pull it all together. Lay out an incremental adjustment which, if possible:
+** Propose An Adjustment In How You Work Together
 
-   - Makes things a little better for you
+Now, pull it all together. Lay out an incremental adjustment which, if possible:
 
-   - Makes things a little better for your stakeholder
+- Makes things a little better for you
 
-   - Moves you /both/ a little closer to your shared long-term goal
+- Makes things a little better for your stakeholder
 
-   Then, invite them to collaborate with you, around your proposed change:
+- Moves you /both/ a little closer to your shared long-term goal
 
-   /"I'd like to set up a weekly triage session, and ask the Success team to bring *all* support requests to that. Also, I'll work with the engineers so that, at sprint planning, you have a much clearer understanding of what near-term outcome we're working backward from. That way, you and I can, together, decide when to push back on Success, to be certain we stay on track for the <Quux> project."/
+Then, invite them to collaborate with you, around your proposed change:
 
-This four step approach works incredibly well, in an incredible variety of situations. It speaks to a deep part of the experience of being human.
-
-But it is /also/ one of those easy-to-describe but fascinatingly-hard-to-do-in-practice kinds of things.
-
-Thus, to bring it more fully to life, and to equip you with a wide set of options to work with your very own Important Person, I'm going to share a broad set of *tactics* for first developing and then delivering this kind of offer. For going through various parts of the four step approach.
-
-For each tactic, I'll first name a problem you might run into with stakeholders, and then sketch in the corresponding action you could take.
-
-Below, I'm going to list all the tactics in summary form. In subsequent posts, I'll explore the tactics in more detail.
+/"I'd like to set up a weekly triage session, and ask the Success team to bring *all* support requests to that. Also, I'll work with the engineers so that, at sprint planning, you have a much clearer understanding of what near-term outcome we're working backward from. That way, you and I can, together, decide when to push back on Success, to be certain we stay on track for the <Quux> project."/
 
 # In the remainder of the chapter, I'll explore each tactic in more detail, bringing many to life with narrative examples.
 
