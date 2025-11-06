@@ -157,7 +157,7 @@ Ensure that your initial, timeboxed increment of change ends with a *decision th
 
 *Problem*
 
-Truly improving how you work with your stakeholde requires a complex adjustment, and you can't see a way to implement it all at once.
+Truly improving how you work with your stakeholder requires a complex adjustment, and you can't see a way to implement it all at once.
 
 *Example*
 
@@ -177,23 +177,44 @@ Shrink your ask to implementing just a *part* of that better way to work, even i
 
 /"For the next few sprints, can we take the time to be sure the engineers understand a specific outcome each bundle of features is supposed to unlock? I want to challenge the engineers to come up with creative options for achieving outcomes, but I think we need to start by just being certain they even know what those outcomes are."/
 
-** How To Motivate Immediate Action
+** How To Motivate Action
+
 *** Link Frustrations To Outcomes
+
 *Problem*
 
 Your stakeholder doesn't seem to hear your concerns as valid or important. They don't understand why "your" problems matter for the business.
 
-*Solution*
-
-Run a Five Whys to develop a chain of consequences that shows how your day-to-day frustrations, if left unchecked, will eventually impact your company's long-term goals.
-
 *Example*
 
-Before: //
+You say, /"We need to spend time reviewing our codebase for out of date libraries."/
 
-After: //
+Your stakeholder hears, /"Please allow us to miss our next several delivery deadlines so that we can do something that you'll never understand, to make things theoretically better in a way you'll never be able to see."/[fn:: Aka, for you old school Far Side fans, "Blah, blah, blah, Ginger, blah, blah, blah."]
+
+They say, /"We don't have time to focus on anything but business priorities right now."/
+
+*Solution*
+
+With an inquisitive friend, conduct a Five Whys to develop a chain of consequences that shows how your day-to-day frustrations, if left unchecked, will eventually impact a strategic outcome your stakeholder cares intensely about.
+
+Q: /"Why is it a problem for the business to not know if we have out of date libraries?"/
+
+A: /"Because we need to know if any of those libraries contain security vulnerabilities."/
+
+Q: /"Why is it a problem for the business if we don't know if we have libraries with security vulnerabilities?"/
+
+A: /"Because we're trying to prepare for a SOC-2 audit, and we need to show that we're executing our process for keeping our libraries up to date."/
+
+Q: /"Why is it a problem for the business if we can't complete a SOC-2 audit?"/
+
+A: /"Because enterprise customers are demanding we provide them with a SOC-2 report, or they're going to churn."/
+
+Q: /"Why is it a problem for the business if some enterprise customers churn?"/
+
+A: /"Because our strategic outcome is increasing top-line revenue by 50% in the next two years, and enterprise customers are a central part of the plan to get there."/
 
 *** Tell A Story Of Growing Danger
+
 *Problem*
 
 You've worked out a way to connect your current frustrations to longer-term strategic outcomes, but the connections feel dry and unconvincing.
@@ -497,7 +518,7 @@ Anamika quirks her head to one side. "Why is it a problem for the business if it
 
 Sagar feels a spike of excitement as he realizes he's just about made it to the strategic outcome that Emily told him the exec team won't stop talking about. He says to Anamika, "InfinitePool needs to develop a new product to sell, and before we can commit multiple teams to development, we need to identify one specific product opportunity that could potentially solve resume overload."
 
-Anamika asks, one final time, "Why is a problem for InfinitePool if it has to wait a little longer to start selling a new product?"
+Anamika asks, one final time, "Why is it a problem for InfinitePool if it has to wait a little longer to start selling a new product?"
 
 With an odd feeling of satisfaction, Sagar says, "Because top-line revenue growth has stalled, and we need to show more growth by our next funding round, which is only eighteen to twenty-four months out. And we believe we can only show more growth if the sales team has something new to sell." He sits back.
 
