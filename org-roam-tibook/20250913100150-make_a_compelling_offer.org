@@ -219,30 +219,40 @@ A: /"Because our strategic outcome is increasing top-line revenue by 50% in the 
 
 You've worked out a way to connect your current frustrations to longer-term strategic outcomes, but the connections feel dry and unconvincing.
 
+*Example*
+
+You walk through the chain above, and say, /"... and that's we should do a library review, now, if we're serious about the enterprise segment."/
+
+Your stakeholder understands the steps in your Five Whys change, they even buy them. But... there are a dozen other things that feel more urgently on fire.
+
+They say, /"That *does* sound important. Maybe we can talk about it after we launch the beta. But I think we need to stay heads down for now."/
+
+And then they immediately forget about this conversation.
+
 *Solution*
 
 Use the structure of a story to render your concerns vivid, immediate and memorable to your stakeholder.
 
-*Example*
+You say, /"Last week, I caught up with one of the senior sales rep. She told me that, a year ago, when she closed our first enterprise customer, they didn't ask much about security. But, since then, more and more deals in her pipeline are stalling out, because everyone's getting more and more worried about data breaches. She's tried buying time by promising that we'll have a SOC-2 by early next year. She's managed to close a few deals based on that, but she's still been losing a lot of others. And now, because of the pressure to get the beta live, we're running a risk of missing our SOC-2 deadlines. She's *really* worried about going back to those customers if we fail our first audit or don't even get one completed."/
 
-Before: //
-
-After: //
+That's a "story of growing danger". Even if your stakeholder doesn't commit to immediately taking action, they're going to *remember* that story in a totally different way than a dry, logical chain. It will feel vivid. It will feel "real".
 
 *** Create Urgency Through Visibility
+
 *Problem*
 
 Your stakeholder accepts that your frustrations matter, but they seem unwilling to do anything *now*.
+
+*Example*
+
+After you tell your story of growing danger, your stakeholder is clearly worried. But they're still fretting over all the other priorities, and you can't seem to get into a concrete conversation about the steps to take, right now.
 
 *Solution*
 
 Create visibility into the early impact of the underlying problems, so that you can both motivate immediate action, *and* make it possible to see incremental improvement.
 
-*Example*
+/"We've worked with the security team to create a series of overall milestones for getting to SOC-2. For the work for the first couple of milestones, we've set up a burndown for you to review as we go. We want to devote a bit of time steadily each sprint, but you'll be able to see if we're on track, and how much work remains. If it looks like we're going to miss on the overall deadlines, you'll know early, and we can talk with the sales team about options."/
 
-Before: //
-
-After: //
 
 ** How To Work With Another Human
 *** Invite Your Stakeholder To Solve Your Problems
@@ -320,7 +330,7 @@ Before: //
 
 After: //
 
-* Experiment
+* Stashed Later Chapters
 ** Propose a Timebox
 
 Problem: your stakeholder is reluctant to consider a change in their behavior.
