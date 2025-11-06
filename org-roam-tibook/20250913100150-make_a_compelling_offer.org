@@ -94,55 +94,90 @@ Then, invite them to collaborate with you, around your proposed change:
 
 # Feel free to dip in an out of these, depending on what problems you run into with your very own stakeholder.
 
-** A Smorgasbord Of Tactics
+** A Catalog Of Tactics
 # Buffet of Tactics
 # A Catalog of Tactics
 # An Overview Of Tactics
 # An Overview Of Tactics To Be Described Later
+
+This four step approach works incredibly well, in an incredible variety of situations. It speaks to a deep part of the experience of being human.
+
+But it is /also/ one of those easy-to-describe but fascinatingly-hard-to-do-in-practice kinds of things.
+
+Thus, to equip you with a wide set of options to work with your very own Important Person, I'm going to share a broad set of *tactics* for first developing and then delivering this kind of offer. For going through various parts of the four step approach.
+
+For each tactic, I'll first name a problem you might run into with stakeholders, and then sketch in the corresponding action you could take. I've grouped them into three thematic blocks, roughly corresponding to:
+
+ - The challenges of coming up with a specific incremental adjustment
+
+ - The challenges of getting your stakeholder to take your concerns seriously
+
+ - The challenges of getting another human being to change their mind
+
+Below, I'm going to list all the tactics in summary form. In the next few chapters, I'll explore the tactics in more detail.
+
+** How To Design An Incremental Change
+
 *** Propose a Timebox
 *Problem*
 
-Your stakeholder is reluctant to consider a change in their behavior.
+You know your stakeholder is going to be reluctant to consider a change in their behavior.
+
+*Example*
+
+You say to your PM, /"During planning, even though I know time feels tight, could you please spend more time sharing context with the engineers?"/
+
+This is an open-ended request for change. Saying "yes" could feel like making some kind of long-term commitment. Your PM might well pause.
 
 *Solution*
 
 Ask your stakeholder to just try changing their behavior for an initial, limited period of time.
 
-*Example*
-Before: /"Could you please spend more time sharing context with the engineers?"/
-
-After: /"For our next planning session, could we start by having you lay out the ‘Why’ behind the epics, before we get into the detailed tickets?"/
+/"For our next *two sprints*, could I ask you to spend some time laying out the ‘Why’ behind the epics, before we get into the detailed tickets? We can see how that goes, and if we're tight on planning time, I can work with you to streamline grooming and pre-planning."/
 
 *** Offer A Future Decision
+
 *Problem*
 
 Your stakeholder is a human being. Therefore, agreeing to change their behavior /because someone asked them to/ makes them feel like they're losing control.
 
+*Example*
+
+You say, /"I want the team go off and spend a month in heads-down exploration, without having to constantly report back on status to you and me as they go."/
+
+Your stakeholder, who already feels like they're struggling to keep the work on track, is being asked to give up even more control! They push back.
+
 *Solution*
 
-Ensure that your initial, timeboxed increment of change ends with a decision that your stakeholder gets to make, so they still feel in control over the process.
+Ensure that your initial, timeboxed increment of change ends with a *decision that your stakeholder gets to make*, so they still feel in control over the process.
+
+/"I'd like to ask for the team to do a month of heads-down exploration. At the end of the month, they'll sit down with you and do a thorough deep dive on everything they've learned, so *you* can decide if they’ve found something worth committing to. During the month, I'd like to let them go fast, without having to report back on status to you and me. That should give us a good shot at having a lot of info for you to then review. Can we spend some time aligning on what key info you'll want to base a decision on?"/
+
+*** Shrink Your Ask
+
+*Problem*
+
+Truly improving how you work with your stakeholde requires a complex adjustment, and you can't see a way to implement it all at once.
 
 *Example*
 
-Before: /"Please let the team spend a month exploring without constantly interrupting them."/
+You're worried that your team is toiling long hours in the feature factory. You know you could create hugely more value and find your job way more fun if only:
 
-After: /"At the end of the month, you can review progress from the team’s spike of exploration, and decide if they’ve found something worth doubling down on."/
+ - The exec team would set high-level strategy instead of obsessing over features
 
-*** Shrink Your Ask
-*Problem*
+ - The product team would turn that strategy into a series of outcomes instead of developing sprawling project specs
 
-Truly improving how you work together requires a complex adjustment, and you can't see a way to implement it all at once.
+ - The engineers could learn how to collaborate around outcomes instead of just chewing through tickets as fast as possible, as they do now
+
+That's all genuinely great, but good lord, so many moving pieces to get right.
 
 *Solution*
 
 Shrink your ask to implementing just a *part* of that better way to work, even if that doesn't immediately improve things for you.
 
-*Example*
+/"For the next few sprints, can we take the time to be sure the engineers understand a specific outcome each bundle of features is supposed to unlock? I want to challenge the engineers to come up with creative options for achieving outcomes, but I think we need to start by just being certain they even know what those outcomes are."/
 
-Before: /"Can the exec team set high-level strategy instead of feature delivery deadlines, the product team turn that strategy into a series of outcomes instead of project specs, and the engineers step up to collaborate around those outcomes instead of just trying to chew through tickets as fast as possible?"/
-
-After: /"For the next few sprints, can we take the time to be sure sure the engineers understand the outcomes we’re hoping each bundle of features will enable?"/
-
+** How To Motivate Immediate Action
 *** Link Frustrations To Outcomes
 *Problem*
 
@@ -188,6 +223,7 @@ Before: //
 
 After: //
 
+** How To Work With Another Human
 *** Invite Your Stakeholder To Solve Your Problems
 *Problem*
 
@@ -263,6 +299,7 @@ Before: //
 
 After: //
 
+* Experiment
 ** Propose a Timebox
 
 Problem: your stakeholder is reluctant to consider a change in their behavior.
