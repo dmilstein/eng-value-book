@@ -119,39 +119,48 @@ Below, I'm going to list all the tactics in summary form. In the next few chapte
 ** How To Design An Incremental Change
 
 *** Propose a Timebox
+
 *Problem*
 
-You know your stakeholder is going to be reluctant to consider a change in their behavior.
+Your stakeholder is human, and is thus reluctant to commit to "permanently" changing their behavior.
 
 *Example*
 
-You say to your PM, /"During planning, even though I know time feels tight, could you please spend more time sharing context with the engineers?"/
+When you say to your PM, /"During planning, even though I know time feels tight, could you please spend more time sharing context with the engineers?"/...
 
-This is an open-ended request for change. Saying "yes" could feel like making some kind of long-term commitment. Your PM might well pause.
+...they hear this as a request to make a permanent change.
+
+Their brain whirs up into action, quickly coming up with reasons to say "no"---you barely have enough time to get through all the tickets already, it'll take forever to share all that context, that one scary engineer always glares at them when planning runs long, etc, etc.
 
 *Solution*
 
-Ask your stakeholder to just try changing their behavior for an initial, limited period of time.
+Ask your stakeholder to change their behavior for a *limited period of time*, and promise to review how it's going at the end.
 
-/"For our next *two sprints*, could I ask you to spend some time laying out the ‘Why’ behind the epics, before we get into the detailed tickets? We can see how that goes, and if we're tight on planning time, I can work with you to streamline grooming and pre-planning."/
+/"For our *next sprint*, could I ask you to, during planning, spend some time laying out the ‘Why’ behind the epics, before we get into the detailed tickets? After the planning session, we can check in, and if it turns out we ran out of time, I'll work with you to streamline grooming and pre-planning, before the next one."/
+
+The PM in question may still find this a bit nervous-making to contemplate, but it's being presented as an *experiment*, not a *commitment*, so your odds are much better of getting a "yes."
 
 *** Offer A Future Decision
 
 *Problem*
 
-Your stakeholder is a human being. Therefore, agreeing to change their behavior /because someone asked them to/ makes them feel like they're losing control.
+Your stakeholder is human, and thus, agreeing to change their behavior /because someone asked them to/ makes them feel like they're losing control.
 
 *Example*
 
-You say, /"I want the team go off and spend a month in heads-down exploration, without having to constantly report back on status to you and me as they go."/
+When you say, /"I want the team go off and spend a month in heads-down exploration, without having to constantly report back on status to you and me as they go."/...
 
-Your stakeholder, who already feels like they're struggling to keep the work on track, is being asked to give up even more control! They push back.
+...your stakeholder, who already feels like they're struggling to keep the work on track, hears you asking them give up even more control! How are they supposed to know what is going on?! Those status check-ins are critical! They push back.
+
+There are, subtly, two things going on here: first, the new pattern of interaction would genuinely remove some touchpoints that allowed them to exert control in the past; second, letting *you* dictate how the two of you work together places your stakeholder in a "lower status" role, which also feels like a loss of control. Their brain will immediately translate the second fear into the first, quickly coming up with lots of Perfectly Rational reasons why your idea Just Won't Work... which gives them the pleasant benefit of retaining the higher status role.
 
 *Solution*
 
-Ensure that your initial, timeboxed increment of change ends with a *decision that your stakeholder gets to make*, so they still feel in control over the process.
+Ensure that your initial, timeboxed increment of change ends with a *meaningful decision that your stakeholder gets to make.* This securely positions them in a high-status place of control.
 
-/"I'd like to ask for the team to do a month of heads-down exploration. At the end of the month, they'll sit down with you and do a thorough deep dive on everything they've learned, so *you* can decide if they’ve found something worth committing to. During the month, I'd like to let them go fast, without having to report back on status to you and me. That should give us a good shot at having a lot of info for you to then review. Can we spend some time aligning on what key info you'll want to base a decision on?"/
+/"I'd like to ask for the team to do a month of heads-down exploration. At the end of the month, they'll sit down with you and do a thorough deep dive on everything they've learned, so *you* can decide if they’ve found something worth committing to. During the month, I'd like to let them go fast, without having to report back on status to you and me, so they can produce a really solid overview at the end of the month. Can we spend some time aligning on what key info you'll want to base a decision on?"/
+
+Your stakeholder can now express their control and status by first, setting the decision criteria to guide the month's work, and then, at the end of the month, actually Making The Big Decision. Your asked them to change their behavior (no more status check ins), but, by giving them a meaningful decision to make, helped them feel very much in control.
 
 *** Shrink Your Ask
 
@@ -161,21 +170,23 @@ Truly improving how you work with your stakeholder requires a complex adjustment
 
 *Example*
 
-You're worried that your team is toiling long hours in the feature factory. You know you could create hugely more value and find your job way more fun if only:
+You're worried that your team is toiling long hours in the feature factory, staying super busy but barely moving the business forward at all. You know you could create hugely more value (and find your job way more fun!) if only:
 
- - The exec team would set high-level strategy instead of obsessing over features
+ - The exec team would set high-level strategy instead of relentlessly obsessing over features
 
- - The product team would turn that strategy into a series of outcomes instead of developing sprawling project specs
+ - The product team would turn that strategy into a series of outcomes instead of writing sprawling project specs
 
- - The engineers could learn how to collaborate around outcomes instead of just chewing through tickets as fast as possible, as they do now
+ - The engineers could learn how to collaborate around outcomes instead of just chewing through tickets as fast as possible
 
-That's all genuinely great, but good lord, so many moving pieces to get right.
+That's a genuinely great way to work! I highly recommend it! But good lord, there are so many moving pieces to get right. Trying to change too much at once is a pretty much guaranteed way to trigger organ rejection.
 
 *Solution*
 
 Shrink your ask to implementing just a *part* of that better way to work, even if that doesn't immediately improve things for you.
 
 /"For the next few sprints, can we take the time to be sure the engineers understand a specific outcome each bundle of features is supposed to unlock? I want to challenge the engineers to come up with creative options for achieving outcomes, but I think we need to start by just being certain they even know what those outcomes are."/
+
+If the PM agrees to this, you won't necessarily see much immediate improvement in value creation (the engineers may genuinely have no experience turning outcomes into options, yet). But you'll start to build momentum, and can gradually layer in other pieces of the solution.
 
 ** How To Motivate Action
 
@@ -252,7 +263,6 @@ After you tell your story of growing danger, your stakeholder is clearly worried
 Create visibility into the early impact of the underlying problems, so that you can both motivate immediate action, *and* make it possible to see incremental improvement.
 
 /"We've worked with the security team to create a series of overall milestones for getting to SOC-2. For the work for the first couple of milestones, we've set up a burndown for you to review as we go. We want to devote a bit of time steadily each sprint, but you'll be able to see if we're on track, and how much work remains. If it looks like we're going to miss on the overall deadlines, you'll know early, and we can talk with the sales team about options."/
-
 
 ** How To Work With Another Human
 *** Invite Your Stakeholder To Solve Your Problems
