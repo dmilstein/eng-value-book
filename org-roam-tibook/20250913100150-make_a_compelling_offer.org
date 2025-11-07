@@ -276,35 +276,44 @@ Create visibility into the early impact of the underlying problems, so that you 
 
 Not only does the visibility help with motivation (e.g. the cost of purely focusing on the new product can now be seen in the sales pipeline), but, as importantly, you're offering them a way to see incremental progress, week over week and month over month. That converts the security work from an abstract, "blank check" investment to a steady forward march.
 ** How To Work With Another Human
+
 *** Invite Your Stakeholder To Solve Your Problems
+
 *Problem*
 
-You need to ask your stakeholder to change their behavior, but doing so could make them feel attacked, in which case they may angrily resist.
-
-*Solution*
-
-Find a non-judgmental way to describe the results of their behavior as a problem for the two of you to solve together. Ask them open-ended questions that offer them a chance to be an expert, and solve the problem you're laying out to them.
+Your stakeholder is human, and thus, your request to change their behavior makes them feel defensive and therefore, resistant. This is especially true if their behavior is frustrating the people around them. But, good lord, they're being so frustrating.
 
 *Example*
 
-Before: //
+After your team shares updates and options with your CEO, they have this extremely frustrating habit of holding forth for five minutes about all the other things the team *could* be doing. Then, once everyone is good and totally confused about priorities, the CEO briskly says "Thank you," stands up, and leaves the meeting.
 
-After: //
+If you say /"Could you please not talk about all the other things you're thinking about, after the team shares options with you?"/...
+
+...your CEO hears it as a personal attack. If they ask /"Why?"/ you're going to be incredibly tempted to say, /"Because everyone is finding it frustrating."/ That would be totally accurate! But would also just about guarantee that your CEO will fight you tooth and nail!
+
+*Solution*
+
+Find a non-judgmental way to describe the /results/ of their behavior as a problem for the two of you to solve together. Ask them open-ended questions that offer them a chance to cleverly solves this problem. As part of that, play "low status".
+
+/"At the end of our meetings, I'm worried the team is sometimes unclear about what is most valuable or important for the business. I hate to say it, but they sometimes end up spending time on things that don't really matter. They just don't have your depth of understanding about the business as a whole. How can we make sure the team doesn't end up wasting time on things that don't matter?"/
+
+You're asking your CEO to be an expert! But you're pointing their expertise at the very problem they're currently causing -- leaving the team totally confused after the meetings. If you keep on asking your open-ended question over and over, your CEO will gradually come up with the brilliant idea of making sure they end the meeting by clearly stating the top priorities for the team, and clearly stating the things the team *shouldn't* work on. You say "Wow, what a great idea." Your CEO looks forward to trying out their idea at the next review meeting.
+
+We'll share more details on how to apply this incredibly useful technique later! Humans are so fun! This technique totally works when applied to me, even if I know you're trying to use it!
 
 *** Find Wins For Your Stakeholder By Hook Or By Crook
+
 *Problem*
 
 You can't figure out a way for your adjustment to immediately improve things for your stakeholder. Try as you might, you don't see how to address your frustrations in a way that directly benefits them.
+
+*Example*
+
 
 *Solution*
 
 Find some wins for you stakeholder that you *can* offer, even if they're not strictly necessary for your adjustment.
 
-*Example*
-
-Before: //
-
-After: //
 
 *** Keep 'Em Busy
 *Problem*
@@ -764,9 +773,9 @@ She imagines confronting Mark about this directly: "If you won't give me metrics
 
 Lisa feels good and completely stuck.
 
-That night, after tucking her wonderful-but-totally-exhausting four year daughter into bed, she's collapsed on the couch, and picks up a book about parenting that her spouse got out of the library. She's skimming through a section about how invite a resistant child them to solve a problem with you, when, with a start, she suddenly realizes she's looking at a new idea for how she can handle Mark. "He's like a child!" she excitedly announces to her spouse, when they wander bleary-eyed into the room twenty minutes later. "We have two girls?" says her spouse, uncertainly.
+That night, after tucking her wonderful-but-totally-exhausting four year old daughter into bed, she's collapsed on the couch. She idly picks up a book about parenting that her spouse got out of the library. She's skimming through a section about how deal with a resistant child, when, with a start, she suddenly realizes she's looking at a new idea for how she can handle Mark. "He's like a child!" she excitedly announces to her spouse, when they wander bleary-eyed into the room twenty minutes later. "We have two girls?" says her spouse, uncertainly.
 
-The next morning, Lisa hurries into her office, clears a couple of meetings off her calendar, and spends an hour getting her thoughts together. The, she pings Mark for a quick check-in.
+The next morning, Lisa hurries into her office, clears a couple of meetings off her calendar, and spends an hour thinking about how to apply this technique. The, she pings Mark for a quick check-in.
 
 When Mark appears on her zoom screen, frowning as always, Lisa launches into the script she's been practicing. "Good morning, Mark. I'm really eager to work on the receiving issues we talked about yesterday. I was getting ready to tell the engineers to get started, but then I realized: there have been *far* too many times that the engineers worked on some warehouse process for you, but, well, they didn't fully understand what they were doing."
 
