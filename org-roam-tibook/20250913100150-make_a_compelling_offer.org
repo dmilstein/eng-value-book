@@ -198,15 +198,17 @@ Your stakeholder doesn't seem to hear your concerns as valid or important. They 
 
 *Example*
 
-You say, /"We need to spend time reviewing our codebase for out of date libraries."/
+When you say, /"We need to spend time reviewing our codebase for out of date libraries."/...
 
-Your stakeholder hears, /"Please allow us to miss our next several delivery deadlines so that we can do something that you'll never understand, to make things theoretically better in a way you'll never be able to see."/[fn:: Aka, for you old school Far Side fans, "Blah, blah, blah, Ginger, blah, blah, blah."]
+...your stakeholder hears:
 
-They say, /"We don't have time to focus on anything but business priorities right now."/
+/"Please allow us to miss our next several delivery deadlines so that we can do something that you'll never understand, to make things theoretically better in a way you'll never be able to see."/[fn:: Aka, for you old school Far Side fans, "Blah, blah, blah, Ginger, blah, blah, blah."]
+
+Your stakeholder is working night and day to launch a new product, in order to hit their strategic outcome of "Grow top-line revenue by 50% in the next two years." Therefore, they say, /"We don't have time to focus on anything but business priorities right now."/
 
 *Solution*
 
-With an inquisitive friend, conduct a Five Whys to develop a chain of consequences that shows how your day-to-day frustrations, if left unchecked, will eventually impact a strategic outcome your stakeholder cares intensely about.
+With a friend, conduct a Five Whys to develop a chain of consequences that shows how your day-to-day frustrations, if left unchecked, will eventually impact a strategic outcome your stakeholder cares intensely about.
 
 Q: /"Why is it a problem for the business to not know if we have out of date libraries?"/
 
@@ -224,6 +226,8 @@ Q: /"Why is it a problem for the business if some enterprise customers churn?"/
 
 A: /"Because our strategic outcome is increasing top-line revenue by 50% in the next two years, and enterprise customers are a central part of the plan to get there."/
 
+Notice how you've *arrived at the strategic outcome*. You've connected your immediate concerns to the specific thing your stakeholder is working backwards from.
+
 *** Tell A Story Of Growing Danger
 
 *Problem*
@@ -232,21 +236,25 @@ You've worked out a way to connect your current frustrations to longer-term stra
 
 *Example*
 
-You walk through the chain above, and say, /"... and that's we should do a library review, now, if we're serious about the enterprise segment."/
+You walk through the chain above, and say, /"... and that's why we believe we should do a library review, if we're serious about the enterprise segment."/
 
-Your stakeholder understands the steps in your Five Whys change, they even buy them. But... there are a dozen other things that feel more urgently on fire.
+Your stakeholder understands and accepts the steps in your Five Whys chain. But... they've committed to the CEO to ship a version of the new product by the end of the quarter. And there are a dozen things that feel urgently on fire.
 
-They say, /"That *does* sound important. Maybe we can talk about it after we launch the beta. But I think we need to stay heads down for now."/
+They say, /"Maybe we can talk about this, what did you call it, library review after we launch the beta. But I think we need to stay heads down for now."/
 
-And then they immediately forget about this conversation.
+And then... they promptly /forget about this conversation/. It felt to them like "an engineering concern". It presented as kind of abstract. Unconsciously, they tagged it as "safe to ignore for now". It didn't lodge firmly into their mind.
 
 *Solution*
 
-Use the structure of a story to render your concerns vivid, immediate and memorable to your stakeholder.
+Use the structure of a *story of growing danger* to render your concerns vivid, immediate and memorable to your stakeholder.
 
-You say, /"Last week, I caught up with one of the senior sales rep. She told me that, a year ago, when she closed our first enterprise customer, they didn't ask much about security. But, since then, more and more deals in her pipeline are stalling out, because everyone's getting more and more worried about data breaches. She's tried buying time by promising that we'll have a SOC-2 by early next year. She's managed to close a few deals based on that, but she's still been losing a lot of others. And now, because of the pressure to get the beta live, we're running a risk of missing our SOC-2 deadlines. She's *really* worried about going back to those customers if we fail our first audit or don't even get one completed."/
+You say, /"Last week, I caught up with one of the senior sales reps. She told me that, a year ago, when she closed our first enterprise customer, they didn't ask much about security. But, since then, more and more deals in her pipeline are stalling out, because everyone's getting so worried about data breaches."/
 
-That's a "story of growing danger". Even if your stakeholder doesn't commit to immediately taking action, they're going to *remember* that story in a totally different way than a dry, logical chain. It will feel vivid. It will feel "real".
+/"She's tried buying time by promising that we'll have a SOC-2 by early next year. She's managed to close a few deals based on that promise. But now, because of the pressure to get the beta live, we're running a risk of missing our SOC-2 deadlines altogether. She's *really* worried about going back to those customers if we don't get an audit completed. She told me "there's no way on earth" the sales team will hit plan next year without a clean SOC-2."/
+
+That's a story that follows a specific structure that is wired into the human mind. Later, we'll break down the beats of that story, and show how to apply them.
+
+Even if your stakeholder doesn't commit to immediately taking action, they're going to *remember* that story in a totally different way than a dry, logical chain. It will feel vivid. It will feel "real".
 
 *** Create Urgency Through Visibility
 
@@ -256,14 +264,17 @@ Your stakeholder accepts that your frustrations matter, but they seem unwilling 
 
 *Example*
 
-After you tell your story of growing danger, your stakeholder is clearly worried. But they're still fretting over all the other priorities, and you can't seem to get into a concrete conversation about the steps to take, right now.
+After you tell the above story of growing danger, your stakeholder is clearly worried. But they're still fretting over all the other priorities, and you can't seem to get into a concrete conversation about the steps to take, right now.
 
 *Solution*
 
-Create visibility into the early impact of the underlying problems, so that you can both motivate immediate action, *and* make it possible to see incremental improvement.
+Create visibility into the early impact of the underlying problems, so that you can both motivate immediate action, *and* to make it possible to see incremental improvement.
 
-/"We've worked with the security team to create a series of overall milestones for getting to SOC-2. For the work for the first couple of milestones, we've set up a burndown for you to review as we go. We want to devote a bit of time steadily each sprint, but you'll be able to see if we're on track, and how much work remains. If it looks like we're going to miss on the overall deadlines, you'll know early, and we can talk with the sales team about options."/
+/"We've worked with the security team to create a series of overall milestones for getting to SOC-2. For the detailed work leading up to the first milestone, we've set up a burndown for you to review as we go. We want to devote a bit of time steadily each sprint, but you'll be able to see if we're on track, and how much work remains. If it looks like we're running a risk around our SOC-2 deadlines, you'll know early, and we can talk with the exec team about options."/
 
+/"Also, sales has agreed to start tagging opportunities in the Salesforce that name the lack of a SOC-2 as a blocker. They'll be able to run reports across the pipeline to see potential impact from about the middle of the funnel down."/
+
+Not only does the visibility help with motivation (e.g. the cost of purely focusing on the new product can now be seen in the sales pipeline), but, as importantly, you're offering them a way to see incremental progress, week over week and month over month. That converts the security work from an abstract, "blank check" investment to a steady forward march.
 ** How To Work With Another Human
 *** Invite Your Stakeholder To Solve Your Problems
 *Problem*
