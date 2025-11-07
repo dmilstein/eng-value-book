@@ -297,25 +297,36 @@ Find a non-judgmental way to describe the /results/ of their behavior as a probl
 
 /"At the end of our meetings, I'm worried the team is sometimes unclear about what is most valuable or important for the business. I hate to say it, but they sometimes end up spending time on things that don't really matter. They just don't have your depth of understanding about the business as a whole. How can we make sure the team doesn't end up wasting time on things that don't matter?"/
 
-You're asking your CEO to be an expert! But you're pointing their expertise at the very problem they're currently causing -- leaving the team totally confused after the meetings. If you keep on asking your open-ended question over and over, your CEO will gradually come up with the brilliant idea of making sure they end the meeting by clearly stating the top priorities for the team, and clearly stating the things the team *shouldn't* work on. You say "Wow, what a great idea." Your CEO looks forward to trying out their idea at the next review meeting.
+You're asking your CEO to be an expert! But you're pointing their expertise at the very problem they're currently causing -- leaving the team totally confused after the meetings. If you keep on asking your open-ended question over and over, your CEO will gradually come up with the brilliant idea of making sure they end the meeting by clearly stating the top priorities for the team, and clearly stating the things the team *shouldn't* work on. You say "Wow, what a great idea." Your CEO looks forward to trying out "their idea" at the next review meeting.
 
-We'll share more details on how to apply this incredibly useful technique later! Humans are so fun! This technique totally works when applied to me, even if I know you're trying to use it!
+We'll share more details on how to apply this incredibly useful technique later! Humans are fun! This technique totally works when applied to me, even if I know you're trying to use it!
 
 *** Find Wins For Your Stakeholder By Hook Or By Crook
 
 *Problem*
 
-You can't figure out a way for your adjustment to immediately improve things for your stakeholder. Try as you might, you don't see how to address your frustrations in a way that directly benefits them.
+You can't figure out a way for your adjustment to immediately improve things for your stakeholder. Try as you might, you don't see a way to address your frustrations that directly benefits them.
 
 *Example*
 
+The head of Customer Success constantly interrupts you to check in on the status of the various troubleshooting tickets their team has submitted. You want them to instead bring all ticket questions to a weekly status/triage meeting. The resulting increase in focus time would accelerate delivery of new features that Success has been begging for. But... that will take a while.
+
+If you directly ask the head of Success to do this, they might agree... but they might also resist, since there's no immediate benefit for them (they find it genuinely useful to get those quick updates from you). Even if they do try it out, they may perceive it as something they're doing "for you". It may feel "only fair" to them, to still ping you, if a ticket is "important". And then, before you know it, you're back in the old pattern.
 
 *Solution*
 
-Find some wins for you stakeholder that you *can* offer, even if they're not strictly necessary for your adjustment.
+Find some wins for you stakeholder that you *can* offer... even if they're not strictly necessary for your adjustment.
 
+You've noticed that the head of Success /loves/ telling stories about customer problems. You think it *feels good* to them, to walk people through some specific challenge a customer is having with the product. Beyond a rational desire to get certain work prioritized, you suspect that makes them feel like they're doing "everything they can" to support "their" customers.
+
+You add to your proposed status/triage meeting a "Customer Story Of The Week", where the head of Success will take a few minutes to tell a full story behind one specific ticket that their team has submitted. You'll bring along one engineer to triage, and the two of you will listen carefully to that story and ask questions.
+
+Now the head of Success has something to look forward to, and the new meeting feels like it'e "for them", as much as for you.
+
+Note that this addition *isn't* strictly necessary for your purposes -- you'd still get the key increase in focus time without it. But, by finding a win for them, you can get them to buy-in much more wholeheartedly.
 
 *** Keep 'Em Busy
+
 *Problem*
 
 You need to ask your stakeholder to stop doing something. You're worried that they will resist, because they are a human being, and thus like doing things.
