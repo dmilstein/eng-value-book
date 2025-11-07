@@ -128,9 +128,9 @@ Your stakeholder is human, and is thus reluctant to commit to "permanently" chan
 
 When you say to your PM, /"During planning, even though I know time feels tight, could you please spend more time sharing context with the engineers?"/...
 
-...they hear this as a request to make a permanent change.
+...they hear this as a request to change their behavior, indefinitely.
 
-Their brain whirs up into action, quickly coming up with reasons to say "no"---you barely have enough time to get through all the tickets already, it'll take forever to share all that context, that one scary engineer always glares at them when planning runs long, etc, etc.
+That feels like a major request, so their brain whirs up into action, quickly coming up with reasons to say "no": you barely have enough time to get through all the tickets already; it'll take forever to share all that context; that one scary engineer always glares at them when planning runs long; etc, etc.
 
 *Solution*
 
@@ -285,7 +285,7 @@ Your stakeholder is human, and thus, your request to change their behavior makes
 
 *Example*
 
-After your team shares updates and options with your CEO, they have this extremely frustrating habit of holding forth for five minutes about all the other things the team *could* be doing. Then, once everyone is good and totally confused about priorities, the CEO briskly says "Thank you," stands up, and leaves the meeting.
+After your team shares updates and options with your CEO, they have this habit of holding forth for five minutes about all the other things the team *could* be doing. Then, once everyone is good and totally confused about priorities, the CEO briskly says "Thank you," stands up, and leaves the meeting.
 
 If you say /"Could you please not talk about all the other things you're thinking about, after the team shares options with you?"/...
 
@@ -293,7 +293,7 @@ If you say /"Could you please not talk about all the other things you're thinkin
 
 *Solution*
 
-Find a non-judgmental way to describe the /results/ of their behavior as a problem for the two of you to solve together. Ask them open-ended questions that offer them a chance to cleverly solves this problem. As part of that, play "low status".
+Find a non-judgmental way to describe the /results/ of their behavior as a problem for the two of you to solve together. Ask them open-ended questions that offer them a chance to cleverly solve this problem. As part of that, play "low status".
 
 /"At the end of our meetings, I'm worried the team is sometimes unclear about what is most valuable or important for the business. I hate to say it, but they sometimes end up spending time on things that don't really matter. They just don't have your depth of understanding about the business as a whole. How can we make sure the team doesn't end up wasting time on things that don't matter?"/
 
@@ -369,9 +369,9 @@ Your proposed adjustment might raise concerns or fears for your stakeholder, suc
 
 To ship a key new product this year, you want to deprioritize enterprise support, which currently consumes a lot of engineering time. But you know the VP of Sales will worry about retention rates, if you do so.
 
-You might be tempted to sweep this under the rug, by just focusing on the positive, and therefor avoiding conflict. But when  you say, /"We're proposing to strongly focus engineering time on the new product, because that's the core of our company strategy"/...
+You might be tempted to sweep this under the rug, by just focusing on the positive, and avoiding open conflict. But, if you only say, /"We're proposing to strongly focus engineering time on the new product, because that's the core of our company strategy"/...
 
-...your VP of Sales hears an invitation to start /arguing/, since you don't seem to understand the retention risk this will cause.
+...your VP of Sales will hear an invitation to start /arguing/, since you don't seem to even understand the retention risk this will cause.
 
 *Solution*
 
@@ -387,15 +387,24 @@ By speaking empathetically to their fears, you're inviting the VP of Sales to wo
 
 You're worried that your stakeholder will be reluctant to commit to your proposed adjustment, because, being human, they will feel like they'll have to do all the hard work.
 
-*Solution*
-
-Make it easier for them to say yes by making it clear that you will personally take on extra work, and/or face some hard thing.
-
 *Example*
 
-Before: //
+You run an internal platform/ops team, and have just rolled out a self-service tool that allows developers to spin up pre-configured instances. You want to ask the VP of Engineering to use their authority to mandate that all the teams use that tool, instead of directly contacting ops engineers to build custom one-offs.
 
-After: //
+But... the VPE knows that this will be frustrating to their teams. /All/ of the teams are used to getting custom builds, and some may genuinely *need* things that your pre-configured instances don't provide. If the VPE issue this mandate, they're going to get a flurry of upset Slack messages and emails over the next few weeks, as engineers are suddently stuck as they're trying to get something live.
+
+This feels to them like a lot to ask.
+
+*Solution*
+
+Make it easier for your stakeholder to say yes by making it clear that you will *personally* take on extra work, and/or personally face some hard thing.
+
+If humans see someone putting themselves on the line to face a difficult or risky challenge, they become much more willing to listen to requests from the person to help.[fn:: This is a big part of what we mean when we talk about someone having "moral authority".] Whereas, if a human is asked to do something that they perceive as risky or hard, but the person doing the asking doesn't seem to be taking any personal risks, or shouldering any of the new burdens created, that creates resentment and resistance.
+
+In this case, you could say, /"I know this is going to have some shaky moments early on. My team will set up and monitor a dedicated slack channel for any problems. I'm going to personally clear my calendar for the next month, so I can be as responsive as possible during the initial rollout. Also, if it's okay with you, I want to give the team leads my cell number, and encourage them to call or text me if they hit something tricky or time-sensitive. Finally, if it's okay with you, I'd like to lead a Q&A immediately after you announce this change, so I can hear about any concerns or frustrations."/
+
+This makes clear that you are signing up for "unpleasant" parts of the work -- getting called at all hours, bearing the direct brunt of unhappiness from the team, etc.
+
 
 * Stashed Later Chapters
 ** Propose a Timebox
