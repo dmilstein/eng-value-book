@@ -331,32 +331,58 @@ Note that this addition *isn't* strictly necessary for your purposes -- you'd st
 
 You need to ask your stakeholder to stop doing something. You're worried that they will resist, because they are a human being, and thus like doing things.
 
-*Solution*
-
-Find a way to ask your stakeholder to *start* doing something new, *instead* of their existing behavior. Allow them to channel their energy into that new thing.
-
 *Example*
 
-Before: //
+When you say to your product peer, /"Could you please stop bringing detailed design mockups to the brainstorming sessions? It's shutting down any chance of generating new ideas."/...
 
-After: //
+...your product peer immediately *feels* stuck. What are they supposed to do instead? They will be in a place of resistance.
+
+*Solution*
+
+Ask your stakeholder to *start* doing something new, *instead* of their existing behavior. Allow them to channel their energy into that new thing.
+
+/"Could I ask you to, for the next brainstorming session, bring a handful of different super crude mockups, and be ready to talk about the tradeoffs you imagine for each?"/
+
+What a fun request! And it will still completely deliver what you actually need.
+
+Other examples include:
+
+ - "Stop talking during meeting X" -> "Please take notes during meeting X to discuss after"
+
+ - "Stop attending meeting X altogether" -> "We'd like to ask you to attend meeting Y instead"
+
+ - "Stop overruling all the team's decisions" -> "How about if you pick the one or two most important decisions, we can spend real time aligning on those"
+
+ - "Stop crapping all over the team during demos" -> "I'd like you to note down any and all concerns so you can discuss them with me, immediately after demo"
+
+ - "Stop trying to personally advocate with the PM for your priorities" -> "Bring your requests to the monthly shared triage meeting for review"
+
+ - "Stop demanding high-stakes engineering commitments to long-term estimates" -> "Ask the teams to demonstrate that they deeply understand the key business outcomes and then make sure they steadily offer options and decisions, as the work unfolds"[fn:: This one is soooooo easy. I will leave the details as an exercise for the reader.]
 
 *** Address Fears Directly
+
 *Problem*
 
 Your proposed adjustment might raise concerns or fears for your stakeholder, such that they resist making a change.
 
-*Solution*
-
-In your request for change, first validate their fears and then address them directly.
-
 *Example*
 
-Before: //
+To ship a key new product this year, you want to deprioritize enterprise support, which currently consumes a lot of engineering time. But you know the VP of Sales will worry about retention rates, if you do so.
 
-After: //
+You might be tempted to sweep this under the rug, by just focusing on the positive, and therefor avoiding conflict. But when  you say, /"We're proposing to strongly focus engineering time on the new product, because that's the core of our company strategy"/...
+
+...your VP of Sales hears an invitation to start /arguing/, since you don't seem to understand the retention risk this will cause.
+
+*Solution*
+
+In your request for change, first /validate/ their fears and then /address them directly/.
+
+/"We realize that pulling engineering focus away from enterprise accounts runs a risk of frustrating some important customers. We'd like to propose that the account managers identify a small handful of really key customers, and we'll commit to maintaining full engineering support for those. But we also realize this shift will make the AMs' jobs harder this year."/
+
+By speaking empathetically to their fears, you're inviting the VP of Sales to work with you to figure *how* to make this change work, instead of just fighting *against* it.
 
 *** Put Yourself On the Line
+
 *Problem*
 
 You're worried that your stakeholder will be reluctant to commit to your proposed adjustment, because, being human, they will feel like they'll have to do all the hard work.
