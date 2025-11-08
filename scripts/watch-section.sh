@@ -8,34 +8,42 @@ OUTPUT_FILE="$BUILD_DIR/preview.html"
 # Create build directory if it doesn't exist
 mkdir -p "$BUILD_DIR"
 
-# Function to extract file path and heading from org link
-parse_org_link() {
+# Function to extract file path and heading from simple format
+parse_pointer_file() {
     if [ ! -f "$POINTER_FILE" ]; then
         echo "Error: Pointer file $POINTER_FILE not found"
-        echo "Create it with an org link like: [[file:path/to/file.org::*Heading][Heading]]"
+        echo "Create it with: filename.org Heading Name"
         exit 1
     fi
     
-    local link=$(grep -o '\[\[file:[^]]*\]\[.*\]\]' "$POINTER_FILE" | head -1)
-    if [[ $link =~ \[\[file:([^:]*)::\\*([^]]*)\]\[.*\]\] ]]; then
-        ORG_FILE="${BASH_REMATCH[1]}"
-        HEADING="${BASH_REMATCH[2]}"
-        
-        # Expand tilde to home directory if present
-        ORG_FILE="${ORG_FILE/#\~/$HOME}"
-        
-        echo "Watching: $ORG_FILE"
-        echo "Section: $HEADING"
-        echo "Output: $OUTPUT_FILE"
-        echo ""
-        
-        if [ ! -f "$ORG_FILE" ]; then
-            echo "Error: Org file $ORG_FILE not found"
-            exit 1
-        fi
-    else
-        echo "Error: Could not parse org link in $POINTER_FILE"
-        echo "Expected format: [[file:path/to/file.org::*Heading][Heading]]"
+    # Read first line and split on whitespace
+    local line=$(head -1 "$POINTER_FILE" | xargs)
+    if [ -z "$line" ]; then
+        echo "Error: Pointer file is empty"
+        echo "Expected format: filename.org Heading Name"
+        exit 1
+    fi
+    
+    # Split into filename (first word) and heading (rest)
+    ORG_FILE=$(echo "$line" | cut -d' ' -f1)
+    HEADING=$(echo "$line" | cut -d' ' -f2-)
+    
+    if [ -z "$ORG_FILE" ] || [ -z "$HEADING" ]; then
+        echo "Error: Could not parse pointer file"
+        echo "Expected format: filename.org Heading Name"
+        exit 1
+    fi
+    
+    # Expand tilde to home directory if present
+    ORG_FILE="${ORG_FILE/#\~/$HOME}"
+    
+    echo "Watching: $ORG_FILE"
+    echo "Section: $HEADING"
+    echo "Output: $OUTPUT_FILE"
+    echo ""
+    
+    if [ ! -f "$ORG_FILE" ]; then
+        echo "Error: Org file $ORG_FILE not found"
         exit 1
     fi
 }
@@ -100,7 +108,7 @@ if ! command -v fswatch &> /dev/null; then
 fi
 
 # Parse the pointer file
-parse_org_link
+parse_pointer_file
 
 # Initial export
 export_section
