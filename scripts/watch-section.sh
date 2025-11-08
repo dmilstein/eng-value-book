@@ -2,7 +2,7 @@
 # watch-section.sh - Watch and export a specific org section to HTML
 
 POINTER_FILE="current-edit.org"
-BUILD_DIR="book-monitor/build"
+BUILD_DIR="build"
 OUTPUT_FILE="$BUILD_DIR/preview.html"
 
 # Create build directory if it doesn't exist
