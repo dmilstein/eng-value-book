@@ -17,7 +17,7 @@ parse_org_link() {
     fi
     
     local link=$(grep -o '\[\[file:[^]]*\]\[.*\]\]' "$POINTER_FILE" | head -1)
-    if [[ $link =~ \[\[file:([^:]*)::\*([^]]*)\]\[.*\]\] ]]; then
+    if [[ $link =~ \[\[file:([^:]*)::\\\*([^]]*)\]\[.*\]\] ]]; then
         ORG_FILE="${BASH_REMATCH[1]}"
         HEADING="${BASH_REMATCH[2]}"
         
