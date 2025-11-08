@@ -132,14 +132,21 @@ Immediately, she needs him to stop randomizing sprints, more long term, she need
 ** TODO More dramatic priority changes in story setup
 
 * [[id:4FEA3BD5-8E85-4BB6-8F59-15FDE4F38572][Tactical Empathy]]                                :gtasks:
-** TODO Write story for Echoing Back              :curweek:pom:
+** DONE Write story for Echoing Back              :curweek:
+CLOSED: [2025-11-04 Tue 17:18]
 :LOGBOOK:
-CLOCK: [2025-11-04 Tue 16:32]
+CLOCK: [2025-11-04 Tue 16:32]--[2025-11-04 Tue 17:18] =>  0:46
 CLOCK: [2025-11-04 Tue 11:38]--[2025-11-04 Tue 12:29] =>  0:51
+:END:
+** DONE Review the story, improve                 :curweek:
+CLOSED: [2025-11-05 Wed 10:18]
+:LOGBOOK:
+CLOCK: [2025-11-05 Wed 07:52]--[2025-11-05 Wed 10:18] =>  2:26
 :END:
 ** DONE Dig up old Mastering Empathy              :curweek:
 CLOSED: [2025-11-04 Tue 11:42]
-** TODO Review No Deadlines For You               :curweek:
+** DONE Review No Deadlines For You               :curweek:
+CLOSED: [2025-11-04 Tue 17:17]
 I have some good bits in there, can steal
 ** TODO Consider Smorgasbord, later
 ** TODO Do I use three part teens/terrorists negotiation thing?
@@ -148,13 +155,34 @@ E.g. what happens if the stores have sluggish perf?
 ** TODO Add testing w/ Map Fears / Aspirations
 
 * [[id:E0ADBF07-90B8-4C37-81C0-96A428020F5E][Substack]]                                        :gtasks:
-** TODO Prep post for Medium                      :curweek:
+** TODO Add playful illustrations of mindsets     :curweek:
+E.g. like I did in Invite to Solve Problems
+** TODO Experiment w/ listing *just the problems* :curweek:pom:
+:LOGBOOK:
+CLOCK: [2025-11-08 Sat 10:49]
+:END:
 ** TODO Submit to publication on Medium           :curweek:
-** TODO Fill in Smorgasbord of Tactics            :curweek:
+** TODO Decide: illustrate *all* tactics w/ deep dives, or just some?
+** DONE Prep post for Medium                      :curweek:
+CLOSED: [2025-11-07 Fri 17:12]
+** DONE Review Smorgasbord of Tactics             :curweek:
+CLOSED: [2025-11-08 Sat 10:49]
+:LOGBOOK:
+CLOCK: [2025-11-08 Sat 09:39]--[2025-11-08 Sat 10:49] =>  1:10
+:END:
+** DONE Fill in Smorgasbord of Tactics            :curweek:
+CLOSED: [2025-11-08 Sat 09:38]
+:LOGBOOK:
+CLOCK: [2025-11-07 Fri 11:43]--[2025-11-07 Fri 12:13] =>  0:30
+CLOCK: [2025-11-07 Fri 08:47]--[2025-11-07 Fri 11:07] =>  2:20
+CLOCK: [2025-11-06 Thu 10:00]--[2025-11-06 Thu 11:41] =>  1:41
+:END:
+** TODO Prep next post for Substack               :curweek:
 ** TODO Introduce/illustrate emotions a bit differently
 Like, specifically say:
 
 Understand their frustrations, so you can offer a change that smoothes those away. Understand their fears, because often, their day-to-day difficult behavior is driven by some fear of something bad happening in the future. Once you understand their fear, you can offer a new way to work together, a new way to behave, that will still ensure that bad thing doesn't happen, without their making you lose your mind. Understand what it is that makes them feel good, so you can offer them more of those experiences then they're getting right now (or ensure they don't lose the ones they have).
+** TODO Review/Revise 4 Emotions
 ** DONE Finish working in mini-examples
 CLOSED: [2025-10-31 Fri 15:49]
 ** DONE Work in opening of other famous novels
@@ -173,7 +201,6 @@ Gregor Samsa awoke one morning from uneasy dreams to find himself transformed in
 In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it to sit down on or to eat: it was a hobbit-hole, and that means comfort.
 *** Fear & Loathing In Las Vegas
 We were somewhere around Barstow on the edge of the desert when the drugs began to take hold.
-** TODO Review/Revise 4 Emotions
 ** DONE Decide: feedback or just ship?
 CLOSED: [2025-10-30 Thu 12:10]
 ** DONE Format for Substack
@@ -219,6 +246,30 @@ Could put it in late, after explaining the fanning out tree view, and picking yo
 ** TODO Prep Creation of Value I & II for Medium
 ** TODO Read up on Google/Substack/SEO
 ** TODO Think about a call to action for book announcements
+* [[id:A1EF14A2-5F19-488D-926C-A8208142E794][Strat Intent]]                                    :gtasks:
+** DONE Review what I've got                      :curweek:
+CLOSED: [2025-11-05 Wed 11:37]
+:LOGBOOK:
+CLOCK: [2025-11-05 Wed 11:18]--[2025-11-05 Wed 11:37] =>  0:19
+:END:
+** TODO Start to work through chapter/[[file:org-roam-tibook/20250806082018-define_a_strategic_intent.org::*Todos][todos]]       :curweek:pom:
+** DONE Review Tech Invest chapters
+CLOSED: [2025-09-14 Sun 14:25]
+** DONE Draft learning outcomes/structure
+CLOSED: [2025-09-14 Sun 14:57]
+:LOGBOOK:
+CLOCK: [2025-09-14 Sun 14:15]--[2025-09-14 Sun 14:57] =>  0:42
+:END:
+** DONE Bad first draft Strategic Intent
+CLOSED: [2025-09-19 Fri 10:29]
+:LOGBOOK:
+CLOCK: [2025-09-19 Fri 10:01]--[2025-09-19 Fri 10:29] =>  0:28
+CLOCK: [2025-09-19 Fri 07:08]--[2025-09-19 Fri 08:55] =>  1:47
+CLOCK: [2025-09-18 Thu 16:42]--[2025-09-18 Thu 17:04] =>  0:22
+CLOCK: [2025-09-17 Wed 11:39]--[2025-09-17 Wed 11:40] =>  0:01
+CLOCK: [2025-09-17 Wed 09:23]--[2025-09-17 Wed 10:53] =>  1:30
+CLOCK: [2025-09-16 Tue 08:31]--[2025-09-16 Tue 11:07] =>  2:36
+:END:
 * [[id:9410A7DC-111C-4791-B8A1-C20867904251][Unstuck Beta]]                                    :gtasks:
 ** TODO Add Keisha Johnson to beta 2 reading list
 ** TODO Look at book blockers thing from Help This Book
@@ -246,7 +297,7 @@ Visible on the wall and/or in org?
 * [[id:5C7A0B37-8984-4A1F-8371-C1FCEB637174][Compelling Offer]]                                :gtasks:
 ** TODO Apply tweaks from Substack to Compelling Offer (claude?))
 ** TODO Split into three chapters
- 1. Offer A Small, Easy-To-Agree-To Change
+ 1. Offer An Easy-To-Agree-To Changes
     Structure incremental changes to make them easy to say “yes” to
     a. Propose a Timebox
     b. Offer A Future Decision
@@ -311,24 +362,6 @@ But harrangue people to *actually do them*.
 ** TODO Aim for: each section (chapter?) has an *action plan*
 People are clearly resonating with that, and it's actually how I think.
 
-* [[id:A1EF14A2-5F19-488D-926C-A8208142E794][Strat Intent]]                                    :gtasks:
-** DONE Review Tech Invest chapters
-CLOSED: [2025-09-14 Sun 14:25]
-** DONE Draft learning outcomes/structure
-CLOSED: [2025-09-14 Sun 14:57]
-:LOGBOOK:
-CLOCK: [2025-09-14 Sun 14:15]--[2025-09-14 Sun 14:57] =>  0:42
-:END:
-** DONE Bad first draft Strategic Intent
-CLOSED: [2025-09-19 Fri 10:29]
-:LOGBOOK:
-CLOCK: [2025-09-19 Fri 10:01]--[2025-09-19 Fri 10:29] =>  0:28
-CLOCK: [2025-09-19 Fri 07:08]--[2025-09-19 Fri 08:55] =>  1:47
-CLOCK: [2025-09-18 Thu 16:42]--[2025-09-18 Thu 17:04] =>  0:22
-CLOCK: [2025-09-17 Wed 11:39]--[2025-09-17 Wed 11:40] =>  0:01
-CLOCK: [2025-09-17 Wed 09:23]--[2025-09-17 Wed 10:53] =>  1:30
-CLOCK: [2025-09-16 Tue 08:31]--[2025-09-16 Tue 11:07] =>  2:36
-:END:
 * [[id:5903AFE7-4B1E-422C-8537-2C56BBFBA643][Mine For Feelings]]                               :gtasks:
 ** TODO Rename to Repeat Trailing Words? (cut Three)
 ** TODO Show example of labeling for fear of making prioritization calls
@@ -468,6 +501,20 @@ So I can either run full screen or within 80 columns
 Because now my wordcount history stuff is sensitive to those being missing.
 ** TODO Create a new chapter template or abbrev?
 * Book Misc
+** TODO Think a bit: talk about status in a sidebar or mini chapter?
+** TODO Maybe add brief section of privilege/safety
+Own that I'm tall, white, straight, male.
+
+But have seen people use these:
+
+ - Black people who find themselves easily tagged angry or complaining
+ - Women who find themselves easily tagged bitchy
+ - Gay people who find themselves easily tagged as weak or other
+** TODO What happens when everyone is echoing back and summarizing?
+
+E.g. when my teams did that to me?
+
+I didn't feel manipulated. I felt understood.
 ** TODO "Book tone" less lively/playful than "blog tone"?
 ** TODO Replace "goal" with "outcome" in, like, a lot of places
 ** TODO Remember: when to loop in adjacent authority
