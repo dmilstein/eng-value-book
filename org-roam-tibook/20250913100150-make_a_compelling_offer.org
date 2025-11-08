@@ -104,15 +104,15 @@ This four step approach works incredibly well, in an incredible variety of situa
 
 But it is /also/ one of those easy-to-describe but fascinatingly-hard-to-do-in-practice kinds of things.
 
-Thus, to equip you with a wide set of options to work with your very own Important Person, I'm going to share a broad set of *tactics* for first developing and then delivering this kind of offer. For going through various parts of the four step approach.
+Thus, to equip you with a wide set of options to work with your very own Important Person, I'm going to share a broad set of tactics for first developing and then delivering this kind of offer.
 
-For each tactic, I'll first name a problem you might run into with stakeholders, and then sketch in the corresponding action you could take. I've grouped them into three thematic blocks, roughly corresponding to:
+For each tactic, I'll first name a problem you might run into with stakeholders, and then sketch in the corresponding action you could take. I've grouped them into three thematic blocks, corresponding to challenges with:
 
- - The challenges of coming up with a specific incremental adjustment
+ - Coming up with a specific incremental adjustment
 
- - The challenges of getting your stakeholder to take your concerns seriously
+ - Getting your stakeholder to take your concerns seriously
 
- - The challenges of getting another human being to change their mind
+ - Getting another human being to change their mind
 
 Below, I'm going to list all the tactics in summary form. In the next few chapters, I'll explore the tactics in more detail.
 
@@ -128,39 +128,49 @@ Your stakeholder is human, and is thus reluctant to commit to "permanently" chan
 
 When you say to your PM, /"During planning, even though I know time feels tight, could you please spend more time sharing context with the engineers?"/...
 
-...they hear this as a request to change their behavior, indefinitely.
+...they hear this as an open-ended request to change their behavior.
 
-That feels like a major request, so their brain whirs up into action, quickly coming up with reasons to say "no": you barely have enough time to get through all the tickets already; it'll take forever to share all that context; that one scary engineer always glares at them when planning runs long; etc, etc.
+That feels like a risky commitment to make, so their brain whirs up into action, quickly coming up with reasons to say "no": /"we barely have enough time to get through all the tickets already"/; /"it'll take *forever* to share all that context"/; /"that one scary engineer always glares at me when planning runs long"/; etc, etc.
 
 *Solution*
 
-Ask your stakeholder to change their behavior for a *limited period of time*, and promise to review how it's going at the end.
+Ask your stakeholder to try out a change in their behavior for a *limited period of time*, and promise to review how it's going at the end.
 
-/"For our *next sprint*, could I ask you to, during planning, spend some time laying out the ‘Why’ behind the epics, before we get into the detailed tickets? After the planning session, we can check in, and if it turns out we ran out of time, I'll work with you to streamline grooming and pre-planning, before the next one."/
+/"For our *next sprint*, could I ask you to, during planning, spend some time laying out the ‘Why’ behind the epics, before we get into the detailed tickets? After the planning session, we can check in, and if it turns out we ran tight on time, I'll work with you to streamline grooming and pre-planning, before the next one."/
 
-The PM in question may still find this a bit nervous-making to contemplate, but it's being presented as an *experiment*, not a *commitment*, so your odds are much better of getting a "yes."
+The PM in question may still find this a bit nervous-making to contemplate, but it's being presented as an *experiment*, not a *commitment*, so your odds are much better of getting a "yes." Also, we're mixing in a bit of Address Fears Directly, by speaking to the time pressures.
 
 *** Offer A Future Decision
 
 *Problem*
 
-Your stakeholder is human, and thus, agreeing to change their behavior /because someone asked them to/ makes them feel like they're losing control.
+Your stakeholder is human, and thus, they resist changing their behavior /because someone asked them to/.
 
 *Example*
 
 When you say, /"I want the team go off and spend a month in heads-down exploration, without having to constantly report back on status to you and me as they go."/...
 
-...your stakeholder, who already feels like they're struggling to keep the work on track, hears you asking them give up even more control! How are they supposed to know what is going on?! Those status check-ins are critical! They push back.
+...your stakeholder, who already feels like they're struggling to keep the work on track, hears you asking them to give up even more control! How are they supposed to know what is going on?! Those status check-ins are critical! They push back.
 
-There are, subtly, two things going on here: first, the new pattern of interaction would genuinely remove some touchpoints that allowed them to exert control in the past; second, letting *you* dictate how the two of you work together places your stakeholder in a "lower status" role, which also feels like a loss of control. Their brain will immediately translate the second fear into the first, quickly coming up with lots of Perfectly Rational reasons why your idea Just Won't Work... which gives them the pleasant benefit of retaining the higher status role.
+There are, subtly, two things going on here:
+
+ - The new pattern of interaction would *genuinely* remove some touchpoints that allowed them to direct the work in the past.
+
+ - But also, letting *you* dictate how you will work together places your stakeholder in a "lower status" role.
+
+Humans have a powerful cluster of mental wiring around status -- many stakeholders will actively resist taking a "lower status" role, in which you "get to tell them what to do." But... humans *also* have a powerful cluster of mental wiring that works hard to preserve a belief in their own enlightened rationality, no matter how irrational they may actually be.[fn:: Evolution has carefully tuned us for certain kinds of self-deception. I believe it's quite useful to understand this in yourself, if you have a position of authority. Steven Pinker is quite strong on this.]
+
+Thus, your stakeholder's brain will immediately *translate* the second fear into the first, quickly coming up with lots of Perfectly Rational reasons why your idea Just Won't Work... which gives them the pleasant benefit of retaining the higher status role. Arguing *directly* against those ideas is a trap, because what your stakeholder is really doing, without realizing it, is trying to retain the higher status role.
 
 *Solution*
 
 Ensure that your initial, timeboxed increment of change ends with a *meaningful decision that your stakeholder gets to make.* This securely positions them in a high-status place of control.
 
-/"I'd like to ask for the team to do a month of heads-down exploration. At the end of the month, they'll sit down with you and do a thorough deep dive on everything they've learned, so *you* can decide if they’ve found something worth committing to. During the month, I'd like to let them go fast, without having to report back on status to you and me, so they can produce a really solid overview at the end of the month. Can we spend some time aligning on what key info you'll want to base a decision on?"/
+/"I'd like to ask for the team to do a month of heads-down exploration. At the end of the month, they'll sit down with you and share everything they've learned, so *you* can decide if they’ve found something worth committing to."/
 
-Your stakeholder can now express their control and status by first, setting the decision criteria to guide the month's work, and then, at the end of the month, actually Making The Big Decision. Your asked them to change their behavior (no more status check ins), but, by giving them a meaningful decision to make, helped them feel very much in control.
+/"During the month, I'd like to let them go fast, without having to report back on status to you and me, so they can produce a really thorough overview at the end of the month. Can we spend some time aligning on what key info you'll want to see at that point, in order to make your decision?"/
+
+Your stakeholder can now express their control and status by first, setting the decision criteria to guide the month's work, and then, at the end of the month, actually Making The Big Decision. Your asked them to change their behavior (no more status check ins), but, by giving them a meaningful decision to make, helped them feel very much in control. By setting the decision criteria, they are still clearly "in charge".
 
 *** Shrink Your Ask
 
@@ -178,11 +188,11 @@ You're worried that your team is toiling long hours in the feature factory, stay
 
  - The engineers could learn how to collaborate around outcomes instead of just chewing through tickets as fast as possible
 
-That's a genuinely great way to work! I highly recommend it! But good lord, there are so many moving pieces to get right. Trying to change too much at once is a pretty much guaranteed way to trigger organ rejection.
+That's a genuinely great way to work! I highly recommend it! But good lord, there are so many moving pieces to get right. Trying to change too much at once is a pretty much guaranteed way to fail (I say, from genuine, bitter experience!).
 
 *Solution*
 
-Shrink your ask to implementing just a *part* of that better way to work, even if that doesn't immediately improve things for you.
+Shrink your ask to implementing just a part of that better way to work, *even if that doesn't immediately improve things for you*.
 
 /"For the next few sprints, can we take the time to be sure the engineers understand a specific outcome each bundle of features is supposed to unlock? I want to challenge the engineers to come up with creative options for achieving outcomes, but I think we need to start by just being certain they even know what those outcomes are."/
 
@@ -200,15 +210,21 @@ Your stakeholder doesn't seem to hear your concerns as valid or important. They 
 
 When you say, /"We need to spend time reviewing our codebase for out of date libraries."/...
 
-...your stakeholder hears:
+... your VP of Product /hears/:
 
-/"Please allow us to miss our next several delivery deadlines so that we can do something that you'll never understand, to make things theoretically better in a way you'll never be able to see."/[fn:: Aka, for you old school Far Side fans, "Blah, blah, blah, Ginger, blah, blah, blah."]
+/"Please allow us to miss our next several delivery deadlines so the engineers can do something that you'll never understand, to make things theoretically better in a way you'll never be able to see."/[fn:: Aka, for you old school Far Side fans, "Blah, blah, blah, Ginger, blah, blah, blah."]
 
-Your stakeholder is working night and day to launch a new product, in order to hit their strategic outcome of "Grow top-line revenue by 50% in the next two years." Therefore, they say, /"We don't have time to focus on anything but business priorities right now."/
+That VP of Product is thinking night and day about an ambitious strategic outcome: /Grow top-line revenue by 50% in the next two years./
+
+It's all their CEO ever talks about! They don't have time for theoretical engineering concerns! Launching a new product asap is do or die!
+
+They tell you, brusquely, /"Unfortunately, we don't have time to focus on anything but business priorities right now."/
+
+You seethe. Isn't having a well-architected, reliable, safe system a frickin' business priority?!
 
 *Solution*
 
-With a friend, conduct a Five Whys to develop a chain of consequences that shows how your day-to-day frustrations, if left unchecked, will eventually impact a strategic outcome your stakeholder cares intensely about.
+With a friend, conduct a Five Whys to develop a *chain of consequences* that shows how your day-to-day frustrations, if left unchecked, will eventually impact a strategic outcome your stakeholder cares intensely about.
 
 Q: /"Why is it a problem for the business to not know if we have out of date libraries?"/
 
@@ -226,35 +242,43 @@ Q: /"Why is it a problem for the business if some enterprise customers churn?"/
 
 A: /"Because our strategic outcome is increasing top-line revenue by 50% in the next two years, and enterprise customers are a central part of the plan to get there."/
 
-Notice how you've *arrived at the strategic outcome*. You've connected your immediate concerns to the specific thing your stakeholder is working backwards from.
+You need to *connect to the strategic outcome*. That links your immediate concerns to the specific thing your stakeholder is most obsessively worrying about.
 
 *** Tell A Story Of Growing Danger
 
 *Problem*
 
-You've worked out a way to connect your current frustrations to longer-term strategic outcomes, but the connections feel dry and unconvincing.
+You've linked your current frustrations to longer-term strategic outcomes... but the connections feel abstract and theoretical to your stakeholder.
+
+# dry and unconvincing.
 
 *Example*
 
-You walk through the chain above, and say, /"... and that's why we believe we should do a library review, if we're serious about the enterprise segment."/
+You walk through the chain above, and wrap up with, /"... and that's why we believe we should conduct a thorough library review, if we're serious about the enterprise segment."/
 
-Your stakeholder understands and accepts the steps in your Five Whys chain. But... they've committed to the CEO to ship a version of the new product by the end of the quarter. And there are a dozen things that feel urgently on fire.
+The head of Product nods slowly. Each individual step in your Five Whys chain makes sense. But the whole thing feels a bit... tenuous. It's a bit of reach.
 
-They say, /"Maybe we can talk about this, what did you call it, library review after we launch the beta. But I think we need to stay heads down for now."/
+Also, they've *committed* to the CEO to ship a version of the new product by the end of the quarter. And there are a dozen other things that are urgently on fire.
 
-And then... they promptly /forget about this conversation/. It felt to them like "an engineering concern". It presented as kind of abstract. Unconsciously, they tagged it as "safe to ignore for now". It didn't lodge firmly into their mind.
+They say, bluffly, /"Maybe we can talk about this, what did you call it, library review after we launch the beta. But I think we need to stay heads down for this quarter."/
+
+And then the VP of Product promptly /forgets about this entire conversation/. It felt to them like "an engineering concern". It presented as kind of abstract. Without fully realizing they've done so, they've mentally tagged it as safe to ignore for now.
 
 *Solution*
 
 Use the structure of a *story of growing danger* to render your concerns vivid, immediate and memorable to your stakeholder.
 
-You say, /"Last week, I caught up with one of the senior sales reps. She told me that, a year ago, when she closed our first enterprise customer, they didn't ask much about security. But, since then, more and more deals in her pipeline are stalling out, because everyone's getting so worried about data breaches."/
+That particular story arc begins:
 
-/"She's tried buying time by promising that we'll have a SOC-2 by early next year. She's managed to close a few deals based on that promise. But now, because of the pressure to get the beta live, we're running a risk of missing our SOC-2 deadlines altogether. She's *really* worried about going back to those customers if we don't get an audit completed. She told me "there's no way on earth" the sales team will hit plan next year without a clean SOC-2."/
+The World Is At Peace -> A Danger Emerges -> A Hero Struggles To Face The Danger -> The Danger Intensifies
 
-That's a story that follows a specific structure that is wired into the human mind. Later, we'll break down the beats of that story, and show how to apply them.
+You say, /"Last week, I caught up with one of the senior sales reps. She told me that, a year ago, when she closed our first enterprise customer, they didn't ask much about security." (world at peace) "But, since then, more and more deals in her pipeline are stalling out, because everyone's getting so worried about data breaches." (danger emerges)/
+
+/"She's tried buying time by promising that we'll have a SOC-2 by early next year. She's managed to close a few deals based on that promise." (struggle to face danger) "But now, because of the pressure to get the beta live, we're running a risk of missing our SOC-2 deadlines altogether. She's *really* worried about going back to those customers if we don't get an audit completed. She told me "there's no way on earth" the sales team will hit plan next year without a clean SOC-2." (danger intensifies)/
 
 Even if your stakeholder doesn't commit to immediately taking action, they're going to *remember* that story in a totally different way than a dry, logical chain. It will feel vivid. It will feel "real".
+
+That structure of a Story of Growing Danger is wired into the human mind (which is why such stories can be found across all cultures). Later, we'll dig into the beats of that story arc, and show other examples of how to apply them.
 
 *** Create Urgency Through Visibility
 
@@ -264,32 +288,37 @@ Your stakeholder accepts that your frustrations matter, but they seem unwilling 
 
 *Example*
 
-After you tell the above story of growing danger, your stakeholder is clearly worried. But they're still fretting over all the other priorities, and you can't seem to get into a concrete conversation about the steps to take, right now.
+After you tell the above story of growing danger, your VP of Product is clearly *worried*. But they're still fretting over all the other priorities, and you can't seem to get into a concrete conversation about the steps to take, right now.
 
 *Solution*
 
 Create visibility into the early impact of the underlying problems, so that you can both motivate immediate action, *and* to make it possible to see incremental improvement.
 
-/"We've worked with the security team to create a series of overall milestones for getting to SOC-2. For the detailed work leading up to the first milestone, we've set up a burndown for you to review as we go. We want to devote a bit of time steadily each sprint, but you'll be able to see if we're on track, and how much work remains. If it looks like we're running a risk around our SOC-2 deadlines, you'll know early, and we can talk with the exec team about options."/
+/"We've worked with the security team to create a series of *overall milestones* for getting to SOC-2. For the detailed work leading up to the first milestone, we've set up a *burndown* for you to review as we go. We want to devote a bit of time steadily each sprint, but you'll be able to see if we're on track, and how much work remains. If it looks like we're running a risk around our SOC-2 deadlines, you'll know early, and can decide how to balance work between security and the new product."/
 
-/"Also, sales has agreed to start tagging opportunities in the Salesforce that name the lack of a SOC-2 as a blocker. They'll be able to run reports across the pipeline to see potential impact from about the middle of the funnel down."/
+/"Also, sales has agreed to start *tagging opportunities* in the Salesforce when security concerns are a potential blocker. They'll be able to run reports across the pipeline to see potential impact on the sales plan."/
 
-Not only does the visibility help with motivation (e.g. the cost of purely focusing on the new product can now be seen in the sales pipeline), but, as importantly, you're offering them a way to see incremental progress, week over week and month over month. That converts the security work from an abstract, "blank check" investment to a steady forward march.
+Not only does the visibility help with motivation (e.g. the cost of purely focusing on the new product can now be seen in the sales pipeline), but, as importantly, you're offering them a way to see *incremental progress*. Each week, they'll be able to see the burndowns burning down That converts the security work from an abstract, "blank check" investment to a steady forward march.
+
+This is also mixing in Offer a Future Decision, to ensure the VP of Product can stay in control over the amount of time spent on security work.
+
 ** How To Work With Another Human
 
 *** Invite Your Stakeholder To Solve Your Problems
 
 *Problem*
 
-Your stakeholder is human, and thus, your request to change their behavior makes them feel defensive and therefore, resistant. This is especially true if their behavior is frustrating the people around them. But, good lord, they're being so frustrating.
+Your stakeholder is human, and thus, your request to change their behavior makes them feel defensive and resistant. This is *especially* true if you feel like you have to tell them that their behavior is frustrating the people around them. But, good lord, they're being so frustrating.
 
 *Example*
 
-After your team shares updates and options with your CEO, they have this habit of holding forth for five minutes about all the other things the team *could* be doing. Then, once everyone is good and totally confused about priorities, the CEO briskly says "Thank you," stands up, and leaves the meeting.
+After your team shares updates and options with your CEO, they have this habit of holding forth about all the *other* things the team *could* be doing. Then, once everyone is good and totally confused about priorities, the CEO says, sagely, /"It's all execution now."/ Then they stand up and leave the meeting. Everyone stares at each other.
 
-If you say /"Could you please not talk about all the other things you're thinking about, after the team shares options with you?"/...
+If you say, /"You're confusing everyone by talking about all the other things you're thinking about. Could you maybe... not do that?"/...
 
-...your CEO hears it as a personal attack. If they ask /"Why?"/ you're going to be incredibly tempted to say, /"Because everyone is finding it frustrating."/ That would be totally accurate! But would also just about guarantee that your CEO will fight you tooth and nail!
+...your CEO is, sadly, likely to hear it as a personal attack. In which case their brain will instantly spring to their own defense, confidently telling them: /"You're just sharing context! What, are you supposed to *not* talk openly with your own teams?! Can't you expect engineers to understand a free-flowing discussion!?!?"/
+
+At which point, good luck in getting them to change their behavior.
 
 *Solution*
 
@@ -297,33 +326,35 @@ Find a non-judgmental way to describe the /results/ of their behavior as a probl
 
 /"At the end of our meetings, I'm worried the team is sometimes unclear about what is most valuable or important for the business. I hate to say it, but they sometimes end up spending time on things that don't really matter. They just don't have your depth of understanding about the business as a whole. How can we make sure the team doesn't end up wasting time on things that don't matter?"/
 
-You're asking your CEO to be an expert! But you're pointing their expertise at the very problem they're currently causing -- leaving the team totally confused after the meetings. If you keep on asking your open-ended question over and over, your CEO will gradually come up with the brilliant idea of making sure they end the meeting by clearly stating the top priorities for the team, and clearly stating the things the team *shouldn't* work on. You say "Wow, what a great idea." Your CEO looks forward to trying out "their idea" at the next review meeting.
+You're asking your CEO to be an expert! But you're pointing their expertise at the very problem they're currently causing -- leaving the team totally confused after the meetings.
 
-We'll share more details on how to apply this incredibly useful technique later! Humans are fun! This technique totally works when applied to me, even if I know you're trying to use it!
+If you keep on asking your open-ended question over and over, odds are extremely good that your CEO will come up with the brilliant idea of making sure they end the meeting by clearly stating the top priorities for the team, and clearly stating the things the team *shouldn't* work on. You say "Wow, what a great idea." Your CEO looks forward to trying out "their idea" at the next review meeting.
+
+We'll share more details on how to apply this incredibly useful technique later! Humans are fun! This technique totally works, even if the person kind of knows you're trying to use it![fn:: I say this having personally experienced this!]
 
 *** Find Wins For Your Stakeholder By Hook Or By Crook
 
 *Problem*
 
-You can't figure out a way for your adjustment to immediately improve things for your stakeholder. Try as you might, you don't see a way to address your frustrations that directly benefits them.
+You can't figure out a way for your adjustment to immediately improve things for your stakeholder. Try as you might, you don't see a way to address your frustrations that benefits them in the near term.
 
 *Example*
 
-The head of Customer Success constantly interrupts you to check in on the status of the various troubleshooting tickets their team has submitted. You want them to instead bring all ticket questions to a weekly status/triage meeting. The resulting increase in focus time would accelerate delivery of new features that Success has been begging for. But... that will take a while.
+The Head of Customer Success constantly interrupts you to check in on the status of the various troubleshooting tickets their team has submitted. You want them to instead bring all ticket questions to a weekly status/triage meeting. The resulting increase in focus time *will* accelerate delivery of new features that Success has been begging for. But... it will take a while for any one feature to go live.
 
-If you directly ask the head of Success to do this, they might agree... but they might also resist, since there's no immediate benefit for them (they find it genuinely useful to get those quick updates from you). Even if they do try it out, they may perceive it as something they're doing "for you". It may feel "only fair" to them, to still ping you, if a ticket is "important". And then, before you know it, you're back in the old pattern.
+If you directly ask the Head of Success to change their behavior this way, they might resist, since there's no immediate benefit for them, and they find it genuinely useful to get those quick updates from you. Even if they do try it out, they may perceive it as something they're doing "for you". Because they feel like they're doing you a favor, they continue to directly ping you about "important" tickets. And, it turns out that almost all the Success tickets are important. Who knew?
 
 *Solution*
 
 Find some wins for you stakeholder that you *can* offer... even if they're not strictly necessary for your adjustment.
 
-You've noticed that the head of Success /loves/ telling stories about customer problems. You think it *feels good* to them, to walk people through some specific challenge a customer is having with the product. Beyond a rational desire to get certain work prioritized, you suspect that makes them feel like they're doing "everything they can" to support "their" customers.
+You've noticed that the Head of Success /loves/ telling stories about customer problems. You think it *feels good* to them, to walk people through some specific challenge a customer is having with the product. Beyond a rational desire to get certain work prioritized, you suspect that makes them feel like they're doing "everything they can" to support their customers. Which you know is a profound motivation for them.
 
-You add to your proposed status/triage meeting a "Customer Story Of The Week", where the head of Success will take a few minutes to tell a full story behind one specific ticket that their team has submitted. You'll bring along one engineer to triage, and the two of you will listen carefully to that story and ask questions.
+Thus, yYou add to your proposed status/triage meeting a "Customer Story Of The Week". The Head of Success will take a few minutes to tell a full story behind one specific ticket that their team has submitted. You'll bring along one engineer to triage, and the two of you will listen carefully to that story and ask questions.
 
-Now the head of Success has something to look forward to, and the new meeting feels like it'e "for them", as much as for you.
+Now the Head of Success has something to look forward to, and the new meeting feels like it's "for them", as much as for you. They're giving something up, but they're getting something in return.
 
-Note that this addition *isn't* strictly necessary for your purposes -- you'd still get the key increase in focus time without it. But, by finding a win for them, you can get them to buy-in much more wholeheartedly.
+Note that this addition *isn't* strictly necessary for your purposes -- you'd still get the key increase in focus time without it. But, by finding a win for them, you can get them to buy in much more wholeheartedly.
 
 *** Keep 'Em Busy
 
@@ -335,7 +366,7 @@ You need to ask your stakeholder to stop doing something. You're worried that th
 
 When you say to your product peer, /"Could you please stop bringing detailed design mockups to the brainstorming sessions? It's shutting down any chance of generating new ideas."/...
 
-...your product peer immediately *feels* stuck. What are they supposed to do instead? They will be in a place of resistance.
+... your product peer immediately wonders: What am I supposed to do instead? They are going to feel some resistance.
 
 *Solution*
 
@@ -351,7 +382,7 @@ Other examples include:
 
  - "Stop attending meeting X altogether" -> "We'd like to ask you to attend meeting Y instead"
 
- - "Stop overruling all the team's decisions" -> "How about if you pick the one or two most important decisions, we can spend real time aligning on those"
+ - "Stop overruling all the team's decisions" -> "How about if you pick the one or two most important decisions, we can spend time aligning on those"
 
  - "Stop crapping all over the team during demos" -> "I'd like you to note down any and all concerns so you can discuss them with me, immediately after demo"
 
@@ -367,19 +398,19 @@ Your proposed adjustment might raise concerns or fears for your stakeholder, suc
 
 *Example*
 
-To ship a key new product this year, you want to deprioritize enterprise support, which currently consumes a lot of engineering time. But you know the VP of Sales will worry about retention rates, if you do so.
+To ship a key new product this year, you want to deprioritize Enterprise support, which currently consumes a lot of engineering time. But you know the VP of Sales will worry about retention, if you do so.
 
-You might be tempted to sweep this under the rug, by just focusing on the positive, and avoiding open conflict. But, if you only say, /"We're proposing to strongly focus engineering time on the new product, because that's the core of our company strategy"/...
+You might be tempted to sweep this under the rug, by just focusing on the positive, and avoiding open conflict. But, if you say, /"We're proposing to strongly focus engineering time on the new product, because that's the core of our company strategy"/...
 
-...your VP of Sales will hear an invitation to start /arguing/, since you don't seem to even understand the retention risk this will cause.
+... your VP of Sales will hear an invitation to start /arguing/, since you don't seem to even understand the retention risk this will cause.
 
 *Solution*
 
 In your request for change, first /validate/ their fears and then /address them directly/.
 
-/"We realize that pulling engineering focus away from enterprise accounts runs a risk of frustrating some important customers. We'd like to propose that the account managers identify a small handful of really key customers, and we'll commit to maintaining full engineering support for those. But we also realize this shift will make the AMs' jobs harder this year."/
+/"We realize that pulling engineering focus away from enterprise accounts runs a risk of frustrating some important customers. We'd like to propose that the account managers identify a small handful of really key customers, and we'll commit to maintaining full engineering support for those. But we also realize this shift will make the AM's jobs harder this year."/
 
-By speaking empathetically to their fears, you're inviting the VP of Sales to work with you to figure *how* to make this change work, instead of just fighting *against* it.
+By validating and addressing their fears, you're inviting the VP of Sales to work with you to figure *how* to make this change work, instead of just fighting *against* it.
 
 *** Put Yourself On the Line
 
@@ -391,20 +422,21 @@ You're worried that your stakeholder will be reluctant to commit to your propose
 
 You run an internal platform/ops team, and have just rolled out a self-service tool that allows developers to spin up pre-configured instances. You want to ask the VP of Engineering to use their authority to mandate that all the teams use that tool, instead of directly contacting ops engineers to build custom one-offs.
 
-But... the VPE knows that this will be frustrating to their teams. /All/ of the teams are used to getting custom builds, and some may genuinely *need* things that your pre-configured instances don't provide. If the VPE issue this mandate, they're going to get a flurry of upset Slack messages and emails over the next few weeks, as engineers are suddently stuck as they're trying to get something live.
+But... the VPE knows that this will be *frustrating* to their teams. /All/ of the teams are used to getting custom builds, and some may genuinely need things that your pre-configured instances don't provide. If the VPE issues this mandate, they're going to get a flurry of upset Slack messages and emails over the next few weeks, as engineers suddenly hit roadblocks just as they're trying to get something live.
 
-This feels to them like a lot to ask.
+# This feels to them like a lot to ask.
 
 *Solution*
 
 Make it easier for your stakeholder to say yes by making it clear that you will *personally* take on extra work, and/or personally face some hard thing.
 
-If humans see someone putting themselves on the line to face a difficult or risky challenge, they become much more willing to listen to requests from the person to help.[fn:: This is a big part of what we mean when we talk about someone having "moral authority".] Whereas, if a human is asked to do something that they perceive as risky or hard, but the person doing the asking doesn't seem to be taking any personal risks, or shouldering any of the new burdens created, that creates resentment and resistance.
+If humans see someone putting themselves on the line to face a difficult or risky challenge, they become much more willing to listen to requests from the person to help.[fn:: This is a big part of what we mean when we talk about someone having "moral authority".]
 
-In this case, you could say, /"I know this is going to have some shaky moments early on. My team will set up and monitor a dedicated slack channel for any problems. I'm going to personally clear my calendar for the next month, so I can be as responsive as possible during the initial rollout. Also, if it's okay with you, I want to give the team leads my cell number, and encourage them to call or text me if they hit something tricky or time-sensitive. Finally, if it's okay with you, I'd like to lead a Q&A immediately after you announce this change, so I can hear about any concerns or frustrations."/
+# Whereas, if a human is asked to do something that they perceive as risky or hard, but the person doing the asking doesn't seem to be taking any personal risks, or shouldering any of the new burdens created, that creates resentment and resistance.
+
+In this case, you could say, /"I know this is going to have some shaky moments early on. My team will set up and monitor a dedicated slack channel for any problems. I'm going to personally clear my calendar for the next three weeks, so I can be as responsive as possible during the initial rollout. Also, if it's okay with you, I want to give the team leads my cell number, and encourage them to call or text me if they hit something tricky or time-sensitive. Finally, if it's okay with you, I'd like to lead a Q&A immediately after you announce this change, so I can hear about any concerns or frustrations."/
 
 This makes clear that you are signing up for "unpleasant" parts of the work -- getting called at all hours, bearing the direct brunt of unhappiness from the team, etc.
-
 
 * Stashed Later Chapters
 ** Propose a Timebox
