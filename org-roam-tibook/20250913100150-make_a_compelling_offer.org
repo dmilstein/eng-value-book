@@ -100,50 +100,111 @@ Then, invite them to collaborate with you, around your proposed change:
 # An Overview Of Tactics
 # An Overview Of Tactics To Be Described Later
 
-This four step approach works in an incredible variety of situations. It speaks to a deep part of the experience of being human.
+This four step approach, although straightforward to describe, can be somewhat tricky to put into practice. I mean, if humans were easy, we'd all be rich.
 
-But it is /also/ one of those easy-to-describe but fascinatingly-hard-to-do-in-practice kinds of things.
+Therefore, to equip you to work with your very own Important Person, with their very own specific challenges, I'm going to share a sprawling smorgasbord of *tactics*. Which tactics I will organize by *frustrating stakeholder behaviors*.[fn:: Just about every one of which is a *human* behavior. Which is to say I, and you, will tend to demonstrate these exact same behaviors whenever someone asks *us* to change our behavior.]
 
-To equip you with options to work with your very own Important Person, below is a delicious smorgasbord of tactics for developing and then delivering a compelling offer.
+Stroll through the aisles! See if any particular stakeholder behavior sounds familiar! If so, pull a tactic off the shelf and try it out.
 
-In the next chapter we'll dig into each tactic in more detail.
+First, I'm going to list the full set in summary form. In later posts, I'll explore each in more detail.
+
+So if you see a specific frustrating behavior, and say, "OMG, *yes*, that's *exactly* my CEO!", but then, to your dismay, the solution seems super unclear, and you say "OMG, *no*, what are you even *saying*, Dan?!?!", then please stay tuned!
+
+Okay, let's go!
+
+-----
 
 # For each tactic, I'll first name a problem you might run into with stakeholders, and then sketch in the corresponding action you could take.
 
 # Below, I'm going to list all the tactics in summary form.
 
- - Propose a Timebox
+ - Problem: *Your stakeholder is human*, and is thus reluctant to commit to *"permanently"* changing their behavior.
 
-   Problem: Your stakeholder is human, and is thus reluctant to commit to "permanently" changing their behavior.
+   Solution: *Propose a Timebox*
 
-   Solution: Ask your stakeholder to try out a change in their behavior for a *limited period of time*, and promise to review how it's going at the end.
+   Ask your stakeholder to try out a change in their behavior for a *limited period of time*, with, at the end, a built-in review of how it worked *for them*.
 
+   -----
 
- - Offer A Future Decision
+   Problem: *Your stakeholder is human*, and thus, they will resist changing their behavior *because some other human* asked them to.
 
-   Problem: Your stakeholder is human, and thus, they resist changing their behavior /because someone asked them to/.
+   Solution: *Offer A Future Decision*
 
-   Solution: Ensure that your initial, timeboxed increment of change ends with a *meaningful decision that your stakeholder gets to make.* This securely positions them in a high-status place of control.
+   Ensure that your initial, timeboxed increment of change ends with a *meaningful decision* that your *stakeholder* gets to make. This securely positions them in a *high-status role* where they *retain control*.
 
+   -----
 
+ - Problem: *Truly* improving how you work with your stakeholder requires a *complex adjustment*, one you *can't* implement all at once.
 
- - Truly improving how you work with your stakeholder requires a complex adjustment, and you can't see a way to implement it all at once.
+   Solution: *Shrink Your Ask*
 
- - Your stakeholder doesn't seem to hear your concerns as valid or important. They don't understand why "your" problems matter for the business.
+   Propose implementing just *a part* of that better way to work, even if that *doesn't* immediately improve things for you. Build *momentum*, and then gradually layer in the other pieces of the solution.
 
- - You've linked your current frustrations to longer-term strategic outcomes... but the connections feel abstract and theoretical to your stakeholder.
+   -----
 
- - Your stakeholder accepts that your frustrations matter, but they seem unwilling to do anything *now*.
+ - Problem: Your stakeholder doesn't hear your concerns as *valid* or *important*.
 
- - Your stakeholder is human, and thus, your request to change their behavior makes them feel defensive and resistant. This is *especially* true if you feel like you have to tell them that their behavior is frustrating the people around them. But, good lord, they're being so frustrating.
+   Solution: *Link Frustrations To Outcomes*
 
- - You can't figure out a way for your adjustment to immediately improve things for your stakeholder. Try as you might, you don't see a way to address your frustrations that benefits them in the near term.
+   With a friend, conduct a Five Whys to develop a *chain of consequences* that shows how your day-to-day frustrations, if left unchecked, will eventually impact a *strategic outcome* your stakeholder *cares intensely about*.
 
- - You need to ask your stakeholder to stop doing something. You're worried that they will resist, because they are a human being, and thus like doing things.
+   -----
 
- - Your proposed adjustment might raise concerns or fears for your stakeholder, such that they resist making a change.
+ - Problem: The connections from your current frustrations to the strategic outcome feel *abstract and theoretical* to your stakeholder.
 
- - You're worried that your stakeholder will be reluctant to commit to your proposed adjustment, because, being human, they will feel like they'll have to do all the hard work.
+   Solution: *Tell A Story Of Growing Danger*
+
+   Use the structure of a specific kind of story to render your concerns *vivid*, *immediate* and *memorable* to your stakeholder.
+
+   -----
+
+ - Problem: Your stakeholder accepts that your frustrations *matter*, but they seem unwilling to do anything *now*.
+
+   Solution: *Create Urgency Through Visibility*
+
+   Make it possible to *see* the underlying problems, so that you can both motivate *immediate action*, and also make it possible to demonstrate *incremental improvements*.
+
+   -----
+
+ - Problem: *Your stakeholder is human*, and thus, a request to change their behavior makes them feel *defensive* and *resistant*.
+
+   # This is especially true if you feel like you have to tell them that their behavior is *frustrating the people around them*. But, good lord, they're being really frustrating.
+
+   Solution: *Invite Your Stakeholder To Solve Your Problems*
+
+   Find a non-judgmental way to describe the *results* of their behavior as a problem for the two of you to *solve together*. Ask them *open-ended questions* that offer them a chance to be *clever* by solving this problem. As part of that, *"play low status"*.
+
+   -----
+
+ - Problem: You can't figure out a way for your adjustment to *quickly* improve things *for your stakeholder*, while also addressing *your* key frustrations.
+
+   Solution: *Find Wins For Your Stakeholder By Hook Or By Crook*
+
+   Find *some wins* for you stakeholder that you *can* offer, even if they're not *actually necessary* for your adjustment.
+
+   -----
+
+ - Problem: You need to ask your stakeholder to *stop doing something*. You're worried that they will resist, because they are *a human being*, and thus *like doing things*.
+
+   Solution: *Keep 'Em Busy*
+
+   Ask your stakeholder to *start* doing something *new*, instead of their existing behavior. Allow them to *channel their energy* into that new thing.
+
+   -----
+
+ - Problem: Your proposed adjustment might raise *concerns* or *fears* for your stakeholder, in which case they will *resist* making a change.
+
+   Solution: *Address Fears Directly*
+
+   In your request for change, first *validate* their fears and then speak *directly* to how your proposed adjustment will address them.
+
+   -----
+
+ - Problem: Your stakeholder is *reluctant* to commit to your proposed adjustment, because, *being human*, they feel like they have to do *all the hard work*.
+
+   Solution: *Put Yourself On the Line*
+
+   Make it easier for your stakeholder to say *yes* by making it clear that you will *personally* take on *extra work*, and/or personally face *some hard thing*.
 
 ** The Catalog of Tactics
 *** Propose a Timebox
