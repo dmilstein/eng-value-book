@@ -94,30 +94,58 @@ Then, invite them to collaborate with you, around your proposed change:
 
 # Feel free to dip in an out of these, depending on what problems you run into with your very own stakeholder.
 
-** A Catalog Of Tactics
+** A Catalog Of Challenges And Tactics
 # Buffet of Tactics
 # A Catalog of Tactics
 # An Overview Of Tactics
 # An Overview Of Tactics To Be Described Later
 
-This four step approach works incredibly well, in an incredible variety of situations. It speaks to a deep part of the experience of being human.
+This four step approach works in an incredible variety of situations. It speaks to a deep part of the experience of being human.
 
 But it is /also/ one of those easy-to-describe but fascinatingly-hard-to-do-in-practice kinds of things.
 
-Thus, to equip you with a wide set of options to work with your very own Important Person, I'm going to share a broad set of tactics for first developing and then delivering this kind of offer.
+To equip you with options to work with your very own Important Person, below is a delicious smorgasbord of tactics for developing and then delivering a compelling offer.
 
-For each tactic, I'll first name a problem you might run into with stakeholders, and then sketch in the corresponding action you could take. I've grouped them into three thematic blocks, corresponding to challenges with:
+In the next chapter we'll dig into each tactic in more detail.
 
- - Coming up with a specific incremental adjustment
+# For each tactic, I'll first name a problem you might run into with stakeholders, and then sketch in the corresponding action you could take.
 
- - Getting your stakeholder to take your concerns seriously
+# Below, I'm going to list all the tactics in summary form.
 
- - Getting another human being to change their mind
+ - Propose a Timebox
 
-Below, I'm going to list all the tactics in summary form. In the next few chapters, I'll explore the tactics in more detail.
+   Problem: Your stakeholder is human, and is thus reluctant to commit to "permanently" changing their behavior.
 
-** How To Design An Incremental Change
+   Solution: Ask your stakeholder to try out a change in their behavior for a *limited period of time*, and promise to review how it's going at the end.
 
+
+ - Offer A Future Decision
+
+   Problem: Your stakeholder is human, and thus, they resist changing their behavior /because someone asked them to/.
+
+   Solution: Ensure that your initial, timeboxed increment of change ends with a *meaningful decision that your stakeholder gets to make.* This securely positions them in a high-status place of control.
+
+
+
+ - Truly improving how you work with your stakeholder requires a complex adjustment, and you can't see a way to implement it all at once.
+
+ - Your stakeholder doesn't seem to hear your concerns as valid or important. They don't understand why "your" problems matter for the business.
+
+ - You've linked your current frustrations to longer-term strategic outcomes... but the connections feel abstract and theoretical to your stakeholder.
+
+ - Your stakeholder accepts that your frustrations matter, but they seem unwilling to do anything *now*.
+
+ - Your stakeholder is human, and thus, your request to change their behavior makes them feel defensive and resistant. This is *especially* true if you feel like you have to tell them that their behavior is frustrating the people around them. But, good lord, they're being so frustrating.
+
+ - You can't figure out a way for your adjustment to immediately improve things for your stakeholder. Try as you might, you don't see a way to address your frustrations that benefits them in the near term.
+
+ - You need to ask your stakeholder to stop doing something. You're worried that they will resist, because they are a human being, and thus like doing things.
+
+ - Your proposed adjustment might raise concerns or fears for your stakeholder, such that they resist making a change.
+
+ - You're worried that your stakeholder will be reluctant to commit to your proposed adjustment, because, being human, they will feel like they'll have to do all the hard work.
+
+** The Catalog of Tactics
 *** Propose a Timebox
 
 *Problem*
@@ -197,8 +225,6 @@ Shrink your ask to implementing just a part of that better way to work, *even if
 /"For the next few sprints, can we take the time to be sure the engineers understand a specific outcome each bundle of features is supposed to unlock? I want to challenge the engineers to come up with creative options for achieving outcomes, but I think we need to start by just being certain they even know what those outcomes are."/
 
 If the PM agrees to this, you won't necessarily see much immediate improvement in value creation (the engineers may genuinely have no experience turning outcomes into options, yet). But you'll start to build momentum, and can gradually layer in other pieces of the solution.
-
-** How To Motivate Action
 
 *** Link Frustrations To Outcomes
 
@@ -301,8 +327,6 @@ Create visibility into the early impact of the underlying problems, so that you 
 Not only does the visibility help with motivation (e.g. the cost of purely focusing on the new product can now be seen in the sales pipeline), but, as importantly, you're offering them a way to see *incremental progress*. Each week, they'll be able to see the burndowns burning down That converts the security work from an abstract, "blank check" investment to a steady forward march.
 
 This is also mixing in Offer a Future Decision, to ensure the VP of Product can stay in control over the amount of time spent on security work.
-
-** How To Work With Another Human
 
 *** Invite Your Stakeholder To Solve Your Problems
 
