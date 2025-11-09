@@ -26,8 +26,19 @@ If she *doesn't* understand the strategic outcome that Geoff cares most intensel
 
 /"We're never going to be able to deliver on our product strategy if we can't focus more."/
 
-Geoff will hear this as something *for the product team*, and will continue on his merry, relentlessly distracting way. He's got plan and quota to hit right now! The product team doesn't understand how hard it is to keep customers happy! He's not asking for much, just attention for a few key problems here and there!
+Geoff will hear this as something *for the product team*, and will continue on his merry, relentlessly distracting way. He's got plan and quota to hit right now! The product team doesn't understand how hard it is to keep customers happy! He's not asking for much, just attention for a few key problems here and there! Are they supposed to just let those customers churn?
 
+Yeah, humans are super good at rationalizing their own non-awesome behavior.
+
+But what if Maria knows his beloved strategic outcome? Maria's company is facing a critical challenge: for years, they've been stuck in a Small Medium-Sized Business (SMB) niche, and will only be able to significantly grow revenue if they can somehow break into the Enterprise segment. The CEO recently promised the board that, within eighteen months, enterprise customers will be 20% of Annual Recurring Revenue. This is a, let us call it, happy dream to imagine, but is not something they're anywhere close to achieving at the moment. Geoff, being *the VP of Sales*, feels hugely under the gun for this outcome. He's been building up an enterprise sales team, he's endlessly reviewing recordings of sales demos with any opportunities even vageuly resembling enterprise.
+
+Imagine instead if Maria says:
+
+/"I know how important it is for us to break into the Enterprise. And I know hard the sales team has been working on that. But I'm worried that the product team hasn't been supplying you with enough compelling features, to make those deals even possible. And since those deals take so long to close, I'm really worried that, every month we don't have something new, your team is in a worse and worse position. I want to propose we find a way to commit more time to focusing on developing our key enterprise features, even if that means allowing some current customers to grow somewhat frustrated. Unless of course, those current customer fall into the Enterprise segment, in which case we want to learn as much as possible by giving them excellent support."/
+
+# current customers who have needs that overlap with what we're building for the enterpris.
+
+Geoff will hear that as *understanding his pain*. He'll be enormously more ready to listen. She's also been able to use her flexibility to come up with a creative option --
 
 
 Of course, as we said earlier, stakeholders have a weirdly common habit of simply not telling you what their strategic goals are. We'll dig into why that's often true, below.
@@ -43,24 +54,6 @@ But, first, let's dig into what an effective statement of strategy even *is*.
 # This will most often be something the business needs to achieve in the next 18-24 months, stated in business terms, along with some specifics of what your teams needs to do, as part of that.
 
 # It could be a shorter time frame, but I'll gently nudge you to look at least a year and a half out. Maybe ask: if you totally crush it the short-term, what's the awesome thing that might happen in 18 months? Consider speaking to that slightly longer-term thing as your Intent.
-
-A few examples:
-
- - Business: Break into the enterprise segment to unlock more growth
-
-   Team: Address key functionality limitations that are blocking enterprise sales
-
- - Business: Show sufficient customer growth to enable an acquisition
-
-   Team: develop new product that helps acquire new customers
-
- - Business: Integrate AI into company practices, to ensure we remain attractive to investors
-
-   Team: Develop AI support for our data ingestion operations
-
-We'll name that combo of a key strategic goal plus your team's part in that goal a "Strategic Intent" (this framing is adapted from the marvelous The Art of Action, by Stephen Bungay, which Melissa Perri also references in Escaping the Build Trap)
-
-In particular, why take the time to do so if you already have a *goal*?
 
 ** [snippet] Why Do Stakeholders Hide Their Dreams?
 
@@ -92,6 +85,25 @@ To be fair, this may be a perfectly reasonable way to run business efforts *outs
 Often, a stakeholder's frustrating behavior is, in their mind, the only way to get that task done, and therefore the only way to accomplish the long-term outcome. To find a new way to work together, you have to get beneath what they're asking for, and understand what they're ultimately trying to achieve. Once you do so, you can propose a different, less frustrating way of working together, that will move you *both* towards the long-term outcome.
 
 ** What Makes a Good Intent?
+
+
+A few examples:
+
+ - Business: Break into the enterprise segment to unlock more growth
+
+   Team: Address key functionality limitations that are blocking enterprise sales
+
+ - Business: Show sufficient customer growth to enable an acquisition
+
+   Team: develop new product that helps acquire new customers
+
+ - Business: Integrate AI into company practices, to ensure we remain attractive to investors
+
+   Team: Develop AI support for our data ingestion operations
+
+We'll name that combo of a key strategic goal plus your team's part in that goal a "Strategic Intent" (this framing is adapted from the marvelous The Art of Action, by Stephen Bungay, which Melissa Perri also references in Escaping the Build Trap)
+
+In particular, why take the time to do so if you already have a *goal*?
 
 You're going to work on coming up with a clear articulation of that combination of a strategic outcome and your team's role in achieving that outcome.
 
@@ -130,6 +142,7 @@ If you'd like to learn more about developing strategy, I recommend:
  - Good Strategy/Bad Strategy, by Richard Rumelt
 
 For ideas on how to work with strategic intents, Escaping the Build Trap does an excellent job of describing how to use strategic intents to *lead* an organization.
+
 
 ** How To Determine A Strategic Intent
 
