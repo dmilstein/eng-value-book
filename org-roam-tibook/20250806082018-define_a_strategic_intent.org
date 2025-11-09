@@ -4,6 +4,64 @@
 #+title: Identify a Strategic Intent
 #+filetags: :Chapter:
 * Identify A Strategic Outcome
+** The Power of Speaking to Strategic Outcomes
+
+As we said earlier, being able to speak to a strategic outcome that your stakeholder cares intensely about is *insanely valuable*, for (at least!) three reasons:
+
+ - *It creates the /flexibility/ to identify a new way to work together*
+
+   The [inherent, unavoidable, profound] complexity of developing software means you need *room to maneuver*. You *can't* simply "do what your told". Understanding what your stakeholder is working backwards from lets you come up with new ideas which will genuinely help them get there... while also addressing your own deepest concerns.
+
+ - *It enables you to position your proposed change as a /necessary step/ to achieve the outcome*
+
+   This helps enormously with motivation, since that outcome is how your stakeholder understands success in their own job.
+
+ - *It enables you to demonstrate a /personal commitment/ to achieving the outcome*
+
+   Because your stakeholder is a human being, and not a robot, it will mean a lot to them to see that you understand, care about, and are deeply committted to achieving that outcome yourself. It will enable them to see you as a potential *partner*.
+
+Remember Maria, the PM from our opening chapter, who was struggling with her VP of Sales, Geoff? Because the Geoffster kept on undercutting her prioritization to try to force work for his pet customers? And thus her product strategy was dying the slow death of a thousand cuts?
+
+If she *doesn't* understand the strategic outcome that Geoff cares most intensely about, all she can say is something like:
+
+/"We're never going to be able to deliver on our product strategy if we can't focus more."/
+
+Geoff will hear this as something *for the product team*, and will continue on his merry, relentlessly distracting way. He's got plan and quota to hit right now! The product team doesn't understand how hard it is to keep customers happy! He's not asking for much, just attention for a few key problems here and there!
+
+
+
+Of course, as we said earlier, stakeholders have a weirdly common habit of simply not telling you what their strategic goals are. We'll dig into why that's often true, below.
+
+But, first, let's dig into what an effective statement of strategy even *is*.
+
+# You're going to start by developing a clear articulation of a single key strategic outcome for the business---an outcome that your team can play a role in achieving, *if* you can solve some set of business problems.
+
+# Maybe say 12-18 months out, maybe that's what your part is
+
+# XXX Drill in on "Your area of the business"?
+
+# This will most often be something the business needs to achieve in the next 18-24 months, stated in business terms, along with some specifics of what your teams needs to do, as part of that.
+
+# It could be a shorter time frame, but I'll gently nudge you to look at least a year and a half out. Maybe ask: if you totally crush it the short-term, what's the awesome thing that might happen in 18 months? Consider speaking to that slightly longer-term thing as your Intent.
+
+A few examples:
+
+ - Business: Break into the enterprise segment to unlock more growth
+
+   Team: Address key functionality limitations that are blocking enterprise sales
+
+ - Business: Show sufficient customer growth to enable an acquisition
+
+   Team: develop new product that helps acquire new customers
+
+ - Business: Integrate AI into company practices, to ensure we remain attractive to investors
+
+   Team: Develop AI support for our data ingestion operations
+
+We'll name that combo of a key strategic goal plus your team's part in that goal a "Strategic Intent" (this framing is adapted from the marvelous The Art of Action, by Stephen Bungay, which Melissa Perri also references in Escaping the Build Trap)
+
+In particular, why take the time to do so if you already have a *goal*?
+
 ** [snippet] Why Do Stakeholders Hide Their Dreams?
 
 # Add back in/reference bits from intro chapter
@@ -32,53 +90,6 @@ To be fair, this may be a perfectly reasonable way to run business efforts *outs
 , and then only ever talk to a team about one particular task or project.
 
 Often, a stakeholder's frustrating behavior is, in their mind, the only way to get that task done, and therefore the only way to accomplish the long-term outcome. To find a new way to work together, you have to get beneath what they're asking for, and understand what they're ultimately trying to achieve. Once you do so, you can propose a different, less frustrating way of working together, that will move you *both* towards the long-term outcome.
-
-
-** The Power of Speaking to Strategic Outcomes
-
-You're going to start by developing a clear articulation of a single key strategic outcome for the business---an outcome that your team can play a role in achieving, *if* you can solve some set of business problems.
-
-# Maybe say 12-18 months out, maybe that's what your part is
-
-# XXX Drill in on "Your area of the business"?
-
-# This will most often be something the business needs to achieve in the next 18-24 months, stated in business terms, along with some specifics of what your teams needs to do, as part of that.
-
-# It could be a shorter time frame, but I'll gently nudge you to look at least a year and a half out. Maybe ask: if you totally crush it the short-term, what's the awesome thing that might happen in 18 months? Consider speaking to that slightly longer-term thing as your Intent.
-
-A few examples:
-
- - Business: Break into the enterprise segment to unlock more growth
-
-   Team: Address key functionality limitations that are blocking enterprise sales
-
- - Business: Show sufficient customer growth to enable an acquisition
-
-   Team: develop new product that helps acquire new customers
-
- - Business: Integrate AI into company practices, to ensure we remain attractive to investors
-
-   Team: Develop AI support for our data ingestion operations
-
-We'll name that combo of a key strategic goal plus your team's part in that goal a "Strategic Intent" (this framing is adapted from the marvelous The Art of Action, by Stephen Bungay, which Melissa Perri also references in Escaping the Build Trap)
-
-Why is starting with a Strategic Intent important?
-
-In particular, why take the time to do so if you already have a *goal*?
-
-There are (at least!) three reasons why moving from a near-term goal to a longer-term strategic intent is valuable.
-
- 1. Creating Flexibility
-
-    Being able to speak to a longer-term strategic outcome creates *flexibility* to offer a new way to work -- because you can situate that new way as a necessary step in helping achieve that outcome, even if it means *changing* the near-term goals (as it often will).
-
- 2. Demonstrating Alignment
-
-    That strategic outcome is what your stakeholder feels ultimately accountable for. By being able to speak clearly to it, you can demonstrate that you're *aligned* with them, i.e. that you are on their side. This can convert your conversations from tense negotiations to productive collaborations.
-
- 3. Generating Motivation
-
-    By being able to cite something your stakeholder *wants*, you'll be able to anchor your pitch in a positive vision of the future. That is a very powerful way to *motivate* humans to take the risk of making a change.
 
 ** What Makes a Good Intent?
 
@@ -512,4 +523,3 @@ Maybe return to my intro chapter friends.
 ** Handling Leaders Who Fear Decisions
 ** Story: Mining For Priorities
 ** Exercises
-
