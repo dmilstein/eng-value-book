@@ -2,6 +2,10 @@ Project/todo list for the Book In Question
 
 * Book Inbox                                      :inbox:
 * [[id:454225CA-DD66-4ACA-B8B3-429F6551DBDC][New Intro]]                                       :gtasks:
+** TODO Make Maria/Geoff an actual company
+To make it more vivid
+** TODO Name all companies in opening
+So I can call back to that
 ** TODO Splice in [[file:~/Dropbox/Projects/TechInvestBook/org-roam-tibook/20250812093351-intro_work_with_humans.org::*I've Looked At +Love+ Engineering From Both Sides Now][engineer/stakeholder pov]] bit
 Maybe as part of empathy as the core of all of this. Face that head on.
 ** TODO Apply tweaks to Intro from Substack (claude?)
@@ -106,21 +110,21 @@ CLOSED: [2025-11-02 Sun 10:59]
 CLOCK: [2025-11-02 Sun 10:21]--[2025-11-02 Sun 10:59] =>  0:38
 CLOCK: [2025-11-01 Sat 09:17]--[2025-11-01 Sat 09:43] =>  0:26
 :END:
-** DONE Get it Just Good Enough                   :curweek:
+** DONE Get it Just Good Enough
 CLOSED: [2025-11-04 Tue 10:12]
 :LOGBOOK:
 CLOCK: [2025-11-04 Tue 07:35]--[2025-11-04 Tue 10:12] =>  2:37
 CLOCK: [2025-11-03 Mon 14:56]--[2025-11-03 Mon 15:55] =>  0:59
 :END:
-** DONE Review: any reason for this chapter now?  :curweek:
+** DONE Review: any reason for this chapter now?
 CLOSED: [2025-11-04 Tue 10:12]
 Specifically, if I move the overview of the game plan into the Intro?
 
 What is left? Taking time to talk about Tactical Empathy? Starting my story telling?
-** DONE Step-by-step grafs in intro ala [[file:org-roam-tibook/20250813081516-the_fundamental_game_plan.org::*1. Identify a long-term, strategic outcome that your stakeholder cares intensely about][this]] :curweek:
+** DONE Step-by-step grafs in intro ala [[file:org-roam-tibook/20250813081516-the_fundamental_game_plan.org::*1. Identify a long-term, strategic outcome that your stakeholder cares intensely about][this]]
 CLOSED: [2025-11-03 Mon 15:53]
 As in, sketch in *more* about the game plan in the intro, but shove the fuller details into the subsequent chapters. It may be that fundamental game plan goes away as a chapter, that's not bad.
-** DONE Spike on small stories                    :curweek:
+** DONE Spike on small stories
 CLOSED: [2025-11-04 Tue 10:12]
 ** TODO mention the story will happen in just a few days
 
@@ -132,20 +136,20 @@ Immediately, she needs him to stop randomizing sprints, more long term, she need
 ** TODO More dramatic priority changes in story setup
 
 * [[id:4FEA3BD5-8E85-4BB6-8F59-15FDE4F38572][Tactical Empathy]]                                :gtasks:
-** DONE Write story for Echoing Back              :curweek:
+** DONE Write story for Echoing Back
 CLOSED: [2025-11-04 Tue 17:18]
 :LOGBOOK:
 CLOCK: [2025-11-04 Tue 16:32]--[2025-11-04 Tue 17:18] =>  0:46
 CLOCK: [2025-11-04 Tue 11:38]--[2025-11-04 Tue 12:29] =>  0:51
 :END:
-** DONE Review the story, improve                 :curweek:
+** DONE Review the story, improve
 CLOSED: [2025-11-05 Wed 10:18]
 :LOGBOOK:
 CLOCK: [2025-11-05 Wed 07:52]--[2025-11-05 Wed 10:18] =>  2:26
 :END:
-** DONE Dig up old Mastering Empathy              :curweek:
+** DONE Dig up old Mastering Empathy
 CLOSED: [2025-11-04 Tue 11:42]
-** DONE Review No Deadlines For You               :curweek:
+** DONE Review No Deadlines For You
 CLOSED: [2025-11-04 Tue 17:17]
 I have some good bits in there, can steal
 ** TODO Consider Smorgasbord, later
@@ -155,89 +159,16 @@ E.g. what happens if the stores have sluggish perf?
 ** TODO Add testing w/ Map Fears / Aspirations
 
 * [[id:E0ADBF07-90B8-4C37-81C0-96A428020F5E][Substack]]                                        :gtasks:
-** TODO Add playful illustrations of mindsets     :curweek:
-E.g. like I did in Invite to Solve Problems
-** TODO Experiment w/ listing *just the problems* :curweek:pom:
-:LOGBOOK:
-CLOCK: [2025-11-08 Sat 10:49]
-:END:
 ** TODO Submit to publication on Medium           :curweek:
+** TODO Prep/submit "Let Me Count Ways" to Medium :curweek:
+** TODO Add playful illustrations of mindsets
+E.g. like I did in Invite to Solve Problems
 ** TODO Decide: illustrate *all* tactics w/ deep dives, or just some?
-** DONE Prep post for Medium                      :curweek:
-CLOSED: [2025-11-07 Fri 17:12]
-** DONE Review Smorgasbord of Tactics             :curweek:
-CLOSED: [2025-11-08 Sat 10:49]
-:LOGBOOK:
-CLOCK: [2025-11-08 Sat 09:39]--[2025-11-08 Sat 10:49] =>  1:10
-:END:
-** DONE Fill in Smorgasbord of Tactics            :curweek:
-CLOSED: [2025-11-08 Sat 09:38]
-:LOGBOOK:
-CLOCK: [2025-11-07 Fri 11:43]--[2025-11-07 Fri 12:13] =>  0:30
-CLOCK: [2025-11-07 Fri 08:47]--[2025-11-07 Fri 11:07] =>  2:20
-CLOCK: [2025-11-06 Thu 10:00]--[2025-11-06 Thu 11:41] =>  1:41
-:END:
-** TODO Prep next post for Substack               :curweek:
 ** TODO Introduce/illustrate emotions a bit differently
 Like, specifically say:
 
 Understand their frustrations, so you can offer a change that smoothes those away. Understand their fears, because often, their day-to-day difficult behavior is driven by some fear of something bad happening in the future. Once you understand their fear, you can offer a new way to work together, a new way to behave, that will still ensure that bad thing doesn't happen, without their making you lose your mind. Understand what it is that makes them feel good, so you can offer them more of those experiences then they're getting right now (or ensure they don't lose the ones they have).
 ** TODO Review/Revise 4 Emotions
-** DONE Finish working in mini-examples
-CLOSED: [2025-10-31 Fri 15:49]
-** DONE Work in opening of other famous novels
-CLOSED: [2025-10-30 Thu 12:08]
-*** A River Runs Through it
-In my family, there was never much distinction made between religion and fly fishing.
-*** The Crying of Lot 49
-One summer afternoon Mrs. Oedipa Maas came home from a Tupperware party whose hostess had put perhaps too much kirsch in the fondue to find that she, Oedipa, had been named executor, or she supposed executrix, of the estate of one Pierce Inverarity, a California real estate mogul who had once lost two million dollars in his spare time but still had assets numerous and tangled enough to make the job of sorting it all out more than honorary.
-*** I Capture the Castle
-I write this sitting in the kitchen sink.
-*** Metamorphosis
-Gregor Samsa awoke one morning from uneasy dreams to find himself transformed in his bed into a gigantic insect.
-*** Gravity's Rainbow
-“A screaming comes across the sky. It has happened before, but there is nothing to compare it to now.
-*** The Hobbit
-In a hole in the ground there lived a hobbit. Not a nasty, dirty, wet hole, filled with the ends of worms and an oozy smell, nor yet a dry, bare, sandy hole with nothing in it to sit down on or to eat: it was a hobbit-hole, and that means comfort.
-*** Fear & Loathing In Las Vegas
-We were somewhere around Barstow on the edge of the desert when the drugs began to take hold.
-** DONE Decide: feedback or just ship?
-CLOSED: [2025-10-30 Thu 12:10]
-** DONE Format for Substack
-CLOSED: [2025-10-31 Fri 13:48]
-:LOGBOOK:
-CLOCK: [2025-10-31 Fri 12:11]--[2025-10-31 Fri 13:48] =>  1:37
-:END:
-** DONE Wrap post w/ just the catalog?
-CLOSED: [2025-10-30 Thu 11:09]
-:LOGBOOK:
-CLOCK: [2025-10-30 Thu 09:13]--[2025-10-30 Thu 11:09] =>  1:56
-CLOCK: [2025-10-29 Wed 09:40]--[2025-10-29 Wed 11:48] =>  2:08
-CLOCK: [2025-10-28 Tue 13:52]--[2025-10-28 Tue 15:05] =>  1:13
-CLOCK: [2025-10-28 Tue 10:16]--[2025-10-28 Tue 11:15] =>  0:59
-CLOCK: [2025-10-28 Tue 08:28]--[2025-10-28 Tue 09:00] =>  0:32
-CLOCK: [2025-10-25 Sat 08:59]--[2025-10-25 Sat 08:59] =>  0:00
-CLOCK: [2025-10-24 Fri 15:56]--[2025-10-24 Fri 16:21] =>  0:25
-:END:
-** DONE Bring to life challenge of making request
-CLOSED: [2025-10-28 Tue 11:15]
-:LOGBOOK:
-CLOCK: [2025-10-26 Sun 16:57]--[2025-10-26 Sun 17:20] =>  0:23
-CLOCK: [2025-10-26 Sun 09:02]--[2025-10-26 Sun 10:30] =>  1:28
-:END:
-
-
-Really, it's not specifically the story, it's making the idea feel like a full idea, instead of just dropping the reader into the tactics so abruptly.
-
-Maybe explain *why* to go through that three part arc. Stakeholders are going to hear anything as a threat. They generally feel alone in pursuing their major goal, and alone in facing their own biggest fears.
-
-Therefore, if you can calmly and authentically demonstrate that you understand and care about their goals and their problems, they will exhale, and be much more ready to listen to you.
-
-Then, you can lay out your concerns, carefully doing so in a non-judgmental fashion.
-
-At that point, you can draw your stakeholder into a collaborative problem solving session by offering a possible solution.
-
-It's much easier to do this in small increments than as one big step -- that allows you to build trust as you to.
 ** TODO Agile Manifesto / working software
 ** TODO For Agile cartoon rewrite, consider pachinko metaphor
 Where, no matter what you do, your ball seems to bounce down to the middle, which is "late and not quite whate everyone wanted".
@@ -247,29 +178,65 @@ Could put it in late, after explaining the fanning out tree view, and picking yo
 ** TODO Read up on Google/Substack/SEO
 ** TODO Think about a call to action for book announcements
 * [[id:A1EF14A2-5F19-488D-926C-A8208142E794][Strat Intent]]                                    :gtasks:
-** DONE Review what I've got                      :curweek:
-CLOSED: [2025-11-05 Wed 11:37]
+** TODO Work through more learning outcomes       :curweek:pom:
 :LOGBOOK:
-CLOCK: [2025-11-05 Wed 11:18]--[2025-11-05 Wed 11:37] =>  0:19
+CLOCK: [2025-11-10 Mon 09:08]
+CLOCK: [2025-11-10 Mon 08:20]--[2025-11-10 Mon 08:26] =>  0:06
 :END:
-** TODO Start to work through chapter/[[file:org-roam-tibook/20250806082018-define_a_strategic_intent.org::*Todos][todos]]       :curweek:pom:
-** DONE Review Tech Invest chapters
-CLOSED: [2025-09-14 Sun 14:25]
-** DONE Draft learning outcomes/structure
-CLOSED: [2025-09-14 Sun 14:57]
+
+* [[id:5903AFE7-4B1E-422C-8537-2C56BBFBA643][Mine For Feelings]]                               :gtasks:
+** TODO Review/make todos                         :curweek:
+** TODO Rename to Repeat Trailing Words? (cut Three)
+** TODO Show example of labeling for fear of making prioritization calls
+** DONE Write bad version: Offer Labeled Feelings
+CLOSED: [2025-09-22 Mon 10:38]
 :LOGBOOK:
-CLOCK: [2025-09-14 Sun 14:15]--[2025-09-14 Sun 14:57] =>  0:42
+CLOCK: [2025-09-22 Mon 10:02]--[2025-09-22 Mon 10:38] =>  0:36
 :END:
-** DONE Bad first draft Strategic Intent
-CLOSED: [2025-09-19 Fri 10:29]
+** DONE Write crappy "Putting it all together"    :pom:
+CLOSED: [2025-09-24 Wed 10:20]
 :LOGBOOK:
-CLOCK: [2025-09-19 Fri 10:01]--[2025-09-19 Fri 10:29] =>  0:28
-CLOCK: [2025-09-19 Fri 07:08]--[2025-09-19 Fri 08:55] =>  1:47
-CLOCK: [2025-09-18 Thu 16:42]--[2025-09-18 Thu 17:04] =>  0:22
-CLOCK: [2025-09-17 Wed 11:39]--[2025-09-17 Wed 11:40] =>  0:01
-CLOCK: [2025-09-17 Wed 09:23]--[2025-09-17 Wed 10:53] =>  1:30
-CLOCK: [2025-09-16 Tue 08:31]--[2025-09-16 Tue 11:07] =>  2:36
+CLOCK: [2025-09-24 Wed 08:27]--[2025-09-24 Wed 10:19] =>  1:52
+CLOCK: [2025-09-23 Tue 10:23]--[2025-09-23 Tue 10:45] =>  0:22
+CLOCK: [2025-09-23 Tue 08:30]--[2025-09-23 Tue 09:51] =>  1:21
 :END:
+** DONE Finish exercises
+CLOSED: [2025-09-25 Thu 11:44]
+:LOGBOOK:
+CLOCK: [2025-09-25 Thu 09:17]--[2025-09-25 Thu 11:44] =>  2:27
+CLOCK: [2025-09-24 Wed 11:51]--[2025-09-24 Wed 12:01] =>  0:10
+:END:
+** TODO Use "I'm worried", "I'm afraid"
+** TODO Have Quin discover Marco's past w/ failed project?
+** TODO Have Quin know one feeling by guessing
+Maybe it's the frustration of things going slow? Or save that, because labeled feeling are so important for negative things, and have her guess the positive feelings, around telling stories.
+** TODO Add "Plug the fear hole"
+** DONE Add explicit "Be in detective mode"
+CLOSED: [2025-09-21 Sun 09:22]
+** DONE Work on more of fears & dreams
+CLOSED: [2025-09-21 Sun 09:22]
+:LOGBOOK:
+CLOCK: [2025-09-21 Sun 08:15]--[2025-09-21 Sun 09:22] =>  1:07
+:END:
+** DONE Bad first draft Mine for Context
+CLOSED: [2025-09-20 Sat 11:41]
+:LOGBOOK:
+CLOCK: [2025-09-20 Sat 09:13]--[2025-09-20 Sat 11:41] =>  2:28
+:END:
+** DONE Write bad subheads for Mine for Context
+CLOSED: [2025-09-13 Sat 10:22]
+** DONE Keep pawing away, maybe start writing
+CLOSED: [2025-09-15 Mon 09:35]
+:LOGBOOK:
+CLOCK: [2025-09-14 Sun 09:08]--[2025-09-14 Sun 09:16] =>  0:08
+:END:
+** DONE Insert "echoing back" from Tac Empathy
+CLOSED: [2025-09-20 Sat 11:41]
+** DONE Mention: can just guess
+CLOSED: [2025-09-21 Sun 09:21]
+** DONE Spike: show failed convos before good ones?
+CLOSED: [2025-09-15 Mon 09:34]
+Ala Mom Test?
 * [[id:9410A7DC-111C-4791-B8A1-C20867904251][Unstuck Beta]]                                    :gtasks:
 ** TODO Add Keisha Johnson to beta 2 reading list
 ** TODO Look at book blockers thing from Help This Book
@@ -362,58 +329,6 @@ But harrangue people to *actually do them*.
 ** TODO Aim for: each section (chapter?) has an *action plan*
 People are clearly resonating with that, and it's actually how I think.
 
-* [[id:5903AFE7-4B1E-422C-8537-2C56BBFBA643][Mine For Feelings]]                               :gtasks:
-** TODO Rename to Repeat Trailing Words? (cut Three)
-** TODO Show example of labeling for fear of making prioritization calls
-** DONE Write bad version: Offer Labeled Feelings
-CLOSED: [2025-09-22 Mon 10:38]
-:LOGBOOK:
-CLOCK: [2025-09-22 Mon 10:02]--[2025-09-22 Mon 10:38] =>  0:36
-:END:
-** DONE Write crappy "Putting it all together"    :pom:
-CLOSED: [2025-09-24 Wed 10:20]
-:LOGBOOK:
-CLOCK: [2025-09-24 Wed 08:27]--[2025-09-24 Wed 10:19] =>  1:52
-CLOCK: [2025-09-23 Tue 10:23]--[2025-09-23 Tue 10:45] =>  0:22
-CLOCK: [2025-09-23 Tue 08:30]--[2025-09-23 Tue 09:51] =>  1:21
-:END:
-** DONE Finish exercises
-CLOSED: [2025-09-25 Thu 11:44]
-:LOGBOOK:
-CLOCK: [2025-09-25 Thu 09:17]--[2025-09-25 Thu 11:44] =>  2:27
-CLOCK: [2025-09-24 Wed 11:51]--[2025-09-24 Wed 12:01] =>  0:10
-:END:
-** TODO Use "I'm worried", "I'm afraid"
-** TODO Have Quin discover Marco's past w/ failed project?
-** TODO Have Quin know one feeling by guessing
-Maybe it's the frustration of things going slow? Or save that, because labeled feeling are so important for negative things, and have her guess the positive feelings, around telling stories.
-** TODO Add "Plug the fear hole"
-** DONE Add explicit "Be in detective mode"
-CLOSED: [2025-09-21 Sun 09:22]
-** DONE Work on more of fears & dreams
-CLOSED: [2025-09-21 Sun 09:22]
-:LOGBOOK:
-CLOCK: [2025-09-21 Sun 08:15]--[2025-09-21 Sun 09:22] =>  1:07
-:END:
-** DONE Bad first draft Mine for Context
-CLOSED: [2025-09-20 Sat 11:41]
-:LOGBOOK:
-CLOCK: [2025-09-20 Sat 09:13]--[2025-09-20 Sat 11:41] =>  2:28
-:END:
-** DONE Write bad subheads for Mine for Context
-CLOSED: [2025-09-13 Sat 10:22]
-** DONE Keep pawing away, maybe start writing
-CLOSED: [2025-09-15 Mon 09:35]
-:LOGBOOK:
-CLOCK: [2025-09-14 Sun 09:08]--[2025-09-14 Sun 09:16] =>  0:08
-:END:
-** DONE Insert "echoing back" from Tac Empathy
-CLOSED: [2025-09-20 Sat 11:41]
-** DONE Mention: can just guess
-CLOSED: [2025-09-21 Sun 09:21]
-** DONE Spike: show failed convos before good ones?
-CLOSED: [2025-09-15 Mon 09:34]
-Ala Mom Test?
 * [[id:4D62F0DE-2862-45F3-97EE-6AFED5382F2C][Storytelling/Wins ]]                              :gtasks:
 ** TODO Draft learning outcomes/structure
 ** TODO Review/paste in old stuff
@@ -500,7 +415,9 @@ So I can either run full screen or within 80 columns
 ** TODO Look for missing Chapter filetags in scripts
 Because now my wordcount history stuff is sensitive to those being missing.
 ** TODO Create a new chapter template or abbrev?
-* Book Misc
+* Book Misc                                       :gtasks:
+** TODO Track: touch book at EOD                  :curweek:
+I definitely wake up with ideas when I do that.
 ** TODO Think a bit: talk about status in a sidebar or mini chapter?
 ** TODO Maybe add brief section of privilege/safety
 Own that I'm tall, white, straight, male.
