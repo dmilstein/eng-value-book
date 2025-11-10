@@ -4,8 +4,7 @@
 #+title: Identify a Strategic Intent
 #+filetags: :Chapter:
 * Identify A Strategic Outcome
-** The Power of Speaking to Strategic Outcomes
-
+** A Story: Maria Makes A Compelling Offer
 Remember Maria, the PM from our opening chapter, who was struggling with her VP of Sales, Geoff? Because the Geoffster kept on undercutting her prioritization to try to force work for his pet customers? And thus her product strategy was dying the slow death of a thousand cuts?
 
 If Maria *doesn't* understand the strategic outcome that Geoff cares most intensely about, all she can say is something like:
@@ -38,32 +37,34 @@ She's used several tactics that we'll see later, in How To Make A Compelling Off
 
 She's been able propos a creative option that might work for both of them.
 
+** The Power of Speaking to Strategic Outcomes
+
 Being able to speak to a strategic outcome that your stakeholder cares intensely about is *insanely valuable*, for (at least!) three reasons:
 
- - *It creates the /flexibility/ to identify a new way to work together*
+ - *It creates the flexibility to identify a new way to work together*
 
-   The inherent [unavoidable, profound] complexity of developing software means you need *room to maneuver*. You *can't* simply "do what your told".
+   The inherent [unavoidable, profound] complexity of developing software means you need room to maneuver. You *can't* simply "do what your told".
 
-   Understanding your stakeholder's long-term goals allows you to come up with ideas which will genuinely help them, while also addressing your own deepest concerns.
+   Understanding your stakeholder's long-term goals allows you to come up with a proposal which will genuinely help them, while also addressing your own deepest concerns.
 
-   Maria did this by proposing focusing her team's support time on the current customers who overlap with enterprise needs.
+   Maria did this by proposing that her team focus their support time on the current customers whose needs overlap with the enterprise segment.
 
- - *It enables you to position your proposed change as a /necessary step/ to achieve the outcome*
+ - *It enables you to position your proposed change as a necessary step to achieve the outcome*
 
    This helps enormously with motivation. Achieving this outcome is at the core of how your stakeholder understands success in their own job.
 
    Maria was able to say, authentically, that they must change how they work together if her team is going to successfully deliver the new enterprise features that Geoff desperately wants.
 
- - *It enables you to demonstrate a /personal commitment/ to achieving the outcome*
+ - *It enables you to demonstrate a personal commitment to achieving the outcome*
 
    Because your stakeholder is a human being, and not a robot, it will mean a lot to them to see that you understand, care about, and are deeply committted to achieving the outcome. It will enable them to see you as a potential *partner*.
 
    By showing her nuanced understanding of the pressures Geoff is under, Maria is offering to join him in his biggest struggle.
 
 
-Of course, as we said earlier, stakeholders have a weirdly common habit of simply not telling you what their strategic goals are. We'll dig into why that's often true, below.
+# Of course, as we said earlier, stakeholders have a weirdly common habit of simply not telling you what their strategic goals are. We'll dig into why that's often true, below.
 
-But, first, let's dig into what an effective statement of strategy even *is*.
+# But, first, let's dig into what an effective statement of strategy even *is*.
 
 # You're going to start by developing a clear articulation of a single key strategic outcome for the business---an outcome that your team can play a role in achieving, *if* you can solve some set of business problems.
 
@@ -75,9 +76,85 @@ But, first, let's dig into what an effective statement of strategy even *is*.
 
 # It could be a shorter time frame, but I'll gently nudge you to look at least a year and a half out. Maybe ask: if you totally crush it the short-term, what's the awesome thing that might happen in 18 months? Consider speaking to that slightly longer-term thing as your Intent.
 
-** [snippet] Why Do Stakeholders Hide Their Dreams?
+** Outcomes Must Enable Decisions
 
-# Add back in/reference bits from intro chapter
+Here's an incredibly brief summary of a good outcome:
+
+ - A good strategic outcome is one that allows teams to quickly make good decisions
+
+I encountered the idea of strategy enabling decisions in Stephen Bungay's The Art of Action, and it has, honestly, kind of changed my life.
+
+Unfortunately, in my experience, the vast majority of companies building software do not set strategy in a way that allows for rapid local decision-making.
+
+I'll offer a simple lens for you to use, as you go about trying to develop and refine your understanding of a strategic outcome:
+
+ - Is it possible to *disagree* with your statement of strategy?
+
+ - Does the strategy allow you to say *"No"* to things?
+
+These two questions ensure you avoid impressive-sounding by meaningless [toothless] strategies like "Accelerate growth" or "Become more customer centric". Who could possibly disagree with those? What would they possibly allow you to say "no" to?
+
+You want to relentlessly refine such vague statements until they become sharper, clearer and more opinionated. For example, you might turn "Accelerate growth" into "Accelerate growth by enabling more upsells to existing customers".
+
+# XXX Experiment with weaving back in Maria's story
+
+That's a statement that someone could absolutely disagree with. Such a person might make a case for expanding your Total Addressable Market (TAM), instead of capturing more revenue from existing customers. That's a valid alternative strategy. If you can't imagine a valid alternative strategy, you're running some real risk of developing a statement too vague and aspirational to be useful.
+
+If your company committed to "Accelerate growth by enabling more upsells to existing customers" that would absolutely let a team on the ground say "No" to things. When an excited sales leader shows up at the weekly demo and demands the team add a feature to allow them to sell into a new segment, the product manager can calmly refer to that intent to push back.
+
+Fundamentally, a good strategic outcome allows you to *make decisions*.
+
+** Sidebar: A Theory Of Why Most Goals Are Terrible
+
+My theory is simple: developing software is weird as heck.
+
+And, at the heart of that weirdness is: to successfully develop software, the team on the ground has to make a metric ton of *decisions*.
+
+Like, way, way more than a team working on a typical non-software business project.
+
+I don't say this to slag people working in sales, marketing or other critical business functions. Those jobs are extremely hard, and require a great deal of skill and experience to do well. Some of the smartest, most effective leaders I've ever known came up through marketing and sales.
+
+But the special weirdness of software around both the quantity and the scope of "within project" decision-making is not shared by most business functions.
+
+A team that spends six or twelve months building a valuable piece of software will have, over that time, made hundreds of decisions to:
+
+ - Hone in on exactly the customer problem that software should solve
+
+ - Iteratively explore features that could solve that problem
+
+ - Identify which of those features can be built in a reasonable period of time
+
+ - Find a safe, maintainable way to build those features
+
+Crucially, all those decisions effect each other. If it proves harder than expected to build something, the team has to revisit their decision about what features to build. If early product testing reveals a key constraint that customers forgot to share, the team has to revisit a whole slew of decisions.
+
+Successful teams make a huge number of decisions, *quickly*.
+
+To do so, they must be able to make a lot of those decisions *without asking their boss*.
+
+Unfortunately, most goals fail on this front, for one of two reasons:
+
+ - Insufficient context (aka, just do it)
+
+ - Unclear prioritization (aka too many goals)
+
+The former means: some stakeholder has decided what the team "should do", and they just tell the team to do that thing. They don't pass on why that thing is important, alternatives considered, risks to avoid, upstream or downstream goals, etc, etc. This cripples the team's ability to rapidly make good decisions.
+
+The latter means: rather than face hard tradeoffs between competing priorities, a stakeholder simply assigns separate goals to separate teams, and washes their hands of the ensuing chaos and slowdowns.
+
+Company facing a hard choice between keeping existing customers happy and developing a new product? No problem, make the former the goal of the Account Management team, and the latter the goal of the Product Team, no tradeoffs needed. Until, of course, the product team's work grinds to a halt, because the AM team is constantly pressuring them to support existing customers, because they've been told that's the most important thing for the business. The product team can't make a quick decision to ignore the AM's -- they have to loop in the Nearest Common Ancestor of their team and the AM's. Which makes all those decisions take forever.
+
+The lens of decision speed is incredibly useful.
+
+The reason this is such a common form of conflict with The Rest Of The Business is that the uncertainty around developing software is just so much greater than around most business activities. It's a form of research and development as much as executional operation.
+
+Please go read Principles of Product Development Flow, by Don Reinertsen if you would like to be blinded by the science of this.
+
+# Why Most Goals Are Terrible
+
+** Why Stakeholders Hide Their Dreams
+
+# XXX Allowing the team to make decisions is scary
 
 Why on earth not, you might well be asking?[fn:: Unless you've worked in software for a long time? In which case you might be saying, "/sigh/"]
 
@@ -104,67 +181,7 @@ To be fair, this may be a perfectly reasonable way to run business efforts *outs
 
 Often, a stakeholder's frustrating behavior is, in their mind, the only way to get that task done, and therefore the only way to accomplish the long-term outcome. To find a new way to work together, you have to get beneath what they're asking for, and understand what they're ultimately trying to achieve. Once you do so, you can propose a different, less frustrating way of working together, that will move you *both* towards the long-term outcome.
 
-** What Makes a Good Intent?
-
-
-A few examples:
-
- - Business: Break into the enterprise segment to unlock more growth
-
-   Team: Address key functionality limitations that are blocking enterprise sales
-
- - Business: Show sufficient customer growth to enable an acquisition
-
-   Team: develop new product that helps acquire new customers
-
- - Business: Integrate AI into company practices, to ensure we remain attractive to investors
-
-   Team: Develop AI support for our data ingestion operations
-
-We'll name that combo of a key strategic goal plus your team's part in that goal a "Strategic Intent" (this framing is adapted from the marvelous The Art of Action, by Stephen Bungay, which Melissa Perri also references in Escaping the Build Trap)
-
-In particular, why take the time to do so if you already have a *goal*?
-
-You're going to work on coming up with a clear articulation of that combination of a strategic outcome and your team's role in achieving that outcome.
-
-As you do that work, here are a pair of useful questions to ask yourself:
-
- - Is it possible to *disagree* with the intent?
-
- - Does the intent allow you to say *"No"* to things?
-
-These two questions ensure you avoid impressive-sounding by meaningless [toothless] strategies like "Accelerate growth" or "Become more customer centric". Who could possibly disagree with those? What would they possibly allow you to say "no" to?
-
-You want to relentlessly refine such vague statements until they become sharper, clearer and more opinionated. For example, you might turn "Accelerate growth" into "Accelerate growth by enabling more upsells to existing customers".
-
-That's a statement that someone could absolutely disagree with. Such a person might make a case for expanding your Total Addressable Market (TAM), instead of capturing more revenue from existing customers. That's a valid alternative strategy. If you can't imagine a valid alternative strategy, you're running some real risk of developing a statement too vague and aspirational to be useful.
-
-If your company committed to "Accelerate growth by enabling more upsells to existing customers" that would absolutely let a team on the ground say "No" to things. When an excited sales leader shows up at the weekly demo and demands the team add a feature to allow them to sell into a new segment, the product manager can calmly refer to that intent to push back.
-
-Fundamentally, a good strategic intent allows you to *make decisions*.
-
-# XXX Bad Prose GO!
-
-Before we go any further, I want to say: developing a coherent, concise and compelling strategic intent is *hard*.
-
-The reality facing any business is always extremely complex. Trying to distill that down to a single core challenge takes real work. There are dozens of factors you could consider, dozens of problems people are worrying about, different hopes and dreams different people across the company are treasuring in their hearts.
-
-As you work to develop your a strategic intent for your business, you may find that it's surprisingly challenging. That's okay!
-
-Building such a clear picture is a *learnable skill*, but it does takes real practice.
-
-We'll illustrate some ways to think about it, in the below. But I think you'll be well-served by being ready to productively struggle.
-
-If you'd like to learn more about developing strategy, I recommend:
-
- - The Art of Action, by Stephen Bungay
-
- - Good Strategy/Bad Strategy, by Richard Rumelt
-
-For ideas on how to work with strategic intents, Escaping the Build Trap does an excellent job of describing how to use strategic intents to *lead* an organization.
-
-
-** How To Determine A Strategic Intent
+*** How To Determine A Strategic Intent
 
 One core challenge with running this game plan is that there is an uncomfortably high likelihood that *no one has told you* a strategic intent.
 
@@ -179,8 +196,10 @@ Furthermore, even when leadership *has* done the hard work to develop a coherent
 Luckily, even if leadership hasn't perfectly defined or communicated a strategy, you can, almost always, *still* identify and align around *some* form of strategic intent with your stakeholder. And then gradually improve that over time.
 
 To do so, we're going to learn about our first two Tactical Empathy skills -- "Guess & Check" and "Echo Back & Summarize".
+** Use Educated Guesses To Probe For Strategy
+** A Story: Alistair Digs In With Max Hartswell
 
-** Tactical Empathy Skill #1: Guess & Check
+*** Tactical Empathy Skill #1: Guess & Check
 
 You're trying to determine a strategic intent for your business, and, in particular, one that your stakeholder finds *compelling*.
 
@@ -224,6 +243,85 @@ If you want to dig for information, or understand someone's concerns, or draw ou
 
 We'll lay out some exercises to practice this, at the end of the chapter.
 
+** Handling Leaders Who Avoid Making Decisions
+
+I can't get out of this chapter without mentioning the unfortunate possibility that your stakeholder may *angrily resist* making a clear statement of a *single* strategic intent. Such a stakeholder might say something like:
+
+/"Look, it's not that simple. You're always asking for the "one top priority", but *all* the goals are critically important. We *can't* just pick one. We have to find a way to get them *all* done."/
+
+Sigh.
+
+An unwillingess to make hard prioritization calls is a reliable way to doom a team to failure.
+
+That said, you still have options in this situation. There's a real chance that, if you can earn some shared wins, that same stakeholder will start to experience prioritization decisions as an *empowering* thing for them, rather than a demand for them to disappoint one of *their* stakeholders or bosses.
+
+Thus, in such a case, my recommendation is to just go with your best guess for now -- it's likely pretty good, and having *some* direction to move in is better than just churning around at random.
+
+** How To Practice Identifying Strategic Outcomes
+*** Developing Strategy Is Hard
+
+Before we go any further, I want to say: developing a coherent, concise and compelling strategic intent is *hard*.
+
+The reality facing any business is always extremely complex. Trying to distill that down to a single core challenge takes real work. There are dozens of factors you could consider, dozens of problems people are worrying about, different hopes and dreams different people across the company are treasuring in their hearts.
+
+As you work to develop your a strategic intent for your business, you may find that it's surprisingly challenging. That's okay!
+
+Building such a clear picture is a *learnable skill*, but it does takes real practice.
+
+We'll illustrate some ways to think about it, in the below. But I think you'll be well-served by being ready to productively struggle.
+
+If you'd like to learn more about developing strategy, I recommend:
+
+ - The Art of Action, by Stephen Bungay
+
+ - Good Strategy/Bad Strategy, by Richard Rumelt
+
+For ideas on how to work with strategic intents, Escaping the Build Trap does an excellent job of describing how to use strategic intents to *lead* an organization.
+
+*** Developing Strategic Intents
+Find some trusted peers or friends, and talk out the strategy of your business. Build a picture of:
+
+ - Some centrally important thing your business is trying to achieve, over the next few years
+
+ - A core challenge the business must face, on the path to that achievement
+
+ - How your team can play a role in facing that challenge
+
+Try to develop a few different formulations of the above, do some work to hone and clarify.
+
+Depending on the size of your company, these outcomes might be scoped to a sub-part of your company instead of the entire business.
+
+Once you arrive at some statement of strategic intent, ask yourself the key questions:
+
+ - Is it possible to *disagree* with the intent?
+
+ - Does the intent allow you to say *"No"* to things?
+
+If not, continue to refine your statement.
+
+As an experiment, try making your statement of intent "frighteningly opinionated": so clear that your team would have to immediately stop doing some things that "every knows are critically important". See what you find when you do that.
+
+For further practice, talk this out with friends who work at other companies. Ask what their business is trying to achieve, ask about fundamental challenges they must face, brainstorm different ways their teams might help face those challenges. Look for something usefully opinionated.
+
+*** Practicing Guess & Check
+
+First, rehearse saying your intent, embedded in a template like the following:
+
+/I wanted to ask something -- my understanding is that, in the next 18-24 months, the most important thing we need to achieve is <X>, and that my team should be supporting that by way of <Y>. Do I have that mostly right? Am I missing anything important?/
+
+Make sure you're able to ask the questions at the end *authentically*. You wan tto channel true curiosity. Feel free to adjust the wording to make it feel more natural for you.
+
+Then, once you've got that comfortable, take your strategic intent around, offer it to various people, and invite them to tell you how you got it wrong.
+
+*** References
+
+ - Never Split the Difference
+
+ - The Art of Action
+
+ - Good Strategy/Bad Strategy
+
+* Stashed Old Sections
 ** Our Story: Quin Tries Guess & Check
 
 When we last checked on Quin, she was struggling with her CEO, Marco, over his habit of constantly changing priorities at their startup, All Together Now (who are developing remote team building games). Her friend sent her to talk with an experienced engineering leader who, by the friend's account, likes "helping people get their bosses to stop being crazy."
@@ -352,107 +450,6 @@ This is an incredibly valuable tactic, useful in an incredibly wide variety of s
 
 We'll talk in the exercises about how to build it up.
 
-** Handling Leaders Who Avoid Making Decisions
-
-I can't get out of this chapter without mentioning the unfortunate possibility that your stakeholder may *angrily resist* making a clear statement of a *single* strategic intent. Such a stakeholder might say something like:
-
-/"Look, it's not that simple. You're always asking for the "one top priority", but *all* the goals are critically important. We *can't* just pick one. We have to find a way to get them *all* done."/
-
-Sigh.
-
-An unwillingess to make hard prioritization calls is a reliable way to doom a team to failure.
-
-That said, you still have options in this situation. There's a real chance that, if you can earn some shared wins, that same stakeholder will start to experience prioritization decisions as an *empowering* thing for them, rather than a demand for them to disappoint one of *their* stakeholders or bosses.
-
-Thus, in such a case, my recommendation is to just go with your best guess for now -- it's likely pretty good, and having *some* direction to move in is better than just churning around at random.
-
-** Exercises & References
-*** Developing Strategic Intents
-Find some trusted peers or friends, and talk out the strategy of your business. Build a picture of:
-
- - Some centrally important thing your business is trying to achieve, over the next few years
-
- - A core challenge the business must face, on the path to that achievement
-
- - How your team can play a role in facing that challenge
-
-Try to develop a few different formulations of the above, do some work to hone and clarify.
-
-Depending on the size of your company, these outcomes might be scoped to a sub-part of your company instead of the entire business.
-
-Once you arrive at some statement of strategic intent, ask yourself the key questions:
-
- - Is it possible to *disagree* with the intent?
-
- - Does the intent allow you to say *"No"* to things?
-
-If not, continue to refine your statement.
-
-As an experiment, try making your statement of intent "frighteningly opinionated": so clear that your team would have to immediately stop doing some things that "every knows are critically important". See what you find when you do that.
-
-For further practice, talk this out with friends who work at other companies. Ask what their business is trying to achieve, ask about fundamental challenges they must face, brainstorm different ways their teams might help face those challenges. Look for something usefully opinionated.
-
-*** Practicing Guess & Check
-
-First, rehearse saying your intent, embedded in a template like the following:
-
-/I wanted to ask something -- my understanding is that, in the next 18-24 months, the most important thing we need to achieve is <X>, and that my team should be supporting that by way of <Y>. Do I have that mostly right? Am I missing anything important?/
-
-Make sure you're able to ask the questions at the end *authentically*. You wan tto channel true curiosity. Feel free to adjust the wording to make it feel more natural for you.
-
-Then, once you've got that comfortable, take your strategic intent around, offer it to various people, and invite them to tell you how you got it wrong.
-
-*** Practicing Echo Back & Summarize
-
-This is a *profoundly* valuable skill. But it takes some effort to master.
-
-I have coached dozens of people on this approach. Over and over, I've seen them initially struggle.
-
-One problem is that echoing back and summarizing just *feels* like such a strange way to talk to someone. When you're about to echo or repeat, your brain will tell you "Ugh, they just told you this, don't *bore* them."
-
-Once you've practiced the technique, that feeling will fade away. People *love* to hear their own words and thoughts.
-
-Another problem is that using these tactics will turn up valuable context, aka things you didn't previously know. When that happens, your mind will suddenly make connections and see new opportunities.
-
-That will often feel *exciting*.
-
-In our scenario Quin suddenly saw a way they could start to track usage and engagement, very soon.
-
-When that kind of discovery happens, a spike of excitement hormones hits your bloodstream, and your brain immediately *urges* you to share this new awesome idea, right away.
-
-"Oh," your brain will say, "they're going to love this, go go go!"
-
-That's a trap -- you are *always* better served by first ensuring you fully understood and that the speaker feels fully heard.
-
-Finally, the ideal way to play this game is to clarify the speaker's thoughts, as you echo them back. To make your summary *useful*. That also takes real practice.
-
-Because of these challenges, it's best to practice echoing back & summarizing when the stakes are low--aka, *not* in a negotiation with a key stakeholder.
-
-First, pick someone you trust. It doesn't have to be a co-worker, I've seen people profitably practice with friends, roommates, and spouses.
-
-Ask that person, "I'm working on some active listening skills. Would it be okay if I asked you some questions as part of that?"
-
-# This is for *you*, not for them -- to remove some of your fear of being annoying.
-
-As the conversation starts, tell yourself, "My job is to deliberately use this echoing back tactic *way too much* -- my goal is for the other person to say, afterwards, 'Eh, you could have echoed/repeated a bit less'".
-
-Then, *every single time* the other person says something, say "Let me say that back to you, see if I've got it right." Then say your understanding, then say "Is that about right?"
-
-It should feel weird as heck. After a few conversation rounds, pause, and ask the person "How did that feel?" Listen to them, and then repeat back what they tell you.
-
-If you'd like, dig for a bit more info, by asking if they ever felt at all irritated or annoyed, or if you missed anything important.
-
-Then, keep practicing.
-
-Once you've got some basic comfort with it, try it out with a "lower stakes" peer, then move on to stakeholders.
-
-*** References
-
- - Never Split the Difference
-
- - The Art of Action
-
- - Good Strategy/Bad Strategy
 * Scraps/Thoughts
 Maybe, use this chapter to, like, *define* a strategy, and explain that, if they don't know one, they should guess. But they ideally want to state it in terms the stakeholder uses. And we'll learn more about that in the next chapter.
 
@@ -527,6 +524,60 @@ Of course, in the above sketch, the engineering leader is able to cite a strateg
 
 Sadly, that's not particularly common.
 
+** Rants About Goals
+Okay, I'm going to rant a bit here. Just be forewarned and stuff.
+
+At most companies I've met, the goals are a fucking mess.[fn:: I would say 90% of my lunches with friends who work in tech end with them saying "Huh, I just realized my team is working on something meaningless."]
+
+At least one of two significant forms of dysfunction are at play:
+
+Dysfunction Number One: lack of context
+
+Dysfunction Number One: too many goals
+
+Why are these so terrible? Why am I being so swear-y? Why do stakeholders who have somehow risen to a position of business leadership so often set too many goals and also fail to share context?
+
+
+And, at the heart of that weirdness is: it's impossible to plan a software project in advance and then *just do that plan*. You can (and should), make a plan. But, compared to most business plans, you're going to have to, like violently change the plan as you go.
+
+You're going to have to:
+
+ - Change your mind about what exactly what features to build, over and over
+
+ - Change your mind about how those features should work, over and over
+
+ - Reimplement parts of your system, over and over
+
+And those things won't happen as big moments. For successful software projects, those things are happening *all the time*, at every level.
+
+
+The key factor that
+
+
+# Most leaders I've ever met believe that they are doing an excellent job of setting goals for their team.
+
+A few examples:
+
+ - Business: Break into the enterprise segment to unlock more growth
+
+   Team: Address key functionality limitations that are blocking enterprise sales
+
+ - Business: Show sufficient customer growth to enable an acquisition
+
+   Team: develop new product that helps acquire new customers
+
+ - Business: Integrate AI into company practices, to ensure we remain attractive to investors
+
+   Team: Develop AI support for our data ingestion operations
+
+We'll name that combo of a key strategic goal plus your team's part in that goal a "Strategic Intent" (this framing is adapted from the marvelous The Art of Action, by Stephen Bungay, which Melissa Perri also references in Escaping the Build Trap)
+
+In particular, why take the time to do so if you already have a *goal*?
+
+You're going to work on coming up with a clear articulation of that combination of a strategic outcome and your team's role in achieving that outcome.
+
+# XXX Bad Prose GO!
+
 * Learning Outcomes/Arc
 ** Maybe: The Power of Speaking to Strategic Outcomes
 ** Some Problems With Goals
@@ -545,11 +596,18 @@ I think, Outcome.
 Like, tighten up the intro, really strip it down, and then tell stories, showing bad and good.
 
 Maybe return to my intro chapter friends.
+** TODO Maybe: open up The Feelings That Are Being Felt
+Could even do: how on earth can Geoff be doing this? It's so clearly wrong? Let's look at it from his perspective.
+
 ** TODO Move guess & check into/after a story
-** TODO Try developing new learning outcomes/arc
+** DONE Try developing new learning outcomes/arc
+CLOSED: [2025-11-10 Mon 09:38]
 * Alternate Learning Outcomes
 ** The Power of Strategic Outcomes
 ** The Keys To An Effective Statement Of Strategy
+The Difference Between Goals and Strategic Outcomes
+
+Goals vs Strategic Outcomes
 ** Story: Clarifying And Sharpening Strategy
 ** Why Some Stakeholders Hide Their Dreams
 ** Story: Drawing Strategy Out
