@@ -6,39 +6,59 @@
 * Identify A Strategic Outcome
 ** The Power of Speaking to Strategic Outcomes
 
-As we said earlier, being able to speak to a strategic outcome that your stakeholder cares intensely about is *insanely valuable*, for (at least!) three reasons:
+Remember Maria, the PM from our opening chapter, who was struggling with her VP of Sales, Geoff? Because the Geoffster kept on undercutting her prioritization to try to force work for his pet customers? And thus her product strategy was dying the slow death of a thousand cuts?
+
+If Maria *doesn't* understand the strategic outcome that Geoff cares most intensely about, all she can say is something like:
+
+/"We're never going to be able to deliver on our product strategy if we can't focus."/
+
+Geoff will, mostly likely, hear this as something *for the product team*, and will continue on his merry, relentlessly distracting way. He's got plan and quota to hit right now! Maria clearly doesn't understand how hard it is to keep customers happy! He's not asking for much, just attention for a few key problems here and there! Are they supposed to just let those customers churn?
+
+Humans are very, very good at rationalizing behavior in their own self-interest. If Geoff hears Maria pushing for something which will impede him from hitting his own goals, his mind will come up with all sorts of reasons why he should push back.
+
+But what if Maria knew the goal Geoff cared most intensely about?
+
+As it turns out, Maria's company is facing a critical challenge: for years, they've been stuck in the Small Medium-Sized Business (SMB) niche. That niche is, unfortunately, pretty much tapped out. They will only be able to grow revenue if they can somehow break into the enterprise segment.
+
+At the last board meeting, The CEO stood up and promised that, within eighteen months, a full 30% of annual recurring revenue would come from enterprise customers.
+
+This is a, let us call it, happy dream to imagine... but is not something they're anywhere close to achieving at the moment. Geoff, being *the VP of Sales*, feels hugely under the gun for this outcome. He's been building up an enterprise sales team, he's endlessly reviewing recordings of sales demos with any opportunities even vageuly resembling enterprise. None of it seems to be working yet.
+
+What could Maria do with this knowledge? Well, she could say something like:
+
+/"I know how important it is for us to break into the enterprise. And I know hard the sales team has been working on that."/
+
+/"But I'm worried that the product team hasn't been supplying you with the kind of compelling features that will open the door to enterprise buyers. And since those deals take so crazy long to close, I'm really worried that, every month we don't have something new, your team is in a worse and worse position."/
+
+/"I want to propose we find a way to commit more time to developing enterprise features, even if that means allowing some current customers to grow somewhat frustrated. One option: if you can identify current customers who have similar problems to your enterprise prospects, we can focus our support time on them, to maximize learning while also keeping those customers happy."/
+
+If, in fact, building an enterprise pipeline is keeping Geoff up at night, he will hear this as Maria *understanding his pain*. He'll be enormously more ready to listen.
+
+She's used several tactics that we'll see later, in How To Make A Compelling Offer: Tell A Story Of Growing Danger; Invite Your Stakeholder To Solve Your Problems; Address Fears Directly; Keep 'Em Busy.
+
+She's been able propos a creative option that might work for both of them.
+
+Being able to speak to a strategic outcome that your stakeholder cares intensely about is *insanely valuable*, for (at least!) three reasons:
 
  - *It creates the /flexibility/ to identify a new way to work together*
 
-   The [inherent, unavoidable, profound] complexity of developing software means you need *room to maneuver*. You *can't* simply "do what your told". Understanding what your stakeholder is working backwards from lets you come up with new ideas which will genuinely help them get there... while also addressing your own deepest concerns.
+   The inherent [unavoidable, profound] complexity of developing software means you need *room to maneuver*. You *can't* simply "do what your told".
+
+   Understanding your stakeholder's long-term goals allows you to come up with ideas which will genuinely help them, while also addressing your own deepest concerns.
+
+   Maria did this by proposing focusing her team's support time on the current customers who overlap with enterprise needs.
 
  - *It enables you to position your proposed change as a /necessary step/ to achieve the outcome*
 
-   This helps enormously with motivation, since that outcome is how your stakeholder understands success in their own job.
+   This helps enormously with motivation. Achieving this outcome is at the core of how your stakeholder understands success in their own job.
+
+   Maria was able to say, authentically, that they must change how they work together if her team is going to successfully deliver the new enterprise features that Geoff desperately wants.
 
  - *It enables you to demonstrate a /personal commitment/ to achieving the outcome*
 
-   Because your stakeholder is a human being, and not a robot, it will mean a lot to them to see that you understand, care about, and are deeply committted to achieving that outcome yourself. It will enable them to see you as a potential *partner*.
+   Because your stakeholder is a human being, and not a robot, it will mean a lot to them to see that you understand, care about, and are deeply committted to achieving the outcome. It will enable them to see you as a potential *partner*.
 
-Remember Maria, the PM from our opening chapter, who was struggling with her VP of Sales, Geoff? Because the Geoffster kept on undercutting her prioritization to try to force work for his pet customers? And thus her product strategy was dying the slow death of a thousand cuts?
-
-If she *doesn't* understand the strategic outcome that Geoff cares most intensely about, all she can say is something like:
-
-/"We're never going to be able to deliver on our product strategy if we can't focus more."/
-
-Geoff will hear this as something *for the product team*, and will continue on his merry, relentlessly distracting way. He's got plan and quota to hit right now! The product team doesn't understand how hard it is to keep customers happy! He's not asking for much, just attention for a few key problems here and there! Are they supposed to just let those customers churn?
-
-Yeah, humans are super good at rationalizing their own non-awesome behavior.
-
-But what if Maria knows his beloved strategic outcome? Maria's company is facing a critical challenge: for years, they've been stuck in a Small Medium-Sized Business (SMB) niche, and will only be able to significantly grow revenue if they can somehow break into the Enterprise segment. The CEO recently promised the board that, within eighteen months, enterprise customers will be 20% of Annual Recurring Revenue. This is a, let us call it, happy dream to imagine, but is not something they're anywhere close to achieving at the moment. Geoff, being *the VP of Sales*, feels hugely under the gun for this outcome. He's been building up an enterprise sales team, he's endlessly reviewing recordings of sales demos with any opportunities even vageuly resembling enterprise.
-
-Imagine instead if Maria says:
-
-/"I know how important it is for us to break into the Enterprise. And I know hard the sales team has been working on that. But I'm worried that the product team hasn't been supplying you with enough compelling features, to make those deals even possible. And since those deals take so long to close, I'm really worried that, every month we don't have something new, your team is in a worse and worse position. I want to propose we find a way to commit more time to focusing on developing our key enterprise features, even if that means allowing some current customers to grow somewhat frustrated. Unless of course, those current customer fall into the Enterprise segment, in which case we want to learn as much as possible by giving them excellent support."/
-
-# current customers who have needs that overlap with what we're building for the enterpris.
-
-Geoff will hear that as *understanding his pain*. He'll be enormously more ready to listen. She's also been able to use her flexibility to come up with a creative option --
+   By showing her nuanced understanding of the pressures Geoff is under, Maria is offering to join him in his biggest struggle.
 
 
 Of course, as we said earlier, stakeholders have a weirdly common habit of simply not telling you what their strategic goals are. We'll dig into why that's often true, below.
