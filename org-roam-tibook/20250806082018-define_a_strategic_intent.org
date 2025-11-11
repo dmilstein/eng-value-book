@@ -5,37 +5,58 @@
 #+filetags: :Chapter:
 * Identify A Strategic Outcome
 ** A Story: Maria Makes A Compelling Offer
-Remember Maria, the PM from our opening chapter, who was struggling with her VP of Sales, Geoff? Because the Geoffster kept on undercutting her prioritization to try to force work for his pet customers? And thus her product strategy was dying the slow death of a thousand cuts?
 
-If Maria *doesn't* understand the strategic outcome that Geoff cares most intensely about, all she can say is something like:
+Remember Maria, the PM from our opening chapter, who was struggling with her VP of Sales, Geoff? Because the Geoffster kept on undercutting her prioritization to try to force work for his pet customers? And thus her product strategy was dying the death of a thousand cuts?
+
+If Maria *hasn't* identified the strategic outcome that Geoff cares most intensely about, she might try saying something perfectly rational, like:
 
 /"We're never going to be able to deliver on our product strategy if we can't focus."/
 
-Geoff will, mostly likely, hear this as something *for the product team*, and will continue on his merry, relentlessly distracting way. He's got plan and quota to hit right now! Maria clearly doesn't understand how hard it is to keep customers happy! He's not asking for much, just attention for a few key problems here and there! Are they supposed to just let those customers churn?
+On the one hand, this statement has the benefit of being *completely true*. On the other, odds are very good that Geoff, [like most executives] during the course of his career, has acquired the skill of creatively mis-hearing requests to change his behavior.[fn:: Okay, I'm now 100% imagining this skill being taught to promising young leaders, before they're allowed into the hallowed halls of the Senior Leadership Team. Along with, what, /How To Demand Progress Against Obviously Conflicting Goals With a Straight Face/, /How To Blame A Team For Your Own Failings: A Survey/, /How To Stay Blind To Your Own Limitations/, /The Theory and Practice Of Self-Deception/. Is it a lecture? A small group discussion section? I have so many ideas.]
 
-Humans are very, very good at rationalizing behavior in their own self-interest. If Geoff hears Maria pushing for something which will impede him from hitting his own goals, his mind will come up with all sorts of reasons why he should push back.
+# Maybe, Like most executives, Geoff has acquired the skill of creatively mishearing requests to change his behavior.
 
-But what if Maria knew the goal Geoff cared most intensely about?
+He thus hears Maria asking for something *for the product team*---not for the business at large.[fn:: Note that Geoff uses this skill of creative mis-hearing /totally unconsciously/. For evolution reasons, our internal narratives are all about plausible deniability.]
 
-As it turns out, Maria's company is facing a critical challenge: for years, they've been stuck in the Small Medium-Sized Business (SMB) niche. That niche is, unfortunately, pretty much tapped out. They will only be able to grow revenue if they can somehow break into the enterprise segment.
+Also: Geoff has plan and quota to hit! He's not asking for much, just attention for a few key problems here and there! Maria clearly doesn't understand how hard it is to keep customers happy! Are they supposed to just let those customers churn?! He's being completely and totally /reasonable/.
+
+Like literally all humans, Geoff also has the the skill of creatively rationalizing behavior that his mind perceives as in his own self-interest.[fn:: Yes, by all humans, I totally mean you and me. I'm super good at this one. Maybe a bit worryingly so, to be honest.]
+
+# and will continue on his merry, relentlessly distracting way.
+
+At some deep level, what is happening is:
+
+ - Geoff hears Maria pushing for something which will impede him from achieving an outcome he cares intensely about
+
+In such a situation, his mind will eagerly come up with all sorts of reasons why he should push back. He'll be in a state of resistance.
+
+But what if instead, Maria *knows* the outcome that Geoff cared most intensely about? What if she can speak to it in the very terms Geoff thinks about it?
+
+Let's see how that plays out.
+
+Maria's company is facing a critical challenge: for years, they've been successfully selling into small and medium-sized businesses (aka, the SMB segment). That segment is, unfortunately, pretty much completely tapped out. They will only be able to grow revenue if they can somehow start selling to significantly larger business, aka, the fabled enterprise segment.
 
 At the last board meeting, The CEO stood up and promised that, within eighteen months, a full 30% of annual recurring revenue would come from enterprise customers.
 
-This is a, let us call it, happy dream to imagine... but is not something they're anywhere close to achieving at the moment. Geoff, being *the VP of Sales*, feels hugely under the gun for this outcome. He's been building up an enterprise sales team, he's endlessly reviewing recordings of sales demos with any opportunities even vageuly resembling enterprise. None of it seems to be working yet.
+This is, let us say, a happy dream to imagine... but is not something they're anywhere close to achieving at the moment.
 
-What could Maria do with this knowledge? Well, she could say something like:
+Geoff, being *the VP of Sales*, feels hugely under the gun for this outcome. He's been building up an enterprise sales team, he's endlessly reviewing recordings of sales demos with any opportunities even vageuly resembling enterprise. None of it seems to be working yet. In fact, some of the customers he's trying to cadge favors for are their largest existing customers, who, if you squint at just a bit, could arguably be enterprise deals.
+
+What could Maria do with this knowledge? She could approach Geoff with an entirely different sounding request, that he will *hear* totally differently:
 
 /"I know how important it is for us to break into the enterprise. And I know hard the sales team has been working on that."/
 
 /"But I'm worried that the product team hasn't been supplying you with the kind of compelling features that will open the door to enterprise buyers. And since those deals take so crazy long to close, I'm really worried that, every month we don't have something new, your team is in a worse and worse position."/
 
-/"I want to propose we find a way to commit more time to developing enterprise features, even if that means allowing some current customers to grow somewhat frustrated. One option: if you can identify current customers who have similar problems to your enterprise prospects, we can focus our support time on them, to maximize learning while also keeping those customers happy."/
+/"I want to propose we find a way to commit more time to developing enterprise features as soon as possible, even if that means allowing some current customers to grow somewhat frustrated. One option: if you can identify current customers who have similar problems to your enterprise prospects, we can focus our limited support time on them, to maximize learning while also keeping those customers happy."/
 
-If, in fact, building an enterprise pipeline is keeping Geoff up at night, he will hear this as Maria *understanding his pain*. He'll be enormously more ready to listen.
+This is a radically different request.
+
+The struggle to build an enterprise pipeline is keeping Geoff up at night. The lack of certain "table stakes" enterprise-specific features is a huge part of that.[fn:: Ugh, I can't even write that sentence without carping briefly. I dunno, 90% of the time someone has insisted that a set of features are "table stakes", what they're actually saying is "I personally like these features a lot." It's one of those ways to state an opinion as if it's an incontrovertible fact. In such situations I *don't* recommend getting into a debate about "what customers really need". In stead, I recommend just nodding and smiling, and then directing your team to build a coherent product which doesn't have the "table stakes" features. You can then offer that as a thing which could be sold, while you go about adding the table stakes features.] He will hear this as Maria *understanding his pain*. He'll be enormously more ready to listen. She's also proposed something specific, that could work for both of them---limiting the support time, but focusing it on a small set of customers that *Geoff* identifies.
+
+# He is very worried that the lack of sophisticated identity management and a few key third party integrations are killing their enterprise conversations before they even get started.
 
 She's used several tactics that we'll see later, in How To Make A Compelling Offer: Tell A Story Of Growing Danger; Invite Your Stakeholder To Solve Your Problems; Address Fears Directly; Keep 'Em Busy.
-
-She's been able propos a creative option that might work for both of them.
 
 ** The Power of Speaking to Strategic Outcomes
 
@@ -43,7 +64,7 @@ Being able to speak to a strategic outcome that your stakeholder cares intensely
 
  - *It creates the flexibility to identify a new way to work together*
 
-   The inherent [unavoidable, profound] complexity of developing software means you need room to maneuver. You *can't* simply "do what your told".
+   The inherent complexity of developing software means you need room to maneuver. You *can't* simply "do what your told".
 
    Understanding your stakeholder's long-term goals allows you to come up with a proposal which will genuinely help them, while also addressing your own deepest concerns.
 
@@ -51,7 +72,7 @@ Being able to speak to a strategic outcome that your stakeholder cares intensely
 
  - *It enables you to position your proposed change as a necessary step to achieve the outcome*
 
-   This helps enormously with motivation. Achieving this outcome is at the core of how your stakeholder understands success in their own job.
+   This helps enormously with motivation, because of how much your stakeholder cares about this outcome.
 
    Maria was able to say, authentically, that they must change how they work together if her team is going to successfully deliver the new enterprise features that Geoff desperately wants.
 
@@ -76,17 +97,66 @@ Being able to speak to a strategic outcome that your stakeholder cares intensely
 
 # It could be a shorter time frame, but I'll gently nudge you to look at least a year and a half out. Maybe ask: if you totally crush it the short-term, what's the awesome thing that might happen in 18 months? Consider speaking to that slightly longer-term thing as your Intent.
 
+Of course, all this is only possible because Maria has somehow divined the strategic outcome that Geoff cares most intensely about.
+
+** Why Stakeholders Hide Their Dreams
+
+
+# XXX Allowing the team to make decisions is scary -- shove it in later
+
+# Stakeholders do not always (usually?) clearly share the long-term business outcomes they care most intensely about. Sometimes, believe it or not, stakeholders will even try to *hide* their long-term goals from you.
+
+Why on earth not, you might well be asking?[fn:: Unless you've worked in software for a long time? In which case you might be saying, "/sigh/"]
+
+Stakeholders take a strategic business outcome and *convert* it into a series of specific tasks and projects. That is, often, literally what they think their job *is*. Then, having done so, they proceed to only ever talk about those tasks and projects.
+
+They may even consider this narrowness, this limitation on what they share, a *virtue*---because it forces their teams to "focus on what matters".
+
+Unfortunately, some stakeholders, being human, derive some of their sense of status or self-worth from being the only one who truly understands the strategic goals. Such stakeholders can thus be /resistant/ to openly sharing strategic goals. Which, sigh. We'll share tactics for helping such stakeholders open up in later in this chapter.
+
+At other times this is, essentially, an accident. The long-term strategic outcome feels so blindingly obvious to your stakeholder, they /forget/ they need to share it clearly and repeatedly. In fact, they may feel like they already *are* sharing it, over and over. When they say, "You absolutely need to hit your delivery deadlines for Q3," what they hear *in their own head* is, "Or else we won't be able to see if the new features improves retention rates."[fn:: That stakeholder is angrily surprised when they discover that, in order to hit the Q3 deadlines, the team cut corners, broke a key part of the product, and caused a raft of customers to churn. "But I told you how critical retention is!" the stakeholder may even say/yell. "It's literally all I ever talked about!" This statement is both completely true and completely untrue at the exact same time! Again, humans are fun.]
+
+Aligning with your stakeholder on a strategic outcome enables you to position your request for change as a necessary step in eventually achieving their long-term goal. It gives you a great deal of flexibility to come up with new ways to work together, that allow you to reach that long-term goal. Also, importantly, it enables you to demonstrate an authentic personal commitment to achieving that goal. This allows your stakeholder to start to see you as a *partner* in facing their most important challenges.
+
+
+# Being able to speak to a longer-term strategic outcome creates *flexibility* to offer a new way to work -- because you can situate that new way as a necessary step in helping achieve that outcome, even if it means *changing* the near-term goals (as it often will).
+
+# Furthermore, even when leadership *has* done the hard work to develop a coherent, focused strategy, they don't always share much in the way of *context* with individual teams. They may simply pass down goals, but not share the thinking that led to selecting those goals, nor the business outcomes that achieving those goals will hopefully unlock. For software projects, which need a tremendous amount of flexibility in order to succeed, passing down goals without context very rarely works.
+
+As a part of this, you'll also identify how your team can, if things go well, play a role in achieving that outcome.
+
+Often, a stakeholder's frustrating behavior is, in their mind, the only way to get that task done, and therefore the only way to accomplish the long-term outcome. To find a new way to work together, you have to get beneath what they're asking for, and understand what they're ultimately trying to achieve. Once you do so, you can propose a different, less frustrating way of working together, that will move you *both* towards the long-term outcome.
+
+*** How To Determine A Strategic Intent
+
+One core challenge with running this game plan is that there is an uncomfortably high likelihood that *no one has told you* a strategic intent.
+
+In an ideal world, company leadership would share a concise, coherent, *opinionated* statement of strategic intent with every team.  A statement that allowed the team to quickly and confidently say "No" to distractions. In that ideal world, even as you're reading the above, you'd be nodding and saying "Yep, I've got that, let's go."
+
+Unfortunately, here in the *actual* world, that's almost never the case.
+
+First off, company leadership isn't always fully clear in their own thinking. Developing an effective strategic intent means being rigorously, painfully clear about what your company is and is *not* going to be able to do. Many leaders resist this painful clarity of thought. If your company works off some sprawling list of "Critical Projects" or "Key Initiatives", your leaders might fallen into this trap.
+
+Furthermore, even when leadership *has* done the hard work to develop a coherent, focused strategy, they don't always share much in the way of *context* with individual teams. They may simply pass down goals, but not share the thinking that led to selecting those goals, nor the business outcomes that achieving those goals will hopefully unlock. For software projects, which need a tremendous amount of flexibility in order to succeed, passing down goals without context very rarely works.
+
+Luckily, even if leadership hasn't perfectly defined or communicated a strategy, you can, almost always, *still* identify and align around *some* form of strategic intent with your stakeholder. And then gradually improve that over time.
+
+To do so, we're going to learn about our first two Tactical Empathy skills -- "Guess & Check" and "Echo Back & Summarize".
 ** Outcomes Must Enable Decisions
 
-Here's an incredibly brief summary of a good outcome:
+There are many, many mediocre goals, outcomes, key results, and intents out there.
 
- - A good strategic outcome is one that allows teams to quickly make good decisions
+Luckily, there's a razor sharp test of a good strategic outcome:
 
-I encountered the idea of strategy enabling decisions in Stephen Bungay's The Art of Action, and it has, honestly, kind of changed my life.
+ - A good strategic outcome is one that allows people across the company to quickly make good decisions
 
-Unfortunately, in my experience, the vast majority of companies building software do not set strategy in a way that allows for rapid local decision-making.
+(I encountered the idea of strategy enabling decisions in Stephen Bungay's The Art of Action, and it has, honestly, kind of changed my life)
 
-I'll offer a simple lens for you to use, as you go about trying to develop and refine your understanding of a strategic outcome:
+Unfortunately, in my experience, the vast majority of companies building software do not set strategy in a way that allows for rapid on-the-ground decision-making. Rather, it's a set of aspirational goals, without any opinionated guidance on how to get to those goals. Or a set of clearly conflicting priorities, with no way to weight them against each other.
+
+If you are trying to come up with a clean, effective statement of strategy, here are two excellent questions to ask yourself:
+
+# I'll offer a simple lens for you to use, as you go about trying to develop and refine your understanding of a strategic outcome:
 
  - Is it possible to *disagree* with your statement of strategy?
 
@@ -106,7 +176,7 @@ Fundamentally, a good strategic outcome allows you to *make decisions*.
 
 ** Sidebar: A Theory Of Why Most Goals Are Terrible
 
-My theory is simple: developing software is weird as heck.
+Here's the thing: developing software is weird as hell.
 
 And, at the heart of that weirdness is: to successfully develop software, the team on the ground has to make a metric ton of *decisions*.
 
@@ -114,7 +184,7 @@ Like, way, way more than a team working on a typical non-software business proje
 
 I don't say this to slag people working in sales, marketing or other critical business functions. Those jobs are extremely hard, and require a great deal of skill and experience to do well. Some of the smartest, most effective leaders I've ever known came up through marketing and sales.
 
-But the special weirdness of software around both the quantity and the scope of "within project" decision-making is not shared by most business functions.
+But the special weirdness of software around both the quantity and the scope of decision-making is not shared by most business functions.
 
 A team that spends six or twelve months building a valuable piece of software will have, over that time, made hundreds of decisions to:
 
@@ -128,74 +198,34 @@ A team that spends six or twelve months building a valuable piece of software wi
 
 Crucially, all those decisions effect each other. If it proves harder than expected to build something, the team has to revisit their decision about what features to build. If early product testing reveals a key constraint that customers forgot to share, the team has to revisit a whole slew of decisions.
 
-Successful teams make a huge number of decisions, *quickly*.
+You can't make all the big decisions up front, and leave the executional details to the team.
 
-To do so, they must be able to make a lot of those decisions *without asking their boss*.
+Successful teams make decisions of different scopes, all the time.
+
+They must be able to make a lot of those decisions *without asking their boss*.
 
 Unfortunately, most goals fail on this front, for one of two reasons:
 
- - Insufficient context (aka, just do it)
+ - Insufficient context
 
- - Unclear prioritization (aka too many goals)
+ - Unclear prioritization
 
-The former means: some stakeholder has decided what the team "should do", and they just tell the team to do that thing. They don't pass on why that thing is important, alternatives considered, risks to avoid, upstream or downstream goals, etc, etc. This cripples the team's ability to rapidly make good decisions.
+The former means: some stakeholder has decided what the team "should do", and they just tell the team to do that thing. They don't pass on why that thing is important, alternatives considered, risks to avoid, upstream dependencies, or downstream consequences, etc, etc. This cripples the team's ability to rapidly make good decisions.
 
 The latter means: rather than face hard tradeoffs between competing priorities, a stakeholder simply assigns separate goals to separate teams, and washes their hands of the ensuing chaos and slowdowns.
+
+# Also assign this to Maria's company
 
 Company facing a hard choice between keeping existing customers happy and developing a new product? No problem, make the former the goal of the Account Management team, and the latter the goal of the Product Team, no tradeoffs needed. Until, of course, the product team's work grinds to a halt, because the AM team is constantly pressuring them to support existing customers, because they've been told that's the most important thing for the business. The product team can't make a quick decision to ignore the AM's -- they have to loop in the Nearest Common Ancestor of their team and the AM's. Which makes all those decisions take forever.
 
 The lens of decision speed is incredibly useful.
 
-The reason this is such a common form of conflict with The Rest Of The Business is that the uncertainty around developing software is just so much greater than around most business activities. It's a form of research and development as much as executional operation.
+The reason this is such a common form of conflict with The Rest Of The Business is that the uncertainty around developing software is just so much greater than around most business activities. It's a form of research as much as executional operation.
 
 Please go read Principles of Product Development Flow, by Don Reinertsen if you would like to be blinded by the science of this.
 
 # Why Most Goals Are Terrible
 
-** Why Stakeholders Hide Their Dreams
-
-# XXX Allowing the team to make decisions is scary
-
-Why on earth not, you might well be asking?[fn:: Unless you've worked in software for a long time? In which case you might be saying, "/sigh/"]
-
-Stakeholders often take such a business outcome and then *convert* it into a series of specific tasks and projects. Having done so, they proceed to only ever talk about those tasks and projects.
-
-They may even consider this narrowness, this limitation on what they share, a *virtue*---because it forces their teams to "focus on what matters".
-
-Unfortunately, some stakeholders, being human, derive some of their sense of status or self-worth from being the only one who truly understands the strategic goals. Such stakeholders can thus be /resistant/ to openly sharing strategic goals. Which, sigh. We'll share tactics for helping such stakeholders open up in later in this chapter.
-
-At other times this is, essentially, an accident. The long-term strategic outcome feels so blindingly obvious to your stakeholder, they /forget/ they need to share it clearly and repeatedly. In fact, they may feel like they already *are* sharing it, over and over. When they say, "You absolutely need to hit your delivery deadlines for Q3," what they hear *in their own head* is, "Or else we won't be able to see if the new features improves retention rates."[fn:: That stakeholder is angrily surprised when they discover that, in order to hit the Q3 deadlines, the team cut corners, broke a key part of the product, and caused a raft of customers to churn. "But I told you how critical retention is!" the stakeholder may even say/yell. "It's literally all I ever talked about!" This statement is both completely true and completely untrue at the exact same time! Again, humans are fun.]
-
-Aligning with your stakeholder on a strategic outcome enables you to position your request for change as a necessary step in eventually achieving their long-term goal. It gives you a great deal of flexibility to come up with new ways to work together, that allow you to reach that long-term goal. Also, importantly, it enables you to demonstrate an authentic personal commitment to achieving that goal. This allows your stakeholder to start to see you as a *partner* in facing their most important challenges.
-
-
-# Being able to speak to a longer-term strategic outcome creates *flexibility* to offer a new way to work -- because you can situate that new way as a necessary step in helping achieve that outcome, even if it means *changing* the near-term goals (as it often will).
-
-# Furthermore, even when leadership *has* done the hard work to develop a coherent, focused strategy, they don't always share much in the way of *context* with individual teams. They may simply pass down goals, but not share the thinking that led to selecting those goals, nor the business outcomes that achieving those goals will hopefully unlock. For software projects, which need a tremendous amount of flexibility in order to succeed, passing down goals without context very rarely works.
-
-As a part of this, you'll also identify how your team can, if things go well, play a role in achieving that outcome.
-
-To be fair, this may be a perfectly reasonable way to run business efforts *outside of software development*.
-
-, and then only ever talk to a team about one particular task or project.
-
-Often, a stakeholder's frustrating behavior is, in their mind, the only way to get that task done, and therefore the only way to accomplish the long-term outcome. To find a new way to work together, you have to get beneath what they're asking for, and understand what they're ultimately trying to achieve. Once you do so, you can propose a different, less frustrating way of working together, that will move you *both* towards the long-term outcome.
-
-*** How To Determine A Strategic Intent
-
-One core challenge with running this game plan is that there is an uncomfortably high likelihood that *no one has told you* a strategic intent.
-
-In an ideal world, company leadership would share a concise, coherent, *opinionated* statement of strategic intent with every team.  A statement that allowed the team to quickly and confidently say "No" to distractions. In that ideal world, even as you're reading the above, you'd be nodding and saying "Yep, I've got that, let's go."
-
-Unfortunately, here in the *actual* world, that's almost never the case.
-
-First off, company leadership isn't always fully clear in their own thinking. Developing an effective strategic intent means being rigorously, painfully clear about what your company is and is *not* going to be able to do. Many leaders resist this painful clarity of thought. If your company works off some sprawling list of "Critical Projects" or "Key Initiatives", your leaders might fallen into this trap.
-
-Furthermore, even when leadership *has* done the hard work to develop a coherent, focused strategy, they don't always share much in the way of *context* with individual teams. They may simply pass down goals, but not share the thinking that led to selecting those goals, nor the business outcomes that achieving those goals will hopefully unlock. For software projects, which need a tremendous amount of flexibility in order to succeed, passing down goals without context very rarely works.
-
-Luckily, even if leadership hasn't perfectly defined or communicated a strategy, you can, almost always, *still* identify and align around *some* form of strategic intent with your stakeholder. And then gradually improve that over time.
-
-To do so, we're going to learn about our first two Tactical Empathy skills -- "Guess & Check" and "Echo Back & Summarize".
 ** Use Educated Guesses To Probe For Strategy
 ** A Story: Alistair Digs In With Max Hartswell
 
