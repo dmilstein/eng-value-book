@@ -100,7 +100,7 @@ export_section() {
             # Use local CSS file if available
             pandoc -f org -t html \
                 --standalone \
-                --css="water.css" \
+                --css="build/water.css" \
                 --title="Preview: $HEADING" \
                 /tmp/section.org -o "$OUTPUT_FILE"
         else
