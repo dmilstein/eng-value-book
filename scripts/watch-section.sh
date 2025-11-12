@@ -27,7 +27,7 @@ parse_pointer_file() {
         echo "Create it with: filename.org Heading Name"
         exit 1
     fi
-    
+
     # Read first line and split on whitespace
     local line=$(head -1 "$POINTER_FILE" | xargs)
     if [ -z "$line" ]; then
@@ -35,25 +35,25 @@ parse_pointer_file() {
         echo "Expected format: filename.org Heading Name"
         exit 1
     fi
-    
+
     # Split into filename (first word) and heading (rest)
     ORG_FILE=$(echo "$line" | cut -d' ' -f1)
     HEADING=$(echo "$line" | cut -d' ' -f2-)
-    
+
     if [ -z "$ORG_FILE" ] || [ -z "$HEADING" ]; then
         echo "Error: Could not parse pointer file"
         echo "Expected format: filename.org Heading Name"
         exit 1
     fi
-    
+
     # Expand tilde to home directory if present
     ORG_FILE="${ORG_FILE/#\~/$HOME}"
-    
+
     echo "Watching: $ORG_FILE"
     echo "Section: $HEADING"
     echo "Output: $OUTPUT_FILE"
     echo ""
-    
+
     if [ ! -f "$ORG_FILE" ]; then
         echo "Error: Org file $ORG_FILE not found"
         exit 1
@@ -64,7 +64,7 @@ parse_pointer_file() {
 export_section() {
     # Use awk to extract just the section
     awk -v heading="$HEADING" '
-    BEGIN { 
+    BEGIN {
         in_section = 0
         level = 0
         found = 0
@@ -75,7 +75,7 @@ export_section() {
         line_heading = $0
         gsub(/^\*+ */, "", line_heading)
         gsub(/ *$/, "", line_heading)
-        
+
         if (line_heading == heading && !found) {
             in_section = 1
             level = current_level
@@ -90,7 +90,7 @@ export_section() {
     }
     in_section { print $0 }
     ' "$ORG_FILE" > /tmp/section.org
-    
+
     if [ ! -s /tmp/section.org ]; then
         echo "Warning: No content found for heading '$HEADING'"
         echo "<h1>Section Not Found</h1><p>Could not find heading: $HEADING</p>" > "$OUTPUT_FILE"
@@ -100,7 +100,7 @@ export_section() {
             # Use local CSS file if available
             pandoc -f org -t html \
                 --standalone \
-                --css="$CSS_FILE" \
+                --css="../build/water.css" \
                 --title="Preview: $HEADING" \
                 /tmp/section.org -o "$OUTPUT_FILE"
         else
@@ -112,7 +112,7 @@ export_section() {
                 /tmp/section.org -o "$OUTPUT_FILE"
         fi
     fi
-    
+
     echo "Exported section to $OUTPUT_FILE at $(date)"
     rm -f /tmp/section.org
 }
