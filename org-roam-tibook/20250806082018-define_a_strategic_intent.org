@@ -66,11 +66,13 @@ If Maria knew all this, she could approach Geoff in an entirely different manner
 
 Geoff will hear this request very, very differently.
 
-The struggle to build an enterprise pipeline is keeping him up at night. The lack of certain "table stakes" enterprise-specific features is a huge part of that.[fn:: Ugh, I can't even write that sentence without carping briefly. I dunno, 90% of the time someone has insisted that a set of features are "table stakes", what they're actually saying is "I personally like these features a lot." It's one of those ways to state an opinion as if it's an incontrovertible fact. In such situations I *don't* recommend getting into a debate about "what customers really need". Instead, I recommend just nodding and smiling, and then directing your team to build a coherent product which doesn't have the "table stakes" features. You can then offer that as a thing which could be sold, while you go about adding the table stakes features.] He will hear this as Maria *understanding his pain*. He'll be enormously more ready to listen. She's also proposed an adjustment that could work for both of them---limiting the support time, but focusing it on a small set of customers that *Geoff* identifies.
+The struggle to build an enterprise sales pipeline is keeping him up at night. The lack of certain table stakes enterprise-specific features is a huge part of that. Given that, he will hear this as Maria *understanding his pain*. He'll be enormously more ready to listen.
 
-He raises a few concerns Maria didn't know about, and then the two of them dive into the mechanics of how to limit support time, while still serving the most important customers. As part of that, they end up digging into what Geoff considers the most hotly-desired enterprise features. The two of them come up with a creative option: if the product team really focuses, Geoff sales leaders could starting *demoing* some key features quite soon (even though buiding them will take a long time). That will unblock a lot of currently stalled sales conversations, which will let Geoff hit his near-term milestones.
+She's also proposed an adjustment that could work for both of them---limiting the support time, but focusing it on a small set of customers that *Geoff* identifies.
 
-At the next prioritization sync, Geoff stands up and tells the rest of the execs to clear the decks for Maria's team. She sits and listens, slightly dizzy with surprise.
+He raises a few concerns Maria didn't know about, and then the two of them dive into the mechanics of how to limit support time, while still serving the most important customers. As part of that, they dig into the details of the features Geoff keeps hearing about from enterprise prospects. The two of them discover a creative option: if the product team really focuses, they could enable Geoff's sales leaders to starting *demoing* some key features very soon... even though fully implementing those features will take a long time. That will unblock a lot of currently stalled sales conversations, which will let Geoff hit his near-term milestones around enterprise sales pipeline.
+
+At the next prioritization sync, Geoff stands up and tells the rest of exec team to clear the decks for Maria's team. She sits and listens, slightly dizzy with surprise.
 
 # He is very worried that the lack of sophisticated identity management and a few key third party integrations are killing their enterprise conversations before they even get started.
 
@@ -92,17 +94,17 @@ Note: in the above pitch, Maria used several tactics that we'll explore in How T
 
    /"If *you* can identify current customers..."/
 
+# Often, a stakeholder's frustrating behavior is, in their mind, the only way to get that task done, and therefore the only way to accomplish the long-term outcome. To find a new way to work together, you have to get beneath what they're asking for, and understand what they're ultimately trying to achieve. Once you do so, you can propose a different, less frustrating way of working together, that will move you *both* towards the long-term outcome.
+
 ** The Power of Speaking to Strategic Outcomes
 
-Being able to speak to a strategic outcome that your stakeholder cares intensely about is *insanely valuable*, for (at least!) three reasons:
+As above, being able to speak to a strategic outcome that your stakeholder cares intensely about is *insanely valuable*. I'll name three reasons:
 
  - *It creates the flexibility to identify a new way to work together*
 
-   The inherent complexity of developing software means you need room to maneuver. You *can't* simply "do what your told".
+   Developing software is an incredibly complex effort. To succeed, you need room to maneuver. You need a nuanced understanding of long-term goals.
 
-   Understanding your stakeholder's long-term goals allows you to come up with a proposal which will genuinely help them, while also addressing your own deepest concerns.
-
-   Maria did this by proposing that her team focus their support time on the current customers whose needs overlap with the enterprise segment.
+   That nuanced understanding allowed Maria to come up with a new idea: focusing her team's support time on the "enterprise-like" current customers.
 
  - *It enables you to position your proposed change as a necessary step to achieve the outcome*
 
@@ -114,52 +116,60 @@ Being able to speak to a strategic outcome that your stakeholder cares intensely
 
    Because your stakeholder is a human being, and not a robot, it will mean a lot to them to see that you understand, care about, and are deeply committted to achieving the outcome. It will enable them to see you as a potential *partner*.
 
-   By showing her nuanced understanding of the pressures Geoff is under, Maria is offering to join him in his biggest struggle.
+   By showing her nuanced understanding of the pressures Geoff is under, Maria offered to join him in his biggest struggle. That act of empathy created enough trust and rapport for the two of them to collaborate. Together they discovered a creative option neither had been thinking about on their own: enabling sales team demos well before fully implementing features.
 
+I can tell by how you're nodding along, that you're totally convinced! But I can also tell that you are, rightfully, a bit worried. Because you may not have that nuanced understanding of your own stakeholder's long-term goals.
 
-# Of course, as we said earlier, stakeholders have a weirdly common habit of simply not telling you what their strategic goals are. We'll dig into why that's often true, below.
+For the simple reason that *your stakeholder doesn't talk about the outcomes they care most intensely about*.
 
-# But, first, let's dig into what an effective statement of strategy even *is*.
-
-# You're going to start by developing a clear articulation of a single key strategic outcome for the business---an outcome that your team can play a role in achieving, *if* you can solve some set of business problems.
-
-# Maybe say 12-18 months out, maybe that's what your part is
-
-# XXX Drill in on "Your area of the business"?
-
-# This will most often be something the business needs to achieve in the next 18-24 months, stated in business terms, along with some specifics of what your teams needs to do, as part of that.
-
-# It could be a shorter time frame, but I'll gently nudge you to look at least a year and a half out. Maybe ask: if you totally crush it the short-term, what's the awesome thing that might happen in 18 months? Consider speaking to that slightly longer-term thing as your Intent.
-
-Of course, all this is only possible because Maria has somehow divined the strategic outcome that Geoff cares most intensely about.
+# Of course, all this is only possible because Maria has somehow divined the strategic outcome that Geoff cares most intensely about.
 
 ** Why Stakeholders Hide Their Dreams
-
-
-# XXX Allowing the team to make decisions is scary -- shove it in later
 
 # Stakeholders do not always (usually?) clearly share the long-term business outcomes they care most intensely about. Sometimes, believe it or not, stakeholders will even try to *hide* their long-term goals from you.
 
 Why on earth not, you might well be asking?[fn:: Unless you've worked in software for a long time? In which case you might be saying, "/sigh/"]
 
-Stakeholders take a strategic business outcome and *convert* it into a series of specific tasks and projects. That is, often, literally what they think their job *is*. Then, having done so, they proceed to only ever talk about those tasks and projects.
+First off, let's just talk about the mechanics.
 
-They may even consider this narrowness, this limitation on what they share, a *virtue*---because it forces their teams to "focus on what matters".
+Your stakeholder has some long-term business outcome they're working backwards from. They then spend time and effort *converting* that outcome into a series of tasks, projects and milestones.
 
-Unfortunately, some stakeholders, being human, derive some of their sense of status or self-worth from being the only one who truly understands the strategic goals. Such stakeholders can thus be /resistant/ to openly sharing strategic goals. Which, sigh. We'll share tactics for helping such stakeholders open up in later in this chapter.
+The key problem is when, having sone so, they only talk in detail about the tasks, projects and milestones, and *don't* talk in detail about the long-term business outcome those are supposed to enable.
 
-At other times this is, essentially, an accident. The long-term strategic outcome feels so blindingly obvious to your stakeholder, they /forget/ they need to share it clearly and repeatedly. In fact, they may feel like they already *are* sharing it, over and over. When they say, "You absolutely need to hit your delivery deadlines for Q3," what they hear *in their own head* is, "Or else we won't be able to see if the new features improves retention rates."[fn:: That stakeholder is angrily surprised when they discover that, in order to hit the Q3 deadlines, the team cut corners, broke a key part of the product, and caused a raft of customers to churn. "But I told you how critical retention is!" the stakeholder may even say/yell. "It's literally all I ever talked about!" This statement is both completely true and completely untrue at the exact same time! Again, humans are fun.]
+Why might they do so? I'll name three distinct things you might run into, along with, for each an approach for productively digging in.
 
-Aligning with your stakeholder on a strategic outcome enables you to position your request for change as a necessary step in eventually achieving their long-term goal. It gives you a great deal of flexibility to come up with new ways to work together, that allow you to reach that long-term goal. Also, importantly, it enables you to demonstrate an authentic personal commitment to achieving that goal. This allows your stakeholder to start to see you as a *partner* in facing their most important challenges.
+*** "What You Don't Know Won't Distract You"
 
+Some stakeholders consider this narrowness, this limitation on what they share, a *virtue*---because it force you to "focus on what matters". They don't want you to be "distracted" by all this irrelevant information.
 
-# Being able to speak to a longer-term strategic outcome creates *flexibility* to offer a new way to work -- because you can situate that new way as a necessary step in helping achieve that outcome, even if it means *changing* the near-term goals (as it often will).
+In this case, I usually find that asking a few questions, and then Echoing Back, and asking more questions, is extremely effective. You're not challenging your stakeholder by doing so, you're allowing them to be an expert. You're celebrating their own nuanced understanding of the challenges facing your business. And then, once you have that more nuanced understanding, you can make a compelling proposal to focus on *new* things that matter.
+
+I'll show an example of this below.
+
+*** "What You Don't Know You Can't Argue With Me About"
+
+Unfortunately, some stakeholders, being human, derive some of their sense of status or self-worth from being the only one who truly understands the strategic outcomes. Such stakeholders can thus be /resistant/ to openly sharing outcomes.
+
+One particular flavor of this is that stakeholders fear (usually unconsciously) that if they open up a conversation about how they mapped from the strategic outcome to the tasks they're asking you to do, you'll push back. Such stakeholder feel insecure about their control, and therefore, don't want to risk being challenged.
+
+In this case, you'll want to steal some tactics from Mine for Emotions, so you can help that stakeholder feel less threatened by the possibility of your working with them at that level. To ensure they feel like they're retaining control, even as they open up.
+
+# XXX Allowing the team to make decisions is scary -- shove it in later
+
+# Which, sigh. We'll share tactics for helping such stakeholders open up in later in this chapter.
+
+*** What You Don't Know You Actually Do Know Because I Totally Told You
+
+At other times this is, essentially, an accident. The long-term strategic outcome feels so blindingly obvious to your stakeholder, they /forget/ they need to share it clearly and repeatedly. In fact, they may feel like they already *are* sharing it, over and over. When they say, "You absolutely need to hit your delivery deadlines for Q3," what they hear *in their own head* is, "Or else we won't be able to see if the new features *improve retention rates*."
+
+That stakeholder is angrily surprised when they discover that, in order to hit the Q3 deadlines, the team cut corners, broke a key part of the product, and caused a raft of customers to churn, dropping retention rates safely into the garbage.
+
+"But I told you how critical retention is!" the stakeholder may even say (or even, shout!). "It's literally all I ever talked about!" This statement is both completely true and completely untrue at the exact same time! Again, humans are fun.
+
+This is again, a case for constantly Echoing Back. By steadily checking in, every time you talk with your stakeholder, about how their immediate requests fit into their long-term goals, you'll avoid falling into this trap.
 
 # Furthermore, even when leadership *has* done the hard work to develop a coherent, focused strategy, they don't always share much in the way of *context* with individual teams. They may simply pass down goals, but not share the thinking that led to selecting those goals, nor the business outcomes that achieving those goals will hopefully unlock. For software projects, which need a tremendous amount of flexibility in order to succeed, passing down goals without context very rarely works.
 
-As a part of this, you'll also identify how your team can, if things go well, play a role in achieving that outcome.
-
-Often, a stakeholder's frustrating behavior is, in their mind, the only way to get that task done, and therefore the only way to accomplish the long-term outcome. To find a new way to work together, you have to get beneath what they're asking for, and understand what they're ultimately trying to achieve. Once you do so, you can propose a different, less frustrating way of working together, that will move you *both* towards the long-term outcome.
 
 *** How To Determine A Strategic Intent
 
@@ -641,6 +651,9 @@ In particular, why take the time to do so if you already have a *goal*?
 You're going to work on coming up with a clear articulation of that combination of a strategic outcome and your team's role in achieving that outcome.
 
 # XXX Bad Prose GO!
+
+** Table Stakes Rant
+[fn:: Ugh, I can't even write that sentence without carping briefly. I dunno, 90% of the time someone has insisted that a set of features are "table stakes", what they're actually saying is "I personally like these features a lot." It's one of those ways to state an opinion as if it's an incontrovertible fact. In such situations I *don't* recommend getting into a debate about "what customers really need". Instead, I recommend just nodding and smiling, and then directing your team to build a coherent product which doesn't have the "table stakes" features. You can then offer that as a thing which could be sold, while you go about adding the table stakes features.]
 
 * Learning Outcomes/Arc
 ** Maybe: The Power of Speaking to Strategic Outcomes
