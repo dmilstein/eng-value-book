@@ -8,6 +8,18 @@ OUTPUT_FILE="$BUILD_DIR/preview.html"
 # Create build directory if it doesn't exist
 mkdir -p "$BUILD_DIR"
 
+# Download CSS file if it doesn't exist
+CSS_FILE="$BUILD_DIR/water.css"
+if [ ! -f "$CSS_FILE" ]; then
+    echo "Downloading CSS file for offline use..."
+    curl -s "https://cdn.jsdelivr.net/npm/water.css@2/out/water.css" -o "$CSS_FILE"
+    if [ $? -eq 0 ]; then
+        echo "CSS file downloaded successfully"
+    else
+        echo "Warning: Could not download CSS file, will use online version"
+    fi
+fi
+
 # Function to extract file path and heading from simple format
 parse_pointer_file() {
     if [ ! -f "$POINTER_FILE" ]; then
@@ -84,11 +96,21 @@ export_section() {
         echo "<h1>Section Not Found</h1><p>Could not find heading: $HEADING</p>" > "$OUTPUT_FILE"
     else
         # Convert to HTML with pandoc
-        pandoc -f org -t html \
-            --standalone \
-            --css="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css" \
-            --title="Preview: $HEADING" \
-            /tmp/section.org -o "$OUTPUT_FILE"
+        if [ -f "$CSS_FILE" ]; then
+            # Use local CSS file if available
+            pandoc -f org -t html \
+                --standalone \
+                --css="water.css" \
+                --title="Preview: $HEADING" \
+                /tmp/section.org -o "$OUTPUT_FILE"
+        else
+            # Fall back to online CSS
+            pandoc -f org -t html \
+                --standalone \
+                --css="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css" \
+                --title="Preview: $HEADING" \
+                /tmp/section.org -o "$OUTPUT_FILE"
+        fi
     fi
     
     echo "Exported section to $OUTPUT_FILE at $(date)"
