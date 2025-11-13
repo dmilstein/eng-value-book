@@ -131,17 +131,27 @@ In such cases, although your stakeholder may /say/ that they're limiting what th
 
 Some stakeholders, being human, feel /insecure in their position of authority/.
 
-Such a stakeholder may *fear* getting into a conversation with you about how they mapped from the strategic outcome to the tasks they're asking you to do. The might fear that you'll find a deep flaw in their thinking, which will prove to everyone that they're a fraud. They might fear that you will be unwilling to do what they're asking, which will prove to everyone that they have no control over you. They might fear that simply considering alternatives to their plan will make them seem weak and indecisive.
+Such a stakeholder may *fear* getting into a conversation with you about how they mapped from the strategic outcome to the tasks they're asking you to do:
 
-Acting from a place of insecure fear, your stakeholder can try to aggressively shut down the conversation about long-term goals, altogether.
+ - They might fear that you'll find a deep flaw in their thinking, which will prove to everyone that they're a fraud.
 
-First off, let me encourage you to have some empathy for a leader in this situation. That empathy, to be clear, does not excuse bad actions. People acting out of insecurity do some awful things, and must be accountable for their poor behavior. But, in order for you to be able to productively approach a leader who is trapped in their own fears, I believe it's extremely useful to first tap into your sense of common humanity.
+ - They might fear that you will be unwilling to do what they're asking, which will prove to everyone that they have no control over you.
+
+ - They might fear that simply considering alternatives to their plan will make them seem weak and indecisive.
+
+Such feelings of fear can cause your stakeholder to aggressively shut down the conversation about long-term goals, altogether.
+
+This particular challenge occurs often enough, and is tricky enough to resolve, that I'm going to explore it in detail in the next chapter, [[id:5903AFE7-4B1E-422C-8537-2C56BBFBA643][Mine for Frustrations, Fears & Dreams]].
+
+But I will say: if you can develop a genuinely an empathetic understanding of the fears which are driving someone's problematic behavior, you can often find productive ways to move forward, that not only don't trigger those fears, but actually help them feel secure enough to take major risks.
+
+# First off, let me encourage you to have some empathy for a stakeholder who is feeling stuck in this feeling of panic and fear. Empathy, to be clear, does not excuse bad actions. People acting out of insecurity do some awful things, and they must be willing to face the consequences if they do so. But, in order for you to be able to productively approach a leader who is trapped in their own fears, I believe it's extremely useful to try to tap into your sense of common humanity.
 
 # derive some of their sense of status or self-worth from being the only one who truly understands the strategic outcomes. Such
 
 # Unfortunately, some stakeholders, being human, derive some of their sense of status or self-worth from being the only one who truly understands the strategic outcomes. Such stakeholders can thus be /resistant/ to openly sharing outcomes.
 
-In this case, you'll want to steal some tactics from Mine for Emotions, so you can help that stakeholder feel less threatened by the possibility of your working with them at that level. To ensure they feel like they're retaining control, even as they open up.
+# In this case, you'll want to steal some tactics from Mine for Emotions, so you can help that stakeholder feel less threatened by the possibility of your working with them at that level. To ensure they feel like they're retaining control, even as they open up.
 
 # XXX Allowing the team to make decisions is scary -- shove it in later
 
@@ -152,13 +162,25 @@ In this case, you'll want to steal some tactics from Mine for Emotions, so you c
 
 ** "What You Don't Know You Actually Do Know Because I Totally Told You Already"
 
-At other times this is, essentially, an accident. The long-term strategic outcome feels so blindingly obvious to your stakeholder, they /forget/ they need to share it clearly and repeatedly. In fact, they may feel like they already *are* sharing it, over and over. When they say, "You absolutely need to hit your delivery deadlines for Q3," what they hear *in their own head* is, "Or else we won't be able to see if the new features *improve retention rates*."
+My final reason that stakeholders won't tell you in detail about their strategic goals is simple:
 
-That stakeholder is angrily surprised when they discover that, in order to hit the Q3 deadlines, the team cut corners, broke a key part of the product, and caused a raft of customers to churn, dropping retention rates safely into the garbage.
+They think they've already done so.
 
-"But I told you how critical retention is!" the stakeholder may even say (or even, shout!). "It's literally all I ever talked about!" This statement is both completely true and completely untrue at the exact same time! Again, humans are fun.
+# At other times this is, essentially, an accident.
 
-This is again, a case for constantly Echoing Back. By steadily checking in, every time you talk with your stakeholder, about how their immediate requests fit into their long-term goals, you'll avoid falling into this trap.
+# they think about it night and day
+
+The long-term strategic outcome feels so blindingly obvious to your stakeholder, they simply /forget/ that they need to share it clearly and repeatedly. In fact, they may feel like they already *are* sharing it, over and over. When they say, "You need to hit your Q3 delivery deadlines," what they hear *in their own head* is, "...or else we won't be able to see if the new features *improve retention rates*."
+
+# Sure, they're not saying the part about retention rates out loud, but everyone totally knows that, right? I mean, it's obvious. They talked about it, like, a bunch, right?
+
+But the team has no idea of that connection. It got mentioned briefly in the Q2 kick off, and never spoken about again. The team was busy freaking out during that kickoff because they realized they were going to have to work with the nightmarish EasyConfig system[fn:: If you ever prefix the name of something you build with 'Easy- or 'Simple-', know in your soul that engineers will some day bitterly curse you and everything you hold dear.]
+
+Thus, in order to hit the Q3 deadlines, the team cuts corners, breaks a key part of the product, and causes a raft of customers to churn, dropping retention rates safely into the garbage.
+
+That stakeholder is furious. /"But I *told* you over and over how critical retention is!"/ the stakeholder says (or, um, shouts). /"It's all I ever talked about!"/ This statement is both completely true and completely untrue at the exact same time! Again, humans are fun.
+
+This is why I very, very strong recommend making a consistent practice of echoing back and summarizing your current understanding of why you're doing the work you're doing. By steadily checking in, every time you talk with your stakeholder, about how their immediate requests fit into their long-term goals, you'll discover immediately when you're acting out sync with what they truly want.
 
 # Furthermore, even when leadership *has* done the hard work to develop a coherent, focused strategy, they don't always share much in the way of *context* with individual teams. They may simply pass down goals, but not share the thinking that led to selecting those goals, nor the business outcomes that achieving those goals will hopefully unlock. For software projects, which need a tremendous amount of flexibility in order to succeed, passing down goals without context very rarely works.
 
@@ -178,94 +200,7 @@ Furthermore, even when leadership *has* done the hard work to develop a coherent
 Luckily, even if leadership hasn't perfectly defined or communicated a strategy, you can, almost always, *still* identify and align around *some* form of strategic intent with your stakeholder. And then gradually improve that over time.
 
 To do so, we're going to learn about our first two Tactical Empathy skills -- "Guess & Check" and "Echo Back & Summarize".
-** Outcomes Must Enable Decisions
-
-There are many, many mediocre goals, outcomes, key results, and intents out there.
-
-Luckily, there's a razor sharp test of a good strategic outcome:
-
- - A good strategic outcome is one that allows people across the company to quickly make good decisions
-
-(I encountered the idea of strategy enabling decisions in Stephen Bungay's The Art of Action, and it has, honestly, kind of changed my life)
-
-Unfortunately, in my experience, the vast majority of companies building software do not set strategy in a way that allows for rapid on-the-ground decision-making. Rather, it's a set of aspirational goals, without any opinionated guidance on how to get to those goals. Or a set of clearly conflicting priorities, with no way to weight them against each other.
-
-If you are trying to come up with a clean, effective statement of strategy, here are two excellent questions to ask yourself:
-
-# I'll offer a simple lens for you to use, as you go about trying to develop and refine your understanding of a strategic outcome:
-
- - Is it possible to *disagree* with your statement of strategy?
-
- - Does the strategy allow you to say *"No"* to things?
-
-These two questions ensure you avoid impressive-sounding by meaningless [toothless] strategies like "Accelerate growth" or "Become more customer centric". Who could possibly disagree with those? What would they possibly allow you to say "no" to?
-
-You want to relentlessly refine such vague statements until they become sharper, clearer and more opinionated. For example, you might turn "Accelerate growth" into "Accelerate growth by enabling more upsells to existing customers".
-
-# XXX Experiment with weaving back in Maria's story
-
-That's a statement that someone could absolutely disagree with. Such a person might make a case for expanding your Total Addressable Market (TAM), instead of capturing more revenue from existing customers. That's a valid alternative strategy. If you can't imagine a valid alternative strategy, you're running some real risk of developing a statement too vague and aspirational to be useful.
-
-If your company committed to "Accelerate growth by enabling more upsells to existing customers" that would absolutely let a team on the ground say "No" to things. When an excited sales leader shows up at the weekly demo and demands the team add a feature to allow them to sell into a new segment, the product manager can calmly refer to that intent to push back.
-
-Fundamentally, a good strategic outcome allows you to *make decisions*.
-
-** Sidebar: A Theory Of Why Most Goals Are Terrible
-
-Here's the thing: developing software is weird as hell.
-
-And, at the heart of that weirdness is: to successfully develop software, the team on the ground has to make a metric ton of *decisions*.
-
-Like, way, way more than a team working on a typical non-software business project.
-
-I don't say this to slag people working in sales, marketing or other critical business functions. Those jobs are extremely hard, and require a great deal of skill and experience to do well. Some of the smartest, most effective leaders I've ever known came up through marketing and sales.
-
-But the special weirdness of software around both the quantity and the scope of decision-making is not shared by most business functions.
-
-A team that spends six or twelve months building a valuable piece of software will have, over that time, made hundreds of decisions to:
-
- - Hone in on exactly the customer problem that software should solve
-
- - Iteratively explore features that could solve that problem
-
- - Identify which of those features can be built in a reasonable period of time
-
- - Find a safe, maintainable way to build those features
-
-Crucially, all those decisions effect each other. If it proves harder than expected to build something, the team has to revisit their decision about what features to build. If early product testing reveals a key constraint that customers forgot to share, the team has to revisit a whole slew of decisions.
-
-You can't make all the big decisions up front, and leave the executional details to the team.
-
-Successful teams make decisions of different scopes, all the time.
-
-They must be able to make a lot of those decisions *without asking their boss*.
-
-Unfortunately, most goals fail on this front, for one of two reasons:
-
- - Insufficient context
-
- - Unclear prioritization
-
-The former means: some stakeholder has decided what the team "should do", and they just tell the team to do that thing. They don't pass on why that thing is important, alternatives considered, risks to avoid, upstream dependencies, or downstream consequences, etc, etc. This cripples the team's ability to rapidly make good decisions.
-
-The latter means: rather than face hard tradeoffs between competing priorities, a stakeholder simply assigns separate goals to separate teams, and washes their hands of the ensuing chaos and slowdowns.
-
-# Also assign this to Maria's company
-
-Company facing a hard choice between keeping existing customers happy and developing a new product? No problem, make the former the goal of the Account Management team, and the latter the goal of the Product Team, no tradeoffs needed. Until, of course, the product team's work grinds to a halt, because the AM team is constantly pressuring them to support existing customers, because they've been told that's the most important thing for the business. The product team can't make a quick decision to ignore the AM's -- they have to loop in the Nearest Common Ancestor of their team and the AM's. Which makes all those decisions take forever.
-
-The lens of decision speed is incredibly useful.
-
-The reason this is such a common form of conflict with The Rest Of The Business is that the uncertainty around developing software is just so much greater than around most business activities. It's a form of research as much as executional operation.
-
-Please go read Principles of Product Development Flow, by Don Reinertsen if you would like to be blinded by the science of this.
-
-# Why Most Goals Are Terrible
-
 ** Use Educated Guesses To Probe For Strategy
-** A Story: Alistair Digs In With Max Hartswell
-
-*** Tactical Empathy Skill #1: Guess & Check
 
 You're trying to determine a strategic intent for your business, and, in particular, one that your stakeholder finds *compelling*.
 
@@ -309,6 +244,7 @@ If you want to dig for information, or understand someone's concerns, or draw ou
 
 We'll lay out some exercises to practice this, at the end of the chapter.
 
+** A Story: Alistair Digs In With Max Hartswell
 ** Handling Leaders Who Avoid Making Decisions
 
 I can't get out of this chapter without mentioning the unfortunate possibility that your stakeholder may *angrily resist* making a clear statement of a *single* strategic intent. Such a stakeholder might say something like:
@@ -695,6 +631,90 @@ Being able to speak to a strategic outcome that your stakeholder cares intensely
 
    By showing her nuanced understanding of the pressures Geoff is under, Maria offered to join him in his biggest struggle. That act of empathy created enough trust and rapport for the two of them to collaborate. Together they discovered a creative option neither had been thinking about on their own: enabling sales team demos well before fully implementing features.
 
+** Outcomes Must Enable Decisions
+
+There are many, many mediocre goals, outcomes, key results, and intents out there.
+
+Luckily, there's a razor sharp test of a good strategic outcome:
+
+ - A good strategic outcome is one that allows people across the company to quickly make good decisions
+
+(I encountered the idea of strategy enabling decisions in Stephen Bungay's The Art of Action, and it has, honestly, kind of changed my life)
+
+Unfortunately, in my experience, the vast majority of companies building software do not set strategy in a way that allows for rapid on-the-ground decision-making. Rather, it's a set of aspirational goals, without any opinionated guidance on how to get to those goals. Or a set of clearly conflicting priorities, with no way to weight them against each other.
+
+If you are trying to come up with a clean, effective statement of strategy, here are two excellent questions to ask yourself:
+
+# I'll offer a simple lens for you to use, as you go about trying to develop and refine your understanding of a strategic outcome:
+
+ - Is it possible to *disagree* with your statement of strategy?
+
+ - Does the strategy allow you to say *"No"* to things?
+
+These two questions ensure you avoid impressive-sounding by meaningless [toothless] strategies like "Accelerate growth" or "Become more customer centric". Who could possibly disagree with those? What would they possibly allow you to say "no" to?
+
+You want to relentlessly refine such vague statements until they become sharper, clearer and more opinionated. For example, you might turn "Accelerate growth" into "Accelerate growth by enabling more upsells to existing customers".
+
+# XXX Experiment with weaving back in Maria's story
+
+That's a statement that someone could absolutely disagree with. Such a person might make a case for expanding your Total Addressable Market (TAM), instead of capturing more revenue from existing customers. That's a valid alternative strategy. If you can't imagine a valid alternative strategy, you're running some real risk of developing a statement too vague and aspirational to be useful.
+
+If your company committed to "Accelerate growth by enabling more upsells to existing customers" that would absolutely let a team on the ground say "No" to things. When an excited sales leader shows up at the weekly demo and demands the team add a feature to allow them to sell into a new segment, the product manager can calmly refer to that intent to push back.
+
+Fundamentally, a good strategic outcome allows you to *make decisions*.
+
+** Sidebar: A Theory Of Why Most Goals Are Terrible
+
+Here's the thing: developing software is weird as hell.
+
+And, at the heart of that weirdness is: to successfully develop software, the team on the ground has to make a metric ton of *decisions*.
+
+Like, way, way more than a team working on a typical non-software business project.
+
+I don't say this to slag people working in sales, marketing or other critical business functions. Those jobs are extremely hard, and require a great deal of skill and experience to do well. Some of the smartest, most effective leaders I've ever known came up through marketing and sales.
+
+But the special weirdness of software around both the quantity and the scope of decision-making is not shared by most business functions.
+
+A team that spends six or twelve months building a valuable piece of software will have, over that time, made hundreds of decisions to:
+
+ - Hone in on exactly the customer problem that software should solve
+
+ - Iteratively explore features that could solve that problem
+
+ - Identify which of those features can be built in a reasonable period of time
+
+ - Find a safe, maintainable way to build those features
+
+Crucially, all those decisions effect each other. If it proves harder than expected to build something, the team has to revisit their decision about what features to build. If early product testing reveals a key constraint that customers forgot to share, the team has to revisit a whole slew of decisions.
+
+You can't make all the big decisions up front, and leave the executional details to the team.
+
+Successful teams make decisions of different scopes, all the time.
+
+They must be able to make a lot of those decisions *without asking their boss*.
+
+Unfortunately, most goals fail on this front, for one of two reasons:
+
+ - Insufficient context
+
+ - Unclear prioritization
+
+The former means: some stakeholder has decided what the team "should do", and they just tell the team to do that thing. They don't pass on why that thing is important, alternatives considered, risks to avoid, upstream dependencies, or downstream consequences, etc, etc. This cripples the team's ability to rapidly make good decisions.
+
+The latter means: rather than face hard tradeoffs between competing priorities, a stakeholder simply assigns separate goals to separate teams, and washes their hands of the ensuing chaos and slowdowns.
+
+# Also assign this to Maria's company
+
+Company facing a hard choice between keeping existing customers happy and developing a new product? No problem, make the former the goal of the Account Management team, and the latter the goal of the Product Team, no tradeoffs needed. Until, of course, the product team's work grinds to a halt, because the AM team is constantly pressuring them to support existing customers, because they've been told that's the most important thing for the business. The product team can't make a quick decision to ignore the AM's -- they have to loop in the Nearest Common Ancestor of their team and the AM's. Which makes all those decisions take forever.
+
+The lens of decision speed is incredibly useful.
+
+The reason this is such a common form of conflict with The Rest Of The Business is that the uncertainty around developing software is just so much greater than around most business activities. It's a form of research as much as executional operation.
+
+Please go read Principles of Product Development Flow, by Don Reinertsen if you would like to be blinded by the science of this.
+
+# Why Most Goals Are Terrible
+
 * Learning Outcomes/Arc
 ** Maybe: The Power of Speaking to Strategic Outcomes
 ** Some Problems With Goals
@@ -707,6 +727,8 @@ Failure to export context
 * Todos
 ** Overall rambles
 I think, shorter, punchier sections, with stories woven throughout.
+** TODO Maybe turn Avoid Decisions into "What You Don't Know.."
+you can't force me to make a decision about
 ** TODO Decide "Intent" vs "Outcome"
 I think, Outcome.
 ** TODO I think, several short stories
