@@ -105,7 +105,7 @@ I'll name three distinct scenarios in which stakeholders hide their dreams this 
 
 # Why might they do so? I'll name three distinct things you might run into, along with, for each an approach for productively digging in.
 
-*** "What You Don't Know Won't Distract You"
+** "What You Don't Know Won't Distract You"
 
 Some stakeholders deliberately limit what they share to force you to "focus on what matters". They don't want you to be distracted by what they consider to be irrelevant information.
 
@@ -123,15 +123,23 @@ I'll share an example of this below.
 
 Unfortunately, the straightforward approach doesn't always work.
 
-Some stakeholders get weirdly and even intensely *upset* when you ask questions about strategic outcomes. They won't share enough for you to have something to echo back and summarize.
+Some stakeholders get weirdly and even intensely *upset* when you ask questions about strategic outcomes. They might bluntly refuse to share anything with you. They might go and tell your boss that you need to stop wasting so much time and just execute.
 
-In these cases, your stakeholder might be saying to you, and to themselves, that they're limiting what they share in order to create focus, they're *actually* oing so for a different reason.
+In such cases, although your stakeholder may /say/ that they're limiting what they share in order to create focus, they're *actually* doing so for a different underlying reason.
 
-*** "What You Don't Know You Can't Argue With Me About"
+** "What You Don't Know You Can't Argue With Me About"
 
-Unfortunately, some stakeholders, being human, derive some of their sense of status or self-worth from being the only one who truly understands the strategic outcomes. Such stakeholders can thus be /resistant/ to openly sharing outcomes.
+Some stakeholders, being human, feel /insecure in their position of authority/.
 
-One particular flavor of this is that stakeholders fear (usually unconsciously) that if they open up a conversation about how they mapped from the strategic outcome to the tasks they're asking you to do, you'll push back. Such stakeholder feel insecure about their control, and therefore, don't want to risk being challenged.
+Such a stakeholder may *fear* getting into a conversation with you about how they mapped from the strategic outcome to the tasks they're asking you to do. The might fear that you'll find a deep flaw in their thinking, which will prove to everyone that they're a fraud. They might fear that you will be unwilling to do what they're asking, which will prove to everyone that they have no control over you. They might fear that simply considering alternatives to their plan will make them seem weak and indecisive.
+
+Acting from a place of insecure fear, your stakeholder can try to aggressively shut down the conversation about long-term goals, altogether.
+
+First off, let me encourage you to have some empathy for a leader in this situation. That empathy, to be clear, does not excuse bad actions. People acting out of insecurity do some awful things, and must be accountable for their poor behavior. But, in order for you to be able to productively approach a leader who is trapped in their own fears, I believe it's extremely useful to first tap into your sense of common humanity.
+
+# derive some of their sense of status or self-worth from being the only one who truly understands the strategic outcomes. Such
+
+# Unfortunately, some stakeholders, being human, derive some of their sense of status or self-worth from being the only one who truly understands the strategic outcomes. Such stakeholders can thus be /resistant/ to openly sharing outcomes.
 
 In this case, you'll want to steal some tactics from Mine for Emotions, so you can help that stakeholder feel less threatened by the possibility of your working with them at that level. To ensure they feel like they're retaining control, even as they open up.
 
@@ -142,7 +150,7 @@ In this case, you'll want to steal some tactics from Mine for Emotions, so you c
 # You're not challenging your stakeholder by doing so, you're allowing them to be an expert. You're celebrating their own nuanced understanding of the challenges facing your business. And then, once you have that more nuanced understanding, you can make a compelling proposal to focus on *new* things that matter.
 
 
-*** "What You Don't Know You Actually Do Know Because I Totally Told You Already"
+** "What You Don't Know You Actually Do Know Because I Totally Told You Already"
 
 At other times this is, essentially, an accident. The long-term strategic outcome feels so blindingly obvious to your stakeholder, they /forget/ they need to share it clearly and repeatedly. In fact, they may feel like they already *are* sharing it, over and over. When they say, "You absolutely need to hit your delivery deadlines for Q3," what they hear *in their own head* is, "Or else we won't be able to see if the new features *improve retention rates*."
 
