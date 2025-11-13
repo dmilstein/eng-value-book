@@ -4,57 +4,58 @@
 #+title: Identify a Strategic Intent
 #+filetags: :Chapter:
 * Identify A Strategic Outcome
-** A Story: Maria Makes A Compelling Offer
+** A Story: Maria Struggles To Make Her Case
+
+# Maria Is Stuck With Geoff
+# Struggles to make her case
 
 Remember Maria, the PM from our opening chapter, who was struggling with her VP of Sales, Geoff? Because the Geoffster kept on undercutting her prioritization to try to force work for his pet customers? And thus her product strategy was dying the death of a thousand cuts?
 
-If Maria *hasn't* identified the strategic outcome that Geoff cares most intensely about, she might try saying something perfectly rational, like:
+How might Maria make her case? Well, she could try saying something perfectly rational, like:
+# If Maria *hasn't* identified the strategic outcome that Geoff cares most intensely about, she might try saying something perfectly rational, like:
 
 /"We're never going to be able to deliver on our product strategy if we can't focus."/
 
-On the one hand, this statement has the benefit of being *completely true*. On the other hands, odds are very good that Geoff has, [like most executives] during the course of his career, acquired the skill of /creatively mis-hearing/ requests to change his behavior.[fn:: I'm now 100% imagining this skill being taught to promising young leaders, before they're allowed into the hallowed halls of the Senior Leadership Team. Along with, /How To Demand Progress Against Obviously Conflicting Goals/, /How To Blame A Team For Your Own Failings: A Survey Course/, and /How To Join Meetings Late And Leave Them Early To Demonstrate How Important You Are/. Are these a series of lectures? Small group discussion sections? What HBS case studies are involved? I have so many ideas.]
+This statement has the benefit of being *completely true*. But, is it going to be *effective*? Eh, not so much.
 
-# Maybe, Like most executives, Geoff has acquired the skill of creatively mishearing requests to change his behavior.
+Geoff, like many executives, has a deep gift for /creatively mis-hearing/ requests.[fn:: I'm now 100% imagining this skill being taught to promising young leaders, before they're allowed into the hallowed halls of the Senior Leadership Team. Along with, /How To Demand Progress Against Obviously Conflicting Goals/, /How To Blame A Team For Your Own Failings: A Survey Course/, and /How To Join Meetings Late And Leave Them Early And Other Demonstrations Of How Just Important You Are/. Are these a series of lectures? Small group discussion sections? What are the titles of the HBS case studies? I have so many questions.]
 
-He thus manages to hear this as Maria asking for something *for the product team*---not for the business at large. Geoff will use this skill of creative mis-hearing /totally unconsciously/. When our brains come up with ideas in our own self-interest, they work hard to pretend that they're not doing so. We call this "rationalizing", and usually we do it unconsciously.[fn:: Why? Evolution has selected for our being able to truly believe in our own unselfishness, in order to effectively persuade others that we are unselfish. So being able to act selfishly, but believe we're not... has got thousands of years of natural selection working for it.]
+He thus manages to hear this as Maria asking for something *for the product team*, which something is clearly not important for the business as a whole. Note that Geoff uses this skill of "creative mis-hearing" totally unconsciously! When we decide to act in our own self-interest, our brains are incredibly good at pretending that we're *not* doing so. We call this "rationalizing", and we're all masters of it.[fn:: Why is this such a profound human skill, you might ask? Evolution has relentlessly selected for our being able to truly believe in our own unselfishness, in order to effectively persuade others that we are unselfish. So being able to act selfishly, while honestly believing we're not doing so, is a fundamental trait of humans everywhere.]
 
-# Evolution has worked very hard, for thousands of years, to ensure we can internal building narratives about our own fundamental goodness, no matter what we do.
+How will Geoff's brain explain this situation to him, so that he can brush off Maria's request, and still maintain his belief that he, at least, is acting in the company's best interests? OMG, it's so easy:
 
-I mean, consider this whole situation from Geoff's perspective:
+Geoff has plan and quota to hit. He's not asking for much, just attention for a few key problems here and there. Maria clearly doesn't understand how hard it is to keep customers happy. Are they supposed to just let those customers churn? He's being completely and totally /reasonable/.
 
-He has plan and quota to hit! He's not asking for much, just attention for a few key problems here and there! Maria clearly doesn't understand how hard it is to keep customers happy! Are they supposed to just let those customers churn?! He's being completely and totally /reasonable/.
+# And, having dispensed with this challenge, Geoff will continue on his merry,  distracting way.
+Let's back up just a bit. *Why* is Geoff's brain spinning up all these stories, so quickly? What is it trying to protect him from? Why does he perceive Maria's request as *not* in his self-interest.
 
-# [fn:: Like literally all humans, Geoff also has the the skill of creatively rationalizing behavior in his own self-interest. And, yes, by all humans, I totally mean you and me. I'm super good at this one. Maybe a bit worryingly so, to be honest.]
+Simple:
 
-# and will continue on his merry, relentlessly distracting way.
+*Geoff is worried that Maria is going to prevent him from succeeding at his job.*
 
-If we did beneath the specific concerns and objections, what's happening at a deeper level is simply:
+# Where success is, ultimately, being able to keep working towards some long-term outcome he cares intensely about.
 
-*Geoff is worried that Maria is going to prevent him from succeeding in his own job.*
+As long as he perceives Maria's requests as a threat to his own success, Geoff's mind will eagerly come up with all sorts of excellent reasons why he should push back.
 
-Where success is, ultimately, being able to keep working towards some long-term outcome he cares intensely about.
-
-In such a situation, Geoff's mind will eagerly come up with all sorts of excellent reasons why he should push back.
-
-But what if instead, Maria *knew* the outcome that Geoff cared most intensely about?
+But what if instead, Maria *knew* how Geoff thought about success?
 
 What if she could speak to it in the very terms Geoff uses?
 
 What if she could offer him a new way to succeed at his job, by working *with* her?
 
-Let's see how that could play out.
+** Maria Makes A Compelling Offer
 
-How does Geoff define success as his job? What is keeping him up at night?
+Geoff and Maria's company is facing a critical challenge.
 
-Geoff and Maria's company is facing a critical challenge: for years, they've been successfully selling to small and medium-sized businesses (aka, the SMB segment). That segment is, unfortunately, pretty much completely tapped out. Geoff's sales team is running out of SMB leads. The company will only be able to grow revenue if they can somehow start selling to significantly larger business, aka, the fabled enterprise segment.
+For years, they've been successfully selling to small and medium-sized businesses (aka, the SMB segment). That segment is, unfortunately, pretty much completely tapped out. The marketing team is struggling to turn up any new SMB leads. SMB renewals are steady, but the tight budgets at small companies, means there's no real room to upsell. The company will only be able to grow revenue if they can somehow start selling to significantly larger businesses. Aka, the fabled enterprise segment.
+
+So that's what they've decided to do.
 
 At the last board meeting, the CEO stood up and confidently promised that, within eighteen months, a full 30% of annual recurring revenue would come from enterprise customers.
 
-This is, let us say, a happy dream to imagine... but is not something they're anywhere close to achieving at the moment.
+Geoff, being *the VP of Sales*, feels hugely under the gun for this outcome. He's been building up an enterprise sales team, he's been endlessly reviewing recordings of sales calls, he's personally conducted a half dozen interviews with enterprise buyers. None of it seems to be working yet.
 
-Geoff, being *the VP of Sales*, feels hugely under the gun for this outcome. He's been building up an enterprise sales team, he's endlessly reviewing recordings of sales demos with any opportunities even vageuly resembling enterprise, he's personally conducted a half dozen interviews with enterprise buyers. None of it seems to be working yet.
-
-Some of the customers Geoff is trying to cadge favors for are their largest existing customers, the small number who are in that enterprise segment.
+# Some of the customers Geoff is trying to cadge favors for are their largest existing customers, the small number who are in that enterprise segment.
 
 If Maria knew all this, she could approach Geoff in an entirely different manner, to make the *same underlying request*:
 
@@ -62,89 +63,69 @@ If Maria knew all this, she could approach Geoff in an entirely different manner
 
 /"But I'm worried that the product team hasn't been supplying you with the kind of compelling features that will open the door to enterprise buyers. And since those deals take so crazy long to close, I'm really worried that, every month we don't have something new, your team is in a worse and worse position."/
 
-/"Could you help find a way to commit more time to developing those key enterprise features? Even if it means allowing some current customers to grow frustrated. One option: if you can identify current customers who have similar problems to your enterprise prospects, we can focus our limited support time on them, to maximize learning while also keeping those customers happy."/
+/"Could you help me find a way to commit more time to developing those key enterprise features? Even if it means allowing some current customers to grow frustrated."/
+
+/"One option: if you can identify current customers who have similar problems to your enterprise prospects, we can focus our limited support time on them, to maximize learning while also keeping those customers happy."/[fn:: Maria used several tactics that we'll explore in How To Make A Compelling Offer.]
 
 Geoff will hear this request very, very differently.
 
-The struggle to build an enterprise sales pipeline is keeping him up at night. The lack of certain table stakes enterprise-specific features is a huge part of that. Given that, he will hear this as Maria *understanding his pain*. He'll be enormously more ready to listen.
+The struggle to build an enterprise sales pipeline is keeping him up at night. The lack of  enterprise-specific features is a huge part of that. Thus, he hears this as Maria *understanding his pain*. He'll be enormously more ready to listen.
 
-She's also proposed an adjustment that could work for both of them---limiting the support time, but focusing it on a small set of customers that *Geoff* identifies.
+She's also proposed a specific adjustment that could work for both of them---limiting the support time, but focusing it on a small set of customers that *Geoff* identifies. That puts him in a position of some control, which feels much better than simply being told to back off.
 
-He raises a few concerns Maria didn't know about, and then the two of them dive into the mechanics of how to limit support time, while still serving the most important customers. As part of that, they dig into the details of the features Geoff keeps hearing about from enterprise prospects. The two of them discover a creative option: if the product team really focuses, they could enable Geoff's sales leaders to starting *demoing* some key features very soon... even though fully implementing those features will take a long time. That will unblock a lot of currently stalled sales conversations, which will let Geoff hit his near-term milestones around enterprise sales pipeline.
+After she finishes, Geoff asks a few questions, which Maria listens to carefully. Then, he shrugs, and says "Okay, let's talk it out." They dive into the mechanics of her proposed adjustment, which Maria can tell Geoff is intrigued by.
 
-At the next prioritization sync, Geoff stands up and tells the rest of exec team to clear the decks for Maria's team. She sits and listens, slightly dizzy with surprise.
+As they talk, Maria more about the enterprise prospects, and Geofff's struggles to unblock the sales pipeline. She discovers that not being able to *demo* the under-development features is a consistent shutdown moment. She makes an offer to Geoff: if the product team could really focus, they could enable Geoff's sales leaders to start demoing a few key features *next month*[fn:: Those features will take many more months to be production-ready, but given how long the enterprise sales cycle runs, this is a very reasonable approach.]. Geoff looks up sharply. Demos could unblock half his currently stalled sales conversations. He might even be able to hit his upcoming milestones around pipeline. "Okay, which features, exactly?" he asks, intently.
 
-# He is very worried that the lack of sophisticated identity management and a few key third party integrations are killing their enterprise conversations before they even get started.
+At the next prioritization sync, as Maria watches, slightly dizzy with surprise, Geoff stands up and tells the rest of execs to clear the decks so Maria's team can focus.
 
-Note: in the above pitch, Maria used several tactics that we'll explore in How To Make A Compelling Offer. Specifically:
+Now, is Geoff going to immediately become a perfect partner to Maria, and never act politically, ever again? Likely, no. But they are now genuinely working together, towards a common goal. As they overcome challenges together, they will build more and more trust.
 
- - Tell A Story Of Growing Danger
+And it all started because Maria was able to speak so well to what Geoff most deeply wanted.
 
-   /"Every month we don't have something new, your team is in a worse and worse position."/
+There's just one teensy problem with this plan: *most stakeholders don't talk in detail about strategic outcomes*.
 
- - Invite Your Stakeholder To Solve Your Problems
+# There's just one teensy problem with this plan: *most stakeholders don't talk /usefully/ about strategic outcomes*. (and then bridge to what makes a useful outcome)
 
-   /"Could you help find a way to commit more time to developing those key enterprise features?"/
+** Why Stakeholders Hide Their Dreams, And What You Can Do About It
 
- - Address Fears Directly
+Stakeholders do not always clearly share the long-term business outcomes they care most intensely about. Sometimes, believe it or not, stakeholders will even try to *hide* these outcomes from you.
 
-   /"Even if it means allowing some current customers to grow frustrated."/
+/"What...?"/ , you might well be thinking.[fn:: Unless you've worked in software for a long time? In which case you might be thinking, "/sigh/?"]
 
- - Keep 'Em Busy
+Look, your stakeholder has a strategic outcome they're working backwards from. They've spent time and effort *converting* that outcome into a series of tasks, projects and milestones---aka, "a plan". That is *their job*.
 
-   /"If *you* can identify current customers..."/
+Many stakeholders, having made such a plan, will proceed to *only* ever talk about the tasks, projects and milestones. Such stakeholders don't talk in detail about the long-term business outcome the plan is supposed to accompish. Which means they don't provide *you* with enough of a nuanced understanding to productively challenge them to work in a new way.
 
-# Often, a stakeholder's frustrating behavior is, in their mind, the only way to get that task done, and therefore the only way to accomplish the long-term outcome. To find a new way to work together, you have to get beneath what they're asking for, and understand what they're ultimately trying to achieve. Once you do so, you can propose a different, less frustrating way of working together, that will move you *both* towards the long-term outcome.
+This can leave you very stuck, indeed.
 
-** The Power of Speaking to Strategic Outcomes
+I'll name three distinct scenarios in which stakeholders hide their dreams this way. For each, I'll offer an approach for productively learning more.
 
-As above, being able to speak to a strategic outcome that your stakeholder cares intensely about is *insanely valuable*. I'll name three reasons:
+# Many stakeholders then convince themselves that the only way to achieve the outcome is to execute on the plan, just as they've imagined it.
 
- - *It creates the flexibility to identify a new way to work together*
-
-   Developing software is an incredibly complex effort. To succeed, you need room to maneuver. You need a nuanced understanding of long-term goals.
-
-   That nuanced understanding allowed Maria to come up with a new idea: focusing her team's support time on the "enterprise-like" current customers.
-
- - *It enables you to position your proposed change as a necessary step to achieve the outcome*
-
-   This helps enormously with motivation, because of how much your stakeholder cares about this outcome.
-
-   Maria was able to say, authentically, that they must change how they work together if her team is going to successfully deliver the new enterprise features that Geoff desperately wants.
-
- - *It enables you to demonstrate a personal commitment to achieving the outcome*
-
-   Because your stakeholder is a human being, and not a robot, it will mean a lot to them to see that you understand, care about, and are deeply committted to achieving the outcome. It will enable them to see you as a potential *partner*.
-
-   By showing her nuanced understanding of the pressures Geoff is under, Maria offered to join him in his biggest struggle. That act of empathy created enough trust and rapport for the two of them to collaborate. Together they discovered a creative option neither had been thinking about on their own: enabling sales team demos well before fully implementing features.
-
-I can tell by how you're nodding along, that you're totally convinced! But I can also tell that you are, rightfully, a bit worried. Because you may not have that nuanced understanding of your own stakeholder's long-term goals.
-
-For the simple reason that *your stakeholder doesn't talk about the outcomes they care most intensely about*.
-
-# Of course, all this is only possible because Maria has somehow divined the strategic outcome that Geoff cares most intensely about.
-
-** Why Stakeholders Hide Their Dreams
-
-# Stakeholders do not always (usually?) clearly share the long-term business outcomes they care most intensely about. Sometimes, believe it or not, stakeholders will even try to *hide* their long-term goals from you.
-
-Why on earth not, you might well be asking?[fn:: Unless you've worked in software for a long time? In which case you might be saying, "/sigh/"]
-
-First off, let's just talk about the mechanics.
-
-Your stakeholder has some long-term business outcome they're working backwards from. They then spend time and effort *converting* that outcome into a series of tasks, projects and milestones.
-
-The key problem is when, having sone so, they only talk in detail about the tasks, projects and milestones, and *don't* talk in detail about the long-term business outcome those are supposed to enable.
-
-Why might they do so? I'll name three distinct things you might run into, along with, for each an approach for productively digging in.
+# Why might they do so? I'll name three distinct things you might run into, along with, for each an approach for productively digging in.
 
 *** "What You Don't Know Won't Distract You"
 
-Some stakeholders consider this narrowness, this limitation on what they share, a *virtue*---because it force you to "focus on what matters". They don't want you to be "distracted" by all this irrelevant information.
+Some stakeholders deliberately limit what they share to force you to "focus on what matters". They don't want you to be distracted by what they consider to be irrelevant information.
 
-In this case, I usually find that asking a few questions, and then Echoing Back, and asking more questions, is extremely effective. You're not challenging your stakeholder by doing so, you're allowing them to be an expert. You're celebrating their own nuanced understanding of the challenges facing your business. And then, once you have that more nuanced understanding, you can make a compelling proposal to focus on *new* things that matter.
+It's important to realize that this approach is not dumb or crazy. This exact approach may have served your stakeholder extremely well when running *non-software* projects. Such projects often *can* be broken down into genuinely independent parts, that play out mostly as planned. It's often better in such cases for a leader to spend most of their time with each team on the details of those parts, not on the far-distant big picture.
 
-I'll show an example of this below.
+The good news and bad news, of course, is that this approach super doesn't work for software projects.
+
+The reason that's *good news* is that, if you can learn that longer-term goal, you can quickly start offering your stakeholder creative options to get their faster. Which will feel good to them. Which will then make them more open to sharing their long-term goals with you.
+
+To bootstrap this process, my recommendation is to steadily ask questions and echo back, using the tactics of the previous chapter to gradually draw out your stakeholder's goals.
+
+Most such stakeholders will, after a brief period of resistance, start to open up. Most will ultimately speak in real detail to the long-term outcomes. If you do an even half-decent job of summarizing back what you've heard, most will thank you for having dug in.
+
+I'll share an example of this below.
+
+Unfortunately, the straightforward approach doesn't always work.
+
+Some stakeholders get weirdly and even intensely *upset* when you ask questions about strategic outcomes. They won't share enough for you to have something to echo back and summarize.
+
+In these cases, your stakeholder might be saying to you, and to themselves, that they're limiting what they share in order to create focus, they're *actually* oing so for a different reason.
 
 *** "What You Don't Know You Can't Argue With Me About"
 
@@ -158,7 +139,10 @@ In this case, you'll want to steal some tactics from Mine for Emotions, so you c
 
 # Which, sigh. We'll share tactics for helping such stakeholders open up in later in this chapter.
 
-*** What You Don't Know You Actually Do Know Because I Totally Told You
+# You're not challenging your stakeholder by doing so, you're allowing them to be an expert. You're celebrating their own nuanced understanding of the challenges facing your business. And then, once you have that more nuanced understanding, you can make a compelling proposal to focus on *new* things that matter.
+
+
+*** "What You Don't Know You Actually Do Know Because I Totally Told You Already"
 
 At other times this is, essentially, an accident. The long-term strategic outcome feels so blindingly obvious to your stakeholder, they /forget/ they need to share it clearly and repeatedly. In fact, they may feel like they already *are* sharing it, over and over. When they say, "You absolutely need to hit your delivery deadlines for Q3," what they hear *in their own head* is, "Or else we won't be able to see if the new features *improve retention rates*."
 
@@ -654,6 +638,54 @@ You're going to work on coming up with a clear articulation of that combination 
 
 ** Table Stakes Rant
 [fn:: Ugh, I can't even write that sentence without carping briefly. I dunno, 90% of the time someone has insisted that a set of features are "table stakes", what they're actually saying is "I personally like these features a lot." It's one of those ways to state an opinion as if it's an incontrovertible fact. In such situations I *don't* recommend getting into a debate about "what customers really need". Instead, I recommend just nodding and smiling, and then directing your team to build a coherent product which doesn't have the "table stakes" features. You can then offer that as a thing which could be sold, while you go about adding the table stakes features.]
+
+** Breakdown of Compelling Offer Tactics used
+
+ - She "Told A Story Of Growing Danger":
+
+   /"Every month we don't have something new, your team is in a worse and worse position."/
+
+ - She "Invited Her Stakeholder To Solve Her Problems"
+
+   /"Could you help me find a way to commit more time to developing those key enterprise features?"/
+
+ - She "Addressed Fears Directly"
+
+   /"Even if it means allowing some current customers to grow frustrated."/
+
+ - She "Kept Him Busy"
+
+   /"If *you* can identify current customers..."/
+
+
+** Frustrating Behavior = Only Way to Accomplish Goal
+
+Often, a stakeholder's frustrating behavior is, in their mind, the only way to get that task done, and therefore the only way to accomplish the long-term outcome. To find a new way to work together, you have to get beneath what they're asking for, and understand what they're ultimately trying to achieve. Once you do so, you can propose a different, less frustrating way of working together, that will move you *both* towards the long-term outcome.
+
+
+** Three-Part Breakdown of The Power of Speaking to Strategic Outcomes
+
+# XXX Do I need this?
+
+Being able to speak to a strategic outcome that your stakeholder cares intensely about is *insanely valuable*, for at least three reasons:
+
+ - *Outcomes give you the flexibility to identify new ways to work together*
+
+   Developing software is an incredibly complex effort, and can't be perfectly mapped out ahead of time. Having a nuanced understanding of the long-term outcome allows you to steadily come up with new ways to keep moving forward, as you hit unexpected blockers and problems.
+
+   That nuanced understanding is what allowed Maria to come up with the idea of focusing support time on "enterprise-like" customers.
+
+ - *You can position your proposed change as a necessary step to achieve the outcome*
+
+   This helps enormously with motivation, because of how much your stakeholder cares about this outcome.
+
+   Maria was able to say, authentically, that they must change how they work together if Geoff is going to have any chance of building his enterprise sales pipeline.
+
+ - *You can demonstrate a personal commitment to achieving the outcome*
+
+   Because your stakeholder is a human being, and not a robot, it will mean a lot to them to see that you understand, care about, and are deeply committted to achieving the outcome. It will enable them to see you as a potential *partner*.
+
+   By showing her nuanced understanding of the pressures Geoff is under, Maria offered to join him in his biggest struggle. That act of empathy created enough trust and rapport for the two of them to collaborate. Together they discovered a creative option neither had been thinking about on their own: enabling sales team demos well before fully implementing features.
 
 * Learning Outcomes/Arc
 ** Maybe: The Power of Speaking to Strategic Outcomes
