@@ -42,21 +42,19 @@ What if, during her request, she could speak to that success in the very terms G
 
 What if she could offer him a new way to succeed at his job, by working *with* her?
 
-Of course, to do that, she'd have to know a lot about the business's situation, and Geoff's role within it. Let's watch...
+** The Central Challenge
 
-** Maria Makes A Compelling Offer
-
-Geoff and Maria's company is facing a critical challenge.
-
-For years, they've been successfully selling to small and medium-sized businesses (aka, the SMB segment). That segment is, unfortunately, pretty much completely tapped out. The marketing team is struggling to turn up any new SMB leads. Renewals in SMB are steady, but the tight budgets at small companies means there's no real room to upsell. The company will only be able to *grow* revenue if they can somehow start selling to significantly larger businesses. Aka, the fabled enterprise segment.
+For years, Maria and Geoff's company has been successfully selling to small and medium-sized businesses (aka, the SMB segment). That segment is, unfortunately, almost completely tapped out. The marketing team is struggling to turn up any new SMB leads. The tight budgets at small companies means there's no real room to upsell. The company will only be able to *grow* revenue if they can somehow start selling to significantly larger businesses. Aka, the fabled enterprise segment.
 
 So that's what they've decided to do.
 
 At the last board meeting, the CEO stood up and confidently promised that, within eighteen months, enterprise customers would represent a full 30% of annual recurring revenue. This is an extremely ambitious goal.
 
-Geoff, being *the VP of Sales*, feels hugely under the gun for this outcome. He's been building up an enterprise sales team, he's been endlessly reviewing recordings of sales calls, he's personally conducted a half dozen interviews with enterprise buyers. None of it seems to be working yet.
+Geoff, being *the VP of Sales*, feels hugely under the gun for this outcome. He's been building up an enterprise sales team, he's been endlessly reviewing recordings of sales calls, he's personally conducted a half dozen interviews with enterprise buyers. None of it seems to be working yet. The sales pipeline for enterprise deals is just stalled out.
 
 # Some of the customers Geoff is trying to cadge favors for are their largest existing customers, the small number who are in that enterprise segment.
+
+** Maria Makes A Compelling Offer
 
 If Maria knew all this, she could approach Geoff in an entirely different manner, while making the *same underlying request*:
 
@@ -84,21 +82,53 @@ Now, is Geoff going to immediately become a perfect partner to Maria, and never 
 
 And it all started because Maria was able to speak so well to what Geoff most deeply wanted.
 
-Hence, your first step is to identify a strategic outcome.
+** The Anatomy Of An Effective Statement Of Strategy
 
-There's just one teensy problem: *most stakeholders don't talk in detail about strategic outcomes*.
+#  There were three parts to what Maria e
 
-# There's just one teensy problem with this plan: *most stakeholders don't talk /usefully/ about strategic outcomes*. (and then bridge to what makes a useful outcome)
+Maria's understanding of strategy was *useful* because it had three key parts.
+
+ - First, it was rooted in an *overall business outcome*
+
+   Grow Enterprise ARR to 30% of total revenue, within 18 months
+
+ - Next, it identified a *core challenge* to achieving that outcome
+
+   In her case: Building an enterprise sales pipeline and moving customers through it
+
+ - Finally, it specified her team's *role* in overcoming that core challenge
+
+   Adding new, enterprise-specific features to unblock sales conversations
+
+That three-part breakdown is very powerful. It concisely maps from the highest level goals of the business to the work your team is doing -- while retaining flexibility.
+
+Fundamentally, a good strategy allows people throughout your compahy to *make decisions* quickly, without having to go through slow-moving reviews up the management chain.
+
+Thus: an effective statement of strategy is extremely *opionionated*. It doesn't list some sprawling set of goals or milestones. It identifies a single core challenge to overcome. Ideally, it should be so opinionated as to feel slightly uncomfortable to commit to.
+
+Thus, always ask the following two questions of a potential statement of strategy:
+
+ - Is it possible to *disagree* with?
+
+ - Does it allow you to say *"No"* to things?
+
+These two questions ensure you avoid impressive-sounding by toothless strategies like "Be more customer centric". Vague, aspirational strategies don't allow people to make decisions---they just create endless arguments. There isn't an executive alive who can't make a convincing case that their pet project is "customer centric".
+
+# Who could possibly disagree with either of those? What would either allow you to say "no" to?
+
+To get that full, nuanced understanding of strategy, you need to talk in real detail with your stakeholder about the long-term outcomes for your business, and how they think about accomplishing them.
+
+There's just one problem: *most stakeholders super don't want to talk in detail about long-term outcomes*.
 
 ** Why Stakeholders Hide Their Dreams
 
 Stakeholders do not always clearly share the long-term business outcomes they care most intensely about. Sometimes, believe it or not, stakeholders will even try to *hide* these outcomes from you.
 
-/"What...? Why on earth would they do that?"/ , you might be thinking.[fn:: Unless you've worked in software for a long time? In which case you might be thinking, "/sigh/?"]
+/"Why on earth would they do that?"/ , you might be thinking.[fn:: Unless you've worked in software for a long time? In which case you might be thinking, "/sigh/?"]
 
 Look, your stakeholder has a strategic outcome they're working backwards from. They've spent time and effort *converting* that outcome into a series of tasks, projects and milestones---aka, "a plan". *That is their job*.
 
-Many stakeholders, having made such a plan, will proceed to *only* ever talk about the tasks, projects and milestones. Which means they don't provide *you* with enough of a nuanced understanding to productively challenge them to work in a new way.
+Many stakeholders, having made such a plan, will proceed to *only* ever talk about the tasks, projects and milestones. Which means they don't provide *you* with enough of a nuanced understanding to productively challenge them to work in a new way. They don't cleanly identify the core challenge to overcome. They don't explain how your team's work helps overcome that challenge.
 
 This can leave you very stuck, indeed.
 
@@ -114,27 +144,29 @@ Some stakeholders deliberately limit what they share to force you to "focus on w
 
 It's important to realize that this approach is not necessarily dumb or crazy. This exact approach may have served your stakeholder well when running *non-software* projects. Such projects often *can* be broken down into largely independent parts, that play out largely as planned. It's often better in such cases for a leader to spend most of their time with each team on the details of those parts, not on the far-distant big picture.
 
-The bad news, of course, is that only talking about tasks super doesn't work for software projects.
+# In such cases, stakeholders may have in fact learned that people who want to talk about the big picture are trying to avoid the work.
 
-The good news is that, if you can learn a little bit about the longer-term goal, you can offer your stakeholder some creative options to get their faster. Which will feel good to them. Which will then make them will to share more details around their long-term goals. Which will let you come up even with more creative options. And around you can go.
+The bad news, of course, is that only talking about tasks just doesn't work for software projects.
 
-To bootstrap this process, I recommend drawing out your stakeholder's goals by using the echoing back tactic from the last chapter. Below, I'll share two specific ways to get that conversation started.
+The good news is that, if you can learn a little bit about the longer-term goal, you can offer your stakeholder some creative options to get their faster. Which will feel good to them. Which will then make them willing to share *more* details around their long-term goals. Which will let you come up even with more creative options. And around you can go.
 
-Once you get such a conversation going, most stakeholders will start to open up. You'll find them willing to speak real detail to the long-term outcomes. If you do an even half-decent job of summarizing back what you hear, they will be visibly relieved that someone seems to understand what they're trying to do.
+To bootstrap this process, I recommend drawing out your stakeholder's understanding of strategy by using the echoing back tactic from the last chapter. Later in this chapter, I'll share two specific ways to get that conversation started.
+
+Once you get such a conversation going, most stakeholders will start to open up. You'll find them willing to speak in real detail to the long-term outcomes. If you do an even half-decent job of summarizing back what you hear, they will be visibly relieved that someone seems to understand what they're trying to do.
 
 And you'll be ready to move on to later steps in the overall game plan.
 
 ** "What You Don't Know You Can't Argue With Me About"
 
-Unfortunately, this straightforward approach doesn't always work.
+Unfortunately, this straightforward approach doesn't *always* work.
 
-Some stakeholders can become weirdly and intensely *upset* when you ask questions about strategic outcomes. They might angrily refuse to share anything with you. They might even complain about you to your boss (e.g. insisting you should "stop wasting so much time asking questions").
+In fact, some stakeholders can become weirdly and intensely *upset* when you ask questions about strategic outcomes. They might angrily refuse to share anything with you. They might even complain about you to your boss (e.g. insisting you should "stop wasting so much time asking questions").
 
-They may /say/ that they're trying to create focus, but that's not what's actually going on.
+Such stakeholder will /say/ that they're trying to create focus, but that's not what's actually going on.
 
 # Such stakeholders are resistant to sharing their goals for a fundamentally different reason.
 
-Such stakeholders, being human, feel /insecure in their position of authority/.
+Those stakeholders feel /insecure in their position of authority/.
 
 Such a stakeholder *fears* getting into a conversation with you about how they mapped from the strategic outcome to the tasks they're asking you to do.
 
@@ -166,12 +198,13 @@ But I will say: if you can develop an /empathetic understanding/ of the fears wh
 
 # You're not challenging your stakeholder by doing so, you're allowing them to be an expert. You're celebrating their own nuanced understanding of the challenges facing your business. And then, once you have that more nuanced understanding, you can make a compelling proposal to focus on *new* things that matter.
 
-
 ** "What You Don't Know You Actually Do Know Because I Totally Told You Already"
 
 My final reason that stakeholders won't tell you in detail about their strategic goals is simple:
 
 They think they've already done so.
+
+# They believe in their hearts that they've already done so.
 
 # At other times this is, essentially, an accident.
 
@@ -181,7 +214,9 @@ The long-term strategic outcome feels so blindingly obvious to your stakeholder,
 
 # Sure, they're not saying the part about retention rates out loud, but everyone totally knows that, right? I mean, it's obvious. They talked about it, like, a bunch, right?
 
-But the team has no idea about that hoped-for consequence. It got mentioned glancingly in the Q2 kick off, and never spoken about again. Everyone was busy trying to understand the work in front of them at the time.
+But the team has no idea about that hoped-for consequence. It got mentioned glancingly in the Q2 kick off, and never spoken about again.
+
+# Everyone was busy trying to understand the work in front of them at the time.
 
 # Maybe you were busy trying to calm the team, who were freaking out because they realized they were going to interface with the nightmarish EasyConfig system[fn:: If you ever prefix the name of something you build with 'Easy- or 'Simple-', know in your soul that engineers will some day bitterly curse you and everything you hold dear.]
 
@@ -191,9 +226,11 @@ That stakeholder is furious.
 
 /"But I *told* you over and over how critical retention is!"/ they say. /"It's all I ever talked about!"/ This statement is both completely true and completely untrue at the exact same time! Again, humans are fun.
 
-This is why I *very* strongly recommend repeatedly echoing back and summarizing your current understanding of why you're doing the work you're doing. Not just once, but as a feature of almost all of your conversations. By steadily checking in, just about every time you talk with your stakeholder, you'll discover right away when you're acting out sync with what they believe the business needs.
+This is why I *very* strongly recommend constantly echoing back and summarizing your current understanding of why you're doing the work you're doing. Not just once, but as a feature of almost all of your conversations. By steadily checking in, just about every time you talk with your stakeholder, you'll discover right away when you're acting out of sync with what they believe the business needs.
 
 # Furthermore, even when leadership *has* done the hard work to develop a coherent, focused strategy, they don't always share much in the way of *context* with individual teams. They may simply pass down goals, but not share the thinking that led to selecting those goals, nor the business outcomes that achieving those goals will hopefully unlock. For software projects, which need a tremendous amount of flexibility in order to succeed, passing down goals without context very rarely works.
+
+** A Story: Alistair Digs In With Max Hartswell
 
 ** Invoke A Positive Vision Of The Future
 
@@ -209,7 +246,7 @@ First, you can kick off a conversation about strategic outcomes by saying:
 
 Anchoring on positive aspirations helps people get out of the day-to-day. Most stakeholders (and, frankly, most humans), spend their days struggling with a vague sense of anxiety about achieving their *near-term* goals. If you directly ask such a stakeholder /"What are we trying to achieve, long-term?",/ the background nervousness about the short-term can flare up, and cause them to say /"We can't worry about that right now, we need to just get through this month."/
 
-By instead asking them to *imagine* a happy longer-term future, you're offering them a chance to "safely" put aside their near-term fears for a moment. By invoking silly-sounding specifics terms like "toasting champagne", you lower the emotional stakes, and engage the playful and open side of their mind.[fn:: PM's use a very similar tactic in customer interviews when they say "If you could wave a magic wand and poof!, things were suddenly much better, what would have improved?"]
+By instead asking them to *imagine* a happy longer-term future, you're offering them a chance to "safely" put aside their near-term fears for a moment. By invoking the silly-sounding specific image of "toasting champagne", you lower the emotional stakes, and engage the playful and open side of their mind.[fn:: PM's use a very similar tactic in customer interviews when they say "If you could wave a magic wand and poof!, things were suddenly much better, what would have improved?"]
 
 Whatever they say in response, you'll echo back and summarize, and see if you can learn more. Play that game a few times. Once you have a solid expression of their imagined happy outcome, move on to:
 
@@ -227,15 +264,15 @@ This allows you to tease out how your stakeholder is working backwards from the 
 
 Okay, that's one approach to getting your stakeholder to talk about strategic outcomes.
 
-The second is...
-
 ** Make A Well-Educated Guess
 
-There are two steps in this approach:
+There are three steps in this approach:
 
- 1. Do some detective work to come up with an *educated guess* as to the strategic outcome
+ 1. Come up with an educated guess as to the strategic outcome
 
- 2. Share your guess with your stakeholder, and invite them to tell you *how you got it wrong*
+ 2. Share your guess with your stakeholder
+
+ 3. Invite them to tell you how you got it wrong
 
 First, spend real time coming up with the guess. Talk to people you work with, review whatever leadership has shared, gather information from wherever you can. Then, distill it all into a single, coherent statement of strategy. Test that out with someone you trust, ask for their feedback, and make it sharper.
 
@@ -247,7 +284,7 @@ Once you've got something which feels clear, share it with your stakeholder, as 
 
  - /A central challenge to doing so is <Y>/
 
- - /My team will help address that challenge by way of <Z>/
+ - /My team will help overcome that challenge by way of <Z>/
 
 /Do I have that mostly right? Am I missing anything important?"/
 
@@ -255,7 +292,7 @@ Once you've got something which feels clear, share it with your stakeholder, as 
 
 # There are two reasons why guess-and-check is an effective alternative to ask-directly.
 
-Why can it be effective to make this kind of a guess, instead of simply asking?
+Why can it sometimes be effective to make this kind of a guess, instead of simply asking?
 
 First, it doesn't put the stakeholder on the spot. It can be quite hard to come up with a clear, concise statement of strategy on your feet. If, instead, you offer one and invite their critique, you're making a smaller ask of them.
 
@@ -267,21 +304,20 @@ Often, they're not even perfectly clear on what they think, but when you say som
 
 You say thank you, and then update your coherent statement and test it again.
 
-A key trick to making this approach work is to make a *deliberately opinionated* statement of strategy. Aka, a statement that it's *possible to disagree with*. If you offer something vague and positive ("become customer centric", or "accelerate growth"), they'll nod without really thinking. If, on the other hand, you say something which "feels wrong" to them, they'll engage and work to clarify.
+A useful trick is to sometimes offer a deliberately *too-opinionated* statement of strategy. A statement that you think they *will* disagree with. Offering something which is partly right, but a bit "too much" can make a stakeholder sit up, engage and work to clarify.
 
-Thus, remember: you're not primarily trying to be immediately *right* about the strategy, you're trying to draw your stakeholder out. So being *interestingly wrong* can often serve you very well. Once you better understand what they're solving for, you'll echo it back and summarize, and the pleasing sounds of their own ideas will make them feel warmly towards you (aka, they'll forget you "got it wrong" to start).
+If you go down this road, remember that, you're not primarily trying to be *immediately right*. Being interestingly wrong can often serve you very well. Then, once you've drawn them out, you'll echo back and summarize your new understanding. The pleasant sounds of their own ideas will then make your stakeholder feel warmly towards you (and thus, they'll forget you "got it wrong" to start).
 
-Note: this "Guess & Check" tactic is broadly useful for drawing people out.
+Guessing and inviting people to tell you how you're wrong, is broadly useful for drawing people out, any time they seem a bit reluctant to open up.
 
-** A Story: Alistair Digs In With Max Hartswell
 ** How To Practice Identifying Strategic Outcomes
 *** Developing Strategy Is Hard
 
-Before we go any further, I want to say: developing a coherent, concise and compelling strategic intent is *hard*.
+Before we go any further, I want to say: developing a coherent, concise and compelling statement of strategy is *hard*.
 
 The reality facing any business is always extremely complex. Trying to distill that down to a single core challenge takes real work. There are dozens of factors you could consider, dozens of problems people are worrying about, different hopes and dreams different people across the company are treasuring in their hearts.
 
-As you work to develop your a strategic intent for your business, you may find that it's surprisingly challenging. That's okay!
+As you work to develop a single, clear strategic outcome for your business, you may find that it's surprisingly challenging. That's okay!
 
 Building such a clear picture is a *learnable skill*, but it does takes real practice.
 
@@ -295,7 +331,8 @@ If you'd like to learn more about developing strategy, I recommend:
 
 For ideas on how to work with strategic intents, Escaping the Build Trap does an excellent job of describing how to use strategic intents to *lead* an organization.
 
-*** Developing Strategic Intents
+*** Developing Strategic Outcomes
+
 Find some trusted peers or friends, and talk out the strategy of your business. Build a picture of:
 
  - Some centrally important thing your business is trying to achieve, over the next few years
@@ -330,13 +367,14 @@ Make sure you're able to ask the questions at the end *authentically*. You wan t
 
 Then, once you've got that comfortable, take your strategic intent around, offer it to various people, and invite them to tell you how you got it wrong.
 
-*** References
+*** Practicing The Positive Vision Of The Future
+Find a smooth, authentic way to invoke the future.
 
- - Never Split the Difference
+My example was:
 
- - The Art of Action
+/"Let's imagine: it's 18 to 24 months from now. The business has done incredibly well. We're all happily celebrating and toasting champagne. What good thing has happened? What is the success that we're toasting?"/
 
- - Good Strategy/Bad Strategy
+Try that out. See if you can find a way to share a sense of playfulness as you state it. Try it out with friends, peers, trusted stakeholders.
 
 * Stashed Old Sections
 ** Our Story: Quin Tries Guess & Check
@@ -759,6 +797,14 @@ That said, you still have options in this situation. There's a real chance that,
 
 Thus, in such a case, my recommendation is to just go with your best guess for now -- it's likely pretty good, and having *some* direction to move in is better than just churning around at random.
 
+** References
+
+ - Never Split the Difference
+
+ - The Art of Action
+
+ - Good Strategy/Bad Strategy
+
 * Learning Outcomes/Arc
 ** Maybe: The Power of Speaking to Strategic Outcomes
 ** Some Problems With Goals
@@ -771,6 +817,8 @@ Failure to export context
 * Todos
 ** Overall rambles
 I think, shorter, punchier sections, with stories woven throughout.
+** TODO Maybe: move Alistair story *up*, above the tactics
+So I'm showing it, then explaining it.
 ** TODO Maybe turn Avoid Decisions into "What You Don't Know.."
 you can't force me to make a decision about
 ** TODO Decide "Intent" vs "Outcome"
