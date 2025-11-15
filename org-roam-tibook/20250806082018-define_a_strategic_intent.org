@@ -303,25 +303,29 @@ Once you've got something which feels clear, share it with your stakeholder, as 
 
 # There are two reasons why guess-and-check is an effective alternative to ask-directly.
 
-Why can is it useful to make a guess, instead of simply asking?
+Why is it useful to make a guess, instead of simply asking?
 
-First, offering your own guess doesn't put the stakeholder on the spot. Coming up with a clear, concise statement of strategy on your feet is hard. Your stakeholder might feel defensive or rocked back a bit. If, instead, you offer something coherent and invite their critique, you're making a smaller ask of them.
+First, asking directly can put your stakeholder on the spot. Coming up with a clear statement of strategy on your feet is hard. Your stakeholder might feel defensive or rocked back a bit. If, instead, you offer something coherent and invite their critique, you're making a smaller ask of them.
 
-Second, it's easier for people to express their thoughts by telling you what's wrong with yours, than it is to lay their own out.
+# Second, many people find it pleasant to express their thoughts by telling you what's wrong with yours.
+
+Second, many people feel "safer" expressing their thoughts by telling you what's wrong with yours.
+
+# Second, it's easier for people to express their thoughts by telling you what's wrong with yours, than it is to lay their own out.
 
 # Second, many humans like figuring out what they think by telling other people how they're wrong
 
-Often, they're not even perfectly clear on what they think until they hear a concise and clear framing. When you say something like /"My understanding is that our top priority is growth, which means acquiring new customers, is that right?"/, that will *sound* wrong. They'll hold up a hand and say:
+Sometimes, they're not even perfectly clear on *what* they think until they hear a concise and clear framing that they feel a need to correct. When they hear you say, /"My understanding is that our top priority is growth, which means *acquiring new customers*, is that right?"/, something bothers them. They hold up a hand, think for a moment, and then slowly say:
 
-/"Wait, that's not quite it. A good bit of revenue growth should come from upselling *existing* customers -- but we need more compelling features in our Pro tier to do that."/
+/"Wait, that's not quite it. Actually, a good bit of revenue growth will likely come from upselling *existing* customers -- but we need more compelling features in our Pro tier to do that."/
 
 You say thank you, and then update your coherent statement and test it again.
 
-In fact, this is so useful, it's often a good idea to offer a deliberately *too-opinionated* statement of strategy. Offering something which is partly right, but goes a bit "too far" makes a stakeholder sit up, take notice and then work to clarify.
+In fact, this approach is so useful, it's often a good idea to offer a deliberately *too-opinionated* statement of strategy. Offer something which is partly right, but goes a bit "too far", Your stakeholder will sit up, take notice and then work to clarify.
 
 If you go down this road, remember that, you're not trying to be *immediately right*. Being interestingly wrong can often serve you very well. Then, once you've drawn your stakeholder out, you'll echo back and summarize your new understanding. The pleasant sounds of their own ideas will then make them feel warmly towards you (and thus, they'll quickly forget you "got it wrong" to start).
 
-This is, in fact, a broadly useful tactic for drawing people out, about a broad variety of topics. If you're feeling like you're bumping up against a conversation wall with somone, try making a guess about what might be going on, and then invite them to tell you how you're wrong.
+This is, in fact, a broadly useful tactic for drawing people out. If you're feeling like you're bumping up against a conversation wall with somone, try making a guess about what might be going on, and then invite them to tell you how you're wrong.
 
 ** Practice Identifying Strategic Outcomes
 *** The Statement of Strategy
