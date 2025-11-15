@@ -159,7 +159,8 @@ E.g. what happens if the stores have sluggish perf?
 ** TODO Add testing w/ Map Fears / Aspirations
 
 * [[id:E0ADBF07-90B8-4C37-81C0-96A428020F5E][Substack]]                                        :gtasks:
-** TODO Submit to publication on Medium           :curweek:
+** DONE Submit to publication on Medium           :curweek:
+CLOSED: [2025-11-14 Fri 14:16]
 ** TODO Prep/submit "Let Me Count Ways" to Medium :curweek:
 ** TODO Add playful illustrations of mindsets
 E.g. like I did in Invite to Solve Problems
@@ -178,14 +179,28 @@ Could put it in late, after explaining the fanning out tree view, and picking yo
 ** TODO Read up on Google/Substack/SEO
 ** TODO Think about a call to action for book announcements
 * [[id:A1EF14A2-5F19-488D-926C-A8208142E794][Strat Intent]]                                    :gtasks:
-** TODO Work through more learning outcomes       :curweek:pom:
+** DONE Work through more learning outcomes       :curweek:
+CLOSED: [2025-11-15 Sat 10:02]
 :LOGBOOK:
-CLOCK: [2025-11-10 Mon 09:08]
+CLOCK: [2025-11-15 Sat 09:06]--[2025-11-15 Sat 10:02] =>  0:56
+CLOCK: [2025-11-14 Fri 16:34]--[2025-11-14 Fri 17:25] =>  0:51
+CLOCK: [2025-11-14 Fri 09:48]--[2025-11-14 Fri 11:07] =>  1:19
+CLOCK: [2025-11-13 Thu 16:23]--[2025-11-13 Thu 16:55] =>  0:32
+CLOCK: [2025-11-13 Thu 14:28]--[2025-11-13 Thu 14:58] =>  0:30
+CLOCK: [2025-11-13 Thu 08:49]--[2025-11-13 Thu 11:03] =>  2:14
+CLOCK: [2025-11-12 Wed 11:15]--[2025-11-12 Wed 11:45] =>  0:30
+CLOCK: [2025-11-12 Wed 10:23]--[2025-11-12 Wed 11:08] =>  0:45
+CLOCK: [2025-11-11 Tue 08:53]--[2025-11-11 Tue 09:34] =>  0:41
+CLOCK: [2025-11-10 Mon 15:35]--[2025-11-10 Mon 15:45] =>  0:10
+CLOCK: [2025-11-10 Mon 09:08]--[2025-11-10 Mon 11:05] =>  1:57
 CLOCK: [2025-11-10 Mon 08:20]--[2025-11-10 Mon 08:26] =>  0:06
 :END:
 
 * [[id:5903AFE7-4B1E-422C-8537-2C56BBFBA643][Mine For Feelings]]                               :gtasks:
-** TODO Review/make todos                         :curweek:
+** TODO Review/make todos                         :curweek:pom:
+:LOGBOOK:
+CLOCK: [2025-11-15 Sat 10:05]
+:END:
 ** TODO Rename to Repeat Trailing Words? (cut Three)
 ** TODO Show example of labeling for fear of making prioritization calls
 ** DONE Write bad version: Offer Labeled Feelings
@@ -262,6 +277,8 @@ Maybe have a burndown? Use claude to visualize?
 
 Visible on the wall and/or in org?
 * [[id:5C7A0B37-8984-4A1F-8371-C1FCEB637174][Compelling Offer]]                                :gtasks:
+** TODO Add tactic: bring their pains to life
+E.g. tell a detailed story about why their struggle is so real
 ** TODO Apply tweaks from Substack to Compelling Offer (claude?))
 ** TODO Split into three chapters
  1. Offer An Easy-To-Agree-To Changes
@@ -416,6 +433,8 @@ So I can either run full screen or within 80 columns
 Because now my wordcount history stuff is sensitive to those being missing.
 ** TODO Create a new chapter template or abbrev?
 * Book Misc                                       :gtasks:
+** TODO Adapt idea from "Where and when to pitch" email
+** TODO Josh Payne point re: title sounds "inward"
 ** TODO Track: touch book at EOD                  :curweek:
 I definitely wake up with ideas when I do that.
 ** TODO Think a bit: talk about status in a sidebar or mini chapter?
