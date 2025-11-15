@@ -4,6 +4,9 @@
 #+title: Identify a Strategic Intent
 #+filetags: :Chapter:
 * Identify A Strategic Outcome
+
+# Develop A Statement Of Strategy
+
 ** A Story: Maria Struggles To Make Her Case
 
 # Maria Is Stuck With Geoff
@@ -82,7 +85,9 @@ Now, is Geoff going to immediately become a perfect partner to Maria, and never 
 
 And it all started because Maria was able to speak so well to what Geoff most deeply wanted.
 
-** The Anatomy Of An Effective Statement Of Strategy
+** The Elements Of An Effective Statement Of Strategy
+
+# The Anatomy Of An Effective Statement Of Strategy
 
 #  There were three parts to what Maria e
 
@@ -174,6 +179,8 @@ Such a stakeholder *fears* getting into a conversation with you about how they m
 
  - They might fear that you will be unwilling to do what they're asking, which will prove to everyone that they have no control over you.
 
+ - They might fear that you will force them to make a difficult decision that they've been desperately trying to avoid[fn:: Usually because *their* boss has demanded progress against obviously conflicting objectives, and they feel stuck, too!]
+
  - They might fear that simply considering alternatives to their plan will make them seem weak and indecisive.
 
 Such feelings of fear can cause your stakeholder to aggressively shut down the conversation about long-term goals, altogether.
@@ -210,7 +217,13 @@ They think they've already done so.
 
 # they think about it night and day
 
-The long-term strategic outcome feels so blindingly obvious to your stakeholder, they simply /forget/ that they need to share it clearly and repeatedly. In fact, they may feel like they already *are* sharing it, over and over. When they constantly say, "You need to hit your Q3 delivery deadlines," what they hear *in their own head* is, "...or else we won't be able to see if the new features *improve retention rates*."
+The long-term strategic outcome feels so blindingly obvious to your stakeholder, they simply /forget/ that they need to share it clearly and repeatedly. In fact, they may believe they *are* sharing it, over and over. When they insist:
+
+/"You need to hit your Q3 delivery deadlines,"/
+
+what they hear *in their own head* is,
+
+/"...or else we won't be able to see if the new features *improve retention rates*."/
 
 # Sure, they're not saying the part about retention rates out loud, but everyone totally knows that, right? I mean, it's obvious. They talked about it, like, a bunch, right?
 
@@ -230,9 +243,7 @@ This is why I *very* strongly recommend constantly echoing back and summarizing 
 
 # Furthermore, even when leadership *has* done the hard work to develop a coherent, focused strategy, they don't always share much in the way of *context* with individual teams. They may simply pass down goals, but not share the thinking that led to selecting those goals, nor the business outcomes that achieving those goals will hopefully unlock. For software projects, which need a tremendous amount of flexibility in order to succeed, passing down goals without context very rarely works.
 
-** A Story: Alistair Digs In With Max Hartswell
-
-** Invoke A Positive Vision Of The Future
+** Tactic 1: Invoke A Positive Vision Of The Future
 
 How, specifically, should you use the Echo Back & Summarize tactic to draw out your stakeholder?
 
@@ -264,11 +275,11 @@ This allows you to tease out how your stakeholder is working backwards from the 
 
 Okay, that's one approach to getting your stakeholder to talk about strategic outcomes.
 
-** Make A Well-Educated Guess
+** Tactic 2: Make A Well-Educated Guess
 
 There are three steps in this approach:
 
- 1. Come up with an educated guess as to the strategic outcome
+ 1. Do some work to come up with a guess
 
  2. Share your guess with your stakeholder
 
@@ -282,9 +293,9 @@ Once you've got something which feels clear, share it with your stakeholder, as 
 
  - /The most important thing we need to achieve is <X>/
 
- - /A central challenge to doing so is <Y>/
+ - /The core challenge to doing so is <Y>/
 
- - /My team will help overcome that challenge by way of <Z>/
+ - /My team will help to overcome that challenge by way of <Z>/
 
 /Do I have that mostly right? Am I missing anything important?"/
 
@@ -292,36 +303,99 @@ Once you've got something which feels clear, share it with your stakeholder, as 
 
 # There are two reasons why guess-and-check is an effective alternative to ask-directly.
 
-Why can it sometimes be effective to make this kind of a guess, instead of simply asking?
+Why can is it useful to make a guess, instead of simply asking?
 
-First, it doesn't put the stakeholder on the spot. It can be quite hard to come up with a clear, concise statement of strategy on your feet. If, instead, you offer one and invite their critique, you're making a smaller ask of them.
+First, offering your own guess doesn't put the stakeholder on the spot. Coming up with a clear, concise statement of strategy on your feet is hard. Your stakeholder might feel defensive or rocked back a bit. If, instead, you offer something coherent and invite their critique, you're making a smaller ask of them.
 
-Second, it's usually easier for people to express their thoughts by telling you what's wrong with yours, than it is to lay their own out.
+Second, it's easier for people to express their thoughts by telling you what's wrong with yours, than it is to lay their own out.
 
-Often, they're not even perfectly clear on what they think, but when you say something like /"My understanding is that our top priority is growth, which means acquiring new customers, is that right?"/, they'll realize that sounds wrong, and say:
+# Second, many humans like figuring out what they think by telling other people how they're wrong
+
+Often, they're not even perfectly clear on what they think until they hear a concise and clear framing. When you say something like /"My understanding is that our top priority is growth, which means acquiring new customers, is that right?"/, that will *sound* wrong. They'll hold up a hand and say:
 
 /"Wait, that's not quite it. A good bit of revenue growth should come from upselling *existing* customers -- but we need more compelling features in our Pro tier to do that."/
 
 You say thank you, and then update your coherent statement and test it again.
 
-A useful trick is to sometimes offer a deliberately *too-opinionated* statement of strategy. A statement that you think they *will* disagree with. Offering something which is partly right, but a bit "too much" can make a stakeholder sit up, engage and work to clarify.
+In fact, this is so useful, it's often a good idea to offer a deliberately *too-opinionated* statement of strategy. Offering something which is partly right, but goes a bit "too far" makes a stakeholder sit up, take notice and then work to clarify.
 
-If you go down this road, remember that, you're not primarily trying to be *immediately right*. Being interestingly wrong can often serve you very well. Then, once you've drawn them out, you'll echo back and summarize your new understanding. The pleasant sounds of their own ideas will then make your stakeholder feel warmly towards you (and thus, they'll forget you "got it wrong" to start).
+If you go down this road, remember that, you're not trying to be *immediately right*. Being interestingly wrong can often serve you very well. Then, once you've drawn your stakeholder out, you'll echo back and summarize your new understanding. The pleasant sounds of their own ideas will then make them feel warmly towards you (and thus, they'll quickly forget you "got it wrong" to start).
 
-Guessing and inviting people to tell you how you're wrong, is broadly useful for drawing people out, any time they seem a bit reluctant to open up.
+This is, in fact, a broadly useful tactic for drawing people out, about a broad variety of topics. If you're feeling like you're bumping up against a conversation wall with somone, try making a guess about what might be going on, and then invite them to tell you how you're wrong.
 
 ** How To Practice Identifying Strategic Outcomes
+
+*** The Statement of Strategy
+
+Find a trusted peer or friend, and spend some time talking out the strategy of your business. Build as clear a picture as you can of:
+
+ - The most important thing your business is trying to achieve, over the next few years
+
+ - The core challenge the business must face, on the path to that goal
+
+ - How your team will play a role in overcoming that challenge
+
+Try to develop a few different formulations of the above. Work to make them as sharp and clear as you possibly can.
+
+If your company is large, you might map out a strategy for your sub-part of the company, instead of the company as a whole. But push yourself to expand your perspective, to look behind the objectives of the group or division or team you work in day-to-day.
+
+As you do this work, continually ask:
+
+ - Is it possible to *disagree* with the statement I'm making?
+
+ - Would the statement allow me to say *"No"* to things?
+
+# Often, the statement will feel usefully uncomfortable.
+
+As an experiment, try making your statement of intent "frighteningly opinionated": so sharp and clear that, if you committed to it, your team would have to immediately stop doing some things that "everyone knows" are critically important. If you hit this moment, slow down and really probe at those activities. Are they truly important? If so, why? This will either turn up a refinement of your statement of strategy (because those activities are genuinely critical), or identify a valuable change you could advocate for (because those activities are a distraction).
+
+*** The Positive Vision Of The Future
+
+A key here is to find a personal, authentic way to inject some liberating playfulness into your questions.
+
+Our example above was:
+
+/"Let's imagine: it's 18 to 24 months from now. The business has done incredibly well. We're all happily celebrating and toasting champagne. What good thing has happened? What is the success that we're toasting?"/
+
+Try that one out. See if you can find a way to share a sense of lightness as you state it. If not, play around with it until it feels easy and a bit fun to offer. Ideally, you want to let yourself be just a bit silly, to signal to your listener that it's okay to let go of fears for a moment.
+
+Try it out with friends and peers (at your own company, or elsewhere!). Echo back and summarize what you hear.
+
+Make sure you can smoothly offer the follow ups, adjusting to make them work for you:
+
+/"What is the key challenge to overcome to arrive at that good thing? Or, to put it another way, if it's 18-24 months out, and things have gone wrong, what, specifically might have happened?"/
+
+/"What role will my team play in overcoming that challenge? How will we know if we're succeeding?"/
+
+*** The Educated Guess
+
+Do this after going through one of the exercises above. You've either come up with your own statement of strategy, or used the positive vision of the future to draw your stakeholder out.
+
+Practice sharing the statement of strategy itself, as clearly and concisely as you can. Push yourself to make it usefully opinionated.
+
+Be sure to rehearse the question you'll ask at the end, where you invite them to tell you you're wrong. Our example was:
+
+/"Do I have that mostly right? Am I missing anything important?"/
+
+Try that out, adjust the wording to make it feel natural.
+
+Once you feel comfortable going through the full arc, share your "educated guess" with your stakeholder, ending with your question. Make sure you're able to ask the questions at the end authentically. Allow yourself to channel a true curiosity.
+
+Echo back what you hear, adjust and try again.
+
+For further practice, talk this out with friends who work at other companies. Ask what their business is trying to achieve, ask about fundamental challenges they must face, brainstorm different ways their teams might help overcome those challenges. Look for something usefully opinionated. Offer that to them, invite them to tell you if you're wrong, adjust and try again.
+
 *** Developing Strategy Is Hard
 
-Before we go any further, I want to say: developing a coherent, concise and compelling statement of strategy is *hard*.
+Finally, I'll note: developing a coherent, concise and compelling statement of strategy is no kind of easy.
+
+# *hard*.
 
 The reality facing any business is always extremely complex. Trying to distill that down to a single core challenge takes real work. There are dozens of factors you could consider, dozens of problems people are worrying about, different hopes and dreams different people across the company are treasuring in their hearts.
 
-As you work to develop a single, clear strategic outcome for your business, you may find that it's surprisingly challenging. That's okay!
+As you work to develop a single, clear statement of strategy for your business, you may find that it's surprisingly challenging. That's okay!
 
 Building such a clear picture is a *learnable skill*, but it does takes real practice.
-
-We'll illustrate some ways to think about it, in the below. But I think you'll be well-served by being ready to productively struggle.
 
 If you'd like to learn more about developing strategy, I recommend:
 
@@ -329,52 +403,9 @@ If you'd like to learn more about developing strategy, I recommend:
 
  - Good Strategy/Bad Strategy, by Richard Rumelt
 
-For ideas on how to work with strategic intents, Escaping the Build Trap does an excellent job of describing how to use strategic intents to *lead* an organization.
+For ideas on how to then use strategy to lead an organization, I recommend:
 
-*** Developing Strategic Outcomes
-
-Find some trusted peers or friends, and talk out the strategy of your business. Build a picture of:
-
- - Some centrally important thing your business is trying to achieve, over the next few years
-
- - A core challenge the business must face, on the path to that achievement
-
- - How your team can play a role in facing that challenge
-
-Try to develop a few different formulations of the above, do some work to hone and clarify.
-
-Depending on the size of your company, these outcomes might be scoped to a sub-part of your company instead of the entire business.
-
-Once you arrive at some statement of strategic intent, ask yourself the key questions:
-
- - Is it possible to *disagree* with the intent?
-
- - Does the intent allow you to say *"No"* to things?
-
-If not, continue to refine your statement.
-
-As an experiment, try making your statement of intent "frighteningly opinionated": so clear that your team would have to immediately stop doing some things that "every knows are critically important". See what you find when you do that.
-
-For further practice, talk this out with friends who work at other companies. Ask what their business is trying to achieve, ask about fundamental challenges they must face, brainstorm different ways their teams might help face those challenges. Look for something usefully opinionated.
-
-*** Practicing Guess & Check
-
-First, rehearse saying your intent, embedded in a template like the following:
-
-/I wanted to ask something -- my understanding is that, in the next 18-24 months, the most important thing we need to achieve is <X>, and that my team should be supporting that by way of <Y>. Do I have that mostly right? Am I missing anything important?/
-
-Make sure you're able to ask the questions at the end *authentically*. You wan tto channel true curiosity. Feel free to adjust the wording to make it feel more natural for you.
-
-Then, once you've got that comfortable, take your strategic intent around, offer it to various people, and invite them to tell you how you got it wrong.
-
-*** Practicing The Positive Vision Of The Future
-Find a smooth, authentic way to invoke the future.
-
-My example was:
-
-/"Let's imagine: it's 18 to 24 months from now. The business has done incredibly well. We're all happily celebrating and toasting champagne. What good thing has happened? What is the success that we're toasting?"/
-
-Try that out. See if you can find a way to share a sense of playfulness as you state it. Try it out with friends, peers, trusted stakeholders.
+ - Escaping the Build Trap, by Melissa Perri
 
 * Stashed Old Sections
 ** Our Story: Quin Tries Guess & Check
@@ -819,18 +850,19 @@ Failure to export context
 I think, shorter, punchier sections, with stories woven throughout.
 ** TODO Maybe: move Alistair story *up*, above the tactics
 So I'm showing it, then explaining it.
-** TODO Maybe turn Avoid Decisions into "What You Don't Know.."
-you can't force me to make a decision about
-** TODO Decide "Intent" vs "Outcome"
-I think, Outcome.
-** TODO I think, several short stories
-Like, tighten up the intro, really strip it down, and then tell stories, showing bad and good.
-
-Maybe return to my intro chapter friends.
 ** TODO Maybe: open up The Feelings That Are Being Felt
 Could even do: how on earth can Geoff be doing this? It's so clearly wrong? Let's look at it from his perspective.
 
-** TODO Move guess & check into/after a story
+** TODO Maybe instead, several short stories
+Like, tighten up the intro, really strip it down, and then tell stories, showing bad and good.
+
+Maybe return to my intro chapter friends.
+** DONE Maybe turn Avoid Decisions into "What You Don't Know.."
+CLOSED: [2025-11-15 Sat 09:22]
+you can't force me to make a decision about
+** DONE Decide "Intent" vs "Outcome"
+CLOSED: [2025-11-15 Sat 09:06]
+I think, Outcome.
 ** DONE Try developing new learning outcomes/arc
 CLOSED: [2025-11-10 Mon 09:38]
 * Alternate Learning Outcomes
