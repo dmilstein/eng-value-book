@@ -3042,3 +3042,279 @@ CLOCK: [2025-09-17 Wed 11:39]--[2025-09-17 Wed 11:40] =>  0:01
 CLOCK: [2025-09-17 Wed 09:23]--[2025-09-17 Wed 10:53] =>  1:30
 CLOCK: [2025-09-16 Tue 08:31]--[2025-09-16 Tue 11:07] =>  2:36
 :END:
+
+* DONE Produce a viz of writing hours
+CLOSED: [2025-09-16 Tue 12:27]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-11-17 Mon 09:21
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Book Tooling
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:END:
+I did figure out how to dump the clocked hours into a csv, now work with claude to do what I want.
+
+* DONE Do I write sub-heads in overall ToC?
+CLOSED: [2025-08-18 Mon 09:19]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-11-17 Mon 09:21
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Book Tooling
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Go back to flat list of project           :curweek
+CLOSED: [2025-08-05 Tue 09:38]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-11-17 Mon 09:21
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Book Tooling
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:END:
+And, maybe just have a single ":sleeping:" one at the end, and stash everything under there that I don't want to see.
+
+Because this is dumb.
+
+* DONE Adjust toc.org to point to new book
+CLOSED: [2025-08-05 Tue 09:43]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-11-17 Mon 09:21
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Book Tooling
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Timeboxed spike on pom->clock->DONE
+CLOSED: [2025-08-11 Mon 16:39]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-11-17 Mon 09:21
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Book Tooling
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Write out 3 bad ways to clock time
+CLOSED: [2025-08-18 Mon 09:19]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-11-17 Mon 09:21
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Book Tooling
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:END:
+E.g. start/end *every pomodoro* by clocking *something*, so that's becomes part of the habit of intenionality.
+
+Write out three bad ideas for what tasks to clock against.
+
+E.g. create a file of clocking tasks, and just record things there (and put it the hell in git).
+
+Or, clock detailed tasks, and roll them up.
+
+Check on how archiving affects clocking
+
+* DONE Try one of those bad ways to clock time
+CLOSED: [2025-08-18 Mon 09:19]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-11-17 Mon 09:21
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Book Tooling
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Learn just enough to clock in and out for writing hours (ask Claude?)
+CLOSED: [2025-07-23 Wed 11:51]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-11-17 Mon 09:21
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Book Tooling
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Make watch_book.sh work for new book
+CLOSED: [2025-07-21 Mon 08:38]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-11-17 Mon 09:21
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Book Tooling
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:END:
+Add params so it can still work for old book.
+
+Use the toc as the driving force?
+
+* DONE Make github repo for TIB, push it up
+CLOSED: [2025-07-12 Sat 10:06]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-11-17 Mon 09:21
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Book Tooling
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Fix word count to handle 0 days
+CLOSED: [2025-07-08 Tue 11:52]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-11-17 Mon 09:21
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Book Tooling
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:END:
+
+* DONE Make plan + tasks for Beta Reading
+CLOSED: [2025-06-27 Fri 07:12]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-11-17 Mon 09:22
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Beta Readers
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Draft thoughts re: pipeline beta reading, share w/ EWJ
+CLOSED: [2025-06-20 Fri 09:43]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-11-17 Mon 09:22
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Beta Readers
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Write Robfitz re: pipeline beta reading
+CLOSED: [2025-06-21 Sat 14:32]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-11-17 Mon 09:22
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Beta Readers
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Set reward: can share w/ EWJ once I finish... something
+CLOSED: [2025-06-27 Fri 07:10]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-11-17 Mon 09:22
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Beta Readers
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Review WUB re: beta readers + partial book
+CLOSED: [2025-06-16 Mon 09:26]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-11-17 Mon 09:22
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Beta Readers
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Get the markdown formatting info on my laptop
+CLOSED: [2025-06-07 Sat 08:01]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-11-17 Mon 09:22
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Beta Readers
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Experiment with org-org-export-to-md
+CLOSED: [2025-06-07 Sat 08:18]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-11-17 Mon 09:22
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Beta Readers
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Write python script to convert toc.org to file list
+CLOSED: [2025-06-07 Sat 14:11]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-11-17 Mon 09:22
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Beta Readers
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+Ask aidermacs to factor it out of existing code
+
+* DONE Makefile: regen chapter file list when toc changes
+CLOSED: [2025-06-07 Sat 14:15]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-11-17 Mon 09:22
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Beta Readers
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Write script to build full Markdown of book
+CLOSED: [2025-06-07 Sat 15:06]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-11-17 Mon 09:22
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Beta Readers
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+By feeding chapter files in order to my org-to-md.sh script, concatenating output
+
+* DONE Add Makefile target for full Markdown
+CLOSED: [2025-06-07 Sat 15:06]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-11-17 Mon 09:22
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Beta Readers
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Fix footnotes
+CLOSED: [2025-06-07 Sat 15:38]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-11-17 Mon 09:22
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Beta Readers
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+https://stackoverflow.com/questions/25579868/how-to-add-footnotes-to-github-flavoured-markdown
+
+Try out https://github.com/larstvei/ox-gfm?tab=readme-ov-file
+
+* DONE Fix Footnotes again
+CLOSED: [2025-06-08 Sun 08:25]
+:PROPERTIES:
+:ARCHIVE_TIME: 2025-11-17 Mon 09:22
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Beta Readers
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+ox-gfm is just rendering them in HTML, not as actual GFM.
