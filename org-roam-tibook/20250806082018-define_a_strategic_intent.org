@@ -243,7 +243,7 @@ This is why I *very* strongly recommend constantly echoing back and summarizing 
 
 # Furthermore, even when leadership *has* done the hard work to develop a coherent, focused strategy, they don't always share much in the way of *context* with individual teams. They may simply pass down goals, but not share the thinking that led to selecting those goals, nor the business outcomes that achieving those goals will hopefully unlock. For software projects, which need a tremendous amount of flexibility in order to succeed, passing down goals without context very rarely works.
 
-** Tactic 1: Invoke A Positive Vision Of The Future
+** Tactic: Invoke A Positive Vision Of The Future
 
 How, specifically, should you use the Echo Back & Summarize tactic to draw out your stakeholder?
 
@@ -275,7 +275,7 @@ This allows you to tease out how your stakeholder is working backwards from the 
 
 Okay, that's one approach to getting your stakeholder to talk about strategic outcomes.
 
-** Tactic 2: Make A Well-Educated Guess
+** Tactic: Make A Well-Educated Guess
 
 There are three steps in this approach:
 
