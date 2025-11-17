@@ -11,9 +11,11 @@ If you've been following along in the steps in the game plan, you may feel ready
 
 This does, in fact, put you in an *excellent* place to productively challenge your stakeholder to make a change of some kind.
 
-But, before you do so, there is one more step.
+But, before you do so, there is one more step:
 
-Remember, your stakeholder is a human being. Their behavior is not driven merely by a rational plan to achieve that outcome. We are none of us robots. If you want to persuade your stakeholder to make a change, you're going to need to understand some messy human emotions.
+Your stakeholder is a human being. Their behavior is not driven merely by a rational plan. We are none of us robots.
+
+# If you want to persuade your stakeholder to make a change, you're going to need to understand some messy human emotions.
 
 # Thus, the second step in the game plan is to develop an empathetic understanding of your stakeholder's key underlying emotions.
 
@@ -21,29 +23,140 @@ Remember, your stakeholder is a human being. Their behavior is not driven merely
 
 This is true even if you work with a CEO whose only outward expression of emotion is a series of variations on the tightly clenched jaw.
 
-It's true even if you and your coworkers engage in serious debates about whether or not your rigidly tense Head of Engineering even *has* feelings.
+It's true even if you and your coworkers engage in serious debates about whether or not your ice cold Head of Engineering even *has* feelings.
 
 Understanding emotions doesn't mean gathering in a drum circle and getting in touch with our inner child. All humans, in whatever positions of power they may find themselves, have things they deeply want, and things they are deeply afraid of. Your stakeholder's current behavior patterns are driven by some combination of what they want and what they're afraid of.
 
 When you advocate for change, you want to be able to speak with authentic connection to both the fears that are keeping them up at night, as well as the things that they desperately wish were happening.
 
-** A Story: Alistair Is Stuck
+** A Story: The Context In Which Alistair Is Stuck
 
 Remember Alistair, from our intro? Who was struggling with his engineering director, Max Hartswell? Who had set himself up as the bottleneck for all decisions, and then blamed the team for lack of ownership?
 
+Let's imagine that Alistair has gone through the initial steps of our game plan.
+
+He's asked questions far and wide, and studiously echoed back and summarized what he's heard. Gradually, he's built up a picture of where AccuraClaim is today and where it's trying to get to.
+
+** AccuraClaim's Much-Desired Strategic Outcome
+
+AccuraClaim has, over the last several years, built up a robustly defensible business by taking over a bunch of gritty claims processing work for auto insurance companies.
+
+# They have customers ranging from modest to extremely large.
+
+Unfortunately, AccuraClaim's marketing team has started to struggle to find new customers in the car insurance vertical. Growth is starting to slow.
+
+# XXX possibly, trim the below
+
+The exec team held a series of vigorous debates about how to face this challenge. The Chief Marketing Officer made a case for getting into the home insurance market. The CEO, however, who has worked in insurance for decades, pushed back. "We know auto claims, our operations are built around auto claims, our *product* is built around auto claims. You could use the same *marketing* plan, but we'd need to create an entirely new *business* as the backend."
+
+They ultimately decided to make a bet that they can solve more claim-related problems for their existing customer segment, and thus capture more revenue from each auto insurance company they sell to. They've set a specific goal to, over the next two years, increase their average billing rate from $1.10/claim to $1.50/claim.
+
+
+** The Core Challenge: Data, Why Did It Have To Be Data?
+
+# XXX who wrote the pricing roadmap.
+
+To do this, they will need to develop new product tiers and new product offerings.[fn:: If you work at a B2B SaaS business like AccurClaim, I simply could not recommend more highly The Pricing Roadmap, by  . It's an incredibly good, actionable plan for pulling together the work of product, marketing & sales.]
+
+Unfortunately, just about all of the new product opportunities will require some pretty extensive restructuring of their core product.
+
+Which is... going to be, um, tricky.
+
+The core data model was hastily assembled in the early, fervent days of AccuraClaim, and then just blindly appended to ever since. Newly-hired engineers shrink in horror when they discover that the central EZClaims table[fn:: The company was originally called EasyClaims, and no one is excited about doing an apocalyptic rewrite just to fix the table names] has not one, but *two* linked extension tables (EZClaimsExtra and EZClaimsExtra2), to glue vast amounts of extra metadata onto each claim.[fn:: Does one of those two extension tables contain a JSON blob column with even more data shoved opaquely into it, under an inconsistent set of keys? I guess you'll just have to find out?]
+
+# At most companies, yes, it most certainly does.
+
+#  If not, it's only because some senior engineer threatened to set themselves on fire to stop it.
+
+# Unfortunately, AccuraClaim's core product has grown encrusted with special-cases and customizations.
+
+# , and to handle all the bizarre challenges of parsing tens of thousands of claims a day.
+
+** The Role of Alistair's Team: Make It Exactly The Same, But Also Totally Different
+
+Our friend Alistair works on one of the teams that owns the core claim processing platform, both front- and back-end.
+
+His team is trying to deliver a total overhaul of the claims review workflows. Under the hood, this will require breaking a bunch of key data out of EZClaims{Extra,Extra2}, and placing it into new, clean SQL tables (with sane names and the occasional use of a foreign key).
+
+On the product and marketing side, some of the new reports his team is building will form the basis for a new, premium product tier. Factoring out the underlying data will also allow other teams to create entirely new products to integrate AccurClaim's platform more deeply into the operations of their customers.
+
+Or, that's all the plan.
+
+Alistair also learns that things are not going great, big picture.
+
+# exactly according to that plan
+
+Changing the core data model of a product used to process hundreds of thousands of claims a day has turned out to be fraught with weird edge cases and risks. All the teams are months behind schedule. Every time they roll out a change to the claims processing workflows, a horde of customers descend on them with angry pitchforks in hand.
+
+And of course, Max Hartswell, who leads all of engineering in this domain, has somehow become the bottleneck for all decision-making.
+
+# Throw into the mix that Alistair, who has been
+
+
+
+# Not only do they have to worry about invisibly breaking processing pipeline, there are also hundreds of companies and dozens of internal users who use the existing workflows, and have figured out all sorts of hacks around weird UX and data edge cases.
+
+** The Dramatic Failure Of The Perfectly Rational Request For Change
+
+One day, Alistair screws up his courage, knocks on the door of the conference room Max is hoteling in, and says, as confidently as he can, "Could we check in?"
+
+Max looks up from the laptop he's been squinting at. He blinks for a moment, then looks down at his watch. "Yes, I can give you... ten minutes."
+
+Alistair is familiar with Max's heavily time-sliced days. He drops into the chair across from Max and launches into his pitch.
+
+"I wanted to make sure I understood the big picture of what my team is working towards."
+
+Max nods, a bit tightly. Alistair can see his eyes flick down to his watch once again.
+
+"Our existing customers really like us--our NPS is safely in the 50's, which is great. But to keep growing, AccuraClaim needs to find a way to capture more revenue from those customers. Specifically, we have a key target of increasing our average billing from $1.10/claim to $1.50/claim, within two years. Everyone across engineering and product is focused on that as a top priority." Alistair makes himself pause. "Do I have that all mostly right?"
+
+He can tell Max is slightly surprised that Alistair is offering this kind of high-level strategic summary. But he doesn't seem irritated. If anything, he's seems... curious. Max nods. "Go on."
+
+"We're trying to launch the new claim review workflow by early next year. The new summary reports will give us teeth for a premium tier. Also, once we get the underlying data cleaned up, Eduardo's team can build the fraud detection product, to sell as an add-on." He makes himself pause again. "Is that a solid way to understand what we're doing? The most important goals for my team?"
+
+Max has a slightly bemused smile. Alistair would guess that he's hearing a more clear articulation of the "Why" behind the work then he's used to. "That's all really good, Al," he says[fn:: Alistair kind of hates being called Al]. "Really good."
+
+And then, heady with this moment of praise, Alistair makes his crucial mistake. Having laid out the strategic outcome, and connected it to the work of his team, and earned some good will by doing so...
+
+...he decides to make a pitch for Max to change his behavior.
+
+But he *doesn't* really understand Max's feelings.
+
+He says, "Here's the thing. I know we're behind. And I'm worried we're getting more behind. I don't know if you realize it, but a lot of people are feeling bottlenecked, waiting for decisions." He takes a deep breath. "Specifically, waiting for decisions from you."
+
+A flush creeps up Max's neck. "What do you mean?"
+
+"I just wanted to ask if we could find a way for you to, well, delegate a bit more. I think we'd move faster, I think we'd have a better shot at hitting our delivery deadlines for next year." Alistair sits back. He can feel his heart racing. But at least he said *something*.
+
+Max frowns. He looks away. He stares up a corner of the room. Then, he brings his gaze back to Alistair. "I would like nothing better, *Al*," he says, with icy sharpness, "but no one has stepped up. No one has shown *ownership*. You're asking for me to delegate? To who? What, exactly? Every time I take my eye of the ball, things have gotten screwed up."
+
+A host of angry, defensive responses flood Alistair's mind. His fight or flight system is kicking in so hard, he can barely marshal his thoughts. He somehow fixates on the tight, tense line of Max's lips.
+
+Alistair stands up. "Okay. I. I see." With that, he steps awa.
+
+"Thank you," says Max curtly, and leans down over his laptop again.
+
+# Alistair's frustrating director, Max, has been at AccuraClaim since the early days, knows where all the bodies are bried, and is closely guiding the work to restructure under the hood.
+
+** Some Feelings The Frustrating Boss Is Feeling
+
 After spending some quality time filled with rage, let's imagine we're able to find the emotional room to ask ourselves:
 
-Why is Max demonstrating this *obviously* problematic behavior?
+Why is Max demonstrating this *obviously* problematic behavior? Right up front I'm going to say up front that we're not allowed to answer:
 
-Now, we're not allowed to answer, "Because Max is a total jerkface." No one wakes up in the morning and tell their mirror that they're going to be a jerkface today. There's something going on, inside of Max, that makes him *feel* like he's acting in a reasonable manner. In fact, we'll go further: there's something going on inside of Max that makes him feel he's acting in the *only reasonable manner possible*.
+/"Because Max is a total jerkface."/
 
-Let's imagine that we have a crazy, magical power, which allows us to understand someone's inner life, in perfect detail. How might this magical power help us to better understand the situation?
+Yes, yes, that's precisely how it feels, I know. But look, no one wakes up in the morning and tells their mirror that they're going to be a jerkface today. No one thinks they're the bad guy. There's something going on, inside of Max, that makes him *feel* like he's acting in a reasonable manner. In fact, I'll go further: there's something going on inside of Max that makes him feel he's acting in the *only reasonable manner possible*.
 
-First off, we discover, thanks to our magic power, that Max is struggling with an intense, somewhat overwhelming feeling of *fear*.
+From the outside, Max's behavior seems not only unreasonable, but also *self-defeating*. We perceive that Max is actually preventing himself from achieving his long-term goals, by setting up a tentative and slow-moving team.
 
-He wakes up every morning, *knowing* that things at AccuraClaim are on the verge of spinning completely out of control. He rushes through his days in a haze of tension, desperately doing whatever he can to stave off the impending failure. His habit of bottlenecking all decisions is fueled by this fear. Allowing the team to make decisions without him feels dangerous. Conversely, the moments where he gets to make decision *feels* good to him, because it soothes his fear. Making decisions gives him brief moments of energized and decisive.
+Let's imagine that we have a magical power that allows us to understand someone's inner life in perfect detail. How might this magical power help us to better understand why Max's behavior feels both reasonable and necessary to him?
 
-Now Max is not, unfortunately, fully aware of this in himself. (He does not have the magic power of perfect self-knowedge. Which, to be fair, none of us do! Ask my wife sometimes about my own delightful gaps in self-knowledge!)
+We wave our magic wand, and poof! The first thing we immediately see is that Max is struggling with an intense, somewhat overwhelming feeling of *fear*. He attempts to hide that as best he can, but it dominates his inner life.
+
+When Max wakes up every morning, his first conscious feeling is that things at AccuraClaim are on the verge of spinning completely out of control. He hurries through his days in a haze of tension, desperately doing whatever he can to stave off the impending failure. His habit of bottlenecking all decisions is fueled by this fear. Allowing the team to make decisions without him feels dangerous--what if they get something wrong!? The risks feel very, very high. Conversely, the moments where Max gets to make decisions *feel* good to him. Making decisions gives him brief moments of feeling energized and empowered.
+
+Now Max is not, unfortunately, fully aware of all this in himself. (He does not have the magic power of perfect self-knowedge. Which, to be fair, none of us do! Ask my close friends or, say, someone I'm married to, about my own gaps in self-knowledge! Hi, Bonnie!)
 
 ** The Situation Max Perceives Himself To Be In
 
@@ -106,6 +219,8 @@ If we had this magic, incredibly detailed understanding of the situation, we cou
 Persuading humans to change their behavior works roughly a thousand times better if you can find a way to speak to their hearts as well as their minds.
 
 Of course, the above posited the existence of the magic power of knowing someone's full emotional landscape and history. Back here in real life, we're going to need some way to understand what our stakeholders are feeling, without being able to wave a wand.
+
+** An Emotionally Successful Pitch For Change
 
 ** Leaders Hide Feelings
 But there's a problem.
