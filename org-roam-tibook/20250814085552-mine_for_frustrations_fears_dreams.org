@@ -35,7 +35,7 @@ Remember Alistair, from our intro? Who was struggling with his engineering direc
 
 Let's imagine that Alistair has gone through the initial steps of our game plan.
 
-He's asked questions far and wide, and studiously echoed back and summarized what he's heard. Gradually, he's built up a picture of where AccuraClaim is today and where it's trying to get to.
+He's asked questions far and wide, and studiously echoed back and summarized what he's heard. Gradually, he's built up a picture of where AccuraClaim is today and where it's trying to get to. He's spent some time honing what he has learned.
 
 ** AccuraClaim's Much-Desired Strategic Outcome
 
@@ -51,7 +51,6 @@ The exec team held a series of vigorous debates about how to face this challenge
 
 They ultimately decided to make a bet that they can solve more claim-related problems for their existing customer segment, and thus capture more revenue from each auto insurance company they sell to. They've set a specific goal to, over the next two years, increase their average billing rate from $1.10/claim to $1.50/claim.
 
-
 ** The Core Challenge: Data, Why Did It Have To Be Data?
 
 # XXX who wrote the pricing roadmap.
@@ -62,7 +61,7 @@ Unfortunately, just about all of the new product opportunities will require some
 
 Which is... going to be, um, tricky.
 
-The core data model was hastily assembled in the early, fervent days of AccuraClaim, and then just blindly appended to ever since. Newly-hired engineers shrink in horror when they discover that the central EZClaims table[fn:: The company was originally called EasyClaims, and no one is excited about doing an apocalyptic rewrite just to fix the table names] has not one, but *two* linked extension tables (EZClaimsExtra and EZClaimsExtra2), to glue vast amounts of extra metadata onto each claim.[fn:: Does one of those two extension tables contain a JSON blob column with even more data shoved opaquely into it, under an inconsistent set of keys? I guess you'll just have to find out?]
+The core data model was hastily assembled in the early, fervent days of AccuraClaim, and then just blindly appended to ever since. Newly-hired engineers shrink in horror when they discover that the central EZClaims table[fn:: The company was originally called EasyClaims, and no one is excited about doing an apocalyptic rewrite just to fix the table names] has not one, but *two* linked extension tables (EZClaimsExtra and EZClaimsExtra2), to glue vast amounts of extra metadata onto each claim.[fn:: Does one of those two extension tables contain a JSON blob column with even more data shoved opaquely into it, under an inconsistent set of keys? I guess we'll just have to find out!]
 
 # At most companies, yes, it most certainly does.
 
@@ -76,17 +75,17 @@ The core data model was hastily assembled in the early, fervent days of AccuraCl
 
 Our friend Alistair works on one of the teams that owns the core claim processing platform, both front- and back-end.
 
-His team is trying to deliver a total overhaul of the claims review workflows. Under the hood, this will require breaking a bunch of key data out of EZClaims{Extra,Extra2}, and placing it into new, clean SQL tables (with sane names and the occasional use of a foreign key).
+His team is trying to deliver a total overhaul of the claims review workflows. Under the hood, this will require breaking a bunch of key data out of EZClaims{Extra,Extra2}, and placing it into new, clean SQL tables (with sane names and the occasional use of an actual foreign key!).
 
-On the product and marketing side, some of the new reports his team is building will form the basis for a new, premium product tier. Factoring out the underlying data will also allow other teams to create entirely new products to integrate AccurClaim's platform more deeply into the operations of their customers.
+On the product and marketing side, the new reports his team is building will form the basis for a premium product tier. Factoring out the underlying data will also allow other teams to create entirely new products to integrate AccurClaim's platform more deeply into the operations of their customers.
 
-Or, that's all the plan.
+Or at least, that's all the plan.
 
-Alistair also learns that things are not going great, big picture.
+Alistair also learns that things are not going great on that plan.
 
 # exactly according to that plan
 
-Changing the core data model of a product used to process hundreds of thousands of claims a day has turned out to be fraught with weird edge cases and risks. All the teams are months behind schedule. Every time they roll out a change to the claims processing workflows, a horde of customers descend on them with angry pitchforks in hand.
+Changing the core data model of a product used to process hundreds of thousands of claims a day has turned out to be fraught with weird edge cases and risks. All the teams are months behind schedule. Every time they roll out a change to the claims review workflows, a horde of customers descend on them with angry pitchforks in hand.
 
 And of course, Max Hartswell, who leads all of engineering in this domain, has somehow become the bottleneck for all decision-making.
 
@@ -108,33 +107,35 @@ Alistair is familiar with Max's heavily time-sliced days. He drops into the chai
 
 Max nods, a bit tightly. Alistair can see his eyes flick down to his watch once again.
 
-"Our existing customers really like us--our NPS is safely in the 50's, which is great. But to keep growing, AccuraClaim needs to find a way to capture more revenue from those customers. Specifically, we have a key target of increasing our average billing from $1.10/claim to $1.50/claim, within two years. Everyone across engineering and product is focused on that as a top priority." Alistair makes himself pause. "Do I have that all mostly right?"
+"Our existing customers really like us--our NPS is safely in the 50's, which is great. But to keep growing, AccuraClaim needs to find a way to capture more revenue from those customers. Specifically, we have a key goal of increasing our average billing from $1.10/claim to $1.50/claim, within two years. Everyone across engineering and product is focused on that as a top priority." Alistair makes himself pause. "Do I have that all mostly right?"
 
 He can tell Max is slightly surprised that Alistair is offering this kind of high-level strategic summary. But he doesn't seem irritated. If anything, he's seems... curious. Max nods. "Go on."
 
-"We're trying to launch the new claim review workflow by early next year. The new summary reports will give us teeth for a premium tier. Also, once we get the underlying data cleaned up, Eduardo's team can build the fraud detection product, to sell as an add-on." He makes himself pause again. "Is that a solid way to understand what we're doing? The most important goals for my team?"
+"We're trying to launch the new claim review workflow by early next year. The new summary reports will give us teeth for a premium tier. Also, once we get the underlying data cleaned up, Eduardo's team can build the fraud detection product, to sell as an add-on. Having both of those should allow the sales team to make real headway against the per-claim average price increase." He makes himself pause again. "Is that a solid way to understand what we're doing? The most important goals for my team?"
 
-Max has a slightly bemused smile. Alistair would guess that he's hearing a more clear articulation of the "Why" behind the work then he's used to. "That's all really good, Al," he says[fn:: Alistair kind of hates being called Al]. "Really good."
+Max has a slightly bemused look. Alistair would guess that he's hearing a more clear articulation of the "Why" behind the work then he's used to. "That's all... really good, Al," he says[fn:: Alistair kind of hates being called Al]. "Really good."
 
-And then, heady with this moment of praise, Alistair makes his crucial mistake. Having laid out the strategic outcome, and connected it to the work of his team, and earned some good will by doing so...
+And then, heady with this moment of praise, Alistair makes his crucial mistake.
+
+Having laid out the strategic outcome, and connected it to the work of his team, and earned some good will by doing so...
 
 ...he decides to make a pitch for Max to change his behavior.
 
 But he *doesn't* really understand Max's feelings.
 
-He says, "Here's the thing. I know we're behind. And I'm worried we're getting more behind. I don't know if you realize it, but a lot of people are feeling bottlenecked, waiting for decisions." He takes a deep breath. "Specifically, waiting for decisions from you."
+Alistair says, "Here's the thing. I know we're behind. And I'm worried we're getting more behind. I don't know if you realize it, but a lot of people are feeling bottlenecked, waiting for decisions." He takes a deep breath. "Specifically, waiting for decisions from you."
 
 A flush creeps up Max's neck. "What do you mean?"
 
 "I just wanted to ask if we could find a way for you to, well, delegate a bit more. I think we'd move faster, I think we'd have a better shot at hitting our delivery deadlines for next year." Alistair sits back. He can feel his heart racing. But at least he said *something*.
 
-Max frowns. He looks away. He stares up a corner of the room. Then, he brings his gaze back to Alistair. "I would like nothing better, *Al*," he says, with icy sharpness, "but no one has stepped up. No one has shown *ownership*. You're asking for me to delegate? To who? What, exactly? Every time I take my eye of the ball, things have gotten screwed up."
+Max frowns. He looks away. He stares up at a corner of the room. Then, he brings his gaze back to Alistair. "I would like nothing better, *Al*," he says, with icy anger, "but no one has stepped up. No one has shown *ownership*. You're asking for me to delegate? To who? What, exactly? Every time I take my eye of the ball, things have gotten screwed up."
 
 A host of angry, defensive responses flood Alistair's mind. His fight or flight system is kicking in so hard, he can barely marshal his thoughts. He somehow fixates on the tight, tense line of Max's lips.
 
-Alistair stands up. "Okay. I. I see." With that, he steps awa.
+Alistair stands up. "Okay. I... see." With that, he steps away from the table.
 
-"Thank you," says Max curtly, and leans down over his laptop again.
+"Thank you," says Max meaninglessly, and hunches down over his laptop as Alistair stumbles out of the room
 
 # Alistair's frustrating director, Max, has been at AccuraClaim since the early days, knows where all the bodies are bried, and is closely guiding the work to restructure under the hood.
 
@@ -158,9 +159,11 @@ When Max wakes up every morning, his first conscious feeling is that things at A
 
 Now Max is not, unfortunately, fully aware of all this in himself. (He does not have the magic power of perfect self-knowedge. Which, to be fair, none of us do! Ask my close friends or, say, someone I'm married to, about my own gaps in self-knowledge! Hi, Bonnie!)
 
+Pretty much any time someone is acting in some awful manner, they perceive themselves to be a victim of an unfair situation.[fn:: Does this mean that if we're perceiving ourselves as victims of an unfair situation, we might be acting like assholes without realizingit? Sadly, it totally totally does.]
+
 ** The Situation Max Perceives Himself To Be In
 
-This is a very good start. But we need to dig deeper. We need to understand *why*, exactly, Max is strugglgin with fear and anxiety.
+This is a very good start. But we need to dig deeper. We need to understand *why*, exactly, Max is struggling with fear and anxiety.
 
 # Is the above an empathetic statement of their feelings?
 
