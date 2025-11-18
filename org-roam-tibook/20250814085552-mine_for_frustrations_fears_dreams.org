@@ -7,13 +7,55 @@
 # Mine for Frustrations, Fears & Dreams
 ** Humans Have Feelings, Ignore At Your Own Risk
 
-If you've been following along in the steps in the game plan, you may feel ready to go. You've identified the overall outcome your stakeholder is working towards, you've named a core challenge, and you understand how your team will help overcome that challenge.
+In the introduction, we mapped out how, once you've got a proposed adjustment ready to go, you'll actually approach your stakeholder. We call this "Making a Compelling Offer", and it consists of the following steps:
 
-This does, in fact, put you in an *excellent* place to productively challenge your stakeholder to make a change of some kind.
+  1. Invoke the strategic outcome
 
-But, before you do so, there is one more step:
+  2. Share your understanding of their concerns
 
-Your stakeholder is a human being. Their behavior is not driven merely by a rational plan. We are none of us robots.
+  3. Share your concerns
+
+  4. Propose an adjustment in how you work together
+
+  # 1. Name the strategic, long-term outcome
+
+  # 2. Share an empathetic understanding of their concerns
+
+  # 3. Share your own concerns
+
+  # 4. Propose your adjustment
+
+If you've been following along in the steps in the game plan, you may feel ready to go.
+
+In particular, if you've successfully identified the strategic outcome your stakeholder is working towards, you've hopefully come to better understand two *extremely useful* things:
+
+ - What is the *core challenge* your stakeholder believes your company must face, to achieve that outcome?
+
+ - How exactly do they believe *your team* can help overcome that challenge?
+
+Armed with this knowledge, you may feel like you (finally!) see a clear way to advocate for change.
+
+# A way to express how the current, frustrating pattern of interaction, if left unaddressed, will prevent you *both* from overcoming the core challenge.
+
+You might look at the second step of the compelling offer, and say to yourself:
+
+/"Self, we've got this. What my stakeholder *wants* is to accomplish that long-term outcome. That's their main 'concern'. Let's go!"/
+
+# If I can talk about how important that outcome is, we should be good to go.
+
+Your self might say back to you:
+
+/"That sounds okay, I guess. But are you certain that's all they're concerned about?"/
+
+But you don't hear, so excited are you to tell your stakeholder about why they're not going to be able to achieve their long-term goals unless they stop being so irritating.
+
+Here's the thing. Although the connection from the long-term outcome to the work of your team is, in fact, an excellent foundation for productively challenging your stakeholder...
+
+... it's *not enough*.
+
+Why not? For one simple reason: your stakeholder is a human being. Thus, their behavior is not driven solely by some rational plan to achieve an outcome. We are none of us robots.
+
+In short, your stakeholder has feelings. And those feelings *matter*. To effectively advocate for change, you'll need to develop an empathetic understanding of those messy, human feelings.
 
 # If you want to persuade your stakeholder to make a change, you're going to need to understand some messy human emotions.
 
@@ -21,41 +63,68 @@ Your stakeholder is a human being. Their behavior is not driven merely by a rati
 
 # If you want one of those humans to change their behavior, it's absolutely critical for you to understand their *feelings*.
 
-This is true even if you work with a CEO whose only outward expression of emotion is a series of variations on the tightly clenched jaw.
+This is true even if you work with a CEO whose only outward expression of emotion is a  tightly clenched jaw.
 
-It's true even if you and your coworkers engage in serious debates about whether or not your ice cold Head of Engineering even *has* feelings.
+# This is true even if you and your coworkers engage in serious debates about whether or not your rigidly shut-down Head of Engineering even *has* feelings.
 
-Understanding emotions doesn't mean gathering in a drum circle and getting in touch with our inner child. All humans, in whatever positions of power they may find themselves, have things they deeply want, and things they are deeply afraid of. Your stakeholder's current behavior patterns are driven by some combination of what they want and what they're afraid of.
+Understanding feelings doesn't mean gathering in a drum circle and getting in touch with our inner child. All humans, in whatever positions of power they may find themselves, have things they deeply want, and things they are deeply afraid of. Your stakeholder's current behavior patterns are driven by some combination of what they want and what they're afraid of.
 
-When you advocate for change, you want to be able to speak with authentic connection to both the fears that are keeping them up at night, as well as the things that they desperately wish were happening.
+When you advocate for change, you need to be able to speak with authentic connection to both the fears that are keeping them up at night, as well as the things that they desperately wish were happening.
 
-** A Story: The Context In Which Alistair Is Stuck
+To bring this to life, let's first see what happens if someone tries to advocate for change, *without* that nuanced, empathetic understanding. Then we'll see how, armed with an understanding of their stakeholder's inner life, they could make a far, far more effective request for change.
 
-Remember Alistair, from our intro? Who was struggling with his engineering director, Max Hartswell? Who had set himself up as the bottleneck for all decisions, and then blamed the team for lack of ownership?
+** A Story: The Quicksand In Which Alistair Is Sinking
 
-Let's imagine that Alistair has gone through the initial steps of our game plan.
+Let's return to our friend Alistair, from the introduction:
 
-He's asked questions far and wide, and studiously echoed back and summarized what he's heard. Gradually, he's built up a picture of where AccuraClaim is today and where it's trying to get to. He's spent some time honing what he has learned.
+# Remember Alistair, from our intro? Who was struggling with his engineering director, Max Hartswell? Who had set himself up as the bottleneck for all decisions, and then blamed the team for lack of ownership?
 
-** AccuraClaim's Much-Desired Strategic Outcome
+/Alistair is an engineering manager at AccuraClaim, a business that provides claims processing services to the insurance industry. Alistair's team is great, his product manager has become a close friend, he really likes working with the messy, gritty details of claims data./
 
-AccuraClaim has, over the last several years, built up a robustly defensible business by taking over a bunch of gritty claims processing work for auto insurance companies.
+/There's just one problem./
+
+/Max Hartswell, the engineering director over Alistair's team, has apparently never met a decision he felt comfortable letting someone else make./
+
+/Alistair, Alistair's PM, all the adjacent tech leads and half the designers spend all their working hours trying to track Max down and get him to sign off on some decision he announced, weeks ago, he wanted to review "just one more time."/
+
+Then, during a casual conversation, Max talked about disppointed he is that no one is showing ownership.
+
+# Then, one evening at the company happy hour, Alistair finds himself awkwardly chatting with Max. The engineering director takes a sip from his hard seltzer. Alistair tries to think of something to say. Then, out of nowhere, Max airily tells Alistair that he's "a little disappointed" that Alistair's team isn't stepping up and showing more independence and ownership. "It's like you're just *waiting* to be told what to do," he says. Alistair nearly chokes on his beer. After managing to extricate himself from the conversation, Alistair realizes he might have to talk with his wife about whether or not he can stay at this job.
+
+
+Let's imagine that Alistair, after talking himself down from the ledge, has gone through the initial steps of our game plan.
+
+He's asked questions far and wide, and studiously echoed back and summarized what he's heard. Gradually, he's built up a picture of where AccuraClaim is today and where it's trying to get to. He's spent some time honing what he has learned into a concise and clear statement of strategy.
+
+This is what he has learned.
+
+** The Strategic Outcome: Just Some Critical New Products, NBD
+
+AccuraClaim has, over the last several years, built up a robustly defensible business by supporting a bunch of gritty claims processing workflows for auto insurance companies.
 
 # They have customers ranging from modest to extremely large.
 
-Unfortunately, AccuraClaim's marketing team has started to struggle to find new customers in the car insurance vertical. Growth is starting to slow.
+Unfortunately, AccuraClaim's marketing team is starting to struggle to find new customers in the car insurance vertical. Growth is slowing.
 
 # XXX possibly, trim the below
 
-The exec team held a series of vigorous debates about how to face this challenge. The Chief Marketing Officer made a case for getting into the home insurance market. The CEO, however, who has worked in insurance for decades, pushed back. "We know auto claims, our operations are built around auto claims, our *product* is built around auto claims. You could use the same *marketing* plan, but we'd need to create an entirely new *business* as the backend."
+# The exec team held a series of vigorous debates about how to face this challenge. The Chief Marketing Officer made a case for getting into the home insurance market. The CEO, however, who has worked in insurance for decades, pushed back. "We know auto claims, our operations are built around auto claims, our *product* is built around auto claims. You could use the same *marketing* plan, but we'd need to create an entirely new *business* as the backend."
 
-They ultimately decided to make a bet that they can solve more claim-related problems for their existing customer segment, and thus capture more revenue from each auto insurance company they sell to. They've set a specific goal to, over the next two years, increase their average billing rate from $1.10/claim to $1.50/claim.
+After a series of vigorous debates, the exec team has decided to make a bet that they can solve *more claims-related problems* for auto insurance companies. Doing so, and finding a way to charge for the new value created, will increase revenue per customer, and thus, unlock growth.
 
-** The Core Challenge: Data, Why Did It Have To Be Data?
+AccuraClaim currently charges their customers per claim processed, with an overall average price of $1.10 per claim.
+
+Their core strategic outcome is:
+
+*Within two years, increase their average price to $1.50 per claim.*
+
+# Like the best of strategic outcomes, this is easy to say, but will be extremely hard to pull off.
+
+Alistair learns that, to pull this off, AccuraClaim is attempting to develop both a premium pricing tier and also an entirely new product offering around fraud detection.[fn:: BTW, if you work at a B2B SaaS business like AccurClaim, I *super* highly recommend The Pricing Roadmap, by Ulrik Lehrskov-Schmidt . It's an incredibly good, actionable plan for pulling together the work of product, marketing & sales.]
 
 # XXX who wrote the pricing roadmap.
 
-To do this, they will need to develop new product tiers and new product offerings.[fn:: If you work at a B2B SaaS business like AccurClaim, I simply could not recommend more highly The Pricing Roadmap, by  . It's an incredibly good, actionable plan for pulling together the work of product, marketing & sales.]
+** The Core Challenge: Data, Why Did It Have To Be Data?!
 
 Unfortunately, just about all of the new product opportunities will require some pretty extensive restructuring of their core product.
 
@@ -71,7 +140,7 @@ The core data model was hastily assembled in the early, fervent days of AccuraCl
 
 # , and to handle all the bizarre challenges of parsing tens of thousands of claims a day.
 
-** The Role of Alistair's Team: Make It Exactly The Same, But Also Totally Different
+** The Role of The Team: Make It Exactly The Same, But Also Totally Different
 
 Our friend Alistair works on one of the teams that owns the core claim processing platform, both front- and back-end.
 
@@ -139,7 +208,7 @@ Alistair stands up. "Okay. I... see." With that, he steps away from the table.
 
 # Alistair's frustrating director, Max, has been at AccuraClaim since the early days, knows where all the bodies are bried, and is closely guiding the work to restructure under the hood.
 
-** Some Feelings The Frustrating Boss Is Feeling
+** The Feelings Assaulting Max From Every Direction
 
 After spending some quality time filled with rage, let's imagine we're able to find the emotional room to ask ourselves:
 
@@ -223,7 +292,7 @@ Persuading humans to change their behavior works roughly a thousand times better
 
 Of course, the above posited the existence of the magic power of knowing someone's full emotional landscape and history. Back here in real life, we're going to need some way to understand what our stakeholders are feeling, without being able to wave a wand.
 
-** An Emotionally Successful Pitch For Change
+** An Emotionally Grounded Pitch For Change
 
 ** Leaders Hide Feelings
 But there's a problem.
@@ -781,9 +850,18 @@ Separately, the Head of Customer Success
 
 The only way you and your team will create significant value is if you can relentlessly focus on the most important, most valuable work at every moment. People you can't ignore are, in the actual,
 * Todos
+** TODO Open w/ review of how to make offer
+** TODO Maybe: fully insert text from opening story
+Instead of "Remember?"
+** TODO Insert Alistair tries to advocate, gets shut down
+** TODO Break into two chapters
+ - Speak To Feelings
+
+ - Mine For Feelings
+
+And maybe that second one is a bit more catalog-esque.
 ** TODO Maybe: Max has developed this habit recently
 ** TODO Adjust the problem to get to customers
-** TODO Maybe, insert, Alistair tries to advocate, gets shut down
 ** TODO Decide: when to use the magic knowledge?
 E.g. as soon as I've laid it out, so we can actually *feel* it?
 
@@ -791,7 +869,11 @@ This would match what I did in the previous chapter.
 
 ** TODO Decide: talk about "finding a business problem"?
 I think, no.
-** TODO Spike: work in story from substack, adjust to fit Alistair and Max
-** TODO Review the four emotions post from Substack
-** TODO Wedge parts of it into this doc
-** TODO Re-read what I have
+** DONE Spike: work in story from substack, adjust to fit Alistair and Max
+CLOSED: [2025-11-18 Tue 08:42]
+** DONE Review the four emotions post from Substack
+CLOSED: [2025-11-18 Tue 08:42]
+** DONE Wedge parts of it into this doc
+CLOSED: [2025-11-18 Tue 08:42]
+** DONE Re-read what I have
+CLOSED: [2025-11-18 Tue 08:42]
