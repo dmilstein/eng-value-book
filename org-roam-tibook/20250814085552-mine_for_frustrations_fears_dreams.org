@@ -3,9 +3,11 @@
 :END:
 #+title: Map Key Emotions
 #+filetags: :Chapter:
-* Map Key Emotions
+* Humans Have Feelings, Ignore At Your Own Risk
+
+# Map Key Emotions
 # Mine for Frustrations, Fears & Dreams
-** Humans Have Feelings, Ignore At Your Own Risk
+** Intro
 
 In the introduction, we mapped out how, once you've got a proposed adjustment ready to go, you'll actually approach your stakeholder. We call this "Making a Compelling Offer", and it consists of the following steps:
 
@@ -171,11 +173,11 @@ Unsurprisingly, all the teams are months and months behind schedule.
 
 Let's imagine that, having acquired this rich, nuanced understanding of what the business as a whole is hoping to accompish, Alistair decides he's ready to directly confront Max about the engineering director's problematic behavior.
 
-In particular, Alistair understands in a new way both their ultimate goals *and* how the bottlenecked decision-making is not merely irritating, but is causing actual problems for the business as a whole.
+# In particular, Alistair understands in a new way both their ultimate goals *and* how the bottlenecked decision-making is not merely irritating, but is causing actual problems for the business as a whole.
 
 On his next in-office day, Alistair screws up his courage and knocks on the door of the small conference room Max is hoteling in. Alistair says, as confidently as he can, "Could we maybe check in?"
 
-Max looks up from the laptop he's been squinting at. He blinks for a moment, then checks his watch. "I can give you ten minutes."
+Max looks up from the laptop he's been squinting at. He blinks for a moment, then looks at his watch. "I can give you ten minutes."
 
 Alistair is familiar with Max's heavily time-sliced days. He drops into the chair across from Max and launches into his pitch.
 
@@ -185,13 +187,13 @@ Max nods tightly. Alistair sees his eyes flick down to his watch once again.
 
 "Our existing customers really like us--our NPS is safely in the 50's, which is great. But to keep growing, AccuraClaim needs to find a way to capture more revenue from those customers. Specifically, we have a key goal of increasing our average price from $1.10 per claim to $1.50 per claim, within two years. Everyone across engineering and product is focused on that as a top priority." Alistair makes himself pause. "Do I have that all mostly right?"
 
-He can tell Max is slightly surprised that Alistair is offering this kind of high-level strategic summary. But he doesn't seem irritated. If anything, hes seems curious? Max nods. "Go on."
+He can tell Max is slightly surprised that Alistair is offering this kind of high-level strategic summary. He nods, "Go on."
 
-"We're trying to launch the new claim review workflow by early next year. The new summary reports will give us teeth for a premium tier. Also, once we get the underlying data cleaned up, Eduardo's team can build the fraud detection product, to sell as an add-on. Having both of those should allow the sales team to make real headway against the per-claim average price increase." He makes himself pause again. "Is that a solid way to understand what we're doing? The most important goals for my team?"
+"We're trying to launch the updated claim workflows by early next year. The summary reports will give us teeth for a premium tier. And, once we get the underlying data cleaned up, Eduardo's team can build the fraud detection product, to sell as an add-on. Having both of those should allow the sales team to make real headway against the per-claim average price increase." He makes himself pause again. "Is that a solid way to understand what we're doing? The most important goals for my team?"
 
-Max has a slightly bemused look. Alistair would guess that he's hearing a more clear articulation of the "Why" behind the work then he's used to. "That's all... really good, Al," he says[fn:: Alistair kind of hates being called Al]. "Really good."
+Max has a slightly bemused look. "That's all... good, Alistair," he says. "Really good. Is there anything else you wanted to ask?"
 
-And then, heady with this moment of praise, Alistair makes his crucial mistake.
+Heady with this moment of praise, Alistair makes his crucial mistake.
 
 "Look," he says, placing on his hands on the conference room table, "I know we're behind. And I'm worried we're getting more behind. I don't know if you realize it, but a lot of people are feeling like they're waiting for decisions." He takes a deep breath. "Specifically, waiting for decisions from you."
 
@@ -201,19 +203,19 @@ A flush creeps up Max's neck. "What do you mean?"
 
 Max frowns. He looks away. He stares up at a corner of the room. Then, he brings his gaze back to Alistair. "What decisions, exactly?"
 
-"What?" says Alistair, surprised by this sudden interrogation.
+"I'm sorry?" says Alistair, surprised by this sudden interrogation.
 
 "You said that people are waiting on decisions from me. What decisions, exactly?"
 
-The tight, angry tension in the air makes Alistair feel suddenly unable to think. "Um, about the data model. And the interface."
+The tight, angry tension in the air makes Alistair suddenly struggle to speak. "Um, about the um, data model. And the, uh, interface, too."
 
-"I see," says Max, coldly. He looks down at this watch again, then back at Alistair.
+"I see," says Max, coldly. He looks down at his watch, then back at Alistair. "Look, I *want* to delegate," he says, with a tense frown, "but no one has shown ownership. Every time I've taken my eye of the ball, things have gotten screwed up."
 
-# "I would like nothing better than to delegate," he says, icily, "but no one has stepped up. No one has shown *ownership*. You're asking for me to delegate? To who? Every time I've taken my eye of the ball, things have gotten screwed up."
+A host of defensive responses flood Alistair's mind. But his fight or flight system is kicking in so hard, he can barely think. "I... see," he says.
 
-"We're at a critical moment. I am always available. I work very hard to keep things moving. In fact," he continues, with a curt wave towards his laptop, "I'll have to ask you to go right now, because Jeanine is waiting on me."
+Max continues in a huff, "Look, I meet with people all day. I'm available to help with decisions all day. In fact," he says, with a wave towards his laptop, "I'll have to ask you to go, because Jeanine is waiting on me."
 
-A host of angry, defensive responses flood Alistair's mind. His fight or flight system is kicking in so hard, he can barely think. He stands up. "Okay. I... see." With that, he steps away from the table.
+Alistair pushes back his chair. "I understand."
 
 "Thank you," says Max, meaninglessly, and hunches down over his laptop as Alistair stumbles out of the room.
 
@@ -221,29 +223,45 @@ A host of angry, defensive responses flood Alistair's mind. His fight or flight 
 
 ** The Feelings Assaulting Max From Every Direction
 
-After spending some quality time filled with rage, let's imagine we're able to find the emotional room to ask ourselves:
+# Well, that sucked.
 
-Why is Max demonstrating this *obviously* problematic behavior? Right up front I'm going to say up front that we're not allowed to answer:
+# Despite making a clear, rational case, despite speaking to the long-term goals that Max cares most intensely about, Alistair made absolutely no headway. He triggered something in Max, and the conversation went straight to hell.
+
+# # After spending some quality time filled with rage, let's imagine we're able to find the emotional room to ask ourselves:
+
+# We need to ask,
+
+# In order to understand what was triggered, and therefore imagine a different way that Alistair could approach Max, we need to understand what Max is feeling.
+
+Why is Max demonstrating this obviously problematic behavior?
+
+I'm going to say up front that we're not allowed to answer:
 
 /"Because Max is a total jerkface."/
 
 Yes, yes, that's precisely how it feels, I know. But look, no one wakes up in the morning and tells their mirror that they're going to be a jerkface today. No one thinks they're the bad guy. There's something going on, inside of Max, that makes him *feel* like he's acting in a reasonable manner. In fact, I'll go further: there's something going on inside of Max that makes him feel he's acting in the *only reasonable manner possible*.
 
-From the outside, Max's behavior seems not only unreasonable, but also *self-defeating*. We perceive that Max is actually preventing himself from achieving his long-term goals, by setting up a tentative and slow-moving team.
+From the outside, Max's behavior seems not only unreasonable, but also *self-defeating*. We perceive that Max is actually preventing himself from achieving his long-term goals, by blocking the team from making rapid, independent progress.
+
+Why would he be doing this?
 
 Let's imagine that we have a magical power that allows us to understand someone's inner life in perfect detail. How might this magical power help us to better understand why Max's behavior feels both reasonable and necessary to him?
 
-We wave our magic wand, and poof! The first thing we immediately see is that Max is struggling with an intense, somewhat overwhelming feeling of *fear*. He attempts to hide that as best he can, but it dominates his inner life.
+We wave our magic wand, and poof! All is clear!
+
+The first thing we see is that Max is struggling with an intense, somewhat overwhelming feeling of *fear*. He attempts to hide that as best he can, but it dominates his inner life.
 
 When Max wakes up every morning, his first conscious feeling is that things at AccuraClaim are on the verge of spinning completely out of control. He hurries through his days in a haze of tension, desperately doing whatever he can to stave off the impending failure. His habit of bottlenecking all decisions is fueled by this fear. Allowing the team to make decisions without him feels dangerous--what if they get something wrong!? The risks feel very, very high. Conversely, the moments where Max gets to make decisions *feel* good to him. Making decisions gives him brief moments of feeling energized and empowered.
 
-Now Max is not, unfortunately, fully aware of all this in himself. (He does not have the magic power of perfect self-knowedge. Which, to be fair, none of us do! Ask my close friends or, say, someone I'm married to, about my own gaps in self-knowledge! Hi, Bonnie!)
+# Now Max is not, unfortunately, fully aware of all this in himself. (He does not have the magic power of perfect self-knowedge. Which, to be fair, none of us do! Ask my close friends or, say, someone I'm married to, about my own gaps in self-knowledge! Hi, Bonnie!)
 
-Pretty much any time someone is acting in some awful manner, they perceive themselves to be a victim of an unfair situation.[fn:: Does this mean that if we're perceiving ourselves as victims of an unfair situation, we might be acting like assholes without realizingit? Sadly, it totally totally does.]
+# Pretty much any time someone is acting in some awful manner, they perceive themselves to be a victim of an unfair situation.[fn:: Does this mean that if we're perceiving ourselves as victims of an unfair situation, we might be acting like assholes without realizingit? Sadly, it totally totally does.]
+
+Let's dig deeper, and ask what in the *situation* is triggering that fear.
 
 ** The Situation Max Perceives Himself To Be In
 
-This is a very good start. But we need to dig deeper. We need to understand *why*, exactly, Max is struggling with fear and anxiety.
+# This is a very good start. But we need to dig deeper. We need to understand *why*, exactly, Max is struggling with fear and anxiety.
 
 # Is the above an empathetic statement of their feelings?
 
@@ -251,7 +269,9 @@ This is a very good start. But we need to dig deeper. We need to understand *why
 
 # It's useful, don't get me wrong. We might feel some *sympathy* for someone struggling with that feeling of impending disaster. But we haven't gotten to a full description of the *situation* that head of product perceives themselves to be in, nor to how, exactly, that situation is driving their behavior. And, crucially, we have not yet identified a meaningful business problem we can agree is worth solving with them.
 
-Let's deploy our magic power once again. We wave our a magic wand and understand what in their overall situation is leading to this behavior:
+Let's deploy our magic power once again. We wave our a magic wand again.
+
+Here is what we learn:
 
  - *A few months back, a confusing product change made it through to some important customers.*
 
@@ -265,45 +285,82 @@ Let's deploy our magic power once again. We wave our a magic wand and understand
 
    And, unfortunately, the company's core product, which their largest customers depend on for high-stakes workflows, has grown quite complex over time. There are a forest of special cases for processing insurance claims.
 
+   # Max has been at AccuraClaim since the early days, knows where all the bodies are bried, and deeply understands the claim workflows.
+
    Naturally, some of the new PM's don't fully understand the most complex workflows, nor the wide variety of ways customers have tweaked the product to meet their needs.
 
-   Thus, there is a genuine risk of one of the teams "breaking the product", and for that to be very disruptive to some customers.
+   # Thus, there is a genuine risk of one of the teams "breaking the product", and for that to be very disruptive to some customers.
 
  - *Max was only recently promoted to supervise multiple teams.*
 
    He has little experience of how to hold a high standard for his teams, when he's not immersed in the day-to-day flow of the work.
 
-In this situation, we *can* identify a genuine challenge that Max is is facing: finding a scalable way to ensure that engineering changes don't break existing, complex workflows for customers, despite the presence of several new PM's on the team.
+   Worse, in the past, exerting fine-grained oversight allowed him to heroically save at-risk projects. He believes that is what *got him promoted*.
 
-Note that this is a meaningful challenge *for the business*, as well as for Max
+# In this situation, we *can* identify a genuine challenge that Max is is facing: finding a scalable way to ensure that engineering changes don't break existing, complex workflows for customers, despite the presence of several new PM's on the team.
 
-Unfortunately, he is reaching for the only tool they has in his existing kit: direct, final-say oversight over every single decisionn. Worse, in the past, exerting that kind of fine-grained oversight allowed him to heroically save at-risk projects. It is how he established control and prevented failure, and *eventually got promoted*.
+# Note that this is a meaningful challenge *for the business*, as well as for Max
 
-# XXX Add something about his detail-oriented behavior being a virtue
+# # XXX Add something about his detail-oriented behavior being a virtue
 
-Thus, it's not surprising that he's reaching for it now. Max is actually aware that the team is growing frustrated with them, but part of the story in his head is that he has to be willing to piss the team off a bit, in order to get the details right.
+# Thus, it's not surprising that he's reaching for it now. Max is actually aware that the team is growing frustrated with them, but part of the story in his head is that he has to be willing to piss the team off a bit, in order to get the details right.
 
-Finally, ever since the CEO turned the emotional pressure up to eleven, Max's background fear is very strong. It feels impossible to even *imagine* any other options.
+Given all of the above, Max's feelings are, well, a lot easier to understand. With the CEO turning up the emotinal pressure to eleven, the risk of public shame is burning very brightly. And, given the new product team members, and Max's history as a leader, it's not surprising that he feels like his only option is to step in to heroically fix things.
 
-Given all of the above, Max's behavior is, well, a lot easier to understand.
+# Finally, ever since the CEO turned the emotional pressure up to eleven, Max's background fear is very strong. It feels impossible to even *imagine* any other options.
 
-To be clear: his behavior is *still* extremely problematic.
+To be clear: Max's *behavior* is still extremely problematic.
 
-To build a healthy, fast-moving team that achieves real wins for the business, he will need to find a way to help them change his behavior.[fn:: And, honestly, for the CEO to change their behavior, too]
+Understanding where his feelings are coming from doesn't mean accepting that his behavior is okay.
 
-But, importantly, *beneath* the problematic behavior, and the surging emotions, you're now seeing a *valid business problem*, around ensuring stability in the product as it evolves. That's a problem you can authentically agree needs to be solved.
+But if Alistair had this magic, incredibly detailed understanding of both Max's feelings and the situation, he could make a much, much more compelling offer to Max to change his behavior.
 
-If we had this magic, incredibly detailed understanding of the situation, we could make a very compelling offert to the head of product to change their behavior.
+# To build a healthy, fast-moving team that achieves real wins for the business, he will need to find a way to help them change his behavior.[fn:: And, honestly, for the CEO to change their behavior, too]
+
+# But, importantly, *beneath* the problematic behavior, and the surging emotions, you're now seeing a *valid business problem*, around ensuring stability in the product as it evolves. That's a problem you can authentically agree needs to be solved.
 
 # Furthermore, you can see the key emotional challenges (and opportunities!), tangled up in the head of product's experience of that business problem.
 
 # Your fuller, empathetic understanding will allow you to productively challenge your stakeholder to change.
 
-Persuading humans to change their behavior works roughly a thousand times better if you can find a way to speak to their hearts as well as their minds.
-
-Of course, the above posited the existence of the magic power of knowing someone's full emotional landscape and history. Back here in real life, we're going to need some way to understand what our stakeholders are feeling, without being able to wave a wand.
+# Persuading humans to change their behavior works roughly a thousand times better if you can find a way to speak to their hearts as well as their minds.
 
 ** An Emotionally Grounded Pitch For Change
+
+Let's replay our scene, picking it up from just before it went off the rails:
+
+Alistair was saying, "... Having both of those should allow the sales team to make real headway against the per-claim average price increase. Is that a solid way to understand what we're doing? The most important goals for my team?"
+
+"That's all good, Alistair," says Max, "Really good. Is there anything else you wanted to ask?"
+
+Now, thanks to the magic wand, Alistair knows that one of Max's biggest concerns is the risk of being called out by the CEO. So, he'll speak directly to that fear, and validate it.
+
+"It seems to me like you might be in a kind of tricky situation. You're supposed to ship this fundamental restructuring absolutely as quickly as possible, but, if any existing customers complain about, well, anything, the CEO seems to blame you. If I were in your shoes, it might feel like I was going to get, well, yelled at either way? Does that sound at all familiar?"
+
+Max looks startled for a moment, and then gives a short bark of laughter. "You're not wrong."
+
+"Man, that would feel really hard," says Alistair, sincerely. "Also, my sense is that the new PM's don't really understand all the crazy steps in claims processing. It's not their fault, they only started a few months ago. But it's not like you can just step fully back and let them run. You *need* to stay in the loop. Is that right?"
+
+"Exactly," says Max with a look of relief. "That's *exactly* it. I *want* to delegate more. Really. No one understands that."
+
+"Alright," says Alistair, "I have some early ideas for how we could work towards that. So that we can find ways to gradually set the PM's to take things over, but without you having to worry about some horrible bug getting through, and the CEO losing his mind. I've probably used up my ten minutes now, but could I set up a thirty minute meeting tomorrow to talk out some options?"
+
+"Absolutely," says Max. "I look forward to it."
+
+This may seem bizarrely Jekyll and Hyde, but being able to speak with empathy to someone's emotional experience is somewhat astonishingly powerful. It can turn a frustratingly oppositional conversation into something much more open and collaborative, and do so remarkably quickly.
+
+** But What If We Don't Have A Magic Wand?
+
+Of course, Alistair was only able to speak with empathy thanks to the magic power of knowing Max's full emotional landscape and situation.
+
+Back here in real life, we're going to need some way to understand what our stakeholders are feeling, without being able to wave a wand.
+
+Luckily, we can do exactly that! Even though many leaders work hard to hide how they're feeling!
+
+In our next chapter, we'll explore how Alistair could have approached Max and learned about his feelings and the situation he perceives himself to be in.
+
+
+* Arbitrary Breakpoint
 
 ** Leaders Hide Feelings
 But there's a problem.
@@ -404,7 +461,6 @@ And they'll *feel* like you're hearing and understanding them.
 
 It shouldn't be this simple. But it totally works.[fn:: If you happen to like romantic comedies, you might catch this *exact tactic* being referenced in episode <something> of Nobody Wants This (in the fun B storyline of the two loser siblings, what, you're not low-grade obsessed with romcoms?)]
 
-* Arbitrary Breakpoint
 
 ** Our Story: Quin Draws Marco Out
 
@@ -861,10 +917,13 @@ Separately, the Head of Customer Success
 
 The only way you and your team will create significant value is if you can relentlessly focus on the most important, most valuable work at every moment. People you can't ignore are, in the actual,
 * Todos
-** TODO Open w/ review of how to make offer
-** TODO Maybe: fully insert text from opening story
+** DONE Open w/ review of how to make offer
+CLOSED: [2025-11-18 Tue 16:25]
+** DONE Maybe: fully insert text from opening story
+CLOSED: [2025-11-18 Tue 16:25]
 Instead of "Remember?"
-** TODO Insert Alistair tries to advocate, gets shut down
+** DONE Insert Alistair tries to advocate, gets shut down
+CLOSED: [2025-11-18 Tue 16:25]
 ** TODO Break into two chapters
  - Speak To Feelings
 
@@ -872,7 +931,6 @@ Instead of "Remember?"
 
 And maybe that second one is a bit more catalog-esque.
 ** TODO Maybe: Max has developed this habit recently
-** TODO Adjust the problem to get to customers
 ** TODO Decide: when to use the magic knowledge?
 E.g. as soon as I've laid it out, so we can actually *feel* it?
 
@@ -880,6 +938,8 @@ This would match what I did in the previous chapter.
 
 ** TODO Decide: talk about "finding a business problem"?
 I think, no.
+** DONE Adjust the problem to get to customers
+CLOSED: [2025-11-18 Tue 16:25]
 ** DONE Spike: work in story from substack, adjust to fit Alistair and Max
 CLOSED: [2025-11-18 Tue 08:42]
 ** DONE Review the four emotions post from Substack
