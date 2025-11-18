@@ -124,7 +124,7 @@ Unfortunately, *both* of those new product opportunities require some pretty ext
 
 Which is... going to be, um, tricky.
 
-The core data model was hastily assembled in the early, fervent days of AccuraClaim, and just blindly appended to ever since. Newly-hired engineers shrink back in horror when they discover that the central ~EZClaims~ table[fn:: AccuraClaim was originally launched as "EasyClaims". Fun fact: the pre-history of a company can often be found in their SQL table names!] has not one, but *two* linked extension tables (~EZClaimsExtra~ and ~EZClaimsExtra2~), to glue vast amounts of extra metadata onto each claim.[fn:: Does one of those two extension tables contain a JSON blob column with even more data shoved into it? And is that column ominously named ~ClaimDetails~? And will there come a day when a vast set of claims will all be silently corrupted when an engineer mistypes a string key in the JSON 'schema' for that column? I feel like I could write a horror movie about data models discoveries.]
+The core data model was hastily assembled in the early, fervent days of AccuraClaim, and just blindly appended to ever since. Newly-hired engineers shrink back in horror when they discover that the central ~EZClaims~ table[fn:: AccuraClaim was originally launched as "EasyClaims". Fun fact: the pre-history of a company can often be found in their SQL table names!] has not one, but *two* linked extension tables (~EZClaimsExtra~ and ~EZClaimsExtra2~), to glue vast amounts of extra metadata onto each claim.[fn:: Does one of those two extension tables contain a JSON blob column with even more data shoved into it? And is that column ominously named ~ClaimDetails~? And will there come a day when a vast set of claims will all be silently corrupted when an engineer mistypes a string key in the JSON 'schema' for that column? I feel like I could write a horror movie about data models.]
 
 There does not seem to be any way to deliver either the premium pricing tier features, or the new product, without doing some pretty scary surgery to the core data model.
 
@@ -169,19 +169,23 @@ Unsurprisingly, all the teams are months and months behind schedule.
 
 ** The Dramatic Failure Of The Perfectly Rational Request For Change
 
-One day, Alistair screws up his courage, knocks on the door of the conference room Max is hoteling in, and says, as confidently as he can, "Could we check in?"
+Let's imagine that, having acquired this rich, nuanced understanding of what the business as a whole is hoping to accompish, Alistair decides he's ready to directly confront Max about the engineering director's problematic behavior.
 
-Max looks up from the laptop he's been squinting at. He blinks for a moment, then looks down at his watch. "Yes, I can give you... ten minutes."
+In particular, Alistair understands in a new way both their ultimate goals *and* how the bottlenecked decision-making is not merely irritating, but is causing actual problems for the business as a whole.
+
+On his next in-office day, Alistair screws up his courage and knocks on the door of the small conference room Max is hoteling in. Alistair says, as confidently as he can, "Could we maybe check in?"
+
+Max looks up from the laptop he's been squinting at. He blinks for a moment, then checks his watch. "I can give you ten minutes."
 
 Alistair is familiar with Max's heavily time-sliced days. He drops into the chair across from Max and launches into his pitch.
 
 "I wanted to make sure I understood the big picture of what my team is working towards."
 
-Max nods, a bit tightly. Alistair can see his eyes flick down to his watch once again.
+Max nods tightly. Alistair sees his eyes flick down to his watch once again.
 
-"Our existing customers really like us--our NPS is safely in the 50's, which is great. But to keep growing, AccuraClaim needs to find a way to capture more revenue from those customers. Specifically, we have a key goal of increasing our average billing from $1.10/claim to $1.50/claim, within two years. Everyone across engineering and product is focused on that as a top priority." Alistair makes himself pause. "Do I have that all mostly right?"
+"Our existing customers really like us--our NPS is safely in the 50's, which is great. But to keep growing, AccuraClaim needs to find a way to capture more revenue from those customers. Specifically, we have a key goal of increasing our average price from $1.10 per claim to $1.50 per claim, within two years. Everyone across engineering and product is focused on that as a top priority." Alistair makes himself pause. "Do I have that all mostly right?"
 
-He can tell Max is slightly surprised that Alistair is offering this kind of high-level strategic summary. But he doesn't seem irritated. If anything, he's seems... curious. Max nods. "Go on."
+He can tell Max is slightly surprised that Alistair is offering this kind of high-level strategic summary. But he doesn't seem irritated. If anything, hes seems curious? Max nods. "Go on."
 
 "We're trying to launch the new claim review workflow by early next year. The new summary reports will give us teeth for a premium tier. Also, once we get the underlying data cleaned up, Eduardo's team can build the fraud detection product, to sell as an add-on. Having both of those should allow the sales team to make real headway against the per-claim average price increase." He makes himself pause again. "Is that a solid way to understand what we're doing? The most important goals for my team?"
 
@@ -189,25 +193,29 @@ Max has a slightly bemused look. Alistair would guess that he's hearing a more c
 
 And then, heady with this moment of praise, Alistair makes his crucial mistake.
 
-Having laid out the strategic outcome, and connected it to the work of his team, and earned some good will by doing so...
-
-...he decides to make a pitch for Max to change his behavior.
-
-But he *doesn't* really understand Max's feelings.
-
-Alistair says, "Here's the thing. I know we're behind. And I'm worried we're getting more behind. I don't know if you realize it, but a lot of people are feeling bottlenecked, waiting for decisions." He takes a deep breath. "Specifically, waiting for decisions from you."
+"Look," he says, placing on his hands on the conference room table, "I know we're behind. And I'm worried we're getting more behind. I don't know if you realize it, but a lot of people are feeling like they're waiting for decisions." He takes a deep breath. "Specifically, waiting for decisions from you."
 
 A flush creeps up Max's neck. "What do you mean?"
 
 "I just wanted to ask if we could find a way for you to, well, delegate a bit more. I think we'd move faster, I think we'd have a better shot at hitting our delivery deadlines for next year." Alistair sits back. He can feel his heart racing. But at least he said *something*.
 
-Max frowns. He looks away. He stares up at a corner of the room. Then, he brings his gaze back to Alistair. "I would like nothing better, *Al*," he says, with icy anger, "but no one has stepped up. No one has shown *ownership*. You're asking for me to delegate? To who? What, exactly? Every time I take my eye of the ball, things have gotten screwed up."
+Max frowns. He looks away. He stares up at a corner of the room. Then, he brings his gaze back to Alistair. "What decisions, exactly?"
 
-A host of angry, defensive responses flood Alistair's mind. His fight or flight system is kicking in so hard, he can barely marshal his thoughts. He somehow fixates on the tight, tense line of Max's lips.
+"What?" says Alistair, surprised by this sudden interrogation.
 
-Alistair stands up. "Okay. I... see." With that, he steps away from the table.
+"You said that people are waiting on decisions from me. What decisions, exactly?"
 
-"Thank you," says Max meaninglessly, and hunches down over his laptop as Alistair stumbles out of the room
+The tight, angry tension in the air makes Alistair feel suddenly unable to think. "Um, about the data model. And the interface."
+
+"I see," says Max, coldly. He looks down at this watch again, then stands up.
+
+# "I would like nothing better than to delegate," he says, icily, "but no one has stepped up. No one has shown *ownership*. You're asking for me to delegate? To who? Every time I've taken my eye of the ball, things have gotten screwed up."
+
+"We're at a critical moment. I am always available. I work incredibly hard to keep things moving. In fact, I'll have to ask you to go right now, because Jeanine is waiting on me." He gestures towards his laptop, "Thank you for bringing this to my attention," he says with a frown.
+
+A host of angry, defensive responses flood Alistair's mind. His fight or flight system is kicking in so hard, he can barely marshal his thoughts. He somehow fixates on the tight, tense line of Max's lips. He stands up. "Okay. I... see." With that, he steps away from the table.
+
+"Thank you," says Max again, meaninglessly, and hunches down over his laptop as Alistair stumbles out of the room.
 
 # Alistair's frustrating director, Max, has been at AccuraClaim since the early days, knows where all the bodies are bried, and is closely guiding the work to restructure under the hood.
 
