@@ -73,7 +73,7 @@ When you advocate for change, you need to be able to speak with authentic connec
 
 To bring this to life, let's first see what happens if someone tries to advocate for change, *without* that nuanced, empathetic understanding. Then we'll see how, armed with an understanding of their stakeholder's inner life, they could make a far, far more effective request for change.
 
-** A Story: The Quicksand In Which Alistair Is Sinking
+** A Story: The Quicksand Into Which Alistair Is Sinking
 
 Let's return to our friend Alistair, from the introduction:
 
@@ -106,10 +106,6 @@ AccuraClaim has, over the last several years, built up a robustly defensible bus
 
 Unfortunately, AccuraClaim's marketing team is starting to struggle to find new customers in the car insurance vertical. Growth is slowing.
 
-# XXX possibly, trim the below
-
-# The exec team held a series of vigorous debates about how to face this challenge. The Chief Marketing Officer made a case for getting into the home insurance market. The CEO, however, who has worked in insurance for decades, pushed back. "We know auto claims, our operations are built around auto claims, our *product* is built around auto claims. You could use the same *marketing* plan, but we'd need to create an entirely new *business* as the backend."
-
 After a series of vigorous debates, the exec team has decided to make a bet that they can solve *more claims-related problems* for auto insurance companies. Doing so, and finding a way to charge for the new value created, will increase revenue per customer, and thus, unlock growth.
 
 AccuraClaim currently charges their customers per claim processed, with an overall average price of $1.10 per claim.
@@ -120,18 +116,19 @@ Their core strategic outcome is:
 
 # Like the best of strategic outcomes, this is easy to say, but will be extremely hard to pull off.
 
-Alistair learns that, to pull this off, AccuraClaim is attempting to develop both a premium pricing tier and also an entirely new product offering around fraud detection.[fn:: BTW, if you work at a B2B SaaS business like AccurClaim, I *super* highly recommend The Pricing Roadmap, by Ulrik Lehrskov-Schmidt . It's an incredibly good, actionable plan for pulling together the work of product, marketing & sales.]
-
-# XXX who wrote the pricing roadmap.
+Alistair learns that, to pull this off, AccuraClaim is attempting to develop both a premium pricing tier and also an entirely new product offering around fraud detection.[fn:: BTW, if you work at a B2B SaaS business like AccurClaim, I *super* highly recommend The Pricing Roadmap, by Ulrik Lehrskov-Schmidt. It's an incredibly good, actionable plan for pulling together the work of product, marketing & sales.]
 
 ** The Core Challenge: Data, Why Did It Have To Be Data?!
 
-Unfortunately, just about all of the new product opportunities will require some pretty extensive restructuring of their core product.
+Unfortunately, *both* of those new product opportunities require some pretty extensive restructuring of their existing platform.
 
 Which is... going to be, um, tricky.
 
-The core data model was hastily assembled in the early, fervent days of AccuraClaim, and then just blindly appended to ever since. Newly-hired engineers shrink in horror when they discover that the central EZClaims table[fn:: The company was originally called EasyClaims, and no one is excited about doing an apocalyptic rewrite just to fix the table names] has not one, but *two* linked extension tables (EZClaimsExtra and EZClaimsExtra2), to glue vast amounts of extra metadata onto each claim.[fn:: Does one of those two extension tables contain a JSON blob column with even more data shoved opaquely into it, under an inconsistent set of keys? I guess we'll just have to find out!]
+The core data model was hastily assembled in the early, fervent days of AccuraClaim, and just blindly appended to ever since. Newly-hired engineers shrink back in horror when they discover that the central ~EZClaims~ table[fn:: AccuraClaim was originally launched as "EasyClaims". Fun fact: the pre-history of a company can often be found in their SQL table names!] has not one, but *two* linked extension tables (~EZClaimsExtra~ and ~EZClaimsExtra2~), to glue vast amounts of extra metadata onto each claim.[fn:: Does one of those two extension tables contain a JSON blob column with even more data shoved into it? And is that column ominously named ~ClaimDetails~? And will there come a day when a vast set of claims will all be silently corrupted when an engineer mistypes a string key in the JSON 'schema' for that column? I feel like I could write a horror movie about data models discoveries.]
 
+There does not seem to be any way to deliver either the premium pricing tier features, or the new product, without doing some pretty scary surgery to the core data model.
+
+# I guess we'll just have to find out!
 # At most companies, yes, it most certainly does.
 
 #  If not, it's only because some senior engineer threatened to set themselves on fire to stop it.
@@ -142,25 +139,31 @@ The core data model was hastily assembled in the early, fervent days of AccuraCl
 
 ** The Role of The Team: Make It Exactly The Same, But Also Totally Different
 
-Our friend Alistair works on one of the teams that owns the core claim processing platform, both front- and back-end.
+Alistair works on one of several teams that, among them, own the core claim processing workflows.
 
-His team is trying to deliver a total overhaul of the claims review workflows. Under the hood, this will require breaking a bunch of key data out of EZClaims{Extra,Extra2}, and placing it into new, clean SQL tables (with sane names and the occasional use of an actual foreign key!).
+# , both front-end and back-end.
 
-On the product and marketing side, the new reports his team is building will form the basis for a premium product tier. Factoring out the underlying data will also allow other teams to create entirely new products to integrate AccurClaim's platform more deeply into the operations of their customers.
+His team is trying to deliver a total overhaul of several stages of claims review. Under the hood, this will require breaking a bunch of key data out of ~EZClaims~, ~EZClaimsExtra~ and ~EZClaimsExtra2~, and placing it into new, clean SQL tables (with sane names and the occasional use of an actual foreign key!). On the front end, it will allow them to develop some much-requested new reports, while also cleaning up some a ton of accumulated confusion and cruft in the existing product.
+
+Alistair comes to understand that the new reports his team is building are expected to form the basis for the premium product tier. Furthermore, factoring out the underlying data will enable another team to develop the new fraud detection product.
 
 Or at least, that's all the plan.
 
-Alistair also learns that things are not going great on that plan.
+Alistair also learns that things are not going according to plan.
 
 # exactly according to that plan
 
-Changing the core data model of a product used to process hundreds of thousands of claims a day has turned out to be fraught with weird edge cases and risks. All the teams are months behind schedule. Every time they roll out a change to the claims review workflows, a horde of customers descend on them with angry pitchforks in hand.
+Changing the core data model of a product used to process tens of thousands of claims a day has turned out to be fraught with weird edge cases and risks. On the front end, every time they roll out a change to the claims review workflows, it seems like a horde of customers descend on them with angry pitchforks in hand (and, on some particularly bad days, it feels like the Customer Success team is handing out pitchforks as the crowd streams by).
 
-And of course, Max Hartswell, who leads all of engineering in this domain, has somehow become the bottleneck for all decision-making.
+Everyone wants it to be *better*, right away, but they also don't seem to want it to change in any way at all?
+
+And of course, Max Hartswell, the Engineering Director over this entire domain, has somehow decided that this is the best possible moment to force every single decision to go through him.
+
+Unsurprisingly, all the teams are months and months behind schedule.
+
+# become the bottleneck for all decision-making.
 
 # Throw into the mix that Alistair, who has been
-
-
 
 # Not only do they have to worry about invisibly breaking processing pipeline, there are also hundreds of companies and dozens of internal users who use the existing workflows, and have figured out all sorts of hacks around weird UX and data edge cases.
 
