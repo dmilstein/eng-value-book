@@ -63,6 +63,7 @@ And, for each, what has triggered a recommendation in that direction.
 * That weirdly useful book on Domain Driven Design in F#
 * The Art of Action
 * The Pricing Roadmap
+by Ulrik Lehrskov-Schmidt
 * Will Larson
 ** Various specific posts
 *** Communities of Practice
