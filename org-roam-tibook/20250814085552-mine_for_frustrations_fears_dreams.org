@@ -454,17 +454,20 @@ CLOSED: [2025-11-18 Tue 16:25]
 Instead of "Remember?"
 ** DONE Insert Alistair tries to advocate, gets shut down
 CLOSED: [2025-11-18 Tue 16:25]
-** TODO Break into two chapters
+** DONE Break into two chapters
+CLOSED: [2025-11-23 Sun 09:48]
  - Speak To Feelings
 
  - Mine For Feelings
 
 And maybe that second one is a bit more catalog-esque.
-** TODO Shrink down the four key emotions
+** DONE Shrink down the four key emotions
+CLOSED: [2025-11-23 Sun 09:48]
 Allow them to be a guide, not a rigid requirement.
-** TODO Add a third tactic: make your stakeholder a beleaguered hero
-** TODO Rework my stories to focus on Alistair and Max?
+** DONE Rework my stories to focus on Alistair and Max?
+CLOSED: [2025-11-23 Sun 09:48]
 Or, maybe, introduce Quin?
+** TODO Add a third tactic: make your stakeholder a beleaguered hero
 ** TODO Maybe: Max has developed this habit recently
 ** DONE Decide: when to use the magic knowledge?
 CLOSED: [2025-11-19 Wed 18:41]
