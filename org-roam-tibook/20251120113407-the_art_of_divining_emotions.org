@@ -55,55 +55,81 @@ First, you can start by simply *guessing*.
 
 If your stakeholder is in a position of authority within your company, you likely have a hunch about how to answer these questions. The emotions of people in power are important enough that, usually, people on the ground have at least *some* model of what is going on inside their various bosses' heads.
 
-For example, Alistair might have a guess that Max is frustrated by how their ProClaims status meetings run. He might not be totally clear on *why*, but he can easily read that on Alistair's face.
+Let's see how to talk to your stakeholder so you can then refine, adjust and potentially altogether change your initial guess.
 
-He'll now use the below tactics to refine, adjust and potentially altogether change that initial guess.
+** Look Who's Not Talking Now: Humans Resist Sharing, Well, Anything
 
-** How Alistair Gets Max Talking
+# How Alistair Gets Max Talking
 
-In one world, Alistair just directly asks Max about his feelings.
+Let's return to our story of Alistair and Max. First, let's *rewind*.
 
-Alistair takes a moment in one of their zoom calls and says: /"Is there anything about our ProClaims status meetings you find frustrating?"/
+In the last chapter, we showed Alistair building rapport with Max thanks to knowing: a) Max feels like the CEO will angrily blame him if any customers suffer any confusion whatsoever, and b) Max is worried because the new PM's don't fully understanding the core, complex ProClaims product.
 
-Max looks taken aback. He frowns and says, curtly:
+However, we skipped past *how Alistair would figure those things out*. Max certainly doesn't go around *explaining* those things. He just rigidly insists that he has to be in the loop for all decisions, he plays out his martyr complex, he looks tense and unhappy.
 
-/"I don't know. They feel a bit slow."/
+Alistair experiences Max as brusque, remote and difficult. He doesn't realize there's any tension with the CEO. He doesn't know that Max has concerns about the PM's. He assumes Max's difficult behavior is due to Max's difficult personality.
 
-Max shows zero interest in sharing anything beyond this incredibly generic critique. In fact, Max seems kind of low-grade /bothered/ by Alistair having asked a question. Alistair certainly isn't feeling excited about asking any follow ups. What does "a bit slow" even mean?
+But let's say Alistair commits to divining Max's emotions. We'll even say he's gotten some coaching on how best to do so. As per that coaching, he starts with a guess:
 
-Perhaps you've experienced your stakeholder shutting you down this way, when you ask a question they don't really want to answer.
+Alistair can tell that Max is frustrated during their weekly ProClaims status meetings. He's not totally clear on *why*. His current theory is that Max is unhappy that the project seems to be drifting behind plan.
+
+How can Alistair learn more?
+
+In a pause during one of their zoom check-ins, Alistair takes a breath and says: /"Is there anything about our ProClaims status meetings you find frustrating?"/
+
+Max looks taken aback. He frowns and then curtly replies:
+
+/"They feel a bit slow."/
+
+Max shows zero interest in sharing anything beyond this incredibly generic critique. In fact, Max seems, if anything, /bothered/ by this question. Alistair certainly isn't feeling excited about asking any follow ups. What does "a bit slow" even mean?
+
+And here we hit out first fundamental challenge.
+
+If you want to understand someone's feelings, you need them to *talk to you*.
+
+But it often requires real work to *get people talking at all*.
+
+Many stakeholders (and, frankly, many humans, period) tend to clam up, the moment anything resembling an emotion drifts into view. Expressing their own emotions feels risky and vulnerable.
+
+This is a genuinely tricky moment.
+
+Imagine you've asked your key stakeholder a question you care a lot about. Imagine that they've immediately shut down the conversation with a terse response.
+
+# when you ask a question they don't really want to answer.
 
 # You may be familiar with this kind of unpleasant moment.
 
 # about emotions. Where, after asking a question, you feel shut down by your stakeholder.
 
-What should you do? Ask another question, and piss off your Important Person? Try to somehow divine their underlying feelings from whatever cryptic, fragmentary thing they said? Give up and go home and pour yourself a stiff drink? I have tried all of those, many times!
+What should you do? Ask another question, and piss off your Important Person? Try to somehow divine your key answer from whatever cryptic, fragmentary thing they said? Give up and go home and pour yourself a stiff drink? I have tried all of those, many times.
 
-Luckily, Alistair has read that fascinating book, Never Split The Difference.
+Luckily, Alistair's mentor has forced him to read Never Split The Difference.
+
+** The Simplest, Dumbest, Bestest Tactic: Repeat Trailing Words
 
 # so he pulls out a magic trick:
 
 # He will *repeat the last three words* that Max said, inflected as a question.
 
-He looks at Max, and says, calmly and curiously:
+Alistair looks at Max, and says, calmly and with authentic curiosity:
 
 /"A bit slow...?"/
 
-And then he *stops talking*.
+And then Alistair *stops talking*.
 
-There's a long moment of silence. Max stares at Alistair. Just as Alistair starts to consider giving up, Max suddenly starts speaking again:
+There's a long moment of silence. Max stares at Alistair. Just as Alistair is ready to give up, Max suddenly starts speaking again:
 
 /"Yeah. The PM's and the engineers just keep talking past each other."/
 
-He sits back and frowns. Alistair nods and say, still calm and inquisitive:
+He sits back and frowns. Alistair nods and says, again calm and inquisitive:
 
 /"Past each other...?"/
 
-There's a slightly shorter pause before Max starts up again. /"Yeah,"/ he says. Max gives an unhappy sigh, /"And I can't blame the engineers."/
+There's a slightly shorter pause before Max starts up again. /"Yeah,"/ he says, and then  sighs unhappily. /"And I can't blame the engineers."/
 
 This remarkable statement almost makes Alistair break down, but he manages to stick to his plan to draw Max out. /"Blame the engineers...?"/
 
-Max replies with barely a pause. /"I don't think the PM's even really understand the product."/
+Max replies quickly. /"I don't think the PM's even really understand the product."/
 
 Alistair is startled to hear this statement of concern from Max. Max hasn't complained to him about the PM's even once before this. Max has "blamed the engineers", plenty of times, but up to now, Alistair had been assuming Max was on the PM's side, in all of their debates.
 
@@ -113,13 +139,11 @@ Alistair feels slightly unmoored. But he can also tell that Max is feeling uncha
 
 # Below, we'll see how Alistair can usefully build on this moment of openness.
 
-Below, we'll see how Alistair can build on this fragile moment of rapport?
+Below, we'll see how Alistair can build on this fragile moment of rapport
 
 But first, let's break down what he just did.
 
 # Add "I'm glad I decided to tell you."
-
-** The Simplest, Dumbest, Bestest Tactic: Repeat Trailing Words
 
 Alistair employed a very, very simple, but very, very powerful tactic.
 
@@ -222,7 +246,6 @@ But it has two pretty significant downsides:
 *** Bluntly Tell Max How Max Is Feeling
 
 ** How Alistair Builds Rapport
-
 ** Tactic: Offer Labeled Feelings
 
 /"I see,"/ Alistair manages to say. He needs time to digest this new piece of information. He wraps up by echoing back. /"Let me say that back, make sure I understand. Those meetings are feeling slow and even a bit frustrating, because the PM's don't understand the product deeply enough to have a useful conversation with the engineers. Is that mostly right?"/
@@ -293,7 +316,6 @@ I'm imagining many readers, in this moment, visualizing their very own frustrati
 Look, I get it. It may seem literally impossible to imagine that stakeholder opening up to you in any useful way. But I encourage you to study and then practice the tactical empathy skills we've been discussing. You may well find yourself astonished by how far a mix of active listening, echoing, validating and open-ended questions can get you.
 
 I have witnessed conversations where, after a period of steady, supportive probing, a previously unavailable and tense stakeholder suddenly admitted, with true vulnerability, some of their deepest fears. I have seen the stunned looks on the faces of their team. I have seen the awareness of a common humanity fill the room---and then allow all sides to work together in a way they had previously considered impossible. Mastering these skills requires deliberate, reflective practice. But such mastery can take you much farther than you might imagine.
-
 
 ** What If You're Angry At Your Stakeholder?
 
@@ -649,3 +671,7 @@ In fact, we want to *ask* them about their feelings to make sure we've got it ri
 Of course, just as leaders are often resistant to *showing* their emotions, they can also easily become defensive if they perceive you as, in any way, *telling them* what their emotions are.
 
 How can you talk *directly* about emotions with your stakeholder?
+* Todos
+** DONE Try putting bad ideas ahead of good for repeat trailing words
+CLOSED: [2025-11-25 Tue 10:35]
+** TODO Move definintion of Repeat Trailing ahead of example
