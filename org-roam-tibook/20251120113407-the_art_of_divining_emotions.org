@@ -210,9 +210,9 @@ Consider putting this book down, right now, finding someone and try this out. Se
 
 ** Some Mistakes Alistair Could Now Make
 
-Alistair has learned something new and fascinating: that Max is frustrated by how poorly the PM's seem to understand the product. That feels like it might be a root cause of some of his problematic behavior.
+Alistair has learned something fascinating: Max is frustrated by how poorly the PM's seem to understand the product. That might well be a root cause of some of his problematic behavior.
 
-Alistair is feeling slightly unmoored. For once, Max isn't tensely checking his watch or looking at some other screen. He's genuinely with Alistair. What should Alistair do next?
+However, Alistair is now feeling slightly unmoored. For once, Max isn't tensely checking his watch or looking at some other screen. He's genuinely with Alistair. What should Alistair do next?
 
 # Alistair has also created a moment where Max is briefly, tentatively open.
 
@@ -220,15 +220,15 @@ Alistair is feeling slightly unmoored. For once, Max isn't tensely checking his 
 
 This is unknown territory. Alistair is has almost no experience of powerful people being emotionally open to him, at all. He's not sure what to do next.
 
-Below, we'll talk about what I believe to be the best thing he could do, which is to "Offer Labeled Feelings". But that takes some practice to master.
+# Below, we'll talk about what I believe to be the best thing he could do, which is to "Offer Labeled Feelings". But that takes some practice to master.
 
-So let's first review a series of other things he might try:
+# Let's first review a series of other things he might try:
+
+Here are some bad ideas:
 
 *** Offer To Help
 
-This is one of the most common responses.
-
-Alistair has heard Max share a problem to solve: the lack of knowledge of the product, on the part of the PM's. Therefore, he could offer solutions:
+Alistair has heard Max share a problem to solve: the lack of knowledge of the product, on the part of the PM's. Therefore, he could offer a solution:
 
 /"We could set up some training for the PM's, I could help organize that."/
 
@@ -236,45 +236,56 @@ Sounds helpful, right? Max is going to really appreciate this, right?
 
 Um, no.
 
-Alistair is acting as if Max is *asking for help* in solving a problem. But that's not what Max is doing. He's tentatively sharing his feelings.
+Alistair is acting as if Max is *asking for help*. But that's not what Max is doing. He's (tentatively) sharing his feelings.[fn:: He's not consciously thinking "I'm sharing my feelings." He's thinking "I'm telling you about this tough situation I'm in." But he's doing so in order to be understood--which is how his conscious mind explains to him his desire to express his feelings.]
 
-If Alistair jumps ahead to solutions, he causes two major problems:
+Put yourself in Max's shoes. You're trying to get someone to understand why your situation is so challenging. You've tried all the obvious things in your situation, because you are, in fact, not stupid. The person talking to you just immediately starts telling you what you should do. It's like they think you're an idiot, and they're so smart they can fix your problem that they barely took the time to even understand. *Of course* you're a bit angry.
 
- 1. Max feels "not heard"
+Jumping ahead to solutions runs a risk of causing two major problems:
 
- 2. Max feels like Alistair thinks Max is stupid
+ 1. Making your stakeholder feel like you don't understand them
 
-Put yourself in Max's shoes. You're trying to get someone to understand why your situation is challenging. But that person, who doesn't seem to really understand your situation, starts telling you what you should do. That feels super frustrating. It's like they think you're stupid, and think they're so smart they can fix your problem that they barely understand at all.
+ 2. Making your stakeholder feel like you think you're smarter than them
 
-Note that this will happen, *even if your idea is a genuinely good one*.
+Note that these bad outcomes an happen, *even if your idea is a genuinely good one*. If you can find a way to connect and validate, it's even possible that they will then welcome exactly the idea you had to offer. But don't skip past validating their feelings.
 
 # It will often be *enormously tempting* to do this! But it is often a genuinely terrible idea!
 
-*** Exit the Scene
+*** Eplain Max's Feelings To Max
 
-Alistair says "Thanks", and hang up on the zoom. He sits there, a bit uncertain about what just happened.
+Okay, so I'm saying you should validate those feelings. How might Alistair do so?
 
-This isn't a /terrible/ option.
+Well, he could *tell* Max what his feelings are, ala:
 
-But it has two pretty significant downsides:
+/"You seem frustrated with the PM's."/
 
- 1. He hasn't confirmed he correctly understands Max's feelings
+Again, put yourself in Max's shoes. You don't *like* feeling frustrated with the PM's. You're probably trying as hard as you can to manage the objectively difficult situation of having inexperienced PM's. So if someone says to you "You seem frustrated", it seems to suggest that there's something wrong with *you*, instead of understanding the difficult situation you're in. What, are you supposed to *not* be frustrated?!
 
- 2. He missed a (rare) opportunity to build trust and rapport with Max
+Humans really don't like someone to announce to them what their feelings are, in a way that sounds at all like they're being accused of weakness or over-emotionality.
 
-*** Bluntly Tell Max How Max Is Feeling
+# How much do you think Max likes being told his feelings? Right, not at all.
 
-/"You seem pretty upset with the PM's"/
+# *** Exit the Scene
 
-How much do you think Max likes being told his feelings? Right, not at all.
+# Alistair says "Thanks", and hang up on the zoom. He sits there, a bit uncertain about what just happened.
+
+# This isn't a /terrible/ option.
+
+# But it has two pretty significant downsides:
+
+#  1. He hasn't confirmed he correctly understands Max's feelings
+
+#  2. He missed a (rare) opportunity to build trust and rapport with Max
+
 
 ** Tactic: Offer Labeled Feelings
 
-The trick to speaking directly about feelings is to carefully go through two steps, which Chris Voss names "Labeling" emotions:
+Luckily, there is a way to speak directly to your stakeholder's feelings, such that they feel understood and validated. And are then ready to work with you.
 
- 1. Empatheticly describe the *situation* your stakeholder is in
+The trick is to carefully go through two steps, which Chris Voss names "Labeling" emotions:
 
- 2. Offer a potential label for their emotion, as a *natural response* to that situation
+ 1. Empatheticly describe the situation your stakeholder is in
+
+ 2. Offer a potential "label" for their emotion, as a natural response to that situation
 
 # XXX Fix this
 
