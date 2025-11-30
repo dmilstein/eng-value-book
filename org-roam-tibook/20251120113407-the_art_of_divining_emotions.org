@@ -131,7 +131,7 @@ Luckily, Alistair has gotten some coaching on this very front.
 
 # Luckily, Alistair's mentor has forced him to read Never Split The Difference.
 
-** The Simplest, Dumbest, Best Tactic: Repeat Trailing Words
+** The Simplest, Dumbest, Bestest Tactic: Repeat Trailing Words
 
 # so he pulls out a magic trick:
 
@@ -260,7 +260,7 @@ This is a key moment. His stakeholder has offered a window into his feelings. Al
 
 Let's talk about what Alistair should *not* do.
 
-*** Bad Idea 1: Offer To Help
+** Mistake 1: Offer To Help
 
 Alistair has heard Max express frustration about the PM's lack of knowledge of the product. Luckily, Alistair *agrees*! This is an actual problem he's also noticed! Buoyed up by this rare moment of alignment with Max, a part of him is eager to jump in with ideas.
 
@@ -298,7 +298,7 @@ Note that this bad outcome can happen, *even if your idea is a genuinely good on
 
 # It will often be *enormously tempting* to do this! But it is often a genuinely terrible idea!
 
-*** Bad Idea 2: Tell Max How Max Is Feeling
+** Mistake 2: Tell Max How Max Is Feeling
 
 How might you validate your stakeholder's experience of the world?
 
@@ -320,9 +320,9 @@ He doesn't *like* feeling frustrated with the PM's. He's been trying as hard as 
 
 Humans really don't like someone to announce to them what their feelings are, in a way that sounds at all like they're being judged for having those feelings.
 
-But we also desperately want someone to understand and validate our feelings.
+But we also desperately want someone to understand and validate our feelings!
 
-What, that sounds inconsistent? Welcome to human beings.
+Let's see how you can reliably thread that needle.
 
 # How much do you think Max likes being told his feelings? Right, not at all.
 
@@ -338,36 +338,49 @@ What, that sounds inconsistent? Welcome to human beings.
 
 #  2. He missed a (rare) opportunity to build trust and rapport with Max
 
+** Alistair Breaks Through
+
+He tries to imagine the situation that Max perceives himself to be in. Max likely feels caught between the ambitious ProClaims transition plan, and the challenges of working with PM's who don't know how to port over all the old use cases of the product. Whether or not he *wants* to empower them, it might feel like there's no way he *can*.
+
+# If he were in that same situation, he would likely feel frustrated.
+
+"Huh," he says slowly, buying a bit of time. "It seems like you've been asked to lead the ProClaims rewrite, and keep all the different strands on track. But the new PM's don't know enough to lead their independent parts. So you have to stay tightly in the loop on all the different work streams. But then they complain about not being given any autonomy. I could imagine that, if I were in your shoes, I might find that pretty frustrating." He pauses, and looks intently into his zoom screen.
+
+Max exhales, slowly. "That's exactly it. Everyone keeps telling me to let them make decisions, but they just *can't*. At least, they can't yet."
+
+"I get that," says Alistair, surprised to find that he actually does. "Is there anything you'd want to try to improve things, in the short term?"
+
+"I feel like I've barely been able to keep my head above water. Do you have any ideas?"
+
+# Alistair is surprised to find this moment of genuine connection with Max. And even more surprised to realize that he does feel some genuine empathy for the situation Max is in.
+
+And with that invitation, Alistair and Max dig into a productive brainstorming session.
 
 ** Tactic: Offer Labeled Feelings
 
-Luckily, there is a way to directly validated to your stakeholder's feelings.
+# Luckily, there is a way to directly validated to your stakeholder's feelings.
 
 The trick is to carefully go through two steps, which Chris Voss names "Labeling" emotions:
 
- 1. Empathetically describe the situation your stakeholder is in
+ 1. Empathetically describe the *situation* your stakeholder is in
 
- 2. Offer a potential "label" for their emotion, as a natural response to that situation
-
-# XXX Fix this
-
-# BAD WRITING GO!
-
-By describing the situation first, you're mirroring how they experience, and you're create *justification* for their feelings.
-
-If you do this right, you should feel like you, yourself, would feel similarly, if you were in their situation.
-
-You then explicitly name the resulting emotion with a "label"---e.g. "frustrating", "difficult", etc. But you make this an offer by prefacing it with a careful bit of distancing, ala, "It seems like you might...", or "I could imagine that you might...".  This gives them room to correct you and keeps them in control.
+ 2. Offer a potential label for their emotion, as a *natural response* to that situation
 
 How might this work for Alistair?
 
-He tries to imagine the situation that Max perceives himself to be in. He realizes Max might feel caught between what he's expected to get done, and the challenges of having a set of PM's who don't know how to port over all the old use cases of the product. If he were in that same situation, he would likely feel frustrated.
+# XXX Fix this
 
-"Huh," he says slowly, buying a bit of time. "It seems like you've been asked to lead the ProClaims rewrite, and keep all the different strands on track. But the new PM's don't know enough to lead their independent parts. So you have to stay tightly in the loop on all the different work streams. But then they complain about not being given any autonomy. I could imagine that, if I were in your shoes, I might find that pretty frustrating." He pauses, and sits, fully present and listening.
+Voss describes this as like learning a tea ceremony. Precise and persnickety and not particularly natural at first. I like that. It happens very quickly in real time, but you need to learn to observe the moments very carefully.
 
-Max slowly exhales. "That's about right."
+# BAD WRITING GO!
 
-Alistair is surprised to find this moment of genuine connection with Max. And even more surprised to realize that he does feel some genuine empathy for the situation Max is in.
+By describing the situation first, you're validating their *experience*. It's safer to focus on that instead of their emotions.
+
+# mirroring how they experience, and you're create *justification* for their feelings.
+
+If you do this right, you should feel like you, yourself, would feel similarly, if you were in their situation.
+
+You then explicitly name the resulting emotion with a "label"---e.g. "frustrating", "difficult", etc. But you make this an *offer* by prefacing it with a careful bit of distancing, ala, "It seems like you might...", or "I could imagine that you might...".  This gives them room to correct you and keeps them in control.
 
 # /"I see,"/ Alistair manages to say. He needs time to digest this new piece of information. He wraps up by echoing back. /"Let me say that back, make sure I understand. Those meetings are feeling slow and even a bit frustrating, because the PM's don't understand the product deeply enough to have a useful conversation with the engineers. Is that mostly right?"/
 
@@ -468,7 +481,7 @@ As you build comfort, you'll find that you can go through multiple rounds of thi
 
 For an initial, focused period of practice to rewire yourself, aim to do this at least two to three times a day, every day for a week.
 
-** Practice Labeling Feelings With A Friend
+** Practice The Steps of Labeling Feelings
 
 Because talking about feelings can feel so loaded, I recommend practicing this with a trusted friend.
 
@@ -538,7 +551,7 @@ Then, try again.
 
 Take the time to notice how *you're* feeling, in the midst of this.
 
-** Practicing Labeling Feelings Through Situations
+** Practice Situational Set Ups
 
 Pick a stakeholder who exhibits some specific, frustrating behavior.
 
