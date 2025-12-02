@@ -4,7 +4,7 @@
 #+title: The Art of Divining Emotions
 #+filetags: :Chapter:
 * The Art of Divining Emotions
-** Leaders Hide Their Feelings, Film At Eleven
+** Leaders Hide Their Feelings
 # But there's a problem.
 
 # Many leaders do their best to *hide* their feelings.
@@ -35,25 +35,24 @@ Ahem.
 
 If you happen to have an emotionally open stakeholder, awesome! You don't need all the tactics in this chapter. If, on the other hand, talking to your stakeholder makes you feel like you're banging your head against an unyielding, inhuman, unemotional wall, read on.
 
-# If, on the other hand, your stakeholder works hard to present an armadillo-like shell to the outside world, read on.
-
-# Which, if they are feeling anxiety or fear, can turn into a And that can very easily turn into "pretend to have no fears or desires".
-
-# In fact, many leaders unconsciously feel a sort of desperate fear of their emotions being found out.
-
-# for some powerful ways to help them open up.
-
 # Even if your key stakeholder seems to be working very hard to present as a goal-driven business automaton, you must find a way to get past that.
 
 ** Look Who's Not Talking Now: Hitting Conversational Dead Ends
 
-Problem #1: It's not always easy to get humans talking. But you need your Important Person to talk, if you're going to have any shot at figuring out what underlying feelings are driving their problematic behavior.
+Problem #1:
+
+# It's not always easy to get humans talking. But you need your Important Person to talk, if you're going to have any shot at figuring out what underlying feelings are driving their problematic behavior.
+
+If you want to understand someone's feelings, you need them to *talk to you*.
+
+But it often requires real work to *get people talking at all*.
+
 
 # , Well, Anything
 
 # How Alistair Gets Max Talking
 
-Let's return to our story of Alistair and Max. In the last chapter, we saw how Alistair could build rapport with Max if he knew the following two facts:
+Let's return to our story of Alistair and Max. In the last chapter, we saw how Alistair could build rapport with Max /if/ he knew the following two facts:
 
   1. Max /fears/ that the CEO will angrily blame him for any customers issues
 
@@ -63,23 +62,61 @@ However, we skipped past *how Alistair would figure those things out*.
 
 Max certainly doesn't go around *explaining* his fears and frustrations. He just rigidly insists that he has to be in the loop for all decisions, he plays out his martyr complex, he looks tense and unhappy.
 
-Alistair is not in the exec team meetings, so he doesn't know there's tension between Max and the CEO. He's not in Max's meetings with the PM's, so he can't see his concerns about the PM's first hand. He just experiences Max as brusque, remote and difficult. He (and just about everyone he works with), assumes Max's difficult behavior is entirely due to Max's difficult personality.[fn:: If you've studied psychology, you may be noticing the fingerprints of the Fundamental Attribution Error, whereby humans mistakenly attribute other people's behavior to their personality instead of the situation those people are in. If you can get past this error and understand the underlying situation, you'll suddenly discover a variety of options for getting unstuck.]
+Alistair is not in the exec team meetings, so he doesn't know there's tension between Max and the CEO. He's not in Max's meetings with the PM's, so he can't see his concerns about the PM's first hand. He just experiences Max as brusque, remote and controlling. He (and just about everyone he works with), assumes Max's difficult behavior is entirely due to Max's difficult personality.[fn:: If you've studied psychology, you may be noticing the fingerprints of the Fundamental Attribution Error, whereby humans mistakenly attribute other people's behavior to their personality instead of the situation those people are in. If you can get past this error and understand the underlying situation, you'll suddenly discover a variety of options for getting unstuck.]
 
 And so he stays stuck.
 
-But let's say that, one night, Alistair is at a dinner with his husband and some of his husband's work friends. His husband has recently gotten his masters in social work, his grad school friends are all somewhat irritatingly good listeners. Alistair sometimes feels like he's adrift in a sea of positively affirmative listening. His husband's friend Naiah is sitting next to him and, at one point, leans over and says,
+But then, one night, Alistair is at a dinner with his husband and his husband's crowd of grad school friends. They're all celebrating his husband having just finished his masters in social work. The grad school friends are, to a person, somewhat irritatingly good listeners. Alistair feels like he's adrift in a sea of positive affirmations.
 
-One particular friend, Naiah, grins when Alistair's husband teases him about his frustrating boss.
+"G tells me your boss is driving you a little crazy?" Alistair turns. His husband's friend Naiah is sitting next to him, swirling wine in her glass. She flashes him a friendly grin. "Any interest in talking it out?"
 
-commits to divining Max's emotions. We'll even say he's gotten some coaching on how best to do so. As per that coaching, he starts by reviewing what he's been able to observe, so far.
+"Did Gregor put you up to this?" demands Alistair. He doesn't like being managed.
 
-Alistair has noticed that Max seems /extra/ tense and unhappy during the weekly ProClaims status meetings. Alistair is not totally clear on why that might be. His current theory is that Max is unhappy because the project is drifting behind plan. Note: this guess will turn out to be wrong! But that's okay. You need to start somewhere.
+She shrugs, cheerfully unrepentant. "Yep." She takes a sip of her wine. "But I think it'd be fun. Crazy bosses are kind of my specialty."
 
-How can Alistair learn more? How can he refine his guess? His next step is to simply /ask/.
+Alistair tries to maintain his sense of injured pride, but the twinkle in Naiah's eye finally defeats him. "Okay, fine. But he's totally crazy."
 
-It's their weekly zoom 1:1. They've reviewed progress on the ProClaims overhaul, and they've talked out a role Alistair wants to open.
+"I'm sure he is."
 
-There's a pause, and Max's eyes flick away from the camera. No doubt he has Slack messages piling up from all the people seeking his attention for decisions he's holding up. Alistair takes a breath and says: /"Is there anything about our ProClaims status meetings you find frustrating?"/
+And so they talk, leaning in close to hear each other over the background noise of the restaurant. After Alistair sketches in the situation, Naiah sits back and purses her lips thoughtfully. "What do you think Max is feeling?"
+
+Alistair vengefully stabs a tiny boiled potato off his plate. "I have literally no idea".
+
+Naiah shakes her head. "You have to come up with something. If you had to /guess/, what do you think frustrates Max? Or what is he afraid of?"
+
+# And so Alistair acquires a mentor. She asks him
+
+# commits to divining Max's emotions. We'll even say he's gotten some coaching on how best to do so. As per that coaching, he starts by reviewing what he's been able to observe, so far.
+
+Alistair slowly chews his potato. He /has/ noticed that Max seems extra tense and unhappy during the weekly ProClaims status meetings. Alistair is not totally clear on why that might be. If he had to guess, he might say that Max is likely frustrated because the project is drifting behind plan.
+
+When he shares this with Naiah, she perks up. "Perfect, start there!"
+
+"So you think that's right?"
+
+"Oh, no. You're almost definitely wrong." She waves her butter knife at him.
+
+"What?" says Alistair, totally confused.
+
+"You'll start by just /asking/ him about your guess. And it's okay if you're wrong."
+
+"I will? It is?"
+
+And then, with the clatter of voices all around them, and the smell of roasted vegetables in the air, Naiah explains to Alistair how he can walk through his conversation with Max.
+
+When she finishes up, he looks at her. "You know, that... could work," he says slowly.
+
+"Of course it could," she says. "I'm pretty amazing."
+
+# Alistair has noticed that Max seems /extra/ tense and unhappy during the weekly ProClaims status meetings. Alistair is not totally clear on why that might be. His current theory is that Max is unhappy because the project is drifting behind plan. Note: this guess will turn out to be wrong! But that's okay. You need to start somewhere.
+
+# How can Alistair learn more? How can he refine his guess? His next step is to simply /ask/.
+
+** Alistair Opens The Conversation
+
+It's their weekly zoom 1:1. They've reviewed progress on the ProClaims overhaul, and caught up on a few other action items.
+
+There's a pause. Max's eyes flick away from the camera. No doubt he has Slack messages piling up from all the people seeking his attention. Alistair takes a breath and launches into the plan he talked out with Naiah: /"Is there anything about our ProClaims status meetings you find frustrating?"/
 
 Max looks surprised. He frowns and then curtly replies:
 
@@ -87,7 +124,7 @@ Max looks surprised. He frowns and then curtly replies:
 
 Max shows zero interest in sharing anything beyond this incredibly generic critique. In fact, Max seems, if anything, /bothered/ by this question. Alistair certainly isn't feeling excited about asking any follow ups. What does "a bit slow" even mean?
 
-And here we hit out first fundamental challenge.
+And here we hit the first fundamental challenge.
 
 Imagine you're in Alistair's shoes. You've asked your key stakeholder a question you care a lot about. They've responded by immediately shutting the conversation down.
 
@@ -100,16 +137,12 @@ Imagine you're in Alistair's shoes. You've asked your key stakeholder a question
 What should you do? Ask another question, and run the risk of pissing off your Important Person? Try to somehow divine your answer from whatever cryptic, fragmentary thing they said? Give up and go home and pour yourself a stiff drink? I have tried all of those, many times, and not seen much in the way of positive returns!
 
 # Luckily, Alistair's mentor has forced him to read Never Split The Difference.
-If you want to understand someone's feelings, you need them to *talk to you*.
-
-But it often requires real work to *get people talking at all*.
-
 # Many stakeholders tend to clam up, the moment anything resembling an emotion drifts into view.
 
 # This is a genuinely tricky moment.
 
 
-Luckily, Alistair has gotten some coaching on this very front.
+Luckily, Naiah has prepared Alistair for this exact moment.
 
 # so he pulls out a magic trick:
 
@@ -282,7 +315,7 @@ When someone is seeking to be understood, proposing solutions makes them feel li
 
 That's a very unfun combo.
 
-We can, I suspect, all imagine this moment. Take some situation you personally find frustrating---perhaps some specific challenging situation you're facing with a boss or with a family member. Imagine that you're talking to a friend, sharing why this situation is so challenging. You've just barely started to open up about it, when that person suddenly start telling you what you should do. *Of course you're irritated*. You weren't even done explaining what's going on! You're not an idiot!
+We can, I suspect, all relate to this experience. Take some situation you personally find frustrating---perhaps some specific challenge with a boss or with a family member. Imagine that you're talking to a friend, sharing why this situation is so hard. You've just barely started to open up about it, when that person suddenly start telling you what you should do. *Of course you're irritated*. You weren't even done explaining what's going on! You're not an idiot!
 
 # You've tried all the obvious things in your situation, because you are, in fact, not stupid. It's like they think you're an idiot. it's like the think they're so smart they can fix this problem that they barely took the time to even understand.
 
@@ -300,7 +333,7 @@ How can this happen? Surprisingly easily. Again, let's rewind. Max tells Alistai
 
 /"Yeah. I don't think the PM's even really understand the product."/
 
-Alistair has been practicing his echoing back skills. He's working on not jumping in with solutions. So, he takes them time to echo back what he thinks he's just heard.
+Alistair has been practicing his echoing back skills. He's working on not jumping in with solutions. So, he takes the time to echo back what he thinks he's just heard.
 
 He looks at Max and says, steadily, /"You seem frustrated with the PM's."/
 
@@ -308,7 +341,7 @@ Max blinks in surprise. His lips tighten into a frown. He gives a tense shrug an
 
 What's going on inside of Max, this time?
 
-/Max doesn't *like* feeling frustrated with these inexperienced PM's. He's been trying as hard as he can to manage the objectively difficult situation. And now Alistair is telling him he "seems frustrated"?! It's like Alistair thinks there's something wrong with Max. What, is he supposed to *not* be frustrated?!/
+/"I don't *like* feeling frustrated with the PM's. I've been trying as hard as I can to manage what is an objectively difficult situation. And now Alistair is telling me I "seem frustrated"?! It's like Alistair thinks there's something wrong with *me*. What, am I supposed to *not* be frustrated?!"/
 
 We can all very easily feel judged when someone announces our emotions to us.
 
@@ -337,29 +370,37 @@ Let's see how you can reliably thread that needle.
 # Luckily, there is a way to directly validated to your stakeholder's feelings.
 The trick is to carefully go through two steps, which Chris Voss names "Labeling" emotions:
 
- 1. Empathetically describe the *situation* your stakeholder is in
+ 1. Describe the *situation* your stakeholder is in, with true empathy
 
- 2. Offer a potential label for their emotion, as a *natural response* to that situation
+ 2. Offer a potential *label* for their emotion, as a natural response to that situation
 
 # XXX Fix this
 
-Voss describes this as like performing a tea ceremony. Precise and persnickety and not particularly natural at first. I like that. It happens very quickly in real time, but you need to learn to observe the moments very carefully.
+Voss describes labeling emotions as akin to performing a tea ceremony. It's precise and persnickety and not particularly natural at first. I like that analogy very much. The act of labeling happens very quickly in real time, so you need to learn to observe the distinct steps very carefully. Let's break them down.
 
 # BAD WRITING GO!
 
-By describing the situation first, you're validating their *experience*. It's safer to focus on that instead of their emotions. As you describe the situation, bring it to life by citing specific, vivid details. E.g. instead of saying "You've been tasked with opening three warehouses by early Q1 of next year", you say "The CEO is demanding that you open three warehouses by early next year, the inventory team is already scheduling stocking purchase orders, and next year's forecast for the board assumes a full year of operational profits from those buildings. But the location team hasn't even given you any possible sites yet."
+By describing the situation first, you start by validating their *experience*.
+
+You'll want to bring that situation to life by citing specific, vivid details, ideally in a fashion which casts your stakeholder in the role of a "beleaguered hero". E.g. imagine that you could say to your VP of Warehousing stakeholder, "We have to open three warehouses by early Q1 of next year, and it's not clear if we're on track".
+
+That's all... fine? It's true, it's far better than saying nothing. But it's not demonstrating a fully empathetic understanding of how all this presents to Mr Warehousing. Here's that same dry series of facts, enriched with details:
+
+"The CEO is demanding that you open three warehouses by Q1. That's right at the limit of what's even possible -- like, everything has to go exactly right. Despite the risks, next year's forecast for the board assumes a full year of operational profits from those buildings. But the location team hasn't even given you all the possible sites yet. It's like you're behind before you even able to start."
+
+Once you've laid out the situation, with true empathy, you move on to the next step.
 
 # mirroring how they experience, and you're create *justification* for their feelings.
 
 # If you do this right, you should feel like you, yourself, would feel similarly, if you were in their situation.
 
-You then explicitly name, or, as Voss says, "label", the emotion that the situation is causing them to feel. But you make this an /offer/ by prefacing it with a careful bit of distancing, e.g. "It seems like you might...", or "I could imagine that you might...".
+You explicitly name, or, as Voss says, "label", an emotion that the situation could be causing them to feel.
 
-In other words avoid the risky bluntness of "You seem frustrated" (or, god forbid, "I think you're frustrated", which has patronizing judgment written all the heck over it).
+You make this an /offer/ by prefacing it with a careful bit of distancing, e.g. "It seems like you might...", or "I could imagine that you might...".
 
-Instead, try something like:
+You avoid the risky bluntness of "You seem frustrated" (or, god forbid, "I think you're frustrated", which has patronizing judgment written all the heck over it). But you *directly name a feeling*.
 
-"[...] But the location team hasn't even given you any possible sites yet. That seems like it might be pretty frustrating."
+"[...] But the location team hasn't even given you all the possible sites yet. It's like you're behind before you even able to start. That seems like it might be a pretty frustrating situation."
 
 The distancing preface allows the person to hear the statement of emotions as you *trying to understand them*, not as you judging their feelings. This tactic work best if you can get yourself into a place of genuine curiosity, so that you truly *are* trying to understand.
 
@@ -370,7 +411,7 @@ Going through the steps of this little dance is a way to help someone feel valid
 #  - "It would make sense if you were to..."
 #  - "I could imagine you might..."
 
-If you get this right, your stakeholder will feel a (possibly profound!) sense of /relief/. They may even visibly exhale and relax. You may see them smile or even laugh at the picture you've painted. They will be far more ready to see you as a  potential partner in facing their challenges.
+If you get this right, your stakeholder will feel a (possibly profound!) sense of /relief/. They may even visibly exhale and relax. You may see them smile or even laugh at the picture you've painted. They will be far more ready to see you as a potential partner in facing their challenges.
 
 Let's see it at work.
 
@@ -391,9 +432,9 @@ Let's see it at work.
 
 ** Alistair Breaks Through
 
-Alistair's mentor had insisted that Alistair spend real time, *before this conversation*, building an empathetic understanding of Max's situation.
+Naiah had insisted that Alistair spend real time, *before this conversation*, building an empathetic understanding of Max's situation.
 
-In this moment, with Max looking expectantly at him, Alistair is very glad he put in that work. With an effort, he manages to recall the mantra he's built up:
+In this moment, with Max looking expectantly at him, Alistair is very glad Naiah made him put in that work. With an effort, he manages to recall the mantra he's built up:
 
 /"It's about the delivery, stupid."/[fn::Alistair is a fan of DB Pennebaker documentaries, and has seen The War Room twice.]
 
@@ -407,11 +448,13 @@ He launches into his prepared description.
 
 He can see that Max is with him, subtly nodding at each point he makes. He now bridges to the new information he just acquired.
 
-"But it sounds like there are some real challenges with the product team: the new PM's don't really understand how ProClaims work. I could imagine that, if I were in your shoes, I might find that pretty frustrating." He pauses, and looks intently into his zoom screen.
+"But it sounds like there are some real challenges with the product team: the new PM's don't really understand how ProClaims work. I could imagine that, if I were in your shoes, I might find that pretty frustrating."
+
+He pauses, and looks intently into his zoom screen.
 
 # I would guess that means you have to stay tightly in the loop on all the different work streams. But then they complain about not being given any autonomy.
 
-Max exhales, slowly. "That's exactly it. *Exactly*. Everyone keeps telling me to let the PM's make decisions, but they just *can't*."
+Max exhales slowly. "That's exactly it. *Exactly*. Everyone keeps telling me to let the PM's make decisions, but they just *can't*."
 
 "I get that," says Alistair, surprised to find that he actually does. "Is there anything you want to try to improve things, in the short term?"
 
@@ -432,6 +475,7 @@ I have witnessed conversations where, after a period of steady, supportive probi
 Mastering these skills requires deliberate, reflective practice.
 
 But such mastery can take you much farther than you might imagine.
+
 ** Practice Repeat Trailing Words
 
 This one is simple enough that I recommend practicing it throughout your day.
@@ -452,14 +496,15 @@ As you build comfort, you'll find that you can go through multiple rounds of thi
 
 For an initial, focused period of practice to rewire yourself, aim to do this at least two to three times a day, every day for a week.
 
-** Practice The Steps of Labeling
+** Spend Real Time Practicing Labeling
 
 Offering Labeled Feelings is *extremely* powerful, but it takes real practice to master, for two reasons.
 
-First, it takes practice to learn how develop an empathetic understanding of a *situation*. You want to describe the situation in such a way that the resulting feeling seems inevitable. You want to enrich your dsecription with details. This is very much a learnable skill, and we'll return to it in the exercises.
+First, many of us have learned to *not* talk to other people about their feelings, especially people who seem upset or angry in any way (and especially especially if those people have power over us). With experience, you'll find that offering labeled emotions almost always makes listeners feel *good*. Once you experience this tactic as defusing tension and anger, it won't feel so risky. But you have to build up that experience. In the exercises below, we'll initially explore this tactic in low-stakes situations.
 
-Second, many of us have learned to *not* talk to other people about their feelings, especially people who seem upset or angry in any way (and especially especially if those people have power over us). With experience, you'll find that offering labeled emotions almost always makes listeners feel *good*. Once you experience this tactic as defusing tension and anger, it won't feel so risky. But you have to build up that experience. In the exercises, we'll talk through how to practice this tactic in low-stakes situations.
+Second, it takes practice to learn how develop an empathetic understanding of a *situation*. You want to be able to describe the situation such that some feeling seems inevitable. You want to enrich your description with details. This is very much a learnable skill, and we'll return to it in the exercises.
 
+** Practice Labeling With A Friends
 
 Because talking about feelings can feel so loaded, I recommend practicing this with a trusted friend.
 
@@ -519,9 +564,9 @@ Don't let yourself dance around or avoid saying the feeling. Put yourself in a p
 
 You have to get yourself into that place of discomfort in speaking directly to emotions, and find a way through it.
 
-Whatever the respond with, continue on, and then pause them and label feelings again.
+Whatever they respond with, continue on, and then, after a few more beats, pause them and label feelings again.
 
-After you've done a few rounds of this, ask your friend how it felt. Dig in specifically to whether or not they felt like you understood their situation. Ask if anything you said sounded odd or pushy.
+After you've done a few rounds of this, pause the exercise and ask your friend how it felt. Dig in specifically to whether or not they felt like you understood their situation. Ask if anything you said sounded odd or pushy. Or, conversely, if there was anything that was specifically good to hear.
 
 Take the time to notice how *you're* feeling, in the midst of this.
 
