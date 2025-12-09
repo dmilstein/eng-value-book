@@ -1,12 +1,68 @@
 :PROPERTIES:
 :ID:       5C7A0B37-8984-4A1F-8371-C1FCEB637174
 :END:
-#+title: Make a Compelling Offer
+#+title: How To Make a Compelling Offer
 #+filetags: :Chapter:
-* Make a Compelling Offer
+* How To Make a Compelling Offer
+** It's Been A Long Road, Where Are We Exactly?
+
+# Are we there yet?
+
+# So, where are we?
+
+We've just taken an exhaustive, multi-chapter deep dive into how to mine for both information and feelings from other humans. Using those skills, you're now able to identify an overall strategic outcome that your stakeholder cares intensely about.[fn:: Because you've totally practiced those skills and not just raced ahead to the next chapter, right? Right? If I'm going to be honest, I personally kind of /always/ race ahead to the next chapter, so maybe I can't judge? But do make the time to practice at some point! It will pay off. And, I predict, be somewhat surprisingly fun. Or at least somewhat surprising, in a fun-adjacent manner.] With any luck, you've also been able to develop an empathetic understanding of the underlying emotions which are driving their (possibly extremely irritating!) day-to-day behaviors.
+
+Having hit this moment, you might well be asking, "Um, so... what?"
+
+"I came to this book," you continue, "because I need my stakeholder to *change their behavior*."
+
+# you might further announce.
+
+"What am I supposed to do with this information you seem so excited about my having collected? What is the use of understanding strategic outcomes and emotional landscapes? I need my CEO to stop cutting my team's legs out from underneath them. Yes, now I know that  my CEO is living in terror of their next board meeting, that's... nice I guess? But you'll forgive me for saying that I don't quite see how to get from point A to point B." And then you fold your rhetorical arms.
+
+Indeed!
+
+# Yes, yes, yes!
+
+I have promised you a step-by-step game plan for gradually drawing your Important Person into an ongoing process of collaborative problem-solving. I have insisted on steadily making small improvements, building trust and rapport as you go. I have claimed that each increment will involve the following steps:
+
+ 1. Identify a long-term *strategic outcome* that your stakeholder cares intensely about
+
+ 2. Develop an *empathetic understanding* of your stakeholder's emotional experience
+
+ 3. Make a *compelling offer* to incrementally adjust how you work together
+
+ 4. Ensure the new way of working *feels like a win* for your stakeholder
+
+We've now arrived at the part where you actually propose a change to you stakeholder, and do so in a manner that makes it easy for them to say "yes".
+
+I promise that the information you have acquired will be incredibly useful for doing so.
+
+Let's see how.
+
 ** The Elements Of A Compelling Offer
 
-When you actually sit down with your stakeholder to ask them to change their behavior, you'll methodically go through the following four steps:
+In the introduction, I cited Ross Greene's (excellent) book for parents, Raising Human Beings. In that book, Greene develops an approach he calls "collaborative problem solving", which consists of three steps:
+
+First, the parent develops an empathetic understanding of what the child needs, wants, and feels. In other words, what the two of them need to solve for, if they're going to find a solution that satisfies *the child*.
+
+# in order to help them.
+
+# One way to frame this is: what the two of you need to collaboratively "solve for", if you're going to work together.
+
+# if you're going to come up with a solution that works for them.
+
+Second, the parent then shares what *they* need to solve for. This almost always requires them to give up on their (intense!) desire to tell the child /what to do/ (e.g. "Pick up your clothes!").  Instead, they need to identify their own underlying /needs/ (e.g. "It's important to me that the living room stays clean.").
+
+Third, the parent invites the child to collaborate with them to find a solution that works for both.
+
+# I was doing the below somewhat intuitively when I read that book, and I immediately lit up at how clearly he laid out the plan.
+
+# Greene's thesis is that, if you're strugging with one of your children, you can get into a healthy cycle of collaborative problem solving by going through three steps. I have found his approach to be directly useful with humans in lots and lots of situations.
+
+We'll develop a compelling offer to your stakeholder by following that same arc. We'll open up the first step a bit, by stating the *shared* goal of the strategic outcome. So our four steps are:
+
+# When you actually sit down with your stakeholder to ask them to change their behavior, you'll methodically go through the following four steps:
 
   1. Invoke the strategic outcome
 
@@ -14,9 +70,55 @@ When you actually sit down with your stakeholder to ask them to change their beh
 
   3. Share your concerns
 
-  4. Propose an adjustment in how you work together
+  4. Propose an adjustment
 
-# XXX Call back to the intro, where we explain why this works, cite books.
+I'm going to take just a bit of time to illustrate his approach, in the parent/child context.
+
+Why am I doing this?
+
+On the one hand, it's a pretty different context? Arguing over the importance of picking up dirty clothes from a bedroom floor doesn't precisely resemble negotiating over what meetings your head of product should stop attending.
+
+But there's a great benefit to seeing this approach with teenagers.
+
+A defining characteristic of teenagers is that their feelings are, at every moment, The Most Important Thing In The World. And they have an impressive ability, thanks presumably to millenia of evolution, to trigger extremely strong and extremely visible emotions from their parents, as well.
+
+Thus, all the feelings are *out in the open*.
+
+With humans-at-work, the emotions are still centrally important. But they're carefully hidden away.
+
+So we'll start by observing how parents can apply this, and then talk about how you can.
+
+
+# With Teens The Feelings Are Out In The Open
+
+# Let's bring it to life by focusing on a parent who is stuck having a repeated, exhausting argument with their teenage son, about getting out of the house in the morning.
+
+** The Earth Is Scorched Over Breakfast Rights And Timing
+
+It's the morning. Jean is finishing her breakfast and getting ready to start her workday. She sips her coffee. She checks the clock over the stove. She sips her coffee. She checks the clock over the stove. The hands are ticking closer and closer to seven forty-five. Jean frowns. She can't possibly drive Griffin today, she has a zoom call at eight. Is he assuming she'll give him a ride? That would be typical. She listens for footsteps upstairs. Silence. Tick, tick, tick. The clock reaches seven forty.
+
+Finally, at seven forty-four, an extremely unkempt Griffin comes rumbling down the stairs.
+
+"You're going to be late," says Jean.
+
+"There's no lunch?" says Griffin, staring at the kitchen counter.
+
+"You need to make your own lunch, Griff. We /talked/ about this. You need to get up /earlier/."
+
+"It's fine. Whatever. I'll just be hungry." He turns to leave.
+
+"You can make a sandwich--"
+
+"I said I'm /fine/."
+
+"Okay, fine, /I'll/ make you something, then. Jesus." Jean is on full parental tilt.
+
+"*I said I'm /fine/*," shouts Griffin. He shoves his arms into his backpack straps.
+
+"Just wait--"
+
+The door slams loudly behind him. Jean stands there with a jar of peanut butter half open in her hand, almost dizzy with anger. It's seven forty eight. It's the third time this week they've had this same argument. Why can't Griffin just get up earlier? How many times does she have to tell him that?[fn:: Feel free to empathize with either Jean or Griffin, depending on, I suspect, the edit distance of your age to your own teenage years.]
+
 
 ** Invoke The Strategic Outcome
 
@@ -1793,6 +1895,8 @@ CLOSED: [2025-10-23 Thu 11:03]
 ** DONE Take a pass on making all stories more vivid/playful
 CLOSED: [2025-10-23 Thu 11:03]
 E.g. Mark Blevins-style.
+** TODO Maybe: open with How Can Stakeholders Resist Change?
+I kind of like the energy of that. And the main one is all lecture-y.
 ** TODO In Substack intro, add "Of course, now it's tricky"
 Like, define the problem that makes it hard. Maybe that happens in the chapter heading?
 ** TODO In S intro, add something about increments
