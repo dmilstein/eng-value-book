@@ -159,10 +159,10 @@ E.g. what happens if the stores have sluggish perf?
 ** TODO Add testing w/ Map Fears / Aspirations
 
 * [[id:E0ADBF07-90B8-4C37-81C0-96A428020F5E][Substack]]
-** TODO Submit Medium articles to publication
+** TODO Submit Medium articles to publication     :curweek:
 Possible Article for Level Up
-** TODO Post "Offer Future Decision" to Substack
-** TODO Post "Propose a Timebox" to Medium
+** TODO Post "Offer Future Decision" to Substack  :curweek:
+** TODO Post "Propose a Timebox" to Medium        :curweek:
 ** TODO Add playful illustrations of mindsets
 E.g. like I did in Invite to Solve Problems
 ** TODO Decide: illustrate *all* tactics w/ deep dives, or just some?
@@ -198,9 +198,15 @@ CLOCK: [2025-11-10 Mon 08:20]--[2025-11-10 Mon 08:26] =>  0:06
 :END:
 
 * [[id:5903AFE7-4B1E-422C-8537-2C56BBFBA643][Mine For Feelings]]                               :gtasks:
-** TODO First draft Art of Divining Emotions      :curweek:pom:
+** TODO Add exercise around enriching descriptions with vivid details
+** TODO Rename to: "Pre-Draft An Empathetic Description"?
+Prepare A Draft Empathetic Description
+** TODO Fact check the economy stupid line
+(Alistair is a fan of DB Pennebaker documentaries, and has seen The War Room twice)
+** DONE First draft Art of Divining Emotions
+CLOSED: [2025-12-05 Fri 10:10]
 :LOGBOOK:
-CLOCK: [2025-12-05 Fri 08:40]
+CLOCK: [2025-12-05 Fri 08:40]--[2025-12-05 Fri 10:10] =>  1:30
 CLOCK: [2025-12-03 Wed 13:31]--[2025-12-03 Wed 14:25] =>  0:54
 CLOCK: [2025-12-02 Tue 10:13]--[2025-12-02 Tue 11:46] =>  1:33
 CLOCK: [2025-12-01 Mon 11:43]--[2025-12-01 Mon 12:36] =>  0:53
@@ -218,9 +224,14 @@ CLOCK: [2025-11-21 Fri 20:27]--[2025-11-21 Fri 22:29] =>  2:02
 ** DONE Rename to Repeat Trailing Words? (cut Three)
 CLOSED: [2025-12-01 Mon 09:44]
 ** TODO Show example of labeling for fear of making prioritization calls
-** TODO Use "I'm worried", "I'm afraid"
 * [[id:5C7A0B37-8984-4A1F-8371-C1FCEB637174][Compelling Offer]]                                :gtasks:
-** TODO Review for Beta                           :curweek:
+** TODO Carve out first chapter for Beta          :curweek:pom:
+:LOGBOOK:
+CLOCK: [2025-12-09 Tue 09:06]
+:END:
+** TODO Use "I'm worried", "I'm afraid"
+** DONE Review for Beta
+CLOSED: [2025-12-08 Mon 09:36]
 ** TODO For Propose a Timebox, add more examples?
 So it's, what:
 
