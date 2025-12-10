@@ -25,7 +25,7 @@ You'll be employing Echoing Back in just about every step of the overall game pl
 
  - You'll use it when you mine for business context and goals during Identify a Strategic Outcome,
 
- - When you Map Key Emotions, you'll echo back as part of sussing [puzzling, ferreting] out your stakeholder's underlying feelings
+ - When you Identify Key Emotions, you'll echo back as part of sussing [puzzling, ferreting] out your stakeholder's underlying feelings
 
  - As part of Propose an Adjustment, you'll use it to smoothly integrate any concerns or suggestions your stakeholder raises
 
@@ -35,7 +35,7 @@ We'll bring Echoing Back to life in the remainder of this chapter, and offer som
 
 /"Sure, Dan, I can see how building trust and rapport is important for *product*, but isn't that kind of the whole point of having a product team? So the engineers can just focus on building stuff? Do I really need to practice this Echoing Back thing? Or any other tactical empathy skills?"/
 
-Indeed, tactical empathy is fundamental survival skill for a PM.[fn:: I test for it when interviewing for product roles] But it is also /insanely valuable/ for engineers. Empathy allows you to get unstuck with stakeholders, and engineers *very* much have stakeholders (often, y'know, the product team). It's also super valuable for many other facets of engineering work, such as: getting buy-in to try a new technical approach; advocating for technical investments with business counterparts; negotiating tradeoffs with engineering leaders; handling concerns from other engineers on your team, etc.
+Indeed, tactical empathy is fundamental survival skill for a PM.[fn:: I test for it when interviewing people for product roles] But it is also /insanely valuable/ for engineers. Tactical empathy allows you to get unstuck with stakeholders, and engineers *very* much have stakeholders (often, y'know, the product team). It's also super valuable for many other facets of engineering work, such as: getting buy-in from other engineers to try a new technical approach; advocating for technical investments with business counterparts; negotiating tradeoffs with engineering leaders; handling concerns from other engineers on your team, etc.
 
 Most of the ways I know how to be a really strong, really valuable engineer involve working with other humans. And these skills are just crazy valuable for doing so.
 
@@ -257,7 +257,6 @@ For example, let's look at the moment where Deanna offered: "The key evidence yo
 Imagine that, instead of being disciplined about echoing back, she had jumped ahead. She *doesn't* offer that useful summary to Karim. She's too excited! She suddenly sees a way to resolve this stupid ongoing fight they keep having! She can't wait to tell him. Eagerly, she says, "When you bring back feedback from customer calls, instead of talking about the features you want to build, we could talk about what evidence you saw? Could that work?!"
 
 Karim will not hear this as an exciting opportunity to collaborate. He's going to feel like Deanna doesn't really understand him. He's going to feel like she is just looking for a way to win her side of the fight again. He'll shut her down, she'll feel like there's just no way to win, failure all around! When you find exciting new information, always echo back.
-
 
 ** Practice Echoing Back
 
