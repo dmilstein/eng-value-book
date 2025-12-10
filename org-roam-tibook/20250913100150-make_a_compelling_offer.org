@@ -44,81 +44,169 @@ Let's see how.
 
 In the introduction, I cited Ross Greene's (excellent) book for parents, Raising Human Beings. In that book, Greene develops an approach he calls "collaborative problem solving", which consists of three steps:
 
-First, the parent develops an empathetic understanding of what the child needs, wants, and feels. In other words, what the two of them need to solve for, if they're going to find a solution that satisfies *the child*.
+ 1. First, the parent develops an empathetic understanding of what the child needs, wants, and feels.
 
-# in order to help them.
+   In other words, what the two of them need to solve for, if they're going to find a solution that satisfies *the child*.
 
-# One way to frame this is: what the two of you need to collaboratively "solve for", if you're going to work together.
+   # in order to help them.
 
-# if you're going to come up with a solution that works for them.
+   # One way to frame this is: what the two of you need to collaboratively "solve for", if you're going to work together.
 
-Second, the parent then shares what *they* need to solve for. This almost always requires them to give up on their (intense!) desire to tell the child /what to do/ (e.g. "Pick up your clothes!").  Instead, they need to identify their own underlying /needs/ (e.g. "It's important to me that the living room stays clean.").
+   # if you're going to come up with a solution that works for them.
 
-Third, the parent invites the child to collaborate with them to find a solution that works for both.
+ 1. Second, the parent then shares what *they* need to solve for.
+
+   This almost always requires them to give up on their (intense!) desire to tell the child /what to do/, e.g. "Pick up your clothes!".
+
+   Instead, they need to identify and share their own underlying /needs/, e.g. "It's important to me that the living room stays clean."
+
+ 1. Third, the parent invites the child to collaborate with them to find a solution that works for both.
 
 # I was doing the below somewhat intuitively when I read that book, and I immediately lit up at how clearly he laid out the plan.
 
 # Greene's thesis is that, if you're strugging with one of your children, you can get into a healthy cycle of collaborative problem solving by going through three steps. I have found his approach to be directly useful with humans in lots and lots of situations.
 
-We'll develop a compelling offer to your stakeholder by following that same arc. We'll open up the first step a bit, by stating the *shared* goal of the strategic outcome. So our four steps are:
+We'll develop a compelling offer for your stakeholder by following that same arc. We'll open up the first step a bit, by first stating the shared goal of the strategic outcome. So our four steps become:
 
 # When you actually sit down with your stakeholder to ask them to change their behavior, you'll methodically go through the following four steps:
+
+  1. Name the strategic outcome
+
+  2. Share your understanding of their concerns
+
+  3. Share your own concerns
+
+  4. Propose an adjustment
+
+** Alistair Has Been Invited To Make A Case
+
+# Alistair Is Sooooo Close
+
+
+
+At AccuraClaim, Alistair had been struggling with Max's micromanaging, decision-bottleneck behavior.
+
+Through some diligent probing, Alistair has manged to extract a coherent strategic outcome: in order to keep growing, AccuraClaim needs to capture more revenue per customer. They've set a goal of increasing their average price to $1.50 per insurance claim. Alistair has been able to work backwards from that goal to his team's day-to-day efforts to fundamentally restructure the core ProClaims product.
+
+Further, by using tactical empathy, Alistair has identified two key emotions for Max:
+
+ - Max is *afraid* of being shamed by the CEO
+
+   Specifically, over releasing any customer-impacting issues to production
+
+ - Max is *frustrated* that the recently-hired PM's don't fully understand ProClaims
+
+   Which is making it feel impossible to delegate, well, anything. Max also has a weakness for heroically martyring himself, so "I can't possibly delegate!" is a well-worn path in his psyche.
+
+   But, in this particular case, Alistair actually agrees that the lack of nuanced understanding on the part of the PM's makes it legitimately difficult for Max to step back.
+
+Finally, through learning these things, Alistair has been able to build some rapport with Max.
+
+At the end of their last conversation, after connecting around the fears and the frustrations, Max threw the ball to Alistair, in a way that Alistair was kind of stunned by. Max looked openly at Alistair and said:
+
+"I feel like I've barely been able to keep my head above water. Do you have any ideas?"
+
+They agreed to meet the next day.
+
+** Alistair Maps Out A Potential Adjustment
+
+It's the evening. Alistair and his husband, Carl, have finished dinner and cleaned up. Carl is taking their dog for a walk around the neighborhood.
+
+Alistair sits down at his desk, crammed into a corner of their bedroom. After thinking for a moment, he texts Naiah, his husband's social worker friend. A few minutes later, they're talking.
+
+"That's great!" says Naiah, after Alistair lays out his progress so far. "Nice work."
+
+
+
+
+
+Let's see how Alistair might go into that meeting.
+
+First off, he's going to prepare a proposal for a specific incremental adjustment.
+
+We'll spend some time on options for this later, but you might be able to do this already. You have some sense of what better looks like, come up with a small step in that direction that is "just a little uncomfortable" for your stakeholder. But which also makes things just a little better for them. And a little better for you.
+
+Don't try to boil the ocean. Don't jump ahead to the one true perfect process. Just make things a little better, set yourself up to earn a shared win.
+
+In Alistair's case, what he comes up with is:
+
+ - They will work to help one specific PM--Joanna--level up
+
+ - For the next two sprints, Max and Alistair will sit down with Joanna and spend an extra hour doing a deep dive on the existing product, ahead of time (this is a slightly painful concession of time)
+
+ - Max will, for those two sprints, allow Joanna to make decisions on her own, and commit to reviewing those only after sprint demo
+
+But, even once armed with that specific adjustment, how do you offer it to your stakeholder.
+
+Let's imagine what would happen at the meeting, if Alistair just dives right in.
+
+# The meeting starts, Max seems distracted and tense, Alistair pushes, they get into a fight, nothing happens.
+
+You can never repeat the context too much.
+
+# Take 2, Alistair opens with the strategic context.
+
+# But then he goes straight to the plan.
+
+You can never validate their feelings too much.
+
+# Take 3, Alistiar validates the feelings
+
+# But then he goes straight to the plan
+
+You have to put what you're solving for on the table.
+
+# Take 4, he does that, it works
+
+That's the game.
+
+
+* Old Subheads
+** Spike Alistair/Max
+
+Let's return to Alistair and Max, at AccuraClaim. Over the last few chapters, we saw how Alistair could use tactical empathy to both identify a key strategic outcome and to map Max's underlying feelings.
+
+Below is a review. Now that we're being explicit, we can see that Alistair is going through the first two steps:
 
   1. Invoke the strategic outcome
 
   2. Share your understanding of their concerns
 
-  3. Share your concerns
+  # 3. Share your concerns
 
-  4. Propose an adjustment
+  # 4. Propose an adjustment
 
-I'm going to take just a bit of time to illustrate his approach, in the parent/child context.
+*** 1. Invoke the Strategic Outcome
 
-Why am I doing this?
+"Our customers really like us", says Alistair. "Our NPS is safely in the fifties, our renewal rates are strong. But to keep growing, AccuraClaim needs to find a way to capture more revenue from each customer. Specifically, we have a key goal of increasing our average price to *$1.50 per claim*, within two years. Everyone across engineering and product should be focused on that as a top priority." Alistair makes himself pause. "Do I have that all mostly right?"
 
-On the one hand, it's a pretty different context? Arguing over the importance of picking up dirty clothes from a bedroom floor doesn't precisely resemble negotiating over what meetings your head of product should stop attending.
+After a moment, Max nods. "Go on."
 
-But there's a great benefit to seeing this approach with teenagers.
+"My team's role is to overhaul the claims workflows," continues Alistair. "In order to stay on track for the price increase, we'll need to launch the new workflows by, at the very latest, early next year. That will give the sales team a key feature for the new premium pricing tier."
 
-A defining characteristic of teenagers is that their feelings are, at every moment, The Most Important Thing In The World. And they have an impressive ability, thanks presumably to millenia of evolution, to trigger extremely strong and extremely visible emotions from their parents, as well.
+Max nods again. He's listening intently now.
 
-Thus, all the feelings are *out in the open*.
+"Finally," says Alistair, "once my team gets the underlying data cleaned up, Eduardo and Jenna can finish implementing the ML Fraud Detection. Which can then be sold as an add-on. Having both of those should allow the sales team to make real headway against the per-claim price increase."
 
-With humans-at-work, the emotions are still centrally important. But they're carefully hidden away.
+He makes himself pause. "Is that a solid way to understand what we're doing? The most important goals across ClaimsPro?"
 
-So we'll start by observing how parents can apply this, and then talk about how you can.
+"That's all good, Alistair," says Max, "Really good. Is there anything else you wanted to ask?"
 
+Note how Alistair has both stated the overall strategic outcome, *and* detailed how his team's work will enable it.
 
-# With Teens The Feelings Are Out In The Open
+*** 2. Share your understanding of their concerns
 
-# Let's bring it to life by focusing on a parent who is stuck having a repeated, exhausting argument with their teenage son, about getting out of the house in the morning.
+Alistair continues. "It seems to me like you might be in a kind of tricky situation. You're supposed to ship this fundamental restructuring absolutely as quickly as possible, but, if any existing customers complain about, well, anything, the CEO seems to blame you. But, like, how are we supposed to change ClaimsPro without a single customer being confused even once? If I were in your shoes, it might feel like I was going to get, well, yelled at either way? Does that sound at all right?"
 
-** The Earth Is Scorched Over Breakfast Rights And Timing
+Max looks startled for a moment, and then gives a short bark of laughter. "You're not wrong."
 
-It's the morning. Jean is finishing her breakfast and getting ready to start her workday. She sips her coffee. She checks the clock over the stove. She sips her coffee. She checks the clock over the stove. The hands are ticking closer and closer to seven forty-five. Jean frowns. She can't possibly drive Griffin today, she has a zoom call at eight. Is he assuming she'll give him a ride? That would be typical. She listens for footsteps upstairs. Silence. Tick, tick, tick. The clock reaches seven forty.
+"Man, that would feel really hard," says Alistair, sincerely. "Also, my sense is that the new PM's don't really understand all the crazy steps in claims processing. It's not their fault, they only started a few months ago. But it's not like you can just step fully back and let them run. You *need* to stay in the loop. Especially if any bugs get escalated to the CEO super fast. Is that more or less right?"
 
-Finally, at seven forty-four, an extremely unkempt Griffin comes rumbling down the stairs.
+"That's exactly right," says Max. He has, Alistair thinks, a look of relief. "That's *exactly* it. I *want* to delegate more. Really. No one understands that."
 
-"You're going to be late," says Jean.
+"Alright," says Alistair, "I have some early ideas for how we could work towards that. So that we can find ways to gradually set the PM's up to take things over, but without you having to worry about some horrible bug getting through, and the CEO losing his mind. I've probably used up my ten minutes now, but could I set up a thirty minute meeting tomorrow to talk out some options?"
 
-"There's no lunch?" says Griffin, staring at the kitchen counter.
-
-"You need to make your own lunch, Griff. We /talked/ about this. You need to get up /earlier/."
-
-"It's fine. Whatever. I'll just be hungry." He turns to leave.
-
-"You can make a sandwich--"
-
-"I said I'm /fine/."
-
-"Okay, fine, /I'll/ make you something, then. Jesus." Jean is on full parental tilt.
-
-"*I said I'm /fine/*," shouts Griffin. He shoves his arms into his backpack straps.
-
-"Just wait--"
-
-The door slams loudly behind him. Jean stands there with a jar of peanut butter half open in her hand, almost dizzy with anger. It's seven forty eight. It's the third time this week they've had this same argument. Why can't Griffin just get up earlier? How many times does she have to tell him that?[fn:: Feel free to empathize with either Jean or Griffin, depending on, I suspect, the edit distance of your age to your own teenage years.]
-
+"Absolutely," says Max. "I look forward to it."
 
 ** Invoke The Strategic Outcome
 
@@ -1516,7 +1604,6 @@ Karim is, of course, frustrated by the lack of velocity. But after digging in, D
 
 He's also quite afraid that what they have planned won't be compelling enough---which is driving him to keep adding more and more features.
 
-
 ** One Game Plan for All three examples
 Alistair is feeling so stuck, he's not sure he can imagine being unstuck ever again.
 
@@ -1854,6 +1941,78 @@ Which is what the third stage in the Getting Unstuck game plan is all about!
 
 Let's go!
 
+** The Earth Is Scorched Over Breakfast Rights And Timing
+
+It's the morning. Jean is finishing her breakfast and getting ready to start her workday.
+
+She sips her coffee. She checks the clock over the stove.
+
+# She sips her coffee. She checks the clock over the stove.
+
+The hands are ticking closer and closer to seven forty-five. Jean frowns. She can't possibly drive Griffin today, she has a zoom call at eight. Is he assuming she'll give him a ride? That would be typical. She listens for footsteps upstairs. Silence. Tick, tick, tick. The clock reaches seven forty.
+
+Finally, at seven forty-four, an extremely unkempt Griffin comes rumbling down the stairs.
+
+"You're going to be late," says Jean.
+
+"There's no lunch?" says Griffin, staring at the kitchen counter.
+
+"You need to make your own lunch, Griff. We /talked/ about this. You need to get up /earlier/."
+
+"It's fine. Whatever. I'll just be hungry." He turns to leave.
+
+"You can make a sandwich--"
+
+"I said I'm /fine/."
+
+"Okay, fine, /I'll/ make you something, then. Jesus." Jean is on full parental tilt.
+
+"*I said I'm /fine/*," shouts Griffin. He shoves his arms into his backpack straps.
+
+"Just wait--"
+
+The door slams loudly behind him. Jean stands there with a jar of peanut butter half open in her hand, almost dizzy with anger. It's seven forty eight. It's the third time this week they've had this same argument. Why can't Griffin just get up earlier? How many times does she have to tell him that?[fn:: Feel free to empathize with either Jean or Griffin, depending on, I suspect, the edit distance of your age to your own teenage years.]
+
+
+** Explaining Why To Use Teen Example
+
+I'm going to take just a bit of time to illustrate his approach, in the parent/child context.
+
+Why am I doing this?
+
+On the one hand, it's a pretty different context? Arguing over the importance of picking up dirty clothes from a bedroom floor doesn't precisely resemble negotiating over what meetings your head of product should stop attending.
+
+But there's a great benefit to seeing this approach with teenagers.
+
+A defining characteristic of teenagers is that their feelings are, at every moment, The Most Important Thing In The World. And they have an impressive ability, thanks presumably to millenia of evolution, to trigger extremely strong and extremely visible emotions from their parents, as well.
+
+Thus, all the feelings are *out in the open*.
+
+With humans-at-work, the emotions are still centrally important. But they're carefully hidden away.
+
+So we'll start by observing how parents can apply this, and then talk about how you can.
+
+
+# With Teens The Feelings Are Out In The Open
+
+# Let's bring it to life by focusing on a parent who is stuck having a repeated, exhausting argument with their teenage son, about getting out of the house in the morning.
+
+** Spike: Karim/Deanna
+We're going to jump back a few rounds of storytelling to Karim and Deanna.
+
+Deanna is the frustrated lead engineer at a startup. Her CEO, Karim, keeps on blowing up her team's sprints with new feature ideas. Karim even started to make noise about demanding the team work longer hours. Given how much backlog churn they experience, Deanna has approximately zero hope that that will lead to any positive business outcomes.
+
+In "The Skill of Echoing Back", we saw how Deanna was able to use tactical empathy to draw out some of Karim's underlying goals and feelings.
+
+She finally stated their situation as:
+
+"We /do/ need more sales, and we /do/ need some of those sales to be to larger customers. But, when we actually close those deals, getting to full engagement will take a while. So what we're looking for in the shorter term, is evidence that the buyer genuinely *loves* the product. The key evidence we're looking for is an explicit plan for the buyer to use their internal influence to get engagement."
+
+That's a solid statement of the strategic outcome
+
+# And which CEO apparently believes that working longer hours will somehow fix his own inability to stick with a decision for longer than the lifespan of a fruit fly?
+
+
 * Todos
 ** DONE Try to split the initial long section
 CLOSED: [2025-10-11 Sat 17:33]
@@ -1926,6 +2085,11 @@ E.g.
 * From Substack
 ** Design an Increment of Change
 
+Okay, now you're armed with some overall statement of strategic intent, and a draft understanding of your stakeholder's fears, hopes and dreams.
+
+Next you need to come up with an idea for an *incremental improvement in how you work with your stakeholder.*
+
+Something like: "For the next 6 weeks, let's try working in new way X".
 
 # This is not yet the pitch itself.
 
