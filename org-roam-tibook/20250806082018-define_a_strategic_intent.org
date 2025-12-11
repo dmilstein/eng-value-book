@@ -277,13 +277,13 @@ You can only make such constant adaptations if you truly understand the why of t
 
 ** Tactic: Invoke A Positive Vision Of The Future
 
-Okay, so, you're totally convinced that you need to develop a clear, actionable statment of strategy, linking long-term company goals to the day-to-day work of your team. To do so, you will need to draw some information out of your stakeholder. You're going to to use the Echo Back & Summarize tacic to do so.
+Okay, so, you're totally convinced that you need to develop a clear, actionable statment of strategy, linking long-term company goals to the day-to-day work of your team. To do so, you will need to draw some information out of your stakeholder, by using the Echo Back & Summarize tactic from the last chapter.
 
-But how, specifically, should you start this conversation? How should you obtain something from your stakeholder which you can, in fact, first echo back, and then summarize?
+But how, specifically, should you start this conversation? How should you obtain something from your stakeholder which you can first echo back, and then summarize?
 
-I'll offer two distinct approaches.
+I'll offer two ideas, Invoke A Positive Vision Of The Future, and Make A Usefully Wrong Guess.
 
-First, you can kick off a conversation about strategic outcomes by saying something like:
+For the first, you kick off a conversation about strategic outcomes by saying something like:
 
 /"Let's imagine: it's 18 to 24 months from now. The business has done incredibly well. We're all happily celebrating and toasting champagne. What good thing has happened? What is the success that we're toasting?"/
 
@@ -295,9 +295,11 @@ By instead asking them to *imagine* a happy longer-term future, you're offering 
 
 Whatever they say in response, you'll echo back and summarize, and see if you can learn more. Play that game a few times. Once you have a solid expression of their imagined happy outcome, move on to:
 
-/"What is the key challenge to overcome to arrive at that good thing? Or, to put it another way, if it's 18-24 months out, and things have gone wrong, what, specifically might have happened?"/
+/"What are some key challenge to overcome to arrive at that good thing? Or, to put it another way, if it's 18-24 months out, and things have gone wrong, what, specifically might have happened?"/
 
-This is the next key part of an effective statement of strategy: the central challenge to overcome. By asking after a single such challenge, you're inviting a sharpness of focus. By invoking imagination again, you can tease out a few distinct risks or challenges.
+This is the next key part of an effective statement of strategy: the central challenge to overcome. Having created safety by imagining the happy outcome, you can now tack back to things that might worry them. By again invoking imagination, you can tease out the various risks or challenges that they might be concerned about.
+
+# By asking after a single such challenge, you're inviting then to priority sort with you.
 
 Again, echo back and summarize what you hear, and see if you can, as part of that, establish which challenge is the most critical to face.
 
@@ -307,71 +309,66 @@ Then, move on to the final set of questions:
 
 This allows you to tease out how your stakeholder is working backwards from the strategic outcome to the day-to-day work of your team. By asking how you'll know if you're succeeding, you're can shine a light on the *evidence* that your stakeholder is looking for. That's often a useful way to move beyond the specific tasks and goals.
 
-Okay, that's one approach to getting your stakeholder to talk about strategic outcomes.
-
 ** Tactic: Make A Usefully Wrong Guess
 
-# Make A Well-Educated Guess
+For the second approach, you'll go through the following three steps:
 
-There are three steps in this approach:
+ 1. Develop your own, "too-opinionated" guess about strategy
 
- 1. Do some work to come up with a reasonably good guess
+ 2. Share your opinionated guess with your stakeholder, ala:
 
- 2. Share your guess with your stakeholder
+    /"My understanding is that, in the next 18-24 months:/
 
- 3. Invite them to tell you how you *got it wrong*
+      - /The most important thing we need to achieve is <X>/
 
-First, spend real time coming up with the guess. Talk to people you work with, review whatever leadership has shared, gather information from wherever you can. Then, distill it all into a single, coherent statement of strategy. Test that out with someone you trust, ask for their feedback, and make it sharper.
+      - /The core challenge to doing so is <Y>/
 
-As above, it should he pointed enough that it's possible to disagree with. Your goal, in fact, is to be usefully wrong -- meaning, the very specificity of what you offer will prompt your stakeholder to clarify. So be very opinionated.
+      - /My team will help to overcome that challenge by way of <Z>"/
 
-Once you've got something which feels clear and opinionated, share it with your stakeholder. You can use the following template:
+ 3. Then, cheefully invite them to tell you why you're wrong
 
-/"My understanding is that, in the next 18-24 months:/
+    /"Do I have that even vaguely right? Am I missing something important?"/
 
- - /The most important thing we need to achieve is <X>/
+   Aim for lightness. You want your tone to clearly indicate: "I'm probably missing something! That's okay! It will be fun for you to correct me!"
 
- - /The core challenge to doing so is <Y>/
+With any luck, your stakeholder will now respond by saying "Wait, that's not quite right. It's more..." And then they will share some critical information that you've likely never heard before.
 
- - /My team will help to overcome that challenge by way of <Z>/
+Be ready to Repeat Trailing Words if it takes them a bit to get started. Aim to end by cheerfully Echoing Back & Summarizing what you've uncovered.
 
-/Do I have that even vaguely right? Am I missing something important?"/
+A key part of this approach is to that the statement of strategy *must* be too opinionated. You want to aim for something which is partly right, but deliberately goes too far. Something which will cause your stakeholder to sit up, take notice and then work to clarify. That's vastly more useful than getting them to absently agree to something vague and toothless.
 
-# In many cases, this works better than just point-blank asking your stakeholder for a statement about strategic outcomes and your team's role in that.
+Being interestingly wrong can serve you very well. Once you've drawn your stakeholder out, you'll echo back and summarize your new understanding. The pleasant sounds of their own ideas will make them feel warmly towards you.
 
-# There are two reasons why guess-and-check is an effective alternative to ask-directly.
+There are several reasons I recommend making this kind of too-opinionated guess.
 
-Your stakeholder will respond, just about always by saying some form of "No, wait, that's not quite right. It's more..." And then they will share some critical information that you've likely never heard before.
-
-You then cheerfully Echo Back & Summarize to draw them out further.
-
-Why is it useful to make this kind of opinionated guess instead of simply asking for a statement of strategy up front?
-
-First, asking directly puts your stakeholder on the spot. Coming up with a clear statement of strategy is *hard*. If they haven't already prepared such a statement, your stakeholder will feel defensive. If, on the other hand, you offer something coherent and invite their critique, you're making a much smaller ask of them.
+First, directly asking for an actionable statement of strategy puts your stakeholder on the spot. Coming up with a clear statement of strategy is *hard*. If they haven't already prepared such a statement, their brain will swarm to their defense by coming up with reasons to deflect your request. You can keep your stakeholder and their brain from freaking out by offering something coherent and inviting their critique.[fn:: You might be thinking: "But why would they, or their brain, feel put on the spot? Surely leadership has developed a clear, actionable statement of strategy, and that's easily at hand, ready to share? They *must* have done the hard work to identify a single core challenge to focus on, instead of spinning up endless conflicting activities and then moralizing about how the teams are failing to deliver, right?" Um... sure. I'm sure that's the case. At your company. But, y'know, just in case, maybe offer them something to disagree with, instead of proceeding with the assumption that the difficult decisions are being made at every level.]
 
 # Second, many people find it pleasant to express their thoughts by telling you what's wrong with yours.
 
-Second, many people feel "safer" expressing their thoughts by telling you what's wrong with yours. I mean, maybe this isn't the most admirable characteristic of humans? But it certainly seems a consistent thing, in my experience, at least. So take advantage of it by offering them a chance to correct you.
+Second, many people feel safer expressing their thoughts by telling you what's wrong with yours. Putting their own ideas out there presents as vulnerable or risky, whereas criticizing the ideas of others presents as pleasant and empowering. This is maybe not the most admirable characteristic of humans? But it certainly seems a consistent thing, in my experience, at least. So take advantage of it by offering them a chance to correct you.
 
 # Second, it's easier for people to express their thoughts by telling you what's wrong with yours, than it is to lay their own out.
 
 # Second, many humans like figuring out what they think by telling other people how they're wrong
 
-Finally, much of the time, humans are not actually clear on *what* they think until they hear a concise and clear framing that *sounds wrong* to them.
+Our final reason for offering usefully wrong guesses is that much of the time, humans simply don't know *what* they believe until they hear something that sounds wrong to them.
 
-When they hear you say, /"My understanding is that our top priority is growth, which means acquiring new customers, is that right?"/, something bothers them. They hold up a hand, think for a moment, and then slowly reply:
+When your PM hears you say, /"My understanding is that our top priority is growth, which means acquiring new customers, is that right?"/, something bothers them. They hold up a hand, think for a moment, and then reply:
 
 /"Wait, that's not it. A good bit of revenue growth has to come from upselling *existing* customers, not just acquiring new ones. That's why we need more compelling features in our Pro tier."/
 
 You say thank you, and then update your coherent statement and test it again.
 
-In fact it's often a good idea to offer a deliberately *too-opinionated* statement of strategy. Offer something which is partly right, but goes a bit "too far". Your stakeholder will sit up, take notice and then work to clarify. That's vastly more useful than getting them to agree to something vague and toothless.
 
-If you go down this road, remember that, you're not trying to be *immediately right*. Being interestingly wrong can often serve you very well. Then, once you've drawn your stakeholder out, you'll echo back and summarize your new understanding. The pleasant sounds of their own ideas will then make them feel warmly towards you (and thus, they'll quickly forget you ever "got it wrong" to start).
+# First, spend time coming up with the opinionated guess. Talk to people you work with, review whatever leadership has shared, gather information from wherever you can. Then, distill it all into a single, coherent statement of strategy. Test that out with someone you trust, ask for their feedback, and make it sharper.
 
-This is, in fact, a broadly useful tactic for drawing people out. If you're feeling like you're bumping up against a conversational wall with somone, try making a usefully too-opinionated guess about what might be going on, and then invite them to tell you how you're wrong.
+# Although you're not aiming to be completely right, you want to be in the right territory. If you're just wildly far off, your stakeholder can feel like they have to do "all the work".
 
-** How To Practice Developing A Statement of Strategy
+# Second, your statement of strategy *must* be pointed enough that it's possible to disagree with it. The specificity of what you offer is what will prompt your stakeholder to clarify. So push yourself be *very* opinionated.
+
+Sidebar: Making A Usefully Wrong Guess is a fun tactic for drawing people out in an incredibly wide variety of situations. If you're bumping up against a conversational wall with somone, try making a too-opinionated guess about what might be going on, and then cheerfuly invite them to tell you how you're wrong.
+
+** How To Practice Developing An Actionable Statement of Strategy
 *** Draft A Statement For Your Business
 
 Find a trusted peer or friend, and spend some time talking out the strategy of your business. Build as clear a picture as you can of:
