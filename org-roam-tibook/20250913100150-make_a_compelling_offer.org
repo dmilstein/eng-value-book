@@ -14,21 +14,19 @@ We've just taken an exhaustive, multi-chapter deep dive into how to mine for bot
 
 Having hit this moment, you might well be asking, "Um, so... what?"
 
-"I came to this book," you continue, "because I need my stakeholder to *change their behavior*."
+When I look at your blankly, you say, "Look, Dan, I came to this book because I need my stakeholder to *change their behavior*." You warm up, maybe start pacing around the room. "What am I supposed to do with this information you seem so excited about my having collected? What is the use of understanding 'strategic outcomes' and 'emotional landscapes'? I need my CEO to stop cutting my team's legs out from underneath them. Yes, I have learned that my CEO is living in low-grade terror of the next board meeting, that's... nice I guess? But you'll forgive me for saying that I don't quite see how to get from point A to point B." And then you fold your rhetorical arms.
 
-# you might further announce.
-
-"What am I supposed to do with this information you seem so excited about my having collected? What is the use of understanding strategic outcomes and emotional landscapes? I need my CEO to stop cutting my team's legs out from underneath them. Yes, now I know that  my CEO is living in terror of their next board meeting, that's... nice I guess? But you'll forgive me for saying that I don't quite see how to get from point A to point B." And then you fold your rhetorical arms.
-
-Indeed!
+# Indeed!
 
 # Yes, yes, yes!
 
+These are fair points you are making.
+
 I have promised you a step-by-step game plan for gradually drawing your Important Person into an ongoing process of collaborative problem-solving. I have insisted on steadily making small improvements, building trust and rapport as you go. I have claimed that each increment will involve the following steps:
 
- 1. Identify a long-term *strategic outcome* that your stakeholder cares intensely about
+ 1. Develop an actionable *statement of strategy*
 
- 2. Develop an *empathetic understanding* of your stakeholder's emotional experience
+ 2. Build an *empathetic understanding* of your stakeholder's concerns & emotions
 
  3. Make a *compelling offer* to incrementally adjust how you work together
 
@@ -38,7 +36,57 @@ We've now arrived at the part where you actually propose a change to you stakeho
 
 I promise that the information you have acquired will be incredibly useful for doing so.
 
-Let's see how.
+To see how, let's return to out story of Alistair and Max and the rewrite of ProClaims that Max can't seem to let the team do on their own.
+
+** Alistair Has Been Invited To Make A Case
+
+# Alistair Is Sooooo Close
+
+At AccuraClaim, Alistair had been struggling with Max's micromanaging, decision-bottleneck behavior.
+
+Through some diligent probing, Alistair has manged to extract a coherent strategic outcome: in order to keep growing, AccuraClaim needs to capture more revenue per customer. They've set a goal of increasing their average price to $1.50 per insurance claim. Alistair has been able to work backwards from that goal to his team's day-to-day efforts to fundamentally restructure the core ProClaims product.
+
+Further, by using tactical empathy, Alistair has identified two key emotions for Max:
+
+ - Max is *afraid* of being shamed by the CEO
+
+   Specifically, over releasing any customer-impacting issues to production
+
+ - Max is *frustrated* that the recently-hired PM's don't fully understand ProClaims
+
+   Which is making it feel impossible to delegate, well, anything. Max also has a weakness for heroically martyring himself, so "I can't possibly delegate!" is a well-worn path in his psyche.
+
+   But, in this particular case, Alistair actually agrees that the lack of nuanced understanding on the part of the PM's makes it legitimately difficult for Max to step back.
+
+Finally, through learning these things, Alistair has been able to build some rapport with Max.
+
+At the end of their last conversation, after connecting around the fears and the frustrations, Max threw the ball to Alistair, in a way that Alistair was kind of stunned by. Max looked openly at Alistair and said:
+
+"I feel like I've barely been able to keep my head above water. Do you have any ideas?"
+
+They agreed to meet the next day.
+
+** Alistair's Mentor Forecasts Disaster
+
+It's the evening. Alistair and his husband, Carl, have finished dinner and cleaned up. Carl is taking their dog for a walk around the neighborhood.
+
+Alistair sits down at his desk, crammed into a corner of their bedroom. After thinking for a moment, he texts Naiah, his husband's social worker friend. A few minutes later, they're talking.
+
+"That's great!" says Naiah, after Alistair lays out his progress so far. "Nice work."
+
+"Yeah, but now I have this meeting tomorrow, and I'm feeling totally uncertain about how to approach it. Which Max am I going to get? The one who seems to genuinely want to work with me? Or the one who just shuts down every idea that isn't his? I keep trying to imagine how to lay out my ideas for improving how we work together, but I just can't imagine what happens, like, next."
+
+"Ah," he hears Naiah say. "That's your problem." In his mind, he can see her raising a finger to stop him. "You totally can't start by telling him how to fix things."
+
+"But, Naiah, that's literally the point of the meeting. I don't want to waste his time."
+
+"Are you going to trust me, here? Have I been wrong so far?"
+
+# Alistair, baby,
+
+Alistair taps his pen on the pad in front of him. "Okay, fine. What *should* I do, then?"
+
+And then, as Naiah lays out a plan, Alistair scribbles notes furiously.
 
 ** The Elements Of A Compelling Offer
 
@@ -78,56 +126,6 @@ We'll develop a compelling offer for your stakeholder by following that same arc
 
   4. Propose an adjustment
 
-** Alistair Has Been Invited To Make A Case
-
-# Alistair Is Sooooo Close
-
-At AccuraClaim, Alistair had been struggling with Max's micromanaging, decision-bottleneck behavior.
-
-Through some diligent probing, Alistair has manged to extract a coherent strategic outcome: in order to keep growing, AccuraClaim needs to capture more revenue per customer. They've set a goal of increasing their average price to $1.50 per insurance claim. Alistair has been able to work backwards from that goal to his team's day-to-day efforts to fundamentally restructure the core ProClaims product.
-
-Further, by using tactical empathy, Alistair has identified two key emotions for Max:
-
- - Max is *afraid* of being shamed by the CEO
-
-   Specifically, over releasing any customer-impacting issues to production
-
- - Max is *frustrated* that the recently-hired PM's don't fully understand ProClaims
-
-   Which is making it feel impossible to delegate, well, anything. Max also has a weakness for heroically martyring himself, so "I can't possibly delegate!" is a well-worn path in his psyche.
-
-   But, in this particular case, Alistair actually agrees that the lack of nuanced understanding on the part of the PM's makes it legitimately difficult for Max to step back.
-
-Finally, through learning these things, Alistair has been able to build some rapport with Max.
-
-At the end of their last conversation, after connecting around the fears and the frustrations, Max threw the ball to Alistair, in a way that Alistair was kind of stunned by. Max looked openly at Alistair and said:
-
-"I feel like I've barely been able to keep my head above water. Do you have any ideas?"
-
-They agreed to meet the next day.
-
-** Alistair's Mentor Steps In Again
-
-It's the evening. Alistair and his husband, Carl, have finished dinner and cleaned up. Carl is taking their dog for a walk around the neighborhood.
-
-Alistair sits down at his desk, crammed into a corner of their bedroom. After thinking for a moment, he texts Naiah, his husband's social worker friend. A few minutes later, they're talking.
-
-"That's great!" says Naiah, after Alistair lays out his progress so far. "Nice work."
-
-"Yeah, but now I have this meeting tomorrow, and I'm feeling totally uncertain about how to approach it. Which Max am I going to get? The one who seems to genuinely want to work with me? Or the one who just shuts down every idea that isn't his? I keep trying to imagine how to lay out my ideas for improving how we work together, but I just can't imagine what happens, like, next."
-
-"Ah," he hears Naiah say. "That's your problem." In his mind, he can see her raising a finger to stop him. "You totally can't start by telling him how to fix things."
-
-"But, Naiah, that's literally the point of the meeting. I don't want to waste his time."
-
-"Are you going to trust me, here? Have I been wrong so far?"
-
-# Alistair, baby,
-
-Alistair taps his pen on the pad in front of him. "Okay, fine. What *should* I do, then?"
-
-And then, as Naiah lays out a plan, Alistair scribbles notes furiously.
-
 ** Failure Mode 1: Make a Too Big Proposal
 
 Let's see how Alistair might go into that meeting.
@@ -148,7 +146,7 @@ In Alistair's case, what he comes up with is:
 
 But, even once armed with that specific adjustment, how do you offer it to your stakeholder.
 
-** Failure Mode 2: Skip Past Strategy & Feelings
+** Failure Mode 2: Take Strategy For Granted
 
 Let's imagine what would happen at the meeting, if Alistair just dives right in.
 
@@ -166,10 +164,11 @@ You can never validate their feelings too much.
 
 # But then he goes straight to the plan
 
-** Failure Mode 3: Don't Share Your Own Concerns
+** Failure Mode 3: Skip Past Their Concerns
+** Failure Mode 4: Don't Share Your Own Concerns
 You have to put what you're solving for on the table.
 
-** Failure Mode 4: Forget To Invite Collaboration
+** Failure Mode 5: Forget To Invite Collaboration
 
 ** Success = Smooth Build
 
@@ -2071,18 +2070,8 @@ CLOSED: [2025-10-23 Thu 11:03]
 ** DONE Take a pass on making all stories more vivid/playful
 CLOSED: [2025-10-23 Thu 11:03]
 E.g. Mark Blevins-style.
-** TODO Maybe: open with How Can Stakeholders Resist Change?
-I kind of like the energy of that. And the main one is all lecture-y.
-** TODO In Substack intro, add "Of course, now it's tricky"
-Like, define the problem that makes it hard. Maybe that happens in the chapter heading?
-** TODO In S intro, add something about increments
-** TODO In Mark Blevins story, make him push back, once
-** TODO Count # of prod vs eng stories
-** TODO Clean up Kahneman ref
-** TODO For Growing Danger, make stakeholder the friend/mentor
-** TODO Add: invoke a better world?
-Like, it's not just at risk, it's possible.
-** TODO Cluster the tactics?
+** DONE Cluster the tactics?
+CLOSED: [2025-12-11 Thu 07:57]
 E.g.
 
  - For You
@@ -2098,6 +2087,22 @@ E.g.
    - Offer Future Decision
    - Put Yourself On The Line
 
+** DONE Maybe: open with How Can Stakeholders Resist Change?
+CLOSED: [2025-12-11 Thu 07:58]
+I kind of like the energy of that. And the main one is all lecture-y.
+** TODO Try reordering the story and the approach
+** TODO Playful options for showing failure modes
+
+ - Many worlds hypothesis / sliding doors
+
+ - Do it all from Max's perspective
+
+** TODO In Mark Blevins story, make him push back, once
+** TODO Count # of prod vs eng stories
+** TODO Clean up Kahneman ref
+** TODO For Growing Danger, make stakeholder the friend/mentor
+** TODO Add: invoke a better world?
+Like, it's not just at risk, it's possible.
 ** TODO Possibly: move Work Backwards into Define Strat Intent
 * From Substack
 ** Design an Increment of Change
