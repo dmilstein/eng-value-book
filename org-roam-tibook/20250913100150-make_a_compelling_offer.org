@@ -89,19 +89,21 @@ Alistair sits down at his desk, crammed into a corner of their bedroom. He spend
 
 "Um, what...?" says Alistair, brilliantly.
 
-He hears Naiah sigh in exasperation. "You're telling me you're just going to jump right in, you're going to tell Max all your great ideas?"
+Naiah sighs. "You're telling me you're just going to jump right in, you're going to tell this Max all your great ideas?"
 
 "Well, I don't know if they're /great/, but yes?"
 
-"Yeah, don't do that." Again, in his mind's eye, he can see her shaking her head.
+"Yeah, don't do that." He's certain she's shaking her head.
 
-"Don't do what?"
+"Don't do... what?" he says, again, brilliantly.
 
-"Tell him how you're going to fix things. Show how smart you are. That's the /dumb/ way to start. And you're not dumb, are you, Alistair?"
+"Tell him how you're going to fix things. Show how smart you are. That's the /dumb/ way to start. And you're not dumb, are you, honey?"
 
-Alistair stares at the Merce Cunningham poster in the corner of his and Carl's bedroom. "But, Naiah, that's kind of literally the point of the meeting? And Max gets super grumpy when people waste his time. I don't want to waste his time. He's grumpy enough as it is."
+Alistair stares at the Merce Cunningham poster in the corner of his and Carl's bedroom. "But, Naiah, that's literally the point of the meeting? And Max gets super grumpy when people waste his time. I don't want to waste his time."
 
-"Look, are you going to trust me, baby doll?" Naiah is somehow able to get away with calling everyone baby doll or honey. Alistair has no idea how she does it.
+# He's grumpy enough as it is."
+
+"Look, are you going to trust me or not, baby doll?" Naiah is somehow able to get away with calling everyone baby doll or honey. Alistair has no idea how she does it.
 
 # Alistair, baby,
 
@@ -111,11 +113,17 @@ And then, as Naiah lays out a plan, Alistair scribbles notes furiously.
 
 ** The Elements Of A Compelling Offer
 
-You'll develop a compelling offer for your stakeholder by going through the following five steps, in careful order:
+Naiah shares with Alistair a way to methodically structure the actual discussion he'll have with Max.
 
- - Invoke a deeply meaningful shared goal
+# such that he draws Max in collaboration and makes it possible to get to a "yes."
 
- - Demonstrate your understanding of the challenges your stakeholder is facing
+We call this approach "Making A Compelling Offer," and it consists of the following five steps, in order:
+
+# You'll develop a compelling offer for your stakeholder by going through the following five steps, in careful order:
+
+ - Invoke a shared goal that you both care deeply about
+
+ - Share your understanding of the challenges your stakeholder is facing
 
  - Directly share the key challenges you're facing
 
@@ -123,7 +131,13 @@ You'll develop a compelling offer for your stakeholder by going through the foll
 
  - Invite collaboration
 
-To see why each of those steps is so important, we'll imagine an alternate universe where Alistair gets terrible advice! Where he doesn't observe various steps in that list. We'll see how things would play out with him and Max. After we've one through all of those, we'll see how he can successfully get a commitment to try something new out, for a limited period of time.
+To see why each of those steps is so important, we'll imagine an alternate universe where Alistair gets terrible advice! A sort of Groundhog Day of bad ways to approach your stakeholder.
+
+# I want to exaggerate just a bit. Getting the details of this little dance right really really pays off. But it can feel sort of oddly specific.
+
+# Where he doesn't observe various steps in that list. We'll see how things would play out with him and Max.
+
+After we've gone through all of those, we'll see how he can successfully get a commitment to try something new out, for a limited period of time.
 
 # When you actually sit down with your stakeholder to ask them to change their behavior, you'll methodically go through the following four steps:
 
@@ -135,13 +149,52 @@ To see why each of those steps is so important, we'll imagine an alternate unive
 
   # 4. Propose an adjustment
 
-** Failure Mode 1: Skip Past Strategy
+** Failure Mode 1: Jump Right Into Your Plan
 
-"Eh, don't worry about the long-term goals," says Marvin the Malicious Mentor. You don't have much time! He already knows all of that. Just get down to it.
+"Eh, don't worry about the set up," says Marvin the Malicious Mentor. You don't have much time! He already knows all of that. Just get right into the details."
+
+"Okay, then," says Alistair, firmly. "I'll be *super efficient*."
+
+"Exactly," says Marvin. "That works literally every time."[fn:: In my mind, Marvin now toasts him with a martini glass filled with a glowing green cocktail. Is it possible I'm drawing on Marvin the Martian from Bugs Bunny? How would he mentor people? With his little helmet covering his eyes? Hmmmm.]
+
+The next day, Max takes the subway to the downtown office space that ProClaims maintains (it is largely empty today, as it is on most days).
+
+Max, on the other hand, has forgotten what this meeting is even for. Since they had their brief moment of connection yesterday, Max has:
+
+ - Received seventeen urgent Slack messages from people
+
+ - Lost eleven of those messages into the disappearing memory machine of Slack multi-person chats
+
+ - Guiltily skimmed through one hundred and seven email subject lines in his Inbox
+
+   # , four times
+
+   # , and then replied to none of them
+
+ - Cancelled three one-on-one's with his increasingly-desperate direct reports
+
+ - Spent forty-seven bitterly frustrated minutes composing a reply to his CEO's deceptively casual request to know if "the ProClaims work was back on track, and if not, when the devs could commit to achieving full feature parity," every word of which request seemed to require a novella-length explanation to unpack (what does the CEO think "on track" means? Does the CEO perceive a failure on the part of the devs to "commit"? When did "full feature parity" metastasize, tumor-like, in the CEO's mind, since it's never been something Max has promised, even once? Max's fingers shake as he types.)
 
 Let's imagine what would happen at the meeting, if Alistair just dives right in.
 
 # The meeting starts, Max seems distracted and tense, Alistair pushes, they get into a fight, nothing happens.
+
+They're sitting together in a harshly white little conference room. Max's laptop is open in front of him. He claims that he likes to take notes, but Alistair is certain he's also monitoring Slack at all time.
+
+Now.
+
+Alistair been continually thinking about this meeting for six of the last ten waking hours of  his life. He doesn't realize that Max has forgotten its purpose. Furthermore, Max has adapted to his current level of massive overload by developing a habit of showing up at meetings, and just kind of bluffing his way through them, until he can figure out what they're for.[fn:: Max usually signals that he has come on-line and now understands the purpose of the meeting by informing someone that they've made a bad decision and should have looped him in earlier.] In other words, he certainly does not announce "I have no idea why I'm here". Even though that's exactly the case.
+
+"Okay," says Alistair, "here's the plan: Before each of our next two sprint planning sessions, you, me, and Asha will spend an hour deep diving on
+
+"Now," says Alistair, "we both know that our new PM's don't fully understand all the existing ProClaims workflows, right? And that's causing a lot of problems for you, right?"
+
+Max nods. Maybe this is a meeting about training the PM's? That rings a vague bell. But he doesn't have much time to spend on that. He checks to see if there's a reply from this CEO to his epic Slack from this morning. Not yet.
+
+"For my part," continues Alistair, "I want to find a way for the teams to move faster. Right now, they're waiting on decisions, often from you, and I think it's hurting our velocity."
+
+
+
 
 You can never repeat the context too much.
 
