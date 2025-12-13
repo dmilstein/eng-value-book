@@ -12,31 +12,30 @@
 
 # So, where are we?
 
-We've taken a multi-chapter deep dive into how to mine for information and feelings from other humans. Using those skills, you're now able to make an actionable statement of strategy, linking a long-term outcomes that your stakeholder cares intensely about to the day-to-day work of your team. With any luck, you've also been able to develop an empathetic understanding of the underlying emotions which are driving their (possibly extremely irritating!) day-to-day behaviors.[fn:: And you've totally practiced those skills and not just raced ahead to the next chapter, right? Right? If I'm going to be honest down here in the footnotes, I personally kind of /always/ race ahead to the next chapter, so maybe I can't judge? But do make the time to practice at some point! It will pay off. And, I predict, be somewhat surprisingly fun. Or at least somewhat surprising, in a fun-adjacent manner.]
+We've taken a multi-chapter deep dive into how to mine for information and feelings from other humans. Using those skills, you're now able to make an actionable statement of strategy, linking a long-term outcome that your stakeholder cares intensely about to the day-to-day work of your team. With any luck, you've also been able to develop an empathetic understanding of the underlying emotions which are driving their (possibly extremely irritating!) day-to-day behaviors.[fn:: And you've totally practiced those skills and not just raced ahead to the next chapter, right? Right? If I'm going to be honest down here in the footnotes, I personally kind of /always/ race ahead to the next chapter, so maybe I can't judge? But do make the time to practice at some point! It will pay off. And, I predict, be somewhat surprisingly fun. Or at least somewhat surprising, in a fun-adjacent manner.]
 
-Having hit this moment, you might well be asking, "Um, Dan, so... what?"
+Having arrived at this moment, you might well be asking, "Um, Dan, so... what?"
 
 If I were to look at you blankly, you might further say, "Look, I came to this book because I need my stakeholder to *change their behavior*."
 
-You stand up and start pacing around the room. "What am I supposed to do with this information you seem so excited about my having collected? What is the use of understanding 'strategic outcomes' and 'emotional landscapes'? I need my CEO to stop cutting my team's legs out from underneath them. Yes, I have learned that my CEO is living in low-grade terror of his next board meeting, that's... nice, I guess? But you'll forgive me for saying that I don't quite see how to get from point A to point B." And then you fold your rhetorical arms.
+You stand up and start pacing around the room. "What am I supposed to do with this information you seem so excited about my having collected? What is the use of understanding 'strategic outcomes' and 'emotional landscapes'? I need my CEO to stop being such a jerk to my team. Yes, I have learned that my CEO is living in low-grade terror of his next board meeting, that's... nice, I guess? But you'll forgive me for saying that I don't quite see how to get from point A to point B." And then you fold your rhetorical arms.
 
+# cutting my team's legs out from underneath them.
 # Indeed!
 
 # Yes, yes, yes!
 
 These are fair points this theoretical version of  you is making.
 
-I have promised you a step-by-step game plan for gradually drawing your Important Person into an ongoing process of collaborative problem-solving. I have insisted on steadily making small improvements, building trust and rapport as you go. I have claimed that each incremental improvement will involve the following steps:
+I have promised you a step-by-step game plan for gradually drawing your Important Person into an ongoing process of collaborative problem-solving. I have insisted on steadily making small improvements, building trust and rapport as you go. As you may or may not recall, I have claimed that each such small improvement will involve the following steps:
 
  1. Develop an actionable *statement of strategy*
 
  2. Build an *empathetic understanding* of your stakeholder's concerns
 
- 3. Use a *compelling offer* to obtain a short-term commitment
+ 3. Propose an *incremental adjustment*
 
- 4. *Ensure a win* that creates good feels
-
- 5. Lather, rinse and *repeat*
+ 4. *Ensure a win*, build momentum, GOTO 1
 
 We've now arrived at step 3---where you actually propose a change to you stakeholder, and do so in a manner that makes it easy for them to say "yes".
 
@@ -47,29 +46,25 @@ To see how, let's return to out story of Alistair and Max and the rewrite of Pro
 ** Alistair Has Been Invited To Make A Case
 
 # Alistair Is Sooooo Close
-Let's review.
+Let us review.
 
 # At AccuraClaim, Alistair had been struggling with Max's micromanaging, decision-bottleneck behavior.
 
-Through some diligent probing, Alistair has manged to extract a coherent strategic outcome: in order to keep growing, AccuraClaim needs to capture more revenue per customer. They've set a goal of increasing their average price to $1.50 per insurance claim processed. Alistair has been able to work backwards from that goal to his team's day-to-day efforts to fundamentally restructure the core ProClaims product.
+Through some diligent probing, Alistair has manged to extract a coherent strategic outcome: in order to keep growing, AccuraClaim needs to capture more revenue per customer. Their CEO has promised the board to increase their average price to $1.50 per insurance claim processed. Alistair has been able to work backwards from that goal to his team's day-to-day efforts to restructure the core ProClaims product.
 
-Furthermore, Alistair has identified two key emotions:
+Furthermore, Alistair has managed to build a genuinely empathetic understanding of the situation that Max finds himself in: the recently-hired PM's don't fully understand the existing ProClaims product, which is making it very, very had for Max to delegate decisions.
 
- - Max is *afraid* of being shamed by the CEO
+Alistair can genuinely say: "If I were in that situation, I'd feel frustrated, too."
 
-   Because the CEO has shamed him in the past, when a customer-impacting bug made its way into production
+# Max is (naturally! because he is human!) feeling some frustration about this.
 
- - Max is *frustrated* that the recently-hired PM's don't fully understand the existing ProClaims product
+Alistair /also/ suspects that Max has something of a weakness for heroically martyring himself. So, "I can't possibly delegate!" may be a tantalizing [well-worn] path in Max's psyche. But, somewhat to Alistair's surprise, he has come to believe that Max truly *does* want to delegate more, even if his current habits are badly tripping him up. Or, at least, some /part/ of Max truly wants to delegate more (we are none of us unitary in our desires).
 
-   And Alistair agrees that the lack of nuanced understanding on the part of the PM's makes it legitimately difficult for Max to step back.
+# fully consistent in our desires
 
-   (Alistair also suspects that Max has a weakness for heroically martyring himself, so "I can't possibly delegate!" may be a well-worn path in his psyche)
+Finally, through of learning all of these things, Alistair has been able to build rapport with Max.
 
-# But, in this particular case, Alistair actually agrees that the lack of nuanced understanding on the part of the PM's makes it legitimately difficult for Max to step back.
-
-Finally, through the process of learning these things, Alistair has been able to build some rapport with Max.
-
-In fact, at the end of their last conversation, Max stunned Alistair by saying:
+In fact, at the end of their last conversation, after connecting about the challenges due to the recently-hired PMs's, Max stunned Alistair by saying:
 
 "I feel like I've barely been able to keep my head above water. /Do you have any ideas/?" (emphasis added to indicate degree of being stunned)
 
@@ -77,9 +72,9 @@ They agreed to meet the next day.
 
 ** Alistair's Mentor Steps Back In
 
-It's the evening of that surprisingly successful conversation. Alistair and his husband, Carl, have finished dinner and cleaned up. Carl is taking their dog for a walk around the neighborhood.
+It's the evening of that surprisingly successful conversation. Alistair and his husband, Carl, have finished dinner and have cleaned up. Carl is taking their dog for a walk around the neighborhood.
 
-Alistair sits down at his desk, crammed into a corner of their bedroom. He spends a few minutes trying to collect his thoughts about how best to approach his meeting with Max. He  writes out a set of bullet points. Then he deletes all those bullet points. Then he writes out a new set of bullet points. Then he deletes all of those. He stares blankly at his laptop screen. Finally, he gives up and texts Naiah, his husband's social worker friend. Luckily, she's free to talk.
+Alistair sits down at his desk, crammed into a corner of their bedroom, and thinks about how best to approach Max tomorrow. He writes out a set of bullet points. Then he deletes all those bullet points. Then he writes out a new set of bullet points. Then he deletes all of those. He stares blankly at his laptop screen. Finally, he gives up and texts Naiah, his husband's social worker friend. Luckily, she's free for a phone call.
 
 "That's great!" says Naiah, after Alistair lays out his progress so far. "Nice work."
 
@@ -91,13 +86,13 @@ Alistair sits down at his desk, crammed into a corner of their bedroom. He spend
 
 Naiah sighs. "You're telling me you're just going to jump right in, you're going to tell this Max all your great ideas?"
 
-"Well, I don't know if they're /great/, but yes?"
+"I don't know if they're /great/, but yes?"
 
 "Yeah, don't do that." He's certain she's shaking her head.
 
 "Don't do... what?" he says, again, brilliantly.
 
-"Tell him how you're going to fix things. Show how smart you are. That's the /dumb/ way to start. And you're not dumb, are you, honey?"
+"Tell him how you're going to fix things. Show how smart you are. That's the /dumb/ way to start. And you're not dumb, are you?"
 
 Alistair stares at the Merce Cunningham poster in the corner of his and Carl's bedroom. "But, Naiah, that's literally the point of the meeting? And Max gets super grumpy when people waste his time. I don't want to waste his time."
 
@@ -133,35 +128,27 @@ We call this approach "Making A Compelling Offer," and it consists of the follow
 
 To see why each of those steps is so important, we'll imagine an alternate universe where Alistair gets terrible advice! A sort of Groundhog Day of bad ways to approach your stakeholder.
 
-# I want to exaggerate just a bit. Getting the details of this little dance right really really pays off. But it can feel sort of oddly specific.
+But, first, let's see what has happened to *Max* since the Surprisingly Successful Conversation.
 
-# Where he doesn't observe various steps in that list. We'll see how things would play out with him and Max.
+** Failure Mode 1: Jump Right Into Your Brilliant Plan
 
-After we've gone through all of those, we'll see how he can successfully get a commitment to try something new out, for a limited period of time.
-
-# When you actually sit down with your stakeholder to ask them to change their behavior, you'll methodically go through the following four steps:
-
-  # 1. Name the strategic outcome
-
-  # 2. Share your understanding of their concerns
-
-  # 3. Share your own concerns
-
-  # 4. Propose an adjustment
-
-** Failure Mode 1: Jump Right Into Your Plan
-
-"Eh, don't worry about the set up," says Marvin the Malicious Mentor. You don't have much time! He already knows all of that. Just get right into the details."
+"Eh, don't worry about the set up," says Marvin the Malicious Mentor. "You don't have much time! He already knows all of that. Just get right into the details."
 
 "Okay, then," says Alistair, firmly. "I'll be *super efficient*."
 
-"Exactly," says Marvin. "That works literally every time."[fn:: In my mind, Marvin now toasts him with a martini glass filled with a glowing green cocktail. Is it possible I'm drawing on Marvin the Martian from Bugs Bunny? How would he mentor people? With his little helmet covering his eyes? Hmmmm.]
+# "Eh, don't worry about the set up," says Marvin the Malicious Mentor. "You don't have much time! Just get right into your awesome ideas. They're such great ideas, too."
 
-The next day, Max takes the subway to the downtown office space that ProClaims maintains (it is largely empty today, as it is on most days).
+# "Gosh, thanks," says Alistair. "Okay, then, I'll be *super efficient*."
 
-Max, on the other hand, has forgotten what this meeting is even for. Since they had their brief moment of connection yesterday, Max has:
+"Exactly," says Marvin. "That works literally every time."[fn:: I like to imagine Marvin now toasting him with a martini glass filled with a glowing green liquid. Is it possible I'm drawing on Marvin the Martian from Bugs Bunny? How would he mentor people? With his little helmet covering his eyes? Hmmmm.]
 
- - Received seventeen urgent Slack messages from people
+He and Max arranged to meet in person, so, the next day, Alistair takes the subway to the AccuraClaim's downtown office space (which is largely empty, as it is on most days).
+
+Meanwhile, Max has completely forgotten what the meeting is even for.
+
+Since they had their brief moment of connection yesterday, Max has:
+
+ - Received seventeen urgent, time-sensitive Slack messages
 
  - Lost eleven of those messages into the disappearing memory machine of Slack multi-person chats
 
@@ -171,9 +158,13 @@ Max, on the other hand, has forgotten what this meeting is even for. Since they 
 
    # , and then replied to none of them
 
- - Cancelled three one-on-one's with his increasingly-desperate direct reports
+ - Cancelled three one-on-one meetings with his direct reports
 
- - Spent forty-seven bitterly frustrated minutes composing a reply to his CEO's deceptively casual request to know if "the ProClaims work was back on track, and if not, when the devs could commit to achieving full feature parity," every word of which request seemed to require a novella-length explanation to unpack (what does the CEO think "on track" means? Does the CEO perceive a failure on the part of the devs to "commit"? When did "full feature parity" metastasize, tumor-like, in the CEO's mind, since it's never been something Max has promised, even once? Max's fingers shake as he types.)
+   # increasingly-desperate
+
+ - Spent forty-seven bitterly frustrated minutes composing a reply to his CEO's deceptively casual request to know if "the ProClaims 2.0 project was back on track, and if not, when the devs could commit to achieving full feature parity," every word of which request seemed to require a novella-length explanation to unpack (what does the CEO think "on track" means? Does the CEO perceive a failure on the part of the devs to "commit"? When did "full feature parity" metastasize, tumor-like, in the CEO's mind, since it's never been something Max has promised, even once? Max's fingers shake as he types.)
+
+   # Didn't they agree to not call it a "rewrite"?
 
 Let's imagine what would happen at the meeting, if Alistair just dives right in.
 
@@ -183,37 +174,55 @@ They're sitting together in a harshly white little conference room. Max's laptop
 
 Now.
 
-Alistair been continually thinking about this meeting for six of the last ten waking hours of  his life. He doesn't realize that Max has forgotten its purpose. Furthermore, Max has adapted to his current level of massive overload by developing a habit of showing up at meetings, and just kind of bluffing his way through them, until he can figure out what they're for.[fn:: Max usually signals that he has come on-line and now understands the purpose of the meeting by informing someone that they've made a bad decision and should have looped him in earlier.] In other words, he certainly does not announce "I have no idea why I'm here". Even though that's exactly the case.
+Alistair been continually thinking about this meeting for six of the last ten waking hours of his life. He doesn't realize that Max has forgotten its purpose. Furthermore, Max has adapted to his current level of massive overload by developing a habit of showing up at meetings, and just kind of bluffing his way through them, until he can figure out what they're for.[fn:: Max usually signals that he has come on-line and now understands the purpose of the meeting by informing someone that they've made a bad decision and should have looped him in earlier.]
 
-"Okay," says Alistair, "here's the plan: Before each of our next two sprint planning sessions, you, me, and Asha will spend an hour deep diving on
+"Okay," says Alistair, "here's the plan: Before each of our next two sprint planning sessions, you, me, and Asha will spend an hour deep diving on one of the existing, gnarly ProClaims workflows. Asha is probably the strongest PM, and her team is working on the complex claims review steps. Then, during those sprints, we *won't* do our usual mid-week check-ins with you -- instead, you'll only attend the end-of-sprint demos. You, me and Asha can meet after the demos, to make sure the team is on track."
+
+He sits back, proud of his proposal.
+
+Max is very confused, which is not something he enjoys. Maybe this is a meeting about training the PM's? If so, where does Alistair think Max is going to find this magical extra hour to spend on deep dives. And why on earth is Alistair insisting on kicking Max out of the mid-week checkins? Just last month, a team shipped an obviously stupid UI change to production, thank god Max saw it during a mid-week check-in and demanded an immediate revert.
+
+Alistair is sitting across the table, waiting expectantly. "That's not going to work," announces Max with a frown.[fn:: And, bang, we're on track for Max entering into the meeting by announcing someone is wrong!]
+
+Let us draw the curtain of charity across the rest of this day.[fn:: What, my addiction to footnotes hasn't made it clear I had formative experience of reading David Foster Wallace as a young person? If you're not sure what I'm talking about, run don't walk to read the title essay in A Supposedly Fun Thing I'll Never Do Again. This book (and your tech career) will be waiting for you when you get back! Say hi to Tibor for me!] Having gotten off on so very much the wrong foot, this entire conversation will go just completely down in flames.
+
+Note that Alistair actually proposed a pretty good initial adjustment.
+
+It represents a bounded commitment of time from Max (two sprints), and asks Max to do something which is likely just a bit uncomfortable (stop attending the mid-week checkins). In return, he'll get a new form of control (meeting with Asha and Alistair after each demo). He'll also hopefully get some time to think, and will be investing in Asha leveling up.
+
+But, because Alistair just dove in, Max was defensive and reactive. In particular, because Alistair didn't connect this conversation to a long-term strategic outcome, Max didn't shift gears at all from his default state of day-to-day anxiety-driven tactical execution.
+
+** Failure Mode 2: Don't State Their Concerns
+
+"Oh, I see," says Alistair, "you're saying I should start by linking this actual conversation to his long-term goals. So he'll both understand me as trying to help him achieve those goals, *and* be ready to look at and shift some day-to-day behaviors as a result?"
+
+"Exactly!" says Louisa The Loosely Correct Mentor. She is knitting away at an endless crochet project as they talk.[fn:: Look, I don't know why my brain comes up with these things.]
+
+"And... then what do I do?" asks Alistair.
+
+"Then you just go straight into your plan. With all its lovely details, dear."[fn:: His bad mentors are sounding more and more like sycophantic LLMs?]
+
+"Okay, then," says Alistair. He's excited to share his plan, and he genuinely believes they need to change *something* if they're going to eventually increase what they charge per claim.
+
+# XXX Start here, maybe record scratch or Wayne's World, and return to the moment when they're looking at each other in the little conference room.
+
+# See if I can steal from one of my *two* previous breakthroughs.
+
+Yes, the PM's need to level up, but, for now, Max is just going to have to stay in the loop. He thought Alistair understood that.
+
+That rings a vague bell. But he doesn't have much time to spend on that. He checks to see if there's a reply from this CEO to his epic Slack from this morning. Not yet.
 
 "Now," says Alistair, "we both know that our new PM's don't fully understand all the existing ProClaims workflows, right? And that's causing a lot of problems for you, right?"
 
-Max nods. Maybe this is a meeting about training the PM's? That rings a vague bell. But he doesn't have much time to spend on that. He checks to see if there's a reply from this CEO to his epic Slack from this morning. Not yet.
-
 "For my part," continues Alistair, "I want to find a way for the teams to move faster. Right now, they're waiting on decisions, often from you, and I think it's hurting our velocity."
 
-
-
-
-You can never repeat the context too much.
-
-# Take 2, Alistair opens with the strategic context.
-
-# But then he goes straight to the plan.
-
-You can never validate their feelings too much.
-
-# Take 3, Alistiar validates the feelings
-
-# But then he goes straight to the plan
-
-** Failure Mode 2: Don't State Their Concerns
 
 ** Failure Mode 3: Don't State Your Own Concerns
 You have to put what you're solving for on the table.
 
 ** Failure Mode 4: Make a Too Big Proposal
+
+# XXX For some later one, Alistair is starting to say "Are you... sure?"
 
 Let's see how Alistair might go into that meeting.
 
@@ -234,6 +243,13 @@ In Alistair's case, what he comes up with is:
 But, even once armed with that specific adjustment, how do you offer it to your stakeholder.
 
 ** Failure Mode 5: Forget To Invite Collaboration
+
+# Unfortunately, Alistair hasn't mapped all of Max's emotions. He's 100% correct about Max's frustration with the PM's, but he doesn't know about Max being chewed out by the CEO. And so, if he doesn't create space to iterate, Max is going to, um, freak out. He will start to imagine this idea, but will immediately panic.
+
+ - Max is *afraid* of being shamed by the CEO
+
+   Because the CEO has shamed him in the past, when a customer-impacting bug made its way into production
+
 
 ** Success = Smooth Build
 
@@ -2180,13 +2196,19 @@ E.g.
 ** DONE Maybe: open with How Can Stakeholders Resist Change?
 CLOSED: [2025-12-11 Thu 07:58]
 I kind of like the energy of that. And the main one is all lecture-y.
-** TODO Try reordering the story and the approach
-** TODO Playful options for showing failure modes
+** DONE Playful options for showing failure modes
+CLOSED: [2025-12-13 Sat 08:14]
 
  - Many worlds hypothesis / sliding doors
 
  - Do it all from Max's perspective
 
+** DONE Try reordering the story and the approach
+CLOSED: [2025-12-13 Sat 08:14]
+** TODO Maybe: save the fear of bugs to the collab stage
+Alistair has to tease that out, and then they come up with the idea of leaning more heavily on feature flags than they have been.
+** TODO Consider focusing on Max's Brain (e.g. as character)
+It freaks out, it protects him. It's kind of System 1. (or is it 2?)
 ** TODO In Mark Blevins story, make him push back, once
 ** TODO Count # of prod vs eng stories
 ** TODO Clean up Kahneman ref
