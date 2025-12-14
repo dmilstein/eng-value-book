@@ -140,11 +140,11 @@ But, first, let's see what has happened to *Max* since the Surprisingly Successf
 
 # "Gosh, thanks," says Alistair. "Okay, then, I'll be *super efficient*."
 
-"Exactly," says Marvin. "That works literally every time."[fn:: I like to imagine Marvin now toasting him with a martini glass filled with a glowing green liquid. Is it possible I'm drawing on Marvin the Martian from Bugs Bunny? How would he mentor people? With his little helmet covering his eyes? Hmmmm.]
+"Exactly," says Marvin. "That works literally every time."[fn:: I like to imagine Marvin now toasting him with a martini glass filled with a glowing green liquid. Is it possible I'm drawing on Marvin the Martian? How would he mentor people? With his little helmet slipping down over his eyes? Hmmmm.]
 
-He and Max arranged to meet in person, so, the next day, Alistair takes the subway to the AccuraClaim's downtown office space (which is largely empty, as it is on most days).
+He and Max arranged to meet in person, so, the next day, Alistair takes the subway to AccuraClaim's downtown office space (which is largely empty, as it is on most days).
 
-Meanwhile, Max has completely forgotten what the meeting is even for.
+Meanwhile... Max has completely forgotten what the meeting is even for.
 
 Since they had their brief moment of connection yesterday, Max has:
 
@@ -176,45 +176,96 @@ Now.
 
 Alistair been continually thinking about this meeting for six of the last ten waking hours of his life. He doesn't realize that Max has forgotten its purpose. Furthermore, Max has adapted to his current level of massive overload by developing a habit of showing up at meetings, and just kind of bluffing his way through them, until he can figure out what they're for.[fn:: Max usually signals that he has come on-line and now understands the purpose of the meeting by informing someone that they've made a bad decision and should have looped him in earlier.]
 
-"Okay," says Alistair, "here's the plan: Before each of our next two sprint planning sessions, you, me, and Asha will spend an hour deep diving on one of the existing, gnarly ProClaims workflows. Asha is probably the strongest PM, and her team is working on the complex claims review steps. Then, during those sprints, we *won't* do our usual mid-week check-ins with you -- instead, you'll only attend the end-of-sprint demos. You, me and Asha can meet after the demos, to make sure the team is on track."
+"Okay," says Alistair, "here's the plan: Before each of our next two sprint planning sessions, you, me, and Asha will spend an hour deep diving on one of the existing, gnarly ProClaims workflows. Asha is probably the strongest PM, and her team is working on the most complex claims review steps. Then, during those sprints, we *won't* do our usual mid-week check-ins with you -- instead, you'll only attend the end-of-sprint demos. You, me and Asha can meet after the demos, to make sure the team is on track."
 
-He sits back, proud of his proposal.
+Alistair sits back, proud of his proposal.
 
-Max is very confused, which is not something he enjoys. Maybe this is a meeting about training the PM's? If so, where does Alistair think Max is going to find this magical extra hour to spend on deep dives. And why on earth is Alistair insisting on kicking Max out of the mid-week checkins? Just last month, a team shipped an obviously stupid UI change to production, thank god Max saw it during a mid-week check-in and demanded an immediate revert.
+Max is very confused. Maybe he's meeting with Alistair to talk about training the PM's? If so, where does Alistair think Max is going to find this magical extra hour to spend on "deep dives". And why on earth is Alistair insisting on forcing Max out of the mid-week checkins? Just last month, a team shipped an obviously stupid UI change to production, thank god Max saw it during a mid-week check-in and demanded an immediate revert. If that had gotten through to customers, there would have been hell to pay.
 
-Alistair is sitting across the table, waiting expectantly. "That's not going to work," announces Max with a frown.[fn:: And, bang, we're on track for Max entering into the meeting by announcing someone is wrong!]
+# , which is not something he enjoys.
 
-Let us draw the curtain of charity across the rest of this day.[fn:: What, my addiction to footnotes hasn't made it clear I had formative experience of reading David Foster Wallace as a young person? If you're not sure what I'm talking about, run don't walk to read the title essay in A Supposedly Fun Thing I'll Never Do Again. This book (and your tech career) will be waiting for you when you get back! Say hi to Tibor for me!] Having gotten off on so very much the wrong foot, this entire conversation will go just completely down in flames.
+Max realizes that Alistair is sitting across the table, waiting expectantly. "That's not going to work," announces Max, frowning.[fn:: And, bang, we're on track for Max entering into the meeting by announcing someone is wrong!]
 
-Note that Alistair actually proposed a pretty good initial adjustment.
+Let us... draw the curtain of charity across the rest of this day.[fn:: What, my addiction to footnotes hasn't made it clear I had a formative experience of reading David Foster Wallace in my youth? If you're not sure what I'm talking about, run don't walk to read the title essay in A Supposedly Fun Thing I'll Never Do Again. This book (and your tech career) will be waiting for you when you get back! Say hi to Tibor for me!] Having gotten off on so very much the wrong foot, this entire day is going to completely down in flames.
 
-It represents a bounded commitment of time from Max (two sprints), and asks Max to do something which is likely just a bit uncomfortable (stop attending the mid-week checkins). In return, he'll get a new form of control (meeting with Asha and Alistair after each demo). He'll also hopefully get some time to think, and will be investing in Asha leveling up.
+As we watch the conflagration begin, let us note that Alistair actually proposed a pretty good initial adjustment.
 
-But, because Alistair just dove in, Max was defensive and reactive. In particular, because Alistair didn't connect this conversation to a long-term strategic outcome, Max didn't shift gears at all from his default state of day-to-day anxiety-driven tactical execution.
+It represents a bounded commitment of time from Max (two sprints); it asked Max to do something just a bit uncomfortable (stop attending the mid-week checkins); it gave him a useful new form of control in return (meeting with Asha and Alistair after each demo to guide the team). He'd also hopefully get some time to think, and would be investing in Asha leveling up.
 
-** Failure Mode 2: Don't State Their Concerns
+But, because Alistair just dove in, Max was defensive and reactive (which, let's be honest, he has plenty of practice at).
 
-"Oh, I see," says Alistair, "you're saying I should start by linking this actual conversation to his long-term goals. So he'll both understand me as trying to help him achieve those goals, *and* be ready to look at and shift some day-to-day behaviors as a result?"
+Alistair didn't connect this conversation to a long-term strategic outcome, nor demonstate any understanding of Max's concerns. Thus, Max didn't shift gears at all from his default state of day-to-day anxiety-driven tactical execution.
 
-"Exactly!" says Louisa The Loosely Correct Mentor. She is knitting away at an endless crochet project as they talk.[fn:: Look, I don't know why my brain comes up with these things.]
+*Max wasn't ready to listen*.
+
+** Failure Mode 2: They Already Know Their Own Concerns, Right?
+
+# Don't State Their Concerns
+
+# Maybe playful names "They already know what they're worried about, why bother saying it out loud?"
+
+"Oh, I see," says Alistair to his new mentor, "you're saying I should start by linking this actual conversation we're about to have to his long-term goals. So he'll both understand me as trying to help him achieve those goals, *and* be ready to look at and shift some day-to-day behaviors as a result?"
+
+"Exactly!" says Louisa The Loosely Correct. She is knitting away at one of her endless crochet projects as they talk.[fn:: Look, I don't know why my brain comes up with these things.]
 
 "And... then what do I do?" asks Alistair.
 
-"Then you just go straight into your plan. With all its lovely details, dear."[fn:: His bad mentors are sounding more and more like sycophantic LLMs?]
+She points a crochet hook in his direction. "You just go straight into your delightful little plan, dear. With all its lovely details. He'll be so happy to hear those."[fn:: His bad mentors are sounding more and more like sycophantic LLMs? Eh, that feels about right.]
 
-"Okay, then," says Alistair. He's excited to share his plan, and he genuinely believes they need to change *something* if they're going to eventually increase what they charge per claim.
+"Okay, then!" says Alistair. He is, in fact, excited to share his plan. And the connections between the long-term goals and his proposed changes *are* kind of obvious.
 
-# XXX Start here, maybe record scratch or Wayne's World, and return to the moment when they're looking at each other in the little conference room.
+Record scratch! Time rewind! Wayne's World wavy arms moment! We're back in the harshly lit white conference room, Max is sitting across from Alistair, the meeting is about to begin.
 
-# See if I can steal from one of my *two* previous breakthroughs.
+"Before we start, I want to make sure I understand the big picture of what my team is working towards," says Alistair.
 
-Yes, the PM's need to level up, but, for now, Max is just going to have to stay in the loop. He thought Alistair understood that.
+He sees Max's eyes flick down to his watch.
 
-That rings a vague bell. But he doesn't have much time to spend on that. He checks to see if there's a reply from this CEO to his epic Slack from this morning. Not yet.
+"Our customers really like us", says Alistair, forcing himself to methodically go through what he has worked out, despite the signs of impatience from Max. "Our NPS is safely in the fifties, our renewal rates are strong. But to keep growing, AccuraClaim needs to find a way to capture more revenue from each customer. Specifically, we have a key goal of increasing our average price to *$1.50 per claim*, within two years. Everyone across engineering and product should understand that as our top priority."
 
-"Now," says Alistair, "we both know that our new PM's don't fully understand all the existing ProClaims workflows, right? And that's causing a lot of problems for you, right?"
+Alistair makes himself pause. "Do I have that all mostly right?"
 
-"For my part," continues Alistair, "I want to find a way for the teams to move faster. Right now, they're waiting on decisions, often from you, and I think it's hurting our velocity."
+Let us take this moment to ask what is happening in Max's head. First off, Max is still totally unclear what this meeting is about. But it's... not unpleasant to hear Alistair outline AccuraClaim's overall goals? Apparently he, Max, communicated those goals really clearly. Good job, Max! [fn:: Alistair figured out the long-term goals by buying lunch for the VP of Product, and letting her complain about a particular director of customer success who is widely understood to be her nemesis.] Max nods, "Go on."
+
+# Max looks slightly surprised to hear this kind of high-level strategic summary. But, Alistair thinks, he doesn't seem /frustrated/. More... curious, maybe? After a moment, Max nods. "Go on."
+
+"But," continues Alistair, "there's a fundamental challenge. Customers are only going to pay more per claim if they're *getting something for their money*. We need to add new enterprise features for a premium tier, we need to break out an add-on fraud detection product. But *all* of that runs through the core ProClaims logic. Which is a hideous mass of legacy code that the engineers are terrified of touching. If we can't find some way to safely change our core platform, we won't be able to hit our growth goals."
+
+Max is growing more and more interested. Alistair is walking through their goals in a really clear way. He must have written down something Max said, apparently? Max is just so good at communicating priorities. He nods again.
+
+# Alistair is laying out their overall strategic goal, in a pretty compelling way, so far.
+
+"My team's role is thus to overhaul the claims workflows," continues Alistair, feeling himself growing more confident as he fits the story together. "In order to stay on track for the price increase, we'll need to launch the new filter-based workflows by, at the very latest, early next year. That will give the sales team time to start positioning the new, premium pricing tier. And, once my team gets the underlying data cleaned up, Eduardo and Jenna can finish implementing the ML Fraud Detection product they've been previewing."
+
+He draws a breath. "Is that a solid way to understand what we're doing? AccuraClaim's most important goals across the ClaimsPro platform, and how my team's work supports those goals?"
+
+What is happening for Max, now? He is feeling an odd, unfamiliar sensation. The room seems a bit less harshly lit. He's aware of the breath in his chest. He is feeling the barest hint of... relief? This thing Alistair has said is making him feel a moment of clarity of purpose.
+
+"That's all good," he says. "Really good, actually." He taps the closed laptop in front of him. "So, should we get started?"
+
+Before we go any further, let's applaud Alistair! He's built a really clear arc from long-term company goals down to the detailed work of his team. He's defined upcoming team deadlines in terms of the business outcomes they will unlock. He's sprinkled in vivid details to bring it all to life.
+
+But now he's going to plunge off the path and tumble down the side of the cliff.
+
+"Okay," says Alistair, "here's what I'd like to proposeplan: Before each of our next two sprint planning sessions, you, me, and Asha will spend an hour deep diving on one of the existing, gnarly ProClaims workflows..."
+
+And he lays out his proposed change. And again sits back, pleased.
+
+Max's moment of relief has completely evaporated.
+
+# i must confess i've made a mess of what should have been a small success
+
+# Having both of those should allow the sales team to make real headway against the per-claim price increase.
+
+
+#  XXX Insert something from one of my *two* previous breakthroughs.
+
+# Yes, the PM's need to level up, but, for now, Max is just going to have to stay in the loop. He thought Alistair understood that.
+
+# That rings a vague bell. But he doesn't have much time to spend on that. He checks to see if there's a reply from this CEO to his epic Slack from this morning. Not yet.
+
+# "Now," says Alistair, "we both know that our new PM's don't fully understand all the existing ProClaims workflows, right? And that's causing a lot of problems for you, right?"
+
+# "For my part," continues Alistair, "I want to find a way for the teams to move faster. Right now, they're waiting on decisions, often from you, and I think it's hurting our velocity."
 
 
 ** Failure Mode 3: Don't State Your Own Concerns
