@@ -82,7 +82,7 @@ In later chapters, we'll share a wealth of tactics for designing effective incre
 
  - Moves you *both* a little closer to your shared long-term goal
 
-Working incrementaly remains key. You don't want try to jump ahead to the One True Perfect Process. You want to make things just a little better. You want to set yourself up to earn a small shared win. Your adjustment should be not too big, but also not too small. You want the Goldilocks, just right, kind of adjustment.
+Working incrementally remains key. You don't want try to jump ahead to the One True Perfect Process. You want to make things just a little better. You want to set yourself up to earn a small shared win. Your adjustment should be not too big, but also not too small. You want the Goldilocks, just right, kind of adjustment.
 
 So, Alistair.
 
@@ -178,7 +178,7 @@ Since they had their brief moment of connection yesterday, Max has:
 
  - Guiltily skimmed through one hundred and seven email subject lines in his Inbox
 
- - Cancelled three one-on-one meetings with his direct reports
+ - Canceled three one-on-one meetings with his direct reports
 
  - Spent forty-seven bitterly frustrated minutes composing a reply to his CEO's deceptively casual request to know if "the ProClaims 2.0 project was back on track, and if not, when the devs could commit to achieving full feature parity," every word of which request seemed to require a novella-length explanation to unpack (what does the CEO think "on track" means? Does the CEO perceive a failure on the part of the devs to "commit"? When did "full feature parity" metastasize, tumor-like, in the CEO's mind, since it's never been something Max has promised, even once? Max's fingers shake as he types.)
 
@@ -196,7 +196,7 @@ Alistair been continually thinking about this meeting for six of the last ten wa
 
 "Okay," says Alistair, "here's the plan: Before each of our next two sprint planning sessions, you, me, and Asha will spend an hour deep diving on one of the existing, gnarly ProClaims workflows---specifically, on one of the workflows Asha's team is about to tackle in the upcoming sprint. I'll work with you to make sure she understands all the tricky edge cases. Asha is probably the strongest PM, and her team is working on the most complex claims review steps, so that should hopefully create some useful leverage for you, right away."
 
-Now Alistair gets to the chage that he most desperately wants. "During those sprints, we'll give the team license to ship to production without getting formal approval from you. We'll do an extra thorough end-of-sprint demo, and, afterward, you, me and Asha can meet and set direction for the team, based on what you saw."
+Now Alistair gets to the change that he most desperately wants. "During those sprints, we'll give the team license to ship to production without getting formal approval from you. We'll do an extra thorough end-of-sprint demo, and, afterward, you, me and Asha can meet and set direction for the team, based on what you saw."
 
 Alistair sits back, proud of his proposal. It addresses the bizarre anti-pattern they've somehow drifted into, of every team waiting to ship even small changes until Max can review them.
 
@@ -218,7 +218,7 @@ It represents a bounded commitment of time from Max (two sprints); it asked Max 
 
 But, because Alistair just dove in, Max was defensive and reactive.
 
-Alistair didn't connect this conversation to a long-term strategic outcome, nor did he demonstate any understanding of Max's concerns. Thus, Max didn't shift gears at all from his default state of day-to-day anxiety-driven tactical reactiveness.
+Alistair didn't connect this conversation to a long-term strategic outcome, nor did he demonstrate any understanding of Max's concerns. Thus, Max didn't shift gears at all from his default state of day-to-day anxiety-driven tactical reactiveness.
 
 In short: Max wasn't *ready to listen*.
 
@@ -426,7 +426,7 @@ Max nods unhappily. He /has/ been feeling a general sense of everything grinding
 
 "Part of what is slowing them down is that the team keeps on stalling out, waiting for deploy approvals." Alistair takes a deep breath. "Specifically waiting on approvals from you. I know how incredibly busy you are, so I'm not sure there's literally any way for you to get through those faster. But if we don't find some way for the team to ship more frequently to production, I don't think we're going to be able to hit our filter-based workflow milestone."
 
-Alistairs pauses and breathes. Max nods, once, slowly. There's a trace of tension in his jaw. But Alistair can see that he's heard him.
+Alistair pauses and breathes. Max nods, once, slowly. There's a trace of tension in his jaw. But Alistair can see that he's heard him.
 
 "Okay, here's my proposal," he says, and lays launches into his ideas. When he gets to the "slightly uncomfortable" ask, he slows down and force himself to make it really clear.
 
@@ -472,11 +472,17 @@ The next day, Max enjoys blowing Asha's mind by telling her this new plan.
 
 "We're talking about the same Max?"
 
-** Review
+** Review & Practice
 
-# Take 4, he does that, it works
+ - Invoke a shared goal that you both care deeply about
 
-That's the game.
+ - Share your understanding of the challenges your stakeholder is facing
+
+ - Directly share the key challenges you're facing
+
+ - Propose the incremental adjustment that might improve things for both of you
+
+ - Invite collaboration
 
 
 * Old Subheads
