@@ -316,15 +316,15 @@ Let's see what happens with Alistair and an even slightly better but still imper
 
 "But, what, Alistair?" Sam coils himself up to look into directly into the zoom camera.
 
-"I don't think Max understands how frustrating it's been for me and the team. The fact that he won't let me, or Asha, or Pavel ship a single change on our own is just *crippling* our teams. How do I tell him about that?"
+"I don't think Max understands how frustrating it's been for me and the team. The fact that he won't let me, or Asha, or Pavel ship a single change on our own is just crippling our teams. How do I tell him about that?"
 
 Sam tilts his head. "Why would you tell him that, Alisssstair?"
 
-Alistair blinks, uncertaintly. "I mean, shouldn't I?"
+Alistair blinks, uncertainly. "I mean, shouldn't I?"
 
-"I find," hisses Sam, "that it's best to try to sneak that kind of thing by him. Just come up with a plan that works for you, get him to agree to that. Why take the rissssk of angering him? Do you want to anger him, my friend?"
+"I find," hisses Sam, "that it's best to try to sneak that kind of thing in. Just come up with a plan that works for you, get him to agree to that. Why take the rissssk of angering him? Do you want to anger him, my friend?"
 
-No, Alistair most certainly does not. The part of him that avoids conflict is glowing with excited pride. This is exactly how to handle a tough conversation! By steering around his own needs and pretending they're not there! He can do this![fn:: If Alistair's husband Carl could witness this moment of Alistair's internal monologue, he would roll his eyes straight into the back of his head.]
+No, Alistair most certainly does not. The part of him that avoids conflict is glowing with excited pride. This is exactly how to handle a tough conversation! By tiptoeing around his own needs and pretending they're not there! He can do this![fn:: If Alistair's husband Carl could witness this moment of Alistair's internal monologue, he would roll his eyes straight into the back of his head.]
 
 Record scratch! Time rewind! Wayne's World wavy arms moment! We're back in the conference room. Alistair has just finished sharing his clear, actionable statement of strategy. Bathed in the pleasant glow of believing he's hearing his own ideas, Max is feeling a tenuous moment of relief.
 
@@ -338,9 +338,9 @@ Max now feels a bit more oriented. Right, he and Alistair talked about this yest
 
 Alistair pauses. "Does that sound about right?"
 
-Max's nascent feeling of relief is growing. This picture being painted of his day-to-day struggles really resonates. "Pretty much 100%," he says, and can almost feel a smile.
+Max's nascent feeling of relief is growing. This picture being painted of his day-to-day struggles really resonates. "Pretty much 100%," he says, with something like a smile threatening to break out.
 
-"Right, so whatever changes we're going to try to make, we'd need to be finding *some* way for the PM's to level up on their understanding, specifically so that you can trust them to own their separate workstreams. Is that right?"
+"Right," continues Alistair, "so whatever changes we're going to try to make, we'd need to be finding *some* way for the PM's to level up on their understanding, specifically so that you can trust them to own their separate workstreams. Is that right?"
 
 "Yes, it is," says Max.
 
@@ -368,16 +368,111 @@ Here's the thing. You're going to have to ask your stakeholder to do something a
 
 ** Failure Mode 4: I'm Glad We Got That All Exactly Right On The First Try
 
-# Forget To Invite Collaboration
+# Sticking The Landing: Be Ready To Collaborate
 
-# Unfortunately, Alistair hasn't mapped all of Max's emotions. He's 100% correct about Max's frustration with the PM's, but he doesn't know about Max being chewed out by the CEO. And so, if he doesn't create space to iterate, Max is going to, um, freak out. He will start to imagine this idea, but will immediately panic.
+# Sticking The Landing: work to adjust together
 
- - Max is *afraid* of being shamed by the CEO
+"I see now," says Alistair. "After speaking to his concerns, I need to lay mine out, clearly and non-judgmentally. I'll have earned the space for him to listen to my concerns, by demonstrating my understanding of his. Then, having directly stated my own concerns, we can have a genuinely collaborative discussion to find a solution that works for both of us."
 
-   Because the CEO has shamed him in the past, when a customer-impacting bug made its way into production
+"Yes, yes, yes," says Imelda the Impatient Mentor.
 
+Alistair can tell something is on her mind. "What is making you so impatient, Imelda?" he asks.
 
-** Success = Smooth Build
+"Well, I'm supposed to be a good coach, and let you make your own mistakes and not tell you what to do. But I'm /really/ impatient. And I feel, in some weird cosmic sense, that you might be ready to skip past the part where you make a mistake and have to learn from painful experience."
+
+"You know, I think I might be. What did you want to tell me?"
+
+She looks right at him. "After you walk him through your proposal, what are you going to do?"
+
+Alistair isn't certain where this is going. Wasn't the whole point to get to that walkthrough? "I guess... I'd try to get him to say yes?"
+
+Imelda shakes her head. She stares at him, expectantly.
+
+"What's wrong with that?" he says, uncertainly.
+
+She's practically bouncing in her seat.
+
+"Isn't that the whole point?" Alistair asks.
+
+"Fine, fine, I'll just tell you. Look, there's something wrong with your proposal."
+
+"There is? What is it?" Alistair reaches for his mouse, ready to open up his proposal outline.
+
+"I have no idea. But I'm /certain/ there's something wrong. There /always/ is. To work for Max, your proposal will have to be tweaked. So, your goal should be to get into a conversation with Max about how to *improve* your proposal. You should, after you lay out your proposal, *invite* him to collaborate with you."
+
+"Oh! Phew. That's all. That sounds pretty easy."
+
+"I mean, sure, it *sounds* easy," she snaps at him. "But lots of people are so keyed up about presenting ideas to someone powerful, they just get into this do-or-die mode. They feel like they need to *defend* their proposal, instead of drawing out and validating any concerns."
+
+Alistair is visited with a clear vision of him acting in exactly that way.
+
+"Um, fair enough. Thank you."
+
+But Imelda is already on to something else.
+
+Record scratch! Etc, Etc!
+
+We're back in our little conference room.
+
+"Right," says Alistair, "so whatever changes we're going to try to make, we'd need to be finding *some* way for the PM's to level up on their understanding, specifically so that you can trust them to own their separate workstreams. Is that right?"
+
+"Yes, it is," says Max.
+
+Alistair look at his notes. He's spent time figuring out how to share his own concerns in a non-judgmental way. That took some real work, since at first he just desperately wanted to say, "OMG, Max you're making everyone so crazy, please stop." Which, though completely true, isn't exactly non-judgmental and depersonalized. With some help from Carl, he's managed to come up with a different way in.
+
+"I don't know if you realize it Max, but, unfortunately, right now the engineers and the designers are feeling really hesitant about getting work out to production. Each team is only shipping to production a few times a month. Which, honestly, feels pretty terrible to me."
+
+Max nods unhappily. He /has/ been feeling a general sense of everything grinding slower and slower.
+
+"Part of what is slowing them down is that the team keeps on stalling out, waiting for deploy approvals." Alistair takes a deep breath. "Specifically waiting on approvals from you. I know how incredibly busy you are, so I'm not sure there's literally any way for you to get through those faster. But if we don't find some way for the team to ship more frequently to production, I don't think we're going to be able to hit our filter-based workflow milestone."
+
+Alistairs pauses and breathes. Max nods, once, slowly. There's a trace of tension in his jaw. But Alistair can see that he's heard him.
+
+"Okay, here's my proposal," he says, and lays launches into his ideas. When he gets to the "slightly uncomfortable" ask, he slows down and force himself to make it really clear.
+
+"For just those two sprints, we'll give the team license to ship to production without getting formal approval from you. We'll do an extra thorough end-of-sprint demo, and, afterward, you, me and Asha can meet and set direction for the team, based on what you saw. My hope is that, by aligning up front, we can free the team up to go faster during the sprints."
+
+Alistair sits back. "How does that sound?"
+
+Max is chewing his lip. "I... don't know. It could /almost/ work." He's frowning unhappily.
+
+Thanks to the nudge from Imelda, Alistair is mentally prepared to draw Max out. "Almost work...?" he repeats and then waits (Alistair has practiced Repeat Trailing Words).
+
+"But, some changes can cause real problems."
+
+"Cause real problems...?"
+
+"Yeah. If we piss off one of the big insurers, the CEO will lose his mind."
+
+"Oh, the CEO will lose his mind."
+
+"Exactly."
+
+Because Alistair was listening so carefully, one specific word stood out to him. "Max, I think you said that 'some' changes can cause problems, is that right? 'Some' changes might piss off big insurers?"
+
+"Yeah, that's right."
+
+"Are there other, like, whole classes of changes you don't feel like you need to worry about?"
+
+Max considers. "Yeah, I guess so."
+
+"Do you think we might be able to look ahead, at the start of the sprint, and figure out what planned work will actually need your review? So we can free the team up to move fast on /most/ of what they're doing, but make sure you can still carefully review anything risky?"
+
+Max tilts his head to one side. "That... might work."
+
+They dig into the details together.
+
+# They end up adding a tweak to how the team will use feature flags.
+
+The next day, Max enjoys blowing Asha's mind by telling her this new plan.
+
+"Oh my god, how did you get him to agree to this?" she says.
+
+"You know," says Alistair, "he's actually not that unreasonable."
+
+"We're talking about the same Max?"
+
+** Review
 
 # Take 4, he does that, it works
 
@@ -2331,7 +2426,8 @@ CLOSED: [2025-12-13 Sat 08:14]
 
 ** DONE Try reordering the story and the approach
 CLOSED: [2025-12-13 Sat 08:14]
-** TODO Convert mid-week checkins to final review steps?
+** DONE Convert mid-week checkins to final review steps?
+CLOSED: [2025-12-16 Tue 10:21]
 ** TODO Walk thoughts:
  - Maybe convert to genuine inner parts (instead of mentors)
  - Experiment w/ using labeled feelings to win
@@ -2342,7 +2438,8 @@ Like, what leads to you wanting to do that -- e.g. feeling impatient (force your
 Or, being worried about openly stating your concerns. Work to make them problems to solve.
 ** TODO Maybe: save the fear of bugs to the collab stage
 Alistair has to tease that out, and then they come up with the idea of leaning more heavily on feature flags than they have been.
-** TODO Maybe the design of the small increment belongs elsewhere?
+** DONE Maybe the design of the small increment belongs elsewhere?
+CLOSED: [2025-12-16 Tue 10:21]
 It feels like how to make the pitch is separate from the shape of what is being pitched?
 ** TODO Consider focusing on Max's Brain (e.g. as character)
 It freaks out, it protects him. It's kind of System 1. (or is it 2?)
