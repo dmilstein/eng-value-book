@@ -64,29 +64,50 @@ To bring this to life, let's first see what happens if someone tries to advocate
 
 ** The Quicksand Into Which Alistair Is Sinking
 
-Let's return to our friend Alistair, from the introduction:
+# Rename as Actionable Statement of Strategy
 
-# Remember Alistair, from our intro? Who was struggling with his engineering director, Max Hartswell? Who had set himself up as the bottleneck for all decisions, and then blamed the team for lack of ownership?
+Let's return to our friend Alistair, from the introduction.
 
-/Alistair is an engineering manager at AccuraClaim, a business that provides claims processing services to the insurance industry. Alistair's team is great, his product manager has become a close friend, he really likes working with the messy, gritty details of claims data./
+He works as an engineering manager at AccuraClaim, a business that provides claims processing services to the insurance industry. Alistair's particular Crazy Boss Situation is with Max Hartswell, the engineering director who leads the overall platform that Alistair's team is a part of. Max Hartswell has developed a habit of insisting on being consulted on every single decision, from the layout of the database tables to the colors of the buttons in the UI. This is resulting in both a horribly slow pace of delivery *and* a crowd of seriously frustrated engineers, product managers and designers.
 
-/There's just one problem./
+Let's imagine that Alistair has gone through the initial steps of our game plan.
 
-/Max Hartswell, the engineering director over Alistair's team, has apparently never met a decision he felt comfortable letting someone else make./
+He's asked questions far and wide, and studiously echoed back and summarized what he's heard. Gradually, he's built up a picture of where AccuraClaim is today and where it's trying to get to. He's spent some time honing what he has learned into a clear and actionable statement of strategy.
 
-/Alistair, Alistair's PM, all the adjacent tech leads and half the designers spend all their working hours trying to track Max down and get him to sign off on some decision he announced, weeks ago, he wanted to review "just one more time."/
+His particular three-part arc runs as follows:
 
-Then, during a casual conversation, Max airily talked about "disppointed" he is that no one is showing ownership, leaving Alistair seething with frustration.
+ - AccuraClaim's revenue growth has stalled. To reinvigorate it, they are attempting to capture more revenue from each insurance company they serve. Because AccuraClaim charges their customers per insurance claim processed, they've defined their goal as:
 
-# Then, one evening at the company happy hour, Alistair finds himself awkwardly chatting with Max. The engineering director takes a sip from his hard seltzer. Alistair tries to think of something to say. Then, out of nowhere, Max airily tells Alistair that he's "a little disappointed" that Alistair's team isn't stepping up and showing more independence and ownership. "It's like you're just *waiting* to be told what to do," he says. Alistair nearly chokes on his beer. After managing to extricate himself from the conversation, Alistair realizes he might have to talk with his wife about whether or not he can stay at this job.
+   "Within two years, increase average selling price to $1.50/claim."
 
-Let's imagine that Alistair, after talking himself down from the ledge, has gone through the initial steps of our game plan.
+   Their current ASP is $1.10/claim---so $1.50 represents a major increase (a sales director friend of Alistair's shook their head in low-key disbelief when sharing this long-term goal. "I mean, sure they've said that. But I dunno how we're gonna do it.").
 
-He's asked questions far and wide, and studiously echoed back and summarized what he's heard. Gradually, he's built up a picture of where AccuraClaim is today and where it's trying to get to. He's spent some time honing what he has learned into a concise and clear statement of strategy.
+   # Alistair is friendly with the Tyrell, the VP of PeopleOps, who vividly described the exec team meeting where the CEO announced this goal and the entire room looked pale.
 
-Having acquired this nuanced understanding of what the business as a whole is hoping to accompish, Alistair decides he's ready to confront Max about the engineering director's problematic behavior.
+ - The core challenge is simply: insurance companies are only going to pay more per claim if they get something new. In other words, AccuraClaim needs to identify and solve new problems for their customers.
+
+   Strong evidence has been collected that they can do so by a) adding new enterprise-facing features and breaking out a premium pricing tier, and b) developing a new add-on fraud detection product.
+
+ -
+
+ But *all* of that runs through the core ProClaims logic. Which is a hideous mass of legacy code that the engineers are terrified of touching. If we can't find some way to safely change our core platform, we won't be able to hit our growth goals."
+
+ Having acquired this nuanced understanding of what the business as a whole is hoping to accompish, Alistair decides he's ready to confront Max about the engineering director's problematic behavior.
 
 # This is what he has learned.
+
+** Stashed from later chapter
+
+"But," continues Alistair, "there's a fundamental challenge. Customers are only going to pay more per claim if they're *getting something for their money*. We need to add new enterprise features for a premium tier, we need to break out an add-on fraud detection product. But *all* of that runs through the core ProClaims logic. Which is a hideous mass of legacy code that the engineers are terrified of touching. If we can't find some way to safely change our core platform, we won't be able to hit our growth goals."
+
+Max finds himself growing more and more interested. Alistair is walking through their goals in a really clear way. He must have written down something Max said, apparently? Max *is* really good at communicating priorities. He nods again.
+
+# Alistair is laying out their overall strategic goal, in a pretty compelling way, so far.
+
+"My team's role is to overhaul the core claims workflows," continues Alistair, feeling himself growing more confident as he fits the story together. "In order to stay on track for the price increase, we'll need to launch the new filter-based workflows by, at the very latest, early next year. That will give the sales team time to start positioning the new premium pricing tier. And, once my team gets the underlying data cleaned up, Eduardo and Jenna can finish implementing the ML Fraud Detection product they've been previewing."
+
+He sits back. "Is that a solid way to understand what we're doing? AccuraClaim's most important goals across the ClaimsPro platform, and how my team's work supports those goals?"
+
 
 ** Alistair Lays Out The Strategic Context
 
