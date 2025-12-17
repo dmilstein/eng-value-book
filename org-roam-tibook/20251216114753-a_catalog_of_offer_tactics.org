@@ -432,3 +432,12 @@ If humans see someone putting themselves on the line to face a difficult or risk
 In this case, you could say, /"I know this is going to have some shaky moments early on. My team will set up and monitor a dedicated slack channel for any problems. I'm going to personally clear my calendar for the next three weeks, so I can be as responsive as possible during the initial rollout. Also, if it's okay with you, I want to give the team leads my cell number, and encourage them to call or text me if they hit something tricky or time-sensitive. Finally, if it's okay with you, I'd like to lead a Q&A immediately after you announce this change, so I can hear about any concerns or frustrations."/
 
 This makes clear that you are signing up for "unpleasant" parts of the work -- getting called at all hours, bearing the direct brunt of unhappiness from the team, etc.
+
+* Todos
+** TODO In Mark Blevins story, make him push back, once
+** TODO Count # of prod vs eng stories
+** TODO Clean up Kahneman ref
+** TODO For Growing Danger, make stakeholder the friend/mentor
+** TODO Add: invoke a better world?
+Like, it's not just at risk, it's possible.
+** TODO Possibly: move Work Backwards into Define Strat Intent

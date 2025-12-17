@@ -454,7 +454,7 @@ Because Alistair was listening so carefully, one specific word stood out to him.
 
 "Are there other, like, whole classes of changes you don't feel like you need to worry about?"
 
-Max considers. "Yeah, I guess so."
+Max considers. "Maybe?"
 
 "Do you think we might be able to look ahead, at the start of the sprint, and figure out what planned work will actually need your review? So we can free the team up to move fast on /most/ of what they're doing, but make sure you can still carefully review anything risky?"
 
@@ -1997,28 +1997,23 @@ CLOSED: [2025-12-13 Sat 08:14]
 CLOSED: [2025-12-13 Sat 08:14]
 ** DONE Convert mid-week checkins to final review steps?
 CLOSED: [2025-12-16 Tue 10:21]
-** TODO Walk thoughts:
+** DONE Walk thoughts:
+CLOSED: [2025-12-17 Wed 08:41]
  - Maybe convert to genuine inner parts (instead of mentors)
  - Experiment w/ using labeled feelings to win
  - GET THIS SHIPPED FOR GOD'S SAKES
-** TODO For each of the failure modes, show internal story
-Like, what leads to you wanting to do that -- e.g. feeling impatient (force yourself to go slow).
-
-Or, being worried about openly stating your concerns. Work to make them problems to solve.
-** TODO Maybe: save the fear of bugs to the collab stage
+** DONE Maybe: save the fear of bugs to the collab stage
+CLOSED: [2025-12-17 Wed 08:41]
 Alistair has to tease that out, and then they come up with the idea of leaning more heavily on feature flags than they have been.
 ** DONE Maybe the design of the small increment belongs elsewhere?
 CLOSED: [2025-12-16 Tue 10:21]
 It feels like how to make the pitch is separate from the shape of what is being pitched?
 ** TODO Consider focusing on Max's Brain (e.g. as character)
 It freaks out, it protects him. It's kind of System 1. (or is it 2?)
-** TODO In Mark Blevins story, make him push back, once
-** TODO Count # of prod vs eng stories
-** TODO Clean up Kahneman ref
-** TODO For Growing Danger, make stakeholder the friend/mentor
-** TODO Add: invoke a better world?
-Like, it's not just at risk, it's possible.
-** TODO Possibly: move Work Backwards into Define Strat Intent
+** TODO For each of the failure modes, show internal story
+Like, what leads to you wanting to do that -- e.g. feeling impatient (force yourself to go slow).
+
+Or, being worried about openly stating your concerns. Work to make them problems to solve.
 * From Substack
 ** Design an Increment of Change
 
