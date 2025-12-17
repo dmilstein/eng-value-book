@@ -2,6 +2,8 @@ Project/todo list for the Book In Question
 
 * Book Inbox                                      :inbox:
 * [[id:454225CA-DD66-4ACA-B8B3-429F6551DBDC][New Intro]]                                       :gtasks:
+** TODO Add to intro / footnote: I also founded a theater company
+Which is why there are so many stories in this book?
 ** TODO Make Maria/Geoff an actual company
 To make it more vivid
 ** TODO Name all companies in opening
@@ -159,10 +161,10 @@ E.g. what happens if the stores have sluggish perf?
 ** TODO Add testing w/ Map Fears / Aspirations
 
 * [[id:E0ADBF07-90B8-4C37-81C0-96A428020F5E][Substack]]
-** TODO Submit Medium articles to publication     :curweek:
+** TODO Submit Medium articles to publication
 Possible Article for Level Up
-** TODO Post "Offer Future Decision" to Substack  :curweek:
-** TODO Post "Propose a Timebox" to Medium        :curweek:
+** TODO Post "Offer Future Decision" to Substack
+** TODO Post "Propose a Timebox" to Medium
 ** TODO Add playful illustrations of mindsets
 E.g. like I did in Invite to Solve Problems
 ** TODO Decide: illustrate *all* tactics w/ deep dives, or just some?
@@ -225,9 +227,22 @@ CLOCK: [2025-11-21 Fri 20:27]--[2025-11-21 Fri 22:29] =>  2:02
 CLOSED: [2025-12-01 Mon 09:44]
 ** TODO Show example of labeling for fear of making prioritization calls
 * [[id:5C7A0B37-8984-4A1F-8371-C1FCEB637174][Compelling Offer]]                                :gtasks:
-** TODO Carve out first chapter for Beta          :curweek:pom:
+** TODO For Compelling offer, add "I'm worried", "I'm afraid" prefaces
+** DONE Carve out first chapter for Beta          :curweek:
+CLOSED: [2025-12-17 Wed 08:30]
 :LOGBOOK:
-CLOCK: [2025-12-09 Tue 09:06]
+CLOCK: [2025-12-16 Tue 09:17]--[2025-12-16 Tue 11:51] =>  2:34
+CLOCK: [2025-12-15 Mon 11:05]--[2025-12-15 Mon 12:30] =>  1:25
+CLOCK: [2025-12-14 Sun 14:41]--[2025-12-14 Sun 15:01] =>  0:20
+CLOCK: [2025-12-14 Sun 13:16]--[2025-12-14 Sun 14:40] =>  1:24
+CLOCK: [2025-12-14 Sun 10:18]--[2025-12-14 Sun 10:28] =>  0:10
+CLOCK: [2025-12-13 Sat 08:14]--[2025-12-13 Sat 09:58] =>  1:44
+CLOCK: [2025-12-12 Fri 07:55]--[2025-12-12 Fri 09:36] =>  1:41
+CLOCK: [2025-12-11 Thu 16:47]--[2025-12-11 Thu 17:16] =>  0:29
+CLOCK: [2025-12-11 Thu 07:56]--[2025-12-11 Thu 10:32] =>  2:36
+CLOCK: [2025-12-10 Wed 09:31]--[2025-12-10 Wed 11:09] =>  1:38
+CLOCK: [2025-12-09 Tue 12:29]--[2025-12-09 Tue 13:09] =>  0:40
+CLOCK: [2025-12-09 Tue 09:06]--[2025-12-09 Tue 11:24] =>  2:18
 :END:
 ** TODO Use "I'm worried", "I'm afraid"
 ** DONE Review for Beta
@@ -301,31 +316,36 @@ CLOCK: [2025-10-11 Sat 17:23]--[2025-10-11 Sat 18:01] =>  0:38
 CLOCK: [2025-10-11 Sat 16:10]--[2025-10-11 Sat 17:17] =>  1:07
 :END:
 
+* [[id:EC373567-8471-4ECD-864B-DF57C1170053][Catalog Of Tactics]]                              :gtasks:
+** TODO Read both versions (as HTML preview)
+** TODO Spike on: three chapters vs catalog
+Ala:
+  1. Offer A Small, Easy-To-Agree-To Change
+  2. Motivate Action (Now and Not Later)
+  3. Speak To Your Stakeholder's Human Experience
+
 * [[id:9410A7DC-111C-4791-B8A1-C20867904251][Unstuck Beta]]                                    :gtasks:
-** DONE Add Keisha Johnson to beta 2 reading list
-CLOSED: [2025-11-17 Mon 09:29]
-** TODO Look at book blockers thing from Help This Book
+** DONE Make [[file:org-roam-tibook/20251027103957-unstuck_beta.org::*Hit List of Todos][hit list]] of remaining changes :curweek:
+CLOSED: [2025-12-17 Wed 08:40]
+:LOGBOOK:
+CLOCK: [2025-12-17 Wed 08:31]--[2025-12-17 Wed 08:40] =>  0:09
+:END:
+** TODO Deal with multiple Alistair/Max scenes    :curweek:pom:
+:LOGBOOK:
+CLOCK: [2025-12-17 Wed 08:40]
+:END:
+As in, I have multiple, conflicting version of Alistair building rapport
+** TODO Pick version of Catalog of Tactics
+** TODO Look at book blockers ideas from HTB
 In email
-** DONE Chunk out work to get to Beta
-CLOSED: [2025-10-31 Fri 08:53]
-:LOGBOOK:
-CLOCK: [2025-10-31 Fri 08:17]--[2025-10-31 Fri 08:53] =>  0:36
-:END:
-** DONE Decide a target date
-CLOSED: [2025-10-31 Fri 09:02]
-:LOGBOOK:
-CLOCK: [2025-10-31 Fri 08:53]--[2025-10-31 Fri 09:02] =>  0:09
-:END:
-** DONE Make target visible
-CLOSED: [2025-10-31 Fri 09:12]
-:LOGBOOK:
-CLOCK: [2025-10-31 Fri 09:02]--[2025-10-31 Fri 09:12] =>  0:10
-:END:
-Up on the wall?
 
-Maybe have a burndown? Use claude to visualize?
-
-Visible on the wall and/or in org?
+** TODO Review tooling for HTB
+** TODO Produce/upload to HTB
+** TODO Draft invitation
+** TODO Make list of people to send invitation
+** TODO Make explicit "track progress" game plan
+As in, don't just haunt the thing, waiting. Write out my expectations and track against that. Embed some of those in the invitation. Record how accurate my expectations were, so I can update the for my next round of beta reading. Make it an operation.
+** TODO Ship it
 * [[id:B4926308-39DD-471B-8E71-5FFF7546D6E3][ToC/Structure ]]                                  :gtasks:
 ** TODO Experiment: Move Quin story to separate chapters?
 ** TODO Move exercises to the back?
@@ -384,6 +404,14 @@ So I can either run full screen or within 80 columns
 Because now my wordcount history stuff is sensitive to those being missing.
 ** TODO Create a new chapter template or abbrev?
 * Book Misc                                       :gtasks:
+** TODO Rename Art of Divining Emotions to Art of Empathy
+Art of building empathy
+** TODO For multiple Alistair break throughs: can I use suspense?
+As in, leave it for later chapters to see how it plays out?
+** TODO Ugh: Fix two conflicting scenes of Alistair breaking through.
+One each in Humans Have Feelings & The Art of Divining Emotions.
+
+Consider: hold off on the part about being chewed out by the CEO, either way? So I can show how to use that on the fly in Make a Compelling Offer (maybe it's even a twist, and I hide it from the reader? Or I mention it and then leave it behind? Or I hint at it, but don't dig in. "Max's jaw tightens when the CEO's name is mentioned")
 ** TODO Work in: everyone will see themselves in these stories...
 ... and none of us will realize we're in someone else's story!
 ** TODO Fun, Informative & Actionable -- up on the wall?
