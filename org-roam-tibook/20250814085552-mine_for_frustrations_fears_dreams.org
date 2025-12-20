@@ -94,40 +94,36 @@ Their insurance company customers will only pay more per claim if they get somet
 
 /AccuraClaim needs to solve more problems for their customers./
 
-Alistair wrote that down his notes. After talking with a PM friend, he decides that AccuraClaim's current hypothesis about "solving more problems" is:
+Alistair wrote that down his notes. After talking with a PM friend (and fact-checking it with a product marketer he got to know at the last company off-site), he decides that AccuraClaim's current hypothesis about "solving more problems" is:
 
- 1. Add enterprise-facing features to their core product, ProClaims.
+ 1. Add enterprise-facing features to their core product, ProClaims
 
-    This will allow them to introduce a new, premium pricing tier
+    So they  can introduce a new, premium pricing tier
 
  2. Develop a new fraud detection product
 
-    Which they can sell as an add-on to ProClaims
+    So they can sell it as an add-on to ProClaims
+
+Together, those should allow them increase their ASP.
 
 *** 3.The Team's Role In Overcoming The Challenge
 
-Unfortunately, *both* of those new capabilities run through the core ProClaims logic.
+Having acquired this understanding, Alistair can now see the epics and stories his team is working on in a new light.
 
-Which is a hideous mass of legacy code that the engineers are terrified of touching.
+First, his team has been working for months to take the (terrifying!) legacy code at the heart of ProClaims and restructure it so that customers can build *custom workflows*. Having done his strategic deep dive, Alistair has come to realize that the custom workflows are intended to unlock an enterprise pricing tier (it's the largest customers who need this degree of flexibility).[fn:: "How on earth can this be news to Alistair?" you may be asking. "Didn't his PM make clear to him the impact of his work?" Oh, you sweet child. The AccuraClaim engineering and product teams have been talking about "Filter-Based Workflows" for months, because that's how the feature is going to be *implemented*. The business outcome of unlocking a new pricing tier has been lost in the shadowy mists of exec team discussions.]
+
+Alistair's team's work is *also* important for the planned fraud detection product. Once they've finished restructuring the nasty legacy code, the underying data will be sane enough to allow another team to build fraud models on top of it (attempts up to now have foundered on a morass of special cases encoded in bizarre ways in the data).
+
+Unfortunately, they're drifting way behind plan, in no small part because of Max injecting himself into every single decision. That has recently manifested as Max mysteriously announcing that he needs to do a final review and sign off before any changes go live to production.
 
 
 
- Having acquired this nuanced understanding of what the business as a whole is hoping to accompish, Alistair decides he's ready to confront Max about the engineering director's problematic behavior.
+
+Having acquired this nuanced understanding of what the business as a whole is hoping to accompish, Alistair decides he's ready to confront Max about the engineering director's problematic behavior.
 
 # This is what he has learned.
 
-
-** Stashed from later chapter
-
-"But," continues Alistair, "there's a fundamental challenge. Customers are only going to pay more per claim if they're *getting something for their money*. We need to add new enterprise features for a premium tier, we need to break out an add-on fraud detection product. But *all* of that runs through the core ProClaims logic. Which is a hideous mass of legacy code that the engineers are terrified of touching. If we can't find some way to safely change our core platform, we won't be able to hit our growth goals."
-
-Max finds himself growing more and more interested. Alistair is walking through their goals in a really clear way. He must have written down something Max said, apparently? Max *is* really good at communicating priorities. He nods again.
-
-# Alistair is laying out their overall strategic goal, in a pretty compelling way, so far.
-
-"My team's role is to overhaul the core claims workflows," continues Alistair, feeling himself growing more confident as he fits the story together. "In order to stay on track for the price increase, we'll need to launch the new filter-based workflows by, at the very latest, early next year. That will give the sales team time to start positioning the new premium pricing tier. And, once my team gets the underlying data cleaned up, Eduardo and Jenna can finish implementing the ML Fraud Detection product they've been previewing."
-
-He sits back. "Is that a solid way to understand what we're doing? AccuraClaim's most important goals across the ClaimsPro platform, and how my team's work supports those goals?"
+# How To Use A Statement of Strategy
 
 ** Alistair Lays Out The Strategic Context
 
@@ -540,6 +536,18 @@ Alistair still has a lot of work to do, to get to Max fully empowering his teams
 At the meeting the next day, when lays out a concrete proposal for Max to spend time with Alistair's PM partner, specifically focused on building shared context to enable a bit of independence for a sprint or two. Max asks if Alistair will join them, and then starts to rejigger his calendar to make time.
 
 # At tomorrow's meeting he proposes that he and Max sit down and  do a deep dive with Alistair's PM peer, on the parts of the product and data model they're about to change. With an explicit goal of the PM summarizing back what they're hearing well enough that Max can let them run for a single wee
+
+** Stashed from later chapter
+
+"But," continues Alistair, "there's a fundamental challenge. Customers are only going to pay more per claim if they're *getting something for their money*. We need to add new enterprise features for a premium tier, we need to break out an add-on fraud detection product. But *all* of that runs through the core ProClaims logic. Which is a hideous mass of legacy code that the engineers are terrified of touching. If we can't find some way to safely change our core platform, we won't be able to hit our growth goals."
+
+Max finds himself growing more and more interested. Alistair is walking through their goals in a really clear way. He must have written down something Max said, apparently? Max *is* really good at communicating priorities. He nods again.
+
+# Alistair is laying out their overall strategic goal, in a pretty compelling way, so far.
+
+"My team's role is to overhaul the core claims workflows," continues Alistair, feeling himself growing more confident as he fits the story together. "In order to stay on track for the price increase, we'll need to launch the new filter-based workflows by, at the very latest, early next year. That will give the sales team time to start positioning the new premium pricing tier. And, once my team gets the underlying data cleaned up, Eduardo and Jenna can finish implementing the ML Fraud Detection product they've been previewing."
+
+He sits back. "Is that a solid way to understand what we're doing? AccuraClaim's most important goals across the ClaimsPro platform, and how my team's work supports those goals?"
 
 * Todos
 ** DONE Shrink the story about context
