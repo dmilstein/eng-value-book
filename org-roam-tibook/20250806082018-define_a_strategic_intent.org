@@ -73,29 +73,63 @@ This problem is, quite literally, keeping him up at night.
 
 ** How Maria Could Make A Compelling Offer
 
-If Maria knew all this, she could approach Geoff and ask for a commitment to focus, in an entirely different manner. Here is how she might do it, in the tightest of forms:
+If Maria knew all this, she could approach Geoff and ask for a commitment to focus in an entirely different manner. Let's see it at work.
 
-/"I know how important it is for us to break into the enterprise. And I know how hard the sales team has been working on that."/
+As they're leaving the room after her next prioritization sync with the executive team, Maria asks Geoff if he has a minute to check in.  "Of course," he says, "I've always got time for my favorite product manager." His tone is, as always, blandly smooth and friendly, in a way that Maria has come to learn means absolutely nothing whatsoever.
 
-/"But I'm worried that the product team hasn't been supplying you with what you need. From what I understand, you'll need some new features to even get conversations started with enterprise buyers. And since the enterprise deals take so crazy long to close, I'm really worried that, every month the product team doesn't dliver something new, we're putting your team in a worse and worse position."/
+They grab chairs in an empty corner of the office kitchen and break room space.
 
-/"Do you think we could find a way to commit more time to developing those key enterprise features? Even if it means allowing some current customers to grow frustrated?"/
+Maria squares her shoulders. "I want to make sure I understand [our business] goals, and how I can work to support your team."
 
-/"One option: if you can identify your most important enterprise prospects, you and I could work together to find current customers who are similar to those prospects. The engineers and I can then focus our support time on those customers, to maximize learning while also keeping some key customers happy."/[fn:: Maria used several tactics that we'll explore in How To Make A Compelling Offer.]
+Geoff sips at a vitamin water he grabbed from the fridge, and shrugs a "go ahead".
 
-Geoff will hear this request very, very differently.
+"I know how important it is for us to break into the enterprise. We *have* to make progress towards the 30% goal, this year. I know how hard the sales team has been working on that."
 
-The struggle to build an enterprise sales pipeline is his biggest problem. The lack of  enterprise-specific features is a huge part of that. Thus, he hears this as Maria *understanding his pain*. He'll be enormously more ready to listen.
+He takes another sip.
 
-She's also proposed a specific adjustment that could work for both of them---limiting the support time, but focusing it on a small set of customers that *Geoff* identifies. That puts him in a position of control, which feels much better than simply being told to back off.
+"But," says Maria, consciously slowing herself down, "I'm worried that the product team hasn't been supplying you with what you need."
 
-After she finishes, Geoff asks a few questions, which Maria listens to carefully. Then, he shrugs, and says "Okay, let's talk it out." They dive into the mechanics of her proposed adjustment, which Maria can tell Geoff is intrigued by.
+Is she imagining it, or did Geoff just suddenly look surprised? Given that the vast majority of their previous conversations have involved her pushing back on him, she suspects this has caught him out a bit. Energized, she presses forward.
 
-As they talk, Maria learns more about the enterprise prospects, and Geofff's struggles to unblock the sales pipeline. She discovers that not being able to *demo* the under-development features is a consistent shutdown moment. On the spot, she makes an offer to Geoff: if the product team could really focus, they could enable Geoff's sales leaders to start demoing a few key features *next month*[fn:: Those features will take many more months to be production-ready, but given how long the enterprise sales cycle runs, she knows she and the engineers can work together to demo features they're confident they'll be able to build.]. Geoff looks up sharply. Demos could unblock half his currently stalled sales conversations. He might even be able to hit his upcoming milestones around pipeline.
+"From what I understand, you'll need new features to even get conversations /started/ with enterprise buyers. And the enterprise deals take just crazy, crazy long to close, right? So if you don't have early pipeline built this year, we're going to have a hard time ever catching up. Is that about right?"
+
+He nods slowly.
+
+# He's starting at her thoughtfully.
+
+"And we just don't have the features you need." She shakes her head. "I'm really worried that every month the product team doesn't deliver something new for enterprise prospects, we're putting your team in a worse and worse position."
+
+She makes herself stop and waits. Finally, Geoff says, "You're not going to get an argument from me. This is what I keep trying to tell Rob." The CEO is known for being totally unforgiving about adjusting goals, so Maria is able to nod in genuine sympathy.
+
+"I want very, very badly to speed up delivery of a few key enterprise features. But it doesn't sound like we can add any more resources to my team. I'd love your help in finding  /some/ way to accelerate that work, so we're not putting your team in an impossible situation with building pipeline."
+
+He's with her, she can see.
+
+"I don't know if I've made this clear," she continues, "but the engineers are telling me that they're losing a lot of time adding little features for our current SMB customers. We want to keep those customers as happy as possible. But the balance feels off right now."
+
+# don't think we can fully commit to that, while also getting your team the new features they need."
+
+# "One option: if you can identify your most important enterprise prospects, you and I could work together to find current customers who are similar to those prospects. The engineers and I can then focus our support time on those customers, to maximize learning while also keeping some key customers happy."[fn:: Maria used several tactics that we'll explore in How To Make A Compelling Offer.]
+
+"Do you think we could find a way to commit more time to developing those key enterprise features? Even if it means allowing some current customers to grow frustrated?"
+
+# Geoff will hear this request very, very differently.
+
+The struggle to build an enterprise sales pipeline is Geoff's biggest problem. The lack of  enterprise-specific features is a huge part of that. Thus, he hears this as Maria *understanding his pain*.
+
+# He'll be enormously more ready to listen.
+
+# She's also proposed a specific adjustment that could work for both of them---limiting the support time, but focusing it on a small set of customers that *Geoff* identifies. That puts him in a position of control, which feels much better than simply being told to back off.
+
+After she finishes, Geoff asks a few questions, which Maria listens to carefully and echoes back to ensure she's propertly understanding. Then, he shrugs, and says "Okay, let's talk it out." They dive into some options she's prepared.
+
+# mechanics of her proposed adjustment, which Maria can tell Geoff is intrigued by.
+
+As they talk, Maria learns more about the enterprise prospects, and Geofff's struggles to unblock the sales pipeline. She discovers that not being able to *demo* any enterprise-specific features is a consistent shutdown moment. On the spot, she makes an offer to Geoff: if the product team could really focus, they could enable Geoff's sales leaders to start demoing a few key features *next month*[fn:: Those features will take many more months to be production-ready, but given how long the enterprise sales cycle runs, she knows she and the engineers can work together to demo features they're confident they'll later be able to build.]. Geoff looks up sharply. Demos could unblock half his currently stalled sales conversations. He might even be able to hit his upcoming milestones around pipeline.
 
 "Okay, which features, exactly?" he asks.
 
-At the next prioritization sync, Geoff stands up and tells the rest of execs to clear the decks so Maria's team can focus. Maria watches, slightly dizzy with surprise.
+Two weeks later, at the next prioritization sync, Geoff stands up and tells the rest of execs to clear the decks so Maria's team can focus. Maria watches, slightly dizzy with surprise.
 
 Now, is Geoff going to immediately become a perfect partner to Maria, and never act politically, ever again? Probably not. But they are now genuinely working together, towards a common goal. As they overcome more and more challenges together, they will build more and more trust.
 
