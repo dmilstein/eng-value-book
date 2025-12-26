@@ -23,25 +23,31 @@ Remember Maria, the PM from our opening chapter, who was struggling with her VP 
 How might Maria make a case for change? Well, she could try saying something rational, like:
 # If Maria *hasn't* identified the strategic outcome that Geoff cares most intensely about, she might try saying something perfectly rational, like:
 
-/"We're never going to be able to deliver on our product strategy if we can't focus."/
+/"We're never going to be able to deliver on our product strategy if we can't focus. I need you to stop pushing so hard for one-offs for our existing customers."/
 
-This statement has the benefit of being *completely true*. But, is it going to be effective with Geoff?
+This statement has the trivial benefit of being completely true. But, is it going to be /effective/ with Geoff?
 
 Eh, not so much.
 
-Geoff, like many executives, has a deep gift for /creatively mis-hearing requests/.[fn:: I'm now 100% imagining this skill being taught to promising young leaders, before they're allowed into join the Senior Leadership Team. Along with, /How To Demand Progress Against Obviously Conflicting Goals/; /How To Blame A Team For Your Own Failings: A Survey Course/; and /How To Join Meetings Late And Leave Them Early And Other Demonstrations Of Just How Important You Are/. Are these a series of lectures? Small group discussion sections? What are the titles of the HBS case studies? I have so many questions.]
+Geoff, like many executives, has a gift for /creatively mis-hearing requests/.[fn:: I'm now 100% imagining this skill being taught to promising young leaders, before they're allowed into join the Senior Leadership Team. Along with, /How To Demand Progress Against Obviously Conflicting Goals/; /How To Blame A Team For Your Own Failings: A Survey Course/; and /How To Join Meetings Late And Leave Them Early And Other Demonstrations Of Just How Important You Are/. Are these a series of lectures? Small group discussion sections? What are the titles of the HBS case studies? I have so many questions.]
 
-He thus manages to hear this as Maria asking for something *for herself and the product team*, instead of hearing Maria asking for something important for the business as a whole. Note that Geoff uses this skill of "creative mis-hearing" totally unconsciously! When we humans decide to act in our own self-interest, our brains are incredibly good at pretending that we're *not* doing so.[fn:: Evolution has relentlessly selected for our being able to truly believe in our own unselfishness, no matter what we do. This self-deception helps us persuade others that we will not act against their interests. Being able to act selfishly, while honestly believing we're not doing so, is a fundamental trait of humans everywhere. If you're in a position of authority, I recommend trying to face this uncomfortable truth.]
+He thus manages to hear this as Maria asking for something *for herself*. He hears her saying "In order for *me*, Maria, to achieve *my* goals, I need *you* to stop pushing so hard for *your* one-off fixes." In Maria's mind, she was trying to advocate for the business's goals. But that's not what Geoff hears. Note that Geoff uses this skill of "creative mis-hearing" totally unconsciously. When we humans decide to act in our own self-interest, our brains are incredibly good at pretending that we're not doing so.[fn:: Evolution has relentlessly selected for our being able to truly believe in our own unselfishness. This self-deception helps us persuade others that we will not act against their interests. Being able to act selfishly, while honestly believing we're not doing so, is a fundamental trait of humans everywhere. If you're in a position of authority, I recommend trying to face this uncomfortable truth.]
 
-How could Geoff's brain explain this situation to him, so that he could brush off Maria's request, and still maintain his belief that he, at least, is acting in the company's best interests? OMG, it's so easy:
+Given that Maria was trying to speak directly about company goals, how could Geoff's brain explain this situation to him, so that he could brush off Maria's request, and still maintain his belief that he, at least, is acting in the company's best interests? OMG, it's so easy:
 
-Geoff has a plan and quota to hit! He's not asking for much, just attention for a few key problems here and there! Maria clearly doesn't understand how hard it is to keep customers happy! Are they supposed to just let those customers churn!? He's being entirely reasonable.
+Geoff has a plan and quota to hit! He's not asking for much, just attention for a few key problems here and there! Maria clearly doesn't understand how hard it is to keep customers happy! Are they supposed to just let those customers churn!? She is being completely unreasonable.
 
-# And, having dispensed with this challenge, Geoff will continue on his merry,  distracting way.
+# He's being entirely reasonable. She is the one asking for something unfair.
 
-Let's back up just a bit and ask a question: what, exactly, is Geoff's brain trying to protect him from by spinning up this series of reasons to ignore Maria's rational request? Why might his brain perceive agreeing to Maria's request as *not* in Geoff's own self-interest?
+And then, his brain having dispensed with this challenge, Geoff will continue on his merry, political, distracting way.
 
-Simple: *Geoff's brain is worried that going along with Maria's request could cause Geoff to fail at his own job.*
+If we find ourselves confronted with this kind of behavior, what might we do? We /could/ decide to spend our time seething with resentment and frustration. I myself have spent many a quality hour engaged in that productive and empowering practice (ask my wife some time about how much fun that is for her!). Or... we could let ourselves become curious. In particular, curious about what is going on for Geoff.
+
+We might then ask: why does his brain feel such urgency to spin up this series of reasons to ignore Maria's request? What, exactly, is Geoff's brain trying to protect him from? Why might his brain perceive even listening to Maria's request as *not* in Geoff's own self-interest?
+
+Once we ask that question, we realize that one answer is simply:
+
+*Geoff's brain is worried that going along with Maria's request could cause Geoff to fail at his own job.*
 
 # Where success is, ultimately, being able to keep working towards some long-term outcome he cares intensely about.
 
@@ -55,31 +61,31 @@ What if she could offer him a new way to succeed at his job, by working *with* h
 
 # Well then, his brain might have very different things to say to him.
 
-To do that, she'll have to understand what Geoff is trying to achieve plus what he's most worried about, on the path to his goals.
+To do that, she'd have to understand what Geoff is trying to achieve plus what he's most worried about, on the path to his goals.
 
-Let's dig in.
+Let's grant her a bit of magical insight, and then see what she can do with it.
 
-** The Central Challenge Facing Maria's Business
+** The Central Challenge Facing The Business
 
-For years, Maria and Geoff's company has been successfully selling to small and medium-sized businesses. That segment is, unfortunately, almost completely tapped out. The marketing team is struggling to turn up any new SMB leads. The tight budgets at small companies means there's no real room to upsell. The company will only be able to grow revenue if they can somehow start selling to significantly larger businesses. Which is to say... to the fabled enterprise segment.
+Maria and Geoff work at Connexions, a startup that sells team-building software for companies with remote workers. They offer everything from virtual coffee chats to a full-featured virtual offsite package, including team-building games, an interactive annual company review, and plenty of opportunities to make oddball memories together.[fn:: The Connexions team keeps trying to figure out how to add potentially embarrassing drinking experiences to the platform, but their general counsel keeps waving them away in horror.]
 
-At the last board meeting, the CEO stood up and confidently promised that, within eighteen months, enterprise customers would represent a full 30% of annual recurring revenue. This is an extremely ambitious goal. They're currently at a measly 11%. The board looked appropriately suspicious.
+Up to now, Connexions has been selling almost entirely to small and medium-sized businesses, who have been relatively quick to embrace remote-first work habits. Unfortunately, the profitable opportunities in that segment seem to be drying up. The marketing team is struggling to turn up any new SMB leads that are worth following up on. The tight budgets at smaller companies means there's no real room to upsell. The company will only be able to grow if they can somehow start selling to significantly larger businesses. Which is to say... to the fabled enterprise segment.
 
-Geoff, being *the VP of Sales*, feels hugely under the gun for this outcome. He's been building up an enterprise sales team, he's been endlessly reviewing recordings of sales calls, he's personally conducted a half dozen interviews with enterprise buyers. None of it seems to be working yet. The sales pipeline for enterprise deals is thin, at pretty much every stage.
+At the last board meeting, the CEO stood up and confidently promised that, within eighteen months, enterprise customers would represent a full 30% of Connexions' annual recurring revenue. This is an extremely ambitious goal. The enterprise segment, even with some fairly open-minded tagging of which customers are "enterprise", currently sits at a measly 11%. The board looked appropriately suspicious. Their lead investor said, "Come back when you've made some sales."
+
+Geoff, being *the VP of Sales*, feels hugely under the gun for this outcome. He's been racing to build up an enterprise sales team, he's been endlessly reviewing recordings of sales calls, he's personally conducted a half dozen interviews with enterprise HR teams who might buy Connexions' platform. None of it seems to be working. The sales pipeline for enterprise deals is thin, at pretty much every stage.
 
 This problem is, quite literally, keeping him up at night.
 
 # Some of the customers Geoff is trying to cadge favors for are their largest existing customers, the small number who are in that enterprise segment.
 
-** How Maria Could Make A Compelling Offer
+** Maria Makes A Compelling Offer
 
-If Maria knew all this, she could approach Geoff and ask for a commitment to focus in an entirely different manner. Let's see it at work.
+If, as we suggested above, Maria somehow magically knew all this, she could approach Geoff in an entirely different manner. Let's see it at work.
 
-As they're leaving the room after her next prioritization sync with the executive team, Maria asks Geoff if he has a minute to check in.  "Of course," he says, "I've always got time for my favorite product manager." His tone is, as always, blandly smooth and friendly, in a way that Maria has come to learn means absolutely nothing whatsoever.
+As they're leaving the room after a prioritization sync with the full executive team, Maria asks Geoff if he has a minute to check in.  "Of course," he says, "I've always got time for my favorite product manager." His tone is, as always, blandly smooth and friendly, in a way that Maria has come to learn means absolutely nothing whatsoever.
 
-They grab chairs in an empty corner of the office kitchen and break room space.
-
-Maria squares her shoulders. "I want to make sure I understand [our business] goals, and how I can work to support your team."
+They grab chairs in an empty corner of the office break room. Maria runs through the case she's prepared. She sits up straight and squares her shoulders, which her friend told her will make her sound more confident. "I want to make sure I understand Connexions' goals, and how I can work to support your team."
 
 Geoff sips at a vitamin water he grabbed from the fridge, and shrugs a "go ahead".
 
@@ -89,43 +95,56 @@ He takes another sip.
 
 "But," says Maria, consciously slowing herself down, "I'm worried that the product team hasn't been supplying you with what you need."
 
-Is she imagining it, or did Geoff just suddenly look surprised? Given that the vast majority of their previous conversations have involved her pushing back on him, she suspects this has caught him out a bit. Energized, she presses forward.
+Is she imagining it, or did Geoff just suddenly look surprised? Given that the vast majority of their previous conversations have involved her pushing back on him, she suspects her offering to blame her own team has caught him out. Energized, she presses forward.
 
-"From what I understand, you'll need new features to even get conversations /started/ with enterprise buyers. And the enterprise deals take just crazy, crazy long to close, right? So if you don't have early pipeline built this year, we're going to have a hard time ever catching up. Is that about right?"
+"From what I understand, you'll need new features to even get conversations /started/ with enterprise buyers. And the enterprise deals take just crazy long to close, right? So if you don't have early pipeline built this year, we're going to have a hard time ever catching up. Is that about right?"
 
-He nods slowly.
+He nods slowly. He's listening a lot more carefully than usual. She decides to keep pressing on the "It's not you, it's me" tack.
 
 # He's starting at her thoughtfully.
 
-"And we just don't have the features you need." She shakes her head. "I'm really worried that every month the product team doesn't deliver something new for enterprise prospects, we're putting your team in a worse and worse position."
+"I just don't think the product team is setting you up to win." She shakes her head regretfully. "I'm worried that every month we don't deliver /something/ for enterprise prospects, we're putting your team in a worse and worse position. Is that how it feels to you, a bit?"
 
-She makes herself stop and waits. Finally, Geoff says, "You're not going to get an argument from me. This is what I keep trying to tell Rob." The CEO is known for being totally unforgiving about adjusting goals, so Maria is able to nod in genuine sympathy.
+Having painted this picture of his situation, she makes herself wait. After a long pause, Geoff finally says, "You're not going to get an argument from me. This is exactly what I keep trying to tell Rob." Their CEO is known for being totally unforgiving about adjusting goals, so Maria is able to nod in genuine sympathy.
 
-"I want very, very badly to speed up delivery of a few key enterprise features. But it doesn't sound like we can add any more resources to my team. I'd love your help in finding  /some/ way to accelerate that work, so we're not putting your team in an impossible situation with building pipeline."
+"Look," she says, "I /want/ to speed up delivery of the enterprise features. But from what Rob just said in the sync, it doesn't sound like I can add any more resources to my team. I'd love your help in finding /some/ way to accelerate that work, so we're not putting your team in such an impossible situation with building pipeline."
 
-He's with her, she can see.
+# Add Virtual Dunk Tank
 
-"I don't know if I've made this clear," she continues, "but the engineers are telling me that they're losing a lot of time adding little features for our current SMB customers. We want to keep those customers as happy as possible. But the balance feels off right now."
+Geoff, like most humans, enjoys an appeal to his expertise. "What are some options?" he asks briskly.
+
+# He's with her, she can see.
+
+"I don't know if I've shared this," Maria replies, crossing her fingers behind her back because she's shared this, like, so many times, "but the engineers tell me that they're losing a lot of time adding features for our current SMB customers. Of course, we want to keep those customers as happy as possible. But if we could find some way to spend /less/ time on our current customers, and /more/ on the enterprise features, we could speed up."
 
 # don't think we can fully commit to that, while also getting your team the new features they need."
 
 # "One option: if you can identify your most important enterprise prospects, you and I could work together to find current customers who are similar to those prospects. The engineers and I can then focus our support time on those customers, to maximize learning while also keeping some key customers happy."[fn:: Maria used several tactics that we'll explore in How To Make A Compelling Offer.]
 
-"Do you think we could find a way to commit more time to developing those key enterprise features? Even if it means allowing some current customers to grow frustrated?"
+"Do you think," asks Maria, managing to sound remarkably innocent, "we could find a way to commit more time to developing those key enterprise features? Even if it means allowing some current customers to grow frustrated?"
+
+Before we see how Geoff responds, let's pause here a moment and ask what is going on for both Geoff and his brain.
 
 # Geoff will hear this request very, very differently.
 
-The struggle to build an enterprise sales pipeline is Geoff's biggest problem. The lack of  enterprise-specific features is a huge part of that. Thus, he hears this as Maria *understanding his pain*.
+The struggle to build an enterprise sales pipeline is Geoff's biggest problem. The lack of  enterprise-specific features is a huge part of that. Thus, he hears this as Maria *understanding* him. Understanding the challenges he's facing, the situation he's in. His brain, which started the conversation on the lookout to protect Geoff, gradually allowed him to listen, because Maria spoke so steadily and consistently to Geoff's most important goal, and the central challenge he's wrestling with.
+
+Thus, in this moment, Geoff is ready to enter into a genuinely collaborative discussion with Maria.
+
+Of course, he pushes and prods at Maria's statement about the engineering team's capacity, looking for any gaps. But he also brainstorms with her about which current customers could be most safely disappointed.
 
 # He'll be enormously more ready to listen.
 
 # She's also proposed a specific adjustment that could work for both of them---limiting the support time, but focusing it on a small set of customers that *Geoff* identifies. That puts him in a position of control, which feels much better than simply being told to back off.
 
-After she finishes, Geoff asks a few questions, which Maria listens to carefully and echoes back to ensure she's propertly understanding. Then, he shrugs, and says "Okay, let's talk it out." They dive into some options she's prepared.
+# After she finishes, Geoff asks a few questions, which Maria listens to carefully and echoes back to ensure she's propertly understanding. Then, he shrugs, and says "Okay, let's talk it out." They dive into some options she's prepared.
 
 # mechanics of her proposed adjustment, which Maria can tell Geoff is intrigued by.
 
-As they talk, Maria learns more about the enterprise prospects, and Geofff's struggles to unblock the sales pipeline. She discovers that not being able to *demo* any enterprise-specific features is a consistent shutdown moment. On the spot, she makes an offer to Geoff: if the product team could really focus, they could enable Geoff's sales leaders to start demoing a few key features *next month*[fn:: Those features will take many more months to be production-ready, but given how long the enterprise sales cycle runs, she knows she and the engineers can work together to demo features they're confident they'll later be able to build.]. Geoff looks up sharply. Demos could unblock half his currently stalled sales conversations. He might even be able to hit his upcoming milestones around pipeline.
+Furthermore, as they talk, Maria learns more about the enterprise prospects. She discovers that not being able to *demo* any enterprise-specific features is a consistent shutdown moment. On the spot, she makes an offer to Geoff: if the product team could really focus, they could enable Geoff's sales leaders to start demoing a few key features *next month*[fn:: Those features will take many more months to be production-ready, but given how long the enterprise sales cycle runs, she knows she and the engineers can work together to demo features they're confident they'll later be able to build.]. Geoff looks up sharply. Demos could unblock half his currently stalled sales conversations. He might even be able to hit his upcoming pipeline goal.
+
+
+# Geoff hadn't fully understood the possibility of demo'ing so far in advance of fully building things out.
 
 "Okay, which features, exactly?" he asks.
 
@@ -133,7 +152,9 @@ Two weeks later, at the next prioritization sync, Geoff stands up and tells the 
 
 Now, is Geoff going to immediately become a perfect partner to Maria, and never act politically, ever again? Probably not. But they are now genuinely working together, towards a common goal. As they overcome more and more challenges together, they will build more and more trust.
 
-And it all started because Maria was able to speak so well to what Geoff most deeply wanted.
+And it all started because Maria was able to speak so well to what Geoff was trying to achieve.
+
+# most deeply wanted.
 
 ** The Elements Of An Actionable Statement Of Strategy
 
@@ -141,7 +162,13 @@ And it all started because Maria was able to speak so well to what Geoff most de
 
 #  There were three parts to what Maria e
 
-Maria's understanding of strategy was *actionable* because it had three key parts.
+Now, Maria skillfully employed a wealth of tactics in the above. Many of which we'll return to, in [[id:5C7A0B37-8984-4A1F-8371-C1FCEB637174][How To Make a Compelling Offer]].
+
+But at the bedrock of her approach to Geoff was a clear, compelling understanding of how the day-to-day work of her team ultimately *mattered* for the business. That's what allowed her to invite him to work with her, to collaboratively solve a problem that Geoff also cared about.
+
+We'll call such an understanding a statement of strategy. We'll specifically push for a statement of strategy that allows you and your stakeholder to make hard decisions, together. We'll call that an *actionable* statement of strategy.
+
+Maria's understanding of Connexion's situation was *actionable* because it had three key parts.
 
  - First, it was rooted in an *overall business outcome*
 
@@ -149,7 +176,7 @@ Maria's understanding of strategy was *actionable* because it had three key part
 
  - Next, it identified a *core challenge* to achieving that outcome
 
-   In her case: Building an enterprise sales pipeline and moving customers through it
+   Building an enterprise sales pipeline and moving customers through it
 
  - Finally, it specified her team's *role* in overcoming that core challenge
 
@@ -944,6 +971,35 @@ CLOSED: [2025-11-15 Sat 09:06]
 I think, Outcome.
 ** DONE Try developing new learning outcomes/arc
 CLOSED: [2025-11-10 Mon 09:38]
+* Company Names
+ - All together now
+ - Play Time
+ - Coffee & Chat
+ - The Virtual Watercooler
+ - 21st Century Watercooler
+ - The Ties That Bind
+ - Al Greco
+ - Greco
+ - Greetz
+ - Chatz
+ - TimeOut
+ - BreakTime
+ - Break Room
+ - Brake Room
+ - Breakster
+ - Gamester
+ - Breakerrific
+ - BreakRum
+ - Serendipity
+ - Serendip
+ - KeepItCasual
+ - Team Up!
+ - UpTeam
+ - Upperific
+ - Connex
+ - Connections
+ - Co-Nex
+ - Connexions
 * Alternate Learning Outcomes
 ** The Power of Strategic Outcomes
 ** The Keys To An Effective Statement Of Strategy
