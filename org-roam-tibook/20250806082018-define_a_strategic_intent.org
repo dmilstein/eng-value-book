@@ -31,7 +31,7 @@ Eh, not so much.
 
 Geoff, like many executives, has a gift for /creatively mis-hearing requests/.[fn:: I'm now 100% imagining this skill being taught to promising young leaders, before they're allowed into join the Senior Leadership Team. Along with, /How To Demand Progress Against Obviously Conflicting Goals/; /How To Blame A Team For Your Own Failings: A Survey Course/; and /How To Join Meetings Late And Leave Them Early And Other Demonstrations Of Just How Important You Are/. Are these a series of lectures? Small group discussion sections? What are the titles of the HBS case studies? I have so many questions.]
 
-He thus manages to hear this as Maria asking for something *for herself*. He hears her saying "In order for *me*, Maria, to achieve *my* goals, I need *you* to stop pushing so hard for *your* one-off fixes." In Maria's mind, she was trying to advocate for the business's goals. But that's not what Geoff hears. Note that Geoff uses this skill of "creative mis-hearing" totally unconsciously. When we humans decide to act in our own self-interest, our brains are incredibly good at pretending that we're not doing so.[fn:: Evolution has relentlessly selected for our being able to truly believe in our own unselfishness. This self-deception helps us persuade others that we will not act against their interests. Being able to act selfishly, while honestly believing we're not doing so, is a fundamental trait of humans everywhere. If you're in a position of authority, I recommend trying to face this uncomfortable truth.]
+He thus manages to hear this as Maria asking for something *for herself*. He hears her saying "In order for *me*, Maria, to achieve *my* goals, I need *you* to stop pushing so hard for *your* goals." In Maria's mind, she was trying to advocate for the business as a whole. But that's not what Geoff hears. Note that Geoff uses this skill of "creative mis-hearing" totally unconsciously. When humans decide to act in our own self-interest, our brains are incredibly good at pretending that we're not doing so.[fn:: Evolution has relentlessly selected for our being able to truly believe in our own unselfishness. This self-deception helps us persuade others that we will not act against their interests, whether or not that's true. Being able to act selfishly, while honestly believing we're not doing so, is a fundamental trait of humans everywhere. If you're in a position of authority, I recommend trying to face this uncomfortable truth.]
 
 Given that Maria was trying to speak directly about company goals, how could Geoff's brain explain this situation to him, so that he could brush off Maria's request, and still maintain his belief that he, at least, is acting in the company's best interests? OMG, it's so easy:
 
@@ -39,9 +39,11 @@ Geoff has a plan and quota to hit! He's not asking for much, just attention for 
 
 # He's being entirely reasonable. She is the one asking for something unfair.
 
-And then, his brain having dispensed with this challenge, Geoff will continue on his merry, political, distracting way.
+And then, his brain having smoothly dispensed with this challenge, Geoff will continue on his merry, political, distracting way.
 
-If we find ourselves confronted with this kind of behavior, what might we do? We /could/ decide to spend our time seething with resentment and frustration. I myself have spent many a quality hour engaged in that productive and empowering practice (ask my wife some time about how much fun that is for her!). Or... we could let ourselves become curious. In particular, curious about what is going on for Geoff.
+If we find ourselves confronted with this kind of behavior, what should we do?
+
+We /could/ decide to spend our time seething with resentment and frustration. I myself have spent many a quality hour engaged in that highly productive, empowering and pleasant practice (ask my wife some time about how much fun that is for her!). Or... we could let ourselves become curious. In particular, curious about what is going on /for Geoff/.
 
 We might then ask: why does his brain feel such urgency to spin up this series of reasons to ignore Maria's request? What, exactly, is Geoff's brain trying to protect him from? Why might his brain perceive even listening to Maria's request as *not* in Geoff's own self-interest?
 
@@ -67,29 +69,33 @@ Let's grant her a bit of magical insight, and then see what she can do with it.
 
 ** The Central Challenge Facing The Business
 
-Maria and Geoff work at Connexions, a startup that sells team-building software for companies with remote workers. They offer everything from virtual coffee chats to a full-featured virtual offsite package, including team-building games, an interactive annual company review, and plenty of opportunities to make oddball memories together.[fn:: The Connexions team keeps trying to figure out how to add potentially embarrassing drinking experiences to the platform, but their general counsel keeps waving them away in horror.]
+Maria and Geoff work at ReMotor, a B2B SaaS company that sells team-building software for remote teams. They offer everything from virtual coffee chats to a full-featured virtual offsite package, including trust-building games, an interactive annual company review, and plenty of opportunities to make oddball memories together.[fn:: The ReMotor product team keeps trying to figure out how to add Potentially Embarrassing Drinking Games to the platform, but their general counsel keeps waving them away in horror.]
 
-Up to now, Connexions has been selling almost entirely to small and medium-sized businesses, who have been relatively quick to embrace remote-first work habits. Unfortunately, the profitable opportunities in that segment seem to be drying up. The marketing team is struggling to turn up any new SMB leads that are worth following up on. The tight budgets at smaller companies means there's no real room to upsell. The company will only be able to grow if they can somehow start selling to significantly larger businesses. Which is to say... to the fabled enterprise segment.
+Up to now, ReMotor has been selling almost entirely to small and medium-sized businesses, who have been relatively quick to embrace remote-first work habits. Unfortunately, the profitable opportunities in that segment seem to be drying up. The marketing team is struggling to turn up any new SMB leads worth following up on. Plus, the tight budgets at smaller companies means there's no real room to upsell. ReMotor will only be able to grow if they can somehow start selling to significantly larger businesses. Which is to say... to the fabled enterprise segment.
 
-At the last board meeting, the CEO stood up and confidently promised that, within eighteen months, enterprise customers would represent a full 30% of Connexions' annual recurring revenue. This is an extremely ambitious goal. The enterprise segment, even with some fairly open-minded tagging of which customers are "enterprise", currently sits at a measly 11%. The board looked appropriately suspicious. Their lead investor said, "Come back when you've made some sales."
+At the last board meeting, the CEO stood up and confidently promised that, within eighteen months, enterprise customers would represent a full 30% of ReMotor's annual recurring revenue. This is an extremely ambitious goal. The enterprise segment, even with some fairly open-minded tagging of large-/ish/ customers as "enterprise", currently sits at a measly 11%. After the CEO's announcement, their lead investor said, "Come back when you've made some sales."
 
-Geoff, being *the VP of Sales*, feels hugely under the gun for this outcome. He's been racing to build up an enterprise sales team, he's been endlessly reviewing recordings of sales calls, he's personally conducted a half dozen interviews with enterprise HR teams who might buy Connexions' platform. None of it seems to be working. The sales pipeline for enterprise deals is thin, at pretty much every stage.
+Geoff was sitting in on this board meeting and, being the VP of *Sales*, feels just hugely under the gun. He's been racing to build up an effective enterprise sales team, he's been endlessly reviewing recordings of sales calls, he's personally conducted a dozen interviews with enterprise HR teams. But... none of it is working. The pipeline for enterprise deals is painfully thin at every stage, from the very top to the very bottom of the funnel.
 
 This problem is, quite literally, keeping him up at night.
 
 # Some of the customers Geoff is trying to cadge favors for are their largest existing customers, the small number who are in that enterprise segment.
 
+Now, at many (...most?) companies, Maria won't know all of the above.
+
+The unifying long-term outcome (/30% of ARR from Enterprise customers, within eighteen months/), would have been turned into a set of concrete goals, which would become the central focus of company-wide communication. But then, before those goals were shared, a bunch of um, not-particularly-related goals would have been piled in (/What, is everyone supposed to ignore all these obviously important problems??!/[fn:: *Yes* (goddammit). If you want to see my blood pressure rise to dangerous levels, feel free to explain to me how my team has to work on some random project, and, when I ask why, patronizingly tell me it's because said random project is "very important". Bonus points if you ask me if I care about the customer.]) And then, once the team started working, some emergency initiatives would be spun up. A decisively clear outcome has been lost in the mists. Furthermore, Geoff certainly doesn't wander around, announcing to all and sundry, "I woke up at three in the morning last night, and lay there staring at the ceiling for two hours, thinking about all the stuck enterprise prospects and trying to not wake my wife up." Even though that's exactly what happened. Nope, if you talk to Geoff, you'll hear how the sales team is "crushing it", how the prospects are "showing interest".
+
+In this and later chapters, we'll spend a good bit of time on how to dig beneath the surface, to learn more about both goals and feelings. But, before we do, let's see how Maria, if she somehow magically knew, like, everything, could approach Geoff in a really effective way.
+
 ** Maria Makes A Compelling Offer
 
-If, as we suggested above, Maria somehow magically knew all this, she could approach Geoff in an entirely different manner. Let's see it at work.
+As they're leaving the room after a prioritization sync with the full executive team, Maria asks Geoff if he has a minute to check in.  "Of course," he says, "I've always got time for my favorite product manager." His tone is blandly smooth and friendly, in a way that Maria has come to learn means absolutely nothing whatsoever.
 
-As they're leaving the room after a prioritization sync with the full executive team, Maria asks Geoff if he has a minute to check in.  "Of course," he says, "I've always got time for my favorite product manager." His tone is, as always, blandly smooth and friendly, in a way that Maria has come to learn means absolutely nothing whatsoever.
-
-They grab chairs in an empty corner of the office break room. Maria runs through the case she's prepared. She sits up straight and squares her shoulders, which her friend told her will make her sound more confident. "I want to make sure I understand Connexions' goals, and how I can work to support your team."
+They grab chairs in an empty corner of the office break room. Maria mentally rehearses the case she's prepared. As she gets ready to speak, she sits up straight and squares her shoulders. A friend told her that will make her sound more confident. "I want to make sure I understand ReMotor's goals, and how I can work to support your team." She makes herself look him in the eye and wait.
 
 Geoff sips at a vitamin water he grabbed from the fridge, and shrugs a "go ahead".
 
-"I know how important it is for us to break into the enterprise. We *have* to make progress towards the 30% goal, this year. I know how hard the sales team has been working on that."
+"I know how important it is for ReMotor to break into the enterprise. We *have* to make progress towards the 30% goal, this year. I know how hard the sales team has been working on that."
 
 He takes another sip.
 
@@ -97,25 +103,25 @@ He takes another sip.
 
 Is she imagining it, or did Geoff just suddenly look surprised? Given that the vast majority of their previous conversations have involved her pushing back on him, she suspects her offering to blame her own team has caught him out. Energized, she presses forward.
 
-"From what I understand, you'll need new features to even get conversations /started/ with enterprise buyers. And the enterprise deals take just crazy long to close, right? So if you don't have early pipeline built this year, we're going to have a hard time ever catching up. Is that about right?"
+"From what I understand, you'll need new features to even get conversations /started/ with enterprise buyers. And Hirva tells me that the enterprise deals take just crazy long to close, right? So if you don't have early pipeline built this year, we're going to have a hard time ever catching up. Is that about right?"
 
-He nods slowly. He's listening a lot more carefully than usual. She decides to keep pressing on the "It's not you, it's me" tack.
+Geoff is listening a lot more carefully than usual. He nods again. Maria decides to keep pressing on the "It's not you, it's me" tack.
 
 # He's starting at her thoughtfully.
 
 "I just don't think the product team is setting you up to win." She shakes her head regretfully. "I'm worried that every month we don't deliver /something/ for enterprise prospects, we're putting your team in a worse and worse position. Is that how it feels to you, a bit?"
 
-Having painted this picture of his situation, she makes herself wait. After a long pause, Geoff finally says, "You're not going to get an argument from me. This is exactly what I keep trying to tell Rob." Their CEO is known for being totally unforgiving about adjusting goals, so Maria is able to nod in genuine sympathy.
+Having painted this picture of his situation, she makes herself wait. After a long pause, Geoff finally gives a short, bitter laugh. "You're not going to get an argument from me. This is exactly what I keep trying to tell Rob." Their CEO is known for being totally unforgiving about adjusting goals, so Maria is able to nod in genuine sympathy.
 
-"Look," she says, "I /want/ to speed up delivery of the enterprise features. But from what Rob just said in the sync, it doesn't sound like I can add any more resources to my team. I'd love your help in finding /some/ way to accelerate that work, so we're not putting your team in such an impossible situation with building pipeline."
+"Look," she says, "I /want/ to speed up delivery of the enterprise features. But from what Rob just said in the sync, it doesn't sound like I can add any more resources to my team. But there's got to be a way. I'd love your help in finding /some/ way to accelerate that work, so we're not putting your team in such an impossible situation with building pipeline."
 
 # Add Virtual Dunk Tank
 
-Geoff, like most humans, enjoys an appeal to his expertise. "What are some options?" he asks briskly.
+Geoff, like most humans, enjoys an appeal to his expertise. He schools his features into what Maria has come to call his Sage Problem Solver face. "What are some options?", he asks.
 
 # He's with her, she can see.
 
-"I don't know if I've shared this," Maria replies, crossing her fingers behind her back because she's shared this, like, so many times, "but the engineers tell me that they're losing a lot of time adding features for our current SMB customers. Of course, we want to keep those customers as happy as possible. But if we could find some way to spend /less/ time on our current customers, and /more/ on the enterprise features, we could speed up."
+"I don't know if I've shared this," Maria replies, crossing her fingers behind her back because she's shared this, like, so many times, "but the engineers tell me that they're losing a lot of time adding one-off features for our current SMB customers. Of course, we want to keep those customers as happy as possible. But if we could find some way to spend /less/ time on our current customers, and /more/ on the enterprise features, I think we could really speed up."
 
 # don't think we can fully commit to that, while also getting your team the new features they need."
 
@@ -127,11 +133,13 @@ Before we see how Geoff responds, let's pause here a moment and ask what is goin
 
 # Geoff will hear this request very, very differently.
 
-The struggle to build an enterprise sales pipeline is Geoff's biggest problem. The lack of  enterprise-specific features is a huge part of that. Thus, he hears this as Maria *understanding* him. Understanding the challenges he's facing, the situation he's in. His brain, which started the conversation on the lookout to protect Geoff, gradually allowed him to listen, because Maria spoke so steadily and consistently to Geoff's most important goal, and the central challenge he's wrestling with.
+The struggle to build an enterprise sales pipeline is Geoff's biggest problem. The lack of  enterprise-specific features is a huge part of that. Thus, he hears this as Maria *understanding* him. Understanding the challenges he's facing, the situation he's in. His brain, which started the conversation on the lookout to protect Geoff, gradually allowed him to truly listen, because Maria spoke so steadily and empatheticly to Geoff's most important goal, and the central challenge he's wrestling with.
 
 Thus, in this moment, Geoff is ready to enter into a genuinely collaborative discussion with Maria.
 
-Of course, he pushes and prods at Maria's statement about the engineering team's capacity, looking for any gaps. But he also brainstorms with her about which current customers could be most safely disappointed.
+And that's what happens.
+
+Of course, Geoff pushes and prods at Maria's statement about the engineering team's capacity, looking for any gaps. But he also brainstorms with her about which current customers could be most safely disappointed, in a way she's never heard from him before.
 
 # He'll be enormously more ready to listen.
 
@@ -141,7 +149,7 @@ Of course, he pushes and prods at Maria's statement about the engineering team's
 
 # mechanics of her proposed adjustment, which Maria can tell Geoff is intrigued by.
 
-Furthermore, as they talk, Maria learns more about the enterprise prospects. She discovers that not being able to *demo* any enterprise-specific features is a consistent shutdown moment. On the spot, she makes an offer to Geoff: if the product team could really focus, they could enable Geoff's sales leaders to start demoing a few key features *next month*[fn:: Those features will take many more months to be production-ready, but given how long the enterprise sales cycle runs, she knows she and the engineers can work together to demo features they're confident they'll later be able to build.]. Geoff looks up sharply. Demos could unblock half his currently stalled sales conversations. He might even be able to hit his upcoming pipeline goal.
+Furthermore, as they talk, Maria learns about Geoff's experiences with the enterprise prospects. She discovers that not being able to *demo* a few key enterprise-specific features is a consistent shutdown moment. On the spot, she makes an offer to Geoff: if the product team could really focus, they could enable Geoff's sales leaders to start demoing a few key features *next month*[fn:: Those features will take many more months to be production-ready, but given how long the enterprise sales cycle runs, she knows she and the engineers can work together to demo features they're confident they'll later be able to build.]. Geoff looks up sharply. Demos could unblock half his currently stalled sales conversations. He might even be able to hit his upcoming pipeline goal.
 
 
 # Geoff hadn't fully understood the possibility of demo'ing so far in advance of fully building things out.
@@ -162,33 +170,31 @@ And it all started because Maria was able to speak so well to what Geoff was try
 
 #  There were three parts to what Maria e
 
-Now, Maria skillfully employed a wealth of tactics in the above. Many of which we'll return to, in [[id:5C7A0B37-8984-4A1F-8371-C1FCEB637174][How To Make a Compelling Offer]].
+Maria skillfully employed a wealth of tactics for building rapport (many of which we'll return to, in [[id:5C7A0B37-8984-4A1F-8371-C1FCEB637174][How To Make a Compelling Offer]]).
 
-But at the bedrock of her approach to Geoff was a clear, compelling understanding of how the day-to-day work of her team ultimately *mattered* for the business. That's what allowed her to invite him to work with her, to collaboratively solve a problem that Geoff also cared about.
+But at the bedrock of her approach to Geoff was a clear, compelling understanding of how the day-to-day work of her team *mattered for the business*. That's what allowed her to invite him to work with her, to collaboratively solve a problem that Geoff also cared about.
 
-We'll call such an understanding a statement of strategy. We'll specifically push for a statement of strategy that allows you and your stakeholder to make hard decisions, together. We'll call that an *actionable* statement of strategy.
+We'll call such an understanding "A Statement Of Strategy". We'll specifically push for a statement of strategy that allows you and your stakeholder to make hard decisions. To do so, it should have three key parts:
 
-Maria's understanding of Connexion's situation was *actionable* because it had three key parts.
+ - First, it must be rooted in a *key business outcome*
 
- - First, it was rooted in an *overall business outcome*
+   e.g. Grow Enterprise ARR to 30% of total revenue, within 18 months
 
-   Grow Enterprise ARR to 30% of total revenue, within 18 months
+ - Next, it must identify a *core challenge* to achieving that outcome
 
- - Next, it identified a *core challenge* to achieving that outcome
+   Build an enterprise sales pipeline and move customers through it
 
-   Building an enterprise sales pipeline and moving customers through it
+ - Finally, it must specific your team's *role* in overcoming that core challenge
 
- - Finally, it specified her team's *role* in overcoming that core challenge
+   Add new, enterprise-specific features to unblock sales conversations
 
-   Adding new, enterprise-specific features to unblock sales conversations
+That three-part breakdown is extremely powerful. It concisely maps from the highest level goals of the business to the work your team is doing -- while retaining the flexibility to adapt and change details as you go.
 
-That three-part breakdown is extremely powerful. It concisely maps from the highest level goals of the business to the work your team is doing -- while retaining the flexibility to adapt and change on that path.
+Most centrally, an effective statement of strategy must allow people throughout a company to quickly *make decisions*, without having to go through slow-moving reviews up the management chain.
 
-A good statement of strategy allows people throughout a company to quickly *make decisions*, without having to go through slow-moving reviews up the management chain.
+To achieve this, the statement must be extremely *opionionated*. It can't list some sprawling set of vaguely conflicting goals. It should be so opinionated that it feels genuinely uncomfortable, and even a bit scary, to commit to it.
 
-To achieve this, an effective statement of strategy must be extremely *opionionated*. It can't list some sprawling set of vaguely conflicting goals. It must identify a single core challenge to overcome. Ideally, it should be so opinionated that it feels genuinely uncomfortable, and even a bit scary, to commit to it.
-
-Thus, always ask the following two questions of a potential statement of strategy:
+Thus, you should always ask the following two questions of a potential statement of strategy:
 
  - Is it possible to *disagree* with the statement?
 
@@ -206,13 +212,13 @@ But there's just one problem.
 
 # Most stakeholders don't want to talk about long-term outcomes.
 
-** Why Stakeholders Hide Their Dreams
+** Stakeholders Hide Their Dreams
 
 Most stakeholders do not clearly share the long-term business outcomes they care most intensely about. Sometimes, believe it or not, stakeholders will even try to *hide* these outcomes from you.
 
-/"Why on earth would they do that?"/ , you might be thinking.[fn:: Unless you've worked in software for a long time? In which case you might be thinking, "/sigh/?"]
+/"Dan, that's crazy! Why on earth would they do that?"/ , you might be thinking.[fn:: Unless you've worked in software for a long time? In which case you might be thinking, "/sigh/"?]
 
-Here's the problem.
+Here's the thing.
 
 Your stakeholder has a strategic outcome they're working backwards from. They've spent a great deal of time and effort *converting* that outcome into a series of tasks, projects and milestones---aka, "a plan". At some deep level, converting the outcome to a plan is how they understand *their job*.
 
@@ -254,7 +260,7 @@ Such stakeholders will often claim that they're limiting what they share in orde
 
 # Such stakeholders are resistant to sharing their goals for a fundamentally different reason.
 
-The odds are very, very good that such a stakeholder feels /insecure in their position of authority/.
+The odds are very, very good that such a stakeholder feels *insecure* in their position of authority.
 
 Such a stakeholder *fears* getting into a conversation with you about how they mapped from the strategic outcome to the tasks they're asking you to do.
 
@@ -332,7 +338,7 @@ This is why I *very* strongly recommend constantly echoing back and summarizing 
 
 The defining characteristic of failed projects is that these miss these chances and then, months too late, find themselves in some horrible dead end with no way out.
 
-Every successful projects reorients this way so often, everyone forgets they're even doing so. Then, after successful delivery, hindsight bias kicks in and edits out of our collective memories all the bad paths we didn't follow. We and our stakeholders come to believe that we all knew the right approach from the start---even though this is a profoundly, hilariously untrue.
+Every successful projects reorients this way so often, everyone forgets they're even doing so. Then, after successful delivery, hindsight bias kicks in and edits out of their collective memories all the bad paths they didn't follow. The team *and* their stakeholders come to believe that they all mostly knew the right approach from the start---even though this is profoundly, hilariously untrue.
 
 You can only make such constant adaptations if you truly understand the why of the work you're doing. And the three-part formulation of an actionable statement of strategy is one of the best ways I know how to understand that why.
 
@@ -340,9 +346,11 @@ You can only make such constant adaptations if you truly understand the why of t
 
 ** Tactic: Invoke A Positive Vision Of The Future
 
-I've totally convinced you that you need to develop a clear, actionable statment of strategy, linking long-term company goals to the day-to-day work of your team. To do so, you will need to draw some information out of your stakeholder. Luckily, in the last chapter, you learned the Echo Back & Summarize tactic, which is purpose-built for exactly this challenge. If you can only get your stakeholder talking, you can echo back and summarize, and use that to draw them out.
+Okay, so how do you go about drawing an actionable statement of strategy out of your stakeholder?
 
-But how, specifically, should you start this conversation? How should you obtain something from your stakeholder which you can first echo back, and then summarize?
+The Echo Back & Summarize tactic from the last chapter is purpose-built for exactly this challenge. If you can only get your stakeholder talking, you can echo back and summarize, and use what you learn to gradually define a statement of strategy.
+
+But how, specifically, should you get your stakeholder talking? How should you start this conversation? How can you obtain something from your stakeholder which you can first echo back, and then summarize?
 
 I'll offer two ideas: Invoke A Positive Vision Of The Future, and Make A Usefully Wrong Guess.
 
@@ -354,19 +362,19 @@ For the first, you kick off a conversation about strategic outcomes by saying so
 
 Anchoring on positive aspirations helps people get out of the day-to-day. Most stakeholders (and, frankly, most humans), spend their days struggling with a vague sense of anxiety about achieving their *near-term* goals. If you directly ask such a stakeholder /"What are we trying to achieve over the next two to three years?",/ the background nervousness about the short-term can flare up, and cause them to say /"We can't worry about that right now, we need to just get through this month."/
 
-By instead asking them to *imagine* a happy longer-term future, you're offering them a chance to "safely" put aside their near-term fears for a moment. By invoking the silly-sounding specific image of "toasting champagne", you lower the emotional stakes, and engage the playful and open side of their mind.[fn:: PM's use a very similar tactic in customer interviews when they say "If you could wave a magic wand and poof!, things were suddenly much better, what would have improved?"]
+By instead asking them to *imagine* a happy longer-term future, you're offering them a chance to "safely" put aside their near-term fears for a moment. By invoking the silly-sounding specific image of "toasting champagne", you lower the emotional stakes, and engage the playful side of their mind.[fn:: PM's use a very similar tactic in customer interviews when they say "If you could wave a magic wand and poof!, things were suddenly much better, what would have improved?"]
 
 Whatever they say in response, you'll echo back and summarize, and see if you can learn more. Play that game a few times. Once you have a solid expression of their imagined happy outcome, move on to:
 
 /"What are some key challenge to overcome to arrive at that good thing? Or, to put it another way, if it's 18-24 months out, and things have gone wrong, what, specifically might have happened?"/
 
-This is the next key part of an effective statement of strategy: the central challenge to overcome. Having created a safety by imagining the happy outcome, you can now tack back to things that might worry them. By again invoking imagination, you can tease out the various risks or challenges that they might be concerned about.
+This is the next key part of an effective statement of strategy: the central challenge to overcome. Having created a sense of safety by imagining the happy outcome, you can now tack back to things that might worry them. By again invoking imagination, you can tease out the various risks or challenges that they might be concerned about.
 
 # By asking after a single such challenge, you're inviting then to priority sort with you.
 
-Again, echo back and summarize what you hear, and see if you can, as part of that, establish which challenge is the most critical to face.
+Echo back and summarize what you hear, and see if you can, as part of that, establish what specific challenge they believe is most critical to face.
 
-Then, move on to the final set of questions:
+Then, move on to the final question:
 
 /"What role will my team play in overcoming that challenge? How will we know if we're succeeding?"/
 
@@ -394,15 +402,15 @@ For the second approach, you'll go through the following three steps:
 
    Aim for lightness. You want your tone to clearly indicate: "I'm probably missing something! That's okay! It will be fun for both of us when you correct me!"
 
-With any luck, your stakeholder will respond by saying "Wait, that's not quite right. It's more..." And then they will share some critical information that you've likely never heard before.
+With any luck, your stakeholder will respond by saying "Wait, that's not quite right. It's more..." And then they will share some critical information that you've never heard before.
 
 Be ready to Repeat Trailing Words if it takes them a bit to get started. Aim to end by cheerfully Echoing Back & Summarizing what you've uncovered.
 
-A key part of this approach is to that the statement of strategy *must* be too opinionated. You want to aim for something which is partly right, but deliberately goes too far. Something which will cause your stakeholder to sit up, take notice and then work to clarify. That's vastly more useful than getting them to absently agree to something vague and anodyne.
+A key part of this approach is to that the statement of strategy must be *too* opinionated. You want to aim for something which is partly right, but deliberately goes too far. Something which will cause your stakeholder to sit up and take notice. That's vastly more useful than getting them to absently agree to something vague and anodyne.
 
-Once you've drawn your stakeholder out, you'll echo back and summarize your new understanding. The pleasant sounds of their own ideas will make them feel warmly towards you.
+Once you've fully drawn your stakeholder out, you'll echo back and summarize your new understanding. The pleasant sounds of their own ideas will make them feel warmly towards you.
 
-There are several reasons I recommend making this kind of too-opinionated guess.
+There are several reasons you might want to start with this kind of too-opinionated guess.
 
 First, directly asking for an actionable statement of strategy puts your stakeholder on the spot. Coming up with a clear statement of strategy is *hard*. If they haven't already prepared such a statement, your stakeholder's brain will swarm to their defense by coming up with reasons to deflect your request. You can keep your stakeholder and their brain from freaking out by offering something coherent and inviting their critique.[fn:: You might be thinking: "But why would they, or their brain, feel put on the spot? Surely leadership has developed a clear, actionable statement of strategy, and that's easily at hand, ready to share? They *must* have done the hard work to identify a single core challenge to focus on, instead of spinning up endless conflicting activities and then moralizing about how the teams are failing to deliver, right?" Um... sure. I'm sure that's the case. At your company. But, y'know, just in case, maybe offer them something to disagree with, instead of proceeding with the assumption that the difficult decisions are being made at every level.]
 
@@ -478,7 +486,7 @@ Make sure you can smoothly offer the follow ups, adjusting to make them work for
 
 Do this after going through one of the exercises above. You've either come up with your own statement of strategy, or used the positive vision of the future to draw your stakeholder out.
 
-Practice sharing the statement of strategy itself, as clearly and concisely as you can. Push yourself to make it usefully opinionated.
+Practice sharing the statement of strategy itself, as clearly and concisely as you can. Push yourself to make it usefully too opinionated.
 
 Be sure to rehearse the question you'll ask at the end, where you invite them to tell you you're wrong. Our example was:
 
@@ -486,9 +494,9 @@ Be sure to rehearse the question you'll ask at the end, where you invite them to
 
 Try that out. Adjust the wording to make it feel natural.
 
-Once you feel comfortable going through the full arc, share your usefully wrong guess with your stakeholder, and end with your invitation to critique. Make sure you're able to ask the questions at the end authentically. Allow yourself to channel a true curiosity.
+Once you feel comfortable going through the full arc, share your usefully wrong guess with your stakeholder, and end with your invitation to critique. Make sure you're able to ask the questions at the end authentically. Allow yourself to channel a true curiosity. Be ready to repeat trailing words to get them talking.
 
-Echo back what you hear, adjust and try again.
+Once they share something, echo back what you hear, adjust and try again.
 
 For further practice, talk this out with friends who work at other companies. Ask what their business is trying to achieve, ask about fundamental challenges they must face, brainstorm different ways their teams might help overcome those challenges. Look for something usefully opinionated. Offer that to them, invite them to tell you if you're wrong, adjust and try again.
 ** Don't Be Surprised If This Is Harder Than You Expect
@@ -972,7 +980,7 @@ I think, Outcome.
 ** DONE Try developing new learning outcomes/arc
 CLOSED: [2025-11-10 Mon 09:38]
 * Company Names
- - All together now
+ - All Together Now!
  - Play Time
  - Coffee & Chat
  - The Virtual Watercooler
@@ -1000,6 +1008,21 @@ CLOSED: [2025-11-10 Mon 09:38]
  - Connections
  - Co-Nex
  - Connexions
+ - VDT Virtual Dunk Tank
+ - Rumspringa
+ - Ties That Bind
+ - Buys That Tind
+ - Smoke Break
+ - SideHustle
+ - TeamTime
+ - Teamerrific
+ - Peoplerrific
+ - Remoterrific
+ - Remoter
+ - Remotr
+ - RemoterBoat
+ - RemoterCycle
+ -
 * Alternate Learning Outcomes
 ** The Power of Strategic Outcomes
 ** The Keys To An Effective Statement Of Strategy
