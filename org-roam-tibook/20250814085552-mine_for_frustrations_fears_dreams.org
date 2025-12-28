@@ -8,7 +8,7 @@
 # Mine for Frustrations, Fears & Dreams
 ** Intro
 
-We've developed an actionable statement of strategy. We've successfully built a compelling arc from high level strategy down into the details, by acquiring the following three things:
+In developing an actionable statement of strategy, we've mapped from high level strategy down into your day-to-day work, by acquiring the following three things:
 
  - A strategic outcome your stakeholder cares intensely about
 
@@ -16,15 +16,15 @@ We've developed an actionable statement of strategy. We've successfully built a 
 
  - The key role your team can play in overcoming that challenge
 
-Now.
+Now, if you've done this well, that statement may be just sitting there, *begging you to take action*.
 
-If you've done this well, that statement may just be sitting there, *begging you to take action*. "Oh, man, we are *ready to go*!" it could be saying to you, practically falling off its chair in excitement. "We had better do get going! And, like, right away!" That's the entire point of the statement! It's /supposed/ to urge you to take action.
+"Oh, man, we are *ready to go*!" it could be saying to you, practically falling off its chair in excitement. "Let's do this thing! And, like, right away!" That's the entire point of the statement! It's /supposed/ to urge you to take action.
 
 # Furthermore,
 
-And, oh, look, you came to this book in the first place because you are frustrated by your day-to-day interactions with your stakeholder.
+And my, let us say, /strong/ assumption is that you came to this book in the first place because you are somehow /frustrated/ by your day-to-day interactions with your stakeholder.
 
-Your frustrations are, with even the tiniest bit of luck, now brightly illuminated by your clear statement of strategy. You can see how, unless things change, your team *won't* be able to play its key role, therefore you *won't* be able to overcome the core challenge, and therefore the company (and your stakeholder!) will fail to achieve their strategic hopes and dreams.
+Those frustrations are now brightly illuminated by your clear statement of strategy. You can see how, unless things change, your team *won't* be able to play its key role, therefore you *won't* be able to overcome the core challenge, and therefore the company (and your stakeholder!) will fail to achieve their strategic hopes and dreams.
 
 Thus, you may feel ready to talk to your stakeholder. You might even feel *eager* to do so. After all, you are now ready to show them how, unless they change their behavior, they won't be able to achieve their own long-term goals. What could be more persuasive than that? I mean, it's their own actual goals? And oh my god, maybe you can finally get them to stop doing that thing!
 
@@ -32,15 +32,19 @@ But, hold on.
 
 Although the connection from the long-term outcome to the work of your team is, in fact, an excellent /foundation/ for productively challenging your stakeholder...
 
-... by itself, it's *not enough*.
+... by itself, it's usually *not enough*.
 
-# Why not? For one simple reason:
+Why not?
 
-Because, all evidence to the contrary, your stakeholder is a human being. Their behavior is not driven solely by a rational desire to achieve an outcome. We are none of us robots.
+# For one simple reason:
+
+Because, all evidence to the contrary, your stakeholder is a human being. Their behavior is not driven solely by a rational desire to achieve an outcome.
+
+# We are none of us robots.
 
 # Making a purely rational case is not super likely to work.
 
-Your stakeholder, being human, /has feelings/. And, shocker, but not every one of those feelings comes from a perfectly cool, calm and collected plan to achieve their goals. To effectively advocate for change, you'll need to develop an understanding of their full suite of messy, human feelings. And not just any kind of understanding, but a special kind: an /empathetic/ understanding.
+Your stakeholder, being human, /has feelings/. And, shocker, but not every one of those feelings comes from a perfectly cool, calm and collected desire to achieve their goals. To effectively advocate for change, you'll need to develop an understanding of their full suite of messy, human feelings. And not just any kind of understanding, but a special kind: an /empathetic/ understanding.
 
 # Because your stakeholder is a human being. And thus they have /feelings/. To effectively advocate for change, you'll need to develop an empathetic understanding of their messy human feelings.
 
@@ -68,11 +72,11 @@ When you advocate for change, you want to be able to speak with authentic connec
 
 # Rename as Actionable Statement of Strategy
 
-To learn more about how to both understand what emotions are at play in your stakeholder, beneath their icy surface, and then to build an offer atop that understanding, we're going to spend some time going deep on one particular story.
+To learn more about how to both understand what emotions are at play for your stakeholder, beneath their icy surface, and then to build an offer atop that understanding, we're going to spend some time going deep on one particular story.
 
 Let's return to our friend Alistair, from the introduction.
 
-He works as an engineering manager at AccuraClaim, a business that provides claims processing services to the insurance industry. Alistair's particular Crazy Boss Situation is with Max Hartswell, the engineering director who leads the overall platform that Alistair's team is a part of. Director Max insists on being consulted on every single decision, from the layout of the database tables to the colors of the buttons in the UI. This is resulting in both a horribly slow pace of delivery *and* a crowd of seriously frustrated engineers, product managers and designers.
+He works as an engineering manager at AccuraClaim, a business that provides claims processing services to the insurance industry. Alistair's particular Crazy Boss Situation is with Max Hartswell, the engineering director who leads the overall platform that Alistair's team is a part of. Director Max insists on being consulted on every single decision, from the layout of the database tables to the colors of the buttons in the UI. This is resulting in both a horribly slow pace of delivery *and* a growing crowd of seriously frustrated engineers, product managers and designers.
 
 Alistair has gone through the initial steps of our game plan, and done them quite well indeed.
 
@@ -104,24 +108,21 @@ Alistair wrote that down his notes. After talking with a PM friend (and fact-che
 
  1. Add enterprise-facing features to their core product, ProClaims
 
-    So they  can introduce a new, premium pricing tier
+    This will allow them to introduce a new, premium pricing tier, targeting $1.60/claim.
 
  2. Develop a new fraud detection product
 
-    So they can sell it as an add-on to ProClaims
-
-Together, those should allow them increase their ASP.
+    So they can sell it as an add-on to ProClaims, capturing a few more cents per claim.
 
 *** 3.The Team's Role In Overcoming The Challenge
 
 Having acquired this understanding, Alistair can now see the epics and stories his team is working on in a new light.
 
-First, his team has been working for months to take the (terrifying!) legacy code at the heart of ProClaims and restructure it so that customers can build *custom workflows*. Having done his strategic deep dive, Alistair has come to realize that the custom workflows are intended to unlock an enterprise pricing tier.[fn:: "How on earth can this be news to Alistair?" you may be asking. "Didn't his PM make clear to him the impact of his work?" Oh, you sweet child. The AccuraClaim engineering and product teams have been talking about "Filter-Based Workflows" for months, because that's how the feature is going to be *implemented*. The business outcome of unlocking a new pricing tier has been lost in the shadowy mists of exec team discussions.]
+First, his team has been working for months to take the (terrifying!) legacy code at the heart of ProClaims and restructure it so that customers can build *custom workflows*. Having done his strategic deep dive, Alistair has come to realize that the custom workflows are intended to unlock the enterprise pricing tier.[fn:: "How on earth can this be news to Alistair?" you may be asking. "Didn't his PM make clear to him the impact of his work?" Oh, you sweet child. The AccuraClaim engineering and product teams have been talking about "Filter-Based Workflows" for months, because that's how the feature is going to be *implemented*. The business outcome of unlocking a new pricing tier has been lost in the shadowy mists of exec team discussions.]
 
 Alistair's team's work is *also* important for the planned fraud detection product. Once they've finished restructuring the nasty legacy code, the underying data will be sane enough to allow another team to build fraud models on top of it (attempts up to now have foundered on a morass of special cases encoded in bizarre ways in the data).
 
-Alistair feels excited, on the subway ride home, as he realizes how clearly he understands the potential impact of his team's work.
-
+On his subway ride home, Alistair feels excited about how clearly he understands the potential impact of his team's work.
 
 # This is what he has learned.
 
@@ -133,7 +134,7 @@ Alistair feels excited, on the subway ride home, as he realizes how clearly he u
 
 Over his morning coffee the next day, Alistair marshals his thoughts.
 
-His team is drifting way behind plan, in no small part because of Max injecting himself into every single decision. That has recently manifested as Max mysteriously announcing that he needs to do a final review and sign off before any changes go live to production. This has taken their already-sluggish pace of delivery and completely stalled it out.
+His team is drifting way behind plan, in no small part because of Max injecting himself into every single decision. That has recently manifested as Max mysteriously announcing that he needs to do a final review and sign off before *any* changes go live to production. This has taken their already-sluggish pace of delivery and completely stalled it out.
 
 Alistair sips his coffee. He knows that Max is desperate to get delivery moving again, because people across the company are making concrete plans to market and sell the new products early next year. Every day they don't fix the way they work is another day they're drifting further behind.
 
@@ -179,11 +180,11 @@ Max grows still. "What do you mean?"
 
 # A flush creeps up Max's neck.
 
-"I just wanted to ask if we could find a way for you to, well, delegate a bit more. I think we'd move faster, I think we'd have a better shot at hitting our delivery deadlines for next year."
+"I just wanted to ask if we could find a way for you to, well, delegate a bit more. I think we'd move faster, I think we'd have a better shot at hitting our delivery deadlines for next year. For starters, I'd like to empower the teams to ship to production without your review and approval."
 
-Alistair sits back. He can feel his heart racing. But at least he said *something*.
+Alistair can feel his heart racing.
 
-Before we go any further, let's note that what Alistair has just said has the benefit of being 100% true. The team *is* drifting behind. Everyone *is* waiting on Max for decisions. If Max can't find a way to delegate, they *are* going to be good and thoroughly screwed. But how will Max handle this bracing dose of the truth?
+Before we go any further, let's note that what Alistair has just said has the benefit of being 100% true. The team *is* drifting behind. Everyone *is* waiting on Max for decisions. If Max can't find a way to delegate, they *are* going to be good and thoroughly screwed. Bottlenecking every single change to production is a guaranteed recipe for disaster. But how will Max handle this bracing dose of the truth?
 
 Max frowns. He looks away. He look up at a corner of the room. Then, he brings his gaze back to Alistair. "What decisions, exactly?"
 
@@ -219,17 +220,17 @@ Despite making a clear, rational case, despite speaking to the long-term goals t
 
 # In order to understand what was triggered, and therefore imagine a different way that Alistair could approach Max, we need to understand what Max is feeling.
 
-Let's ask: why is Max demonstrating this obviously problematic behavior?
+Why is Max demonstrating this obviously problematic behavior?
 
-Note that it's not just problematic because it's personally unpleasant and makes Alistair feel bad. Max's behavior is also *self-defeating*. By refusing to engage in questions about how to unlock independent decision-making, Max is actually preventing himself from achieving his own long-term goals.
+Note that it's not just problematic because it makes Alistair feel bad. Max's behavior is also *self-defeating*. By refusing to engage in questions about how to unlock independent decision-making, Max is actually preventing himself from achieving his own long-term goals.
 
 Why would he do this?
 
-I'm going to say up front that we're not allowed to answer:
+We're not allowed to answer:
 
 /"Because Max is a total jerkface."/
 
-Yes, yes, that's precisely how it feels. But look, no one wakes up in the morning and tells their mirror that they're going to be the best possible jerkface today. There's something going on that makes Max *feel* like he's acting in a reasonable manner. In fact, I'll go further:
+Yes, yes, that's precisely how it feels. But look, no one wakes up in the morning and tells their mirror that they're going to be the most possible jerkface today. There's something going on that makes Max *feel* like he's acting in a reasonable manner. In fact, I'll go further:
 
 Max perceives himself to be in a situation where he's acting in the *only reasonable manner possible*.
 
@@ -241,7 +242,7 @@ Let's imagine that we have a magic wand that allows us to understand someone's i
 
 Here is what we learn about Max's situation, at AccuraClaim:
 
- - *A few months back, a confusing product change made it through to some important customers.*
+ - *A few weeks back, a confusing product change made it through to some important customers.*
 
    The buyer at their largest customer, Old Reliable Insurance, personally complained to AccuraClaim's CEO and threatened to cancel their upcoming renewal.
 

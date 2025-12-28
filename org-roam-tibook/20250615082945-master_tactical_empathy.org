@@ -9,9 +9,9 @@
 
 We're going to talk in this chapter about a foundational skill for building trust and rapport.
 
-Developing this specific skill can dramatically increase your *influence* with the people around you--very much including your stakeholder. If you can demonstrate to your stakeholder that you truly understand and care about their concerns, you will find them enormously more ready to listen to *your* concerns, and then be willing work with you to find a way to address both.
+Developing this specific skill can dramatically increase your influence with the people around you--very much including your stakeholder. If you can demonstrate to your stakeholder that you truly understand and care about their concerns, you will find them enormously more ready to listen to *your* concerns, and then be willing to work with you to find a way to address both.
 
-The specific skill is Echoing Back.
+We call the skill Echoing Back & Summarizing.
 
 Which, in brief, simply means summarizing what you've just heard your conversational counterpart say to you, and then asking if you've got it right.
 
@@ -23,15 +23,15 @@ This simple-sounding conversational widget is one of the most valuable skills I 
 
 You'll be employing Echoing Back in just about every step of the overall game plan:
 
- - You'll use it when you mine for business context and goals during Identify a Strategic Outcome,
+ - You'll use it when you mine for business context and goals to [[id:A1EF14A2-5F19-488D-926C-A8208142E794][Develop An Actionable Statement Of Strategy]]
 
- - When you Identify Key Emotions, you'll echo back as part of sussing [puzzling, ferreting] out your stakeholder's underlying feelings
+ - When you identify key emotions, you'll echo back as part of sussing out your stakeholder's underlying feelings
 
- - As part of Propose an Adjustment, you'll use it to smoothly integrate any concerns or suggestions your stakeholder raises
+ - As part of [[id:5C7A0B37-8984-4A1F-8371-C1FCEB637174][Making a Compelling Offer]], you'll use it to smoothly integrate any concerns or suggestions your stakeholder raises
 
-We'll bring Echoing Back to life in the remainder of this chapter, and offer some concrete exercises to practice it. Although it sounds simple, it's interestingly hard to retrain yourself to confidently and repeatedly use it.
+We'll bring Echoing Back to life in the remainder of this chapter, and offer some concrete exercises to practice it. Although it sounds simple, it's interestingly hard to retrain yourself to use it well.
 
-*Sidebar: Wait? Do Engineers Need All This Empathy Bushwa?*
+*Sidebar: Wait? Do /Engineers/ Really Need All This Empathy Bushwa?*
 
 /"Sure, Dan, I can see how building trust and rapport is important for *product*, but isn't that kind of the whole point of having a product team? So the engineers can just focus on building stuff? Do I really need to practice this Echoing Back thing? Or any other tactical empathy skills?"/
 
@@ -39,19 +39,19 @@ Indeed, tactical empathy is fundamental survival skill for a PM.[fn:: I test for
 
 Most of the ways I know how to be a really strong, really valuable engineer involve working with other humans. And these skills are just crazy valuable for doing so.
 
-** Tactical Empathy
+** Defining Tactical Empathy
 
-# /In my negotiating course, I tell my students that empathy is "the ability to recognize the perspective of a counterpart, and the vocalization of that recognition." That's an academic way of saying that empathy is paying attention to another human being, asking what they are feeling, and making a commitment to understanding their world./
+From /Never Split The Difference/, by Chris Voss and Tahl Raz:
 
-   # /Notice that I don't say anything about agreeing with the other person's values and beliefs or giving out hugs. That's sympathy. What I'm talking about is trying to understand a situation from another person's perspective./
+/In my negotiating course, I tell my students that empathy is "the ability to recognize the perspective of a counterpart, and the vocalization of that recognition." That's an academic way of saying that empathy is paying attention to another human being, asking what they are feeling, and making a commitment to understanding their world./
+
+/Notice that I don't say anything about agreeing with the other person's values and beliefs or giving out hugs. That's sympathy. What I'm talking about is trying to understand a situation from another person's perspective./
 
     /Empathy is paying attention to another human being, asking what they are feeling, and making a commitment to understanding their world. [It's] trying to understand a situation from another person's perspective./
 
     /One step beyond that is tactical empathy./
 
     /Tactical empathy is understanding the feelings and mindset of another in the moment and also hearing what is *behind* those feelings so you increase your influence in all the moments that follow. It's bringing our attention to both the emotional obstacles and the potential pathways to getting an agreement done./
-
-From /In Never Split The Difference/, by Chris Voss, with Tahl Raz.
 
 What makes this form of empathy "tactical" is that it *has a purpose*. You are trying to get to an /agreement/. To do so, you're looking for /emotional obstacles/ to overcome. You're trying to find /potential pathways/ forward.
 
@@ -63,7 +63,7 @@ Also, I *love* that Voss describes it as /"bringing your attention"/. So much of
 
 We'll touch on various tactical empathy skills throughout the book, but for this chapter, we'll just focus on echoing back.
 
-Here's how it works. Someone is talking to you. They pause You say:
+Here's how it works. Someone is talking to you. They pause. You say:
 
  - "If it's okay, I'm going to say that back, make sure I understood it."
 
@@ -79,11 +79,11 @@ Why is this so powerful?
 
 First, by summarizing, you will just about always discover something you didn't get quite right.
 
-Your stakeholder will say, "Almost. But it's honestly not /that/ big a deal if we churn a few customers. What's /really/ important is..."
+When you say "And therefore, we have to do everything we can to retain customers. Is that about right?", your stakeholder says, "Almost. But it's honestly not /that/ big a deal if we churn a few customers. What's /really/ important is..."
 
 When this happens, you thank them and *immediately try again*:
 
- - "Oh, interesting! I didn't realize that. It sounds like it's more:"
+ - "Oh, interesting! I didn't realize that. It sounds like it's more..."
 
  - <summarize what you heard again, incorporating this piece of information>
 
@@ -91,9 +91,9 @@ When this happens, you thank them and *immediately try again*:
 
 You repeat that little game until, eventually, they nod and say some form of "Yes, that's exactly right."
 
-Refining your understanding this way is *incredibly valuable*. No matter how carefully you listen, it's almost always impossible to fully understand and align with someone based on a single statement they make.
+Refining your understanding this way is *incredibly valuable*.
 
-By echoing back and inviting them to interactively "fix" your understanding, you can very quickly get to a fuller, richer, more nuanced understanding of what your stakeholder feels or believes. Which improved understanding will serve you *extremely* well, both when you later wish to influence themd, but also for accomplishing various key parts of your job. Basing your efforts on a flawed understanding of what your stakeholder is trying to tell you is a path straight to misery.
+By echoing back and inviting them to interactively "fix" your understanding, you can very quickly get to a fuller, richer, more nuanced understanding of what your stakeholder feels or believes. Which improved understanding will serve you *extremely* well, both when you later wish to influence them, but also for accomplishing various key parts of your job. Basing your efforts on a flawed understanding of what your stakeholder is trying to tell you is a path straight to misery.
 
 But there's another, extremely significant benefit to using this pattern.
 
@@ -101,7 +101,7 @@ Echoing back helps your stakeholder to *feel understood*.
 
 When a person explains something they care about, it's, well, extremely rare for them to feel genuinely understood. For some stakeholders, that might present as a vague feeling of, "Ugh, that thing I said sounded really complicated, I'm not sure I made myself clear." For other stakeholders, especially those who enjoy projecting their insecurities onto others, it might present more as, "Man, I sure did an objectively awesome job of communicating that point. I wonder if my listener is too stupid to understand."
 
-If my game plan for working with stakeholders assumed they were all kind and pleasant, I would not have very much to offer you. Luckily, that's not the case. You can address both "nice" and "not so nice" stakeholder the same way -- because they are driven by the same underlying uncertainty about being understood.
+(If my game plan for working with stakeholders assumed they were all kind and pleasant, I would not have very much to offer you. Luckily, that's not the case. You can address both "nice" and "not so nice" stakeholder the same way -- because they are driven by the same underlying uncertainty about being understood.)
 
 # Humans rarely experience themselves as being fully understood.
 
@@ -185,17 +185,23 @@ Let's rewind, and try one more time.
 
 Let's see what happens if, despite feeling that rush of emotion, Deanna is able to access her ability to echo back.
 
-Deanna makes herself pause. She sees, just to the side of her screen, the sticky note she posted there, which has "ALWAYS ECHO BACK" written on it. And underlined.
+Karim shrugs. "I mean, it can't just be these little onesie twosie friends and family deals we've been getting. We need a *big* customer to commit. And we need them to *love* the product. We need to see excitement." He sits back. "That's why I keep telling you that we have to make the product *awesome*." He nods again, apparently in vigorous agreement with himself.
 
-She takes a deep breath, and slowly exhales. She forces herself to go through her script.
+Deanna sees, just to the side of her screen, the sticky note she posted there, which has "ALWAYS ECHO BACK" written on it. And underlined.
+
+She takes a deep breath, and forces herself to slowly exhale. Methodically, she goes through her script.
 
 "Let me say that back, see if I understood. We need to see sales, and some of those sales have to be from bigger customers than we've been getting. *And* we need to see those bigger customers *loving* the product. We need to see them highly *engaged*. That's why we need to keep making the product better. Is that about right?"
 
-Karim stares at her intently. "That's pretty good," he says, slowly. It was... interesting to hear her summarize their goals. It sounded like she actually understood? Maybe she finally sees why he can't just let the product sit there, why he has to keep pushing to improve it. But, there was /something/ that didn't sound quite right. "But..." he starts, but then trails off.
+Karim stares at her intently. "That's pretty good," he says, slowly.
 
-"But what?" asks Deanna. This is easy for her to say--she's genuinely curious. And they're not arguing.
+What's now happening for Karim?
 
-Karim looks away, gathers his thought. It clicks into place. "You said we need to see those big customer highly enaged. I'm not sure that's realistic. For those big customers, it's going to take a while to ramp up to full use. What we need in the shorter term is for the buyer to love it."
+It was... interesting to hear Deanna summarize their goals. It sounded like she actually understood? Maybe she finally sees why he can't just let the product sit there, why he has to keep pushing to improve it. But, there was /something/ that didn't sound quite right. "But..." he starts, but then trails off.
+
+"But what?" asks Deanna. This is easy for her to say--she's genuinely curious. And, for once, they're not arguing.
+
+Karim looks away to gather his thought. It clicks into place. "You said we need to see those big customer highly enaged. I'm not sure that's realistic. For those big customers, it's going to take a while to ramp up to full use. What we need in the shorter term is for the buyer to love it."
 
 "Oh, interesting," says Deanna, eagerly. "Let me see if I've got that. We /do/ need more sales, and we /do/ need some of those sales to be to larger customers. But, when we actually close those deals, getting to full engagement will take a while. So what we're looking for in the shorter term, is evidence that the buyer genuinely *loves* the product."
 
@@ -260,7 +266,7 @@ Karim will not hear this as an exciting opportunity to collaborate. He's going t
 
 ** How To Practice Echoing Back
 
-I recommend doing your practicing when the stakes are low -- aka, *not* in the midst of a critical negotiation with your stakeholder.
+I recommend doing your initial practicing when the stakes are low -- aka, *not* in the midst of a critical negotiation with your stakeholder.
 
 Instead, pick someone you trust (it doesn't have to be a co-worker, I've seen people profitably practice with a friend, roommate, or spouse). If you're feeling nervous, you can explicitly ask that person, "Is it okay if I practice some active listening skills that I'm working on for my job?"
 
@@ -270,11 +276,11 @@ Before they start to talk, tell yourself, "My job is to deliberately use the ech
 
 Then, *every single time* the other person pauses after saying something, employ the tactic. Try occasionally breaking in and pausing them, and offering little summaries and checking if you got it right.
 
-It will feel weird and stilted as heck.
+It should feel weird and stilted as heck.
 
 After a few conversation rounds, pause, and ask the person "How did that feel?"
 
-Listen to them, and repeat back what they tell you.[fn:: It's empathetic turtles the whole way down.]
+Listen to them, and repeat back what they tell you.[fn:: It's empathetic turtles all the way down.]
 
 Ask your friend questions like:
 
@@ -294,13 +300,13 @@ Throughout the rest of the book, you'll see a ton of places where I'll ask you t
 
 A final point.
 
-As you work to learn these skills, you'll be very well-served by living in a place of *curiosity*.
+As you work to learn these skills, you'll be very well-served by living in a place of genuine curiosity.
 
-If you can allow yourself to be genuinely curious, all of the tactical empathy approaches will come across as *sincere* -- which makes them 100x more effective.
+If you can allow yourself to be curious, all of the tactical empathy approaches will come across as *sincere* -- which makes them 100x more effective.
 
 Allow yourself to be curious about your business, allow yourself to be curious about your stakeholders, allow yourself to be curious about the problems in that your stakeholder is wrestling with.
 
-Accessing curiosity helps quiets a sense of fear. It's asking the part of you that is hitting the internal panic button to take a smoke break. It can even mean helpfully deluding yourself into believing everything is going to be just fine, no matter what.
+Accessing curiosity helps quiets a sense of fear. It's asking the part of you that is hitting the internal panic button to take a smoke break.
 
 It can mean unhooking the part of your brain worries about whether or not you'll be percieved as intelligent or experienced (which is a totally natural thing to be worried about!)
 

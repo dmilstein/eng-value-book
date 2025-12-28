@@ -10,55 +10,13 @@ It is a truth universally acknowledged, that a person in possession of a career 
 
 # [deal with, handle, act on]
 
-In this book, I'm going to share a set of ideas on how to face that frustration---and *not* by simply giving up hope. Ideas for moving from trapped inaction to positive, productive action. Ideas for persuading your very own Important Person to *change their behavior*. Ideas for *getting unstuck*.
+In this book, I'm going to share a set of ideas on how to face that frustration---and *not* by simply giving up hope. Ideas for moving from trapped inaction to positive, productive action. Ideas for persuading your very own Important Person to change their behavior.
 
-I'm not going to claim that applying these ideas is *easy*. If that were true, well, pretty much no one would ever be frustrated with their bosses, peers or stakeholders.
-
-But I do believe it's *possible*---and far more often than people realize. It's possible to build trust and rapport with even very challenging bosses, peers and stakeholders. Over time, it's possible to develop a surprisingly deep sense of trust and partnership, with people you once could only see as frustrating impediments.
-
-#  Could splice in: It's possible to lean on that trust and rapport to draw those challenging people into productive collaborations. It's possible to focus those collaborative relationships on, among other things, gradually improving how you work together.
-
-Of course, making that kind of change takes real work and real time.
-
-I believe the effort is worth it, for two reasons.
-
-First, being stuck is, well, *kind of a terrible way to live*. Spending your working hours in a state of powerless resentment can be dangerous to your personality as a whole. The lack of agency can start to seep into other parts of your life.
-
-# Your mind might drift into a habit of endlessly rehearsing your frustrations. Your sleep might start to break down. You might discover you're having trouble staying fully present with family or friends.
-
-Human beings are not great at compartmentalizing a feeling of powerlessness.
-
-Second, I'll encourage you to make the effort to get unstuck because, believe it or not, it can be *fun*. Other humans are endlessly fascinating! Getting unstuck means finding ways to work *with* those other humans, instead of desperately trying to work *around* them. Getting unstuck allows your to live in a place of curiosity, and to engage your own sense of playful, creative problem-solving. Which is way, way more fun than explaining to your mirror, once again, why your boss is crazy and wrong.[fn:: Though it is maybe nice that your mirror always agrees with you?]
-
-** The State of Being Stuck
-
-# Defining & Illustrating The State of Being Stuck
-
-# XXX Grab thing from Substack
-
-*Being Stuck*: /Feeling like it's impossible to truly succeed at your job, due to a frustrating pattern of interaction with an Important Person./
-
-I'll call out three things from the concise definition.
-
-First, to be stuck, you must feel truly worried about *succeeding at your job*. It's not enough to simply be irritated with a colleague, even if that irritation is quite intense ("If I have to hear George lecture us all about The Customer one more time, so help me god"). The internal emotional dial only truly goes up to eleven if you feel like you're powerlessly drifting towards a failure (and, in particular, a failure for which you will be blamed).
-
-Second, to be stuck, there has to be an Important Person involved. That's what puts you into the state of powerlessness, of low agency. In fact, we'll *define* an Important Person as: someone who has influence or control over your ability to succeed at your job. That could, of course, be your boss. But it could also be a stakeholder or a key peer.
-
-# That could of course be your boss. But it could also be a stakeholder who has significant influence over what your team builds, or a key peer with whom you have to collaborate to build that thing.
-
-# An Important Person is a) someone you have to work with in order to succeed at your job, and b) someone who you can't just *tell* to change their behavior.
-
-# Some important person is *acting* like a jerk, it's not just that they *are* a jerk.
-
-Finally, to bei stuck, there must be a frustrating *pattern of interaction*. In other words, there must be problematic *behavior*, not just a problematic *personality*. Your COO may be brusque and patronizing, and that may legitimately frustrate the heck out of you.[fn:: Ask my friends about how much I, personally, enjoy being patronized!] But those unpleasant traits are not, in and of themselves, enough to cause you to be stuck. If, however, the COO's dismissive rudeness causes them to shut down planning sessions without first understanding the risks you are trying to surface, that's another story altogether.
-
-Why this pedantic distinction between "personality" and "patterns of interaction"?
-
-Focusing on patterns of interaction makes your concerns far more actionable. It sets you up to make a request of your Important Person to change their *behavior*, initially in some small way. Although that's still a plenty tricky request to make, it's way, way, way easier than asking them to change their *personality*. You're going to have much better luck asking your COO, "Could we maybe try out a new approach during our planning sessions?", than asking, "Could we maybe try out you're not being such a dick all the time?"[fn:: Even if you're sorely, sorely tempted to try the latter, just once.]
+Ideas for *getting unstuck*.
 
 ** Three Totally Made Up Examples
 
-To bring this definition to life, below are three /completely fictional/ examples.[fn:: No examples in this book are based on any actual stakeholders I have ever worked with and who might be reading this footnote, nor on any behavior I myself demonstrated when in a position of authority, because, luckily, I Am Perfect And Have No Flaws, okay let's go.]
+To understand what I mean by Being Stuck, please refer to the following three /completely fictional/ scenarios. (each of which we'll return to, later in the book)[fn:: No examples in this book are based on any actual stakeholders I have ever worked with and who might be reading this footnote, nor on any behavior I myself demonstrated when in a position of authority, because, luckily, I Am Perfect And Have No Flaws, okay let's go.]
 
 *The Agent of Chaos*
 
@@ -108,19 +66,43 @@ I suspect you could, too!
 
 Humans in positions of power have a truly marvelous ability to come up with new ways to be frustrating and crazy. "Happy teams are all alike, every unhappy team is unhappy in their own way," wrote Leo Tolstoy, in his classic guide to agile software development, /Anna Karenina/.[fn:: It's possible I just spent half an hour trying to find a *third* famous opening line I could mangle in this introduction. Maybe, "I write this sitting in the break room sink." Or maybe, "We were somewhere around Barstow when the OKR's began to take hold." Or perhaps, "Gregor From Ops awoke one morning from uneasy dreams to find himself transformed on Zoom into a gigantic insect."]
 
-Let's talk about what you can do, if you find yourself in of these unpleasant situations.
+** The State of Being Stuck
+
+# Defining & Illustrating The State of Being Stuck
+
+# XXX Grab thing from Substack
+
+*Being Stuck*: /Feeling like it's impossible to truly succeed at your job, due to a frustrating pattern of interaction with an Important Person./
+
+I'll call out three things from the concise definition.
+
+First, to be stuck, you must feel truly worried about *succeeding at your job*. It's not enough to simply be irritated with a colleague, even if that irritation is quite intense ("If I have to hear George lecture us all about The Customer one more time, so help me god"). The internal emotional dial only truly goes up to eleven if you feel like you're powerlessly drifting towards a failure (and, in particular, a failure for which you will be blamed).
+
+Second, to be stuck, there has to be an Important Person involved. That's what puts you into the state of low agency. In fact, we'll *define* an Important Person as: someone who has influence or control over your ability to succeed at your job. That could, of course, be your boss. But it could also be a stakeholder or a key peer.
+
+# That could of course be your boss. But it could also be a stakeholder who has significant influence over what your team builds, or a key peer with whom you have to collaborate to build that thing.
+
+# An Important Person is a) someone you have to work with in order to succeed at your job, and b) someone who you can't just *tell* to change their behavior.
+
+# Some important person is *acting* like a jerk, it's not just that they *are* a jerk.
+
+Finally, to be stuck, there must be a frustrating *pattern of interaction*. In other words, there must be problematic *behavior*, not just a problematic *personality*. Your COO may be brusque and patronizing, and that may legitimately frustrate the heck out of you.[fn:: Ask my friends about how much I, personally, enjoy being patronized!] But those unpleasant traits are not, in and of themselves, enough to cause you to be stuck. If, however, the COO's dismissive rudeness causes them to shut down planning sessions without first engaging with the risks you are trying to surface, that's another story altogether.
+
+Why this pedantic distinction between "personality" and "patterns of interaction"?
+
+Focusing on patterns of interaction makes your concerns *actionable*. It sets you up to make a request of your Important Person to change their behavior, initially in some small way. Although that's still a plenty tricky request to make, it's way, way, way easier than asking them to change their *personality*. You're going to have much better luck asking that COO, "Could we maybe try out a new approach during our planning sessions?", than asking, "Could we maybe try you're not being such a jerk all the time?"[fn:: Even if you're sorely, sorely tempted to try the latter, just once.]
 
 ** The Getting Unstuck Game Plan
 
 We're going to develop a step-by-step game plan for gradually drawing your Important Person, whom we'll term your "stakeholder", into a process of collaborative problem-solving [with you].
 
-We'll focus on steadily making small improvements, building trust and rapport as we go. You'll earn a series of small, shared wins. You'll demonstrate, over and over, that you understand and care about the challenges your stakeholder is wrestling with.
+You'll focus on steadily making small improvements, building trust and rapport as you go. By doing so, you'll earn a series of small, shared wins. You'll demonstrate, over and over, that you understand and care about the challenges your stakeholder is wrestling with.
 
 Working in this incremental fashion is far more effective than trying to make a single big change all at once.
 
-In this it of course resembles *every other* facet of developing software. Unsurprisingly, Waterfall super doesn't work for adjusting complex human systems, with all their delightful forms of complexity.[fn:: I've had software systems fail for an enormous variety of reasons, but, so far, not because one component wasn't invited to another component's party. Of course, I'm writing this late in 2025, and maybe in a few years soothing moody LLM's will turn into a full-time job?]
+In this it of course resembles *every other* facet of developing software. Unsurprisingly, Waterfall /also/ doesn't work for adjusting complex human systems, with all their delightful forms of complexity.[fn:: I've had software systems fail for an enormous variety of reasons, but, so far, not because one component wasn't invited to another component's party. Of course, I'm writing this late in 2025, and maybe in a few years soothing moody LLM's will turn into a full-time job?]
 
-In the game plan, going through a single increment of improvement consists of four key steps:
+In the game plan, going through a single increment of improvement consists of four steps:
 
  1. Identify a long-term *strategic outcome* that your stakeholder cares intensely about
 
@@ -128,7 +110,7 @@ In the game plan, going through a single increment of improvement consists of fo
 
  3. Make a *compelling offer* to incrementally adjust how you work together
 
- 4. When you put that adjustment in place, ensure the new way of working *feels like a win* for your stakeholder
+ 4. Ensure the new way of working *feels like a win* for your stakeholder, and then return to step 1.
 
 # In the next chapter, we'll dig into those steps, and explore why each is so valuable.
 
@@ -179,9 +161,9 @@ Stakeholders do not always (usually?) clearly share the long-term business outco
 
 No, really!
 
-If you're wondering how this could even be possible, here's how it happens: such stakeholders tell themselves that they don't want to *distract* you. They tell themselves that your team *just needs to execute*, and, by avoiding talk about long-term goals, they are helping you to *focus*.[fn:: Whenever someone has to told me, "Look, you just need to /execute/," what they were always, always, always /actually/ saying was "Please stop asking so many damn questions". And they were saying /that/ because the questions were cheerfully probing at risks they were somewhat desperately trying to pretend didn't exist. So if someone asks you questions, like, don't do that.]
+If you're wondering how this could even be possible, here's how it happens: such stakeholders tell themselves that they don't want to *distract* you. They tell themselves that your team *just needs to execute*, and, by avoiding talk about long-term goals, they are helping you to *focus*.[fn:: Whenever someone has to told me, "Look, you just need to /execute/," what they were always, always, always /actually/ saying was "Please stop asking so many damn questions". And they were saying /that/ because the questions were cheerfully probing at risks they were somewhat desperately trying to pretend didn't exist. So if you're in a position of authority, and someone asks you lots of questions, like, don't do that.]
 
-In "Identify A Strategic Outcome" we'll dig deeply into both why stakeholders often fail to share this kind of context, and also what you can do to ensure you're getting past their day-to-day requests, to what they truly care about. Even if they're initially resistant to a conversation about anything but the project they're demanding a status update on.
+In "Develop An Actionable Statement of Strategy" we'll dig deeply into both why stakeholders often fail to share this kind of context, and also what you can do to ensure you're getting past their day-to-day requests. Even if they're initially resistant to a conversation about anything but the project they're demanding a status update on.
 
 ** 2. Build An Empathetic Understanding Of Their Concerns
 # Build An Empathetic Understanding Of Their Situation
@@ -208,65 +190,15 @@ Thus, the second step in the game plan is to develop an empathetic understanding
 
  - Understand their *dreams*, so that you can offer a way to move towards a long-term aspirational vision
 
-To be carefully clear, developing an empathetic understanding doesn't mean justifying or excusing problematic behaviors by someone in a position of power. It means being able to articulate an understanding of why your stakeholder might both feel and behave the way they do. An understanding of the situation they perceive themselves as being in.
+To be carefully clear, developing an empathetic understanding doesn't mean justifying or excusing problematic behaviors by someone in a position of power. It means being able to articulate an understanding of why that person might both feel and behave the way they do. An understanding of the situation they perceive themselves to be in.
 
-We'll explore how to go about this in Mine for Frustrations, Fears & Dreams.
+We'll explore how to go about this in [[id:5903AFE7-4B1E-422C-8537-2C56BBFBA643][Humans Have Feelings, Ignore At Your Own Risk]], and [[id:47DD5FFD-3D09-4A7B-890E-2C5933D583BB][Mastering The Art of Divining Emotions]].
 
 ** 3. Propose An Incremental Adjustment
-# 3. Propose A Compelling Incremental Adjustment
-# 4. Obtain A Short-Term Commitment
 
-# Obtain Commitment To An Incremental Adjustment
+/Make a *compelling offer* to incrementally adjust how you work together/
 
-
-
-# Propose An Incremental Adjustment And Get A Yes
-
-# Propose An Incremental Adjustment That Is Easy To Say Yes To
-
-#
-
-# Propose An Incremental Adjustment (In A Compelling Manner)
-
-# Propose An Incremental Adjustment In A Compelling Manner
-
-# Propose An Incremental Adjustment In A Compelling Fashion
-
-#
-
-# Propose An Incremental Adjustment (In A Compelling Manner)
-
-
-
-# Propose An Incremental Adjustment (In A Compelling Manner)
-
-# Make A Compelling Offer To Obtain A Short-Term Commitment
-# Obtain A Short-Term Commitment By Way Of A Compelling Offer
-
-# Obtain A Short-Term Commitment By Making A Compelling Offer
-# Make A Compelling Offer
-
-# Prepare A Compelling Offer And Deliver It Compellingly
-
-# Prepare A Compelling Offer And Share It Well
-
-# Prepare A Compelling Offer And Deliver It In A Compelling Fashion
-
-# Prepare A Compelling Offer And Get A Yes
-
-# Use A Compelling Offer To Get A Yes
-
-# Use A Compelling Offer To Get A Short-Term Commitment
-
-# Make A Compelling Offer To Get A Short-Term Commitment
-
-# Make A Compelling Offer & Get A Short-Term Commitment
-
-# Get A Short-Term Commitment By Making A Compelling Offer
-# Obtain A Short-Term Commitment By Making A Compelling Offer
-
-
-/Propose a *small adjustment* in how you work together, speaking to their emotional experience as you do so/
+# /Propose a *small adjustment* in how you work together, speaking to their emotional experience as you do so/
 
 Armed with an understanding of both your stakeholder's strategic goals, and their inner emotional landscape, you're ready to propose an incremental adjustment in how you work together.
 
@@ -278,41 +210,31 @@ You'll pick a specific such adjustment, which, if possible:
 
   - Moves you /both/ a little closer to the long-term strategic outcome
 
-You'll offer this adjustment to your stakeholder in a carefully structured manner. You'll go through the following four steps, in a sequence that is specifically designed to make it as easy as possible for your stakeholder say yes:
+You'll offer this adjustment to your stakeholder in a carefully structured manner. You'll go through the following steps, in a sequence that is specifically designed to make it as easy as possible for your stakeholder say yes:
 
   1. Invoke the strategic outcome
 
   2. Share your understanding of their concerns
 
-  3. Share your concerns
+  3. Share your own concerns, directly but non-judgmentally
 
-  4. Propose an adjustment in how you work together
+  4. Offer an adjustment in how you work together
 
-Fun fact: this approach steals ideas from two books, one for dealing with teenagers, the other with terrorists! That's Raising Human Beings, by Ross Greene, and Never Split The Difference, by Chris Voss and Tahl Raz. Both are truly excellent! And both are surprisingly relevant to working with your CEO!
+  5. Invite collaboration around that adjustment
 
-We'll explore this step in detail in Make a Compelling Offer.
+Fun fact: this approach steals ideas from two books, one for dealing with teenagers, the other with terrorists! That's, respectively, Raising Human Beings, by Ross Greene, and Never Split The Difference, by Chris Voss and Tahl Raz. Both are truly excellent! And both are surprisingly relevant to working with your CEO!
+
+We'll explore this step in detail in [[id:5C7A0B37-8984-4A1F-8371-C1FCEB637174][How To Make a Compelling Offer]].
 
 ** 4. Ensure A Win, Build Momentum, GOTO 1
 
-# To Create Good Feels
-#  4. Ensure A Win (And Ensure It Feels Like A Win)
-# Ensure A Win & Lever Up To More
+/Ensure the new way of working *feels like a win* for your stakeholder, and then return to step 1./
 
-#  4. Ensure A Win & Lever Up To More
+# /When you put that adjustment in place, ensure the new way of working *feels like a win* for your stakeholder/
 
-#  4. Ensure A Win & Return To Step 1
+Once you get a commitment to try something new, you'll then work hard to ensure the initial period of change feels at least a little bit awesome for your stakeholder.
 
-#  4. Ensure A Win & Build Forward
-
-#  4. Ensure A Win, Lather, Rinse, Repeat
-
-
-
-/When you put that adjustment in place, ensure the new way of working *feels like a win* for your stakeholder/
-
-Once you get a commitment to try something new, you'll then work hard to ensure the initial period of change *feels* like a win for your stakeholder.
-
-First off, you'll make absolutely certain your stakeholder has something meaningful to *do*, in this new way of working... even if right now all you are most desperately hoping for is to be /left alone/. You'll ask your stakeholder to play a genuinely critical role in this first increment of change. Perhaps that's making key decisions, or guiding work at certain key moments, or negotiating with other parties on key terms.
+You'll make absolutely certain your stakeholder has something meaningful to *do*, in this new way of working... even if right now all you are most desperately hoping for is to be /left alone/. You'll ask your stakeholder to play a genuinely meaningful role in this first increment of change. Perhaps that's making key decisions, or guiding work at certain key moments, or negotiating with other parties on key terms.
 
 Then, as the work unfolds, you'll find small, meaningful wins to celebrate together. You'll steadily connect incremental progress today to the long-term outcomes you are hoping to some day achieve. You'll help your stakeholder feel cautiously hopeful about this new way of working together.
 
@@ -325,19 +247,37 @@ Then, as the work unfolds, you'll find small, meaningful wins to celebrate toget
 
 # Lather, Rinse And Repeat
 
-Once you successfully get through the first period of change, you'll then:
+Once you successfully get through the first period of change, you'll:
 
- - Update your picture of your stakeholder's goals and feelings
+ - Take a moment to celebrate with your stakeholder
+
+ - Update your picture of their goals and feelings
 
  - Decide which of your own concerns to address next
 
  - Propose a next incremental adjustment
 
-Over time, you can gradually build deeper and deeper trust and rapport, allowing you to propose ever larger changes in how you work together.
+Over time, you will gradually build deeper and deeper trust and rapport, allowing you to propose ever larger changes in how you work together.
+
+** Prepare Yourself For Some Interestingly Hard Work
+
+Now, I'm not going to claim that running this game plan is *easy*. If that were true, well, pretty much no one would ever be frustrated with their bosses, peers or stakeholders.
+
+But I do believe it's *possible*---and far more often than people realize. It's possible to build trust and rapport with even very challenging bosses, peers and stakeholders. Over time, it's possible to develop a surprisingly deep sense of partnership, with people you once could only see as frustrating impediments.
+
+#  Could splice in: It's possible to lean on that trust and rapport to draw those challenging people into productive collaborations. It's possible to focus those collaborative relationships on, among other things, gradually improving how you work together.
+
+Making that kind of change takes real work and real time, but I believe the effort is profoundly worth it, for two reasons.
+
+First, being stuck is, well, *a terrible way to live*. Spending your working hours in a state of powerless resentment can be dangerous to your personality as a whole. The lack of agency can start to seep into other parts of your life. Human beings are not great at compartmentalizing a feeling of powerlessness.
+
+# Your mind might drift into a habit of endlessly rehearsing your frustrations. Your sleep might start to break down. You might discover you're having trouble staying fully present with family or friends.
+
+Second, I'll encourage you to make the effort to get unstuck because, believe it or not, it can be fun! Other humans are endlessly fascinating! Getting unstuck means finding ways to work *with* those other humans, instead of desperately trying to work *around* them. Getting unstuck allows you to live in a place of curiosity, and to engage your own sense of playful, creative problem-solving. Which is way, way more fun than explaining to your mirror, once again, why your boss is crazy and wrong.[fn:: Though it is maybe nice that your mirror always agrees with you?]
 
 ** The Profound Value Of Empathy
 
-It's possible that, as you read through the steps of the game plan, you've noticed that each step requires your stakeholder to *talk to you*. And to do so about topics that may feel risky or vulnerable for them to share: their long-term goals, their fears, their frustrations, their dreams and desires.
+It's possible that, as you read through the steps of the game plan, you've noticed that several steps require your stakeholder to *talk to you*. And to do so about topics that may feel risky or vulnerable: their long-term goals, their fears, their frustrations, their dreams and desires.
 
 Openly sharing such feelings is by no means the default behavior for most humans. It's *certainly* not the default behavior for humans in positions of authority.
 
@@ -377,15 +317,17 @@ Finally, there's one tactical empathy that's so fundamental, that you'll want to
 
 I had my first paying software job over 30 years ago, when, during a summer home from college, I wrote a program to help a local community college prepare their annual catalog of courses.
 
-At the end of a few weeks of work, they paid me... $100(!) I deposited that check, and, I don't know, bought whatever I bought when I was in college.
+At the end of a few weeks of work, they paid me $100 (and I was delighted). I deposited the check, and, I don't know, bought whatever I bought when I was in college. And off I went back to school.
 
-But, I then learned, to my surprise and delight, that my little program ended up saving community college staff *days* of frustrating work, when they prepared their catalog at the end of the summer. They ended up using my little program for *years*.
+But then, on my next break home, I learned that my little program had ended up saving community college staff *days* of frustrating work, when they had prepared their catalog at the end of the summer. They shared personal notes of appreciation.
+
+I was kind of stunned. Somehow, I had, just by typing cryptic symbols into a little screen, created something that made the real world, well, a little bit better. That *helped* people.
+
+# That staff ended up using my little program for *years*.
 
 # The staff at the community college ended up using that program for years and years.
 
-Somehow, I had, just by typing cryptic symbols into a little screen, created something that made the *real world*, well, a little bit better. That *helped* people.
-
-That felt, honestly, kind of amazing.
+That felt, honestly, amazing. It was like performing a true act of magic.
 
 That little job started me on the path of creating software that solved problems for people, in the real world. That path has turned into both a career, and also a great deal of meaningful work.
 
