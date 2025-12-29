@@ -12,7 +12,7 @@
 
 # So, where are we?
 
-We've taken a multi-chapter deep dive into how to mine for information and feelings from other humans. Using those skills, you're now able to make an actionable statement of strategy, linking a long-term outcome that your stakeholder cares intensely about to the day-to-day work of your team. You've also learned how to develop an empathetic understanding of the underlying emotions which are driving their (possibly extremely irritating!) day-to-day behaviors.[fn:: And you've totally practiced those skills and not just raced ahead to the next chapter, right? Right? If I'm going to be honest down here in the footnotes, I personally kind of /always/ race ahead to the next chapter, so maybe I can't judge? But do make the time to practice at some point! It will pay off. And, I predict, be somewhat surprisingly fun. Or at least somewhat surprising, in a fun-adjacent manner.]
+We've taken a multi-chapter deep dive into how to mine for information and feelings from other humans. Using those skills, you're now able to make an actionable statement of strategy, linking a crucial long-term outcome to the day-to-day work of your team. You're also able to develop an empathetic understanding of the underlying emotions which are driving their (possibly extremely irritating!) day-to-day behaviors.[fn:: And you've totally practiced those skills and not just raced ahead to the next chapter, right? Right? If I'm going to be honest down here in the footnotes, I personally kind of /always/ race ahead to the next chapter, so maybe I can't judge? But do make the time to practice at some point! It will pay off. And, I predict, be somewhat surprisingly fun. Or at least somewhat surprising, in a fun-adjacent manner.]
 
 Having arrived at this moment, you might well be asking, "Um, Dan, so... what?"
 
@@ -50,7 +50,7 @@ Let us review.
 
 Through some diligent probing, Alistair has manged to extract a coherent strategic outcome: in order to keep growing, AccuraClaim needs to capture more revenue per customer. Their CEO has promised the board to increase their average price to $1.50 per insurance claim processed. Alistair has been able to work backwards from that goal to his team's day-to-day efforts to restructure the core ProClaims product.
 
-Furthermore, Alistair has managed to build a genuinely empathetic understanding of the situation that Max finds himself in: the recently-hired PM's don't fully understand the existing ProClaims product, which is making it very, very had for Max to delegate decisions.
+Furthermore, Alistair has managed to build a genuinely empathetic understanding of the situation that Max finds himself in: the recently-hired PM's don't fully understand the existing ProClaims product, which is making it very, very hard for Max to delegate decisions.
 
 Alistair can genuinely say: "If I were in that situation, I'd feel frustrated, too."
 
@@ -66,13 +66,13 @@ In fact, at the end of their last conversation, Max stunned Alistair by saying:
 
 "I feel like I've barely been able to keep my head above water. *Do you have any ideas*?" (emphasis added to indicate degree of being stunned)
 
-After some initial conversation, they agreed to meet the next day.
+After some initial discussion, they agreed to meet the next day.
 
 ** The Goldilocks Adjustment
 
 Alistair now has twenty-four hours to prepare a proposal for a *specific incremental adjustment*.
 
-In later chapters, we'll share a wealth of tactics for designing effective incremental adjustments. The core idea is to come up with a way to concrete change in how you work together, which:
+In later chapters, we'll share a slew of tactics for designing effective incremental adjustments. The core idea is to come up with a way to concrete change in how you work together, which:
 
  - Improves *something* for your stakeholder
 
@@ -176,7 +176,7 @@ Since he had his brief moment of connection with Alistair yesterday, Max has:
 
  - Guiltily skimmed through one hundred and seven email subject lines in his Inbox
 
-# - Canceled three one-on-one meetings with his direct reports
+ - Canceled three one-on-one meetings with his direct reports
 
  - Spent forty-seven bitterly frustrated minutes composing a reply to his CEO's deceptively casual request to know if "the ProClaims 2.0 project was back on track, and if not, when the devs could commit to achieving full feature parity," every word of which request seemed to require a novella-length explanation to unpack (what does the CEO think "on track" means? Does the CEO perceive a failure on the part of the devs to "commit"? When did "full feature parity" metastasize, tumor-like, in the CEO's mind, since it's never been something Max has promised, even once? Max's fingers shake as he types.)
 
@@ -194,25 +194,29 @@ Alistair been continually thinking about this meeting for six of the last ten wa
 
 "Okay," says Alistair, "here's the plan: Before each of our next two sprint planning sessions, you, me, and Asha will spend an hour deep diving on one of the existing, gnarly ProClaims workflows---specifically, on one of the workflows Asha's team is about to tackle in the upcoming sprint. I'll work with you to make sure she understands all the tricky edge cases. Asha is probably the strongest PM, and her team is working on the most complex claims review steps, so that should hopefully create some useful leverage for you, right away."
 
-Now Alistair gets to the change that he most desperately wants. "During those sprints, we'll give the team license to ship to production without getting formal approval from you. We'll do an extra thorough end-of-sprint demo, and, afterward, you, me and Asha can meet and set direction for the team, based on what you saw."
+Having laid out the first part of that adjustment, Alistair now gets to the change that he most desperately wants. "During those sprints, we'll give Asha's team license to ship to production without getting formal approval from you. Instead, we'll do an extra thorough end-of-sprint demo, and, afterward, you, me and Asha can meet and set direction for the team, based on what you saw."
 
-Alistair sits back, proud of his proposal. It addresses the bizarre anti-pattern they've somehow drifted into, of every team waiting to ship even small changes until Max can review them.
+Alistair sits back. He's proud of his proposal. It addresses the bizarre anti-pattern they've somehow drifted into, of every team waiting to ship even small changes until Max can review them.
 
-What is happening for Max, now?
+What is happening, on the other side of the little conference room table?
 
-He is feeling very confused. Is this is meeting about training the PM's? Or about deploy processes? Or, like, what?
+Max is feeling very confused. Is this is meeting about training the PM's? Or key ProClaims workflows? Or about deploy processes? Or, like, something else?
 
-And where does Alistair think Max is going to find this magical extra hour to spend on "deep dives"? And why on earth is Alistair trying to force Max to give up on reviewing changes before they go live? Just last month, a team almost shipped an obviously stupid UI change to production, thank god Max saw it during review and blocked the deploy. If that had gotten through to customers, there would have been hell to pay.
+And where does Alistair think Max is going to find this magical extra hour to spend on "deep dives"? And why on earth is Alistair trying to force Max to stop reviewing changes? Just last month, a team almost shipped an obviously stupid UI change to production, thank god Max saw it during review and blocked the deploy. If that had gotten through to customers, there would have been hell to pay.
 
 # , which is not something he enjoys.
 
-Max realizes that Alistair is sitting across the table, waiting expectantly. "That's not going to work," announces Max, frowning.[fn:: And, bang, we're on track for Max entering into the meeting by announcing someone is wrong!]
+Max realizes that Alistair is waiting expectantly for his reply. "That's not going to work," announces Max, frowning.[fn:: And, bang, we're on track for Max entering into the meeting by announcing someone is wrong!]
 
-Let us draw the curtain of charity across the rest of this day.[fn:: What, my addiction to footnotes hasn't made it clear I had a formative experience of reading David Foster Wallace in my youth? If you're not sure what I'm talking about, run don't walk to read the title essay in A Supposedly Fun Thing I'll Never Do Again. This book (and your tech career) will be waiting for you when you get back! Say hi to Tibor for me!] Having gotten off on so very much the wrong foot, this entire meeting is going to go completely down in flames.
+Having gotten off on so very much the wrong foot, this entire meeting proceeds to go completely down in flames.
+
+# Max is remote and dismissive, Alistair is seething and tense, no one can hear anyone else.
+
+# Let us draw the curtain of charity across the rest of this day.[fn:: What, my addiction to footnotes hasn't made it clear I had a formative experience of reading David Foster Wallace in my youth? If you're not sure what I'm talking about, run don't walk to read the title essay in A Supposedly Fun Thing I'll Never Do Again. This book (and your tech career) will be waiting for you when you get back! Say hi to Tibor for me!]
 
 As we watch the conflagration begin, let us note that Alistair actually proposed a quite good initial adjustment.
 
-It represents a bounded commitment of time from Max (two sprints); it asked Max to do something just a bit uncomfortable (stop personally gatekeeping every change to production); it gave him a useful new form of control in return (meeting with Asha and Alistair after each demo to guide the team); it made things just a bit better for *Alistair* (he'd have two sprints without constant Max oversight); it set them both up for the long-term goals (by investing in Asha leveling up, so they can eventually get to a faster flow state).
+It represented a bounded commitment of time from Max (two sprints); it asked Max to do something just a bit uncomfortable (stop personally gatekeeping every change to production); it gave him a useful new form of control in return (meeting with Asha and Alistair after each demo to guide the team); it made things just a bit better for *Alistair* (he and Asha would have two sprints without constant Max oversight); it set them both up for their shared long-term goals (by investing in Asha leveling up, so they can eventually get to a faster flow state).
 
 But, because Alistair just dove in, Max was defensive and reactive.
 
@@ -250,7 +254,7 @@ Alistair makes himself pause. "Do I have that all mostly right?"
 
 What is happening for Max, now?
 
-First off, Max is still totally unclear what this meeting is about. But it's... not unpleasant to hear Alistair outline AccuraClaim's overall goals. Apparently he, Max, communicated those goals really clearly?[fn:: Alistair figured out the long-term goals by buying lunch for the VP of Product, and letting her complain about a particular director of customer success who is widely understood to be her nemesis.] Good job, Past Max! He nods, "Go on."
+First off, Max is still totally unclear what this meeting is about. But it's... not unpleasant to hear Alistair outline AccuraClaim's overall goals. Apparently he, Max, communicated those goals really clearly? Good job, Past Max![fn:: Alistair figured out the long-term goals by buying lunch for the VP of Product, and letting her complain about a particular director of customer success who is widely understood to be her nemesis.] He nods, "Go on."
 
 # Max looks slightly surprised to hear this kind of high-level strategic summary. But, Alistair thinks, he doesn't seem /frustrated/. More... curious, maybe? After a moment, Max nods. "Go on."
 
@@ -262,7 +266,7 @@ Max finds himself growing more and more interested. Alistair is walking through 
 
 "My team's role is to overhaul the core claims workflows," continues Alistair, feeling himself growing more confident as he fits the story together. "In order to stay on track for the price increase, we'll need to launch the new filter-based workflows by, at the very latest, early next year. That will give the sales team time to start positioning the new premium pricing tier. And, once my team gets the underlying data cleaned up, Eduardo and Jenna can finish implementing the ML Fraud Detection product they've been previewing."
 
-He sits back. "Is that a solid way to understand what we're doing? AccuraClaim's most important goals across the ClaimsPro platform, and how my team's work supports those goals?"
+He sits back. "Is that a solid way to understand what we're doing? AccuraClaim's most important goals across the ProClaims platform, and how my team's work supports those goals?"
 
 What is happening for Max, now?
 
@@ -402,7 +406,7 @@ She's practically bouncing in her seat.
 
 "I mean, sure, it *sounds* easy," she snaps at him. "But lots of people are so keyed up about presenting ideas to someone powerful, they just get into this do-or-die mode. They feel like they need to *defend* their proposal, instead of drawing out and validating any concerns."
 
-Alistair is visited with a clear vision of his acting in exactly that way.
+Alistair is visited with a clear vision of himself acting in exactly that way.
 
 "Um, fair enough. Thank you."
 
@@ -460,7 +464,7 @@ Max considers. "I guess, yeah. I mean, when I do my approvals, I first just do a
 
 Alistair bites his tongue rather than explaining that "quickly" is only happening after a week-long delay for the PR to move through Max's queue.
 
-"That makes a lot of sense," he says, encouragingly. "How about if, at the start of each sprint, Asha and I review all the tickets, looking for visible changes. We can then walk you through a list of which ones we think will actually need your review. That way, we can free the team up to move fast on /most/ of what they're doing, but make sure you can still carefully review anything visible and risky."
+"That makes a lot of sense," he says, encouragingly. "How about if, at the start of each sprint, Asha and I review all the tickets, looking for customer-visible changes. We can then walk you through a list of which ones we think will actually need your review. That way, we can free the team up to move fast on /most/ of what they're doing, but make sure you can still carefully review anything visible and risky."
 
 Max tilts his head to one side. "That... might work."
 
