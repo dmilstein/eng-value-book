@@ -58,7 +58,7 @@ build/book.zip: build/chapters.txt
 	while IFS= read -r chapter; do \
 		if [ "$$chapter" != "None" ]; then \
 			echo "Processing chapter $$idx: $$chapter"; \
-			cat "org-roam-tibook/$$chapter" | scripts/extract-first-heading.sh | pandoc --from=org --to=gfm | sed -E 's/\[([^]]+)\]\([^)]+\)/**\1**/g' > "build/book-chapters/chapter $$idx.md"; \
+			cat "org-roam-tibook/$$chapter" | scripts/extract-first-heading.sh | sed -E 's/\[\[([^]]+)\]\[([^]]+)\]\]/*\2*/g; s/\[\[([^]]+)\]\]/*\1*/g' | pandoc --from=org --to=gfm > "build/book-chapters/chapter $$idx.md"; \
 			idx=$$((idx + 1)); \
 		fi; \
 	done < build/chapters.txt
