@@ -12,11 +12,12 @@ from utils.exceptions import FileNotFoundError, ParseError, ConfigError
 class BookBuilder:
     """Builder for constructing Book objects from org files."""
 
-    def __init__(self, directory_path: str):
-        """Initialize builder with directory path.
+    def __init__(self, directory_path: str, toc_path: str = None):
+        """Initialize builder with directory path and optional TOC path.
 
         Args:
             directory_path: Path to the directory containing org files
+            toc_path: Path to the TOC file (defaults to toc.org in directory)
 
         Raises:
             ConfigError: If directory path is invalid
@@ -31,6 +32,7 @@ class BookBuilder:
             raise ConfigError("BOOK_DIRECTORY", f"Path is not a directory: {directory_path}")
 
         self.directory_path = directory_path
+        self.toc_path = toc_path or os.path.join(directory_path, "toc.org")
         self.logger = logging.getLogger(__name__)
         self.errors = []  # Collect non-fatal errors
 
@@ -48,20 +50,18 @@ class BookBuilder:
         self.errors = []
 
         # Find and parse TOC file
-        toc_path = os.path.join(self.directory_path, "toc.org")
-
         try:
-            toc_parser = TocParser(toc_path)
+            toc_parser = TocParser(self.toc_path)
             toc_items = toc_parser.parse()
         except (FileNotFoundError, ParseError) as e:
             self.logger.error(f"Failed to parse TOC: {str(e)}")
             raise
         except Exception as e:
             self.logger.error(f"Unexpected error parsing TOC: {str(e)}")
-            raise ParseError(toc_path, details=f"Unexpected error: {str(e)}")
+            raise ParseError(self.toc_path, details=f"Unexpected error: {str(e)}")
 
         if not toc_items:
-            self.logger.warning(f"No items found in TOC file {toc_path}")
+            self.logger.warning(f"No items found in TOC file {self.toc_path}")
             return None
 
         # Count actual chapters (not parts)
@@ -187,7 +187,8 @@ def main():
     import argparse
 
     parser = argparse.ArgumentParser(description='Build book from org files and display word counts')
-    parser.add_argument('directory', help='Directory containing org files with toc.org')
+    parser.add_argument('directory', help='Directory containing org files')
+    parser.add_argument('--toc', help='Path to TOC file (defaults to toc.org in directory)')
     args = parser.parse_args()
 
     # Configure basic logging
@@ -197,7 +198,7 @@ def main():
     )
 
     # Build the book
-    builder = BookBuilder(args.directory)
+    builder = BookBuilder(args.directory, args.toc)
     book = builder.build()
 
     if not book:
@@ -205,7 +206,8 @@ def main():
         sys.exit(1)
 
     # Get TOC structure for display
-    toc_parser = TocParser(os.path.join(args.directory, "toc.org"))
+    toc_path = args.toc or os.path.join(args.directory, "toc.org")
+    toc_parser = TocParser(toc_path)
     toc_items = toc_parser.parse()
 
     # Output word counts with visual bars

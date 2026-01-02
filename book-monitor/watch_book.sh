@@ -37,7 +37,7 @@ run_builder() {
 
     # Run the book builder
     cd "$(dirname "$0")" || exit 1
-    python3 "$BUILDER_SCRIPT" "$BOOK_DIR" 2>/dev/null
+    python3 "$BUILDER_SCRIPT" "$BOOK_DIR" --toc "$BOOK_DIR/toc.org" 2>/dev/null
 
     echo ""
     echo "Watching for changes in $BOOK_DIR..."
