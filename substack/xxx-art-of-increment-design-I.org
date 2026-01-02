@@ -166,7 +166,7 @@ Creates Value If:
 
  - It's hard or impossible for customers to imagine how the product even could solve their problems
 
-   Customers are near-universally terrible at imagining software that they can't interact with. If the team can allow them to interact with something where they can successfully imagine using it to solve their problems, the team can achieve one of two outcomes, *each of which* is valuable:
+   Customers are universally terrible at imagining software that they can't interact with. If the team can allow them to interact with something where they can successfully imagine using it to solve their problems, the team can achieve one of two outcomes, *each of which* is valuable:
 
    a) Customers not only get excited about the product, they start talking in detail about *how* they would use it to solve their problems, they talk about what they are currently doing to try to solve those problems, they beg to show it to other people they work with, etc.
 
@@ -379,11 +379,11 @@ This may sound a bit abstract or hard to believe, but, in extreme cases, almost 
 
 # Name the engineer? Jorja?
 
-Say an engineer joins a B2B SaaS company, and knows that they were hired because the company urgently wants to build a new product over the succeeding year. However, on their first day, that engineer discovers to their horror that the company only ships to production *once per quarter*. In such a situation, just about every engineer I know would tell their leadership that improving deploy processes should be their top priority.
+Say an engineer joins a B2B SaaS company, and knows that they were hired because the company urgently wants to ship a new product within the year. However, on their first day, that engineer discovers to their horror that the company only ships to production *once per quarter*. In such a situation, just about every engineer I know would tell their leadership that improving frequency of deploy should be their absolute top priority.
 
-That engineer would not make that case because more frequent deploys "feel good" to them. They'd advocate for that work because they know in their bones that their new company has absolutely zero chance of shipping a new product in a year if they can only deploy to production four times during that period.
+That engineer would not make that case because frequent deploys "feel good" to them. They'd advocate for that work because they know in their bones that their new company has absolutely zero chance of shipping a valuable new product within a year if they can only deploy to production four times during that period.
 
-If that engineer then managed to get deploys happening *once per week* (aka c. 10 times more often), they would feel like they had created a ton of value for their company.
+If that engineer, through some combination of advocacy and technical work, managed to get deploys happening *once per week* (aka c. 10 times more often), they would feel like they had created a ton of value for their company.
 
 *And they would be right.*
 
@@ -414,7 +414,6 @@ That perspective is *profoundly wrong*. Remember, company value is a rational in
 What?
 
 Let's see how this could happen.
-
 
 For the new product, a form of evidence that would cause Bertha to change her estimate of future profits would simply be customers *purchasing* the new product.
 
@@ -458,7 +457,7 @@ Let's start with the ways it's right (and therefore has seen deserved, widesprea
 
 There are two things that the cartoon captures, about a well-run agile project.
 
-First, by steadily building something that customers can *use*, you can get feedback from customers are you. The customer goes from sad to happy in increments, each of those is a chunk of evidence that you're moving in the right direction.
+First, by steadily building something that customers can *use*, you can get feedback from customers. The customer goes from sad to happy in increments, each of those is a chunk of evidence that you're moving in the right direction.
 
 Part of why waterfall fails is that it doesn't let you check as you go, to see if what you're building actually makes customers happy. Building something simple and then expanding outward is often (thought not always!) the right strategy.
 
@@ -593,7 +592,7 @@ Typical demands:
 
 Haha!
 
-The product team is the people of whom demands are made! They have the awesome power of saying no to people (aka prioritization), and with it the attendant awesome power of everyone being kind of mad at them, all the time!
+The product team is the people of whom demands are made! They have the awesome power of saying no to people (aka prioritization), and with it the attendant awesome power of everyone being mad at them, all the time!
 
 This is the "product function" at its heart---disappointing people by saying no.
 

@@ -1,0 +1,119 @@
+:PROPERTIES:
+:ID:       B8F21153-89FC-4B8B-8B0D-BBF4CC2C58C1
+:END:
+#+title: Increment Design Book
+
+* Problem To Solve
+
+I'm an engineering leader (or a PM?), and I've got to deliver, but I don't know how long it will take, I'm sure we're going to have to change as we go, and I'm working on top of a pile of tech debt. And yet I'm supposed to commit.
+
+I... think that's right. Gotta figure out how to name the second problem.
+
+
+* Current Title
+
+The Art of Increment Design
+
+How To Create Value Despite Bad Estimates, Misguided Specs, And Terrifying Legacy Code
+
+* Title Brainstorming
+
+The Art of Increment Design
+
+How to Maximize Value As You Build
+
+Breaking work down to maximize value and minimize risk
+
+Breaking work down to maximize value and minimize risk
+
+Build Software Without Fear
+
+How To Build Software Without Fear
+
+
+The estimates are wrong, the specs are confused and the existing code is filled with landmines.
+
+despite bad estimates, misguided specs, and legacy code filled with exciting landmines.
+
+How to create value despite bad estimates, misguided specs, and legacy code filled with exciting landmines.
+
+How to create value despite bad estimates, misguided specs, and exciting legacy code
+
+How to create value despite bad estimates, misguided specs, and terrifying legacy code
+
+How to steadily create value with bad estimates, misguided specs, and genuinely terrifying legacy code
+
+How to steadily create value despite bad estimates, misguided specs, and genuinely terrifying legacy code
+
+How to steadily create value despite bad estimates, misguided specs, and terrifying legacy code
+
+How to create value when the estimates are wrong, the specs are confused and the legacy code is filled with landmines.
+
+How to create value when your estimates are wrong, the specs are confused and the legacy code is filled with landmines.
+
+How To Create Value Amidst A Sea Of Bad Estimates, Misguided Specs, And Terrifying Legacy Code
+
+How To Create Value Amidst A Sea Of Bad Estimates, Misguided Specs, And Terrifying Legacy Systems
+
+How To Steadily Create Value Despite Bad Estimates, Misguided Specs, And Terrifying Legacy Code
+
+How To Create Value Despite Incorrect Estimates, Misguided Specs, And Terrifying Legacy Code
+
+Build Great Software Despite Bad Estimates, Misguided Specs, And Terrifying Legacy Code
+
+Build Great Software Atop Bad Estimates, Misguided Specs, And Terrifying Legacy Code
+
+The Art of Increment Design
+
+How To Create Value Despite Bad Estimates, Misguided Specs, And Terrifying Legacy Code
+
+Working With Bad Estimates, Misguided Specs, And Terrifying Legacy Code
+
+How To Work With Bad Estimates, Misguided Specs, And Terrifying Legacy Code
+
+How To Win With Bad Estimates, Misguided Specs, And Terrifying Legacy Code
+
+Write Valuable Software Despite Bad Estimates, Misguided Specs, And Terrifying Legacy Code
+
+Create Valuable Software Despite Bad Estimates, Misguided Specs, And Terrifying Legacy Code
+
+How To Create Valuable Software Amidst Bad Estimates, Misguided Specs, And Terrifying Legacy Code
+
+How To Create Valuable Software Atop Bad Estimates, Misguided Specs, And Terrifying Legacy Code
+
+How To Create Valuable Software Despite Bad Estimates, Misguided Specs, And Terrifying Legacy Code
+
+How To Create Value Despite Horrifyingly Incorrect Estimates, Dramatically Misguided Specs, And Genuinely Terrifying Legacy Code
+
+How To Create Value Despite Bad Estimates, Misguided Specs, And Genuinely Terrifying Legacy Code
+
+* Thoughts!
+So, like, what if I start writing another book?
+
+Hah! I love this idea.
+
+But, honestly, having just reviewed what I have in a [[file:~/Dropbox/Projects/TechInvestBook/substack/xxx-art-of-increment-design-I.org::*The Art of Increment Design, Part I: Help Us, Good Increments, You're Our Only Hope][giant substack post]] , there's a ton that's really good. And, while I'm waiting for beta feedback, I don't *want* to spend time thinking about Getting Unstuck, because I'll over-index on fragmentary early evidence.
+
+And I've got 9k words already, I could aim to, within like 2 weeks, see if I can shape an initial 8k words that "solves one problem" for people, and reach out for some beta readers.
+
+It'll also give me good practice at working in public earlier.
+
+* Next Steps
+Work backwards from a beta? Or try to teach it? But I mean, I've spent 10 years teaching it?
+
+Okay, let's say I indulge in not teaching it--but force myself to beta test super early. Solve one problem, and share.
+* Imagined Readers
+Who to imagine reading it?
+
+Stephen Wright?
+
+Margaret Geary?
+
+Younger Satoe?
+
+* Bits I Can Use
+** [[file:~/Dropbox/Projects/TechInvestBook/substack/xxx-art-of-increment-design-I.org::*The Art of Increment Design, Part I: Help Us, Good Increments, You're Our Only Hope][Increment Design]] (from Substack)
+** [[id:03D1870C-E583-4D5C-9589-5E0799793D48][Offer Decisions With Options & Off-Ramps]]
+From the tech invest context, tone is off in the start, but a ton of very very good stuff.
+
+c. 4,000 words

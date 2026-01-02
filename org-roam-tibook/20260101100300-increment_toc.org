@@ -1,0 +1,76 @@
+:PROPERTIES:
+:ID:       6A3AD544-4966-457C-A1E0-9E2593754F48
+:END:
+#+title: Increment ToC
+Part of [[id:B8F21153-89FC-4B8B-8B0D-BBF4CC2C58C1][Increment Design Book]]
+
+The Art of Increment Design
+
+How To Create Value Despite Bad Estimates, Misguided Specs, And Genuinely Terrifying Legacy Code
+
+* ToC
+** The Profound Value Of Good Increments
+
+Creating Value Is Hard
+
+The challenges of creating incremental value.
+
+A Tale of Two Projects
+
+A Distressingly Familiar Tale of Disaster
+
+** Offer a Series of Decisions
+** Draw Stakeholders Into Iterative Decision-Making
+
+Bring Stakeholders Along Incrementally
+
+
+Draw Stakeholders In (Incrementally)
+
+Draw Stakeholders Into Collaboration (Incrementally)
+
+Draw Stakeholders Into Decisions (Incrementally)
+
+Draw Stakeholders Into Iterative Decisions
+
+Charm Stakeholders Into Iterative Decision-Making
+
+** Build Milestones Around Decisions
+** Understand Value In Depth
+** Steer Into Risks
+** Scaling Up & Down
+One ticket, one sprint, one epic, one quarter, one year.
+
+One engineer, one team, many teams
+
+Or is it: Manage With Increments, Options, Milestones
+** Part II: Increment Design Case Studies?
+** Increment Design For Technical Investments
+Rewrites vs Deploy/Dev Cycles Improvements vs Capacity/Performance Improvements
+** Increment Design For New Products
+** Increment Design For Operational Tools
+* Random Brainstorming
+
+The Art of Increment Design
+
+How To Create Value Despite Bad Estimates, Misguided Specs, And Terrifying Legacy Code
+
+I kind of love the idea that, at heart, those are the key problems (we don't know how long it will take, we don't know if customers want it, and we don't know when our current systems will fall over), and, to a degree, *everyone else's* answer is: don't do those things! But I've got a different answer.
+
+Writing valuable software would be so easy if only:
+
+ - We knew exactly what we needed to build
+
+ - We knew that, if we built that thing, customers would love it
+
+ - We didn't have to maintain an existing system at the same time
+
+# We were building a greenfield application, with no nastly legacy dependencies or responsibilities
+
+# We knew exactly how building that thing would interact with our existing systems
+
+Right? I mean, in fact, as of January 1st, in the the year of our lord, 2026, it seems like we're within spitting distance of LLM's being able to some write pretty valuable software if those three things are true.
+
+How much do I define the problem up front? Do I put someone in the midst of the problem?
+
+Do I just playfully and directly speak to it.

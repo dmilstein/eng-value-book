@@ -4,6 +4,18 @@
 #+title: Tech Book Tooling
 For the [[id:5FAA80B0-D16C-424E-BF2F-1C5C45415618][Tech Investment Book]], notes on tooling.
 
+* Splitting Out Increments Book
+The book_builder.py script is taking a directory, but then looking for hard-coded toc.org and going from there.
+
+Options:
+** Separate org-roam dir
+Ultimately, this seems like a Good Thing. But, in the short term, it's a ton of effort. I have this soup of three books, that's got some real benefits
+** Wire more of it through a passed-in toc.org file
+Like, *do* pass in the org-roam book directory, but also explicitly pass in the toc.org file.
+
+That might be it -- then, if I give that as an argument to watch_book.sh as well, I can run either one.
+
+Try it.
 * [[id:F48AA40F-18A2-449D-B78B-2332DDC4A30A][Writing In Emacs/Org]]
 * LLM-Assisted Coding for a Wordcount Tool
 ** DONE Figure out if my existing API access gives me Claude 4 Opus access
