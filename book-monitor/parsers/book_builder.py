@@ -35,6 +35,7 @@ class BookBuilder:
         self.toc_path = toc_path or os.path.join(directory_path, "toc.org")
         self.logger = logging.getLogger(__name__)
         self.errors = []  # Collect non-fatal errors
+        self.toc_items = None  # Will be populated during build
 
     def build(self) -> Optional[Book]:
         """Build a Book object from org files in the directory.
@@ -52,7 +53,7 @@ class BookBuilder:
         # Find and parse TOC file
         try:
             toc_parser = TocParser(self.toc_path)
-            toc_items = toc_parser.parse()
+            self.toc_items = toc_parser.parse()
         except (FileNotFoundError, ParseError) as e:
             self.logger.error(f"Failed to parse TOC: {str(e)}")
             raise
@@ -60,12 +61,12 @@ class BookBuilder:
             self.logger.error(f"Unexpected error parsing TOC: {str(e)}")
             raise ParseError(self.toc_path, details=f"Unexpected error: {str(e)}")
 
-        if not toc_items:
+        if not self.toc_items:
             self.logger.warning(f"No items found in TOC file {self.toc_path}")
             return None
 
         # Count actual chapters (not parts)
-        chapter_count = sum(1 for filename, title in toc_items if filename is not None)
+        chapter_count = sum(1 for filename, title in self.toc_items if filename is not None)
         self.logger.info(f"Found {chapter_count} chapters in TOC")
 
         # Create book object
@@ -73,7 +74,7 @@ class BookBuilder:
 
         # Process each item (chapters and parts)
         successful_chapters = 0
-        for filename, title in toc_items:
+        for filename, title in self.toc_items:
             if filename is None:
                 # This is a part marker, skip processing but log it
                 self.logger.info(f"Found book part: {title}")
@@ -138,6 +139,14 @@ class BookBuilder:
             List of error messages
         """
         return self.errors.copy()
+
+    def get_toc_items(self) -> Optional[List[Union[tuple[str, str], tuple[None, str]]]]:
+        """Get the parsed TOC items.
+
+        Returns:
+            List of (filename, title) tuples, or None if TOC hasn't been parsed yet
+        """
+        return self.toc_items
 
 
 def create_word_count_bar(word_count: int, max_count: int, width: int = 20) -> str:
@@ -205,10 +214,8 @@ def main():
         print("Failed to build book from directory:", args.directory)
         sys.exit(1)
 
-    # Get TOC structure for display
-    toc_path = args.toc or os.path.join(args.directory, "toc.org")
-    toc_parser = TocParser(toc_path)
-    toc_items = toc_parser.parse()
+    # Get TOC structure from builder
+    toc_items = builder.get_toc_items()
 
     # Output word counts with visual bars
     print(f"Book: {book.title}")
