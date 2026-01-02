@@ -8,8 +8,8 @@ The Art of Increment Design
 
 How To Create Value Despite Bad Estimates, Misguided Specs, And Genuinely Terrifying Legacy Code
 
-* ToC
-** The Profound Value Of Good Increments
+* Art of Increments ToC
+** [[id:D2D9959D-3491-456B-89A0-E5ED5517E0BB][The Profound Value Of Good Increments]]
 
 Creating Value Is Hard
 
