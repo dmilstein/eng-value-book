@@ -190,7 +190,7 @@ def main():
 
     parser = argparse.ArgumentParser(description='Build book from org files and display word counts')
     parser.add_argument('directory', help='Directory containing org files')
-    parser.add_argument('--toc', required=True, help='Path to TOC file')
+    parser.add_argument('--toc', help='Path to TOC file (defaults to toc.org in directory)')
     args = parser.parse_args()
 
     # Configure basic logging
@@ -200,7 +200,8 @@ def main():
     )
 
     # Build the book
-    builder = BookBuilder(args.directory, args.toc)
+    toc_path = args.toc or os.path.join(args.directory, "toc.org")
+    builder = BookBuilder(args.directory, toc_path)
     book = builder.build()
 
     if not book:
