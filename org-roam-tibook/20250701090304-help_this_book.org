@@ -2,6 +2,7 @@
 :ID:       1248CC07-C3EC-4898-83A1-DA7E60C73E9A
 :END:
 #+title: Help This Book
+
 Some notes on [[id:49435FCD-0590-44DE-8FC7-585E7BCC8BB2][Tech Book Tooling]], as part of applying ideas from [[id:27BF5BDA-3A83-49FA-A73F-9BA26EF096B9][Write Useful Books]]
 
 As of <2025-07-01 Tue>, I don't think my Makefile will build quite what I want.
