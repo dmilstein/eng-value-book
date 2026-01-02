@@ -1,0 +1,97 @@
+Welcome back to our series about how to ask a boss, peer, or stakeholder to stop doing some seriously irritating thing!
+Earlier posts include:
+
+Getting Unstuck: Asking People To Change
+
+How Can Important People Resist Change? Let Me Count The Ways
+Today’s post is the first in a series digging into specific tactics for making requests of your Important Person, whom we name your “stakeholder”.
+
+Thanks for reading Building & Learning! Subscribe for free to receive new posts
+These are all part of a book I’m writing, provisionally titled:
+Getting Unstuck
+How To Solve Problems With Bosses, Peers & Stakeholders
+If you’re interested in reading a beta version once it’s ready, holler at me.
+Okay, let’s go!
+
+The Problem
+Your stakeholder is human, and is thus reluctant to commit to “permanently” changing their behavior.
+
+The Solution
+Ask your stakeholder to change their behavior for a limited period of time.
+
+The Details
+If your request feels slightly uncomfortable for your stakeholder (as it often will!), it’s much easier for them to say “yes” if you ask to try something out for a few weeks, than if you ask for a change without an end date.
+Also, you should always ensure the initial period ends with a review of how it’s been working for your stakeholder. Knowing that review is coming also helps them to say “yes”.
+If you can get a commitment to try something new for a short period of time, you can then work to ensure that, during that initial period, the stakeholder experiences things as going well.
+Let’s see how that might look…
+
+The Mysterious Case of The CTO Who Wouldn’t Shut Up
+
+Louisa Nordson is a staff engineer at Hydralitics, a business intelligence platform for public utility companies. A key part of her job is conducting regular architecture reviews with the engineers in her domain.
+Unfortunately, Hydralitics’s CTO, Jameson Macklemore, has developed a frustrating habit of dropping by those architecture reviews and derailing them with utterly half-baked proposals.
+Jameson always starts by saying, “Excuse me, is it okay if I ask a question?” But somehow all his “questions” end up turning into thinly veiled suggestions. Pretty much all of which are useless thanks to key bits of technical reality Jameson doesn’t fully understand.
+
+If Louisa hears him say “I don’t know, but it seems to me like we could…” one more time, she is going to scream. His interruptions are undercutting her authority, eating up time in the meetings, and sending the teams down a succession of blind alleys. At home, her partner is starting to finish her Jameson-related sentences at dinner. “I know, Louisa, Jameson is smart, but Jameson just doesn’t know what he’s talking about in your area, Jameson should maybe learn to shut up sometimes. And could that maybe be the last Jameson thing for tonight? Pretty please?”
+When Louisa has a minute to think, she tries to imagine saying:
+“Jameson, please stop talking during architecture reviews.”
+Or, even:
+“Jameson, please stop coming to the reviews.”
+But she gets an immediate pit in her stomach. Those feel like uncomfortably aggressive demands. Jameson isn’t a particularly nasty CTO, but the idea of pushing him around still feels unsafe.
+For a long while, she just feels more and more stuck. But then, one night, she’s talking out life with her old friend Devi over beers, and discovers that Devi has become something of a master of the jiu-jitsu of stakeholder management. Devi suggests Louisa ask for a timeboxed change, instead of some intimidatingly permanent shift. She also asks Louisa what she thinks Jameson likes about attending the architecture reviews.
+Louisa takes a drink of her beer. “You mean, other than randomly thinking out loud about system boundaries he can’t possibly understand and making my job harder?”
+Devi shrugs.
+Idly, Louisa straightens a coaster on the bar top. What does Jameson like about attending reviews? Are there valid reasons for him to be in the room?
+“Well,” she says slowly, “I think part of it is that he doesn’t want to stop learning how the systems actually work. He only joined two years ago, there are plenty of weird old systems he doesn’t fully grok.”
+Devi nods for her to continue.
+“And you know,” adds Louisa, picking up steam, “he does like seeing the team at work.” She forces herself to add, “To be honest, he’s really good at that. He picks up on all these little things. Which engineers are helping others level up, which ones are really good at talking tradeoffs, which ones just want to rewrite everything.”
+Louisa considers for a moment longer, and then says, “I think those are probably the two biggest things.”
+Devi toasts her with her pint glass. “Then there you go.”
+Louisa realizes on her walk home that she feels oddly charged up. Somehow the license to ask for a limited change feels very freeing. And, with her mind now working away, she starts to see ways to solve for the things Jameson is getting out of attending those meetings.
+The next day, she grabs a bit of time with Jameson. After some initial chitchat, she takes a deep breath and says, “I’d like to try something new for tomorrow’s arch review. First off, I want to make sure you can stay on top of how the architecture is evolving, and I want you to be certain that you get to see the team at work. My sense is that it’s super valuable for you to see who on the tech track is really stepping up. So I think it’s good that you’re in the room.”
+Jameson nods crisply, and Louisa decides she guessed right: Jameson really likes getting this window into the performance of the senior and staff engineer cohort. She continues.
+“But, unfortunately, sometimes, when you ask questions, I think the team gets confused. They’re not sure if you’re just trying to fill in your own understanding, or if you’re telling them a decision, or if you’re asking them to go off and explore something. I’m struggling to keep everyone on track. Both during the meetings, but also afterwards.”
+Jameson looks a bit uncomfortable, but he’s still listening.
+“For tomorrow’s session, I’d like to ask you to listen and take notes, but to not speak up during the actual discussions. I’ll meet with you 1:1 immediately after, to dig into any questions you have, and to talk out your feedback on both the team and the architecture.”
+“At that check-in,” Louisa continues, “I’ll also want to hear how it feels like this new set up works for you. But if we could try one day of you just listening and taking notes, I’d like to see how that goes.”
+Jameson thinks for a moment, then shrugs. “I can try that tomorrow, sure. If we do this longer term, I might want to have one of the directors also stay to talk about the team, but we can wait and see how it goes. Do you want me to, like, say absolutely nothing? Or just not talk as much?”
+He seems genuinely open, so Louisa says, “For tomorrow, I’d love to try having you say absolutely nothing.”
+“Can do,” says Jameson. And they move on to other topics.
+To Louisa’s pleasant surprise, it didn’t feel that hard to make her request. Instead of making a demand, she was offering Jameson a sort of shared experiment, to enter into together.
+
+Some Post-Game Analysis
+Louisa went methodically through the steps of a compelling offer:
+
+
+She started by sharing her understanding of Jameson’s concerns
+She talked about what she understood to be valuable to Jameson about attending the architecture reviews.
+
+She then shared her own concerns
+She brought to life the negative impacts of his habit of breaking in with questions/suggestions.
+
+Finally, she proposed an adjustment in how they work together
+By asking him to take notes instead of speaking up, and to meet with her after.
+Not only did that three-part structure make it easier for Jameson to say “yes”, it also made it easier for Louisa to make her request in the first place.
+A small point: she didn’t start by explicitly speaking to a long-term strategic outcome (which I generally recommend doing). Her request felt small enough, and she had enough existing rapport with Jameson, it felt reasonable to just focus on the immediate pattern of interaction.
+In going through the steps, Louisa drew on several of the tactics that we referenced in our last post, and will explore in detail in the future:
+
+
+Keep ‘Em Busy
+Instead of just asking Jameson to stop talking, she asked him to start doing something new instead – take notes so he can give feedback on the team and the architecture.
+
+
+Find Wins For Your Stakeholder By Hook Or By Crook
+Even though it wasn’t strictly necessary for her own needs, she created a new opportunity for Jameson to discuss team performance, which she knows he finds both valuable and meaningful.
+
+
+Invite Your Stakeholder To Solve Your Problems
+She framed the results of his problematic behavior in a non-judgmental way, as a challenge for them to face together.
+Okay, that’s it for today. Tune in next week, when we’ll talk about how to overcome the trivial problem of humans in positions of authority really, really not wanting to be told what to do! Especially by, say, you.
+As always, feel free to:
+
+And/or:
+
+
+
+Other titles I’m considering include: “How To Fix (How Your Work With) Your Boss”; “How To Behave So Your Boss Behaves”; and “A Field Guide To Working With Humans”. Opinions welcome!
+
+“Dan, when you were a CTO, did your direct reports ever ask you to stop talking during architecture reviews because you were distracting the team?” Um… maybe we should just move on.
