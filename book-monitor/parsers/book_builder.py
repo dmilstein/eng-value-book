@@ -140,13 +140,6 @@ class BookBuilder:
         """
         return self.errors.copy()
 
-    def get_toc_items(self) -> Optional[List[Union[tuple[str, str], tuple[None, str]]]]:
-        """Get the parsed TOC items.
-
-        Returns:
-            List of (filename, title) tuples, or None if TOC hasn't been parsed yet
-        """
-        return self.toc_items
 
 
 def create_word_count_bar(word_count: int, max_count: int, width: int = 20) -> str:
@@ -215,7 +208,7 @@ def main():
         sys.exit(1)
 
     # Get TOC structure from builder
-    toc_items = builder.get_toc_items()
+    toc_items = builder.toc_items
 
     # Output word counts with visual bars
     print(f"Book: {book.title}")
