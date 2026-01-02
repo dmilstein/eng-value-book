@@ -12,12 +12,12 @@ from utils.exceptions import FileNotFoundError, ParseError, ConfigError
 class BookBuilder:
     """Builder for constructing Book objects from org files."""
 
-    def __init__(self, directory_path: str, toc_path: str = None):
-        """Initialize builder with directory path and optional TOC path.
+    def __init__(self, directory_path: str, toc_path: str):
+        """Initialize builder with directory path and TOC path.
 
         Args:
             directory_path: Path to the directory containing org files
-            toc_path: Path to the TOC file (defaults to toc.org in directory)
+            toc_path: Path to the TOC file
 
         Raises:
             ConfigError: If directory path is invalid
@@ -32,7 +32,7 @@ class BookBuilder:
             raise ConfigError("BOOK_DIRECTORY", f"Path is not a directory: {directory_path}")
 
         self.directory_path = directory_path
-        self.toc_path = toc_path or os.path.join(directory_path, "toc.org")
+        self.toc_path = toc_path
         self.logger = logging.getLogger(__name__)
         self.errors = []  # Collect non-fatal errors
         self.toc_items = None  # Will be populated during build
@@ -190,7 +190,7 @@ def main():
 
     parser = argparse.ArgumentParser(description='Build book from org files and display word counts')
     parser.add_argument('directory', help='Directory containing org files')
-    parser.add_argument('--toc', help='Path to TOC file (defaults to toc.org in directory)')
+    parser.add_argument('--toc', required=True, help='Path to TOC file')
     args = parser.parse_args()
 
     # Configure basic logging
