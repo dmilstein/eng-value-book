@@ -7,19 +7,23 @@
 
 The Profound Value Of Good Increments
 
-** Intro
+** Intro - Laud Increments Right Away
 
-This book is a deep dive into how to design effective *increments* when developing software.
+This book is a deep dive into how to design effective *increments* for developing software.
 
 By "increments" I simply mean: how to break up a large body of engineering work into a series of smaller steps.
 
-I have come to believe that effective increment design is perhaps the most important skill of experienced engineers.
+In my not at all humble opinion, effective increment design is one of the most important skills an engineer can acquire.
 
-I further believe that the design of increments should be a centerpiece of a collaborative conversation among engineers, product managers, and the rest of the business.
+Furthermore, for a business to create value through building new software, the design of increments should be a centerpiece of a collaborative conversation among engineers, product managers, and their stakeholders.
 
 Why?
 
-For one simple reason: a good increment is one which *creates incremental value* for the business as a whole.
+For one simple reason: a "good" increment is one which *creates incremental value* for the business as a whole. But, for reasons we'll go into in great detail, engineers fundamentally *can't* determine value on their own.
+
+Furthermore, it's physically impossible to fully determine the best value-creating increments ahead of time, and then just hand them to the engineering team to chew through, one after another.
+
+No, for a business to generate value from a large software effort, the business must steadily make decisions as the work unfolds. There must be a given and take, as information is acquired, new increments are selected, and the ramfications filter through to the business as a whole.
 
 Breaking up a large system into distinct components is another fundamental skill, but it's a distinct from increment design. Component design is a bit like decomposing across *space*. Increment design is decomposing across *time*. And, since time only flows in one direction, it brings its own interesting, tricky challenges. Furthermore, there are lots of books about how to break large pieces of software into sane components -- some of them are even good! But I have really not run across that many about how to break the development of software down into a series of safe, value-generating steps.
 
@@ -47,10 +51,36 @@ Let's see what that feels like.
 
 
 
+** Intro - I Feel Your Pain
 
-* From Substack/Other
-# The Art of Increment Design, Part I: Help Us, Good Increments, You're Our Only Hope
-# Only Good Increments Can Save Us Now
+Developing software for a business would be delightfully easy if only the following three things were true:
+
+ 1. The engineers knew how long it would take them to build a piece of software
+
+ 2. The rest of the business actually knew what software they needed
+
+ 3. There was no existing software to maintain, extend and curse at
+
+ # 1. The engineers knew how long it would take to build specified products, features or tools
+
+ # 2. The rest of the business knew how valuable those various products, features or tools would actually be, as specified
+
+ # 3. There were no existing systems to maintain, extend and curse at
+
+But here in reality, estimates are unreliable, specifications are painfully wrong-headed, and legacy systems are lurking and waiting to crush everything you love.
+
+lurking in the wings, laughing. waiting for their moment to crush you.
+
+those three things are (checks notes), *essentially never true*.
+
+Engineers can't make accurate estimates of the time to deliver a software system of just about any meaningful complexity.
+
+The rest of the business, despite their professions of certainty, is routinely so misguided in their beliefs that entire new products, features or tools are just completely thrown away after being built.
+
+# , because they create so little value for their businesses.
+
+
+And, of course, most of the businesses that have the money to pay engineers, product managers and designers, have that money because someone in the past built some piece of software which people are now paying for, and which has to be considered as anything new is built, and that existing software has become encrusted with fragile special cases and opaque logic and endless amounts of confusing, subtly incorrect data.
 ** The Perils of Bad Increment Design
 
 Sometimes, in the middle of a dark wood, an engineer or a PM will find themselves on a team that is *doing* Agile, but that somehow doesn't *feel* agile in any way.
@@ -81,11 +111,13 @@ Why didn't "doing agile" save them? I am a huge believer in agile as a way to or
 
 Let's rewind to the start of the project.
 
-At the time, the team was working closely with a senior non-technical stakeholder. That stakeholder, after a good bit of back and forth, grudgingly conceded to the project being run "via Agile", instead of the way, well, every other project they'd ever supervised had been run: with a task breakdown, and a schedule, and a PMO to ensure everyone stays on track.[fn:: Why did the stakeholder agree to this? Because the engineers and product team were so *confidently dismissive* of the way the stakeholder *wanted* to run the project. The tech team derisively called the stakeholder's desired approach "waterfall". The stakeholder didn't really understand any alternatives to "waterfall", but within their first five minutes of being even *near* software development, they had learned that "waterfall" is Very Bad. They didn't want to look stupid, so they agreed to try this vague thing that everyone assured them was their only option.]
+At the time, the team was working closely with a senior non-technical stakeholder. That stakeholder, after a good bit of back and forth, grudgingly conceded to the project being run "via Agile", instead of the way, well, every other project they'd ever supervised had been run: with a task breakdown, and a schedule, and a PMO to ensure everyone stays on track.
+
+Why did the stakeholder agree to this? Because the engineers and product team were so *confidently dismissive* of the way the stakeholder *wanted* to run the project. The tech team derisively called the stakeholder's desired approach "waterfall". The stakeholder didn't really understand any alternatives to "waterfall", but within their first five minutes of being even *near* software development, they had learned that "waterfall" is Very Bad. They didn't want to look stupid, so they agreed to try this vague thing that everyone assured them was their only option.
 
 # because otherwise the engineers would have actually quit.
 
-But, that stakeholder extracted a concession of their own from the product team: a commitment to complete the project by Q2 of the following year.
+But, in return, that stakeholder extracted a concession of their own from the product team: a commitment to complete the project by Q2 of the following year.
 
 At the time, Q2 was a full nine months away. The engineers didn't love making this kind of long-term commitment, but they believed they had no choice but to give the business *some* kind of promise. They looked over the high-level PRD's from the product team and said "It looks like we should be able to finish by Q2 *if there are no horrible surprises*".
 
@@ -122,7 +154,55 @@ One way to understand all of the above is that the team has not chosen their seq
 Despite the team working in an agile fashion day-to-day, the company as a whole only seems to see *any* value at the very end of the project.
 
 If a team creates incremental value, then, well, they can *never really lose*. There's no panicked anxiety looming over them, because they can always stop, and the Rest Of The Business will be some degree of happy---because they will have gotten *some* value. The Rest of the Business may not get everything they *expected*, but if the team can create some genuine value, a smart PM and engineering lead can find a way to help the rest of the business understand the win.[fn:: Effectively drawing stakeholders into collaboration around valuable increments is a profoundly interesting challenge. We'll return to that challenge, once we have an understanding of which increments are even valuable in the first place.]
+* Brainstorming
+If I want to do a Tale of Two Projects, what business do I want to do? Who is working there? What do they build?
 
+** Bad Ideas for Their Business
+
+*** Ski Rentals
+
+*** AI Dental Arts
+
+*** EMR For Dentists
+
+*** Daycare Application Software
+
+*** AI-Provided Therapy
+
+*** Applicant Tracking Systems
+
+*** Grocery Store Management Software
+
+*** Political Campaign Software
+
+*** Sand & Gravel Delivery
+
+*** Dispatch Software - 911?
+
+*** Math Practice Software
+
+*** Hotel Vacancy Filler
+
+*** Night Manager Support
+
+*** Policing Tools
+
+*** Political Protest Organizing
+
+*** Daycare Test Prep Software
+
+*** Costume Rentals
+
+*** Middle School Play Support
+
+*** Lighting Equipment Rental
+
+*** Loyalty Program Management
+
+***
+* From Substack/Other
+# The Art of Increment Design, Part I: Help Us, Good Increments, You're Our Only Hope
+# Only Good Increments Can Save Us Now
 ** Sadly, Blind Adherence To One Approach Will Not Save You
 *** Intro
 Someone might read the above parable and think: "Ugh, Dan, that team made an /obvious/ mistake. Teams should /always/ build an end-to-end solution first, and then gradually expand outward from that. That's the True Agile approach. If they had done that, they would never have gotten stuck in such a pit."
