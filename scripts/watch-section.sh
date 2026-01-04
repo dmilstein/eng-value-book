@@ -29,7 +29,7 @@ parse_pointer_file() {
     fi
 
     # Read first line and split on whitespace
-    local line=$(head -1 "$POINTER_FILE" | xargs)
+    local line=$(head -1 "$POINTER_FILE")
     if [ -z "$line" ]; then
         echo "Error: Pointer file is empty"
         echo "Expected format: filename.org Heading Name"
