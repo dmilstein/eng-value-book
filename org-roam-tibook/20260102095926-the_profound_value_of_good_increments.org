@@ -1,103 +1,31 @@
 :PROPERTIES:
 :ID:       D2D9959D-3491-456B-89A0-E5ED5517E0BB
 :END:
-#+title: The Profound Value Of Good Increments
+#+title: Help Us, Good Increment Design, You're Our Only Hope
 #+filetags: :Chapter:
-* Help Us, Good Increments, You're Our Only Hope
+* Help Us, Good Increment Design, You're Our Only Hope
 
-The Profound Value Of Good Increments
+# The Profound Value Of Good Increments
 
-** Intro - Laud Increments Right Away
+** The Perils of Bad Increment Design
 
-This book is a deep dive into how to break up a large body of engineering work into a series of smaller, safe, value-generating steps.
+This book is a deep dive into how to break up a large body of engineering work into a series of small, safe, value-generating steps.
 
-# This book is a deep dive into how to design effective *increments* for developing software.
+But there's one crucial challenge: it's impossible fully map all those steps out ahead of time.
 
-# By "increments" I simply mean: how to break up a large body of engineering work into a series of smaller steps.
+This is such a universally accepted truth of software development
 
-#
+In other words, building software by attempting
 
-When you're young, and first learning to code, this seems straightforward. You're asked to write a program, you think out a few different ways to break down its overall structure, you pick one of those ways, and then you build the various components in some order.
+Selecting the next increment of work, based on what has been both built and learned up to this moment, is an incredibly highly levereage activity.
 
-And that more or less works.
+In fact, over the course of my career, I've come to believe that increment design is one of the most valuable skills of experienced engineers and product managers.
 
-As you work on steadily larger programs, you learn some key lessons -- e.g. wire the components together early and often, to flush out any confusion around interfaces. Write automated testing so you can safely restructure the system as you go. Use abstraction to capture repeated patterns. Then, after you excitedly overuse abstraction and create extremely difficult-to-change systems, learn to employ abstraction judiciously.[fn:: I find a hallmark of a truly experienced engineer is a willingness to cut and paste, like, a *bunch* of times, until they're certain they fully understand the pattern they want to pull out.]
+# Over the course of my career, I've come to believe it's impossible for an engineer or product manager to be truly effective at their job unless they go deep on increment design.
 
-But, there's a problem.
-
-These skills, though extremely useful, turn out to be insufficient when you're confronted with the challenges of developing valuable software for a business.
-
-Why?
-
-I'll offer three reasons.
-
-First off, when you work in a business, Some Important Person will demand that, before you start, you tell them *how long* it's going to take to write your program. After some *very* painful experiences, you realize that you can't answer this question in any meaningful way.
-
-# As part of onboarding at Ellevation, I would talk to a roomful of new hires, across both tech and non-tech roles. I would have an open-ended conversation about software development. At one point, I would say, "Sometimes, engineers tell you a project will take nine months." And, every single time, anyone with real experience in developing software -- engineers, product managers, designers -- would all do the same exact thing. They'd *laugh*. The rest of the room would look confused. What literally everyone has learned is that, when engineers tell you something will take nine months, you can not base any meaningful decisions on that estimate.
-
-This thing called Agile is supposed to help, but once you scale up to either more than a single team or to a project that stretches out past a few months, it's somewhat profoundly unclear how to apply agile. Sadly, teams at the the median software company I meet are using agile for their day-to-day processes, but all the tickets and sprints are embedded in some giant, slow-moving project with fixed deadlines and little in the way of feedback. I can't tell you how many project post-mortems I've run which had the same learning: we somehow ended up running a Waterfall project, even though we thought we were doing agile.
-
-Your options seem to be to either:
-
- a) Commit to long-term deadlines you're fundamentally uncertain about, and then spend your working hours in a state of ever-growing fear as you realize how impossible it will be to achieve what you've promised.
-
- b) Refuse to give your business partners what they insist they need, thereby poisoning your relationships with them and likely preventing your own advancement at your job.
-
-So, problem one is: even though Everyone Knows how hard it is to estimate software projects that stretch out past a few months... you're constantly asked to make long-term commitments.
-
-[snippet]
-
-Second, you have this repeated, extremely painful experience where you work hard, pulling long nights, pushing the people around you, making truly painful tradeoff choices in your code... and then, after you finally ship, the business shitcans [throws away] all your work. They show your new product to customers, who promptly throw up all over it. You attempt to roll out your new workflow software to your call centers, but there's a riot from the users. You attempt to connect your new data integration with a partner business, but it turns out that partner business has, like, hundreds of higher priorities than working with you, and after a painful year of trying to get them to answer your emails, you just archive all your work.
-
-Again, you seem to have two equally unpleasant options:
-
- a) Not My Problem! Put your head down, write lots of code, take pride in the code you write, and completely disassociate from any hope of creating value or solving meaningful problems. Assume a stance of cynical bitterness.
-
- b) Fight, Fight, Fight! Spend all your time just constantly arguing with your Important Person, until you find that you've got this new job, called Product Manager, and now *you're* expected to extract commitments and estimates from the engineers, and they seem to think you've become an Unreasonable Important Person, and ugh.
-
-So, problem two is: despite Your Important Person's messianic self-confidence, they will frequently ask you to write software which it turns out creates no value whatsoever.
-
-# this presents as straightforward
-
-Finally, the third problem is... legacy code. Although your Important Person is obsessively focused on new features, new products, and new capabilities, you discover that you're also responsible for existing systems. If you ignore the latent problems, they have every chance of blowing up and, either thanks to constant fire-fighting, or thanks to an apocalyptic amount of work to evolve existing systems, it's now impossible for you to deliver the thing you're being held accountable for.
-
-What are your options?
-
- a) Just pile more on top of the unstable foundation, and hope that the resulting problems land when you've moved on to another project, company, or career. Give up on any pride in building quality software that you can be proud of.
-
- b) Insist on rewriting the existing system to clean it up. This sounds like a great idea until you convince some credulous Important Person to let you do it, and then you discover the horrifying death treadmill of the Grand Rewrite. You leave that job before the rewrite finishes.
-
- c) Argue constantly about technical debt. But, because the resulting improvements are invisible to your Important Person, you put your own advancement at risk, and incur a bad reputation.
-
-# Nothing could be further from the truth.
-
-I'll offer something provocative.
-
-These are all the same problem.
-
-
-
-Over the course of my career, I've come to believe that increment design is one of the most valuable skills of experienced engineers and product managers.
-
-Over the course of my career, I've come to believe it's impossible for an engineer or product manager to be truly effective at their job unless they go deep on increment design.
-
-Furthermore, for a business to create value through building new software, the design of increments should be a centerpiece of a collaborative conversation among engineers, product managers, and their stakeholders.
-
-Why?
+I further believe, that, for a business to create value by building new software, the design of increments must be a collaborative conversation among engineers, product managers, and stakeholders.
 
 For one simple reason: a "good" increment is one which *creates incremental value* for the business as a whole. But, for reasons we'll go into in great detail, engineers fundamentally *can't* determine value on their own.
-
-Furthermore, it's physically impossible to fully determine the best value-creating increments ahead of time, and then just hand them to the engineering team to chew through, one after another.
-
-No, for a business to generate value from a large software effort, the business must steadily make decisions as the work unfolds. There must be a given and take, as information is acquired, new increments are selected, and the ramfications filter through to the business as a whole.
-
-Breaking up a large system into distinct components is another fundamental skill, but it's a distinct from increment design. Component design is a bit like decomposing across *space*. Increment design is decomposing across *time*. And, since time only flows in one direction, it brings its own interesting, tricky challenges. Furthermore, there are lots of books about how to break large pieces of software into sane components -- some of them are even good! But I have really not run across that many about how to break the development of software down into a series of safe, value-generating steps.
-
-In fact, implicit in a lot of the book on architectural component design is a vague sense that building one component at a time, or possibly separate teams building separate components, is a natural and correct way to then incrementally construct a large system. Sure... sometimes. But very much not always.
-
-To understand why, over the course of this series, I'll develop a nuanced understanding of how engineering work does (or does *not*) create value for an overall business (building on previous posts [link], [link]). We'll discover how some increments can, despite requiring a great deal of engineering effort, somehow create *no value whatsoever*. We'll also find how other increments, including ones where the engineers write very little code, can somehow create a great deal of value.
-
-This understanding of value will ultimately give us tools to break large efforts into small pieces, and will *also* offer creative ways to mix in increments of value-generating work to address a wide variety of concerns, e.g. being able to deploy more frequently; ensuring a system can handle increases in load; meeting security expectations; etc.
 
 Why is good increment design so valuable?
 
@@ -109,45 +37,7 @@ My guess is that you, dear reader, may have actually experienced this first hand
 
 Let's see what that feels like.
 
-# This theoretical foundation will give you a powerful way to reason about your work. With practice (and some further tactics, to be explored in subsequent posts), it will allow you to find a path through the shifting chaos of reality to a valuable outcome for your business.
 
-# When I talk with engineers or product managers at tech companies, just about universally, their teams are using some form of agile to organize their day-to-day work. They have sprint teams, those teams do daily stand ups, they work in iterations of a few weeks, with some form of planning at the start of each.
-
-# In a sense, the alternative to agile (Waterfall, natch), has "lost"
-
-
-
-** Intro - I Feel Your Pain
-
-Developing software for a business would be delightfully easy if only the following three things were true:
-
- 1. The engineers knew how long it would take them to build a piece of software
-
- 2. The rest of the business actually knew what software they needed
-
- 3. There was no existing software to maintain, extend and curse at
-
- # 1. The engineers knew how long it would take to build specified products, features or tools
-
- # 2. The rest of the business knew how valuable those various products, features or tools would actually be, as specified
-
- # 3. There were no existing systems to maintain, extend and curse at
-
-But here in reality, estimates are unreliable, specifications are painfully wrong-headed, and legacy systems are lurking and waiting to crush everything you love.
-
-lurking in the wings, laughing. waiting for their moment to crush you.
-
-those three things are (checks notes), *essentially never true*.
-
-Engineers can't make accurate estimates of the time to deliver a software system of just about any meaningful complexity.
-
-The rest of the business, despite their professions of certainty, is routinely so misguided in their beliefs that entire new products, features or tools are just completely thrown away after being built.
-
-# , because they create so little value for their businesses.
-
-
-And, of course, most of the businesses that have the money to pay engineers, product managers and designers, have that money because someone in the past built some piece of software which people are now paying for, and which has to be considered as anything new is built, and that existing software has become encrusted with fragile special cases and opaque logic and endless amounts of confusing, subtly incorrect data.
-** The Perils of Bad Increment Design
 
 Sometimes, in the middle of a dark wood, an engineer or a PM will find themselves on a team that is *doing* Agile, but that somehow doesn't *feel* agile in any way.
 
@@ -220,6 +110,178 @@ One way to understand all of the above is that the team has not chosen their seq
 Despite the team working in an agile fashion day-to-day, the company as a whole only seems to see *any* value at the very end of the project.
 
 If a team creates incremental value, then, well, they can *never really lose*. There's no panicked anxiety looming over them, because they can always stop, and the Rest Of The Business will be some degree of happy---because they will have gotten *some* value. The Rest of the Business may not get everything they *expected*, but if the team can create some genuine value, a smart PM and engineering lead can find a way to help the rest of the business understand the win.[fn:: Effectively drawing stakeholders into collaboration around valuable increments is a profoundly interesting challenge. We'll return to that challenge, once we have an understanding of which increments are even valuable in the first place.]
+** Intro - I Feel Your Pain
+
+Developing software for a business would be delightfully easy if only the following three things were true:
+
+ 1. The engineers knew how long it would take them to build a piece of software
+
+ 2. The rest of the business actually knew what software they needed
+
+ 3. There was no existing software to maintain, extend and curse at
+
+ # 1. The engineers knew how long it would take to build specified products, features or tools
+
+ # 2. The rest of the business knew how valuable those various products, features or tools would actually be, as specified
+
+ # 3. There were no existing systems to maintain, extend and curse at
+
+But here in reality, estimates are unreliable, specifications are painfully wrong-headed, and legacy systems are lurking and waiting to crush everything you love.
+
+lurking in the wings, laughing. waiting for their moment to crush you.
+
+those three things are (checks notes), *essentially never true*.
+
+Engineers can't make accurate estimates of the time to deliver a software system of just about any meaningful complexity.
+
+The rest of the business, despite their professions of certainty, is routinely so misguided in their beliefs that entire new products, features or tools are just completely thrown away after being built.
+
+# , because they create so little value for their businesses.
+
+
+And, of course, most of the businesses that have the money to pay engineers, product managers and designers, have that money because someone in the past built some piece of software which people are now paying for, and which has to be considered as anything new is built, and that existing software has become encrusted with fragile special cases and opaque logic and endless amounts of confusing, subtly incorrect data.
+
+** Intro: Bring Three Problems To Life As Learning Arc for an engineer
+
+This book is a deep dive into how to break up a large body of engineering work into a series of smaller, safe, value-generating steps.
+
+# In other words, how to design (and redesign) the increments of delivery.
+
+# This book is a deep dive into how to design effective *increments* for developing software.
+
+# By "increments" I simply mean: how to break up a large body of engineering work into a series of smaller steps.
+
+#
+
+When you're young, and first learning to code, this seems straightforward. You're asked to write a program, you think out a few different ways to break down its overall structure, you pick one of those ways, and then you build the various components in some order.
+
+And that more or less works.
+
+As you work on steadily larger programs, you learn some key lessons -- e.g. wire the components together early and often, to flush out any confusion around interfaces. Write automated testing so you can safely restructure the system as you go. Use abstraction to capture repeated patterns. Then, after you excitedly overuse abstraction and create extremely difficult-to-change systems, learn to employ abstraction judiciously.[fn:: I find a hallmark of truly experienced engineers is a willingness to cut and paste, like, a *bunch* of times, until they're certain they *fully* understand the pattern they want to pull out.]
+
+But, there's a problem.
+
+These skills, though extremely useful, turn out to be insufficient to enable you to develop valuable software for a business.
+
+Why?
+
+I'll offer three reasons.
+
+First off, when you work in a business, Some Important Person will demand that, before you start coding, you tell them *how long* it's going to take to write your program.
+
+After some *very* painful experiences, you realize that you can't answer this question in any meaningful way.
+
+As part of onboarding at Ellevation, I would talk to a roomful of new hires, across both tech and non-tech roles. I would have an open-ended conversation about software development. At one point, I would say, "Sometimes, engineers tell you a project will take nine months." And, every single time, anyone with real experience in developing software -- engineers, product managers, designers -- would all do the same exact thing. They'd *laugh*. The rest of the room would look confused. What literally everyone has learned is that, when engineers tell you something will take nine months, you can not base any meaningful decisions on that estimate.
+
+This thing called Agile is supposed to help, but once you scale up to either more than a single team or to a project that stretches out past a few months, it's somewhat profoundly unclear how to apply agile. Sadly, teams at the the median software company I meet are using agile for their day-to-day processes, but all the tickets and sprints are embedded in some giant, slow-moving project with fixed deadlines and little in the way of feedback. I can't tell you how many project post-mortems I've run which had the same learning: we somehow ended up running a Waterfall project, even though we thought we were doing agile.
+
+Your options seem to be to either:
+
+ a) Commit to long-term deadlines you're fundamentally uncertain about, and then spend your working hours in a state of ever-growing fear as you realize how impossible it will be to achieve what you've promised.
+
+ b) Refuse to give your business partners what they insist they need, thereby poisoning your relationships with them and likely preventing your own advancement at your job.
+
+So, problem one is: even though Everyone Knows how hard it is to estimate software projects that stretch out past a few months... when working to create valuable software, you'llk constantly be asked to make long-term commitments.
+
+So, problem one is: in order for you to create value by writing software, your business seems to believe that you need to accurately estimate how long it will take. Which is, sadly, impossible.
+
+[snippet]
+
+Second, you have this repeated, extremely painful experience where you work hard, pulling long nights, pushing the people around you, making truly painful tradeoff choices in your code... and then, after you finally ship, the business shitcans [throws away] all your work. They show your new product to customers, who promptly throw up all over it. You attempt to roll out your new workflow software to your call centers, but there's a riot from the users. You attempt to connect your new data integration with a partner business, but it turns out that partner business has, like, hundreds of higher priorities than working with you, and after a painful year of trying to get them to answer your emails, you just archive all your work.
+
+Again, you seem to have two equally unpleasant options:
+
+ a) Not My Problem! Put your head down, write lots of code, focus on some notion of "quality", and completely disassociate from any hope of creating value or solving meaningful problems. Assume a stance of cynical bitterness as your code rots away unused. Watch your career go kind of nowhere because you never seem to ship anything impactful.
+
+ b) Fight, Fight, Fight! Spend all your time just constantly arguing with your Important Person, until you find that you've got this new job, called Product Manager, and now *you're* expected to extract commitments and estimates from the engineers, and they seem to think you've become an Unreasonable Important Person, and ugh.
+
+So, problem two is: despite Your Important Person's messianic self-confidence, they will frequently ask you to write software which it turns out creates no value whatsoever.
+
+# this presents as straightforward
+
+Finally, the third problem is... legacy code. Although your Important Person is obsessively focused on new features, new products, and new capabilities, you discover that you're also responsible for existing systems. If you ignore the latent problems, they have every chance of blowing up and, either thanks to constant fire-fighting, or thanks to an apocalyptic amount of work to evolve existing systems, it's now impossible for you to deliver the thing you're being held accountable for.
+
+What are your options?
+
+ a) Just pile more on top of the unstable foundation, and hope that the inevitable disaster arrives when you've moved on to another project, company, or career. Give up on any hope of building quality software that you can be proud of.
+
+ b) Insist on rewriting the existing system to clean it up. This sounds like a great idea until you convince some credulous Important Person to let you do it, and then you find yourself on the horrifying death treadmill of the Grand Rewrite. You leave that job before the rewrite finishes.
+
+ c) Argue constantly about technical debt. But, because the resulting improvements are invisible to your Important Person, you put your own advancement at risk, and incur a bad reputation.
+
+So problem three is that, you have this incredibly strong feeling that there is important value in the long-term health of the systems engineering is responsible for. But no one seems to care about that value but you.
+
+# Nothing could be further from the truth.
+
+** All Three Are Same Problem
+
+I'll offer something provocative.
+
+Viewed from the right angle, these are all the same problem.
+
+Specifically, all three of are concerned with the same question: what next increment of work will *create value* for the business? Or, correspondingly, which increment of work will destroy value for the business?
+
+The business is, believe it or not, demanding estimates because they are trying to make a decision: what work should they ask you to do? What should they do, to take advantage of the work you're going to create?
+
+
+
+** Intro - Laud Increments Right Away
+
+Over the course of my career, I've come to believe that increment design is one of the most valuable skills of experienced engineers and product managers.
+
+# Over the course of my career, I've come to believe it's impossible for an engineer or product manager to be truly effective at their job unless they go deep on increment design.
+
+I further believe, that, for a business to create value by building new software, the design of increments must be a collaborative conversation among engineers, product managers, and stakeholders.
+
+For one simple reason: a "good" increment is one which *creates incremental value* for the business as a whole. But, for reasons we'll go into in great detail, engineers fundamentally *can't* determine value on their own.
+
+Furthermore, it's physically impossible to fully determine the best value-creating increments ahead of time, and then just hand them to the engineering team to chew through, one after another.
+
+No, for a business to generate value from a large software effort, the business must steadily make decisions as the work unfolds. There must be a given and take, as information is acquired, new increments are selected, and the ramfications filter through to the business as a whole.
+
+Breaking up a large system into distinct components is another fundamental skill, but it's a distinct from increment design. Component design is a bit like decomposing across *space*. Increment design is decomposing across *time*. And, since time only flows in one direction, it brings its own interesting, tricky challenges. Furthermore, there are lots of books about how to break large pieces of software into sane components -- some of them are even good! But I have really not run across that many about how to break the development of software down into a series of safe, value-generating steps.
+
+# In fact, implicit in a lot of the book on architectural component design is a vague sense that building one component at a time, or possibly separate teams building separate components, is a natural and correct way to then incrementally construct a large system. Sure... sometimes. But very much not always.
+
+In fact, implicit in a lot of the book on architectural component design is a vague sense that the desired behavior of the program is a *known thing*. Like, the problem is "Given that the program must to this exact complex thing, how should we structure it". Which is far, far from the truth, for almost any meaningful piece of software development in the real world.[fn:: I should say: on rare occasion, you'll find an extremely precisely specified but extremely challenging problem to solve, e.g. improve render or compile times. But, man, there just isn't much of that work.]
+
+# that building one component at a time, or possibly separate teams building separate components, is a natural and correct way to then incrementally construct a large system. Sure... sometimes. But very much not always.
+
+To understand why, over the course of this series, I'll develop a nuanced understanding of how engineering work does (or does *not*) create value for an overall business (building on previous posts [link], [link]). We'll discover how some increments can, despite requiring a great deal of engineering effort, somehow create *no value whatsoever*. We'll also find how other increments, including ones where the engineers write very little code, can somehow create a great deal of value.
+
+This understanding of value will ultimately give us tools to break large efforts into small pieces, and will *also* offer creative ways to mix in increments of value-generating work to address a wide variety of concerns, e.g. being able to deploy more frequently; ensuring a system can handle increases in load; meeting security expectations; etc.
+
+Why is good increment design so valuable?
+
+A teacher of mine once said, "The beauty of something is made clear by its absence."
+
+Thus: what is life like, on a team that suffers from poor increment design?
+
+My guess is that you, dear reader, may have actually experienced this first hand.
+
+Let's see what that feels like.
+
+# This theoretical foundation will give you a powerful way to reason about your work. With practice (and some further tactics, to be explored in subsequent posts), it will allow you to find a path through the shifting chaos of reality to a valuable outcome for your business.
+
+# When I talk with engineers or product managers at tech companies, just about universally, their teams are using some form of agile to organize their day-to-day work. They have sprint teams, those teams do daily stand ups, they work in iterations of a few weeks, with some form of planning at the start of each.
+
+# In a sense, the alternative to agile (Waterfall, natch), has "lost"
+
+
+
+* Notes From Walk <2026-01-04 Sun>
+Okay, so definitely reuse the stuff that I did from the workshop and break it up and think about the thing of thinking about Satoy as sort of a model and then think about starting the product plan more wrong.
+
+Maybe it's like a general sort of tracker of expenses and they ended up honing in on that.
+
+The MRI machines and then they ended up discovering that the real question is not how they've been used, but when to buy a new one.
+
+And they kind of revealed the product around that.
+
+See if we can escalate from "we have the data, but what can we actually do with it" to which then ends up limiting the fields they have and then presenting the spreadsheet to actually understand the decisions getting made and then actually building the product with the sales team.
+
+Think about kind of at each step hitting each step different stakeholder decision, kind of person and reference out the challenges drawing that person in and sort of forward reference that.
+
 * Brainstorming
 If I want to do a Tale of Two Projects, what business do I want to do? Who is working there? What do they build?
 
@@ -278,8 +340,6 @@ If I want to do a Tale of Two Projects, what business do I want to do? Who is wo
 *** Snow Removal Software
 
 *** Municipal Support
-
-
 
 * From Substack/Other
 # The Art of Increment Design, Part I: Help Us, Good Increments, You're Our Only Hope
@@ -454,3 +514,7 @@ But they got this one wrong.
 # The engineers had, of course, complained that the product team hadn't sufficiently defined the product for them to give a good estimate. But they always made that complaint.
 
 # The product team complained (to each other, over drinks), that the engineers weren't willing to stand behind their commitments.
+* Todos
+** TODO Find my exercises
+** TODO Review those exercises
+** TODO Copy and paste in a big chunk
