@@ -7,77 +7,15 @@
 
 # The Profound Value Of Good Increments
 
-** Increments Are A Decision We Make Over And Over
+** What Is The Sound Of One Agile Hand Clapping?
 
-# The Perils of Bad Increment Design
+# Doing Agile But Not Feeling Agile
 
-This book is a deep dive into how to break up a large body of software engineering work into a series of small, safe, value-generating steps.
-
-# Now, this challenge, of decomposing a large problem into smaller pieces, is, in the case of *software* projects, made just enormously difficult for one simple reason:
-
-Now, this challenge, of decomposing a large problem into smaller pieces, crops up over and over, in an extremely wide variety of domains.
-
-# In fact, being skilled at this decomposition is one of the key ways we recognize a "senior" engineer, again in wide variety of domains.
-
-# However, in the case of *software* projects, this challenge is made just enormously more difficult for one simple reason:
-
-However, in the case of software projects, it's made specifically difficult thanks to one simple reason:
-
-# extremely, fascinatingly,
-
-# *It's impossible to define all the steps before you start the work*.
-
-*It's impossible to define all the steps up front*.
-
-This is so widely accepted that software engineers and product managers will dismiss the "define all the steps first" approach with a casual, patronizing, "Ugh, you're asking us to do /waterfall/."
-
-# And everyone will understand what they mean.
-
-# The heart of the much-damned "waterfall" approach is to carefully define all the steps ahead of time, and to then hold a team accountable to executing on those steps as planned.
-
-# That approach fails so reliably that many engineers and product managers will fight tooth and nail against it, purely in their own self-interest. As in, they are so certain the results will be a disaster (specifically, a disaster for which they will be blamed), that they'll push extremely hard for a different way of working, even to the point of risking getting fired.
-
-But, what's the alternative?
-
-# Well, if you can't define all the steps ahead of time, you *have* to make some sort of an initial plan, but then be ready to *redefine that plan as you go*.
-
-# That's it. There is no other choice.
-
-Well, to successfully build a large piece of software, you apparently have to start by *somehow* selecting one specific chunk of work, executing on that chunk, and only then choosing your next chunk.
-
-In other words, you have to not only *build* incrementally, you also have to *plan* incrementally.[fn:: Many failed projects think they are being incremental, but they map out all their steps ahead of time and then attempt to march through them, one small, ahead-of-time defined step at a time. This works so reliably badly that I have personally run multiple project post-mortems for dramatically failed projects, which post-mortems all had the same fundamental learning: the team somehow ended up running a Waterfall project, even though they thought they were doing agile.]
-
-Thus, because the steps can't all be defined ahead of time, the core act working incrementally is /deciding what to do next/.
-
-The fundamental thesis of this book is that deciding what to do next is an incredibly high-leverage act.
-
-That act is best understood not as merely selecting from some set of fairly obvious alternatives, but as a challenge, requiring creative engineering and product management  effort to overcome. Good increments of work aren't merely chosen, they are *designed*. I believe that increment design is among the most critical, valuable skill for engineers and product managers to develop.
-
-# Selecting the next increment of work, based on what has been both built and learned up to this moment, is an incredibly highly levereage activity.
-
-# Over the course of my career, I've come to believe it's impossible for an engineer or product manager to be truly effective at their job unless they go deep on increment design.
-
-# I further believe, that, for a business to create value by building new software, the design of increments must be a collaborative conversation among engineers, product managers, and stakeholders.
-
-# For one simple reason: a "good" increment is one which *creates incremental value* for the business as a whole. But, for reasons we'll go into in great detail, engineers fundamentally *can't* determine value on their own.
-
-Why is good increment design so valuable?
-
-A teacher of mine once said, "The beauty of something is made clear by its absence."
-
-Thus: what is life like, on a team that suffers from poor increment design?
-
-My guess is that you, dear reader, may have actually experienced this first hand.
-
-Let's see what that feels like.
-
-** Doing Agile But Not Feeling Agile
-
-Sometimes, in the middle of a dark wood, an engineer or a PM will find themselves on a team that is *doing* Agile, but that somehow doesn't *feel* agile in any way.
+Sometimes, in the middle of a dark wood, an engineer or a product manager will find themselves on a team that is *doing* Agile, but that somehow doesn't *feel* agile in any way.
 
 # Switch all to "you" in the below?
 
-The team observes all the agile rituals, and observes them faithfully and well. Their sprints are a crisp two weeks long. They start each sprint on a Monday morning with a full team planning session. They gather every day for a stand up. As they work, the engineers steadily pull well-groomed tickets from the board. On the final Friday of each sprint, the engineers demo what they've built, and then the team runs a brief retro in the afternoon.
+The team observes all the agile rituals, and observes them faithfully and well. Their sprints are a crisp two weeks long. They start each sprint on a Monday morning with a full team planning session, wherein the product manager patiently explains the nuances of the various stories and tickets at hand. Each morning at precisely 9:05 am, the team gathers for a stand up. As they work, the engineers steadily pull well-groomed tickets from the board. On the final Friday of each sprint, the engineers demo what they've built, and then the team runs a brief retro in the afternoon.
 
 All that is as it should be, right?
 
@@ -87,19 +25,21 @@ But, in practice, there's a problem.
 
 Somehow, the overall project is drifting totally out of control.
 
-The team is far, far behind where they are supposed to be. Every lingering problem they finally tackle immediately sprouts three new problems, hydra-like. The PM is losing sleep, and wakes each morning from anxious dreams about their next update to the executive team. The engineers are growing defeatist and bitter. Every day they're asked to pile new expedient hacks on top of yesterday's expedient hacks, resulting in a system that is ever-more unstable. They've already missed all their key delivery dates, so there's no time to deal with any of the emerging problems. The engineers and the PM's have a growing suspicion that when they finally *do* ship the unstable, limited, badly compromised system, literally everyone will be angry at them.
+The team is far, far behind where they are supposed to be. They missed their first delivery deadline so badly that they got down on their knees and negotiated a three month extension. They then promptly consumed all that time without any positive result. Now, every lingering problem the engineers tackle immediately sprouts three new problems, hydra-like. The PM is losing sleep, and wakes each morning from anxious dreams about their next update to the executive team. The engineers have grown defeatist and bitter. Every day they're asked to pile new expedient hacks on top of yesterday's expedient hacks, resulting in a system that is both more and more difficult to change, and also somewhat terrifyingly unstable. The engineers and the PM's have a growing suspicion that when they finally *do* ship the flaky, limited, badly compromised system, literally everyone will be angry at them.
 
-This is, in fact, exactly what will happen.
+This is, in fact, precisely what will happen.
 
 # This is a team that is "doing waterfall with agile methods". Somehow, despite successfully applying agile *tactics*, they're still gaining the pretty nasty outcomes of waterfall.
 
 How did this team get here?
 
-How can we avoid getting to a similar place in the future?
+How can you avoid getting to a similar place in the future?
 
-Why didn't "doing agile" save them? I am a huge believer in agile as a way to organize the work of a team. But, unfortunately, agile tactics, as commonly practiced, are not enough. They are, in the precise terminology of mathematics, *necessary but not sufficient*.
+Most of all, why didn't "doing agile" save them? Note: I am a /huge/ believer in agile as a way to organize the work of a team. But, unfortunately, agile tactics, as commonly practiced, are not enough. They are, in the precise terminology of mathematics, *necessary but not sufficient*.
 
-Let's rewind to the start of the project.
+To see the moment when things started to go off the rails, let's rewind to the start of the project.
+
+** A Sadly Typical Exercise In Increment Design
 
 At the time, the team was working closely with a senior non-technical stakeholder. That stakeholder, after a good bit of back and forth, grudgingly conceded to the project being run "via Agile", instead of the way, well, every other project they'd ever supervised had been run: with a task breakdown, and a schedule, and a PMO to ensure everyone stays on track.
 
@@ -109,9 +49,9 @@ Why did the stakeholder agree to this? Because the engineers and product team we
 
 But, in return, that stakeholder extracted a concession of their own from the product team: a commitment to complete the project by Q2 of the following year.
 
-At the time, Q2 was a full nine months away. The engineers didn't love making this kind of long-term commitment, but they believed they had no choice but to give the business *some* kind of promise. They looked over the high-level PRD's from the product team and said "It looks like we should be able to finish by Q2 *if there are no horrible surprises*".
+At the time, Q2 was a full nine months away. The engineers didn't love making this kind of long-term commitment, but they believed they had no choice but to give the business *some* kind of promise. They looked over the high-level Product Requirement Docs from the product team and said "It looks like we should be able to finish by Q2. I mean, if there are no horrible surprises."
 
-The product team said "Of course, we understand." They made a good-faith attempt to share that caveat with the senior non-technical stakeholder. But, surprisingly approximately no one, that stakeholder neither understood nor accepted the caveat. Instead, after meeting with the product team, they immediately turned around and told the Rest Of The Business, "The engineering team has committed to a Q2 launch date." The Rest Of The Business said "Great, thanks," and started basing all their own plans on that date.
+The product team said "Of course, we understand." They even made a good-faith attempt to share that caveat with the senior non-technical stakeholder. But, surprisingly approximately no one, that stakeholder neither understood nor accepted the caveat. Instead, after meeting with the product team, they immediately turned around and told the Rest Of The Business, "The engineering team has committed to an April 3rd launch." The Rest Of The Business said "Great, thanks," and started basing all their own plans on that date.
 
 What happened next?
 
@@ -125,25 +65,161 @@ Once the engineers had the increments, they estimated each, then the product tea
 
 And then the engineers got to work, in their (well-observed!) agile process.
 
-Unfortunately, in this moment, the team is already doomed.
-
 # Clean up tenses in the below
 
-They have chosen their overall increments arbitrarily and poorly. Even if they run their agile processes well, sprint-to-sprint, they are going to find themselves trapped, with no options as the work unfolds.
+** The Pains Of Bad Increments
+
+Unfortunately, as the work starts, the team is almost certainly doomed.
+
+They have chosen their overall increments arbitrarily and poorly. Even if they run their agile processes well, sprint-to-sprint, they are just about guaranteed to find themselves trapped, with no options as the work unfolds.
 
 Why is this so?
 
-One of the components will turn out to be impossible to build as they had planned. The absence of that component will trigger a ripple effect through the rest of the system, requiring enormous amount of rework and ultimately forcing a rethinking of what the product is able to do. Unfortunately, the team chose to work on that component *late* in their sequence. By the time they make this unfortunate discovery, their original launch date is only four weeks away. There are no good options to adapt and still deliver something valuable anywhere close to the plan.
+For this particular project, one of the components turns out to be simply impossible to build as they had planned. The absence of that component triggers a ripple effect through the rest of the system, requiring enormous amount of rework and ultimately forcing a rethinking of what the product is able to do. Unfortunately, the team chose to work on that component *late* in their sequence. By the time they make this unfortunate discovery, their original launch date is only four weeks away. There are no good options to adapt and still deliver something valuable anywhere close to the plan. They realize that they have to start an essentially entirely new project, moments before the original project was supposed to conclude.
 
-Of course, missing plan isn't an uncommon occurrence. Why does this leave the team in such bad shape?
+# Of course, missing plan isn't an uncommon occurrence. Why does this particular miss leave the team in such bad shape?
 
-The engineers and the PM have not engaged their stakeholders in any discussion around the increments. Instead, they treated the increments as an internal concern of engineering and product. Therefore, none of the intermediate increments deliver anything that their stakeholders would find at all *useful* or valuable. There's no point, before the very end of the project that the team can decide, *with* their stakeholders, to take some form of a partial win, and move on.
+How might the team have conducted their work differently to avoid this painfully unpleasant outcome?
 
-One way to understand all of the above is that the team has not chosen their sequence of work to *create incremental value*.
+Well, one easy answer is: the engineers /should have known/ that the component would be impossible to build. This answer is so easy, people come up with it all the time! But, unfortunately, it's not a very *useful* answer (except for making people feel bad, at which it excels). Any engineer who has worked for almost any amount of time can cite dozens of personal experiences of painful surprises blowing their plans up. If your only hope for creating value is for your engineers to /never be unpleasantly surprised/, well, then, good luck to you, is all I can say.
 
-Despite the team working in an agile fashion day-to-day, the company as a whole only seems to see *any* value at the very end of the project.
+How might the engineers and PM's have somehow conducted their work so as to avoid the horrible discoveries, late in the project? What did they miss?
 
-If a team creates incremental value, then, well, they can *never really lose*. There's no panicked anxiety looming over them, because they can always stop, and the Rest Of The Business will be some degree of happy---because they will have gotten *some* value. The Rest of the Business may not get everything they *expected*, but if the team can create some genuine value, a smart PM and engineering lead can find a way to help the rest of the business understand the win.[fn:: Effectively drawing stakeholders into collaboration around valuable increments is a profoundly interesting challenge. We'll return to that challenge, once we have an understanding of which increments are even valuable in the first place.]
+# The answer is somewhat subtle.
+
+This book will offer an answer, based on my own several decades of trying to avoid such painful discoveries while, first, being paid to write software for people, and then leading teams of extremely expensive engineers being paid to write software for people.
+
+My ansewr is: the core problem in the story is that the engineers and the PM did not engage their stakeholders in any discussion around the increments.
+
+Instead, they treated the increments as an internal concern of engineering. Therefore, none of the intermediate increments delivered anything that their stakeholders found at all valuable. There was no point, before the very end of the project that the team could have decided, *with* their stakeholders, to take some form of a partial win, and move on.
+
+One way to understand all of the above is that the team did not choose their sequence of work to *create incremental value*.
+
+Despite the team working in an agile fashion day-to-day, the company as a whole only seemed to see *any* value at the very end of the project.
+
+If a team creates incremental value, then, well, they can *never really lose*. There's no panicked anxiety looming over them, because they can always stop, and the Rest Of The Business will be some degree of happy---because they will have gotten *some* value. The Rest of the Business may not get everything they *expected*, but if the team can create some genuine value, a smart PM and engineering lead can find a way to help the rest of the business understand the win.
+
+One note: drawing stakeholders into collaboration around valuable increments is a profoundly interesting challenge. We'll return to that challenge, once we have an understanding of which increments are even valuable in the first place. The concept of "creating value" will turn out to be well worth digging into.
+
+** Intro - Laud Increments Right Away
+
+Over the course of my career, I've come to believe that increment design is one of the most valuable skills engineers and product managers can develop.
+
+# Over the course of my career, I've come to believe it's impossible for an engineer or product manager to be truly effective at their job unless they go deep on increment design.
+
+# I further believe, that, for a business to create value by building new software, the design of increments must be a collaborative conversation among engineers, product managers, and stakeholders.
+
+# For one simple reason: a "good" increment is one which *creates incremental value* for the business as a whole. But, for reasons we'll go into in great detail, engineers fundamentally *can't* determine value on their own.
+
+Furthermore, it's physically impossible to fully determine the best value-creating increments ahead of time, and then just hand them to the engineering team to chew through, one after another.
+
+No, for a business to generate value from a large software effort, the business as a whole must steadily *make decisions* as the work unfolds. There must be a given and take, as information is acquired, new increments are selected, and the ramfications filter through to the business as a whole.
+
+# Breaking up a large system into distinct components is another fundamental skill, but it's a distinct from increment design. Component design is a bit like decomposing across *space*. Increment design is decomposing across *time*. And, since time only flows in one direction, it brings its own interesting, tricky challenges. Furthermore, there are lots of books about how to break large pieces of software into sane components -- some of them are even good! But I have really not run across that many about how to break the development of software down into a series of safe, value-generating steps.
+
+# In fact, implicit in a lot of the book on architectural component design is a vague sense that building one component at a time, or possibly separate teams building separate components, is a natural and correct way to then incrementally construct a large system. Sure... sometimes. But very much not always.
+
+# In fact, implicit in a lot of the book on architectural component design is a vague sense that the desired behavior of the program is a *known thing*. Like, the problem is "Given that the program must to this exact complex thing, how should we structure it". Which is far, far from the truth, for almost any meaningful piece of software development in the real world.[fn:: I should say: on rare occasion, you'll find an extremely precisely specified but extremely challenging problem to solve, e.g. improve render or compile times. But, man, there just isn't much of that work.]
+
+# that building one component at a time, or possibly separate teams building separate components, is a natural and correct way to then incrementally construct a large system. Sure... sometimes. But very much not always.
+
+To understand why, over the course of the book, we'll develop a nuanced understanding of how engineering work does (or does *not*) create value for an overall business. We'll discover how some increments can, despite requiring a great deal of engineering effort, somehow create *no value whatsoever*. We'll also find how other increments, including ones where the engineers write very little code, can somehow create a great deal of value.
+
+This understanding of value will ultimately give us tools to break large efforts into small pieces, and will *also* offer creative ways to mix in increments of value-generating work to address a wide variety of concerns, e.g. being able to deploy more frequently; ensuring a system can handle increases in load; meeting security expectations; etc.
+
+# This theoretical foundation will give you a powerful way to reason about your work. With practice (and some further tactics, to be explored in subsequent posts), it will allow you to find a path through the shifting chaos of reality to a valuable outcome for your business.
+
+# When I talk with engineers or product managers at tech companies, just about universally, their teams are using some form of agile to organize their day-to-day work. They have sprint teams, those teams do daily stand ups, they work in iterations of a few weeks, with some form of planning at the start of each.
+
+# In a sense, the alternative to agile (Waterfall, natch), has "lost"
+
+
+** Increments Are A Decision We Make Over And Over
+
+# The Perils of Bad Increment Design
+
+This book is a deep dive into how to break up a large body of software engineering work into a series of small, safe, value-generating steps.
+
+# Now, this challenge, of decomposing a large problem into smaller pieces, is, in the case of *software* projects, made just enormously difficult for one simple reason:
+
+# Now, this challenge, of decomposing a large problem into smaller pieces, crops up over and over, in an extremely wide variety of domains.
+
+# In fact, being skilled at this decomposition is one of the key ways we recognize a "senior" engineer, again in wide variety of domains.
+
+# However, in the case of *software* projects, this challenge is made just enormously more difficult for one simple reason:
+
+The challenge of decomposing a large body of software engineering work is made specifically difficult thanks to one simple reason:
+
+# , which I, like, strongly suspect you already know:
+
+# extremely, fascinatingly,
+
+# *It's impossible to define all the steps before you start the work*.
+
+For software projects, *it's impossible to define all the steps before you start*.
+
+This is so widely accepted that engineers and product managers will dismiss the "define all the steps first" approach with a casual, patronizing, "Ugh, you're asking us to do /Waterfall/."
+
+# And everyone will understand what they mean.
+
+# The heart of the much-damned "waterfall" approach is to carefully define all the steps ahead of time, and to then hold a team accountable to executing on those steps as planned.
+
+# That approach fails so reliably that many engineers and product managers will fight tooth and nail against it, purely in their own self-interest. As in, they are so certain the results will be a disaster (specifically, a disaster for which they will be blamed), that they'll push extremely hard for a different way of working, even to the point of risking getting fired.
+
+But, if Waterfall is "bad", what's the alternative?
+
+# Well, if you can't define all the steps ahead of time, you *have* to make some sort of an initial plan, but then be ready to *redefine that plan as you go*.
+
+# That's it. There is no other choice.
+
+To successfully build a large, valuable piece of software, you apparently have to start by *somehow* selecting one specific chunk of work, executing on that chunk, and only then choosing your next chunk.
+
+In other words, you have to not only *build* incrementally, you also have to *plan* incrementally.[fn:: Many failed projects think they are being incremental, but they map out all their steps ahead of time and then attempt to march through them, one small, ahead-of-time defined step at a time. This works so reliably badly that I have personally run multiple project post-mortems for dramatically failed projects, which post-mortems all had the same fundamental learning: the team somehow ended up running a Waterfall project, even though they thought they were doing agile.]
+
+Thus, because the steps can't all be defined ahead of time, the core act of working incrementally is /deciding what to do next/.
+
+The fundamental thesis of this book is that deciding what to do next is an incredibly high-leverage act.
+
+That act is best understood not as merely selecting from some set of fairly obvious alternatives, but as confronting a moment of intense challenge, requiring creative engineering and product management effort to overcome. Good increments aren't merely chosen, they are *designed*. In fact, I believe that increment design is among the most critical, valuable skills that engineers and product managers can develop.
+
+# Selecting the next increment of work, based on what has been both built and learned up to this moment, is an incredibly highly levereage activity.
+
+# Over the course of my career, I've come to believe it's impossible for an engineer or product manager to be truly effective at their job unless they go deep on increment design.
+
+# I further believe, that, for a business to create value by building new software, the design of increments must be a collaborative conversation among engineers, product managers, and stakeholders.
+
+# For one simple reason: a "good" increment is one which *creates incremental value* for the business as a whole. But, for reasons we'll go into in great detail, engineers fundamentally *can't* determine value on their own.
+
+Why is good increment design so valuable?
+
+# A teacher of mine once said, "The beauty of something is made clear by its absence."
+
+Well, to answer that, let's flip it around.
+
+What is life like, on a team that suffers from poor, haphazard increment design?
+
+My guess is that you, dear reader, may have actually experienced this first hand.
+
+# Let's see what that feels like.
+
+** Intended Audience + Three Core Problems Solved
+It's intended audience includes individual software engineers and product managers, leaders of both engineering and product teams, and a variety of curious non-technical stakeholders, who would like to understand how to improve their painfully broken relationships with their tech counterparts.
+
+Believe it or not, good increment design holds the key to:
+
+ - How engineers can consistently develop valuable software...
+
+   ...even though they can't reliably estimate how long it will take them to do, well, almost anything.
+
+ - How product teams can rapidly hone in on software that customers adore (and will happily pay for!)...
+
+   ...even though the users are utterly incapable of describing what they need, the engineers can't tell you they'll actually be able to build, and the sales team wants to control every interaction with the buyer.
+
+ - How engineers and product teams can work together to build valuable software atop hideously complex legacy systems...
+
+   ...even though no one understands how those systems work and a massive outage may be just waiting in the wings to crush your dreams.
+
+
 ** My background a bit / live without fear
 
 It represents what I have spent several decades learning, about how to, well, *live without fear*.
@@ -227,7 +303,7 @@ First off, when you work in a business, Some Important Person will demand that, 
 
 After some *very* painful experiences, you realize that you can't answer this question in any meaningful way.
 
-As part of onboarding at Ellevation, I would talk to a roomful of new hires, across both tech and non-tech roles. I would have an open-ended conversation about software development. At one point, I would say, "Sometimes, engineers tell you a project will take nine months." And, every single time, anyone with real experience in developing software -- engineers, product managers, designers -- would all do the same exact thing. They'd *laugh*. The rest of the room would look confused. What literally everyone has learned is that, when engineers tell you something will take nine months, you can not base any meaningful decisions on that estimate.
+As part of onboarding at Ellevation, I would talk to a roomful of new hires, across both tech and non-tech roles. I would have an open-ended conversation about software development. At one point, I would say, "Sometimes, engineers tell you a project will take nine months." And, every single time, anyone with real experience in developing software -- engineers, product managers, designers -- would all do the same exact thing. They'd *laugh*. The rest of the room would look confused. What literally everyone has learned is that, when engineers tell you something will take nine months, you can not base any meaningful decisions on that estimate. And yet, business do, believe it or not, need to make some plans stretching out nine months into the future.
 
 This thing called Agile is supposed to help, but once you scale up to either more than a single team or to a project that stretches out past a few months, it's somewhat profoundly unclear how to apply agile. Sadly, teams at the the median software company I meet are using agile for their day-to-day processes, but all the tickets and sprints are embedded in some giant, slow-moving project with fixed deadlines and little in the way of feedback. I can't tell you how many project post-mortems I've run which had the same learning: we somehow ended up running a Waterfall project, even though we thought we were doing agile.
 
@@ -279,49 +355,6 @@ Specifically, all three of are concerned with the same question: what next incre
 
 The business is, believe it or not, demanding estimates because they are trying to make a decision: what work should they ask you to do? What should they do, to take advantage of the work you're going to create?
 
-
-
-** Intro - Laud Increments Right Away
-
-Over the course of my career, I've come to believe that increment design is one of the most valuable skills of experienced engineers and product managers.
-
-# Over the course of my career, I've come to believe it's impossible for an engineer or product manager to be truly effective at their job unless they go deep on increment design.
-
-I further believe, that, for a business to create value by building new software, the design of increments must be a collaborative conversation among engineers, product managers, and stakeholders.
-
-For one simple reason: a "good" increment is one which *creates incremental value* for the business as a whole. But, for reasons we'll go into in great detail, engineers fundamentally *can't* determine value on their own.
-
-Furthermore, it's physically impossible to fully determine the best value-creating increments ahead of time, and then just hand them to the engineering team to chew through, one after another.
-
-No, for a business to generate value from a large software effort, the business must steadily make decisions as the work unfolds. There must be a given and take, as information is acquired, new increments are selected, and the ramfications filter through to the business as a whole.
-
-Breaking up a large system into distinct components is another fundamental skill, but it's a distinct from increment design. Component design is a bit like decomposing across *space*. Increment design is decomposing across *time*. And, since time only flows in one direction, it brings its own interesting, tricky challenges. Furthermore, there are lots of books about how to break large pieces of software into sane components -- some of them are even good! But I have really not run across that many about how to break the development of software down into a series of safe, value-generating steps.
-
-# In fact, implicit in a lot of the book on architectural component design is a vague sense that building one component at a time, or possibly separate teams building separate components, is a natural and correct way to then incrementally construct a large system. Sure... sometimes. But very much not always.
-
-In fact, implicit in a lot of the book on architectural component design is a vague sense that the desired behavior of the program is a *known thing*. Like, the problem is "Given that the program must to this exact complex thing, how should we structure it". Which is far, far from the truth, for almost any meaningful piece of software development in the real world.[fn:: I should say: on rare occasion, you'll find an extremely precisely specified but extremely challenging problem to solve, e.g. improve render or compile times. But, man, there just isn't much of that work.]
-
-# that building one component at a time, or possibly separate teams building separate components, is a natural and correct way to then incrementally construct a large system. Sure... sometimes. But very much not always.
-
-To understand why, over the course of this series, I'll develop a nuanced understanding of how engineering work does (or does *not*) create value for an overall business (building on previous posts [link], [link]). We'll discover how some increments can, despite requiring a great deal of engineering effort, somehow create *no value whatsoever*. We'll also find how other increments, including ones where the engineers write very little code, can somehow create a great deal of value.
-
-This understanding of value will ultimately give us tools to break large efforts into small pieces, and will *also* offer creative ways to mix in increments of value-generating work to address a wide variety of concerns, e.g. being able to deploy more frequently; ensuring a system can handle increases in load; meeting security expectations; etc.
-
-Why is good increment design so valuable?
-
-A teacher of mine once said, "The beauty of something is made clear by its absence."
-
-Thus: what is life like, on a team that suffers from poor increment design?
-
-My guess is that you, dear reader, may have actually experienced this first hand.
-
-Let's see what that feels like.
-
-# This theoretical foundation will give you a powerful way to reason about your work. With practice (and some further tactics, to be explored in subsequent posts), it will allow you to find a path through the shifting chaos of reality to a valuable outcome for your business.
-
-# When I talk with engineers or product managers at tech companies, just about universally, their teams are using some form of agile to organize their day-to-day work. They have sprint teams, those teams do daily stand ups, they work in iterations of a few weeks, with some form of planning at the start of each.
-
-# In a sense, the alternative to agile (Waterfall, natch), has "lost"
 
 
 
