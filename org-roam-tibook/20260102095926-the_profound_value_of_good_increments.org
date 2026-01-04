@@ -7,25 +7,59 @@
 
 # The Profound Value Of Good Increments
 
-** The Perils of Bad Increment Design
+** Increments Are A Decision We Make Over And Over
 
-This book is a deep dive into how to break up a large body of engineering work into a series of small, safe, value-generating steps.
+# The Perils of Bad Increment Design
 
-But there's one crucial challenge: it's impossible fully map all those steps out ahead of time.
+This book is a deep dive into how to break up a large body of software engineering work into a series of small, safe, value-generating steps.
 
-This is such a universally accepted truth of software development
+# Now, this challenge, of decomposing a large problem into smaller pieces, is, in the case of *software* projects, made just enormously difficult for one simple reason:
 
-In other words, building software by attempting
+Now, this challenge, of decomposing a large problem into smaller pieces, crops up over and over, in an extremely wide variety of domains.
 
-Selecting the next increment of work, based on what has been both built and learned up to this moment, is an incredibly highly levereage activity.
+# In fact, being skilled at this decomposition is one of the key ways we recognize a "senior" engineer, again in wide variety of domains.
 
-In fact, over the course of my career, I've come to believe that increment design is one of the most valuable skills of experienced engineers and product managers.
+# However, in the case of *software* projects, this challenge is made just enormously more difficult for one simple reason:
+
+However, in the case of software projects, it's made specifically difficult thanks to one simple reason:
+
+# extremely, fascinatingly,
+
+# *It's impossible to define all the steps before you start the work*.
+
+*It's impossible to define all the steps up front*.
+
+This is so widely accepted that software engineers and product managers will dismiss the "define all the steps first" approach with a casual, patronizing, "Ugh, you're asking us to do /waterfall/."
+
+# And everyone will understand what they mean.
+
+# The heart of the much-damned "waterfall" approach is to carefully define all the steps ahead of time, and to then hold a team accountable to executing on those steps as planned.
+
+# That approach fails so reliably that many engineers and product managers will fight tooth and nail against it, purely in their own self-interest. As in, they are so certain the results will be a disaster (specifically, a disaster for which they will be blamed), that they'll push extremely hard for a different way of working, even to the point of risking getting fired.
+
+But, what's the alternative?
+
+# Well, if you can't define all the steps ahead of time, you *have* to make some sort of an initial plan, but then be ready to *redefine that plan as you go*.
+
+# That's it. There is no other choice.
+
+Well, to successfully build a large piece of software, you apparently have to start by *somehow* selecting one specific chunk of work, executing on that chunk, and only then choosing your next chunk.
+
+In other words, you have to not only *build* incrementally, you also have to *plan* incrementally.[fn:: Many failed projects think they are being incremental, but they map out all their steps ahead of time and then attempt to march through them, one small, ahead-of-time defined step at a time. This works so reliably badly that I have personally run multiple project post-mortems for dramatically failed projects, which post-mortems all had the same fundamental learning: the team somehow ended up running a Waterfall project, even though they thought they were doing agile.]
+
+Thus, because the steps can't all be defined ahead of time, the core act working incrementally is /deciding what to do next/.
+
+The fundamental thesis of this book is that deciding what to do next is an incredibly high-leverage act.
+
+That act is best understood not as merely selecting from some set of fairly obvious alternatives, but as a challenge, requiring creative engineering and product management  effort to overcome. Good increments of work aren't merely chosen, they are *designed*. I believe that increment design is among the most critical, valuable skill for engineers and product managers to develop.
+
+# Selecting the next increment of work, based on what has been both built and learned up to this moment, is an incredibly highly levereage activity.
 
 # Over the course of my career, I've come to believe it's impossible for an engineer or product manager to be truly effective at their job unless they go deep on increment design.
 
-I further believe, that, for a business to create value by building new software, the design of increments must be a collaborative conversation among engineers, product managers, and stakeholders.
+# I further believe, that, for a business to create value by building new software, the design of increments must be a collaborative conversation among engineers, product managers, and stakeholders.
 
-For one simple reason: a "good" increment is one which *creates incremental value* for the business as a whole. But, for reasons we'll go into in great detail, engineers fundamentally *can't* determine value on their own.
+# For one simple reason: a "good" increment is one which *creates incremental value* for the business as a whole. But, for reasons we'll go into in great detail, engineers fundamentally *can't* determine value on their own.
 
 Why is good increment design so valuable?
 
@@ -37,7 +71,7 @@ My guess is that you, dear reader, may have actually experienced this first hand
 
 Let's see what that feels like.
 
-
+** Doing Agile But Not Feeling Agile
 
 Sometimes, in the middle of a dark wood, an engineer or a PM will find themselves on a team that is *doing* Agile, but that somehow doesn't *feel* agile in any way.
 
@@ -110,6 +144,28 @@ One way to understand all of the above is that the team has not chosen their seq
 Despite the team working in an agile fashion day-to-day, the company as a whole only seems to see *any* value at the very end of the project.
 
 If a team creates incremental value, then, well, they can *never really lose*. There's no panicked anxiety looming over them, because they can always stop, and the Rest Of The Business will be some degree of happy---because they will have gotten *some* value. The Rest of the Business may not get everything they *expected*, but if the team can create some genuine value, a smart PM and engineering lead can find a way to help the rest of the business understand the win.[fn:: Effectively drawing stakeholders into collaboration around valuable increments is a profoundly interesting challenge. We'll return to that challenge, once we have an understanding of which increments are even valuable in the first place.]
+** My background a bit / live without fear
+
+It represents what I have spent several decades learning, about how to, well, *live without fear*.
+
+Early in my career as a programmer, as I steadily earned my way into positions of greater responsibility, I found that I was repeatedly asked to estimate how long it would take to code up various programs. I gradually discovered to my horror that, for work stretching out for more than a week or two, my estimates were just hideously [profoundly] unreliable [inaccuate]. I would promise to complete a project in two months (after scoping it out to take no more than four weeks and padding for safety). My business counterparts would put various wheels in motion based on that commitment. Two months would come and go, the project would drag endlessly on. I felt like a failure.
+
+Even once I came to understand that all programmers struggle to make usefully accurate estimates, I wasn't much happier. What was I supposed to offer my business partners?
+
+
+
+
+And then I came to realize that *everyone* is horrible at making such estimates.
+
+It focuses on
+
+Where, because you're developing *software*...
+
+...it's impossible fully define all the steps ahead of time.
+
+This is such a universally accepted truth of software development that, if someone attempts to plan a multi-month chunk of work by spending weeks precisely defining and scoping the various incremental steps involved, they will find themselves *laughed at*. The phrase "waterfall" will be invoked, and that will apparently end the conversation.
+
+In other words, building software by attempting
 ** Intro - I Feel Your Pain
 
 Developing software for a business would be delightfully easy if only the following three things were true:
