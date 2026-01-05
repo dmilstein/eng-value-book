@@ -6,10 +6,9 @@
 * The Profound Value Of Increment Design
 
 # Help Us, Good Increment Design, You're Our Only Hope
+** Doing Agile But Not Feeling Agile
 
-** What Is The Sound Of One Agile Hand Clapping?
-
-# Doing Agile But Not Feeling Agile
+# What Is The Sound Of One Agile Hand Clapping?
 
 Sometimes, in the middle of a dark wood, an engineer or a product manager will find themselves on a team that is *doing* Agile, but that somehow doesn't *feel* agile in any way.
 
@@ -67,17 +66,23 @@ And then the engineers got to work, in their (well-observed!) agile process.
 
 # Clean up tenses in the below
 
-** The Pains Of Bad Increments
+** Some Disasters The Team Could Now Experience
 
-Unfortunately, in this moment, the team was already doomed.
+# icebergs
 
-They had chosen their overall increments arbitrarily and poorly. Even if they run their agile processes well, sprint-to-sprint, they are running a huge risk of at some point finding themselves trapped, with no good options.
+Unfortunately, in this moment, the team is already probabalistically doomed.
 
+They have chosen their overall increments arbitrarily and poorly. Even if they now run their agile processes well, sprint-to-sprint, they are running a simply gigantic risk of at some point finding themselves trapped, with no good options.
+
+
+How could that play out
 Why is this so?
 
 For this particular project, one of the components turns out to be simply impossible to build as they had planned. The absence of that component triggers a ripple effect through the rest of the system, requiring enormous amount of rework and ultimately forcing a rethinking of what the product is able to do. Unfortunately, the team chose to work on that component *late* in their sequence. By the time they make this unfortunate discovery, their original launch date is only four weeks away. There are no good options to adapt and still deliver something valuable anywhere close to the plan. They realize that they have to start an essentially entirely new project, moments before the original project was supposed to conclude.
 
 # Of course, missing plan isn't an uncommon occurrence. Why does this particular miss leave the team in such bad shape?
+
+** Good Increments Must Create Incremental Value
 
 How might the team have conducted their work differently to avoid this painfully unpleasant outcome?
 
@@ -101,7 +106,7 @@ If a team creates incremental value, then, well, they can *never really lose*. T
 
 One note: drawing stakeholders into collaboration around valuable increments is a profoundly interesting challenge. We'll return to that challenge, once we have an understanding of which increments are even valuable in the first place. The concept of "creating value" will turn out to be well worth digging into.
 
-** All The Different Types of Possible Increments
+** Creating Value Is A Suprisingly Subtle Concept
 
 Now, if you're reading this you may be thinking: "Obviously, they should have built incrementally. They should have shipped working code, earlier."
 
@@ -145,7 +150,7 @@ And that doesn't even mention all the other work that should be mixed in, to ult
 
 
 
-** Intro - Laud Increments Right Away
+** This Skill Changed My Life And I Want It To Change Yours
 
 Over the course of my career, I've come to believe that increment design is one of the most valuable skills engineers and product managers can develop.
 
