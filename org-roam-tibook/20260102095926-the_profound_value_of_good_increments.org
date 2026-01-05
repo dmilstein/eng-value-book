@@ -1,11 +1,11 @@
 :PROPERTIES:
 :ID:       D2D9959D-3491-456B-89A0-E5ED5517E0BB
 :END:
-#+title: Help Us, Good Increment Design, You're Our Only Hope
+#+title: The Profound Value Of Increment Design
 #+filetags: :Chapter:
-* Help Us, Good Increment Design, You're Our Only Hope
+* The Profound Value Of Increment Design
 
-# The Profound Value Of Good Increments
+# Help Us, Good Increment Design, You're Our Only Hope
 
 ** What Is The Sound Of One Agile Hand Clapping?
 
@@ -15,7 +15,7 @@ Sometimes, in the middle of a dark wood, an engineer or a product manager will f
 
 # Switch all to "you" in the below?
 
-The team observes all the agile rituals, and observes them faithfully and well. Their sprints are a crisp two weeks long. They start each sprint on a Monday morning with a full team planning session, wherein the product manager patiently explains the nuances of the various stories and tickets at hand. Each morning at precisely 9:05 am, the team gathers for a stand up. As they work, the engineers steadily pull well-groomed tickets from the board. On the final Friday of each sprint, the engineers demo what they've built, and then the team runs a brief retro in the afternoon.
+The team observes all the agile rituals, and observes them faithfully and well. Their sprints are a crisp two weeks long. Each starts on a Monday morning with a full team planning session. During planning, the product manager patiently explains the nuances of the various stories and tickets at hand. Each morning at precisely 9:05 am, the team gathers for a stand up. As they work, the engineers steadily pull well-groomed tickets from the board. On the final Friday of each sprint, the engineers demo what they've built, and then the team runs a brief retro in the afternoon.
 
 All that is as it should be, right?
 
@@ -25,7 +25,7 @@ But, in practice, there's a problem.
 
 Somehow, the overall project is drifting totally out of control.
 
-The team is far, far behind where they are supposed to be. They missed their first delivery deadline so badly that they got down on their knees and negotiated a three month extension. They then promptly consumed all that time without any positive result. Now, every lingering problem the engineers tackle immediately sprouts three new problems, hydra-like. The PM is losing sleep, and wakes each morning from anxious dreams about their next update to the executive team. The engineers have grown defeatist and bitter. Every day they're asked to pile new expedient hacks on top of yesterday's expedient hacks, resulting in a system that is both more and more difficult to change, and also somewhat terrifyingly unstable. The engineers and the PM's have a growing suspicion that when they finally *do* ship the flaky, limited, badly compromised system, literally everyone will be angry at them.
+The team is far, far behind where they are supposed to be. They missed their first delivery deadline so badly that they had to negotiate a three month extension. They then promptly consumed all that time without any positive result. Every lingering problem the engineers tackle immediately sprouts three new problems, hydra-like. The PM is losing sleep, and wakes each morning from anxious dreams about their next update to the executive team. The engineers have grown defeatist and bitter. Every day they're asked to pile new expedient hacks on top of yesterday's expedient hacks, resulting in a system that is both more and more difficult to change, and also somewhat terrifyingly unstable. The engineers and the PM's have a growing suspicion that when they finally *do* ship the flaky, limited, badly compromised system, literally everyone will be angry at them.
 
 This is, in fact, precisely what will happen.
 
@@ -43,13 +43,13 @@ To see the moment when things started to go off the rails, let's rewind to the s
 
 At the time, the team was working closely with a senior non-technical stakeholder. That stakeholder, after a good bit of back and forth, grudgingly conceded to the project being run "via Agile", instead of the way, well, every other project they'd ever supervised had been run: with a task breakdown, and a schedule, and a PMO to ensure everyone stays on track.
 
-Why did the stakeholder agree to this? Because the engineers and product team were so *confidently dismissive* of the way the stakeholder *wanted* to run the project. The tech team derisively called the stakeholder's desired approach "waterfall". The stakeholder didn't really understand any alternatives to "waterfall", but within their first five minutes of being even *near* software development, they had learned that "waterfall" is Very Bad. They didn't want to look stupid, so they agreed to try this vague thing that everyone assured them was their only option.
+Why did the stakeholder agree to this? Because the engineers and product team were so  *dismissive* of the way the stakeholder *wanted* to run the project. The tech team derisively called the stakeholder's desired approach "Waterfall". The stakeholder didn't really understand any alternatives to "Waterfall", but within their first five minutes of being even *near* software development, they had learned that "Waterfall" is Very Bad. They didn't want to look stupid, so they agreed to try this vague thing that everyone assured them was their only option.
 
 # because otherwise the engineers would have actually quit.
 
 But, in return, that stakeholder extracted a concession of their own from the product team: a commitment to complete the project by Q2 of the following year.
 
-At the time, Q2 was a full nine months away. The engineers didn't love making this kind of long-term commitment, but they believed they had no choice but to give the business *some* kind of promise. They looked over the high-level Product Requirement Docs from the product team and said "It looks like we should be able to finish by Q2. I mean, if there are no horrible surprises."
+At the time, Q2 was a full nine months away. The engineers didn't love making this kind of long-term commitment, but they believed they had no choice but to give the business *some* kind of promise. They looked over the high-level Product Requirements Docs from the product team and said "It looks like we should be able to finish by Q2. I mean, if there are no horrible surprises."
 
 The product team said "Of course, we understand." They even made a good-faith attempt to share that caveat with the senior non-technical stakeholder. But, surprisingly approximately no one, that stakeholder neither understood nor accepted the caveat. Instead, after meeting with the product team, they immediately turned around and told the Rest Of The Business, "The engineering team has committed to an April 3rd launch." The Rest Of The Business said "Great, thanks," and started basing all their own plans on that date.
 
@@ -69,9 +69,9 @@ And then the engineers got to work, in their (well-observed!) agile process.
 
 ** The Pains Of Bad Increments
 
-Unfortunately, as the work starts, the team is almost certainly doomed.
+Unfortunately, in this moment, the team was already doomed.
 
-They have chosen their overall increments arbitrarily and poorly. Even if they run their agile processes well, sprint-to-sprint, they are just about guaranteed to find themselves trapped, with no options as the work unfolds.
+They had chosen their overall increments arbitrarily and poorly. Even if they run their agile processes well, sprint-to-sprint, they are running a huge risk of at some point finding themselves trapped, with no good options.
 
 Why is this so?
 
@@ -81,15 +81,15 @@ For this particular project, one of the components turns out to be simply imposs
 
 How might the team have conducted their work differently to avoid this painfully unpleasant outcome?
 
-Well, one easy answer is: the engineers /should have known/ that the component would be impossible to build. This answer is so easy, people come up with it all the time! But, unfortunately, it's not a very *useful* answer (except for making people feel bad, at which it excels). Any engineer who has worked for almost any amount of time can cite dozens of personal experiences of painful surprises blowing their plans up. If your only hope for creating value is for your engineers to /never be unpleasantly surprised/, well, then, good luck to you, is all I can say.
+Well, one easy answer is: the engineers /should have known/ that the component would be impossible to build as spec'ed. This answer is so easy, people come up with it all the time! But, unfortunately, it's not a very *useful* answer (except for making people feel bad, at which it excels). Any engineer who has worked for almost any amount of time can cite dozens of personal experiences of painful surprises blowing their plans up. If your only hope for creating value is for your engineers to /never be unpleasantly surprised/, well, then, good luck to you, is all I can say.
 
 How might the engineers and PM's have somehow conducted their work so as to avoid the horrible discoveries, late in the project? What did they miss?
 
 # The answer is somewhat subtle.
 
-This book will offer an answer, based on my own several decades of trying to avoid such painful discoveries while, first, being paid to write software for people, and then leading teams of extremely expensive engineers being paid to write software for people.
+This book will offer an answer, based on my own several decades of trying to avoid such painful discoveries while, first, being paid to write software for people, and then, as my career went on, leading teams of extremely expensive engineers being paid to write software for people.
 
-My ansewr is: the core problem in the story is that the engineers and the PM did not engage their stakeholders in any discussion around the increments.
+The heart of my answer is: the engineers and the PM did not engage their stakeholders in any discussion around the increments.
 
 Instead, they treated the increments as an internal concern of engineering. Therefore, none of the intermediate increments delivered anything that their stakeholders found at all valuable. There was no point, before the very end of the project that the team could have decided, *with* their stakeholders, to take some form of a partial win, and move on.
 
@@ -100,6 +100,50 @@ Despite the team working in an agile fashion day-to-day, the company as a whole 
 If a team creates incremental value, then, well, they can *never really lose*. There's no panicked anxiety looming over them, because they can always stop, and the Rest Of The Business will be some degree of happy---because they will have gotten *some* value. The Rest of the Business may not get everything they *expected*, but if the team can create some genuine value, a smart PM and engineering lead can find a way to help the rest of the business understand the win.
 
 One note: drawing stakeholders into collaboration around valuable increments is a profoundly interesting challenge. We'll return to that challenge, once we have an understanding of which increments are even valuable in the first place. The concept of "creating value" will turn out to be well worth digging into.
+
+** All The Different Types of Possible Increments
+
+Now, if you're reading this you may be thinking: "Obviously, they should have built incrementally. They should have shipped working code, earlier."
+
+Unfortunately, it's not that easy.
+
+Plenty of engineers and product managers have developed some kind of heuristic sense of good increment design. Which, like most heuristics, works sometimes and fails horriby at others. Let me list a couple of approaches I've seen (and employed!) for designing increments which, although *sometimes* useful, are sometimes disastrously unuseful.
+
+ - Build a high-quality implementation of a small part of the product
+
+ - Build a super scrappy version of the entire product
+
+ - Build an entirely fake version of the product to show to users
+
+ - Build the external integrations
+
+ - Build the internal logic
+
+ - Build the backend
+
+ - Build the frontend
+
+ - Assemble the data
+
+ - Design the overall component breakdown
+
+ - Build a single small thing and grow it outward
+
+Note that, for just about all of the above, a team would be "shipping working code". But those are profoundly different increments.
+
+And that doesn't even mention all the other work that should be mixed in, to ultimately create maximum value for the business, e.g."
+
+ - Speed up the development cycle
+
+ - Address performance issues
+
+ - Improve system stability
+
+ - Address security concerns
+
+ - Clean up legacy code
+
+
 
 ** Intro - Laud Increments Right Away
 
@@ -133,7 +177,7 @@ This understanding of value will ultimately give us tools to break large efforts
 
 # In a sense, the alternative to agile (Waterfall, natch), has "lost"
 
-
+* Other sections
 ** Increments Are A Decision We Make Over And Over
 
 # The Perils of Bad Increment Design
@@ -371,64 +415,61 @@ See if we can escalate from "we have the data, but what can we actually do with 
 
 Think about kind of at each step hitting each step different stakeholder decision, kind of person and reference out the challenges drawing that person in and sort of forward reference that.
 
-* Brainstorming
-If I want to do a Tale of Two Projects, what business do I want to do? Who is working there? What do they build?
+* Bad Ideas for Their Business
 
-** Bad Ideas for Their Business
+** Loyalty Program Management
 
-*** Loyalty Program Management
+** Paper Goods Supply Chain
 
-*** Paper Goods Supply Chain
+** EMR For Dentists
 
-*** EMR For Dentists
+** Lighting Equipment Rental
 
-*** Lighting Equipment Rental
+** Costume Rentals
 
-*** Costume Rentals
+** Coffee Roaster Software
 
-*** Coffee Roaster Software
+** Ski Rentals
 
-*** Ski Rentals
+** Daycare Application Software
 
-*** Daycare Application Software
+** Daycare Test Prep Software
 
-*** Daycare Test Prep Software
+** Perishables Supply Chain
 
-*** Perishables Supply Chain
+** AI Dental Arts
 
-*** AI Dental Arts
+** AI-Provided Therapy
 
-*** AI-Provided Therapy
+** Applicant Tracking Systems
 
-*** Applicant Tracking Systems
+** Grocery Store Management Software
 
-*** Grocery Store Management Software
+** Political Campaign Software
 
-*** Political Campaign Software
+** Sand & Gravel Delivery
 
-*** Sand & Gravel Delivery
+** Dispatch Software - 911?
 
-*** Dispatch Software - 911?
+** Math Practice Software
 
-*** Math Practice Software
+** Hotel Vacancy Filler
 
-*** Hotel Vacancy Filler
+** Night Manager Support
 
-*** Night Manager Support
+** Policing Tools
 
-*** Policing Tools
+** Political Protest Organizing
 
-*** Political Protest Organizing
+** Middle School Play Support
 
-*** Middle School Play Support
+** Meditation Support
 
-*** Meditation Support
+** Massage App Support
 
-*** Massage App Support
+** Snow Removal Software
 
-*** Snow Removal Software
-
-*** Municipal Support
+** Municipal Support
 
 * From Substack/Other
 # The Art of Increment Design, Part I: Help Us, Good Increments, You're Our Only Hope
@@ -604,6 +645,14 @@ But they got this one wrong.
 
 # The product team complained (to each other, over drinks), that the engineers weren't willing to stand behind their commitments.
 * Todos
+** TODO Speak to challenges, early
+ - Stakeholders don't want to work this way
+ - It's not clear what increments create value
+ - It's hard to set goals for good increments
+ - No one person can do this on their own
+** Maybe: other ways project could fail
+ - Customers were wrong about desires or needs shift
+ - Legacy system blew up
 ** TODO Find my exercises
 ** TODO Review those exercises
 ** TODO Copy and paste in a big chunk
