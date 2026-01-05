@@ -42,15 +42,17 @@ To see the moment when things started to go off the rails, let's rewind to the s
 
 At the time, the team was working closely with a senior non-technical stakeholder. That stakeholder, after a good bit of back and forth, grudgingly conceded to the project being run "via Agile", instead of the way, well, every other project they'd ever supervised had been run: with a task breakdown, and a schedule, and a PMO to ensure everyone stays on track.
 
-Why did the stakeholder agree to this? Because the engineers and product team were so  *dismissive* of the way the stakeholder *wanted* to run the project. The tech team derisively called the stakeholder's desired approach "Waterfall". The stakeholder didn't really understand any alternatives to "Waterfall", but within their first five minutes of being even *near* software development, they had learned that "Waterfall" is Very Bad. They didn't want to look stupid, so they agreed to try this vague thing that everyone assured them was their only option.
+Why did the stakeholder agree to this? Because the engineers and product team were so confidently  *dismissive* of the way the stakeholder *wanted* to run the project. The tech team derisively called the stakeholder's desired approach "Waterfall". The stakeholder didn't really understand any alternatives, but within their first five minutes of being even *near* software development, they had learned that "Waterfall" is Very Bad. They didn't want to look stupid, so they agreed to try this vague thing that everyone assured them was their only option.
 
 # because otherwise the engineers would have actually quit.
 
-But, in return, that stakeholder extracted a concession of their own from the product team: a commitment to complete the project by Q2 of the following year.
+But, in return, that stakeholder extracted a concession of their own: a commitment to complete the project by Q2 of the following year.
 
 At the time, Q2 was a full nine months away. The engineers didn't love making this kind of long-term commitment, but they believed they had no choice but to give the business *some* kind of promise. They looked over the high-level Product Requirements Docs from the product team and said "It looks like we should be able to finish by Q2. I mean, if there are no horrible surprises."
 
-The product team said "Of course, we understand." They even made a good-faith attempt to share that caveat with the senior non-technical stakeholder. But, surprisingly approximately no one, that stakeholder neither understood nor accepted the caveat. Instead, after meeting with the product team, they immediately turned around and told the Rest Of The Business, "The engineering team has committed to an April 3rd launch." The Rest Of The Business said "Great, thanks," and started basing all their own plans on that date.
+The product team said "Of course, we understand." They even made a good-faith attempt to share that caveat with the senior non-technical stakeholder. But, surprisingly approximately no one, that stakeholder neither understood nor accepted the caveat. Instead, after meeting with the product team, they immediately turned around and told The Rest Of The Business, /"The engineering team has committed to an April 3rd launch."/
+
+The Rest Of The Business said /"Great, thanks,"/ and started basing all their own plans on that date. (Where did April 3rd come from, you ask? Simple: it was the very first business day of Q2.)
 
 What happened next?
 
@@ -58,9 +60,9 @@ The engineers sat down and broke the work down into increments.
 
 That is to say, they decided what they would build first, what they would build second, etc. The product team wasn't closely involved in the development of the increments---they considered themselves a consumer of, rather than a direct participant in, this "engineering process".
 
-The eng team, led by one of the senior IC's, developed their increments as follows: first, they broke the planned system down into a set of components; then they ordered the development of those components in a way that felt natural to them. The choice of order didn't feel particularly high stakes to them---no matter the order, they'd ultimately have to develop all the components.
+The eng team, led by one of the senior IC's, developed their increments as follows: first, they broke the planned system down into a set of components; then they ordered the development of those components in a way that felt natural to them. The choice of order didn't feel particularly high stakes to them---no matter the order, they'd ultimately have to build all the pieces.
 
-Once the engineers had the increments, they estimated each, then the product team turned all of that into a schedule with milestones and deadlines. Everyone then worked together to cut scope, to ensure there was a comfortable four weeks of padding at the end of the project, in case anything went wrong.
+Once the engineers had the increments, they estimated each, then the product team turned all of that into a schedule with milestones and dates. Everyone then worked together to cut scope, to ensure there was a comfortable four weeks of padding at the end of the project, in case anything went wrong.
 
 And then the engineers got to work, in their (well-observed!) agile process.
 
@@ -70,19 +72,51 @@ And then the engineers got to work, in their (well-observed!) agile process.
 
 # icebergs
 
-Unfortunately, in this moment, the team is already probabalistically doomed.
+Unfortunately, in this moment, the team is (probabalistically) doomed.
 
 They have chosen their overall increments arbitrarily and poorly. Even if they now run their agile processes well, sprint-to-sprint, they are running a simply gigantic risk of at some point finding themselves trapped, with no good options.
 
+Part of what makes this so tricky is that there isn't just one potential disaster waiting for them. No, there are a variety of different ways such a project might fail.
 
-How could that play out
-Why is this so?
+To bring this to life, here are three different ways this team might run into an iceberg of disaster, and find themselves scrambling for lifeboats in the icy waters of the North Atlantic. Note, these are not the *only* three ways things could blow up unpleasantly.
 
-For this particular project, one of the components turns out to be simply impossible to build as they had planned. The absence of that component triggers a ripple effect through the rest of the system, requiring enormous amount of rework and ultimately forcing a rethinking of what the product is able to do. Unfortunately, the team chose to work on that component *late* in their sequence. By the time they make this unfortunate discovery, their original launch date is only four weeks away. There are no good options to adapt and still deliver something valuable anywhere close to the plan. They realize that they have to start an essentially entirely new project, moments before the original project was supposed to conclude.
+First, one of the components could turn out to be impossible to build as the engineers had planned.
+
+What happens in that case?
+
+The absence of that component triggers a ripple effect through the rest of the system, requiring enormous amount of rework and ultimately forcing a rethinking of what the product is able to do. Unfortunately, the team chose to work on that component *late* in their sequence. By the time they make this unfortunate discovery, their original launch date is only four weeks away. There are no good options to adapt and still deliver something valuable anywhere close to the plan. They realize that they have to start an essentially entirely new project, moments before the original project was supposed to conclude.
+
+This has wrecked many a project I've been on or near.
+
+But sometimes, the engineers get extremely lucky, and are able to build all the new stuff they hoped, in more or less the time planned.
+
+But then, they might hit a different disaster.
+
+Second, it might turn out that customers don't truly need the thing the team just spent nine months building. They need something "close"... but much, much harder to build.
+
+This can happen even if the product team does good, thorough user research ahead of time. Even if the PM's talked in detail with multiple customers, identified a real problem to solve, validated a willingness to pay, you name it. Even if the team showed customers detailed mockups, which they enthusiastically praised.
+
+Unfortunately, once the engineers finally built a working version that was able to import and display the customer's own data for their review, the team discovered that the customers had been assuming all along that the data would be extraordinarly *fresh*. Specifically, for customers to successfully use the new product, all the screens of elegantly designed reports will have to include *yesterday's data*. The PM's were thunderstruck when they heard this. The team has never had access to daily data. It took a shocking amount of work to ingest weekly aggregations.
+
+Because the team didn't discover this until late in the project, they don't have much in the way of good options. They start scrambling to decide if they should pivot to a fundamentally different value prop, or if they can somehow find and integrate with a daily data source. Either approach will take many, many months to execute on. Meanwhile, their original deadlines come and go.
+
+But, wait, there's more!
+
+A third fun way for such a project to run aground is because the engineers find themselves completely overwhelmed with *other work*. Their existing systems are being used by thousands of users, every day. Those systems are, of course, a bit buggy around the edges, but they seem to be chugging along in some kind of non-ideal but reasonably steady state. Sure, the engineers are constantly complaining about tech debt, and that one engineer who used to be a DBA keeps on talking about lock timeouts, but those are constant background noises of an engineering team, and the PM, like PM's everywhere, treats those as feeling to assauge, not critical inputs into planning. But then, mid-way through the new project, all the pigeons came home to roost. The help desk is overwhelmed with customer complaints about site load times, and the team starts finding half-completed transactions littering their logs. When they igs in, they discover that there's some horrifyingly complex contention for the main database, and there's no clean way to solve it without some months-long effort.
+
+Because they only discover this once the project has been underway for months, they're unable to negotiate a sane tradeoff. "You commited to Q2", says their stakeholder.
+
+I'm sketching in versions of three core problems:
+
+ - We don't know how long it will take to do things
+
+ - We don't know if the things we want to do are *worth doing*
+
+ - We don't know if we'll have time to spend on the things we want to do
 
 # Of course, missing plan isn't an uncommon occurrence. Why does this particular miss leave the team in such bad shape?
 
-** Good Increments Must Create Incremental Value
+** Good Increments Create Incremental Value
 
 How might the team have conducted their work differently to avoid this painfully unpleasant outcome?
 
