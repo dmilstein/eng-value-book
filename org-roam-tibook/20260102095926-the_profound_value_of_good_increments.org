@@ -116,12 +116,27 @@ I'm sketching in versions of three core problems:
 
 # Of course, missing plan isn't an uncommon occurrence. Why does this particular miss leave the team in such bad shape?
 
-** Good Increments Create Incremental Value
+** How To Avoid Disaster: The Tempting But Wrong Answer
 
-How might the team have conducted their work differently to avoid this painfully unpleasant outcome?
+How might the team have conducted their work differently to avoid these painfully unpleasant outcome?
 
-Well, one easy answer is: the engineers /should have known/ that the component would be impossible to build as spec'ed. This answer is so easy, people come up with it all the time! But, unfortunately, it's not a very *useful* answer (except for making people feel bad, at which it excels). Any engineer who has worked for almost any amount of time can cite dozens of personal experiences of painful surprises blowing their plans up. If your only hope for creating value is for your engineers to /never be unpleasantly surprised/, well, then, good luck to you, is all I can say.
+Fortunately, there's an easy answer:
 
+Someone should have known!
+
+The engineers should have known that that one component would be impossible to build as spec'd.
+
+The product managers should have known that customers were expecting daily data updates.
+
+The senior engineers should have known that they were approaching a performnce cliff.
+
+This answer is, in fact, so easy, people come up with it all the time!
+
+Unfortunately, it's not a very *useful* answer---except for making people feel bad, at which it excels.
+
+Any engineer or product manager who has worked for almost any amount of time can cite dozens of personal experiences of painful surprises blowing their plans up. If your only hope for creating value is to /never be unpleasantly surprised/, well, then, good luck to you, is all I can say.
+
+** A Better Answer: Create Incremental Value
 How might the engineers and PM's have somehow conducted their work so as to avoid the horrible discoveries, late in the project? What did they miss?
 
 # The answer is somewhat subtle.
