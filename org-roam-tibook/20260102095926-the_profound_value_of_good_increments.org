@@ -93,14 +93,41 @@ One of the components turned out to be simply impossible to build as they had pl
 # The Tempting But Wrong Answer: No Surprises!
 
 # The Tempting But Wrong Answer: No Surprises Allowed!
+How might the team have avoided this painfully unpleasant outcome? How can we be certain to avoid such disasters on our own projects?
 
-** The Question: How Can We Avoid Disaster?
+# But... before we answer that question, let's talk about another troubling fact.
+
+But... before we answer that question, we have to face a troubling truth.
+
+# , which makes things even worse.
+
+** A Probability Space Of Unhappy Futures
+
+# Other Disastrous Surprises That Could Be Lying In Wait
+
+There isn't just one potential disaster waiting, when we start a project. No, there are a variety of different ways a project might fail.
+
+ - As above, the team could discover, late, that one of the components is impossible to build as planned.
+
+ - The team could discover, late, that customers don't want the thing the team is building. They want something "close"... but much, much harder to build.
+
+ - The team could discover, late, that the new system can't handle production load without falling over, and that the only path to better performance seems to require a fundamental redesign.
+
+ - The team could discover, late, that they're going to have to change a legacy system that no one knows how to work with.
+
+ - The team could discover, late, that another team they were depending on has decided to shift their focus and has completely deprioritized this work.
+
+ - The team could discover, late, that they don't have consistent access to the underlying data they built their product on top of.
+
+ - The team could discover, late, that the existing product they're trying to replace is being used in much more complex ways than they realized, so they're nowhere close to having a valid replacement.
+
+** The Fundamental Question: How Can We Avoid Disaster?
 
 # ** The Wrong Answer: Don't Be Surprised
 
 # ** The Right Answer: Be Surprised /Early/
 
-How might the team have avoided this painfully unpleasant outcome? How can we be certain to avoid such disasters on our own projects?
+So, again we ask, how can the team avoid one of these painfully unpleasant outcome? How can /we/ be certain to avoid such disasters on our own projects?
 
 There's an easy, obviously correct answer:
 
@@ -108,23 +135,51 @@ The engineers *should have known* that that one component would be impossible to
 
 This is so obviously correct! /If only/ the engineers had given an even /vaguely/ accurate estimate of the time to build that component, the PM would have made a better, saner, more achievable plan in the first place. The PM would then have had a healthy negotiation with the senior non-technical stakeholder, set reasonable expectations, and none of us would be crying into our laptops at three in the morning.
 
-Look, no one expects the engineers to give perfectly accurate estimates, we're not idiots. But, still, they /should have known/ that this one particular component was going to be pretty hard to build. They shouldn't have given an estimate that was this spectacularly bad. Apparently we need engineers who are more senior, or who take more ownership, or who are more outcome-oriented. Or something.
+Look, no one expects the engineers to give perfectly accurate estimates, we're not idiots. But, still, they /should have known/ that this one particular component was going to be pretty hard to build. They shouldn't have given an estimate that was this spectacularly bad.
+
+# Apparently we need engineers who are more senior, or who take more ownership, or who are more outcome-oriented. Or something.
 
 This answer is, in fact, so easy, people come up with it all the time.
 
-Unfortunately, "someone should have known" provides very little help at the /start/ of a project. It's genuinely great for looking backwards at the end and assigning blame. But, sadly, here in the real world, we have to start our projects in the present, without the benefit of the future knowledge we'll acquire as we go.
+Unfortunately, "someone should have known" provides very little help at the /start/ of a project. It's great for looking backwards at the end and assigning blame. But, sadly, here in the real world, we have to start our projects in the present, without the benefit of the future knowledge we'll acquire as we go.
 
 # not a *useful* answer (except for making people feel bad, at which it excels).
 
-Imagine, at project kick-off, you were to say to your team: "Let's remember what we learned from our last project. We can consistently avoid disasters, if ony the engineers can promise that they'll /never be unpleasantly surprised/ by how hard it will be to build something. Good talk, let's go!"
+# Imagine, at project kick-off, you were to say to your team: "Let's remember what we learned from our last project. We can consistently avoid disasters, if ony the engineers can promise that they'll never be unpleasantly surprised by how hard it will be to build something. Good talk, let's go!"
 
-Literally every engineer who has worked for any amount of time building software can cite dozens of personal experiences of painful surprises blowing their plans up. If your only hope for creating value is to /never be unpleasantly surprised/, well, then, good luck to you, is all I can say. Go read some other book, and/or order an industrial-sized bottle of anti-depressants.
+# Literally every engineer who has worked for any amount of time building software can cite dozens of personal experiences of painful surprises blowing their plans up.
+
+If your only hope for creating value is to /never be unpleasantly surprised/, well, then, good luck to you, is all I can say. Go read some other book, and/or order an industrial-sized bottle of anti-depressants.
 
 # stock up on anti-depressants, vodka, CBD,
 
-** The Answer: Be Surprised /Early/
+** Remember: They're Already Doing Agile
 
-** The Answer: Create Incremental Value
+It's incredibly important to point out that this team is not stupid. They're working incrementally. They're building and shipping all the time. They're doing their best to adapt to what they learn as they go.
+
+But to get buy in to start the project in the first place, they had to offer *something* to their senior non-technical stakeholder. And that something *had* to include some description of what their software would do for the business. And embedded in that description was this nasty surprise, waiting for them.
+
+# Unless you want to tell me that you think you can somehow plan an entire nine month project out, flushing out all possible risks and surprises ahead of time, without somehow reinventing waterfall.
+
+The senior non-technical stakeholder is not the villain here. They had to make a business decision about whether or not to commit to this project. That business decisions meant investing nearly a year's worth of extremely expensive engineering salaries. They can't make that kind of decision without *some* understanding of what they might get as a result.
+
+But if you try to eliminate all nasty surprises before getting started, you're going to find yourself reinventing Waterfall.
+
+** The Answer, Part I: Be Surprised /Early/
+
+The fundamental trick which this book wishes to share with you is that, although it's impossible to eliminate surprises from software development, it is very much possible to make those surprises less *expensive*.
+
+In other words, you prevent disasters not by preventing surprises, but instead by breaking the link between surprise and disaster.
+
+# In other words, you prevent disasters not by preventing surprises, but instead by making it possible to be surprised without immediately finding yourself facing a disaster.
+
+How can you do this?
+
+By working very, very hard to *be surprised /early/.*
+
+Instead of saying "if only the engineers had known how hard this would be", you say "if only we had found out soon enough that it would be hard."
+
+** Early Surprises Create Incremental Value
 
 How might the engineers and PM's have somehow conducted their work so as to avoid the horrible discoveries, late in the project? What did they miss?
 
@@ -144,61 +199,23 @@ If a team creates incremental value, then, well, they can *never really lose*. T
 
 One note: drawing stakeholders into collaboration around valuable increments is a profoundly interesting challenge. We'll return to that challenge, once we have an understanding of which increments are even valuable in the first place. The concept of "creating value" will turn out to be well worth digging into.
 
-** Other Disastrous Surprises That Could Be Lying In Wait
+** The Answer, Part II: Enable Smaller, More Frequent /Decisions/
 
-# The Art Of Being Surprised Early
+** "The Business" Will Have To Make The Decisions
 
-# Be surprised early and often
+** A Map Of The Rest Of This Book
+# The Answer, Part II: Smaller, Better, More Frequent /Decisions/
 
-# How to be surprised early and often
+# The Answer, Part II: Subdivide Your Decisions
 
-# Win by being surprised early and often
+# The Answer, Part II: Offer Repeated Decisions
 
-# Win by seeking early surprises
+# The Answer, Part II: Offer Cadenced Decisions
 
-Part of what makes this so tricky is that there isn't just one potential disaster waiting for them. No, there are a variety of different ways such a project might fail.
+# The Answer, Part II: Offer A Series Of Decisions
 
-To bring this to life, here are three different ways this team might run into an iceberg of disaster, and find themselves scrambling for lifeboats in the icy waters of the North Atlantic. Note, these are not the *only* three ways things could blow up unpleasantly.
-
-First, one of the components could turn out to be impossible to build as the engineers had planned.
-
-What happens in that case?
-
-The absence of that component triggers a ripple effect through the rest of the system, requiring enormous amount of rework and ultimately forcing a rethinking of what the product is able to do. Unfortunately, the team chose to work on that component *late* in their sequence. By the time they make this unfortunate discovery, their original launch date is only four weeks away. There are no good options to adapt and still deliver something valuable anywhere close to the plan. They realize that they have to start an essentially entirely new project, moments before the original project was supposed to conclude.
-
-This has wrecked many a project I've been on or near.
-
-But sometimes, the engineers get extremely lucky, and are able to build all the new stuff they hoped, in more or less the time planned.
-
-But then, they might hit a different disaster.
-
-Second, it might turn out that customers don't truly need the thing the team just spent nine months building. They need something "close"... but much, much harder to build.
-
-This can happen even if the product team does good, thorough user research ahead of time. Even if the PM's talked in detail with multiple customers, identified a real problem to solve, validated a willingness to pay, you name it. Even if the team showed customers detailed mockups, which they enthusiastically praised.
-
-Unfortunately, once the engineers finally built a working version that was able to import and display the customer's own data for their review, the team discovered that the customers had been assuming all along that the data would be extraordinarly *fresh*. Specifically, for customers to successfully use the new product, all the screens of elegantly designed reports will have to include *yesterday's data*. The PM's were thunderstruck when they heard this. The team has never had access to daily data. It took a shocking amount of work to ingest weekly aggregations.
-
-Because the team didn't discover this until late in the project, they don't have much in the way of good options. They start scrambling to decide if they should pivot to a fundamentally different value prop, or if they can somehow find and integrate with a daily data source. Either approach will take many, many months to execute on. Meanwhile, their original deadlines come and go.
-
-But, wait, there's more!
-
-A third fun way for such a project to run aground is because the engineers find themselves completely overwhelmed with *other work*. Their existing systems are being used by thousands of users, every day. Those systems are, of course, a bit buggy around the edges, but they seem to be chugging along in some kind of non-ideal but reasonably steady state. Sure, the engineers are constantly complaining about tech debt, and that one engineer who used to be a DBA keeps on talking about lock timeouts, but those are constant background noises of an engineering team, and the PM, like PM's everywhere, treats those as feeling to assauge, not critical inputs into planning. But then, mid-way through the new project, all the pigeons came home to roost. The help desk is overwhelmed with customer complaints about site load times, and the team starts finding half-completed transactions littering their logs. When they igs in, they discover that there's some horrifyingly complex contention for the main database, and there's no clean way to solve it without some months-long effort.
-
-Because they only discover this once the project has been underway for months, they're unable to negotiate a sane tradeoff. "You commited to Q2", says their stakeholder.
-
-I'm sketching in versions of three core problems:
-
- - We don't know how long it will take to do things
-
- - We don't know if the things we want to do are *worth doing*
-
- - We don't know if we'll have time to spend on the things we want to do
-
-*** Snippet
-The product managers should have known that customers were expecting daily data updates.
-
-The senior engineers should have known that they were approaching a performnce cliff.
-
+# The Answer, Part II: Make A Series Of Decisions
+* To move into preface/intro
 
 ** Creating Value Is A Suprisingly Subtle Concept
 
@@ -742,6 +759,98 @@ But they got this one wrong.
 # The engineers had, of course, complained that the product team hadn't sufficiently defined the product for them to give a good estimate. But they always made that complaint.
 
 # The product team complained (to each other, over drinks), that the engineers weren't willing to stand behind their commitments.
+* Scraps
+** A Probability Space Of Unhappy Futures
+
+# Other Disastrous Surprises That Could Be Lying In Wait
+
+# The Art Of Being Surprised Early
+
+# Be surprised early and often
+
+# How to be surprised early and often
+
+# Win by being surprised early and often
+
+# Win by seeking early surprises
+
+Unfortunate there isn't just one potential disaster waiting for them. No, there are a variety of different ways such a project might fail.
+
+To bring this to life, here are three different ways this team might run into an iceberg of disaster, and find themselves scrambling for lifeboats in the icy waters of the North Atlantic. Note, these are not the *only* three ways things could blow up unpleasantly.
+
+First, one of the components could turn out to be impossible to build as the engineers had planned.
+
+What happens in that case?
+
+The absence of that component triggers a ripple effect through the rest of the system, requiring enormous amount of rework and ultimately forcing a rethinking of what the product is able to do. Unfortunately, the team chose to work on that component *late* in their sequence. By the time they make this unfortunate discovery, their original launch date is only four weeks away. There are no good options to adapt and still deliver something valuable anywhere close to the plan. They realize that they have to start an essentially entirely new project, moments before the original project was supposed to conclude.
+
+This has wrecked many a project I've been on or near.
+
+But sometimes, the engineers get extremely lucky, and are able to build all the new stuff they hoped, in more or less the time planned.
+
+But then, they might hit a different disaster.
+
+Second, it might turn out that customers don't truly need the thing the team just spent nine months building. They need something "close"... but much, much harder to build.
+
+This can happen even if the product team does good, thorough user research ahead of time. Even if the PM's talked in detail with multiple customers, identified a real problem to solve, validated a willingness to pay, you name it. Even if the team showed customers detailed mockups, which they enthusiastically praised.
+
+Unfortunately, once the engineers finally built a working version that was able to import and display the customer's own data for their review, the team discovered that the customers had been assuming all along that the data would be extraordinarly *fresh*. Specifically, for customers to successfully use the new product, all the screens of elegantly designed reports will have to include *yesterday's data*. The PM's were thunderstruck when they heard this. The team has never had access to daily data. It took a shocking amount of work to ingest weekly aggregations.
+
+Because the team didn't discover this until late in the project, they don't have much in the way of good options. They start scrambling to decide if they should pivot to a fundamentally different value prop, or if they can somehow find and integrate with a daily data source. Either approach will take many, many months to execute on. Meanwhile, their original deadlines come and go.
+
+But, wait, there's more!
+
+A third fun way for such a project to run aground is because the engineers find themselves completely overwhelmed with *other work*. Their existing systems are being used by thousands of users, every day. Those systems are, of course, a bit buggy around the edges, but they seem to be chugging along in some kind of non-ideal but reasonably steady state. Sure, the engineers are constantly complaining about tech debt, and that one engineer who used to be a DBA keeps on talking about lock timeouts, but those are constant background noises of an engineering team, and the PM, like PM's everywhere, treats those as feeling to assauge, not critical inputs into planning. But then, mid-way through the new project, all the pigeons came home to roost. The help desk is overwhelmed with customer complaints about site load times, and the team starts finding half-completed transactions littering their logs. When they igs in, they discover that there's some horrifyingly complex contention for the main database, and there's no clean way to solve it without some months-long effort.
+
+Because they only discover this once the project has been underway for months, they're unable to negotiate a sane tradeoff. "You commited to Q2", says their stakeholder.
+
+I'm sketching in versions of three core problems:
+
+ - We don't know how long it will take to do things
+
+ - We don't know if the things we want to do are *worth doing*
+
+ - We don't know if we'll have time to spend on the things we want to do
+
+*** Snippet
+The product managers should have known that customers were expecting daily data updates.
+
+The senior engineers should have known that they were approaching a performnce cliff.
+
+
+#  The Answer, Part II: Make More Business Decisions
+# The Answer, Part II: Make More Decisions
+
+** Detailed Stories re: Possible Failures
+
+Unfortunately, once the engineers finally built a working version that was able to import and display the customer's own data for their review, the team discovered that the customers had been assuming all along that the data would be extraordinarly *fresh*. Specifically, for customers to successfully use the new product, all the screens of elegantly designed reports will have to include *yesterday's data*. The PM's were thunderstruck when they heard this. The team has never had access to daily data. It took a shocking amount of work to ingest weekly aggregations.
+
+Because the team didn't discover this until late in the project, they don't have much in the way of good options. They start scrambling to decide if they should pivot to a fundamentally different value prop, or if they can somehow find and integrate with a daily data source. Either approach will take many, many months to execute on. Meanwhile, their original deadlines come and go.
+
+But, wait, there's more!
+
+A third fun way for such a project to run aground is because the engineers find themselves completely overwhelmed with *other work*. Their existing systems are being used by thousands of users, every day. Those systems are, of course, a bit buggy around the edges, but they seem to be chugging along in some kind of non-ideal but reasonably steady state. Sure, the engineers are constantly complaining about tech debt, and that one engineer who used to be a DBA keeps on talking about lock timeouts, but those are constant background noises of an engineering team, and the PM, like PM's everywhere, treats those as feeling to assauge, not critical inputs into planning. But then, mid-way through the new project, all the pigeons came home to roost. The help desk is overwhelmed with customer complaints about site load times, and the team starts finding half-completed transactions littering their logs. When they igs in, they discover that there's some horrifyingly complex contention for the main database, and there's no clean way to solve it without some months-long effort.
+
+Because they only discover this once the project has been underway for months, they're unable to negotiate a sane tradeoff. "You commited to Q2", says their stakeholder.
+
+I'm sketching in versions of three core problems:
+
+ - We don't know how long it will take to do things
+
+ - We don't know if the things we want to do are *worth doing*
+
+ - We don't know if we'll have time to spend on the things we want to do
+
+*** Snippet
+
+The product managers should have known that customers were expecting daily data updates.
+
+The senior engineers should have known that they were approaching a performnce cliff.
+
+
+#  The Answer, Part II: Make More Business Decisions
+# The Answer, Part II: Make More Decisions
+
 * Todos
 ** TODO Speak to challenges, early
  - Stakeholders don't want to work this way
@@ -757,6 +866,8 @@ But they got this one wrong.
 Change the payoff function for being surprised. Be surprised early.
 ** TODO Spike/experiment on making first story specific
 E.g. naming people, etc
+** TODO Break out a preface/intro
+Which lays out "Why you should read this", but doesn't explain my answer. Teases it. This changed my life, and I want it to change yours. It's not trivial to understand. But it's profound once you do. And then dive into Agile/Not Agile
 ** TODO Find my exercises
 ** TODO Review those exercises
 ** TODO Copy and paste in a big chunk
