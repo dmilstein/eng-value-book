@@ -3642,3 +3642,307 @@ CLOSED: [2025-12-01 Mon 09:44]
 :ARCHIVE_TODO: DONE
 :ARCHIVE_ITAGS: gtasks
 :END:
+
+* DONE Make [[file:org-roam-tibook/20251027103957-unstuck_beta.org::*Hit List of Todos][hit list]] of remaining changes
+CLOSED: [2025-12-17 Wed 08:40]
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-01-05 Mon 09:00
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Unstuck Beta
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+:LOGBOOK:
+CLOCK: [2025-12-17 Wed 08:31]--[2025-12-17 Wed 08:40] =>  0:09
+:END:
+
+* DONE Deal with multiple Alistair/Max scenes
+CLOSED: [2025-12-28 Sun 11:14]
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-01-05 Mon 09:00
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Unstuck Beta
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+:LOGBOOK:
+CLOCK: [2025-12-28 Sun 08:15]--[2025-12-28 Sun 11:14] =>  2:59
+CLOCK: [2025-12-20 Sat 09:06]--[2025-12-20 Sat 10:01] =>  0:55
+CLOCK: [2025-12-19 Fri 08:46]--[2025-12-19 Fri 09:59] =>  1:13
+CLOCK: [2025-12-17 Wed 08:40]--[2025-12-17 Wed 09:54] =>  1:14
+:END:
+As in, I have multiple, conflicting version of Alistair building rapport
+
+* DONE Review full draft
+CLOSED: [2025-12-28 Sun 11:14]
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-01-05 Mon 09:00
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Unstuck Beta
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Pick version of Catalog of Tactics
+CLOSED: [2025-12-29 Mon 10:06]
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-01-05 Mon 09:00
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Unstuck Beta
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+:LOGBOOK:
+CLOCK: [2025-12-29 Mon 08:52]--[2025-12-29 Mon 10:06] =>  1:14
+:END:
+
+* DONE Decide: include Tactic Stories
+CLOSED: [2025-12-30 Tue 08:12]
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-01-05 Mon 09:00
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Unstuck Beta
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Look at [[https://www.usefulbooks.com/learn/beta-reading-guide#finding-and-solving-the-book-killers][book killers]] ideas from HTB
+CLOSED: [2025-12-29 Mon 14:44]
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-01-05 Mon 09:00
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Unstuck Beta
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+In email
+
+* DONE Review tooling for HTB
+CLOSED: [2025-12-30 Tue 09:52]
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-01-05 Mon 09:00
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Unstuck Beta
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+:LOGBOOK:
+CLOCK: [2025-12-30 Tue 09:43]--[2025-12-30 Tue 09:52] =>  0:09
+:END:
+
+* DONE Produce/upload to HTB
+CLOSED: [2025-12-30 Tue 11:28]
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-01-05 Mon 09:00
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Unstuck Beta
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+:LOGBOOK:
+CLOCK: [2025-12-30 Tue 09:52]--[2025-12-30 Tue 11:28] =>  1:36
+:END:
+
+* DONE Fix links export in build process
+CLOSED: [2025-12-30 Tue 13:33]
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-01-05 Mon 09:00
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Unstuck Beta
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+As in, extract the chapter titles
+
+* DONE Make a part and chapters for stories
+CLOSED: [2025-12-30 Tue 14:00]
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-01-05 Mon 09:00
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Unstuck Beta
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Re-upload to HTB
+CLOSED: [2025-12-30 Tue 14:00]
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-01-05 Mon 09:00
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Unstuck Beta
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Decide: share whole thing or first 30k
+CLOSED: [2025-12-30 Tue 14:26]
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-01-05 Mon 09:00
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Unstuck Beta
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Draft invitation
+CLOSED: [2025-12-30 Tue 14:26]
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-01-05 Mon 09:00
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Unstuck Beta
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Make list of people to send invitation
+CLOSED: [2025-12-30 Tue 10:06]
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-01-05 Mon 09:00
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Unstuck Beta
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Add connective tissue for Catalog
+CLOSED: [2025-12-30 Tue 14:26]
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-01-05 Mon 09:00
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Unstuck Beta
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Ship it
+CLOSED: [2025-12-31 Wed 08:21]
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-01-05 Mon 09:00
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Unstuck Beta
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Make explicit "track progress" game plan
+CLOSED: [2025-12-31 Wed 09:13]
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-01-05 Mon 09:00
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Unstuck Beta
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+:LOGBOOK:
+CLOCK: [2025-12-31 Wed 08:52]--[2025-12-31 Wed 09:13] =>  0:21
+:END:
+As in, don't just haunt the thing, waiting. Write out my expectations and track against that. Embed some of those in the invitation. Record how accurate my expectations were, so I can update the for my next round of beta reading. Make it an operation.
+
+* DONE Email 3-4 more people
+CLOSED: [2026-01-01 Thu 10:34]
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-01-05 Mon 09:00
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Unstuck Beta
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Ideas for how to spend writing time
+CLOSED: [2025-12-31 Wed 09:19]
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-01-05 Mon 09:01
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Unstuck Beta
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+:LOGBOOK:
+CLOCK: [2025-12-31 Wed 09:13]--[2025-12-31 Wed 09:19] =>  0:06
+:END:
+
+* DONE Review what I have
+CLOSED: [2026-01-01 Thu 09:47]
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-01-05 Mon 09:01
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Increment Design
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+:LOGBOOK:
+CLOCK: [2026-01-01 Thu 09:29]--[2026-01-01 Thu 09:47] =>  0:18
+:END:
+
+* DONE Define problem I'm solving
+CLOSED: [2026-01-01 Thu 09:52]
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-01-05 Mon 09:01
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Increment Design
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+:LOGBOOK:
+CLOCK: [2026-01-01 Thu 09:48]--[2026-01-01 Thu 09:52] =>  0:04
+:END:
+
+* DONE Write title, naming problem
+CLOSED: [2026-01-01 Thu 10:02]
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-01-05 Mon 09:01
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Increment Design
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+:LOGBOOK:
+CLOCK: [2026-01-01 Thu 09:52]--[2026-01-01 Thu 10:02] =>  0:10
+:END:
+
+* DONE Sketch in ToC
+CLOSED: [2026-01-01 Thu 10:18]
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-01-05 Mon 09:01
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Increment Design
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+:LOGBOOK:
+CLOCK: [2026-01-01 Thu 10:02]--[2026-01-01 Thu 10:18] =>  0:16
+:END:
+
+* DONE Ensure there's a clean problem solved early
+CLOSED: [2026-01-01 Thu 10:18]
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-01-05 Mon 09:01
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Increment Design
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:

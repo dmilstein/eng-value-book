@@ -161,8 +161,8 @@ E.g. what happens if the stores have sluggish perf?
 ** TODO Add testing w/ Map Fears / Aspirations
 
 * [[id:E0ADBF07-90B8-4C37-81C0-96A428020F5E][Substack]]
-** TODO Publish "Propose a Timebox" to Medium     :curweek:
-** TODO Prep "Offer Future Decision" for Substack :curweek:
+** TODO Publish "Propose a Timebox" to Medium
+** TODO Prep "Offer Future Decision" for Substack
 ** TODO Submit Medium articles to publication
 Possible Article for Level Up
 ** TODO Add playful illustrations of mindsets
@@ -328,74 +328,34 @@ Ala:
   2. Motivate Action (Now and Not Later)
   3. Speak To Your Stakeholder's Human Experience
 
-* [[id:9410A7DC-111C-4791-B8A1-C20867904251][Unstuck Beta]]                                    :gtasks:
-** DONE Make [[file:org-roam-tibook/20251027103957-unstuck_beta.org::*Hit List of Todos][hit list]] of remaining changes
-CLOSED: [2025-12-17 Wed 08:40]
+* [[id:B8F21153-89FC-4B8B-8B0D-BBF4CC2C58C1][Increment Design]]                                :gtasks:
+** TODO First draft of introduction               :curweek:pom:
 :LOGBOOK:
-CLOCK: [2025-12-17 Wed 08:31]--[2025-12-17 Wed 08:40] =>  0:09
+CLOCK: [2026-01-06 Tue 07:26]
+CLOCK: [2026-01-05 Mon 10:21]--[2026-01-05 Mon 12:07] =>  1:46
+CLOCK: [2026-01-04 Sun 09:38]--[2026-01-04 Sun 12:23] =>  2:45
+CLOCK: [2026-01-03 Sat 09:00]--[2026-01-03 Sat 10:46] =>  1:46
+CLOCK: [2026-01-02 Fri 09:01]--[2026-01-02 Fri 10:47] =>  1:46
 :END:
-** DONE Deal with multiple Alistair/Max scenes
-CLOSED: [2025-12-28 Sun 11:14]
-:LOGBOOK:
-CLOCK: [2025-12-28 Sun 08:15]--[2025-12-28 Sun 11:14] =>  2:59
-CLOCK: [2025-12-20 Sat 09:06]--[2025-12-20 Sat 10:01] =>  0:55
-CLOCK: [2025-12-19 Fri 08:46]--[2025-12-19 Fri 09:59] =>  1:13
-CLOCK: [2025-12-17 Wed 08:40]--[2025-12-17 Wed 09:54] =>  1:14
-:END:
-As in, I have multiple, conflicting version of Alistair building rapport
-** DONE Review full draft
-CLOSED: [2025-12-28 Sun 11:14]
-** DONE Pick version of Catalog of Tactics        :curweek:
-CLOSED: [2025-12-29 Mon 10:06]
-:LOGBOOK:
-CLOCK: [2025-12-29 Mon 08:52]--[2025-12-29 Mon 10:06] =>  1:14
-:END:
-** DONE Decide: include Tactic Stories            :curweek:
-CLOSED: [2025-12-30 Tue 08:12]
-** DONE Look at [[https://www.usefulbooks.com/learn/beta-reading-guide#finding-and-solving-the-book-killers][book killers]] ideas from HTB :curweek:
-CLOSED: [2025-12-29 Mon 14:44]
-In email
+** TODO First draft second chapter                :curweek:
+** TODO Make list of people to invite             :curweek:
+** TODO Draft email for invite
+** TODO Upload to HTB
+** TODO Fucking Ship it
 
-** DONE Review tooling for HTB                    :curweek:
-CLOSED: [2025-12-30 Tue 09:52]
-:LOGBOOK:
-CLOCK: [2025-12-30 Tue 09:43]--[2025-12-30 Tue 09:52] =>  0:09
-:END:
-** DONE Produce/upload to HTB                     :curweek:
-CLOSED: [2025-12-30 Tue 11:28]
-:LOGBOOK:
-CLOCK: [2025-12-30 Tue 09:52]--[2025-12-30 Tue 11:28] =>  1:36
-:END:
-** DONE Fix links export in build process         :curweek:
-CLOSED: [2025-12-30 Tue 13:33]
-As in, extract the chapter titles
-** DONE Make a part and chapters for stories      :curweek:
-CLOSED: [2025-12-30 Tue 14:00]
-** DONE Re-upload to HTB                          :curweek:
-CLOSED: [2025-12-30 Tue 14:00]
-** DONE Decide: share whole thing or first 30k    :curweek:
-CLOSED: [2025-12-30 Tue 14:26]
-** DONE Draft invitation                          :curweek:
-CLOSED: [2025-12-30 Tue 14:26]
-** DONE Make list of people to send invitation    :curweek:
-CLOSED: [2025-12-30 Tue 10:06]
-** DONE Add connective tissue for Catalog         :curweek:
-CLOSED: [2025-12-30 Tue 14:26]
-** DONE Ship it
-CLOSED: [2025-12-31 Wed 08:21]
-** DONE Make explicit "track progress" game plan  :curweek:
-CLOSED: [2025-12-31 Wed 09:13]
-:LOGBOOK:
-CLOCK: [2025-12-31 Wed 08:52]--[2025-12-31 Wed 09:13] =>  0:21
-:END:
-As in, don't just haunt the thing, waiting. Write out my expectations and track against that. Embed some of those in the invitation. Record how accurate my expectations were, so I can update the for my next round of beta reading. Make it an operation.
-** DONE Email 3-4 more people                     :curweek:
-CLOSED: [2026-01-01 Thu 10:34]
-** DONE Ideas for how to spend writing time       :curweek:
-CLOSED: [2025-12-31 Wed 09:19]
-:LOGBOOK:
-CLOCK: [2025-12-31 Wed 09:13]--[2025-12-31 Wed 09:19] =>  0:06
-:END:
+** DONE Tooling - split out word count tool?
+CLOSED: [2026-01-05 Mon 09:01]
+** DONE Decide: apply Lilli's feedback
+CLOSED: [2026-01-05 Mon 09:02]
+Lili feedback -- it might be looping stakeholders in as you go, that is the key focus
+
+Like, that's what she really coaches people on
+** Review [[id:03D1870C-E583-4D5C-9589-5E0799793D48][Mstones/Decisions]] chapter
+*** TODO Break out Design Milestones chapter?
+*** TODO Review Ell Milestones doc for ideas
+
+* [[id:9410A7DC-111C-4791-B8A1-C20867904251][Unstuck Beta]]                                    :gtasks:
+** TODO Decide who, if anyone, to nudge           :curweek:
 ** TODO Review HTB Tables of Contents
 * [[id:B4926308-39DD-471B-8E71-5FFF7546D6E3][ToC/Structure ]]                                  :gtasks:
 ** TODO Experiment: Move Quin story to separate chapters?
@@ -455,6 +415,9 @@ So I can either run full screen or within 80 columns
 Because now my wordcount history stuff is sensitive to those being missing.
 ** TODO Create a new chapter template or abbrev?
 * Book Misc                                       :gtasks:
+** TODO Put my Art of Increment design substack post somewhere
+** TODO For Address Fears Directly, move the flashing lights warning up
+** TODO Rename ReMotor to ReMotr?
 ** TODO Spike: open book with catalog of tactics
 Like, invert it. Stories first, then details?
 ** TODO Speak to political companies (e.g. Klaviyo)
@@ -567,44 +530,6 @@ E.g. things I tried that didn't work, or that I've seen people try and have not 
 ** TODO Check out [[https://tmarstrand.blog/][Troel's Blog]]
 ** TODO Add: "Yes *obviously* I have an intellectual crush on Kellan"
 ** TODO Ping Alla H about using her name?
-* [[id:B8F21153-89FC-4B8B-8B0D-BBF4CC2C58C1][Increment Design]]                            :gtasks:
-** DONE Review what I have                        :curweek:
-CLOSED: [2026-01-01 Thu 09:47]
-:LOGBOOK:
-CLOCK: [2026-01-01 Thu 09:29]--[2026-01-01 Thu 09:47] =>  0:18
-:END:
-** DONE Define problem I'm solving                :curweek:
-CLOSED: [2026-01-01 Thu 09:52]
-:LOGBOOK:
-CLOCK: [2026-01-01 Thu 09:48]--[2026-01-01 Thu 09:52] =>  0:04
-:END:
-** DONE Write title, naming problem               :curweek:
-CLOSED: [2026-01-01 Thu 10:02]
-:LOGBOOK:
-CLOCK: [2026-01-01 Thu 09:52]--[2026-01-01 Thu 10:02] =>  0:10
-:END:
-** DONE Sketch in ToC                             :curweek:
-CLOSED: [2026-01-01 Thu 10:18]
-:LOGBOOK:
-CLOCK: [2026-01-01 Thu 10:02]--[2026-01-01 Thu 10:18] =>  0:16
-:END:
-** DONE Ensure there's a clean problem solved early :curweek:
-CLOSED: [2026-01-01 Thu 10:18]
-** TODO Write bad intro                           :curweek:pom:
-:LOGBOOK:
-CLOCK: [2026-01-02 Fri 09:01]
-:END:
-** TODO Tooling - split out word count tool?
-** TODO Decide: apply Lilli's feedback
-Lili feedback -- it might be looping stakeholders in as you go, that is the key focus
-
-Like, that's what she really coaches people on
-** TODO Fucking Ship it
-
-** Review [[id:03D1870C-E583-4D5C-9589-5E0799793D48][Mstones/Decisions]] chapter
-*** TODO Break out Design Milestones chapter?
-*** TODO Review Ell Milestones doc for ideas
-
 * Future Books                                    :sleep:
 ** TODO Engineering Leads the Way (tech investments)
 Investing for the Long Term
