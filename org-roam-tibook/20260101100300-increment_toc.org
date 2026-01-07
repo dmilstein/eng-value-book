@@ -9,15 +9,14 @@ The Art of Increment Design
 How To Create Value Despite Bad Estimates, Misguided Specs, And Genuinely Terrifying Legacy Code
 
 * Art of Increments ToC
+** [[id:DB6CA364-5435-4ADE-AA8C-9F404FA28D45][Some Problems In Creating Valuable Software]]
+Three Problems In Creating Valuable Software
+
+Creating Valuable Software: Three Problems
+
+Creating Valuable Software: Three Challenges
+
 ** [[id:D2D9959D-3491-456B-89A0-E5ED5517E0BB][The Profound Value Of Good Increments]]
-
-Creating Value Is Hard
-
-The challenges of creating incremental value.
-
-A Tale of Two Projects
-
-A Distressingly Familiar Tale of Disaster
 
 * Stashed
 ** Offer a Series of Decisions

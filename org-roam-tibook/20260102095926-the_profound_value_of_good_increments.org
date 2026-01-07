@@ -1,10 +1,10 @@
 :PROPERTIES:
 :ID:       D2D9959D-3491-456B-89A0-E5ED5517E0BB
 :END:
-#+title: The Profound Value Of Increment Design
+#+title: The Perils of Bad Increment Design
 #+filetags: :Chapter:
-* The Profound Value Of Increment Design
-
+* The Perils of Bad Increment Design
+# The Profound Value Of Increment Design
 # Help Us, Good Increment Design, You're Our Only Hope
 ** Doing Agile But Not Feeling Agile
 
@@ -82,7 +82,7 @@ They have chosen their overall increments arbitrarily and poorly. Even if they n
 
 For this particular project, this is, in fact, what happens.
 
-One of the components turned out to be simply impossible to build as they had planned. The absence of that component triggers a ripple effect through the rest of the system, requiring enormous amount of rework and ultimately forcing a rethinking of what the product is able to do. Unfortunately, the team chose to work on that component *late* in their sequence. By the time they make this unfortunate discovery, their original launch date is only four weeks away. There are no good options to adapt and still deliver something valuable anywhere close to the plan. They realize that they have to start an essentially entirely new project, moments before the original project was supposed to conclude.
+One of the components turns out to be simply impossible to build as they had planned. The absence of that component triggers a ripple effect through the rest of the system, requiring enormous amount of rework and ultimately forcing a rethinking of what the product is able to do. Unfortunately, the team chose to work on that component *late* in their sequence. By the time they make this unfortunate discovery, their original launch date is only four weeks away. There are no good options to adapt and still deliver something valuable anywhere close to the plan. They realize that they have to start an essentially entirely new project, moments before the original project was supposed to conclude.
 
 # Of course, missing plan isn't an uncommon occurrence. Why does this particular miss leave the team in such bad shape?
 
@@ -105,15 +105,15 @@ But... before we answer that question, we have to face a troubling truth.
 
 # Other Disastrous Surprises That Could Be Lying In Wait
 
-There isn't just one potential disaster waiting, when we start a project. No, there are a variety of different ways a project might fail.
+There isn't just /one/ potential disaster waiting, when we start a project. No, there are a wide variety of different ways a project might fail.
 
  - As above, the team could discover, late, that one of the components is impossible to build as planned.
 
- - The team could discover, late, that customers don't want the thing the team is building. They want something "close"... but much, much harder to build.
+ - The team could discover, late, that customers don't want the thing the team is building, but instead want something "similar", but much, much harder to build.
 
  - The team could discover, late, that the new system can't handle production load without falling over, and that the only path to better performance seems to require a fundamental redesign.
 
- - The team could discover, late, that they're going to have to change a legacy system that no one knows how to work with.
+ - The team could discover, late, that they're going to have to change a legacy system that no one has any idea how to work with.
 
  - The team could discover, late, that another team they were depending on has decided to shift their focus and has completely deprioritized this work.
 
@@ -121,27 +121,55 @@ There isn't just one potential disaster waiting, when we start a project. No, th
 
  - The team could discover, late, that the existing product they're trying to replace is being used in much more complex ways than they realized, so they're nowhere close to having a valid replacement.
 
+I could do this all day! I've personally had projects fail in exciting and painful ways for every single one of the reasons listed above... and for a great variety of other reasons as well.
+
 ** The Fundamental Question: How Can We Avoid Disaster?
 
 # ** The Wrong Answer: Don't Be Surprised
 
 # ** The Right Answer: Be Surprised /Early/
 
-So, again we ask, how can the team avoid one of these painfully unpleasant outcome? How can /we/ be certain to avoid such disasters on our own projects?
+So, again, we ask, how can the team avoid falling prey to one of these painfully unpleasant outcomes? How can /we/ be certain to avoid such disasters on our own projects?
 
-There's an easy, obviously correct answer:
+Well, there's a theme in the list of possible disasters: in each, the team is unpleasantly surprised, at a point late in the project, where they don't have any good options left.
 
-The engineers *should have known* that that one component would be impossible to build as planned.
+For each, if the team had known the surprising fact up front, they could have incorporated it into their planning, and they would have been able to achieve some real win for their business.
 
-This is so obviously correct! /If only/ the engineers had given an even /vaguely/ accurate estimate of the time to build that component, the PM would have made a better, saner, more achievable plan in the first place. The PM would then have had a healthy negotiation with the senior non-technical stakeholder, set reasonable expectations, and none of us would be crying into our laptops at three in the morning.
+# (where, subtly, sometimes the win would have been to realize that the project, as currently planned, simply wasn't worth investing in).
 
-Look, no one expects the engineers to give perfectly accurate estimates, we're not idiots. But, still, they /should have known/ that this one particular component was going to be pretty hard to build. They shouldn't have given an estimate that was this spectacularly bad.
+# They only suffered a disaster because they were so surprised. If they had known the surprising fact up front, they could have incorporated it into their planning.
+
+# And they were only surprised because they didn't know some important fact, at the start of the project.
+
+# Thus there's an easy, obviously correct answer to the question, "How could the team have avoided disaster?":
+
+Thus there's an easy, obviously correct answer to our question:
+
+To avoid disasters, the team should make certain to not be surprised.
+
+# But that's not how people /say/ this answer. Sitting amidst the wreckage of a failed project, they say, angrily: Someone *should have known* the surprising fact, before the project started.
+
+For our detailed story about the bad estimate, maybe the product manager, feeling enormous pressure, insists that the engineers *should have known* that that one component would be impossible to build as planned.
+
+# This is so obviously correct!
+
+/If only/ the engineers had given an even /vaguely/ accurate estimate of the time to build that component, the PM would have made a better, saner, more achievable plan in the first place. The PM would then have had a healthy negotiation with the senior non-technical stakeholder, set reasonable expectations, and none of us would be crying into our laptops at three in the morning.
+
+Look, no one expects the engineers to give perfectly accurate estimates. But, still, they /should have known/ that this one particular component was going to be pretty hard to build. They shouldn't have given an estimate that was this spectacularly bad.
 
 # Apparently we need engineers who are more senior, or who take more ownership, or who are more outcome-oriented. Or something.
 
-This answer is, in fact, so easy, people come up with it all the time.
+# The "someone should have known" answer is, in fact, so easy, people come up with it all the time.
 
-Unfortunately, "someone should have known" provides very little help at the /start/ of a project. It's great for looking backwards at the end and assigning blame. But, sadly, here in the real world, we have to start our projects in the present, without the benefit of the future knowledge we'll acquire as we go.
+The "someone should have known" answer is a desperate plea to avoid surprises.
+
+# , in fact, so easy, people come up with it all the time.
+
+Unfortunately, the "don't be surprised" answer provides no help for us at the /start/ of a project. It's great for looking backwards at the end and assigning blame. But, sadly, here in the real world, we have to start our projects in the present, without the benefit of the future knowledge we'll acquire as we go.
+
+If your only hope for creating value is to /never be unpleasantly surprised/, well, then, good luck to you, is all I can say. Go read some other book, and/or order an industrial-sized bottle of anti-depressants.
+
+We just can't know ahead of time which of the incredible variety of potential surprises is going to blow up. If we try to flush out all the surprises before we start, we're just reinventing Waterfall.
 
 # not a *useful* answer (except for making people feel bad, at which it excels).
 
@@ -149,39 +177,55 @@ Unfortunately, "someone should have known" provides very little help at the /sta
 
 # Literally every engineer who has worked for any amount of time building software can cite dozens of personal experiences of painful surprises blowing their plans up.
 
-If your only hope for creating value is to /never be unpleasantly surprised/, well, then, good luck to you, is all I can say. Go read some other book, and/or order an industrial-sized bottle of anti-depressants.
-
 # stock up on anti-depressants, vodka, CBD,
 
 ** Remember: They're Already Doing Agile
 
-It's incredibly important to point out that this team is not stupid. They're working incrementally. They're building and shipping all the time. They're doing their best to adapt to what they learn as they go.
+It's incredibly important to point out that the team in our story is not stupid. They're working incrementally. They're building and shipping all the time. They're doing their best to adapt to what they learn as they go.
 
 But to get buy in to start the project in the first place, they had to offer *something* to their senior non-technical stakeholder. And that something *had* to include some description of what their software would do for the business. And embedded in that description was this nasty surprise, waiting for them.
 
 # Unless you want to tell me that you think you can somehow plan an entire nine month project out, flushing out all possible risks and surprises ahead of time, without somehow reinventing waterfall.
 
-The senior non-technical stakeholder is not the villain here. They had to make a business decision about whether or not to commit to this project. That business decisions meant investing nearly a year's worth of extremely expensive engineering salaries. They can't make that kind of decision without *some* understanding of what they might get as a result.
+The senior non-technical stakeholder is not the villain here. They had to make a business decision about whether or not to commit to this project. That business decision meant investing nearly a year's worth of extremely expensive engineering salaries. They can't make that kind of decision without *some* understanding of what they might get as a result.
 
-But if you try to eliminate all nasty surprises before getting started, you're going to find yourself reinventing Waterfall.
+So, again, what can we do?
 
-** The Answer, Part I: Be Surprised /Early/
+** The Answer, Part I: Be Surprised Early
 
 The fundamental trick which this book wishes to share with you is that, although it's impossible to eliminate surprises from software development, it is very much possible to make those surprises less *expensive*.
 
-In other words, you prevent disasters not by preventing surprises, but instead by breaking the link between surprise and disaster.
-
-# In other words, you prevent disasters not by preventing surprises, but instead by making it possible to be surprised without immediately finding yourself facing a disaster.
+In other words, you prevent disasters not by preventing surprises, but instead by breaking the link between "surprise" and "disaster".
 
 How can you do this?
 
-By working very, very hard to *be surprised /early/.*
+Fundamentally, there are two parts, both of which are interestingly challenging.
 
-Instead of saying "if only the engineers had known how hard this would be", you say "if only we had found out soon enough that it would be hard."
+First, you work very hard to *be surprised /early/.*
+
+You can't eliminate all surprises before a project starts, but you *can* sequence your work so that you attack the riskiest, most uncertain work *first*. This gives you an excellent chance of hitting your surprises early enough to still be able to adapt and find some win for your business.
+
+In our example above, when designing their increments, the engineers could have said "Which of these components is the most uncertain? Which one is most likely to blow up?" That's a very productive conversation. If they had then built the "risky" component first, they would have discovered, just a month into the project, that their plans were going to have to change.
+
+Throughout the book, we'll explore a wide variety of ways for engineers and product managers to work together to, first, identify the riskiest parts of an effort, and second, to sequence their work to extract any surprises as early as possible.
+
+However, obtaining the information from early surprises is not, by itself, enough.
+
+Second, you work very hard to *draw your stakeholder into a process of repeated decision-making*.
+
+When we hit a surprise early, we create value by making a new decision: based on what we just learned, what is *now* the most valuable thing we can do for the business?
+
+And, crucially: /The engineers and the PM can't make that decision on their own./
+
+The senior non-technical stakeholder above will have to be a part of it. They're going to *want* to make a single "big" decision up front -- "Do I fund this project or not?". Unfortunately, that does not work.
+
+You have to find a way to draw them into a process of steady, repeated decision-making.
+
+We're going to talk in real detail about this in the book, as well.
 
 ** Early Surprises Create Incremental Value
 
-How might the engineers and PM's have somehow conducted their work so as to avoid the horrible discoveries, late in the project? What did they miss?
+# How might the engineers and PM's have somehow conducted their work so as to avoid the horrible discoveries, late in the project? What did they miss?
 
 # The answer is somewhat subtle.
 
@@ -199,9 +243,25 @@ If a team creates incremental value, then, well, they can *never really lose*. T
 
 One note: drawing stakeholders into collaboration around valuable increments is a profoundly interesting challenge. We'll return to that challenge, once we have an understanding of which increments are even valuable in the first place. The concept of "creating value" will turn out to be well worth digging into.
 
-** The Answer, Part II: Enable Smaller, More Frequent /Decisions/
+** The Answer, Part II: Make Smaller, More Frequent Decisions
+# The Answer, Part II: Enable Smaller, More Frequent /Decisions/
 
-** "The Business" Will Have To Make The Decisions
+# The Answer, Part II: Make Decisions More Often
+
+# The Answer, Part II: Make Smaller Decisions More Often
+
+# The Answer, Part II: Make Smaller Decisions As You Go
+
+# The Answer, Part II: Make Decisions As You Go
+
+# The Answer, Part II: Build Your Plan Around Decisions
+
+# The Answer, Part II: Work Backward From Decisions
+
+# The Answer, Part II: Plan To Make Decisions
+
+
+** "The Business" Makes The Decisions
 
 ** A Map Of The Rest Of This Book
 # The Answer, Part II: Smaller, Better, More Frequent /Decisions/
@@ -216,50 +276,6 @@ One note: drawing stakeholders into collaboration around valuable increments is 
 
 # The Answer, Part II: Make A Series Of Decisions
 * To move into preface/intro
-
-** Creating Value Is A Suprisingly Subtle Concept
-
-Now, if you're reading this you may be thinking: "Obviously, they should have built incrementally. They should have shipped working code, earlier."
-
-Unfortunately, it's not that easy.
-
-Plenty of engineers and product managers have developed some kind of heuristic sense of good increment design. Which, like most heuristics, works sometimes and fails horriby at others. Let me list a couple of approaches I've seen (and employed!) for designing increments which, although *sometimes* useful, are sometimes disastrously unuseful.
-
- - Build a high-quality implementation of a small part of the product
-
- - Build a super scrappy version of the entire product
-
- - Build an entirely fake version of the product to show to users
-
- - Build the external integrations
-
- - Build the internal logic
-
- - Build the backend
-
- - Build the frontend
-
- - Assemble the data
-
- - Design the overall component breakdown
-
- - Build a single small thing and grow it outward
-
-Note that, for just about all of the above, a team would be "shipping working code". But those are profoundly different increments.
-
-And that doesn't even mention all the other work that should be mixed in, to ultimately create maximum value for the business, e.g."
-
- - Speed up the development cycle
-
- - Address performance issues
-
- - Improve system stability
-
- - Address security concerns
-
- - Clean up legacy code
-
-
 
 ** This Skill Changed My Life And I Want It To Change Yours
 
@@ -293,232 +309,8 @@ This understanding of value will ultimately give us tools to break large efforts
 
 # In a sense, the alternative to agile (Waterfall, natch), has "lost"
 
-* Other sections
-** Increments Are A Decision We Make Over And Over
-
-# The Perils of Bad Increment Design
-
-This book is a deep dive into how to break up a large body of software engineering work into a series of small, safe, value-generating steps.
-
-# Now, this challenge, of decomposing a large problem into smaller pieces, is, in the case of *software* projects, made just enormously difficult for one simple reason:
-
-# Now, this challenge, of decomposing a large problem into smaller pieces, crops up over and over, in an extremely wide variety of domains.
-
-# In fact, being skilled at this decomposition is one of the key ways we recognize a "senior" engineer, again in wide variety of domains.
-
-# However, in the case of *software* projects, this challenge is made just enormously more difficult for one simple reason:
-
-The challenge of decomposing a large body of software engineering work is made specifically difficult thanks to one simple reason:
-
-# , which I, like, strongly suspect you already know:
-
-# extremely, fascinatingly,
-
-# *It's impossible to define all the steps before you start the work*.
-
-For software projects, *it's impossible to define all the steps before you start*.
-
-This is so widely accepted that engineers and product managers will dismiss the "define all the steps first" approach with a casual, patronizing, "Ugh, you're asking us to do /Waterfall/."
-
-# And everyone will understand what they mean.
-
-# The heart of the much-damned "waterfall" approach is to carefully define all the steps ahead of time, and to then hold a team accountable to executing on those steps as planned.
-
-# That approach fails so reliably that many engineers and product managers will fight tooth and nail against it, purely in their own self-interest. As in, they are so certain the results will be a disaster (specifically, a disaster for which they will be blamed), that they'll push extremely hard for a different way of working, even to the point of risking getting fired.
-
-But, if Waterfall is "bad", what's the alternative?
-
-# Well, if you can't define all the steps ahead of time, you *have* to make some sort of an initial plan, but then be ready to *redefine that plan as you go*.
-
-# That's it. There is no other choice.
-
-To successfully build a large, valuable piece of software, you apparently have to start by *somehow* selecting one specific chunk of work, executing on that chunk, and only then choosing your next chunk.
-
-In other words, you have to not only *build* incrementally, you also have to *plan* incrementally.[fn:: Many failed projects think they are being incremental, but they map out all their steps ahead of time and then attempt to march through them, one small, ahead-of-time defined step at a time. This works so reliably badly that I have personally run multiple project post-mortems for dramatically failed projects, which post-mortems all had the same fundamental learning: the team somehow ended up running a Waterfall project, even though they thought they were doing agile.]
-
-Thus, because the steps can't all be defined ahead of time, the core act of working incrementally is /deciding what to do next/.
-
-The fundamental thesis of this book is that deciding what to do next is an incredibly high-leverage act.
-
-That act is best understood not as merely selecting from some set of fairly obvious alternatives, but as confronting a moment of intense challenge, requiring creative engineering and product management effort to overcome. Good increments aren't merely chosen, they are *designed*. In fact, I believe that increment design is among the most critical, valuable skills that engineers and product managers can develop.
-
-# Selecting the next increment of work, based on what has been both built and learned up to this moment, is an incredibly highly levereage activity.
-
-# Over the course of my career, I've come to believe it's impossible for an engineer or product manager to be truly effective at their job unless they go deep on increment design.
-
-# I further believe, that, for a business to create value by building new software, the design of increments must be a collaborative conversation among engineers, product managers, and stakeholders.
-
-# For one simple reason: a "good" increment is one which *creates incremental value* for the business as a whole. But, for reasons we'll go into in great detail, engineers fundamentally *can't* determine value on their own.
-
-Why is good increment design so valuable?
-
-# A teacher of mine once said, "The beauty of something is made clear by its absence."
-
-Well, to answer that, let's flip it around.
-
-What is life like, on a team that suffers from poor, haphazard increment design?
-
-My guess is that you, dear reader, may have actually experienced this first hand.
-
-# Let's see what that feels like.
-
-** Intended Audience + Three Core Problems Solved
-It's intended audience includes individual software engineers and product managers, leaders of both engineering and product teams, and a variety of curious non-technical stakeholders, who would like to understand how to improve their painfully broken relationships with their tech counterparts.
-
-Believe it or not, good increment design holds the key to:
-
- - How engineers can consistently develop valuable software...
-
-   ...even though they can't reliably estimate how long it will take them to do, well, almost anything.
-
- - How product teams can rapidly hone in on software that customers adore (and will happily pay for!)...
-
-   ...even though the users are utterly incapable of describing what they need, the engineers can't tell you they'll actually be able to build, and the sales team wants to control every interaction with the buyer.
-
- - How engineers and product teams can work together to build valuable software atop hideously complex legacy systems...
-
-   ...even though no one understands how those systems work and a massive outage may be just waiting in the wings to crush your dreams.
-
-
-** My background a bit / live without fear
-
-It represents what I have spent several decades learning, about how to, well, *live without fear*.
-
-Early in my career as a programmer, as I steadily earned my way into positions of greater responsibility, I found that I was repeatedly asked to estimate how long it would take to code up various programs. I gradually discovered to my horror that, for work stretching out for more than a week or two, my estimates were just hideously [profoundly] unreliable [inaccuate]. I would promise to complete a project in two months (after scoping it out to take no more than four weeks and padding for safety). My business counterparts would put various wheels in motion based on that commitment. Two months would come and go, the project would drag endlessly on. I felt like a failure.
-
-Even once I came to understand that all programmers struggle to make usefully accurate estimates, I wasn't much happier. What was I supposed to offer my business partners?
-
-
-
-
-And then I came to realize that *everyone* is horrible at making such estimates.
-
-It focuses on
-
-Where, because you're developing *software*...
-
-...it's impossible fully define all the steps ahead of time.
-
-This is such a universally accepted truth of software development that, if someone attempts to plan a multi-month chunk of work by spending weeks precisely defining and scoping the various incremental steps involved, they will find themselves *laughed at*. The phrase "waterfall" will be invoked, and that will apparently end the conversation.
-
-In other words, building software by attempting
-** Intro - I Feel Your Pain
-
-Developing software for a business would be delightfully easy if only the following three things were true:
-
- 1. The engineers knew how long it would take them to build a piece of software
-
- 2. The rest of the business actually knew what software they needed
-
- 3. There was no existing software to maintain, extend and curse at
-
- # 1. The engineers knew how long it would take to build specified products, features or tools
-
- # 2. The rest of the business knew how valuable those various products, features or tools would actually be, as specified
-
- # 3. There were no existing systems to maintain, extend and curse at
-
-But here in reality, estimates are unreliable, specifications are painfully wrong-headed, and legacy systems are lurking and waiting to crush everything you love.
-
-lurking in the wings, laughing. waiting for their moment to crush you.
-
-those three things are (checks notes), *essentially never true*.
-
-Engineers can't make accurate estimates of the time to deliver a software system of just about any meaningful complexity.
-
-The rest of the business, despite their professions of certainty, is routinely so misguided in their beliefs that entire new products, features or tools are just completely thrown away after being built.
-
-# , because they create so little value for their businesses.
-
-
-And, of course, most of the businesses that have the money to pay engineers, product managers and designers, have that money because someone in the past built some piece of software which people are now paying for, and which has to be considered as anything new is built, and that existing software has become encrusted with fragile special cases and opaque logic and endless amounts of confusing, subtly incorrect data.
-
-** Intro: Bring Three Problems To Life As Learning Arc for an engineer
-
-This book is a deep dive into how to break up a large body of engineering work into a series of smaller, safe, value-generating steps.
-
-# In other words, how to design (and redesign) the increments of delivery.
-
-# This book is a deep dive into how to design effective *increments* for developing software.
-
-# By "increments" I simply mean: how to break up a large body of engineering work into a series of smaller steps.
-
-#
-
-When you're young, and first learning to code, this seems straightforward. You're asked to write a program, you think out a few different ways to break down its overall structure, you pick one of those ways, and then you build the various components in some order.
-
-And that more or less works.
-
-As you work on steadily larger programs, you learn some key lessons -- e.g. wire the components together early and often, to flush out any confusion around interfaces. Write automated testing so you can safely restructure the system as you go. Use abstraction to capture repeated patterns. Then, after you excitedly overuse abstraction and create extremely difficult-to-change systems, learn to employ abstraction judiciously.[fn:: I find a hallmark of truly experienced engineers is a willingness to cut and paste, like, a *bunch* of times, until they're certain they *fully* understand the pattern they want to pull out.]
-
-But, there's a problem.
-
-These skills, though extremely useful, turn out to be insufficient to enable you to develop valuable software for a business.
-
-Why?
-
-I'll offer three reasons.
-
-First off, when you work in a business, Some Important Person will demand that, before you start coding, you tell them *how long* it's going to take to write your program.
-
-After some *very* painful experiences, you realize that you can't answer this question in any meaningful way.
-
-As part of onboarding at Ellevation, I would talk to a roomful of new hires, across both tech and non-tech roles. I would have an open-ended conversation about software development. At one point, I would say, "Sometimes, engineers tell you a project will take nine months." And, every single time, anyone with real experience in developing software -- engineers, product managers, designers -- would all do the same exact thing. They'd *laugh*. The rest of the room would look confused. What literally everyone has learned is that, when engineers tell you something will take nine months, you can not base any meaningful decisions on that estimate. And yet, business do, believe it or not, need to make some plans stretching out nine months into the future.
-
-This thing called Agile is supposed to help, but once you scale up to either more than a single team or to a project that stretches out past a few months, it's somewhat profoundly unclear how to apply agile. Sadly, teams at the the median software company I meet are using agile for their day-to-day processes, but all the tickets and sprints are embedded in some giant, slow-moving project with fixed deadlines and little in the way of feedback. I can't tell you how many project post-mortems I've run which had the same learning: we somehow ended up running a Waterfall project, even though we thought we were doing agile.
-
-Your options seem to be to either:
-
- a) Commit to long-term deadlines you're fundamentally uncertain about, and then spend your working hours in a state of ever-growing fear as you realize how impossible it will be to achieve what you've promised.
-
- b) Refuse to give your business partners what they insist they need, thereby poisoning your relationships with them and likely preventing your own advancement at your job.
-
-So, problem one is: even though Everyone Knows how hard it is to estimate software projects that stretch out past a few months... when working to create valuable software, you'llk constantly be asked to make long-term commitments.
-
-So, problem one is: in order for you to create value by writing software, your business seems to believe that you need to accurately estimate how long it will take. Which is, sadly, impossible.
-
-[snippet]
-
-Second, you have this repeated, extremely painful experience where you work hard, pulling long nights, pushing the people around you, making truly painful tradeoff choices in your code... and then, after you finally ship, the business shitcans [throws away] all your work. They show your new product to customers, who promptly throw up all over it. You attempt to roll out your new workflow software to your call centers, but there's a riot from the users. You attempt to connect your new data integration with a partner business, but it turns out that partner business has, like, hundreds of higher priorities than working with you, and after a painful year of trying to get them to answer your emails, you just archive all your work.
-
-Again, you seem to have two equally unpleasant options:
-
- a) Not My Problem! Put your head down, write lots of code, focus on some notion of "quality", and completely disassociate from any hope of creating value or solving meaningful problems. Assume a stance of cynical bitterness as your code rots away unused. Watch your career go kind of nowhere because you never seem to ship anything impactful.
-
- b) Fight, Fight, Fight! Spend all your time just constantly arguing with your Important Person, until you find that you've got this new job, called Product Manager, and now *you're* expected to extract commitments and estimates from the engineers, and they seem to think you've become an Unreasonable Important Person, and ugh.
-
-So, problem two is: despite Your Important Person's messianic self-confidence, they will frequently ask you to write software which it turns out creates no value whatsoever.
-
-# this presents as straightforward
-
-Finally, the third problem is... legacy code. Although your Important Person is obsessively focused on new features, new products, and new capabilities, you discover that you're also responsible for existing systems. If you ignore the latent problems, they have every chance of blowing up and, either thanks to constant fire-fighting, or thanks to an apocalyptic amount of work to evolve existing systems, it's now impossible for you to deliver the thing you're being held accountable for.
-
-What are your options?
-
- a) Just pile more on top of the unstable foundation, and hope that the inevitable disaster arrives when you've moved on to another project, company, or career. Give up on any hope of building quality software that you can be proud of.
-
- b) Insist on rewriting the existing system to clean it up. This sounds like a great idea until you convince some credulous Important Person to let you do it, and then you find yourself on the horrifying death treadmill of the Grand Rewrite. You leave that job before the rewrite finishes.
-
- c) Argue constantly about technical debt. But, because the resulting improvements are invisible to your Important Person, you put your own advancement at risk, and incur a bad reputation.
-
-So problem three is that, you have this incredibly strong feeling that there is important value in the long-term health of the systems engineering is responsible for. But no one seems to care about that value but you.
-
-# Nothing could be further from the truth.
-
-** All Three Are Same Problem
-
-I'll offer something provocative.
-
-Viewed from the right angle, these are all the same problem.
-
-Specifically, all three of are concerned with the same question: what next increment of work will *create value* for the business? Or, correspondingly, which increment of work will destroy value for the business?
-
-The business is, believe it or not, demanding estimates because they are trying to make a decision: what work should they ask you to do? What should they do, to take advantage of the work you're going to create?
-
-
-
-* Notes From Walk <2026-01-04 Sun>
-Okay, so definitely reuse the stuff that I did from the workshop and break it up and think about the thing of thinking about Satoy as sort of a model and then think about starting the product plan more wrong.
+* Using my Medical Informatics example <2026-01-04 Sun>
+Okay, so definitely reuse the stuff that I did from the workshop and break it up and think about the thing of thinking about Satoe as sort of a model and then think about starting the product plan more wrong.
 
 Maybe it's like a general sort of tracker of expenses and they ended up honing in on that.
 
@@ -851,23 +643,70 @@ The senior engineers should have known that they were approaching a performnce c
 #  The Answer, Part II: Make More Business Decisions
 # The Answer, Part II: Make More Decisions
 
+** Creating Value Is A Suprisingly Subtle Concept
+
+Now, if you're reading this you may be thinking: "Obviously, they should have built incrementally. They should have shipped working code, earlier."
+
+Unfortunately, it's not that easy.
+
+Plenty of engineers and product managers have developed some kind of heuristic sense of good increment design. Which, like most heuristics, works sometimes and fails horriby at others. Let me list a couple of approaches I've seen (and employed!) for designing increments which, although *sometimes* useful, are sometimes disastrously unuseful.
+
+ - Build a high-quality implementation of a small part of the product
+
+ - Build a super scrappy version of the entire product
+
+ - Build an entirely fake version of the product to show to users
+
+ - Build the external integrations
+
+ - Build the internal logic
+
+ - Build the backend
+
+ - Build the frontend
+
+ - Assemble the data
+
+ - Design the overall component breakdown
+
+ - Build a single small thing and grow it outward
+
+Note that, for just about all of the above, a team would be "shipping working code". But those are profoundly different increments.
+
+And that doesn't even mention all the other work that should be mixed in, to ultimately create maximum value for the business, e.g."
+
+ - Speed up the development cycle
+
+ - Address performance issues
+
+ - Improve system stability
+
+ - Address security concerns
+
+ - Clean up legacy code
+
+
+
 * Todos
+** TODO Break out a preface/intro
+Which lays out "Why you should read this", but doesn't explain my answer. Teases it. This changed my life, and I want it to change yours. It's not trivial to understand. But it's profound once you do. And then dive into Agile/Not Agile
 ** TODO Speak to challenges, early
  - Stakeholders don't want to work this way
  - It's not clear what increments create value
  - It's hard to set goals for good increments
  - No one person can do this on their own
-** Maybe: other ways project could fail
+** DONE Maybe: other ways project could fail
+CLOSED: [2026-01-07 Wed 08:00]
  - Customers were wrong about desires or needs shift
  - Legacy system blew up
-** TODO Spike: move other ways of failing to later section
-** TODO Add riff on surprise/shannon surprise/pursuing surprises
-** TODO s/Avoid Surprises/Avoid Disasters/
+** DONE Spike: move other ways of failing to later section
+CLOSED: [2026-01-07 Wed 08:00]
+** DONE s/Avoid Surprises/Avoid Disasters/
+CLOSED: [2026-01-07 Wed 08:00]
 Change the payoff function for being surprised. Be surprised early.
+** TODO Add riff on surprise/shannon surprise/pursuing surprises
 ** TODO Spike/experiment on making first story specific
 E.g. naming people, etc
-** TODO Break out a preface/intro
-Which lays out "Why you should read this", but doesn't explain my answer. Teases it. This changed my life, and I want it to change yours. It's not trivial to understand. But it's profound once you do. And then dive into Agile/Not Agile
 ** TODO Find my exercises
 ** TODO Review those exercises
 ** TODO Copy and paste in a big chunk
