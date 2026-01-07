@@ -229,11 +229,11 @@ We're going to talk in real detail about this in the book, as well.
 
 # The answer is somewhat subtle.
 
-This book will offer an answer, based on my own several decades of trying to avoid such painful discoveries while, first, being paid to write software for people, and then, as my career went on, leading teams of extremely expensive engineers being paid to write software for people.
+# This book will offer an answer, based on my own several decades of trying to avoid such painful discoveries while, first, being paid to write software for people, and then, as my career went on, leading teams of extremely expensive engineers being paid to write software for people.
 
-The heart of my answer is: the engineers and the PM did not engage their stakeholders in any discussion around the increments.
+# The heart of my answer is: the engineers and the PM did not engage their stakeholders in any discussion around the increments.
 
-Instead, they treated the increments as an internal concern of engineering. Therefore, none of the intermediate increments delivered anything that their stakeholders found at all valuable. There was no point, before the very end of the project that the team could have decided, *with* their stakeholders, to take some form of a partial win, and move on.
+# Instead, they treated the increments as an internal concern of engineering. Therefore, none of the intermediate increments delivered anything that their stakeholders found at all valuable. There was no point, before the very end of the project that the team could have decided, *with* their stakeholders, to take some form of a partial win, and move on.
 
 One way to understand all of the above is that the team did not choose their sequence of work to *create incremental value*.
 
@@ -688,8 +688,10 @@ And that doesn't even mention all the other work that should be mixed in, to ult
 
 
 * Todos
-** TODO Break out a preface/intro
+** DONE Break out a preface/intro
+CLOSED: [2026-01-07 Wed 10:33]
 Which lays out "Why you should read this", but doesn't explain my answer. Teases it. This changed my life, and I want it to change yours. It's not trivial to understand. But it's profound once you do. And then dive into Agile/Not Agile
+** TODO Now that I'v got a preface, spike on specific person/story?
 ** TODO Speak to challenges, early
  - Stakeholders don't want to work this way
  - It's not clear what increments create value

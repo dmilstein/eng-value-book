@@ -4,7 +4,7 @@
 #+title: Some Problems In Creating Valuable Software
 #+filetags: :Chapter:
 * Some Problems In Creating Valuable Software
-** Intro - I Feel Your Pain
+** Reality Is, Sadly, Unfriendly
 
 Developing software for a business would be delightfully easy if only, at the start of any given project, the following three things were true:
 
@@ -32,7 +32,7 @@ But here in reality, what do we find?
 
 # Engineers are so profoundly bad at making estimates that everyone understands that the statement "We can build this in nine months" is best greeted with a laugh.
 
-Well, the time estimates produced by engineers are often so horribly wrong that the Rest Of The Business finds itself staggering along in shock as deadlines come and go without any visible progress.
+Well, the time estimates produced by engineers are often so horribly wrong that the Rest Of The Business finds itself staggering along in shock as critical deadlines come and go without any visible progress.
 
 # whoosh by
 
@@ -46,7 +46,7 @@ Meanwhile, the Rest Of The Business, despite their professions of certainty, are
 
 And, of course, most of the businesses that have the money to pay engineers, product managers and designers, have that money because someone in the past built some piece of software which customers are now paying for, and which has to be considered as anything new is built, and that existing software has become encrusted with fragile special cases and opaque logic and endless amounts of confusing, subtly incorrect data. Also, every time an engineer breathes near that software, it breaks.
 
-** All Three Are Same Problem
+** The Best And Only Option
 
 # Intended Audience + Three Core Problems Solved
 
@@ -54,7 +54,7 @@ I'll offer something provocative: viewed from the right angle, these are all the
 
 /"Developing software for a business would be delightfully easy if only, *at the start of any given project*, the following three things were true."/
 
-We *can't*, it turns out, know these things at the start of a project. We have to somehow find a way to build valuable software *even though*, as we start, we can't know how long it will take, if we're building the right thing, or what challenges we'll encounter due to legacy systems.
+We *can't*, it turns out, know these things at the start of a project. We have to somehow find a way to build valuable software *even though*, as we start, we don't know how long it will take, if we're building the right thing, or what challenges we'll encounter due to legacy systems.
 
 # Of course, everyone thinks they can *cheat*. They say "Oh, of course, I get that. So let's 'start' by doing enough research to be certain we're able to build it, that we're building the right thing, and that we fully understand the legacy challenges."
 
@@ -94,7 +94,7 @@ Therefore, this book will speak both to how to break work down into valuable inc
 
 It's intended audience includes software engineers, product managers, leaders of both engineering and product teams, and intellectually curious non-technical stakeholders, who would like to understand how to improve their painfully broken relationships with their tech counterparts.
 
-** My background a bit / live without fear
+** This Skill Changed My Life And I Want It To Change Yours
 
 Also, this book represents what I have spent several decades learning, about how to, well, *live without fear*.
 
@@ -104,7 +104,7 @@ Eventually, I shifted over and spent many years working as a product manager. I 
 
 Finally, when I found myself in leadership roles, I was constantly wrestling with these same issues, now made more challenging by spanning multiple teams and stretching out over years of effort.
 
-I *love* creating software that solves problems for the businesses I work in. I *hate* disappointing the people I work with, in those businesses. Having potential failures constantly loom over me made my days a nightmare of stress and fear.
+I *love* creating software that solves problems for the businesses I work in. I *hate* disappointing the people I work with, in those businesses. Having potential failures constantly loom over us can easily make our days a haze of stress and fear.
 
 Understanding how to break work down into increments has, ultimately, changed my life.
 
@@ -269,7 +269,7 @@ What is life like, on a team that suffers from poor, haphazard increment design?
 My guess is that you, dear reader, may have actually experienced this first hand.
 
 # Let's see what that feels like.
-** Original My background a bit / live without fear
+** This Skill Changed My Life And I Want It To Change Yours
 
 It represents what I have spent several decades learning, about how to, well, *live without fear*.
 
