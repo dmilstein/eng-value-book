@@ -4,13 +4,13 @@
 #+title: Some Problems In Creating Valuable Software
 #+filetags: :Chapter:
 * Some Problems In Creating Valuable Software
-** Reality Is, Sadly, Unfriendly
+** Reality Is, Sadly, Not Particularly Friendly
 
-Developing software for a business would be delightfully easy if only, at the start of any given project, the following three things were true:
+Developing valuable software for a business would be delightfully easy if only, at the start of a project, the following three things were true:
 
- 1. The engineers knew how long it would take to build the software
+ 1. The engineers knew how long it would take to build a piece of software
 
- 2. The rest of the business actually knew what software they needed
+ 2. The rest of the business knew what software they needed
 
  3. There was no existing software to maintain, extend and curse at
 
@@ -44,15 +44,15 @@ Meanwhile, the Rest Of The Business, despite their professions of certainty, are
 
 # And, of course, most of the businesses that have the money to pay engineers, product managers and designers, have that money because, unfortunately, someone in the past built some piece of software which customers are now paying for, and that existing software has become encrusted with fragile special cases and opaque logic and endless amounts of confusing, subtly incorrect data. Also, every time an engineer breathes near that software, it breaks.
 
-And, of course, most of the businesses that have the money to pay engineers, product managers and designers, have that money because someone in the past built some piece of software which customers are now paying for, and which has to be considered as anything new is built, and that existing software has become encrusted with fragile special cases and opaque logic and endless amounts of confusing, subtly incorrect data. Also, every time an engineer breathes near that software, it breaks.
+And, of course, most of the businesses that have the money to pay engineers, product managers and designers, have that money because someone in the past built some piece of software that customers are now paying for, and which has to be considered as anything new is built, and that existing software has become encrusted with fragile special cases and opaque logic and endless amounts of confusing, subtly incorrect data. Also, every time an engineer breathes near that software, it breaks.
 
-** The Best And Only Option
+** The Best And Only Option: Small Steps
 
 # Intended Audience + Three Core Problems Solved
 
 I'll offer something provocative: viewed from the right angle, these are all the same problem. And the key to this problem, hidden in plain sight, can be found in the subjunctive clause in the first sentence above:
 
-/"Developing software for a business would be delightfully easy if only, *at the start of any given project*, the following three things were true."/
+/"Developing valuable software for a business would be delightfully easy if only, *at the start of any given project*, the following three things were true."/
 
 We *can't*, it turns out, know these things at the start of a project. We have to somehow find a way to build valuable software *even though*, as we start, we don't know how long it will take, if we're building the right thing, or what challenges we'll encounter due to legacy systems.
 
@@ -60,53 +60,103 @@ We *can't*, it turns out, know these things at the start of a project. We have t
 
 # If you take this seriously, you're going to reinvent waterfall, and best of luck to you.
 
-As is so often the case, once we frame the problem clearly enough, the answer becomes simple:
+Having framed the problem so clearly, the answer is also clear:
 
-If we can't know it all ahead of time, then we have to be ready to learn as we go. We can't plan our building of software as one giant monolithic chunk of work, and then just go off and execute. Instead, we must both plan and execute on our work incrementally. And those increments must allow the rest of the business--not just the engineers--to adapt as the work unfolds.
+If we can't know it all ahead of time, then we have to be ready to learn as we go.
 
-# There's really no other option (other than pretending you can do fully reliable ahead-of-time analysis without somehow reinventing Waterfall in which case, good luck to you).
+In other words, we can't do one giant chunk of planning and then go off and build our software in one giant monolithic chunk of work. Instead, we must both plan and execute on our work *incrementally*. We must plan a little, build a little, then plan a little more, then build a little more.
 
-This book is a deep dive into how to break up a large body of engineering work into a series of smaller, safe, value-generating steps.
+This is hardly news! Everyone Knows this!
+
+But...
+
+... there's a somewhat profound challenge to attempting to incrementally build a large, valuable piece of software.
+
+** The Key Role Played By The Rest Of The Business
+
+As engineers come to understand that they can't know all the key information ahead of time, and that they thus need to proceed incrementally, many of them start to have the same dream.
+
+# As engineers come to understand that they can't reliably predict how long it will take them to build software, and that they thus need to proceed incrementally, many of them start to have the same dream.
+
+They believe, sometimes quite fierecely, that they'd be able to develop an extremely valuable piece of software if only some business stakeholder were to say to them: "You seem smart! Why don't you go off and spend a year with a full team of other engineers, a designer and a product manager, and just build something awesome, incrementally! I'll be patiently waiting here for whatever amazing thing you create!"
+
+Another way to say that is: "Here's one point five million dollars to spend on all-in salaries, and I'm perfectly happy if I get nothing in return, and don't find that out for a full year!"
+
+Shockingly, this is not something most business leaders are eager to say.
+
+Let's rephrase that dream. The engineer is imagining that the iterative process of planning, building, learning and then planning again is something that will happen *within their team*. In other words, that it won't involve the Rest of the Business. Some business leader gives the team some sort of blank check, and then the team iterates over and over.
+
+Unfortunately, this is not, in general, possible.
+
+Not merely because the rest of the business is unwilling to *fund* such an approach, but also because the team can't, in general, do all the learning on their own.
+
+For example, say that, one month in, the engineers discover a massive technical blocker that adds a year to the planned project time.
+
+The business as a whole now faces a decision: should the team continue as planned, or should they pivot to something else?
+
+Perhaps the software is *still* worth building, because eventually shipping it will create so much value that it's worth spending *another* one point five million dollars on development (and that value will "still be there", aka the year delay isn't going to let some competitor sneak in and seize most of the market).
+
+Or, perhaps the year delay fundamentally changes the potential return. To create value, the team should immediately abandon this effort and focus on something else. Every minute they keep working on the original plan is time lost on the effort they could be starting.
+
+This is not a decision the team can make on their own. The rest of the business must be involved.
+
+The same is true if the product manager discovers that customers have been lying about their needs and have zero interest in buying the thing being built, or if the existing system announces its feelings by becoming so slow that customers are quitting in droves.
+
+In all these cases, there are *new business decisions* to make. And thus the increments must allow the rest of the business to *make decisions*.
+
+# In order to understand that challenge, let's focus on another word in our opening sentence:
+
+# /"Developing *valuable* software for a business would be delightfully easy if only, at the start of any given project, the following three things were true."/
+
+In other words, the increments must allow the rest of the business--not just the engineers--to adapt as the work unfolds.
+
+And this is not something many business leaders are eager to do. In fact, many of them don't even know *how* to do this.
+
+Therefore, if you want to build valuable software for a business, you have to somehow find a way to persuade the rest of the business to work incrementally *with* you. You have to offer them increments, options and decisions that feel *meaningful* to them. Even though you can't give them the thing they desperately want and repeatedly demand: certain knowledge, at the start of your projects.
+
+# You have to charm them into working step-by-step with you.
+
+# And, crucially, it's not something the engineers or even product managers can do on their own.
+
+# Ultimately, the increments must be designed in collaboration with the rest of the business to:
+
+#  1) Maximize learning as the team builds
+
+#     *and*
+
+#  2) Enable the rest of the business to adapt to what is learned
+
+# # The business is, believe it or not, demanding estimates because they are trying to make a decision: what work should they ask you to do? What should they do, to take advantage of the work you're going to create?
+
+# Therefore, this book will speak both to how to break work down into valuable increments and *also* how to persuade your bosses and stakeholders to work incrementally with you.
+
+** Increment Design Changed My Life And I Want It To Change Yours
+
+This book is a deep dive into how to break up a large body of engineering work into a series of smaller, safe, value-generating steps, and how to gradually persuade business stakeholders to join you in working step-by-step.
+
+# This book is a deep dive into how to break up a large body of engineering work into a series of smaller, safe, value-generating steps, while simultaneously persuading business stakeholders to join you in working step-by-step.
+
+It's intended audience includes software engineers, product managers, leaders of both engineering and product teams, and intellectually curious non-technical stakeholders, who would like to understand how to improve their painfully broken relationships with their tech counterparts.
 
 # that allow us to learn as we go.
 
-Because the steps can't all be defined ahead of time, it's useful to understand the core act of creating valuable software as /deciding what to do next/.
+As above, the increments can't all be defined ahead of time. Thus, it's useful to understand the core act of creating valuable software as /deciding what to do next/.
 
 A fundamental thesis of this book is that deciding what to do next is an incredibly high-leverage act.
 
 That decision is best understood not as merely selecting from some set of fairly obvious alternatives, but as an opportunity for creative engineering and product management work. Good increments aren't merely chosen, they are *designed*. In fact, I believe that increment design is among the most valuable skills that an engineer or product manager can develop.
 
-And, crucially, it's not something the engineers or even product managers can do on their own. Ultimately, the increments must be designed in collaboration with the rest of the business to:
-
- 1) Maximize learning as the team builds
-
-    *and*
-
- 2) Enable the rest of the business to adapt to what is learned
-
-# and how to adjust those steps in partnership with the rest of the business as you go.
-
-# Specifically, all three of are concerned with the same question: what next increment of work will *create value* for the business? Or, correspondingly, which increment of work will destroy value for the business?
-
-# The business is, believe it or not, demanding estimates because they are trying to make a decision: what work should they ask you to do? What should they do, to take advantage of the work you're going to create?
-
-Therefore, this book will speak both to how to break work down into valuable increments and *also* how to persuade your bosses and stakeholders to work incrementally with you.
-
-It's intended audience includes software engineers, product managers, leaders of both engineering and product teams, and intellectually curious non-technical stakeholders, who would like to understand how to improve their painfully broken relationships with their tech counterparts.
-
-** This Skill Changed My Life And I Want It To Change Yours
-
-Also, this book represents what I have spent several decades learning, about how to, well, *live without fear*.
+This book also represents what I have spent several decades learning about how to, well, *live without fear*.
 
 Early in my career as a programmer, as I steadily earned my way into positions of greater responsibility, I found that I was repeatedly asked to estimate how long it would take to code up various programs. I gradually discovered to my horror that, for work stretching out for more than a week or two, my estimates were just hideously unreliable.
 
-Eventually, I shifted over and spent many years working as a product manager. I learned a wealth of tactics for understanding customers' underlying problems, but I found that trying to then build *solutions* for those problems ran me right back into these deep waters.
+Eventually, I shifted over and spent several years working as a product manager. I learned a wealth of tactics for understanding customers' underlying problems, but I found that trying to then build *solutions* for those problems ran me right back into these deep waters.
 
-Finally, when I found myself in leadership roles, I was constantly wrestling with these same issues, now made more challenging by spanning multiple teams and stretching out over years of effort.
+Finally, when I found myself in leadership roles over engineering and product teams, I was constantly wrestling with these same issues, now made more challenging by spanning multiple domains and stretching out over years of effort.
 
 I *love* creating software that solves problems for the businesses I work in. I *hate* disappointing the people I work with, in those businesses. Having potential failures constantly loom over us can easily make our days a haze of stress and fear.
 
-Understanding how to break work down into increments has, ultimately, changed my life.
+Understanding how to break work down into increments and how to persuade stakeholders to work incrementally, has, ultimately, changed my life.
 
 # Selecting the next increment of work, based on what has been both built and learned up to this moment, is an incredibly highly levereage activity.
 

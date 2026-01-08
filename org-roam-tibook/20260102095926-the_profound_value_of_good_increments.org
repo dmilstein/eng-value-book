@@ -42,7 +42,7 @@ To see the moment when things started to go off the rails, let's rewind to the s
 
 At the time, the team was working closely with a senior non-technical stakeholder. That stakeholder, after a good bit of back and forth, grudgingly conceded to the project being run "via Agile", instead of the way, well, every other project they'd ever supervised had been run: with a task breakdown, and a schedule, and a PMO to ensure everyone stays on track.
 
-Why did the stakeholder agree to this? Because the engineers and product team were so *confidently dismissive* of the way the stakeholder *wanted* to run the project. The tech team derisively called the stakeholder's desired approach "Waterfall". The stakeholder didn't really understand any alternatives, but within their first five minutes of being even *near* software development, they had learned that "Waterfall" is Very Bad. They didn't want to look stupid, so they agreed to try this vague thing that everyone assured them was their only option.
+Why did the stakeholder agree to this? Because the engineers and product team were so *confidently dismissive* of the way the stakeholder *wanted* to run the project. The tech team derisively called the stakeholder's desired approach "Waterfall". The stakeholder didn't really understand any alternatives, but within their first five minutes of being even *near* software development, they had learned that "Waterfall" is Very Stupid. They didn't want to look stupid, so they agreed to try this vague thing that everyone assured them was their only option.
 
 # because otherwise the engineers would have actually quit.
 
