@@ -46,7 +46,7 @@ Meanwhile, the Rest Of The Business, despite their professions of certainty, are
 
 And, of course, most of the businesses that have the money to pay engineers, product managers and designers, have that money because someone in the past built some piece of software that customers are now paying for, and which has to be considered as anything new is built, and that existing software has become encrusted with fragile special cases and opaque logic and endless amounts of confusing, subtly incorrect data. Also, every time an engineer breathes near that software, it breaks.
 
-** The Best And Only Option: Small Steps
+** The Best And Only Option: Learn As We Go
 
 # Intended Audience + Three Core Problems Solved
 
@@ -72,63 +72,15 @@ But...
 
 ... there's a somewhat profound challenge to attempting to incrementally build a large, valuable piece of software.
 
-** The Key Role Played By The Rest Of The Business
+** We Can't Play This Game Alone
 
-As engineers come to understand that they can't know all the key information ahead of time, and that they thus need to proceed incrementally, many of them start to have the same dream.
+We can't just work incrementally on our own. The rest of the business has this pesky habit of demanding certainty. They seem to believe they can only do their jobs, if we make commitments and promises, often stretching out months and years into the future.
 
-# As engineers come to understand that they can't reliably predict how long it will take them to build software, and that they thus need to proceed incrementally, many of them start to have the same dream.
+Every engineer knows they need to build software incrementally.
 
-They believe, sometimes quite fierecely, that they'd be able to develop an extremely valuable piece of software if only some business stakeholder were to say to them: "You seem smart! Why don't you go off and spend a year with a full team of other engineers, a designer and a product manager, and just build something awesome, incrementally! I'll be patiently waiting here for whatever amazing thing you create!"
+And every engineer knows what a struggle it is to get the rest of the business to join them in that way of working.
 
-Another way to say that is: "Here's one point five million dollars to spend on all-in salaries, and I'm perfectly happy if I get nothing in return, and don't find that out for a full year!"
-
-Shockingly, this is not something most business leaders are eager to say.
-
-Let's rephrase that dream. The engineer is imagining that the iterative process of planning, building, learning and then planning again is something that will happen *within their team*. In other words, that it won't involve the Rest of the Business. Some business leader gives the team some sort of blank check, and then the team iterates over and over.
-
-Unfortunately, this is not, in general, possible.
-
-Not merely because the rest of the business is unwilling to *fund* such an approach, but also because the team can't, in general, do all the learning on their own.
-
-For example, say that, one month in, the engineers discover a massive technical blocker that adds a year to the planned project time.
-
-The business as a whole now faces a decision: should the team continue as planned, or should they pivot to something else?
-
-Perhaps the software is *still* worth building, because eventually shipping it will create so much value that it's worth spending *another* one point five million dollars on development (and that value will "still be there", aka the year delay isn't going to let some competitor sneak in and seize most of the market).
-
-Or, perhaps the year delay fundamentally changes the potential return. To create value, the team should immediately abandon this effort and focus on something else. Every minute they keep working on the original plan is time lost on the effort they could be starting.
-
-This is not a decision the team can make on their own. The rest of the business must be involved.
-
-The same is true if the product manager discovers that customers have been lying about their needs and have zero interest in buying the thing being built, or if the existing system announces its feelings by becoming so slow that customers are quitting in droves.
-
-In all these cases, there are *new business decisions* to make. And thus the increments must allow the rest of the business to *make decisions*.
-
-# In order to understand that challenge, let's focus on another word in our opening sentence:
-
-# /"Developing *valuable* software for a business would be delightfully easy if only, at the start of any given project, the following three things were true."/
-
-In other words, the increments must allow the rest of the business--not just the engineers--to adapt as the work unfolds.
-
-And this is not something many business leaders are eager to do. In fact, many of them don't even know *how* to do this.
-
-Therefore, if you want to build valuable software for a business, you have to somehow find a way to persuade the rest of the business to work incrementally *with* you. You have to offer them increments, options and decisions that feel *meaningful* to them. Even though you can't give them the thing they desperately want and repeatedly demand: certain knowledge, at the start of your projects.
-
-# You have to charm them into working step-by-step with you.
-
-# And, crucially, it's not something the engineers or even product managers can do on their own.
-
-# Ultimately, the increments must be designed in collaboration with the rest of the business to:
-
-#  1) Maximize learning as the team builds
-
-#     *and*
-
-#  2) Enable the rest of the business to adapt to what is learned
-
-# # The business is, believe it or not, demanding estimates because they are trying to make a decision: what work should they ask you to do? What should they do, to take advantage of the work you're going to create?
-
-# Therefore, this book will speak both to how to break work down into valuable increments and *also* how to persuade your bosses and stakeholders to work incrementally with you.
+Luckily, I have a plan.
 
 ** Increment Design Changed My Life And I Want It To Change Yours
 
@@ -178,6 +130,17 @@ My guess is that you, dear reader, may have actually experienced this first hand
 
 # Let's see what that feels like.
 
+* Todos
+** TODO Trim down Key Role Played...
+It's too much. Name the problem, but not the solution, save that for part II.
+
+We can't just work incrementally on our own. The rest of the business has this pesky habit of demanding certainty. They seem to believe they can only do their jobs, if we make commitments and promises, often stretching out months and years into the future.
+
+Every engineer knows they need to build software incrementally.
+
+And every engineer knows what a struggle it is to get the rest of the business to join them in that way of working.
+
+Luckily, I have a plan.
 
 * Scraps
 ** Intro: Bring Three Problems To Life As Learning Arc for an engineer
@@ -344,3 +307,60 @@ Believe it or not, good increment design holds the key to:
  - How engineers and product teams can work together to build valuable software atop hideously complex legacy systems...
 
    ...even though no one understands how those systems work and a massive outage may be just waiting in the wings to crush your dreams.
+** The Key Role Played By The Rest Of The Business
+
+As engineers come to understand that they can't know all the key information ahead of time, and that they thus need to proceed incrementally, many of them start to have the same dream.
+
+# As engineers come to understand that they can't reliably predict how long it will take them to build software, and that they thus need to proceed incrementally, many of them start to have the same dream.
+
+They believe, sometimes quite fierecely, that they'd be able to develop an extremely valuable piece of software if only some business stakeholder were to say to them: "You seem smart! Why don't you go off and spend a year with a full team of other engineers, a designer and a product manager, and just build something awesome, incrementally! I'll be patiently waiting here for whatever amazing thing you create!"
+
+Another way to say that is: "Here's one point five million dollars to spend on all-in salaries, and I'm perfectly happy if I get nothing in return, and don't find that out for a full year!"
+
+Shockingly, this is not something most business leaders are eager to say.
+
+Let's rephrase that dream. The engineer is imagining that the iterative process of planning, building, learning and then planning again is something that will happen *within their team*. In other words, that it won't involve the Rest of the Business. Some business leader gives the team some sort of blank check, and then the team iterates over and over.
+
+Unfortunately, this is not, in general, possible.
+
+Not merely because the rest of the business is unwilling to *fund* such an approach, but also because the team can't, in general, do all the learning on their own.
+
+For example, say that, one month in, the engineers discover a massive technical blocker that adds a year to the planned project time.
+
+The business as a whole now faces a decision: should the team continue as planned, or should they pivot to something else?
+
+Perhaps the software is *still* worth building, because eventually shipping it will create so much value that it's worth spending *another* one point five million dollars on development (and that value will "still be there", aka the year delay isn't going to let some competitor sneak in and seize most of the market).
+
+Or, perhaps the year delay fundamentally changes the potential return. To create value, the team should immediately abandon this effort and focus on something else. Every minute they keep working on the original plan is time lost on the effort they could be starting.
+
+This is not a decision the team can make on their own. The rest of the business must be involved.
+
+The same is true if the product manager discovers that customers have been lying about their needs and have zero interest in buying the thing being built, or if the legacy system announces its feelings by becoming so slow that customers are quitting in droves.
+
+In all these cases, there are *new business decisions* to make. And thus the increments must allow the rest of the business to *make decisions*.
+
+# In order to understand that challenge, let's focus on another word in our opening sentence:
+
+# /"Developing *valuable* software for a business would be delightfully easy if only, at the start of any given project, the following three things were true."/
+
+In other words, the increments must allow the rest of the business--not just the engineers--to adapt as the work unfolds.
+
+And this is not something many business leaders are eager to do. In fact, many of them don't even know *how* to do this.
+
+Therefore, if you want to build valuable software for a business, you have to somehow find a way to persuade the rest of the business to work incrementally *with* you. You have to offer them increments, options and decisions that feel *meaningful* to them. Even though you can't give them the thing they desperately want and repeatedly demand: certain knowledge, at the start of your projects.
+
+# You have to charm them into working step-by-step with you.
+
+# And, crucially, it's not something the engineers or even product managers can do on their own.
+
+# Ultimately, the increments must be designed in collaboration with the rest of the business to:
+
+#  1) Maximize learning as the team builds
+
+#     *and*
+
+#  2) Enable the rest of the business to adapt to what is learned
+
+# # The business is, believe it or not, demanding estimates because they are trying to make a decision: what work should they ask you to do? What should they do, to take advantage of the work you're going to create?
+
+# Therefore, this book will speak both to how to break work down into valuable increments and *also* how to persuade your bosses and stakeholders to work incrementally with you.
