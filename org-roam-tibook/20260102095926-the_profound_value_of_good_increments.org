@@ -14,7 +14,7 @@ Sometimes, in the middle of a dark wood, an engineer or a product manager will f
 
 # Switch all to "you" in the below?
 
-The team observes all the agile rituals, and observes them faithfully and well. Their sprints are a crisp two weeks long. Each starts on a Monday morning with a full team planning session. The product manager stands patiently ready to explain the nuances of the various stories and tickets at hand. Each morning at precisely 9:05 am, the team gathers for a stand up. Throughout each day, the engineers steadily pull well-groomed tickets from the board. On the final Friday of each sprint, the engineers demo what they've built, and then the team runs a brief retro in the afternoon.
+The team observes all the agile rituals, and observes them faithfully and well. Their sprints are a crisp two weeks long. Each starts on a Monday with a full team planning session. The product manager stands patiently ready to explain the nuances of the various stories and tickets at hand. Each morning at precisely 9:05 am, the team gathers for a stand up. Throughout each day, the engineers steadily pull well-groomed tickets from the board. On the final Friday of each sprint, the engineers demo what they've built, and then the team runs a brief retro in the afternoon.
 
 All that is as it should be, right?
 
@@ -42,7 +42,7 @@ To see the moment when things started to go off the rails, let's rewind to the s
 
 At the time, the team was working closely with a senior non-technical stakeholder. That stakeholder, after a good bit of back and forth, grudgingly conceded to the project being run "via Agile", instead of the way, well, every other project they'd ever supervised had been run: with a task breakdown, and a schedule, and a PMO to ensure everyone stays on track.
 
-Why did the stakeholder agree to this? Because the engineers and product team were so *confidently dismissive* of the way the stakeholder *wanted* to run the project. The tech team derisively called the stakeholder's desired approach "Waterfall". The stakeholder didn't really understand any alternatives, but within their first five minutes of being even *near* software development, they had learned that "Waterfall" is Very Stupid. They didn't want to look stupid, so they agreed to try this vague thing that everyone assured them was their only option.
+Why did the stakeholder agree to this? Because the engineers and product team were so *confidently dismissive* of the way the stakeholder *wanted* to run the project. The tech team derisively called the stakeholder's desired approach "Waterfall". The stakeholder didn't really understand any alternatives, but within their first five minutes of being even *near* software development, they had learned that "Waterfall" is Very Bad. They didn't want to look stupid, so they agreed to try this vague thing that everyone assured them was their only option.
 
 # because otherwise the engineers would have actually quit.
 
@@ -52,7 +52,7 @@ At the time, Q2 was a full nine months away. The engineers didn't love making th
 
 The product team said "Of course, we understand." They even made a good-faith attempt to share that caveat with the senior non-technical stakeholder. But, surprisingly approximately no one, that stakeholder neither understood nor accepted the caveat. Instead, after meeting with the product team, they immediately turned around and told The Rest Of The Business, /"Good news! The engineering team has committed to an April 3rd launch. Also, you're welcome."/
 
-The Rest Of The Business said /"Wow, nice job leadershipping,"/ and started making elaborate plans for April 3rd of the following year.
+The Rest Of The Business said /"Nice job leadershipping,"/ and started making elaborate plans for April 3rd of the following year.
 
 # (which date, in case you're wondering is simply the very first business day of Q2).
 
@@ -60,11 +60,11 @@ The Rest Of The Business said /"Wow, nice job leadershipping,"/ and started maki
 
 Meanwhile, what did the team do in this moment?
 
-The engineers sat down and broke the work down into increments.
+The engineers sat down and broke the work up into increments.
 
 That is to say, they decided what they would build first, what they would build second, etc. The product team wasn't closely involved in the development of the increments---they considered themselves a consumer of, rather than a direct participant in, this "engineering process".
 
-The eng team, led by one of the senior IC's, developed their increments as follows: first, they broke the planned system down into a set of components; then they ordered the development of those components in a way that felt natural to them. The choice of order didn't feel particularly high stakes to them---no matter the order, they'd ultimately have to build all the pieces.
+The engineering team, led by one of the senior IC's, developed their increments as follows: first, they broke the planned system down into a set of components; then they ordered the development of those components in a way that felt natural to them. The choice of order didn't feel particularly high stakes to them---no matter the order, they'd ultimately have to build all the pieces.
 
 Once the engineers had the increments, they estimated each, then the product team turned all of that into a schedule with milestones and dates. Everyone then worked together to cut scope, to ensure there was a comfortable four weeks of padding at the end of the project, in case anything went wrong.
 
@@ -74,15 +74,17 @@ And then the engineers got to work, in their (well-observed!) agile process.
 
 ** The Unhappy Future Awaiting This Team
 
-Unfortunately, in this moment, the team is doomed.
+Unfortunately, in this moment, the team is already doomed.
 
-# Unfortunately, in this moment, the team is (probabalistically) doomed.
+# Unfortunately, in this moment, the team is (problematically) doomed.
 
 They have chosen their overall increments arbitrarily and poorly. Even if they now conduct their agile processes well, sprint-to-sprint, they are running a simply gigantic risk of at some point finding themselves trapped, with no good options.
 
 For this particular project, this is, in fact, what happens.
 
 One of the components turns out to be simply impossible to build as they had planned. The absence of that component triggers a ripple effect through the rest of the system, requiring enormous amount of rework and ultimately forcing a rethinking of what the product is able to do. Unfortunately, the team chose to work on that component *late* in their sequence. By the time they make this unfortunate discovery, their original launch date is only four weeks away. There are no good options to adapt and still deliver something valuable anywhere close to the plan. They realize that they have to start an essentially entirely new project, moments before the original project was supposed to conclude.
+
+The product manager, feeling enormous pressure, angrily insists that the engineers *should have known* that that one component would be impossible to build as planned. The engineers point out, correctly, that the high-level requirements were extremely vague, and then remind the PM of their caveat about horrible surprises. This does not make the PM feel any better as they prepare to inform the senior leadership team that a Q2 launch has become a delusional fantasy. There is much misery, all around.
 
 # Of course, missing plan isn't an uncommon occurrence. Why does this particular miss leave the team in such bad shape?
 
@@ -93,11 +95,12 @@ One of the components turns out to be simply impossible to build as they had pla
 # The Tempting But Wrong Answer: No Surprises!
 
 # The Tempting But Wrong Answer: No Surprises Allowed!
-How might the team have avoided this painfully unpleasant outcome? How can we be certain to avoid such disasters on our own projects?
+
+How might the team have avoided this painfully unpleasant outcome? How can /we/ be certain to avoid such disastrous surprises on our own projects?
 
 # But... before we answer that question, let's talk about another troubling fact.
 
-But... before we answer that question, we have to face a troubling truth.
+Unfortunately, before we answer that question, we must face a troubling truth.
 
 # , which makes things even worse.
 
@@ -105,35 +108,43 @@ But... before we answer that question, we have to face a troubling truth.
 
 # Other Disastrous Surprises That Could Be Lying In Wait
 
-There isn't just /one/ potential disaster waiting, when we start a project. No, there are a wide variety of different ways a project might fail.
+There isn't just /one/ potential disastrous surprise waiting, when we start a project. No, there are a wide variety of different ways reality might decide to rear up and suddenly bite us directly in the ass.
+
+# a project might fail.
 
  - As above, the team could discover, late, that one of the components is impossible to build as planned.
 
  - The team could discover, late, that customers don't want the thing the team is building, but instead want something "similar", but much, much harder to build.
 
- - The team could discover, late, that the new system can't handle production load without falling over, and that the only path to better performance seems to require a fundamental redesign.
+ - The team could discover, late, that the new system can't handle production load without falling over, and that the only path to better performance requires a complete redesign.
 
  - The team could discover, late, that they're going to have to change a legacy system that no one has any idea how to work with.
 
  - The team could discover, late, that another team they were depending on has decided to shift their focus and has completely deprioritized this work.
 
- - The team could discover, late, that they don't have consistent access to the underlying data they built their product on top of.
+ - The team could discover, late, that they don't have consistent access to the underlying data they assumed would be available for their product.
 
  - The team could discover, late, that the existing product they're trying to replace is being used in much more complex ways than they realized, so they're nowhere close to having a valid replacement.
 
-I could do this all day! I've personally had projects fail in exciting and painful ways for every single one of the reasons listed above... and for a great variety of other reasons as well.
+I could do this all day! I've personally had projects fail for every single one of the reasons listed above... and for a great variety of other reasons as well.
 
-** The Fundamental Question: How Can We Avoid Disaster?
+# Confronted with this unpleasant truth about reality, many engineers just want to throw up their hands and say, "It'll all incremental! I can't make any promises!" Unfortunately, the rest of the business seems to believe it needs some kind of promises, in order to function. And thus engineers end up "committing", despite knowing that a giant anvil can fall from the sky at any moment and crush them.
+
+** How Can We Avoid Disastrous Surprises?
 
 # ** The Wrong Answer: Don't Be Surprised
 
 # ** The Right Answer: Be Surprised /Early/
 
-So, again, we ask, how can the team avoid falling prey to one of these painfully unpleasant outcomes? How can /we/ be certain to avoid such disasters on our own projects?
+So, again, we ask, how can the team avoid falling prey to one of these painfully unpleasant outcomes? How can /we/ be certain to avoid such disastrous surprises on our own projects?
 
-Well, there's a theme in the list of possible disasters: in each, the team is unpleasantly surprised, at a point late in the project, where they don't have any good options left.
+We'll start by noting that, for each Bad Thing above, the team receives its disastrous surprise /late in the project/.
 
 For each, if the team had known the surprising fact up front, they could have incorporated it into their planning, and they would have been able to achieve some real win for their business.
+
+In fact, this is what the PM says to the engineers, during one of their tense discussions in the aftermath of the Very Unpleasant Discovery.
+
+If only the engineers had given an even /vaguely/ accurate estimate of the time to build that component, the PM could have made a better, saner, more achievable plan in the first place. The PM could then have had a healthy negotiation with the senior non-technical stakeholder, set reasonable expectations, and none of them would be crying into their laptops at three in the morning.
 
 # (where, subtly, sometimes the win would have been to realize that the project, as currently planned, simply wasn't worth investing in).
 
@@ -143,37 +154,37 @@ For each, if the team had known the surprising fact up front, they could have in
 
 # Thus there's an easy, obviously correct answer to the question, "How could the team have avoided disaster?":
 
-Thus there's an easy, obviously correct answer to our question:
+In other words, there's an easy, obviously correct answer to our question:
 
-To avoid disasters, the team should make certain to not be surprised.
+To avoid disastrous surprises, the team should make certain to not be surprised.
 
 # But that's not how people /say/ this answer. Sitting amidst the wreckage of a failed project, they say, angrily: Someone *should have known* the surprising fact, before the project started.
 
-For our detailed story about the bad estimate, maybe the product manager, feeling enormous pressure, insists that the engineers *should have known* that that one component would be impossible to build as planned.
-
 # This is so obviously correct!
 
-/If only/ the engineers had given an even /vaguely/ accurate estimate of the time to build that component, the PM would have made a better, saner, more achievable plan in the first place. The PM would then have had a healthy negotiation with the senior non-technical stakeholder, set reasonable expectations, and none of us would be crying into our laptops at three in the morning.
-
-Look, no one expects the engineers to give perfectly accurate estimates. But, still, they /should have known/ that this one particular component was going to be pretty hard to build. They shouldn't have given an estimate that was this spectacularly bad.
+Look, no one expects the engineers to give perfectly accurate estimates. But, still, they /should have known/ that this one particular component was going to be pretty hard to build. They shouldn't have given an estimate that was this spectacularly bad. It's okay to be surprised in small ways, sure, but experienced engineers wouldn't be so fundamentally, profoundly surprised.
 
 # Apparently we need engineers who are more senior, or who take more ownership, or who are more outcome-oriented. Or something.
 
 # The "someone should have known" answer is, in fact, so easy, people come up with it all the time.
 
-The "someone should have known" answer is a desperate plea to avoid surprises.
-
 # , in fact, so easy, people come up with it all the time.
 
-Unfortunately, the "don't be surprised" answer provides no help for us at the /start/ of a project. It's great for looking backwards at the end and assigning blame. But, sadly, here in the real world, we have to start our projects in the present, without the benefit of the future knowledge we'll acquire as we go.
+There's just one tiny problem with this solution.
+
+The "someone should have known" plan provides no help for us at the /start/ of a project.
+
+It's great for looking backwards at the end and assigning blame. But, sadly, here in the real world, we have to start our projects in the present, without the benefit of the future knowledge we'll acquire as we go.
 
 If your only hope for creating value is to /never be unpleasantly surprised/, well, then, good luck to you, is all I can say. Go read some other book, and/or order an industrial-sized bottle of anti-depressants.
 
-We just can't know ahead of time which of the incredible variety of potential surprises is going to blow up. If we try to flush out all the surprises before we start, we're just reinventing Waterfall.
+# The "someone should have known" answer is a desperate plea to avoid surprises.
+
+We just can't know ahead of time which of the incredible variety of potential surprises is going to blow up. If we try to flush out /all/ the potential surprises before we start... we'll just end up reinventing Waterfall.
 
 # not a *useful* answer (except for making people feel bad, at which it excels).
 
-# Imagine, at project kick-off, you were to say to your team: "Let's remember what we learned from our last project. We can consistently avoid disasters, if ony the engineers can promise that they'll never be unpleasantly surprised by how hard it will be to build something. Good talk, let's go!"
+# Imagine, at project kick-off, you were to say to your team: "Let's remember what we learned from our last project. We can consistently avoid disasters, if only the engineers can promise that they'll never be unpleasantly surprised by how hard it will be to build something. Good talk, let's go!"
 
 # Literally every engineer who has worked for any amount of time building software can cite dozens of personal experiences of painful surprises blowing their plans up.
 
@@ -187,27 +198,61 @@ But to get buy in to start the project in the first place, they had to offer *so
 
 # Unless you want to tell me that you think you can somehow plan an entire nine month project out, flushing out all possible risks and surprises ahead of time, without somehow reinventing waterfall.
 
-The senior non-technical stakeholder is not the villain here. They had to make a business decision about whether or not to commit to this project. That business decision meant investing nearly a year's worth of extremely expensive engineering salaries. They can't make that kind of decision without *some* understanding of what they might get as a result.
+It's equally incredibly important to point out that the senior non-technical stakeholder is not the villain here. They had to make a business decision about whether or not to commit to this project. That business decision meant investing nearly a year's worth of extremely expensive engineering salaries. They can't make that kind of decision without *some* understanding of what they might get as a result. Making such decisions well is, quite literally, their job.
 
 So, again, what can we do?
 
-** The Answer, Part I: Be Surprised Early
+** The Answer, I: Be Surprised Early
 
-The fundamental trick which this book wishes to share with you is that, although it's impossible to eliminate surprises from software development, it is very much possible to make those surprises less *expensive*.
+The fundamental trick which this book wishes to share with you is that, although it's genuinely impossible to eliminate nasty surprises from software development, it is very much possible to make those surprises *less expensive*.
 
-In other words, you prevent disasters not by preventing surprises, but instead by breaking the link between "surprise" and "disaster".
+In other words, you prevent disasters not by preventing surprises, but instead by breaking the link between "surprise" and "economic disaster".
 
-How can you do this?
+But, how is this even possible?
 
-Fundamentally, there are two parts, both of which are interestingly challenging.
+A team can turn surprises into non-events if they can:
 
-First, you work very hard to *be surprised /early/.*
+*Design the increments so that the team is surprised /early/, instead of late.*
 
-You can't eliminate all surprises before a project starts, but you *can* sequence your work so that you attack the riskiest, most uncertain work *first*. This gives you an excellent chance of hitting your surprises early enough to still be able to adapt and find some win for your business.
+In other words, you don't get rid of the surprise before you start. You still assume you'll hit some potentially very nasty surprises as you go. But, thanks to a specific, clever way of building your increments, you can vastly increase the odds of hitting the nastiest surprises /early/.
 
-In our example above, when designing their increments, the engineers could have said "Which of these components is the most uncertain? Which one is most likely to blow up?" That's a very productive conversation. If they had then built the "risky" component first, they would have discovered, just a month into the project, that their plans were going to have to change.
+And, if a team encounters a surprise early enough, *it's not a disaster*. Early on the team still has good options to offer the rest of the business (even if, sometimes, that option is "Abandon this entire project, because it's no longer economically rational").
+
+# And, believe it or not, clever increment design will allow you to reliably flush out surprises early.
+
+# You can't /eliminate/ all surprises before a project starts, but you *can* design your increments so that you attack the riskiest, most uncertain work *first*. This gives you an excellent chance of hitting your surprises early enough to still be able to adapt and find some win for the business.
+
+# You can't eliminate all surprises before a project starts, but you *can* sequence your work so that you attack the riskiest, most uncertain work *first*. This gives you an excellent chance of hitting your surprises early enough to still be able to adapt and find some win for the business.
+
+** How Our Friends Could Have Been Surprised Early
+
+What would that have looked like, in our example above? Well, at the moment when the team had broken down their set of components, they could have sat down, and gone through each one, and, instead of simply estimating how long they believe it would take them to build it, they could have asked each other:
+
+"How likely is this particular component going to be to blow up?"
+
+Perhaps they would hit some (build a new front-end), which are going to take real amounts of time, but which are unlikely to explode in scope. But maybe others are much less certain, at the start. E.g. perhaps one of the components involves building an integration with a third-party data source that the team hasn't worked with. They tell the PM "That should take a month, but we really don't know. We're pretty worried about it."
+
+In the original plan, they had put that very late, because they wanted (being good agilista's) to build something which they should show to users, so they had just faked out the third party data integrations, in order to get something working and demoable sooner. It was also clearly going to be a pain in the ass, and they wanted to build momentum.
+
+Instead, they could have realized that that one component had the most uncertainty, the most risk, and designed their incrementsto build that component *first*.
+
+In that world, just a few weeks into the project, they would have hit the profound challenges of integrating with that third-party data source, and realized that they couldn't build the product they were envisioning.
+
+Engineers can't, in general, reliably estimate how long it will take them to build things. But they *can* usefully speak to the degree of risk and uncertainty in building things. They know certain things are "hard but fairly certain" -- it will take two months, but at the end of two months, you'll have the thing. Whereas others are profoundly uncertain: it could take two weeks, it could take two months, it could be impossible.
+
+And if, early on, *everything is uncertain*, then you can make your first increment to build a little bit of "everything", specifically with a goal of learning where your biggest risks are.
+
+
+# In our example above, when starting the project, the engineers could have said "Which of these components is the most uncertain? Which one is most likely to blow up?" That's a very productive conversation. If they had then built the "risky" component first, they would have discovered, just a month into the project, that their plans were going to have to change. The PM would have been able to renegotiate with the senior non-technical stakeholder, when they still had a lot of good options to offer.
 
 Throughout the book, we'll explore a wide variety of ways for engineers and product managers to work together to, first, identify the riskiest parts of an effort, and second, to sequence their work to extract any surprises as early as possible.
+
+
+# Early Surprises Create Options
+
+# The Answer, II: Make Decisions More Often
+
+** The Answer, II: Offer Decisions To "The Business"
 
 However, obtaining the information from early surprises is not, by itself, enough.
 
@@ -223,30 +268,12 @@ You have to find a way to draw them into a process of steady, repeated decision-
 
 We're going to talk in real detail about this in the book, as well.
 
-** Early Surprises Create Incremental Value
+# The Answer, II: Offer "The Business" Decisions
 
-# How might the engineers and PM's have somehow conducted their work so as to avoid the horrible discoveries, late in the project? What did they miss?
+# The Answer, II: Make Smaller, More Frequent Decisions
 
-# The answer is somewhat subtle.
-
-# This book will offer an answer, based on my own several decades of trying to avoid such painful discoveries while, first, being paid to write software for people, and then, as my career went on, leading teams of extremely expensive engineers being paid to write software for people.
-
-# The heart of my answer is: the engineers and the PM did not engage their stakeholders in any discussion around the increments.
-
-# Instead, they treated the increments as an internal concern of engineering. Therefore, none of the intermediate increments delivered anything that their stakeholders found at all valuable. There was no point, before the very end of the project that the team could have decided, *with* their stakeholders, to take some form of a partial win, and move on.
-
-One way to understand all of the above is that the team did not choose their sequence of work to *create incremental value*.
-
-Despite the team working in an agile fashion day-to-day, the company as a whole only seemed to see *any* value at the very end of the project.
-
-If a team creates incremental value, then, well, they can *never really lose*. There's no panicked anxiety looming over them, because they can always stop, and the Rest Of The Business will be some degree of happy---because they will have gotten *some* value. The Rest of the Business may not get everything they *expected*, but if the team can create some genuine value, a smart PM and engineering lead can find a way to help the rest of the business understand the win.
-
-One note: drawing stakeholders into collaboration around valuable increments is a profoundly interesting challenge. We'll return to that challenge, once we have an understanding of which increments are even valuable in the first place. The concept of "creating value" will turn out to be well worth digging into.
-
-** The Answer, Part II: Make Smaller, More Frequent Decisions
 # The Answer, Part II: Enable Smaller, More Frequent /Decisions/
 
-# The Answer, Part II: Make Decisions More Often
 
 # The Answer, Part II: Make Smaller Decisions More Often
 
@@ -261,7 +288,9 @@ One note: drawing stakeholders into collaboration around valuable increments is 
 # The Answer, Part II: Plan To Make Decisions
 
 
-** "The Business" Makes The Decisions
+** Surprises Are Decisions For "The Business"
+# Options are ...
+# "The Business" Makes The Decisions
 
 ** A Map Of The Rest Of This Book
 # The Answer, Part II: Smaller, Better, More Frequent /Decisions/
@@ -687,10 +716,32 @@ And that doesn't even mention all the other work that should be mixed in, to ult
 
 
 
+** Creation of Incremental Value
+
+# How might the engineers and PM's have somehow conducted their work so as to avoid the horrible discoveries, late in the project? What did they miss?
+
+# The answer is somewhat subtle.
+
+# This book will offer an answer, based on my own several decades of trying to avoid such painful discoveries while, first, being paid to write software for people, and then, as my career went on, leading teams of extremely expensive engineers being paid to write software for people.
+
+# The heart of my answer is: the engineers and the PM did not engage their stakeholders in any discussion around the increments.
+
+# Instead, they treated the increments as an internal concern of engineering. Therefore, none of the intermediate increments delivered anything that their stakeholders found at all valuable. There was no point, before the very end of the project that the team could have decided, *with* their stakeholders, to take some form of a partial win, and move on.
+
+One way to understand all of the above is that the team did not choose their sequence of work to *create incremental value*.
+
+Despite the team working in an agile fashion day-to-day, the company as a whole only seemed to see *any* value at the very end of the project.
+
+If a team creates incremental value, then, well, they can *never really lose*. There's no panicked anxiety looming over them, because they can always stop, and the Rest Of The Business will be some degree of happy---because they will have gotten *some* value. The Rest of the Business may not get everything they *expected*, but if the team can create some genuine value, a smart PM and engineering lead can find a way to help the rest of the business understand the win.
+
+One note: drawing stakeholders into collaboration around valuable increments is a profoundly interesting challenge. We'll return to that challenge, once we have an understanding of which increments are even valuable in the first place. The concept of "creating value" will turn out to be well worth digging into.
+
 * Todos
 ** DONE Break out a preface/intro
 CLOSED: [2026-01-07 Wed 10:33]
 Which lays out "Why you should read this", but doesn't explain my answer. Teases it. This changed my life, and I want it to change yours. It's not trivial to understand. But it's profound once you do. And then dive into Agile/Not Agile
+** TODO Consider adding an image just before Unhappy Future
+Like, it's a linear build, they can choose the order.
 ** TODO Now that I'v got a preface, spike on specific person/story?
 ** TODO Speak to challenges, early
  - Stakeholders don't want to work this way
