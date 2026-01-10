@@ -329,16 +329,26 @@ Ala:
   3. Speak To Your Stakeholder's Human Experience
 
 * [[id:B8F21153-89FC-4B8B-8B0D-BBF4CC2C58C1][Increment Design]]                                :gtasks:
-** TODO First draft of introduction               :curweek:pom:
+** DONE First draft of introduction               :curweek:
+CLOSED: [2026-01-08 Thu 07:36]
 :LOGBOOK:
-CLOCK: [2026-01-06 Tue 07:26]
+CLOCK: [2026-01-07 Wed 07:59]--[2026-01-07 Wed 10:39] =>  2:40
+CLOCK: [2026-01-06 Tue 07:26]--[2026-01-06 Tue 10:30] =>  3:04
 CLOCK: [2026-01-05 Mon 10:21]--[2026-01-05 Mon 12:07] =>  1:46
 CLOCK: [2026-01-04 Sun 09:38]--[2026-01-04 Sun 12:23] =>  2:45
 CLOCK: [2026-01-03 Sat 09:00]--[2026-01-03 Sat 10:46] =>  1:46
 CLOCK: [2026-01-02 Fri 09:01]--[2026-01-02 Fri 10:47] =>  1:46
 :END:
-** TODO First draft second chapter                :curweek:
+** DONE First draft second chapter                :curweek:
+CLOSED: [2026-01-08 Thu 10:16]
+:LOGBOOK:
+CLOCK: [2026-01-08 Thu 07:36]--[2026-01-08 Thu 09:07] =>  1:31
+:END:
 ** TODO Make list of people to invite             :curweek:
+:LOGBOOK:
+CLOCK: [2026-01-09 Fri 08:23]--[2026-01-09 Fri 09:53] =>  1:30
+:END:
+** TODO Take a look at "next chapter"             :curweek:
 ** TODO Draft email for invite
 ** TODO Upload to HTB
 ** TODO Fucking Ship it
@@ -435,7 +445,7 @@ Consider: hold off on the part about being chewed out by the CEO, either way? So
 ... and none of us will realize we're in someone else's story!
 ** TODO Fun, Informative & Actionable -- up on the wall?
 ** TODO Bad ideas to track: touch book at EOD
-I definitely wake up with ideas when I do that.
+I definitely wake uep with ideas when I do that.
 ** TODO Adapt idea from "Where and when to pitch" email
 ** TODO Josh Payne point re: title sounds "inward"
 ** TODO Think a bit: talk about status in a sidebar or mini chapter?
