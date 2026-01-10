@@ -32,7 +32,9 @@ But here in reality, what do we find?
 
 # Engineers are so profoundly bad at making estimates that everyone understands that the statement "We can build this in nine months" is best greeted with a laugh.
 
-Well, the time estimates produced by engineers are often so horribly wrong that the Rest Of The Business finds itself staggering along in shock as critical deadlines come and go without any visible progress.
+# Well, the time estimates produced by engineers are often so horribly wrong that the Rest Of The Business finds itself staggering along in shock as critical deadlines come and go without any visible progress.
+
+Well, the time estimates produced by engineers are often so horribly wrong that the Rest Of The Business explodes in anger as critical deadlines come and go without any visible progress.
 
 # whoosh by
 
