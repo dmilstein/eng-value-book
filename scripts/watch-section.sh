@@ -62,7 +62,10 @@ parse_pointer_file() {
 
 # Function to extract section and convert to HTML
 export_section() {
+    local start_time=$(date +%s.%N)
+    
     # Use awk to extract just the section
+    local extract_start=$(date +%s.%N)
     awk -v heading="$HEADING" '
     BEGIN {
         in_section = 0
@@ -90,12 +93,15 @@ export_section() {
     }
     in_section { print $0 }
     ' "$ORG_FILE" > /tmp/section.org
+    local extract_end=$(date +%s.%N)
+    local extract_time=$(echo "$extract_end - $extract_start" | bc -l)
 
     if [ ! -s /tmp/section.org ]; then
         echo "Warning: No content found for heading '$HEADING'"
         echo "<h1>Section Not Found</h1><p>Could not find heading: $HEADING</p>" > "$OUTPUT_FILE"
     else
         # Convert to HTML with pandoc
+        local pandoc_start=$(date +%s.%N)
         if [ -f "$CSS_FILE" ]; then
             # Use local CSS file if available
             pandoc -f org -t html \
@@ -111,9 +117,21 @@ export_section() {
                 --title="Preview: $HEADING" \
                 /tmp/section.org -o "$OUTPUT_FILE"
         fi
+        local pandoc_end=$(date +%s.%N)
+        local pandoc_time=$(echo "$pandoc_end - $pandoc_start" | bc -l)
     fi
 
-    echo "Exported section to $OUTPUT_FILE at $(date)"
+    local end_time=$(date +%s.%N)
+    local total_time=$(echo "$end_time - $start_time" | bc -l)
+    
+    if [ -s /tmp/section.org ]; then
+        printf "Exported section to %s at %s\n" "$OUTPUT_FILE" "$(date)"
+        printf "Timing: extract=%.3fs, pandoc=%.3fs, total=%.3fs\n" "$extract_time" "$pandoc_time" "$total_time"
+    else
+        printf "Section not found at %s\n" "$(date)"
+        printf "Timing: extract=%.3fs, total=%.3fs\n" "$extract_time" "$total_time"
+    fi
+    
     rm -f /tmp/section.org
 }
 
