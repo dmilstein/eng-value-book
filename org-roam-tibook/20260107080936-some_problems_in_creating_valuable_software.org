@@ -34,7 +34,7 @@ But here in reality, what do we find?
 
 # Well, the time estimates produced by engineers are often so horribly wrong that the Rest Of The Business finds itself staggering along in shock as critical deadlines come and go without any visible progress.
 
-Well, the time estimates produced by engineers are often so horribly wrong that the Rest Of The Business explodes in anger as critical deadlines come and go without any visible progress.
+Well, the time estimates produced by engineers are often so horribly wrong that the Rest Of The Business seethes in frustration as critical deadlines come and go without any visible progress.
 
 # whoosh by
 
@@ -52,7 +52,7 @@ And, of course, most of the businesses that have the money to pay engineers, pro
 
 # Intended Audience + Three Core Problems Solved
 
-I'll offer something provocative: viewed from the right angle, these are all the same problem. And the key to this problem, hidden in plain sight, can be found in the subjunctive clause in the first sentence above:
+I'll offer something provocative: viewed from the right angle, these are all the same problem. And the key to this problem, hidden in plain sight, can be found in the opening sentence above:
 
 /"Developing valuable software for a business would be delightfully easy if only, *at the start of any given project*, the following three things were true."/
 
@@ -66,7 +66,7 @@ Having framed the problem so clearly, the answer is also clear:
 
 If we can't know it all ahead of time, then we have to be ready to learn as we go.
 
-In other words, we can't do one giant chunk of planning and then go off and build our software in one giant monolithic chunk of work. Instead, we must both plan and execute on our work *incrementally*. We must plan a little, build a little, then plan a little more, then build a little more.
+In other words, we can't do one giant chunk of planning and then go off and build our software in one giant monolithic chunk of work. Instead, we must both plan and execute on our work *incrementally*. We must plan a little, build a little, learn something, then plan a little more, then build a little more.
 
 This is hardly news! Everyone Knows this!
 
@@ -74,19 +74,35 @@ But...
 
 ... there's a somewhat profound challenge to attempting to incrementally build a large, valuable piece of software.
 
-** We Can't Play This Game Alone
+** The Overall Business Must Participate In Learning
 
-We can't just work incrementally on our own. The rest of the business has this pesky habit of demanding certainty. They seem to believe they can only do their jobs, if we make commitments and promises, often stretching out months and years into the future.
+The engineers can't just work *on their own*, steadily planning, building and learning in small steps.
 
-Every engineer knows they need to build software incrementally.
+Why not?
 
-And every engineer knows what a struggle it is to get the rest of the business to join them in that way of working.
+Fundamentally, because, if they work in a business, some Important Person has to commit their time to a project.
 
-Luckily, I have a plan.
+And that Important Person, *before* they allow the engineers to start work, seems to expect, well, /certainty/. They will confidently (sometimes even condescendingly!) inform the engineers that it will only be possible to do their own planning if the engineers are willing to make *commitments*, often stretching out months and years into the future.
 
-** Increment Design Changed My Life And I Want It To Change Yours
+# They're being tasked, by their CEO, or their board, with somehow improving the overall business. The only way to do so seems to involve creating new software. But, when they talk to the engineers, all they get is a confusing morass of opaque terms and and insistence that estimates are impossible.
 
-This book is a deep dive into how to break up a large body of engineering work into a series of smaller, safe, value-generating steps, and how to gradually persuade business stakeholders to join you in working step-by-step.
+Every engineer knows they need to build software incrementally, learning as they go.
+
+But also, just about every engineer knows what a struggle it is to get the rest of the business to join them in that way of working.
+
+# Luckily, I have a plan.
+
+# In particular, the rest of the business has this pesky habit of demanding certainty. They seem to believe they can only do their jobs, if the engineers make commitments and promises, often stretching out months and years into the future.
+
+# It would be great if we lived in a world where engineers could commit to building something big and valuable, and then work incrementally to create it, in full confidence that they would ultimate deliver what they had promised.
+
+# But, of course, that's not the case.
+
+** Increment Design Changed My Life
+
+# And I Want It To Change Yours
+
+This book is a deep dive into how to break up a large body of engineering work into a series of small, safe, value-generating increments, /and/ how to gradually persuade business stakeholders to join you in working step-by-step.
 
 # This book is a deep dive into how to break up a large body of engineering work into a series of smaller, safe, value-generating steps, while simultaneously persuading business stakeholders to join you in working step-by-step.
 
@@ -94,7 +110,7 @@ It's intended audience includes software engineers, product managers, leaders of
 
 # that allow us to learn as we go.
 
-As above, the increments can't all be defined ahead of time. Thus, it's useful to understand the core act of creating valuable software as /deciding what to do next/.
+As above, the increments can't all be defined ahead of time. It's useful to understand the core act of creating valuable software as /deciding what to do next/.
 
 A fundamental thesis of this book is that deciding what to do next is an incredibly high-leverage act.
 
@@ -366,3 +382,36 @@ Therefore, if you want to build valuable software for a business, you have to so
 # # The business is, believe it or not, demanding estimates because they are trying to make a decision: what work should they ask you to do? What should they do, to take advantage of the work you're going to create?
 
 # Therefore, this book will speak both to how to break work down into valuable increments and *also* how to persuade your bosses and stakeholders to work incrementally with you.
+** Detailed Version of The Overall Business Must Participate In Learning
+
+The engineers can't just work *on their own*, steadily planning, building and learning in small steps.
+
+Why not?
+
+Fundamentally, because, if they work in a business, someone has to pay their salaries.
+
+And the person paying them is doing so in the hope that, by making a significant investment in engineering, the overall business will become *more valuable*. That Important Person is going to sign off on spending, quite literally, /millions of dollars/ over the course of a year or two, in the hope that the business will become worth /tens/ of millions of dollars more to investors.
+
+In order to decide both *if* they should make such an investment, and *how* to do so, many of those Important People seem to expect, well, /certainty/. They will confidently (sometimes even condescendingly!) inform the engineers that it will only be possible to make this key business decision if the engineers are willing to make *commitments*, often stretching out months and years into the future.
+
+# They're being tasked, by their CEO, or their board, with somehow improving the overall business. The only way to do so seems to involve creating new software. But, when they talk to the engineers, all they get is a confusing morass of opaque terms and and insistence that estimates are impossible.
+
+Every engineer knows they need to build software incrementally, learning as they go.
+
+But also, just about every engineer knows what a struggle it is to get the rest of the business to join them in that way of working.
+
+Luckily, I have a plan.
+
+Before we move onto that plan, let's take a moment and feel some genuine empathy for this Important Person. Put yourself in their shoes!
+
+Imagine that you're trying to decide whether or not to remodel your kitchen. You talk with a contractor, show them a sketch of what you want, and ask if they can get it done within three months, for twenty thousand dollars (which is all the money you have saved in this world). The contractor hems and haws, and, for some reason, bluntly refuses to tell you whether or not they can get it done on time. "We'll just have to get started and see," they say. You ask if they could commit to getting it done in four months. They shrug angrily at your ridiculous demand for an estimate.
+
+What would you do? You'd be pretty frustrated, is the answer. Keep you twenty thousand dollars in the bank, and keep eating breakfast in the cramped corner? Or give the contractor the go ahead, even though you have no idea what will happen?
+
+Just as you're about to roll the dice, you talk to a friend who hired some contractors, went away for the weekend, and came back to discover that their entire house had been demolished because the contractors found some legacy walls they thought were ugly and decided it'd be better to start with a clean slate. Do you think I'm joking! Talk to some stakeholder who agreed to let their team rewrite a legacy system, some time!
+
+# In particular, the rest of the business has this pesky habit of demanding certainty. They seem to believe they can only do their jobs, if the engineers make commitments and promises, often stretching out months and years into the future.
+
+# It would be great if we lived in a world where engineers could commit to building something big and valuable, and then work incrementally to create it, in full confidence that they would ultimate deliver what they had promised.
+
+# But, of course, that's not the case.
