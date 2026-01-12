@@ -34,67 +34,67 @@
       Reality
     </text>
 
-    <!-- Hexagonal tiling - individual hexagons -->
+    <!-- Hexagonal tiling - individual hexagons (pointy-top orientation) -->
     <!-- Row 1 -->
-    <polygon points="45,50 55,44 65,50 65,62 55,68 45,62" fill="none" stroke="#9ca3af" stroke-width="1"/>
-    <polygon points="75,50 85,44 95,50 95,62 85,68 75,62" fill="none" stroke="#9ca3af" stroke-width="1"/>
-    <polygon points="105,50 115,44 125,50 125,62 115,68 105,62" fill="none" stroke="#9ca3af" stroke-width="1"/>
-    <polygon points="135,50 145,44 155,50 155,62 145,68 135,62" fill="none" stroke="#9ca3af" stroke-width="1"/>
-    <polygon points="165,50 175,44 185,50 185,62 175,68 165,62" fill="none" stroke="#9ca3af" stroke-width="1"/>
-    <polygon points="195,50 205,44 215,50 215,62 205,68 195,62" fill="none" stroke="#9ca3af" stroke-width="1"/>
-    <polygon points="225,50 235,44 245,50 245,62 235,68 225,62" fill="none" stroke="#9ca3af" stroke-width="1"/>
-    <polygon points="255,50 265,44 275,50 275,62 265,68 255,62" fill="none" stroke="#9ca3af" stroke-width="1"/>
+    <polygon points="55,44 65,50 55,56 45,50 45,38 55,32" fill="none" stroke="#9ca3af" stroke-width="1"/>
+    <polygon points="85,44 95,50 85,56 75,50 75,38 85,32" fill="none" stroke="#9ca3af" stroke-width="1"/>
+    <polygon points="115,44 125,50 115,56 105,50 105,38 115,32" fill="none" stroke="#9ca3af" stroke-width="1"/>
+    <polygon points="145,44 155,50 145,56 135,50 135,38 145,32" fill="none" stroke="#9ca3af" stroke-width="1"/>
+    <polygon points="175,44 185,50 175,56 165,50 165,38 175,32" fill="none" stroke="#9ca3af" stroke-width="1"/>
+    <polygon points="205,44 215,50 205,56 195,50 195,38 205,32" fill="none" stroke="#9ca3af" stroke-width="1"/>
+    <polygon points="235,44 245,50 235,56 225,50 225,38 235,32" fill="none" stroke="#9ca3af" stroke-width="1"/>
+    <polygon points="265,44 275,50 265,56 255,50 255,38 265,32" fill="none" stroke="#9ca3af" stroke-width="1"/>
     
     <!-- Row 2 (offset) -->
-    <polygon points="60,74 70,68 80,74 80,86 70,92 60,86" fill="none" stroke="#9ca3af" stroke-width="1"/>
-    <polygon points="90,74 100,68 110,74 110,86 100,92 90,86" fill="none" stroke="#9ca3af" stroke-width="1"/>
-    <polygon points="120,74 130,68 140,74 140,86 130,92 120,86" fill="none" stroke="#9ca3af" stroke-width="1"/>
-    <polygon points="150,74 160,68 170,74 170,86 160,92 150,86" fill="none" stroke="#9ca3af" stroke-width="1"/>
-    <polygon points="180,74 190,68 200,74 200,86 190,92 180,86" fill="none" stroke="#9ca3af" stroke-width="1"/>
-    <polygon points="210,74 220,68 230,74 230,86 220,92 210,86" fill="none" stroke="#9ca3af" stroke-width="1"/>
-    <polygon points="240,74 250,68 260,74 260,86 250,92 240,86" fill="none" stroke="#9ca3af" stroke-width="1"/>
+    <polygon points="70,62 80,68 70,74 60,68 60,56 70,50" fill="none" stroke="#9ca3af" stroke-width="1"/>
+    <polygon points="100,62 110,68 100,74 90,68 90,56 100,50" fill="none" stroke="#9ca3af" stroke-width="1"/>
+    <polygon points="130,62 140,68 130,74 120,68 120,56 130,50" fill="none" stroke="#9ca3af" stroke-width="1"/>
+    <polygon points="160,62 170,68 160,74 150,68 150,56 160,50" fill="none" stroke="#9ca3af" stroke-width="1"/>
+    <polygon points="190,62 200,68 190,74 180,68 180,56 190,50" fill="none" stroke="#9ca3af" stroke-width="1"/>
+    <polygon points="220,62 230,68 220,74 210,68 210,56 220,50" fill="none" stroke="#9ca3af" stroke-width="1"/>
+    <polygon points="250,62 260,68 250,74 240,68 240,56 250,50" fill="none" stroke="#9ca3af" stroke-width="1"/>
     
     <!-- Row 3 -->
-    <polygon points="45,98 55,92 65,98 65,110 55,116 45,110" fill="none" stroke="#9ca3af" stroke-width="1"/>
-    <polygon points="75,98 85,92 95,98 95,110 85,116 75,110" fill="none" stroke="#9ca3af" stroke-width="1"/>
-    <polygon points="105,98 115,92 125,98 125,110 115,116 105,110" fill="none" stroke="#9ca3af" stroke-width="1"/>
-    <polygon points="135,98 145,92 155,98 155,110 145,116 135,110" fill="none" stroke="#9ca3af" stroke-width="1"/>
-    <polygon points="165,98 175,92 185,98 185,110 175,116 165,110" fill="none" stroke="#9ca3af" stroke-width="1"/>
-    <polygon points="195,98 205,92 215,98 215,110 205,116 195,110" fill="none" stroke="#9ca3af" stroke-width="1"/>
-    <polygon points="225,98 235,92 245,98 245,110 235,116 225,110" fill="none" stroke="#9ca3af" stroke-width="1"/>
-    <polygon points="255,98 265,92 275,98 275,110 265,116 255,110" fill="none" stroke="#9ca3af" stroke-width="1"/>
+    <polygon points="55,80 65,86 55,92 45,86 45,74 55,68" fill="none" stroke="#9ca3af" stroke-width="1"/>
+    <polygon points="85,80 95,86 85,92 75,86 75,74 85,68" fill="none" stroke="#9ca3af" stroke-width="1"/>
+    <polygon points="115,80 125,86 115,92 105,86 105,74 115,68" fill="none" stroke="#9ca3af" stroke-width="1"/>
+    <polygon points="145,80 155,86 145,92 135,86 135,74 145,68" fill="none" stroke="#9ca3af" stroke-width="1"/>
+    <polygon points="175,80 185,86 175,92 165,86 165,74 175,68" fill="none" stroke="#9ca3af" stroke-width="1"/>
+    <polygon points="205,80 215,86 205,92 195,86 195,74 205,68" fill="none" stroke="#9ca3af" stroke-width="1"/>
+    <polygon points="235,80 245,86 235,92 225,86 225,74 235,68" fill="none" stroke="#9ca3af" stroke-width="1"/>
+    <polygon points="265,80 275,86 265,92 255,86 255,74 265,68" fill="none" stroke="#9ca3af" stroke-width="1"/>
     
     <!-- Row 4 (offset) -->
-    <polygon points="60,122 70,116 80,122 80,134 70,140 60,134" fill="none" stroke="#9ca3af" stroke-width="1"/>
-    <polygon points="90,122 100,116 110,122 110,134 100,140 90,134" fill="none" stroke="#9ca3af" stroke-width="1"/>
-    <polygon points="120,122 130,116 140,122 140,134 130,140 120,134" fill="none" stroke="#9ca3af" stroke-width="1"/>
-    <polygon points="150,122 160,116 170,122 170,134 160,140 150,134" fill="none" stroke="#9ca3af" stroke-width="1"/>
-    <polygon points="180,122 190,116 200,122 200,134 190,140 180,134" fill="none" stroke="#9ca3af" stroke-width="1"/>
-    <polygon points="210,122 220,116 230,122 230,134 220,140 210,134" fill="none" stroke="#9ca3af" stroke-width="1"/>
-    <polygon points="240,122 250,116 260,122 260,134 250,140 240,134" fill="none" stroke="#9ca3af" stroke-width="1"/>
+    <polygon points="70,98 80,104 70,110 60,104 60,92 70,86" fill="none" stroke="#9ca3af" stroke-width="1"/>
+    <polygon points="100,98 110,104 100,110 90,104 90,92 100,86" fill="none" stroke="#9ca3af" stroke-width="1"/>
+    <polygon points="130,98 140,104 130,110 120,104 120,92 130,86" fill="none" stroke="#9ca3af" stroke-width="1"/>
+    <polygon points="160,98 170,104 160,110 150,104 150,92 160,86" fill="none" stroke="#9ca3af" stroke-width="1"/>
+    <polygon points="190,98 200,104 190,110 180,104 180,92 190,86" fill="none" stroke="#9ca3af" stroke-width="1"/>
+    <polygon points="220,98 230,104 220,110 210,104 210,92 220,86" fill="none" stroke="#9ca3af" stroke-width="1"/>
+    <polygon points="250,98 260,104 250,110 240,104 240,92 250,86" fill="none" stroke="#9ca3af" stroke-width="1"/>
 
     <!-- Path following hexagon edges -->
-    <path d="M 55,50 L 85,50 L 100,68 L 130,68 L 145,50 L 175,50 L 190,68 L 220,68 L 235,50"
+    <path d="M 55,44 L 85,44 L 100,62 L 130,62 L 145,80 L 175,80 L 190,98 L 220,98 L 235,80"
           fill="none" stroke="#dc2626" stroke-width="3"/>
 
     <!-- Decision points at hexagon vertices -->
-    <circle cx="55" cy="50" r="6" fill="#dc2626"/>
-    <circle cx="85" cy="50" r="3" fill="#dc2626"/>
-    <circle cx="100" cy="68" r="3" fill="#dc2626"/>
-    <circle cx="130" cy="68" r="3" fill="#dc2626"/>
-    <circle cx="145" cy="50" r="3" fill="#dc2626"/>
-    <circle cx="175" cy="50" r="3" fill="#dc2626"/>
-    <circle cx="190" cy="68" r="3" fill="#dc2626"/>
-    <circle cx="220" cy="68" r="3" fill="#dc2626"/>
-    <circle cx="235" cy="50" r="6" fill="#dc2626"/>
+    <circle cx="55" cy="44" r="6" fill="#dc2626"/>
+    <circle cx="85" cy="44" r="3" fill="#dc2626"/>
+    <circle cx="100" cy="62" r="3" fill="#dc2626"/>
+    <circle cx="130" cy="62" r="3" fill="#dc2626"/>
+    <circle cx="145" cy="80" r="3" fill="#dc2626"/>
+    <circle cx="175" cy="80" r="3" fill="#dc2626"/>
+    <circle cx="190" cy="98" r="3" fill="#dc2626"/>
+    <circle cx="220" cy="98" r="3" fill="#dc2626"/>
+    <circle cx="235" cy="80" r="6" fill="#dc2626"/>
 
     <!-- Show the "intended" end point as a ghost -->
-    <circle cx="235" cy="50" r="6" fill="none" stroke="#dc2626" stroke-width="2" stroke-dasharray="3,3" opacity="0.5"/>
-    <text x="235" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" opacity="0.7">Original Goal</text>
+    <circle cx="235" cy="44" r="6" fill="none" stroke="#dc2626" stroke-width="2" stroke-dasharray="3,3" opacity="0.5"/>
+    <text x="235" y="34" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" opacity="0.7">Original Goal</text>
 
     <!-- Labels -->
-    <text x="55" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">Start</text>
-    <text x="235" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">Actual End</text>
+    <text x="55" y="34" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">Start</text>
+    <text x="235" y="95" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">Actual End</text>
   </g>
 
   <!-- Bottom explanation -->
