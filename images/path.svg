@@ -30,12 +30,33 @@
 
   <!-- RIGHT SIDE: Hexagonal tiling with path following edges -->
   <g transform="translate(450, 80)">
-    <text x="150" y="20" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold">
+
+    <!-- Title positioned above hexagonal grid -->
+    <text x="150" y="-25" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold">
       Reality
     </text>
 
     <!-- Hexagonal tiling - individual hexagons (pointy-top orientation) -->
-    <!-- Row 0 (top empty row) -->
+    <!-- Row -3 (top empty row) -->
+    <polygon points="60,-33 69,-28 69,-18 60,-13 51,-18 51,-28" fill="none" stroke="#9ca3af" stroke-width="1"/>
+    <polygon points="82,-33 91,-28 91,-18 82,-13 73,-18 73,-28" fill="none" stroke="#9ca3af" stroke-width="1"/>
+    <polygon points="104,-33 113,-28 113,-18 104,-13 95,-18 95,-28" fill="none" stroke="#9ca3af" stroke-width="1"/>
+    <polygon points="126,-33 135,-28 135,-18 126,-13 117,-18 117,-28" fill="none" stroke="#9ca3af" stroke-width="1"/>
+    <polygon points="148,-33 157,-28 157,-18 148,-13 139,-18 139,-28" fill="none" stroke="#9ca3af" stroke-width="1"/>
+    <polygon points="170,-33 179,-28 179,-18 170,-13 161,-18 161,-28" fill="none" stroke="#9ca3af" stroke-width="1"/>
+    <polygon points="192,-33 201,-28 201,-18 192,-13 183,-18 183,-28" fill="none" stroke="#9ca3af" stroke-width="1"/>
+    <polygon points="214,-33 223,-28 223,-18 214,-13 205,-18 205,-28" fill="none" stroke="#9ca3af" stroke-width="1"/>
+    
+    <!-- Row -2 (offset empty row) -->
+    <polygon points="71,-16 80,-11 80,-1 71,4 62,-1 62,-11" fill="none" stroke="#9ca3af" stroke-width="1"/>
+    <polygon points="93,-16 102,-11 102,-1 93,4 84,-1 84,-11" fill="none" stroke="#9ca3af" stroke-width="1"/>
+    <polygon points="115,-16 124,-11 124,-1 115,4 106,-1 106,-11" fill="none" stroke="#9ca3af" stroke-width="1"/>
+    <polygon points="137,-16 146,-11 146,-1 137,4 128,-1 128,-11" fill="none" stroke="#9ca3af" stroke-width="1"/>
+    <polygon points="159,-16 168,-11 168,-1 159,4 150,-1 150,-11" fill="none" stroke="#9ca3af" stroke-width="1"/>
+    <polygon points="181,-16 190,-11 190,-1 181,4 172,-1 172,-11" fill="none" stroke="#9ca3af" stroke-width="1"/>
+    <polygon points="203,-16 212,-11 212,-1 203,4 194,-1 194,-11" fill="none" stroke="#9ca3af" stroke-width="1"/>
+    
+    <!-- Row -1 (empty row) -->
     <polygon points="60,1 69,6 69,16 60,21 51,16 51,6" fill="none" stroke="#9ca3af" stroke-width="1"/>
     <polygon points="82,1 91,6 91,16 82,21 73,16 73,6" fill="none" stroke="#9ca3af" stroke-width="1"/>
     <polygon points="104,1 113,6 113,16 104,21 95,16 95,6" fill="none" stroke="#9ca3af" stroke-width="1"/>
@@ -45,7 +66,7 @@
     <polygon points="192,1 201,6 201,16 192,21 183,16 183,6" fill="none" stroke="#9ca3af" stroke-width="1"/>
     <polygon points="214,1 223,6 223,16 214,21 205,16 205,6" fill="none" stroke="#9ca3af" stroke-width="1"/>
     
-    <!-- Row -1 (offset empty row) -->
+    <!-- Row 0 (offset empty row) -->
     <polygon points="71,18 80,23 80,33 71,38 62,33 62,23" fill="none" stroke="#9ca3af" stroke-width="1"/>
     <polygon points="93,18 102,23 102,33 93,38 84,33 84,23" fill="none" stroke="#9ca3af" stroke-width="1"/>
     <polygon points="115,18 124,23 124,33 115,38 106,33 106,23" fill="none" stroke="#9ca3af" stroke-width="1"/>
