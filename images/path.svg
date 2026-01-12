@@ -35,6 +35,25 @@
     </text>
 
     <!-- Hexagonal tiling - individual hexagons (pointy-top orientation) -->
+    <!-- Row 0 (top empty row) -->
+    <polygon points="60,1 69,6 69,16 60,21 51,16 51,6" fill="none" stroke="#9ca3af" stroke-width="1"/>
+    <polygon points="82,1 91,6 91,16 82,21 73,16 73,6" fill="none" stroke="#9ca3af" stroke-width="1"/>
+    <polygon points="104,1 113,6 113,16 104,21 95,16 95,6" fill="none" stroke="#9ca3af" stroke-width="1"/>
+    <polygon points="126,1 135,6 135,16 126,21 117,16 117,6" fill="none" stroke="#9ca3af" stroke-width="1"/>
+    <polygon points="148,1 157,6 157,16 148,21 139,16 139,6" fill="none" stroke="#9ca3af" stroke-width="1"/>
+    <polygon points="170,1 179,6 179,16 170,21 161,16 161,6" fill="none" stroke="#9ca3af" stroke-width="1"/>
+    <polygon points="192,1 201,6 201,16 192,21 183,16 183,6" fill="none" stroke="#9ca3af" stroke-width="1"/>
+    <polygon points="214,1 223,6 223,16 214,21 205,16 205,6" fill="none" stroke="#9ca3af" stroke-width="1"/>
+    
+    <!-- Row -1 (offset empty row) -->
+    <polygon points="71,18 80,23 80,33 71,38 62,33 62,23" fill="none" stroke="#9ca3af" stroke-width="1"/>
+    <polygon points="93,18 102,23 102,33 93,38 84,33 84,23" fill="none" stroke="#9ca3af" stroke-width="1"/>
+    <polygon points="115,18 124,23 124,33 115,38 106,33 106,23" fill="none" stroke="#9ca3af" stroke-width="1"/>
+    <polygon points="137,18 146,23 146,33 137,38 128,33 128,23" fill="none" stroke="#9ca3af" stroke-width="1"/>
+    <polygon points="159,18 168,23 168,33 159,38 150,33 150,23" fill="none" stroke="#9ca3af" stroke-width="1"/>
+    <polygon points="181,18 190,23 190,33 181,38 172,33 172,23" fill="none" stroke="#9ca3af" stroke-width="1"/>
+    <polygon points="203,18 212,23 212,33 203,38 194,33 194,23" fill="none" stroke="#9ca3af" stroke-width="1"/>
+    
     <!-- Row 1 -->
     <polygon points="60,35 69,40 69,50 60,55 51,50 51,40" fill="none" stroke="#9ca3af" stroke-width="1"/>
     <polygon points="82,35 91,40 91,50 82,55 73,50 73,40" fill="none" stroke="#9ca3af" stroke-width="1"/>
