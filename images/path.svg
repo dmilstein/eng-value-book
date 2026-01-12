@@ -74,27 +74,27 @@
     <polygon points="240,122 250,116 260,122 260,134 250,140 240,134" fill="none" stroke="#9ca3af" stroke-width="1"/>
 
     <!-- Path following hexagon edges -->
-    <path d="M 55,56 L 85,56 L 100,74 L 130,74 L 145,92 L 175,92 L 190,110 L 220,110 L 235,128"
+    <path d="M 55,50 L 85,50 L 100,68 L 130,68 L 145,50 L 175,50 L 190,68 L 220,68 L 235,50"
           fill="none" stroke="#dc2626" stroke-width="3"/>
 
     <!-- Decision points at hexagon vertices -->
-    <circle cx="55" cy="56" r="6" fill="#dc2626"/>
-    <circle cx="85" cy="56" r="3" fill="#dc2626"/>
-    <circle cx="100" cy="74" r="3" fill="#dc2626"/>
-    <circle cx="130" cy="74" r="3" fill="#dc2626"/>
-    <circle cx="145" cy="92" r="3" fill="#dc2626"/>
-    <circle cx="175" cy="92" r="3" fill="#dc2626"/>
-    <circle cx="190" cy="110" r="3" fill="#dc2626"/>
-    <circle cx="220" cy="110" r="3" fill="#dc2626"/>
-    <circle cx="235" cy="128" r="6" fill="#dc2626"/>
+    <circle cx="55" cy="50" r="6" fill="#dc2626"/>
+    <circle cx="85" cy="50" r="3" fill="#dc2626"/>
+    <circle cx="100" cy="68" r="3" fill="#dc2626"/>
+    <circle cx="130" cy="68" r="3" fill="#dc2626"/>
+    <circle cx="145" cy="50" r="3" fill="#dc2626"/>
+    <circle cx="175" cy="50" r="3" fill="#dc2626"/>
+    <circle cx="190" cy="68" r="3" fill="#dc2626"/>
+    <circle cx="220" cy="68" r="3" fill="#dc2626"/>
+    <circle cx="235" cy="50" r="6" fill="#dc2626"/>
 
     <!-- Show the "intended" end point as a ghost -->
-    <circle cx="235" cy="56" r="6" fill="none" stroke="#dc2626" stroke-width="2" stroke-dasharray="3,3" opacity="0.5"/>
-    <text x="235" y="46" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" opacity="0.7">Original Goal</text>
+    <circle cx="235" cy="50" r="6" fill="none" stroke="#dc2626" stroke-width="2" stroke-dasharray="3,3" opacity="0.5"/>
+    <text x="235" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" opacity="0.7">Original Goal</text>
 
     <!-- Labels -->
-    <text x="55" y="46" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">Start</text>
-    <text x="235" y="148" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">Actual End</text>
+    <text x="55" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">Start</text>
+    <text x="235" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">Actual End</text>
   </g>
 
   <!-- Bottom explanation -->
