@@ -114,7 +114,7 @@
     <polygon points="203,86 212,91 212,101 203,106 194,101 194,91" fill="none" stroke="#9ca3af" stroke-width="1"/>
 
     <!-- Path following hexagon edges precisely at intersection points -->
-    <path d="M 69,40 L 82,35 L 91,40 L 93,52 L 102,57 L 115,52 L 124,57 L 126,69 L 135,74 L 148,69 L 157,74 L 159,86 L 168,91 L 181,86 L 190,91 L 183,84"
+    <path d="M 69,40 L 82,35 L 91,40 L 93,52 L 102,57 L 115,52 L 124,57 L 126,69 L 135,74 L 148,69 L 157,74 L 159,86 L 168,91 L 181,86 L 190,91"
           fill="none" stroke="#dc2626" stroke-width="3"/>
 
     <!-- Decision points at hexagon intersection vertices -->
@@ -132,8 +132,7 @@
     <circle cx="159" cy="86" r="2" fill="#dc2626"/>
     <circle cx="168" cy="91" r="2" fill="#dc2626"/>
     <circle cx="181" cy="86" r="2" fill="#dc2626"/>
-    <circle cx="190" cy="91" r="2" fill="#dc2626"/>
-    <circle cx="183" cy="84" r="6" fill="#dc2626"/>
+    <circle cx="190" cy="91" r="6" fill="#dc2626"/>
 
     <!-- Show the "intended" end point as a ghost -->
     <circle cx="201" cy="40" r="6" fill="none" stroke="#dc2626" stroke-width="2" stroke-dasharray="3,3" opacity="0.5"/>
@@ -141,7 +140,7 @@
 
     <!-- Labels -->
     <text x="69" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">Start</text>
-    <text x="183" y="99" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">Actual End</text>
+    <text x="190" y="106" text-anchor="middle" font-family="Arial, sans-serif" font-size="10">Actual End</text>
   </g>
 
   <!-- Bottom explanation -->
