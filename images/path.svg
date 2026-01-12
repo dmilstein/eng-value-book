@@ -29,7 +29,7 @@
   </g>
 
   <!-- RIGHT SIDE: Hexagonal tiling with path following edges -->
-  <g transform="translate(450, 80)">
+  <g transform="translate(450, 110)">
 
     <!-- Title positioned above hexagonal grid -->
     <text x="150" y="-25" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold">
