@@ -3,12 +3,17 @@
 :END:
 #+title: Be Surprised Early
 #+filetags: :Chapter:
-* Early Surprises Create Incremental Value
+* Early Surprises And The Incremental Creation Of Value
+
+# Early Surprises Create Incremental Value
+
+# Be Surprised Early To Create Incremental Value
+
 ** The Answer, I: Design Increments To Create Early Surprises
 
 # The Answer, I: Be Surprised Early
 
-The fundamental trick which this book wishes to share with you is that, although it's genuinely impossible to eliminate nasty surprises from software development, it is very much possible to make those surprises *less expensive*.
+Although it's impossible to eliminate nasty surprises from software development, it is very much possible to make those surprises *less expensive*.
 
 In other words, you prevent disasters not by preventing surprises, but instead by breaking the link between "surprise" and "economic disaster".
 
@@ -18,7 +23,19 @@ A team can turn surprises into non-events if they can:
 
 *Design the increments so that the team is surprised /early/, instead of late.*
 
-In our story above, everything would have been fine if the very first thing the team tried to build was the troublesome component. They would have immediately realized how hard it was going to be, and could have immediately rethought the overall product offering. The team could still have shipped something super valuable by Q2.
+In our story above, everything would have been fine if the very first thing the team tried to build was the troublesome component. Although they didn't know up front how bad it was going to be, they would have figured that out as they went to actually build it.
+
+# Specifically, let's say that, after three weeks of work, they realized that their whole plan was going to be impossible.
+
+Let's get more specific. The reason the troublesome component blew up was because it turned out that it had been spec'd out with an assumption that it would be able to access a key bit of information about the user... but that information turned out to not be reliably available. The system had it for some users, but not for others. To "fix" this, they'd have to rewrite a complex data ingestion process (which their team doesn't own, nor know how to work with), to obtain and attach this bit of information about each user. And that would only work if the upstream data sources even *had* this information, which they might not.
+
+But, a good bit of the sizzle of the new feature depended on being able to tune it to the user's needs, based on that bit of data.
+
+In this case, they would likely have been pretty frustrated, but, once they reported this back to the PM, they could have worked with the PM to figure out a different product offering. Maybe it would be a bit less sexy, but the PM, being good at their job, is able to find a new way to solve user's underlying problem.
+
+# They would have immediately realized how hard it was going to be, and could have immediately rethought the overall product offering.
+
+The team could still have shipped something super valuable by Q2.
 
 # (though, see below re: the flexibility they'd need to be able to do this).
 
@@ -39,56 +56,6 @@ And, if a team encounters a surprise early enough, *it's not a disaster*. Early 
 # You can't /eliminate/ all surprises before a project starts, but you *can* design your increments so that you attack the riskiest, most uncertain work *first*. This gives you an excellent chance of hitting your surprises early enough to still be able to adapt and find some win for the business.
 
 # You can't eliminate all surprises before a project starts, but you *can* sequence your work so that you attack the riskiest, most uncertain work *first*. This gives you an excellent chance of hitting your surprises early enough to still be able to adapt and find some win for the business.
-
-** The Answer, II: Define Milestones Around Decisions
-
-# Ask The Business To Make Business Decisions
-
-# The Answer, II: Offer Decisions To "The Business"
-
-Obtaining the information from early surprises is not, by itself, enough.
-
-You also have to *draw your stakeholder into a process of repeated decision-making*.
-
-When we hit a surprise early, we create value by enabling the business to make a new decision: based on what we just learned, what is *now* the most valuable thing the enginers can do?
-
-# do for the business?
-
-And, crucially: /The engineers and the PM can't make that decision on their own./
-
-The senior non-technical stakeholder above will have to be a part of it. They're going to *want* to make a single "big" decision up front -- "Do I fund this project or not?" Unfortunately, that simply does not work.
-
-To create valuable software, "the business" will have to make a series of business decisions, as the team builds and learns.
-
-Thus, a core part of the increment design is to work backwards from the *decision you're going to ask an Important Person to make*.
-
-Our friends above, when confronted with the demand for a commitment to Q2, could have defined their first increment around:
-
- - The senior non-technical stakeholder will review a few different possible prototypes, each of which we're fairly confident we can build, in order to decide what the overall shape of the product offering should be.
-
-That's a *concrete goal*.
-
-** The Answer, III: Draw Stakeholders Into Repeated Decision-Making
-
-# The Answer, II: Offer "The Business" Decisions
-
-# The Answer, II: Make Smaller, More Frequent Decisions
-
-# The Answer, Part II: Enable Smaller, More Frequent /Decisions/
-
-
-# The Answer, Part II: Make Smaller Decisions More Often
-
-# The Answer, Part II: Make Smaller Decisions As You Go
-
-# The Answer, Part II: Make Decisions As You Go
-
-# The Answer, Part II: Build Your Plan Around Decisions
-
-# The Answer, Part II: Work Backward From Decisions
-
-# The Answer, Part II: Plan To Make Decisions
-
 
 ** How Our Friends Could Have Been Surprised Early
 
@@ -118,10 +85,63 @@ Throughout the book, we'll explore a wide variety of ways for engineers and prod
 
 # The Answer, II: Make Decisions More Often
 
-** Surprises Are Decisions For "The Business"
+** The Answer, II: Define Milestones Around Decisions
+
+# Ask The Business To Make Business Decisions
+
+# The Answer, II: Offer Decisions To "The Business"
+
+Obtaining the information from early surprises is not, by itself, enough.
+
+You also have to *draw your stakeholder into a process of repeated decision-making*.
+
+When we hit a surprise early, we create value by enabling the business to make a new decision: based on what we just learned, what is *now* the most valuable thing the enginers can do?
+
+# do for the business?
+
+And, crucially: /The engineers and the PM can't make that decision on their own./
+
+The senior non-technical stakeholder above will have to be a part of it. They're going to *want* to make a single "big" decision up front -- "Do I fund this project or not?" Unfortunately, that simply does not work.
+
+To create valuable software, "the business" will have to make a series of business decisions, as the team builds and learns.
+
+Thus, a core part of the increment design is to work backwards from the *decision you're going to ask an Important Person to make*.
+
+Our friends above, when confronted with the demand for a commitment to Q2, could have defined their first increment around:
+
+ - The senior non-technical stakeholder will review a few different possible prototypes, each of which we're fairly confident we can build, in order to decide what the overall shape of the product offering should be.
+
+That's a *concrete goal*.
+
+** The First Key Decision For Our Friends
+
+# Surprises Are Decisions For "The Business"
+
 # Options are ...
 # "The Business" Makes The Decisions
 
+** The Answer, III: Draw Stakeholders Into Repeated Decision-Making
+
+# The Answer, II: Offer "The Business" Decisions
+
+# The Answer, II: Make Smaller, More Frequent Decisions
+
+# The Answer, Part II: Enable Smaller, More Frequent /Decisions/
+
+
+# The Answer, Part II: Make Smaller Decisions More Often
+
+# The Answer, Part II: Make Smaller Decisions As You Go
+
+# The Answer, Part II: Make Decisions As You Go
+
+# The Answer, Part II: Build Your Plan Around Decisions
+
+# The Answer, Part II: Work Backward From Decisions
+
+# The Answer, Part II: Plan To Make Decisions
+
+** How They Charmed Ben
 ** A Map Of The Rest Of This Book
 # The Answer, Part II: Smaller, Better, More Frequent /Decisions/
 
