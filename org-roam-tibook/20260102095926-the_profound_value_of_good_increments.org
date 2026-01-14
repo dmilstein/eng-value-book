@@ -14,7 +14,9 @@ Sometimes, in the middle of a dark wood, an engineer or a product manager will f
 
 # Switch all to "you" in the below?
 
-The team observes all the agile rituals, and observes them faithfully and well. Their sprints are a crisp two weeks long. Each starts on a Monday with a full team planning session. The product manager stands patiently ready to explain the nuances of the various stories and tickets at hand. Each morning at precisely 9:05 am, the team gathers for a stand up. Throughout each day, the engineers steadily pull well-groomed tickets from the board. On the final Friday of each sprint, the engineers demo what they've built, and then the team runs a brief retro in the afternoon.
+The team observes all the agile rituals, and observes them faithfully and well. Their sprints are a crisp two weeks long. Each Monday, the product manager leads a full team planning session. Every weekday morning at precisely 9:05 am, the team gathers for a stand up. Throughout each day, the engineers steadily pull well-groomed tickets from the board. On the final Friday of each sprint, the engineers demo what they've built, and then the team runs a brief retro in the afternoon.
+
+# The product manager stands patiently ready to explain the nuances of the various stories and tickets at hand.
 
 All that is as it should be, right?
 
@@ -162,7 +164,7 @@ To avoid disastrous surprises, the team should make certain to not be surprised.
 
 # This is so obviously correct!
 
-Look, no one expects the engineers to give perfectly accurate estimates. But, still, they /should have known/ that this one particular component was going to be pretty hard to build. They shouldn't have given an estimate that was this spectacularly bad. It's okay to be surprised in small ways, sure, but experienced engineers wouldn't be so fundamentally, profoundly surprised.
+Look, no one expects the engineers to give perfectly accurate estimates. But, still, they /should have known/ that this one particular component was going to be pretty hard to build. They shouldn't, during initial planning, have given an estimate that was this spectacularly bad. It's okay to be surprised in small ways, sure, but experienced engineers wouldn't be so fundamentally, profoundly surprised.
 
 # Apparently we need engineers who are more senior, or who take more ownership, or who are more outcome-oriented. Or something.
 
@@ -172,15 +174,15 @@ Look, no one expects the engineers to give perfectly accurate estimates. But, st
 
 There's just one tiny problem with this solution.
 
-The "someone should have known" plan provides no help for us at the /start/ of a project.
+We can't know ahead of time which of the incredible variety of potential surprises is going to blow up. If we try to flush out /all/ the potential surprises before we start... we'll just end up reinventing Waterfall.
 
-It's great for looking backwards at the end and assigning blame. But, sadly, here in the real world, we have to start our projects in the present, without the benefit of the future knowledge we'll acquire as we go.
+In other words, the "someone should have known" plan provides essentially no help for us at the /start/ of a project.
 
-If your only hope for creating value is to /never be unpleasantly surprised/, well, then, good luck to you, is all I can say. Go read some other book, and/or order an industrial-sized bottle of anti-depressants.
+It's truly great for looking backwards at the end and assigning blame. But, sadly, here in the real world, we have to start our projects in the present, without the benefit of the future knowledge we'll acquire as we go.
+
+If your only hope for creating valuable software is to /never be unpleasantly surprised/, well, then, good luck to you, is all I can say. Go read some other book, and/or order an industrial-sized bottle of anti-depressants.
 
 # The "someone should have known" answer is a desperate plea to avoid surprises.
-
-We just can't know ahead of time which of the incredible variety of potential surprises is going to blow up. If we try to flush out /all/ the potential surprises before we start... we'll just end up reinventing Waterfall.
 
 # not a *useful* answer (except for making people feel bad, at which it excels).
 
@@ -202,7 +204,31 @@ It's equally incredibly important to point out that the senior non-technical sta
 
 So, again, what can we do?
 
+** The Answer: Be Unpleasantly Surprised As Early As Possible
 
+# The Answer: Be Surprised Early
+
+We can, here in the real world, at the start of our projects, operating /without/ perfect knowledge of the future...
+
+... design our increments so that we are surprised *early*.
+
+We won't try to *avoid* surprises through careful ahead-of-time planning. Instead, we'll get started actually building, but we'll do so in a clever, specific sequence that allows us to uncover the nastiest surprises early on.
+
+And thus, when the engineers receive the inevitable unpleasant surprises from reality, the business as a whole will have time to adapt.
+
+In other words, we avoid disastrous surprises by breaking the link between "surprise" and "disaster". This is what the incredibly insightful Don Reinertsen calls "Changing the pay-off function". (he's also the incredibly mathematical and economics-focused Don Reinertsen, which I have learned maybe not everyone loves quite as much as I do? If you squint from the right angle, just about this entire book is operationalizing like, three dense, formula-laden pages of Reinertsen's masterpiece, The Principles of Product Development Flow)
+
+The idea of "being surprised early" is easy to state, but is decidedly non-trivial to apply.
+
+In the next chapter, we'll start to show how to generate early surprises on messy, real-world projects. We'll break the overall approach down into three distinct, related steps:
+
+ 1. Order Increments By Degree Of Potential Surprise
+
+ 2. Use Future Decisions To Define Incremental Milestones
+
+ 3. Gradually Draw Stakeholders Into Repeated Decision-Making
+
+Let's go!
 * To move into preface/intro
 
 ** This Skill Changed My Life And I Want It To Change Yours
@@ -636,17 +662,24 @@ If a team creates incremental value, then, well, they can *never really lose*. T
 One note: drawing stakeholders into collaboration around valuable increments is a profoundly interesting challenge. We'll return to that challenge, once we have an understanding of which increments are even valuable in the first place. The concept of "creating value" will turn out to be well worth digging into.
 
 * Todos
-** DONE Break out a preface/intro
-CLOSED: [2026-01-07 Wed 10:33]
-Which lays out "Why you should read this", but doesn't explain my answer. Teases it. This changed my life, and I want it to change yours. It's not trivial to understand. But it's profound once you do. And then dive into Agile/Not Agile
+** TODO Wedge in my list of "not good enough heuristics"
 ** TODO Consider adding an image just before Unhappy Future
 Like, it's a linear build, they can choose the order.
-** TODO Now that I'v got a preface, spike on specific person/story?
+** TODO Now that I've got a preface, spike on specific person/story?
 ** TODO Speak to challenges, early
  - Stakeholders don't want to work this way
  - It's not clear what increments create value
  - It's hard to set goals for good increments
  - No one person can do this on their own
+** TODO Add riff on surprise/shannon surprise/pursuing surprises
+** TODO Spike/experiment on making first story specific
+E.g. naming people, etc
+** TODO Find my exercises
+** TODO Review those exercises
+** TODO Copy and paste in a big chunk
+** DONE Break out a preface/intro
+CLOSED: [2026-01-07 Wed 10:33]
+Which lays out "Why you should read this", but doesn't explain my answer. Teases it. This changed my life, and I want it to change yours. It's not trivial to understand. But it's profound once you do. And then dive into Agile/Not Agile
 ** DONE Maybe: other ways project could fail
 CLOSED: [2026-01-07 Wed 08:00]
  - Customers were wrong about desires or needs shift
@@ -656,9 +689,3 @@ CLOSED: [2026-01-07 Wed 08:00]
 ** DONE s/Avoid Surprises/Avoid Disasters/
 CLOSED: [2026-01-07 Wed 08:00]
 Change the payoff function for being surprised. Be surprised early.
-** TODO Add riff on surprise/shannon surprise/pursuing surprises
-** TODO Spike/experiment on making first story specific
-E.g. naming people, etc
-** TODO Find my exercises
-** TODO Review those exercises
-** TODO Copy and paste in a big chunk
