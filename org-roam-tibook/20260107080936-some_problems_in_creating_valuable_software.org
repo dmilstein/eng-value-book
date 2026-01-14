@@ -8,37 +8,24 @@
 
 Developing valuable software for a business would be delightfully easy if only, at the start of a project, the following three things were true:
 
- 1. The engineers knew how long it would take to build a piece of software
+ 1. The engineers knew how long it would take to build, well, anything
+    # a piece of software
 
  2. The rest of the business knew what software they needed
 
  3. There was no existing software to maintain, extend and curse at
 
- # 1. The engineers knew how long it would take to build specified products, features or tools
-
- # 2. The rest of the business knew how valuable those various products, features or tools would actually be, as specified
-
- # 3. There were no existing systems to maintain, extend and curse at
-
-# But here in reality, estimates are unreliable, specifications are painfully wrong-headed, and legacy systems are lurking and waiting to crush everything you love.
 
 But here in reality, what do we find?
 
-# lurking in the wings, laughing. waiting for their moment to crush you.
-
-# those three things are (checks notes), *essentially never true*.
-
-# Engineers can't make accurate estimates of the time to deliver software of just about any meaningful complexity.
 
 # Engineers are so profoundly bad at making estimates that everyone understands that the statement "We can build this in nine months" is best greeted with a laugh.
 
-# Well, the time estimates produced by engineers are often so horribly wrong that the Rest Of The Business finds itself staggering along in shock as critical deadlines come and go without any visible progress.
-
-Well, the time estimates produced by engineers are often so horribly wrong that the Rest Of The Business seethes in frustration as critical deadlines come and go without any visible progress.
+The time estimates produced by engineers are often so horribly wrong that the Rest Of The Business seethes in powerless frustration as critical deadlines come and go without any visible progress.
 
 # whoosh by
 
-Meanwhile, the Rest Of The Business, despite their professions of certainty, are routinely so misguided in their beliefs about what they need that entire new systems are casually shitcanned moments after being built, leaving the engineers bitterly wondering why they just wasted the last six months of their lives.
+Meanwhile, the Rest Of The Business, despite their professions of certainty, are routinely so misguided in their beliefs about what they need that entire new systems are casually shitcanned moments after being built, leaving the engineers bitterly wondering why they wasted the last six months of their lives.
 
 # , features or tools
 # completely thrown away [
@@ -80,15 +67,20 @@ The engineers can't just work *on their own*, steadily planning, building and le
 
 Why not?
 
-Fundamentally, because, if they work in a business, some Important Person has to commit their time to a project.
-
-And that Important Person, *before* they allow the engineers to start work, seems to expect, well, /certainty/. They will confidently (sometimes even condescendingly!) inform the engineers that it will only be possible to do their own planning if the engineers are willing to make *commitments*, often stretching out months and years into the future.
-
-# They're being tasked, by their CEO, or their board, with somehow improving the overall business. The only way to do so seems to involve creating new software. But, when they talk to the engineers, all they get is a confusing morass of opaque terms and and insistence that estimates are impossible.
+Because what they learn so often has *business impact*. If the engineers discover, as they often will, that it's impossible to build a product as planned, The Business will often have to decide what to do next. In an ideal world, a product manager on the team can make that decision "locally". But we do not always live in that ideal world.
 
 Every engineer knows they need to build software incrementally, learning as they go.
 
 But also, just about every engineer knows what a struggle it is to get the rest of the business to join them in that way of working.
+
+And, to make it worse, many engineers and product managers find themselves trapped in a dynamic with their very own Important Person, who, *before* they allow the engineers to start work, seems to expect, well, /certainty/. Such Important People will confidently (sometimes even condescendingly!) inform the engineers that it will only be possible to do their own planning if the engineers are willing to make *commitments*, often stretching out months and years into the future.
+
+What's an engineer to do? How should they get started on a project, when they don't know how long it's going to take, and their business counterparts don't seem to truly understand how to work incrementally?
+
+# Fundamentally, because, if they work in a business, some Important Person has to commit engineering time to a project.
+
+# They're being tasked, by their CEO, or their board, with somehow improving the overall business. The only way to do so seems to involve creating new software. But, when they talk to the engineers, all they get is a confusing morass of opaque terms and and insistence that estimates are impossible.
+
 
 # Luckily, I have a plan.
 
@@ -97,12 +89,54 @@ But also, just about every engineer knows what a struggle it is to get the rest 
 # It would be great if we lived in a world where engineers could commit to building something big and valuable, and then work incrementally to create it, in full confidence that they would ultimate deliver what they had promised.
 
 # But, of course, that's not the case.
+** Sadly, Blind Adherence To One Approach Will Not Save You
+
+# A Variety Of Things That Always Work And Why They Don't Always Work
+
+# There Is No Cookie Cutter
+
+# Approaches That Always Work, Except Not Really
+
+# Approaches That "Always Work", Except Not Really
+
+Now, someone might tell you, "Don't listen to Dan. He's making this much too complicated, like he always does. You should always start by building a very crude but working end-to-end solution first. Then you'll have all the key pieces and the interfaces between them, and can work from there."
+
+Okay, I guess? you might think. But, then someone /else/ might appear and say:
+
+"No, no, no. You should always start by building an interactive, fake prototype of the full planned set of functionality, so they can test that with users. Defining all the 'key pieces' and, like, slick internal API's for something that /no one can use/ isn't going to be worth a damn."
+
+Just when you're nodding in hesitant agreement, a third person strides into the room and announces, airily:
+
+"Oh, please. Those two are fools. You must start by building a /limited/ version of your product, one that satisfies a small subset of your customers. You see if customers would be willing to buy that, then you gradually expand outward. The only true test of value is customer willingness to pay," they intone, with an air of august self-satisfaction.
+
+The crude end-to-end person and the complete fake prototype advocate are looking angry and about to jump in, but then, a grizzled senior engineer wanders into the room and stops everyone by announcing:
+
+"Look, this whole project is built on a vague hope that we can integrate with the Flabuzzle service. All this prototyping and showing to customers is a lot of BS. We should start by going deep on that integration. I'll call you when I've got something."
+
+Everyone frowns at the senior engineer. Then they look at you.
+
+What are you supposed to do? All of these approaches, well, sound good? Each is a different way to shrink the overall effort down, so that you can get started. Which should you select?
+
+I wish I could tell you, "Eh, it doesn't matter, just get moving!"
+
+/But I totally can't/. Each one of the above approaches *can* work great. But each can also lead, after a series of miserably unpleasant months, to a very unhappy conversation with your boss (possibly one involving a discussion of severance payments).
+
+
+# There isn't one true sequence for building complex software.
+
+# Designing good increments requires an understanding of how teams create value, and a good deal of creative effort to apply that understanding to a specific situation.
+
+# The choice of how to shrink an overall effort down to a sequence of increments is incredibly important.
+
+I want to help you answer this question, for your very own projects, embedded within your very own business.
+
+# The choice of how to shrink an overall effort down to a "first increment" is, in fact, incredibly important.
 
 ** Increment Design Changed My Life
 
 # And I Want It To Change Yours
 
-This book is a deep dive into how to break up a large body of engineering work into a series of small, safe, value-generating increments, /and/ how to gradually persuade business stakeholders to join you in working step-by-step.
+This book is a deep dive into how to break up a large body of engineering work into a sequence of small, safe, value-generating increments. Because both planning and executing on those increments requires partnership from people outside of engineering, we'll also explore how to gradually persuade business stakeholders to join you in working step-by-step.
 
 # This book is a deep dive into how to break up a large body of engineering work into a series of smaller, safe, value-generating steps, while simultaneously persuading business stakeholders to join you in working step-by-step.
 
@@ -110,9 +144,9 @@ It's intended audience includes software engineers, product managers, leaders of
 
 # that allow us to learn as we go.
 
-As above, the increments can't all be defined ahead of time. It's useful to understand the core act of creating valuable software as /deciding what to do next/.
+Crucially, the increments can't all be defined ahead of time. It's useful to understand the core act of creating valuable software as /deciding what to do next/.
 
-A fundamental thesis of this book is that deciding what to do next is an incredibly high-leverage act.
+# A fundamental thesis of this book is that deciding what to do next is an incredibly high-leverage act.
 
 That decision is best understood not as merely selecting from some set of fairly obvious alternatives, but as an opportunity for creative engineering and product management work. Good increments aren't merely chosen, they are *designed*. In fact, I believe that increment design is among the most valuable skills that an engineer or product manager can develop.
 
