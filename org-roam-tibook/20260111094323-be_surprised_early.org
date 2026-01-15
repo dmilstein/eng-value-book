@@ -30,12 +30,7 @@ And if, early on, *everything is uncertain*, then you can make your first increm
 
 Throughout the book, we'll explore a wide variety of ways for engineers and product managers to work together to, first, identify the riskiest parts of an effort, and second, to sequence their work to extract any surprises as early as possible.
 
-
-** Use Future Decisions To Define Incremental Milestones
-
-# Define Incremental Milestones Around Future Decisions
-
-As a reminder, the entire reason we want to encounter our nasty surprises /early/ is so that the business as a whole can /adapt/, while there's still time to do so.
+Now, the entire reason we want to encounter our nasty surprises /early/ is so that the business as a whole can /adapt/, while there's still time to do so.
 
 Your team launches a major effort to build Product A, but, the moment you start, you discover that it's going to take at least five years to build, not the five months you had initially estimated. You're so glad you figured that out right away! You can now quickly work with the broader business to pivot to building Product B instead.
 
@@ -45,44 +40,64 @@ Which, a great deal of the time, will mean your stakeholder changing their plans
 
 # Easy, right?
 
-"But, Dan," I can hear you thinking, "in my experience stakeholders really, really don't like changing their plans? Am I supposed to tell my stakeholders to just be cool, or something? This whole idea seems kind of dead on arrival?"
+"But, Dan," I can hear you thinking, "my stakeholders really, really don't like changing their plans? Am I supposed to tell them to just be cool, or something? This whole idea seems kind of dead on arrival?"
+
 
 # If all engineers could say to their Important People was "Look, we can't really make plans, you'll just have to be ready to be unpleasantly surprised, at any moment," well, then those Important People would pretty justified in saying "I think I need some new engineers."
 
-Look, your concerns are totally valid. Just shoving uncertainty into your stakeholders face isn't going to help either your business or your career. If you're going to have to ask them to be ready to change their plans, it'd be really good if you could offer them /something/ in return.
+Look, these concerns are totally valid. Just shoving uncertainty into your stakeholders face isn't going to help either your business or your career. If you're going to have to ask them to be ready to change their plans, it'd be really good if you could offer them /something/ in return.
 
-Do you know what most stakeholders love?
+And, do you know what most stakeholders love?
 
-*Making decisions*.
+That's right, *making decisions*.
 
-Thus, instead of a fixed plan and a (false) statement of certainty, you can offer your stakeholder a *meaningful future decision*.
+** Use Future Decisions To Define Incremental Milestones
 
-In fact, you can define your entire first increment to *enable your stakeholder to make an important decision*. You create a specific milestone, with a specific future date attached, where your stakeholder will get to make that decision.
+# Define Incremental Milestones Around Future Decisions
 
-This is actually surprisingly straightforward! After all, you selected some specific first increment because it allowed you to test for some specific unpleasant surprise. Therefore you can also identify the specific /decision/ that will have to be made, if you /are/ surprised.
+Instead of a fixed plan and a (false) statement of certainty, you can offer your stakeholder a *meaningful future decision*.
+
+In fact, you can define your entire first increment to *enable your stakeholder to make an important decision*, at some date in the future. As a centerpiece of your increment design, you define a specific milestone, with a specific future date attached, where your stakeholder will get to make a specific decision.
+
+This is actually surprisingly straightforward! After all, you selected your first increment because it allowed you to test for some specific unpleasant surprise. Therefore you can also identify the specific decision that will have to be made, if you /are/ surprised.
 
 For example: when your team tries to build Product A, and you start by tackling that nasty data integration, you're doing so /because/ you might have to decide to pivot from A to B, if the data integration turns out to be a real bear.
 
-Although the effort to build the integration is unknown, the decision you would have to make is very much knowable.
+Although the effort to build the integration is unknown, the decision you might have to make is very much knowable.
 
-So you define your end-of-increment milestone in terms of that decision. You tell both the stakeholder and the team that the first increment of work will take *exactly* four weeks, and the objective is:
+You can tell both the stakeholder and the team that the first increment of work will take *exactly* four weeks, and the objective is:
 
-"In order for <insert stakeholder name> to decide if we should continue to try to build A, or should instead pivot to B, the team will share a report on what data they'll be able to actually extract from our key data integration."
+"In order for <insert stakeholder name> to decide if we should continue to try to build A, or should instead pivot to B, the team will share a report on what fields they'll be able to extract from our key data integration."
 
-You're promising the stakeholder that, at a *specific* moment in the future, they will get to make a decision.
+You're promising the stakeholder that, at a *specific* moment in the future, they will get to make a decision. You're being explicit with both them and the team about what evidence they will need, in order to make that decision.
 
-You're not saying "We can't make a plan, sorry!". You're saying "Here's a key thing we need to learn in order to empower you."
+This ahead-of-time focus on evidence has two excellent effects. First, it forces an upfront conversation with the stakeholder about what evidence they will need, to make their decision.
 
-and, before you get started, you have an explicit conversation about *what evidence* they will need to make their decision.
+# Perhaps the stakeholder says "Look, we don't need a lot of fields, I just need to know if we can get the customer's most recent purchase pulled over." Great, you say, and adjust the milestone to say "... the team will share an updated estimate of the time to build an integration that obtains a customer's most recent purchase."
 
-(This is a Decision Story, like, a User Story, which we'll return to later)
+Second, it allows the team to be creative in achieving the outcome. If they truly understand the decision they're empowering someone to make, they can cut the right corners to get there.
 
+Finally, focusing on a decision is incredibly useful for shrinking scope. Maybe four weeks in, there's still a lot of uncertainty about the data integration. Here's the thing: *someone will still need to make the "continue or pivot" decision.* You gather as much evidence as you can, and then sit down your stakeholder, and decide what to do next. You *can* reliably do that, on a precise future date.
+
+You're not saying "We can't make a plan, sorry!" You're saying "Here's a key piece of evidence we need to aquire, in order to empower you, and here's the exact time you'll see that evidence."
+
+# and, before you get started, you have an explicit conversation about *what evidence* they will need to make their decision.
+
+I'm using a specific format I call a Decision Story, very much inspired by User Stories:
+
+ - As a person in role x,
+
+ - in order to make decision y,
+
+ - I can review evidence z.
 
 ** Gradually Draw Stakeholders Into Repeated Decision-Making
-And that stakeholder is going to resist. They're going to *want* to make a single "big" decision up front -- "Do I fund this project or not?" Unfortunately, that simply does not work.
 
-To create valuable software, "the business" will have to make a series of business decisions, as the team builds and learns.
+So, steering into the biggest risks first, and defining milestones around decisions is all well and good.
 
+But stakeholders are going to resist. They're going to *want* to make a single "big" decision up front -- "Do I fund this project or not?" -- instead of steadily making decisions as they go.
+
+In my experience, having a big theoretical argument up front does not convince them.
 
 * Old Structure
 ** The Answer, I: Design Increments To Create Early Surprises
