@@ -89,7 +89,7 @@ What's an engineer to do? How should they get started on a project, when they do
 # It would be great if we lived in a world where engineers could commit to building something big and valuable, and then work incrementally to create it, in full confidence that they would ultimate deliver what they had promised.
 
 # But, of course, that's not the case.
-** Sadly, Blind Adherence To One Approach Will Not Save You
+** Unfortunately, Blind Adherence To One Approach Will Not Save You
 
 # A Variety Of Things That Always Work And Why They Don't Always Work
 
@@ -132,7 +132,7 @@ I want to help you answer this question, for your very own projects, embedded wi
 
 # The choice of how to shrink an overall effort down to a "first increment" is, in fact, incredibly important.
 
-** Increment Design Changed My Life
+** Living Without Fear
 
 # And I Want It To Change Yours
 
