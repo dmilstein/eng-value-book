@@ -3,12 +3,88 @@
 :END:
 #+title: Be Surprised Early
 #+filetags: :Chapter:
-* Early Surprises And The Incremental Creation Of Value
+* How To Create Value From Early Surprises
+
+# How To Be Surprised Early
+
+# How To Be Usefully Surprised Early
+
+# How To Be Valuably Surprised Early
+
+# How to win with early surprises
+
+# The be surprised early game plan
+
+# Turn surprises into decisions into value
+
+# Early Surprises And The Incremental Creation Of Value
 
 # Early Surprises Create Incremental Value
 
 # Be Surprised Early To Create Incremental Value
+** Order Increments By Degree Of Potential Surprise
 
+Engineers can't reliably estimate how long it will take them to build things. But they *can* usefully speak to the comparative degree of uncertainty in the various bits they need to build. They know certain things are "hard but fairly certain" -- it will take two months, but at the end of two months, or, like, maybe three, you'll have the thing. Whereas others are profoundly uncertain: it could take two weeks, it could take two months, it could be impossible.
+
+And if, early on, *everything is uncertain*, then you can make your first increment to build a little bit of "everything", specifically with a goal of learning where your biggest risks are.
+
+Throughout the book, we'll explore a wide variety of ways for engineers and product managers to work together to, first, identify the riskiest parts of an effort, and second, to sequence their work to extract any surprises as early as possible.
+
+
+** Use Future Decisions To Define Incremental Milestones
+
+# Define Incremental Milestones Around Future Decisions
+
+As a reminder, the entire reason we want to encounter our nasty surprises /early/ is so that the business as a whole can /adapt/, while there's still time to do so.
+
+Your team launches a major effort to build Product A, but, the moment you start, you discover that it's going to take at least five years to build, not the five months you had initially estimated. You're so glad you figured that out right away! You can now quickly work with the broader business to pivot to building Product B instead.
+
+In other words, an early surprise creates value if, /and only if/, your business as a whole changes their plans.
+
+Which, a great deal of the time, will mean your stakeholder changing their plans.
+
+# Easy, right?
+
+"But, Dan," I can hear you thinking, "in my experience stakeholders really, really don't like changing their plans? Am I supposed to tell my stakeholders to just be cool, or something? This whole idea seems kind of dead on arrival?"
+
+# If all engineers could say to their Important People was "Look, we can't really make plans, you'll just have to be ready to be unpleasantly surprised, at any moment," well, then those Important People would pretty justified in saying "I think I need some new engineers."
+
+Look, your concerns are totally valid. Just shoving uncertainty into your stakeholders face isn't going to help either your business or your career. If you're going to have to ask them to be ready to change their plans, it'd be really good if you could offer them /something/ in return.
+
+Do you know what most stakeholders love?
+
+*Making decisions*.
+
+Thus, instead of a fixed plan and a (false) statement of certainty, you can offer your stakeholder a *meaningful future decision*.
+
+In fact, you can define your entire first increment to *enable your stakeholder to make an important decision*. You create a specific milestone, with a specific future date attached, where your stakeholder will get to make that decision.
+
+This is actually surprisingly straightforward! After all, you selected some specific first increment because it allowed you to test for some specific unpleasant surprise. Therefore you can also identify the specific /decision/ that will have to be made, if you /are/ surprised.
+
+For example: when your team tries to build Product A, and you start by tackling that nasty data integration, you're doing so /because/ you might have to decide to pivot from A to B, if the data integration turns out to be a real bear.
+
+Although the effort to build the integration is unknown, the decision you would have to make is very much knowable.
+
+So you define your end-of-increment milestone in terms of that decision. You tell both the stakeholder and the team that the first increment of work will take *exactly* four weeks, and the objective is:
+
+"In order for <insert stakeholder name> to decide if we should continue to try to build A, or should instead pivot to B, the team will share a report on what data they'll be able to actually extract from our key data integration."
+
+You're promising the stakeholder that, at a *specific* moment in the future, they will get to make a decision.
+
+You're not saying "We can't make a plan, sorry!". You're saying "Here's a key thing we need to learn in order to empower you."
+
+and, before you get started, you have an explicit conversation about *what evidence* they will need to make their decision.
+
+(This is a Decision Story, like, a User Story, which we'll return to later)
+
+
+** Gradually Draw Stakeholders Into Repeated Decision-Making
+And that stakeholder is going to resist. They're going to *want* to make a single "big" decision up front -- "Do I fund this project or not?" Unfortunately, that simply does not work.
+
+To create valuable software, "the business" will have to make a series of business decisions, as the team builds and learns.
+
+
+* Old Structure
 ** The Answer, I: Design Increments To Create Early Surprises
 
 # The Answer, I: Be Surprised Early
