@@ -216,19 +216,58 @@ We won't try to *avoid* surprises through careful ahead-of-time planning. Instea
 
 And thus, when the engineers receive the inevitable unpleasant surprises from reality, the business as a whole will have time to adapt.
 
-In other words, we avoid disastrous surprises by breaking the link between "surprise" and "disaster". This is what the incredibly insightful Don Reinertsen calls "Changing the pay-off function". (he's also the incredibly mathematical and economics-focused Don Reinertsen, which I have learned maybe not everyone loves quite as much as I do? If you squint from the right angle, just about this entire book is operationalizing like, three dense, formula-laden pages of Reinertsen's masterpiece, The Principles of Product Development Flow)
+In other words, we avoid disastrous surprises by breaking the link between "surprise" and "disaster". This is what the incredibly insightful Don Reinertsen calls "Changing the pay-off function". (he's also the incredibly mathematical and economics-focused Don Reinertsen, which I have learned maybe not everyone loves quite as much as I do? If you squint from the right angle, just about this entire book is operationalizing the ideas in, like, three dense, formula-laden pages of Reinertsen's masterpiece, The Principles of Product Development Flow)
 
-The idea of "being surprised early" is easy to state, but is decidedly non-trivial to apply.
+Throughout the book, we'll explore a wide variety of ways for engineers and product managers to work together to, first, identify the riskiest parts of an effort, and second, to sequence their work to extract any surprises as early as possible.
 
-In the next chapter, we'll start to show how to generate early surprises on messy, real-world projects. We'll break the overall approach down into three distinct, related steps:
+** The Next Question: How To Manage Stakeholders And Surprises
 
- 1. Order Increments By Degree Of Potential Surprise
+# The Next Question: Stakeholders + Surprises = ?
 
- 2. Use Future Decisions To Define Incremental Milestones
+# But, of course, there's a problem.
 
- 3. Gradually Draw Stakeholders Into Repeated Decision-Making
+The entire reason we want to encounter our nasty surprises early is so that the business as a whole can adapt, while there's still time to do so. In other words, an early surprise creates value /if and only if/ your business changes their plans.
 
-Let's go!
+# Your team launches a major effort to build Product A, but, the moment you start, you discover that it's going to take at least five years to build, not the five months you had initially estimated. You're so glad you figured that out right away! You can now quickly work with the broader business to pivot to building Product B instead.
+
+Which, a great deal of the time, will mean your stakeholder changing their plans.
+
+# Easy, right?
+
+"But, Dan," I can hear you thinking, "I don't know about /your/ stakeholders, but let me tell you, /my/ stakeholders *really* don't like changing their plans.  Am I supposed to tell them to just be cool, or something? This whole idea seems kind of dead on arrival?"
+
+# Like it's maybe their least favorite thing?
+#  and they call it 'the engineers once again failed to do their goddamn job'?
+
+# If all engineers could say to their Important People was "Look, we can't really make plans, you'll just have to be ready to be unpleasantly surprised, at any moment," well, then those Important People would pretty justified in saying "I think I need some new engineers."
+
+These concerns are totally valid. Aggressively shoving uncertainty in your stakeholder's face isn't going to help either your business or your career. If you're going to have to ask them to be ready to change their plans, it'd be really good if you could offer them /something/ in return.
+
+# You're going to have to ask them to be ready to do something they don't really want to do: change their plans. Thus, it'd be really good if you could offer them /something/ in return.
+
+# Luckily, you can! In fact, you can offer them one of their very most favorite things. Because, you know what most stakeholders love?
+
+Luckily, you can! In fact, you can offer them something very powerful. If you steadily focus on turning up bad news early, you can, over the course of your project, offer your stakeholder the opportunity to make a series of *meaningful decisions*. Which is to say, a new and powerful way to do their job.
+
+Unfortunately, this way of working is, quite often, a shift for your stakeholder. So you're going to have to get them to gradually buy in.
+
+# You may have experienced your stakeholder as resisting making decisions.  In... most... cases, I have found that stakeholders are very happy to make decisions /if/ they feel like they understand what's going on, and are being offered meaningful options. Which is what we're going to focus on.
+
+In the next chapter we'll show how to a) turn the pursuit of early surprises into a sequence of meaningful decisions that your stakeholder gets to make, b) gradually persuade your stakeholder to join you in steadily making decisions throughout the life of your project.
+
+# *Making decisions*
+
+# The idea of "being surprised early" is easy to state, but is decidedly non-trivial to apply.
+
+# In the next chapter, we'll start to show how you can win by generating early surprises on the kind of messy, real-world projects we all work on, here in the real world. We'll break the overall approach down into three key concepts:
+
+#  1. Order Increments By Degree Of Potential Surprise
+
+#  2. Use Future Decisions To Define Incremental Milestones
+
+#  3. Gradually Draw Stakeholders Into Repeated Decision-Making
+
+# Let's go!
 * To move into preface/intro
 
 ** This Skill Changed My Life And I Want It To Change Yours
