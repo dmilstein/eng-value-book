@@ -3,12 +3,65 @@
 :END:
 #+title: Increment Design Book
 
+* Referral Email
+
+Subject: Know Any Engineers/PM's Learning To Lead "Large" Projects?
+
+Hello Friend,
+
+ - I've started work (in parallel!) on another book
+
+ - I've written a short, hopefully-useful [[https://helpthisbook.com/dashboard/3ec75cd9-47ad-4ef4-8888-ed8f68f5162b][excerpt]]
+
+ - I'm looking for some early readers
+
+ - I'm wondering if you or someone you know might find this excerpt useful
+
+*Details*
+
+The new book is for people who are learning to lead "large" software projects --- in particular, learning how to handle the demands for long-term estimates from stakeholders (when it feels totally impossible to be certain how long these complex efforts will actually take).
+
+I'm wondering if you know anyone who is, like, right in the middle of that challenge, and could thus potentially find this first chunk of ideas immediately useful.
+
+The excerpt is ~5,000 words, which should take about 25 minutes to read.
+
+If you know anyone, feel free to either:
+
+ - Email intro them to me
+
+ - Or, just share a [[https://helpthisbook.com/dashboard/3ec75cd9-47ad-4ef4-8888-ed8f68f5162b][link to the excerpt]] with them
+
+To be clear, I'd be very happy if /you/ wanted to read it, but I'm not sure you're the target audience, so I won't be hurt if you don't!
+
+The current title of the book is:
+
+*The Art of Increment Design*
+
+/How To Create Valuable Software Despite Bad Estimates, Misguided Specs, And Genuinely Terrifying Legacy Code/
+
+Thanks,
+
+Dan
+
+/But, Dan, aren't you writing another book? WTAF?/
+
+I jammed this out during while waiting for people to read an early draft of the first book, in order to keep myself from obsessing about whether or not they liked it.
+
+
+* Imagined Readers
+Who to imagine reading it?
+
+Stephen Wright?
+
+Margaret Geary?
+
+Younger Satoe?
+
 * Problem To Solve
 
 I'm an engineering leader (or a PM?), and I've got to deliver, but I don't know how long it will take, I'm sure we're going to have to change as we go, and I'm working on top of a pile of tech debt. And yet I'm supposed to commit.
 
 I... think that's right. Gotta figure out how to name the second problem.
-
 
 * Current Title
 
@@ -87,6 +140,8 @@ How To Create Value Despite Horrifyingly Incorrect Estimates, Dramatically Misgu
 
 How To Create Value Despite Bad Estimates, Misguided Specs, And Genuinely Terrifying Legacy Code
 
+How To Create Valuable Software Despite Bad Estimates, Misguided Specs, And Genuinely Terrifying Legacy Code
+
 * Thoughts!
 So, like, what if I start writing another book?
 
@@ -102,15 +157,6 @@ It'll also give me good practice at working in public earlier.
 Work backwards from a beta? Or try to teach it? But I mean, I've spent 10 years teaching it?
 
 Okay, let's say I indulge in not teaching it--but force myself to beta test super early. Solve one problem, and share.
-* Imagined Readers
-Who to imagine reading it?
-
-Stephen Wright?
-
-Margaret Geary?
-
-Younger Satoe?
-
 * Bits I Can Use
 ** [[file:~/Dropbox/Projects/TechInvestBook/substack/xxx-art-of-increment-design-I.org::*The Art of Increment Design, Part I: Help Us, Good Increments, You're Our Only Hope][Increment Design]] (from Substack)
 ** [[id:03D1870C-E583-4D5C-9589-5E0799793D48][Offer Decisions With Options & Off-Ramps]]
