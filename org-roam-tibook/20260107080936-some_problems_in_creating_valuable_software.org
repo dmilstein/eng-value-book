@@ -25,7 +25,7 @@ The time estimates produced by engineers are often so horribly wrong that the Re
 
 # whoosh by
 
-Meanwhile, the Rest Of The Business, despite their professions of certainty, are routinely so misguided in their beliefs about what they need that entire new systems are casually shitcanned moments after being built, leaving the engineers bitterly wondering why they wasted the last six months of their lives.
+Meanwhile, the Rest Of The Business, despite their professions of certainty, are routinely so misguided in their beliefs about what they need that entire new systems are ruthlessly shitcanned moments after being built, leaving the engineers bitterly wondering why they wasted the last six months of their lives.
 
 # , features or tools
 # completely thrown away [
@@ -33,7 +33,7 @@ Meanwhile, the Rest Of The Business, despite their professions of certainty, are
 
 # And, of course, most of the businesses that have the money to pay engineers, product managers and designers, have that money because, unfortunately, someone in the past built some piece of software which customers are now paying for, and that existing software has become encrusted with fragile special cases and opaque logic and endless amounts of confusing, subtly incorrect data. Also, every time an engineer breathes near that software, it breaks.
 
-And, of course, most of the businesses that have the money to pay engineers, product managers and designers, have that money because someone in the past built some piece of software that customers are now paying for, and which has to be considered as anything new is built, and that existing software has become encrusted with fragile special cases and opaque logic and endless amounts of confusing, subtly incorrect data. Also, every time an engineer breathes near that software, it breaks.
+And, of course, most of the businesses that have the money to pay engineers, product managers and designers, have that money because someone in the past built some piece of horrible software that customers are now paying for, and which has to be considered as anything new is built, and that existing software has become encrusted with fragile special cases and opaque logic and endless amounts of confusing, subtly incorrect data. Also, every time an engineer breathes near that software, it breaks.
 
 ** The Best And Only Option: Learn As We Go
 
@@ -121,6 +121,8 @@ I wish I could tell you, "Eh, it doesn't matter, just get moving!"
 
 /But I totally can't/. Each one of the above approaches *can* work great. But each can also lead, after a series of miserably unpleasant months, to a very unhappy conversation with your boss (possibly one involving a discussion of severance payments).
 
+# (possibly one involving moving you to a new team, or, worst case, to the team called "no longer works here").
+
 
 # There isn't one true sequence for building complex software.
 
@@ -128,15 +130,15 @@ I wish I could tell you, "Eh, it doesn't matter, just get moving!"
 
 # The choice of how to shrink an overall effort down to a sequence of increments is incredibly important.
 
-I want to help you answer this question, for your very own projects, embedded within your very own business.
+# I want to help you answer this question, for your very own projects, embedded within your very own business.
 
 # The choice of how to shrink an overall effort down to a "first increment" is, in fact, incredibly important.
 
-** Living Without Fear
+** Good Increments Allow You To Live Without Fear
 
 # And I Want It To Change Yours
 
-This book is a deep dive into how to break up a large body of engineering work into a sequence of small, safe, value-generating increments. Because both planning and executing on those increments requires partnership from people outside of engineering, we'll also explore how to gradually persuade business stakeholders to join you in working step-by-step.
+This book is a deep dive into how to break up a large body of engineering work into a sequence of small, safe, value-generating increments. And, because both planning and executing on those increments requires partnership from people outside of engineering, we'll also explore how to gradually persuade business stakeholders to join you in working step-by-step.
 
 # This book is a deep dive into how to break up a large body of engineering work into a series of smaller, safe, value-generating steps, while simultaneously persuading business stakeholders to join you in working step-by-step.
 

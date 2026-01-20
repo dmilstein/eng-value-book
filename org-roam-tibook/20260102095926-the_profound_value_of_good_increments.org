@@ -110,7 +110,7 @@ Unfortunately, before we answer that question, we must face a troubling truth.
 
 # Other Disastrous Surprises That Could Be Lying In Wait
 
-There isn't just /one/ potential disastrous surprise waiting, when we start a project. No, there are a wide variety of different ways reality might decide to rear up and suddenly bite us directly in the ass.
+There isn't just /one/ potential disastrous surprise waiting, when we start a project. No, there are a wide variety of different ways reality might decide to rear up and bite us directly in the ass.
 
 # a project might fail.
 
@@ -220,13 +220,13 @@ In other words, we avoid disastrous surprises by breaking the link between "surp
 
 Throughout the book, we'll explore a wide variety of ways for engineers and product managers to work together to, first, identify the riskiest parts of an effort, and second, to sequence their work to extract any surprises as early as possible.
 
-** The Next Question: How To Manage Stakeholders And Surprises
+** The Next Question: How To Share Surprises With Stakeholders
 
 # The Next Question: Stakeholders + Surprises = ?
 
 # But, of course, there's a problem.
 
-The entire reason we want to encounter our nasty surprises early is so that the business as a whole can adapt, while there's still time to do so. In other words, an early surprise creates value /if and only if/ your business changes their plans.
+Now, the entire reason we want to encounter our nasty surprises early is so that the business as a whole can adapt, while there's still time to do so. In other words, an early surprise creates value /if and only if/ your business changes their plans.
 
 # Your team launches a major effort to build Product A, but, the moment you start, you discover that it's going to take at least five years to build, not the five months you had initially estimated. You're so glad you figured that out right away! You can now quickly work with the broader business to pivot to building Product B instead.
 
@@ -247,13 +247,13 @@ These concerns are totally valid. Aggressively shoving uncertainty in your stake
 
 # Luckily, you can! In fact, you can offer them one of their very most favorite things. Because, you know what most stakeholders love?
 
-Luckily, you can! In fact, you can offer them something very powerful. If you steadily focus on turning up bad news early, you can, over the course of your project, offer your stakeholder the opportunity to make a series of *meaningful decisions*. Which is to say, a new and powerful way to do their job.
+Luckily, you can! In fact, you can offer them something very powerful. If you steadily focus on turning up bad news early, you can, over the course of your project, offer your stakeholder the opportunity to make lots of *meaningful decisions*. Which is to say, a new and powerful way to do their job. Instead of making One Big Decision up front ("Do I  approve this major project?"), they'll steadily make a series of smaller but extremely high leverage decisions throughout.
 
-Unfortunately, this way of working is, quite often, a shift for your stakeholder. So you're going to have to get them to gradually buy in.
+Unfortunately, this way of working is, quite often, a real shift for your stakeholder. So you're going to have to get them to gradually buy in.
 
 # You may have experienced your stakeholder as resisting making decisions.  In... most... cases, I have found that stakeholders are very happy to make decisions /if/ they feel like they understand what's going on, and are being offered meaningful options. Which is what we're going to focus on.
 
-In the next chapter we'll show how to a) turn the pursuit of early surprises into a sequence of meaningful decisions that your stakeholder gets to make, b) gradually persuade your stakeholder to join you in steadily making decisions throughout the life of your project.
+In the next chapter we'll show how to a) turn the pursuit of early surprises into a sequence of meaningful decisions that your stakeholder gets to make, while also b) gradually persuading your stakeholder to join you in making decisions throughout the life of your project.
 
 # *Making decisions*
 
