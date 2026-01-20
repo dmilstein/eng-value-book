@@ -3946,3 +3946,90 @@ CLOSED: [2026-01-01 Thu 10:18]
 :ARCHIVE_TODO: DONE
 :ARCHIVE_ITAGS: gtasks
 :END:
+
+* DONE First draft of introduction
+CLOSED: [2026-01-08 Thu 07:36]
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-01-19 Mon 09:51
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Increment Design
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+:LOGBOOK:
+CLOCK: [2026-01-07 Wed 07:59]--[2026-01-07 Wed 10:39] =>  2:40
+CLOCK: [2026-01-06 Tue 07:26]--[2026-01-06 Tue 10:30] =>  3:04
+CLOCK: [2026-01-05 Mon 10:21]--[2026-01-05 Mon 12:07] =>  1:46
+CLOCK: [2026-01-04 Sun 09:38]--[2026-01-04 Sun 12:23] =>  2:45
+CLOCK: [2026-01-03 Sat 09:00]--[2026-01-03 Sat 10:46] =>  1:46
+CLOCK: [2026-01-02 Fri 09:01]--[2026-01-02 Fri 10:47] =>  1:46
+:END:
+
+* DONE First draft second chapter
+CLOSED: [2026-01-08 Thu 10:16]
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-01-19 Mon 09:51
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Increment Design
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+:LOGBOOK:
+CLOCK: [2026-01-08 Thu 07:36]--[2026-01-08 Thu 09:07] =>  1:31
+:END:
+
+* DONE Experiment w/ moving fix out of Perils
+CLOSED: [2026-01-11 Sun 14:12]
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-01-19 Mon 09:51
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Increment Design
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+:LOGBOOK:
+CLOCK: [2026-01-11 Sun 08:59]--[2026-01-11 Sun 10:12] =>  1:13
+:END:
+
+* DONE Claude: visualize increments as path
+CLOSED: [2026-01-12 Mon 15:55]
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-01-19 Mon 09:51
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Increment Design
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+:LOGBOOK:
+CLOCK: [2026-01-12 Mon 15:11]--[2026-01-12 Mon 15:55] =>  0:44
+:END:
+As in, instead of a straight line that is broken up, it's finding a path through a web, or a set of hexes. Key is that, at each point, there's a *decision*.
+
+* DONE Tooling - split out word count tool?
+CLOSED: [2026-01-05 Mon 09:01]
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-01-19 Mon 09:51
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Increment Design
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+
+* DONE Decide: apply Lilli's feedback
+CLOSED: [2026-01-05 Mon 09:02]
+:PROPERTIES:
+:ARCHIVE_TIME: 2026-01-19 Mon 09:51
+:ARCHIVE_FILE: ~/Dropbox/Projects/TechInvestBook/tib-todos.org
+:ARCHIVE_OLPATH: Increment Design
+:ARCHIVE_CATEGORY: tib-todos
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: gtasks
+:END:
+Lili feedback -- it might be looping stakeholders in as you go, that is the key focus
+
+Like, that's what she really coaches people on

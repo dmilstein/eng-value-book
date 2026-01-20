@@ -329,43 +329,53 @@ Ala:
   3. Speak To Your Stakeholder's Human Experience
 
 * [[id:B8F21153-89FC-4B8B-8B0D-BBF4CC2C58C1][Increment Design]]                                :gtasks:
-** DONE First draft of introduction               :curweek:
-CLOSED: [2026-01-08 Thu 07:36]
+** DONE Draft a CTA ("what to learn next")        :curweek:
+CLOSED: [2026-01-19 Mon 10:17]
 :LOGBOOK:
-CLOCK: [2026-01-07 Wed 07:59]--[2026-01-07 Wed 10:39] =>  2:40
-CLOCK: [2026-01-06 Tue 07:26]--[2026-01-06 Tue 10:30] =>  3:04
-CLOCK: [2026-01-05 Mon 10:21]--[2026-01-05 Mon 12:07] =>  1:46
-CLOCK: [2026-01-04 Sun 09:38]--[2026-01-04 Sun 12:23] =>  2:45
-CLOCK: [2026-01-03 Sat 09:00]--[2026-01-03 Sat 10:46] =>  1:46
-CLOCK: [2026-01-02 Fri 09:01]--[2026-01-02 Fri 10:47] =>  1:46
+CLOCK: [2026-01-19 Mon 10:08]--[2026-01-19 Mon 10:17] =>  0:09
 :END:
-** DONE First draft second chapter                :curweek:
-CLOSED: [2026-01-08 Thu 10:16]
+** TODO Decide: beta w/ or w/out Chapter 3?       :curweek:
+Do I have enough to "solve one problem"?
+** TODO Finish rough draft of Chapter 3           :curweek:pom:
 :LOGBOOK:
-CLOCK: [2026-01-08 Thu 07:36]--[2026-01-08 Thu 09:07] =>  1:31
+CLOCK: [2026-01-20 Tue 08:52]
+CLOCK: [2026-01-18 Sun 10:45]--[2026-01-18 Sun 12:44] =>  1:59
+CLOCK: [2026-01-15 Thu 08:50]--[2026-01-15 Thu 10:31] =>  1:41
+CLOCK: [2026-01-14 Wed 07:49]--[2026-01-14 Wed 10:32] =>  2:43
+CLOCK: [2026-01-13 Tue 09:51]--[2026-01-13 Tue 10:27] =>  0:36
 :END:
+** DONE Draft email looking for referrals         :curweek:
+CLOSED: [2026-01-19 Mon 11:15]
+:LOGBOOK:
+CLOCK: [2026-01-19 Mon 10:17]--[2026-01-19 Mon 11:15] =>  0:58
+:END:
+Possibly also post to Substack?
+
+Engineers or product managers who are being asked to lead "big" projects and are feeling a bit overwhelmed. Actively looking for help in "estimating", and/or stakeholder management.
+
 ** TODO Make list of people to invite             :curweek:
 :LOGBOOK:
 CLOCK: [2026-01-09 Fri 08:23]--[2026-01-09 Fri 09:53] =>  1:30
 :END:
-** TODO Take a look at "next chapter"             :curweek:
-** TODO Draft email for invite
-** TODO Upload to HTB
-** TODO Fucking Ship it
+** TODO Draft email for invite                    :curweek:
+** TODO Upload to HTB                             :curweek:
+** TODO Fucking Ship it                           :curweek:
 
-** DONE Tooling - split out word count tool?
-CLOSED: [2026-01-05 Mon 09:01]
-** DONE Decide: apply Lilli's feedback
-CLOSED: [2026-01-05 Mon 09:02]
-Lili feedback -- it might be looping stakeholders in as you go, that is the key focus
-
-Like, that's what she really coaches people on
-** Review [[id:03D1870C-E583-4D5C-9589-5E0799793D48][Mstones/Decisions]] chapter
-*** TODO Break out Design Milestones chapter?
-*** TODO Review Ell Milestones doc for ideas
+** TODO Touch on "research" vs "building"
+** TODO Review [[id:03D1870C-E583-4D5C-9589-5E0799793D48][Mstones/Decisions]] chapter
+** TODO Break out Design Milestones chapter?
+** TODO Review Ell Milestones doc for ideas
 
 * [[id:9410A7DC-111C-4791-B8A1-C20867904251][Unstuck Beta]]                                    :gtasks:
-** TODO Decide who, if anyone, to nudge           :curweek:
+** TODO Let Edmund know beta is closing soon      :curweek:
+** TODO Matt/Caroline/Bennett: beta closing soon  :curweek:
+** TODO Start collecting notes/ideas              :curweek:
+** TODO Sketch in ideas for shorter Beta w/ CTA
+** TODO For Unstuck Beta, move feelings later?
+It looks like people might be jumping ahead to Compelling Offer, maybe tese with that, then come back to figuring out feelings, so it's motivated?
+
+Like, maybe but also: https://helpthisbook.com/dashboard/3ec75cd9-47ad-4ef4-8888-ed8f68f5162b/experience has weirdly different data?
+** TODO Decide who, if anyone, to nudge
 ** TODO Review HTB Tables of Contents
 * [[id:B4926308-39DD-471B-8E71-5FFF7546D6E3][ToC/Structure ]]                                  :gtasks:
 ** TODO Experiment: Move Quin story to separate chapters?
@@ -405,6 +415,21 @@ To deploy authority.
 As means to face fears from stakeholders
 * [[id:49E66E86-CE83-447E-87C2-3BFF3D8FE42E][Teach/Coach]]                                     :gtasks:
 * [[id:49435FCD-0590-44DE-8FC7-585E7BCC8BB2][Book Tooling]]
+** TODO Rework watch-section.sh                   :curweek:
+Support multiple previews at once.
+
+E.g. so I can read the end of one chapter and start of next.
+
+Make the preview HTML filename reflect the underlying org mode filename, boom. I mean, I have a two second effort to find the file URL (can even make the script output it), but that's like trivial to do.
+
+While at it, make the previe script default to entire first section
+
+As in, if there's no section passed in, just grab the first one (= whole chapter)
+
+Strip out the timing bits and the log
+
+What does current-edit.org then do? Can I extract a list of things to update, and just continually build all of them? Rethink as a Makefile?
+
 ** TODO Hours writing: add trailing month avg / week
 ** TODO Claude: rework wc graph use other tooling
 Specifically, to use what I use for watch_book.sh which is doing what I want.
@@ -412,8 +437,6 @@ Specifically, to use what I use for watch_book.sh which is doing what I want.
 ** TODO Spike: word count credit in graph for scraps
 So that I don't have weird incentives to keep bad writing in.
 ** TODO Edmund: hours not words?
-** TODO Spike: Hours not (or plus?) words as dopamine
-E.g. is now the time to start logging w/ org?
 ** TODO Aider: split chapter count into two options
 then show them side by side
 
@@ -425,6 +448,8 @@ So I can either run full screen or within 80 columns
 Because now my wordcount history stuff is sensitive to those being missing.
 ** TODO Create a new chapter template or abbrev?
 * Book Misc                                       :gtasks:
+** TODO Review [[https://useful.notion.site/beta-reading-mini-course][Beta Reading Mini-Course]]
+** TODO Review [[https://www.usefulbooks.com/learn/director-commentary][footnote alternatives]] from Useful Books
 ** TODO Put my Art of Increment design substack post somewhere
 ** TODO For Address Fears Directly, move the flashing lights warning up
 ** TODO Rename ReMotor to ReMotr?
