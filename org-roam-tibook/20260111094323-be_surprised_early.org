@@ -3,7 +3,8 @@
 :END:
 #+title: Be Surprised Early
 #+filetags: :Chapter:
-* How To Create Value From Early Surprises
+* How To Win With Early Surprises
+# How To Create Value From Early Surprises
 
 # How To Be Surprised Early
 
@@ -22,74 +23,85 @@
 # Early Surprises Create Incremental Value
 
 # Be Surprised Early To Create Incremental Value
+** Intro
+
+To review: if you're trying to create valuable software, you win by uncovering unpleasant surprises as early as possible. You then share those surprises with your business counterparts, so that, together, you can decide what to do next. You don't do this just once as a project starts. Instead, you continuously seek surprises as you build. This allows you to steadily offer meaningful decisions to your business counterparts, so that, together, you're able to gradually hone in on something that is /extremely/ valuable to your business.
+
+In this chapter, we'll explore three key facets of this approach:
+
+ 1. *Order increments by degree of potential surprise*
+
+    Instead of asking the engineers to *only* estimate how long it will take to accomplish various sub-tasks of an overall effort, you *also* work with them to identify which of those sub-tasks has the greatest potential to blow up the project.
+
+    You then start by building the things which are most likely to generate the worst surprises.
+
+ 2. *Use future decisions to define milestones*
+
+    Once you've decided what to build first, you create a crisp, actionable milestone by identifying a future decision that your stakeholder will get to make, once your first increment is complete. Although you /can't/ know ahead of time if things will blow up or not, you /can/ define the decision you'll have to make if you hit a snag.
+
+    The team can then explicitly work backwards from supporting the stakeholder in making that future decision.
+
+    #  (which will allow them to find creative tradeoffs to stay on track).
+
+    # By focusing on a decision you create clarity for your stakeholder, while also ensuring flexibility for the team.
+
+ 3. *Gradually draw stakeholders into repeated decision-making*
+
+    Instead of front-loading an economics lecture about the value of information (which I can tell you from personal experience, super does not work), you identify and clearly share one key decision to start with. You then gather evidence to support your stakeholder in making that one decision. Having done so, you then frame the next, gather evidence as you build, and repeat.
+
+    Over time, you'll gradually draw your stakeholder into making a sequence of decisions with you, building trust and rapport as you go.
+
+Let's dig in.
+
 ** Order Increments By Degree Of Potential Surprise
 
-Engineers can't reliably estimate how long it will take them to build things. But they *can* usefully speak to the comparative degree of uncertainty in the various bits they need to build. They know certain things are "hard but fairly certain" -- it will take two months, but at the end of two months, or, like, maybe three, you'll have the thing. Whereas others are profoundly uncertain: it could take two weeks, it could take two months, it could be impossible.
+Engineers can't reliably estimate how long it will take them to build things. But they *can* usefully speak to the comparative degree of uncertainty in their various estimates. They know certain things are "hard but not risky": when they estimate two months, it might take three, it might, if literally everything goes wrong, even take four. But you don't have to worry about it taking ten years.
 
-And if, early on, *everything is uncertain*, then you can make your first increment to build a little bit of "everything", specifically with a goal of learning where your biggest risks are.
+Other sub-tasks are /profoundly/ uncertain: when they estimate two months, it could take a full year, it could also be flat-out impossible.
 
-Throughout the book, we'll explore a wide variety of ways for engineers and product managers to work together to, first, identify the riskiest parts of an effort, and second, to sequence their work to extract any surprises as early as possible.
+Thus, you can sit down with a team of engineers, present a high-level picture of a desired piece of software, and ask them to do three things:
 
-Now, the entire reason we want to encounter our nasty surprises /early/ is so that the business as a whole can /adapt/, while there's still time to do so.
+ - Break out a set of distinct pieces they'll need to build
 
-Your team launches a major effort to build Product A, but, the moment you start, you discover that it's going to take at least five years to build, not the five months you had initially estimated. You're so glad you figured that out right away! You can now quickly work with the broader business to pivot to building Product B instead.
+ - Develop a very rough estimate of how long each piece will take
 
-In other words, an early surprise creates value if, /and only if/, your business as a whole changes their plans.
+ - Identify the two or three pieces that have the greatest possibility of blowing up in painful ways
 
-Which, a great deal of the time, will mean your stakeholder changing their plans.
+There's a good bit of art to this, that we'll return to in later chapters. E.g. what if your biggest potential surprise is whether or not the overall system can handle the full fury of production load? What "part" of the system is that? There are lovely answers to this question, that we'll return to in case studies later.
 
-# Easy, right?
+But can you almost always get a ton of value by simply taking your current project breakdowns, and engaging in an explicit conversation around the risks of each sub-estimate blowing up.
 
-"But, Dan," I can hear you thinking, "my stakeholders really, really don't like changing their plans? Am I supposed to tell them to just be cool, or something? This whole idea seems kind of dead on arrival?"
+You then set your first increment as building something that will steer right into the biggest risks. Usually, that means, starting by building the components the engineers are most "worried about". Again, there's interesting art to this! It may feel impossible to build those things in that sequence. There are clever ways to do this as well, by leaning on our second key idea: defining the outcome of the increment as supporting a decision.
 
-
-# If all engineers could say to their Important People was "Look, we can't really make plans, you'll just have to be ready to be unpleasantly surprised, at any moment," well, then those Important People would pretty justified in saying "I think I need some new engineers."
-
-Look, these concerns are totally valid. Just shoving uncertainty into your stakeholders face isn't going to help either your business or your career. If you're going to have to ask them to be ready to change their plans, it'd be really good if you could offer them /something/ in return.
-
-And, do you know what most stakeholders love?
-
-That's right, *making decisions*.
+You're not asking engineers to build a perfect, fully functioning component, somehow isolated and hanging in space. You're asking them to build "just enough" of that component to understand if it's going to blow up or not. To create /evidence/. Given that charge, engineers can come up with very creative ways to build components in oddball sequences.
 
 ** Use Future Decisions To Define Incremental Milestones
 
 # Define Incremental Milestones Around Future Decisions
 
-Instead of a fixed plan and a (false) statement of certainty, you can offer your stakeholder a *meaningful future decision*.
+Having selected your first increment, you're now going to create a meaningful outcome for that increment, which you'll use to bootstrap your collaboration with your stakeholder.
 
-In fact, you can define your entire first increment to *enable your stakeholder to make an important decision*, at some date in the future. As a centerpiece of your increment design, you define a specific milestone, with a specific future date attached, where your stakeholder will get to make a specific decision.
+# This will be something your stakeholder cares about *and* that your engineers will be happy to be held accountable to.
 
-This is actually surprisingly straightforward! After all, you selected your first increment because it allowed you to test for some specific unpleasant surprise. Therefore you can also identify the specific decision that will have to be made, if you /are/ surprised.
+# Instead of a fixed plan and a (false) statement of certainty, you can offer your stakeholder a *meaningful future decision*.
 
-For example: when your team tries to build Product A, and you start by tackling that nasty data integration, you're doing so /because/ you might have to decide to pivot from A to B, if the data integration turns out to be a real bear.
+Specifically, you define the key outcome for your first increment as *enabling your stakeholder to make a specific important decision*, at some date in the future.
 
-Although the effort to build the integration is unknown, the decision you might have to make is very much knowable.
+For example: say a team of engineers has been asked to add a Sexy New Feature to the clinical support system their company sells to medical practices. The team sits down and develop an estimate: it looks like it will take six to nine months. They then talk about degrees of potential surprise, and, in so doing, identify one major risk: building the Sexy New Feature requires obtaining a new bit of data from patient's insurance companies, at time of initial patient intake. The engineers are genuinely unclear on whether or not they'll be able to get that data, and if so, from how many insurance companies. They fear there might be some very nasty surprises lurking in there.
 
-You can tell both the stakeholder and the team that the first increment of work will take *exactly* four weeks, and the objective is:
+They decide that, for this increment, their Product Manager, Alina, is their stakeholder. The tech lead for the team therefore defines the key milestone for their first increment as follows:
 
-"In order for <insert stakeholder name> to decide if we should continue to try to build A, or should instead pivot to B, the team will share a report on what fields they'll be able to extract from our key data integration."
+ - In order for Alina to decide whether or not to build the Sexy New Feature,
 
-You're promising the stakeholder that, at a *specific* moment in the future, they will get to make a decision. You're being explicit with both them and the team about what evidence they will need, in order to make that decision.
+ - she will, in four weeks time, be able to review a summary of how often we can obtain the key data at time of intake
 
-This ahead-of-time focus on evidence has two excellent effects. First, it forces an upfront conversation with the stakeholder about what evidence they will need, to make their decision.
+This is an extremely clear and actionable milestone. The team will need to start building exploratory bits of new ingestion logic, they'll need to be creative in running those across multiple insurance companies. Note that it's not exactly a "research" outcome. It's an incremental building outcome, specifically designed to enable decision-making as you go.
 
-# Perhaps the stakeholder says "Look, we don't need a lot of fields, I just need to know if we can get the customer's most recent purchase pulled over." Great, you say, and adjust the milestone to say "... the team will share an updated estimate of the time to build an integration that obtains a customer's most recent purchase."
+It also forces a conversation with Alina. Both about the key decision to make, and about what evidence she'll need to make it.
 
-Second, it allows the team to be creative in achieving the outcome. If they truly understand the decision they're empowering someone to make, they can cut the right corners to get there.
+Finally, focusing on a decision is incredibly useful for shrinking scope. Maybe four weeks in, there's still a lot of uncertainty about the data integration. Here's the thing: *someone will still need to make the "pivot or continue" decision.* You gather as much evidence as you can, and then sit down your stakeholder, and decide what to do next. You *can* reliably do that, on a precise future date.
 
-Finally, focusing on a decision is incredibly useful for shrinking scope. Maybe four weeks in, there's still a lot of uncertainty about the data integration. Here's the thing: *someone will still need to make the "continue or pivot" decision.* You gather as much evidence as you can, and then sit down your stakeholder, and decide what to do next. You *can* reliably do that, on a precise future date.
-
-You're not saying "We can't make a plan, sorry!" You're saying "Here's a key piece of evidence we need to aquire, in order to empower you, and here's the exact time you'll see that evidence."
-
-# and, before you get started, you have an explicit conversation about *what evidence* they will need to make their decision.
-
-I'm using a specific format I call a Decision Story, very much inspired by User Stories:
-
- - As a person in role x,
-
- - in order to make decision y,
-
- - I can review evidence z.
+Thus, instead of saying "We can't make a plan, sorry!", you're saying "In order to empower you, we need to acquire a key piece of evidence, and here's the exact time you'll see some evidence."
 
 ** Gradually Draw Stakeholders Into Repeated Decision-Making
 
@@ -98,6 +110,31 @@ So, steering into the biggest risks first, and defining milestones around decisi
 But stakeholders are going to resist. They're going to *want* to make a single "big" decision up front -- "Do I fund this project or not?" -- instead of steadily making decisions as they go.
 
 In my experience, having a big theoretical argument up front does not convince them.
+
+** Preview Of Coming Attractions
+
+Hello, Beta Reading Person, Dan here.
+
+First off, thanks so much for making it through to the end (or to jumping ahead to this moment out of curiosity!).
+
+Second off, a request and an offer.
+
+The request:
+
+It's crazy valuable for me to hear first-hand about your reading experience. Thus, if you're interested, I'd love to hop on a brief zoom call with you to talk it out.
+
+The offer:
+
+As a sweetener for the deal, I'd be happy to spend a good chunk of that call brainstorming with you about how to apply the ideas of the book to your exact circumstances. I love doing that kind of collaborative thinking (and it helps me understand how well the ideas have landed, etc).
+
+(Also, by all reports, I'm very nice)
+
+If such a call sounds potentially valuable to you, please feel free to drop me an email at dan@dan-milstein.com. Just mention that you finished the beta of The Art of Increment Design and would be interested in discussing how to apply the ideas from the book.
+
+Thanks,
+
+-Dan
+
 
 * Old Structure
 ** The Answer, I: Design Increments To Create Early Surprises
@@ -246,3 +283,73 @@ That's a *concrete goal*.
 
 # The Answer, Part II: Make A Series Of Decisions
 * Scraps
+** Ordering Concerns
+Like, how can we build the risky data matching and ingestion bits before we've built new production integrations with our customerse? There are clever ways to do this as well, because our first key outcome is to support a decision (e.g. if the biggest risk is around the data matching, not the actual integrations, then "manually" download a bunch of data files from customers, and then use those as a reference to start to build your matching and ingestion logic, and see what you find).
+
+Finally, if they engineers are feeling like *everything is uncertain*, then you can make your first increment to build a little bit of "everything", specifically with a goal of learning where your biggest risks are. You're going to support the business by fleshing out your picture just a bit.
+
+** Old End of Use Future Decisions
+
+This is actually surprisingly straightforward! After all, you selected your first increment because it allowed you to test for some specific unpleasant surprise. Therefore you can also identify the specific decision that will have to be made, if you /are/ surprised.
+
+For example: when your team tries to build Product A, and you start by tackling that nasty data integration, you're doing so /because/ you might have to decide to pivot from A to B, if the data integration turns out to be a real bear.
+
+Although the effort to build the integration is unknown, the decision you might have to make is very much knowable.
+
+You can tell both the stakeholder and the team that the first increment of work will take *exactly* four weeks, and the objective is:
+
+"In order for <insert stakeholder name> to decide if we should continue to try to build A, or should instead pivot to B, the team will share a report on what fields they'll be able to extract from our key data integration."
+
+You're promising the stakeholder that, at a *specific* moment in the future, they will get to make a decision. You're being explicit with both them and the team about what evidence they will need, in order to make that decision.
+
+This ahead-of-time focus on evidence has two excellent effects. First, it forces an upfront conversation with the stakeholder about what evidence they will need, to make their decision.
+
+# Perhaps the stakeholder says "Look, we don't need a lot of fields, I just need to know if we can get the customer's most recent purchase pulled over." Great, you say, and adjust the milestone to say "... the team will share an updated estimate of the time to build an integration that obtains a customer's most recent purchase."
+
+Second, it allows the team to be creative in achieving the outcome. If they truly understand the decision they're empowering someone to make, they can cut the right corners to get there.
+
+Finally, focusing on a decision is incredibly useful for shrinking scope. Maybe four weeks in, there's still a lot of uncertainty about the data integration. Here's the thing: *someone will still need to make the "continue or pivot" decision.* You gather as much evidence as you can, and then sit down your stakeholder, and decide what to do next. You *can* reliably do that, on a precise future date.
+
+You're not saying "We can't make a plan, sorry!" You're saying "Here's a key piece of evidence we need to aquire, in order to empower you, and here's the exact time you'll see that evidence."
+
+# and, before you get started, you have an explicit conversation about *what evidence* they will need to make their decision.
+
+I'm using a specific format I call a Decision Story, very much inspired by User Stories:
+
+ - As a person in role x,
+
+ - in order to make decision y,
+
+ - I can review evidence z.
+
+** The Tale Of Teresita And The Automated Intake
+
+Teresita Carlotta Torres is an engineer at OrthoMedica, a SaaS business that sells clinical support systems to sports medicine practices all across the country. Her team owns the patient intake process, from the moment a patient calls in, until the moment a provider sits down with them to discuss their case. Because Teresita has done such a strong job of executing on various gnarly bits of intake, she has recently been promoted to Senior Software Engineer. As part of that promotion, she's been asked to play the tech lead role for her team of four engineers.
+
+Teresita is excited by this new challenge, but also a bit nervous. She's generally been on the receiving end of large-scale project break downs, and now it's her turn to lead that process.
+
+One day, Vivek, her product manager, pokes his head out of an all-day annual planning meeting and quickly asks if Teresita can block an hour the next day to "talk something out." Somewhat nervously, she agrees.
+
+When they meet, Vivek, speaking in his measured way, lays out a new feature the exec team wants them to build this year: automated patient histories. At time of initial intake, OrthoMedica will obtain and scan through the patient's history of injuries and then use that to create a clear timeline for the treatment team.
+
+Teresita's mind fills with considerations of all the various bits they'd need to build.
+
+"So," asks Vivek, breaking in on her thoughts, "does that sound like something we can likely get done this year? Just at a high level?"
+
+Teresita feels a spike of anxiety flood through her. Some part of her wants to say "Yes," right away. After all, she's gotten promoted in no small part because of her ability to "find a way". But she also knows her team has been very badly burned by casually-made estimates.
+
+She decides to just be honest. "I don't know. We'd have to dig in, in some real detail, to make a good estimate."
+
+Vivek shrugs. "I don't need a firm commitment, I'd just like to talk it out, get a sense of what I can tell Rory."
+
+This does nothing to calm Teresita. Rory, the head of sales, is notorious for taking vague conversations about possible features and then simply claiming those features already exist in order to close deals. She fears Vivek is trying to earn goodwill with the exec team, by giving Rory grist for this particular mill.
+
+She decides to buy time. "Can we talk it out with the team first?"
+
+Vivek agrees, though Teresita can't shake the feeling that he's a bit disappointed. Maybe he thinks tech leads are supposed to give this kind of casual estimate? Maybe they're supposed to?
+
+
+* Todos
+** TODO Spike: tell a story
+** TODO Pivot to making intake more efficient in another way
+They create an ahead-of-time survey of the patient.
