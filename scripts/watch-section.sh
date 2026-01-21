@@ -112,8 +112,40 @@ export_section() {
 
         local title="$HEADING"
     else
-        # Use entire file
-        cp "$ORG_FILE" /tmp/section.org
+        # Extract first top-level org item
+        awk '
+        BEGIN {
+            in_section = 0
+            level = 0
+            found = 0
+        }
+        /^\*+ / {
+            current_level = gsub(/\*/, "&")
+            
+            if (!found) {
+                # This is the first heading - start capturing
+                in_section = 1
+                level = current_level
+                found = 1
+                print $0
+            } else if (in_section && current_level <= level) {
+                # Found another heading at same or higher level - stop
+                exit
+            } else if (in_section) {
+                # Still in the section, print it
+                print $0
+            }
+            next
+        }
+        in_section { print $0 }
+        ' "$ORG_FILE" > /tmp/section.org
+
+        if [ ! -s /tmp/section.org ]; then
+            echo "Warning: No top-level heading found in file"
+            echo "<h1>No Content Found</h1><p>Could not find any top-level heading in the file</p>" > "$OUTPUT_FILE"
+            return
+        fi
+
         # Extract the first heading from the file for the title
         local title=$(awk '/^\*+ / { gsub(/^\*+ */, ""); gsub(/ *$/, ""); print; exit }' "$ORG_FILE")
         if [ -z "$title" ]; then
