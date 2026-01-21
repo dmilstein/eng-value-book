@@ -4,25 +4,6 @@
 #+title: Be Surprised Early
 #+filetags: :Chapter:
 * How To Win With Early Surprises
-# How To Create Value From Early Surprises
-
-# How To Be Surprised Early
-
-# How To Be Usefully Surprised Early
-
-# How To Be Valuably Surprised Early
-
-# How to win with early surprises
-
-# The be surprised early game plan
-
-# Turn surprises into decisions into value
-
-# Early Surprises And The Incremental Creation Of Value
-
-# Early Surprises Create Incremental Value
-
-# Be Surprised Early To Create Incremental Value
 ** Intro
 
 To review: if you're trying to create valuable software, you win by uncovering unpleasant surprises as early as possible. You then share those surprises with your business counterparts, so that, together, you can decide what to do next. You don't do this just once as a project starts. Instead, you continuously seek surprises as you build. This allows you to steadily offer meaningful decisions to your business counterparts, so that, together, you're able to gradually hone in on something that is extremely valuable to your business.
@@ -107,7 +88,7 @@ Teresita Carlotta Torres is the tech lead for a team of engineers at OrthoMedica
 
 The next day, Teresita sits down with the other engineers and, together, they map out the various things they'll need to build. Then, they come up with an estimate: if everything goes right, it should take something like six to nine months.
 
-Instead of immediately sharing this estimate with Alina, Teresita now leads a pre-mortem conversation. She invokes an imagined future where everything has gone wrong, and uses that to surface risks, concerns and questions. Surprisingly quickly, all the engineers agree that there's one central risk: building the Exciting New Feature as planned will require obtaining a new bit of data from patients' insurance companies. The engineers are genuinely uncertain how many insurance companies actually track and share that piece of data. They fear there might be some very nasty surprises lurking in that part of their plan.
+Instead of immediately sharing this estimate with Alina, Teresita now leads a pre-mortem conversation. She playfully invokes an imagined future where everything has gone wrong, and uses that to surface risks, concerns and questions. Surprisingly quickly, all the engineers agree that there's one central risk: building the Exciting New Feature as planned will require obtaining a new bit of data from insurance companies. The engineers are genuinely uncertain how many insurance companies actually track and share that piece of data. They fear there might be some very nasty surprises lurking in that part of their plan.
 
 That afternoon, Teresita shares this central concern with Alina, and, together, they define the milestone for their first increment as:
 
@@ -115,19 +96,21 @@ That afternoon, Teresita shares this central concern with Alina, and, together, 
 
  - she will, in four weeks time, be able to review a summary of how often OrthoMedica can obtain the key data at time of intake.
 
-Creating this milestone forced an early conversation with Alina about both the key future decision to make /and/ about what evidence she'll need to make it. Teresita had to explain enough about how the key data could impact their plans for Alina to be able to cleanly define the evidence she'd want to review. That also allows Alina to start thinking, now, about how she might adjust the product design if the dice land wrong. Note that, by picking out a top risk, Teresita was able to choose a single thing to go deep on with Alina. There are a dozen other nuanced technical questions that she /doesn't/ bring up, at this point.
+Creating this milestone forces an early conversation with Alina about both the key future decision to make /and/ about what evidence she'll need to make it. Teresita has to explain enough about how the key data could impact their plans for Alina to be able to cleanly define the evidence she'll want to review. That also allows Alina to start thinking, now, about how she might adjust the product design if the dice land wrong. Note that, by picking out a top risk, Teresita was able to choose a /single/ thing to go deep on with Alina. There are a dozen other nuanced technical questions that she /doesn't/ bring up, at this point.
 
-Once this milestone is set, what will the team do? Well, the next day, the engineers start building exploratory bits of new ingestion logic. Two weeks in, one of the engineers finds a creatively scrappy way to run their new logic across multiple insurance companies, even the ones for whom they don't yet have production-quality connections. Throughout the month, they're talking continually with Alina, to make sure they're honing in on a "summary" that is genuinely useful to her.
+** How The First Increment Unfolds
+
+The next day, the engineers start building exploratory bits of new ingestion logic. Two weeks in, one of the engineers finds a creatively scrappy way to run their new logic across multiple insurance companies, even the ones for whom they don't yet have production-quality connections. Throughout the month, they're talking continually with Alina, to make sure they're honing in on a "summary" that is genuinely useful to her.
 
 Note that what they're doing isn't just research. They're genuinely /starting to build/ the Exciting New Feature. The exploratory ingestion coding is work that would need to get done at some point, they're just doing it /first/.
 
-Four weeks in, they sit down with Alina and go through all the nuances of what they've found. She asks dozens of questions, because she's been able to educate herself on this data field and its ramifications for the overall product design. It turns out that the data is /not/ consistently available, so they won't be able to build the feature as planned. But Alina now has a backup plan prepared -- they can, even if they can't fully automate these intake steps, still streamline them considerably, by collecting data from patients ahead of time.
+Four weeks in, they sit down with Alina and go through all the nuances of what they've found. She asks dozens of questions, because she's been able to educate herself on this data field and its ramifications for the overall product design. It turns out that the data is /not/ consistently available, so they won't be able to build the feature as planned. But Alina now has a few backup plans prepared -- they can, even if they can't fully automate these intake steps, still streamline them considerably, by collecting data from patients ahead of time.
 
 But... how has Alina managed the leadership team during this month? They wanted a commitment for their annual planning. What did she tell them? We'll turn to that in our next section.
 
 Before we move on, we'll note two things.
 
-First, if the team hadn't run the pre-mortem, they would have made this discovery much later, and the resulting nasty surprise would have sunk the project. Specifically, before the pre-mortem, Alina had been planning on asking the team to build the front-end first, so she could demo it to both users and leadership.
+First, if the team /hadn't/ run the pre-mortem, they would have made this discovery much later, and the resulting nasty surprise would have sunk the project. Specifically, before the pre-mortem, Alina had been planning on asking the team to build the front-end first, so she could demo it to both users and leadership.
 
 Second, setting milestones around decisions offers an extremely powerful tool for staying on track. Imagine that four weeks in, the team still didn't know whether or not they could consistently get the new data. Here's the thing: /someone would still need to make the "pivot or continue" decision./ The team will gather as much evidence as they can, and then sit down with Aina to decide what to do next. The team *can* reliably commit to supporting that decision, on a precise future date. They may not have as much evidence as they hoped, but they can still offer Alina a meaningful decision -- even if one of the arms of that decision is now "Continue to learn more."
 
@@ -137,35 +120,59 @@ Second, setting milestones around decisions offers an extremely powerful tool fo
 
 Eagerly seeking surprises and defining milestones around future decisions are powerful ways to unlock incremental decision making for your business---which is at the heart of creating value in the face of uncertainty.
 
-But... many stakeholders will resist working this way. They want, often intensely, to make a single, big decision up front -- "Do I fund this project or not?" -- instead of steadily making decisions as the work unfolds.
+But... many stakeholders will resist working this way. They don't want to make "incremental decisions". They want, in essence, to make a single, big decision up front -- "Do I fund this project or not?" -- instead of steadily making decisions as the work unfolds.
 
-What should you do?
+When confronted with such a stakeholder, what should you do?
 
-Well, luckily, having conducted extensive experiments, and can tell you one thing to /not/ do: have a big theoretical argument up front.
+Well, you could try to explain the value of information, in clear, rational, economic terms. This works (checks notes), /never/. I've personally tried this, like, a lot, and I'm batting zero for a thousand.
 
-Instead, your best bet is to:
+# And I am, I am told, super charming and persuasive!
 
- - Probe for the underlying reason they want to run your project
+You could just stall and refuse to make any solid commitments. But that doesn't have a great track record, either. Important People will perceive this kind of stalling as an unwillingness to take ownership. They (rightfully!) consider taking ownership as a key behavior of their best team members. You want to be one of those best team members!
 
- - Signal your commitment to accomplishing that underlying thing
+Here's what you /can/ do: offer to take ownership over the underlying /problem/ they're trying to solve, instead of promising to deliver one specific /solution/ to that problem by a fixed date. You can then position your first incremental "decision milestone" as part of working with them to solve that underlying problem.
 
- - Clearly articulate the first key decision
+Once you get some early, tentative buy-in, you work to ensure the first decision feels *empowering* to your stakeholder. That positive experience makes it easier for them to agree to a next decision milestone. Eventually, you can build real trust and rapport, and work with your stakeholders to map out an entire large effort in terms of risks and options.
 
- - Run your first increment
+Digging beneath proposed solutions to underlying problems is at the heart of product management, but I find that engineers need to be able to deploy that approach plenty often. At many companies, the engineers experience the product team /as/ their stakeholders, and are constantly struggling with requests for estimates and commitments from product. In such cases, they engineers will need to run this game plan themselves, in some form.
 
- - Offer them the decision
+Let's see how this might look for our story.
 
- - Now articulate the next key decision, and loop back
+** Alina Identifies A Key First Decision
 
-Eventually, they'll be ready to explicitly join you in talking about key risks, surprises, and hypotheses. Because they will have experienced that way of working as *empowering* them. In later chapters we'll dig into the steps above.
+When the leadership team informs Alina that they want her to build "automated intake" for OrthoMedica, they ask for a follow up meeting next month, where they can see some early prototypes. Rory, the VP of sales, has particularly strong opinions about what customers want for this feature---his sales reps keep getting requests to smooth out intake. He says to Alina, "We're finally building this, right!? When can my team start selling? It shouldn't be too hard, I already know how it needs to work." Her heart sinks at hearing this.
+
+Alina takes a deep breath and tells the full leadership team, "This sounds important, let me talk to the engineers and see what we can do."
+
+Once her early conversations with the engineers make it clear there are some significant risks to the whole idea of automated intake, she reaches out to Rory to meet one on one.
+
+In that meeting, she digs in to what, exactly, Rory believes will be better for their business, if the team were to ship a perfect automated intake feature. She skillfully draws out his underlying concerns and hopes. (We'll discuss how to do this in later chapters)
+
+Alina wraps up the meeting by saying to him, "Okay, here's what I think I'm hearing. We have a retention problem, which is making it very hard for your account managers to renew accounts. Although customers like OrthoMedica's tools for the exam room, the intake process is such a pain, our buyer is constantly hearing complaints from their staff. In an ideal world, we'd like to make the process smoother for patients, but the really key thing is to save time for the /clinic staff/. If we can't improve that, we're going to be churning too many customers to have any chance of hitting our revenue targets. Does that sound about right?"
+
+"Yes, that's it, exactly," says Rory.
+
+"Great," says Alina, "let me dig in, I'll come back to you with some options."
+
+Then, during that first month, as the engineers are creating clarity around what it's possible to build, Alina is talking to sales reps about what they've heard, sitting in on the actual intake processes with customers, and interviewing both administrators and clinicians about their experiences.
+
+At the follow-up meeting, which had initially been framed as "Reviewing Automated Intake Prototype", Alina kicks off the discussion by naming the project "Reducing Customer Intake Effort". She explicitly thanks Rory for clarifying the problem, which she takes the time to state very clearly. She then walks them through a few high-level options. One of the options is a version of what they had asked for. She names it "Semi-Automated Intake" and makes clear just how limited the automation could actually be. She offers two other approaches she believes are also possible, and puts most of the focus on one: creating a pre-meeting survey for patients, so that most of the data would be gathered before formal intake starts. She also proposes creating more visibility into how much time staff are truly spending on intake, in the current product.
+
+The leadership team has a vigorous debate about the options, before ultimately settling on the pre-meeting survey approach. Rory is particularly excited. "They'll love the idea of the patients doing more work!"
+
+# Even though the meeting didn't involve her showing a single prototype, the CEO reaches out to Alina afterwards to share positive feedback.
+
+Over the next six months, as the project unfolds, Alina manages to gradually shift the monthly conversations with the leadership team away from imagined features, and instead towards business problems, options and decisions.
+
+By the end of the project, literally everyone involved has forgotten they even ever talked about automated ingestion.
 
 ** Preview Of Coming Attractions
 
-Hello, Beta Reading Person, Dan here.
+Hello, Beta Reader!
 
-First off, thanks so much for making it through to the end (or to jumping ahead to this moment out of curiosity!).
+First off, thanks so much for making it through to the end!
 
-Second off, a request and an offer.
+I have a request and an offer.
 
 The request:
 
@@ -397,7 +404,46 @@ She decides to buy time. "Can we talk it out with the team first?"
 Vivek agrees, though Teresita can't shake the feeling that he's a bit disappointed. Maybe he thinks tech leads are supposed to give this kind of casual estimate? Maybe they're supposed to?
 
 
+** Old Bullet Point Breakdown
+Instead, your best bet is to:
+
+ - Probe for the underlying reason they want to run your project
+
+ - Signal your commitment to accomplishing that underlying thing
+
+ - Clearly articulate the first key decision
+
+ - Run your first increment
+
+ - Offer them the decision
+
+ - Now articulate the next key decision, and loop back
+
+Eventually, they'll be ready to explicitly join you in talking about key risks, surprises, and hypotheses. Because they will have experienced that way of working as *empowering* them. In later chapters we'll dig into the steps above.
+
+** Old Titles
+# How To Create Value From Early Surprises
+
+# How To Be Surprised Early
+
+# How To Be Usefully Surprised Early
+
+# How To Be Valuably Surprised Early
+
+# How to win with early surprises
+
+# The be surprised early game plan
+
+# Turn surprises into decisions into value
+
+# Early Surprises And The Incremental Creation Of Value
+
+# Early Surprises Create Incremental Value
+
+# Be Surprised Early To Create Incremental Value
 * Todos
-** TODO Spike: tell a story
-** TODO Pivot to making intake more efficient in another way
+** DONE Spike: tell a story
+CLOSED: [2026-01-21 Wed 10:04]
+** DONE Pivot to making intake more efficient in another way
+CLOSED: [2026-01-21 Wed 10:04]
 They create an ahead-of-time survey of the patient.
