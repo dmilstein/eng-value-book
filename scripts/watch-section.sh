@@ -114,8 +114,12 @@ export_section() {
     else
         # Use entire file
         cp "$ORG_FILE" /tmp/section.org
-        local basename=$(basename "$ORG_FILE" .org)
-        local title="$basename"
+        # Extract the first heading from the file for the title
+        local title=$(awk '/^\*+ / { gsub(/^\*+ */, ""); gsub(/ *$/, ""); print; exit }' "$ORG_FILE")
+        if [ -z "$title" ]; then
+            local basename=$(basename "$ORG_FILE" .org)
+            local title="$basename"
+        fi
     fi
 
     # Convert to HTML with pandoc
