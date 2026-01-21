@@ -110,12 +110,12 @@ export_section() {
             return
         fi
         
-        local title="Preview: $HEADING"
+        local title="$HEADING"
     else
         # Use entire file
         cp "$ORG_FILE" /tmp/section.org
         local basename=$(basename "$ORG_FILE" .org)
-        local title="Preview: $basename"
+        local title="$basename"
     fi
 
     # Convert to HTML with pandoc
