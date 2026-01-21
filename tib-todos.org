@@ -334,11 +334,15 @@ CLOSED: [2026-01-19 Mon 10:17]
 :LOGBOOK:
 CLOCK: [2026-01-19 Mon 10:08]--[2026-01-19 Mon 10:17] =>  0:09
 :END:
-** TODO Decide: beta w/ or w/out Chapter 3?       :curweek:
+** DONE Decide: beta w/ or w/out Chapter 3?       :curweek:
+CLOSED: [2026-01-20 Tue 11:24]
 Do I have enough to "solve one problem"?
-** TODO Finish rough draft of Chapter 3           :curweek:pom:
+** DONE Finish rough draft of Chapter 3           :curweek:
+CLOSED: [2026-01-21 Wed 10:32]
 :LOGBOOK:
-CLOCK: [2026-01-20 Tue 08:52]
+CLOCK: [2026-01-21 Wed 07:34]--[2026-01-21 Wed 10:32] =>  2:58
+CLOCK: [2026-01-20 Tue 15:46]--[2026-01-20 Tue 15:59] =>  0:13
+CLOCK: [2026-01-20 Tue 08:52]--[2026-01-20 Tue 10:33] =>  1:41
 CLOCK: [2026-01-18 Sun 10:45]--[2026-01-18 Sun 12:44] =>  1:59
 CLOCK: [2026-01-15 Thu 08:50]--[2026-01-15 Thu 10:31] =>  1:41
 CLOCK: [2026-01-14 Wed 07:49]--[2026-01-14 Wed 10:32] =>  2:43
@@ -367,8 +371,10 @@ CLOCK: [2026-01-09 Fri 08:23]--[2026-01-09 Fri 09:53] =>  1:30
 ** TODO Review Ell Milestones doc for ideas
 
 * [[id:9410A7DC-111C-4791-B8A1-C20867904251][Unstuck Beta]]                                    :gtasks:
-** TODO Let Edmund know beta is closing soon      :curweek:
-** TODO Matt/Caroline/Bennett: beta closing soon  :curweek:
+** DONE Let Edmund know beta is closing soon      :curweek:
+CLOSED: [2026-01-20 Tue 12:11]
+** DONE Matt/Caroline/Bennett: beta closing soon  :curweek:
+CLOSED: [2026-01-20 Tue 12:11]
 ** TODO Start collecting notes/ideas              :curweek:
 ** TODO Sketch in ideas for shorter Beta w/ CTA
 ** TODO For Unstuck Beta, move feelings later?
@@ -415,7 +421,7 @@ To deploy authority.
 As means to face fears from stakeholders
 * [[id:49E66E86-CE83-447E-87C2-3BFF3D8FE42E][Teach/Coach]]                                     :gtasks:
 * [[id:49435FCD-0590-44DE-8FC7-585E7BCC8BB2][Book Tooling]]
-** TODO Rework watch-section.sh                   :curweek:
+** TODO Rework watch-section.sh                   :curweek:pom:
 Support multiple previews at once.
 
 E.g. so I can read the end of one chapter and start of next.
