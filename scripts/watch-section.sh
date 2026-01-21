@@ -109,7 +109,7 @@ export_section() {
             echo "<h1>Section Not Found</h1><p>Could not find heading: $HEADING</p>" > "$OUTPUT_FILE"
             return
         fi
-        
+
         local title="$HEADING"
     else
         # Use entire file
@@ -128,28 +128,28 @@ export_section() {
         pandoc -f org -t html \
             --standalone \
             --css="../build/water.css" \
-            --title="$title" \
+            # --title="$title" \
             /tmp/section.org -o "$OUTPUT_FILE"
     else
         # Fall back to online CSS
         pandoc -f org -t html \
             --standalone \
             --css="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css" \
-            --title="$title" \
+            # --title="$title" \
             /tmp/section.org -o "$OUTPUT_FILE"
     fi
-    
+
     # Create/update symlink to preview.html
     local preview_link="$BUILD_DIR/preview.html"
     rm -f "$preview_link"
     ln -s "$(basename "$OUTPUT_FILE")" "$preview_link"
-    
+
     if [ -n "$HEADING" ]; then
         printf "Exported section to %s at %s\n" "$OUTPUT_FILE" "$(date)"
     else
         printf "Exported full file to %s at %s\n" "$OUTPUT_FILE" "$(date)"
     fi
-    
+
     rm -f /tmp/section.org
 }
 
