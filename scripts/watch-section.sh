@@ -121,7 +121,7 @@ export_section() {
         }
         /^\*+ / {
             current_level = gsub(/\*/, "&")
-            
+
             if (!found) {
                 # This is the first heading - start capturing
                 in_section = 1
@@ -160,14 +160,14 @@ export_section() {
         pandoc -f org -t html \
             --standalone \
             --css="../build/water.css" \
-            # --title="$title" \
+            --title="$title" \
             /tmp/section.org -o "$OUTPUT_FILE"
     else
         # Fall back to online CSS
         pandoc -f org -t html \
             --standalone \
             --css="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css" \
-            # --title="$title" \
+            --title="$title" \
             /tmp/section.org -o "$OUTPUT_FILE"
     fi
 
