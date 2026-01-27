@@ -9,9 +9,12 @@ all: build/book.md
 build:
 	mkdir -p build
 
+TOC=20260101100300-increment_toc.org
+#TOC=toc.org
+
 # Generate chapters.txt from TOC
-build/chapters.txt: org-roam-tibook/toc.org
-	cd book-monitor && python parsers/toc_parser.py ../org-roam-tibook/toc.org > ../$@
+build/chapters.txt: org-roam-tibook/$(TOC)
+	cd book-monitor && python parsers/toc_parser.py ../org-roam-tibook/$(TOC) > ../$@
 
 # Alias for convenience
 chapters: build/chapters.txt
