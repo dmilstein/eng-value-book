@@ -129,37 +129,6 @@ Sidebar: Making A Usefully Wrong Guess is a powerful tactic for drawing people o
 
 With practice, these tactics, along with Echo Back & Summarize, will allow you to dig beneath the surface of your stakeholder's morass of urgent requests, to understand the key long-term goals they're actually trying to achieve.
 
-** Tactic Three: Offer Two Ends Of A Spectrum
-This is a variant on the Usefully Wrong Guess that I find particularly useful if you're hitting a total brick wall with someone. Here's the approach:
-
- - Guess two different, potentially valid answers to the question
-
- - Offer them as "ends of a spectrum"
-
- - Ask the stakeholder where they think things land on that spectrum
-
-Part of why this works so well is that you are, once again, offering the stakeholder an opportunity to tell you you're wrong... but to do so in a way which allows you to fill in your picture of what their long-term goals are.
-
-Let's say that Janine is an engineer at a company that sells ecommerce enablement tools. One afternoon, she finds herself in a conversation with the CEO, and takes the opportunity to try fill in her picture of overall company goals (this is a /super/ valuable habit to build, by the way).
-
-"I'm pretty excited," she says, "about how Cogs 2.0 is coming together, on the engineering side. But, I wanted to ask: when we finally *do* migrate all the stores, what's the win you're most excited to see?"
-
-The CEO tilts his head. "What do you mean?"
-
-"Well", says Janine, "we've been working on it for so long, I've heard lots of different things people are hoping for. I'm just curious: what's the thing you, specifically, are most excited about?"
-
-The CEO gives a small laugh. "Having the project be over?" He shrugs. "There's a lot, I don't if I can narrow it down." Having dispensed this executive wisdom, he seems to be done.
-
- Janine could certainly give up at this point. But she could also take a shot at using our new tactic.
-
-"I could almost imagine," she says calmly, "two different ends of a spectrum." She holds up her left hand. "On the one hand, I've heard that, once we've got all the stores on 2.0, it's going to simplify new store set up a *ton*.  The Success team won't have to build an inventory plan from scratch every time, we can use templates, it'll be both faster and cheaper. So that should save us a bunch of money, and maybe let us go after some smaller stores."
-
-"But," and now she hold up her right hand, showing a space between it and her left, "I've also heard a lot of excitement about, once 2.0 is out, being able to create new enterprise features for high-volume stores. Which will let us add a pro tier, charge more, increase revenue per store."
-
-"Is it more one of those than the other? Or some mix of the two? Or something else?"
-
-The CEO is going to hear this, and it's going to be hard for them to not jump in and respond. They might pick one end, they might pick a mix, or they might reject the spectrum altogether. All of those are valuable to Janine.
-
 ** Maria Struggles To Make Her Case
 
 # Maria Is Stuck With Geoff
@@ -1127,6 +1096,37 @@ If you'd like to learn more about developing and communicating strategy, I recom
  - Good Strategy/Bad Strategy, by Richard Rumelt
 
  - Escaping the Build Trap, by Melissa Perri
+
+** Tactic Three: Offer Two Ends Of A Spectrum
+This is a variant on the Usefully Wrong Guess that I find particularly useful if you're hitting a total brick wall with someone. Here's the approach:
+
+ - Guess two different, potentially valid answers to the question
+
+ - Offer them as "ends of a spectrum"
+
+ - Ask the stakeholder where they think things land on that spectrum
+
+Part of why this works so well is that you are, once again, offering the stakeholder an opportunity to tell you you're wrong... but to do so in a way which allows you to fill in your picture of what their long-term goals are.
+
+Let's say that Janine is an engineer at a company that sells ecommerce enablement tools. One afternoon, she finds herself in a conversation with the CEO, and takes the opportunity to try fill in her picture of overall company goals (this is a /super/ valuable habit to build, by the way).
+
+"I'm pretty excited," she says, "about how Cogs 2.0 is coming together, on the engineering side. But, I wanted to ask: when we finally *do* migrate all the stores, what's the win you're most excited to see?"
+
+The CEO tilts his head. "What do you mean?"
+
+"Well", says Janine, "we've been working on it for so long, I've heard lots of different things people are hoping for. I'm just curious: what's the thing you, specifically, are most excited about?"
+
+The CEO gives a small laugh. "Having the project be over?" He shrugs. "There's a lot, I don't if I can narrow it down." Having dispensed this executive wisdom, he seems to be done.
+
+ Janine could certainly give up at this point. But she could also take a shot at using our new tactic.
+
+"I could almost imagine," she says calmly, "two different ends of a spectrum." She holds up her left hand. "On the one hand, I've heard that, once we've got all the stores on 2.0, it's going to simplify new store set up a *ton*.  The Success team won't have to build an inventory plan from scratch every time, we can use templates, it'll be both faster and cheaper. So that should save us a bunch of money, and maybe let us go after some smaller stores."
+
+"But," and now she hold up her right hand, showing a space between it and her left, "I've also heard a lot of excitement about, once 2.0 is out, being able to create new enterprise features for high-volume stores. Which will let us add a pro tier, charge more, increase revenue per store."
+
+"Is it more one of those than the other? Or some mix of the two? Or something else?"
+
+The CEO is going to hear this, and it's going to be hard for them to not jump in and respond. They might pick one end, they might pick a mix, or they might reject the spectrum altogether. All of those are valuable to Janine.
 
 * Learning Outcomes/Arc
 ** Maybe: The Power of Speaking to Strategic Outcomes
