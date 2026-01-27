@@ -1,0 +1,77 @@
+:PROPERTIES:
+:ID:       EFEC25CE-A545-4D8C-91AF-C6DAEE97B065
+:END:
+#+title: Unstuck Beta One Feedback
+Part of [[id:9410A7DC-111C-4791-B8A1-C20867904251][Unstuck Beta One]].
+
+* Brain Dump Before Reviewing Detailed Comments <2026-01-25 Sun>
+** Overall Thoughts
+Let's use Andrea and Owen as sort of my key *articulate* readers, and then look at evidence from where people bailed from the book as another piece of the puzzle.
+
+Question: should I work backwards from another beta, by, I dunno end of February?
+
+If so, should I shrink down the length of what I'm sharing so I'm primarily sharing a revision to the Statement of Strategy, which lost a lot of people (and sprinkling in a the challenge/explicitly promise to get people to even talk at all?).
+
+I think, yes, aim for another beta, asap. Need more readers, but call that a separate problem for now.
+
+Maybe rename chapter two: Get People Talking And Feeling Heard
+
+So, like, right off the bat, I'm focusing on that problem
+
+For A/O, for sure the core two things I'm remembering are:
+
+ - Statement of Strategy felt hard to apply + a bit slow
+
+   Rename as "Find a Shared Goal"
+
+ - I skipped past a key challenge, which is "earning time"
+
+   E.g. what if your stakeholder is overwhelmed and you can't even find a minute to talk to them. Owen had a nice line about that.
+
+Oh, and I think from Andrea, also: Why should I have to do this work?
+
+What could be the structure of a next Beta test? Am I trying to see if I can get people to read further? Am I trying to get them to *recommend* it? The arc of recommendation is maybe key?
+
+Strawman: have more chapters ready to go, offer to unlock those if they get to the end and actively want them (are those another HTB project? Yeah, maybe). Or do I have multiple live versions? Is the "other" project the full book? Or does it pick up where this one ends? I've always got two projects, and I'm sliding the line forward from one to the other, each time I run a chunked beta? That could work. If I do that, I can slug in all my extra stuff.
+
+I think the overall structure worked for A + O, who are both introvert-y. So this is almost like, Humans, The Missing Manual. And the mix of story and ideas.
+
+** Completion Stats
+*** 22 / 9: The Joys & Pains of Working With Humans
+*** 6 / 6 : The Skill of Echoing Back
+*** 5 / 3 : Identify a Strategic Intent
+*** 2 / 2 : Humans Have Feelings, Ignore At Your Own Risk
+*** 2 / 2 : The Art of Divining Emotions
+*** 2 / 2 : Mastering The Art of Divining Emotions
+*** 3 / 3 : How To Make a Compelling Offer
+*** 2 / 2 : A Catalog Of Offer Tactics
+
+** Stats Reflection
+*** Ch 1 Completion   (41%)
+
+40% of the people who started the first chapter finished it -- I could try to drive that up.
+
+I don't... love this. Unless I can get more fine-grained feedback on where they're bailing, I honestly don't know if this is even bad. A bucnh of people might just the link, and take a look and *not all of them are my target audience*. So self-selecting out in the first chapter isn't bad. For my other beta I'm at 7/14 (50%), so it's not even wildly off that same pace.
+
+*** 1->2 Continuation (67%)
+
+66% of the readers who finished chapter 1 *started* chapter 2.  For Increments, I'm at 5/7 = 70%.
+
+I... could try to bump that up, but it feels pretty solid, tbh/ Someting like 1/3 of the people who read the intro said "Eh, not a huge problem for me, right now."
+
+*** Ch 2 Completion   (100%)
+
+*** 2->3 Continuation (83%)
+
+*** Ch 3 Completion   (60%)
+*** 3->4 Continuation (66%)
+
+** Goal For Beta 2
+
+Cumulative dropoff from Chapters 2->4.
+
+Either get to 80% to finish chapter 4, *or* 66% ask for more chapters.
+
+Right now, 6 people start chapter 2, and only 2 (33%) make it to the end of chapter 4. If I had an infinite pool of beta testers, I might aim for the drop off to end of chapter *3*, instead? But I think, given overhead, and some solid evidence about downstream value, try to get, aspirationally, 80% of the people who *start* chapter 2 to make it to the end of chapter *4*. So they have to find Find a Shared Goal sufficiently compelling to keep going, *and* they have to get to the end of whatever I put next.
+
+5/6 = 83%, 4/6 = 67%.

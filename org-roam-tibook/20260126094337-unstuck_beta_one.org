@@ -1,0 +1,116 @@
+:PROPERTIES:
+:ID:       41D57D50-8FC6-413F-BC93-38781A971B02
+:END:
+#+title: Unstuck Beta Two
+After running [[id:9410A7DC-111C-4791-B8A1-C20867904251][Unstuck Beta One]], a place to collect goals and  todos from [[id:EFEC25CE-A545-4D8C-91AF-C6DAEE97B065][Unstuck Beta One Feedback]] from the first round of Beta reading.
+
+* Goals
+** 80% S2->F4
+80% of the readers who *start* Chapter 2 *finish* Chapter 4
+
+In Beta One: 6 people started chapter 2, only 2 (33%) made it to the end of chapter 4.
+
+** 65% S2->CTA
+65% of the readers who *start* Chapter 2 *ask* for more chapters after finishing 4.
+
+* Deadline
+** Ambitious = 3 weeks = Sunday, 2/16
+** Fallback  = 4 weeks = Sunday, 2/23
+* Ideas/Options For Hitting Goals
+** Rewrite Statement of Strategy as Find Shared Goals
+** Create a Chatter-style summary PDF
+For teaser, consider having it mention tactics I haven't yet taught.
+
+Test w/ Owen + Andrea
+** Add pain point re: stakeholder won't talk to you
+** Spike: move Compelling Offer to chapter 4?
+** Spike: move exercises to the end
+Appendix, or explicit separate section or something.
+
+Learning model = read it all, then sit down and make your own learning plan. The separate workbook. Not the interleaved one.
+** Go through/apply all the feedback for first few chapters
+** Decide: adjust footnotes? ([[https://www.usefulbooks.com/learn/director-commentary][footnote alternatives]])
+E.g. move jokes up into the text, keep footnotes for genuinely worthwhile deeper dives.
+** Make more chapters "like" Echoing Back
+I mean, 6 for 6 is kind of amazing?
+
+And, as per AG, it's a "rollercoaster"
+** Maybe: speak directly to being introverted (in title, even?)
+A Guidebook For Introverts, Extroverts & Everyone In-Between
+
+
+* Todos
+** TODO Xfer HTB notes from [[id:A1EF14A2-5F19-488D-926C-A8208142E794][Actionable Strategy]]   :curweek:
+
+** TODO Sprinkle tactics throughout, then link to them *after*
+E.g. the sticky notes, the positive vision of the future.
+** TODO In Echoing Back Rewrite engagement as drive usage
+an explicit plan to use their influence to drive usage. Is that about right?"
+** Detailed Feedback
+*** EWJ: In Joys and Pain, adjust "pattern of behavior" example
+This is still, kinda, a pattern of behavior, "being" a jerk "all the time." Could you rephrase to something like "could we maybe try you're not such a raging, petulant jerk?"
+
+*** SW: point re it sounding *scary* to apply the game plan
+In first chapter:
+
+Very pragmatic and easy to apply... in theory. It actually sounds terrifying though depending on which stakeholder I think of, lol. Some of them I had such low psychologically safety around that this would have been very intimidating. I am curious if you will touch on this later.
+
+*** EWJ: first chapter, mid-way through explanation of steps
+Rando thought: I wonder if you'd be well served by either a) starting with a story or b) trimming down these sections. I know where this is going, but I wonder if it's a lot for someone just getting to know all these ideas to absorb abstractly this early on. They're unlikely to understand it or hold it in their heads at this point, so maybe you can shorten?
+
+*** AG: re selling the fun of the approach
+She doesn't relate, maybe figure out a way to offer it as aspirational (or as, like, not as terrible as it appears). And/or use that opportunity to talk about "Is this really my job?"
+
+*** AG: finding time
+This is probably an interesting thing to dig into if you want to - one of the hardest parts of dealing with "stakeholders" is even finding ways to be in the same room.
+
+*** SW: call out re "just execute" (maybe move into main text)
+This is an amazing insight. I am a question asker and I have been told to stop asking and just make it happen many times. I never connected it to the fact that my questions were potentially raising fear and thus deflection happened. There are other reasons it could have happened too - but this is great insight for me personally.
+
+*** SW: complaining to spouse
+Call that out -- here as well as in story later.
+
+*** OR: re "value of tac empathy for engineers" - maybe make explicit his take
+
+This section emphasizes my reaction to the last chapter - I think it's worth asking if "I don't see peoples' strategic goals" is a me problem. (I suspect it's one of those "I learn how to do this better, and end up pushing to make our goals more explicit" deals.)
+
+The idea that I don't see people's strategic goals is a problem *you* can solve. That doesn't mean it's "your fault", but it does mean you're gonna be a lot happier if you find a way to do it.
+
+*** AG poing in echoing back -- how to get them talking at all?
+Either push that earlier, or promise it's coming.
+
+"I think maybe there is a missing step here - asking the right questions in the right way to get your stakeholder's honest answers is (for me) the hardest part. It's hard to ask a lot of questions without people getting defensive and/or impatient. But with stakeholders that are also trying to "keep you focused" it is even harder.
+
+Maybe you talk about this later? But I have a hard time even visulizing myself echoing back if I cant even get the right conversation going"
+
+*** AG: maybe cite future goal framing earlier?
+Though she did notice it and was pleased: Ahh see maybe this is what I think should come before echoing back! Kinda silly but I would never really ask a question in this future goal format. My instinct (that I fight every day) is to ask "Why do you think more velocity is necessary" lol
+
+*** Idea: pull out little tips from stories, *after*
+As in, the sticky note, the future goals framing.
+
+*** Karim/Deanna story: apply EWJ point?
+I've spent some time thinking about this convo, and of course you should triangulate this with other folks, but I'm still wondering if there's not a crisper difference you could have her pull out rather than "engaged" vs. "love it."
+
+*** Karim/Deanna: AG point re: first time D says explicit plan
+Ok this is very specifc but I had to read this a few times because I got confuse on how "their" referred to and what it meant by influence
+
+*** OR point re forecasting payoff of echoing back
+He said: /This is probably the bridge you're building, but: The story you're telling here is about "someone is being micromanaged, and gets the space to do her job by building her boss' trust enough that he leaves her alone to do her job?/
+
+/I can definitely say: "As a person with coworkers, they take their fingers out of my work to let me do my job" is an emotionally resonant user story. (And a one-sided story, but, I wanted to highlight that you're delivering a surprising outcome here, and want to make sure you're being intentional about not promising it to the reader earlier.)/
+
+Consider some promise early, about the payoff she'll get from echoing back.
+
+*** OR's point re: echoing *does* slow down
+Second: In real life, I learned that echoing things *does* feel a bit like slowing down a conversation when it happens to you. But first, you're being asked to do something very easy, and second, it's like spies synchronizing their watches before they split up; there's a feeling of "we're about to see a burst of coordinated movement" anticipation that hits you as Dan starts to echo back.
+
+*** OR's point re showing work - ask him?
+First: Reading through, my "yell at the author/characters in the story" thought was about emphasizing showing your work / process; Sherlock Holmes in real life makes you feel dumb because he says the conclusion first, and the process a hundred pages after. If you're doing "tactical empathy," you're probably thinking about doing both peoples' share of the work until you rebuild.
+
+*** Apply Owen's idea re broadening definition of "Problems"
+CHAPTER THOUGHT.
+
+The story here is good, and is focused on resolving "problems." But sometimes the "problem" is "I need to write a JIRA ticket for a conversation we're having."
+
+As someone who under-applies "problem" labels sometimes (and knows people who under-sell their complaints to doctors, say, in ways that hold them back from getting fixes): I wonder if it's useful to gesture at how a "problem" can just be anything you set a goal to change, and you can still read this book if you like your coworkers.
