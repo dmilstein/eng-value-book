@@ -329,60 +329,81 @@ Ala:
   3. Speak To Your Stakeholder's Human Experience
 
 * [[id:B8F21153-89FC-4B8B-8B0D-BBF4CC2C58C1][Increment Design]]                                :gtasks:
-** DONE Draft a CTA ("what to learn next")        :curweek:
-CLOSED: [2026-01-19 Mon 10:17]
-:LOGBOOK:
-CLOCK: [2026-01-19 Mon 10:08]--[2026-01-19 Mon 10:17] =>  0:09
-:END:
-** DONE Decide: beta w/ or w/out Chapter 3?       :curweek:
-CLOSED: [2026-01-20 Tue 11:24]
-Do I have enough to "solve one problem"?
-** DONE Finish rough draft of Chapter 3           :curweek:
-CLOSED: [2026-01-21 Wed 10:32]
-:LOGBOOK:
-CLOCK: [2026-01-21 Wed 07:34]--[2026-01-21 Wed 10:32] =>  2:58
-CLOCK: [2026-01-20 Tue 15:46]--[2026-01-20 Tue 15:59] =>  0:13
-CLOCK: [2026-01-20 Tue 08:52]--[2026-01-20 Tue 10:33] =>  1:41
-CLOCK: [2026-01-18 Sun 10:45]--[2026-01-18 Sun 12:44] =>  1:59
-CLOCK: [2026-01-15 Thu 08:50]--[2026-01-15 Thu 10:31] =>  1:41
-CLOCK: [2026-01-14 Wed 07:49]--[2026-01-14 Wed 10:32] =>  2:43
-CLOCK: [2026-01-13 Tue 09:51]--[2026-01-13 Tue 10:27] =>  0:36
-:END:
-** DONE Draft email looking for referrals         :curweek:
-CLOSED: [2026-01-19 Mon 11:15]
-:LOGBOOK:
-CLOCK: [2026-01-19 Mon 10:17]--[2026-01-19 Mon 11:15] =>  0:58
-:END:
-Possibly also post to Substack?
-
-Engineers or product managers who are being asked to lead "big" projects and are feeling a bit overwhelmed. Actively looking for help in "estimating", and/or stakeholder management.
-
-** TODO Make list of people to invite             :curweek:
-:LOGBOOK:
-CLOCK: [2026-01-09 Fri 08:23]--[2026-01-09 Fri 09:53] =>  1:30
-:END:
-** TODO Draft email for invite                    :curweek:
-** TODO Upload to HTB                             :curweek:
-** TODO Fucking Ship it                           :curweek:
-
+** TODO Lead w/ "which one" as well as stakeholder challenges
+As in, in the intro, *before* stakeholder challenge, speak to challenge of how to break down a large project into increments. Try shoving in my playful thing from chapter 2.
+** TODO Rename title to include stakeholder
+How To Create Valuable Software Despite Bad Estimates, Grumpy Stakeholders, And Genuinely Terrifying Legacy Code
+** TODO Alina I and maybe whatshername in CA as beta readers
 ** TODO Touch on "research" vs "building"
 ** TODO Review [[id:03D1870C-E583-4D5C-9589-5E0799793D48][Mstones/Decisions]] chapter
 ** TODO Break out Design Milestones chapter?
 ** TODO Review Ell Milestones doc for ideas
 
-* [[id:9410A7DC-111C-4791-B8A1-C20867904251][Unstuck Beta]]                                    :gtasks:
-** DONE Let Edmund know beta is closing soon      :curweek:
+* [[id:9410A7DC-111C-4791-B8A1-C20867904251][Unstuck Beta One]]                                :gtasks:
+** DONE Let Edmund know beta is closing soon
 CLOSED: [2026-01-20 Tue 12:11]
-** DONE Matt/Caroline/Bennett: beta closing soon  :curweek:
+** DONE Matt/Caroline/Bennett: beta closing soon
 CLOSED: [2026-01-20 Tue 12:11]
-** TODO Start collecting notes/ideas              :curweek:
-** TODO Sketch in ideas for shorter Beta w/ CTA
-** TODO For Unstuck Beta, move feelings later?
+** DONE Start collecting notes/ideas
+CLOSED: [2026-01-25 Sun 10:54]
+:LOGBOOK:
+CLOCK: [2026-01-25 Sun 09:35]--[2026-01-25 Sun 10:54] =>  1:19
+:END:
+** DONE Sketch in ideas for shorter Beta w/ CTA
+CLOSED: [2026-01-25 Sun 10:53]
+** DONE Decide where to put Todos                 :curweek:
+CLOSED: [2026-01-26 Mon 09:47]
+:LOGBOOK:
+CLOCK: [2026-01-26 Mon 09:41]--[2026-01-26 Mon 09:47] =>  0:06
+:END:
+** DONE Set goals for Beta Two                    :curweek:
+CLOSED: [2026-01-26 Mon 10:02]
+:LOGBOOK:
+CLOCK: [2026-01-26 Mon 09:47]--[2026-01-26 Mon 10:02] =>  0:15
+:END:
+** DONE For Unstuck Beta, move feelings later?
+CLOSED: [2026-01-26 Mon 10:05]
 It looks like people might be jumping ahead to Compelling Offer, maybe tese with that, then come back to figuring out feelings, so it's motivated?
 
 Like, maybe but also: https://helpthisbook.com/dashboard/3ec75cd9-47ad-4ef4-8888-ed8f68f5162b/experience has weirdly different data?
-** TODO Decide who, if anyone, to nudge
-** TODO Review HTB Tables of Contents
+** DONE Decide who, if anyone, to nudge
+CLOSED: [2026-01-26 Mon 10:03]
+* [[id:41D57D50-8FC6-413F-BC93-38781A971B02][Unstuck Beta Two]]                                :gtasks:
+** DONE Set thematic work for Beta Two            :curweek:
+CLOSED: [2026-01-26 Mon 10:06]
+:LOGBOOK:
+CLOCK: [2026-01-26 Mon 10:02]--[2026-01-26 Mon 10:05] =>  0:03
+:END:
+** DONE Set deadline for Round 2 Beta             :curweek:
+CLOSED: [2026-01-26 Mon 10:08]
+:LOGBOOK:
+CLOCK: [2026-01-26 Mon 10:05]--[2026-01-26 Mon 10:08] =>  0:03
+:END:
+** TODO Statement of Strat -> Find Shared Goals   :curweek:pom:
+:LOGBOOK:
+CLOCK: [2026-01-27 Tue 10:28]
+CLOCK: [2026-01-27 Tue 09:13]--[2026-01-27 Tue 09:56] =>  0:43
+CLOCK: [2026-01-26 Mon 10:11]--[2026-01-26 Mon 10:32] =>  0:21
+:END:
+** TODO Create a Chatter-style summary PDF        :curweek:
+For teaser, consider having it mention tactics I haven't yet taught.
+
+Test w/ Owen + Andrea
+
+I have an HTML template
+** TODO Add pain point re: stakeholder won't talk to you :curweek:
+** TODO Spike: move Compelling Offer to chapter 4?
+** TODO Spike: move exercises to the end
+Appendix, or explicit separate section or something.
+
+Learning model = read it all, then sit down and make your own learning plan. The separate workbook. Not the interleaved one.
+** TODO Go through/apply for first three chapters :curweek:
+:LOGBOOK:
+CLOCK: [2026-01-26 Mon 10:09]--[2026-01-26 Mon 10:10] =>  0:01
+:END:
+** TODO Adjust footnotes? (see [[https://www.usefulbooks.com/learn/director-commentary][footnote alternatives]])
+E.g. move jokes up into the text, keep footnotes for genuinely worthwhile deeper dives.
+
 * [[id:B4926308-39DD-471B-8E71-5FFF7546D6E3][ToC/Structure ]]                                  :gtasks:
 ** TODO Experiment: Move Quin story to separate chapters?
 ** TODO Move exercises to the back?
@@ -419,18 +440,35 @@ To deploy authority.
  - Vertical conflict -- someone's boss needs to step back (or step in)
 ** TODO Add post-mortems w/ roberto and vahe?
 As means to face fears from stakeholders
-* [[id:49E66E86-CE83-447E-87C2-3BFF3D8FE42E][Teach/Coach]]                                     :gtasks:
 * [[id:49435FCD-0590-44DE-8FC7-585E7BCC8BB2][Book Tooling]]
-** TODO Rework watch-section.sh                   :curweek:pom:
-Support multiple previews at once.
+** DONE Ping HTB: FAQ for engagement + export the data :curweek:
+CLOSED: [2026-01-26 Mon 11:36]
+** TODO HTB - don't make pages die on internet disconnection
+For fuck's sake
+** TODO Allow Makefile to choose a book target
+From environment value? From something
+** TODO Make watch-section watch all the parts
+Rewrite as python, share some code to take advantage of toc parser, reparse if toc changes?
 
-E.g. so I can read the end of one chapter and start of next.
+Or, keep it dirt simple and have the bash script scrape out the chapters from toc (or from an explicit file for now), and, like spawn separate processes to watch each of the files? And make sure those processes all get killed when the overall thing gets killed?
 
-Make the preview HTML filename reflect the underlying org mode filename, boom. I mean, I have a two second effort to find the file URL (can even make the script output it), but that's like trivial to do.
+That sounds maybe simpler for now.
+** DONE Rework watch-section.sh
+CLOSED: [2026-01-21 Wed 12:13]
+Please rework watch-section.sh to meet the following needs:
+
+ - If there's no section passed in, just the org item from the file
+
+   This will usually be a top-level item that is a "full chapter"
+
+ - Instead of writing to preview.html, generate a filename from the underlying org mode filename (so that I can view multiple previews at once).
+
+ - Make preview.html a symlink to whatever was most recently generated
+
+
+  I mean, I have a two second effort to find the file URL (can even make the script output it), but that's like trivial to do.
 
 While at it, make the previe script default to entire first section
-
-As in, if there's no section passed in, just grab the first one (= whole chapter)
 
 Strip out the timing bits and the log
 
@@ -454,8 +492,15 @@ So I can either run full screen or within 80 columns
 Because now my wordcount history stuff is sensitive to those being missing.
 ** TODO Create a new chapter template or abbrev?
 * Book Misc                                       :gtasks:
+** TODO As per Caroline S, use my quote re Waterfall for marketing
+"In this it of course resembles every other facet of developing software. Unsurprisingly, Waterfall also doesn't work for adjusting complex human systems, with all their delightful forms of complexity"
+
+This feels like a great quote for marketing the book. It's funny and lands well with the engineering crowd
+
+** TODO Review HTB Tables of Contents
+** DONE Review [[https://www.usefulbooks.com/learn/director-commentary][footnote alternatives]] from Useful Books :curweek:
+CLOSED: [2026-01-26 Mon 16:55]
 ** TODO Review [[https://useful.notion.site/beta-reading-mini-course][Beta Reading Mini-Course]]
-** TODO Review [[https://www.usefulbooks.com/learn/director-commentary][footnote alternatives]] from Useful Books
 ** TODO Put my Art of Increment design substack post somewhere
 ** TODO For Address Fears Directly, move the flashing lights warning up
 ** TODO Rename ReMotor to ReMotr?
