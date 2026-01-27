@@ -1,25 +1,76 @@
 :PROPERTIES:
 :ID:       A1EF14A2-5F19-488D-926C-A8208142E794
 :END:
-#+title: Develop An Actionable Statement Of Strategy
+#+title: Identify An Underlying Shared Goal
 #+filetags: :Chapter:
-* Develop An Actionable Statement Of Strategy
-
-# Develop An Effective Statement Of Strategy
-
-# How To Make An Effective Statement Of Strategy
-
-# How To Identify a Strategic Outcome
-
-# Develop A Statement Of Strategy
-
+* Identify An Underlying Shared Goal
 ** Intro
 
-Okay, now that we've learned our foundational skill of Echoing Back & Summarizing, we're ready to start to work through the steps of the game plan. Step one, Develop An Actionable Statement Of Strategy, is:
+Now that we've learned our foundational skill of Echoing Back & Summarizing, we're ready to start getting unstuck with our stakeholder.
 
-/Identify a long-term, *strategic outcome* that your stakeholder cares intensely about/
+Our key first step will be: finding an underlying goal that you *both* care intensely about.
 
-To see how to go about doing so, we'll return to Maria, the PM from our opening chapter, who was struggling with her VP of Sales, Geoff.
+Identifying a meaningful shared goal is extremely powerful. With such a goal in hand, instead of asking your stakeholder to change their behavior /for you/, you'll be able to ask them to make an adjustment that will allow you to win /together/.
+
+You'll be able to paint a compelling picture of a future you can both unlock, while also clearly describing the risks that must be faced to get there.
+
+Believe it or not, you'll be able to directly share with them the reasons why, if they *don't* change their behavior, it will be impossible to achieve this key goal. By linking your immediate concerns to a shared goal, you can "depersonalize" your request for change: instead of asking your stakeholder to change their /personality/, you can nudge them to adjust their /actions/. To be clear, making such a request is still plenty tricky. In later chapters, we'll share some ways to dramatically lower the risks of doing so. But asking someone to adjust their actions is way, way easier then asking them to, e.g. stop being such a difficult and unpleasant person (even if that is kind of what you dream of doing?).
+
+In the remainder of this chapter, we'll share a plan for identifying such a shared goal, /and/ for finding a specific, compelling way to articulate that goal to your stakeholder. That compelling articulation will then form the foundation of your request for change.
+
+Let's dig in.
+
+** Stakeholders Hide Their Dreams, Film At Eleven
+
+The first challenge we have to face is that many stakeholders do not clearly and repeatedly share the long-term goals they care most intensely about.
+
+Why not?
+
+At some time in the past, they were given a goal to accomplish. They then spent a great deal of time and effort converting that goal into a series of tasks, projects and milestones---aka, "a plan". At some deep level, converting goals to plans is how they understand their job.
+
+Many stakeholders, having made such a plan, will then proceed to *only* ever talk about the plan. Which means they won't provide you with enough context to identify a /new/ plan: one that still accomplishes their long-term goals, but involves them behaving differently, day-to-day.
+
+This can leave you very stuck, indeed.
+
+# You need to understand the reasons *why* they're asking you to do various tasks and projects.
+
+I'll offer a few reasons why stakeholders might hide their dreams this way.
+
+# For each, I'll offer an approach for getting past that barrier.
+
+ - *What You Don't Know Won't Distract You*
+
+   Some stakeholders deliberately limit what they share in an attempt to encourage you to "focus on what matters". Although this isn't fundamentally a crazy idea, it rarely works for software projects (because the crazy degree of uncertainty in building software means that people on the ground need a lot of flexibility to change the plan as they go).
+
+ - *What You Don't Know You Can't Argue With Me About*
+
+   Unfortunately, some stakeholders feel insecure in their position of authority. Such stakeholders /fear/ getting into a conversation with you about how they mapped from their long-term goal to the tasks they're asking you to do.
+
+ - *What You Don't Know You Actually Do Know Because I Totally Told You Already*
+
+   # The final reason that stakeholders won't tell you in detail about their long-term goals is simple: they think they've already done so.
+
+   Your stakeholder thinks about the goal /all the time/. They simply /forget/ that they need to share it clearly and repeatedly with you. In fact, they often believe they *are* sharing it, because when they talk to you about tasks, all they're thinking about is the long-term goals.
+
+** Two Tactics For Drawing Out Goals
+
+In all three cases, you're going to use a pair of tactics to bring your stakeholder's attention from the day-to-day to the long-term.
+
+The first tactic is: invoke a positive vision of the future.
+
+For this, you invite your stakeholder to imagine that all the current tasks, projects, and milestones have been finished brilliantly and well. You then ask them what good thing will then become true. By echoing back and summarizing what you hear, you will often be able to draw out their most important goal.
+
+The second is: make a usefully wrong guess.
+
+Here, you develop you an opinionated guess about their long-term goals. You then share it, and cheerfully invite them to tell you why you're wrong.
+
+Many people feel safer expressing their thoughts by telling you what's wrong with yours. Putting their own ideas out there presents as vulnerable or risky, whereas criticizing the ideas of others presents as pleasant and empowering. This is maybe not the most admirable characteristic of humans? But it certainly seems a consistent thing, in my experience, at least. So take advantage of it by offering them a chance to correct you.
+
+Let's see these both in action, in a story.
+
+# Many stakeholders then convince themselves that the only way to achieve the goal is to execute on the plan, just as they've imagined it.
+
+# Why might they do so? I'll name three distinct things you might run into, along with, for each an approach for productively digging in.
 
 ** Maria Struggles To Make Her Case
 
@@ -223,26 +274,6 @@ To develop such a nuanced understanding of strategy, you'll need to talk in real
 But there's just one problem.
 
 # Most stakeholders don't want to talk about long-term outcomes.
-
-** Stakeholders Hide Their Dreams
-
-Most stakeholders do not clearly share the long-term business outcomes they care most intensely about. Sometimes, believe it or not, stakeholders will even try to *hide* these outcomes from you.
-
-/"Dan, that's crazy! Why on earth would they do that?"/ , you might be thinking.[fn:: Unless you've worked in software for a long time? In which case you might be thinking, "/sigh/"?]
-
-Here's the thing.
-
-Your stakeholder has a strategic outcome they're working backwards from. They've spent a great deal of time and effort *converting* that outcome into a series of tasks, projects and milestones---aka, "a plan". At some deep level, converting the outcome to a plan is how they understand *their job*.
-
-Many stakeholders, having made such a plan, will proceed to *only* ever talk about the plan. They fail to cite the long-term outcome they're working backwards from. They don't cleanly communicate a core challenge to overcome. They don't explain how your team's work helps overcome that challenge. All of which means they aren't providing *you* with enough context to identify new ways to work together, that still accomplish their long-term goals.
-
-This can leave you very stuck, indeed.
-
-I'll name three distinct reasons why stakeholders hide their dreams this way. For each, I'll offer an approach for getting past that barrier.
-
-# Many stakeholders then convince themselves that the only way to achieve the outcome is to execute on the plan, just as they've imagined it.
-
-# Why might they do so? I'll name three distinct things you might run into, along with, for each an approach for productively digging in.
 
 ** "What You Don't Know Won't Distract You"
 
@@ -668,7 +699,7 @@ This is an incredibly valuable tactic, useful in an incredibly wide variety of s
 
 We'll talk in the exercises about how to build it up.
 
-* Scraps/Thoughts
+* Scraps
 Maybe, use this chapter to, like, *define* a strategy, and explain that, if they don't know one, they should guess. But they ideally want to state it in terms the stakeholder uses. And we'll learn more about that in the next chapter.
 
 But you must be clear in your own hears and mind about what you think the most important challenge for the business is.
@@ -817,11 +848,9 @@ You're going to work on coming up with a clear articulation of that combination 
 
    /"If *you* can identify current customers..."/
 
-
 ** Frustrating Behavior = Only Way to Accomplish Goal
 
 Often, a stakeholder's frustrating behavior is, in their mind, the only way to get that task done, and therefore the only way to accomplish the long-term outcome. To find a new way to work together, you have to get beneath what they're asking for, and understand what they're ultimately trying to achieve. Once you do so, you can propose a different, less frustrating way of working together, that will move you *both* towards the long-term outcome.
-
 
 ** Three-Part Breakdown of The Power of Speaking to Strategic Outcomes
 
@@ -893,7 +922,7 @@ But the special weirdness of software around both the quantity and the scope of 
 
 A team that spends six or twelve months building a valuable piece of software will have, over that time, made hundreds of decisions to:
 
- - Hone in on exactly the customer problem that software should solve
+ - Hone in on exactly the business problem that software should solve
 
  - Iteratively explore features that could solve that problem
 
@@ -968,6 +997,55 @@ Thus, in such a case, my recommendation is to just go with your best guess for n
 
  - Good Strategy/Bad Strategy
 
+** Intro
+
+Okay, now that we've learned our foundational skill of Echoing Back & Summarizing, we're ready to start to work through the steps of the game plan.
+
+Step one, Develop An Actionable Statement Of Strategy, is:
+
+/Identify a long-term, *strategic outcome* that your stakeholder cares intensely about/
+
+To see how to go about doing so, we'll return to Maria, the PM from our opening chapter, who was struggling with her VP of Sales, Geoff.
+
+** Underlying vs Surface-Level Goals
+There are two key challenges to finding such a motivating shared goal. The first we'll talk about in this chapter, the second we'll talk about in the next.
+
+The first challenge is simply identifying something that is, well, underlying.
+
+You likely already have a slew of surface-level goals, and it might seem like you can just pick one of those. But that rarely works. You'll almost always need to find something deeper, more foundational.
+
+Both so that you can motivate action, but also because, only by finding something under the surface can you propose new ways to act that ultimately achieve the end goal.
+
+Say you're a tech lead, and your VP of Product keeps wandering into your team's sprint planning sessions and destroying team focus by sharing lots of open-ended concerns.
+
+What might be a shared goal that's at risk?
+
+Well, there's a *tactical* goal which you presumably share: good within-sprint velocity.
+
+But that's not going to be a good place to start.
+
+
+Why, you might be asking, are we calling this an /underlying/ shared goal?
+
+In my experience, it's super common for people to have some kind of immediate shared goal with their stakeholder, but for that shared goal to already lock you into a broken way of working together. Either because the broken way of working together is literally locked into the goal ("Ship the following six features by Q2 of next year", which has no business impact, and thus no flexibility), or because your stakeholder
+** Stakeholders Hide Their Dreams, Film At Eleven
+
+The fundamental challenge is that most stakeholders do not clearly share the long-term goals they care most intensely about. Sometimes, believe it or not, stakeholders will even try to *hide* these long-term goals from you.
+
+/"Dan, that's crazy! Why on earth would they do that?"/ , you might be thinking.[fn:: Unless you've worked in software for a long time? In which case you might be thinking, "/sigh/"?]
+
+Your stakeholder has some long-term goal they're working backwards from. They've spent a great deal of time and effort *converting* that goal into a series of tasks, projects and milestones---aka, "a plan". At some deep level, converting the goal to a plan is how they understand their job.
+
+Many stakeholders, having made such a plan, will proceed to *only* ever talk about the plan. They will not clearly express the long-term goal they're working backwards from. They won't communicate the core challenges to overcome. They won't explain how your team's work helps overcome those challenges. All of which means they aren't providing *you* with enough context to identify new ways to work together, that still accomplish their long-term goals.
+
+This can leave you very stuck, indeed.
+
+I'll name three distinct reasons why stakeholders hide their dreams this way. For each, I'll offer an approach for getting past that barrier.
+
+# Many stakeholders then convince themselves that the only way to achieve the goal is to execute on the plan, just as they've imagined it.
+
+# Why might they do so? I'll name three distinct things you might run into, along with, for each an approach for productively digging in.
+
 * Learning Outcomes/Arc
 ** Maybe: The Power of Speaking to Strategic Outcomes
 ** Some Problems With Goals
@@ -977,7 +1055,7 @@ Failure to export context
 ** Tactical Empathy Skill #2: Echo Back & Summarize
 ** Quin Identifies a Strategic Intent
 ** Exercises
-* Todos
+* Old Todos
 ** Overall rambles
 I think, shorter, punchier sections, with stories woven throughout.
 ** TODO Maybe: move Alistair story *up*, above the tactics
@@ -1053,3 +1131,13 @@ Goals vs Strategic Outcomes
 ** Handling Leaders Who Fear Decisions
 ** Story: Mining For Priorities
 ** Exercises
+* Beta Two Todos
+** DONE Start with more of a promise
+CLOSED: [2026-01-27 Tue 11:33]
+That's what I do in Echoing Back
+** DONE Then break out the high-level thing, before the story
+CLOSED: [2026-01-27 Tue 11:33]
+** TODO Set up story as Maria doesn't have a shared goal
+Her goal is execute on the product strategy, Geoff's goal is... hit quota? It's not clear.
+** TODO Set the story up to not work, then change it
+Yes, definitely
