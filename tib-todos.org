@@ -381,7 +381,8 @@ CLOCK: [2026-01-26 Mon 10:05]--[2026-01-26 Mon 10:08] =>  0:03
 :END:
 ** TODO Statement of Strat -> Find Shared Goals   :curweek:pom:
 :LOGBOOK:
-CLOCK: [2026-01-27 Tue 10:28]
+CLOCK: [2026-01-27 Tue 15:37]
+CLOCK: [2026-01-27 Tue 10:28]--[2026-01-27 Tue 11:36] =>  1:08
 CLOCK: [2026-01-27 Tue 09:13]--[2026-01-27 Tue 09:56] =>  0:43
 CLOCK: [2026-01-26 Mon 10:11]--[2026-01-26 Mon 10:32] =>  0:21
 :END:
