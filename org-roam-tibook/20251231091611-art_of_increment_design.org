@@ -3,41 +3,42 @@
 :END:
 #+title: Increment Design Book
 
+* Who To Send Referral Email To
+ - [X] TechDinner
+ - [X] Diamond Dogs
+ - [X] Ted Smongeski
+ - [X] Lili Pearson
+ - [ ] Stephen Wright
+
 * Referral Email
 
 Subject: Know Any Engineers/PM's Learning To Lead "Large" Projects?
 
 Hello Friend,
 
- - I've started work (in parallel!) on another book
-
- - I've written a short, hopefully-useful [[https://helpthisbook.com/dashboard/3ec75cd9-47ad-4ef4-8888-ed8f68f5162b][excerpt]]
+ - I've started writing /another/ book
 
  - I'm looking for some early readers
 
- - I'm wondering if you or someone you know might find this excerpt useful
+ - I've written ~7,000 words (which should take c. 35 minutes to read)
 
-*Details*
+ - This one is about the challenge of planning and executing on "large" software projects
 
-The new book is for people who are learning to lead "large" software projects --- in particular, learning how to handle the demands for long-term estimates from stakeholders (when it feels totally impossible to be certain how long these complex efforts will actually take).
+   The current title is:
 
-I'm wondering if you know anyone who is, like, right in the middle of that challenge, and could thus potentially find this first chunk of ideas immediately useful.
+   *The Art of Increment Design*
 
-The excerpt is ~5,000 words, which should take about 25 minutes to read.
+   /How To Create Valuable Software Despite Bad Estimates, Misguided Specs, And Genuinely Terrifying Legacy Code/
+
+Do you know anyone who is, like, right in the middle of that challenge, and could thus potentially find this immediately useful?
 
 If you know anyone, feel free to either:
 
  - Email intro them to me
 
- - Or, just share a [[https://helpthisbook.com/dashboard/3ec75cd9-47ad-4ef4-8888-ed8f68f5162b][link to the excerpt]] with them
+ - Or, just share a link to the excerpt with them: https://helpthisbook.com/dan-milstein/the-art-of-increment-design
 
 To be clear, I'd be very happy if /you/ wanted to read it, but I'm not sure you're the target audience, so I won't be hurt if you don't!
-
-The current title of the book is:
-
-*The Art of Increment Design*
-
-/How To Create Valuable Software Despite Bad Estimates, Misguided Specs, And Genuinely Terrifying Legacy Code/
 
 Thanks,
 
@@ -45,7 +46,7 @@ Dan
 
 /But, Dan, aren't you writing another book? WTAF?/
 
-I jammed this out during while waiting for people to read an early draft of the first book, in order to keep myself from obsessing about whether or not they liked it.
+I jammed this out while waiting for a bunch of people to read a draft of the first book, in order to keep myself from obsessing about whether or not they liked it.
 
 
 * Imagined Readers
