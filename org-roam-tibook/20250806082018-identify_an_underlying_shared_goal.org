@@ -18,33 +18,37 @@ You'll be able to paint a compelling picture of a future you can unlock together
 
 Believe it or not, you'll be able to directly share with them the reasons why, if they *don't* change their behavior, it will be impossible to achieve this key goal. By linking your immediate concerns to a shared goal, you can "depersonalize" your request for change: instead of asking your stakeholder to change their /personality/, you can nudge them to adjust their /actions/. To be clear, making such a request is still plenty tricky. In later chapters, we'll share some ways to dramatically lower the risks of doing so. But asking someone to adjust their actions is way, way easier then asking them to, e.g. stop being such a difficult and unpleasant person (even if that is kind of what you dream of doing?).
 
-In the remainder of this chapter, we'll share a plan for identifying such a shared goal, /and/ for finding a specific, compelling way to articulate that goal to your stakeholder. That compelling articulation will then form the foundation of your request for change.
+In the remainder of this chapter, we'll talk about how to identify such a shared goal, /and/ how to find a specific, compelling way to articulate that goal to your stakeholder. That compelling articulation will then form the foundation of your request for change.
+
+In order to serve this purpose, we're going to be looking for a "long-term" goal -- something that underlies your stakeholders day-to-day patterns of interaction with you.
 
 ** Stakeholders Hide Their Dreams, Film At Eleven
 
-The first challenge we have to face is that many stakeholders do not clearly share the long-term goals they care most intensely about.
+Unfortunately, many stakeholders do not clearly share the long-term goals they care most intensely about.
 
-Why not?
+# Why not?
 
-At some time in the past, your stakeholder was given a goal to accomplish. They then spent  time and effort converting that goal into a series of tasks, projects and milestones---aka, "a plan". At some deep level, converting goals to plans is how they understand their job.
+# At some time in the past, your stakeholder was given a goal to accomplish. They then spent  time and effort converting that goal into a series of tasks, projects and milestones---aka, "a plan". At some deep level, converting goals to plans is how they understand their job.
 
-Many stakeholders, having made such a plan, will then proceed to *only* ever talk about the plan. Which means they won't provide you with enough context to propose a /new/ plan: one that still accomplishes their long-term goals, but involves them behaving differently, day-to-day.
+# Many stakeholders, having made such a plan, will then proceed to *only* ever talk about the plan. Which means they won't provide you with enough context to propose a /new/ plan: one that still accomplishes their long-term goals, but involves them behaving differently, day-to-day.
 
-This can leave you very stuck, indeed.
+# This can leave you very stuck, indeed.
 
 # You need to understand the reasons *why* they're asking you to do various tasks and projects.
 
-I'll offer a few reasons why stakeholders might fail to clearly communicate goals.
+# I'll offer a few reasons why stakeholders might fail to clearly communicate goals.
+
+There are a variety of stories stakeholders tell themselves when they fail to clearly communicate goals, including:
 
 # For each, I'll offer an approach for getting past that barrier.
 
  - *"What You Don't Know Won't Distract You"*
 
-   Some stakeholders deliberately limit what they share in an attempt to encourage you to "focus on what matters". Although this isn't fundamentally a crazy idea, it rarely works for software projects (the intense uncertainty in creating new software means that people on the ground need enough context to be able to adapt when reality throws up unexpected obstacles).
+   Some stakeholders deliberately limit what they share in an attempt to encourage you to "focus on what matters". Although this isn't fundamentally a crazy idea, it rarely works for software projects (the intense uncertainty in creating new software means that people on the ground need to be able to change plans often, and to do that, they need lots of underlying context).
 
  - *"What You Don't Know You Can't Argue With Me About"*
 
-   Unfortunately, some stakeholders feel insecure in their position of authority. Such stakeholders /fear/ getting into a conversation with you about how they mapped from their long-term goal to the tasks they're asking you to do.
+   Unfortunately, some stakeholders feel insecure in their position of authority. Such stakeholders /fear/ getting into a conversation with you about how they mapped from their long-term goal to the tasks they're asking you to do. What if you discover that they're wrong? What if you won't do what they're asking?
 
  - *"What You Don't Know You Actually Do Know Because I Totally Told You Already"*
 
@@ -52,38 +56,56 @@ I'll offer a few reasons why stakeholders might fail to clearly communicate goal
 
    Your stakeholder thinks about the goal /all the time/. They simply /forget/ that they need to share it clearly and repeatedly with you. In fact, they often believe they *are* sharing it, because when they talk to you about tasks, all they're thinking about is the long-term goals.
 
-In all three cases, you can mix a pair of tactics to bring out into the open your stakeholder's long-term goals.
+# In all three cases, you can mix a pair of tactics to bring your stakeholder's long-term goals out into the open.
 
+Let's talk about a pair of tactics that can help bring your stakeholder's long-term goals out into the open.
 
 ** Tactic One: Invoke A Positive Vision Of The Future
 
-For this, you invite your stakeholder to imagine that all the current tasks, projects, and milestones have been finished brilliantly and well. You then ask them what good thing will have become true. By echoing back and summarizing what you hear, you will often be able to draw out their most important goal, the /reason/ they're pushing you to execute on all those tasks, projects and milestones.
+/Invite your stakeholder to imagine a happy moment in the future when the current work has all been successfully completed. Create a deliberately playful image, like, "We've thrown a big party." Then ask, "What good things have been unlocked? What is now better for our business? Why are we celebrating?"/
 
-You might say something like:
+# By then echoing back and summarizing what you hear, you will often be able to draw out their most important goal.
 
-/"Let's imagine: it's a year from now. We've finally finished the Legacy Retirement project. It's a huge hit! Lots of Good Things are now possible. We're all happily celebrating and toasting champagne. What... are the Good Things? What is the success that we're toasting? Why are people excited? What is, like, better for our business?"/
+# The positive thing they imagine on the far side of the current work is often the underlying /reason/ they're pushing you to execute on all those tasks, projects and milestones directly in front of you.
 
-# /"If the business does incredibly well over the next 18-24 months, what good thing will happen?"/
-
-With any luck, your stakeholder will smile a bit at the oddball way you've framed this. Then, they'll start thinking out loud. Whatever they say in response, you'll echo back and summarize, and see if you can learn more. Once you've got a coherent goal, you can lay it out:
-
-/"Okay, let me say that back, see if I've got it. Although accelerating development would be nice, the real key is improving both stability and performance. The legacy system seems to fall over every month or two, and we're worried it can't handle more than about a hundred users at once. We have to improve those -- that's ultimately what we're working towards. Do I have that mostly right?"/
-
-/"Yes,"/ says your stakeholder with a sigh of relief. /"If I never get beat up by the head of Customer Success for system downtime ever again, I will die a happy man."/
-
-And, lo, you've been able to extract a meaningful long-term goal for your painfully underspecified "Legacy Retirement" project![fn:: If I had a nickel for every rewrite, replatform, modernization, cloud native, or microservices project I've met that suffered from incredibly vague and unclear goals, I'd be super goddamn rich.] You can now position a nudge to your stakeholder in the context of improving the customer experience of your system, which they apparently care a great deal about.
-
-Why is this such a useful tactic?
+Why does this work better than just directly asking "What are your long-term goals?"
 
 # Anchoring on positive aspirations helps people get out of the day-to-day.
 
-Most stakeholders spend their days struggling with a vague sense of anxiety about achieving their *near-term* goals. If you directly ask such a stakeholder /"What are we trying to achieve over the next year? Why are we even doing Legacy Retirement?",/ the background nervousness about the short-term can flare up, and cause them to say /"We can't worry about that right now, we need to just get through this month."/
+Most stakeholders spend their days struggling with a vague sense of anxiety about achieving their /near-term/ goals.
 
-By instead asking them to imagine a happy longer-term future, you're offering them a chance to "safely" put aside their near-term fears for a moment. By invoking the silly-sounding specific image of "toasting champagne", you engage the playful side of their mind.[fn:: PM's use a very similar tactic in customer interviews when they say "If you could wave a magic wand and poof!, things were suddenly much better, what would have improved?"]
+If you directly ask such a stakeholder /"What are your goals over the next year? Why are we doing this project?"/ the background nervousness can flare up. They can become defensive. They might patronizingly reject your question, saying, /"Don't worry about that right now. You need to just finish the tasks in front of you."/ Worst case, at your next performance review, you may find yourself labeled as lacking the morally pure personality trait of "bias to action".[fn:: What's that you say? It sounds like Dan has some kind of distrust of the company value of "bias to action", since he's mostly seen it used to beat up people who have the temerity to ask why leadership is committed to obviously dumb plans? I HAVE LITERALLY NO IDEA WHAT YOU'RE TALKING ABOUT.]
+
+If, instead of asking for goals, you invite them to imagine a happy longer-term future, you're creating a space where they can safely put aside their near-term fears. Invoking a silly-sounding specific image like "thrown a big party", engages the playful side of their mind.[fn:: Product Managers use a very similar tactic in customer interviews when they say "If you could wave a magic wand and poof!, things were suddenly much better, what would have improved?"] By then echoing back and summarizing, you can help them feel like you are /with/ them in facing their fears, while also obtaining enough information to be ready to make a useful proposal for change.
+
+
+# Invite your stakeholder to imagine that all the current tasks, projects, and milestones have been finished brilliantly and well. You then ask them what good thing will have become true. By echoing back and summarizing what you hear, you will often be able to draw out their most important goal, the /reason/ they're pushing you to execute on all those tasks, projects and milestones.
+
+** Story: Marcus Paints a Happy Picture
+
+Marcus Brown is a senior software engineer toiling away on a big, year-long effort, stirringly named "Legacy Retirement" (and short-handed by literally everyone as "LR"). Unfortunately, Marcus's CTO, Fiona, has recently developed a habit of randomly helicoptering into his team's repos and dropping half-baked pull requests. Now, Fiona was one of the first engineers at the company, so she knows the /old/ systems well... but she doesn't actually understand the details of how Marcus is restructuring those systems, so every one of her random code bombs spins up a whole fraught thread of negotiation.
+
+Then, one afternoon, Marcus runs into Fiona in the company break room. Swallowing his frustration, he says, "Fiona, can I ask you something?"
+
+She looks up from the Slack threads on her phone. "Sure, I guess. But I only have a minute or two."
+
+"No problem," he says, "I can be quick. Here's what I wanted to ask. Let's say we were to imagine that it's a year from now. We've finally finished LR, and it's, like, a huge hit. We're all happily celebrating and toasting champagne." Marcus gestures around the break room to invoke a celebratory crowd around them. "Why are people excited? What Good Things are now possible, thanks to LR being done? What is, like, better for our business?"
+
+Fiona smiles, bemused, at the playfully oddball vision Marcus has painted. Then, she slowly starts thinking out loud. "Well, of course Josie will be glad because..." As Fiona talks, she names a couple of different potential benefits to the rewrite. Marcus steadily echoes back and summarizes, probing for which one is the /most/ important. Finally, he wraps up by saying:
+
+"Okay, let me say that back, see if I've got it. Although accelerating development would be nice, the real key to Legacy Retirement is improving stability and performance. The old system falls over every month or two, and we're worried it can't handle more than about a hundred users at once. We have to improve on those fronts. If we can, the project is a success. Do I have that mostly right?"
+
+"Yes," says Fiona with a sigh of relief. "If I never get beat up by the head of Customer Success for system downtime ever again, I will die a happy woman."
+
+And, lo, Marcus has been able to extract Fiona's key long-term goal for the painfully underspecified "Legacy Retirement" project![fn:: If I had a nickel for every rewrite, replatform, modernization, cloud native, or microservices project I've met that suffered from incredibly vague and unclear goals, I'd be super goddamn rich. I could dive into a bathtub of nickels like one Scrooge McDuck.]
+
+He can now work /with/ Fiona, to achieve a shared goal of reducing downtime and getting the head of Customer Success off their collective backs. And, as a part of that, he'll be able to share with Fiona how being more disciplined about her code contributions will get her there faster (to do this really well, Marcus will want to fill in his picture of Fiona's biggest concerns about achieving that goal -- which is the subject of our next chapter).
+
+# You can now position a nudge to your stakeholder in the context of improving the customer experience of your system, which they apparently care a great deal about.
 
 ** Tactic Two: Make A Usefully Wrong Guess
 
-For this tactic, you make a deliberately opinionated guess about their long-term goals, and then cheerfully invite them to tell you why you're wrong.
+Make a deliberately opinionated guess about their long-term goals, and then cheerfully invite them to tell you why you're wrong.
 
 Why is this one useful?
 
@@ -91,13 +113,13 @@ Many people feel safer expressing their thoughts by telling you what's wrong wit
 
 For example, you might say:
 
-/"I know every team has to spend effort working on all these security tasks. I've been trying to clarify the outcomes to my team. I could understand the key outcome as primarily about doing a SOC-2 audit to reduce our long-term *risks*. Like, we're *not* expecting to see a short-term bump in sales thanks to acquiring certification. Is that even vaguely right? Am I missing something important? Or do I have it totally backwards!?"/
+/"I know every team has to spend effort working on all these security tasks. I've been trying to clarify the outcomes to my team. I could understand the key outcome as just reducing our long-term *risks*. Like, we're *not* expecting to see a short-term bump in sales thanks to acquiring a SOC-2 certification. Is that even vaguely right? Or do I have it totally backwards!?"/
 
 Aim for lightness. You want your tone to clearly indicate: "I'm probably missing something! That's okay! It will be fun for both of us when you correct me!"
 
-With any luck, your stakeholder will respond by saying "/Wait, that's not right. Renewing enterprise contracts is our first goal, because MonstroCo is threatening to cancel if they don't get a SOC letter this year."/ This is critical information that you've never heard before!
+With any luck, your stakeholder will respond by saying "/Wait, that's not right. Renewing more enterprise contracts *is* our first goal. You know MonstroCo is threatening to cancel if they don't get a SOC letter this year, right?"/ Of course you don't! This is critical information that you've never heard before!
 
-You'll cheerfully echo back & summarize what you've uncovered, until you have a clear long-goal that you're stakeholder is trying to achieve, that you, too, care about.
+You'll cheerfully echo back & summarize what you've uncovered, until you have a clear long-goal that your stakeholder is trying to achieve.
 
 And now, if you need to ask your stakeholder to play nicer with injecting their cross-cutting SOC-2 tasks into your sprints, you can situate that as part of a shared goal of improving enterprise renewals.
 
@@ -1221,5 +1243,13 @@ That's what I do in Echoing Back
 CLOSED: [2026-01-27 Tue 11:33]
 ** TODO Set up story as Maria doesn't have a shared goal
 Her goal is execute on the product strategy, Geoff's goal is... hit quota? It's not clear.
+** TODO Morning Walk Thoughts
+Geoff should still be her stakeholder.
+
+Should I speak to stakeholders who aren't your "main" one? Competing priorities? Those require working your way up the chain, and/or bringing in your boss.
+
+Yes, definitely, but put it in a separate chapter.
+
+Explain how long-term goals can be used to find shared ground? Do I need to show that?
 ** TODO Set the story up to not work, then change it
 Yes, definitely
