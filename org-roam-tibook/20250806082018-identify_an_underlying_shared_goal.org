@@ -105,9 +105,9 @@ He can now work /with/ Fiona, to achieve a shared goal of reducing downtime and 
 
 ** Tactic Two: Make A Usefully Wrong Guess
 
-Make a deliberately opinionated guess about their long-term goals, and then cheerfully invite them to tell you why you're wrong.
+/Make a deliberately opinionated guess about their long-term goals, and then cheerfully invite them to tell you why you're wrong./
 
-Why is this one useful?
+Why does this one work better than directly asking?
 
 Many people feel safer expressing their thoughts by telling you what's wrong with yours. Putting their own ideas out there presents as vulnerable or risky, whereas criticizing the ideas of others presents as pleasant and empowering. This is maybe not the most admirable characteristic of humans? But it certainly seems a consistent thing, in my experience, at least. So take advantage of it!
 
@@ -151,17 +151,21 @@ Sidebar: Making A Usefully Wrong Guess is a powerful tactic for drawing people o
 
 With practice, these tactics, along with Echo Back & Summarize, will allow you to dig beneath the surface of your stakeholder's morass of urgent requests, to understand the key long-term goals they're actually trying to achieve.
 
-** Maria Struggles To Make Her Case
+** Story: Maria Struggles To Make Her Case
 
 # Maria Is Stuck With Geoff
 # Struggles to make her case
 
-Remember how the Geoffster kept on undercutting Maria's prioritization to try to force work for his pet customers? And thus her product strategy was dying the death of a thousand cuts?
+Let's return to Maria, the PM from our opening chapter. As you may remember, Maria's VP of Sales, the Geoffster, kept on politically undercutting Maria's prioritization to try to force work for his pet customers. And thus her product strategy was dying the death of a thousand cuts.
+
+Maria and Geoff work at ReMotr, a B2B SaaS company that sells team-building software for remote teams. They offer everything from virtual coffee chats to a full-featured virtual offsite package, including trust-building games, an interactive annual company review, and plenty of opportunities to make oddball memories together.[fn:: The ReMotr product team keeps trying to figure out how to add Potentially Embarrassing Drinking Games to the platform, but their general counsel keeps waving them away in horror.]
+
+The core of Maria's product strategy is a full overhaul of the offsite package. But she can't seem to get traction against that, given Geoff's constant politicking to address random requests from existing customers.
 
 What should Maria do? Well, she could try saying something rational to him, like:
 # If Maria *hasn't* identified the strategic outcome that Geoff cares most intensely about, she might try saying something perfectly rational, like:
 
-/"We're never going to be able to deliver on our product strategy if we can't focus. I need you to stop pushing so hard for one-offs for our existing customers."/
+/"We're never going to be able to deliver Offsite 2.0 if we can't focus. I need you to stop pushing so hard for one-offs for our existing customers."/
 
 This statement has the trivial benefit of being completely true. But, is it going to be /effective/ with Geoff?
 
@@ -171,47 +175,17 @@ Geoff, like many executives, has a gift for /creatively mis-hearing requests/.[f
 
 He thus manages to hear Maria asking for something *for herself*. He hears her saying "In order for *me*, Maria, to achieve *my* goals, I need *you* to stop pushing so hard for *your* goals." In Maria's mind, she was trying to advocate for the business as a whole. But that's not what Geoff hears. Note that Geoff uses this skill of "creative mis-hearing" totally unconsciously. When humans decide to act in our own self-interest, our brains are incredibly good at pretending to us that we're not doing so.[fn:: Evolution has relentlessly selected for our being able to truly believe in our own unselfishness. This self-deception helps us persuade others that we will not act against their interests, whether or not that's true. Being able to act selfishly, while honestly believing we're not doing so, is a fundamental trait of humans everywhere. If you're in a position of authority, I recommend trying to face this uncomfortable truth.]
 
-Given that Maria was trying to speak directly about company goals, how could Geoff's brain explain this situation to him, so that he could brush off Maria's request, and still maintain his belief that he, at least, is acting in the company's best interests? OMG, it's so easy:
-
-Geoff has a plan and quota to hit! He's not asking for much, just attention for a few key problems here and there! Maria clearly doesn't understand how hard it is to keep customers happy! Is he supposed to just let those customers churn!? Maria is being completely unreasonable.
-
-# He's being entirely reasonable. She is the one asking for something unfair.
-
-And then, his brain having smoothly dispensed with this challenge, Geoff will continue on his merry, political, distracting way.
-
 If we find ourselves confronted with this kind of behavior, what should we do?
 
-We /could/ decide to spend time seething with resentment and frustration. I myself have spent many a quality hour engaged in that highly productive, empowering and delightful practice (ask my wife some time about how much fun that is for her!). Or... we could let ourselves become curious. In particular, curious about what is going on /for Geoff/.
-
-From such a place of curiosity we might ask: why does his brain feel such urgency to spin up this series of reasons to ignore Maria's request? What, exactly, is Geoff's brain trying to protect him from? Why might his brain perceive even listening to Maria's request as *not* in Geoff's own self-interest?
-
-Once we ask that question, we realize that one answer is simply:
-
-*Geoff's brain is worried that going along with Maria's request could cause Geoff to fail at his own job.*
-
-# Where success is, ultimately, being able to keep working towards some long-term outcome he cares intensely about.
-
-As long as Geoff's brain perceives Maria's request as some form of a threat, his brain will eagerly come up with all sorts of excellent reasons why he should push back and/or ignore and/or politically campaign against her.
-
-But what if instead, Maria *knew* how Geoff (and his brain!) thought about success and failure?
-
-What if, during her request, she could speak to success and failure in the very terms Geoff (and his brain!) use?
-
-What if she could offer him a new way to succeed at his job, by working *with* her?
-
-# Well then, his brain might have very different things to say to him.
-
-To do that, she'd have to understand what Geoff is trying to achieve plus what he's most worried about, on the path to his goals.
-
-Let's grant her a bit of magical insight, and then see what she can do with it.
+We /could/ decide to spend time seething with resentment and frustration. I myself have spent many a quality hour engaged in that highly productive, empowering and delightful practice (ask my wife some time about how much fun that is for her!). Or... we could probe for this frustrating person's goals.
 
 ** The Central Challenge Facing The Business
 
-Maria and Geoff work at ReMotor, a B2B SaaS company that sells team-building software for remote teams. They offer everything from virtual coffee chats to a full-featured virtual offsite package, including trust-building games, an interactive annual company review, and plenty of opportunities to make oddball memories together.[fn:: The ReMotor product team keeps trying to figure out how to add Potentially Embarrassing Drinking Games to the platform, but their general counsel keeps waving them away in horror.]
+Maria and Geoff work at ReMotr, a B2B SaaS company that sells team-building software for remote teams. They offer everything from virtual coffee chats to a full-featured virtual offsite package, including trust-building games, an interactive annual company review, and plenty of opportunities to make oddball memories together.[fn:: The ReMotr product team keeps trying to figure out how to add Potentially Embarrassing Drinking Games to the platform, but their general counsel keeps waving them away in horror.]
 
-Up to now, ReMotor has been selling almost entirely to small and medium-sized businesses, who have been relatively quick to embrace remote-first work habits. Unfortunately, the profitable opportunities in that segment seem to be drying up. The marketing team is struggling to turn up any new SMB leads worth following up on. Plus, the tight budgets at smaller companies means there's no real room to upsell. ReMotor will only be able to grow if they can somehow start selling to significantly larger businesses. Which is to say... to the fabled enterprise segment.
+Up to now, ReMotr has been selling almost entirely to small and medium-sized businesses, who have been relatively quick to embrace remote-first work habits. Unfortunately, the profitable opportunities in that segment seem to be drying up. The marketing team is struggling to turn up any new SMB leads worth following up on. Plus, the tight budgets at smaller companies means there's no real room to upsell. ReMotr will only be able to grow if they can somehow start selling to significantly larger businesses. Which is to say... to the fabled enterprise segment.
 
-At the last board meeting, the CEO stood up and confidently promised that, within eighteen months, enterprise customers would represent a full 30% of ReMotor's annual recurring revenue. This is an extremely ambitious goal. The enterprise segment, even with some fairly open-minded tagging of large-/ish/ customers as "enterprise", currently sits at a measly 11%. After the CEO's announcement, their lead investor said, "Come back when you've made some sales."
+At the last board meeting, the CEO stood up and confidently promised that, within eighteen months, enterprise customers would represent a full 30% of ReMotr's annual recurring revenue. This is an extremely ambitious goal. The enterprise segment, even with some fairly open-minded tagging of large-/ish/ customers as "enterprise", currently sits at a measly 11%. After the CEO's announcement, their lead investor said, "Come back when you've made some sales."
 
 Geoff was sitting in on this board meeting and, being the VP of *Sales*, feels just hugely under the gun. He's been racing to build up an effective enterprise sales team, he's been endlessly reviewing recordings of sales calls, he's personally conducted a dozen interviews with enterprise HR teams. But... none of it is working. The pipeline for enterprise deals is painfully thin at every stage, from the very top to the very bottom of the funnel.
 
@@ -233,11 +207,11 @@ Later in this chapter, we'll explore how to cut through the chaos and determine 
 
 As they're leaving the room after a prioritization sync with the full executive team, Maria asks Geoff if he has a minute to check in.  "Of course," he says, "I've always got time for my favorite product manager." His tone is blandly smooth and friendly, in a way that Maria has come to learn means absolutely nothing whatsoever.
 
-They grab chairs in an empty corner of the office break room. Maria mentally rehearses the case she's prepared. As she gets ready to speak, she sits up straight and squares her shoulders. A friend told her that will make her sound more confident. "I want to make sure I understand ReMotor's goals, and how I can work to support your team." She makes herself look him in the eye and wait.
+They grab chairs in an empty corner of the office break room. Maria mentally rehearses the case she's prepared. As she gets ready to speak, she sits up straight and squares her shoulders. A friend told her that will make her sound more confident. "I want to make sure I understand ReMotr's goals, and how I can work to support your team." She makes herself look him in the eye and wait.
 
 Geoff sips at a vitamin water he grabbed from the fridge, and shrugs a "go ahead".
 
-"I know how important it is for ReMotor to break into the enterprise. We *have* to make progress towards the 30% goal, this year. I know how hard the sales team has been working on that."
+"I know how important it is for ReMotr to break into the enterprise. We *have* to make progress towards the 30% goal, this year. I know how hard the sales team has been working on that."
 
 He takes another sip.
 
@@ -1150,6 +1124,60 @@ The CEO gives a small laugh. "Having the project be over?" He shrugs. "There's a
 
 The CEO is going to hear this, and it's going to be hard for them to not jump in and respond. They might pick one end, they might pick a mix, or they might reject the spectrum altogether. All of those are valuable to Janine.
 
+** Story: Maria Struggles To Make Her Case
+
+# Maria Is Stuck With Geoff
+# Struggles to make her case
+
+Remember how the Geoffster kept on undercutting Maria's prioritization to try to force work for his pet customers? And thus her product strategy was dying the death of a thousand cuts?
+
+What should Maria do? Well, she could try saying something rational to him, like:
+# If Maria *hasn't* identified the strategic outcome that Geoff cares most intensely about, she might try saying something perfectly rational, like:
+
+/"We're never going to be able to deliver on our product strategy if we can't focus. I need you to stop pushing so hard for one-offs for our existing customers."/
+
+This statement has the trivial benefit of being completely true. But, is it going to be /effective/ with Geoff?
+
+Eh, not so much.
+
+Geoff, like many executives, has a gift for /creatively mis-hearing requests/.[fn:: I'm now 100% imagining this skill being taught to promising young leaders, before they're allowed into join the Senior Leadership Team. Along with, /How To Demand Progress Against Obviously Conflicting Goals/; /How To Blame A Team For Your Own Failings: A Survey Course/; and /How To Join Meetings Late And Leave Them Early And Other Demonstrations Of Just How Important You Are/. Are these a series of lectures? Small group discussion sections? What are the titles of the HBS case studies? I have so many questions.]
+
+He thus manages to hear Maria asking for something *for herself*. He hears her saying "In order for *me*, Maria, to achieve *my* goals, I need *you* to stop pushing so hard for *your* goals." In Maria's mind, she was trying to advocate for the business as a whole. But that's not what Geoff hears. Note that Geoff uses this skill of "creative mis-hearing" totally unconsciously. When humans decide to act in our own self-interest, our brains are incredibly good at pretending to us that we're not doing so.[fn:: Evolution has relentlessly selected for our being able to truly believe in our own unselfishness. This self-deception helps us persuade others that we will not act against their interests, whether or not that's true. Being able to act selfishly, while honestly believing we're not doing so, is a fundamental trait of humans everywhere. If you're in a position of authority, I recommend trying to face this uncomfortable truth.]
+
+# Given that Maria was trying to speak directly about company goals, how could Geoff's brain explain this situation to him, so that he could brush off Maria's request, and still maintain his belief that he, at least, is acting in the company's best interests? OMG, it's so easy:
+
+# Geoff has a plan and quota to hit! He's not asking for much, just attention for a few key problems here and there! Maria clearly doesn't understand how hard it is to keep customers happy! Is he supposed to just let those customers churn!? Maria is being completely unreasonable.
+
+# # He's being entirely reasonable. She is the one asking for something unfair.
+
+# And then, his brain having smoothly dispensed with this challenge, Geoff will continue on his merry, political, distracting way.
+
+If we find ourselves confronted with this kind of behavior, what should we do?
+
+We /could/ decide to spend time seething with resentment and frustration. I myself have spent many a quality hour engaged in that highly productive, empowering and delightful practice (ask my wife some time about how much fun that is for her!). Or... we could let ourselves become curious. In particular, curious about what is going on /for Geoff/.
+
+From such a place of curiosity we might ask: why does his brain feel such urgency to spin up this series of reasons to ignore Maria's request? What, exactly, is Geoff's brain trying to protect him from? Why might his brain perceive even listening to Maria's request as *not* in Geoff's own self-interest?
+
+Once we ask that question, we realize that one answer is simply:
+
+*Geoff's brain is worried that going along with Maria's request could cause Geoff to fail at his own job.*
+
+# Where success is, ultimately, being able to keep working towards some long-term outcome he cares intensely about.
+
+As long as Geoff's brain perceives Maria's request as some form of a threat, his brain will eagerly come up with all sorts of excellent reasons why he should push back and/or ignore and/or politically campaign against her.
+
+But what if instead, Maria *knew* how Geoff (and his brain!) thought about success and failure?
+
+What if, during her request, she could speak to success and failure in the very terms Geoff (and his brain!) use?
+
+What if she could offer him a new way to succeed at his job, by working *with* her?
+
+# Well then, his brain might have very different things to say to him.
+
+To do that, she'd have to understand what Geoff is trying to achieve plus what he's most worried about, on the path to his goals.
+
+Let's grant her a bit of magical insight, and then see what she can do with it.
+
 * Learning Outcomes/Arc
 ** Maybe: The Power of Speaking to Strategic Outcomes
 ** Some Problems With Goals
@@ -1243,13 +1271,8 @@ That's what I do in Echoing Back
 CLOSED: [2026-01-27 Tue 11:33]
 ** TODO Set up story as Maria doesn't have a shared goal
 Her goal is execute on the product strategy, Geoff's goal is... hit quota? It's not clear.
-** TODO Morning Walk Thoughts
-Geoff should still be her stakeholder.
-
-Should I speak to stakeholders who aren't your "main" one? Competing priorities? Those require working your way up the chain, and/or bringing in your boss.
-
-Yes, definitely, but put it in a separate chapter.
-
-Explain how long-term goals can be used to find shared ground? Do I need to show that?
+** TODO Break out chapter for "How/when to loop in your boss"
+Aka, using hierarchy.
+** TODO Should I just move the Maria/Geoff story altogether to Compelling Offer? Since that's what it actually is?
 ** TODO Set the story up to not work, then change it
 Yes, definitely
