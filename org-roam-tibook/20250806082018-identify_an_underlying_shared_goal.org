@@ -20,7 +20,7 @@ Believe it or not, you'll be able to directly share with them the reasons why, i
 
 In the remainder of this chapter, we'll talk about how to identify such a shared goal, /and/ how to find a specific, compelling way to articulate that goal to your stakeholder. That compelling articulation will then form the foundation of your request for change.
 
-In order to serve this purpose, we're going to be looking for a "long-term" goal -- something that underlies your stakeholders day-to-day patterns of interaction with you.
+In order to serve this purpose, we're going to be looking for a "long-term" goal -- something that underlies your stakeholder's day-to-day patterns of interaction with you.
 
 ** Stakeholders Hide Their Dreams, Film At Eleven
 
@@ -62,7 +62,7 @@ Let's talk about a pair of tactics that can help bring your stakeholder's long-t
 
 ** Tactic One: Invoke A Positive Vision Of The Future
 
-/Invite your stakeholder to imagine a happy moment in the future when the current work has all been successfully completed. Create a deliberately playful image, like, "We've thrown a big party." Then ask, "What good things have been unlocked? What is now better for our business? Why are we celebrating?"/
+/Invite your stakeholder to imagine a happy moment in the future when the current work has all been successfully completed. Create a deliberately playful image, like, "We're throwing a big party." Then ask, "What good things have been unlocked? What is now better for our business? Why are we celebrating?"/
 
 # By then echoing back and summarizing what you hear, you will often be able to draw out their most important goal.
 
@@ -76,20 +76,20 @@ Most stakeholders spend their days struggling with a vague sense of anxiety abou
 
 If you directly ask such a stakeholder /"What are your goals over the next year? Why are we doing this project?"/ the background nervousness can flare up. They can become defensive. They might patronizingly reject your question, saying, /"Don't worry about that right now. You need to just finish the tasks in front of you."/ Worst case, at your next performance review, you may find yourself labeled as lacking the morally pure personality trait of "bias to action".[fn:: What's that you say? It sounds like Dan has some kind of distrust of the company value of "bias to action", since he's mostly seen it used to beat up people who have the temerity to ask why leadership is committed to obviously dumb plans? I HAVE LITERALLY NO IDEA WHAT YOU'RE TALKING ABOUT.]
 
-If, instead of asking for goals, you invite them to imagine a happy longer-term future, you're creating a space where they can safely put aside their near-term fears. Invoking a silly-sounding specific image like "thrown a big party", engages the playful side of their mind.[fn:: Product Managers use a very similar tactic in customer interviews when they say "If you could wave a magic wand and poof!, things were suddenly much better, what would have improved?"] By then echoing back and summarizing, you can help them feel like you are /with/ them in facing their fears, while also obtaining enough information to be ready to make a useful proposal for change.
+If, instead of asking for goals, you invite them to imagine a happy longer-term future, you're creating a space where they can safely put aside their near-term fears. Invoking a  specific image like "throwing a big party", engages the playful side of their mind.[fn:: Product Managers use a very similar tactic in customer interviews when they say "If you could wave a magic wand and poof!, things were suddenly much better, what would have improved?"] If you can then echo back and summarize, you can help them feel like you are /with/ them in facing their fears, while also obtaining enough information to be ready to make a useful proposal for change.
 
 
 # Invite your stakeholder to imagine that all the current tasks, projects, and milestones have been finished brilliantly and well. You then ask them what good thing will have become true. By echoing back and summarizing what you hear, you will often be able to draw out their most important goal, the /reason/ they're pushing you to execute on all those tasks, projects and milestones.
 
 ** Story: Marcus Paints a Happy Picture
 
-Marcus Brown is a senior software engineer toiling away on a big, year-long effort, stirringly named "Legacy Retirement" (and short-handed by literally everyone as "LR"). Unfortunately, Marcus's CTO, Fiona, has recently developed a habit of randomly helicoptering into his team's repos and dropping half-baked pull requests. Now, Fiona was one of the first engineers at the company, so she knows the /old/ systems well... but she doesn't actually understand the details of how Marcus is restructuring those systems, so every one of her random code bombs spins up a whole fraught thread of negotiation.
+Marcus Brown is a senior software engineer toiling away on a big, year-long effort, stirringly named "Legacy Retirement" (and short-handed by literally everyone as "LR"). Unfortunately, Marcus's CTO, Fiona, has recently developed a habit of randomly helicoptering into his team's repos and dropping half-baked pull requests. Now, Fiona was one of the first engineers at the company, so she knows the /old/ systems well... but she doesn't actually understand how Marcus is restructuring those systems, so every one of her random code bombs spins up a whole fraught thread of negotiation.
 
 Then, one afternoon, Marcus runs into Fiona in the company break room. Swallowing his frustration, he says, "Fiona, can I ask you something?"
 
 She looks up from the Slack threads on her phone. "Sure, I guess. But I only have a minute or two."
 
-"No problem," he says, "I can be quick. Here's what I wanted to ask. Let's say we were to imagine that it's a year from now. We've finally finished LR, and it's, like, a huge hit. We're all happily celebrating and toasting champagne." Marcus gestures around the break room to invoke a celebratory crowd around them. "Why are people excited? What Good Things are now possible, thanks to LR being done? What is, like, better for our business?"
+"No problem," he says, "I can be quick. Here's what I wanted to ask. Let's say we were to imagine that it's a year from now. We've finally finished LR, and it's, like, a huge hit. We're all happily celebrating and toasting champagne." Marcus grins as he gestures around the break room, at an imaginary celebratory crowd. "Why are people excited? What Good Things are now possible, thanks to LR being done? What is, like, better for our business?"
 
 Fiona smiles, bemused, at the playfully oddball vision Marcus has painted. Then, she slowly starts thinking out loud. "Well, of course Josie will be glad because..." As Fiona talks, she names a couple of different potential benefits to the rewrite. Marcus steadily echoes back and summarizes, probing for which one is the /most/ important. Finally, he wraps up by saying:
 
@@ -99,13 +99,13 @@ Fiona smiles, bemused, at the playfully oddball vision Marcus has painted. Then,
 
 And, lo, Marcus has been able to extract Fiona's key long-term goal for the painfully underspecified "Legacy Retirement" project![fn:: If I had a nickel for every rewrite, replatform, modernization, cloud native, or microservices project I've met that suffered from incredibly vague and unclear goals, I'd be super goddamn rich. I could dive into a bathtub of nickels like one Scrooge McDuck.]
 
-He can now work /with/ Fiona, to achieve a shared goal of reducing downtime and getting the head of Customer Success off their collective backs. And, as a part of that, he'll be able to share with Fiona how being more disciplined about her code contributions will get her there faster (to do this really well, Marcus will want to fill in his picture of Fiona's biggest concerns about achieving that goal -- which is the subject of our next chapter).
+He can now work /with/ Fiona, to achieve the shared goals of reducing downtime and getting the head of Customer Success off their collective backs. And, as a part of that, he'll be able to convety to Fiona how being more disciplined about her code contributions will get her there faster (to do this really well, Marcus will want to fill in his picture of Fiona's biggest concerns about achieving that goal -- which is the subject of our next chapter).
 
 # You can now position a nudge to your stakeholder in the context of improving the customer experience of your system, which they apparently care a great deal about.
 
 ** Tactic Two: Make A Usefully Wrong Guess
 
-/Make a deliberately opinionated guess about their long-term goals, and then cheerfully invite them to tell you why you're wrong./
+/Offer your stakeholder a deliberately opinionated guess about their long-term goals, and then cheerfully invite them to tell you why you're wrong./
 
 Why does this one work better than directly asking?
 
@@ -117,11 +117,9 @@ For example, you might say:
 
 Aim for lightness. You want your tone to clearly indicate: "I'm probably missing something! That's okay! It will be fun for both of us when you correct me!"
 
-With any luck, your stakeholder will respond by saying "/Wait, that's not right. Renewing more enterprise contracts *is* our first goal. You know MonstroCo is threatening to cancel if they don't get a SOC letter this year, right?"/ Of course you don't! This is critical information that you've never heard before!
+With any luck, your stakeholder will respond by saying "/Wait, that's not right. Renewing more enterprise contracts *is* our first goal. You know MonstroCo is threatening to cancel if they don't get a SOC letter this year, right?"/ Of course you don't! This is critical information that you've never heard before! But you don't say that as you cheerfully echo back and summarize what you've just heard.
 
-You'll cheerfully echo back & summarize what you've uncovered, until you have a clear long-goal that your stakeholder is trying to achieve.
-
-And now, if you need to ask your stakeholder to play nicer with injecting their cross-cutting SOC-2 tasks into your sprints, you can situate that as part of a shared goal of improving enterprise renewals.
+Now, when you ask your stakeholder to give you a bit more notice before injecting random SOC-2 tasks into your sprints, you can situate that as part of a shared goal of saving the MonstroCo renewal.
 
 A key part of this approach is to that the guess must be *too* opinionated. You want to aim for something which is partly right, but deliberately goes too far. Something which will cause your stakeholder to sit up and take notice. That's vastly more useful than getting them to absently agree to something vague and anodyne.
 
@@ -151,37 +149,114 @@ Sidebar: Making A Usefully Wrong Guess is a powerful tactic for drawing people o
 
 With practice, these tactics, along with Echo Back & Summarize, will allow you to dig beneath the surface of your stakeholder's morass of urgent requests, to understand the key long-term goals they're actually trying to achieve.
 
-** Story: Maria Struggles To Make Her Case
+** Story: The Death Of The Straightforward Request
 
 # Maria Is Stuck With Geoff
 # Struggles to make her case
 
-Let's return to Maria, the PM from our opening chapter. As you may remember, Maria's VP of Sales, the Geoffster, kept on politically undercutting Maria's prioritization to try to force work for his pet customers. And thus her product strategy was dying the death of a thousand cuts.
+Let's return to Maria, the PM from our opening chapter. As you may remember, Maria's VP of Sales, the Geoffster, kept on politically undercutting Maria's prioritization to try to force work for his pet customers.
 
-Maria and Geoff work at ReMotr, a B2B SaaS company that sells team-building software for remote teams. They offer everything from virtual coffee chats to a full-featured virtual offsite package, including trust-building games, an interactive annual company review, and plenty of opportunities to make oddball memories together.[fn:: The ReMotr product team keeps trying to figure out how to add Potentially Embarrassing Drinking Games to the platform, but their general counsel keeps waving them away in horror.]
+# And thus her product strategy was dying the death of a thousand cuts.
 
-The core of Maria's product strategy is a full overhaul of the offsite package. But she can't seem to get traction against that, given Geoff's constant politicking to address random requests from existing customers.
+Maria and Geoff work at ReMotr, a B2B SaaS company that sells team-building software for companies with remote teams. They offer everything from virtual coffee chats to a full-featured virtual offsite package, including trust-building games, an interactive annual company review, and plenty of opportunities to make oddball memories together.[fn:: The ReMotr product team keeps trying to figure out how to add Potentially Embarrassing Drinking Games to the platform, but their general counsel keeps waving them away in horror.]
+
+The core of Maria's product strategy is a full overhaul of the offsite package (the project is called Retreat 2.0, internally). But she can't seem to get traction against that, given Geoff's constant politicking to address random requests from existing customers.
 
 What should Maria do? Well, she could try saying something rational to him, like:
 # If Maria *hasn't* identified the strategic outcome that Geoff cares most intensely about, she might try saying something perfectly rational, like:
 
-/"We're never going to be able to deliver Offsite 2.0 if we can't focus. I need you to stop pushing so hard for one-offs for our existing customers."/
+/"We're never going to be able to deliver Retreat 2.0 if we can't focus. I need you to stop pushing so hard for one-offs for our existing customers."/
 
-This statement has the trivial benefit of being completely true. But, is it going to be /effective/ with Geoff?
+This statement has the trivial benefit of being completely true. But, is it going to be effective with Geoff?
 
 Eh, not so much.
 
-Geoff, like many executives, has a gift for /creatively mis-hearing requests/.[fn:: I'm now 100% imagining this skill being taught to promising young leaders, before they're allowed into join the Senior Leadership Team. Along with, /How To Demand Progress Against Obviously Conflicting Goals/; /How To Blame A Team For Your Own Failings: A Survey Course/; and /How To Join Meetings Late And Leave Them Early And Other Demonstrations Of Just How Important You Are/. Are these a series of lectures? Small group discussion sections? What are the titles of the HBS case studies? I have so many questions.]
+Geoff, like many executives, has a gift for creatively mis-hearing requests.[fn:: I'm now 100% imagining this skill being taught to promising young leaders, before they're allowed into join the Senior Leadership Team. Along with, /How To Demand Progress Against Obviously Conflicting Goals/; /How To Blame A Team For Your Own Failings: A Survey Course/; and /How To Join Meetings Late And Leave Them Early And Other Demonstrations Of Just How Important You Are/. Are these a series of lectures? Small group discussion sections? What are the titles of the HBS case studies? I have so many questions.]
 
-He thus manages to hear Maria asking for something *for herself*. He hears her saying "In order for *me*, Maria, to achieve *my* goals, I need *you* to stop pushing so hard for *your* goals." In Maria's mind, she was trying to advocate for the business as a whole. But that's not what Geoff hears. Note that Geoff uses this skill of "creative mis-hearing" totally unconsciously. When humans decide to act in our own self-interest, our brains are incredibly good at pretending to us that we're not doing so.[fn:: Evolution has relentlessly selected for our being able to truly believe in our own unselfishness. This self-deception helps us persuade others that we will not act against their interests, whether or not that's true. Being able to act selfishly, while honestly believing we're not doing so, is a fundamental trait of humans everywhere. If you're in a position of authority, I recommend trying to face this uncomfortable truth.]
+He would thus manage to hear Maria asking for something for /herself/. He would hear her saying "In order for /me/ to achieve /my/ goals, I need /you/ to stop pushing so hard for /yours/." In Maria's mind, she was trying to advocate for the business as a whole. But that's not what Geoff hears. Note that Geoff uses this skill of "creative mis-hearing" totally unconsciously. When humans decide to act in our own self-interest, our brains are incredibly good at pretending to us that we're not doing so.[fn:: Evolution has relentlessly selected for our being able to truly believe in our own unselfishness. This self-deception helps us persuade others that we will not act against their interests, whether or not that's true. Being able to act selfishly, while honestly believing we're not doing so, is a fundamental trait of humans everywhere. If you're in a position of authority, I recommend trying to face this uncomfortable truth.]
 
 If we find ourselves confronted with this kind of behavior, what should we do?
 
-We /could/ decide to spend time seething with resentment and frustration. I myself have spent many a quality hour engaged in that highly productive, empowering and delightful practice (ask my wife some time about how much fun that is for her!). Or... we could probe for this frustrating person's goals.
+We /could/ decide to spend time seething with resentment and frustration. I myself have spent many a quality hour engaged in that highly productive, empowering and delightful practice (ask my wife some time about how much fun that is for her!). Or... we could probe for our very own frustrating person's goals.
+
+# PICK UP HERE
+
+** Maria Imagines A Happy SKO
+
+As they're leaving the room after a prioritization sync with the full executive team, Maria asks Geoff if he has a minute to check in. "Of course," he says, "I've always got time for my favorite product manager." His tone is blandly smooth and friendly, in a way that Maria has come to learn means absolutely nothing whatsoever.
+
+They grab chairs in an empty office. Maria mentally rehearses the case she's prepared. As she gets ready to speak, she sits up straight and squares her shoulders. A friend told her that will make her sound more confident. "I want to make sure I understand ReMotr's goals, and how I can work to support your team." She makes herself look him in the eye and wait.
+
+Geoff sips at a vitamin water he grabbed on their walk over, and shrugs a "go ahead".
+
+"I worry that, for the leadership team, it feels like we've been working on Retreat 2.0 forever."
+
+Another shrug.
+
+"I want to make sure I really fully understand what will be better for the sales team once we ship it. Like, you're announcing it at a Sales Kick Off, everyone is cheering. Why are they all cheering?"
+
+"You're gonna finish by SKO next month?" he asks, eyebrows raised.
+
+Maria forces a laugh. "I wish. But, if we /were/, what would you be most excited about? If you had to pick, like, one thing out of all the things we've dreamed about."
+
+"Really?"
+
+"Really."
+
+"Well," he said, "if we're talking dreams, then I'm easy. I want a new Enterprise Demo."
+
+This is a total surprise for Maria. Just about all of Geoff's one-off requests are for customers in the small and medium segments -- because that's where almost all of their existing customers reside. Based on that, she'd been assuming he was against the push to the enterprise.
+
+She wants to learn more, but he's just staring at her. To get him to keep talking, she repeats the last few words he said, inflected as a question:
+
+"new Enterprise Demo...?"
+
+(Maria is using a lovely tactic that we call Repeat Trailing Words, and which we'll discuss in a later chapter)
+
+Having repeated his last three words, she then waits. Geoff sips his vitamin water and stares back at her.
+
+Finally, he says, "Yeah, we're getting /killed/ trying to build pipeline."
+
+She tries again. "Trying to build pipeline...?"
+
+Again a short pause. Then, Geoff speaks up. "Exactly. You know our goals, right? What Greg said to the board last month?"
+
+Maria raises her eyebrows, indicating her very genuine curiosity about what their CEO might have said.
+
+"In front of the entire board, Greg reared up on his hind legs and promised that, within eighteen months, we'd be getting a full thirty percent of our annual recurring revenue from enterprise customers. Thirty percent! And who has to now deliver on that? The sales team, of course. But we can't even get enterprise HR teams to /talk/ to us. So that's why I'd take an enterprise demo, and I'd take it yesterday."
+
+Maria's mind is swirling. She had heard rumors of the board meeting, but hadn't heard the details. She forces herself to echo back what she just heard.
+
+"Let me say that back, see if I've got it. ReMotr has promised the board that we'll increase enterprise sales to 30%, but to do that, your team needs to build enterprise sales pipeline, like, right now. And enterprise HR teams need to see a slick new demo to be willing to talk. So you're pretty much stalled out. Is that about right?"
+
+He snaps off a sharp nod. "Yes, exactly."
+
+** Maria Makes A Usefully Wrong Guess
+
+This has given Maria a lot to chew on. But she realizes she hasn't quite found a shared goal that /also/ encompasses his advocacy for existing customers. She decides to push for that as well.
+
+"This is super helpful. Now, I know that I've sometimes pushed back on your requests for existing customers--"
+
+"Sometimes?!"
+
+"Fair enough," she says, raising her hands in mock surrender. "But I'll admit, now that I understand how much pressure you're under for our enterprise segment, maybe I should have listened more carefully. Maybe you can help me connect the dots. Like, if I had to guess, I might guess that you've been picking out customers whose needs are close to what you think enterprise customers will need. Is that right? Or am I totally off?"
+
+"Oh, that's not it at all," says Geoff. "It's not that complicated. I'm just doing whatever the hell I can to help my team make this year's quota. Because Retreat 2.0 is so far off, I need *something* this year."
+
+"Got it," she says, nodding. "So you're just trying to help the team get by. In fact, it kind of sounds like, if there was any way to get an enterprise demo sooner than later, you'd be ready to deprioritize some of those requests?"
+
+"Tell me where to sign," he says.
+
+And, lo, Maria has exactly what she needs. If she can only find some way to connect her team's focus to delivering enterprise demos right away, she can directly ask Geoff to change his behavior, in order to help him achieve his own goals.
+
+# Can she then guess that, if he had to pick,
+
+* Old Back Half
 
 ** The Central Challenge Facing The Business
 
-Maria and Geoff work at ReMotr, a B2B SaaS company that sells team-building software for remote teams. They offer everything from virtual coffee chats to a full-featured virtual offsite package, including trust-building games, an interactive annual company review, and plenty of opportunities to make oddball memories together.[fn:: The ReMotr product team keeps trying to figure out how to add Potentially Embarrassing Drinking Games to the platform, but their general counsel keeps waving them away in horror.]
+
+
 
 Up to now, ReMotr has been selling almost entirely to small and medium-sized businesses, who have been relatively quick to embrace remote-first work habits. Unfortunately, the profitable opportunities in that segment seem to be drying up. The marketing team is struggling to turn up any new SMB leads worth following up on. Plus, the tight budgets at smaller companies means there's no real room to upsell. ReMotr will only be able to grow if they can somehow start selling to significantly larger businesses. Which is to say... to the fabled enterprise segment.
 
