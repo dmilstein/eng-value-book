@@ -65,7 +65,7 @@ I'd love to tell you that most Important People feel pleasantly secure in their 
 
 ** Three Tactics For Drawing Out Underlying Goals
 
-Let's talk about a trio of tactics that can help you bring your stakeholder's long-term goals out into the open, even if they are initially resistant to discussing anything other than why you're not done with your JIRA tickets yet. We'll first sketch all three in, then bring them to life with a story.
+Let's talk about a trio of tactics that can help you bring your stakeholder's long-term goals out into the open, even if they are initially resistant to discussing anything other than why you're not done with your JIRA tickets yet. We'll first sketch in all three, then bring them to life with a story.
 
 # Let's talk about a trio of tactics that can help you bring your stakeholder's long-term goals out into the open, even if they are initially resistant to discussing anything other than when you'll be done with your JIRA tickets.
 
@@ -99,9 +99,9 @@ Many people feel safer expressing their own thoughts by telling you what's wrong
 
 ** Story: Marcus And The Meddlesome CTO
 
-Marcus Brown is a senior software engineer. He's worked for the last six months at ReMotr, a B2B SaaS company that sells team-building software for companies with remote teams. ReMotr offers everything from virtual coffee chats to a full-featured virtual offsite package (ReTreat), that includes trust-building games, an interactive annual company review, and plenty of opportunities to make oddball memories together.[fn:: The ReMotr product team keeps trying to figure out how to add Potentially Embarrassing Drinking Games to the platform, but their general counsel keeps waving them away in horror.]
+Marcus Brown is a senior software engineer. He's worked for the last six months at ReMotr, a B2B SaaS company that sells team-building software for companies with remote teams. ReMotr's flagship product is ReTreat, which allows companies to host a virtual offsite featuring trust-building games, an interactive annual company review, and plenty of opportunities to make oddball memories together.[fn:: The ReMotr product team keeps trying to figure out how to add Potentially Embarrassing Drinking Games to the platform, but their general counsel keeps waving them away in horror.]
 
-Marcus spends his days toiling away on a big effort to replace the truly horrifying code written in the early days of the company. The project is known internally as "LR", which Marcus only recently discovered stands for "Legacy Retirement".
+Marcus spends his days toiling away on a big effort to replace the truly horrifying code written in ReMotr's early days. The project is known internally as "LR", which Marcus only recently discovered stands for "Legacy Retirement".
 
 Unfortunately, Marcus's CTO, Fiona, has developed a habit of randomly helicoptering into his team's repos and dropping half-baked pull requests. Worse, half of them see to imply major architectural shifts. Fiona was one of the first engineers at the company, so she knows the /old/ systems well... but she doesn't actually understand how Marcus and his team are restructuring those systems, so every one of her random code bombs spins up a whole fraught thread of negotiation.
 
@@ -115,21 +115,25 @@ Recently, they were lambasted by the head of Product for having drifted behind p
 
 The next afternoon, Marcus runs into Fiona in the company break room. After [hurriedly] mentally reviewing the game plan he built what Marielle, he makes himself say, "Fiona, can I ask you something?"
 
-She looks up from her phone. Marcus can see colorful Slack threads pulsing away. "I guess so," she says. "But I only have a minute or two." Marcus notices that her hand is still holding her phone halfway up, ready for her to return her attention.
+She looks up from her phone. Marcus can see colorful Slack threads pulsing away. "I guess so," she says. "But I only have a minute or two." Marcus notices that her hand is still holding her phone halfway up, ready for her to return her attention to it.
 
-Marcus takes a deep breath. "No problem," he says, "I can be quick. Here's what I wanted to ask. I've been working on LR for a long time, and I don't think I'm as clear as I'd like to be about what, exactly, we're trying to achieve. Why, exactly, is ReMotr trying to rewrite the ReTreat system?"
+"No problem," Marcus says, "I can be quick." He takes a deep breath, then launches in. "Here's what I wanted to ask. I've been working on LR for a long time, and I don't think I'm as clear as I'd like to be about what, exactly, we're trying to achieve. Why, exactly, is ReMotr trying to rewrite the ReTreat system?"
 
-Fiona frowns. "Because it's awful legacy code." Is it his imagination, or is she glaring at him in frustration, as if at a loss as to why Marcus would ask such a dumb question? Whatever she's thinking, he's certain that she wants the conversation to be over.
+Fiona frowns. "Because it's awful legacy code." She gives a little shrug at the self-evidentness of this point. Marcus feels certain she thinks this is a super dumb question. Aren't engineers supposed to /want/ to retire legacy code?
 
-This is a familiar moment for Marcus. Fiona's usual reponse to questions is, um, forbiddingly decisive.
+Whatever she's thinking, she definitely wants the conversation to be over.
 
-** What Happens When He Repeats
+This is a painfully familiar moment for Marcus. Fiona's usual reponses to questions are, um, forbiddingly decisive. But he manages to cling to what Marielle had told him.
 
-Marielle had insisted that he could get Fiona talking, if he would only repeat the last three words she said. "Trust me, honey," she had insisted.
+** Marcus Tries Repeating Trailing Words
 
-Now, with his CTO standing in front of him, radiating impatience, Marcus manages to hesistantly say, "awful legacy code...?"
+Marielle had claimed that he could get Fiona talking, if he would only repeat the last three words she said. "Trust me, honey," she had insisted.
 
-He had practiced the night before with Marielle, until she felt like he was getting the right inflection, halfway between a statement and a question. "Calmly and curiously," is what she had told him. Having said those three words, Marcus forces himself to stop talking, even though that feels somewhat intensely odd.
+Now, with his CTO standing in front of him, radiating impatience, Marcus manages to hesistantly say back her last three words, "awful legacy code...?"
+
+He had practiced the night before with Marielle, until she felt like he was getting the right inflection, halfway between a statement and a question. "Calmly and curiously," is what she had told him. He's pretty nervous, but he thinks he got it mostly right.
+
+Having said those three words, Marcus forces himself to stop talking, even though that feels somewhat intensely odd.
 
 Fiona stares blankly at him. He can hear the refrigerator in the corner clanking away as it makes ice. Just when he's about to give up, Fiona suddenly starts speaking again.
 
@@ -139,28 +143,51 @@ She gives a little shrug. Marielle had primed Marcus to be ready to go through a
 
 Again, there's a pause. Marcus notices that Fiona's hand, holding her phone, is drifting down to her side. He feels a spike of odd hopefulness.
 
-"Yes," she says, once again agreeing with his echoing back of her own words. "
+"Yes," she says, once again agreeing with his echoing back of her own words. "We've tried to cleanups over the years, but we just keep running into the same problems. Last year I decided we just had to bite the bullet and rewrite it from scrach."
 
-# Pick up here
+# If we try to just keep fixing it in place, the site is going to keep falling over every time MonstroCo runs an off-site." She looks expectantly at him, and he realizes she's fallen into a form of give and take.
 
-# Obviously, the reason to run a legacy retirement project is to retire the legacy code.
+Marcus hadn't known about the previous attempts to rewrite, and, now that the thinks about it, he's not totally clear on what "the same problems" are. Everyone just knows how awful the early code is, and is eager to get rid of it.
 
-** Happy Future
+A part of him wants to say "thank you" and go off digest this new information. But then a vision of Marielle appears before him, holding up a sign that says "Echo Back & Summarize". Right, right, she had been very insistent that constantly share his understanding.
 
-"Let's say we were to imagine that it's a year from now. We've finally finished LR, and it's, like, a huge hit. We're all happily celebrating and toasting champagne." Marcus grins as he gestures around the break room, at an imaginary celebratory crowd. "Why are people excited? What Good Things are now possible, thanks to LR being done? What is, like, better for our business?"
+"Let me say that back, make sure I've got it right. We've made a bunch of surface-level attempts to improve ReTreat, but none of those worked. Although you know doing a big rewrite has plenty of risks, you decided it was worth it, to try to really fix these deep problems we keep running into. Is that about right?"
 
-Fiona smiles, bemused, at the playfully oddball vision Marcus has painted. Then, she slowly starts thinking out loud. "Well, of course Josie will be glad because..." As Fiona talks, she names a couple of different potential benefits to the rewrite. Marcus steadily echoes back and summarizes, probing for which one is the /most/ important. Finally, he wraps up by saying:
+"Yes," she says, nodding crisply. "I'm glad you get it." She pulls her phone up for a moment, scans it, and looks back at Marcus. "It looks like my next meeting is starting late. Did you have any more questions?"
 
-"Okay, let me say that back, see if I've got it. Although accelerating development would be nice, the real key to Legacy Retirement is improving stability and performance. The old system falls over every month or two, and we're worried it can't handle more than about a hundred users at once. We have to improve on those fronts. If we can, the project is a success. Do I have that mostly right?"
+** Marcus Paints a Delightful Picture Of The Future
 
-"Yes," says Fiona with a sigh of relief. "If I never get beat up by the head of Customer Success for system downtime ever again, I will die a happy woman."
+Feeling slightly dizzy at the amount of time and focused attention he's getting, Marcus makes himself say "Yes, actually, I do." The two of them sit at a table in one corner of the breakroom.
 
-And, lo, Marcus has been able to extract Fiona's key long-term goal for the painfully underspecified "Legacy Retirement" project![fn:: If I had a nickel for every rewrite, replatform, modernization, cloud native, or microservices project I've met that suffered from incredibly vague and unclear goals, I'd be super goddamn rich. I could dive into a bathtub of nickels like one Scrooge McDuck.]
+Marcus is glad he's teased out a bit more information, but if he's going to push her to think differently, he'll need to know more. He tries the second tactic Marielle drilled him on.
+
+# Maybe, try out his learning about feelings?
+
+"Let's say we were to imagine that it's a year from now. We've finally finished LR, and it's, like, a huge hit. We're all happily celebrating and toasting champagne." Marcus gestures around the break room, invoking an imaginary celebratory crowd. "Why are people excited? What Good Things are now possible, thanks to LR being done? What is, like, better for our business?"
+
+Fiona smiles, slightly bemused, at the oddball vision Marcus has painted. Then, she slowly starts thinking out loud. "Well, of course Josie will be glad because..." As Fiona talks, she names a couple of different potential benefits to the rewrite. Marcus steadily echoes back and summarizes, probing for which one is the /most/ important. He occasionally repeats her trailing words to encourage her to keep talking. Finally, he wraps up by saying:
+
+"Okay, let me say that back, see if I've got it. Although accelerating development would be nice, the real key to Legacy Retirement is improving stability and performance. The old system gets sluggish on the regular, and if the sales team closes MonstroCo, their thousand person off-site is going to bring the site to its knees. If we can reduce our downtime, and be ready to handle a few thousand simultaneous sessions, the project would be a success. Do I have that mostly right?"
+
+"Yes," says Fiona with a sigh of relief. "Let me tell you, Marcus, if I never get beat up by the head of Customer Success for system downtime ever again, I will die a happy woman."
+
+And, lo, Marcus has been able to extract Fiona's key long-term goal for the painfully underspecified Legacy Retirement project![fn:: If I had a nickel for every rewrite, replatform, modernization, cloud native, or microservices project I've met that suffered from incredibly vague and unclear goals, I'd be super goddamn rich. I could dive into a bathtub of nickels like one Scrooge McDuck.]
 
 He can now work /with/ Fiona, to achieve the shared goals of reducing downtime and getting the head of Customer Success off their collective backs. And, as a part of that, he'll be able to convety to Fiona how being more disciplined about her code contributions will get her there faster (to do this really well, Marcus will want to fill in his picture of Fiona's biggest concerns about achieving that goal -- which is the subject of our next chapter).
 
 # You can now position a nudge to your stakeholder in the context of improving the customer experience of your system, which they apparently care a great deal about.
 
+** Marcus Make a Usefully Incorrect Guess
+
+To learn about why, exactly, Fiona keeps dropping PR's on them, Marcus tries out his final tactic from Marielle.
+
+"I'm glad you try to stay close to the code," he starts off (Stay Close To The Code is a ReMotr company value, he's gotta say this). "But I want to make sure I'm helping you do that in the most useful way possible. When I try to think about what's important for you, in being able to stay close, I can sort of imagine a few different things you might be solving for. Like, maybe that's a way for you to gradually shift the architecture in a direction you think will create better uptime. Or maybe it's not that, it's more that you want to keep your own understanding of the code up to date, to be effective in your job. Or, I dunno, maybe you're testing me?" he offers the last with a laugh. "Is it one of those? Or, like, something else altogether?"
+
+# PICK UP HERE
+
+Fiona quirks her head. "It'
+
+* Split Off Maria Story
 ** Story: The Death Of The Straightforward Request
 
 # Maria Is Stuck With Geoff
