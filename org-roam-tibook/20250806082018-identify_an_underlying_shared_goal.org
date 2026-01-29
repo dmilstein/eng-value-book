@@ -81,7 +81,7 @@ If you can stop yourself from saying anything other than those three words, and 
 
 And, believe it or not, they will feel like you're hearing and understanding them.
 
-It shouldn't be this easy. But it totally, totally is.
+# It shouldn't be this easy. But it totally, totally is.
 
 *** Tactic 2: Invoke A Positive Vision Of The Future
 
@@ -97,15 +97,57 @@ If, instead of asking for goals, you invite them to /imagine/ a happy longer-ter
 
 Many people feel safer expressing their own thoughts by telling you what's wrong with yours. Putting their own ideas out there presents as vulnerable or risky, whereas criticizing the ideas of others presents as pleasant and empowering. This is maybe not the most admirable characteristic of humans? But it certainly seems a consistent thing, in my experience, at least. So take advantage of it!
 
-** Story: Marcus Paints a Happy Picture
+** Story: Marcus And The Meddlesome CTO
 
-Marcus Brown is a senior software engineer toiling away on a big, year-long effort, stirringly named "Legacy Retirement" (and short-handed by literally everyone as "LR"). Unfortunately, Marcus's CTO, Fiona, has recently developed a habit of randomly helicoptering into his team's repos and dropping half-baked pull requests. Now, Fiona was one of the first engineers at the company, so she knows the /old/ systems well... but she doesn't actually understand how Marcus is restructuring those systems, so every one of her random code bombs spins up a whole fraught thread of negotiation.
+Marcus Brown is a senior software engineer. He's worked for the last six months at ReMotr, a B2B SaaS company that sells team-building software for companies with remote teams. ReMotr offers everything from virtual coffee chats to a full-featured virtual offsite package (ReTreat), that includes trust-building games, an interactive annual company review, and plenty of opportunities to make oddball memories together.[fn:: The ReMotr product team keeps trying to figure out how to add Potentially Embarrassing Drinking Games to the platform, but their general counsel keeps waving them away in horror.]
 
-Then, one afternoon, Marcus runs into Fiona in the company break room. Swallowing his frustration, he says, "Fiona, can I ask you something?"
+Marcus spends his days toiling away on a big effort to replace the truly horrifying code written in the early days of the company. The project is known internally as "LR", which Marcus only recently discovered stands for "Legacy Retirement".
 
-She looks up from the Slack threads on her phone. "Sure, I guess. But I only have a minute or two."
+Unfortunately, Marcus's CTO, Fiona, has developed a habit of randomly helicoptering into his team's repos and dropping half-baked pull requests. Worse, half of them see to imply major architectural shifts. Fiona was one of the first engineers at the company, so she knows the /old/ systems well... but she doesn't actually understand how Marcus and his team are restructuring those systems, so every one of her random code bombs spins up a whole fraught thread of negotiation.
 
-"No problem," he says, "I can be quick. Here's what I wanted to ask. Let's say we were to imagine that it's a year from now. We've finally finished LR, and it's, like, a huge hit. We're all happily celebrating and toasting champagne." Marcus grins as he gestures around the break room, at an imaginary celebratory crowd. "Why are people excited? What Good Things are now possible, thanks to LR being done? What is, like, better for our business?"
+# Further, every time she does that makes Marcus feel like she doesn't trust him.
+
+Recently, they were lambasted by the head of Product for having drifted behind plan, after Marcus lost nearly two weeks going back and forth with Fiona via passive aggressive pull requests. He's decided that things have to change. Luckily, his best friend from his last job, Marielle, is a product manager who is preternaturally skilled at getting people to open up. She spent a long zoom call helping him prepare for the conversation.
+
+** The Swift Death Of The Straightforward Request
+
+# painless
+
+The next afternoon, Marcus runs into Fiona in the company break room. After [hurriedly] mentally reviewing the game plan he built what Marielle, he makes himself say, "Fiona, can I ask you something?"
+
+She looks up from her phone. Marcus can see colorful Slack threads pulsing away. "I guess so," she says. "But I only have a minute or two." Marcus notices that her hand is still holding her phone halfway up, ready for her to return her attention.
+
+Marcus takes a deep breath. "No problem," he says, "I can be quick. Here's what I wanted to ask. I've been working on LR for a long time, and I don't think I'm as clear as I'd like to be about what, exactly, we're trying to achieve. Why, exactly, is ReMotr trying to rewrite the ReTreat system?"
+
+Fiona frowns. "Because it's awful legacy code." Is it his imagination, or is she glaring at him in frustration, as if at a loss as to why Marcus would ask such a dumb question? Whatever she's thinking, he's certain that she wants the conversation to be over.
+
+This is a familiar moment for Marcus. Fiona's usual reponse to questions is, um, forbiddingly decisive.
+
+** What Happens When He Repeats
+
+Marielle had insisted that he could get Fiona talking, if he would only repeat the last three words she said. "Trust me, honey," she had insisted.
+
+Now, with his CTO standing in front of him, radiating impatience, Marcus manages to hesistantly say, "awful legacy code...?"
+
+He had practiced the night before with Marielle, until she felt like he was getting the right inflection, halfway between a statement and a question. "Calmly and curiously," is what she had told him. Having said those three words, Marcus forces himself to stop talking, even though that feels somewhat intensely odd.
+
+Fiona stares blankly at him. He can hear the refrigerator in the corner clanking away as it makes ice. Just when he's about to give up, Fiona suddenly starts speaking again.
+
+"Yeah. We've tried fixing it in place, but it's clear we need to rearchitect."
+
+She gives a little shrug. Marielle had primed Marcus to be ready to go through a few rounds. He nods in agreement and offers, "need to rearchitect...?"
+
+Again, there's a pause. Marcus notices that Fiona's hand, holding her phone, is drifting down to her side. He feels a spike of odd hopefulness.
+
+"Yes," she says, once again agreeing with his echoing back of her own words. "
+
+# Pick up here
+
+# Obviously, the reason to run a legacy retirement project is to retire the legacy code.
+
+** Happy Future
+
+"Let's say we were to imagine that it's a year from now. We've finally finished LR, and it's, like, a huge hit. We're all happily celebrating and toasting champagne." Marcus grins as he gestures around the break room, at an imaginary celebratory crowd. "Why are people excited? What Good Things are now possible, thanks to LR being done? What is, like, better for our business?"
 
 Fiona smiles, bemused, at the playfully oddball vision Marcus has painted. Then, she slowly starts thinking out loud. "Well, of course Josie will be glad because..." As Fiona talks, she names a couple of different potential benefits to the rewrite. Marcus steadily echoes back and summarizes, probing for which one is the /most/ important. Finally, he wraps up by saying:
 
@@ -118,52 +160,6 @@ And, lo, Marcus has been able to extract Fiona's key long-term goal for the pain
 He can now work /with/ Fiona, to achieve the shared goals of reducing downtime and getting the head of Customer Success off their collective backs. And, as a part of that, he'll be able to convety to Fiona how being more disciplined about her code contributions will get her there faster (to do this really well, Marcus will want to fill in his picture of Fiona's biggest concerns about achieving that goal -- which is the subject of our next chapter).
 
 # You can now position a nudge to your stakeholder in the context of improving the customer experience of your system, which they apparently care a great deal about.
-
-** Tactic Two: Make A Usefully Wrong Guess
-
-/Offer your stakeholder a deliberately opinionated guess about their long-term goals, and then cheerfully invite them to tell you why you're wrong./
-
-Why does this one work better than directly asking?
-
-Many people feel safer expressing their thoughts by telling you what's wrong with yours. Putting their own ideas out there presents as vulnerable or risky, whereas criticizing the ideas of others presents as pleasant and empowering. This is maybe not the most admirable characteristic of humans? But it certainly seems a consistent thing, in my experience, at least. So take advantage of it!
-
-For example, you might say:
-
-/"I know every team has to spend effort working on all these security tasks. I've been trying to clarify the outcomes to my team. I could understand the key outcome as just reducing our long-term *risks*. Like, we're *not* expecting to see a short-term bump in sales thanks to acquiring a SOC-2 certification. Is that even vaguely right? Or do I have it totally backwards!?"/
-
-Aim for lightness. You want your tone to clearly indicate: "I'm probably missing something! That's okay! It will be fun for both of us when you correct me!"
-
-With any luck, your stakeholder will respond by saying "/Wait, that's not right. Renewing more enterprise contracts *is* our first goal. You know MonstroCo is threatening to cancel if they don't get a SOC letter this year, right?"/ Of course you don't! This is critical information that you've never heard before! But you don't say that as you cheerfully echo back and summarize what you've just heard.
-
-Now, when you ask your stakeholder to give you a bit more notice before injecting random SOC-2 tasks into your sprints, you can situate that as part of a shared goal of saving the MonstroCo renewal.
-
-A key part of this approach is to that the guess must be *too* opinionated. You want to aim for something which is partly right, but deliberately goes too far. Something which will cause your stakeholder to sit up and take notice. That's vastly more useful than getting them to absently agree to something vague and anodyne.
-
-# Once you've fully drawn your stakeholder out, you'll echo back and summarize your new understanding. The pleasant sounds of their own ideas will make them feel warmly towards you.
-
-
-# Second, it's easier for people to express their thoughts by telling you what's wrong with yours, than it is to lay their own out.
-
-# Second, many humans like figuring out what they think by telling other people how they're wrong
-
-# Our final reason for offering usefully wrong guesses is that much of the time, humans simply don't know *what* they believe until they hear something that sounds wrong to them.
-
-# When your PM hears you say, /"My understanding is that our top priority is growth, which means acquiring new customers, is that right?"/, something bothers them. They hold up a hand, think for a moment, and then reply:
-
-# /"Wait, that's not it. A good bit of revenue growth has to come from upselling *existing* customers, not just acquiring new ones. That's why we need more compelling features in our Pro tier."/
-
-# You say thank you, and then update your coherent statement and test it again.
-
-
-# First, spend time coming up with the opinionated guess. Talk to people you work with, review whatever leadership has shared, gather information from wherever you can. Then, distill it all into a single, coherent statement of strategy. Test that out with someone you trust, ask for their feedback, and make it sharper.
-
-# Although you're not aiming to be completely right, you want to be in the right territory. If you're just wildly far off, your stakeholder can feel like they have to do "all the work".
-
-# Second, your statement of strategy *must* be pointed enough that it's possible to disagree with it. The specificity of what you offer is what will prompt your stakeholder to clarify. So push yourself be *very* opinionated.
-
-Sidebar: Making A Usefully Wrong Guess is a powerful tactic for drawing people out in an wide variety of situations. If you're bumping up against a conversational wall with somone, try making a too-opinionated guess about what might be going on, and then cheerfuly invite them to tell you how you're wrong.
-
-With practice, these tactics, along with Echo Back & Summarize, will allow you to dig beneath the surface of your stakeholder's morass of urgent requests, to understand the key long-term goals they're actually trying to achieve.
 
 ** Story: The Death Of The Straightforward Request
 
@@ -1326,6 +1322,52 @@ If, instead of asking for goals, you invite them to imagine a happy longer-term 
 
 # Invite your stakeholder to imagine that all the current tasks, projects, and milestones have been finished brilliantly and well. You then ask them what good thing will have become true. By echoing back and summarizing what you hear, you will often be able to draw out their most important goal, the /reason/ they're pushing you to execute on all those tasks, projects and milestones.
 
+** Tactic Two: Make A Usefully Wrong Guess
+
+/Offer your stakeholder a deliberately opinionated guess about their long-term goals, and then cheerfully invite them to tell you why you're wrong./
+
+Why does this one work better than directly asking?
+
+Many people feel safer expressing their thoughts by telling you what's wrong with yours. Putting their own ideas out there presents as vulnerable or risky, whereas criticizing the ideas of others presents as pleasant and empowering. This is maybe not the most admirable characteristic of humans? But it certainly seems a consistent thing, in my experience, at least. So take advantage of it!
+
+For example, you might say:
+
+/"I know every team has to spend effort working on all these security tasks. I've been trying to clarify the outcomes to my team. I could understand the key outcome as just reducing our long-term *risks*. Like, we're *not* expecting to see a short-term bump in sales thanks to acquiring a SOC-2 certification. Is that even vaguely right? Or do I have it totally backwards!?"/
+
+Aim for lightness. You want your tone to clearly indicate: "I'm probably missing something! That's okay! It will be fun for both of us when you correct me!"
+
+With any luck, your stakeholder will respond by saying "/Wait, that's not right. Renewing more enterprise contracts *is* our first goal. You know MonstroCo is threatening to cancel if they don't get a SOC letter this year, right?"/ Of course you don't! This is critical information that you've never heard before! But you don't say that as you cheerfully echo back and summarize what you've just heard.
+
+Now, when you ask your stakeholder to give you a bit more notice before injecting random SOC-2 tasks into your sprints, you can situate that as part of a shared goal of saving the MonstroCo renewal.
+
+A key part of this approach is to that the guess must be *too* opinionated. You want to aim for something which is partly right, but deliberately goes too far. Something which will cause your stakeholder to sit up and take notice. That's vastly more useful than getting them to absently agree to something vague and anodyne.
+
+# Once you've fully drawn your stakeholder out, you'll echo back and summarize your new understanding. The pleasant sounds of their own ideas will make them feel warmly towards you.
+
+
+# Second, it's easier for people to express their thoughts by telling you what's wrong with yours, than it is to lay their own out.
+
+# Second, many humans like figuring out what they think by telling other people how they're wrong
+
+# Our final reason for offering usefully wrong guesses is that much of the time, humans simply don't know *what* they believe until they hear something that sounds wrong to them.
+
+# When your PM hears you say, /"My understanding is that our top priority is growth, which means acquiring new customers, is that right?"/, something bothers them. They hold up a hand, think for a moment, and then reply:
+
+# /"Wait, that's not it. A good bit of revenue growth has to come from upselling *existing* customers, not just acquiring new ones. That's why we need more compelling features in our Pro tier."/
+
+# You say thank you, and then update your coherent statement and test it again.
+
+
+# First, spend time coming up with the opinionated guess. Talk to people you work with, review whatever leadership has shared, gather information from wherever you can. Then, distill it all into a single, coherent statement of strategy. Test that out with someone you trust, ask for their feedback, and make it sharper.
+
+# Although you're not aiming to be completely right, you want to be in the right territory. If you're just wildly far off, your stakeholder can feel like they have to do "all the work".
+
+# Second, your statement of strategy *must* be pointed enough that it's possible to disagree with it. The specificity of what you offer is what will prompt your stakeholder to clarify. So push yourself be *very* opinionated.
+
+Sidebar: Making A Usefully Wrong Guess is a powerful tactic for drawing people out in an wide variety of situations. If you're bumping up against a conversational wall with somone, try making a too-opinionated guess about what might be going on, and then cheerfuly invite them to tell you how you're wrong.
+
+With practice, these tactics, along with Echo Back & Summarize, will allow you to dig beneath the surface of your stakeholder's morass of urgent requests, to understand the key long-term goals they're actually trying to achieve.
+
 * Learning Outcomes/Arc
 ** Maybe: The Power of Speaking to Strategic Outcomes
 ** Some Problems With Goals
@@ -1417,7 +1459,10 @@ CLOSED: [2026-01-27 Tue 11:33]
 That's what I do in Echoing Back
 ** DONE Then break out the high-level thing, before the story
 CLOSED: [2026-01-27 Tue 11:33]
-** TODO Share three tactics, "quickly", then a story
+** DONE Share three tactics, "quickly", then a story
+CLOSED: [2026-01-29 Thu 10:48]
+** TODO Find another name for Marielle, something Haitian?
+Marcus and Marielle are too visually close
 ** TODO See if I can add two points on spectrum to Usefully Wrong Guess
 As in, either offer two options, or deliberately be wrong.
 ** TODO Rebuild story around Marcus
