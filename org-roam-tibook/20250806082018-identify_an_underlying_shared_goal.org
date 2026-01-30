@@ -16,13 +16,13 @@ Identifying a meaningful shared goal is extremely powerful. With such a goal in 
 
 # You'll be able to paint a compelling picture of a future you can unlock together, while also clearly describing the risks that must be faced to get there. You'll be able to directly share with them the reasons why, if they /don't/ change their behavior, it will be impossible to achieve this key goal.
 
-To be clear, making such a request is still plenty tricky! In later chapters, we'll share some ways to dramatically lower the risks of speaking so directly. But it can really work! Asking someone to adjust their actions in order to achieve something they /want/ is one of the most effective ways I know to motivate changes in behavior.[fn:: You can also motivate change by tapping into someone's desire to avoid something they /don't/ want to have happen, instead of offering the opportunity to achieve a meaningful goal. That... can... work, but it brings some real risks. Speaking /only/ to a potential negative outcome often triggers fear, shame and avoidance. Thus, I try to always be able to authentically speak to someone's positive hopes.]
+To be clear, making such a request is still plenty tricky! In later chapters, we'll share some ways to dramatically lower the risks of directly asking for a change. But it can really work! Asking someone to adjust their actions in order to achieve something they /want/ is one of the most effective ways I know to motivate changes in behavior.[fn:: You can also motivate change by tapping into someone's desire to avoid something they /don't/ want to have happen, instead of offering the opportunity to achieve a meaningful goal. That... can... work, but it brings some real risks. Speaking /only/ to a potential negative outcome often triggers fear, shame and avoidance. Thus, I try to always be able to authentically speak to someone's positive hopes.]
 
 # trying to get them to understand the negative impact of their behaviors on those around them.
 
 # Believe it or not, you'll be able to directly share with them the reasons why, if they *don't* change their behavior, it will be impossible to achieve this key goal. By linking your immediate concerns to a shared goal, you can "depersonalize" your request for change: instead of asking your stakeholder to change their /personality/, you can nudge them to adjust their /actions/. To be clear, making such a request is still plenty tricky. In later chapters, we'll share some ways to dramatically lower the risks of doing so. But asking someone to adjust their actions is way, way easier then asking them to, e.g. stop being such a difficult and unpleasant person (even if that is kind of what you dream of doing?).
 
-In the remainder of this chapter, we'll talk about how to identify a shared goal. We're going to be specifically looking for a /long-term/ goal -- something that underlies your stakeholder's day-to-day patterns of interaction with you.
+In the remainder of this chapter, we'll talk about how to identify a shared goal. We're going to be specifically looking for a /long-term/ goal -- something that underlies your stakeholder's day-to-day patterns of interaction with you. That's what will give you sufficient flexibility to propose a different way of working, that still accomplishes that long-term, much-desired outcome.
 
 # We'll be leaning quite heavily on the skill of echoing back and summarizing, as we go.
 
@@ -30,9 +30,9 @@ In the remainder of this chapter, we'll talk about how to identify a shared goal
 
 # That compelling articulation will then form the foundation of your request for change.
 
-Now, if you're lucky, you already understand, in real detail, some key underlying goal that your stakeholder intensely wants to achieve. In that case, excellent! Feel free to skip ahead to the next chapter, "Develop An Empathetic Understanding Of Their Concerns".
+If you're lucky, you already understand, in real detail, a key underlying goal that your stakeholder intensely wants to achieve. In that case, excellent! Feel free to skip ahead to the next chapter, "Develop An Empathetic Understanding Of Their Concerns".
 
-But for many of us, it feels like we're trapped in some endless, confusing slog with some Important Person at our job. We don't feel like we have sufficient context to propose a different way of working together. We need to know more about what they're ultimately trying to achieve (as they keep driving us crazy with their day-to-day behavior).
+But for many of us, it can feel like we're trapped in some endless, confusing slog with some Important Person. We don't have sufficient context to propose a different way of working together. We need to know more about what they're ultimately trying to achieve (which they apparently think they'll be able to do, by driving us crazy with their day-to-day behavior).
 
 ** Ask Why But Be Ready For It To Not Work
 
@@ -42,7 +42,7 @@ And that's well worth trying!
 
 If you're a tech lead working long hours for an upcoming launch, ask your product manager, "Why are we trying to ship this new feature by the end of next month?"
 
-If you're leading an engineering team that owns product set up, ask your CEO, "Why, exactly, is reducing onboarding time our most important goal for this year?"
+If you're leading an engineering team that owns new account set up, ask your CEO, "Why, exactly, is reducing onboarding time our most important goal for this year?"
 
 If you're a senior engineer who joins a company and promptly discovers that everyone is toiling away in the midst of an endless rewrite, ask your CTO, "Why, exactly, are we doing the big replatforming?"
 
@@ -54,32 +54,33 @@ Why not?
 
 # Let me tell you a secret:
 
-Because most stakeholders spend their days struggling with tremendous anxiety about achieving their near-term goals.
+Because most stakeholders spend their days struggling with anxiety about achieving their near-term goals.
 
-If you directly ask such a stakeholder, "Why are we doing this project?" that anxiety can flare up. They might try to quickly shut down the conversation. They might patronizingly announce, "Don't worry about that. You need to just finish the tasks in front of you."
+If you directly ask such a stakeholder, "Why are we doing this project?" that anxiety can flare up. They might try to quickly shut down the conversation to regain control. They might patronizingly announce, "Don't worry about that. You need to just finish the tasks in front of you."
 
 I'd love to tell you that most Important People feel pleasantly secure in their positions of authority, and therefore welcome probing questions about why, but, um, I'm your friend and I don't want to lie to you?
 
 # Worst case, at your next performance review, you may find yourself labeled as lacking the morally pure personality trait of "bias to action".[fn:: What's that you say? It sounds like Dan has some kind of distrust of the company value of "bias to action", since he's mostly seen it used to beat up people who have the temerity to ask why leadership is committed to obviously dumb plans? I HAVE LITERALLY NO IDEA WHAT YOU'RE TALKING ABOUT.]
 
+** Two Tactics For Drawing Out Underlying Goals
 
-** Three Tactics For Drawing Out Underlying Goals
+Here are a pair of tactics to help you bring your stakeholder's long-term goals out into the open, even if they seem resistant to discussing anything other than why you're not done with your JIRA tickets yet. We'll first sketch both in, then bring them to life with a story.
 
-Let's talk about a trio of tactics that can help you bring your stakeholder's long-term goals out into the open, even if they are initially resistant to discussing anything other than why you're not done with your JIRA tickets yet. We'll first sketch in all three, then bring them to life with a story.
+The first helps address the challenge of getting your person talking in the first place, the second encourages them to open up about their hopes and dreams, aka, their goals.
 
 # Let's talk about a trio of tactics that can help you bring your stakeholder's long-term goals out into the open, even if they are initially resistant to discussing anything other than when you'll be done with your JIRA tickets.
 
 *** Tactic 1: Repeat Trailing Words
 
-/When someone stops talking, you repeat the last three words they said, calmly and curiously. Then, you stop talking and wait./
+/When someone stops talking, but you want to know more, repeat the last three words they said, calmly and curiously. Then, stop talking and wait./
 
-# If you can say their last few words, inflected as a question, and then stop yourself from saying anything else, can wait just a bit longer than feels comfortable...
+This is an absurdly simple hack! It works kind of shockingly well!
 
 If you can stop yourself from saying anything other than those three words, and you can wait just a bit longer than feels comfortable...
 
 ...the person will start talking again, telling you more and more.
 
-And, believe it or not, they will feel like you're hearing and understanding them.
+And, believe it or not, they will /feel/ like you're hearing and understanding them.
 
 # It shouldn't be this easy. But it totally, totally is.
 
@@ -91,23 +92,17 @@ If, instead of asking for goals, you invite them to /imagine/ a happy longer-ter
 
 # Invoking an oddball, specific image like "throwing a big party" engages the playful side of their mind.[fn:: Product Managers use a very similar tactic in customer interviews when they say "If you could wave a magic wand and poof!, things were suddenly much better, what would have improved?"] When you then echo back and summarize, you help them feel like you are /with/ them in facing their fears, while also obtaining enough information to be ready to make a useful proposal for change.
 
-*** Tactic 3: Make A Usefully Wrong Guess
-
-/Offer your stakeholder a "likely wrong" guess about their long-term goals, and then cheerfully invite them to tell you why you're wrong./
-
-Many people feel safer expressing their own thoughts by telling you what's wrong with yours. Putting their own ideas out there presents as vulnerable or risky, whereas criticizing the ideas of others presents as pleasant and empowering. This is maybe not the most admirable characteristic of humans? But it certainly seems a consistent thing, in my experience, at least. So take advantage of it!
-
 ** Story: Marcus And The Meddlesome CTO
 
-Marcus Brown is a senior software engineer. He's worked for the last six months at ReMotr, a B2B SaaS company that sells team-building software for companies with remote teams. ReMotr's flagship product is ReTreat, which allows companies to host a virtual offsite featuring trust-building games, an interactive annual company review, and plenty of opportunities to make oddball memories together.[fn:: The ReMotr product team keeps trying to figure out how to add Potentially Embarrassing Drinking Games to the platform, but their general counsel keeps waving them away in horror.]
+Marcus Brown is a senior software engineer. Six months ago he joined ReMotr, a B2B SaaS company that sells team-building software for companies with remote teams. ReMotr's flagship product is ReTreat, which allows companies to host a virtual offsite featuring trust-building games, an interactive annual company review, and plenty of opportunities to make oddball memories together.[fn:: The ReMotr product team keeps trying to figure out how to add Potentially Embarrassing Drinking Games to the platform, but their general counsel keeps waving them away in horror.]
 
-Marcus spends his days toiling away on a big effort to replace the truly horrifying code written in ReMotr's early days. The project is known internally as "LR", which Marcus only recently discovered stands for "Legacy Retirement".
+Marcus has, since the moment he joined, been working on a big effort to replace the truly horrifying code written in ReMotr's early days. The project is known internally as "LR" (which Marcus only recently discovered stands for "Legacy Retirement").
 
 Unfortunately, Marcus's CTO, Fiona, has developed a habit of randomly helicoptering into his team's repos and dropping half-baked pull requests. Worse, half of them see to imply major architectural shifts. Fiona was one of the first engineers at the company, so she knows the /old/ systems well... but she doesn't actually understand how Marcus and his team are restructuring those systems, so every one of her random code bombs spins up a whole fraught thread of negotiation.
 
 # Further, every time she does that makes Marcus feel like she doesn't trust him.
 
-Recently, they were lambasted by the head of Product for having drifted behind plan, after Marcus lost nearly two weeks going back and forth with Fiona via passive aggressive pull requests. He's decided that things have to change. Luckily, his best friend from his last job, Marielle, is a product manager who is preternaturally skilled at getting people to open up. She spent a long zoom call helping him prepare for the conversation.
+Recently, Marcus's team was lambasted by the head of Product for having drifted behind plan, after Marcus lost nearly two weeks going back and forth with Fiona via passive aggressive pull requests. He's decided that things have to change. Luckily, his best friend from his last job, Marielle, is a product manager who is preternaturally skilled at getting people to open up. She spent a long zoom call helping him prepare for the conversation.
 
 ** The Swift Death Of The Straightforward Request
 
@@ -115,23 +110,33 @@ Recently, they were lambasted by the head of Product for having drifted behind p
 
 The next afternoon, Marcus runs into Fiona in the company break room. After [hurriedly] mentally reviewing the game plan he built what Marielle, he makes himself say, "Fiona, can I ask you something?"
 
-She looks up from her phone. Marcus can see colorful Slack threads pulsing away. "I guess so," she says. "But I only have a minute or two." Marcus notices that her hand is still holding her phone halfway up, ready for her to return her attention to it.
+She looks up from her phone. Marcus can see colorful Slack threads pulsing away. "I guess so," she says. "But I only have a minute or two." Marcus notices that her hand is still holding her phone halfway up, ready for her to start scrolling again.
 
 "No problem," Marcus says, "I can be quick." He takes a deep breath, then launches in. "Here's what I wanted to ask. I've been working on LR for a long time, and I don't think I'm as clear as I'd like to be about what, exactly, we're trying to achieve. Why, exactly, is ReMotr trying to rewrite the ReTreat system?"
 
-Fiona frowns. "Because it's awful legacy code." She gives a little shrug at the self-evidentness of this point. Marcus feels certain she thinks this is a super dumb question. Aren't engineers supposed to /want/ to retire legacy code?
+Fiona frowns. She stares at him, then gives a shrug and says, "Because it's awful legacy code."  Marcus feels overwhelmingly like he's asked a dumb question. He can practically hear her thinking, "Aren't engineers supposed to /want/ to retire legacy code?"
 
-Whatever she's thinking, she definitely wants the conversation to be over.
+# She gives a little shrug at the self-evidentness of this point.
 
-This is a painfully familiar moment for Marcus. Fiona's usual reponses to questions are, um, forbiddingly decisive. But he manages to cling to what Marielle had told him.
+Whatever Fiona is thinking, Marcus definitely senses that she wants the conversation to be over.
+
+This is a painfully familiar experience for Marcus, as it may be for many of us. We muster up the energy to ask someone with authority a question, and the response seems to immediately shut us down.
+
+What is actually going on inside Fiona's head, in this moment? Yesterday afternoon, Fiona spent the entirety of her one-on-one with the CEO getting beaten up about how long the LR is taking. She's feeling the opposite of settled about it. From that anxious place, hearing Marcus introduce /any/ questions about the project feels immediately destabilizing. Her anxious mind immediately offers a picture of Marcus undercutting her from below. Given that fear, she does, in fact, want the conversation to be over.
+
+# She's worried, without even consciously realizing it, that Marcus is about to undercut her from below.
+
+# Fiona's usual reponses to questions are, um, forbiddingly decisive.
 
 ** Marcus Tries Repeating Trailing Words
 
-Marielle had claimed that he could get Fiona talking, if he would only repeat the last three words she said. "Trust me, honey," she had insisted.
+Luckily, Marcus talked about exactly this moment with Marielle the night before. She claimed that, despite an initially curt or even dismissive response, he could get Fiona talking, if he repeated the last three words she said. "Trust me, honey," she had insisted.
 
-Now, with his CTO standing in front of him, radiating impatience, Marcus manages to hesistantly say back her last three words, "awful legacy code...?"
+Now, with his CTO standing in front of him, radiating impatience, Marcus manages to hesistantly say back her last three words:
 
-He had practiced the night before with Marielle, until she felt like he was getting the right inflection, halfway between a statement and a question. "Calmly and curiously," is what she had told him. He's pretty nervous, but he thinks he got it mostly right.
+"...awful legacy code...?"
+
+He practiced the night before with Marielle, working until she felt like he was getting the right inflection, halfway between a statement and a question. "Calmly and curiously," is what she had told him. He's pretty nervous, but he thinks he got it mostly right.
 
 Having said those three words, Marcus forces himself to stop talking, even though that feels somewhat intensely odd.
 
@@ -139,54 +144,131 @@ Fiona stares blankly at him. He can hear the refrigerator in the corner clanking
 
 "Yeah. We've tried fixing it in place, but it's clear we need to rearchitect."
 
-She gives a little shrug. Marielle had primed Marcus to be ready to go through a few rounds. He nods in agreement and offers, "need to rearchitect...?"
+She gives another one of her little shrugs. Marielle had primed Marcus to be ready to go through a few rounds. He nods in agreement and again echoes the last three words, calmly and curiously:
 
-Again, there's a pause. Marcus notices that Fiona's hand, holding her phone, is drifting down to her side. He feels a spike of odd hopefulness.
+"...need to rearchitect...?"
 
-"Yes," she says, once again agreeing with his echoing back of her own words. "We've tried to cleanups over the years, but we just keep running into the same problems. Last year I decided we just had to bite the bullet and rewrite it from scrach."
+Again, there's a pause. Marcus notices that Fiona's hand, holding her phone, is drifting down to her side. He feels a spike of hopefulness.
 
-# If we try to just keep fixing it in place, the site is going to keep falling over every time MonstroCo runs an off-site." She looks expectantly at him, and he realizes she's fallen into a form of give and take.
+"Yes," Fiona says. Marcus realizes she's agreeing with his echoing back of her own words. "We've tried to do little cleanups over the years, but our architecture just doesn't support our current levels of use." Fiona looks expectantly at him.
 
-Marcus hadn't known about the previous attempts to rewrite, and, now that the thinks about it, he's not totally clear on what "the same problems" are. Everyone just knows how awful the early code is, and is eager to get rid of it.
+It's like they're... talking.
 
-A part of him wants to say "thank you" and go off digest this new information. But then a vision of Marielle appears before him, holding up a sign that says "Echo Back & Summarize". Right, right, she had been very insistent that constantly share his understanding.
+Marcus doesn't let himself stop to think too long about this, nor about this new insight about supporting more intense usage. Instead, he just throws the ball back to her, nodding slightly to indicate his agreement as he does so:
 
-"Let me say that back, make sure I've got it right. We've made a bunch of surface-level attempts to improve ReTreat, but none of those worked. Although you know doing a big rewrite has plenty of risks, you decided it was worth it, to try to really fix these deep problems we keep running into. Is that about right?"
+"...levels of use...?"
 
-"Yes," she says, nodding crisply. "I'm glad you get it." She pulls her phone up for a moment, scans it, and looks back at Marcus. "It looks like my next meeting is starting late. Did you have any more questions?"
+"Exactly," Fiona says, without even a pause this time. "Last year I decided we just had to bite the bullet and rewrite it from scratch. And look, I know that's risky. But if we don't /something/ serious, the product is going to keep falling over every time MonstroCo runs an off-site. And our whole plan is to move upmarket, to larger customers!"
 
-** Marcus Paints a Delightful Picture Of The Future
+# Marcus hadn't known about the previous attempts to rewrite, and, now that the thinks about it, he's not totally clear on what "the same problems" are. Everyone just knows how awful the early code is, and is eager to get rid of it.
 
-Feeling slightly dizzy at the amount of time and focused attention he's getting, Marcus makes himself say "Yes, actually, I do." The two of them sit at a table in one corner of the breakroom.
+Marcus is feeling overwhelmed with new information. Deep in the trenches, he's heard about so many different forms of "better", he hadn't realized that stability and and performance were the driving concerns. In fact, a key piece of the current plan adds in a "flexible" layer of indirection, in a way that is just about guaranteed to limit scalability. He /also/ hadn't realized that the company plan was to move upmarket.
 
-Marcus is glad he's teased out a bit more information, but if he's going to push her to think differently, he'll need to know more. He tries the second tactic Marielle drilled him on.
+He realizes Fiona is staring at him, waiting for him to speak. A part of him wants to say "thank you," shut the conversation down and go off to digest this new information. But then, a vision of Marielle appears before him, holding up a sign that says "Echo Back & Summarize". The night before, she had been fiercely insistent that, once he thinks he has a goal, he had to /immediately/ share back his understanding with Fiona. He marshals his thoughts and goes through the template Marielle trained him on.
+
+"Okay, let me say that back, see if I've got it. Although there might be a bunch of potential benefits from retiring our legacy code, the absolute core need is improving stability and performance. We're /already/ seeing levels of use that the current architecture just can't support. And, worse, the company is trying to sell to larger and larger customers. Right now, our largest customer is MonstroCo, and we can't even reliably handle them. Do I have that mostly right?"
+
+"Yes, exactly," Fiona says. She gives a single, sharp nod of agreement, as if drawing a line under his summary.
+
+What is going on for Fiona, in this moment? She's feeling a sense of /relief/. Hearing Marcus so clearly articulate the underlying problem helps her in two ways. First, it's validating. Yesterday, she had a dumpster of negativity dropped on her by the CEO. Hearing this clear statement of why they need to take serious action grounds her in the validity of her past decisions. Second, it's just a relief to know that someone on the ground both understands and cares about this problem.
+
+# When they run their thousand person off-site, it's just a total crapshoot at to whether or not our system stays up. If LR can reduce downtime, and ensure we can handle several thousand simultaneous sessions with really snappy responsiveness, the project would be a success. Do I have that mostly right?"
+
+Feeling calmer than usual, she pulls her phone up and scans it.
+
+"Well, my next meeting just got cancelled," she tells Marcus. "Did you have any more questions?"
+
+Feeling slightly dizzy at the amount of time and focused attention he's getting, Marcus makes himself say "Yes, actually, I do." The two of them sit at a table in a corner of the breakroom.
+
+** Marcus Paints a Delightful Picture
+
+Marcus is glad he's teased out more information. But if he's going to push Fiona to act differently, he thinks he needs a bit more context. He wants to flesh out the still-somewhat-vague goal of "handle greater levels of use."
+
+He considers just asking, "What metrics will improve?" But he knows that the lack of good metrics at ReMotr is a source of ongoing shame for the engineering team. He doesn't want to trigger defensiveness from Fiona (which is precisely what happened on his third day, when he asked, at a full engineering team meeting, "So, what are our SLO's?").
+
+He decides to try the second tactic Marielle drilled him on.
 
 # Maybe, try out his learning about feelings?
 
-"Let's say we were to imagine that it's a year from now. We've finally finished LR, and it's, like, a huge hit. We're all happily celebrating and toasting champagne." Marcus gestures around the break room, invoking an imaginary celebratory crowd. "Why are people excited? What Good Things are now possible, thanks to LR being done? What is, like, better for our business?"
+"Let's say we were to imagine that it's a year from now. We've finally finished LR, and it's, like, a huge hit. The system is cheerfully handling much higher levels of use. We're all happily celebrating and toasting champagne." Marcus gestures around the break room, invoking an imaginary celebratory crowd. "Why are people excited? How can we all tell that the business is in a better spot?"
 
-Fiona smiles, slightly bemused, at the oddball vision Marcus has painted. Then, she slowly starts thinking out loud. "Well, of course Josie will be glad because..." As Fiona talks, she names a couple of different potential benefits to the rewrite. Marcus steadily echoes back and summarizes, probing for which one is the /most/ important. He occasionally repeats her trailing words to encourage her to keep talking. Finally, he wraps up by saying:
+# , bemused slightly
 
-"Okay, let me say that back, see if I've got it. Although accelerating development would be nice, the real key to Legacy Retirement is improving stability and performance. The old system gets sluggish on the regular, and if the sales team closes MonstroCo, their thousand person off-site is going to bring the site to its knees. If we can reduce our downtime, and be ready to handle a few thousand simultaneous sessions, the project would be a success. Do I have that mostly right?"
+Fiona smiles, bemused, at the oddball vision Marcus has painted. Then, she slowly starts thinking out loud. "What /would/ we see? Well, Josie would probably see the UT tickets trend down..." As Fiona talks, she names a couple of different ways to understand "handling greater levels of use".
 
-"Yes," says Fiona with a sigh of relief. "Let me tell you, Marcus, if I never get beat up by the head of Customer Success for system downtime ever again, I will die a happy woman."
+Marcus steadily echoes back and summarizes, probing for really clear ways to understand success for the project. He occasionally repeats her trailing words to encourage her to keep talking. Finally, he wraps up by saying:
 
-And, lo, Marcus has been able to extract Fiona's key long-term goal for the painfully underspecified Legacy Retirement project![fn:: If I had a nickel for every rewrite, replatform, modernization, cloud native, or microservices project I've met that suffered from incredibly vague and unclear goals, I'd be super goddamn rich. I could dive into a bathtub of nickels like one Scrooge McDuck.]
+"Okay, let me say that back, see if I've got it. The key is being able to support a really large number of concurrent users, but maintaining good responsiveness during that time. The whole value prop of ReTreat is that it's a lively, engaging experience. So every little quiz or game has to be snappy, every time we poll for questions it needs to work smoothly. We haven't defined SLO's for this, so we don't have a precise way to measure it. But two  things that we'd likely see are: a) a decrease in help desk tickets labeled 'UT' for 'Uptime', and b) the Customer Success team feeling more confident about encouraging our largest customers to go all in on ReTreat. Do I have that mostly right?"
 
-He can now work /with/ Fiona, to achieve the shared goals of reducing downtime and getting the head of Customer Success off their collective backs. And, as a part of that, he'll be able to convety to Fiona how being more disciplined about her code contributions will get her there faster (to do this really well, Marcus will want to fill in his picture of Fiona's biggest concerns about achieving that goal -- which is the subject of our next chapter).
+#  We don't currently have a reliable way to generate concurrent client load, so we don't actually know where our limits are. But we have a steady stream of 'Uptime' tickets from the help desk, and we
+
+# Although accelerating development would be nice, the real key to Legacy Retirement is improving stability and performance. The old system gets sluggish on the regular, and if the sales team closes MonstroCo, their thousand person off-site is going to bring the site to its knees. If we can reduce our downtime, and be ready to handle a few thousand simultaneous sessions, the project would be a success. Do I have that mostly right?"
+
+"Yes," says Fiona with a visible sigh of relief. "Let me tell you, Marcus, if I never get beat up by the head of Success for system downtime ever again, I will die a happy woman."
+
+And, lo, Marcus has been able to extract and precisely specify Fiona's key long-term goal for the painfully underspecified Legacy Retirement project![fn:: If I had a nickel for every rewrite, replatform, modernization, cloud native, or microservices project I've met that suffered from incredibly vague and unclear goals, I'd be super goddamn rich. I could dive into a bathtub of nickels like one Scrooge McDuck.]
+
+He can now work /with/ Fiona, to achieve their shared goals of improving system responsiveness as scale /and/ getting the head of Customer Success off their collective backs. (As a sidebar, he's now going to advocate super hard for defining SLO's -- but he can do so from a place of alignment, instead of triggering defensive fears)
+
+But, before we move on, let's remember that Marcus got into this conversation in the first place because of a specific pattern of interaction with Fiona -- her dropping random PR's on his head. Can he now challenge her to change that? Not... quite. He's a lot closer. But to propose a new way to act, he needs to better understand some of her /concerns/ -- some of the things she's worrying about, on the path to that goal. That will be the subject of our next chapter.
+
+# But as a teaser, here's the conversation Marcus has with Fiona the following week, after another round of preparation with Marielle (who he owes sooooo many drinks to, now).
 
 # You can now position a nudge to your stakeholder in the context of improving the customer experience of your system, which they apparently care a great deal about.
 
-** Marcus Make a Usefully Incorrect Guess
+** How To Practice Repeat Trailing Words
 
-To learn about why, exactly, Fiona keeps dropping PR's on them, Marcus tries out his final tactic from Marielle.
+This one is simple enough that I recommend initially practicing it multiple times a day.
 
-"I'm glad you try to stay close to the code," he starts off (Stay Close To The Code is a ReMotr company value, he's gotta say this). "But I want to make sure I'm helping you do that in the most useful way possible. When I try to think about what's important for you, in being able to stay close, I can sort of imagine a few different things you might be solving for. Like, maybe that's a way for you to gradually shift the architecture in a direction you think will create better uptime. Or maybe it's not that, it's more that you want to keep your own understanding of the code up to date, to be effective in your job. Or, I dunno, maybe you're testing me?" he offers the last with a laugh. "Is it one of those? Or, like, something else altogether?"
+Whenever you can, in whatever conversations you find yourself in, try repeating the last few words someone says to you, inflected as a question. Try it in both professional and personal contexts, try it with your manager, try it with your peers, with your spouse, kids, neighbors.
 
-# PICK UP HERE
+As you do so, try to:
 
-Fiona quirks her head. "It'
+ - Allow yourself to be in a place of genuine curiosity
 
+ - Say /only/ the last three or four words back
+
+ - Wait silently for a response, even if it feels uncomfortable
+
+Practice over and over. Take some time to reflect on how it feels, and use that reflection to tweak your personal approach.
+
+As you build comfort, you'll find that you can go through multiple rounds of this, in a single conversation, and often get surprisingly deep. If you find you've learned something interesting or moving, try Echoing Back & Summarizing and/or Offering Labeled Feelings.
+
+For an initial, focused period of practice to rewire yourself, aim to do this at least two to three times a day, every day for a week.
+
+** How To Practice Painting A Positive Vision Of The Future
+
+A key here is to find a personal, authentic way to inject liberating playfulness into your questions.
+
+Our example above was:
+
+/"Let's imagine: it's 18 to 24 months from now. The business has done incredibly well. We're all happily celebrating and toasting champagne. What good thing has happened? What is the success that we're toasting?"/
+
+Try that one out. See if you can find a way to share a sense of lightness as you state it. If not, play around with it until it feels easy and a bit fun to offer. Ideally, you want to let yourself be just a bit silly, to signal to your listener that it's okay to let go of fears for a moment.
+
+Try it out with friends and peers (at your own company, or elsewhere!). Echo back and summarize what you hear.
+
+** Roadmap Review
+
+The four key steps we're learning are:
+
+*** 1. Identify An Underlying Shared Goal
+
+*** 2. Develop An Empathetic Understanding Of Their Concerns
+
+*** 3. Propose An Incremental Adjustment
+
+*** 4. Ensure A Win, Build Momentum, GOTO 1
+
+We've just gone deep on the first step. We're going to do a bit more work to fully understand our stakehodler, then we'll talk about how to make a really compelling offer to them to change.
+
+The tactical empathy skills we've learned so far are:
+
+ - Echo Back & Summarize
+
+ - Repeat Trailing Words
+
+ - Invoke A Positive Vision Of The Future
 * Split Off Maria Story
 ** Story: The Death Of The Straightforward Request
 
@@ -1395,6 +1477,19 @@ Sidebar: Making A Usefully Wrong Guess is a powerful tactic for drawing people o
 
 With practice, these tactics, along with Echo Back & Summarize, will allow you to dig beneath the surface of your stakeholder's morass of urgent requests, to understand the key long-term goals they're actually trying to achieve.
 
+** Tactic 3: Make A Usefully Wrong Guess
+
+/Offer your stakeholder a "likely wrong" guess about their long-term goals, and then cheerfully invite them to tell you why you're wrong./
+
+Many people feel safer expressing their own thoughts by telling you what's wrong with yours. Putting their own ideas out there presents as vulnerable or risky, whereas criticizing the ideas of others presents as pleasant and empowering. This is maybe not the most admirable characteristic of humans? But it certainly seems a consistent thing, in my experience, at least. So take advantage of it!
+
+** Marcus Offers An Understanding Of Fiona's Situation
+
+"I'm glad you try to stay close to the code," he starts off (Stay Close To The Code is a ReMotr company value, he's gotta say this). "But I want to make sure I'm helping you do that in the most useful way possible. When I try to think about what's important for you, in being able to stay close, I can sort of imagine a few different things you might be solving for. Like, maybe that's a way for you to gradually shift the architecture in a direction you think will create better uptime. Or maybe it's not that, it's more that you want to keep your own understanding of the code up to date, to be effective in your job. Or, I dunno, maybe you're testing me?" he offers the last with a laugh. "Is it one of those? Or, like, something else altogether?"
+
+# PICK UP HERE
+
+Fiona quirks her head. "It'
 * Learning Outcomes/Arc
 ** Maybe: The Power of Speaking to Strategic Outcomes
 ** Some Problems With Goals
