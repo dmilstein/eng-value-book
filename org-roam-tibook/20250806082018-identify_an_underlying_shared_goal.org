@@ -92,7 +92,7 @@ If, instead of asking for goals, you invite them to /imagine/ a happy longer-ter
 
 # Invoking an oddball, specific image like "throwing a big party" engages the playful side of their mind.[fn:: Product Managers use a very similar tactic in customer interviews when they say "If you could wave a magic wand and poof!, things were suddenly much better, what would have improved?"] When you then echo back and summarize, you help them feel like you are /with/ them in facing their fears, while also obtaining enough information to be ready to make a useful proposal for change.
 
-** Story: Marcus And The Meddlesome CTO
+** Story: Marcus And The Misdirected PR's
 
 Marcus Brown is a senior software engineer. Six months ago he joined ReMotr, a B2B SaaS company that sells team-building software for companies with remote teams. ReMotr's flagship product is ReTreat, which allows companies to host a virtual offsite featuring trust-building games, an interactive annual company review, and plenty of opportunities to make oddball memories together.[fn:: The ReMotr product team keeps trying to figure out how to add Potentially Embarrassing Drinking Games to the platform, but their general counsel keeps waving them away in horror.]
 
@@ -162,15 +162,17 @@ Marcus doesn't let himself stop to think too long about this, nor about this new
 
 # Marcus hadn't known about the previous attempts to rewrite, and, now that the thinks about it, he's not totally clear on what "the same problems" are. Everyone just knows how awful the early code is, and is eager to get rid of it.
 
-Marcus is feeling overwhelmed with new information. Deep in the trenches, he's heard about so many different forms of "better", he hadn't realized that stability and and performance were the driving concerns. In fact, a key piece of the current plan adds in a "flexible" layer of indirection, in a way that is just about guaranteed to limit scalability. He /also/ hadn't realized that the company plan was to move upmarket.
+Marcus is feeling overwhelmed with new information. Deep in the trenches, he's heard about so many different forms of "better", he hadn't realized that stability and and performance were Fiona's driving concerns. In fact, just yesterday, another engineer proposed adding in a "flexible" layer of indirection, in a way that Marcus is quite worried will kneecap performance. He /also/ hadn't realized that the company plan was to move upmarket.
 
-He realizes Fiona is staring at him, waiting for him to speak. A part of him wants to say "thank you," shut the conversation down and go off to digest this new information. But then, a vision of Marielle appears before him, holding up a sign that says "Echo Back & Summarize". The night before, she had been fiercely insistent that, once he thinks he has a goal, he had to /immediately/ share back his understanding with Fiona. He marshals his thoughts and goes through the template Marielle trained him on.
+** How To Handle The Surprising Acquisition Of A New Understanding
+
+Marcus realizes Fiona is staring at him, waiting for him to speak. A part of him wants to say "thank you," shut the conversation down and go off to digest this new information. But then, a vision of Marielle appears before him, holding up a sign that says "Echo Back & Summarize". The night before, she had been fiercely insistent that, once he thinks he has a goal, he had to /immediately/ share back his understanding with Fiona. He marshals his thoughts and goes through the echoing back template Marielle trained him on.
 
 "Okay, let me say that back, see if I've got it. Although there might be a bunch of potential benefits from retiring our legacy code, the absolute core need is improving stability and performance. We're /already/ seeing levels of use that the current architecture just can't support. And, worse, the company is trying to sell to larger and larger customers. Right now, our largest customer is MonstroCo, and we can't even reliably handle them. Do I have that mostly right?"
 
 "Yes, exactly," Fiona says. She gives a single, sharp nod of agreement, as if drawing a line under his summary.
 
-What is going on for Fiona, in this moment? She's feeling a sense of /relief/. Hearing Marcus so clearly articulate the underlying problem helps her in two ways. First, it's validating. Yesterday, she had a dumpster of negativity dropped on her by the CEO. Hearing this clear statement of why they need to take serious action grounds her in the validity of her past decisions. Second, it's just a relief to know that someone on the ground both understands and cares about this problem.
+What is going on for Fiona, in this moment? She's feeling a sense of /relief/. Hearing Marcus so clearly articulate the underlying problem helps her in two ways. First, it's validating. Yesterday, she had a dumpster load of negativity dropped on her by the CEO. Hearing this clear statement of why they need to take serious action reinforces the validity of her past decisions. Second, it's just a relief to know that someone on the ground both understands and cares about this problem.
 
 # When they run their thousand person off-site, it's just a total crapshoot at to whether or not our system stays up. If LR can reduce downtime, and ensure we can handle several thousand simultaneous sessions with really snappy responsiveness, the project would be a success. Do I have that mostly right?"
 
@@ -178,7 +180,7 @@ Feeling calmer than usual, she pulls her phone up and scans it.
 
 "Well, my next meeting just got cancelled," she tells Marcus. "Did you have any more questions?"
 
-Feeling slightly dizzy at the amount of time and focused attention he's getting, Marcus makes himself say "Yes, actually, I do." The two of them sit at a table in a corner of the breakroom.
+Feeling slightly dizzy at the amount of time and focused attention he's getting, Marcus makes himself say "Yes, actually, I do." The two of them move to a table in a corner of the breakroom.
 
 ** Marcus Paints a Delightful Picture
 
@@ -186,37 +188,57 @@ Marcus is glad he's teased out more information. But if he's going to push Fiona
 
 He considers just asking, "What metrics will improve?" But he knows that the lack of good metrics at ReMotr is a source of ongoing shame for the engineering team. He doesn't want to trigger defensiveness from Fiona (which is precisely what happened on his third day, when he asked, at a full engineering team meeting, "So, what are our SLO's?").
 
-He decides to try the second tactic Marielle drilled him on.
+He decides to try the second tactic Marielle drilled him on, invoking a positive vision of the future.
 
 # Maybe, try out his learning about feelings?
 
-"Let's say we were to imagine that it's a year from now. We've finally finished LR, and it's, like, a huge hit. The system is cheerfully handling much higher levels of use. We're all happily celebrating and toasting champagne." Marcus gestures around the break room, invoking an imaginary celebratory crowd. "Why are people excited? How can we all tell that the business is in a better spot?"
+"Let's say," he begins, "we were to imagine that it's a year from now. We've finally finished LR, and it's, like, a /huge/ hit. The system is cheerfully handling much higher levels of use. We're all happily celebrating and toasting champagne." Marcus gestures around the break room, invoking an imaginary celebratory crowd. "Why are people excited? How can we all tell that the business is in a better spot?"
 
 # , bemused slightly
 
-Fiona smiles, bemused, at the oddball vision Marcus has painted. Then, she slowly starts thinking out loud. "What /would/ we see? Well, Josie would probably see the UT tickets trend down..." As Fiona talks, she names a couple of different ways to understand "handling greater levels of use".
+Fiona smiles, bemused, at the oddball vision Marcus has painted. Then, she slowly starts thinking out loud. "What /would/ we see? Well, I would hope UT tickets would go down, which Josie has started pulling out..." As Fiona talks, she names a couple of different, more detailed ways to understand "handling greater levels of use".
 
-Marcus steadily echoes back and summarizes, probing for really clear ways to understand success for the project. He occasionally repeats her trailing words to encourage her to keep talking. Finally, he wraps up by saying:
+Marcus steadily echoes back and summarizes, probing for the clearest possible definition of success for the project. He occasionally repeats her trailing words to encourage her to keep talking. Together, they sort through the various ways to understand the performance of the system.
 
-"Okay, let me say that back, see if I've got it. The key is being able to support a really large number of concurrent users, but maintaining good responsiveness during that time. The whole value prop of ReTreat is that it's a lively, engaging experience. So every little quiz or game has to be snappy, every time we poll for questions it needs to work smoothly. We haven't defined SLO's for this, so we don't have a precise way to measure it. But two  things that we'd likely see are: a) a decrease in help desk tickets labeled 'UT' for 'Uptime', and b) the Customer Success team feeling more confident about encouraging our largest customers to go all in on ReTreat. Do I have that mostly right?"
+** A Clear, Actionable Understanding
+
+Finally, Marcus feels like he has enough clarity. He sits forward in his chair and uses his template from Marielle one more time:
+
+"Okay, let me say that back, see if I've got it." Fiona listens intently as he carefully works out his understanding.
+
+"The key is being able to support a really large number of concurrent users, while maintaining good responsiveness. The whole value prop of ReTreat is that it's a lively, engaging experience. So every little quiz or game has to be snappy, every time we poll for questions it needs to work smoothly. We haven't defined SLO's for this, so we don't have a precise way to measure it yet."
+
+He manages to say that calmly, without a hint of judgment. He continues on. "But, even without metrics, two things that we'd likely see are: a) a decrease in help desk tickets labeled 'UT' for 'Uptime', and b) the Customer Success team feeling more confident about encouraging our largest customers to go all in on ReTreat. They've been hesitant to push for adoption, because of the sluggishness so many customers report."
+
+He thinks for a moment, reviewing the various things he's just heard from Fiona. Finally, he asks, "Do I have that mostly right?"
 
 #  We don't currently have a reliable way to generate concurrent client load, so we don't actually know where our limits are. But we have a steady stream of 'Uptime' tickets from the help desk, and we
 
 # Although accelerating development would be nice, the real key to Legacy Retirement is improving stability and performance. The old system gets sluggish on the regular, and if the sales team closes MonstroCo, their thousand person off-site is going to bring the site to its knees. If we can reduce our downtime, and be ready to handle a few thousand simultaneous sessions, the project would be a success. Do I have that mostly right?"
 
-"Yes," says Fiona with a visible sigh of relief. "Let me tell you, Marcus, if I never get beat up by the head of Success for system downtime ever again, I will die a happy woman."
+Fiona thinks for a moment, and then says, "Yes, that's all just about exactly right." She gives a small sigh. "Let me tell you, Marcus, if I never get beat up by the head of Success for system downtime ever again, I will die a happy woman."
 
-And, lo, Marcus has been able to extract and precisely specify Fiona's key long-term goal for the painfully underspecified Legacy Retirement project![fn:: If I had a nickel for every rewrite, replatform, modernization, cloud native, or microservices project I've met that suffered from incredibly vague and unclear goals, I'd be super goddamn rich. I could dive into a bathtub of nickels like one Scrooge McDuck.]
+And, lo, Marcus has been able to extract and precisely specify Fiona's key long-term goal for the painfully underspecified Legacy Retirement project![fn:: If I had a nickel for every rewrite, replatform, modernization, cloud native, or microservices project I've met that suffered from incredibly vague and unclear goals, I'd be super goddamn rich. I could dive into a bathtub of nickels like one Scrooge McDuck.] He's also built some early trust and rapport with Fiona. Before this conversation, she had started to think of Marcus as someone who "thinks we do everything wrong at ReMotr." Now she feels like he understands their biggest problems.
 
-He can now work /with/ Fiona, to achieve their shared goals of improving system responsiveness as scale /and/ getting the head of Customer Success off their collective backs. (As a sidebar, he's now going to advocate super hard for defining SLO's -- but he can do so from a place of alignment, instead of triggering defensive fears)
+In short, Marcus has created an excellent foundation for proposing new ways to work /with/ Fiona, to achieve their shared goals of improving system responsiveness at scale /and/ getting the head of Customer Success off their collective backs.
 
-But, before we move on, let's remember that Marcus got into this conversation in the first place because of a specific pattern of interaction with Fiona -- her dropping random PR's on his head. Can he now challenge her to change that? Not... quite. He's a lot closer. But to propose a new way to act, he needs to better understand some of her /concerns/ -- some of the things she's worrying about, on the path to that goal. That will be the subject of our next chapter.
+When he does so, a key part of that new way of working should address the frustrations that led Marcus to get into this conversation in the first place: he will ask Fiona to stop dropping random, architecture-adjusting PR's on his head.
+
+# He's taken an excellent foundation for asking for change, by identifying her underlying goal (and having built some early trust and rapport).
+
+# As a part of that, he's going to want to dig into what, exactly, she's getting out of her habit of droping random PR's on his head. But he'll be able to ask his questions in the context of helping her achieve the all-important goal of
+
+Should he now directly ask her to change her behavior? He... could. And it /might/ work.
+
+But there's one more step that will really dramatically increase his odds of success: taking a bit of time to ensure he understands Fiona's core /concerns/. Which is to say, the things she's most /worried/ about, on the path to that goal.
+
+How he can determine those will be the subject of our next chapter.
 
 # But as a teaser, here's the conversation Marcus has with Fiona the following week, after another round of preparation with Marielle (who he owes sooooo many drinks to, now).
 
 # You can now position a nudge to your stakeholder in the context of improving the customer experience of your system, which they apparently care a great deal about.
 
-** How To Practice Repeat Trailing Words
+** How To Practice Repeating Trailing Words
 
 This one is simple enough that I recommend initially practicing it multiple times a day.
 
@@ -236,7 +258,7 @@ As you build comfort, you'll find that you can go through multiple rounds of thi
 
 For an initial, focused period of practice to rewire yourself, aim to do this at least two to three times a day, every day for a week.
 
-** How To Practice Painting A Positive Vision Of The Future
+** How To Practice Invoking A Positive Vision Of The Future
 
 A key here is to find a personal, authentic way to inject liberating playfulness into your questions.
 
@@ -248,19 +270,19 @@ Try that one out. See if you can find a way to share a sense of lightness as you
 
 Try it out with friends and peers (at your own company, or elsewhere!). Echo back and summarize what you hear.
 
-** Roadmap Review
+** Roadmap & Skills Review
 
-The four key steps we're learning are:
+Here's where we are in the four key steps of advocating for an increment of change are:
 
-*** 1. Identify An Underlying Shared Goal
+ 1. *Identify An Underlying Shared Goal*
 
-*** 2. Develop An Empathetic Understanding Of Their Concerns
+ 2. /Develop An Empathetic Understanding Of Their Concerns/
 
-*** 3. Propose An Incremental Adjustment
+ 3. /Propose An Incremental Adjustment/
 
-*** 4. Ensure A Win, Build Momentum, GOTO 1
+ 4. /Ensure A Win, Build Momentum, GOTO 1/
 
-We've just gone deep on the first step. We're going to do a bit more work to fully understand our stakehodler, then we'll talk about how to make a really compelling offer to them to change.
+Next, in Step 2, we'll do a bit more work to fully understand our stakeholder. Then, in step 3, we'll make a really compelling offer to them to change.
 
 The tactical empathy skills we've learned so far are:
 
