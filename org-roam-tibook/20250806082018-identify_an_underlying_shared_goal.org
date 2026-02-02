@@ -98,11 +98,11 @@ Marcus Brown is a senior software engineer. Six months ago he joined ReMotr, a B
 
 Marcus has, since the moment he joined, been working on a big effort to replace the truly horrifying code written in ReMotr's early days. The project is known internally as "LR" (which Marcus only recently discovered stands for "Legacy Retirement").
 
-Unfortunately, Marcus's CTO, Fiona, has developed a habit of randomly helicoptering into his team's repos and dropping half-baked pull requests. Worse, half of them see to imply major architectural shifts. Fiona was one of the first engineers at the company, so she knows the /old/ systems well... but she doesn't actually understand how Marcus and his team are restructuring those systems, so every one of her random code bombs spins up a whole fraught thread of negotiation.
+Unfortunately, Marcus's CTO, Fiona, has developed a habit of randomly helicoptering into his team's repos and dropping half-baked pull requests. Worse, many of them seem to be the start of major architectural shifts. Fiona was one of the first engineers at the company, so she knows the /old/ systems well... but she doesn't actually understand how Marcus and his team are restructuring those systems, so every one of her random code bombs spins up a whole fraught thread of negotiation.
 
 # Further, every time she does that makes Marcus feel like she doesn't trust him.
 
-Recently, Marcus's team was lambasted by the head of Product for having drifted behind plan, after Marcus lost nearly two weeks going back and forth with Fiona via passive aggressive pull requests. He's decided that things have to change. Luckily, his best friend from his last job, Marielle, is a product manager who is preternaturally skilled at getting people to open up. She spent a long zoom call helping him prepare for the conversation.
+Recently, Marcus's team was lambasted by the head of Product for having drifted behind plan, after Marcus lost nearly two weeks going back and forth with Fiona via passive aggressive pull requests. He's decided that things have to change. Luckily, his best friend from his last job, Marielle, is a product manager who is preternaturally skilled at getting people to open up. One evening after work, she comes helps him prepare for the conversation.
 
 ** The Swift Death Of The Straightforward Request
 
@@ -114,15 +114,15 @@ She looks up from her phone. Marcus can see colorful Slack threads pulsing away.
 
 "No problem," Marcus says, "I can be quick." He takes a deep breath, then launches in. "Here's what I wanted to ask. I've been working on LR for a long time, and I don't think I'm as clear as I'd like to be about what, exactly, we're trying to achieve. Why, exactly, is ReMotr trying to rewrite the ReTreat system?"
 
-Fiona frowns. She stares at him, then gives a shrug and says, "Because it's awful legacy code."  Marcus feels overwhelmingly like he's asked a dumb question. He can practically hear her thinking, "Aren't engineers supposed to /want/ to retire legacy code?"
+Fiona frowns. She stares at him, then gives a shrug and says, "Because it's awful legacy code."  He can practically hear her thinking, "Aren't engineers supposed to /want/ to retire legacy code?" Marcus feels overwhelmingly like he's asked a dumb question.
 
 # She gives a little shrug at the self-evidentness of this point.
 
 Whatever Fiona is thinking, Marcus definitely senses that she wants the conversation to be over.
 
-This is a painfully familiar experience for Marcus, as it may be for many of us. We muster up the energy to ask someone with authority a question, and the response seems to immediately shut us down.
+This is a painfully familiar experience for Marcus, as it may be for many of us. We muster up the energy to ask someone with authority a question, and they respond by immediately shutting us down.
 
-What is actually going on inside Fiona's head, in this moment? Yesterday afternoon, Fiona spent the entirety of her one-on-one with the CEO getting beaten up about how long the LR is taking. She's feeling the opposite of settled about it. From that anxious place, hearing Marcus introduce /any/ questions about the project feels immediately destabilizing. Her anxious mind immediately offers a picture of Marcus undercutting her from below. Given that fear, she does, in fact, want the conversation to be over.
+Meanwhile, what is going on inside Fiona's head? Yesterday afternoon, Fiona spent the entirety of her one-on-one with the CEO getting beaten up about how long LR is taking. She's feeling the opposite of settled about it. From that anxious place, hearing Marcus introduce /any/ questions about the project feels destabilizing. Her anxious mind immediately offers a picture of Marcus undercutting her from below. Given that fear, she does, in fact, want the conversation to be over.
 
 # She's worried, without even consciously realizing it, that Marcus is about to undercut her from below.
 
@@ -132,19 +132,21 @@ What is actually going on inside Fiona's head, in this moment? Yesterday afterno
 
 Luckily, Marcus talked about exactly this moment with Marielle the night before. She claimed that, despite an initially curt or even dismissive response, he could get Fiona talking, if he repeated the last three words she said. "Trust me, honey," she had insisted.
 
-Now, with his CTO standing in front of him, radiating impatience, Marcus manages to hesistantly say back her last three words:
+Now, in the break room, Fiona has just said "Because it's awful legacy code."
+
+She's standing in front of Marcus, radiating impatience. He manages to hesistantly say back her last three words:
 
 "...awful legacy code...?"
 
 He practiced the night before with Marielle, working until she felt like he was getting the right inflection, halfway between a statement and a question. "Calmly and curiously," is what she had told him. He's pretty nervous, but he thinks he got it mostly right.
 
-Having said those three words, Marcus forces himself to stop talking, even though that feels somewhat intensely odd.
+Having said those three words, Marcus forces himself to stop talking, even though that feels somewhat intensely uncomfortable.
 
-Fiona stares blankly at him. He can hear the refrigerator in the corner clanking away as it makes ice. Just when he's about to give up, Fiona suddenly starts speaking again.
+Fiona stares blankly at him. He can hear the refrigerator in the corner clanking away. Just when he's about to give up, Fiona suddenly starts speaking.
 
 "Yeah. We've tried fixing it in place, but it's clear we need to rearchitect."
 
-She gives another one of her little shrugs. Marielle had primed Marcus to be ready to go through a few rounds. He nods in agreement and again echoes the last three words, calmly and curiously:
+She gives one of her little shrugs. Fortunately, Marielle had prepped Marcus to be ready to go through a few rounds. He nods in agreement and again echoes the last three words, calmly and curiously:
 
 "...need to rearchitect...?"
 
@@ -210,7 +212,7 @@ Finally, Marcus feels like he has enough clarity. He sits forward in his chair a
 
 He manages to say that calmly, without a hint of judgment. He continues on. "But, even without metrics, two things that we'd likely see are: a) a decrease in help desk tickets labeled 'UT' for 'Uptime', and b) the Customer Success team feeling more confident about encouraging our largest customers to go all in on ReTreat. They've been hesitant to push for adoption, because of the sluggishness so many customers report."
 
-He thinks for a moment, reviewing the various things he's just heard from Fiona. Finally, he asks, "Do I have that mostly right?"
+He briefly pauses to review the various things he's just heard from Fiona, then, satisfied, he asks, "Do I have that mostly right?"
 
 #  We don't currently have a reliable way to generate concurrent client load, so we don't actually know where our limits are. But we have a steady stream of 'Uptime' tickets from the help desk, and we
 
@@ -218,11 +220,11 @@ He thinks for a moment, reviewing the various things he's just heard from Fiona.
 
 Fiona thinks for a moment, and then says, "Yes, that's all just about exactly right." She gives a small sigh. "Let me tell you, Marcus, if I never get beat up by the head of Success for system downtime ever again, I will die a happy woman."
 
-And, lo, Marcus has been able to extract and precisely specify Fiona's key long-term goal for the painfully underspecified Legacy Retirement project![fn:: If I had a nickel for every rewrite, replatform, modernization, cloud native, or microservices project I've met that suffered from incredibly vague and unclear goals, I'd be super goddamn rich. I could dive into a bathtub of nickels like one Scrooge McDuck.] He's also built some early trust and rapport with Fiona. Before this conversation, she had started to think of Marcus as someone who "thinks we do everything wrong at ReMotr." Now she feels like he understands their biggest problems.
+And, lo, Marcus has been able to extract and precisely specify Fiona's key long-term goal for the painfully ambiguous Legacy Retirement project![fn:: If I had a nickel for every rewrite, replatform, modernization, cloud native, or microservices project I've met that suffered from incredibly vague and unclear goals, I'd be super goddamn rich. I could dive into a bathtub of nickels like one Scrooge McDuck.] He's also built some early trust and rapport with Fiona. Before this conversation, she had started to think of Marcus as someone who "thinks we do everything wrong at ReMotr." Now she's starting to feel like he understands their biggest problems.
 
-In short, Marcus has created an excellent foundation for proposing new ways to work /with/ Fiona, to achieve their shared goals of improving system responsiveness at scale /and/ getting the head of Customer Success off their collective backs.
+Marcus has created an excellent foundation for proposing new ways to work /with/ Fiona, to help her achieve her goals of improving system responsiveness at scale /and/ getting the head of Customer Success off her back.
 
-When he does so, a key part of that new way of working should address the frustrations that led Marcus to get into this conversation in the first place: he will ask Fiona to stop dropping random, architecture-adjusting PR's on his head.
+When he does so, a key part of that new way of working will address the frustrations that led Marcus to get into this conversation in the first place: he will ask Fiona to stop dropping random, architecture-adjusting PR's on his head.
 
 # He's taken an excellent foundation for asking for change, by identifying her underlying goal (and having built some early trust and rapport).
 
@@ -262,9 +264,9 @@ For an initial, focused period of practice to rewire yourself, aim to do this at
 
 A key here is to find a personal, authentic way to inject liberating playfulness into your questions.
 
-Our example above was:
+For example, that could be:
 
-/"Let's imagine: it's 18 to 24 months from now. The business has done incredibly well. We're all happily celebrating and toasting champagne. What good thing has happened? What is the success that we're toasting?"/
+/"Let's imagine: it's 18 to 24 months from now. Our project has been a total success, and, as a result the business is doing incredibly well. We're all happily celebrating and toasting champagne. What good thing has happened? What is the success that we're toasting?"/
 
 Try that one out. See if you can find a way to share a sense of lightness as you state it. If not, play around with it until it feels easy and a bit fun to offer. Ideally, you want to let yourself be just a bit silly, to signal to your listener that it's okay to let go of fears for a moment.
 
@@ -286,11 +288,25 @@ Next, in Step 2, we'll do a bit more work to fully understand our stakeholder. T
 
 The tactical empathy skills we've learned so far are:
 
- - Echo Back & Summarize
+ - *Echo Back & Summarize*
 
- - Repeat Trailing Words
+   After someone says something, you reply:
 
- - Invoke A Positive Vision Of The Future
+   /"If it's okay, I'm going to say that back, make sure I understood it."/
+
+   You summarize what you think you heard, as clearly as you can.
+
+   You then ask, /"Is that about right?"/
+
+ - *Repeat Trailing Words*
+
+   When someone stops talking, but you want to know more, repeat the last three words they said, calmly and curiously. Then, stop talking and wait.
+
+ - *Invoke A Positive Vision Of The Future*
+
+   Invite your stakeholder to imagine a happy moment in the future when the current work has all been successfully completed. Create a deliberately playful image, like, "We're toasting champagne." Then ask, "What good things have been unlocked? What is now better for our business? Why are we celebrating?"
+
+
 * Split Off Maria Story
 ** Story: The Death Of The Straightforward Request
 
