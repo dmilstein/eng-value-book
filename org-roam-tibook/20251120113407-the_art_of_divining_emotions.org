@@ -1,9 +1,179 @@
 :PROPERTIES:
 :ID:       D6564799-DCF0-4D14-BC29-C9A0E3B47B3F
 :END:
-#+title: The Art of Divining Emotions
+#+title: Develop An Empathetic Understanding Of Their Concerns
 #+filetags: :Chapter:
-* The Art of Divining Emotions
+* Develop An Empathetic Understanding Of Their Concerns
+** Intro
+
+# Make a promise of what they'll get in this chapter
+
+Identifying an important goal that your stakeholder is trying to achieve is an excellent foundation on which to build a request for them to change their behavior.
+
+But, by itself, it's rarely enough.
+
+In this chapter, we're going to supply our final key tactical empathy tool: a conversational pattern that will allow you to draw out and validate your Important Person's underlying /concerns/.
+
+In fact, you'll not only come to understand those concerns, you'll be able to speak to them with true empathy.
+
+# This will allow you to execute on the second step of our game plan: "Develop An Empathetic Understanding Of Their Concerns".
+
+Being able to make an empathetic statement of their concerns will allow you to get past the armor your stakeholder puts on to get through their days. You'll be able to offer them something that they eagerly desire. You'll be able to carefully position your request to avoid triggering their biggest fears.
+
+With this nuanced understanding in hand, you'll be able to make a surprisingly direct request for them to change their behavior.
+
+Of course, all of that is only possible if you somehow come to understand /why/ they're acting in the crazy, mystifying, frustrating way that they currently are.
+
+** The Basics Of Offering Labeled Feelings
+
+We name the key conversational pattern "Offering Labeled Feelings".
+
+It is a way to probe for underlying concerns, but to do so in a carefully structured manner that encourages people to open up. It is the most tricky of our tactical empathy skills to master, because it requires both a bit of creative imagination, and then adherence to a very precise template when you speak with your stakeholder. But with practice it is a true superpower.
+
+# This is another one of our tactics adopted from Never Split The Difference, where Chris Voss tells stories of using it to defuse armed standoffs with people
+
+Here's how it works.
+
+ Step 1: Empathetically describe the *situation* your stakeholder perceives themselves to be in.
+
+ Step 2: Offer a potential emotion they may be feeling, as a *natural response* to that situation.
+
+ Step 3: Invite them to correct your understanding.
+
+Much of the work of offering labeled feelings is finding a way to imagine yourself into a situation where your stakeholder's seemingly crazy actions and emotions become natural and inevitable.
+
+If you can do so, you can then share  your understanding of that situation with them, bringing it to life by citing specific, vivid details. The specificity demonstrates to your stakeholder that you truly understand and care about the challenges they're facing.
+
+Then, you can move on to the next step. You explicitly name, or, as Chris Voss says, "label", an emotion that the situation could be causing them to feel. You /offer/ it to them as a possibility, not as a statement of fact.
+
+Most importantly, you make it clear that you yourself might have that same feeling if you were in their situation.
+
+Finally, as always, you throw the ball back to them, to give them a chance to "fix" your understanding. And of course you then echo back and summarize whatever they say to you.
+
+# That's it. When done by someone very skilled, this can all happen very quickly, and can change the feeling in the room to a shocking degree.
+
+Why is this so powerful? And why are we doing all this hard work to see things from our stakeholder's point of view? Are we trying to /justify/ their frustrating behaviors?
+
+** Splitting Apart Feelings From Actions
+
+The key to getting
+
+Once you get this right, you'll be able to tease apart what your stakeholder is *doing* (e.g. shutting down every single question anyone asks them) from their underlying *concern* (e.g.that the team isn't moving fast enough, and might get distracted).
+
+You can then validate the concern, but offer them a new, non-destructive way to address it. In fact, that will form a core of your request for change.
+
+# XXX Make a table?
+
+ - Frustrating Action: aggressively shut down questions about context or why
+
+ - Potential Underlying Feelings:
+
+   - Frustration the team isn't moving fast enough and a fear that they might get distracted
+
+   - Fear that the team doesn't trust the stakeholder, and will push back on key actions
+
+   - Fear that the team will discover that the stakeholder themselves doesn't understand why
+
+#
+
+# mirroring how they experience, and you're create *justification* for their feelings.
+
+# If you do this right, you should feel like you, yourself, would feel similarly, if you were in their situation.
+
+* Later Stuff
+
+** Scraps re Defining Labeling
+
+You make this an /offer/ by prefacing it with a careful bit of distancing, e.g. "It seems like you might...", or "I could imagine that you might...".
+
+You avoid the risky bluntness of "You seem frustrated" (or, god forbid, "I think you're frustrated", which has patronizing judgment written all the heck over it). But you *directly name a feeling*.
+
+
+ideally in a fashion which casts your stakeholder in the role of a "beleaguered hero". E.g. imagine that you're talking with a VP of Warehousing stakeholder. One way to frame a situation is to say: "We have to open three warehouses by early Q1 of next year, and it's not clear if we're on track".
+
+# XXX Fix this
+
+In NSTD, Chris Voss describes labeling emotions as akin to performing a tea ceremony. It's precise and persnickety and not particularly natural at first. I like that analogy very much. The act of labeling happens very quickly in real time, so you need to learn to go through the distinct steps very carefully. Let's break them down.
+
+# BAD WRITING GO!
+
+By empathetically describing the situation, you start by validating their *experience*.
+
+That's... fine? It's true, and it's better than saying nothing. But it's not demonstrating a fully empathetic understanding of how all this presents to Mr Warehousing. Here's that same dry series of facts, enriched with details:
+
+"The CEO is demanding that you open three warehouses by Q1. That's right at the limit of what's even possible -- like, everything has to go exactly right. Despite the risks, next year's forecast for the board assumes a full year of operational profits from those buildings. But the location team hasn't even given you all the possible sites yet. It's like you're behind before you're even able to start."
+
+For example, with Mr. Beleaguered Warehousing, maybe that looks like:
+
+"[...] But the location team hasn't even given you all the possible sites yet. It's like you're behind before you even able to start. That seems like it might be a pretty frustrating situation."
+
+"You seem frustrated" and "That seems like it might be a pretty frustrating situation" are just miles apart in how they land with people.
+
+The distancing preface allows the person to hear the statement of emotions as you *trying to understand them*, not as you judging them. This tactic work best if you can get yourself into a place of genuine curiosity, so that you truly *are* trying to understand. You might even find yourself naturally inflecting your statement as a question: "That seems like it might be a pretty frustrating situation?"
+
+Other distancing prefaces include:
+
+  - "It would make sense if you were to feel pretty frustrated..."
+
+  - "If I were in your shoes, I might might feel pretty frustrated..."
+
+# Going through the steps of this little dance is a way to help someone feel validated and understood, without falling into the trap of making them feel judged.
+
+# When you make such an offer, it's *critical* that you preface it with an opening that creates separation between you and the statement of emotions you're about to make, e.g.:
+#  - "It seems like you might..."
+#  - "It would make sense if you were to..."
+#  - "I could imagine you might..."
+
+If you get this right, your stakeholder will feel a (possibly profound!) sense of /relief/. They may even visibly exhale and relax. You may see them smile or even laugh at the picture you've painted. They will be far more ready to see you as a potential partner in facing their challenges.
+
+Let's see it at work.
+
+# Let's review the two different ways Quin could speak to Marco's potential fear:
+
+# Direct Question: "Are you afraid that we're not solving an important problem?"
+
+# Labeled Offer: "We're in a tricky spot. Potential customers keep telling us that they're *interested*, but because we don't have a thing we can *sell* them yet, we can't find out if they're genuinely willing to buy. It seems like you might be afraid that we're not solving a genuinely *important* problem...?"
+
+# On the page the two may not seem that different, but if you can do the work to lay out the situation first, and then offer that second part in a calm, curious, dispassionate tone, it has a *remarkably* powerful effect. Your stakeholder, instead of feeling *accused*, will feel *relieved*.
+
+# As Voss explains, research shows that, by naming fears out loud in this way, you can actually help people *feel* calmer. It both shows the person that it's okay to openly name the fear, and it also engages the rational, problem-solving parts of their brain.
+
+
+# Voss describes this as learning the steps of a tea ceremony, which I love. It's precise and specific and feels alien at first. But once you master it, you'll find it supremely uesful.
+
+# ** Tactic: Make Your Stakeholder A Beleaguered Hero
+
+** Stakeholder Is Human Being / Has Feelings
+Because, all evidence to the contrary, your stakeholder is a human being. Their behavior is not driven solely by a rational desire to achieve an outcome.
+
+# We are none of us robots.
+
+# Making a purely rational case is not super likely to work.
+
+Your stakeholder, being human, /has feelings/. And, shocker, not every one of those feelings comes from a perfectly cool, calm and collected desire to achieve their goals. To effectively advocate for change, you'll need to develop an understanding of their full suite of messy, human feelings. And not just any kind of understanding, but a special kind: an /empathetic/ understanding.
+
+# Because your stakeholder is a human being. And thus they have /feelings/. To effectively advocate for change, you'll need to develop an empathetic understanding of their messy human feelings.
+
+# This is so important, we're going to spend a few chapters on it.
+
+# If you want to persuade your stakeholder to make a change, you're going to need to understand some messy human emotions.
+
+# Thus, the second step in the game plan is to develop an empathetic understanding of your stakeholder's key underlying emotions.
+
+# If you want one of those humans to change their behavior, it's absolutely critical for you to understand their *feelings*.
+
+This is true even if you work with a CEO whose only outward expression of emotion is a tightly clenched jaw.
+
+# This is true even if you and your coworkers engage in serious debates about whether or not your rigidly shut-down Head of Engineering even *has* feelings.
+
+Understanding feelings doesn't mean gathering in a drum circle and getting in touch with our inner child. All humans, in whatever positions of power they may find themselves, have things they deeply want, and things they are deeply afraid of. Your stakeholder's current behavior patterns are driven by some combination of what they want and what they're afraid of.
+
+When you advocate for change, you want to be able to speak with authentic connection to both the fears that are keeping them up at night, as well as the things that they desperately wish were happening.
+
+# To bring this to life, let's first see what happens if someone tries to advocate for change, *without* that nuanced, empathetic understanding. Then we'll see how, armed with an understanding of their stakeholder's inner life, they could make a far, far more effective request for change.
+
+# Over the next two chapters, we're going to show how to do a better job
+
 ** Leaders Hide Their Feelings
 # But there's a problem.
 
@@ -380,82 +550,6 @@ Let's see how you can thread that needle.
 #  1. He hasn't confirmed he correctly understands Max's feelings
 
 #  2. He missed a (rare) opportunity to build trust and rapport with Max
-
-** Tactic: Offer Labeled Feelings
-
-# Luckily, there is a way to directly validated to your stakeholder's feelings.
-The trick is to carefully go through two steps, which Naiah named "Labeling" emotions (Naiah loved Never Split The Difference, which is also from whence she adopted the Repeat Trailing Words tactic).
-
- 1. Empathetically describe the *situation* your stakeholder is in
-
- 2. Offer a potential *label* for their emotion, as a *natural response* to that situation
-
-# XXX Fix this
-
-In NSTD, Chris Voss describes labeling emotions as akin to performing a tea ceremony. It's precise and persnickety and not particularly natural at first. I like that analogy very much. The act of labeling happens very quickly in real time, so you need to learn to observe the distinct steps very carefully. Let's break them down.
-
-# BAD WRITING GO!
-
-By empathetically describing the situation, you start by validating their *experience*.
-
-You'll want to bring that situation to life by citing specific, vivid details, ideally in a fashion which casts your stakeholder in the role of a "beleaguered hero". E.g. imagine that you're talking with a VP of Warehousing stakeholder. One way to frame a situation is to say: "We have to open three warehouses by early Q1 of next year, and it's not clear if we're on track".
-
-That's... fine? It's true, and it's better than saying nothing. But it's not demonstrating a fully empathetic understanding of how all this presents to Mr Warehousing. Here's that same dry series of facts, enriched with details:
-
-"The CEO is demanding that you open three warehouses by Q1. That's right at the limit of what's even possible -- like, everything has to go exactly right. Despite the risks, next year's forecast for the board assumes a full year of operational profits from those buildings. But the location team hasn't even given you all the possible sites yet. It's like you're behind before you're even able to start."
-
-Those vivid details will demonstrate that you truly understand and care about the situation the stakeholder is in.
-
-Then, you move on to the next step. You explicitly name, or, as Voss says, "label", an emotion that the situation could be causing them to feel.
-
-# mirroring how they experience, and you're create *justification* for their feelings.
-
-# If you do this right, you should feel like you, yourself, would feel similarly, if you were in their situation.
-
-
-You make this an /offer/ by prefacing it with a careful bit of distancing, e.g. "It seems like you might...", or "I could imagine that you might...".
-
-You avoid the risky bluntness of "You seem frustrated" (or, god forbid, "I think you're frustrated", which has patronizing judgment written all the heck over it). But you *directly name a feeling*.
-
-For example, with Mr. Beleaguered Warehousing, maybe that looks like:
-
-"[...] But the location team hasn't even given you all the possible sites yet. It's like you're behind before you even able to start. That seems like it might be a pretty frustrating situation."
-
-"You seem frustrated" and "That seems like it might be a pretty frustrating situation" are just miles apart in how they land with people.
-
-The distancing preface allows the person to hear the statement of emotions as you *trying to understand them*, not as you judging them. This tactic work best if you can get yourself into a place of genuine curiosity, so that you truly *are* trying to understand. You might even find yourself naturally inflecting your statement as a question: "That seems like it might be a pretty frustrating situation?"
-
-Other distancing prefaces include:
-
-  - "It would make sense if you were to feel pretty frustrated..."
-
-  - "If I were in your shoes, I might might feel pretty frustrated..."
-
-# Going through the steps of this little dance is a way to help someone feel validated and understood, without falling into the trap of making them feel judged.
-
-# When you make such an offer, it's *critical* that you preface it with an opening that creates separation between you and the statement of emotions you're about to make, e.g.:
-#  - "It seems like you might..."
-#  - "It would make sense if you were to..."
-#  - "I could imagine you might..."
-
-If you get this right, your stakeholder will feel a (possibly profound!) sense of /relief/. They may even visibly exhale and relax. You may see them smile or even laugh at the picture you've painted. They will be far more ready to see you as a potential partner in facing their challenges.
-
-Let's see it at work.
-
-# Let's review the two different ways Quin could speak to Marco's potential fear:
-
-# Direct Question: "Are you afraid that we're not solving an important problem?"
-
-# Labeled Offer: "We're in a tricky spot. Potential customers keep telling us that they're *interested*, but because we don't have a thing we can *sell* them yet, we can't find out if they're genuinely willing to buy. It seems like you might be afraid that we're not solving a genuinely *important* problem...?"
-
-# On the page the two may not seem that different, but if you can do the work to lay out the situation first, and then offer that second part in a calm, curious, dispassionate tone, it has a *remarkably* powerful effect. Your stakeholder, instead of feeling *accused*, will feel *relieved*.
-
-# As Voss explains, research shows that, by naming fears out loud in this way, you can actually help people *feel* calmer. It both shows the person that it's okay to openly name the fear, and it also engages the rational, problem-solving parts of their brain.
-
-
-# Voss describes this as learning the steps of a tea ceremony, which I love. It's precise and specific and feels alien at first. But once you master it, you'll find it supremely uesful.
-
-# ** Tactic: Make Your Stakeholder A Beleaguered Hero
 
 ** Alistair Breaks Through
 
