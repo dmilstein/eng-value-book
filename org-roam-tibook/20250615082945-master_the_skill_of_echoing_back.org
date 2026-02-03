@@ -1,7 +1,7 @@
 :PROPERTIES:
 :ID:       4FEA3BD5-8E85-4BB6-8F59-15FDE4F38572
 :END:
-#+title: The Skill of Echoing Back
+#+title: Master The Skill of Echoing Back
 #+filetags: :Chapter:
 * Master The Skill of Echoing Back
 # Build Influence Through Empathy
@@ -30,14 +30,6 @@ You'll be employing Echoing Back in just about every step of the overall game pl
  - As part of [[id:5C7A0B37-8984-4A1F-8371-C1FCEB637174][Making a Compelling Offer]], you'll use it to smoothly integrate any concerns or suggestions your stakeholder raises
 
 We'll bring Echoing Back to life in the remainder of this chapter, and offer some concrete exercises to practice it. Although it sounds simple, it's interestingly hard to retrain yourself to use it well.
-
-*Sidebar: Wait? Do /Engineers/ Really Need All This Empathy Bushwa?*
-
-/"Sure, Dan, I can see how building trust and rapport is important for *product*, but isn't that kind of the whole point of having a product team? So the engineers can just focus on building stuff? Do I really need to practice this Echoing Back thing? Or any other tactical empathy skills?"/
-
-Indeed, tactical empathy is fundamental survival skill for a PM.[fn:: I test for it when interviewing people for product roles] But it is also /insanely valuable/ for engineers. Tactical empathy allows you to get unstuck with stakeholders, and engineers *very* much have stakeholders (often, y'know, the product team). It's also super valuable for many other facets of engineering work, such as: getting buy-in from other engineers to try a new technical approach; advocating for technical investments with business counterparts; negotiating tradeoffs with engineering leaders; handling concerns from other engineers on your team, etc.
-
-Most of the ways I know how to be a really strong, really valuable engineer involve working with other humans. And these skills are just crazy valuable for doing so.
 
 ** Defining Tactical Empathy
 

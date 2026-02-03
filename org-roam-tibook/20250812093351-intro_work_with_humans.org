@@ -277,38 +277,6 @@ First, being stuck is, well, *a terrible way to live*. Spending your working hou
 
 Second, I'll encourage you to make the effort to get unstuck because, believe it or not, it can be fun! Other humans are endlessly fascinating! Getting unstuck means finding ways to work *with* those other humans, instead of desperately trying to work *around* them. Getting unstuck allows you to live in a place of curiosity, and to engage your own sense of playful, creative problem-solving. Which is way, way more fun than explaining to your mirror, once again, why your boss is crazy and wrong.[fn:: Though it is maybe nice that your mirror always agrees with you?]
 
-** The Profound Value Of Empathy
-
-It's possible that, as you read through the steps of the game plan, you've noticed that several steps require your stakeholder to *talk to you*. And to do so about topics that may feel risky or vulnerable: their long-term goals, their fears, their frustrations, their dreams and desires.
-
-Openly sharing such feelings is by no means the default behavior for most humans. It's *certainly* not the default behavior for humans in positions of authority.
-
-Fortunately, there's a set of skills that help people open up to you. Even difficult, powerful, important people.
-
-Following the lead of Chris Voss and Raz Tahl, from their excellent book, Never Split the Difference, we call this set of skills *tactical empathy*.
-
-Tactical empathy is a way of listening to and connecting with other humans, that make those humans feel deeply understood. It offers a means to draw out emotions and validate concerns. It gives you ways to unblock conversations, to search for and find shared goals and values.
-
-And crucially: the skills of tactical empathy can be *learned*.
-
-Being able to help other people trust you is not simply an inherent part of a personality, accessible only to smooth-talking extroverts. I've seen dozens and dozens of people level up their influence and impact by putting conscious effort into mastering the skills of empathy. I've seen people do so who consider themselves extroverts, I've seen people do so who have to painfully force themselves to talk to strangers at parties.
-
-For just about all of those people, I've seen leveling up on empathy make their jobs more rewarding and their days easier.
-
-That said, I'm not going to lie: the skills of tactical empathy take time and effort to learn.
-
-Throughout the book, we'll be exploring various specific tactical empathy skills. We'll bring each to life with stories, and we'll share exercises you can do, to practice each.
-
-If you want to break through to better collaborative relationships with your boss, peers and stakeholders, I suspect you'll find tremendous value from consciously practicing these skills.
-
-Finally, there's one tactical empathy that's so fundamental, that you'll want to use so often, that we're going to spend a full chapter on it, before diving into the steps of the game plan. I call that skill "Echoing Back."
-
-# I urge you to take the time to practice these skills.
-
-# I believe there is nothing more valuable than
-
-# A sort of skeleton key for working with humans.
-
 ** Who Is This Dan Person?
 
 # The Joy Of Solving Problems
@@ -346,6 +314,50 @@ But, of course, working with other humans has sometimes been incredibly frustrat
 This book is an attempt to share some of the most important lessons I've learned about how to work with humans to solve meaningful problems.
 
 # How to get unstuck.
+
+** The Profound Value Of Empathy
+
+At various steps in the game plan, your stakeholder is going to have to *talk to you*. And to do so about topics that may feel risky or vulnerable: their long-term goals, their fears, their frustrations, their dreams and desires.
+
+Openly sharing such feelings is by no means the default behavior for most humans. It's *certainly* not the default behavior for humans in positions of authority.
+
+# XXX Add in here: and they never have time, and you've only get a minute
+
+Fortunately, there's a set of skills that help people open up to you. Even important, powerful, difficult people.
+
+Following the lead of Chris Voss and Raz Tahl, from their excellent book, Never Split the Difference, we call this set of skills *tactical empathy*.
+
+Tactical empathy is a way of listening to and connecting with other humans, that makes those humans feel deeply understood. It offers a means to draw out emotions and validate concerns. It gives you ways to unblock conversations, to search for and find shared goals and values.
+
+And crucially: the skills of tactical empathy can be *learned*.
+
+Being able to help other people trust you is not simply an inherent part of a personality, accessible only to smooth-talking extroverts. I've seen dozens and dozens of people level up their influence and impact by putting conscious effort into mastering the skills of tactical empathy. I've seen people do so who consider themselves extroverts, I've seen people do so who have to painfully force themselves to talk to strangers at parties.
+
+For just about all of those people, I've seen leveling up on empathy make their jobs more rewarding and their days easier.
+
+That said, I'm not going to lie: the skills of tactical empathy take time and effort to learn.
+
+Throughout the book, we'll be exploring various specific tactical empathy skills. We'll bring each to life with stories, and we'll share exercises you can do, to practice each.
+
+If you want to break through to better collaborative relationships with your boss, peers and stakeholders, you will find tremendous value from making the time to practicing these skills.
+
+There's one tactical empathy that's so fundamental, that you'll want to use so often, that we're going to spend a full chapter on it, before diving into the steps of the game plan.
+
+I call that skill "Echoing Back."
+
+** Do /Engineers/ Really Need All This Empathy Bushwa?
+
+/"Sure, Dan, I can see how building trust and rapport is important for *product*, but isn't that kind of the whole point of having a product team? So the engineers can just focus on building stuff? Do I really need to learn these 'tactical empathy' skills?"/
+
+Indeed, tactical empathy is fundamental survival skill for a PM.[fn:: I test for it when interviewing people for product roles] But it is also /insanely valuable/ for engineers. Tactical empathy allows you to get unstuck with stakeholders, and engineers *very* much have stakeholders (often, y'know, the product team). It's also super valuable for many other facets of engineering work, such as: getting buy-in from other engineers to try a new technical approach; advocating for technical investments with business counterparts; negotiating tradeoffs with engineering leaders; understanding why your boss seems to have gone crazy, etc.
+
+Most of the ways I know how to be a really strong, really valuable engineer involve working with other humans. And these skills are just crazy valuable for doing so.
+
+# I urge you to take the time to practice these skills.
+
+# I believe there is nothing more valuable than
+
+# A sort of skeleton key for working with humans.
 
 * Scraps
 ** Defining Stakeholders
