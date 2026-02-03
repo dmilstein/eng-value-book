@@ -166,7 +166,7 @@ Marcus doesn't let himself stop to think too long about this, nor about this new
 
 Marcus is feeling overwhelmed with new information. Deep in the trenches, he's heard about so many different forms of "better", he hadn't realized that stability and and performance were Fiona's driving concerns. In fact, just yesterday, another engineer proposed adding in a "flexible" layer of indirection, in a way that Marcus is quite worried will kneecap performance. He /also/ hadn't realized that the company plan was to move upmarket.
 
-** How To Handle The Surprising Acquisition Of A New Understanding
+** How To Handle The Acquisition Of A New Understanding
 
 Marcus realizes Fiona is staring at him, waiting for him to speak. A part of him wants to say "thank you," shut the conversation down and go off to digest this new information. But then, a vision of Marielle appears before him, holding up a sign that says "Echo Back & Summarize". The night before, she had been fiercely insistent that, once he thinks he has a goal, he had to /immediately/ share back his understanding with Fiona. He marshals his thoughts and goes through the echoing back template Marielle trained him on.
 
@@ -218,13 +218,13 @@ He briefly pauses to review the various things he's just heard from Fiona, then,
 
 # Although accelerating development would be nice, the real key to Legacy Retirement is improving stability and performance. The old system gets sluggish on the regular, and if the sales team closes MonstroCo, their thousand person off-site is going to bring the site to its knees. If we can reduce our downtime, and be ready to handle a few thousand simultaneous sessions, the project would be a success. Do I have that mostly right?"
 
-Fiona thinks for a moment, and then says, "Yes, that's all just about exactly right." She gives a small sigh. "Let me tell you, Marcus, if I never get beat up by the head of Success for system downtime ever again, I will die a happy woman."
+Fiona thinks for a moment. "Yes, that's just about exactly right." She then surprises him by giving a small sigh. "Let me tell you, Marcus, if I never get beat up by the head of Success for system downtime ever again, I will die a happy woman."
 
-And, lo, Marcus has been able to extract and precisely specify Fiona's key long-term goal for the painfully ambiguous Legacy Retirement project![fn:: If I had a nickel for every rewrite, replatform, modernization, cloud native, or microservices project I've met that suffered from incredibly vague and unclear goals, I'd be super goddamn rich. I could dive into a bathtub of nickels like one Scrooge McDuck.] He's also built some early trust and rapport with Fiona. Before this conversation, she had started to think of Marcus as someone who "thinks we do everything wrong at ReMotr." Now she's starting to feel like he understands their biggest problems.
+And, lo, Marcus has been able to extract and precisely specify Fiona's key long-term goal for the painfully ambiguous Legacy Retirement project.[fn:: If I had a nickel for every rewrite, replatform, modernization, cloud native, or microservices project I've met that suffered from incredibly vague and unclear goals, I'd be super goddamn rich. I could dive into a bathtub of nickels like one Scrooge McDuck.] He's also built some early trust and rapport with Fiona. Before this conversation, she though of Marcus as "that new hire who thinks we do everything wrong at ReMotr." Now she's starting to feel like he understands their biggest problems.
 
 Marcus has created an excellent foundation for proposing new ways to work /with/ Fiona, to help her achieve her goals of improving system responsiveness at scale /and/ getting the head of Customer Success off her back.
 
-When he does so, a key part of that new way of working will address the frustrations that led Marcus to get into this conversation in the first place: he will ask Fiona to stop dropping random, architecture-adjusting PR's on his head.
+When he does advocate for change, a key part of that new way of working will address the frustrations that led Marcus to get into this conversation in the first place: he will ask Fiona to stop dropping random, architecture-adjusting PR's on his head.
 
 # He's taken an excellent foundation for asking for change, by identifying her underlying goal (and having built some early trust and rapport).
 
@@ -290,21 +290,15 @@ The tactical empathy skills we've learned so far are:
 
  - *Echo Back & Summarize*
 
-   After someone says something, you reply:
-
-   /"If it's okay, I'm going to say that back, make sure I understood it."/
-
-   You summarize what you think you heard, as clearly as you can.
-
-   You then ask, /"Is that about right?"/
+   Summarize what you've just heard your conversational counterpart say to you, and then ask if you've got it right.
 
  - *Repeat Trailing Words*
 
-   When someone stops talking, but you want to know more, repeat the last three words they said, calmly and curiously. Then, stop talking and wait.
+   When someone stops talking, repeat the last three words they said, calmly and curiously.
 
  - *Invoke A Positive Vision Of The Future*
 
-   Invite your stakeholder to imagine a happy moment in the future when the current work has all been successfully completed. Create a deliberately playful image, like, "We're toasting champagne." Then ask, "What good things have been unlocked? What is now better for our business? Why are we celebrating?"
+   Invite your stakeholder to imagine a happy moment in the future when the current work has all been successfully completed, and then ask "Why are we celebrating?"
 
 
 * Split Off Maria Story
