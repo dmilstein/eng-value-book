@@ -5,11 +5,10 @@
 
 * Work With Humans Toc
 ** [[id:F6A8995D-D0A2-458B-AB62-181284DEF1A1][Intro]]: The Joys & Pains of Working With Humans
-** [[id:4FEA3BD5-8E85-4BB6-8F59-15FDE4F38572][The Skill of Echoing Back]]
-** [[id:A1EF14A2-5F19-488D-926C-A8208142E794][Identify a Strategic Intent]]
-** [[id:5903AFE7-4B1E-422C-8537-2C56BBFBA643][Humans Have Feelings, Ignore At Your Own Risk]]
+** [[id:4FEA3BD5-8E85-4BB6-8F59-15FDE4F38572][Master The Skill of Echoing Back]]
+** [[id:A1EF14A2-5F19-488D-926C-A8208142E794][Identify An Underlying Shared Goal]]
+** [[id:D6564799-DCF0-4D14-BC29-C9A0E3B47B3F][Develop An Empathetic Understanding Of Their Concerns]]
 * Break
-** [[id:D6564799-DCF0-4D14-BC29-C9A0E3B47B3F][The Art of Divining Emotions]]
 ** [[id:47DD5FFD-3D09-4A7B-890E-2C5933D583BB][Mastering The Art of Divining Emotions]]
 ** [[id:5C7A0B37-8984-4A1F-8371-C1FCEB637174][How To Make a Compelling Offer]]
 ** [[id:EC373567-8471-4ECD-864B-DF57C1170053][A Catalog Of Offer Tactics]]
@@ -26,6 +25,7 @@
 ** [[file:generated-chapters/address_fears_directly.org][Address Fears Directly]]
 ** [[file:generated-chapters/put_yourself_on_the_line.org][Put Yourself On the Line]]
 * Break point
+** [[id:5903AFE7-4B1E-422C-8537-2C56BBFBA643][Humans Have Feelings, Ignore At Your Own Risk]]
 ** For no reason
 *** [[id:1C4D0A8D-511A-406E-92DF-914C5279542D][Quin Makes An Offer]]
 *** [[id:4D62F0DE-2862-45F3-97EE-6AFED5382F2C][Earn & Celebrate A Win]]
