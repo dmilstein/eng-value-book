@@ -32,7 +32,7 @@ Our key new conversational tool is "Offering Labeled Feelings".
 
 It is a way to probe for underlying concerns, but to do so in a carefully structured manner that encourages people to open up. It is probably the most tricky of our tactical empathy skills to master, because it requires first an act of creative imagination, and then adherence to a very precise template in speaking with your stakeholder. But with practice it is a true superpower.
 
-# This is another one of our tactics adopted from Never Split The Difference, where Chris Voss tells stories of using it to defuse armed standoffs with people
+# This is another one of our tactics adopted from Never Split The Difference, where Chris Voss tells stories of using it to defuse standoffs with armed and desperate hostage-takers.
 
 Here's how you can use it when speaking with your stakeholder:
 
@@ -44,28 +44,129 @@ Here's how you can use it when speaking with your stakeholder:
 
 There are two reasons why successfully going through this arc lays the groundwork for you to challenge someone to change their day-to-day behaviors.
 
-First, it prepares you to speak to your stakeholder about the world as they truly experience it. If your stakeholder is acting in a frustrating or difficult manner, odds are very, very good that, in their own minds, they are simply doing their best to handle  some Objectively Difficult Situation. If you can speak to that situation, they'll feel like you understand them. Conversely, if you /don't/ take the time to understand that situation, they'll just reject any requests you make out of hand.
+First, it prepares you to speak to your stakeholder about the world as they truly experience it. If your stakeholder is acting in a frustrating or difficult manner, odds are very, very good that, in their own mind, they are simply doing their best to handle  some Objectively Difficult Situation. If you can speak to that situation, they'll feel like you understand them. Conversely, if you /don't/ take the time to understand that situation, they'll just reject any requests you make out of hand.
 
 Second, by digging beneath their frustrating behaviors to the underlying feelings driving those behaviors, you'll be able to propose a different way to act that will still /feel good/ to them. Once you get to an understanding of situation and feelings, you'll discover lots of creative options for proposing changes. Conversely, if you /don't/ understand their feelings, a proposal for change is almost certain to make them feel defensive and attacked.
 
 In other words, you'll be able to tease apart their feelings (which you can authentically validate) from their actions (which you can directly ask them to change).
 
-Your CISO keeps on blowing up your sprints by forcing you to take on an endless series of "urgent" security remediations---very few of which feel truly urgent at all.
+** Challenge 1: Imagining A Situation
 
-Why might they behave in this fashion? Well, perhaps they perceive themselves to be in a situation where:
+# The Donning Of Someone Else's Shoes
 
-  a. There's no way for them to get work onto your team's backlog *other* than through urgent remediations.
+The first interestingly hard part of mastering this skill is developing the ability to imagine yourself into a situation where your stakeholder's seemingly crazy actions and emotions become natural and inevitable. You must specifically create a picture of a situation in which /you/ would have these same feelings. You wouldn't necessarily take the /actions/ your stakeholder is taking. But you'd have similar /feelings/.
 
-  b. They will fail at their own job if they don't fully retire a large set of security risks.
+This act of imagination takes real practice to master, but is very powerful.
 
-  c. The CEO has announced that Security is Job One... but has also told the product team that they have to launch a new product asap, and has provided no means to establish tradeoffs between these two priorities.
+Entering into a place of imagination will require you to temporarily let go of your frustrations, to be able to see the world through your stakeholder's eyes. It will require you to exercise some creativity. You'll have to try telling yourself different stories, to find one that "feels right".
+
+For example, say your head of product is driving you crazy by agressively shutting down questions about context or why.
+
+What might be going on?
+
+Well, to a first approximation, all negative behavior comes from /fear/. So, what might your head of product be afraid of? What situation might they be in, which is triggering an understandable feeling of fear? What situation might cause /you/ to feel fear, if you were in their shoes?
+
+Here's a couple of options to try on for size:
+
+ - The Fear Of Failure
+
+   The project is running late, and the head of product is operating in a state of fear of missing the promised launch date. From that place of fear, they hear the questions about context as potential distractions, and they attempt to quickly shut them down to "keep the team focused".
+
+   Although you might hope to handle such a challenging situation with more grace, you know very well what it's like feel the pressure of a ticking time bomb hanging over your head.
+
+ - The Fear Of Loss Of Control
+
+   The head of product was only recently promoted to lead the entire product effort, and doesn't feel secure in their authority. From that place of insecurity, they hear the questions as extremely fraught challenges. They feel like if they don't push back, they'll lose their authority over the team.
+
+   Again, you can imagine the pressured feeling of an entire group seeming to resist your leadership (if you've never had authority over a group, this is enormously more intense than you might guess).
+
+ - The Fear Of Being Found Out
+
+   Perhaps the head of product /can't answer the questions/. The CEO has been relentlessly making arbitrary demands of them, and has been completely unwilling to face difficult prioritization tradeoffs. There /isn't/ a coherent product strategy. As a result, the head of product urgently wants to shut the conversation down so that they won't have to admit to their lack of understanding and agency.
+
+   Most of us can, I believe, empathize with the feeling of being caught between a difficult boss and a team that is pushing back on requests that we can't honestly defend.
+
+# That's it. When done by someone very skilled, this can all happen very quickly, and can change the feeling in the room to a shocking degree.
+
+# Let's see this in action.
+
+A key is that your imagined version of their situation /doesn't have to be right/. Because, in your second step, you're going to offer it to them, and give them plenty of room to fix it.
+
+** Challenge 2: Offer A Potential Understanding
+
+Once you have a hypothesized situation -> feelings arc, you're ready to talk with your stakeholder.
+
+You'll go through a series of precise steps, in a short amount of wall-clock time. So you'll need to make it smooth and authentic.
+
+First, you describe the overall situation, using specific, vivid details to bring it to life.
+
+# you prefaces it with "It seems like you might...". She's not *telling* him his feelings, she's *offering* a potential understanding of his feelings.
+
+# When you make such an offer, it's *critical* that you preface it with an opening that creates separation between you and the statement of emotions you're about to make, e.g.:
+
+Then, as you go to describe a potential emotional response, you preface it with an opening that creates separation between you and the statement of emotions you're about to make, e.g.:
+
+ - "It would make sense if you were to..."
+
+ - "I could imagine you might..."
+
+ - "If I were in your shoes, I might..."
+
+Those prefaces allow the person to hear the statement of emotions as you *trying to understand them*, not announcing their feelings to them. Of course, those openings really only work if you can get yourself into a place of genuine curiosity, so that you truly *are* trying to understand.
+
+As Chris Voss explains in NSTD, research shows that, by naming fears out loud in this way, you can actually help people *feel* calmer. It both shows the person that it's okay to openly name the fear, and it also engages the rational, problem-solving parts of their brain.
+
+Finally, having laid out a natural response to an imagined situation, you invite them to correct your understanding. "Is that right? Or is something else going on?"
+
+One key challenge in running this game plan is that many of us have learned to *not* talk to other people about their feelings, especially people who seem upset or angry in any way (and especially especially if those people have some form of power).
+
+That part of our brain will urge us to either say nothing or say too much. We'll avoid naming the fears and emotions, or we'll try to "fix" them. It takes a lot of practice to go precisely through the steps in a high stakes moment with someone with authority over us.
+
+In NSTD, Chris Voss describes labeling emotions as akin to performing a tea ceremony. It's precise and persnickety and not particularly natural at first. I like that analogy very much. The act of labeling happens very quickly in real time, so you need to learn to go through the distinct steps very carefully. Let's break them down.
+
+** The Feelings Fiona Is Feeling
+
+In our last chapter, Marcus Brown successfully came to understand the goals his CTO, Fiona, was working towards: improving the stability and performance of ReMotr's virtual offsite product, ReTreat.
+
+However, his day-to-day problems with her have to do with her habit of dropping complex PR's into his project. Each of those code bombs stalls out his team, and seems to drag Marcus into a slow-moving, high-stakes async argument around architectural patterns.
+
+Of course, he could just directly ask her to change. "Fiona, can you please just stop trying to change the ReTreat code?" But he doesn't even have to ask that to know that it has basically no chance of succeeding.
+
+# What, if anything, is the connection between the two? How can he get beneath that frustrating action to some underlying feelings?
+
+** More Coaching From Marielle
+
+Marcus takes his PM friend Marielle out to lunch and lays out the challenge he's facing. She picks a bit of fried calamari out of the basket between them and asks, "Well, why do you think she's doing it, Marcus?"
+
+"Doing what?"
+
+"Dropping PR's with big changes on them into your project."
+
+"I have no idea, Mari. It's so obviously dumb." He shrugs in frustration.
+
+"I have bad news for you, boyo," she says, waving a fried tentacle in his direction. "Asking her to stop being dumb is going to work a whole lot of /never/. If that's all you've got, I can't help you at all."
+
+Marcus folds his arms. "Look, Mari, Fiona is just a difficult person. Everybody at ReMotr knows it. She can't let go of anything. It's, I don't know, who she is."
+
+Mari stops eating and stares at Marcus, her head quirked to one side.
+
+"Okay, Marcus, we're going to play a game," she says, finally. She pushes her plate to one side, and leans forward, her elbows on the table.
 
 
-The reason this is so effective is that /all/ humans perceive their own behavior---especially any potentially /negative/ actions---as forced on them by the situation they're in. If you can make a clear, empathetic statement that makes your listener feel like you truly understand the situation they're in, they will feel like you're not /accusing/ them, when you offer a potential emotion they may be feeling.
 
-, rather than by characteristics of their personality. But when we look at others, we do the reverse, assuming their personality drives their behavior. This is such a pervasive pattern of human cognition, psychologists call it the Fundamental Attribution Error.
 
-Just about all of us perceive any of our own negative behaviors as triggered by the situation we're in, rather than by characteristics of our personality.[fn:: But when we look at others, we do the reverse, assuming their personality drives their behavior. This is such a pervasive pattern of human cognition, psychologists call it the Fundamental Attribution Error.
+
+** Marcus Offers An Understanding Of Fiona's Situation
+
+"I'm glad you try to stay close to the code," he starts off (Stay Close To The Code is a ReMotr company value, he's gotta say this). "But I want to make sure I'm helping you do that in the most useful way possible. When I try to think about what's important for you, in being able to stay close, I can sort of imagine a few different things you might be solving for. Like, maybe that's a way for you to gradually shift the architecture in a direction you think will create better uptime. Or maybe it's not that, it's more that you want to keep your own understanding of the code up to date, to be effective in your job. Or, I dunno, maybe you're testing me?" he offers the last with a laugh. "Is it one of those? Or, like, something else altogether?"
+
+# PICK UP HERE
+
+Fiona quirks her head. "It'
+
+
+* Later Stuff
+** More
 
 Much of the work of offering labeled feelings is finding a way to imagine yourself into a situation where your stakeholder's seemingly crazy actions and emotions become natural and inevitable.
 
@@ -106,8 +207,6 @@ You can then validate the concern, but offer them a new, non-destructive way to 
 # mirroring how they experience, and you're create *justification* for their feelings.
 
 # If you do this right, you should feel like you, yourself, would feel similarly, if you were in their situation.
-
-* Later Stuff
 
 ** Scraps re Defining Labeling
 
@@ -905,6 +1004,27 @@ I wish I could tell you that you're going to be able to consistently work for le
 Thus, my pitch to you is: consider doing the work to develop tactical empathy skills as a means to regain power for youself. As a means to get what *you* want and need.
 
 But I don't want to pretend that it's always easy to handle your own feelings as you do so.
+
+** CISO Blowing Up Sprints Example
+
+Your CISO keeps on blowing up your sprints by forcing you to take on an endless series of "urgent" security remediations---very few of which feel truly urgent at all.
+
+Why might they behave in this fashion? Well, perhaps they perceive themselves to be in a situation where:
+
+  a. There's no way for them to get work onto your team's backlog *other* than through urgent remediations.
+
+  b. They will fail at their own job if they don't fully retire a large set of security risks.
+
+  c. The CEO has announced that Security is Job One... but has also told the product team that they have to launch a new product asap, and has provided no means to establish tradeoffs between these two priorities.
+
+
+** FAE
+
+The reason this is so effective is that /all/ humans perceive their own behavior---especially any potentially /negative/ actions---as forced on them by the situation they're in. If you can make a clear, empathetic statement that makes your listener feel like you truly understand the situation they're in, they will feel like you're not /accusing/ them, when you offer a potential emotion they may be feeling.
+
+, rather than by characteristics of their personality. But when we look at others, we do the reverse, assuming their personality drives their behavior. This is such a pervasive pattern of human cognition, psychologists call it the Fundamental Attribution Error.
+
+Just about all of us perceive any of our own negative behaviors as triggered by the situation we're in, rather than by characteristics of our personality.[fn:: But when we look at others, we do the reverse, assuming their personality drives their behavior. This is such a pervasive pattern of human cognition, psychologists call it the Fundamental Attribution Error.
 
 * Todos
 ** DONE Move the exercises into their own chapter?
