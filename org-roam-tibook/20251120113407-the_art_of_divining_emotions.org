@@ -48,41 +48,41 @@ First, it prepares you to speak to your stakeholder about the world as they trul
 
 Second, by digging beneath their frustrating behaviors to the underlying feelings driving those behaviors, you'll be able to propose a different way to act that will still /feel good/ to them. Once you get to an understanding of situation and feelings, you'll discover lots of creative options for proposing changes. Conversely, if you /don't/ understand their feelings, a proposal for change is almost certain to make them feel defensive and attacked.
 
-In other words, you'll be able to tease apart their feelings (which you can authentically validate) from their actions (which you can directly ask them to change).
+In other words, Offering Labeled Feelings will allow to tease apart their feelings (which you can authentically validate) from their actions (which you can directly ask them to change).
 
-** Challenge 1: Imagining A Situation
+** Challenge 1: Imagining The Situation
 
 # The Donning Of Someone Else's Shoes
 
-The first interestingly hard part of mastering this skill is developing the ability to imagine yourself into a situation where your stakeholder's seemingly crazy actions and emotions become natural and inevitable. You must specifically create a picture of a situation in which /you/ would have these same feelings. You wouldn't necessarily take the /actions/ your stakeholder is taking. But you'd have similar /feelings/.
+The first interestingly hard part of mastering this skill is imagining yourself into a situation where your stakeholder's seemingly crazy actions and emotions become natural and inevitable. You must specifically create a picture of a situation in which /you/ would have these same feelings. You wouldn't necessarily take the /actions/ your stakeholder is taking. But you'd have similar /feelings/.
 
 This act of imagination takes real practice to master, but is very powerful.
 
-Entering into a place of imagination will require you to temporarily let go of your frustrations, to be able to see the world through your stakeholder's eyes. It will require you to exercise some creativity. You'll have to try telling yourself different stories, to find one that "feels right".
+Exercising your imagination will require you to temporarily let go of your frustrations, to be able to see the world through your stakeholder's eyes. It will require you to use some creativity. You'll have to try telling yourself different stories, to find one that "feels right".
 
 For example, say your head of product is driving you crazy by agressively shutting down questions about context or why.
 
 What might be going on?
 
-Well, to a first approximation, all negative behavior comes from /fear/. So, what might your head of product be afraid of? What situation might they be in, which is triggering an understandable feeling of fear? What situation might cause /you/ to feel fear, if you were in their shoes?
+To a first approximation, all negative behavior comes from /fear/. So, what might your head of product be afraid of? What situation might they perceive themselves to be in, which is triggering an understandable feeling of fear? What about their situation might cause /you/ to feel fear, if you were in their shoes?
 
 Here's a couple of options to try on for size:
 
  - The Fear Of Failure
 
-   The project is running late, and the head of product is operating in a state of fear of missing the promised launch date. From that place of fear, they hear the questions about context as potential distractions, and they attempt to quickly shut them down to "keep the team focused".
+   The project is running late, and the head of product is operating in a state of fear of missing the promised launch date. From that place of fear, they hear questions about context as potential distractions. They attempt to quickly shut them down to "keep the team focused".
 
    Although you might hope to handle such a challenging situation with more grace, you know very well what it's like feel the pressure of a ticking time bomb hanging over your head.
 
  - The Fear Of Loss Of Control
 
-   The head of product was only recently promoted to lead the entire product effort, and doesn't feel secure in their authority. From that place of insecurity, they hear the questions as extremely fraught challenges. They feel like if they don't push back, they'll lose their authority over the team.
+   Perhaps the head of product was only recently promoted to lead the entire product effort, and they don't feel secure in their authority. From that place of insecurity, they hear the questions as extremely high-stakes challenges. They feel like if they don't push back, they'll lose their authority over the team.
 
-   Again, you can imagine the pressured feeling of an entire group seeming to resist your leadership (if you've never had authority over a group, this is enormously more intense than you might guess).
+   I encourage you to imagine the pressured feelings when an entire group seems to resist your leadership (if you've never had authority over a group, this is an enormously more intense feeling than you might guess).
 
  - The Fear Of Being Found Out
 
-   Perhaps the head of product /can't answer the questions/. The CEO has been relentlessly making arbitrary demands of them, and has been completely unwilling to face difficult prioritization tradeoffs. There /isn't/ a coherent product strategy. As a result, the head of product urgently wants to shut the conversation down so that they won't have to admit to their lack of understanding and agency.
+   Perhaps the head of product /can't answer the questions/. The CEO has been relentlessly making arbitrary demands, and has been completely unwilling to face difficult prioritization tradeoffs. There /isn't/ a coherent product strategy. As a result, the head of product urgently wants to shut the conversation down so that they won't have to admit to their lack of understanding and agency.
 
    Most of us can, I believe, empathize with the feeling of being caught between a difficult boss and a team that is pushing back on requests that we can't honestly defend.
 
@@ -90,13 +90,15 @@ Here's a couple of options to try on for size:
 
 # Let's see this in action.
 
-A key is that your imagined version of their situation /doesn't have to be right/. Because, in your second step, you're going to offer it to them, and give them plenty of room to fix it.
+So, your first step is to generate several possible ways the current situation could be presenting itself to your stakeholder, and to then select one that feels mostly likely to be true.
 
-** Challenge 2: Offer A Potential Understanding
+A key is that the one you pick /doesn't have to be right/. Because, in your second step, you're going to offer it to them, and give them plenty of room to fix it.
 
-Once you have a hypothesized situation -> feelings arc, you're ready to talk with your stakeholder.
+** Challenge 2: Offering A Potential Understanding
 
-You'll go through a series of precise steps, in a short amount of wall-clock time. So you'll need to make it smooth and authentic.
+Once you have a hypothesized situation -> feelings -> actions arc, you're ready to talk with your stakeholder.
+
+When you do so, you'll go through a series of precise steps.
 
 First, you describe the overall situation, using specific, vivid details to bring it to life.
 
@@ -114,29 +116,35 @@ Then, as you go to describe a potential emotional response, you preface it with 
 
 Those prefaces allow the person to hear the statement of emotions as you *trying to understand them*, not announcing their feelings to them. Of course, those openings really only work if you can get yourself into a place of genuine curiosity, so that you truly *are* trying to understand.
 
-As Chris Voss explains in NSTD, research shows that, by naming fears out loud in this way, you can actually help people *feel* calmer. It both shows the person that it's okay to openly name the fear, and it also engages the rational, problem-solving parts of their brain.
+As Chris Voss explains in Never Split The Difference, researchers have found that, if you name fears out loud in this way, you can actually help people *feel* calmer. Hearing their fears verbally articulated both shows the person that it's okay to openly name the fear, and also engages the rational, problem-solving parts of their brain.
 
-Finally, having laid out a natural response to an imagined situation, you invite them to correct your understanding. "Is that right? Or is something else going on?"
+Finally, once you've clearly laid out a natural emotional response to a difficult situation, you invite them to correct your understanding. "Is that right? Or is something else going on?"
 
-One key challenge in running this game plan is that many of us have learned to *not* talk to other people about their feelings, especially people who seem upset or angry in any way (and especially especially if those people have some form of power).
 
-That part of our brain will urge us to either say nothing or say too much. We'll avoid naming the fears and emotions, or we'll try to "fix" them. It takes a lot of practice to go precisely through the steps in a high stakes moment with someone with authority over us.
+# Why is it hard to go through these steps?
 
-In NSTD, Chris Voss describes labeling emotions as akin to performing a tea ceremony. It's precise and persnickety and not particularly natural at first. I like that analogy very much. The act of labeling happens very quickly in real time, so you need to learn to go through the distinct steps very carefully. Let's break them down.
+# Most fundamentally because
+
+That's the whole game. Done well, it happens quite quickly. But it's somewhat surprisingly hard to do well, in the heat of the moment.
+Many of us have learned to not talk to other people about their feelings, especially people who seem upset or angry in any way (and especially especially if those people have any form of power over us).
+
+That part of our brain will either urge us to say nothing or will force us say too much. We'll avoid naming fears and emotions, and the resulting arid conversation will leave our stakeholder cold and distant. Or, our nervous mind will force us to keep talking to fill space, and we'll find ourselves spilling out an exhaustingly long series of explanations and excuses. It takes practice to go precisely through the steps and then stop, when speaking with someone with authority.
+
+Voss describes labeling emotions as akin to performing a tea ceremony. It's precise and persnickety and not particularly natural at first. I like that analogy very much. The act of labeling happens very quickly in real time, so you need to learn to go through the distinct steps very carefully. We'll talk at the end of the chapter about some exercises to build up this skill.
+
+But first, let's see Marcus Brown, our friend from the last chapter, learn to use it.
 
 ** The Feelings Fiona Is Feeling
 
-In our last chapter, Marcus Brown successfully came to understand the goals his CTO, Fiona, was working towards: improving the stability and performance of ReMotr's virtual offsite product, ReTreat.
+In our last chapter, Marcus successfully came to understand the goals his CTO, Fiona, was working towards: improving the stability and performance of ReMotr's virtual offsite product, ReTreat.
 
-However, his day-to-day problems with her have to do with her habit of dropping complex PR's into his project. Each of those code bombs stalls out his team, and seems to drag Marcus into a slow-moving, high-stakes async argument around architectural patterns.
+However, his day-to-day problems with her have to do with her habit of dropping complex PR's into his project. Each of those code bombs stalls out his team, and drags Marcus into a slow-moving, high-stakes argument-through-PR around architectural patterns.
 
-Of course, he could just directly ask her to change. "Fiona, can you please just stop trying to change the ReTreat code?" But he doesn't even have to ask that to know that it has basically no chance of succeeding.
+# Of course, he could just directly ask her to change. "Fiona, can you please just stop making commits to the ReTreat code?" But he doesn't even have to ask that to know that it has absolutely zero chance of succeeding.
 
 # What, if anything, is the connection between the two? How can he get beneath that frustrating action to some underlying feelings?
 
-** More Coaching From Marielle
-
-Marcus takes his PM friend Marielle out to lunch and lays out the challenge he's facing. She picks a bit of fried calamari out of the basket between them and asks, "Well, why do you think she's doing it, Marcus?"
+In order to figure out a way ahead, Marcus takes his PM friend Marielle out to lunch. He lays out the challenge he's facing. She picks a bit of fried calamari out of the basket between them and asks, "Well, why do you think she's doing it, Marcus?"
 
 "Doing what?"
 
@@ -151,6 +159,33 @@ Marcus folds his arms. "Look, Mari, Fiona is just a difficult person. Everybody 
 Mari stops eating and stares at Marcus, her head quirked to one side.
 
 "Okay, Marcus, we're going to play a game," she says, finally. She pushes her plate to one side, and leans forward, her elbows on the table.
+
+"Step one in the game is that you have to tell me what her /feelings/ are. What feelings she might be having, that are leading her to do this 'obviously dumb' thing." She stares intently at him.
+
+Marcus can feel himself shift back in his chair. "I just told you, it makes no sense--"
+
+"I'm not asking for /sense/, Marcus. Just, what is she /feeling/. It can be messy. Like, is she doing this because she feels like she can't trust you?"
+
+Marcus blinks. "Um..." He takes a drink of his water. "I don't... think so. I mean, maybe that's a part of it? But it feels more like I'm getting run roughshod over, and less like she's specifically doubting me."
+
+Marielle nods encouragingly. "Why would she be running roughshod over you?" When he doesn't say anything, Marielle pivots. "Let's try this: is there anything she might be /afraid/ of? That writing these random bits of code is helping her with?"
+
+Marcus looks up into the rafters of the restaurant as he thinks. "I guess I can think of two things." He bring his eyes back down, and speaks slowly.
+
+"First, I could maybe guess that it's because she, like, just genuinely doesn't understand how we're changing the system."
+
+Marielle nods, "That sounds good. What is she /afraid/ of, in that case?"
+
+"Well, I guess that she won't know how the system even works. Which /would/ actually make it hard to do some parts of her job."
+
+"Alright, that's a good option a. What else do you got?"
+
+"She was an engineer, right? Maybe she's just afraid of losing touch. Things change, if you don't code, you can lose a lot." He shrugs. "I don't think that's super likely, but it's at least possible."
+
+Great, says Marielle, you've got three good options.
+
+
+
 
 
 
