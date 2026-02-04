@@ -8,11 +8,13 @@
 
 # Make a promise of what they'll get in this chapter
 
-Identifying an important goal that your stakeholder is trying to achieve is an excellent foundation on which to build a request for them to change their behavior.
+Identifying your stakeholder's most important goal is an excellent foundation on which to build a request for them to change their behavior.
 
 But, by itself, it's rarely enough.
 
 In this chapter, we're going to supply our final key tactical empathy tool: a conversational pattern that will allow you to draw out and validate your Important Person's underlying /concerns/.
+
+# This will cover both straightforward concerns ("what if this project doesn't finish on time?", and also subtler, feelings that are driving some of their behavior ("what if I lose touch with how our code works?")
 
 In fact, you'll not only come to understand those concerns, you'll be able to speak to them with true empathy.
 
@@ -22,23 +24,48 @@ Being able to make an empathetic statement of their concerns will allow you to g
 
 With this nuanced understanding in hand, you'll be able to make a surprisingly direct request for them to change their behavior.
 
-Of course, all of that is only possible if you somehow come to understand /why/ they're acting in the crazy, mystifying, frustrating way that they currently are.
+Of course, all of that is only possible if you somehow come to understand /why/ they're acting in the crazy, mystifying, frustrating way that they currently are. Which is to say, you'll need to understand their feelings.
 
 ** The Basics Of Offering Labeled Feelings
 
-We name the key conversational pattern "Offering Labeled Feelings".
+Our key new conversational tool is "Offering Labeled Feelings".
 
-It is a way to probe for underlying concerns, but to do so in a carefully structured manner that encourages people to open up. It is the most tricky of our tactical empathy skills to master, because it requires both a bit of creative imagination, and then adherence to a very precise template when you speak with your stakeholder. But with practice it is a true superpower.
+It is a way to probe for underlying concerns, but to do so in a carefully structured manner that encourages people to open up. It is probably the most tricky of our tactical empathy skills to master, because it requires first an act of creative imagination, and then adherence to a very precise template in speaking with your stakeholder. But with practice it is a true superpower.
 
 # This is another one of our tactics adopted from Never Split The Difference, where Chris Voss tells stories of using it to defuse armed standoffs with people
 
-Here's how it works.
+Here's how you can use it when speaking with your stakeholder:
 
- Step 1: Empathetically describe the *situation* your stakeholder perceives themselves to be in.
+ - Step 1: Share an empathetic description of the situation they perceive themselves to be in.
 
- Step 2: Offer a potential emotion they may be feeling, as a *natural response* to that situation.
+ - Step 2: Offer a potential emotion they may be feeling, as a natural response to that situation.
 
- Step 3: Invite them to correct your understanding.
+ - Step 3: Invite them to correct your understanding.
+
+There are two reasons why successfully going through this arc lays the groundwork for you to challenge someone to change their day-to-day behaviors.
+
+First, it prepares you to speak to your stakeholder about the world as they truly experience it. If your stakeholder is acting in a frustrating or difficult manner, odds are very, very good that, in their own minds, they are simply doing their best to handle  some Objectively Difficult Situation. If you can speak to that situation, they'll feel like you understand them. Conversely, if you /don't/ take the time to understand that situation, they'll just reject any requests you make out of hand.
+
+Second, by digging beneath their frustrating behaviors to the underlying feelings driving those behaviors, you'll be able to propose a different way to act that will still /feel good/ to them. Once you get to an understanding of situation and feelings, you'll discover lots of creative options for proposing changes. Conversely, if you /don't/ understand their feelings, a proposal for change is almost certain to make them feel defensive and attacked.
+
+In other words, you'll be able to tease apart their feelings (which you can authentically validate) from their actions (which you can directly ask them to change).
+
+Your CISO keeps on blowing up your sprints by forcing you to take on an endless series of "urgent" security remediations---very few of which feel truly urgent at all.
+
+Why might they behave in this fashion? Well, perhaps they perceive themselves to be in a situation where:
+
+  a. There's no way for them to get work onto your team's backlog *other* than through urgent remediations.
+
+  b. They will fail at their own job if they don't fully retire a large set of security risks.
+
+  c. The CEO has announced that Security is Job One... but has also told the product team that they have to launch a new product asap, and has provided no means to establish tradeoffs between these two priorities.
+
+
+The reason this is so effective is that /all/ humans perceive their own behavior---especially any potentially /negative/ actions---as forced on them by the situation they're in. If you can make a clear, empathetic statement that makes your listener feel like you truly understand the situation they're in, they will feel like you're not /accusing/ them, when you offer a potential emotion they may be feeling.
+
+, rather than by characteristics of their personality. But when we look at others, we do the reverse, assuming their personality drives their behavior. This is such a pervasive pattern of human cognition, psychologists call it the Fundamental Attribution Error.
+
+Just about all of us perceive any of our own negative behaviors as triggered by the situation we're in, rather than by characteristics of our personality.[fn:: But when we look at others, we do the reverse, assuming their personality drives their behavior. This is such a pervasive pattern of human cognition, psychologists call it the Fundamental Attribution Error.
 
 Much of the work of offering labeled feelings is finding a way to imagine yourself into a situation where your stakeholder's seemingly crazy actions and emotions become natural and inevitable.
 
@@ -880,11 +907,13 @@ Thus, my pitch to you is: consider doing the work to develop tactical empathy sk
 But I don't want to pretend that it's always easy to handle your own feelings as you do so.
 
 * Todos
+** DONE Move the exercises into their own chapter?
+CLOSED: [2026-02-04 Wed 08:08]
+What would I call it?
+ - Exercises For Divining Emotions
+ - Mastering The Art Of Diving Emotions
 ** DONE Try putting bad ideas ahead of good for repeat trailing words
 CLOSED: [2025-11-25 Tue 10:35]
 ** DONE Move definintion of Repeat Trailing ahead of example
 CLOSED: [2025-12-03 Wed 13:33]
-** TODO Move the exercises into their own chapter?
-What would I call it?
- - Exercises For Divining Emotions
- - Mastering The Art Of Diving Emotions
+** TODO
