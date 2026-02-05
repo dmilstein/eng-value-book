@@ -50,7 +50,7 @@ Second, by digging beneath their frustrating behaviors to the underlying feeling
 
 In other words, Offering Labeled Feelings will allow to tease apart their feelings (which you can authentically validate) from their actions (which you can directly ask them to change).
 
-** Challenge 1: Imagining The Situation
+** Imagining The Situation
 
 # The Donning Of Someone Else's Shoes
 
@@ -64,7 +64,7 @@ For example, say your head of product is driving you crazy by agressively shutti
 
 What might be going on?
 
-To a first approximation, all negative behavior comes from /fear/. So, what might your head of product be afraid of? What situation might they perceive themselves to be in, which is triggering an understandable feeling of fear? What about their situation might cause /you/ to feel fear, if you were in their shoes?
+To a first approximation, all negative behavior comes from fear. So, what might your head of product be afraid of? What situation might they perceive themselves to be in, that is triggering an understandable feeling of fear? What about their situation might cause /you/ to feel fear, if you were in their shoes?
 
 Here's a couple of options to try on for size:
 
@@ -76,61 +76,93 @@ Here's a couple of options to try on for size:
 
  - The Fear Of Loss Of Control
 
-   Perhaps the head of product was only recently promoted to lead the entire product effort, and they don't feel secure in their authority. From that place of insecurity, they hear the questions as extremely high-stakes challenges. They feel like if they don't push back, they'll lose their authority over the team.
+   Perhaps the head of product was only recently promoted, and they don't feel secure in their authority. From that place of insecurity, they hear the questions as extremely high-stakes challenges. They feel like if they don't push back, they'll lose their authority over the team.
 
    I encourage you to imagine the pressured feelings when an entire group seems to resist your leadership (if you've never had authority over a group, this is an enormously more intense feeling than you might guess).
 
  - The Fear Of Being Found Out
 
-   Perhaps the head of product /can't answer the questions/. The CEO has been relentlessly making arbitrary demands, and has been completely unwilling to face difficult prioritization tradeoffs. There /isn't/ a coherent product strategy. As a result, the head of product urgently wants to shut the conversation down so that they won't have to admit to their lack of understanding and agency.
+   Perhaps the head of product /can't answer the questions/. Perhaps the CEO has been relentlessly making conflicting demands, and has been unwilling to face difficult prioritization tradeoffs. There /isn't/ a coherent product strategy. As a result, the head of product urgently wants to shut the conversation down so that they won't have to admit to their lack of understanding and agency.
 
-   Most of us can, I believe, empathize with the feeling of being caught between a difficult boss and a team that is pushing back on requests that we can't honestly defend.
+   Most of us can, I suspect, empathize with the feeling of being caught between a difficult boss and a team that is pushing back on requests that we can't authentically defend.
 
 # That's it. When done by someone very skilled, this can all happen very quickly, and can change the feeling in the room to a shocking degree.
 
 # Let's see this in action.
 
-So, your first step is to generate several possible ways the current situation could be presenting itself to your stakeholder, and to then select one that feels mostly likely to be true.
+As you prepare to talk with your stakeholder, take the time to imagine several ways their current situation could be presenting itself to them, along with the feelings that could be triggered by each. Then, select one scenario that seems the most likely to be leading to the frustrating actions you're struggling with.
 
-A key is that the one you pick /doesn't have to be right/. Because, in your second step, you're going to offer it to them, and give them plenty of room to fix it.
+Note that the one you pick doesn't have to be right! Because, in your second step, you're going to offer it to them, and give them plenty of room to fix it.
 
-** Challenge 2: Offering A Potential Understanding
+** The Steps Of An Offer
 
 Once you have a hypothesized situation -> feelings -> actions arc, you're ready to talk with your stakeholder.
 
-When you do so, you'll go through a series of precise steps.
+When you do so, you'll go through the steps we outlined above, but in a very specific way.
 
-First, you describe the overall situation, using specific, vivid details to bring it to life.
+ - *Step 1: Share an empathetic description of the situation they perceive themselves to be in.*
+
+   This is where you draw on your work of imaginination. You take the time to offer a description of the challenges you think they might be facing. As you do, you use specific, vivid details to bring that description to life. This gets past a layer of armor, by demonstrating to your stakeholder that you can truly see the world the way they do.
+
+   # The specificity demonstrates to your stakeholder that you truly understand and care about the challenges they're facing.
+
+ - *Step 2: Offer a potential emotion they may be feeling, as a natural response to that situation.*
+
+   The key here is that, before you name the emotion, you preface it with an opening that creates separation between you and the statement of emotions you're about to make, e.g.:
+
+   - "It would make sense if you were to feel..."
+
+   - "I could imagine you might feel..."
+
+   - "If I were in your shoes, I might feel..."
+
+   Those prefaces allow the person to hear the statement of emotions as you *trying to understand them*, not announcing their feelings to them. Of course, those prefaces really only work if you can get yourself into a place of genuine curiosity, so that you truly *are* trying to understand.
+
+   Sidebar: As Chris Voss explains in Never Split The Difference, researchers have found that naming fears out loud actually helps people *feel* calmer. Hearing their fears verbally articulated both shows the person that it's okay to openly name the fear, and also, by moving from unspoken emotions to spoken language, engages the rational, problem-solving parts of their brain.
+
+
+ - *Step 3: Invite them to correct your understanding.*
+
+   Finally, once you've clearly and empathetically described a potential emotional response to a challenging situation, you'll invite them to correct your understanding: "Is that right? Or is something else going on?"
 
 # you prefaces it with "It seems like you might...". She's not *telling* him his feelings, she's *offering* a potential understanding of his feelings.
 
+
 # When you make such an offer, it's *critical* that you preface it with an opening that creates separation between you and the statement of emotions you're about to make, e.g.:
-
-Then, as you go to describe a potential emotional response, you preface it with an opening that creates separation between you and the statement of emotions you're about to make, e.g.:
-
- - "It would make sense if you were to..."
-
- - "I could imagine you might..."
-
- - "If I were in your shoes, I might..."
-
-Those prefaces allow the person to hear the statement of emotions as you *trying to understand them*, not announcing their feelings to them. Of course, those openings really only work if you can get yourself into a place of genuine curiosity, so that you truly *are* trying to understand.
-
-As Chris Voss explains in Never Split The Difference, researchers have found that, if you name fears out loud in this way, you can actually help people *feel* calmer. Hearing their fears verbally articulated both shows the person that it's okay to openly name the fear, and also engages the rational, problem-solving parts of their brain.
-
-Finally, once you've clearly laid out a natural emotional response to a difficult situation, you invite them to correct your understanding. "Is that right? Or is something else going on?"
 
 
 # Why is it hard to go through these steps?
 
 # Most fundamentally because
+# But it's somewhat surprisingly hard to do well, in the heat of the moment.
 
-That's the whole game. Done well, it happens quite quickly. But it's somewhat surprisingly hard to do well, in the heat of the moment.
-Many of us have learned to not talk to other people about their feelings, especially people who seem upset or angry in any way (and especially especially if those people have any form of power over us).
+** Talking About Feelings Can Feel Risky
 
-That part of our brain will either urge us to say nothing or will force us say too much. We'll avoid naming fears and emotions, and the resulting arid conversation will leave our stakeholder cold and distant. Or, our nervous mind will force us to keep talking to fill space, and we'll find ourselves spilling out an exhaustingly long series of explanations and excuses. It takes practice to go precisely through the steps and then stop, when speaking with someone with authority.
+# Managing The Fears Of Directly Speaking To Fears
 
-Voss describes labeling emotions as akin to performing a tea ceremony. It's precise and persnickety and not particularly natural at first. I like that analogy very much. The act of labeling happens very quickly in real time, so you need to learn to go through the distinct steps very carefully. We'll talk at the end of the chapter about some exercises to build up this skill.
+# Managing The Fear Of Talking About Feelings
+
+# The Fear Of Talking About Feelings
+
+# That's the whole game. Done well, it can happen surprisingly quickly.
+
+# An engineering leader I worked with once said "And then you do that thing, where you say a few things, and suddenly everyone agrees with you."
+
+Voss describes labeling emotions as akin to performing a tea ceremony. It's precise and persnickety and not particularly natural at first. I like that analogy very much. The act of labeling happens very quickly in real time, so you need to learn to go through the distinct steps very carefully.
+
+One fundamental challenge is that, for many of us, it can seem, well, pretty scary to directly name someone else's emotions. Many of us have learned to not talk to other people about their feelings. Especially other people who seem upset or angry. Especially, /especially/ other people who seem upset or angry and who have power over us.
+
+This protective part of our brain will urge us to say nothing at all.  As we talk, we'll desperately avoid referencing emotions in any form. The resulting arid conversation can leave our stakeholder feeling cold and distant. Or, if we /do/ manage to start talking about feelings, our anxious mind somehow just won't let us stop. The slightest of pauses causes a surge of panic. Powerlessly, we watch ourselves spilling out an exhaustingly long series of explanations, making less and less sense as we go. Our stakeholder listens from a distracted, isolated distance, making our mind spin up even more.
+
+Ugh, that is a whole lot of no fun.
+
+# can compel us to say far too much.
+
+The good news is that, with practice, you can gradually encourage this protective part of your mind to relax and take a step back.
+
+The key is that, as you gain experience with this approach, you'll find that offering labeled emotions almost always makes listeners feel *good*. Once you experience this tactic as defusing tension and unhappiness, it won't feel so risky. But you have to build up that experience. In the exercises, we'll talk through how to practice this tactic in low-stakes situations.
+
+# We'll talk at the end of the chapter about some exercises to build up this skill.
 
 But first, let's see Marcus Brown, our friend from the last chapter, learn to use it.
 
@@ -1071,4 +1103,5 @@ What would I call it?
 CLOSED: [2025-11-25 Tue 10:35]
 ** DONE Move definintion of Repeat Trailing ahead of example
 CLOSED: [2025-12-03 Wed 13:33]
-** TODO
+** TODO Rewrite Marcus sections where he's already been taught
+I don't need the scene I've started writing
